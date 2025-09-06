@@ -17,19 +17,19 @@ const tiles = [
     name: 'Sample Tile 1',
     description: 'Description for tile 1',
     number: 123,
-    image: `${process.env.PUBLIC_URL}/jaya.jpg`,
+    image: 'https://pub-1560e47becfe44d3abc923d667d603c2.r2.dev/jaya.jpg',
   },
   {
     name: 'Sample Tile 2',
     description: 'Description for tile 2',
     number: 456,
-    image: `${process.env.PUBLIC_URL}/jaya.jpg`,
+    image: 'https://pub-1560e47becfe44d3abc923d667d603c2.r2.dev/jaya.jpg',
   },
   {
     name: 'Sample Tile 3',
     description: 'Description for tile 3',
     number: 789,
-    image: `${process.env.PUBLIC_URL}/jaya.jpg`,
+    image: 'https://pub-1560e47becfe44d3abc923d667d603c2.r2.dev/jaya.jpg',
   },
 ];
 
