@@ -7,12 +7,12 @@ import './App.css';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/OPJaya"> {/* Add basename for GitHub Pages */}
       <div className="App">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/dashboard" element={<LocalBodyDashboard />} />
-          <Route path="/localbody/:localBodyParams" element={<LocalBodyDashboard />} /> {/* Add this route */}
+          <Route path="/localbody/:localBodyParams" element={<LocalBodyDashboard />} />
           <Route path="/map" element={<MapPage />} />
         </Routes>
       </div>
