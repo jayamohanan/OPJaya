@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="wikidata_Q13111032.schema">
+      <SimpleField name="fid" type="int"/>
+      <SimpleField name="Name-ml" type="string"/>
+      <SimpleField name="id" type="string"/>
+      <SimpleField name="@id" type="string"/>
+      <SimpleField name="admin_level" type="string"/>
+      <SimpleField name="boundary" type="string"/>
+      <SimpleField name="local_authority:IN" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="wikidata" type="string"/>
+      <SimpleField name="population" type="string"/>
+      <SimpleField name="ns" type="string"/>
+      <SimpleField name="@relations" type="string"/>
+      <SimpleField name="LSG Code" type="string"/>
+      <SimpleField name="Assembly" type="string"/>
+      <SimpleField name="District" type="string"/>
+    </Schema>
+    <Document id="wikidata_Q13111032">
+      <name>wikidata_Q13111032</name>
+      <Placemark id="wikidata_Q13111032.1">
+        <name>karuvatta</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#wikidata_Q13111032.schema">
+            <SimpleData name="fid">717</SimpleData>
+            <SimpleData name="Name-ml">കരുവാറ്റ ഗ്രാമപഞ്ചായത്ത്</SimpleData>
+            <SimpleData name="id">relation/11384640</SimpleData>
+            <SimpleData name="@id">relation/11384640</SimpleData>
+            <SimpleData name="admin_level">8</SimpleData>
+            <SimpleData name="boundary">local_authority</SimpleData>
+            <SimpleData name="local_authority:IN">gram_panchayat</SimpleData>
+            <SimpleData name="type">boundary</SimpleData>
+            <SimpleData name="wikidata">Q13111032</SimpleData>
+            <SimpleData name="LSG Code">G040904</SimpleData>
+            <SimpleData name="Assembly">ഹരിപ്പാട്</SimpleData>
+            <SimpleData name="District">Alappuzha</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                76.4126372,9.3392113,0
+                76.4040112,9.3365435,0
+                76.4027237,9.3343203,0
+                76.4020371,9.3237121,0
+                76.4014577,9.3142895,0
+                76.4001518,9.3094861,0
+                76.4011574,9.3075135,0
+                76.4020371,9.3065606,0
+                76.4028311,9.3056712,0
+                76.4036464,9.3040831,0
+                76.4038181,9.3028337,0
+                76.4038825,9.3012244,0
+                76.4040112,9.299848,0
+                76.4039683,9.298408,0
+                76.4039469,9.2966716,0
+                76.4042043,9.2954646,0
+                76.4047408,9.2942787,0
+                76.4050627,9.2927541,0
+                76.4067578,9.2927752,0
+                76.4079165,9.2928811,0
+                76.4088177,9.2930293,0
+                76.4092254,9.2943211,0
+                76.4108133,9.2946175,0
+                76.4120364,9.2944058,0
+                76.4133882,9.2940034,0
+                76.4141607,9.2933893,0
+                76.4151478,9.292627,0
+                76.4158559,9.2920976,0
+                76.4179158,9.292987,0
+                76.4189458,9.293347,0
+                76.4206409,9.2936011,0
+                76.4222502,9.2941728,0
+                76.4242673,9.2946387,0
+                76.4261341,9.2949352,0
+                76.4274215,9.2953163,0
+                76.4292025,9.2959093,0
+                76.4312839,9.2970739,0
+                76.4330864,9.2985351,0
+                76.4361066,9.2985139,0
+                76.4371848,9.298588,0
+                76.4371633,9.2994244,0
+                76.4376998,9.3008644,0
+                76.4379895,9.3015102,0
+                76.4381182,9.3037337,0
+                76.438086,9.3068676,0
+                76.4378285,9.3083605,0
+                76.4373135,9.3101074,0
+                76.4371741,9.3114414,0
+                76.4367342,9.3131778,0
+                76.4365518,9.3148506,0
+                76.4363676,9.3158909,0
+                76.4363587,9.3159411,0
+                76.4352321,9.3168728,0
+                76.4349103,9.3176986,0
+                76.4349532,9.3189267,0
+                76.4350176,9.3202607,0
+                76.4352107,9.3216582,0
+                76.4352536,9.322971,0
+                76.435039,9.3242838,0
+                76.4345884,9.325766,0
+                76.4335155,9.330276,0
+                76.4328718,9.3328169,0
+                76.4314341,9.3360988,0
+                76.4304685,9.3397829,0
+                76.4296728,9.3441177,0
+                76.4261985,9.3422179,0
+                76.421746,9.3385761,0
+                76.416124,9.3382373,0
+                76.4128946,9.3391689,0
+                76.4126372,9.3392113,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="wikidata_Q13114174.schema">
+      <SimpleField name="fid" type="int"/>
+      <SimpleField name="Name-ml" type="string"/>
+      <SimpleField name="id" type="string"/>
+      <SimpleField name="@id" type="string"/>
+      <SimpleField name="admin_level" type="string"/>
+      <SimpleField name="boundary" type="string"/>
+      <SimpleField name="local_authority:IN" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="wikidata" type="string"/>
+      <SimpleField name="population" type="string"/>
+      <SimpleField name="ns" type="string"/>
+      <SimpleField name="@relations" type="string"/>
+      <SimpleField name="LSG Code" type="string"/>
+      <SimpleField name="Assembly" type="string"/>
+      <SimpleField name="District" type="string"/>
+    </Schema>
+    <Document id="wikidata_Q13114174">
+      <name>wikidata_Q13114174</name>
+      <Placemark id="wikidata_Q13114174.1">
+        <name>mulavukad</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#wikidata_Q13114174.schema">
+            <SimpleData name="fid">586</SimpleData>
+            <SimpleData name="Name-ml">മുളവുകാട് ഗ്രാമപഞ്ചായത്ത്</SimpleData>
+            <SimpleData name="id">relation/11369358</SimpleData>
+            <SimpleData name="@id">relation/11369358</SimpleData>
+            <SimpleData name="admin_level">8</SimpleData>
+            <SimpleData name="boundary">local_authority</SimpleData>
+            <SimpleData name="local_authority:IN">gram_panchayat</SimpleData>
+            <SimpleData name="type">boundary</SimpleData>
+            <SimpleData name="wikidata">Q13114174</SimpleData>
+            <SimpleData name="LSG Code">G070603</SimpleData>
+            <SimpleData name="Assembly">വൈപ്പിൻ</SimpleData>
+            <SimpleData name="District">Ernakulam</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                76.2644934,10.0328372,0
+                76.2625193,10.0336824,0
+                76.2609958,10.0357742,0
+                76.2599659,10.03738,0
+                76.2592149,10.0390915,0
+                76.2582707,10.0409297,0
+                76.2567687,10.0411199,0
+                76.255331,10.0400634,0
+                76.2544727,10.0390281,0
+                76.2530136,10.0378871,0
+                76.2512326,10.0370842,0
+                76.2485289,10.0365137,0
+                76.2450528,10.0364503,0
+                76.2438148,10.036649,0
+                76.2426468,10.0289105,0
+                76.2385581,10.0130017,0
+                76.2422815,9.9977183,0
+                76.244688,9.9830099,0
+                76.2469276,9.9838024,0
+                76.2573695,9.9880183,0
+                76.2577343,9.9872576,0
+                76.2579059,9.9841934,0
+                76.2599229,9.9810234,0
+                76.2631416,9.9825027,0
+                76.2671756,9.9844047,0
+                76.2682914,9.9862644,0
+                76.2650728,9.997718,0
+                76.2629699,10.0090867,0
+                76.2670898,10.0124254,0
+                76.2681627,10.0142638,0
+                76.2680554,10.0162078,0
+                76.2665534,10.019483,0
+                76.2655449,10.0234555,0
+                76.2654161,10.0261391,0
+                76.2647939,10.02971,0
+                76.2644934,10.0328372,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

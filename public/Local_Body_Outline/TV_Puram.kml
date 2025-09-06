@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="wikidata_Q16135721.schema">
+      <SimpleField name="fid" type="int"/>
+      <SimpleField name="Name-ml" type="string"/>
+      <SimpleField name="id" type="string"/>
+      <SimpleField name="@id" type="string"/>
+      <SimpleField name="admin_level" type="string"/>
+      <SimpleField name="boundary" type="string"/>
+      <SimpleField name="local_authority:IN" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="wikidata" type="string"/>
+      <SimpleField name="population" type="string"/>
+      <SimpleField name="ns" type="string"/>
+      <SimpleField name="@relations" type="string"/>
+      <SimpleField name="LSG Code" type="string"/>
+      <SimpleField name="Assembly" type="string"/>
+      <SimpleField name="District" type="string"/>
+    </Schema>
+    <Document id="wikidata_Q16135721">
+      <name>wikidata_Q16135721</name>
+      <Placemark id="wikidata_Q16135721.1">
+        <name>TV Puram</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#wikidata_Q16135721.schema">
+            <SimpleData name="fid">763</SimpleData>
+            <SimpleData name="Name-ml">ടി.വി. പുരം ഗ്രാമപഞ്ചായത്ത്</SimpleData>
+            <SimpleData name="id">relation/11480077</SimpleData>
+            <SimpleData name="@id">relation/11480077</SimpleData>
+            <SimpleData name="admin_level">8</SimpleData>
+            <SimpleData name="boundary">local_authority</SimpleData>
+            <SimpleData name="local_authority:IN">gram_panchayat</SimpleData>
+            <SimpleData name="type">boundary</SimpleData>
+            <SimpleData name="wikidata">Q16135721</SimpleData>
+            <SimpleData name="LSG Code">G050104</SimpleData>
+            <SimpleData name="Assembly">വൈക്കം</SimpleData>
+            <SimpleData name="District">Kottayam</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                76.380458,9.7342393,0
+                76.3804292,9.7277323,0
+                76.378026,9.7170095,0
+                76.3761806,9.705673,0
+                76.3762235,9.6991377,0
+                76.3762385,9.6968567,0
+                76.398531,9.6875858,0
+                76.3989518,9.6888825,0
+                76.4000668,9.6930539,0
+                76.4006287,9.6952261,0
+                76.4011116,9.6974503,0
+                76.4021212,9.6982205,0
+                76.4024768,9.7002585,0
+                76.4029334,9.7031706,0
+                76.4032582,9.7067188,0
+                76.4042854,9.7090294,0
+                76.4058658,9.7115823,0
+                76.4072047,9.713551,0
+                76.4085875,9.7152472,0
+                76.4099308,9.7166015,0
+                76.4114409,9.7186914,0
+                76.4123408,9.7203269,0
+                76.412771,9.7218672,0
+                76.4127271,9.7233297,0
+                76.4126042,9.7243595,0
+                76.4120862,9.7255883,0
+                76.4110019,9.7270464,0
+                76.4104202,9.7276997,0
+                76.4097266,9.7281129,0
+                76.4081682,9.7288939,0
+                76.4067854,9.7298241,0
+                76.4059667,9.7302892,0
+                76.4046498,9.731213,0
+                76.4040177,9.7319355,0
+                76.4034031,9.7328506,0
+                76.4029575,9.733558,0
+                76.4026239,9.7343888,0
+                76.4024268,9.7350918,0
+                76.4005782,9.735312,0
+                76.3993149,9.7353575,0
+                76.3974046,9.7355246,0
+                76.3959642,9.735851,0
+                76.3951631,9.7356157,0
+                76.3945084,9.7354335,0
+                76.3936996,9.7354638,0
+                76.3921051,9.7353196,0
+                76.3906647,9.7349931,0
+                76.3899638,9.734735,0
+                76.388739,9.7347806,0
+                76.3833702,9.7344997,0
+                76.380458,9.7342393,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>

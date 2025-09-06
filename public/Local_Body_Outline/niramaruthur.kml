@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="wikidata_Q13112911.schema">
+      <SimpleField name="fid" type="int"/>
+      <SimpleField name="Name-ml" type="string"/>
+      <SimpleField name="id" type="string"/>
+      <SimpleField name="@id" type="string"/>
+      <SimpleField name="admin_level" type="string"/>
+      <SimpleField name="boundary" type="string"/>
+      <SimpleField name="local_authority:IN" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="wikidata" type="string"/>
+      <SimpleField name="population" type="string"/>
+      <SimpleField name="ns" type="string"/>
+      <SimpleField name="@relations" type="string"/>
+      <SimpleField name="LSG Code" type="string"/>
+      <SimpleField name="Assembly" type="string"/>
+      <SimpleField name="District" type="string"/>
+    </Schema>
+    <Document id="wikidata_Q13112911">
+      <name>wikidata_Q13112911</name>
+      <Placemark id="wikidata_Q13112911.1">
+        <name>niramaruthur</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#wikidata_Q13112911.schema">
+            <SimpleData name="fid">291</SimpleData>
+            <SimpleData name="Name-ml">നിറമരുതൂർ ഗ്രാമപഞ്ചായത്ത്</SimpleData>
+            <SimpleData name="id">relation/11330668</SimpleData>
+            <SimpleData name="@id">relation/11330668</SimpleData>
+            <SimpleData name="admin_level">8</SimpleData>
+            <SimpleData name="boundary">local_authority</SimpleData>
+            <SimpleData name="local_authority:IN">gram_panchayat</SimpleData>
+            <SimpleData name="type">boundary</SimpleData>
+            <SimpleData name="wikidata">Q13112911</SimpleData>
+            <SimpleData name="LSG Code">G101207</SimpleData>
+            <SimpleData name="Assembly">താനൂര്‍</SimpleData>
+            <SimpleData name="District">Malappuram</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                75.8763832,10.9438621,0
+                75.8765119,10.9432775,0
+                75.876587,10.9429931,0
+                75.8766246,10.9426718,0
+                75.8772039,10.9405861,0
+                75.8777726,10.9381896,0
+                75.8782446,10.9360144,0
+                75.8785504,10.9346713,0
+                75.87906,10.9323907,0
+                75.879221,10.9316849,0
+                75.8794731,10.9305472,0
+                75.8800739,10.9280348,0
+                75.8808678,10.9243214,0
+                75.8814901,10.921514,0
+                75.8830139,10.9144204,0
+                75.8856582,10.9150247,0
+                75.8875036,10.9151511,0
+                75.8899927,10.9145612,0
+                75.8905077,10.9138027,0
+                75.8909368,10.9121592,0
+                75.8910226,10.9110636,0
+                75.891838,10.9096309,0
+                75.8931684,10.9087038,0
+                75.8951854,10.9086195,0
+                75.8970308,10.9087881,0
+                75.8981037,10.9095044,0
+                75.8995199,10.9113586,0
+                75.9012794,10.9140555,0
+                75.9023094,10.916036,0
+                75.9044551,10.9165417,0
+                75.9058284,10.9206291,0
+                75.9057426,10.924885,0
+                75.9077167,10.9276661,0
+                75.907545,10.9315427,0
+                75.9056139,10.9364726,0
+                75.9048414,10.9416975,0
+                75.9021377,10.9459531,0
+                75.8980178,10.9460795,0
+                75.8963441,10.9455739,0
+                75.893383,10.9439727,0
+                75.8903146,10.9435303,0
+                75.8837914,10.9437831,0
+                75.8814633,10.9443045,0
+                75.880385,10.9442361,0
+                75.8763832,10.9438621,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
