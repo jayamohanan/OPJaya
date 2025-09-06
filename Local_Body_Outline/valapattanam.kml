@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document id="root_doc">
+    <Schema id="wikidata_Q13114604.schema">
+      <SimpleField name="fid" type="int"/>
+      <SimpleField name="Name-ml" type="string"/>
+      <SimpleField name="id" type="string"/>
+      <SimpleField name="@id" type="string"/>
+      <SimpleField name="admin_level" type="string"/>
+      <SimpleField name="boundary" type="string"/>
+      <SimpleField name="local_authority:IN" type="string"/>
+      <SimpleField name="type" type="string"/>
+      <SimpleField name="wikidata" type="string"/>
+      <SimpleField name="population" type="string"/>
+      <SimpleField name="ns" type="string"/>
+      <SimpleField name="@relations" type="string"/>
+      <SimpleField name="LSG Code" type="string"/>
+      <SimpleField name="Assembly" type="string"/>
+      <SimpleField name="District" type="string"/>
+    </Schema>
+    <Document id="wikidata_Q13114604">
+      <name>wikidata_Q13114604</name>
+      <Placemark id="wikidata_Q13114604.1">
+        <name>valapattanam</name>
+        <ExtendedData>
+          <SchemaData schemaUrl="#wikidata_Q13114604.schema">
+            <SimpleData name="fid">77</SimpleData>
+            <SimpleData name="Name-ml">വളപട്ടണം</SimpleData>
+            <SimpleData name="id">relation/11307360</SimpleData>
+            <SimpleData name="@id">relation/11307360</SimpleData>
+            <SimpleData name="admin_level">8</SimpleData>
+            <SimpleData name="boundary">local_authority</SimpleData>
+            <SimpleData name="local_authority:IN">gram_panchayat</SimpleData>
+            <SimpleData name="type">boundary</SimpleData>
+            <SimpleData name="wikidata">Q13114604</SimpleData>
+            <SimpleData name="LSG Code">G130504</SimpleData>
+            <SimpleData name="Assembly">അഴീക്കോട്</SimpleData>
+            <SimpleData name="District">Kannur</SimpleData>
+          </SchemaData>
+        </ExtendedData>
+        <Polygon>
+          <outerBoundaryIs>
+            <LinearRing>
+              <coordinates>
+                75.3573274,11.9307397,0
+                75.3537869,11.9318733,0
+                75.3521776,11.9324612,0
+                75.3508043,11.933028,0
+                75.3487658,11.9333429,0
+                75.3453326,11.9337418,0
+                75.34338,11.9342247,0
+                75.3418243,11.9350854,0
+                75.3407729,11.9328705,0
+                75.3398394,11.9312015,0
+                75.3400325,11.9306767,0
+                75.3417062,11.925932,0
+                75.3418222,11.925251,0
+                75.3423071,11.92568,0
+                75.3442383,11.925911,0
+                75.3462767,11.9242944,0
+                75.3473067,11.9235176,0
+                75.3482938,11.9227828,0
+                75.3488302,11.9220269,0
+                75.3498602,11.9221319,0
+                75.3502035,11.9237485,0
+                75.3508472,11.9243574,0
+                75.3518343,11.9235806,0
+                75.3520059,11.9222999,0
+                75.352242,11.9211662,0
+                75.3535723,11.9202214,0
+                75.3544521,11.9192136,0
+                75.3556537,11.9184578,0
+                75.3565979,11.9185208,0
+                75.3568554,11.9200954,0
+                75.3558469,11.9215441,0
+                75.3554392,11.9230347,0
+                75.3554392,11.9241684,0
+                75.3561044,11.925638,0
+                75.3568339,11.9273806,0
+                75.3573274,11.9307397,0
+              </coordinates>
+            </LinearRing>
+          </outerBoundaryIs>
+        </Polygon>
+      </Placemark>
+    </Document>
+  </Document>
+</kml>
