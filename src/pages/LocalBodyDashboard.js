@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useLocation, useNavigate } from 'react-router-dom';
+import { useLocation, useNavigate, Link } from 'react-router-dom';
 import AddIssueModal from '../components/AddIssueModal';
 import Footer from '../components/Footer';
 import TopNav from '../components/TopNav'; // Add this import
@@ -610,6 +610,16 @@ function LocalBodyDashboard() {
                   <span className="stat-value" style={{ fontSize: '0.8rem', fontFamily: 'monospace' }}>{lsgCode}</span>
                 </div>
               )}
+            </div>
+          </div>
+
+          {/* Add this new section for Progress Checklist */}
+          <div className="sidebar-section">
+            <div className="sidebar-title">Progress Checklist</div>
+            <div className="progress-checklist-container">
+              <Link to="/localbody-checklist" style={{ margin: 16, display: 'inline-block' }}>
+                View Progress Checklist
+              </Link>
             </div>
           </div>
         </div>

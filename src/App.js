@@ -6,6 +6,7 @@ import MapPage from './pages/MapPage';
 import AssemblyPage from './pages/AssemblyPage';
 import DistrictPage from './pages/DistrictPage';
 import TopNav from './components/TopNav'; // Make sure this import exists
+import LocalBodyChecklist from './pages/LocalBodyChecklist';
 import './App.css';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/map" element={<MapPage />} />
           <Route path="/assembly/:assemblyName" element={<AssemblyPage />} />
           <Route path="/district/:districtName" element={<DistrictPage />} />
+          <Route path="/localbody-checklist" element={<LocalBodyChecklist />} />
         </Routes>
       </div>
     </Router>
