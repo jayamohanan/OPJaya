@@ -516,26 +516,13 @@ function LocalBodyDashboard() {
           {/* Local Body Name Header */}
           <div className="sidebar-section">
             <div className="local-body-header">
-              <h2 className="local-body-name malayalam-text">
-                {lbNameMalayalam}
-              </h2>
-              <div className="local-body-type malayalam-text">
-                {lbTypeMalayalam}
+              <h2 className="local-body-name malayalam-text">{lbNameMalayalam}</h2>
+              <div className="local-body-type malayalam-text">{lbTypeMalayalam}</div>
+              <div className="local-body-assembly malayalam-text">
+                {localBodyData['Assembly(s)']}
               </div>
-              {/* Mini Map Preview - no title, inside header */}
-              <div 
-                className="mini-map-container"
-                onClick={handleMapClick}
-                title="Click to view full map"
-                style={{ marginTop: '16px' }}
-              >
-                <div id="mini-map" className="mini-map-embed"></div>
-                <div className="mini-map-overlay">
-                  <div className="map-click-area">
-                    <div className="expand-icon">⛶</div>
-                    <span className="view-full-map">Click to expand</span>
-                  </div>
-                </div>
+              <div className="local-body-district">
+                {localBodyData['District']}
               </div>
             </div>
           </div>
@@ -596,13 +583,25 @@ function LocalBodyDashboard() {
               {district && (
                 <div className="stat-item">
                   <span className="stat-label">District</span>
-                  <span className="stat-value" style={{ fontSize: '0.8rem' }}>{district}</span>
+                  <span
+                    className="stat-value clickable-link"
+                    style={{ fontSize: '0.8rem' }}
+                    onClick={() => navigate(`/district/${district}`)}
+                  >
+                    {district}
+                  </span>
                 </div>
               )}
               {assembly && (
                 <div className="stat-item">
                   <span className="stat-label">Assembly</span>
-                  <span className="stat-value" style={{ fontSize: '0.8rem' }}>{assembly}</span>
+                  <span
+                    className="stat-value clickable-link"
+                    style={{ fontSize: '0.8rem' }}
+                    onClick={() => navigate(`/assembly/${assembly}`)}
+                  >
+                    {assembly}
+                  </span>
                 </div>
               )}
               {lsgCode && (

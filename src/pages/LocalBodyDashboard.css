@@ -730,20 +730,33 @@
   font-size: 1.3rem;
   font-weight: 700;
   color: #1976d2;
-  margin: 0 0 5px 0;
-  line-height: 1.2;
-  /* Font will be applied via class */
+  margin: 0;           /* No bottom margin */
+  line-height: 1.05;   /* Even tighter line height */
 }
 
 .local-body-type {
   font-size: 0.8rem;
   color: #666;
   background: #f0f7ff;
-  padding: 3px 8px;
+  padding: 2px 8px;
   border-radius: 12px;
   display: inline-block;
   font-weight: 500;
-  /* Font will be applied via class */
+  margin: 0;           /* No margin */
+}
+
+.local-body-assembly {
+  font-size: 1rem;
+  color: #1976d2;
+  margin: 2px 0 0 0;
+  font-weight: 500;
+}
+
+.local-body-district {
+  font-size: 0.95rem;
+  color: #444;
+  margin: 0 0 0 0;
+  font-weight: 400;
 }
 
 /* You can also create specific combinations */
@@ -1097,4 +1110,15 @@
 
 .people-icon {
   display: none;
+}
+
+.clickable-link {
+  cursor: pointer;
+  color: #1976d2;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+}
+
+.clickable-link:hover {
+  text-decoration: underline;
 }
