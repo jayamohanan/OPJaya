@@ -1,59 +1,316 @@
+/* Keep the dashboard container padding for top nav */
 .dashboard-container {
   width: 100vw;
   min-height: 100vh;
   margin: 0;
-  padding: 0 100px; /* Add 20px padding on left and right */
+  padding-top: 60px; /* Keep this for top nav space */
   box-sizing: border-box;
   background: linear-gradient(135deg, #f8fffe 0%, #e0eafc 100%);
   display: flex;
   flex-direction: column;
-  align-items: center;
   font-family: 'Segoe UI', Arial, sans-serif;
 }
 
-.dashboard-header {
-  width: 100%;
-  margin: 0;
-  padding: 0;
+/* Dashboard Content Wrapper */
+.dashboard-content-wrapper {
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+}
+
+.dashboard-main {
+  flex: none;
+  width: 1200px;
+  max-width: 1200px;
+  min-width: 1200px;
+  padding: 12px 0 40px 340px; /* keep left padding for sidebar */
   box-sizing: border-box;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 0;
+  margin-right: 0;
 }
 
-.dashboard-header > div {
-  /* Ensures the map stays at the top right */
-  z-index: 2;
+/* Move sidebar to left side */
+.dashboard-sidebar {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-right: 1px solid rgba(25, 118, 210, 0.1); /* Changed from border-left to border-right */
+  border-radius: 0 12px 12px 0; /* Changed from left radius to right radius */
+  box-shadow: 2px 0 15px rgba(0, 0, 0, 0.08); /* Changed shadow direction */
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 0; /* Changed from right: 0 to left: 0 */
+  top: 80px; /* Adjusted for top nav */
+  bottom: 80px;
+  margin-left: 20px; /* Changed from margin-right to margin-left */
+  z-index: 100;
+  overflow-y: auto;
+  height: calc(100vh - 180px);
 }
 
-.dashboard-header h1 {
-  font-size: 2.2rem;
-  color: #1976d2;
-  margin-bottom: 10px;
+.dashboard-rightbar {
+  width: 300px;
+  background: rgba(255, 255, 255, 0.95);
+  border-left: 1px solid rgba(25, 118, 210, 0.1);
+  border-radius: 12px 0 0 12px;
+  box-shadow: -2px 0 15px rgba(0, 0, 0, 0.08);
+  padding: 20px;
+  box-sizing: border-box;
+  position: fixed;
+  right: 0;
+  top: 80px; /* Adjust for top nav */
+  bottom: 80px;
+  z-index: 100;
+  overflow-y: auto;
+  height: calc(100vh - 180px);
 }
 
-.home-btn {
-  margin-top: 32px;
-  margin-bottom: 32px;
-  padding: 10px 28px;
-  background: #1976d2;
-  color: #fff;
-  border: none;
-  border-radius: 6px;
+/* Make space for the rightbar in the main content */
+.dashboard-main {
+  margin-right: 320px; /* 300px width + 20px padding */
+}
+
+.sidebar-section {
+  margin-bottom: 30px;
+}
+
+.sidebar-title {
   font-size: 1.1rem;
   font-weight: 600;
-  cursor: pointer;
-  transition: background 0.2s;
-  box-shadow: 0 2px 8px rgba(25, 118, 210, 0.08);
+  color: #1976d2;
+  margin-bottom: 15px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid #e3f0fc;
 }
 
-.home-btn:hover {
+.sidebar-stats {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.stat-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 12px;
+  background: #f8fafd;
+  border-radius: 6px;
+  font-size: 0.9rem;
+}
+
+.stat-label {
+  color: #666;
+}
+
+.stat-value {
+  font-weight: 600;
+  color: #1976d2;
+}
+
+.quick-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.sidebar-btn {
+  width: 100%;
+  padding: 10px 15px;
+  background: #f0f7ff;
+  color: #1976d2;
+  border: 1px solid #1976d2;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: all 0.2s;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.sidebar-btn:hover {
+  background: #1976d2;
+  color: white;
+}
+
+.sidebar-btn.primary {
+  background: #1976d2;
+  color: white;
+}
+
+.sidebar-btn.primary:hover {
   background: #125ea2;
 }
 
+.recent-activities {
+  max-height: 300px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  padding: 10px 0;
+  border-bottom: 1px solid #f0f0f0;
+  font-size: 0.85rem;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.activity-title {
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 2px;
+}
+
+.activity-time {
+  color: #888;
+  font-size: 0.8rem;
+}
+
+.activity-type {
+  display: inline-block;
+  padding: 2px 8px;
+  background: #e8f5e8;
+  color: #2e7d32;
+  border-radius: 12px;
+  font-size: 0.75rem;
+  margin-top: 4px;
+}
+
+@media (max-width: 1200px) {
+  .dashboard-sidebar {
+    width: 250px;
+    margin-left: 15px; /* Changed from margin-right */
+    top: 70px;
+    bottom: 70px;
+    height: calc(100vh - 160px);
+  }
+  
+  .dashboard-main {
+    padding-left: 290px; /* Changed from margin-right: 280px */
+    margin-right: 0;
+  }
+  
+  .dashboard-tiles-scroll {
+    max-width: calc(100vw - 330px);
+  }
+  
+  .scroll-container {
+    max-width: calc(100vw - 310px);
+  }
+  
+  .dashboard-sections {
+    max-width: calc(100vw - 290px);
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboard-sidebar {
+    display: none;
+  }
+  
+  .dashboard-main {
+    padding: 6px 20px 40px 20px; /* Reset padding for mobile */
+    margin-left: 0;
+    max-width: 100vw;
+  }
+  
+  .dashboard-tiles-scroll {
+    max-width: 100vw;
+    padding: 0 20px;
+  }
+  
+  .scroll-container {
+    max-width: 100vw;
+  }
+  
+  .dashboard-sections {
+    max-width: 100vw;
+  }
+}
+
+/* New horizontal scrollable container */
+.dashboard-section-content {
+  position: relative;
+  padding: 20px 0;
+  overflow: hidden; /* Prevent content from spilling out */
+}
+
+.scroll-container {
+  position: relative;
+  overflow: hidden;
+  max-width: calc(100vw - 400px); /* Account for left sidebar */
+}
+
+.dashboard-tiles-scroll {
+  display: flex;
+  flex: 0 0 100%;
+  width: 100%;
+  gap: 15px;
+  overflow-x: auto;
+  box-sizing: border-box;
+  padding: 0 28px;
+}
+
+.dashboard-tiles-scroll::-webkit-scrollbar {
+  display: none; /* Chrome/Safari */
+}
+
+/* Navigation arrows - MISSING FROM YOUR CSS */
+.scroll-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 15;
+  background: rgba(25, 118, 210, 0.9);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: all 0.2s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.scroll-nav:hover {
+  background: rgba(25, 118, 210, 1);
+  transform: translateY(-50%) scale(1.1);
+}
+
+.scroll-nav:disabled {
+  background: rgba(200, 200, 200, 0.5);
+  cursor: not-allowed;
+  transform: translateY(-50%);
+}
+
+.scroll-nav.left {
+  left: 10px;
+}
+
+.scroll-nav.right {
+  right: 10px;
+}
+
+/* Update dashboard sections to have proper max width */
 .dashboard-sections {
   width: 100%;
-  padding: 0 20px; /* Only add horizontal padding for content */
+  padding: 0 20px;
   margin: 0;
   box-sizing: border-box;
+  max-width: calc(100vw - 380px);
 }
 
 .dashboard-section {
@@ -61,45 +318,273 @@
   background: #fff;
   border-radius: 12px;
   box-shadow: 0 2px 12px rgba(0,0,0,0.06);
-  margin-bottom: 20px;
+  margin-bottom: 8px; /* Reduced from 12px */
   overflow: hidden;
   box-sizing: border-box;
 }
 
+/* Update dashboard section header - EVEN SMALLER */
 .dashboard-section-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 28px;
-  font-size: 1.2rem;
+  padding: 4px 16px; /* Reduced from 8px 20px */
+  font-size: 0.9rem; /* Reduced from 1rem */
   font-weight: 600;
   color: #1976d2;
   background: #f5faff;
-  cursor: pointer;
-  user-select: none;
   border-bottom: 1px solid #e3e3e3;
-  transition: background 0.2s;
+  user-select: none;
+  max-width: 100%;
+  box-sizing: border-box;
+  min-height: 28px; /* Reduced from 36px */
 }
 
-.dashboard-section-header:hover {
-  background: #e3f0fc;
+/* New "See all issues" button in header */
+.see-all-issues-btn {
+  background: none;
+  border: none;
+  color: #1976d2;
+  font-size: 0.75rem; /* Reduced from 0.8rem */
+  font-weight: 500;
+  cursor: pointer;
+  padding: 2px 6px; /* Reduced from 4px 8px */
+  border-radius: 3px; /* Smaller radius */
+  transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  gap: 2px; /* Reduced gap */
+  outline: none;
+  line-height: 1.1; /* Even tighter line height */
 }
 
-.dashboard-section-toggle {
-  font-size: 1.2rem;
-  color: #888;
+.see-all-issues-btn:hover {
+  background: rgba(25, 118, 210, 0.1);
+  color: #125ea2;
+  transform: translateX(2px);
+}
+
+.see-all-issues-btn:active {
+  background: rgba(25, 118, 210, 0.2);
+  transform: translateX(1px);
+}
+
+.see-all-issues-btn:focus {
+  background: rgba(25, 118, 210, 0.1);
+  outline: 1px solid rgba(25, 118, 210, 0.3); /* Thinner outline */
+}
+
+/* Update section content padding - EVEN SMALLER */
+.dashboard-section-content {
+  position: relative;
+  padding: 8px 0; /* Reduced from 12px 0 */
+  overflow: hidden;
+}
+
+/* Responsive adjustments for header button - EVEN SMALLER */
+@media (max-width: 768px) {
+  .see-all-issues-btn {
+    font-size: 0.7rem; /* Even smaller on mobile */
+    padding: 2px 4px;
+  }
+  
+  .dashboard-section-header {
+    padding: 3px 12px; /* Even smaller on mobile */
+    font-size: 0.85rem;
+    min-height: 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .see-all-issues-btn {
+    font-size: 0.65rem;
+    padding: 1px 3px;
+  }
+  
+  .dashboard-section-header {
+    padding: 2px 10px;
+    font-size: 0.8rem;
+    min-height: 20px;
+  }
 }
 
 .dashboard-tiles-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  width: 100%;
-  padding: 20px 0;
-  box-sizing: border-box;
+  display: none;
 }
 
 .dashboard-tile {
+  flex: 0 0 25%;    /* <-- 25% width, no grow, no shrink */
+  max-width: 25%;
+  min-width: 0;
+  box-sizing: border-box;
+  background: #f8fafd;
+  border-radius: 8px;
+  box-shadow: 0 1px 6px rgba(25, 118, 210, 0.07);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: hidden;
+  transition: box-shadow 0.2s;
+  cursor: pointer;
+  height: 180px;
+}
+
+/* Responsive: stack cards on mobile */
+@media (max-width: 900px) {
+  .dashboard-tile {
+    min-width: 45vw;
+    max-width: 45vw;
+    flex-basis: 45vw;
+  }
+}
+
+.dashboard-tile-img {
+  width: 100%;
+  /* height: 90px;  */
+  height: auto;
+  background: #e0eafc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.dashboard-tile-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.dashboard-tile-info {
+  padding: 8px;
+  width: 100%;
+  text-align: center;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.dashboard-tile-name {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1976d2;
+  margin-bottom: 3px;
+  line-height: 1.1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.dashboard-tile-desc {
+  font-size: 0.75rem;
+  color: #555;
+  margin-bottom: 4px;
+  line-height: 1.1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.dashboard-tile-number {
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #388e3c;
+}
+
+/* Loading and no issues tiles for horizontal scroll */
+.loading-tile, .no-issues-tile {
+  min-width: 180px;
+  max-width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #f9f9f9;
+  border: 2px dashed #ccc;
+  border-radius: 8px;
+  color: #666;
+  flex-shrink: 0;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+/* See More Modal Styles - MISSING FROM YOUR CSS */
+.see-more-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(5px);
+}
+
+.see-more-modal {
+  background: white;
+  border-radius: 12px;
+  width: 90vw;
+  max-width: 1200px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+.see-more-modal-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  border-bottom: 2px solid #f0f0f0;
+  background: #f8fafd;
+  border-radius: 12px 12px 0 0;
+}
+
+.see-more-modal-header h2 {
+  margin: 0;
+  color: #1976d2;
+  font-size: 1.5rem;
+}
+
+.close-modal-btn {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #666;
+  padding: 5px 10px;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.close-modal-btn:hover {
+  background: #f0f0f0;
+  color: #333;
+}
+
+.see-more-modal-content {
+  flex: 1;
+  overflow-y: auto;
+  padding: 30px;
+}
+
+.modal-tiles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.modal-tile {
   background: #f8fafd;
   border-radius: 10px;
   box-shadow: 0 1px 6px rgba(25, 118, 210, 0.07);
@@ -109,65 +594,519 @@
   overflow: hidden;
   transition: box-shadow 0.2s;
   cursor: pointer;
+  height: 280px;
 }
 
-.dashboard-tile:hover {
+.modal-tile:hover {
   box-shadow: 0 4px 16px rgba(25, 118, 210, 0.13);
+  transform: translateY(-2px);
 }
 
-.dashboard-tile-img {
+.modal-tile-img {
   width: 100%;
-  height: 120px;
+  height: 150px;
   background: #e0eafc;
   display: flex;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
 }
 
-.dashboard-tile-img img {
-  width: 50%;
+.modal-tile-img img {
+  width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 
-.dashboard-tile-info {
-  padding: 14px 12px 10px 12px;
+.modal-tile-info {
+  padding: 15px;
   width: 100%;
   text-align: center;
+  flex: 1;
 }
 
-.dashboard-tile-name {
-  font-size: 1.08rem;
+.modal-tile-name {
+  font-size: 1.1rem;
   font-weight: 600;
   color: #1976d2;
-  margin-bottom: 4px;
+  margin-bottom: 8px;
+  line-height: 1.3;
 }
 
-.dashboard-tile-desc {
-  font-size: 0.97rem;
+.modal-tile-desc {
+  font-size: 0.9rem;
   color: #555;
-  margin-bottom: 6px;
+  margin-bottom: 8px;
+  line-height: 1.4;
 }
 
-.dashboard-tile-number {
-  font-size: 1.2rem;
+.modal-tile-number {
+  font-size: 1.1rem;
   font-weight: 700;
   color: #388e3c;
 }
 
-.home-icon-btn {
-  position: relative; /* Changed from absolute */
-  top: auto; /* Reset top positioning */
-  left: auto; /* Reset left positioning */
-  background: none;
-  border: none;
-  cursor: pointer;
-  z-index: 10;
-  padding: 8px 12px; /* Add some padding for better clickability */
-  transition: color 0.2s;
-  margin-right: auto; /* Push other elements to the right */
+.modal-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
 }
 
-.home-icon-btn:hover {
-  color: #555;
+.loading-spinner {
+  width: 50px;
+  height: 50px;
+  border: 5px solid #f3f3f3;
+  border-top: 5px solid #1976d2;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  margin-bottom: 20px;
+}
+
+.modal-no-issues {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  text-align: center;
+  color: #666;
+}
+
+.modal-no-issues h3 {
+  margin: 10px 0;
+  color: #333;
+}
+
+.modal-no-issues p {
+  margin: 0;
+  color: #888;
+}
+
+/* Remove the old see-more button styles */
+.see-more-container {
+  display: none; /* Hide the bottom button */
+}
+
+.see-more-btn {
+  display: none; /* Hide the bottom button */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* Make dashboard header ultra-compact - text only */
+.dashboard-header {
+  width: 100%;
+  margin: 0;
+  padding: 4px 0 2px 0; /* Ultra small padding */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.dashboard-header > div {
+  z-index: 2;
+}
+
+.dashboard-header h1 {
+  font-size: 1.2rem; /* Even smaller from 1.4rem */
+  color: #1976d2;
+  margin-bottom: 2px; /* Minimal margin */
+  margin-top: 0;
+  line-height: 1.1;
+  font-weight: 600;
+}
+
+/* Hide/remove the home button completely */
+.home-btn {
+  display: none; /* Remove completely */
+}
+
+/* Hide/remove the home icon button completely */
+.home-icon-btn {
+  display: none; /* Remove completely */
+}
+
+/* Local Body Header in Sidebar */
+.local-body-header {
+  text-align: center;
+  padding: 10px 0 15px 0;
+  border-bottom: 2px solid #e3f0fc;
+  margin-bottom: 20px;
+  background: rgba(25, 118, 210, 0.05);
+}
+
+.local-body-name {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #1976d2;
+  margin: 0 0 5px 0;
+  line-height: 1.2;
+  /* Font will be applied via class */
+}
+
+.local-body-type {
+  font-size: 0.8rem;
+  color: #666;
+  background: #f0f7ff;
+  padding: 3px 8px;
+  border-radius: 12px;
+  display: inline-block;
+  font-weight: 500;
+  /* Font will be applied via class */
+}
+
+/* You can also create specific combinations */
+.malayalam-title {
+  font-family: 'Noto Sans Malayalam', serif;
+  font-weight: 700;
+}
+
+.malayalam-subtitle {
+  font-family: 'Noto Sans Malayalam', serif;
+  font-weight: 500;
+}
+
+.english-subtitle {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  font-weight: 400;
+}
+
+/* Responsive adjustments for sidebar header */
+@media (max-width: 1200px) {
+  .local-body-name {
+    font-size: 1.2rem;
+  }
+  
+  .local-body-type {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .local-body-header {
+    padding: 8px 0 12px 0;
+  }
+  
+  .local-body-name {
+    font-size: 1.1rem;
+  }
+  
+  .local-body-type {
+    font-size: 0.7rem;
+    padding: 2px 6px;
+  }
+}
+
+/* Add these new classes for selective font usage */
+.malayalam-text {
+  font-family: 'Noto Sans Malayalam', serif;
+}
+
+.english-text {
+  font-family: 'Segoe UI', 'Arial', 'Helvetica', sans-serif;
+}
+
+/* Add back these HKS Collection Rate styles */
+
+/* HKS Collection Rate Styles - COMPACT */
+.hks-rates-container {
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.hks-rate-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4px 8px;
+  margin-bottom: 3px;
+  background: none;
+  border-radius: 0;
+  transition: none;
+}
+
+.hks-rate-item:hover {
+  background: none;
+}
+
+.hks-name {
+  font-family: 'Noto Sans Malayalam', serif;
+  font-size: 0.8rem;
+  color: #333;
+  font-weight: 400;
+  flex: 1;
+  line-height: 1.1;
+}
+
+.hks-rate {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #1976d2;
+  background: rgba(25, 118, 210, 0.1);
+  padding: 1px 6px;
+  border-radius: 10px;
+  min-width: 38px;
+  text-align: center;
+}
+
+.see-more-hks-btn {
+  background: none;
+  border: none;
+  color: #1976d2;
+  font-size: 0.75rem;
+  font-weight: 500;
+  cursor: pointer;
+  padding: 4px 0;
+  margin-top: 6px;
+  text-align: left;
+  text-decoration: none;
+  transition: text-decoration 0.2s;
+  display: inline-block;
+  outline: none;
+}
+
+.see-more-hks-btn:hover {
+  background: none;
+  color: #1976d2;
+  text-decoration: underline;
+}
+
+.see-more-hks-btn:focus {
+  outline: 1px dotted rgba(25, 118, 210, 0.5);
+  outline-offset: 2px;
+  text-decoration: underline;
+}
+
+.see-more-hks-btn:active {
+  color: #125ea2;
+}
+
+/* Color coding based on rates - KEEP THE COLORS */
+.hks-rate-item .hks-rate {
+  background: #e8f5e8;
+  color: #2e7d32;
+}
+
+.hks-rate-item:nth-child(-n+3) .hks-rate {
+  background: #ffebee;
+  color: #c62828;
+}
+
+.hks-rate-item:nth-child(n+14) .hks-rate {
+  background: #e8f5e8;
+  color: #2e7d32;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .hks-rate-item {
+    padding: 3px 6px;
+    margin-bottom: 2px;
+  }
+  
+  .hks-name {
+    font-size: 0.75rem;
+  }
+  
+  .hks-rate {
+    font-size: 0.75rem;
+    padding: 1px 4px;
+    min-width: 35px;
+  }
+  
+  .see-more-hks-btn {
+    padding: 3px 0;
+    font-size: 0.7rem;
+    margin-top: 4px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hks-rate-item {
+    padding: 2px 4px;
+    margin-bottom: 1px;
+  }
+  
+  .hks-name {
+    font-size: 0.7rem;
+  }
+  
+  .hks-rate {
+    font-size: 0.7rem;
+    padding: 1px 3px;
+    min-width: 32px;
+  }
+  
+  .see-more-hks-btn {
+    padding: 2px 0;
+    font-size: 0.65rem;
+  }
+}
+
+/* Replace the existing mini map styles with these updated ones */
+
+/* Mini Map Preview Styles - WITH REAL MAP */
+.mini-map-container {
+  width: 100%;
+  height: 120px;
+  border: 2px solid #c3d9e0;
+  border-radius: 8px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  background: #f8f9fa;
+}
+
+.mini-map-container:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+  border-color: #1976d2;
+}
+
+/* Real map embed */
+.mini-map-embed {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+/* Overlay for interaction */
+.mini-map-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    to bottom, 
+    transparent 0%, 
+    transparent 60%, 
+    rgba(25, 118, 210, 0.8) 100%
+  );
+  z-index: 2;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: flex-end;
+  pointer-events: none; /* Allow clicks to pass through to map */
+}
+
+.mini-map-container:hover .mini-map-overlay {
+  opacity: 1;
+}
+
+.map-click-area {
+  width: 100%;
+  padding: 8px 12px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  pointer-events: auto; /* Re-enable pointer events for this area */
+}
+
+.expand-icon {
+  color: white;
+  font-size: 1.2rem;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.view-full-map {
+  color: white;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+/* Loading state before map loads */
+.mini-map-container::before {
+  content: 'Loading map...';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #666;
+  font-size: 0.8rem;
+  z-index: 0;
+}
+
+/* Active state when clicked */
+.mini-map-container:active {
+  transform: translateY(0) scale(0.98);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Responsive adjustments for mini map */
+@media (max-width: 768px) {
+  .mini-map-container {
+    height: 100px;
+  }
+  
+  .expand-icon {
+    font-size: 1.1rem;
+  }
+  
+  .view-full-map {
+    font-size: 0.7rem;
+  }
+  
+  .map-click-area {
+    padding: 6px 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mini-map-container {
+    height: 90px;
+  }
+  
+  .expand-icon {
+    font-size: 1rem;
+  }
+  
+  .view-full-map {
+    font-size: 0.65rem;
+  }
+  
+  .map-click-area {
+    padding: 5px 8px;
+  }
+}
+
+/* Ensure Google Maps styling */
+.mini-map-embed .gm-style {
+  border-radius: 6px;
+}
+
+.mini-map-embed .gm-style > div:first-child {
+  border-radius: 6px !important;
+}
+
+/* Integration with existing sidebar */
+.sidebar-section .mini-map-container {
+  margin-top: 5px;
+}
+
+/* Keep all your existing CSS styles below this */
+
+.main-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1976d2;
+  display: flex;
+  align-items: center;
+  margin-bottom: 24px;
+  gap: 8px;
+}
+
+.people-icon {
+  display: none;
 }

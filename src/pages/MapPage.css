@@ -1,0 +1,87 @@
+.map-container {
+  width: 100vw;
+  height: 100vh;
+  padding-top: 60px; /* Space for top nav */
+  box-sizing: border-box;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.map-content {
+  width: 100%;
+  height: calc(100vh - 60px); /* Full height minus top nav */
+  position: relative;
+  overflow: hidden;
+}
+
+/* Ensure map fills the content area */
+#map {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Remove any existing button styles */
+.home-btn,
+.back-btn {
+  display: none !important;
+}
+
+/* Map controls styling if needed */
+.map-controls {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive adjustments for map with top nav */
+@media (max-width: 768px) {
+  .map-container {
+    padding-top: 60px;
+  }
+  
+  .map-content {
+    height: calc(100vh - 60px);
+  }
+  
+  .map-controls {
+    top: 10px;
+    right: 10px;
+    padding: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .map-container {
+    padding-top: 50px;
+  }
+  
+  .map-content {
+    height: calc(100vh - 50px);
+  }
+  
+  .map-controls {
+    top: 5px;
+    right: 5px;
+    padding: 5px;
+  }
+}
+
+/* Google Maps specific styles if using Google Maps */
+.gm-style {
+  font-family: 'Segoe UI', Arial, sans-serif !important;
+}
+
+/* Leaflet specific styles if using Leaflet */
+.leaflet-container {
+  width: 100% !important;
+  height: 100% !important;
+}
+
+/* Keep any of your existing MapPage.css styles below this line */
+/* ... rest of your existing MapPage.css styles ... */

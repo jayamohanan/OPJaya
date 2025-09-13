@@ -1,0 +1,69 @@
+/* Top Navigation Bar */
+.top-nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(25, 118, 210, 0.1);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.top-nav-left {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.website-name {
+  font-family: 'Noto Sans Malayalam', serif;
+  background: none;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #1976d2;
+  cursor: pointer;
+  transition: color 0.2s;
+  padding: 0;
+  outline: none;
+}
+
+.website-name:hover {
+  color: #125ea2;
+}
+
+.website-name:focus {
+  color: #125ea2;
+  outline: 2px solid rgba(25, 118, 210, 0.3);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+/* Responsive adjustments for top nav */
+@media (max-width: 768px) {
+  .top-nav {
+    padding: 0 15px;
+  }
+  
+  .website-name {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .top-nav {
+    height: 50px;
+    padding: 0 10px;
+  }
+  
+  .website-name {
+    font-size: 1.1rem;
+  }
+}

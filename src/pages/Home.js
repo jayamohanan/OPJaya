@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom';
 import Papa from 'papaparse';
+import TopNav from '../components/TopNav'; // Add this import
 import './Home.css';
 
 function Home() {
@@ -102,14 +103,23 @@ function Home() {
     if (selectedLocalBody) {
       const localBodyData = localBodies.find(lb => lb.name === selectedLocalBody);
       if (localBodyData) {
+        // Find the full CSV row for this local body to get Malayalam name
+        const csvRow = csvData.find(row => 
+          row['Local Body']?.trim() === selectedLocalBody &&
+          row.District?.trim() === selectedDistrict &&
+          row.Assembly?.trim() === selectedAssembly
+        );
+        
         const localBodyId = `${selectedDistrict}_${selectedAssembly}_${selectedLocalBody}`.replace(/\s+/g, '_');
         
-        navigate(`/localbody/${localBodyId}`, {
+        navigate('/dashboard', {
           state: {
-            localBodyName: localBodyData.name,
+            localBodyName: selectedLocalBody,  // English name
+            nameMalayalam: csvRow?.Name_std_ml || selectedLocalBody, // Malayalam name from CSV
             localBodyType: localBodyData.type,
+            district: selectedDistrict,
             assembly: selectedAssembly,
-            district: selectedDistrict
+            lsgCode: csvRow?.['LSG Code'] || ''
           }
         });
       }
@@ -126,12 +136,10 @@ function Home() {
 
   return (
     <div className="home-container">
-      <header className="header">
-        <h1>Kerala Cleanliness Platform</h1>
-        <p>Community-led approach to improve cleanliness across all 1034 local bodies of Kerala</p>
-      </header>
-
-      <main className="main-content">
+      {/* Universal Top Navigation Bar */}
+      <TopNav />
+      
+      <div className="main-content">
         <div className="dropdown-container">
           <h2>Select Your Location</h2>
           
@@ -192,7 +200,7 @@ function Home() {
             View Dashboard
           </button>
         </div>
-      </main>
+      </div>
 
       <footer className="footer">
         <p>Developed by Jayamohanan</p>
