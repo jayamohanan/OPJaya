@@ -15,25 +15,26 @@
 .dashboard-content-wrapper {
   display: flex;
   flex-direction: row;
-  flex: 1;
+  width: 100vw;
+  height: 100%;
+  box-sizing: border-box;
+  overflow-x: hidden; /* Prevent horizontal scroll */
 }
 
 .dashboard-main {
-  flex: none;
-  width: 1200px;
-  max-width: 1200px;
-  min-width: 1200px;
-  padding: 12px 0 40px 340px; /* keep left padding for sidebar */
+  flex: 1 1 0%;
+  min-width: 0;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 0;
-  margin-right: 0;
+  padding: 12px 0 40px 0;
+  margin: 0;
 }
 
 /* Move sidebar to left side */
 .dashboard-sidebar {
+  flex: 0 0 300px;
   width: 300px;
   background: rgba(255, 255, 255, 0.95);
   backdrop-filter: blur(10px);
@@ -42,17 +43,11 @@
   box-shadow: 2px 0 15px rgba(0, 0, 0, 0.08); /* Changed shadow direction */
   padding: 20px;
   box-sizing: border-box;
-  position: fixed;
-  left: 0; /* Changed from right: 0 to left: 0 */
-  top: 80px; /* Adjusted for top nav */
-  bottom: 80px;
-  margin-left: 20px; /* Changed from margin-right to margin-left */
-  z-index: 100;
   overflow-y: auto;
-  height: calc(100vh - 180px);
 }
 
 .dashboard-rightbar {
+  flex: 0 0 300px;
   width: 300px;
   background: rgba(255, 255, 255, 0.95);
   border-left: 1px solid rgba(25, 118, 210, 0.1);
@@ -60,19 +55,10 @@
   box-shadow: -2px 0 15px rgba(0, 0, 0, 0.08);
   padding: 20px;
   box-sizing: border-box;
-  position: fixed;
-  right: 0;
-  top: 80px; /* Adjust for top nav */
-  bottom: 80px;
-  z-index: 100;
   overflow-y: auto;
-  height: calc(100vh - 180px);
 }
 
-/* Make space for the rightbar in the main content */
-.dashboard-main {
-  margin-right: 320px; /* 300px width + 20px padding */
-}
+
 
 .sidebar-section {
   margin-bottom: 30px;
@@ -192,6 +178,7 @@
     top: 70px;
     bottom: 70px;
     height: calc(100vh - 160px);
+    background-color: #2e7d32;
   }
   
   .dashboard-main {
