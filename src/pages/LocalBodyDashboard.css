@@ -1092,6 +1092,7 @@
   align-items: center;
   margin-bottom: 24px;
   gap: 8px;
+  margin-left: 20px; /* Align with section headings */
 }
 
 .people-icon {
