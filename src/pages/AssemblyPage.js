@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { supabase } from '../supabaseClient';
 
 function AssemblyPage() {
   const { assemblyName } = useParams();
@@ -8,54 +9,39 @@ function AssemblyPage() {
   const [district, setDistrict] = useState('');
 
   useEffect(() => {
-    console.log('1. The assembly name from URL is:', assemblyName);
+    async function fetchData() {
+      // Fetch all local bodies in this assembly
+      const { data: lbs, error } = await supabase
+        .from('lb_data') // <-- updated table name
+        .select('*')
+        .ilike('Assembly', assemblyName); // case-insensitive match
 
-    fetch('/OPJaya/lb_data.csv')
-      .then(res => res.text())
-      .then(text => {
-        console.log('2. Fetched CSV data, parsing...');
-        const rows = text.split('\n').map(r => r.split(','));
-        const header = rows[0];
-        const data = rows.slice(1).map(row => {
-          const obj = {};
-          header.forEach((h, i) => obj[h.trim()] = row[i]?.trim());
-          return obj;
-        });
+      if (error) {
+        console.error('Supabase fetch error:', error);
+        return;
+      }
 
-        // Print all unique Assembly for debugging
-        console.log('All unique Assembly in CSV:', [...new Set(data.map(d => d['Assembly']))]);
+      setLocalBodies(lbs.map(d => d['Local Body']));
 
-        // Robust match: ignore case and trim spaces, use "Assembly" field
-        console.log('3. Searching local bodies in assembly...');
-        const lbs = data.filter(
-          d =>
-            d['Assembly'] &&
-            d['Assembly'].trim().toLowerCase() === assemblyName.trim().toLowerCase()
-        );
-        console.log('4. Found these local bodies:', lbs.map(d => d['Local Body']));
+      const districtName = lbs[0]?.District;
+      setDistrict(districtName);
 
-        setLocalBodies(lbs.map(d => d['Local Body']));
+      // Fetch all other assemblies in the same district
+      if (districtName) {
+        const { data: allInDistrict, error: error2 } = await supabase
+          .from('lb_data') // <-- updated table name
+          .select('Assembly, District')
+          .ilike('District', districtName);
 
-        const districtName = lbs[0]?.District;
-        console.log('5. District for this assembly:', districtName);
-        setDistrict(districtName);
-
-        // Find other assemblies in the same district (robust match)
-        console.log('6. Searching for other assemblies in the same district...');
-        const assemblies = data
-          .filter(
-            d =>
-              d.District &&
-              districtName &&
-              d.District.trim().toLowerCase() === districtName.trim().toLowerCase() &&
-              d['Assembly'] &&
-              d['Assembly'].trim().toLowerCase() !== assemblyName.trim().toLowerCase()
-          )
-          .map(d => d['Assembly']);
-        console.log('7. Found these other assemblies:', [...new Set(assemblies)]);
-
-        setOtherAssemblies([...new Set(assemblies)]);
-      });
+        if (!error2) {
+          const assemblies = allInDistrict
+            .map(d => d.Assembly)
+            .filter(a => a && a.toLowerCase() !== assemblyName.toLowerCase());
+          setOtherAssemblies([...new Set(assemblies)]);
+        }
+      }
+    }
+    fetchData();
   }, [assemblyName]);
 
   return (

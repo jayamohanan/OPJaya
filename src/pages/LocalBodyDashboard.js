@@ -3,6 +3,7 @@ import { useLocation, useNavigate, Link } from 'react-router-dom';
 import AddIssueModal from '../components/AddIssueModal';
 import Footer from '../components/Footer';
 import TopNav from '../components/TopNav'; // Add this import
+import { supabase } from '../supabaseClient';
 import './LocalBodyDashboard.css';
 
 const sections = [
@@ -502,6 +503,19 @@ function LocalBodyDashboard() {
     return () => {
       window.miniMapInitialized = false;
     };
+  }, []);
+
+  // New state to hold local bodies data
+  const [localBodies, setLocalBodies] = useState([]);
+
+  useEffect(() => {
+    async function fetchData() {
+      const { data, error } = await supabase
+        .from('local_bodies')
+        .select('*');
+      if (!error) setLocalBodies(data);
+    }
+    fetchData();
   }, []);
 
   return (

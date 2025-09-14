@@ -1,5 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
+import { supabase } from '../supabaseClient';
 
 function DistrictPage() {
   const { districtName } = useParams();
@@ -7,41 +8,33 @@ function DistrictPage() {
   const [otherDistricts, setOtherDistricts] = useState([]);
 
   useEffect(() => {
-    console.log('1. The district name from URL is:', districtName);
+    async function fetchData() {
+      // Fetch all assemblies in this district
+      const { data: asms, error } = await supabase
+        .from('lb_data') // <-- updated table name
+        .select('Assembly, District')
+        .ilike('District', districtName);
 
-    fetch('/OPJaya/lb_data.csv')
-      .then(res => res.text())
-      .then(text => {
-        console.log('2. Fetched CSV data, parsing...');
-        const rows = text.split('\n').map(r => r.split(','));
-        const header = rows[0];
-        const data = rows.slice(1).map(row => {
-          const obj = {};
-          header.forEach((h, i) => obj[h.trim()] = row[i]?.trim());
-          return obj;
-        });
+      if (error) {
+        console.error('Supabase fetch error:', error);
+        return;
+      }
 
-        // Print all unique Districts for debugging
-        console.log('All unique Districts in CSV:', [...new Set(data.map(d => d['District']))]);
+      setAssemblies([...new Set(asms.map(d => d.Assembly))]);
 
-        // Robust match: ignore case and trim spaces, use "District" field
-        console.log('3. Searching assemblies in district...');
-        const asms = data
-          .filter(d =>
-            d['District'] &&
-            d['District'].trim().toLowerCase() === districtName.trim().toLowerCase()
-          )
-          .map(d => d['Assembly']);
-        console.log('4. Found these assemblies:', [...new Set(asms)]);
+      // Fetch all other districts
+      const { data: all, error: error2 } = await supabase
+        .from('lb_data') // <-- updated table name
+        .select('District');
 
-        setAssemblies([...new Set(asms)]);
-
-        // All other districts
-        const dists = data
-          .map(d => d['District'])
-          .filter(d => d && d.trim().toLowerCase() !== districtName.trim().toLowerCase());
+      if (!error2) {
+        const dists = all
+          .map(d => d.District)
+          .filter(d => d && d.toLowerCase() !== districtName.toLowerCase());
         setOtherDistricts([...new Set(dists)]);
-      });
+      }
+    }
+    fetchData();
   }, [districtName]);
 
   return (
