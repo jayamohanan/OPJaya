@@ -3,34 +3,47 @@ import { useLocation, useNavigate } from 'react-router-dom';
 import TopNav from '../components/TopNav'; // Add this import
 import { MapContainer, TileLayer, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
-import omnivore from '@mapbox/leaflet-omnivore';
 import './MapPage.css';
 
-function KMLLayer({ url, onSuccess, onError }) {
+function GeoJsonLayer({ url, onSuccess, onError }) {
   const map = useMap();
 
   useEffect(() => {
     if (!url) return;
-    let kmlLayer;
+    let geoJsonLayer;
     let didCancel = false;
 
-    console.log('[MapPage] Looking for KML file at:', url);
+    console.log('[MapPage] Looking for GeoJSON file at:', url);
 
-    kmlLayer = omnivore.kml(url)
-      .on('ready', function() {
-        map.fitBounds(kmlLayer.getBounds(), { padding: [20, 20] });
+    fetch(url)
+      .then(response => {
+        if (!response.ok) throw new Error('GeoJSON not found');
+        return response.json();
+      })
+      .then(geojsonData => {
+        geoJsonLayer = window.L.geoJSON(geojsonData, {
+          style: {
+            color: '#1976d2',
+            weight: 2,
+            fillColor: '#1976d2',
+            fillOpacity: 0.15
+          }
+        }).addTo(map);
+        const bounds = geoJsonLayer.getBounds();
+        if (bounds && bounds.isValid && bounds.isValid()) {
+          map.fitBounds(bounds, { padding: [20, 20] });
+        }
         onSuccess();
-        console.log('[MapPage] KML loaded successfully');
+        console.log('[MapPage] GeoJSON loaded successfully');
       })
-      .on('error', function() {
+      .catch(err => {
         onError();
-        console.error('[MapPage] KML to GeoJSON conversion failed');
-      })
-      .addTo(map);
+        console.error('[MapPage] GeoJSON load error', err);
+      });
 
     return () => {
       didCancel = true;
-      if (kmlLayer) map.removeLayer(kmlLayer);
+      if (geoJsonLayer) map.removeLayer(geoJsonLayer);
     };
   }, [url, map, onSuccess, onError]);
 
@@ -43,7 +56,9 @@ function MapPage() {
   
   const lbName = state?.localBodyName || 'Unknown';
   const lbType = state?.localBodyType || '';
-  const kmlUrl = state?.kmlUrl || '';
+  // Compose the GeoJSON file URL for the boundary
+  const geojsonFileName = state?.localBodyName ? encodeURIComponent(state.localBodyName.toLowerCase()) + '.geojson' : '';
+  const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson-repo/local-body-outline/${geojsonFileName}` : '';
 
   const handleHomeClick = () => {
     navigate('/');
@@ -88,9 +103,9 @@ function MapPage() {
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
           />
-          {kmlUrl && (
-            <KMLLayer
-              url={kmlUrl}
+          {geojsonUrl && (
+            <GeoJsonLayer
+              url={geojsonUrl}
               onSuccess={() => console.log('[MapPage] Map loaded')}
               onError={() => console.error('[MapPage] Map load error')}
             />

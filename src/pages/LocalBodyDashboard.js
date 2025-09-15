@@ -240,12 +240,12 @@ function LocalBodyDashboard() {
     return typeMapping[type] || type;
   };
 
-  // Compose the KML file URL for the boundary
-  const kmlFileName = localBody?.local_body_name_en ? encodeURIComponent(localBody.local_body_name_en.toLowerCase()) + '.kml' : '';
-  const kmlUrl = kmlFileName ? `${process.env.PUBLIC_URL}/Local_Body_Outline/${kmlFileName}` : '';
-  if (kmlFileName) {
-    console.log('MiniMap: Attempting to fetch KML file:', kmlFileName);
-    console.log('MiniMap: Full KML path:', kmlUrl);
+  // Compose the GeoJSON file URL for the boundary
+  const geojsonFileName = localBody?.local_body_name_en ? encodeURIComponent(localBody.local_body_name_en.toLowerCase()) + '.geojson' : '';
+  const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson-repo/local-body-outline/${geojsonFileName}` : '';
+  if (geojsonFileName) {
+    console.log('MiniMap: Attempting to fetch GeoJSON file:', geojsonFileName);
+    console.log('MiniMap: Full GeoJSON path:', geojsonUrl);
   }
 
   const [isAddIssueModalOpen, setIsAddIssueModalOpen] = useState(false);
@@ -410,10 +410,10 @@ function LocalBodyDashboard() {
   const handleMapClick = () => {
     navigate('/map', {
       state: {
-        localBodyName: localBody?.name,
-        localBodyType: localBody?.type,
+        localBodyName: localBody?.local_body_name_en,
+        localBodyType: localBody?.local_body_type_en,
         localBodyData: localBody,
-        kmlUrl: kmlUrl
+        geojsonUrl: geojsonUrl
       }
     });
   };
@@ -524,34 +524,34 @@ function LocalBodyDashboard() {
         attribution: '',
       }).addTo(miniMap);
 
-      // --- Add KML boundary ---
-      if (window.omnivore && typeof kmlUrl === 'string' && kmlUrl.endsWith('.kml')) {
-        fetch(kmlUrl, { method: 'HEAD' })
+      // --- Add GeoJSON boundary ---
+      if (geojsonUrl) {
+        fetch(geojsonUrl)
           .then(response => {
             if (response.ok) {
-              console.log('MiniMap: KML file found at', kmlUrl);
-              const boundaryLayer = window.omnivore.kml(kmlUrl)
-                .on('ready', function() {
-                  this.eachLayer(function(layer) {
-                    layer.setStyle({
-                      color: '#1976d2',
-                      weight: 2,
-                      fillColor: '#1976d2',
-                      fillOpacity: 0.15
-                    });
-                  });
-                  const bounds = this.getBounds();
-                  if (bounds && bounds.isValid && bounds.isValid()) {
-                    miniMap.fitBounds(bounds, { padding: [5, 5] });
-                  }
-                })
-                .addTo(miniMap);
+              console.log('MiniMap: GeoJSON file found at', geojsonUrl);
+              return response.json();
             } else {
-              console.warn('MiniMap: KML file NOT found at', kmlUrl);
+              console.warn('MiniMap: GeoJSON file NOT found at', geojsonUrl);
+              throw new Error('GeoJSON not found');
+            }
+          })
+          .then(geojsonData => {
+            const boundaryLayer = window.L.geoJSON(geojsonData, {
+              style: {
+                color: '#1976d2',
+                weight: 2,
+                fillColor: '#1976d2',
+                fillOpacity: 0.15
+              }
+            }).addTo(miniMap);
+            const bounds = boundaryLayer.getBounds();
+            if (bounds && bounds.isValid && bounds.isValid()) {
+              miniMap.fitBounds(bounds, { padding: [5, 5] });
             }
           })
           .catch(err => {
-            console.error('MiniMap: Error checking KML file at', kmlUrl, err);
+            console.error('MiniMap: Error loading GeoJSON at', geojsonUrl, err);
           });
       }
 
@@ -594,8 +594,8 @@ function LocalBodyDashboard() {
           </div>
 
           {/* Mini Map Section */}
-          <div className="sidebar-section" style={{ minWidth: 220 }}>
-            <div id="mini-map" style={{ width: '100%', height: 180, borderRadius: 8, margin: '12px 0' }}></div>
+          <div className="sidebar-section" style={{ minWidth: 220, minHeight: 200 }}>
+            <div id="mini-map" style={{ width: '100%', height: 180, minHeight: 180, borderRadius: 8, margin: '12px 0', border: '2px solid #1976d2' }}></div>
           </div>
 
           {/* HKS Collection Rate Section */}
