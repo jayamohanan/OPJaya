@@ -163,21 +163,68 @@ function SeeMoreModal({ isOpen, onClose, sectionTitle, issues, loadingIssues }) 
   );
 }
 
+
 function LocalBodyDashboard() {
   const { state } = useLocation();
   const navigate = useNavigate();
-  
-  // Extract data from navigation state with better fallbacks
-  const localBodyData = state?.localBodyData || state || {};
-  const lbName = localBodyData.name || state?.localBodyName || state?.name || 'Unknown Local Body';
-  const lbType = localBodyData.type || state?.localBodyType || state?.type || 'GP';
-  const lsgCode = localBodyData.lsgCode || state?.lsgCode || '';
-  const district = localBodyData.district || state?.district || '';
-  const assembly = localBodyData.assembly || state?.assembly || '';
-  
-  // Get Malayalam name and type
-  const lbNameMalayalam = localBodyData.nameMalayalam || state?.nameMalayalam || state?.Name_std_ml || getMLNameFromEnglish(lbName) || lbName;
-  
+
+  // Extract IDs from navigation state
+  const localBodyId = state?.localBodyId || state?.id || '';
+  const assemblyId = state?.assemblyId || '';
+  const districtId = state?.districtId || '';
+  console.log('LocalBodyDashboard IDs:', { localBodyId, assemblyId, districtId });
+
+  // State for fetched data
+  const [localBody, setLocalBody] = useState(null); // { local_body_id, local_body_name_en, ... }
+  const [assembly, setAssembly] = useState(null); // { assembly_id, assembly_name_en, ... }
+  const [district, setDistrict] = useState(null); // { district_id, district_name_en, ... }
+
+  // Fetch local body, assembly, and district details
+  useEffect(() => {
+    async function fetchData() {
+      if (!localBodyId) return;
+      // Fetch local body with correct field names
+      const { data: lb, error: lbError } = await supabase
+        .from('local_body')
+        .select('local_body_id, local_body_name_en, local_body_type_en, local_body_name_ml, local_body_type_ml, block_name_en, district_panchayat_name_en, assembly_id, district_id')
+        .eq('local_body_id', localBodyId)
+        .single();
+      if (lbError || !lb) {
+        setLocalBody(null);
+        setAssembly(null);
+        setDistrict(null);
+        return;
+      }
+      setLocalBody(lb);
+
+      // Fetch assembly with correct field names
+      const { data: asm, error: asmError } = await supabase
+        .from('assembly')
+        .select('assembly_id, assembly_name_en, assembly_name_ml, district_id')
+        .eq('assembly_id', lb.assembly_id)
+        .single();
+      if (asmError || !asm) {
+        setAssembly(null);
+        setDistrict(null);
+        return;
+      }
+      setAssembly(asm);
+
+      // Fetch district with correct field names
+      const { data: dist, error: distError } = await supabase
+        .from('district')
+        .select('district_id, district_name_en, district_name_ml')
+        .eq('district_id', asm.district_id)
+        .single();
+      if (distError || !dist) {
+        setDistrict(null);
+        return;
+      }
+      setDistrict(dist);
+    }
+    fetchData();
+  }, [localBodyId]);
+
   // Malayalam type mapping
   const getTypeInMalayalam = (type) => {
     const typeMapping = {
@@ -186,15 +233,15 @@ function LocalBodyDashboard() {
       'Corporation': 'കോർപ്പറേഷൻ',
       'Grama Panchayat': 'ഗ്രാമപഞ്ചായത്ത്',
       'municipality': 'മുനിസിപ്പാലിറ്റി',
-      'corporation': 'കോർപ്പറേഷൻ'
+      'corporation': 'കോർപ്പറേഷൻ',
+      'Block Panchayat': 'ബ്ലോക്ക് പഞ്ചായത്ത്',
+      'District Panchayat': 'ജില്ലാ പഞ്ചായത്ത്'
     };
     return typeMapping[type] || type;
   };
-  
-  const lbTypeMalayalam = getTypeInMalayalam(lbType);
 
   // Compose the KML file URL for the boundary
-  const kmlFileName = encodeURIComponent(lbName) + '.kml';
+  const kmlFileName = encodeURIComponent(localBody?.local_body_name_en || '') + '.kml';
   const kmlUrl = `${process.env.PUBLIC_URL}/Local_Body_Outline/${kmlFileName}`;
 
   const [isAddIssueModalOpen, setIsAddIssueModalOpen] = useState(false);
@@ -303,17 +350,17 @@ function LocalBodyDashboard() {
 
   // Fetch issues for a specific section
   const fetchIssuesForSection = async (sectionTitle) => {
-    if (!lsgCode) return;
-    
+    if (!localBody || !localBody.lsg_code) return;
+
     const folderName = sectionToFolder(sectionTitle);
     if (!folderName) return;
 
     setLoadingIssues(prev => ({ ...prev, [sectionTitle]: true }));
 
     try {
-      const basePath = `https://pub-1560e47becfe44d3abc923d667d603c2.r2.dev/issues/${lsgCode}/${folderName}`;
+      const basePath = `https://pub-1560e47becfe44d3abc923d667d603c2.r2.dev/issues/${localBody.lsg_code}/${folderName}`;
       const sampleIssues = await fetchKnownIssues(basePath);
-      
+
       setIssues(prev => ({
         ...prev,
         [sectionTitle]: sampleIssues
@@ -359,9 +406,9 @@ function LocalBodyDashboard() {
   const handleMapClick = () => {
     navigate('/map', {
       state: {
-        localBodyName: lbName,
-        localBodyType: lbType,
-        localBodyData: localBodyData,
+        localBodyName: localBody?.name,
+        localBodyType: localBody?.type,
+        localBodyData: localBody,
         kmlUrl: kmlUrl
       }
     });
@@ -438,7 +485,7 @@ function LocalBodyDashboard() {
     }, 100);
     
     return () => clearTimeout(timer);
-  }, [lbName, district]);
+  }, [localBody?.name, district]);
 
   const initMiniMap = () => {
     const miniMapElement = document.getElementById('mini-map');
@@ -505,18 +552,7 @@ function LocalBodyDashboard() {
     };
   }, []);
 
-  // New state to hold local bodies data
-  const [localBodies, setLocalBodies] = useState([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      const { data, error } = await supabase
-        .from('local_bodies')
-        .select('*');
-      if (!error) setLocalBodies(data);
-    }
-    fetchData();
-  }, []);
+  // Remove old local_bodies fetch (not needed with normalized schema)
 
   return (
     <div className="dashboard-container">
@@ -530,13 +566,13 @@ function LocalBodyDashboard() {
           {/* Local Body Name Header */}
           <div className="sidebar-section">
             <div className="local-body-header">
-              <h2 className="local-body-name malayalam-text">{lbNameMalayalam}</h2>
-              <div className="local-body-type malayalam-text">{lbTypeMalayalam}</div>
+              <h2 className="local-body-name malayalam-text">{localBody?.local_body_name_ml || getMLNameFromEnglish(localBody?.local_body_name_en) || localBody?.local_body_name_en || 'Unknown Local Body'}</h2>
+              <div className="local-body-type malayalam-text">{getTypeInMalayalam(localBody?.local_body_type_en)}</div>
               <div className="local-body-assembly malayalam-text">
-                {localBodyData['Assembly(s)']}
+                {assembly?.assembly_name_ml || assembly?.assembly_name_en || ''}
               </div>
               <div className="local-body-district">
-                {localBodyData['District']}
+                {district?.district_name_ml || district?.district_name_en || ''}
               </div>
             </div>
           </div>
@@ -592,7 +628,7 @@ function LocalBodyDashboard() {
             <div className="sidebar-stats">
               <div className="stat-item">
                 <span className="stat-label">Type</span>
-                <span className="stat-value" style={{ fontSize: '0.8rem' }}>{lbType}</span>
+                <span className="stat-value" style={{ fontSize: '0.8rem' }}>{localBody?.local_body_type_en}</span>
               </div>
               {district && (
                 <div className="stat-item">
@@ -600,9 +636,9 @@ function LocalBodyDashboard() {
                   <span
                     className="stat-value clickable-link"
                     style={{ fontSize: '0.8rem' }}
-                    onClick={() => navigate(`/district/${district}`)}
+                    onClick={() => navigate(`/district/${district.district_name_en}`)}
                   >
-                    {district}
+                    {district.district_name_en}
                   </span>
                 </div>
               )}
@@ -612,18 +648,13 @@ function LocalBodyDashboard() {
                   <span
                     className="stat-value clickable-link"
                     style={{ fontSize: '0.8rem' }}
-                    onClick={() => navigate(`/assembly/${assembly}`)}
+                    onClick={() => navigate(`/assembly/${assembly.assembly_name_en}`)}
                   >
-                    {assembly}
+                    {assembly.assembly_name_en}
                   </span>
                 </div>
               )}
-              {lsgCode && (
-                <div className="stat-item">
-                  <span className="stat-label">LSG Code</span>
-                  <span className="stat-value" style={{ fontSize: '0.8rem', fontFamily: 'monospace' }}>{lsgCode}</span>
-                </div>
-              )}
+              {/* No LSG Code in new schema, remove if not needed */}
             </div>
           </div>
 
@@ -770,7 +801,7 @@ function LocalBodyDashboard() {
       <AddIssueModal
         isOpen={isAddIssueModalOpen}
         onClose={() => setIsAddIssueModalOpen(false)}
-        localBodyData={localBodyData}
+        localBodyData={localBody}
       />
 
       {/* See More Modal - All Issues */}

@@ -4,34 +4,51 @@ import { supabase } from '../supabaseClient';
 
 function DistrictPage() {
   const { districtName } = useParams();
-  const [assemblies, setAssemblies] = useState([]);
-  const [otherDistricts, setOtherDistricts] = useState([]);
+  const [assemblies, setAssemblies] = useState([]); // [{ id, name }]
+  const [otherDistricts, setOtherDistricts] = useState([]); // [{ id, name }]
+  const [district, setDistrict] = useState(null); // { id, name }
 
   useEffect(() => {
     async function fetchData() {
-      // Fetch all assemblies in this district
-      const { data: asms, error } = await supabase
-        .from('lb_data') // <-- updated table name
-        .select('Assembly, District')
-        .ilike('District', districtName);
-
-      if (error) {
-        console.error('Supabase fetch error:', error);
+      // Fetch district by name
+      const { data: districtData, error: districtError } = await supabase
+        .from('district')
+        .select('id, name')
+        .ilike('name', districtName)
+        .single();
+      if (districtError || !districtData) {
+        console.error('Supabase fetch error (district):', districtError);
+        setDistrict(null);
+        setAssemblies([]);
+        setOtherDistricts([]);
         return;
       }
+      setDistrict(districtData);
 
-      setAssemblies([...new Set(asms.map(d => d.Assembly))]);
+      // Fetch assemblies in this district
+      const { data: asms, error: asmError } = await supabase
+        .from('assembly')
+        .select('id, name')
+        .eq('district_id', districtData.id);
+      if (asmError) {
+        console.error('Supabase fetch error (assemblies):', asmError);
+        setAssemblies([]);
+      } else {
+        setAssemblies((asms || []).sort((a, b) => a.name.localeCompare(b.name)));
+      }
 
       // Fetch all other districts
-      const { data: all, error: error2 } = await supabase
-        .from('lb_data') // <-- updated table name
-        .select('District');
-
-      if (!error2) {
-        const dists = all
-          .map(d => d.District)
-          .filter(d => d && d.toLowerCase() !== districtName.toLowerCase());
-        setOtherDistricts([...new Set(dists)]);
+      const { data: allDistricts, error: allDistError } = await supabase
+        .from('district')
+        .select('id, name');
+      if (allDistError) {
+        setOtherDistricts([]);
+      } else {
+        setOtherDistricts(
+          (allDistricts || [])
+            .filter(d => d.id !== districtData.id)
+            .sort((a, b) => a.name.localeCompare(b.name))
+        );
       }
     }
     fetchData();
@@ -39,14 +56,14 @@ function DistrictPage() {
 
   return (
     <div style={{ padding: 40 }}>
-      <h1>District: {districtName}</h1>
+      <h1>District: {district ? district.name : districtName}</h1>
       <div>
         <strong>Assemblies in this District:</strong><br />
-        {assemblies.length > 0 ? assemblies.join(', ') : 'None'}
+        {assemblies.length > 0 ? assemblies.map(a => a.name).join(', ') : 'None'}
       </div>
       <div style={{ marginTop: 16 }}>
         <strong>Other Districts:</strong><br />
-        {otherDistricts.length > 0 ? otherDistricts.join(', ') : 'None'}
+        {otherDistricts.length > 0 ? otherDistricts.map(d => d.name).join(', ') : 'None'}
       </div>
     </div>
   );
