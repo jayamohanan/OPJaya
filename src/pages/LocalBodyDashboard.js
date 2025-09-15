@@ -241,8 +241,12 @@ function LocalBodyDashboard() {
   };
 
   // Compose the KML file URL for the boundary
-  const kmlFileName = encodeURIComponent(localBody?.local_body_name_en || '') + '.kml';
-  const kmlUrl = `${process.env.PUBLIC_URL}/Local_Body_Outline/${kmlFileName}`;
+  const kmlFileName = localBody?.local_body_name_en ? encodeURIComponent(localBody.local_body_name_en.toLowerCase()) + '.kml' : '';
+  const kmlUrl = kmlFileName ? `${process.env.PUBLIC_URL}/Local_Body_Outline/${kmlFileName}` : '';
+  if (kmlFileName) {
+    console.log('MiniMap: Attempting to fetch KML file:', kmlFileName);
+    console.log('MiniMap: Full KML path:', kmlUrl);
+  }
 
   const [isAddIssueModalOpen, setIsAddIssueModalOpen] = useState(false);
   const [issues, setIssues] = useState({});
@@ -477,15 +481,15 @@ function LocalBodyDashboard() {
   };
 
   useEffect(() => {
-    // Load mini map after component mounts
+    // Only load mini map if localBody and local_body_name_en are available
+    if (!localBody?.local_body_name_en) return;
     const timer = setTimeout(() => {
       if (window.L && !window.miniMapInitialized) {
         initMiniMap();
       }
     }, 100);
-    
     return () => clearTimeout(timer);
-  }, [localBody?.name, district]);
+  }, [localBody?.local_body_name_en, district]);
 
   const initMiniMap = () => {
     const miniMapElement = document.getElementById('mini-map');
@@ -522,21 +526,33 @@ function LocalBodyDashboard() {
 
       // --- Add KML boundary ---
       if (window.omnivore && typeof kmlUrl === 'string' && kmlUrl.endsWith('.kml')) {
-        const boundaryLayer = window.omnivore.kml(kmlUrl)
-          .on('ready', function() {
-            // Style the boundary
-            this.eachLayer(function(layer) {
-              layer.setStyle({
-                color: '#1976d2',
-                weight: 2,
-                fillColor: '#1976d2',
-                fillOpacity: 0.15
-              });
-            });
-            // Fit map to boundary
-            miniMap.fitBounds(this.getBounds(), { padding: [5, 5] });
+        fetch(kmlUrl, { method: 'HEAD' })
+          .then(response => {
+            if (response.ok) {
+              console.log('MiniMap: KML file found at', kmlUrl);
+              const boundaryLayer = window.omnivore.kml(kmlUrl)
+                .on('ready', function() {
+                  this.eachLayer(function(layer) {
+                    layer.setStyle({
+                      color: '#1976d2',
+                      weight: 2,
+                      fillColor: '#1976d2',
+                      fillOpacity: 0.15
+                    });
+                  });
+                  const bounds = this.getBounds();
+                  if (bounds && bounds.isValid && bounds.isValid()) {
+                    miniMap.fitBounds(bounds, { padding: [5, 5] });
+                  }
+                })
+                .addTo(miniMap);
+            } else {
+              console.warn('MiniMap: KML file NOT found at', kmlUrl);
+            }
           })
-          .addTo(miniMap);
+          .catch(err => {
+            console.error('MiniMap: Error checking KML file at', kmlUrl, err);
+          });
       }
 
       window.miniMapInitialized = true;
@@ -575,6 +591,11 @@ function LocalBodyDashboard() {
                 {district?.district_name_ml || district?.district_name_en || ''}
               </div>
             </div>
+          </div>
+
+          {/* Mini Map Section */}
+          <div className="sidebar-section" style={{ minWidth: 220 }}>
+            <div id="mini-map" style={{ width: '100%', height: 180, borderRadius: 8, margin: '12px 0' }}></div>
           </div>
 
           {/* HKS Collection Rate Section */}

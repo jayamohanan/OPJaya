@@ -207,7 +207,7 @@ function Home() {
             </select>
           </div>
 
-          {console.log('View Dashboard button disabled:', !selectedLocalBodyId)}
+
           <button
             onClick={handleSubmit}
             disabled={!selectedLocalBodyId}
