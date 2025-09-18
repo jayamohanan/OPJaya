@@ -240,14 +240,6 @@ function LocalBodyDashboard() {
     return typeMapping[type] || type;
   };
 
-  // Compose the GeoJSON file URL for the boundary
-  const geojsonFileName = localBody?.local_body_name_en ? encodeURIComponent(localBody.local_body_name_en.toLowerCase()) + '.geojson' : '';
-  const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson-repo/local-body-outline/${geojsonFileName}` : '';
-  if (geojsonFileName) {
-    console.log('MiniMap: Attempting to fetch GeoJSON file:', geojsonFileName);
-    console.log('MiniMap: Full GeoJSON path:', geojsonUrl);
-  }
-
   const [isAddIssueModalOpen, setIsAddIssueModalOpen] = useState(false);
   const [issues, setIssues] = useState({});
   const [loadingIssues, setLoadingIssues] = useState({});
@@ -408,12 +400,12 @@ function LocalBodyDashboard() {
   };
 
   const handleMapClick = () => {
+    // Remove geojsonUrl from state, as it is no longer defined or used
     navigate('/map', {
       state: {
         localBodyName: localBody?.local_body_name_en,
         localBodyType: localBody?.local_body_type_en,
-        localBodyData: localBody,
-        geojsonUrl: geojsonUrl
+        localBodyData: localBody
       }
     });
   };
@@ -480,96 +472,6 @@ function LocalBodyDashboard() {
     return malayalamRegex.test(text);
   };
 
-  useEffect(() => {
-    // Only load mini map if localBody and local_body_name_en are available
-    if (!localBody?.local_body_name_en) return;
-    const timer = setTimeout(() => {
-      if (window.L && !window.miniMapInitialized) {
-        initMiniMap();
-      }
-    }, 100);
-    return () => clearTimeout(timer);
-  }, [localBody?.local_body_name_en, district]);
-
-  const initMiniMap = () => {
-    const miniMapElement = document.getElementById('mini-map');
-    if (!miniMapElement) return;
-
-    // Remove any previous map instance
-    if (miniMapElement._leaflet_id) {
-      miniMapElement._leaflet_id = null;
-      miniMapElement.innerHTML = '';
-    }
-
-    try {
-      // Default Kerala center (will fit to boundary after loading)
-      const lat = 10.8505;
-      const lng = 76.2711;
-
-      // Initialize Leaflet map
-      const miniMap = window.L.map('mini-map', {
-        center: [lat, lng],
-        zoom: 10,
-        zoomControl: false,
-        scrollWheelZoom: false,
-        doubleClickZoom: false,
-        boxZoom: false,
-        keyboard: false,
-        dragging: false,
-        touchZoom: false,
-        attributionControl: false
-      });
-
-      window.L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-        attribution: '',
-      }).addTo(miniMap);
-
-      // --- Add GeoJSON boundary ---
-      if (geojsonUrl) {
-        fetch(geojsonUrl)
-          .then(response => {
-            if (response.ok) {
-              console.log('MiniMap: GeoJSON file found at', geojsonUrl);
-              return response.json();
-            } else {
-              console.warn('MiniMap: GeoJSON file NOT found at', geojsonUrl);
-              throw new Error('GeoJSON not found');
-            }
-          })
-          .then(geojsonData => {
-            const boundaryLayer = window.L.geoJSON(geojsonData, {
-              style: {
-                color: '#1976d2',
-                weight: 2,
-                fillColor: '#1976d2',
-                fillOpacity: 0.15
-              }
-            }).addTo(miniMap);
-            const bounds = boundaryLayer.getBounds();
-            if (bounds && bounds.isValid && bounds.isValid()) {
-              miniMap.fitBounds(bounds, { padding: [5, 5] });
-            }
-          })
-          .catch(err => {
-            console.error('MiniMap: Error loading GeoJSON at', geojsonUrl, err);
-          });
-      }
-
-      window.miniMapInitialized = true;
-    } catch (error) {
-      console.log('Mini map initialization failed:', error);
-    }
-  };
-
-  // Cleanup when component unmounts
-  useEffect(() => {
-    return () => {
-      window.miniMapInitialized = false;
-    };
-  }, []);
-
-  // Remove old local_bodies fetch (not needed with normalized schema)
-
   return (
     <div className="dashboard-container">
       {/* Universal Top Navigation Bar */}
@@ -591,11 +493,6 @@ function LocalBodyDashboard() {
                 {district?.district_name_ml || district?.district_name_en || ''}
               </div>
             </div>
-          </div>
-
-          {/* Mini Map Section */}
-          <div className="sidebar-section" style={{ minWidth: 220, minHeight: 200 }}>
-            <div id="mini-map" style={{ width: '100%', height: 180, minHeight: 180, borderRadius: 8, margin: '12px 0', border: '2px solid #1976d2' }}></div>
           </div>
 
           {/* HKS Collection Rate Section */}
