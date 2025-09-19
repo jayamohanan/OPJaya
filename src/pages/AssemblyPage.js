@@ -1,11 +1,13 @@
 import { useParams } from 'react-router-dom';
-import { useEffect, useState } from 'react';
+import { useEffect, useState, useContext } from 'react';
 import { supabase } from '../supabaseClient';
 import RankingSection from '../components/RankingSection';
+import { LanguageContext } from '../components/LanguageContext';
 
 
 function AssemblyPage() {
-  const { assemblyName } = useParams();
+  const { assemblyName: assemblyId } = useParams();
+  const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const [rankedLocalBodies, setRankedLocalBodies] = useState([]); // [{ id, name, category }]
   const [otherAssemblies, setOtherAssemblies] = useState([]); // [{ id, name }]
   const [district, setDistrict] = useState('');
@@ -13,11 +15,11 @@ function AssemblyPage() {
 
   useEffect(() => {
     async function fetchData() {
-      // Fetch assembly by name
+      // Fetch assembly by ID (get both _ml and _en)
       const { data: assemblyData, error: assemblyError } = await supabase
         .from('assembly')
-        .select('assembly_id, assembly_name_en, district_id')
-        .ilike('assembly_name_en', assemblyName)
+        .select('assembly_id, assembly_name_en, assembly_name_ml, district_id')
+        .eq('assembly_id', assemblyId)
         .single();
       if (assemblyError || !assemblyData) {
         setRankedLocalBodies([]);
@@ -28,24 +30,27 @@ function AssemblyPage() {
       }
       setAssembly(assemblyData);
 
-      // Fetch district name
+      // Fetch district name (get both _ml and _en)
       let districtName = '';
       if (assemblyData.district_id) {
         const { data: districtData, error: districtError } = await supabase
           .from('district')
-          .select('district_name_en')
+          .select('district_name_en, district_name_ml')
           .eq('district_id', assemblyData.district_id)
           .single();
         if (!districtError && districtData) {
-          districtName = districtData.district_name_en;
+          districtName =
+            lang === 'ml'
+              ? (districtData.district_name_ml || districtData.district_name_en)
+              : (districtData.district_name_en || districtData.district_name_ml);
         }
       }
       setDistrict(districtName);
 
-      // Fetch all local bodies in this assembly with their category
+      // Fetch all local bodies in this assembly with their category (get both _ml and _en)
       const { data: lbs, error: lbError } = await supabase
         .from('local_body')
-        .select('local_body_id, local_body_name_en, local_body_category(category)')
+        .select('local_body_id, local_body_name_en, local_body_name_ml, local_body_category(category)')
         .eq('assembly_id', assemblyData.assembly_id);
       if (lbError) {
         setRankedLocalBodies([]);
@@ -64,17 +69,21 @@ function AssemblyPage() {
         ]);
       }
 
-      // Fetch all other assemblies in the same district
+      // Fetch all other assemblies in the same district (get both _ml and _en)
       if (assemblyData.district_id) {
         const { data: allInDistrict, error: error2 } = await supabase
           .from('assembly')
-          .select('assembly_id, assembly_name_en')
+          .select('assembly_id, assembly_name_en, assembly_name_ml')
           .eq('district_id', assemblyData.district_id);
         if (!error2 && allInDistrict) {
           setOtherAssemblies(
             allInDistrict
-              .filter(a => a.assembly_name_en.toLowerCase() !== assemblyName.toLowerCase())
-              .sort((a, b) => a.assembly_name_en.localeCompare(b.assembly_name_en))
+              .filter(a => a.assembly_id !== assemblyId)
+              .sort((a, b) => {
+                const aName = lang === 'ml' ? (a.assembly_name_ml || a.assembly_name_en) : (a.assembly_name_en || a.assembly_name_ml);
+                const bName = lang === 'ml' ? (b.assembly_name_ml || b.assembly_name_en) : (b.assembly_name_en || b.assembly_name_ml);
+                return aName.localeCompare(bName);
+              })
           );
         } else {
           setOtherAssemblies([]);
@@ -82,12 +91,15 @@ function AssemblyPage() {
       }
     }
     fetchData();
-  }, [assemblyName]);
+  }, [assemblyId, lang]);
 
   // Prepare items for RankingSection
   const rankingItems = rankedLocalBodies.map(lb => ({
     id: lb.local_body_id,
-    name: lb.local_body_name_en,
+    name:
+      lang === 'ml'
+        ? (lb.local_body_name_ml || lb.local_body_name_en)
+        : (lb.local_body_name_en || lb.local_body_name_ml),
     category: lb.local_body_category?.category || 'Normal'
   }));
 
@@ -99,15 +111,32 @@ function AssemblyPage() {
 
   return (
     <div style={{ padding: 40 }}>
-      <h1 style={{ marginBottom: 24 }}>Assembly: {assemblyName}</h1>
+      <h1 style={{ marginBottom: 24 }}>
+        Assembly: {lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
+      </h1>
       <RankingSection
-        title={assembly?.assembly_name_en + ' Ranking'}
+        title={
+          (lang === 'ml'
+            ? (assembly?.assembly_name_ml || assembly?.assembly_name_en)
+            : (assembly?.assembly_name_en || assembly?.assembly_name_ml)) + ' Ranking'
+        }
         items={rankingItems}
         categories={rankingCategories}
       />
       <div style={{ marginTop: 16 }}>
-        <strong>Other Assemblies in {district || 'this district'}:</strong><br />
-        {otherAssemblies.length > 0 ? otherAssemblies.map(a => a.assembly_name_en).join(', ') : 'None'}
+        <strong>
+          Other Assemblies in {district || 'this district'}:
+        </strong>
+        <br />
+        {otherAssemblies.length > 0
+          ? otherAssemblies
+              .map(a =>
+                lang === 'ml'
+                  ? (a.assembly_name_ml || a.assembly_name_en)
+                  : (a.assembly_name_en || a.assembly_name_ml)
+              )
+              .join(', ')
+          : 'None'}
       </div>
     </div>
   );

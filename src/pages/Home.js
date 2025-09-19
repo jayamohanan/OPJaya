@@ -1,10 +1,12 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { LanguageContext } from '../components/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 import TopNav from '../components/TopNav';
 import { supabase } from '../supabaseClient';
 import './Home.css';
 
 function Home() {
+  const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const navigate = useNavigate();
   const [districts, setDistricts] = useState([]); // [{ district_id, district_name_en, district_name_ml }]
   const [assemblies, setAssemblies] = useState([]); // [{ assembly_id, assembly_name_en, assembly_name_ml, district_id }]
@@ -151,7 +153,11 @@ function Home() {
                 <>
                   <option value="">-- Select District --</option>
                   {districts.map(district => (
-                    <option key={district.district_id} value={district.district_id}>{district.district_name_en}</option>
+                    <option key={district.district_id} value={district.district_id}>
+                      {lang === 'ml'
+                        ? (district.district_name_ml || district.district_name_en)
+                        : (district.district_name_en || district.district_name_ml)}
+                    </option>
                   ))}
                 </>
               )}
@@ -173,7 +179,11 @@ function Home() {
                 <>
                   <option value="">-- Select Assembly --</option>
                   {assemblies.map(assembly => (
-                    <option key={assembly.assembly_id} value={assembly.assembly_id}>{assembly.assembly_name_en}</option>
+                    <option key={assembly.assembly_id} value={assembly.assembly_id}>
+                      {lang === 'ml'
+                        ? (assembly.assembly_name_ml || assembly.assembly_name_en)
+                        : (assembly.assembly_name_en || assembly.assembly_name_ml)}
+                    </option>
                   ))}
                 </>
               )}
@@ -196,7 +206,13 @@ function Home() {
                   <option value="">-- Select Local Body --</option>
                   {localBodies.map(localBody => (
                     <option key={localBody.local_body_id} value={localBody.local_body_id}>
-                      {localBody.local_body_name_en} ({localBody.local_body_type?.type_name_en || ''})
+                      {lang === 'ml'
+                        ? (localBody.local_body_name_ml || localBody.local_body_name_en)
+                        : (localBody.local_body_name_en || localBody.local_body_name_ml)}
+                      {' '}
+                      ({lang === 'ml'
+                        ? (localBody.local_body_type?.type_name_ml || localBody.local_body_type?.type_name_en || '')
+                        : (localBody.local_body_type?.type_name_en || localBody.local_body_type?.type_name_ml || '')})
                     </option>
                   ))}
                 </>

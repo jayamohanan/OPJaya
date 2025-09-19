@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useContext } from 'react';
+import { LanguageContext } from '../components/LanguageContext';
 import { useLocation, useNavigate, Link } from 'react-router-dom';
 import AddIssueModal from '../components/AddIssueModal';
 import Footer from '../components/Footer';
@@ -165,6 +166,7 @@ function SeeMoreModal({ isOpen, onClose, sectionTitle, issues, loadingIssues }) 
 
 
 function LocalBodyDashboard() {
+  const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const { state } = useLocation();
   const navigate = useNavigate();
 
@@ -509,13 +511,25 @@ function LocalBodyDashboard() {
           {/* Local Body Name Header */}
           <div className="sidebar-section">
             <div className="local-body-header">
-              <h2 className="local-body-name malayalam-text">{localBody?.local_body_name_ml || getMLNameFromEnglish(localBody?.local_body_name_en) || localBody?.local_body_name_en || 'Unknown Local Body'}</h2>
-              <div className="local-body-type malayalam-text">{getTypeInMalayalam(localBody?.local_body_type_en)}</div>
+              <h2 className="local-body-name malayalam-text">
+                {lang === 'ml'
+                  ? (localBody?.local_body_name_ml || localBody?.local_body_name_en || 'Unknown Local Body')
+                  : (localBody?.local_body_name_en || localBody?.local_body_name_ml || 'Unknown Local Body')}
+              </h2>
+              <div className="local-body-type malayalam-text">
+                {lang === 'ml'
+                  ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
+                  : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
+              </div>
               <div className="local-body-assembly malayalam-text">
-                {assembly?.assembly_name_ml || assembly?.assembly_name_en || ''}
+                {lang === 'ml'
+                  ? (assembly?.assembly_name_ml || assembly?.assembly_name_en || '')
+                  : (assembly?.assembly_name_en || assembly?.assembly_name_ml || '')}
               </div>
               <div className="local-body-district">
-                {district?.district_name_ml || district?.district_name_en || ''}
+                {lang === 'ml'
+                  ? (district?.district_name_ml || district?.district_name_en || '')
+                  : (district?.district_name_en || district?.district_name_ml || '')}
               </div>
             </div>
           </div>
@@ -577,7 +591,11 @@ function LocalBodyDashboard() {
             <div className="sidebar-stats">
               <div className="stat-item">
                 <span className="stat-label">Type</span>
-                <span className="stat-value" style={{ fontSize: '0.8rem' }}>{localBody?.local_body_type_en}</span>
+                <span className="stat-value" style={{ fontSize: '0.8rem' }}>
+                  {lang === 'ml'
+                    ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
+                    : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
+                </span>
               </div>
               {district && (
                 <div className="stat-item">
@@ -585,9 +603,11 @@ function LocalBodyDashboard() {
                   <span
                     className="stat-value clickable-link"
                     style={{ fontSize: '0.8rem' }}
-                    onClick={() => navigate(`/district/${district.district_name_en}`)}
+                    onClick={() => navigate(`/district/${district?.district_id}`)}
                   >
-                    {district.district_name_en}
+                    {lang === 'ml'
+                      ? (district?.district_name_ml || district?.district_name_en || '')
+                      : (district?.district_name_en || district?.district_name_ml || '')}
                   </span>
                 </div>
               )}
@@ -597,9 +617,11 @@ function LocalBodyDashboard() {
                   <span
                     className="stat-value clickable-link"
                     style={{ fontSize: '0.8rem' }}
-                    onClick={() => navigate(`/assembly/${assembly.assembly_name_en}`)}
+                    onClick={() => navigate(`/assembly/${assembly?.assembly_id}`)}
                   >
-                    {assembly.assembly_name_en}
+                    {lang === 'ml'
+                      ? (assembly?.assembly_name_ml || assembly?.assembly_name_en || '')
+                      : (assembly?.assembly_name_en || assembly?.assembly_name_ml || '')}
                   </span>
                 </div>
               )}
@@ -809,26 +831,6 @@ function LocalBodyDashboard() {
   );
 }
 
-// Add this function before the main component
-const getMLNameFromEnglish = (englishName) => {
-  const nameMapping = {
-    'thrithala': 'തൃത്താല',
-    'Thrithala': 'തൃത്താല',
-    'trithala': 'തൃത്താല',
-    'yeroor': 'ഏരൂര്‍',
-    'Yeroor': 'ഏരൂര്‍',
-    'anchal': 'ആഞ്ചല്‍',
-    'Anchal': 'ആഞ്ചല്‍',
-    'kollam': 'കൊല്ലം',
-    'Kollam': 'കൊല്ലം',
-    'thiruvananthapuram': 'തിരുവനന്തപുരം',
-    'Thiruvananthapuram': 'തിരുവനന്തപുരം',
-    'kochi': 'കൊച്ചി',
-    'Kochi': 'കൊച്ചി',
-    'kozhikode': 'കോഴിക്കോട്',
-    'Kozhikode': 'കോഴിക്കോട്'
-  };
-  return nameMapping[englishName] || null;
-};
+
 
 export default LocalBodyDashboard;
