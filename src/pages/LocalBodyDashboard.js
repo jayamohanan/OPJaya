@@ -274,7 +274,7 @@ function LocalBodyDashboard() {
       // 1. Get all ward_ids for the local body
       const { data: wards, error: wardError } = await supabase
         .from('ward')
-        .select('ward_id, ward_name_ml, ward_no')
+        .select('ward_id, ward_name_en, ward_name_ml, ward_no')
         .eq('local_body_id', localBody.local_body_id);
 
       if (!wards) return;
@@ -301,7 +301,10 @@ function LocalBodyDashboard() {
 
       const mapped = Object.values(latestByWard)
         .map(item => ({
-          name: `${wardMap[item.ward_id].ward_name_ml} (വാർഡ് ${wardMap[item.ward_id].ward_no})`,
+          name:
+            lang === 'ml'
+              ? `${wardMap[item.ward_id].ward_name_ml || wardMap[item.ward_id].ward_name_en} (വാർഡ് ${wardMap[item.ward_id].ward_no})`
+              : `${wardMap[item.ward_id].ward_name_en || wardMap[item.ward_id].ward_name_ml} (Ward ${wardMap[item.ward_id].ward_no})`,
           rate: item.rate
         }))
         .sort((a, b) => a.rate - b.rate);
