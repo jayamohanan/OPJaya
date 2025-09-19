@@ -1,70 +1,62 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
+import RankingSection from '../components/RankingSection';
 
 function DistrictPage() {
   const { districtName } = useParams();
-  const [assemblies, setAssemblies] = useState([]); // [{ id, name }]
-  const [otherDistricts, setOtherDistricts] = useState([]); // [{ id, name }]
-  const [district, setDistrict] = useState(null); // { id, name }
+  const [assemblies, setAssemblies] = useState([]); // [{ id, name, category }]
+  const [district, setDistrict] = useState(null);
 
   useEffect(() => {
     async function fetchData() {
       // Fetch district by name
       const { data: districtData, error: districtError } = await supabase
         .from('district')
-        .select('id, name')
-        .ilike('name', districtName)
+        .select('district_id, district_name_en')
+        .ilike('district_name_en', districtName)
         .single();
       if (districtError || !districtData) {
-        console.error('Supabase fetch error (district):', districtError);
-        setDistrict(null);
         setAssemblies([]);
-        setOtherDistricts([]);
+        setDistrict(null);
         return;
       }
       setDistrict(districtData);
 
-      // Fetch assemblies in this district
+      // Fetch all assemblies in this district with their category
       const { data: asms, error: asmError } = await supabase
         .from('assembly')
-        .select('id, name')
-        .eq('district_id', districtData.id);
+        .select('assembly_id, assembly_name_en, assembly_category(category)')
+        .eq('district_id', districtData.district_id);
       if (asmError) {
-        console.error('Supabase fetch error (assemblies):', asmError);
         setAssemblies([]);
       } else {
-        setAssemblies((asms || []).sort((a, b) => a.name.localeCompare(b.name)));
-      }
-
-      // Fetch all other districts
-      const { data: allDistricts, error: allDistError } = await supabase
-        .from('district')
-        .select('id, name');
-      if (allDistError) {
-        setOtherDistricts([]);
-      } else {
-        setOtherDistricts(
-          (allDistricts || [])
-            .filter(d => d.id !== districtData.id)
-            .sort((a, b) => a.name.localeCompare(b.name))
+        setAssemblies(
+          (asms || []).map(a => ({
+            id: a.assembly_id,
+            name: a.assembly_name_en,
+            category: a.assembly_category?.category || 'Normal'
+          }))
         );
       }
     }
     fetchData();
   }, [districtName]);
 
+  const rankingCategories = [
+    { key: 'Perfect', label: '🏅 Perfect', color: '#43a047', bg: '#e8f5e9' },
+    { key: 'Good', label: '🥇 Good', color: '#fbc02d', bg: '#fffde7' },
+    { key: 'Normal', label: '🥈 Normal', color: '#90a4ae', bg: '#eceff1' }
+  ];
+
   return (
     <div style={{ padding: 40 }}>
-      <h1>District: {district ? district.name : districtName}</h1>
-      <div>
-        <strong>Assemblies in this District:</strong><br />
-        {assemblies.length > 0 ? assemblies.map(a => a.name).join(', ') : 'None'}
-      </div>
-      <div style={{ marginTop: 16 }}>
-        <strong>Other Districts:</strong><br />
-        {otherDistricts.length > 0 ? otherDistricts.map(d => d.name).join(', ') : 'None'}
-      </div>
+      <h1 style={{ marginBottom: 24 }}>District: {districtName}</h1>
+      <RankingSection
+        title={(district?.district_name_en || districtName) + ' Assembly Ranking'}
+        items={assemblies}
+        categories={rankingCategories}
+      />
     </div>
   );
 }

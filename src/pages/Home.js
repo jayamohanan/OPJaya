@@ -8,7 +8,7 @@ function Home() {
   const navigate = useNavigate();
   const [districts, setDistricts] = useState([]); // [{ district_id, district_name_en, district_name_ml }]
   const [assemblies, setAssemblies] = useState([]); // [{ assembly_id, assembly_name_en, assembly_name_ml, district_id }]
-  const [localBodies, setLocalBodies] = useState([]); // [{ local_body_id, local_body_name_en, local_body_type_en, ... }]
+  const [localBodies, setLocalBodies] = useState([]); // [{ local_body_id, local_body_name_en, local_body_type: { type_name_en, type_name_ml }, ... }]
 
   const [selectedDistrictId, setSelectedDistrictId] = useState('');
   const [selectedAssemblyId, setSelectedAssemblyId] = useState('');
@@ -22,6 +22,7 @@ function Home() {
   // Fetch all districts on mount (from 'district' table)
   useEffect(() => {
     async function fetchDistricts() {
+      console.log('fetchDistricts called');
       setLoadingDistricts(true);
       const { data, error } = await supabase
         .from('district')
@@ -59,16 +60,16 @@ function Home() {
       }
       fetchAssemblies();
     }
-  }, [selectedDistrictId]);
+  }, [selectedDistrictId])
 
-  // Fetch local bodies when assembly changes (from 'local_body' table)
+  // Fetch local bodies when assembly changes (from 'local_body' table, join local_body_type)
   useEffect(() => {
     if (selectedAssemblyId && selectedDistrictId) {
       async function fetchLocalBodies() {
         setLoadingLocalBodies(true);
         const { data, error } = await supabase
           .from('local_body')
-          .select('local_body_id, local_body_name_en, local_body_type_en, block_name_en, district_panchayat_name_en, local_body_name_ml, local_body_type_ml, assembly_id, district_id')
+          .select('local_body_id, local_body_name_en, local_body_name_ml, block_name_en, district_panchayat_name_en, assembly_id, type_id, local_body_type(type_name_en, type_name_ml)')
           .eq('assembly_id', selectedAssemblyId);
         if (error) {
           console.error("Error fetching local bodies from Supabase:", error);
@@ -77,13 +78,11 @@ function Home() {
             .map(row => ({
               local_body_id: row.local_body_id,
               local_body_name_en: row.local_body_name_en?.trim(),
-              local_body_type_en: row.local_body_type_en?.trim(),
+              local_body_type: row.local_body_type || {},
               block_name_en: row.block_name_en,
               district_panchayat_name_en: row.district_panchayat_name_en,
               local_body_name_ml: row.local_body_name_ml,
-              local_body_type_ml: row.local_body_type_ml,
-              assembly_id: row.assembly_id,
-              district_id: row.district_id
+              assembly_id: row.assembly_id
             }))
             .filter(lb => lb.local_body_name_en)
             .sort((a, b) => a.local_body_name_en.localeCompare(b.local_body_name_en));
@@ -98,19 +97,17 @@ function Home() {
 
   const handleSubmit = () => {
     if (selectedLocalBodyId) {
-
-      const localBodyData = localBodies.find(lb => lb.local_body_id === selectedLocalBodyId);
+  const localBodyData = localBodies.find(lb => lb.local_body_id === selectedLocalBodyId);
       const assemblyData = assemblies.find(a => a.assembly_id === selectedAssemblyId);
       const districtData = districts.find(d => d.district_id === selectedDistrictId);
-
       if (localBodyData && assemblyData && districtData) {
         navigate('/dashboard', {
           state: {
             localBodyId: localBodyData.local_body_id,
             localBodyName: localBodyData.local_body_name_en,
             nameMalayalam: localBodyData.local_body_name_ml || localBodyData.local_body_name_en,
-            localBodyType: localBodyData.local_body_type_en,
-            localBodyTypeML: localBodyData.local_body_type_ml,
+            localBodyType: localBodyData.local_body_type.type_name_en || '',
+            localBodyTypeML: localBodyData.local_body_type.type_name_ml || '',
             blockName: localBodyData.block_name_en,
             districtPanchayatName: localBodyData.district_panchayat_name_en,
             districtId: districtData.district_id,
@@ -199,7 +196,7 @@ function Home() {
                   <option value="">-- Select Local Body --</option>
                   {localBodies.map(localBody => (
                     <option key={localBody.local_body_id} value={localBody.local_body_id}>
-                      {localBody.local_body_name_en} ({localBody.local_body_type_en})
+                      {localBody.local_body_name_en} ({localBody.local_body_type?.type_name_en || ''})
                     </option>
                   ))}
                 </>

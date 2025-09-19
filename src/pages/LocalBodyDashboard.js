@@ -15,7 +15,7 @@ const sections = [
   { title: 'Infrastructure' }
 ];
 
-const tiles = [
+const tiles = [   
   {
     name: 'Sample Tile 1',
     description: 'Description for tile 1',
@@ -172,7 +172,6 @@ function LocalBodyDashboard() {
   const localBodyId = state?.localBodyId || state?.id || '';
   const assemblyId = state?.assemblyId || '';
   const districtId = state?.districtId || '';
-  console.log('LocalBodyDashboard IDs:', { localBodyId, assemblyId, districtId });
 
   // State for fetched data
   const [localBody, setLocalBody] = useState(null); // { local_body_id, local_body_name_en, ... }
@@ -186,7 +185,7 @@ function LocalBodyDashboard() {
       // Fetch local body with correct field names
       const { data: lb, error: lbError } = await supabase
         .from('local_body')
-        .select('local_body_id, local_body_name_en, local_body_type_en, local_body_name_ml, local_body_type_ml, block_name_en, district_panchayat_name_en, assembly_id, district_id')
+        .select('local_body_id, local_body_name_en, local_body_name_ml, block_name_en, district_panchayat_name_en, assembly_id, type_id, local_body_type(type_name_en, type_name_ml)')
         .eq('local_body_id', localBodyId)
         .single();
       if (lbError || !lb) {
@@ -260,32 +259,58 @@ function LocalBodyDashboard() {
   });
 
   // HKS Collection Rate state
+  const [hksCollectionRates, setHksCollectionRates] = useState([]);
   const [showAllHKSRates, setShowAllHKSRates] = useState(false);
+  const [loadingHKSRates, setLoadingHKSRates] = useState(false);
 
-  // HKS Collection Rate data (hardcoded for now)
-  const hksCollectionRates = [
-    { name: 'മുടവന്നൂര്‍ (വാർഡ് 12)', rate: 59 },
-    { name: 'തലയണപ്പറമ്പ് (വാർഡ് 6)', rate: 62 },
-    { name: 'തുരുത്ത് (വാർഡ് 16)', rate: 63 },
-    { name: 'മാട്ടായ (വാർഡ് 10)', rate: 67 },
-    { name: 'കര്യേയില്‍ (വാർഡ് 14)', rate: 72 },
-    { name: 'ഞാങ്ങാട്ടിരി (വാർഡ് 8)', rate: 74 },
-    { name: 'തച്ചറംക്കുന്ന് (വാർഡ് 3)', rate: 77 },
-    { name: 'മേഴത്തൂര്‍ (വാർഡ് 15)', rate: 81 },
-    { name: 'വെള്ളിയാങ്കല്ല് (വാർഡ് 1)', rate: 83 },
-    { name: 'തോട്ടപ്പായ (വാർഡ് 7)', rate: 86 },
-    { name: 'വരണ്ടുകുറ്റിക്കടവ് (വാർഡ് 4)', rate: 88 },
-    { name: 'കണ്ണന്നൂര്‍ (വാർഡ് 11)', rate: 89 },
-    { name: 'തൃത്താല (വാർഡ് 2)', rate: 91 },
-    { name: 'കൊഴിക്കോട്ടിരി (വാർഡ് 9)', rate: 92 },
-    { name: 'കോടനാട് (വാർഡ് 13)', rate: 94 },
-    { name: 'ഉള്ളന്നൂര്‍ (വാർഡ് 5)', rate: 95 },
-    { name: 'കുന്നത്തുകാവ് (വാർഡ് 17)', rate: 96 }
-  ];
+  // Fetch HKS Collection Rates from Supabase for the current local body
+  useEffect(() => {
+    console.log('Fetching HKS Collection Rates...');
+    async function fetchHKSRates() {
+      if (!localBody?.local_body_id) return;
+      setLoadingHKSRates(true);
+      // 1. Get all ward_ids for the local body
+      const { data: wards, error: wardError } = await supabase
+        .from('ward')
+        .select('ward_id, ward_name_ml, ward_no')
+        .eq('local_body_id', localBody.local_body_id);
 
-  // Sort in ascending order and get first 5
-  const sortedHKSRates = [...hksCollectionRates].sort((a, b) => a.rate - b.rate);
-  const displayedHKSRates = showAllHKSRates ? sortedHKSRates : sortedHKSRates.slice(0, 5);
+      if (!wards) return;
+
+      const wardIds = wards.map(w => w.ward_id);
+
+      // 2. Get all collections for those wards
+      const { data: collections, error: collectionError } = await supabase
+        .from('ward_collection')
+        .select('rate, year_month, ward_id')
+        .in('ward_id', wardIds);
+
+      // 3. Merge with ward info and pick latest per ward
+      const wardMap = {};
+      wards.forEach(w => { wardMap[w.ward_id] = w; });
+
+      const latestByWard = {};
+      (collections || []).forEach(item => {
+        if (!item.ward_id) return;
+        if (!latestByWard[item.ward_id] || new Date(item.year_month) > new Date(latestByWard[item.ward_id].year_month)) {
+          latestByWard[item.ward_id] = item;
+        }
+      });
+
+      const mapped = Object.values(latestByWard)
+        .map(item => ({
+          name: `${wardMap[item.ward_id].ward_name_ml} (വാർഡ് ${wardMap[item.ward_id].ward_no})`,
+          rate: item.rate
+        }))
+        .sort((a, b) => a.rate - b.rate);
+      setHksCollectionRates(mapped);
+      setLoadingHKSRates(false);
+    }
+    fetchHKSRates();
+  }, [localBody?.local_body_id]);
+
+  // Show all or first 5
+  const displayedHKSRates = showAllHKSRates ? hksCollectionRates : hksCollectionRates.slice(0, 5);
 
   // Toggle HKS rates view
   const toggleHKSRatesView = () => {
@@ -499,18 +524,24 @@ function LocalBodyDashboard() {
           <div className="sidebar-section">
             <div className="sidebar-title">HKS Collection Rate</div>
             <div className="hks-rates-container">
-              {displayedHKSRates.map((item, index) => (
-                <div key={index} className="hks-rate-item">
-                  <span className="hks-name malayalam-text">{item.name}</span>
-                  <span className="hks-rate">{item.rate}%</span>
-                </div>
-              ))}
-              <span 
-                className="see-more-hks-btn"
-                onClick={toggleHKSRatesView}
-              >
-                {showAllHKSRates ? 'Show Less' : 'See More'}
-              </span>
+              {loadingHKSRates ? (
+                <div>Loading...</div>
+              ) : (
+                <>
+                  {displayedHKSRates.map((item, index) => (
+                    <div key={index} className="hks-rate-item">
+                      <span className="hks-name malayalam-text">{item.name}</span>
+                      <span className="hks-rate">{item.rate}%</span>
+                    </div>
+                  ))}
+                  <span 
+                    className="see-more-hks-btn"
+                    onClick={toggleHKSRatesView}
+                  >
+                    {showAllHKSRates ? 'Show Less' : 'See More'}
+                  </span>
+                </>
+              )}
             </div>
           </div>
 
