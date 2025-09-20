@@ -8,8 +8,8 @@ The structure is designed for **clarity, modularity, and performance** in web de
 ## Folder Structure
 
 - **geojson/**
-  - **state/**
-    - **outline/**  
+  - **states/**
+    - **outlines/**  
       - Single file: outline of Kerala (one polygon).  
     - **with-districts/**  
       - Single file: Kerala with all districts included (FeatureCollection).  
