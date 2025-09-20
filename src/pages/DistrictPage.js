@@ -62,6 +62,7 @@ function DistrictPage() {
         }
         items={assemblies}
         categories={rankingCategories}
+        itemType="assembly"
       />
     </div>
   );

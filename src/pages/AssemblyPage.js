@@ -100,6 +100,7 @@ function AssemblyPage() {
       lang === 'ml'
         ? (lb.local_body_name_ml || lb.local_body_name_en)
         : (lb.local_body_name_en || lb.local_body_name_ml),
+    type: lb.local_body_type?.type_name_en || lb.local_body_type?.type_name_ml || '',
     category: lb.local_body_category?.category || 'Normal'
   }));
 
@@ -108,6 +109,20 @@ function AssemblyPage() {
     { key: 'Good', label: '🥇 Good', color: '#fbc02d', bg: '#fffde7' },
     { key: 'Normal', label: '🥈 Normal', color: '#90a4ae', bg: '#eceff1' }
   ];
+
+  // Pass parent assembly and district info for state
+  const parentAssembly = assembly
+    ? {
+        id: assembly.assembly_id,
+        name: lang === 'ml' ? (assembly.assembly_name_ml || assembly.assembly_name_en) : (assembly.assembly_name_en || assembly.assembly_name_ml)
+      }
+    : undefined;
+  const parentDistrict = district
+    ? {
+        id: assembly?.district_id,
+        name: district
+      }
+    : undefined;
 
   return (
     <div style={{ padding: 40 }}>
@@ -122,6 +137,9 @@ function AssemblyPage() {
         }
         items={rankingItems}
         categories={rankingCategories}
+        itemType="local_body"
+        parentAssembly={parentAssembly}
+        parentDistrict={parentDistrict}
       />
       <div style={{ marginTop: 16 }}>
         <strong>
