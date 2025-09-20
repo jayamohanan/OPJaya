@@ -820,9 +820,9 @@
 
 .hks-rate-item {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  padding: 4px 8px;
+  justify-content: space-between;
+  padding: 4px 0;
   margin-bottom: 3px;
   background: none;
   border-radius: 0;
@@ -840,6 +840,8 @@
   font-weight: 400;
   flex: 1;
   line-height: 1.1;
+  text-align: left;
+  margin-left: 8px;
 }
 
 .hks-rate {
@@ -849,56 +851,8 @@
   background: rgba(25, 118, 210, 0.1);
   padding: 1px 6px;
   border-radius: 10px;
-  min-width: 38px;
-  text-align: center;
-}
-
-.see-more-hks-btn {
-  background: none;
-  border: none;
-  color: #1976d2;
-  font-size: 0.75rem;
-  font-weight: 500;
-  cursor: pointer;
-  padding: 4px 0;
-  margin-top: 6px;
-  text-align: left;
-  text-decoration: none;
-  transition: text-decoration 0.2s;
-  display: inline-block;
-  outline: none;
-}
-
-.see-more-hks-btn:hover {
-  background: none;
-  color: #1976d2;
-  text-decoration: underline;
-}
-
-.see-more-hks-btn:focus {
-  outline: 1px dotted rgba(25, 118, 210, 0.5);
-  outline-offset: 2px;
-  text-decoration: underline;
-}
-
-.see-more-hks-btn:active {
-  color: #125ea2;
-}
-
-/* Color coding based on rates - KEEP THE COLORS */
-.hks-rate-item .hks-rate {
-  background: #e8f5e8;
-  color: #2e7d32;
-}
-
-.hks-rate-item:nth-child(-n+3) .hks-rate {
-  background: #ffebee;
-  color: #c62828;
-}
-
-.hks-rate-item:nth-child(n+14) .hks-rate {
-  background: #e8f5e8;
-  color: #2e7d32;
+  min-width: 48px;
+  text-align: right;
 }
 
 /* Responsive adjustments */
@@ -1121,4 +1075,20 @@
 
 .clickable-link:hover {
   text-decoration: underline;
+}
+
+.see-more-hks-btn {
+  cursor: pointer;
+  color: #1976d2;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: underline;
+  background: none;
+  border: none;
+  outline: none;
+  transition: color 0.2s;
+}
+
+.see-more-hks-btn:hover {
+  color: #125ea2;
 }

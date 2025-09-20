@@ -309,8 +309,15 @@ function UpdateHKSModal({ open, onClose, wards, lang, onSubmit, loading, localBo
   );
 }
 
+// Helper for HKS rate color
+function getRateColor(rate) {
+  if (rate >= 90) return '#2ecc40'; // green
+  if (rate >= 80) return '#7ed957'; // 25% away from green, 75% from red
+  return '#ff4136'; // red
+}
+
 function LocalBodyDashboard() {
-  const { lang } = useContext(LanguageContext); // 'ml' or 'en'
+  const { lang, setLang } = useContext(LanguageContext); // 'ml' or 'en'
   const { state } = useLocation();
   const navigate = useNavigate();
 
@@ -695,7 +702,6 @@ function LocalBodyDashboard() {
       <TopNav />
 
       <div className="dashboard-content-wrapper">
-        {/* Remove the old inline top nav and keep the rest */}
         {/* Left Sidebar */}
         <div className="dashboard-sidebar">
           {/* Local Body Name Header */}
@@ -728,28 +734,45 @@ function LocalBodyDashboard() {
           <div className="sidebar-section">
             <div className="sidebar-title">HKS Collection Rate</div>
             <div className="hks-rates-container">
-              {loadingHKSRates ? (
-                <div>Loading...</div>
-              ) : (
-                <>
-                  {displayedHKSRates.map((item, index) => (
+              <div
+                className="hks-rates-list"
+                style={{
+                  maxHeight: showAllHKSRates ? 400 : 200,
+                  overflowY: 'auto',
+                  marginBottom: 8,
+                }}
+              >
+                {loadingHKSRates ? (
+                  <div>Loading...</div>
+                ) : (
+                  displayedHKSRates.map((item, index) => (
                     <div key={index} className="hks-rate-item">
                       <span className="hks-name malayalam-text">{item.name}</span>
-                      <span className="hks-rate">{item.rate}%</span>
+                      <span
+                        className="hks-rate"
+                        style={{ color: getRateColor(item.rate) }}
+                      >
+                        {item.rate}%
+                      </span>
                     </div>
-                  ))}
-                  <span 
-                    className="see-more-hks-btn"
-                    onClick={toggleHKSRatesView}
-                  >
-                    {showAllHKSRates ? 'Show Less' : 'See More'}
-                  </span>
-                  <button className="sidebar-btn" style={{ marginTop: 12, width: '100%' }} onClick={() => setShowHKSModal(true)}>
-                    Update HKS Collection Rate
-                  </button>
-                </>
-              )}
+                  ))
+                )}
+              </div>
+              <span
+                className="see-more-hks-btn"
+                onClick={toggleHKSRatesView}
+                style={{ display: 'block', marginBottom: 8 }}
+              >
+                {showAllHKSRates ? 'Show Less' : 'See More'}
+              </span>
             </div>
+            <button
+              className="sidebar-btn"
+              style={{ width: '100%', marginTop: 8 }}
+              onClick={() => setShowHKSModal(true)}
+            >
+              Update HKS Collection Rate
+            </button>
           </div>
 
           {/* Quick Actions Section */}
