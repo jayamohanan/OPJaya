@@ -165,6 +165,150 @@ function SeeMoreModal({ isOpen, onClose, sectionTitle, issues, loadingIssues }) 
 }
 
 
+function UpdateHKSModal({ open, onClose, wards, lang, onSubmit, loading, localBodyName, localBodyType }) {
+  const now = new Date();
+  const [month, setMonth] = useState(String(now.getMonth() + 1).padStart(2, '0'));
+  const [year, setYear] = useState(String(now.getFullYear()));
+  const [rates, setRates] = useState({});
+  const [error, setError] = useState('');
+  const [showConfirm, setShowConfirm] = useState(false);
+
+  useEffect(() => {
+    if (wards) {
+      const initialRates = {};
+      wards.forEach(w => { initialRates[w.ward_id] = ''; });
+      setRates(initialRates);
+    }
+  }, [wards]);
+
+  if (!open) return null;
+
+  const handleChange = (wardId, value) => {
+    // Only allow numbers and dot
+    if (/^\d*\.?\d*$/.test(value)) {
+      setRates(r => ({ ...r, [wardId]: value }));
+    }
+  };
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setError('');
+    // Validate all rates are numbers between 0 and 100
+    for (const val of Object.values(rates)) {
+      if (val === '') continue;
+      const num = Number(val);
+      if (isNaN(num) || num < 0 || num > 100) {
+        setError('Please enter valid rates between 0 and 100 for all wards.');
+        return;
+      }
+    }
+    // If any ward is empty, show confirmation
+    const hasEmpty = Object.values(rates).some(val => val === '');
+    if (hasEmpty) {
+      setShowConfirm(true);
+    } else {
+      onSubmit({ month, year, rates });
+    }
+  };
+
+  const handleConfirm = () => {
+    setShowConfirm(false);
+    onSubmit({ month, year, rates });
+  };
+
+  return (
+    <div className="see-more-modal-overlay" onClick={onClose}>
+      <div className="see-more-modal" onClick={e => e.stopPropagation()} style={{ maxWidth: 600, width: '95vw', maxHeight: '90vh', overflowY: 'auto', background: '#fff', borderRadius: 12, boxShadow: '0 4px 24px rgba(0,0,0,0.18)', padding: 0 }}>
+        <div className="see-more-modal-header" style={{ borderBottom: '1px solid #eee', padding: '20px 24px 10px 24px' }}>
+          <h2 style={{ margin: 0, fontSize: 22, textAlign: 'left' }}>Update HKS Collection Rate</h2>
+          <button className="close-modal-btn" onClick={onClose} style={{ top: 18, right: 18 }}>×</button>
+        </div>
+        <div style={{ margin: '0 24px 12px 24px', color: '#333', fontSize: 16, textAlign: 'left', fontWeight: 500 }}>
+          {localBodyName} {localBodyType ? `(${localBodyType})` : ''}
+        </div>
+        <form onSubmit={handleSubmit} style={{ margin: '0 24px 24px 24px' }}>
+          <div style={{ display: 'flex', gap: 16, marginBottom: 16 }}>
+            <select value={month} onChange={e => setMonth(e.target.value)} required style={{ padding: 6, borderRadius: 4, border: '1px solid #ccc' }}>
+              {[...Array(12)].map((_, i) => (
+                <option key={i+1} value={String(i+1).padStart(2, '0')}>
+                  {new Date(0, i).toLocaleString('default', { month: 'long' })}
+                </option>
+              ))}
+            </select>
+            <select value={year} onChange={e => setYear(e.target.value)} required style={{ padding: 6, borderRadius: 4, border: '1px solid #ccc' }}>
+              {[...Array(5)].map((_, i) => {
+                const y = now.getFullYear() - 2 + i;
+                return <option key={y} value={y}>{y}</option>;
+              })}
+            </select>
+          </div>
+          {wards && wards.length > 0 ? (
+            <div style={{ maxHeight: '50vh', overflowY: 'auto', border: '1px solid #eee', borderRadius: 8, background: '#fafbfc', marginBottom: 16 }}>
+              <table style={{ width: '100%', borderCollapse: 'collapse' }}>
+                <thead>
+                  <tr style={{ background: '#f5f5f5' }}>
+                    <th style={{ textAlign: 'left', padding: '10px 12px', fontWeight: 600, borderBottom: '1px solid #e0e0e0' }}>Ward No.</th>
+                    <th style={{ textAlign: 'left', padding: '10px 12px', fontWeight: 600, borderBottom: '1px solid #e0e0e0' }}>Ward Name</th>
+                    <th style={{ textAlign: 'left', padding: '10px 12px', fontWeight: 600, borderBottom: '1px solid #e0e0e0' }}>Rate (%)</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {wards.map(w => (
+                    <tr key={w.ward_id}>
+                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{w.ward_no}</td>
+                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{lang === 'ml' ? (w.ward_name_ml || w.ward_name_en) : (w.ward_name_en || w.ward_name_ml)}</td>
+                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0' }}>
+                        <input
+                          type="number"
+                          min="0"
+                          max="100"
+                          step="0.01"
+                          value={rates[w.ward_id]}
+                          onChange={e => handleChange(w.ward_id, e.target.value)}
+                          style={{ width: 90, padding: 4, borderRadius: 4, border: '1px solid #ccc' }}
+                          inputMode="decimal"
+                        />
+                      </td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+          ) : (
+            <div style={{ marginBottom: 16, color: '#b00' }}>No wards found for this local body.</div>
+          )}
+          {error && <div style={{ color: '#b00', marginBottom: 10 }}>{error}</div>}
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <button type="submit" className="sidebar-btn primary" style={{ minWidth: 120, maxWidth: 200, textAlign: 'center', display: 'flex', alignItems: 'center', justifyContent: 'center' }} disabled={loading || !wards || wards.length === 0}>
+              {loading ? 'Submitting...' : 'Submit'}
+            </button>
+          </div>
+        </form>
+        {showConfirm && (
+          <div style={{
+            position: 'fixed',
+            top: 0, left: 0, width: '100vw', height: '100vh',
+            background: 'rgba(0,0,0,0.3)', zIndex: 9999,
+            display: 'flex', alignItems: 'center', justifyContent: 'center'
+          }}>
+            <div style={{
+              background: '#fff', borderRadius: 10, padding: 32, minWidth: 320, boxShadow: '0 4px 24px rgba(0,0,0,0.18)'
+            }}>
+              <div style={{ fontSize: 18, marginBottom: 16, color: '#b00', textAlign: 'center' }}>
+                Some wards have no value entered.<br />Are you sure you want to submit?
+              </div>
+              <div style={{ display: 'flex', justifyContent: 'center', gap: 16 }}>
+                <button className="sidebar-btn" onClick={() => setShowConfirm(false)}>Cancel</button>
+                <button className="sidebar-btn primary" onClick={handleConfirm}>Yes, Submit</button>
+              </div>
+            </div>
+          </div>
+        )}
+      </div>
+    </div>
+  );
+}
+
 function LocalBodyDashboard() {
   const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const { state } = useLocation();
@@ -264,6 +408,11 @@ function LocalBodyDashboard() {
   const [hksCollectionRates, setHksCollectionRates] = useState([]);
   const [showAllHKSRates, setShowAllHKSRates] = useState(false);
   const [loadingHKSRates, setLoadingHKSRates] = useState(false);
+
+  // Modal state for updating HKS rates
+  const [showHKSModal, setShowHKSModal] = useState(false);
+  const [wards, setWards] = useState([]);
+  const [hksLoading, setHksLoading] = useState(false);
 
   // Fetch HKS Collection Rates from Supabase for the current local body
   useEffect(() => {
@@ -502,6 +651,44 @@ function LocalBodyDashboard() {
     return malayalamRegex.test(text);
   };
 
+  // Add this handler for submitting HKS rates
+  const handleHKSSubmit = async ({ month, year, rates }) => {
+    setHksLoading(true);
+    const yearMonth = `${year}-${month}-01`;
+    const inserts = Object.entries(rates)
+      .filter(([_, rate]) => rate !== '' && !isNaN(rate))
+      .map(([ward_id, rate]) => ({ ward_id, year_month: yearMonth, rate: Number(rate) }));
+    if (inserts.length > 0) {
+      const { error, data } = await supabase
+        .from('ward_collection')
+        .upsert(inserts, { onConflict: ['ward_id', 'year_month'] });
+      if (error) {
+        console.log('supa message:', error.message);
+        alert('Error updating rates: ' + error.message);
+        setHksLoading(false);
+        return;
+      } else {
+        console.log('supa message:', data);
+      }
+    }
+    setHksLoading(false);
+    setShowHKSModal(false);
+    // Optionally, refresh HKS rates
+  };
+
+  // Fetch wards for the local body (shared for sidebar and modal)
+  useEffect(() => {
+    async function fetchWards() {
+      if (!localBody?.local_body_id) return;
+      const { data: wardsData } = await supabase
+        .from('ward')
+        .select('ward_id, ward_name_en, ward_name_ml, ward_no, local_body_id')
+        .eq('local_body_id', localBody.local_body_id);
+      setWards(wardsData || []);
+    }
+    fetchWards();
+  }, [localBody?.local_body_id]);
+
   return (
     <div className="dashboard-container">
       {/* Universal Top Navigation Bar */}
@@ -557,6 +744,9 @@ function LocalBodyDashboard() {
                   >
                     {showAllHKSRates ? 'Show Less' : 'See More'}
                   </span>
+                  <button className="sidebar-btn" style={{ marginTop: 12, width: '100%' }} onClick={() => setShowHKSModal(true)}>
+                    Update HKS Collection Rate
+                  </button>
                 </>
               )}
             </div>
@@ -830,6 +1020,17 @@ function LocalBodyDashboard() {
           </div>
         </div>
       )}
+
+      {/* Update HKS Modal */}
+      <UpdateHKSModal
+        open={showHKSModal}
+        onClose={() => setShowHKSModal(false)}
+        wards={wards}
+        lang={lang}
+        onSubmit={handleHKSSubmit}
+        loading={hksLoading}
+        localBodyId={localBody?.local_body_id}
+      />
     </div>
   );
 }
