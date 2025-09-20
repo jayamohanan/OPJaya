@@ -3,6 +3,7 @@ import { useEffect, useState, useContext } from 'react';
 import { supabase } from '../supabaseClient';
 import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
+import MapSection from '../components/MapSection';
 
 
 function AssemblyPage() {
@@ -124,11 +125,25 @@ function AssemblyPage() {
       }
     : undefined;
 
+  // Get English name for geojson path
+  const assemblyNameEn = assembly?.assembly_name_en || '';
+  const geojsonUrl = assemblyNameEn
+    ? `https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/geojson/assemblies/with-local-bodies/${encodeURIComponent(assemblyNameEn.toLowerCase())}.geojson`
+    : null;
+
   return (
     <div style={{ padding: 40 }}>
       <h1 style={{ marginBottom: 24 }}>
         Assembly: {lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
       </h1>
+      {/* Map Section */}
+      {geojsonUrl && (
+        <MapSection
+          geojsonUrl={geojsonUrl}
+          title={lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
+        />
+      )}
+      {/* Ranking Section */}
       <RankingSection
         title={
           (lang === 'ml'
