@@ -4,6 +4,7 @@ import { supabase } from '../supabaseClient';
 import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
+import GeojsonOutlineRect from '../components/GeojsonOutlineRect';
 
 
 function AssemblyPage() {
@@ -136,11 +137,19 @@ function AssemblyPage() {
       <h1 style={{ marginBottom: 24 }}>
         Assembly: {lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
       </h1>
-      {/* Map Section */}
+      {/* Map Section with OSM base map */}
       {geojsonUrl && (
         <MapSection
           geojsonUrl={geojsonUrl}
           title={lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
+        />
+      )}
+      {/* Outline-only clickable map section, also logs all feature metadata */}
+      {geojsonUrl && (
+        <GeojsonOutlineRect
+          geojsonUrl={geojsonUrl}
+          featureType="local_body"
+          logAllFeatures={true}
         />
       )}
       {/* Ranking Section */}

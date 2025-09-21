@@ -35,6 +35,7 @@ function MapSection({ geojsonUrl, title }) {
         dragging={true}
         doubleClickZoom={false}
         attributionControl={true}
+        zoomControl={false}
       >
         <TileLayer
           url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
