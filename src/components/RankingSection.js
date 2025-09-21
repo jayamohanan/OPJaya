@@ -35,9 +35,11 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
                   linkTo = `/assembly/${item.id}`;
                   linkState = undefined;
                 }
+                // Use a more robust key: prefer item.id, fallback to item.assembly_id, item.local_body_id, or item.name+idx
+                const uniqueKey = item.id || item.assembly_id || item.local_body_id || (item.name ? item.name + '-' + idx : idx);
                 return (
                   <li
-                    key={item.id}
+                    key={uniqueKey}
                     style={{
                       marginBottom: 0,
                       fontSize: 16,

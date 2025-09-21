@@ -59,12 +59,8 @@ function DistrictPage() {
     { key: 'Normal', label: '🥈 Normal', color: '#90a4ae', bg: '#eceff1' }
   ];
 
-  // Prepare items for RankingSection (example, adjust as needed)
-  const rankingItems = assemblies.map(a => ({
-    id: a.assembly_id,
-    name: lang === 'ml' ? (a.assembly_name_ml || a.assembly_name_en) : (a.assembly_name_en || a.assembly_name_ml),
-    // Add more properties as needed
-  }));
+  // Prepare items for RankingSection
+  const rankingItems = assemblies; // assemblies already has id, name, category
 
   return (
     <div style={{ padding: 40 }}>
