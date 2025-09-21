@@ -5,6 +5,7 @@ import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
 import GeojsonOutlineRect from '../components/GeojsonOutlineRect';
+import ChoroplethMapRect from '../components/ChoroplethMapRect';
 
 function DistrictPage() {
   const { districtName: districtId } = useParams();
@@ -69,17 +70,37 @@ function DistrictPage() {
       </h1>
       {/* Map Section with OSM base map */}
       {geojsonUrl && (
-        <MapSection
-          geojsonUrl={geojsonUrl}
-          title={lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
-        />
+        <div>
+          <h2 style={{ margin: '16px 0 8px 0' }}>District Map (with Base Map)</h2>
+          <MapSection
+            geojsonUrl={geojsonUrl}
+            title={lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
+          />
+        </div>
       )}
       {/* Outline-only clickable map section */}
       {geojsonUrl && (
-        <GeojsonOutlineRect
-          geojsonUrl={geojsonUrl}
-          featureType="assembly"
-        />
+        <div>
+          <h2 style={{ margin: '32px 0 8px 0' }}>District Map (Clickable Outlines)</h2>
+          <GeojsonOutlineRect
+            geojsonUrl={geojsonUrl}
+            featureType="assembly"
+          />
+        </div>
+      )}
+      {/* Choropleth map section */}
+      {geojsonUrl && (
+        <div>
+          <h2 style={{ margin: '32px 0 8px 0' }}>District Map (Choropleth by Category)</h2>
+          <ChoroplethMapRect
+            geojsonUrl={geojsonUrl}
+            featureType="assembly"
+            featureCategories={assemblies.map(a => ({
+              ...a,
+              name: (a.name || '').toLowerCase() // ensure lower case for matching
+            }))}
+          />
+        </div>
       )}
       {/* Ranking Section */}
       <RankingSection

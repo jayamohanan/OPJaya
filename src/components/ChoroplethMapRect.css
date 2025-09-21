@@ -1,0 +1,13 @@
+.choropleth-label.leaflet-tooltip {
+  background: none !important;
+  background-color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  color: #111;
+  font-weight: 600;
+  font-size: 14px;
+  padding: 0 !important;
+  margin: 0 !important;
+  min-width: 0 !important;
+  min-height: 0 !important;
+}

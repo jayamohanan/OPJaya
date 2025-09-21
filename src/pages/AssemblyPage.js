@@ -5,6 +5,7 @@ import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
 import GeojsonOutlineRect from '../components/GeojsonOutlineRect';
+import ChoroplethMapRect from '../components/ChoroplethMapRect';
 
 
 function AssemblyPage() {
@@ -139,18 +140,38 @@ function AssemblyPage() {
       </h1>
       {/* Map Section with OSM base map */}
       {geojsonUrl && (
-        <MapSection
-          geojsonUrl={geojsonUrl}
-          title={lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
-        />
+        <div>
+          <h2 style={{ margin: '16px 0 8px 0' }}>Assembly Map (with Base Map)</h2>
+          <MapSection
+            geojsonUrl={geojsonUrl}
+            title={lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
+          />
+        </div>
       )}
-      {/* Outline-only clickable map section, also logs all feature metadata */}
+      {/* Outline-only clickable map section */}
       {geojsonUrl && (
-        <GeojsonOutlineRect
-          geojsonUrl={geojsonUrl}
-          featureType="local_body"
-          logAllFeatures={true}
-        />
+        <div>
+          <h2 style={{ margin: '32px 0 8px 0' }}>Assembly Map (Clickable Outlines)</h2>
+          <GeojsonOutlineRect
+            geojsonUrl={geojsonUrl}
+            featureType="local_body"
+          />
+        </div>
+      )}
+      {/* Choropleth map section */}
+      {geojsonUrl && (
+        <div>
+          <h2 style={{ margin: '32px 0 8px 0' }}>Assembly Map (Choropleth by Category)</h2>
+          <ChoroplethMapRect
+            geojsonUrl={geojsonUrl}
+            featureType="local_body"
+            featureCategories={rankedLocalBodies.map(lb => ({
+              ...lb,
+              name: (lang === 'ml' ? (lb.local_body_name_ml || lb.local_body_name_en) : (lb.local_body_name_en || lb.local_body_name_ml) || '').toLowerCase(),
+              category: lb.local_body_category?.category || 'Normal'
+            }))}
+          />
+        </div>
       )}
       {/* Ranking Section */}
       <RankingSection
