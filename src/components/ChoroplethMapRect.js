@@ -29,6 +29,8 @@ function FitBounds({ geojson }) {
 
 function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style }) {
   const [geojson, setGeojson] = useState(null);
+  const [popupInfo, setPopupInfo] = useState(null);
+  const popupRef = React.useRef();
 
   useEffect(() => {
     if (!geojsonUrl) return;
@@ -87,36 +89,82 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style }
         { direction: 'center', permanent: true, className: 'choropleth-label', sticky: false }
       );
     }
+    layer.on({
+      click: () => {
+        setPopupInfo({
+          properties: feature.properties
+        });
+      }
+    });
   }
 
+  // Close popup when clicking outside
+  useEffect(() => {
+    function handleDocClick(e) {
+      if (popupRef.current && !popupRef.current.contains(e.target)) {
+        setPopupInfo(null);
+      }
+    }
+    if (popupInfo) {
+      document.addEventListener('mousedown', handleDocClick);
+      return () => document.removeEventListener('mousedown', handleDocClick);
+    }
+  }, [popupInfo]);
+
   return (
-    <div style={{
-      width: '100%',
-      maxWidth: 600,
-      aspectRatio: '1/1',
-      margin: '0 auto',
-      ...style,
-      position: 'relative'
-    }}>
-      <MapContainer
-        style={{ width: '100%', height: '100%', borderRadius: 16 }}
-        zoom={10}
-        center={[10.8, 76.2]}
-        scrollWheelZoom={false}
-        dragging={false}
-        doubleClickZoom={false}
-        zoomControl={false}
-        attributionControl={false}
-      >
-        {geojson && (
-          <GeoJSON
-            data={geojson}
-            style={styleFeature}
-            onEachFeature={onEachFeature}
-          />
+    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', maxWidth: 900, margin: '32px auto' }}>
+      <div style={{ width: 600, aspectRatio: '1', borderRadius: 12, overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
+        <MapContainer
+          style={{ width: '100%', height: '100%', borderRadius: 16 }}
+          zoom={10}
+          center={[10.8, 76.2]}
+          scrollWheelZoom={false}
+          dragging={false}
+          doubleClickZoom={false}
+          zoomControl={false}
+          attributionControl={false}
+        >
+          {geojson && (
+            <GeoJSON
+              data={geojson}
+              style={styleFeature}
+              onEachFeature={onEachFeature}
+            />
+          )}
+          {geojson && <FitBounds geojson={geojson} />}
+        </MapContainer>
+      </div>
+      {/* Info window as a section to the right, half the height of map rect, centered */}
+      <div style={{ minWidth: 220, width: 300, height: 300, marginLeft: 32, display: 'flex', alignItems: 'center' }}>
+        {popupInfo && (
+          <div
+            ref={popupRef}
+            className="geojson-popup"
+            style={{
+              background: '#fff',
+              border: '1px solid #1976d2',
+              borderRadius: 8,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.13)',
+              padding: 18,
+              minWidth: 220,
+              width: '100%',
+              height: '100%',
+              zIndex: 1000,
+              display: 'flex',
+              flexDirection: 'column',
+              justifyContent: 'center',
+              alignItems: 'center',
+            }}
+          >
+            <div style={{ fontWeight: 700, color: '#1976d2', fontSize: 18, marginBottom: 6 }}>
+              {getDisplayName({ properties: popupInfo.properties })}
+            </div>
+            <div style={{ color: '#444', fontSize: 15, marginBottom: 12 }}>
+              {getCategory({ properties: popupInfo.properties })}
+            </div>
+          </div>
         )}
-        {geojson && <FitBounds geojson={geojson} />}
-      </MapContainer>
+      </div>
     </div>
   );
 }
