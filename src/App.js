@@ -8,6 +8,7 @@ import AssemblyPage from './pages/AssemblyPage';
 import DistrictPage from './pages/DistrictPage';
 import TopNav from './components/TopNav'; // Make sure this import exists
 import LocalBodyChecklist from './pages/LocalBodyChecklist';
+import Signup from './pages/Signup';
 import './App.css';
 
 
@@ -25,6 +26,7 @@ function App() {
             <Route path="/assembly/:assemblyName" element={<AssemblyPage />} />
             <Route path="/district/:districtName" element={<DistrictPage />} />
             <Route path="/localbody-checklist" element={<LocalBodyChecklist />} />
+            <Route path="/signup" element={<Signup />} />
           </Routes>
         </div>
       </Router>
