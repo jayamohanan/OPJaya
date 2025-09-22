@@ -63,6 +63,10 @@ function DistrictPage() {
   // Prepare items for RankingSection
   const rankingItems = assemblies; // assemblies already has id, name, category
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div style={{ padding: 40 }}>
       <h1 style={{ marginBottom: 24 }}>

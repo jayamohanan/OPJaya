@@ -1,7 +1,8 @@
 import React from 'react';
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 
 function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 960, itemType, parentAssembly, parentDistrict }) {
+  const navigate = useNavigate();
   // itemType: 'local_body' or 'assembly' (for link routing)
   // parentAssembly, parentDistrict: pass from AssemblyPage if available
   return (
@@ -50,10 +51,20 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
                       padding: '14px 12px',
                       background: idx % 2 === 0 ? '#f5f7fa' : '#e3e8ef',
                       borderRadius: 4,
-                      borderBottom: idx !== filtered.length - 1 ? '1px solid #e0e7ef' : 'none'
+                      borderBottom: idx !== filtered.length - 1 ? '1px solid #e0e7ef' : 'none',
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'space-between'
                     }}
                   >
-                    <Link to={linkTo} state={linkState} style={{ color: '#1976d2', textDecoration: 'underline', cursor: 'pointer' }}>{item.name}</Link>
+                    <span>{item.name}</span>
+                    <span
+                      style={{ cursor: 'pointer', padding: '4px 8px', marginLeft: 12, display: 'flex', alignItems: 'center' }}
+                      onClick={() => navigate(linkTo, { state: linkState })}
+                      title="Go to details"
+                    >
+                      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#1976d2" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                    </span>
                   </li>
                 );
               }) : (

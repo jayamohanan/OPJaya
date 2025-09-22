@@ -96,6 +96,11 @@ function AssemblyPage() {
     fetchData();
   }, [assemblyId, lang]);
 
+  // Scroll to top on page load
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   // Prepare items for RankingSection
   const rankingItems = rankedLocalBodies.map(lb => ({
     id: lb.local_body_id,
