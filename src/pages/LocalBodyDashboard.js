@@ -22,60 +22,70 @@ const tiles = [
     description: 'Description for tile 1',
     number: 123,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.001,76.001'
   },
   {
     name: 'Sample Tile 2',
     description: 'Description for tile 2',
     number: 456,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.002,76.002'
   },
   {
     name: 'Sample Tile 3',
     description: 'Description for tile 3',
     number: 789,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.003,76.003'
   },
   {
     name: 'Sample Tile 4',
     description: 'Description for tile 4',
     number: 101,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.004,76.004'
   },
   {
     name: 'Sample Tile 5',
     description: 'Description for tile 5',
     number: 202,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.005,76.005'
   },
   {
     name: 'Sample Tile 6',
     description: 'Description for tile 6',
     number: 303,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.006,76.006'
   },
   {
     name: 'Sample Tile 7',
     description: 'Description for tile 7',
     number: 404,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.007,76.007'
   },
   {
     name: 'Sample Tile 8',
     description: 'Description for tile 8',
     number: 505,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.008,76.008'
   },
   {
     name: 'Sample Tile 9',
     description: 'Description for tile 9',
     number: 606,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.009,76.009'
   },
   {
     name: 'Sample Tile 10',
     description: 'Description for tile 10',
     number: 707,
     image: 'https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/jaya.jpg',
+    location_url: 'https://maps.google.com/?q=10.010,76.010'
   },
 ];
 
@@ -90,6 +100,14 @@ const sectionToFolder = (sectionTitle) => {
     'Bin Usage': 'bin_usage'
   };
   return mapping[sectionTitle];
+};
+
+// Add mapping from section titles to type keys
+const sectionTitleToType = {
+  'Towns': 'town',
+  'Roads': 'road',
+  'Water Bodies': 'water_body',
+  // Add more mappings as needed
 };
 
 // See More Modal Component
@@ -122,6 +140,11 @@ function SeeMoreModal({ isOpen, onClose, sectionTitle, issues, loadingIssues }) 
                     <div className="modal-tile-name">{tile.name}</div>
                     <div className="modal-tile-desc">{tile.description}</div>
                     <div className="modal-tile-number">{tile.number}</div>
+                    {tile.location_url && (
+                      <div className="modal-tile-location">
+                        <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
@@ -144,6 +167,11 @@ function SeeMoreModal({ isOpen, onClose, sectionTitle, issues, loadingIssues }) 
                     <div className="modal-tile-number">
                       {new Date(issue.createdAt).toLocaleDateString()}
                     </div>
+                    {issue.location_url && (
+                      <div className="modal-tile-location">
+                        <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                      </div>
+                    )}
                   </div>
                 </div>
               ))}
@@ -696,6 +724,40 @@ function LocalBodyDashboard() {
     fetchWards();
   }, [localBody?.local_body_id]);
 
+  // Fetch issues from the issues table, group by type, and display as cards under each section. If no issues exist, use placeholder tiles for all sections and log fallback. If at least one issue exists, show only real issues and log 'issues found'.
+  useEffect(() => {
+    async function fetchIssuesFromTable() {
+      if (!localBodyId) return;
+      const { data: issuesData, error } = await supabase
+        .from('issues')
+        .select('*')
+        .eq('local_body_id', localBodyId);
+      if (error) {
+        console.error('Error fetching issues:', error);
+        return;
+      }
+      if (!issuesData || issuesData.length === 0) {
+        console.log('no issue found, fallback to placeholder');
+        // fallback to placeholder for all sections
+        setIssues({});
+      } else {
+        console.log('issues found');
+        // Group issues by type (section)
+        const grouped = {};
+        issuesData.forEach(issue => {
+          const section = issue.type;
+          if (!grouped[section]) grouped[section] = [];
+          grouped[section].push(issue);
+        });
+        setIssues(grouped);
+      }
+      if (issuesData && issuesData.length > 0) {
+        console.log('Fetched issues:', issuesData);
+      }
+    }
+    fetchIssuesFromTable();
+  }, [localBodyId]);
+
   return (
     <div className="dashboard-container">
       {/* Universal Top Navigation Bar */}
@@ -881,7 +943,6 @@ function LocalBodyDashboard() {
                     See all →
                   </button>
                 </div>
-                
                 <div className="dashboard-section-content">
                   <div className="scroll-container">
                     {/* Left scroll arrow */}
@@ -893,72 +954,55 @@ function LocalBodyDashboard() {
                     >
                       ‹
                     </button>
-
                     {/* Horizontal scrollable content */}
                     <div 
                       className="dashboard-tiles-scroll"
                       id={`scroll-${section.title.replace(/\s+/g, '-')}`}
                       onScroll={() => handleScroll(section.title)}
                     >
-                      {/* Sample tiles */}
-                      {tiles.map((tile, idx) => (
-                        <div className="dashboard-tile" key={`sample-${idx}`}>
-                          <div className="dashboard-tile-img">
-                            <img src={tile.image} alt={tile.name} />
-                          </div>
-                          <div className="dashboard-tile-info">
-                            <div className="dashboard-tile-name">{tile.name}</div>
-                            <div className="dashboard-tile-desc">{tile.description}</div>
-                            <div className="dashboard-tile-number">{tile.number}</div>
-                          </div>
-                        </div>
-                      ))}
-
-                      {/* Loading spinner for issues */}
-                      {loadingIssues[section.title] && (
-                        <div className="loading-tile">
-                          <div style={{ 
-                            width: '40px', 
-                            height: '40px', 
-                            border: '4px solid #f3f3f3',
-                            borderTop: '4px solid #1976d2',
-                            borderRadius: '50%',
-                            animation: 'spin 1s linear infinite',
-                            margin: '0 auto 10px'
-                          }}></div>
-                          <div>Loading issues...</div>
-                        </div>
-                      )}
-
-                      {/* Real issues from R2 */}
-                      {issues[section.title]?.map((issue) => (
-                        <div className="dashboard-tile" key={`issue-${issue.id}`}>
-                          <div className="dashboard-tile-img">
-                            <img 
-                              src={issue.photos && issue.photos.length > 0 ? issue.photos[0] : 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
-                              alt={issue.title}
-                              onError={handleImageError}
-                            />
-                          </div>
-                          <div className="dashboard-tile-info">
-                            <div className="dashboard-tile-name">{issue.title}</div>
-                            <div className="dashboard-tile-desc">{issue.description}</div>
-                            <div className="dashboard-tile-number">
-                              {new Date(issue.createdAt).toLocaleDateString()}
+                      {/* Render real issues if any exist, else fallback to placeholder */}
+                      {Object.keys(issues).length === 0
+                        ? tiles.map((tile, idx) => (
+                            <div className="dashboard-tile" key={`sample-${idx}`}> 
+                              <div className="dashboard-tile-img">
+                                <img src={tile.image} alt={tile.name} />
+                              </div>
+                              <div className="dashboard-tile-info">
+                                <div className="dashboard-tile-name">{tile.name}</div>
+                                <div className="dashboard-tile-desc">{tile.description}</div>
+                                <div className="dashboard-tile-number">{tile.number}</div>
+                                {tile.location_url && (
+                                  <div className="dashboard-tile-location">
+                                    <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                  </div>
+                                )}
+                              </div>
                             </div>
-                          </div>
-                        </div>
-                      ))}
-
-                      {/* No issues message */}
-                      {!loadingIssues[section.title] && issues[section.title] && issues[section.title].length === 0 && (
-                        <div className="no-issues-tile">
-                          <div style={{ fontSize: '24px', marginBottom: '10px' }}>📝</div>
-                          <div>No issues found in this section</div>
-                        </div>
-                      )}
+                          ))
+                        : (issues[sectionTitleToType[section.title]] || []).map((issue) => (
+                            <div className="dashboard-tile" key={`issue-${issue.id}`}> 
+                              <div className="dashboard-tile-img">
+                                <img 
+                                  src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
+                                  alt={issue.title || issue.description}
+                                  onError={handleImageError}
+                                />
+                              </div>
+                              <div className="dashboard-tile-info">
+                                <div className="dashboard-tile-name">{issue.title || issue.type}</div>
+                                <div className="dashboard-tile-desc">{issue.description}</div>
+                                <div className="dashboard-tile-number">
+                                  {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
+                                </div>
+                                {issue.location_url && (
+                                  <div className="dashboard-tile-location">
+                                    <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          ))}
                     </div>
-
                     {/* Right scroll arrow */}
                     <button 
                       className="scroll-nav right"
@@ -1027,6 +1071,11 @@ function LocalBodyDashboard() {
                       <div className="modal-tile-number">
                         {item.number || (item.createdAt ? formatDate(item.createdAt) : 'N/A')}
                       </div>
+                      {item.location_url && (
+                        <div className="modal-tile-location">
+                          <a href={item.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                        </div>
+                      )}
                     </div>
                   </div>
                 ))}

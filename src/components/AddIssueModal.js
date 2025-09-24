@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './AddIssueModal.css';
+import { MapContainer, TileLayer, useMapEvents } from 'react-leaflet';
+import 'leaflet/dist/leaflet.css';
+import { supabase } from '../supabaseClient';
 
 const issueTypes = [
   'Towns',
@@ -11,15 +14,45 @@ const issueTypes = [
   'Bin Usage'
 ];
 
+const typeMap = {
+  'Towns': 'town',
+  'Roads': 'road',
+  'Bus Stands/Bus Stops': 'bus_stop',
+  'Water Bodies': 'water_body'
+};
+
+function CenterMarker({ onChange }) {
+  useMapEvents({
+    moveend: (e) => {
+      const center = e.target.getCenter();
+      onChange([center.lat, center.lng]);
+    },
+  });
+  return (
+    <div style={{
+      position: 'absolute',
+      left: '50%',
+      top: '50%',
+      transform: 'translate(-50%, -100%)',
+      pointerEvents: 'none',
+      zIndex: 1000
+    }}>
+      <img src="https://cdn-icons-png.flaticon.com/512/684/684908.png" alt="marker" style={{ width: 32, height: 32 }} />
+    </div>
+  );
+}
+
 function AddIssueModal({ isOpen, onClose, localBodyData }) {
   const [formData, setFormData] = useState({
-    title: '',
     description: '',
     type: '',
-    locationUrl: '',
     photos: []
   });
+  const [location, setLocation] = useState([10.0, 76.0]);
+  const [locationSet, setLocationSet] = useState(false);
+  const [locationUrl, setLocationUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState('');
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -44,25 +77,70 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
     }));
   };
 
+  const handleLocationChange = (coords) => {
+    setLocation(coords);
+    setLocationSet(false);
+  };
+
+  const handleSetLocation = () => {
+    setLocationSet(true);
+    setLocationUrl(`https://maps.google.com/?q=${location[0]},${location[1]}`);
+  };
+
+  // Upload to R2 bucket aayiram-bathery
   const uploadToR2 = async (file, filename) => {
     try {
-      const r2Url = `https://pub-1560e47becfe44d3abc923d667d603c2.r2.dev/issues/${localBodyData.lsgCode}/${filename}`;
-      console.log('Would upload to:', r2Url);
-      await new Promise(resolve => setTimeout(resolve, 500));
-      return r2Url;
+      const formData = new FormData();
+      formData.append('file', file);
+      formData.append('filename', filename);
+      const response = await fetch('http://localhost:3001/api/upload-to-r2', {
+        method: 'POST',
+        body: formData
+      });
+      if (!response.ok) {
+        throw new Error('Failed to upload to R2');
+      }
+      // Always construct the public URL using your public bucket id
+      const publicUrl = `https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/${filename}`;
+      return publicUrl;
     } catch (error) {
-      console.error('Upload failed:', error);
       throw error;
     }
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    setError('');
+    // Enforce mandatory fields
+    if (!formData.type) {
+      setError('Please select an issue type.');
+      setIsSubmitting(false);
+      return;
+    }
+    if (!locationSet || !locationUrl) {
+      setError('Please set the location using the map.');
+      setIsSubmitting(false);
+      return;
+    }
+    if (!formData.photos.length) {
+      setError('Please upload at least one photo.');
+      setIsSubmitting(false);
+      return;
+    }
+    if (!formData.description) {
+      setError('Please enter a description.');
+      setIsSubmitting(false);
+      return;
+    }
+    const dbType = typeMap[formData.type];
+    if (!dbType) {
+      setError('Invalid issue type selected.');
+      setIsSubmitting(false);
+      return;
+    }
     setIsSubmitting(true);
-
     try {
       const issueId = uuidv4();
-      
       const photoUrls = [];
       for (let i = 0; i < formData.photos.length; i++) {
         const photo = formData.photos[i];
@@ -71,38 +149,27 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         const photoUrl = await uploadToR2(photo, filename);
         photoUrls.push(photoUrl);
       }
-
-      const issueData = {
-        id: issueId,
-        localBodyData: localBodyData,
-        title: formData.title,
+      // Insert into Supabase issues table
+      const { error: supaError } = await supabase.from('issues').insert({
+        local_body_id: localBodyData?.local_body_id || localBodyData?.id || '',
+        type: dbType,
         description: formData.description,
-        type: formData.type,
-        locationUrl: formData.locationUrl,
-        photos: photoUrls,
-        createdAt: new Date().toISOString(),
-        status: 'open'
-      };
-
-      const issueJsonBlob = new Blob([JSON.stringify(issueData, null, 2)], {
-        type: 'application/json'
+        location_url: locationUrl,
+        image_url: photoUrls[0] || '',
+        resolved: false
       });
-      
-      await uploadToR2(issueJsonBlob, `${issueId}.json`);
-
+      if (supaError) throw supaError;
       alert('Issue submitted successfully!');
-      
       setFormData({
-        title: '',
         description: '',
         type: '',
-        locationUrl: '',
         photos: []
       });
-      
+      setLocation([10.0, 76.0]);
+      setLocationSet(false);
+      setLocationUrl('');
       onClose();
     } catch (error) {
-      console.error('Failed to submit issue:', error);
       alert('Failed to submit issue. Please try again.');
     } finally {
       setIsSubmitting(false);
@@ -121,19 +188,6 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         
         <form onSubmit={handleSubmit} className="issue-form">
           <div className="form-group">
-            <label htmlFor="title">Issue Title *</label>
-            <input
-              type="text"
-              id="title"
-              name="title"
-              value={formData.title}
-              onChange={handleInputChange}
-              required
-              placeholder="Brief description of the issue"
-            />
-          </div>
-
-          <div className="form-group">
             <label htmlFor="type">Issue Type *</label>
             <select
               id="type"
@@ -150,38 +204,59 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
           </div>
 
           <div className="form-group">
-            <label htmlFor="description">Description *</label>
+            <label htmlFor="description">Description</label>
             <textarea
               id="description"
               name="description"
               value={formData.description}
               onChange={handleInputChange}
-              required
               rows="4"
               placeholder="Detailed description of the issue"
             />
           </div>
 
           <div className="form-group">
-            <label htmlFor="locationUrl">Location URL</label>
-            <input
-              type="url"
-              id="locationUrl"
-              name="locationUrl"
-              value={formData.locationUrl}
-              onChange={handleInputChange}
-              placeholder="Google Maps link or coordinates"
-            />
+            <label>Location *</label>
+            <div style={{ height: 250, borderRadius: 8, overflow: 'hidden', marginBottom: 8, position: 'relative' }}>
+              <MapContainer
+                center={location}
+                zoom={16}
+                style={{ width: '100%', height: '100%' }}
+                dragging={true}
+                doubleClickZoom={true}
+                scrollWheelZoom={true}
+                touchZoom={true}
+                zoomControl={true}
+                attributionControl={false}
+                onMoveend={e => {
+                  const center = e.target.getCenter();
+                  setLocation([center.lat, center.lng]);
+                  setLocationSet(false);
+                  setLocationUrl('');
+                }}
+              >
+                <TileLayer url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png" />
+                <CenterMarker onChange={handleLocationChange} />
+              </MapContainer>
+            </div>
+            {/* Set Location button is clearly below the map */}
+            <button type="button" style={{ margin: '8px 0', width: '100%', fontWeight: 600, fontSize: 16, background: '#1976d2', color: '#fff', border: 'none', borderRadius: 6, padding: 10 }} onClick={handleSetLocation}>
+              Set Location
+            </button>
+            {locationSet && locationUrl && (
+              <div style={{ color: 'green', marginTop: 4, wordBreak: 'break-all' }}>Location set!<br /><span style={{ fontSize: 12 }}>{locationUrl}</span></div>
+            )}
           </div>
 
           <div className="form-group">
-            <label htmlFor="photos">Photos</label>
+            <label htmlFor="photos">Photos *</label>
             <input
               type="file"
               id="photos"
               multiple
               accept="image/*"
               onChange={handlePhotoUpload}
+              required
             />
             
             {formData.photos.length > 0 && (
@@ -205,6 +280,8 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
               </div>
             )}
           </div>
+
+          {error && <div style={{ color: 'red', marginBottom: 8 }}>{error}</div>}
 
           <div className="form-actions">
             <button type="button" onClick={onClose} className="btn-cancel">
