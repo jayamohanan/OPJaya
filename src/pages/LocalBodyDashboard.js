@@ -894,15 +894,39 @@ function LocalBodyDashboard() {
                   ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
                   : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
               </div>
-              <div className="local-body-assembly malayalam-text">
-                {lang === 'ml'
-                  ? (assembly?.assembly_name_ml || assembly?.assembly_name_en || '')
-                  : (assembly?.assembly_name_en || assembly?.assembly_name_ml || '')}
-              </div>
-              <div className="local-body-district">
-                {lang === 'ml'
-                  ? (district?.district_name_ml || district?.district_name_en || '')
-                  : (district?.district_name_en || district?.district_name_ml || '')}
+              <div className="local-body-assembly-district-row" style={{ display: 'flex', flexDirection: 'column', gap: 2, marginTop: 8, paddingLeft: 12 }}>
+                {assembly && (
+                  <span style={{ color: '#000', fontSize: '0.95rem', fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
+                    <span style={{ display: 'flex', alignItems: 'center', minWidth: 90 }}>
+                      <span style={{ textAlign: 'right', flex: 1 }}>Assembly</span>
+                      <span style={{ width: 10, textAlign: 'center' }}>:</span>
+                    </span>
+                    <span
+                      className="clickable-link"
+                      style={{ textDecoration: 'underline', color: '#1976d2', cursor: 'pointer' }}
+                      onClick={() => navigate(`/assembly/${assembly.assembly_id}`)}
+                      title="Go to Assembly"
+                    >
+                      #{assembly.assembly_id} {lang === 'ml' ? (assembly.assembly_name_ml || assembly.assembly_name_en) : (assembly.assembly_name_en || assembly.assembly_name_ml)}
+                    </span>
+                  </span>
+                )}
+                {district && (
+                  <span style={{ color: '#000', fontSize: '0.95rem', fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
+                    <span style={{ display: 'flex', alignItems: 'center', minWidth: 90 }}>
+                      <span style={{ textAlign: 'right', flex: 1 }}>District</span>
+                      <span style={{ width: 10, textAlign: 'center' }}>:</span>
+                    </span>
+                    <span
+                      className="clickable-link"
+                      style={{ textDecoration: 'underline', color: '#1976d2', cursor: 'pointer' }}
+                      onClick={() => navigate(`/district/${district.district_id}`)}
+                      title="Go to District"
+                    >
+                      {lang === 'ml' ? (district.district_name_ml || district.district_name_en) : (district.district_name_en || district.district_name_ml)}
+                    </span>
+                  </span>
+                )}
               </div>
             </div>
           </div>
@@ -975,50 +999,6 @@ function LocalBodyDashboard() {
                 <span>📧</span>
                 Contact Officials
               </button>
-            </div>
-          </div>
-
-          {/* Local Body Info Section */}
-          <div className="sidebar-section">
-            <div className="sidebar-title">Local Body Info</div>
-            <div className="sidebar-stats">
-              <div className="stat-item">
-                <span className="stat-label">Type</span>
-                <span className="stat-value" style={{ fontSize: '0.8rem' }}>
-                  {lang === 'ml'
-                    ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
-                    : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
-                </span>
-              </div>
-              {district && (
-                <div className="stat-item">
-                  <span className="stat-label">District</span>
-                  <span
-                    className="stat-value clickable-link"
-                    style={{ fontSize: '0.8rem' }}
-                    onClick={() => navigate(`/district/${district?.district_id}`)}
-                  >
-                    {lang === 'ml'
-                      ? (district?.district_name_ml || district?.district_name_en || '')
-                      : (district?.district_name_en || district?.district_name_ml || '')}
-                  </span>
-                </div>
-              )}
-              {assembly && (
-                <div className="stat-item">
-                  <span className="stat-label">Assembly</span>
-                  <span
-                    className="stat-value clickable-link"
-                    style={{ fontSize: '0.8rem' }}
-                    onClick={() => navigate(`/assembly/${assembly?.assembly_id}`)}
-                  >
-                    {lang === 'ml'
-                      ? (assembly?.assembly_name_ml || assembly?.assembly_name_en || '')
-                      : (assembly?.assembly_name_en || assembly?.assembly_name_ml || '')}
-                  </span>
-                </div>
-              )}
-              {/* No LSG Code in new schema, remove if not needed */}
             </div>
           </div>
 
