@@ -344,6 +344,74 @@ function getRateColor(rate) {
   return '#ff4136'; // red
 }
 
+// Carousel Modal for Town Issues
+function TownIssuesModal({ isOpen, onClose, town, issues, townsMap }) {
+  const [selectedImageIdx, setSelectedImageIdx] = useState(0);
+  useEffect(() => { setSelectedImageIdx(0); }, [isOpen, issues]);
+  if (!isOpen || !town || !issues || issues.length === 0) return null;
+  const images = issues.map(issue => issue.image_url).filter(Boolean);
+  const selectedImage = images[selectedImageIdx] || '';
+  const selectedIssue = issues[selectedImageIdx] || {};
+  const townName = townsMap[town]?.town_name_en || 'Unknown Town';
+  const canGoLeft = selectedImageIdx > 0;
+  const canGoRight = selectedImageIdx < images.length - 1;
+  return (
+    <div className="see-more-modal-overlay" onClick={onClose} style={{ zIndex: 2000 }}>
+      <div className="see-more-modal" onClick={e => e.stopPropagation()} style={{
+        maxWidth: 'calc(100vw - 64px)',
+        width: 'calc(100vw - 64px)',
+        maxHeight: 'calc(100vh - 64px)',
+        height: 'calc(100vh - 64px)',
+        margin: 32,
+        borderRadius: 16,
+        display: 'flex',
+        flexDirection: 'column',
+        background: '#fff',
+        boxShadow: '0 4px 32px rgba(0,0,0,0.18)',
+        overflow: 'hidden',
+        position: 'relative'
+      }}>
+        <div className="see-more-modal-header" style={{ flex: '0 0 auto', borderBottom: '1px solid #eee', padding: '20px 24px 10px 24px' }}>
+          <h2 style={{ margin: 0, fontSize: 26 }}>{townName} - Issues</h2>
+          <button className="close-modal-btn" onClick={onClose} style={{ top: 18, right: 18 }}>×</button>
+        </div>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 24, overflow: 'auto' }}>
+          {/* Carousel */}
+          <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', textAlign: 'center', marginBottom: 24, position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+            <div style={{ position: 'relative', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+              {/* Left arrow */}
+              <button onClick={() => canGoLeft && setSelectedImageIdx(selectedImageIdx - 1)} disabled={!canGoLeft} style={{ position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)', fontSize: 32, background: 'none', border: 'none', color: canGoLeft ? '#1976d2' : '#ccc', cursor: canGoLeft ? 'pointer' : 'default', zIndex: 2 }}>&#8592;</button>
+              {selectedImage && (
+                <img src={selectedImage} alt="Issue" style={{ maxWidth: '100%', maxHeight: 400, borderRadius: 10, margin: '0 48px' }} />
+              )}
+              {/* Right arrow */}
+              <button onClick={() => canGoRight && setSelectedImageIdx(selectedImageIdx + 1)} disabled={!canGoRight} style={{ position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)', fontSize: 32, background: 'none', border: 'none', color: canGoRight ? '#1976d2' : '#ccc', cursor: canGoRight ? 'pointer' : 'default', zIndex: 2 }}>&#8594;</button>
+            </div>
+            <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 12 }}>
+              {images.map((img, idx) => (
+                <img
+                  key={idx}
+                  src={img}
+                  alt={`thumb-${idx}`}
+                  style={{ width: 64, height: 64, objectFit: 'cover', border: idx === selectedImageIdx ? '2px solid #1976d2' : '1px solid #ccc', borderRadius: 6, cursor: 'pointer' }}
+                  onClick={() => setSelectedImageIdx(idx)}
+                />
+              ))}
+            </div>
+          </div>
+          {/* Metadata for selected issue only */}
+          <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', background: '#f9f9f9', borderRadius: 8, padding: 24, boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
+            <div style={{ marginBottom: 10 }}><b>Description:</b> {selectedIssue.description}</div>
+            <div style={{ marginBottom: 10 }}><b>Date:</b> {selectedIssue.created_at ? new Date(selectedIssue.created_at).toLocaleDateString() : 'N/A'}</div>
+            {selectedIssue.location_url && <div style={{ marginBottom: 10 }}><b>Location:</b> <a href={selectedIssue.location_url} target="_blank" rel="noopener noreferrer">View on Map</a></div>}
+            {selectedIssue.resolved && <div style={{ color: 'green', marginBottom: 10 }}><b>Resolved</b></div>}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
 function LocalBodyDashboard() {
   const { lang, setLang } = useContext(LanguageContext); // 'ml' or 'en'
   const { state } = useLocation();
@@ -775,6 +843,39 @@ function LocalBodyDashboard() {
     fetchTowns();
   }, [localBodyId]);
 
+  // State to manage towns map and modal
+  const [townsMap, setTownsMap] = useState({});
+  const [townModal, setTownModal] = useState({ isOpen: false, townId: null, issues: [] });
+
+  // Fetch all towns for the local body and store in a map for quick lookup
+  useEffect(() => {
+    async function fetchTowns() {
+      if (!localBodyId) return;
+      const { data: towns, error } = await supabase
+        .from('town')
+        .select('town_id, town_name_en, town_name_ml')
+        .eq('local_body_id', localBodyId);
+      if (towns && towns.length > 0) {
+        const map = {};
+        towns.forEach(town => { map[town.town_id] = town; });
+        setTownsMap(map);
+      } else {
+        setTownsMap({});
+      }
+    }
+    fetchTowns();
+  }, [localBodyId]);
+
+  // Group town issues by town_id
+  const townIssues = (issues['town'] || []);
+  const issuesByTown = {};
+  townIssues.forEach(issue => {
+    if (issue.town_id) {
+      if (!issuesByTown[issue.town_id]) issuesByTown[issue.town_id] = [];
+      issuesByTown[issue.town_id].push(issue);
+    }
+  });
+
   return (
     <div className="dashboard-container">
       {/* Universal Top Navigation Bar */}
@@ -977,48 +1078,67 @@ function LocalBodyDashboard() {
                       id={`scroll-${section.title.replace(/\s+/g, '-')}`}
                       onScroll={() => handleScroll(section.title)}
                     >
-                      {/* Render real issues if any exist, else fallback to placeholder */}
-                      {Object.keys(issues).length === 0
-                        ? tiles.map((tile, idx) => (
-                            <div className="dashboard-tile" key={`sample-${idx}`}> 
-                              <div className="dashboard-tile-img">
-                                <img src={tile.image} alt={tile.name} />
-                              </div>
-                              <div className="dashboard-tile-info">
-                                <div className="dashboard-tile-name">{tile.name}</div>
-                                <div className="dashboard-tile-desc">{tile.description}</div>
-                                <div className="dashboard-tile-number">{tile.number}</div>
-                                {tile.location_url && (
-                                  <div className="dashboard-tile-location">
-                                    <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
-                                  </div>
-                                )}
-                              </div>
+                      {/* Render grouped town cards for Towns section */}
+                      {section.title === 'Towns' && Object.keys(issuesByTown).length > 0 ? (
+                        Object.entries(issuesByTown).map(([townId, townIssuesArr]) => (
+                          <div 
+                            className="dashboard-tile" 
+                            key={townId}
+                            style={{ minHeight: 180, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', border: '1px solid #ccc', borderRadius: 8 }}
+                            onClick={() => setTownModal({ isOpen: true, townId, issues: townIssuesArr })}
+                          >
+                            <div style={{ flex: 1, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                              {/* Empty rect for now */}
                             </div>
-                          ))
-                        : (issues[sectionTitleToType[section.title]] || []).map((issue) => (
-                            <div className="dashboard-tile" key={`issue-${issue.id}`}> 
-                              <div className="dashboard-tile-img">
-                                <img 
-                                  src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
-                                  alt={issue.title || issue.description}
-                                  onError={handleImageError}
-                                />
-                              </div>
-                              <div className="dashboard-tile-info">
-                                <div className="dashboard-tile-name">{issue.title || issue.type}</div>
-                                <div className="dashboard-tile-desc">{issue.description}</div>
-                                <div className="dashboard-tile-number">
-                                  {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
+                            <div style={{ marginTop: 12, fontWeight: 600, fontSize: 16, textAlign: 'center' }}>
+                              {townsMap[townId]?.town_name_en || 'Unknown Town'}
+                            </div>
+                          </div>
+                        ))
+                      ) : (
+                        // ...existing code for other sections or fallback...
+                        section.title !== 'Towns'
+                          ? (issues[sectionTitleToType[section.title]] || []).map((issue) => (
+                              <div className="dashboard-tile" key={`issue-${issue.id}`}> 
+                                <div className="dashboard-tile-img">
+                                  <img 
+                                    src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
+                                    alt={issue.title || issue.description}
+                                    onError={handleImageError}
+                                  />
                                 </div>
-                                {issue.location_url && (
-                                  <div className="dashboard-tile-location">
-                                    <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                <div className="dashboard-tile-info">
+                                  <div className="dashboard-tile-name">{issue.title || issue.type}</div>
+                                  <div className="dashboard-tile-desc">{issue.description}</div>
+                                  <div className="dashboard-tile-number">
+                                    {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
                                   </div>
-                                )}
+                                  {issue.location_url && (
+                                    <div className="dashboard-tile-location">
+                                      <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                    </div>
+                                  )}
+                                </div>
                               </div>
-                            </div>
-                          ))}
+                            ))
+                          : tiles.map((tile, idx) => (
+                              <div className="dashboard-tile" key={`sample-${idx}`}> 
+                                <div className="dashboard-tile-img">
+                                  <img src={tile.image} alt={tile.name} />
+                                </div>
+                                <div className="dashboard-tile-info">
+                                  <div className="dashboard-tile-name">{tile.name}</div>
+                                  <div className="dashboard-tile-desc">{tile.description}</div>
+                                  <div className="dashboard-tile-number">{tile.number}</div>
+                                  {tile.location_url && (
+                                    <div className="dashboard-tile-location">
+                                      <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                    </div>
+                                  )}
+                                </div>
+                              </div>
+                            ))
+                      )}
                     </div>
                     {/* Right scroll arrow */}
                     <button 
@@ -1119,6 +1239,15 @@ function LocalBodyDashboard() {
         onSubmit={handleHKSSubmit}
         loading={hksLoading}
         localBodyId={localBody?.local_body_id}
+      />
+
+      {/* Town Issues Modal */}
+      <TownIssuesModal
+        isOpen={townModal.isOpen}
+        onClose={() => setTownModal({ isOpen: false, townId: null, issues: [] })}
+        town={townModal.townId}
+        issues={townModal.issues}
+        townsMap={townsMap}
       />
     </div>
   );
