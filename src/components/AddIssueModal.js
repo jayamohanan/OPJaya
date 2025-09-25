@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { v4 as uuidv4 } from 'uuid';
 import './AddIssueModal.css';
 import { MapContainer, TileLayer, useMapEvents } from 'react-leaflet';
@@ -53,6 +53,25 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
   const [locationUrl, setLocationUrl] = useState('');
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [error, setError] = useState('');
+  const [towns, setTowns] = useState([]);
+  const [selectedTown, setSelectedTown] = useState('');
+
+  useEffect(() => {
+    async function fetchTowns() {
+      if (!isOpen || !localBodyData?.local_body_id) {
+        setTowns([]);
+        setSelectedTown('');
+        return;
+      }
+      const { data: townsData } = await supabase
+        .from('town')
+        .select('town_id, town_name_en, town_name_ml')
+        .eq('local_body_id', localBodyData.local_body_id);
+      setTowns(townsData || []);
+      setSelectedTown('');
+    }
+    fetchTowns();
+  }, [isOpen, localBodyData?.local_body_id]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
@@ -60,6 +79,9 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
       ...prev,
       [name]: value
     }));
+    if (name === 'type' && value !== 'Towns') {
+      setSelectedTown('');
+    }
   };
 
   const handlePhotoUpload = (e) => {
@@ -117,6 +139,11 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
       setIsSubmitting(false);
       return;
     }
+    if (formData.type === 'Towns' && !selectedTown) {
+      setError('Please select a town.');
+      setIsSubmitting(false);
+      return;
+    }
     if (!locationSet || !locationUrl) {
       setError('Please set the location using the map.');
       setIsSubmitting(false);
@@ -156,7 +183,8 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         description: formData.description,
         location_url: locationUrl,
         image_url: photoUrls[0] || '',
-        resolved: false
+        resolved: false,
+        town_id: formData.type === 'Towns' ? selectedTown : null
       });
       if (supaError) throw supaError;
       alert('Issue submitted successfully!');
@@ -168,9 +196,12 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
       setLocation([10.0, 76.0]);
       setLocationSet(false);
       setLocationUrl('');
+      setSelectedTown('');
       onClose();
     } catch (error) {
-      alert('Failed to submit issue. Please try again.');
+      // Log the error reason for debugging
+      console.error('Failed to submit issue:', error);
+      alert('Failed to submit issue. Please try again.\n' + (error.message || JSON.stringify(error)));
     } finally {
       setIsSubmitting(false);
     }
@@ -202,6 +233,27 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
               ))}
             </select>
           </div>
+
+          {/* Conditional Town Dropdown */}
+          {formData.type === 'Towns' && (
+            <div className="form-group">
+              <label htmlFor="town">Select Town *</label>
+              <select
+                id="town"
+                name="town"
+                value={selectedTown}
+                onChange={e => setSelectedTown(e.target.value)}
+                required
+              >
+                <option value="">Select town</option>
+                {towns.map(town => (
+                  <option key={town.town_id} value={town.town_id}>
+                    {town.town_name_en} {town.town_name_ml ? ` / ${town.town_name_ml}` : ''}
+                  </option>
+                ))}
+              </select>
+            </div>
+          )}
 
           <div className="form-group">
             <label htmlFor="description">Description</label>
