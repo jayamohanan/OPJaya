@@ -67,10 +67,10 @@ function MapSection({ geojsonUrl, title }) {
           center={[10.5, 76.2]}
           zoom={10}
           scrollWheelZoom={false}
-          dragging={true}
+          dragging={false}
           doubleClickZoom={false}
           attributionControl={true}
-          zoomControl={true} // Enable zoom control
+          zoomControl={false} // Disable zoom control
         >
           <TileLayer
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"

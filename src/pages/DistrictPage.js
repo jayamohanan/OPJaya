@@ -4,14 +4,15 @@ import { supabase } from '../supabaseClient';
 import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
-import GeojsonOutlineRect from '../components/GeojsonOutlineRect';
 import ChoroplethMapRect from '../components/ChoroplethMapRect';
+import React from 'react';
 
 function DistrictPage() {
   const { districtName: districtId } = useParams();
   const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const [assemblies, setAssemblies] = useState([]); // [{ id, name, category }]
   const [district, setDistrict] = useState(null);
+  const [mapTab, setMapTab] = useState('choropleth');
 
   useEffect(() => {
     async function fetchData() {
@@ -72,38 +73,37 @@ function DistrictPage() {
       <h1 style={{ marginBottom: 24 }}>
         District: {lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
       </h1>
-      {/* Map Section with OSM base map */}
+      {/* Combined Map Section with Tabs */}
       {geojsonUrl && (
-        <div>
-          <h2 style={{ margin: '16px 0 8px 0' }}>District Map (with Base Map)</h2>
-          <MapSection
-            geojsonUrl={geojsonUrl}
-            title={lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
-          />
-        </div>
-      )}
-      {/* Outline-only clickable map section */}
-      {geojsonUrl && (
-        <div>
-          <h2 style={{ margin: '32px 0 8px 0' }}>District Map (Clickable Outlines)</h2>
-          <GeojsonOutlineRect
-            geojsonUrl={geojsonUrl}
-            featureType="assembly"
-          />
-        </div>
-      )}
-      {/* Choropleth map section */}
-      {geojsonUrl && (
-        <div>
-          <h2 style={{ margin: '32px 0 8px 0' }}>District Map (Choropleth by Category)</h2>
-          <ChoroplethMapRect
-            geojsonUrl={geojsonUrl}
-            featureType="assembly"
-            featureCategories={assemblies.map(a => ({
-              ...a,
-              name: (a.name || '').toLowerCase() // ensure lower case for matching
-            }))}
-          />
+        <div style={{ borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', marginBottom: 32, padding: 0, overflow: 'hidden', maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
+          <div style={{ width: '100%', display: 'flex', justifyContent: 'center', borderBottom: '1px solid #eee', background: '#f7f7f7' }}>
+            <div style={{ display: 'flex', width: 400, maxWidth: '100%' }}>
+              <button onClick={() => setMapTab('choropleth')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'choropleth' ? '#fff' : 'transparent', fontWeight: mapTab === 'choropleth' ? 700 : 400, borderBottom: mapTab === 'choropleth' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Rank</button>
+              <button onClick={() => setMapTab('base')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'base' ? '#fff' : 'transparent', fontWeight: mapTab === 'base' ? 700 : 400, borderBottom: mapTab === 'base' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Map</button>
+            </div>
+          </div>
+          <div style={{ padding: 0, minHeight: 420, maxWidth: 900, margin: '0 auto' }}>
+            {mapTab === 'choropleth' && (
+              <ChoroplethMapRect
+                geojsonUrl={geojsonUrl}
+                featureType="assembly"
+                featureCategories={assemblies.map(a => ({
+                  ...a,
+                  name: (a.name || '').toLowerCase()
+                }))}
+                showBaseMap={true}
+                fillOpacity={0.4}
+                tileLayerUrl={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
+              />
+            )}
+            {mapTab === 'base' && (
+              <MapSection
+                geojsonUrl={geojsonUrl}
+                title={lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
+                zoomControl={false}
+              />
+            )}
+          </div>
         </div>
       )}
       {/* Ranking Section */}

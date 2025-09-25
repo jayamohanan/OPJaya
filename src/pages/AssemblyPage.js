@@ -4,8 +4,8 @@ import { supabase } from '../supabaseClient';
 import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
-import GeojsonOutlineRect from '../components/GeojsonOutlineRect';
 import ChoroplethMapRect from '../components/ChoroplethMapRect';
+import React from 'react';
 
 
 function AssemblyPage() {
@@ -15,6 +15,8 @@ function AssemblyPage() {
   const [otherAssemblies, setOtherAssemblies] = useState([]); // [{ id, name }]
   const [district, setDistrict] = useState('');
   const [assembly, setAssembly] = useState(null);
+  // Tab state for map
+  const [mapTab, setMapTab] = useState('choropleth');
 
   useEffect(() => {
     async function fetchData() {
@@ -143,39 +145,36 @@ function AssemblyPage() {
       <h1 style={{ marginBottom: 24 }}>
         Assembly: {lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
       </h1>
-      {/* Map Section with OSM base map */}
+      {/* Combined Map Section with Tabs */}
       {geojsonUrl && (
-        <div>
-          <h2 style={{ margin: '16px 0 8px 0' }}>Assembly Map (with Base Map)</h2>
-          <MapSection
-            geojsonUrl={geojsonUrl}
-            title={lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
-          />
-        </div>
-      )}
-      {/* Outline-only clickable map section */}
-      {geojsonUrl && (
-        <div>
-          <h2 style={{ margin: '32px 0 8px 0' }}>Assembly Map (Clickable Outlines)</h2>
-          <GeojsonOutlineRect
-            geojsonUrl={geojsonUrl}
-            featureType="local_body"
-          />
-        </div>
-      )}
-      {/* Choropleth map section */}
-      {geojsonUrl && (
-        <div>
-          <h2 style={{ margin: '32px 0 8px 0' }}>Assembly Map (Choropleth by Category)</h2>
-          <ChoroplethMapRect
-            geojsonUrl={geojsonUrl}
-            featureType="local_body"
-            featureCategories={rankedLocalBodies.map(lb => ({
-              ...lb,
-              name: (lang === 'ml' ? (lb.local_body_name_ml || lb.local_body_name_en) : (lb.local_body_name_en || lb.local_body_name_ml) || '').toLowerCase(),
-              category: lb.local_body_category?.category || 'Normal'
-            }))}
-          />
+        <div style={{ borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', marginBottom: 32, padding: 0, overflow: 'hidden' }}>
+          <div style={{ display: 'flex', borderBottom: '1px solid #eee', background: '#f7f7f7', width: 400, margin: '0 auto' }}>
+            <button onClick={() => setMapTab('choropleth')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'choropleth' ? '#fff' : 'transparent', fontWeight: mapTab === 'choropleth' ? 700 : 400, borderBottom: mapTab === 'choropleth' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Rank</button>
+            <button onClick={() => setMapTab('base')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'base' ? '#fff' : 'transparent', fontWeight: mapTab === 'base' ? 700 : 400, borderBottom: mapTab === 'base' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Map</button>
+          </div>
+          <div style={{ padding: 0, minHeight: 420 }}>
+            {mapTab === 'choropleth' && (
+              <ChoroplethMapRect
+                geojsonUrl={geojsonUrl}
+                featureType="local_body"
+                featureCategories={rankedLocalBodies.map(lb => ({
+                  ...lb,
+                  name: (lang === 'ml' ? (lb.local_body_name_ml || lb.local_body_name_en) : (lb.local_body_name_en || lb.local_body_name_ml) || '').toLowerCase(),
+                  category: lb.local_body_category?.category || 'Normal'
+                }))}
+                showBaseMap={true}
+                fillOpacity={0.4}
+                tileLayerUrl={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
+              />
+            )}
+            {mapTab === 'base' && (
+              <MapSection
+                geojsonUrl={geojsonUrl}
+                title={lang === 'ml' ? (assembly?.assembly_name_ml || assembly?.assembly_name_en) : (assembly?.assembly_name_en || assembly?.assembly_name_ml)}
+                zoomControl={false}
+              />
+            )}
+          </div>
         </div>
       )}
       {/* Ranking Section */}

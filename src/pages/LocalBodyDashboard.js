@@ -9,11 +9,7 @@ import './LocalBodyDashboard.css';
 
 const sections = [
   { title: 'Towns' },
-  { title: 'Roads' },
-  { title: 'Waste Management' },
-  { title: 'Water Bodies' },
-  { title: 'Public Health' },
-  { title: 'Infrastructure' }
+  { title: 'Others' }
 ];
 
 const tiles = [   
@@ -105,9 +101,7 @@ const sectionToFolder = (sectionTitle) => {
 // Add mapping from section titles to type keys
 const sectionTitleToType = {
   'Towns': 'town',
-  'Roads': 'road',
-  'Water Bodies': 'water_body',
-  // Add more mappings as needed
+  'Others': 'others'
 };
 
 // See More Modal Component
@@ -875,6 +869,9 @@ function LocalBodyDashboard() {
       issuesByTown[issue.town_id].push(issue);
     }
   });
+  // Combine all non-town issues into 'others'
+  const otherTypes = Object.keys(issues).filter(type => type !== 'town');
+  const otherIssues = otherTypes.flatMap(type => issues[type] || []);
 
   return (
     <div className="dashboard-container">
@@ -1095,49 +1092,48 @@ function LocalBodyDashboard() {
                             </div>
                           </div>
                         ))
+                      ) : section.title === 'Others' && otherIssues.length > 0 ? (
+                        otherIssues.map((issue) => (
+                          <div className="dashboard-tile" key={`issue-${issue.id}`}> 
+                            <div className="dashboard-tile-img">
+                              <img 
+                                src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
+                                alt={issue.title || issue.description}
+                                onError={handleImageError}
+                              />
+                            </div>
+                            <div className="dashboard-tile-info">
+                              <div className="dashboard-tile-name">{issue.title || issue.type}</div>
+                              <div className="dashboard-tile-desc">{issue.description}</div>
+                              <div className="dashboard-tile-number">
+                                {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
+                              </div>
+                              {issue.location_url && (
+                                <div className="dashboard-tile-location">
+                                  <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                </div>
+                              )}
+                            </div>
+                          </div>
+                        ))
                       ) : (
-                        // ...existing code for other sections or fallback...
-                        section.title !== 'Towns'
-                          ? (issues[sectionTitleToType[section.title]] || []).map((issue) => (
-                              <div className="dashboard-tile" key={`issue-${issue.id}`}> 
-                                <div className="dashboard-tile-img">
-                                  <img 
-                                    src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
-                                    alt={issue.title || issue.description}
-                                    onError={handleImageError}
-                                  />
+                        tiles.map((tile, idx) => (
+                          <div className="dashboard-tile" key={`sample-${idx}`}> 
+                            <div className="dashboard-tile-img">
+                              <img src={tile.image} alt={tile.name} />
+                            </div>
+                            <div className="dashboard-tile-info">
+                              <div className="dashboard-tile-name">{tile.name}</div>
+                              <div className="dashboard-tile-desc">{tile.description}</div>
+                              <div className="dashboard-tile-number">{tile.number}</div>
+                              {tile.location_url && (
+                                <div className="dashboard-tile-location">
+                                  <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
                                 </div>
-                                <div className="dashboard-tile-info">
-                                  <div className="dashboard-tile-name">{issue.title || issue.type}</div>
-                                  <div className="dashboard-tile-desc">{issue.description}</div>
-                                  <div className="dashboard-tile-number">
-                                    {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
-                                  </div>
-                                  {issue.location_url && (
-                                    <div className="dashboard-tile-location">
-                                      <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
-                                    </div>
-                                  )}
-                                </div>
-                              </div>
-                            ))
-                          : tiles.map((tile, idx) => (
-                              <div className="dashboard-tile" key={`sample-${idx}`}> 
-                                <div className="dashboard-tile-img">
-                                  <img src={tile.image} alt={tile.name} />
-                                </div>
-                                <div className="dashboard-tile-info">
-                                  <div className="dashboard-tile-name">{tile.name}</div>
-                                  <div className="dashboard-tile-desc">{tile.description}</div>
-                                  <div className="dashboard-tile-number">{tile.number}</div>
-                                  {tile.location_url && (
-                                    <div className="dashboard-tile-location">
-                                      <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
-                                    </div>
-                                  )}
-                                </div>
-                              </div>
-                            ))
+                              )}
+                            </div>
+                          </div>
+                        ))
                       )}
                     </div>
                     {/* Right scroll arrow */}
