@@ -451,7 +451,6 @@ function LocalBodyDashboard() {
 
   // Fetch HKS Collection Rates from Supabase for the current local body
   useEffect(() => {
-    console.log('Fetching HKS Collection Rates...');
     async function fetchHKSRates() {
       if (!localBody?.local_body_id) return;
       setLoadingHKSRates(true);
@@ -741,7 +740,6 @@ function LocalBodyDashboard() {
         // fallback to placeholder for all sections
         setIssues({});
       } else {
-        console.log('issues found');
         // Group issues by type (section)
         const grouped = {};
         issuesData.forEach(issue => {
@@ -751,11 +749,30 @@ function LocalBodyDashboard() {
         });
         setIssues(grouped);
       }
-      if (issuesData && issuesData.length > 0) {
-        console.log('Fetched issues:', issuesData);
-      }
     }
     fetchIssuesFromTable();
+  }, [localBodyId]);
+
+  // Log all towns in the local body (English and Malayalam)
+  useEffect(() => {
+    if (!localBodyId) {
+      console.log('No localBodyId available for fetching towns.');
+      return;
+    }
+    async function fetchTowns() {
+      const { data: towns, error } = await supabase
+        .from('town')
+        .select('town_name_en, town_name_ml')
+        .eq('local_body_id', localBodyId);
+      if (towns && towns.length > 0) {
+        towns.forEach(town => {
+          console.log('Town:', town.town_name_en, '| Malayalam:', town.town_name_ml);
+        });
+      } else {
+        console.log('No towns found for this local body.');
+      }
+    }
+    fetchTowns();
   }, [localBodyId]);
 
   return (
