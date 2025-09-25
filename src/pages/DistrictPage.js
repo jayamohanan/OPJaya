@@ -94,6 +94,7 @@ function DistrictPage() {
                 showBaseMap={true}
                 fillOpacity={0.4}
                 tileLayerUrl={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
+                hoverHighlightStyle={{ weight: 4, color: '#1976d2', fillOpacity: 0.5 }}
               />
             )}
             {mapTab === 'base' && (
