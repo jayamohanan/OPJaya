@@ -3,14 +3,15 @@ import { LanguageContext } from '../components/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 import TopNav from '../components/TopNav';
 import { supabase } from '../supabaseClient';
+import { TABLES, FIELDS } from '../constants/dbSchema';
 import './Home.css';
 
 function Home() {
   const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const navigate = useNavigate();
-  const [districts, setDistricts] = useState([]); // [{ district_id, district_name_en, district_name_ml }]
-  const [assemblies, setAssemblies] = useState([]); // [{ assembly_id, assembly_name_en, assembly_name_ml, district_id }]
-  const [localBodies, setLocalBodies] = useState([]); // [{ local_body_id, local_body_name_en, local_body_type: { type_name_en, type_name_ml }, ... }]
+  const [districts, setDistricts] = useState([]);
+  const [assemblies, setAssemblies] = useState([]);
+  const [localBodies, setLocalBodies] = useState([]);
 
   const [selectedDistrictId, setSelectedDistrictId] = useState('');
   const [selectedAssemblyId, setSelectedAssemblyId] = useState('');
@@ -27,8 +28,12 @@ function Home() {
       console.log('fetchDistricts called');
       setLoadingDistricts(true);
       const { data, error } = await supabase
-        .from('district')
-        .select('district_id, district_name_en, district_name_ml');
+        .from(TABLES.DISTRICT)
+        .select([
+          FIELDS.DISTRICT.ID,
+          FIELDS.DISTRICT.NAME_EN,
+          FIELDS.DISTRICT.NAME_ML
+        ].join(', '));
       if (error) {
         console.error("Error fetching districts from Supabase:", error);
       } else {
@@ -46,9 +51,14 @@ function Home() {
       async function fetchAssemblies() {
         setLoadingAssemblies(true);
         const { data, error } = await supabase
-          .from('assembly')
-          .select('assembly_id, assembly_name_en, assembly_name_ml, district_id')
-          .eq('district_id', selectedDistrictId);
+          .from(TABLES.ASSEMBLY)
+          .select([
+            FIELDS.ASSEMBLY.ID,
+            FIELDS.ASSEMBLY.NAME_EN,
+            FIELDS.ASSEMBLY.NAME_ML,
+            FIELDS.ASSEMBLY.DISTRICT_ID
+          ].join(', '))
+          .eq(FIELDS.ASSEMBLY.DISTRICT_ID, selectedDistrictId);
         if (error) {
           console.error("Error fetching assemblies from Supabase:", error);
         } else {
@@ -70,9 +80,18 @@ function Home() {
       async function fetchLocalBodies() {
         setLoadingLocalBodies(true);
         const { data, error } = await supabase
-          .from('local_body')
-          .select('local_body_id, local_body_name_en, local_body_name_ml, block_name_en, district_panchayat_name_en, assembly_id, type_id, local_body_type(type_name_en, type_name_ml)')
-          .eq('assembly_id', selectedAssemblyId);
+          .from(TABLES.LOCAL_BODY)
+          .select([
+            FIELDS.LOCAL_BODY.ID,
+            FIELDS.LOCAL_BODY.NAME_EN,
+            FIELDS.LOCAL_BODY.NAME_ML,
+            FIELDS.LOCAL_BODY.BLOCK_NAME_EN,
+            FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN,
+            FIELDS.LOCAL_BODY.ASSEMBLY_ID,
+            FIELDS.LOCAL_BODY.TYPE_ID,
+            `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN}, ${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML})`
+          ].join(', '))
+          .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, selectedAssemblyId);
         if (error) {
           console.error("Error fetching local bodies from Supabase:", error);
         } else {
@@ -99,25 +118,25 @@ function Home() {
 
   const handleSubmit = () => {
     if (selectedLocalBodyId) {
-  const localBodyData = localBodies.find(lb => lb.local_body_id === selectedLocalBodyId);
-      const assemblyData = assemblies.find(a => a.assembly_id === selectedAssemblyId);
-      const districtData = districts.find(d => d.district_id === selectedDistrictId);
+  const localBodyData = localBodies.find(lb => lb[FIELDS.LOCAL_BODY.ID] === selectedLocalBodyId);
+      const assemblyData = assemblies.find(a => a[FIELDS.ASSEMBLY.ID] === selectedAssemblyId);
+      const districtData = districts.find(d => d[FIELDS.DISTRICT.ID] === selectedDistrictId);
       if (localBodyData && assemblyData && districtData) {
         navigate('/dashboard', {
           state: {
-            localBodyId: localBodyData.local_body_id,
-            localBodyName: localBodyData.local_body_name_en,
-            nameMalayalam: localBodyData.local_body_name_ml || localBodyData.local_body_name_en,
-            localBodyType: localBodyData.local_body_type.type_name_en || '',
-            localBodyTypeML: localBodyData.local_body_type.type_name_ml || '',
-            blockName: localBodyData.block_name_en,
-            districtPanchayatName: localBodyData.district_panchayat_name_en,
-            districtId: districtData.district_id,
-            district: districtData.district_name_en,
-            districtML: districtData.district_name_ml,
-            assemblyId: assemblyData.assembly_id,
-            assembly: assemblyData.assembly_name_en,
-            assemblyML: assemblyData.assembly_name_ml
+            localBodyId: localBodyData[FIELDS.LOCAL_BODY.ID],
+            localBodyName: localBodyData[FIELDS.LOCAL_BODY.NAME_EN],
+            nameMalayalam: localBodyData[FIELDS.LOCAL_BODY.NAME_ML] || localBodyData[FIELDS.LOCAL_BODY.NAME_EN],
+            localBodyType: localBodyData.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '',
+            localBodyTypeML: localBodyData.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '',
+            blockName: localBodyData[FIELDS.LOCAL_BODY.BLOCK_NAME_EN],
+            districtPanchayatName: localBodyData[FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN],
+            districtId: districtData[FIELDS.DISTRICT.ID],
+            district: districtData[FIELDS.DISTRICT.NAME_EN],
+            districtML: districtData[FIELDS.DISTRICT.NAME_ML],
+            assemblyId: assemblyData[FIELDS.ASSEMBLY.ID],
+            assembly: assemblyData[FIELDS.ASSEMBLY.NAME_EN],
+            assemblyML: assemblyData[FIELDS.ASSEMBLY.NAME_ML]
           }
         });
       }

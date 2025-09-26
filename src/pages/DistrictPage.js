@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState, useContext } from 'react';
 import { supabase } from '../supabaseClient';
+import { TABLES, FIELDS } from '../constants/dbSchema';
 import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
@@ -30,9 +31,13 @@ function DistrictPage() {
     async function fetchData() {
       // Fetch district by ID (get both _ml and _en)
       const { data: districtData, error: districtError } = await supabase
-        .from('district')
-        .select('district_id, district_name_en, district_name_ml')
-        .eq('district_id', districtId)
+        .from(TABLES.DISTRICT)
+        .select([
+          FIELDS.DISTRICT.ID,
+          FIELDS.DISTRICT.NAME_EN,
+          FIELDS.DISTRICT.NAME_ML
+        ].join(', '))
+        .eq(FIELDS.DISTRICT.ID, districtId)
         .single();
       if (districtError || !districtData) {
         setAssemblies([]);
@@ -43,17 +48,22 @@ function DistrictPage() {
 
       // Fetch all assemblies in this district with their category (get both _ml and _en)
       const { data: asms, error: asmError } = await supabase
-        .from('assembly')
-        .select('assembly_id, assembly_name_en, assembly_name_ml, assembly_category(category)')
-        .eq('district_id', districtData.district_id);
+        .from(TABLES.ASSEMBLY)
+        .select([
+          FIELDS.ASSEMBLY.ID,
+          FIELDS.ASSEMBLY.NAME_EN,
+          FIELDS.ASSEMBLY.NAME_ML,
+          `${TABLES.ASSEMBLY_CATEGORY}(${FIELDS.ASSEMBLY_CATEGORY.CATEGORY})`
+        ].join(', '))
+        .eq(FIELDS.ASSEMBLY.DISTRICT_ID, districtData[FIELDS.DISTRICT.ID]);
       if (asmError) {
         setAssemblies([]);
       } else {
         setAssemblies(
           (asms || []).map(a => ({
-            id: a.assembly_id,
-            name: lang === 'ml' ? (a.assembly_name_ml || a.assembly_name_en) : (a.assembly_name_en || a.assembly_name_ml),
-            category: a.assembly_category?.category || 'Normal'
+            id: a[FIELDS.ASSEMBLY.ID],
+            name: lang === 'ml' ? (a[FIELDS.ASSEMBLY.NAME_ML] || a[FIELDS.ASSEMBLY.NAME_EN]) : (a[FIELDS.ASSEMBLY.NAME_EN] || a[FIELDS.ASSEMBLY.NAME_ML]),
+            category: a.assembly_category?.[FIELDS.ASSEMBLY_CATEGORY.CATEGORY] || 'Normal'
           }))
         );
       }

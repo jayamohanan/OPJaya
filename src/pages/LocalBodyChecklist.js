@@ -126,5 +126,6 @@ function LocalBodyChecklist() {
     </div>
   );
 }
+// NOTE: No direct Supabase table/field references in this file, so no changes needed for dbSchema.js usage.
 
 export default LocalBodyChecklist;

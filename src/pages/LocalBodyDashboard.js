@@ -5,6 +5,7 @@ import AddIssueModal from '../components/AddIssueModal';
 import Footer from '../components/Footer';
 import TopNav from '../components/TopNav'; // Add this import
 import { supabase } from '../supabaseClient';
+import { TABLES, FIELDS } from '../constants/dbSchema';
 import './LocalBodyDashboard.css';
 
 const sections = [
@@ -493,9 +494,18 @@ function LocalBodyDashboard() {
       if (!localBodyId) return;
       // Fetch local body with correct field names
       const { data: lb, error: lbError } = await supabase
-        .from('local_body')
-        .select('local_body_id, local_body_name_en, local_body_name_ml, block_name_en, district_panchayat_name_en, assembly_id, type_id, local_body_type(type_name_en, type_name_ml)')
-        .eq('local_body_id', localBodyId)
+        .from(TABLES.LOCAL_BODY)
+        .select([
+          FIELDS.LOCAL_BODY.ID,
+          FIELDS.LOCAL_BODY.NAME_EN,
+          FIELDS.LOCAL_BODY.NAME_ML,
+          FIELDS.LOCAL_BODY.BLOCK_NAME_EN,
+          FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN,
+          FIELDS.LOCAL_BODY.ASSEMBLY_ID,
+          FIELDS.LOCAL_BODY.TYPE_ID,
+          `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN}, ${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML})`
+        ].join(', '))
+        .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
         .single();
       if (lbError || !lb) {
         setLocalBody(null);
@@ -507,9 +517,14 @@ function LocalBodyDashboard() {
 
       // Fetch assembly with correct field names
       const { data: asm, error: asmError } = await supabase
-        .from('assembly')
-        .select('assembly_id, assembly_name_en, assembly_name_ml, district_id')
-        .eq('assembly_id', lb.assembly_id)
+        .from(TABLES.ASSEMBLY)
+        .select([
+          FIELDS.ASSEMBLY.ID,
+          FIELDS.ASSEMBLY.NAME_EN,
+          FIELDS.ASSEMBLY.NAME_ML,
+          FIELDS.ASSEMBLY.DISTRICT_ID
+        ].join(', '))
+        .eq(FIELDS.ASSEMBLY.ID, lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID])
         .single();
       if (asmError || !asm) {
         setAssembly(null);
@@ -520,9 +535,13 @@ function LocalBodyDashboard() {
 
       // Fetch district with correct field names
       const { data: dist, error: distError } = await supabase
-        .from('district')
-        .select('district_id, district_name_en, district_name_ml')
-        .eq('district_id', asm.district_id)
+        .from(TABLES.DISTRICT)
+        .select([
+          FIELDS.DISTRICT.ID,
+          FIELDS.DISTRICT.NAME_EN,
+          FIELDS.DISTRICT.NAME_ML
+        ].join(', '))
+        .eq(FIELDS.DISTRICT.ID, asm[FIELDS.ASSEMBLY.DISTRICT_ID])
         .single();
       if (distError || !dist) {
         setDistrict(null);
@@ -584,9 +603,14 @@ function LocalBodyDashboard() {
       setLoadingHKSRates(true);
       // 1. Get all ward_ids for the local body
       const { data: wards, error: wardError } = await supabase
-        .from('ward')
-        .select('ward_id, ward_name_en, ward_name_ml, ward_no')
-        .eq('local_body_id', localBody.local_body_id);
+        .from(TABLES.WARD)
+        .select([
+          FIELDS.WARD.ID,
+          FIELDS.WARD.WARD_NAME_EN,
+          FIELDS.WARD.WARD_NAME_ML,
+          FIELDS.WARD.WARD_NO
+        ].join(', '))
+        .eq(FIELDS.WARD.LOCAL_BODY_ID, localBody[FIELDS.LOCAL_BODY.ID]);
 
       if (!wards) return;
 
@@ -594,9 +618,13 @@ function LocalBodyDashboard() {
 
       // 2. Get all collections for those wards
       const { data: collections, error: collectionError } = await supabase
-        .from('ward_collection')
-        .select('rate, year_month, ward_id')
-        .in('ward_id', wardIds);
+        .from(TABLES.WARD_COLLECTION)
+        .select([
+          FIELDS.WARD_COLLECTION.RATE,
+          FIELDS.WARD_COLLECTION.YEAR_MONTH,
+          FIELDS.WARD_COLLECTION.WARD_ID
+        ].join(', '))
+        .in(FIELDS.WARD_COLLECTION.WARD_ID, wardIds);
 
       // 3. Merge with ward info and pick latest per ward
       const wardMap = {};
@@ -838,9 +866,15 @@ function LocalBodyDashboard() {
     async function fetchWards() {
       if (!localBody?.local_body_id) return;
       const { data: wardsData } = await supabase
-        .from('ward')
-        .select('ward_id, ward_name_en, ward_name_ml, ward_no, local_body_id')
-        .eq('local_body_id', localBody.local_body_id);
+        .from(TABLES.WARD)
+        .select([
+          FIELDS.WARD.ID,
+          FIELDS.WARD.WARD_NAME_EN,
+          FIELDS.WARD.WARD_NAME_ML,
+          FIELDS.WARD.WARD_NO,
+          FIELDS.WARD.LOCAL_BODY_ID
+        ].join(', '))
+        .eq(FIELDS.WARD.LOCAL_BODY_ID, localBody[FIELDS.LOCAL_BODY.ID]);
       setWards(wardsData || []);
     }
     fetchWards();
@@ -851,9 +885,9 @@ function LocalBodyDashboard() {
     async function fetchIssuesFromTable() {
       if (!localBodyId) return;
       const { data: issuesData, error } = await supabase
-        .from('issues')
+        .from(TABLES.ISSUES)
         .select('*')
-        .eq('local_body_id', localBodyId);
+        .eq(FIELDS.ISSUES.LOCAL_BODY_ID, localBodyId);
       if (error) {
         console.error('Error fetching issues:', error);
         return;
@@ -884,9 +918,12 @@ function LocalBodyDashboard() {
     }
     async function fetchTowns() {
       const { data: towns, error } = await supabase
-        .from('town')
-        .select('town_name_en, town_name_ml')
-        .eq('local_body_id', localBodyId);
+        .from(TABLES.TOWN)
+        .select([
+          FIELDS.TOWN.TOWN_NAME_EN,
+          FIELDS.TOWN.TOWN_NAME_ML
+        ].join(', '))
+        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
       if (towns && towns.length > 0) {
         towns.forEach(town => {
           console.log('Town:', town.town_name_en, '| Malayalam:', town.town_name_ml);
@@ -907,9 +944,13 @@ function LocalBodyDashboard() {
     async function fetchTowns() {
       if (!localBodyId) return;
       const { data: towns, error } = await supabase
-        .from('town')
-        .select('town_id, town_name_en, town_name_ml')
-        .eq('local_body_id', localBodyId);
+        .from(TABLES.TOWN)
+        .select([
+          FIELDS.TOWN.ID,
+          FIELDS.TOWN.TOWN_NAME_EN,
+          FIELDS.TOWN.TOWN_NAME_ML
+        ].join(', '))
+        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
       if (towns && towns.length > 0) {
         const map = {};
         towns.forEach(town => { map[town.town_id] = town; });

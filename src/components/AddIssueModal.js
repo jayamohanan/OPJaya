@@ -4,6 +4,7 @@ import './AddIssueModal.css';
 import { MapContainer, TileLayer, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { supabase } from '../supabaseClient';
+import { TABLES, FIELDS } from '../constants/dbSchema';
 
 const issueTypes = [
   'Towns',
@@ -64,9 +65,13 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         return;
       }
       const { data: townsData } = await supabase
-        .from('town')
-        .select('town_id, town_name_en, town_name_ml')
-        .eq('local_body_id', localBodyData.local_body_id);
+        .from(TABLES.TOWN)
+        .select([
+          FIELDS.TOWN.ID,
+          FIELDS.TOWN.TOWN_NAME_EN,
+          FIELDS.TOWN.TOWN_NAME_ML
+        ].join(', '))
+        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyData?.[FIELDS.LOCAL_BODY.ID] || localBodyData?.id || '');
       setTowns(townsData || []);
       setSelectedTown('');
     }
@@ -177,14 +182,14 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         photoUrls.push(photoUrl);
       }
       // Insert into Supabase issues table
-      const { error: supaError } = await supabase.from('issues').insert({
-        local_body_id: localBodyData?.local_body_id || localBodyData?.id || '',
-        type: dbType,
-        description: formData.description,
-        location_url: locationUrl,
-        image_url: photoUrls[0] || '',
-        resolved: false,
-        town_id: formData.type === 'Towns' ? selectedTown : null
+      const { error: supaError } = await supabase.from(TABLES.ISSUES).insert({
+        [FIELDS.ISSUES.LOCAL_BODY_ID]: localBodyData?.[FIELDS.LOCAL_BODY.ID] || localBodyData?.id || '',
+        [FIELDS.ISSUES.TYPE]: dbType,
+        [FIELDS.ISSUES.DESCRIPTION]: formData.description,
+        [FIELDS.ISSUES.LOCATION_URL]: locationUrl,
+        [FIELDS.ISSUES.IMAGE_URL]: photoUrls[0] || '',
+        [FIELDS.ISSUES.RESOLVED]: false,
+        [FIELDS.ISSUES.TOWN_ID]: formData.type === 'Towns' ? selectedTown : null
       });
       if (supaError) throw supaError;
       alert('Issue submitted successfully!');

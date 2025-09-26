@@ -1,6 +1,7 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState, useContext } from 'react';
 import { supabase } from '../supabaseClient';
+import { TABLES, FIELDS } from '../constants/dbSchema';
 import RankingSection from '../components/RankingSection';
 import { LanguageContext } from '../components/LanguageContext';
 import MapSection from '../components/MapSection';
@@ -34,9 +35,14 @@ function AssemblyPage() {
     async function fetchData() {
       // Fetch assembly by ID (get both _ml and _en)
       const { data: assemblyData, error: assemblyError } = await supabase
-        .from('assembly')
-        .select('assembly_id, assembly_name_en, assembly_name_ml, district_id')
-        .eq('assembly_id', assemblyId)
+        .from(TABLES.ASSEMBLY)
+        .select([
+          FIELDS.ASSEMBLY.ID,
+          FIELDS.ASSEMBLY.NAME_EN,
+          FIELDS.ASSEMBLY.NAME_ML,
+          FIELDS.ASSEMBLY.DISTRICT_ID
+        ].join(', '))
+        .eq(FIELDS.ASSEMBLY.ID, assemblyId)
         .single();
       if (assemblyError || !assemblyData) {
         setRankedLocalBodies([]);
@@ -49,33 +55,41 @@ function AssemblyPage() {
 
       // Fetch district name (get both _ml and _en)
       let districtName = '';
-      if (assemblyData.district_id) {
+      if (assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]) {
         const { data: districtData, error: districtError } = await supabase
-          .from('district')
-          .select('district_name_en, district_name_ml')
-          .eq('district_id', assemblyData.district_id)
+          .from(TABLES.DISTRICT)
+          .select([
+            FIELDS.DISTRICT.NAME_EN,
+            FIELDS.DISTRICT.NAME_ML
+          ].join(', '))
+          .eq(FIELDS.DISTRICT.ID, assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID])
           .single();
         if (!districtError && districtData) {
           districtName =
             lang === 'ml'
-              ? (districtData.district_name_ml || districtData.district_name_en)
-              : (districtData.district_name_en || districtData.district_name_ml);
+              ? (districtData[FIELDS.DISTRICT.NAME_ML] || districtData[FIELDS.DISTRICT.NAME_EN])
+              : (districtData[FIELDS.DISTRICT.NAME_EN] || districtData[FIELDS.DISTRICT.NAME_ML]);
         }
       }
       setDistrict(districtName);
 
       // Fetch all local bodies in this assembly with their category (get both _ml and _en)
       const { data: lbs, error: lbError } = await supabase
-        .from('local_body')
-        .select('local_body_id, local_body_name_en, local_body_name_ml, local_body_category(category)')
-        .eq('assembly_id', assemblyData.assembly_id);
+        .from(TABLES.LOCAL_BODY)
+        .select([
+          FIELDS.LOCAL_BODY.ID,
+          FIELDS.LOCAL_BODY.NAME_EN,
+          FIELDS.LOCAL_BODY.NAME_ML,
+          `${TABLES.LOCAL_BODY_CATEGORY}(${FIELDS.LOCAL_BODY_CATEGORY.CATEGORY})`
+        ].join(', '))
+        .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, assemblyData[FIELDS.ASSEMBLY.ID]);
       if (lbError) {
         setRankedLocalBodies([]);
       } else {
         // Group by category: Perfect > Good > Normal
         const categories = { 'Perfect': [], 'Good': [], 'Normal': [] };
         (lbs || []).forEach(lb => {
-          const cat = lb.local_body_category?.category || 'Normal';
+          const cat = lb.local_body_category?.[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
           if (categories[cat]) categories[cat].push(lb);
           else categories['Normal'].push(lb);
         });
@@ -87,18 +101,22 @@ function AssemblyPage() {
       }
 
       // Fetch all other assemblies in the same district (get both _ml and _en)
-      if (assemblyData.district_id) {
+      if (assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]) {
         const { data: allInDistrict, error: error2 } = await supabase
-          .from('assembly')
-          .select('assembly_id, assembly_name_en, assembly_name_ml')
-          .eq('district_id', assemblyData.district_id);
+          .from(TABLES.ASSEMBLY)
+          .select([
+            FIELDS.ASSEMBLY.ID,
+            FIELDS.ASSEMBLY.NAME_EN,
+            FIELDS.ASSEMBLY.NAME_ML
+          ].join(', '))
+          .eq(FIELDS.ASSEMBLY.DISTRICT_ID, assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]);
         if (!error2 && allInDistrict) {
           setOtherAssemblies(
             allInDistrict
-              .filter(a => a.assembly_id !== assemblyId)
+              .filter(a => a[FIELDS.ASSEMBLY.ID] !== assemblyId)
               .sort((a, b) => {
-                const aName = lang === 'ml' ? (a.assembly_name_ml || a.assembly_name_en) : (a.assembly_name_en || a.assembly_name_ml);
-                const bName = lang === 'ml' ? (b.assembly_name_ml || b.assembly_name_en) : (b.assembly_name_en || b.assembly_name_ml);
+                const aName = lang === 'ml' ? (a[FIELDS.ASSEMBLY.NAME_ML] || a[FIELDS.ASSEMBLY.NAME_EN]) : (a[FIELDS.ASSEMBLY.NAME_EN] || a[FIELDS.ASSEMBLY.NAME_ML]);
+                const bName = lang === 'ml' ? (b[FIELDS.ASSEMBLY.NAME_ML] || b[FIELDS.ASSEMBLY.NAME_EN]) : (b[FIELDS.ASSEMBLY.NAME_EN] || b[FIELDS.ASSEMBLY.NAME_ML]);
                 return aName.localeCompare(bName);
               })
           );
@@ -117,13 +135,13 @@ function AssemblyPage() {
 
   // Prepare items for RankingSection
   const rankingItems = rankedLocalBodies.map(lb => ({
-    id: lb.local_body_id,
+    id: lb[FIELDS.LOCAL_BODY.ID],
     name:
       lang === 'ml'
-        ? (lb.local_body_name_ml || lb.local_body_name_en)
-        : (lb.local_body_name_en || lb.local_body_name_ml),
-    type: lb.local_body_type?.type_name_en || lb.local_body_type?.type_name_ml || '',
-    category: lb.local_body_category?.category || 'Normal'
+        ? (lb[FIELDS.LOCAL_BODY.NAME_ML] || lb[FIELDS.LOCAL_BODY.NAME_EN])
+        : (lb[FIELDS.LOCAL_BODY.NAME_EN] || lb[FIELDS.LOCAL_BODY.NAME_ML]),
+    type: lb.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || lb.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '',
+    category: lb.local_body_category?.[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal'
   }));
 
   const rankingCategories = [
@@ -135,19 +153,19 @@ function AssemblyPage() {
   // Pass parent assembly and district info for state
   const parentAssembly = assembly
     ? {
-        id: assembly.assembly_id,
-        name: lang === 'ml' ? (assembly.assembly_name_ml || assembly.assembly_name_en) : (assembly.assembly_name_en || assembly.assembly_name_ml)
+        id: assembly[FIELDS.ASSEMBLY.ID],
+        name: lang === 'ml' ? (assembly[FIELDS.ASSEMBLY.NAME_ML] || assembly[FIELDS.ASSEMBLY.NAME_EN]) : (assembly[FIELDS.ASSEMBLY.NAME_EN] || assembly[FIELDS.ASSEMBLY.NAME_ML])
       }
     : undefined;
   const parentDistrict = district
     ? {
-        id: assembly?.district_id,
+        id: assembly?.[FIELDS.ASSEMBLY.DISTRICT_ID],
         name: district
       }
     : undefined;
 
   // Get English name for geojson path
-  const assemblyNameEn = assembly?.assembly_name_en || '';
+  const assemblyNameEn = assembly?.[FIELDS.ASSEMBLY.NAME_EN] || '';
   // Replace spaces with hyphens for R2 asset naming
   const geojsonFileName = assemblyNameEn ? `${assemblyNameEn.toLowerCase().replace(/\s+/g, '-')}.geojson` : '';
   const geojsonUrl = assemblyNameEn

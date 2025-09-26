@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { supabase } from '../supabaseClient';
+import { TABLES, FIELDS } from '../constants/dbSchema';
 
 function Signup() {
   const [invite, setInvite] = useState(null);
@@ -19,9 +20,9 @@ function Signup() {
       return;
     }
     supabase
-      .from('invites')
-      .select('*, role')
-      .eq('token', token)
+      .from(TABLES.INVITES)
+      .select(`*, ${FIELDS.INVITES.ROLE}`)
+      .eq(FIELDS.INVITES.TOKEN, token)
       .then(async ({ data, error }) => {
         if (error || !data || data.length === 0) {
           setError('Invite token not found or error');
@@ -29,9 +30,9 @@ function Signup() {
           setInvite(data[0]);
           // Fetch local body name and type
           const { data: lbData, error: lbError } = await supabase
-            .from('local_body')
-            .select('local_body_name_en, local_body_type(type_name_en)')
-            .eq('local_body_id', data[0].local_body_id)
+            .from(TABLES.LOCAL_BODY)
+            .select(`${FIELDS.LOCAL_BODY.NAME_EN}, ${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN})`)
+            .eq(FIELDS.LOCAL_BODY.ID, data[0][FIELDS.INVITES.LOCAL_BODY_ID])
             .single();
           if (!lbError && lbData) {
             setLocalBodyName(lbData.local_body_name_en);
@@ -60,7 +61,7 @@ function Signup() {
     setLoading(true);
     // Use Supabase Auth to sign up
     const { data, error: signUpError } = await supabase.auth.signUp({
-      email: invite.email,
+      email: invite[FIELDS.INVITES.EMAIL],
       password
     });
     if (signUpError) {
@@ -69,13 +70,13 @@ function Signup() {
       return;
     }
     // Mark invite as used
-    await supabase.from('invites').update({ used: true }).eq('token', invite.token);
+  await supabase.from(TABLES.INVITES).update({ [FIELDS.INVITES.USED]: true }).eq(FIELDS.INVITES.TOKEN, invite[FIELDS.INVITES.TOKEN]);
     // Insert into profiles table
     if (data && data.user) {
-      await supabase.from('profiles').insert({
-        id: data.user.id,
-        local_body_id: invite.local_body_id,
-        role: invite.role || 'user'
+      await supabase.from(TABLES.PROFILES).insert({
+        [FIELDS.PROFILES.ID]: data.user.id,
+        [FIELDS.PROFILES.LOCAL_BODY_ID]: invite[FIELDS.INVITES.LOCAL_BODY_ID],
+        [FIELDS.PROFILES.ROLE]: invite[FIELDS.INVITES.ROLE] || 'user'
       });
     }
     setSuccess('Signup successful! Please check your email to confirm your account.');
