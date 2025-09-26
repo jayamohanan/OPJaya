@@ -88,14 +88,14 @@ function DistrictPage() {
         {/* Map Section (remaining width) */}
         <div style={{ flex: 1, minWidth: 0, height: 'auto', alignSelf: 'flex-start' }}>
           {geojsonUrl && (
-            <div style={{ borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', marginBottom: 0, padding: 0, overflow: 'hidden', maxWidth: 900, margin: '0 auto' }}>
+            <div style={{ borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', marginBottom: 0, padding: 0, overflow: 'hidden' }}>
               <div style={{ width: '100%', display: 'flex', justifyContent: 'center', borderBottom: '1px solid #eee', background: '#f7f7f7' }}>
                 <div style={{ display: 'flex', width: 400, maxWidth: '100%' }}>
                   <button onClick={() => setMapTab('choropleth')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'choropleth' ? '#fff' : 'transparent', fontWeight: mapTab === 'choropleth' ? 700 : 400, borderBottom: mapTab === 'choropleth' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Rank</button>
                   <button onClick={() => setMapTab('base')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'base' ? '#fff' : 'transparent', fontWeight: mapTab === 'base' ? 700 : 400, borderBottom: mapTab === 'base' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Map</button>
                 </div>
               </div>
-              <div style={{ padding: 0, minHeight: 420, maxWidth: 900, margin: '0 auto' }}>
+              <div style={{ padding: 0, minHeight: 420 }}>
                 {mapTab === 'choropleth' && (
                   <ChoroplethMapRect
                     geojsonUrl={geojsonUrl}
@@ -136,6 +136,8 @@ function DistrictPage() {
             items={rankingItems}
             categories={rankingCategories}
             itemType="assembly"
+            minWidth={240}
+            maxWidth={320}
           />
         </div>
       </div>

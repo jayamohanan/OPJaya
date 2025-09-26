@@ -45,7 +45,6 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
                       fontSize: 14,
                       color: '#222',
                       fontWeight: 500,
-                      paddingLeft: 12,
                       textAlign: 'left',
                       padding: '7px 8px',
                       background: idx % 2 === 0 ? '#f5f7fa' : '#e3e8ef',
@@ -68,7 +67,7 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
                   </li>
                 );
               }) : (
-                <li style={{ fontSize: 14, color: '#aaa', fontWeight: 400, paddingLeft: 12, textAlign: 'left', padding: '7px 8px', background: '#f5f7fa', borderRadius: 4 }}>-----</li>
+                <li style={{ fontSize: 14, color: '#aaa', fontWeight: 400, textAlign: 'left', padding: '7px 8px', background: '#f5f7fa', borderRadius: 4 }}>-----</li>
               )}
             </ul>
           </div>
