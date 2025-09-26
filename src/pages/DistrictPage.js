@@ -80,56 +80,65 @@ function DistrictPage() {
   }, []);
 
   return (
-    <div style={{ padding: 40 }}>
+    <div style={{ padding: 20 }}>
       <h1 style={{ marginBottom: 24 }}>
         District: {lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
       </h1>
-      {/* Combined Map Section with Tabs */}
-      {geojsonUrl && (
-        <div style={{ borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', marginBottom: 32, padding: 0, overflow: 'hidden', maxWidth: 900, marginLeft: 'auto', marginRight: 'auto' }}>
-          <div style={{ width: '100%', display: 'flex', justifyContent: 'center', borderBottom: '1px solid #eee', background: '#f7f7f7' }}>
-            <div style={{ display: 'flex', width: 400, maxWidth: '100%' }}>
-              <button onClick={() => setMapTab('choropleth')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'choropleth' ? '#fff' : 'transparent', fontWeight: mapTab === 'choropleth' ? 700 : 400, borderBottom: mapTab === 'choropleth' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Rank</button>
-              <button onClick={() => setMapTab('base')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'base' ? '#fff' : 'transparent', fontWeight: mapTab === 'base' ? 700 : 400, borderBottom: mapTab === 'base' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Map</button>
+      <div style={{ display: 'flex', flexDirection: 'row', alignItems: 'flex-start', gap: 16, maxWidth: 1200, margin: '0 auto 32px auto', width: '100%' }}>
+        {/* Map Section (remaining width) */}
+        <div style={{ flex: 1, minWidth: 0, height: 'auto', alignSelf: 'flex-start' }}>
+          {geojsonUrl && (
+            <div style={{ borderRadius: 12, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', marginBottom: 0, padding: 0, overflow: 'hidden', maxWidth: 900, margin: '0 auto' }}>
+              <div style={{ width: '100%', display: 'flex', justifyContent: 'center', borderBottom: '1px solid #eee', background: '#f7f7f7' }}>
+                <div style={{ display: 'flex', width: 400, maxWidth: '100%' }}>
+                  <button onClick={() => setMapTab('choropleth')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'choropleth' ? '#fff' : 'transparent', fontWeight: mapTab === 'choropleth' ? 700 : 400, borderBottom: mapTab === 'choropleth' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Rank</button>
+                  <button onClick={() => setMapTab('base')} style={{ flex: 1, padding: 16, border: 'none', background: mapTab === 'base' ? '#fff' : 'transparent', fontWeight: mapTab === 'base' ? 700 : 400, borderBottom: mapTab === 'base' ? '2px solid #1976d2' : 'none', cursor: 'pointer' }}>Map</button>
+                </div>
+              </div>
+              <div style={{ padding: 0, minHeight: 420, maxWidth: 900, margin: '0 auto' }}>
+                {mapTab === 'choropleth' && (
+                  <ChoroplethMapRect
+                    geojsonUrl={geojsonUrl}
+                    featureType="assembly"
+                    featureCategories={assemblies.map(a => ({
+                      ...a,
+                      name_en: (a.assembly_name_en || '').toLowerCase(),
+                      name_ml: (a.assembly_name_ml || '').toLowerCase(),
+                      category: a.category || 'Normal'
+                    }))}
+                    showBaseMap={true}
+                    fillOpacity={0.4}
+                    tileLayerUrl={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
+                    hoverHighlightStyle={{ weight: 4, color: '#1976d2', fillOpacity: 0.5 }}
+                    palette="palette5"
+                    lang={lang}
+                  />
+                )}
+                {mapTab === 'base' && (
+                  <MapSection
+                    geojsonUrl={geojsonUrl}
+                    title={lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
+                    zoomControl={false}
+                  />
+                )}
+              </div>
             </div>
-          </div>
-          <div style={{ padding: 0, minHeight: 420, maxWidth: 900, margin: '0 auto' }}>
-            {mapTab === 'choropleth' && (
-              <ChoroplethMapRect
-                geojsonUrl={geojsonUrl}
-                featureType="assembly"
-                featureCategories={assemblies.map(a => ({
-                  ...a,
-                  name: (a.name || '').toLowerCase()
-                }))}
-                showBaseMap={true}
-                fillOpacity={0.4}
-                tileLayerUrl={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
-                hoverHighlightStyle={{ weight: 4, color: '#1976d2', fillOpacity: 0.5 }}
-                palette="palette5"
-              />
-            )}
-            {mapTab === 'base' && (
-              <MapSection
-                geojsonUrl={geojsonUrl}
-                title={lang === 'ml' ? (district?.district_name_ml || district?.district_name_en) : (district?.district_name_en || district?.district_name_ml)}
-                zoomControl={false}
-              />
-            )}
-          </div>
+          )}
         </div>
-      )}
-      {/* Ranking Section */}
-      <RankingSection
-        title={
-          (lang === 'ml'
-            ? (district?.district_name_ml || district?.district_name_en)
-            : (district?.district_name_en || district?.district_name_ml)) + ' Ranking'
-        }
-        items={rankingItems}
-        categories={rankingCategories}
-        itemType="assembly"
-      />
+        {/* Ranking Section (fixed width) */}
+        <div style={{ width: 320, minWidth: 0, marginLeft: 0, overflow: 'auto', maxHeight: 600 }}>
+          <RankingSection
+            title={
+              (lang === 'ml'
+                ? (district?.district_name_ml || district?.district_name_en)
+                : (district?.district_name_en || district?.district_name_ml)) + ' Ranking'
+            }
+            items={rankingItems}
+            categories={rankingCategories}
+            itemType="assembly"
+          />
+        </div>
+      </div>
     </div>
   );
 }

@@ -133,28 +133,25 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
 
   // Helper to get category for a feature
   function getCategory(feature) {
-    let name = feature.properties?.Name || feature.properties?.name || feature.properties?.local_body_name_en || feature.properties?.assembly_name_en;
-    if (!name) return 'Normal';
-    // Find in featureCategories by name (case-insensitive, trim)
-    const found = featureCategories.find(
-      f => (f.local_body_name_en || '').trim().toLowerCase() === name.trim().toLowerCase() && f.category
-    );
-
+    let name = feature.properties?.local_body_name_en || feature.properties?.assembly_name_en || feature.properties?.Name || feature.properties?.name || '';
+    name = (name || '').trim().toLowerCase();
+    // Find in featureCategories by English name
+    const found = featureCategories.find(f => f.name_en === name && f.category);
     if (found && found.category) {
       return found.category.trim();
     }
     return 'Normal';
   }
 
-  // Helper to get display name
+  // Helper to convert a string to title case
+  function toTitleCase(str) {
+    return (str || '').replace(/\w\S*/g, (txt) => txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase());
+  }
+
+  // Helper to get display name in English and title case
   function getDisplayName(feature) {
-    return (
-      feature.properties?.Name ||
-      feature.properties?.name ||
-      feature.properties?.local_body_name_en ||
-      feature.properties?.assembly_name_en ||
-      ''
-    );
+    let name = feature.properties?.local_body_name_en || feature.properties?.assembly_name_en || feature.properties?.Name || feature.properties?.name || '';
+    return toTitleCase(name);
   }
 
   // Style for each feature
@@ -185,7 +182,7 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
     const name = getDisplayName(feature);
     if (name) {
       layer.bindTooltip(
-        `<span style='font-weight:600;font-size:11px;color:#111; background: none !important; background-color: transparent !important;'>${name}</span>`,
+        `<span style='font-weight:600;font-size:11px;color:#111; background: none !important; background-color: transparent !important;'>${getDisplayName(feature)}</span>`,
         { direction: 'center', permanent: true, className: 'choropleth-label', sticky: false }
       );
     }
@@ -233,8 +230,15 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
     }
   }, [popupInfo]);
 
+  // Legend categories and order
+  const legendItems = [
+    { key: 'Perfect', label: 'Perfect', color: CATEGORY_COLORS.Perfect },
+    { key: 'Good', label: 'Good', color: CATEGORY_COLORS.Good },
+    { key: 'Normal', label: 'Normal', color: CATEGORY_COLORS.Normal },
+  ];
+
   return (
-    <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '100%', maxWidth: 900, margin: '32px auto' }}>
+    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
       <div style={{ width: 600, aspectRatio: '1', borderRadius: 12, overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
         <MapContainer
           style={{ width: '100%', height: '100%', borderRadius: 16 }}
@@ -255,6 +259,36 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
           )}
           {geojson && <FitBounds geojson={geojson} />}
         </MapContainer>
+        {/* Legend */}
+        <div style={{
+          position: 'absolute',
+          top: 12,
+          right: 12,
+          background: 'rgba(255,255,255,0.95)',
+          borderRadius: 6,
+          boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+          padding: '6px 10px',
+          zIndex: 1000,
+          minWidth: 0,
+          display: 'flex',
+          flexDirection: 'column',
+          gap: 2
+        }}>
+          {legendItems.map(item => (
+            <div key={item.key} style={{ display: 'flex', alignItems: 'center', marginBottom: 2 }}>
+              <span style={{
+                display: 'inline-block',
+                width: 12,
+                height: 12,
+                background: item.color,
+                borderRadius: 3,
+                marginRight: 7,
+                border: '1px solid #bbb'
+              }} />
+              <span style={{ fontSize: 12 }}>{item.label}</span>
+            </div>
+          ))}
+        </div>
       </div>
       {/* Info window as a section to the right, half the height of map rect, centered */}
       <div style={{ minWidth: 220, width: 300, height: 300, marginLeft: 32, display: 'flex', alignItems: 'center' }}>
