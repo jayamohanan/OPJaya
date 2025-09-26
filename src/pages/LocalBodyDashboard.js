@@ -369,36 +369,102 @@ function TownIssuesModal({ isOpen, onClose, town, issues, townsMap }) {
           <h2 style={{ margin: 0, fontSize: 26 }}>{townName} - Issues</h2>
           <button className="close-modal-btn" onClick={onClose} style={{ top: 18, right: 18 }}>×</button>
         </div>
-        <div style={{ flex: 1, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', padding: 24, overflow: 'auto' }}>
-          {/* Carousel */}
-          <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', textAlign: 'center', marginBottom: 24, position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-            <div style={{ position: 'relative', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-              {/* Left arrow */}
-              <button onClick={() => canGoLeft && setSelectedImageIdx(selectedImageIdx - 1)} disabled={!canGoLeft} style={{ position: 'absolute', left: 0, top: '50%', transform: 'translateY(-50%)', fontSize: 32, background: 'none', border: 'none', color: canGoLeft ? '#1976d2' : '#ccc', cursor: canGoLeft ? 'pointer' : 'default', zIndex: 2 }}>&#8592;</button>
-              {selectedImage && (
-                <img src={selectedImage} alt="Issue" style={{ maxWidth: '100%', maxHeight: 400, borderRadius: 10, margin: '0 48px' }} />
-              )}
-              {/* Right arrow */}
-              <button onClick={() => canGoRight && setSelectedImageIdx(selectedImageIdx + 1)} disabled={!canGoRight} style={{ position: 'absolute', right: 0, top: '50%', transform: 'translateY(-50%)', fontSize: 32, background: 'none', border: 'none', color: canGoRight ? '#1976d2' : '#ccc', cursor: canGoRight ? 'pointer' : 'default', zIndex: 2 }}>&#8594;</button>
+        <div style={{ flex: 1, display: 'flex', flexDirection: 'row', alignItems: 'stretch', justifyContent: 'center', padding: 0, overflow: 'hidden' }}>
+          {/* Left: Carousel/Issues (2/3) */}
+          <div style={{ flex: 2, minWidth: 0, padding: 24, overflow: 'auto', borderRight: '1px solid #f0f0f0', display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+            {/* Carousel */}
+            <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', textAlign: 'center', marginBottom: 24, position: 'relative', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+              {/* Carousel image with arrows inside */}
+              <div style={{ position: 'relative', width: '100%', maxWidth: 500, margin: '0 auto' }}>
+                {selectedImage && (
+                  <img src={selectedImage} alt="Issue" style={{ maxWidth: '100%', maxHeight: 400, borderRadius: 10, display: 'block', margin: '0 auto' }} />
+                )}
+                {/* Left chevron arrow inside image */}
+                <button
+                  onClick={() => canGoLeft && setSelectedImageIdx(selectedImageIdx - 1)}
+                  disabled={!canGoLeft}
+                  style={{
+                    position: 'absolute',
+                    left: 8,
+                    top: '50%',
+                    transform: 'translateY(-50%)',
+                    background: 'rgba(25,118,210,0.7)',
+                    border: 'none',
+                    borderRadius: '50%',
+                    width: 32,
+                    height: 32,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    cursor: canGoLeft ? 'pointer' : 'default',
+                    color: '#fff',
+                    fontSize: 20,
+                    zIndex: 2,
+                    opacity: canGoLeft ? 1 : 0.4
+                  }}
+                  aria-label="Previous image"
+                >
+                  <span style={{ display: 'inline-block' }}>&#x2039;</span>
+                </button>
+                {/* Right chevron arrow inside image */}
+                <button
+                  onClick={() => canGoRight && setSelectedImageIdx(selectedImageIdx + 1)}
+                  disabled={!canGoRight}
+                  style={{
+                    position: 'absolute',
+                    right: 8,
+                    top: '50%',
+                    transform: 'translateY(-50%)',
+                    background: 'rgba(25,118,210,0.7)',
+                    border: 'none',
+                    borderRadius: '50%',
+                    width: 32,
+                    height: 32,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    cursor: canGoRight ? 'pointer' : 'default',
+                    color: '#fff',
+                    fontSize: 20,
+                    zIndex: 2,
+                    opacity: canGoRight ? 1 : 0.4
+                  }}
+                  aria-label="Next image"
+                >
+                  <span style={{ display: 'inline-block' }}>&#x203A;</span>
+                </button>
+              </div>
+              {/* Thumbnails below image */}
+              <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 12 }}>
+                {images.map((img, idx) => (
+                  <img
+                    key={idx}
+                    src={img}
+                    alt={`thumb-${idx}`}
+                    style={{ width: 64, height: 64, objectFit: 'cover', border: idx === selectedImageIdx ? '2px solid #1976d2' : '1px solid #ccc', borderRadius: 6, cursor: 'pointer' }}
+                    onClick={() => setSelectedImageIdx(idx)}
+                  />
+                ))}
+              </div>
             </div>
-            <div style={{ display: 'flex', justifyContent: 'center', gap: 8, marginTop: 12 }}>
-              {images.map((img, idx) => (
-                <img
-                  key={idx}
-                  src={img}
-                  alt={`thumb-${idx}`}
-                  style={{ width: 64, height: 64, objectFit: 'cover', border: idx === selectedImageIdx ? '2px solid #1976d2' : '1px solid #ccc', borderRadius: 6, cursor: 'pointer' }}
-                  onClick={() => setSelectedImageIdx(idx)}
-                />
-              ))}
+            {/* Metadata for selected issue only */}
+            <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', background: '#f9f9f9', borderRadius: 8, padding: 24, boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
+              <div style={{ marginBottom: 10 }}><b>Description:</b> {selectedIssue.description}</div>
+              <div style={{ marginBottom: 10 }}><b>Date:</b> {selectedIssue.created_at ? new Date(selectedIssue.created_at).toLocaleDateString() : 'N/A'}</div>
+              {selectedIssue.location_url && <div style={{ marginBottom: 10 }}><b>Location:</b> <a href={selectedIssue.location_url} target="_blank" rel="noopener noreferrer">View on Map</a></div>}
+              {selectedIssue.resolved && <div style={{ color: 'green', marginBottom: 10 }}><b>Resolved</b></div>}
             </div>
           </div>
-          {/* Metadata for selected issue only */}
-          <div style={{ width: '100%', maxWidth: 700, margin: '0 auto', background: '#f9f9f9', borderRadius: 8, padding: 24, boxShadow: '0 2px 8px rgba(0,0,0,0.04)' }}>
-            <div style={{ marginBottom: 10 }}><b>Description:</b> {selectedIssue.description}</div>
-            <div style={{ marginBottom: 10 }}><b>Date:</b> {selectedIssue.created_at ? new Date(selectedIssue.created_at).toLocaleDateString() : 'N/A'}</div>
-            {selectedIssue.location_url && <div style={{ marginBottom: 10 }}><b>Location:</b> <a href={selectedIssue.location_url} target="_blank" rel="noopener noreferrer">View on Map</a></div>}
-            {selectedIssue.resolved && <div style={{ color: 'green', marginBottom: 10 }}><b>Resolved</b></div>}
+          {/* Right: Town Summary (1/3) */}
+          <div style={{ flex: 1, minWidth: 0, padding: 32, background: '#f8fafd', display: 'flex', flexDirection: 'column', alignItems: 'flex-start', justifyContent: 'flex-start' }}>
+            <h3 style={{ color: '#1976d2', fontWeight: 700, fontSize: 20, marginBottom: 18 }}>Town Summary</h3>
+            <ul style={{ color: '#333', fontSize: 16, paddingLeft: 18, margin: 0, listStyle: 'disc' }}>
+              <li>Total Population: 12,345</li>
+              <li>Area: 23.5 sq.km</li>
+              <li>Number of Wards: 18</li>
+              <li>Major Landmarks: School, Market, Temple</li>
+              <li>Recent Development: New park opened</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -708,19 +774,14 @@ function LocalBodyDashboard() {
 
   // Add this function to handle "See all issues" click
   const handleSeeAllIssues = (sectionTitle) => {
-    console.log(`See all clicked for: ${sectionTitle}`);
-    
-    // Fetch issues if not already loaded
-    if (!issues[sectionTitle] && sectionToFolder(sectionTitle)) {
-      fetchIssuesForSection(sectionTitle);
+    // Only open if there are real issues in the section
+    if (issues[sectionTitle] && issues[sectionTitle].length > 0) {
+      setSeeAllModal({
+        isOpen: true,
+        sectionTitle: sectionTitle,
+        sectionIssues: issues[sectionTitle]
+      });
     }
-    
-    // Open modal with current issues
-    setSeeAllModal({
-      isOpen: true,
-      sectionTitle: sectionTitle,
-      sectionIssues: [...tiles, ...(issues[sectionTitle] || [])]
-    });
   };
 
   // Add function to close modal
@@ -1026,109 +1087,122 @@ function LocalBodyDashboard() {
           </div>
           {/* All dashboard sections */}
           <div className="dashboard-sections">
-            {sections.map((section) => (
-              <div className="dashboard-section" key={section.title}>
-                <div className="dashboard-section-header">
-                  <span>{section.title}</span>
-                  <button 
-                    className="see-all-issues-btn"
-                    onClick={() => handleSeeAllIssues(section.title)}
-                    type="button"
-                  >
-                    See all →
-                  </button>
-                </div>
-                <div className="dashboard-section-content">
-                  <div className="scroll-container">
-                    {/* Left scroll arrow */}
+            {sections.map((section) => {
+              // Determine if 'See all' should be enabled (content overflows)
+              const containerId = `scroll-${section.title.replace(/\s+/g, '-')}`;
+              let canSeeAll = false;
+              if (typeof window !== 'undefined') {
+                const el = document.getElementById(containerId);
+                if (el && el.scrollWidth > el.clientWidth) {
+                  canSeeAll = true;
+                }
+              }
+              return (
+                <div className="dashboard-section" key={section.title}>
+                  <div className="dashboard-section-header">
+                    <span>{section.title}</span>
                     <button 
-                      className="scroll-nav left"
-                      onClick={() => scrollLeft(section.title)}
-                      disabled={!scrollPositions[section.title]?.canScrollLeft}
-                      aria-label="Scroll left"
+                      className="see-all-issues-btn"
+                      onClick={() => handleSeeAllIssues(section.title)}
+                      type="button"
+                      disabled={!canSeeAll || !(issues[section.title] && issues[section.title].length > 0)}
+                      style={{ opacity: (!canSeeAll || !(issues[section.title] && issues[section.title].length > 0)) ? 0.5 : 1, cursor: (!canSeeAll || !(issues[section.title] && issues[section.title].length > 0)) ? 'not-allowed' : 'pointer' }}
                     >
-                      ‹
-                    </button>
-                    {/* Horizontal scrollable content */}
-                    <div 
-                      className="dashboard-tiles-scroll"
-                      id={`scroll-${section.title.replace(/\s+/g, '-')}`}
-                      onScroll={() => handleScroll(section.title)}
-                    >
-                      {/* Render grouped town cards for Towns section */}
-                      {section.title === 'Towns' && Object.keys(issuesByTown).length > 0 ? (
-                        Object.entries(issuesByTown).map(([townId, townIssuesArr]) => (
-                          <div 
-                            className="dashboard-tile" 
-                            key={townId}
-                            style={{ minHeight: 180, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', border: '1px solid #ccc', borderRadius: 8 }}
-                            onClick={() => setTownModal({ isOpen: true, townId, issues: townIssuesArr })}
-                          >
-                            <div style={{ flex: 1, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
-                              {/* Empty rect for now */}
-                            </div>
-                            <div style={{ marginTop: 12, fontWeight: 600, fontSize: 16, textAlign: 'center' }}>
-                              {townsMap[townId]?.town_name_en || 'Unknown Town'}
-                            </div>
-                          </div>
-                        ))
-                      ) : section.title === 'Others' && otherIssues.length > 0 ? (
-                        otherIssues.map((issue) => (
-                          <div className="dashboard-tile" key={`issue-${issue.id}`}> 
-                            <div className="dashboard-tile-img">
-                              <img 
-                                src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
-                                alt={issue.title || issue.description}
-                                onError={handleImageError}
-                              />
-                            </div>
-                            <div className="dashboard-tile-info">
-                              <div className="dashboard-tile-name">{issue.title || issue.type}</div>
-                              <div className="dashboard-tile-desc">{issue.description}</div>
-                              <div className="dashboard-tile-number">
-                                {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
-                              </div>
-                              {issue.location_url && (
-                                <div className="dashboard-tile-location">
-                                  <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
-                                </div>
-                              )}
-                            </div>
-                          </div>
-                        ))
-                      ) : (
-                        tiles.map((tile, idx) => (
-                          <div className="dashboard-tile" key={`sample-${idx}`}> 
-                            <div className="dashboard-tile-img">
-                              <img src={tile.image} alt={tile.name} />
-                            </div>
-                            <div className="dashboard-tile-info">
-                              <div className="dashboard-tile-name">{tile.name}</div>
-                              <div className="dashboard-tile-desc">{tile.description}</div>
-                              <div className="dashboard-tile-number">{tile.number}</div>
-                              {tile.location_url && (
-                                <div className="dashboard-tile-location">
-                                  <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
-                                </div>
-                              )}
-                            </div>
-                          </div>
-                        ))
-                      )}
-                    </div>
-                    {/* Right scroll arrow */}
-                    <button 
-                      className="scroll-nav right"
-                      onClick={() => scrollRight(section.title)}
-                      disabled={!scrollPositions[section.title]?.canScrollRight}
-                      aria-label="Scroll right"
-                    >
-                      ›
+                      See all →
                     </button>
                   </div>
+                  <div className="dashboard-section-content">
+                    <div className="scroll-container">
+                      {/* Left scroll arrow */}
+                      <button 
+                        className="scroll-nav left"
+                        onClick={() => scrollLeft(section.title)}
+                        disabled={!scrollPositions[section.title]?.canScrollLeft}
+                        aria-label="Scroll left"
+                      >
+                        ‹
+                      </button>
+                      {/* Horizontal scrollable content */}
+                      <div 
+                        className="dashboard-tiles-scroll"
+                        id={`scroll-${section.title.replace(/\s+/g, '-')}`}
+                        onScroll={() => handleScroll(section.title)}
+                      >
+                        {/* Render grouped town cards for Towns section */}
+                        {section.title === 'Towns' && Object.keys(issuesByTown).length > 0 ? (
+                          Object.entries(issuesByTown).map(([townId, townIssuesArr]) => (
+                            <div 
+                              className="dashboard-tile" 
+                              key={townId}
+                              style={{ minHeight: 180, display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center', cursor: 'pointer', border: '1px solid #ccc', borderRadius: 8 }}
+                              onClick={() => setTownModal({ isOpen: true, townId, issues: townIssuesArr })}
+                            >
+                              <div style={{ flex: 1, width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                                {/* Empty rect for now */}
+                              </div>
+                              <div style={{ marginTop: 12, fontWeight: 600, fontSize: 16, textAlign: 'center' }}>
+                                {townsMap[townId]?.town_name_en || 'Unknown Town'}
+                              </div>
+                            </div>
+                          ))
+                        ) : section.title === 'Others' && otherIssues.length > 0 ? (
+                          otherIssues.map((issue) => (
+                            <div className="dashboard-tile" key={`issue-${issue.id}`}> 
+                              <div className="dashboard-tile-img">
+                                <img 
+                                  src={issue.image_url || 'https://via.placeholder.com/200x150/f0f0f0/999999?text=No+Image'} 
+                                  alt={issue.title || issue.description}
+                                  onError={handleImageError}
+                                />
+                              </div>
+                              <div className="dashboard-tile-info">
+                                <div className="dashboard-tile-name">{issue.title || issue.type}</div>
+                                <div className="dashboard-tile-desc">{issue.description}</div>
+                                <div className="dashboard-tile-number">
+                                  {issue.created_at ? new Date(issue.created_at).toLocaleDateString() : ''}
+                                </div>
+                                {issue.location_url && (
+                                  <div className="dashboard-tile-location">
+                                    <a href={issue.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          ))
+                        ) : (
+                          tiles.map((tile, idx) => (
+                            <div className="dashboard-tile" key={`sample-${idx}`}> 
+                              <div className="dashboard-tile-img">
+                                <img src={tile.image} alt={tile.name} />
+                              </div>
+                              <div className="dashboard-tile-info">
+                                <div className="dashboard-tile-name">{tile.name}</div>
+                                <div className="dashboard-tile-desc">{tile.description}</div>
+                                <div className="dashboard-tile-number">{tile.number}</div>
+                                {tile.location_url && (
+                                  <div className="dashboard-tile-location">
+                                    <a href={tile.location_url} target="_blank" rel="noopener noreferrer">View Location</a>
+                                  </div>
+                                )}
+                              </div>
+                            </div>
+                          ))
+                        )}
+                      </div>
+                      {/* Right scroll arrow */}
+                      <button 
+                        className="scroll-nav right"
+                        onClick={() => scrollRight(section.title)}
+                        disabled={!scrollPositions[section.title]?.canScrollRight}
+                        aria-label="Scroll right"
+                      >
+                        ›
+                      </button>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 

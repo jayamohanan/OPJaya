@@ -7,12 +7,23 @@ import MapSection from '../components/MapSection';
 import ChoroplethMapRect from '../components/ChoroplethMapRect';
 import React from 'react';
 
+const paletteOptions = [
+  { key: 'palette1', label: 'Palette 1 – Fresh & Natural' },
+  { key: 'palette2', label: 'Palette 2 – Modern & Polished' },
+  { key: 'palette3', label: 'Palette 3 – Pastel & Elegant' },
+  { key: 'palette4', label: 'Palette 4 – Green → Teal → Orange' },
+  { key: 'palette5', label: 'Palette 5 – Green → Light Green → Orange-Red' },
+  { key: 'palette6', label: 'Palette 6 – Green → Aqua → Coral' },
+];
+
 function DistrictPage() {
   const { districtName: districtId } = useParams();
   const { lang } = useContext(LanguageContext); // 'ml' or 'en'
   const [assemblies, setAssemblies] = useState([]); // [{ id, name, category }]
   const [district, setDistrict] = useState(null);
   const [mapTab, setMapTab] = useState('choropleth');
+  const [selectedPalette, setSelectedPalette] = useState('palette4');
+  const [pendingPalette, setPendingPalette] = useState('palette4');
 
   useEffect(() => {
     async function fetchData() {
@@ -95,6 +106,7 @@ function DistrictPage() {
                 fillOpacity={0.4}
                 tileLayerUrl={"https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"}
                 hoverHighlightStyle={{ weight: 4, color: '#1976d2', fillOpacity: 0.5 }}
+                palette="palette5"
               />
             )}
             {mapTab === 'base' && (

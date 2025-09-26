@@ -3,11 +3,97 @@ import { MapContainer, GeoJSON, Tooltip, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './ChoroplethMapRect.css';
 
-const CATEGORY_COLORS = {
-  Perfect: '#A5D6A7', // soft green
-  Good: '#FFF59D',    // soft yellow
-  Normal: '#FFCC80',  // soft orange
-  default: '#E0E0E0'  // fallback grey
+// Palette 1 – Fresh & Natural
+const PALETTE_1 = {
+  Perfect: '#4CAF50',
+  Good: '#FFC107',
+  Normal: '#FF7043',
+  default: '#E0E0E0'
+};
+const PALETTE_1_HARD = {
+  Perfect: '#388E3C',
+  Good: '#FFA000',
+  Normal: '#D84315',
+  default: '#757575'
+};
+
+// Palette 2 – Modern & Polished
+const PALETTE_2 = {
+  Perfect: '#2196F3',
+  Good: '#4CAF50',
+  Normal: '#FF9800',
+  default: '#E0E0E0'
+};
+const PALETTE_2_HARD = {
+  Perfect: '#1976D2',
+  Good: '#388E3C',
+  Normal: '#E65100',
+  default: '#757575'
+};
+
+// Palette 3 – Pastel & Elegant
+const PALETTE_3 = {
+  Perfect: '#E57373',
+  Good: '#64B5F6',
+  Normal: '#81C784',
+  default: '#E0E0E0'
+};
+const PALETTE_3_HARD = {
+  Perfect: '#D32F2F',
+  Good: '#1976D2',
+  Normal: '#388E3C',
+  default: '#757575'
+};
+
+// Palette 4 – Green → Teal → Orange
+const PALETTE_4 = {
+  Perfect: '#2ECC71', // Fresh green
+  Good: '#1ABC9C',   // Clean teal
+  Normal: '#E67E22', // Polished orange
+  default: '#E0E0E0'
+};
+const PALETTE_4_HARD = {
+  Perfect: '#27AE60',
+  Good: '#16A085',
+  Normal: '#CA6F1E',
+  default: '#757575'
+};
+
+// Palette 5 – Green → Light Green → Orange-Red
+const PALETTE_5 = {
+  Perfect: '#4CAF50',
+  Good: '#8BC34A',
+  Normal: '#FF5722',
+  default: '#E0E0E0'
+};
+const PALETTE_5_HARD = {
+  Perfect: '#388E3C',
+  Good: '#689F38',
+  Normal: '#D84315',
+  default: '#757575'
+};
+
+// Palette 6 – Green → Aqua → Coral
+const PALETTE_6 = {
+  Perfect: '#009688',
+  Good: '#4DB6AC',
+  Normal: '#FF7043',
+  default: '#E0E0E0'
+};
+const PALETTE_6_HARD = {
+  Perfect: '#00796B',
+  Good: '#26A69A',
+  Normal: '#D84315',
+  default: '#757575'
+};
+
+const PALETTE_MAP = {
+  palette1: { base: PALETTE_1, hard: PALETTE_1_HARD },
+  palette2: { base: PALETTE_2, hard: PALETTE_2_HARD },
+  palette3: { base: PALETTE_3, hard: PALETTE_3_HARD },
+  palette4: { base: PALETTE_4, hard: PALETTE_4_HARD },
+  palette5: { base: PALETTE_5, hard: PALETTE_5_HARD },
+  palette6: { base: PALETTE_6, hard: PALETTE_6_HARD },
 };
 
 function FitBounds({ geojson }) {
@@ -27,9 +113,10 @@ function FitBounds({ geojson }) {
   return null;
 }
 
-function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style }) {
+function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, featureCategories, style, hoverHighlightStyle }) {
   const [geojson, setGeojson] = useState(null);
   const [popupInfo, setPopupInfo] = useState(null);
+  const [hoveredFeatureName, setHoveredFeatureName] = useState(null);
   const popupRef = React.useRef();
 
   useEffect(() => {
@@ -38,6 +125,11 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style }
       .then(res => res.json())
       .then(setGeojson);
   }, [geojsonUrl]);
+
+  // Pick color palette based on prop
+  const paletteObj = PALETTE_MAP[palette] || PALETTE_MAP['palette1'];
+  const CATEGORY_COLORS = paletteObj.base;
+  const CATEGORY_HARD_COLORS = paletteObj.hard;
 
   // Helper to get category for a feature
   function getCategory(feature) {
@@ -68,14 +160,22 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style }
   // Style for each feature
   function styleFeature(feature) {
     const category = getCategory(feature);
+    const name = getDisplayName(feature);
+    // If this feature is hovered, apply hard color and fillOpacity 0.95
+    if (hoveredFeatureName && name === hoveredFeatureName) {
+      return {
+        fillColor: CATEGORY_HARD_COLORS[category] || CATEGORY_HARD_COLORS.default,
+        fillOpacity: 0.95,
+        weight: 1,
+        opacity: 1,
+        color: '#ffffffff',
+      };
+    }
     return {
       fillColor: CATEGORY_COLORS[category] || CATEGORY_COLORS.default,
       weight: 1,
       opacity: 1,
       color: '#ffffffff',
-      
-      // color: '#555',
-
       fillOpacity: 0.8
     };
   }
@@ -92,8 +192,30 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style }
     layer.on({
       click: () => {
         setPopupInfo({
-          properties: feature.properties
+          properties: feature.properties,
+          by: 'click'
         });
+      },
+      mouseover: () => {
+        setHoveredFeatureName(name);
+        setPopupInfo({
+          properties: feature.properties,
+          by: 'hover'
+        });
+        layer.setStyle({
+          fillColor: CATEGORY_HARD_COLORS[getCategory(feature)] || CATEGORY_HARD_COLORS.default,
+          fillOpacity: 0.95,
+          weight: 1,
+          opacity: 1,
+          color: '#ffffffff',
+        });
+        console.log('Hovered division:', name);
+      },
+      mouseout: () => {
+        setHoveredFeatureName(null);
+        // Only clear popup if it was set by hover
+        setPopupInfo(prev => (prev && prev.by === 'hover' ? null : prev));
+        layer.setStyle(styleFeature(feature));
       }
     });
   }
