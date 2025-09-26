@@ -117,7 +117,9 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
   const [geojson, setGeojson] = useState(null);
   const [popupInfo, setPopupInfo] = useState(null);
   const [hoveredFeatureName, setHoveredFeatureName] = useState(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const popupRef = React.useRef();
+  const mapRectRef = React.useRef();
 
   useEffect(() => {
     if (!geojsonUrl) return;
@@ -187,18 +189,20 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
       );
     }
     layer.on({
-      click: () => {
+      click: (e) => {
         setPopupInfo({
           properties: feature.properties,
           by: 'click'
         });
+        setMousePos({ x: e.originalEvent.clientX, y: e.originalEvent.clientY });
       },
-      mouseover: () => {
+      mouseover: (e) => {
         setHoveredFeatureName(name);
         setPopupInfo({
           properties: feature.properties,
           by: 'hover'
         });
+        setMousePos({ x: e.originalEvent.clientX, y: e.originalEvent.clientY });
         layer.setStyle({
           fillColor: CATEGORY_HARD_COLORS[getCategory(feature)] || CATEGORY_HARD_COLORS.default,
           fillOpacity: 0.95,
@@ -208,9 +212,11 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
         });
         console.log('Hovered division:', name);
       },
+      mousemove: (e) => {
+        setMousePos({ x: e.originalEvent.clientX, y: e.originalEvent.clientY });
+      },
       mouseout: () => {
         setHoveredFeatureName(null);
-        // Only clear popup if it was set by hover
         setPopupInfo(prev => (prev && prev.by === 'hover' ? null : prev));
         layer.setStyle(styleFeature(feature));
       }
@@ -237,8 +243,34 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
     { key: 'Normal', label: 'Normal', color: CATEGORY_COLORS.Normal },
   ];
 
+  // Helper to calculate tooltip position and arrow direction
+  function getTooltipPosition() {
+    if (!mapRectRef.current) return { left: mousePos.x + 12, top: mousePos.y + 12, arrow: 'down' };
+    const rect = mapRectRef.current.getBoundingClientRect();
+    const tooltipWidth = 220;
+    const tooltipHeight = 70;
+    let left = mousePos.x + 12;
+    let top = mousePos.y + 12;
+    let arrow = 'down';
+    // If too close to right edge, show to left of mouse
+    if (left + tooltipWidth > rect.right) {
+      left = mousePos.x - tooltipWidth - 12;
+    }
+    // If too close to bottom edge, show above mouse
+    if (top + tooltipHeight > rect.bottom) {
+      top = mousePos.y - tooltipHeight - 18;
+      arrow = 'up';
+    }
+    // If too close to left edge, clamp
+    if (left < rect.left) left = rect.left + 8;
+    // If too close to top edge, clamp
+    if (top < rect.top) top = rect.top + 8;
+    return { left, top, arrow };
+  }
+  const tooltipPos = getTooltipPosition();
+
   return (
-    <div style={{ position: 'relative', width: '100%', height: '100%' }}>
+    <div style={{ position: 'relative', width: '100%', height: '100%' }} ref={mapRectRef}>
       <div style={{ width: 600, aspectRatio: '1', borderRadius: 12, overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
         <MapContainer
           style={{ width: '100%', height: '100%', borderRadius: 16 }}
@@ -290,37 +322,63 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
           ))}
         </div>
       </div>
-      {/* Info window as a section to the right, half the height of map rect, centered */}
-      <div style={{ minWidth: 220, width: 300, height: 300, marginLeft: 32, display: 'flex', alignItems: 'center' }}>
-        {popupInfo && (
-          <div
-            ref={popupRef}
-            className="geojson-popup"
-            style={{
-              background: '#fff',
-              border: '1px solid #1976d2',
-              borderRadius: 8,
-              boxShadow: '0 2px 8px rgba(0,0,0,0.13)',
-              padding: 18,
-              minWidth: 220,
-              width: '100%',
-              height: '100%',
-              zIndex: 1000,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}
-          >
-            <div style={{ fontWeight: 700, color: '#1976d2', fontSize: 18, marginBottom: 6 }}>
-              {getDisplayName({ properties: popupInfo.properties })}
-            </div>
-            <div style={{ color: '#444', fontSize: 15, marginBottom: 12 }}>
-              {getCategory({ properties: popupInfo.properties })}
-            </div>
+      {/* Info window as a tooltip near mouse position */}
+      {popupInfo && (
+        <div
+          ref={popupRef}
+          className="geojson-popup"
+          style={{
+            position: 'fixed',
+            left: tooltipPos.left,
+            top: tooltipPos.top,
+            background: '#fff',
+            border: '1px solid #1976d2',
+            borderRadius: 8,
+            boxShadow: '0 2px 8px rgba(0,0,0,0.13)',
+            padding: 14,
+            minWidth: 180,
+            zIndex: 2000,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            pointerEvents: 'none',
+            fontSize: 15
+          }}
+        >
+          <div style={{ fontWeight: 700, color: '#1976d2', fontSize: 17, marginBottom: 4 }}>
+            {getDisplayName({ properties: popupInfo.properties })}
           </div>
-        )}
-      </div>
+          <div style={{ color: '#444', fontSize: 14, marginBottom: 0 }}>
+            {getCategory({ properties: popupInfo.properties })}
+          </div>
+          {tooltipPos.arrow === 'down' ? (
+            <div style={{
+              position: 'absolute',
+              left: 18,
+              top: '100%',
+              width: 0,
+              height: 0,
+              borderLeft: '8px solid transparent',
+              borderRight: '8px solid transparent',
+              borderTop: '10px solid #fff',
+              filter: 'drop-shadow(0 2px 4px rgba(25,118,210,0.13))'
+            }} />
+          ) : (
+            <div style={{
+              position: 'absolute',
+              left: 18,
+              bottom: '100%',
+              width: 0,
+              height: 0,
+              borderLeft: '8px solid transparent',
+              borderRight: '8px solid transparent',
+              borderBottom: '10px solid #fff',
+              filter: 'drop-shadow(0 -2px 4px rgba(25,118,210,0.13))'
+            }} />
+          )}
+        </div>
+      )}
     </div>
   );
 }

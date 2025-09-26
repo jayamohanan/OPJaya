@@ -5,6 +5,7 @@ import 'leaflet/dist/leaflet.css';
 function MapSection({ geojsonUrl, title }) {
   const [geojson, setGeojson] = useState(null);
   const [popupInfo, setPopupInfo] = useState(null);
+  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const popupRef = useRef();
   const mapRef = useRef();
 
@@ -28,10 +29,14 @@ function MapSection({ geojsonUrl, title }) {
 
   function onEachFeature(feature, layer) {
     layer.on({
-      click: () => {
+      click: (e) => {
         setPopupInfo({
           properties: feature.properties
         });
+        setMousePos({ x: e.originalEvent.clientX, y: e.originalEvent.clientY });
+      },
+      mousemove: (e) => {
+        setMousePos({ x: e.originalEvent.clientX, y: e.originalEvent.clientY });
       }
     });
   }
@@ -79,34 +84,49 @@ function MapSection({ geojsonUrl, title }) {
           {geojson && <GeoJSON data={geojson} style={{ color: '#1976d2', weight: 2, fillOpacity: 0.1 }} onEachFeature={onEachFeature} />}
         </MapContainer>
       </div>
-      {/* Info window as a section to the right, half the height of map rect, centered */}
-      <div style={{ minWidth: 220, width: 300, height: 300, marginLeft: 32, display: 'flex', alignItems: 'center' }}>
-        {popupInfo && (
-          <div
-            ref={popupRef}
-            className="geojson-popup"
-            style={{
-              background: '#fff',
-              border: '1px solid #1976d2',
-              borderRadius: 8,
-              boxShadow: '0 2px 8px rgba(0,0,0,0.13)',
-              padding: 18,
-              minWidth: 220,
-              width: '100%',
-              height: '100%',
-              zIndex: 1000,
-              display: 'flex',
-              flexDirection: 'column',
-              justifyContent: 'center',
-              alignItems: 'center',
-            }}
-          >
-            <div style={{ fontWeight: 700, color: '#1976d2', fontSize: 18, marginBottom: 6 }}>
-              {getDisplayName(popupInfo.properties)}
-            </div>
+      {/* Info window as a tooltip near mouse position */}
+      {popupInfo && (
+        <div
+          ref={popupRef}
+          className="geojson-popup"
+          style={{
+            position: 'fixed',
+            left: mousePos.x + 12,
+            top: mousePos.y + 12,
+            background: '#fff',
+            border: '1px solid #1976d2',
+            borderRadius: 8,
+            boxShadow: '0 2px 8px rgba(0,0,0,0.13)',
+            padding: 14,
+            minWidth: 180,
+            zIndex: 2000,
+            display: 'flex',
+            flexDirection: 'column',
+            justifyContent: 'center',
+            alignItems: 'center',
+            pointerEvents: 'none',
+            fontSize: 15
+          }}
+        >
+          <div style={{ fontWeight: 700, color: '#1976d2', fontSize: 17, marginBottom: 4 }}>
+            {getDisplayName(popupInfo.properties)}
           </div>
-        )}
-      </div>
+          <div style={{ color: '#444', fontSize: 14, marginBottom: 0 }}>
+            {/* You can add more info here if needed */}
+          </div>
+          <div style={{
+            position: 'absolute',
+            left: 18,
+            top: '100%',
+            width: 0,
+            height: 0,
+            borderLeft: '8px solid transparent',
+            borderRight: '8px solid transparent',
+            borderTop: '10px solid #fff',
+            filter: 'drop-shadow(0 2px 4px rgba(25,118,210,0.13))'
+          }} />
+        </div>
+      )}
     </div>
   );
 }
