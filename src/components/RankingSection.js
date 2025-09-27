@@ -15,7 +15,7 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
               <span style={{ fontSize: '22.4px', marginRight: '8px' }}>{label.split(' ')[0]}</span>
               <span>{label.split(' ').slice(1).join(' ')}</span>
             </div>
-            <ul style={{ margin: 0, padding: 0, listStyle: 'none', textAlign: 'left', minWidth, width: '80%', maxWidth }}>
+            <ul style={{ margin: 0, padding: 0, listStyle: 'none', textAlign: 'left', minWidth, width: '80%', maxWidth, position: 'relative', maxHeight: 400, overflowY: 'auto' }}>
               {filtered.length > 0 ? filtered.map((item, idx) => {
                 let linkTo = '#';
                 let linkState = undefined;
@@ -33,6 +33,10 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
                 }
                 if (itemType === 'assembly') {
                   linkTo = `/assembly/${item.id}`;
+                  linkState = undefined;
+                }
+                if (itemType === 'district') {
+                  linkTo = `/district/${item.id}`;
                   linkState = undefined;
                 }
                 // Use a more robust key: prefer item.id, fallback to item.assembly_id, item.local_body_id, or item.name+idx

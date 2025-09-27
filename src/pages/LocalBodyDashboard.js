@@ -1029,6 +1029,20 @@ function LocalBodyDashboard() {
                     </span>
                   </span>
                 )}
+                <span style={{ color: '#000', fontSize: '0.95rem', fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
+                  <span style={{ display: 'flex', alignItems: 'center', minWidth: 90 }}>
+                    <span style={{ textAlign: 'right', flex: 1 }}>State</span>
+                    <span style={{ width: 10, textAlign: 'center' }}>:</span>
+                  </span>
+                  <span
+                    className="clickable-link"
+                    style={{ textDecoration: 'underline', color: '#1976d2', cursor: 'pointer' }}
+                    onClick={() => navigate('/state')}
+                    title="Go to State"
+                  >
+                    {lang === 'ml' ? 'കേരളം' : 'Kerala'}
+                  </span>
+                </span>
               </div>
             </div>
           </div>

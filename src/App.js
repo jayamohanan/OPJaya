@@ -9,6 +9,7 @@ import DistrictPage from './pages/DistrictPage';
 import TopNav from './components/TopNav'; // Make sure this import exists
 import LocalBodyChecklist from './pages/LocalBodyChecklist';
 import Signup from './pages/Signup';
+import StatePage from './pages/StatePage';
 import './App.css';
 
 
@@ -27,6 +28,7 @@ function App() {
             <Route path="/district/:districtName" element={<DistrictPage />} />
             <Route path="/localbody-checklist" element={<LocalBodyChecklist />} />
             <Route path="/signup" element={<Signup />} />
+            <Route path="/state" element={<StatePage />} />
           </Routes>
         </div>
       </Router>
