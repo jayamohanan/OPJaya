@@ -5,6 +5,7 @@ import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
 import RegionInfoPage from '../components/RegionInfoPage';
 import React from 'react';
+import { LABELS } from '../constants/labels';
 
 const paletteOptions = [
   { key: 'palette1', label: 'Palette 1 – Fresh & Natural' },
@@ -100,8 +101,8 @@ function DistrictPage() {
   return (
     <RegionInfoPage
       title={lang === 'ml'
-        ? ((district?.[FIELDS.DISTRICT.NAME_ML] || district?.[FIELDS.DISTRICT.NAME_EN]) + ' District')
-        : ((district?.[FIELDS.DISTRICT.NAME_EN] || district?.[FIELDS.DISTRICT.NAME_ML]) + ' District')}
+        ? ((district?.[FIELDS.DISTRICT.NAME_ML] || district?.[FIELDS.DISTRICT.NAME_EN]) + ' ' + LABELS.district[lang])
+        : ((district?.[FIELDS.DISTRICT.NAME_EN] || district?.[FIELDS.DISTRICT.NAME_ML]) + ' ' + LABELS.district[lang])}
       geojsonUrl={geojsonUrl}
       rankingItems={rankingItems.map(a => ({
         ...a,

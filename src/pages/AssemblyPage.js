@@ -5,6 +5,7 @@ import { useEffect, useState, useContext } from 'react';
 import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
+import { LABELS } from '../constants/labels';
 
 
 function AssemblyPage() {
@@ -153,8 +154,8 @@ function AssemblyPage() {
   return (
     <RegionInfoPage
       title={lang === 'ml'
-        ? ((assembly?.[FIELDS.ASSEMBLY.NAME_ML] || assembly?.[FIELDS.ASSEMBLY.NAME_EN]) + ' Assembly')
-        : ((assembly?.[FIELDS.ASSEMBLY.NAME_EN] || assembly?.[FIELDS.ASSEMBLY.NAME_ML]) + ' Assembly')}
+        ? ((assembly?.[FIELDS.ASSEMBLY.NAME_ML] || assembly?.[FIELDS.ASSEMBLY.NAME_EN]) + ' ' + LABELS.assembly[lang])
+        : ((assembly?.[FIELDS.ASSEMBLY.NAME_EN] || assembly?.[FIELDS.ASSEMBLY.NAME_ML]) + ' ' + LABELS.assembly[lang])}
       geojsonUrl={geojsonUrl}
       rankingItems={rankingItems}
       rankingCategories={rankingCategories}

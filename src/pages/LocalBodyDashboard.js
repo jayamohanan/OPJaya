@@ -6,6 +6,7 @@ import Footer from '../components/Footer';
 import TopNav from '../components/TopNav'; // Add this import
 import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
+import { LABELS } from '../constants/labels';
 import './LocalBodyDashboard.css';
 
 const sections = [
@@ -1000,7 +1001,7 @@ function LocalBodyDashboard() {
                 {assembly && (
                   <span style={{ color: '#000', fontSize: '0.95rem', fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
                     <span style={{ display: 'flex', alignItems: 'center', minWidth: 90 }}>
-                      <span style={{ textAlign: 'right', flex: 1 }}>Assembly</span>
+                      <span style={{ textAlign: 'right', flex: 1 }}>{LABELS.assembly[lang]}</span>
                       <span style={{ width: 10, textAlign: 'center' }}>:</span>
                     </span>
                     <span
@@ -1016,7 +1017,7 @@ function LocalBodyDashboard() {
                 {district && (
                   <span style={{ color: '#000', fontSize: '0.95rem', fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
                     <span style={{ display: 'flex', alignItems: 'center', minWidth: 90 }}>
-                      <span style={{ textAlign: 'right', flex: 1 }}>District</span>
+                      <span style={{ textAlign: 'right', flex: 1 }}>{LABELS.district[lang]}</span>
                       <span style={{ width: 10, textAlign: 'center' }}>:</span>
                     </span>
                     <span
@@ -1031,7 +1032,7 @@ function LocalBodyDashboard() {
                 )}
                 <span style={{ color: '#000', fontSize: '0.95rem', fontWeight: 500, display: 'flex', alignItems: 'center', gap: 6 }}>
                   <span style={{ display: 'flex', alignItems: 'center', minWidth: 90 }}>
-                    <span style={{ textAlign: 'right', flex: 1 }}>State</span>
+                    <span style={{ textAlign: 'right', flex: 1 }}>{LABELS.state[lang]}</span>
                     <span style={{ width: 10, textAlign: 'center' }}>:</span>
                   </span>
                   <span
