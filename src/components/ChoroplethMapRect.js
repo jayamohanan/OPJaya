@@ -137,8 +137,22 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
   function getCategory(feature) {
     let name = feature.properties?.local_body_name_en || feature.properties?.assembly_name_en || feature.properties?.Name || feature.properties?.name || '';
     name = (name || '').trim().toLowerCase();
+    let matchFound = false;
+    let matchedValue = null;
     // Find in featureCategories by English name
-    const found = featureCategories.find(f => f.name_en === name && f.category);
+    const found = featureCategories.find(f => {
+      const fcName = (f.name_en || '').trim().toLowerCase();
+      
+      const isMatch = fcName === name;
+      console.log('fcName:', fcName, ' | name:', name, ' | isMatch:', isMatch); // --- IGNORE ---
+      if (isMatch) {
+        matchFound = true;
+        matchedValue = fcName;
+      }
+      return isMatch && f.category;
+    });
+    if (matchFound) {
+    } 
     if (found && found.category) {
       return found.category.trim();
     }
