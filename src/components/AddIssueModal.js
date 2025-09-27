@@ -5,6 +5,7 @@ import { MapContainer, TileLayer, useMapEvents } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
+import { LABELS } from '../constants/labels';
 
 const issueTypes = [
   'Towns',
@@ -69,7 +70,9 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         .select([
           FIELDS.TOWN.ID,
           FIELDS.TOWN.TOWN_NAME_EN,
-          FIELDS.TOWN.TOWN_NAME_ML
+          FIELDS.TOWN.TOWN_NAME_ML,
+          LABELS.TOWN_LAT,
+          LABELS.TOWN_LNG
         ].join(', '))
         .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyData?.[FIELDS.LOCAL_BODY.ID] || localBodyData?.id || '');
       setTowns(townsData || []);
@@ -77,6 +80,19 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
     }
     fetchTowns();
   }, [isOpen, localBodyData?.local_body_id]);
+
+  useEffect(() => {
+    if (formData.type === 'Towns' && selectedTown) {
+      const townObj = towns.find(t => t[FIELDS.TOWN.ID] === selectedTown);
+      const lat = townObj && townObj[LABELS.TOWN_LAT];
+      const lng = townObj && townObj[LABELS.TOWN_LNG];
+      if (lat !== undefined && lng !== undefined && !isNaN(lat) && !isNaN(lng)) {
+        setLocation([parseFloat(lat), parseFloat(lng)]);
+        setLocationSet(false);
+        setLocationUrl('');
+      }
+    }
+  }, [selectedTown, formData.type, towns]);
 
   const handleInputChange = (e) => {
     const { name, value } = e.target;
