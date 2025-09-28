@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { MapContainer, GeoJSON, Tooltip, useMap, Rectangle } from 'react-leaflet';
+import { MapContainer, GeoJSON, Tooltip, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './ChoroplethMapRect.css';
 
@@ -29,7 +29,7 @@ function FitBounds({ geojson, setDebugBounds }) {
         if (layer) {
           const bounds = layer.getBounds();
           setDebugBounds([bounds.getSouthWest(), bounds.getNorthEast()]); // pass as array for Rectangle
-          map.fitBounds(bounds, { padding: [2,2]  });
+          map.fitBounds(bounds, { padding: [2, 2] }); // restore default padding and remove forced zoom
         }
       } catch {}
     }
@@ -43,6 +43,7 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
   const [hoveredFeatureName, setHoveredFeatureName] = useState(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
   const [debugBounds, setDebugBounds] = useState(null); // debug bounds
+  const [fullscreen, setFullscreen] = useState(false);
   const popupRef = React.useRef();
   const mapRectRef = React.useRef();
 
@@ -231,6 +232,27 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
 
   return (
     <div style={{ position: 'relative', width: '100%', height: '100%' }} ref={mapRectRef}>
+      {/* Fullscreen button */}
+      <button
+        style={{
+          position: 'absolute',
+          top: 14,
+          left: 14,
+          zIndex: 2001,
+          background: 'rgba(255,255,255,0.95)',
+          border: 'none',
+          borderRadius: 6,
+          boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+          padding: '6px 10px',
+          cursor: 'pointer',
+          fontSize: 18
+        }}
+        title="Fullscreen"
+        onClick={() => setFullscreen(true)}
+      >
+        &#x26F6;
+      </button>
+      {/* Main map */}
       <div style={{ width: 600, aspectRatio: '1', borderRadius: 12, overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
         <MapContainer
           style={{ width: '100%', height: '100%', borderRadius: 16 }}
@@ -251,7 +273,6 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
             />
           )}
           {geojson && <FitBounds geojson={geojson} setDebugBounds={setDebugBounds} />}
-          {debugBounds && <Rectangle bounds={debugBounds} pathOptions={{ color: 'red', weight: 2 }} />} {/* debug bounds rectangle */}
         </MapContainer>
         {/* Legend */}
         <div style={{
@@ -284,6 +305,63 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
           ))}
         </div>
       </div>
+      {/* Fullscreen popup overlay */}
+      {fullscreen && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          width: '100vw',
+          height: '100vh',
+          background: 'rgba(255,255,255,0.98)',
+          zIndex: 3000,
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+        }}>
+          <button
+            style={{
+              position: 'absolute',
+              top: 24,
+              right: 32,
+              zIndex: 3001,
+              background: 'rgba(255,255,255,0.95)',
+              border: 'none',
+              borderRadius: 6,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.08)',
+              padding: '6px 10px',
+              cursor: 'pointer',
+              fontSize: 18
+            }}
+            title="Close"
+            onClick={() => setFullscreen(false)}
+          >
+            &#x2715;
+          </button>
+          <div style={{ width: '90vw', height: '90vh', borderRadius: 16, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
+            <MapContainer
+              style={{ width: '100%', height: '100%', borderRadius: 16 }}
+              zoom={10}
+              center={[10.8, 76.2]}
+              scrollWheelZoom={true}
+              dragging={true}
+              doubleClickZoom={true}
+              zoomControl={true}
+              attributionControl={false}
+            >
+              {geojson && (
+                <GeoJSON
+                  key={featureCategories.length + '-fullscreen'}
+                  data={geojson}
+                  style={styleFeature}
+                  onEachFeature={onEachFeature}
+                />
+              )}
+              {geojson && <FitBounds geojson={geojson} setDebugBounds={setDebugBounds} />}
+            </MapContainer>
+          </div>
+        </div>
+      )}
       {/* Info window as a tooltip near mouse position */}
       {popupInfo && (
         <div

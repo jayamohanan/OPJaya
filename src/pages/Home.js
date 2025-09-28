@@ -119,7 +119,7 @@ function Home() {
 
   const handleSubmit = () => {
     if (selectedLocalBodyId) {
-  const localBodyData = localBodies.find(lb => lb[FIELDS.LOCAL_BODY.ID] === selectedLocalBodyId);
+      const localBodyData = localBodies.find(lb => lb[FIELDS.LOCAL_BODY.ID] === selectedLocalBodyId);
       const assemblyData = assemblies.find(a => a[FIELDS.ASSEMBLY.ID] === selectedAssemblyId);
       const districtData = districts.find(d => d[FIELDS.DISTRICT.ID] === selectedDistrictId);
       if (localBodyData && assemblyData && districtData) {
@@ -141,6 +141,21 @@ function Home() {
           }
         });
       }
+    } else if (selectedAssemblyId) {
+      // Navigate to assembly page with assembly name
+      const assemblyData = assemblies.find(a => a[FIELDS.ASSEMBLY.ID] === selectedAssemblyId);
+      if (assemblyData) {
+        navigate(`/assembly/${encodeURIComponent(assemblyData[FIELDS.ASSEMBLY.NAME_EN])}`);
+      }
+    } else if (selectedDistrictId) {
+      // Navigate to district page with district name
+      const districtData = districts.find(d => d[FIELDS.DISTRICT.ID] === selectedDistrictId);
+      if (districtData) {
+        navigate(`/district/${encodeURIComponent(districtData[FIELDS.DISTRICT.NAME_EN])}`);
+      }
+    } else {
+      // Navigate to state page
+      navigate('/state');
     }
   };
 

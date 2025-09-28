@@ -22,10 +22,12 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<LocalBodyDashboard />} />
+            <Route path="/localbody" element={<LocalBodyDashboard />} />
             <Route path="/localbody/:localBodyParams" element={<LocalBodyDashboard />} />
             <Route path="/map" element={<MapPage />} />
-            <Route path="/assembly/:assemblyName" element={<AssemblyPage />} />
-            <Route path="/district/:districtName" element={<DistrictPage />} />
+            <Route path="/assembly" element={<AssemblyPage />} />
+            <Route path="/assembly/:assemblyId" element={<AssemblyPage />} />
+            <Route path="/district/:districtId" element={<DistrictPage />} />
             <Route path="/localbody-checklist" element={<LocalBodyChecklist />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/state" element={<StatePage />} />
