@@ -17,7 +17,6 @@ const PALETTE_5_HARD = {
   default: '#757575'
 };
 
-// Only use palette5
 const CATEGORY_COLORS = PALETTE_5;
 const CATEGORY_HARD_COLORS = PALETTE_5_HARD;
 

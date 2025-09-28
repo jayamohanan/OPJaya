@@ -506,12 +506,13 @@ function LocalBodyDashboard() {
         }
       });
 
+      const wardLabel = LABELS.ward[lang];
       const mapped = Object.values(latestByWard)
         .map(item => ({
           name:
             lang === 'ml'
-              ? `${wardMap[item.ward_id].ward_name_ml || wardMap[item.ward_id].ward_name_en} (വാർഡ് ${wardMap[item.ward_id].ward_no})`
-              : `${wardMap[item.ward_id].ward_name_en || wardMap[item.ward_id].ward_name_ml} (Ward ${wardMap[item.ward_id].ward_no})`,
+              ? `${wardMap[item.ward_id].ward_name_ml || wardMap[item.ward_id].ward_name_en} (${wardLabel} ${wardMap[item.ward_id].ward_no})`
+              : `${wardMap[item.ward_id].ward_name_en || wardMap[item.ward_id].ward_name_ml} (${wardLabel} ${wardMap[item.ward_id].ward_no})`,
           rate: item.rate
         }))
         .sort((a, b) => a.rate - b.rate);
@@ -519,7 +520,7 @@ function LocalBodyDashboard() {
       setLoadingHKSRates(false);
     }
     fetchHKSRates();
-  }, [localBody?.local_body_id]);
+  }, [localBody?.local_body_id, lang]);
 
   // Show all or first 5
   const displayedHKSRates = showAllHKSRates ? hksCollectionRates : hksCollectionRates.slice(0, 5);
