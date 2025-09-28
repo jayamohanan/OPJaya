@@ -141,6 +141,7 @@ function ChoroplethMapRect({ palette = 'palette1', geojsonUrl, featureType, feat
     let matchedValue = null;
     // Find in featureCategories by English name
     const found = featureCategories.find(f => {
+      
       const fcName = (f.name_en || '').trim().toLowerCase();
       
       const isMatch = fcName === name;

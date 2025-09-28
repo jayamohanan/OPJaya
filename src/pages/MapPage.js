@@ -8,6 +8,7 @@ import { LanguageContext } from '../components/LanguageContext';
 import { supabase } from '../supabaseClient';
 import { LABELS } from '../constants/labels';
 import L from 'leaflet';
+import TownIssuesModal from '../components/TownIssuesModal';
 
 function GeoJsonLayer({ url, onSuccess, onError }) {
   const map = useMap();
@@ -54,7 +55,7 @@ function GeoJsonLayer({ url, onSuccess, onError }) {
   return null;
 }
 
-function TownMarkers({ localBodyId }) {
+function TownMarkers({ localBodyId, onTownClick }) {
   const { lang } = useContext(LanguageContext);
   const [towns, setTowns] = useState([]);
 
@@ -94,6 +95,9 @@ function TownMarkers({ localBodyId }) {
           key={town.town_id}
           position={[parseFloat(town[LABELS.TOWN_LAT]), parseFloat(town[LABELS.TOWN_LNG])]}
           icon={iconWithLabel}
+          eventHandlers={{
+            click: () => onTownClick(town.town_id)
+          }}
         />
       );
     }
@@ -111,6 +115,10 @@ function MapPage() {
   const geojsonFileName = state?.localBodyName ? encodeURIComponent(state.localBodyName.toLowerCase()) + '.geojson' : '';
   const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson-repo/local-body-outline/${geojsonFileName}` : '';
 
+  const [townsMap, setTownsMap] = useState({});
+  const [issuesByTown, setIssuesByTown] = useState({});
+  const [selectedTownId, setSelectedTownId] = useState(null);
+
   const handleHomeClick = () => {
     navigate('/');
   };
@@ -118,6 +126,34 @@ function MapPage() {
   const handleBackClick = () => {
     navigate(-1); // Go back to previous page
   };
+
+  useEffect(() => {
+    async function fetchTownsAndIssues() {
+      if (!state?.localBodyData?.local_body_id) return;
+      // Fetch towns
+      const { data: towns } = await supabase
+        .from('town')
+        .select('*')
+        .eq('local_body_id', state.localBodyData.local_body_id);
+      const map = {};
+      (towns || []).forEach(town => { map[town.town_id] = town; });
+      setTownsMap(map);
+      // Fetch issues for towns
+      const { data: issues } = await supabase
+        .from('issues')
+        .select('*')
+        .eq('local_body_id', state.localBodyData.local_body_id);
+      const grouped = {};
+      (issues || []).forEach(issue => {
+        if (issue.town_id) {
+          if (!grouped[issue.town_id]) grouped[issue.town_id] = [];
+          grouped[issue.town_id].push(issue);
+        }
+      });
+      setIssuesByTown(grouped);
+    }
+    fetchTownsAndIssues();
+  }, [state?.localBodyData?.local_body_id]);
 
   return (
     <div className="map-container">
@@ -162,8 +198,18 @@ function MapPage() {
             />
           )}
           {/* Add town markers for current local body */}
-          {state?.localBodyData?.local_body_id && <TownMarkers localBodyId={state.localBodyData.local_body_id} />}
+          {state?.localBodyData?.local_body_id && <TownMarkers localBodyId={state.localBodyData.local_body_id} onTownClick={setSelectedTownId} />}
         </MapContainer>
+        {/* Show TownIssuesModal when a town is selected */}
+        {selectedTownId && (
+          <TownIssuesModal
+            isOpen={!!selectedTownId}
+            onClose={() => setSelectedTownId(null)}
+            town={selectedTownId}
+            issues={issuesByTown[selectedTownId] || []}
+            townsMap={townsMap}
+          />
+        )}
       </div>
     </div>
   );

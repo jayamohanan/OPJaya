@@ -1,11 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import TownIssuesModal from './TownIssuesModal';
 
-function MapSection({ geojsonUrl, title }) {
+function MapSection({ geojsonUrl, title, townsMap = {}, issuesByTown = {} }) {
   const [geojson, setGeojson] = useState(null);
   const [popupInfo, setPopupInfo] = useState(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [selectedTownId, setSelectedTownId] = useState(null);
   const popupRef = useRef();
   const mapRef = useRef();
 
@@ -30,6 +32,12 @@ function MapSection({ geojsonUrl, title }) {
   function onEachFeature(feature, layer) {
     layer.on({
       click: (e) => {
+        const townId = feature.properties?.town_id;
+        const townName = townId && townsMap[townId] ? townsMap[townId].town_name_en : undefined;
+        console.log('Feature clicked:', feature.properties, 'townId:', townId, 'townName:', townName);
+        if (townId && townsMap[townId]) {
+          setSelectedTownId(townId);
+        }
         setPopupInfo({
           properties: feature.properties
         });
@@ -126,6 +134,16 @@ function MapSection({ geojsonUrl, title }) {
             filter: 'drop-shadow(0 2px 4px rgba(25,118,210,0.13))'
           }} />
         </div>
+      )}
+      {/* Show TownIssuesModal when a town is selected */}
+      {selectedTownId && (
+        <TownIssuesModal
+          isOpen={!!selectedTownId}
+          onClose={() => setSelectedTownId(null)}
+          town={selectedTownId}
+          issues={issuesByTown[selectedTownId] || []}
+          townsMap={townsMap}
+        />
       )}
     </div>
   );
