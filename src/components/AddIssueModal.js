@@ -133,9 +133,10 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
   // Upload to R2 bucket aayiram-bathery
   const uploadToR2 = async (file, filename) => {
     try {
+      const folderedFilename = `issue-images/${filename}`;
       const formData = new FormData();
       formData.append('file', file);
-      formData.append('filename', filename);
+      formData.append('filename', folderedFilename);
       const response = await fetch('http://localhost:3001/api/upload-to-r2', {
         method: 'POST',
         body: formData
@@ -144,7 +145,7 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         throw new Error('Failed to upload to R2');
       }
       // Always construct the public URL using your public bucket id
-      const publicUrl = `https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/${filename}`;
+      const publicUrl = `https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/${folderedFilename}`;
       return publicUrl;
     } catch (error) {
       throw error;

@@ -7,9 +7,6 @@ function TopNav() {
   const navigate = useNavigate();
   const { lang, setLang } = useContext(LanguageContext);
 
-  // Toggle language between 'ml' and 'en'
-  const toggleLang = () => setLang(lang === 'ml' ? 'en' : 'ml');
-
   return (
     <nav className="top-nav">
       <div className="top-nav-left">
@@ -21,18 +18,15 @@ function TopNav() {
         </button>
       </div>
       <div className="top-nav-right">
-        <span
-          className="lang-toggle"
-          style={{
-            cursor: 'pointer',
-            textDecoration: 'underline',
-            marginRight: 24,
-            fontWeight: 500
-          }}
-          onClick={toggleLang}
+        <select
+          className="lang-dropdown"
+          value={lang}
+          onChange={e => setLang(e.target.value)}
+          style={{ marginRight: 24, fontWeight: 500, padding: '4px 10px', borderRadius: 4 }}
         >
-          {lang === 'ml' ? 'English' : 'Malayalam'}
-        </span>
+          <option value="en">English</option>
+          <option value="ml">Malayalam</option>
+        </select>
       </div>
     </nav>
   );

@@ -32,7 +32,8 @@ function Home() {
         .select([
           FIELDS.DISTRICT.ID,
           FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML
+          FIELDS.DISTRICT.NAME_ML,
+          'is_active'
         ].join(', '));
       if (error) {
         console.error("Error fetching districts from Supabase:", error);
@@ -162,7 +163,11 @@ function Home() {
             <select
               id="district-select"
               value={selectedDistrictId}
-              onChange={(e) => setSelectedDistrictId(e.target.value)}
+              onChange={(e) => {
+                const selected = districts.find(d => d.district_id === e.target.value);
+                if (selected && selected.is_active === false) return;
+                setSelectedDistrictId(e.target.value);
+              }}
               className="dropdown"
               disabled={loadingDistricts}
             >
@@ -172,7 +177,7 @@ function Home() {
                 <>
                   <option value="">-- Select District --</option>
                   {districts.map(district => (
-                    <option key={district.district_id} value={district.district_id}>
+                    <option key={district.district_id} value={district.district_id} disabled={district.is_active === false} style={district.is_active === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
                         ? (district.district_name_ml || district.district_name_en)
                         : (district.district_name_en || district.district_name_ml)}
@@ -188,7 +193,11 @@ function Home() {
             <select
               id="assembly-select"
               value={selectedAssemblyId}
-              onChange={(e) => setSelectedAssemblyId(e.target.value)}
+              onChange={(e) => {
+                const selected = assemblies.find(a => a.assembly_id === e.target.value);
+                if (selected && selected.is_active === false) return;
+                setSelectedAssemblyId(e.target.value);
+              }}
               disabled={!selectedDistrictId || loadingAssemblies}
               className="dropdown"
             >
@@ -198,7 +207,7 @@ function Home() {
                 <>
                   <option value="">-- Select Assembly --</option>
                   {assemblies.map(assembly => (
-                    <option key={assembly.assembly_id} value={assembly.assembly_id}>
+                    <option key={assembly.assembly_id} value={assembly.assembly_id} disabled={assembly.is_active === false} style={assembly.is_active === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
                         ? (assembly.assembly_name_ml || assembly.assembly_name_en)
                         : (assembly.assembly_name_en || assembly.assembly_name_ml)}
@@ -214,7 +223,11 @@ function Home() {
             <select
               id="localbody-select"
               value={selectedLocalBodyId}
-              onChange={(e) => setSelectedLocalBodyId(e.target.value)}
+              onChange={(e) => {
+                const selected = localBodies.find(lb => lb.local_body_id === e.target.value);
+                if (selected && selected.is_active === false) return;
+                setSelectedLocalBodyId(e.target.value);
+              }}
               disabled={!selectedAssemblyId || loadingLocalBodies}
               className="dropdown"
             >
@@ -224,7 +237,7 @@ function Home() {
                 <>
                   <option value="">-- Select Local Body --</option>
                   {localBodies.map(localBody => (
-                    <option key={localBody.local_body_id} value={localBody.local_body_id}>
+                    <option key={localBody.local_body_id} value={localBody.local_body_id} disabled={localBody.is_active === false} style={localBody.is_active === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
                         ? (localBody.local_body_name_ml || localBody.local_body_name_en)
                         : (localBody.local_body_name_en || localBody.local_body_name_ml)}
