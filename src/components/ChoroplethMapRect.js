@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { MapContainer, GeoJSON, Tooltip, useMap } from 'react-leaflet';
+import { MapContainer, GeoJSON, Tooltip, useMap, Rectangle } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './ChoroplethMapRect.css';
 
@@ -20,7 +20,7 @@ const PALETTE_5_HARD = {
 const CATEGORY_COLORS = PALETTE_5;
 const CATEGORY_HARD_COLORS = PALETTE_5_HARD;
 
-function FitBounds({ geojson }) {
+function FitBounds({ geojson, setDebugBounds }) {
   const map = useMap();
   useEffect(() => {
     if (geojson) {
@@ -28,12 +28,12 @@ function FitBounds({ geojson }) {
       try {
         if (layer) {
           const bounds = layer.getBounds();
-          // Use a small positive padding for a tight fit, but not too zoomed out
-          map.fitBounds(bounds, { padding: [2, 2] });
+          setDebugBounds([bounds.getSouthWest(), bounds.getNorthEast()]); // pass as array for Rectangle
+          map.fitBounds(bounds, { padding: [2,2]  });
         }
       } catch {}
     }
-  }, [geojson, map]);
+  }, [geojson, map, setDebugBounds]);
   return null;
 }
 
@@ -42,6 +42,7 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
   const [popupInfo, setPopupInfo] = useState(null);
   const [hoveredFeatureName, setHoveredFeatureName] = useState(null);
   const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
+  const [debugBounds, setDebugBounds] = useState(null); // debug bounds
   const popupRef = React.useRef();
   const mapRectRef = React.useRef();
 
@@ -107,37 +108,44 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
         fillOpacity: 0.95,
         weight: 1,
         opacity: 1,
-        color: '#ffffffff',
+        color: '#ffffffff', // boundary color set to white
       };
     }
     return {
       fillColor: CATEGORY_COLORS[category] || CATEGORY_COLORS.default,
       weight: 1,
       opacity: 1,
-      color: '#ffffffff',
+      color: '#ffffffff', // boundary color set to white
       fillOpacity: 0.8
     };
+  }
+
+  function getContrastTextColor(hex) {
+    hex = hex.replace('#', '');
+    const r = parseInt(hex.substr(0,2),16);
+    const g = parseInt(hex.substr(2,2),16);
+    const b = parseInt(hex.substr(4,2),16);
+    const luminance = (0.299*r + 0.587*g + 0.114*b)/255;
+    return luminance > 0.6 ? '#111' : '#fff';
   }
 
   // Render a Tooltip for each feature using GeoJSON's onEachFeature
   function onEachFeature(feature, layer) {
     const name = getDisplayName(feature);
-    // Get type_id from featureCategories
     let name_en = (feature.properties?.local_body_name_en || feature.properties?.Name || '').toLowerCase().trim();
-    
     const found = featureCategories.find(f => (f.name_en || '').toLowerCase().trim() === name_en);
     const typeId = found && found.type ? found.type.trim().toUpperCase() : '';
     let typeMarker = '';
-    // if (typeId === 'MUNICIPALITY') typeMarker = '<div style="text-align:center;">(M)</div>';
-    // else if (typeId === 'CORPORATION') typeMarker = '<div style="text-align:center;">(C)</div>';
-
-    if (typeId === 'MUNICIPALITY') typeMarker = '<div style="text-align:center;font-size:20px;">🇲</div>';
-    else if (typeId === 'CORPORATION') typeMarker = '<div style="text-align:center;font-size:20px;">🇨</div>';
-
-    // Always show name and marker if needed
+    // if (typeId === 'MUNICIPALITY') typeMarker = '<div style="text-align:center;font-size:20px;">🇲</div>';
+    // else if (typeId === 'CORPORATION') typeMarker = '<div style="text-align:center;font-size:20px;">🇨</div>';
+     if (typeId === 'MUNICIPALITY') typeMarker = '<div style="text-align:center;font-size:20px;"></div>';
+    else if (typeId === 'CORPORATION') typeMarker = '<div style="text-align:center;font-size:20px;"></div>';
+    const category = getCategory(feature);
+    const fillColor = CATEGORY_COLORS[category] || CATEGORY_COLORS.default;
+    const textColor = '#111'; // always use black for map label text
     if (name) {
       layer.bindTooltip(
-        `<div style='font-weight:600;font-size:11px;color:#111; background: none !important; background-color: transparent !important; text-align:center;'>${name}${typeMarker}</div>`,
+        `<div style='font-weight:600;font-size:11px;color:${textColor}; text-align:center;'>${name}${typeMarker}</div>`,
         { direction: 'center', permanent: true, className: 'choropleth-label', sticky: false }
       );
     }
@@ -242,7 +250,8 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
               onEachFeature={onEachFeature}
             />
           )}
-          {geojson && <FitBounds geojson={geojson} />}
+          {geojson && <FitBounds geojson={geojson} setDebugBounds={setDebugBounds} />}
+          {debugBounds && <Rectangle bounds={debugBounds} pathOptions={{ color: 'red', weight: 2 }} />} {/* debug bounds rectangle */}
         </MapContainer>
         {/* Legend */}
         <div style={{
