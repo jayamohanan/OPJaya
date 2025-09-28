@@ -5,16 +5,16 @@ import './ChoroplethMapRect.css';
 
 // Palette 5 – Green → Light Green → Orange-Red
 const PALETTE_5 = {
-  Perfect: '#4CAF50',
-  Good: '#8BC34A',
-  Normal: '#FF5722',
-  default: '#E0E0E0'
-};
-const PALETTE_5_HARD = {
   Perfect: '#388E3C',
   Good: '#689F38',
   Normal: '#D84315',
   default: '#757575'
+};
+const PALETTE_5_HARD = {
+  Perfect: '#4CAF50',
+  Good: '#8BC34A',
+  Normal: '#FF5722',
+  default: '#E0E0E0'
 };
 
 const CATEGORY_COLORS = PALETTE_5;
@@ -64,7 +64,6 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
       const fcName = (f.name_en || '').trim().toLowerCase();
       
       const isMatch = fcName === name;
-      console.log('fcName:', fcName, ' | name:', name, ' | isMatch:', isMatch); // --- IGNORE ---
       if (isMatch) {
         matchFound = true;
         matchedValue = fcName;
@@ -88,6 +87,13 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
   function getDisplayName(feature) {
     let name = feature.properties?.local_body_name_en || feature.properties?.assembly_name_en || feature.properties?.Name || feature.properties?.name || '';
     return toTitleCase(name);
+  }
+
+  // Helper to get type for a feature
+  function getType(feature) {
+    let name_en = (feature.properties?.local_body_name_en || feature.properties?.Name || '').toLowerCase().trim();
+    const found = featureCategories.find(f => (f.name_en || '').toLowerCase().trim() === name_en);
+    return found && found.type ? found.type.trim() : '';
   }
 
   // Style for each feature
@@ -116,9 +122,22 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
   // Render a Tooltip for each feature using GeoJSON's onEachFeature
   function onEachFeature(feature, layer) {
     const name = getDisplayName(feature);
+    // Get type_id from featureCategories
+    let name_en = (feature.properties?.local_body_name_en || feature.properties?.Name || '').toLowerCase().trim();
+    
+    const found = featureCategories.find(f => (f.name_en || '').toLowerCase().trim() === name_en);
+    const typeId = found && found.type ? found.type.trim().toUpperCase() : '';
+    let typeMarker = '';
+    // if (typeId === 'MUNICIPALITY') typeMarker = '<div style="text-align:center;">(M)</div>';
+    // else if (typeId === 'CORPORATION') typeMarker = '<div style="text-align:center;">(C)</div>';
+
+    if (typeId === 'MUNICIPALITY') typeMarker = '<div style="text-align:center;font-size:20px;">🇲</div>';
+    else if (typeId === 'CORPORATION') typeMarker = '<div style="text-align:center;font-size:20px;">🇨</div>';
+
+    // Always show name and marker if needed
     if (name) {
       layer.bindTooltip(
-        `<span style='font-weight:600;font-size:11px;color:#111; background: none !important; background-color: transparent !important;'>${getDisplayName(feature)}</span>`,
+        `<div style='font-weight:600;font-size:11px;color:#111; background: none !important; background-color: transparent !important; text-align:center;'>${name}${typeMarker}</div>`,
         { direction: 'center', permanent: true, className: 'choropleth-label', sticky: false }
       );
     }
@@ -144,7 +163,6 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
           opacity: 1,
           color: '#ffffffff',
         });
-        console.log('Hovered division:', name);
       },
       mousemove: (e) => {
         setMousePos({ x: e.originalEvent.clientX, y: e.originalEvent.clientY });
@@ -218,6 +236,7 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
         >
           {geojson && (
             <GeoJSON
+              key={featureCategories.length} 
               data={geojson}
               style={styleFeature}
               onEachFeature={onEachFeature}
@@ -285,6 +304,15 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
           </div>
           <div style={{ color: '#444', fontSize: 14, marginBottom: 0 }}>
             {getCategory({ properties: popupInfo.properties })}
+          </div>
+          {/* Add local body type to tooltip */}
+          <div style={{ color: '#888', fontSize: 13, marginTop: 2 }}>
+            {(() => {
+              // Try to get type from featureCategories by name_en
+              const name_en = (popupInfo.properties?.local_body_name_en || popupInfo.properties?.Name || '').toLowerCase().trim();
+              const found = featureCategories.find(f => f.name_en === name_en);
+              return found && found.type ? found.type : '';
+            })()}
           </div>
           {tooltipPos.arrow === 'down' ? (
             <div style={{
