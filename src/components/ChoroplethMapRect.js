@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { MapContainer, GeoJSON, Tooltip, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import './ChoroplethMapRect.css';
+import { CATEGORY_COLORS, CATEGORY_HARD_COLORS } from '../constants/categoryColors';
 
 // Palette 5 – Green → Light Green → Orange-Red
 const PALETTE_5 = {
@@ -16,9 +17,6 @@ const PALETTE_5_HARD = {
   Normal: '#FF5722',
   default: '#E0E0E0'
 };
-
-const CATEGORY_COLORS = PALETTE_5;
-const CATEGORY_HARD_COLORS = PALETTE_5_HARD;
 
 function FitBounds({ geojson, setDebugBounds }) {
   const map = useMap();
@@ -109,14 +107,14 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
         fillOpacity: 0.95,
         weight: 1,
         opacity: 1,
-        color: '#ffffffff', // boundary color set to white
+        color: '#fff', // boundary color set to white
       };
     }
     return {
       fillColor: CATEGORY_COLORS[category] || CATEGORY_COLORS.default,
       weight: 1,
       opacity: 1,
-      color: '#ffffffff', // boundary color set to white
+      color: '#fff', // boundary color set to white
       fillOpacity: 0.8
     };
   }
@@ -146,7 +144,7 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
     const textColor = '#111'; // always use black for map label text
     if (name) {
       layer.bindTooltip(
-        `<div style='font-weight:600;font-size:11px;color:${textColor}; text-align:center;'>${name}${typeMarker}</div>`,
+        `<div style='font-weight:600;font-size:11px;color:#fff; text-align:center; -webkit-text-stroke: 0.1px #000;'>${name}${typeMarker}</div>`,
         { direction: 'center', permanent: true, className: 'choropleth-label', sticky: false }
       );
     }
@@ -253,7 +251,7 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
         &#x26F6;
       </button>
       {/* Main map */}
-      <div style={{ width: 600, aspectRatio: '1', borderRadius: 12, overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
+      <div style={{ width: 600, aspectRatio: '1', borderRadius: 12, overflow: 'hidden', boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#fff', position: 'relative' }}>
         <MapContainer
           style={{ width: '100%', height: '100%', borderRadius: 16 }}
           zoom={10}
@@ -338,7 +336,7 @@ function ChoroplethMapRect({ geojsonUrl, featureType, featureCategories, style, 
           >
             &#x2715;
           </button>
-          <div style={{ width: '90vw', height: '90vh', borderRadius: 16, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#f8fafd', position: 'relative' }}>
+          <div style={{ width: '90vw', height: '90vh', borderRadius: 16, boxShadow: '0 2px 12px rgba(0,0,0,0.08)', background: '#fff', position: 'relative' }}>
             <MapContainer
               style={{ width: '100%', height: '100%', borderRadius: 16 }}
               zoom={10}

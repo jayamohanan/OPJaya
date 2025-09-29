@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { LanguageContext } from '../components/LanguageContext';
-import { useLocation, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import AddIssueModal from '../components/AddIssueModal';
 import Footer from '../components/Footer';
 import TopNav from '../components/TopNav'; // Add this import
@@ -343,24 +343,19 @@ function getRateColor(rate) {
 
 function LocalBodyDashboard() {
   const { lang, setLang } = useContext(LanguageContext); // 'ml' or 'en'
-  const { state } = useLocation();
+  const { districtId, assemblyId, localBodyId } = useParams();
   const navigate = useNavigate();
 
-  // Extract IDs from navigation state
-  const localBodyId = state?.localBodyId || state?.id || '';
-  const assemblyId = state?.assemblyId || '';
-  const districtId = state?.districtId || '';
-
   // State for fetched data
-  const [localBody, setLocalBody] = useState(null); // { local_body_id, local_body_name_en, ... }
-  const [assembly, setAssembly] = useState(null); // { assembly_id, assembly_name_en, ... }
-  const [district, setDistrict] = useState(null); // { district_id, district_name_en, ... }
+  const [localBody, setLocalBody] = useState(null);
+  const [assembly, setAssembly] = useState(null);
+  const [district, setDistrict] = useState(null);
 
   // Fetch local body, assembly, and district details
   useEffect(() => {
     async function fetchData() {
       if (!localBodyId) return;
-      // Fetch local body with correct field names
+      // Fetch local body
       const { data: lb, error: lbError } = await supabase
         .from(TABLES.LOCAL_BODY)
         .select([
@@ -383,7 +378,7 @@ function LocalBodyDashboard() {
       }
       setLocalBody(lb);
 
-      // Fetch assembly with correct field names
+      // Fetch assembly
       const { data: asm, error: asmError } = await supabase
         .from(TABLES.ASSEMBLY)
         .select([
@@ -392,7 +387,7 @@ function LocalBodyDashboard() {
           FIELDS.ASSEMBLY.NAME_ML,
           FIELDS.ASSEMBLY.DISTRICT_ID
         ].join(', '))
-        .eq(FIELDS.ASSEMBLY.ID, lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID])
+        .eq(FIELDS.ASSEMBLY.ID, assemblyId || lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID])
         .single();
       if (asmError || !asm) {
         setAssembly(null);
@@ -401,7 +396,7 @@ function LocalBodyDashboard() {
       }
       setAssembly(asm);
 
-      // Fetch district with correct field names
+      // Fetch district
       const { data: dist, error: distError } = await supabase
         .from(TABLES.DISTRICT)
         .select([
@@ -409,7 +404,7 @@ function LocalBodyDashboard() {
           FIELDS.DISTRICT.NAME_EN,
           FIELDS.DISTRICT.NAME_ML
         ].join(', '))
-        .eq(FIELDS.DISTRICT.ID, asm[FIELDS.ASSEMBLY.DISTRICT_ID])
+        .eq(FIELDS.DISTRICT.ID, districtId || asm[FIELDS.ASSEMBLY.DISTRICT_ID])
         .single();
       if (distError || !dist) {
         setDistrict(null);
@@ -418,7 +413,7 @@ function LocalBodyDashboard() {
       setDistrict(dist);
     }
     fetchData();
-  }, [localBodyId]);
+  }, [localBodyId, assemblyId, districtId]);
 
   // Malayalam type mapping
   const getTypeInMalayalam = (type) => {

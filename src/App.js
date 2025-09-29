@@ -10,6 +10,7 @@ import TopNav from './components/TopNav'; // Make sure this import exists
 import LocalBodyChecklist from './pages/LocalBodyChecklist';
 import Signup from './pages/Signup';
 import StatePage from './pages/StatePage';
+import AssemblyListPage from './pages/AssemblyListPage';
 import './App.css';
 
 
@@ -22,13 +23,14 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/dashboard" element={<LocalBodyDashboard />} />
-            <Route path="/localbody/:localBodyParams" element={<LocalBodyDashboard />} />
             <Route path="/map" element={<MapPage />} />
             <Route path="/assembly/:assemblyName" element={<AssemblyPage />} />
             <Route path="/district/:districtName" element={<DistrictPage />} />
             <Route path="/localbody-checklist" element={<LocalBodyChecklist />} />
             <Route path="/signup" element={<Signup />} />
             <Route path="/state" element={<StatePage />} />
+            <Route path="/assembly-list" element={<AssemblyListPage />} />
+            <Route path="/localbody/:localBodyId" element={<LocalBodyDashboard />} />
           </Routes>
         </div>
       </Router>

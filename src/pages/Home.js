@@ -120,26 +120,8 @@ function Home() {
   const handleSubmit = () => {
     if (selectedLocalBodyId) {
       const localBodyData = localBodies.find(lb => lb[FIELDS.LOCAL_BODY.ID] === selectedLocalBodyId);
-      const assemblyData = assemblies.find(a => a[FIELDS.ASSEMBLY.ID] === selectedAssemblyId);
-      const districtData = districts.find(d => d[FIELDS.DISTRICT.ID] === selectedDistrictId);
-      if (localBodyData && assemblyData && districtData) {
-        navigate('/dashboard', {
-          state: {
-            localBodyId: localBodyData[FIELDS.LOCAL_BODY.ID],
-            localBodyName: localBodyData[FIELDS.LOCAL_BODY.NAME_EN],
-            nameMalayalam: localBodyData[FIELDS.LOCAL_BODY.NAME_ML] || localBodyData[FIELDS.LOCAL_BODY.NAME_EN],
-            localBodyType: localBodyData.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '',
-            localBodyTypeML: localBodyData.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '',
-            blockName: localBodyData[FIELDS.LOCAL_BODY.BLOCK_NAME_EN],
-            districtPanchayatName: localBodyData[FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN],
-            districtId: districtData[FIELDS.DISTRICT.ID],
-            district: districtData[FIELDS.DISTRICT.NAME_EN],
-            districtML: districtData[FIELDS.DISTRICT.NAME_ML],
-            assemblyId: assemblyData[FIELDS.ASSEMBLY.ID],
-            assembly: assemblyData[FIELDS.ASSEMBLY.NAME_EN],
-            assemblyML: assemblyData[FIELDS.ASSEMBLY.NAME_ML]
-          }
-        });
+      if (localBodyData) {
+        navigate(`/localbody/${localBodyData[FIELDS.LOCAL_BODY.ID]}`);
       }
     } else if (selectedAssemblyId) {
       // Navigate to assembly page with assembly name
@@ -172,6 +154,12 @@ function Home() {
       <div className="main-content">
         <div className="dropdown-container">
           <h2>Select Your Location</h2>
+          <button
+            onClick={() => navigate('/assembly-list')}
+            style={{ marginBottom: 18, fontWeight: 600, padding: '6px 18px', borderRadius: 6, background: '#1976d2', color: '#fff', border: 'none', cursor: 'pointer', fontSize: 16 }}
+          >
+            Assembly List
+          </button>
           
           <div className="dropdown-group">
             <label htmlFor="district-select">Select District:</label>

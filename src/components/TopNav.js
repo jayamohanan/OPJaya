@@ -88,10 +88,15 @@ function TopNav() {
   }, [assembly, district]);
 
   function handleGo() {
-    if (type === 'localbody' && localBody) navigate(`/localbody/${localBody}`);
-    else if (type === 'assembly' && assembly) navigate(`/assembly/${assembly}`);
-    else if (type === 'district' && district) navigate(`/district/${district}`);
-    else if (type === 'state') navigate('/state');
+    if (type === 'localbody' && localBody) {
+      navigate(`/localbody/${localBody}`);
+    } else if (type === 'assembly' && assembly) {
+      navigate(`/assembly/${assembly}`);
+    } else if (type === 'district' && district) {
+      navigate(`/district/${district}`);
+    } else if (type === 'state') {
+      navigate('/state');
+    }
   }
 
   return (
