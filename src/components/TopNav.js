@@ -88,9 +88,9 @@ function TopNav() {
   }, [assembly, district]);
 
   function handleGo() {
-    if (type === 'localbody') navigate('/localbody');
-    else if (type === 'assembly') navigate('/assembly');
-    else if (type === 'district') navigate('/district');
+    if (type === 'localbody' && localBody) navigate(`/localbody/${localBody}`);
+    else if (type === 'assembly' && assembly) navigate(`/assembly/${assembly}`);
+    else if (type === 'district' && district) navigate(`/district/${district}`);
     else if (type === 'state') navigate('/state');
   }
 
