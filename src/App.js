@@ -17,7 +17,10 @@ import './App.css';
 function App() {
   return (
     <LanguageProvider>
-      <Router basename="/OPJaya"> {/* Add basename for GitHub Pages */}
+      const basename = window.location.hostname.includes('github.io') 
+  ? '/OPJaya' 
+  : '';
+      <Router basename={basename}>
         <div className="App">
           <TopNav /> {/* Universal/global top bar */}
           <Routes>
