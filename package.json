@@ -2,7 +2,8 @@
   "name": "opjaya",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jayamohanan.github.io/OPJaya/",
+  "_homepage": "https://jayamohanan.github.io/OPJaya/",
+  "homepage": ".",
   "dependencies": {
     "@mapbox/leaflet-omnivore": "^0.3.4",
     "@supabase/supabase-js": "^2.57.4",
@@ -27,6 +28,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "_build_ghpages": "react-scripts build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
