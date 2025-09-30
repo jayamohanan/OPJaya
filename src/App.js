@@ -15,11 +15,12 @@ import './App.css';
 
 
 function App() {
-  return (
-    <LanguageProvider>
-      const basename = window.location.hostname.includes('github.io') 
+  const basename = window.location.hostname.includes('github.io') 
   ? '/OPJaya' 
   : '';
+  return (
+    <LanguageProvider>
+      
       <Router basename={basename}>
         <div className="App">
           <TopNav /> {/* Universal/global top bar */}
