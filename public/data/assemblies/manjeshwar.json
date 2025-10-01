@@ -1,0 +1,60 @@
+{
+  "assembly_id": "1",
+  "assembly_name_en": "Manjeshwar",
+  "assembly_name_ml": "മഞ്ചശ്വരം",
+  "category": "Normal",
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G140107",
+      "local_body_name_en": "Enmakaje",
+      "local_body_name_ml": "എന്‍മകജെ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140306",
+      "local_body_name_en": "Kumbla",
+      "local_body_name_ml": "കുമ്പള",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140101",
+      "local_body_name_en": "Mangalpady",
+      "local_body_name_ml": "മംഗല്‍പാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140105",
+      "local_body_name_en": "Manjeshwar",
+      "local_body_name_ml": "മഞ്ചശ്വരം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140104",
+      "local_body_name_en": "Meenja",
+      "local_body_name_ml": "മീഞ്ച",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140106",
+      "local_body_name_en": "Paivalike",
+      "local_body_name_ml": "പൈവളികെ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140103",
+      "local_body_name_en": "Puthige",
+      "local_body_name_ml": "പുത്തിഗെ",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/manjeshwar.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/manjeshwar.geojson"
+  }
+}

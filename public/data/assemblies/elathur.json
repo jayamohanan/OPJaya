@@ -1,0 +1,54 @@
+{
+  "assembly_id": "26",
+  "assembly_name_en": "Elathur",
+  "assembly_name_ml": "ഏലത്തൂർ",
+  "category": "Good",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G110902",
+      "local_body_name_en": "Chelannur",
+      "local_body_name_ml": "ചേളന്നൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110901",
+      "local_body_name_en": "Kakkodi",
+      "local_body_name_ml": "കക്കോടി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G110903",
+      "local_body_name_en": "Kakkur",
+      "local_body_name_ml": "കാക്കൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G111102",
+      "local_body_name_en": "Kuruvattoor",
+      "local_body_name_ml": "കുരുവട്ടൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110904",
+      "local_body_name_en": "Nanminda",
+      "local_body_name_ml": "നന്മണ്ട",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G110906",
+      "local_body_name_en": "Thalakulathur",
+      "local_body_name_ml": "തലക്കുളത്തൂര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/elathur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/elathur.geojson"
+  }
+}

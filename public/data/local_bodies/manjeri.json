@@ -1,0 +1,30 @@
+{
+  "local_body_id": "M100300",
+  "local_body_name_en": "Manjeri",
+  "local_body_name_ml": "മഞ്ചേരി",
+  "local_body_type_en": "Municipality",
+  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
+  "category": "",
+  "assembly": {
+    "assembly_id": "37",
+    "assembly_name_en": "Manjeri",
+    "assembly_name_ml": "മഞ്ചേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/manjeri.geojson"
+  }
+}

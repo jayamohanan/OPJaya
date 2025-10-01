@@ -1,0 +1,18 @@
+{
+  "state_id": "kl",
+  "state_name_en": "Kerala",
+  "state_name_ml": "കേരളം",
+  "category": "normal",
+  "districts": [
+    {
+      "district_id": "3",
+      "district_name_en": "Pathanamthitta",
+      "district_name_ml": "പത്തനംതിട്ട",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/states/outlines/kerala.geojson",
+    "districts": "geojson/states/with-districts/kerala.geojson"
+  }
+}

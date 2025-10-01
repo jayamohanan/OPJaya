@@ -1,0 +1,43 @@
+{
+  "district_id": "3",
+  "district_name_en": "Pathanamthitta",
+  "district_name_ml": "പത്തനംതിട്ട",
+  "is_active": true,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "111",
+      "assembly_name_en": "Thiruvalla",
+      "assembly_name_ml": "തിരുവല്ല",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "112",
+      "assembly_name_en": "Ranni",
+      "assembly_name_ml": "റാന്നി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "113",
+      "assembly_name_en": "Aranmula",
+      "assembly_name_ml": "ആറന്മുള",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "114",
+      "assembly_name_en": "Konni",
+      "assembly_name_ml": "കോന്നി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "115",
+      "assembly_name_en": "Adoor",
+      "assembly_name_ml": "അടൂർ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/pathanamthitta.geojson",
+    "assemblies": "geojson/districts/with-assemblies/pathanamthitta.geojson"
+  }
+}
