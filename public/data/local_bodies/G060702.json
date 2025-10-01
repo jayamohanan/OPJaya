@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060702",
+  "local_body_name_en": "Kumaramangalam",
+  "local_body_name_ml": "കുമാരമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "90",
+    "assembly_name_en": "Thodupuzha",
+    "assembly_name_ml": "തൊടുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "24cc31ed-efc3-4a29-b62b-d0cf93b61ab0",
+      "ward_no": "1",
+      "ward_name_en": "Kaloor",
+      "ward_name_ml": "കലൂര്‍"
+    },
+    {
+      "ward_id": "583a4ccf-9d55-432f-b7bc-7e38fe4173ba",
+      "ward_no": "2",
+      "ward_name_en": "Payyavu",
+      "ward_name_ml": "പയ്യാവ്"
+    },
+    {
+      "ward_id": "2c6f490b-457c-4187-aeb5-522305327de0",
+      "ward_no": "3",
+      "ward_name_en": "Ezhalloor",
+      "ward_name_ml": "ഏഴല്ലൂര്‍"
+    },
+    {
+      "ward_id": "d2d3bd85-5ec6-4d45-93b2-7084ab3151be",
+      "ward_no": "4",
+      "ward_name_en": "Pathazhapara",
+      "ward_name_ml": "പത്താഴപ്പാറ"
+    },
+    {
+      "ward_id": "0992ce78-91bd-4756-aa3d-8cc8d8d03162",
+      "ward_no": "5",
+      "ward_name_en": "Kallumari",
+      "ward_name_ml": "കല്ലുമാരി"
+    },
+    {
+      "ward_id": "52af449c-522f-4b2f-be2c-8f8b4c49ebab",
+      "ward_no": "6",
+      "ward_name_en": "Karuka",
+      "ward_name_ml": "കറുക"
+    },
+    {
+      "ward_id": "504ae156-64e5-4090-8de3-3e32bb61b498",
+      "ward_no": "7",
+      "ward_name_en": "Perumpillichira",
+      "ward_name_ml": "പെരുമ്പിളളിച്ചിറ"
+    },
+    {
+      "ward_id": "8d48a68a-ad9f-4cfb-9180-7c34456eb429",
+      "ward_no": "8",
+      "ward_name_en": "Madhurappara",
+      "ward_name_ml": "മധുരപ്പാറ"
+    },
+    {
+      "ward_id": "ca2f50d8-907a-47a1-9772-a79dc4e5c403",
+      "ward_no": "9",
+      "ward_name_en": "Mailacombu",
+      "ward_name_ml": "മൈലക്കൊമ്പ്"
+    },
+    {
+      "ward_id": "04d8592e-92d2-4610-a536-ed15063d3696",
+      "ward_no": "10",
+      "ward_name_en": "Paynkulam",
+      "ward_name_ml": "പൈങ്കുളം"
+    },
+    {
+      "ward_id": "597dcc95-6f68-44c7-8c1d-7335c0cb922e",
+      "ward_no": "11",
+      "ward_name_en": "Kumaramangalam",
+      "ward_name_ml": "കുമാരമംഗലം"
+    },
+    {
+      "ward_id": "82beb66c-70b3-43c8-adff-9e1835fe772c",
+      "ward_no": "12",
+      "ward_name_en": "Areekara",
+      "ward_name_ml": "അരീക്കര"
+    },
+    {
+      "ward_id": "e5bb7870-a17f-4a0c-8dcc-69edf1ae236e",
+      "ward_no": "13",
+      "ward_name_en": "Karikulam",
+      "ward_name_ml": "കരികുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060702.geojson"
+  }
+}

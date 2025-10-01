@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G060405",
+  "local_body_name_en": "Velliyamattom",
+  "local_body_name_ml": "വെളളിയാമറ്റം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "90",
+    "assembly_name_en": "Thodupuzha",
+    "assembly_name_ml": "തൊടുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "48c01a43-d95b-48b0-964d-3800166ab1a4",
+      "ward_no": "1",
+      "ward_name_en": "Elemdesom West",
+      "ward_name_ml": "ഇളംദേശം വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "2778a72a-b89d-440a-9dd7-8021c1eeea29",
+      "ward_no": "2",
+      "ward_name_en": "Elemdesom East",
+      "ward_name_ml": "ഇളംദേശം ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "939f5ed2-c186-4edc-8d3e-ae0ea566d2ca",
+      "ward_no": "3",
+      "ward_name_en": "Elamdesom Thottam",
+      "ward_name_ml": "ഇളംദേശം തോട്ടം"
+    },
+    {
+      "ward_id": "7b56d193-3ef1-44e3-b1da-eaaaf289f25f",
+      "ward_no": "4",
+      "ward_name_en": "Pannimattom",
+      "ward_name_ml": "പന്നിമറ്റം"
+    },
+    {
+      "ward_id": "5d9dbba5-8934-4fd4-9348-3be1b995e773",
+      "ward_no": "5",
+      "ward_name_en": "Kuruvakkayam",
+      "ward_name_ml": "കുറുവാക്കയം"
+    },
+    {
+      "ward_id": "d346f057-15fb-4d73-a011-43882c5c5651",
+      "ward_no": "6",
+      "ward_name_en": "Methotty",
+      "ward_name_ml": "മേത്തൊട്ടി"
+    },
+    {
+      "ward_id": "67657c70-9506-4e65-a629-38e403236a5a",
+      "ward_no": "7",
+      "ward_name_en": "Poomala",
+      "ward_name_ml": "പൂമാല"
+    },
+    {
+      "ward_id": "eddf08fa-652d-4e40-bc21-c3b73b0380a9",
+      "ward_no": "8",
+      "ward_name_en": "Koovakandom",
+      "ward_name_ml": "കൂവക്കണ്ടം"
+    },
+    {
+      "ward_id": "c0486840-6b5d-402e-a48e-d55d9056d797",
+      "ward_no": "9",
+      "ward_name_en": "Kozhippally",
+      "ward_name_ml": "കോഴിപ്പള്ളി"
+    },
+    {
+      "ward_id": "e12425d6-dff0-490d-adda-60ed97c33158",
+      "ward_no": "10",
+      "ward_name_en": "Kolapram",
+      "ward_name_ml": "കൊളപ്രം"
+    },
+    {
+      "ward_id": "5d93997a-e986-4107-a125-1d131ee90552",
+      "ward_no": "11",
+      "ward_name_en": "Poochapra",
+      "ward_name_ml": "പൂച്ചപ്ര"
+    },
+    {
+      "ward_id": "c3a990e2-c5d5-4457-af6b-d6b3e011a374",
+      "ward_no": "12",
+      "ward_name_en": "Velliyamattom",
+      "ward_name_ml": "വെള്ളിയാമറ്റം"
+    },
+    {
+      "ward_id": "f63e52a3-52d1-40e2-8229-6e3109b5a33d",
+      "ward_no": "13",
+      "ward_name_en": "Karukappally",
+      "ward_name_ml": "കറുകപ്പള്ളി"
+    },
+    {
+      "ward_id": "07a84ccf-b39f-4872-a4da-621a41de0fc1",
+      "ward_no": "14",
+      "ward_name_en": "Njaralampuzha",
+      "ward_name_ml": "ഞരളംപുഴ"
+    },
+    {
+      "ward_id": "7bd83f88-6af9-4535-b4f7-668394ab185c",
+      "ward_no": "15",
+      "ward_name_en": "Vettimattom",
+      "ward_name_ml": "വെട്ടിമറ്റം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060405.geojson"
+  }
+}

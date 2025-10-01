@@ -1,0 +1,90 @@
+{
+  "assembly_id": "86",
+  "assembly_name_en": "Muvattupuzha",
+  "assembly_name_ml": "മൂവാറ്റുപുഴ",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G071402",
+      "local_body_name_en": "Arakuzha",
+      "local_body_name_ml": "ആരക്കുഴ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071401",
+      "local_body_name_en": "Avoly",
+      "local_body_name_ml": "ആവോലി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071406",
+      "local_body_name_en": "Ayavana",
+      "local_body_name_ml": "ആയവന",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071405",
+      "local_body_name_en": "Kalloorkad",
+      "local_body_name_ml": "കല്ലൂര്‍ക്കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071407",
+      "local_body_name_en": "Manjalloor",
+      "local_body_name_ml": "മഞ്ഞള്ളൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071408",
+      "local_body_name_en": "Marady",
+      "local_body_name_ml": "മാറാടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M070500",
+      "local_body_name_en": "Muvattupuzha",
+      "local_body_name_ml": "മൂവാറ്റുപുഴ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G071101",
+      "local_body_name_en": "Paingottoor",
+      "local_body_name_ml": "പൈങ്ങോട്ടൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G071404",
+      "local_body_name_en": "Paipra",
+      "local_body_name_ml": "പായിപ്ര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071205",
+      "local_body_name_en": "Palakuzha",
+      "local_body_name_ml": "പാലക്കുഴ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071108",
+      "local_body_name_en": "Pothanicad",
+      "local_body_name_ml": "പോത്താനിക്കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071403",
+      "local_body_name_en": "Valakom",
+      "local_body_name_ml": "വാളകം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/muvattupuzha.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/muvattupuzha.geojson"
+  }
+}

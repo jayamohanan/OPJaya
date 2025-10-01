@@ -1,0 +1,66 @@
+{
+  "assembly_id": "36",
+  "assembly_name_en": "Wandoor",
+  "assembly_name_ml": "വണ്ടൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G100204",
+      "local_body_name_en": "Chokkad",
+      "local_body_name_ml": "ചോക്കാട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100203",
+      "local_body_name_en": "Kalikavu",
+      "local_body_name_ml": "കാളികാവ്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100205",
+      "local_body_name_en": "Karuvarakundu",
+      "local_body_name_ml": "കരുവാരകുണ്ട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100301",
+      "local_body_name_en": "Mampad",
+      "local_body_name_ml": "മമ്പാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100303",
+      "local_body_name_en": "Porur",
+      "local_body_name_ml": "പോരൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100305",
+      "local_body_name_en": "Thiruvali",
+      "local_body_name_ml": "തിരുവാലി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100206",
+      "local_body_name_en": "Tuvvur",
+      "local_body_name_ml": "തുവ്വൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100306",
+      "local_body_name_en": "Wandoor",
+      "local_body_name_ml": "വണ്ടൂര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/wandoor.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/wandoor.geojson"
+  }
+}

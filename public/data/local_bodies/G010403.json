@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G010403",
+  "local_body_name_en": "Pullampara",
+  "local_body_name_ml": "പുല്ലമ്പാറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "131",
+    "assembly_name_en": "Vamanapuram",
+    "assembly_name_ml": "വാമനപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "13fca1d8-987d-4657-8294-1e69f31a93e1",
+      "ward_no": "1",
+      "ward_name_en": "Panthaplavikonam",
+      "ward_name_ml": "പന്തപ്ലാവിക്കോണം"
+    },
+    {
+      "ward_id": "65a2e469-f933-4405-b1df-8eba33a7964c",
+      "ward_no": "2",
+      "ward_name_en": "Vellumannady",
+      "ward_name_ml": "വെള്ളുമണ്ണടി"
+    },
+    {
+      "ward_id": "e628cbf0-59de-4704-89a6-7c3b28420bec",
+      "ward_no": "3",
+      "ward_name_en": "Perumala",
+      "ward_name_ml": "പേരുമല"
+    },
+    {
+      "ward_id": "277bf7a0-8444-4c27-ad7e-92ad89c41da7",
+      "ward_no": "4",
+      "ward_name_en": "Muthippara",
+      "ward_name_ml": "മുത്തിപ്പാറ"
+    },
+    {
+      "ward_id": "2a6a0433-262d-46b8-bdb5-5e1a37d3e385",
+      "ward_no": "5",
+      "ward_name_en": "Pullampara",
+      "ward_name_ml": "പുല്ലമ്പാറ"
+    },
+    {
+      "ward_id": "86fa5989-e397-405e-9d4d-d92307137f36",
+      "ward_no": "6",
+      "ward_name_en": "Koonanvenga",
+      "ward_name_ml": "കൂനന്‍വേങ്ങ"
+    },
+    {
+      "ward_id": "0d8302d2-734d-4666-b236-765d62d296c2",
+      "ward_no": "7",
+      "ward_name_en": "Panayam",
+      "ward_name_ml": "പാണയം"
+    },
+    {
+      "ward_id": "635c0897-b603-4d4b-bc1b-04bad7a0f8b0",
+      "ward_no": "8",
+      "ward_name_en": "Chullalam",
+      "ward_name_ml": "ചുള്ളാളം"
+    },
+    {
+      "ward_id": "1d940a3e-b290-4d55-9f44-98ea67f4a1cf",
+      "ward_no": "9",
+      "ward_name_en": "Mukkudil",
+      "ward_name_ml": "മുക്കുടില്‍"
+    },
+    {
+      "ward_id": "27086a12-8ee8-4faf-b0fb-5af1928f17dc",
+      "ward_no": "10",
+      "ward_name_en": "Mankuzhi",
+      "ward_name_ml": "മാങ്കുഴി"
+    },
+    {
+      "ward_id": "e5174e1d-7906-4823-9808-4e0aa49bddd2",
+      "ward_no": "11",
+      "ward_name_en": "Thempammoodu",
+      "ward_name_ml": "തേമ്പാംമൂട്"
+    },
+    {
+      "ward_id": "abe5123d-4fe6-4e0a-954f-31f9108b4f97",
+      "ward_no": "12",
+      "ward_name_en": "Attukal",
+      "ward_name_ml": "ആട്ടുകാല്‍"
+    },
+    {
+      "ward_id": "4abe92dd-08b5-4504-85c8-ff68747ca1a5",
+      "ward_no": "13",
+      "ward_name_en": "Palamkonam",
+      "ward_name_ml": "പാലാംകോണം"
+    },
+    {
+      "ward_id": "d7a0dc2d-e8f5-4c0c-a87e-68d8eb8cb7c7",
+      "ward_no": "14",
+      "ward_name_en": "Nagarukuzhi",
+      "ward_name_ml": "നാഗരുകുഴി"
+    },
+    {
+      "ward_id": "aad3fc3a-047e-4596-9efe-a2f2cedad382",
+      "ward_no": "15",
+      "ward_name_en": "Kuttimmoodu",
+      "ward_name_ml": "കുറ്റിമൂട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010403.geojson"
+  }
+}

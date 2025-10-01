@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G050609",
+  "local_body_name_en": "Thidanad",
+  "local_body_name_ml": "തിടനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "101",
+    "assembly_name_en": "Poonjar",
+    "assembly_name_ml": "പൂഞ്ഞാർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f2ebd6fc-2b26-47fd-9a5c-be9b5bdcf063",
+      "ward_no": "1",
+      "ward_name_en": "Amparanirappel",
+      "ward_name_ml": "അമ്പാറനിരപ്പേല്‍"
+    },
+    {
+      "ward_id": "13f8750e-d027-4785-bded-edab0be368ad",
+      "ward_no": "2",
+      "ward_name_en": "Kondoor",
+      "ward_name_ml": "കൊണ്ടൂര്‍"
+    },
+    {
+      "ward_id": "84184a0a-4b07-4af5-9ccf-37db321fea75",
+      "ward_no": "3",
+      "ward_name_en": "Pathazha",
+      "ward_name_ml": "പാതാഴ"
+    },
+    {
+      "ward_id": "14fbd862-045f-4db2-8df6-cb108d341564",
+      "ward_no": "4",
+      "ward_name_en": "Vailkanampara",
+      "ward_name_ml": "വെയില്‍കാണാംപാറ"
+    },
+    {
+      "ward_id": "3364c657-5300-4702-ab42-278ef4633810",
+      "ward_no": "5",
+      "ward_name_en": "Ponthanal",
+      "ward_name_ml": "പൊന്തനാല്‍"
+    },
+    {
+      "ward_id": "cd2c6418-2fa0-4065-9c4f-10ecaae4c6e8",
+      "ward_no": "6",
+      "ward_name_en": "Nedumcheri",
+      "ward_name_ml": "നെടുംചേരി"
+    },
+    {
+      "ward_id": "f351fc12-8e8e-4739-8546-9a0c805675b6",
+      "ward_no": "7",
+      "ward_name_en": "Variyanikkad",
+      "ward_name_ml": "വാരിയാനിക്കാട്"
+    },
+    {
+      "ward_id": "78261ca1-6d4c-4c2b-a1d6-801d33aaa624",
+      "ward_no": "8",
+      "ward_name_en": "Chettuthodu",
+      "ward_name_ml": "ചേറ്റുതോട്"
+    },
+    {
+      "ward_id": "c5dc3985-5197-4d38-8e1d-1ea265f0b757",
+      "ward_no": "9",
+      "ward_name_en": "Kalaketty",
+      "ward_name_ml": "കാളകെട്ടി"
+    },
+    {
+      "ward_id": "09756c93-8a92-4713-99c0-b38767302dd1",
+      "ward_no": "10",
+      "ward_name_en": "Pinnakkanad",
+      "ward_name_ml": "പിണ്ണാക്കനാട്"
+    },
+    {
+      "ward_id": "efa27aaa-cb4e-4c02-b14e-45958e1a33a4",
+      "ward_no": "11",
+      "ward_name_en": "Chemmalamattom",
+      "ward_name_ml": "ചെമ്മലമറ്റം"
+    },
+    {
+      "ward_id": "c5be3680-96e4-441d-93c8-5e5fb7365b56",
+      "ward_no": "12",
+      "ward_name_en": "Kallarangad",
+      "ward_name_ml": "കല്ലറങ്ങാട്"
+    },
+    {
+      "ward_id": "b6826916-0ea9-47f4-9dfd-442cb47e85a2",
+      "ward_no": "13",
+      "ward_name_en": "Thidanad",
+      "ward_name_ml": "തിടനാട്"
+    },
+    {
+      "ward_id": "5ea64aa3-4002-4ae0-9e9e-896551cd77f3",
+      "ward_no": "14",
+      "ward_name_en": "Moonnamthodu",
+      "ward_name_ml": "മൂന്നാംതോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050609.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G070306",
+  "local_body_name_en": "Kanjoor",
+  "local_body_name_ml": "കാഞ്ഞൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "76",
+    "assembly_name_en": "Aluva",
+    "assembly_name_ml": "ആലുവ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "9d7178cd-fced-4b52-bd7c-6bcfe16407ba",
+      "ward_no": "1",
+      "ward_name_en": "Thuravumkara",
+      "ward_name_ml": "തുറവുംകര"
+    },
+    {
+      "ward_id": "c7ae15a4-778a-455b-963e-ec088d15a4b9",
+      "ward_no": "2",
+      "ward_name_en": "Chengal West",
+      "ward_name_ml": "ചെങ്ങല്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "2865fc26-8c11-4490-834a-0e1ad21f4747",
+      "ward_no": "3",
+      "ward_name_en": "Chengal East",
+      "ward_name_ml": "ചെങ്ങല്‍ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "3cbe1dbc-feb4-4e57-848b-67d682a8664b",
+      "ward_no": "4",
+      "ward_name_en": "Kanjoor",
+      "ward_name_ml": "കാഞ്ഞൂര്‍"
+    },
+    {
+      "ward_id": "eb8607f5-70cf-40b2-8de7-2555b089d9f0",
+      "ward_no": "5",
+      "ward_name_en": "East Angadi",
+      "ward_name_ml": "കിഴക്കേ അങ്ങാടി"
+    },
+    {
+      "ward_id": "52bef036-3d58-443c-9dda-f81fd7b28374",
+      "ward_no": "6",
+      "ward_name_en": "Puthiyedam North",
+      "ward_name_ml": "പുതിയേടം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "8076612d-810f-48b9-8647-af7c41e67eeb",
+      "ward_no": "7",
+      "ward_name_en": "Aaramkavu",
+      "ward_name_ml": "ആറംങ്കാവ്"
+    },
+    {
+      "ward_id": "71b442bc-b6d3-4e2d-8d0f-a33a486054d3",
+      "ward_no": "8",
+      "ward_name_en": "Vallam Kadavu",
+      "ward_name_ml": "വല്ലം  കടവ്"
+    },
+    {
+      "ward_id": "0ad608a1-e065-46f0-8466-b1db578e13d4",
+      "ward_no": "9",
+      "ward_name_en": "Parappuram",
+      "ward_name_ml": "പാറപ്പുറം"
+    },
+    {
+      "ward_id": "15353f61-6d88-4a00-9d4e-b5019b393990",
+      "ward_no": "10",
+      "ward_name_en": "Thirunarayanapurm",
+      "ward_name_ml": "തിരുനാരായണപുരം"
+    },
+    {
+      "ward_id": "858b3284-43ae-4360-bf04-11f21c46f53b",
+      "ward_no": "11",
+      "ward_name_en": "Puthiyedam South",
+      "ward_name_ml": "പുതിയേടം സൌത്ത്"
+    },
+    {
+      "ward_id": "aa90b7ec-8190-486a-a4e0-8e67d3fe1179",
+      "ward_no": "12",
+      "ward_name_en": "Bazar",
+      "ward_name_ml": "ബസാര്‍"
+    },
+    {
+      "ward_id": "f6b70561-4baf-437d-90bc-7e7330b8dbef",
+      "ward_no": "13",
+      "ward_name_en": "Padinjarumbhagam",
+      "ward_name_ml": "പടിഞ്ഞാറുംഭാഗം"
+    },
+    {
+      "ward_id": "22c3645e-8e85-47a5-9fa6-df09d44ea713",
+      "ward_no": "14",
+      "ward_name_en": "Kanjoor North",
+      "ward_name_ml": "കാഞ്ഞൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "0d3d9a54-5a53-469d-b57f-5437ad2e049f",
+      "ward_no": "15",
+      "ward_name_en": "Koolikkara",
+      "ward_name_ml": "കൂളിക്കര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070306.geojson"
+  }
+}

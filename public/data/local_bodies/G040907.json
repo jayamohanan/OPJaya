@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040907",
+  "local_body_name_en": "Cheruthana",
+  "local_body_name_ml": "ചെറുതന",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "107",
+    "assembly_name_en": "Haripad",
+    "assembly_name_ml": "ഹരിപ്പാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "34e1d247-2f25-4521-8b4f-3b8b86e6e1ec",
+      "ward_no": "1",
+      "ward_name_en": "Paandi",
+      "ward_name_ml": "പാണ്ടി"
+    },
+    {
+      "ward_id": "f0c42f9d-36c9-4c62-824b-736df483fc23",
+      "ward_no": "2",
+      "ward_name_en": "Pocha",
+      "ward_name_ml": "പോച്ച"
+    },
+    {
+      "ward_id": "a985d984-7afd-414f-b77a-637e89df83e0",
+      "ward_no": "3",
+      "ward_name_en": "Anary Vadakkekara",
+      "ward_name_ml": "ആനാരി വടക്കേകര"
+    },
+    {
+      "ward_id": "d9682379-2ca4-4fe2-ba87-0a141f74b8ef",
+      "ward_no": "4",
+      "ward_name_en": "Anary Thekkekara",
+      "ward_name_ml": "ആനാരി തെക്കേകര"
+    },
+    {
+      "ward_id": "5201d324-7fbb-4e47-8a2f-97c81167029d",
+      "ward_no": "5",
+      "ward_name_en": "Thekkekara Thekkeyattam",
+      "ward_name_ml": "തെക്കേക്കര തെക്കേയറ്റം"
+    },
+    {
+      "ward_id": "16f653b6-612e-4ec6-b271-43f30f2fe1db",
+      "ward_no": "6",
+      "ward_name_en": "Chakkoorethu",
+      "ward_name_ml": "ചക്കൂരേത്ത്"
+    },
+    {
+      "ward_id": "52462e5a-3bd2-408e-bc12-557b2b42dba1",
+      "ward_no": "7",
+      "ward_name_en": "Vettolil",
+      "ward_name_ml": "വെട്ടോലില്‍"
+    },
+    {
+      "ward_id": "270c97f0-fa76-48a6-8af2-5794693925ea",
+      "ward_no": "8",
+      "ward_name_en": "High School Ward",
+      "ward_name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "51176bf1-397c-43bf-971b-ad4872d42398",
+      "ward_no": "9",
+      "ward_name_en": "Ayaparambu Thekkekara",
+      "ward_name_ml": "ആയാപറമ്പ് തെക്കേക്കര"
+    },
+    {
+      "ward_id": "73de9cc7-44d3-4857-9e20-516b4d922bac",
+      "ward_no": "10",
+      "ward_name_en": "Cheruthana Thekkekara",
+      "ward_name_ml": "ചെറുതന തെക്കേക്കര"
+    },
+    {
+      "ward_id": "b56d7179-300a-4cdf-bda9-b5af9af0a554",
+      "ward_no": "11",
+      "ward_name_en": "Vadakkekara Thekkeyattam",
+      "ward_name_ml": "വടക്കേക്കര തെക്കേയറ്റം"
+    },
+    {
+      "ward_id": "aa69a9b1-9fe1-4d6c-977f-584d8b1a77d0",
+      "ward_no": "12",
+      "ward_name_en": "Ayaparambu Vadakkekara",
+      "ward_name_ml": "ആയാപറമ്പ് വടക്കേക്കര"
+    },
+    {
+      "ward_id": "9e188d73-d781-4df1-b76e-a298ddbf708e",
+      "ward_no": "13",
+      "ward_name_en": "Cheruthana Vadakkekara",
+      "ward_name_ml": "ചെറുതന വടക്കേക്കര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040907.geojson"
+  }
+}

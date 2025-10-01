@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050706",
+  "local_body_name_en": "Meenadom",
+  "local_body_name_ml": "മീനടം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "98",
+    "assembly_name_en": "Puthuppally",
+    "assembly_name_ml": "പുതുപ്പള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "464225f1-0d35-4878-9a19-5a38cbaef2b6",
+      "ward_no": "1",
+      "ward_name_en": "Cheeramkulam",
+      "ward_name_ml": "ചീരംകുളം"
+    },
+    {
+      "ward_id": "d3dd5b33-9534-4646-958c-6ec1e58bee12",
+      "ward_no": "2",
+      "ward_name_en": "Thakidi",
+      "ward_name_ml": "തകിടി"
+    },
+    {
+      "ward_id": "fff6c4c7-3beb-448b-9608-37c6c43f2993",
+      "ward_no": "3",
+      "ward_name_en": "Mundiyackal",
+      "ward_name_ml": "മുണ്ടിയാക്കല്‍"
+    },
+    {
+      "ward_id": "7dd96da6-4845-4f81-bdfd-2cb43fa2731b",
+      "ward_no": "4",
+      "ward_name_en": "Thattankadavu",
+      "ward_name_ml": "തട്ടാന്‍കടവ്"
+    },
+    {
+      "ward_id": "b8042b14-bcb1-4bbc-89da-1d53b552bc78",
+      "ward_no": "5",
+      "ward_name_en": "Vattakkavu",
+      "ward_name_ml": "വട്ടക്കാവ്"
+    },
+    {
+      "ward_id": "cd392b5e-67e0-42fd-8ac1-6e90c6a86db1",
+      "ward_no": "6",
+      "ward_name_en": "Cherumala",
+      "ward_name_ml": "ചെറുമല"
+    },
+    {
+      "ward_id": "8a9b5680-f67d-436f-8aa0-e700128118fd",
+      "ward_no": "7",
+      "ward_name_en": "Manjadi",
+      "ward_name_ml": "മഞ്ഞാടി"
+    },
+    {
+      "ward_id": "54bc964a-0bb9-4f73-89cc-0c738db8cda6",
+      "ward_no": "8",
+      "ward_name_en": "Pothenpuram",
+      "ward_name_ml": "പൊത്തന്‍പുറം"
+    },
+    {
+      "ward_id": "ffeaa1aa-2aff-452c-b17b-79ed7b6f3e50",
+      "ward_no": "9",
+      "ward_name_en": "Puthuvayal",
+      "ward_name_ml": "പുതുവയല്‍"
+    },
+    {
+      "ward_id": "42a9cd82-9555-41f5-8bef-25b67a58f7f3",
+      "ward_no": "10",
+      "ward_name_en": "Moonnam Mile",
+      "ward_name_ml": "മൂന്നാം മൈല്‍"
+    },
+    {
+      "ward_id": "2d3a2345-e737-47ae-9284-0ea06abb917e",
+      "ward_no": "11",
+      "ward_name_en": "Kurickakunnu",
+      "ward_name_ml": "കുരിയ്ക്കകുന്ന്"
+    },
+    {
+      "ward_id": "c65d1778-03f4-4326-aaea-5ed18866253f",
+      "ward_no": "12",
+      "ward_name_en": "Post Office",
+      "ward_name_ml": "പോസ്റ്റോഫീസ്"
+    },
+    {
+      "ward_id": "316dfa8c-267f-4b94-a6e1-0fadc4926bb5",
+      "ward_no": "13",
+      "ward_name_en": "Njandukulam",
+      "ward_name_ml": "ഞണ്ടുകുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050706.geojson"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G111004",
+  "local_body_name_en": "Madavoor",
+  "local_body_name_ml": "മടവൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "31",
+    "assembly_name_en": "Koduvally",
+    "assembly_name_ml": "കൊടുവള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c91bea82-5b21-4fdc-9f88-ba83eeae3434",
+      "ward_no": "1",
+      "ward_name_en": "Ankathayi",
+      "ward_name_ml": "അങ്കത്തായ്"
+    },
+    {
+      "ward_id": "70440105-a870-4824-b794-e25f382e6c52",
+      "ward_no": "2",
+      "ward_name_en": "Eravannur North",
+      "ward_name_ml": "എരവന്നൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "00272863-9a20-4f4f-a3f1-fc9e6a0603be",
+      "ward_no": "3",
+      "ward_name_en": "Eravannur South",
+      "ward_name_ml": "എരവന്നൂര്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "21a541b1-c9be-42c8-99de-6b256f803623",
+      "ward_no": "4",
+      "ward_name_en": "Naryachal",
+      "ward_name_ml": "നാര്യച്ചാല്‍"
+    },
+    {
+      "ward_id": "45dc3738-62ca-48b3-aa38-ebb8a973965a",
+      "ward_no": "5",
+      "ward_name_en": "Pullaloor",
+      "ward_name_ml": "പുല്ലാളൂര്‍"
+    },
+    {
+      "ward_id": "4bbede00-fc2c-4865-948c-3964987fae13",
+      "ward_no": "6",
+      "ward_name_en": "Eranjukunnu",
+      "ward_name_ml": "എരഞ്ഞുകുന്ന്"
+    },
+    {
+      "ward_id": "d1aacf1f-524e-4f52-ad80-63ce6f4bc7e5",
+      "ward_no": "7",
+      "ward_name_en": "Rampoyil",
+      "ward_name_ml": "രാംപൊയില്‍"
+    },
+    {
+      "ward_id": "b62a76f4-36c6-4ccb-a696-cef271eba6a3",
+      "ward_no": "8",
+      "ward_name_en": "Madavoor",
+      "ward_name_ml": "മടവൂര്‍"
+    },
+    {
+      "ward_id": "b12c2490-ea0b-4758-ae13-07d188c90421",
+      "ward_no": "9",
+      "ward_name_en": "Madavoormukku",
+      "ward_name_ml": "മടവൂര്‍മുക്ക്"
+    },
+    {
+      "ward_id": "06b71fe9-dc6b-4252-88a6-1e8c08b426ac",
+      "ward_no": "10",
+      "ward_name_en": "Pybalussery",
+      "ward_name_ml": "പൈമ്പാലശ്ശേരി"
+    },
+    {
+      "ward_id": "9912a4d8-41c4-4b50-90a0-dd0a20ed29e1",
+      "ward_no": "11",
+      "ward_name_en": "Kottakkavayal",
+      "ward_name_ml": "കൊട്ടക്കാവയല്‍"
+    },
+    {
+      "ward_id": "fc7b8943-d2aa-458d-aa7e-7a85ae32fe81",
+      "ward_no": "12",
+      "ward_name_en": "Arambram",
+      "ward_name_ml": "ആരാമ്പ്രം"
+    },
+    {
+      "ward_id": "7c3b01b1-39e2-4424-88e0-c8ce13bfd0ba",
+      "ward_no": "13",
+      "ward_name_en": "Pullikkoth",
+      "ward_name_ml": "പുള്ളിക്കോത്ത്"
+    },
+    {
+      "ward_id": "bfc5cdf0-ff3d-4b03-937d-18acd66cfdba",
+      "ward_no": "14",
+      "ward_name_en": "Arankilthazham",
+      "ward_name_ml": "അരങ്കില്‍ത്താഴം"
+    },
+    {
+      "ward_id": "8fc3ce4b-9a3f-4214-a33a-a4fdddc995f7",
+      "ward_no": "15",
+      "ward_name_en": "Muttanchery",
+      "ward_name_ml": "മുട്ടാഞ്ചേരി"
+    },
+    {
+      "ward_id": "f519b1d3-20ff-403e-b157-b87ddfa6782c",
+      "ward_no": "16",
+      "ward_name_en": "Pullorammal",
+      "ward_name_ml": "പുല്ലോറമ്മല്‍"
+    },
+    {
+      "ward_id": "344be36b-3ff1-4032-b956-d45c6c776785",
+      "ward_no": "17",
+      "ward_name_en": "Chathanarambu",
+      "ward_name_ml": "ചാത്തനാറമ്പ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G111004.geojson"
+  }
+}

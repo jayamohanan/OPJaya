@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G140601",
+  "local_body_name_en": "Cheruvathur",
+  "local_body_name_ml": "ചെറുവത്തൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "5",
+    "assembly_name_en": "Trikaripur",
+    "assembly_name_ml": "തൃക്കരിപ്പൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "dc57b538-87c2-4055-9917-53e02233639a",
+      "ward_no": "1",
+      "ward_name_en": "Achamthuruthi",
+      "ward_name_ml": "അച്ചാംതുരുത്തി"
+    },
+    {
+      "ward_id": "80b62cb1-8911-4642-8cfd-8f132249223e",
+      "ward_no": "2",
+      "ward_name_en": "Pathikkal",
+      "ward_name_ml": "പതിക്കാല്‍"
+    },
+    {
+      "ward_id": "ab989872-a6d0-4c3f-ac1d-4dc767092980",
+      "ward_no": "3",
+      "ward_name_en": "Kariyil",
+      "ward_name_ml": "കാരിയില്‍"
+    },
+    {
+      "ward_id": "7ee14afd-4e0e-462a-be3d-8752ba993304",
+      "ward_no": "4",
+      "ward_name_en": "Mayicha",
+      "ward_name_ml": "മയിച്ച"
+    },
+    {
+      "ward_id": "88fe81bf-03ba-4d4b-b02e-c7f59ecab089",
+      "ward_no": "5",
+      "ward_name_en": "Mundakkandam",
+      "ward_name_ml": "മുണ്ടക്കണ്ടം"
+    },
+    {
+      "ward_id": "a7765d86-032d-4054-9eed-67ff60282f8e",
+      "ward_no": "6",
+      "ward_name_en": "Kovval",
+      "ward_name_ml": "കൊവ്വല്‍"
+    },
+    {
+      "ward_id": "875b81d6-e972-413b-951d-bcfdc7305298",
+      "ward_no": "7",
+      "ward_name_en": "V V Nagar",
+      "ward_name_ml": "വി വി നഗര്‍"
+    },
+    {
+      "ward_id": "87d65c92-3011-4e01-8b69-eb737541e899",
+      "ward_no": "8",
+      "ward_name_en": "Ponmalam",
+      "ward_name_ml": "പൊന്‍മാലം"
+    },
+    {
+      "ward_id": "e2e39290-b6b2-4d62-9938-15bf8ba382b2",
+      "ward_no": "9",
+      "ward_name_en": "Kuttamath",
+      "ward_name_ml": "കുട്ടമത്ത്"
+    },
+    {
+      "ward_id": "fc6771a2-e8f6-4436-ab69-f5ec40e4d00d",
+      "ward_no": "10",
+      "ward_name_en": "Cheruvathur",
+      "ward_name_ml": "ചെറുവത്തൂര്‍"
+    },
+    {
+      "ward_id": "32c3c733-9079-448a-9402-9e21142f34d9",
+      "ward_no": "11",
+      "ward_name_en": "Vengat",
+      "ward_name_ml": "വെങ്ങാട്ട്"
+    },
+    {
+      "ward_id": "a6005815-294d-4875-b4ce-6ae8491d549d",
+      "ward_no": "12",
+      "ward_name_en": "Kannamkai",
+      "ward_name_ml": "കണ്ണംകൈ"
+    },
+    {
+      "ward_id": "bf915848-6eda-42c8-8ae2-d60b44fd66b6",
+      "ward_no": "13",
+      "ward_name_en": "Kaithakkad",
+      "ward_name_ml": "കൈതക്കാട്"
+    },
+    {
+      "ward_id": "d85b73a3-f5a3-4ce9-9726-2ba72ddb0819",
+      "ward_no": "14",
+      "ward_name_en": "Kadangod",
+      "ward_name_ml": "കാടങ്കോട്"
+    },
+    {
+      "ward_id": "70739a41-e4ad-4144-8793-9b08755d9f78",
+      "ward_no": "15",
+      "ward_name_en": "Nellikkal",
+      "ward_name_ml": "നെല്ലിക്കാല്‍"
+    },
+    {
+      "ward_id": "c0ad8b05-c083-4fc1-bf59-e894f24fd042",
+      "ward_no": "16",
+      "ward_name_en": "Thuruthi",
+      "ward_name_ml": "തുരുത്തി"
+    },
+    {
+      "ward_id": "d01f7327-83d6-4b48-a934-dd24d7855c42",
+      "ward_no": "17",
+      "ward_name_en": "Orkkulam",
+      "ward_name_ml": "ഓര്‍ക്കുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140601.geojson"
+  }
+}

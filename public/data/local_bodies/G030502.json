@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030502",
+  "local_body_name_en": "Ranni",
+  "local_body_name_ml": "റാന്നി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "112",
+    "assembly_name_en": "Ranni",
+    "assembly_name_ml": "റാന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "07a0fc92-57a9-4fcc-9ef7-d45c515c1a53",
+      "ward_no": "1",
+      "ward_name_en": "Thottamon",
+      "ward_name_ml": "തോട്ടമണ്‍"
+    },
+    {
+      "ward_id": "c1797414-abc3-43b1-8792-a588a1ea2622",
+      "ward_no": "2",
+      "ward_name_en": "Mundapuzha",
+      "ward_name_ml": "മുണ്ടപ്പുുഴ"
+    },
+    {
+      "ward_id": "3a2d7d39-9ce3-438c-9850-b1c0b2d80c8e",
+      "ward_no": "3",
+      "ward_name_en": "Vaikom",
+      "ward_name_ml": "വൈക്കം"
+    },
+    {
+      "ward_id": "1571da89-cdbc-4b6b-a333-d27760abbeec",
+      "ward_no": "4",
+      "ward_name_en": "Mandiram",
+      "ward_name_ml": "മന്ദിരം"
+    },
+    {
+      "ward_id": "c1e92cda-723f-47f2-bbb2-4b1feaa7233b",
+      "ward_no": "5",
+      "ward_name_en": "Palachuvadu",
+      "ward_name_ml": "പാലച്ചുവട്"
+    },
+    {
+      "ward_id": "54bf5dc8-ff6e-4399-9447-caa21ee21ea8",
+      "ward_no": "6",
+      "ward_name_en": "Puthusserimala West",
+      "ward_name_ml": "പുതുശ്ശേരിമല പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "07a335b9-815b-4cb2-8e34-414be5882fa5",
+      "ward_no": "7",
+      "ward_name_en": "Puthusserimala East",
+      "ward_name_ml": "പുതുശ്ശേരിമല കിഴക്ക്"
+    },
+    {
+      "ward_id": "d626fe5b-f479-4fbe-8fdf-add668c95aad",
+      "ward_no": "8",
+      "ward_name_en": "Karimkuttickal",
+      "ward_name_ml": "കരങ്കുറ്റിക്കല്‍"
+    },
+    {
+      "ward_id": "d1879761-1fb4-46f7-b0b9-9e38592e92b7",
+      "ward_no": "9",
+      "ward_name_en": "Incholil",
+      "ward_name_ml": "ഇഞ്ചോലില്‍"
+    },
+    {
+      "ward_id": "9d7cbe22-9013-4c75-b0ec-b10ec0065888",
+      "ward_no": "10",
+      "ward_name_en": "Uthimoodu",
+      "ward_name_ml": "ഉതിമൂട്"
+    },
+    {
+      "ward_id": "9d3b779b-3f98-4ea0-ab3c-301e40154f2e",
+      "ward_no": "11",
+      "ward_name_en": "Valiya Kalunku",
+      "ward_name_ml": "വലിയ കലുങ്ക്"
+    },
+    {
+      "ward_id": "f7078726-6a4e-43e2-bc8d-7c0a572565c5",
+      "ward_no": "12",
+      "ward_name_en": "Thekkepuram",
+      "ward_name_ml": "തെക്കേപ്പുറം"
+    },
+    {
+      "ward_id": "eea77341-51bd-48b6-98ca-eced80ee2ea5",
+      "ward_no": "13",
+      "ward_name_en": "Blockpadi",
+      "ward_name_ml": "ബ്ലോക്ക്പടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030502.geojson"
+  }
+}

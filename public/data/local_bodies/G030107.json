@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030107",
+  "local_body_name_en": "Mallappally",
+  "local_body_name_ml": "മല്ലപ്പള്ളി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "87968bfe-514c-4b8e-b239-e5d987ad5e17",
+      "ward_no": "1",
+      "ward_name_en": "Mankuzhi",
+      "ward_name_ml": "മങ്കുഴി"
+    },
+    {
+      "ward_id": "58a2cf6d-6a56-47ab-a191-e66f03008052",
+      "ward_no": "2",
+      "ward_name_en": "Manjathanam",
+      "ward_name_ml": "മഞ്ഞത്താനം"
+    },
+    {
+      "ward_id": "770458a1-d16a-43c4-9597-d070c882612f",
+      "ward_no": "3",
+      "ward_name_en": "Mallappally Town",
+      "ward_name_ml": "മല്ലപ്പള്ളി ടൌണ്‍"
+    },
+    {
+      "ward_id": "5efd75fb-fa17-4690-a413-9c26d8f82c17",
+      "ward_no": "4",
+      "ward_name_en": "Muttathumon",
+      "ward_name_ml": "മുട്ടത്തുമണ്‍"
+    },
+    {
+      "ward_id": "40a99a16-a715-492d-8f79-cc07c074966c",
+      "ward_no": "5",
+      "ward_name_en": "Murani",
+      "ward_name_ml": "മുരണി"
+    },
+    {
+      "ward_id": "6498d17a-922f-4ae2-9ef3-375f629b3a5d",
+      "ward_no": "6",
+      "ward_name_en": "Parackathanam",
+      "ward_name_ml": "പരയ്ക്കത്താനം"
+    },
+    {
+      "ward_id": "0f3010ef-5d66-4815-aa04-c826ba7b42a3",
+      "ward_no": "7",
+      "ward_name_en": "Narakathani",
+      "ward_name_ml": "നാരകത്താനി"
+    },
+    {
+      "ward_id": "4695c6ed-cfc6-469a-9186-58e1e11e0d02",
+      "ward_no": "8",
+      "ward_name_en": "Keezhvaipur South",
+      "ward_name_ml": "കീഴ്വായ്പൂര് സൌത്ത്"
+    },
+    {
+      "ward_id": "5d2c4bb0-ef49-4c41-9305-30d57c5c050d",
+      "ward_no": "9",
+      "ward_name_en": "Kizhakkekkara",
+      "ward_name_ml": "കിഴക്കേക്കര"
+    },
+    {
+      "ward_id": "4533ecd8-4803-46db-a79b-24013cd1e50a",
+      "ward_no": "10",
+      "ward_name_en": "Keezhvaipur East",
+      "ward_name_ml": "കീഴ്വായ്പൂര് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "66dd9eea-f579-40f1-a439-c7d6f844f600",
+      "ward_no": "11",
+      "ward_name_en": "Punnamattom",
+      "ward_name_ml": "പുന്നമറ്റം"
+    },
+    {
+      "ward_id": "45984443-2278-4abe-a37f-d59716badfe0",
+      "ward_no": "12",
+      "ward_name_en": "Pariyaram",
+      "ward_name_ml": "പരിയാരം"
+    },
+    {
+      "ward_id": "1de31cb1-3a87-4365-ab06-afd361117a92",
+      "ward_no": "13",
+      "ward_name_en": "Mallappally West",
+      "ward_name_ml": "മല്ലപ്പള്ളി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "d517df6b-85af-4e9d-bfb3-37f0f6635565",
+      "ward_no": "14",
+      "ward_name_en": "Nellimoodu",
+      "ward_name_ml": "നെല്ലിമൂട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030107.geojson"
+  }
+}

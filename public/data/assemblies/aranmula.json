@@ -1,0 +1,96 @@
+{
+  "assembly_id": "113",
+  "assembly_name_en": "Aranmula",
+  "assembly_name_ml": "ആറന്മുള",
+  "category": "Normal",
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G030704",
+      "local_body_name_en": "Aranmula",
+      "local_body_name_ml": "ആറന്മുള",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030402",
+      "local_body_name_en": "Chenneerkara",
+      "local_body_name_ml": "ചെന്നീര്‍ക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030403",
+      "local_body_name_en": "Elanthoor",
+      "local_body_name_ml": "ഇലന്തൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030302",
+      "local_body_name_en": "Eraviperoor",
+      "local_body_name_ml": "ഇരവിപേരൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030303",
+      "local_body_name_en": "Koipuram",
+      "local_body_name_ml": "കോയിപ്രം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030405",
+      "local_body_name_en": "Kozhencherry",
+      "local_body_name_ml": "കോഴഞ്ചരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030706",
+      "local_body_name_en": "Kulanada",
+      "local_body_name_ml": "കുളനട",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030406",
+      "local_body_name_en": "Mallappuzhassery",
+      "local_body_name_ml": "മല്ലപ്പുഴശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030705",
+      "local_body_name_en": "Mezhuveli",
+      "local_body_name_ml": "മെഴുവേലി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030407",
+      "local_body_name_en": "Naranganam",
+      "local_body_name_ml": "നാരങ്ങാനം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030401",
+      "local_body_name_en": "Omalloor",
+      "local_body_name_ml": "ഓമല്ലൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M030300",
+      "local_body_name_en": "Pathanamthitta",
+      "local_body_name_ml": "പത്തനംതിട്ട",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030304",
+      "local_body_name_en": "Thottappuzhassery",
+      "local_body_name_ml": "തോട്ടപ്പുഴശ്ശേരി",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/aranmula.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/aranmula.geojson"
+  }
+}

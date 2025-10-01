@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G050101",
+  "local_body_name_en": "Thalayazham",
+  "local_body_name_ml": "തലയാഴം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "95",
+    "assembly_name_en": "Vaikom",
+    "assembly_name_ml": "വൈക്കം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "aac5079e-cd3e-4743-a24b-ba85e0b05c58",
+      "ward_no": "1",
+      "ward_name_en": "Thottakom West",
+      "ward_name_ml": "തോട്ടകം പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "2cf2db35-7970-44c0-993a-4f4ee39ff499",
+      "ward_no": "2",
+      "ward_name_en": "Thottakom",
+      "ward_name_ml": "തോട്ടകം"
+    },
+    {
+      "ward_id": "260c49db-fe7e-48eb-910b-590c2eda9b85",
+      "ward_no": "3",
+      "ward_name_en": "Thottakom East",
+      "ward_name_ml": "തോട്ടകം കിഴക്ക്"
+    },
+    {
+      "ward_id": "ebc41146-aed6-4f32-9277-614ed8620b7c",
+      "ward_no": "4",
+      "ward_name_en": "Koovam",
+      "ward_name_ml": "കൂവം"
+    },
+    {
+      "ward_id": "0fd1212f-de01-4029-bc2a-4de26996a09a",
+      "ward_no": "5",
+      "ward_name_en": "Ullala",
+      "ward_name_ml": "ഉല്ലല"
+    },
+    {
+      "ward_id": "d046fa04-b1b0-4c70-839d-022abc8940b3",
+      "ward_no": "6",
+      "ward_name_en": "Ullala South",
+      "ward_name_ml": "ഉല്ലല തെക്ക്"
+    },
+    {
+      "ward_id": "1b0417aa-b364-43cd-b97f-e7f5aeb30a6d",
+      "ward_no": "7",
+      "ward_name_en": "Palliyadu",
+      "ward_name_ml": "പള്ളിയാട്"
+    },
+    {
+      "ward_id": "81134df8-6c57-4bce-b05d-717ba721bc33",
+      "ward_no": "8",
+      "ward_name_en": "Punnappuzhy",
+      "ward_name_ml": "പുന്നപ്പുഴി"
+    },
+    {
+      "ward_id": "3a5b677b-89c4-4c83-a278-e570d8634fb0",
+      "ward_no": "9",
+      "ward_name_en": "Thalayazham North",
+      "ward_name_ml": "തലയാഴം വടക്ക്"
+    },
+    {
+      "ward_id": "c91dba3e-22bb-4d67-ae6b-4cbd5560fb82",
+      "ward_no": "10",
+      "ward_name_en": "Thrippakkudam",
+      "ward_name_ml": "തൃപ്പക്കുടം"
+    },
+    {
+      "ward_id": "4d3192ad-c945-4054-b901-6e9215947be6",
+      "ward_no": "11",
+      "ward_name_en": "Puthenpalam",
+      "ward_name_ml": "പുത്തന്‍പാലം"
+    },
+    {
+      "ward_id": "54f5a4ac-bd9b-4a4b-9fe4-593dc282fcc3",
+      "ward_no": "12",
+      "ward_name_en": "Madapally West",
+      "ward_name_ml": "മാടപ്പള്ളി പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "36064143-f1a0-4d08-8d9c-0c05e17ebdb7",
+      "ward_no": "13",
+      "ward_name_en": "Kothavara",
+      "ward_name_ml": "കൊതവറ"
+    },
+    {
+      "ward_id": "606078c8-d612-4335-8b2d-37d950319b06",
+      "ward_no": "14",
+      "ward_name_en": "Kothavara North",
+      "ward_name_ml": "കൊതവറ വടക്ക്"
+    },
+    {
+      "ward_id": "6a720d33-2685-4db4-b9f3-6632622bcba8",
+      "ward_no": "15",
+      "ward_name_en": "Eda Ullala",
+      "ward_name_ml": "ഇടഉല്ലല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050101.geojson"
+  }
+}

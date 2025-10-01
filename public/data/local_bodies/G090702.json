@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G090702",
+  "local_body_name_en": "Kongad",
+  "local_body_name_ml": "കോങ്ങാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "53",
+    "assembly_name_en": "Kongad",
+    "assembly_name_ml": "കോങ്ങാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6f0ed888-a616-4ef4-beca-d62b0fee77c4",
+      "ward_no": "1",
+      "ward_name_en": "Thrippalamunda",
+      "ward_name_ml": "തൃപ്പലമുണ്ട"
+    },
+    {
+      "ward_id": "6cad6757-b4d7-43fb-b95b-b00f1658bc01",
+      "ward_no": "2",
+      "ward_name_en": "Kottasseri",
+      "ward_name_ml": "കൊട്ടശ്ശേരി"
+    },
+    {
+      "ward_id": "8d754353-3aa3-491d-ba5f-21f2572abd2d",
+      "ward_no": "3",
+      "ward_name_en": "Attakkad",
+      "ward_name_ml": "അട്ടക്കാട്"
+    },
+    {
+      "ward_id": "828cffed-58bd-40b4-81e9-66b0cef9a12e",
+      "ward_no": "4",
+      "ward_name_en": "Cheraya",
+      "ward_name_ml": "ചെറായ"
+    },
+    {
+      "ward_id": "584d7e32-6842-4577-af17-c9981a4b40e7",
+      "ward_no": "5",
+      "ward_name_en": "Manikkasseri",
+      "ward_name_ml": "മണിക്കശ്ശേരി"
+    },
+    {
+      "ward_id": "8d4719d8-88b5-4c1b-b9a7-b59022fe88c6",
+      "ward_no": "6",
+      "ward_name_en": "Kolppadam",
+      "ward_name_ml": "കോൽപ്പാടം"
+    },
+    {
+      "ward_id": "3c86d55a-b3fa-46bb-93cd-07da7a94bfd0",
+      "ward_no": "7",
+      "ward_name_en": "Kavunada",
+      "ward_name_ml": "കാവുനട"
+    },
+    {
+      "ward_id": "7b0f9e2a-a1a9-4d0b-9cda-b439bfe0c432",
+      "ward_no": "8",
+      "ward_name_en": "Poothamkode",
+      "ward_name_ml": "പൂതങ്കോട്"
+    },
+    {
+      "ward_id": "2f26c6de-7299-46ea-ba1c-3316a9a0d983",
+      "ward_no": "9",
+      "ward_name_en": "Mucheri",
+      "ward_name_ml": "മുച്ചീരി"
+    },
+    {
+      "ward_id": "d1263375-3b4a-4cb5-928f-d3d1e8bf8b53",
+      "ward_no": "10",
+      "ward_name_en": "Kongad Town",
+      "ward_name_ml": "കോങ്ങാട് ടൌൺ"
+    },
+    {
+      "ward_id": "c6109c9f-a094-4c69-9c64-b12f70cd0b53",
+      "ward_no": "11",
+      "ward_name_en": "Mannanthara",
+      "ward_name_ml": "മണ്ണാന്തറ"
+    },
+    {
+      "ward_id": "4fd28d00-5ac7-4da8-bd27-ff969e0eb090",
+      "ward_no": "12",
+      "ward_name_en": "Kottappadi",
+      "ward_name_ml": "കോട്ടപ്പടി"
+    },
+    {
+      "ward_id": "58f445ad-824b-4978-8299-99b0b4557090",
+      "ward_no": "13",
+      "ward_name_en": "Puliyankadu",
+      "ward_name_ml": "പുളിയങ്കാട്"
+    },
+    {
+      "ward_id": "578f755d-98e8-4815-b5d1-5a359de6c4c5",
+      "ward_no": "14",
+      "ward_name_en": "Thonikkara",
+      "ward_name_ml": "തോണിക്കര"
+    },
+    {
+      "ward_id": "0d3f484c-3d32-40a7-b6b7-0eb8fbb07524",
+      "ward_no": "15",
+      "ward_name_en": "Parasseri",
+      "ward_name_ml": "പാറശ്ശേരി"
+    },
+    {
+      "ward_id": "2d222669-9d9e-453d-9d25-46d72fd2fabc",
+      "ward_no": "16",
+      "ward_name_en": "Kunduvampadam",
+      "ward_name_ml": "കുണ്ടുവംപാടം"
+    },
+    {
+      "ward_id": "e7518aff-7c0d-4c1d-acd8-2ff66691a61e",
+      "ward_no": "17",
+      "ward_name_en": "Mundancheri",
+      "ward_name_ml": "മുണ്ടഞ്ചേരി"
+    },
+    {
+      "ward_id": "f7139aa3-bb27-480a-9f68-cc7ca3824321",
+      "ward_no": "18",
+      "ward_name_en": "Peringode",
+      "ward_name_ml": "പെരിങ്ങോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090702.geojson"
+  }
+}

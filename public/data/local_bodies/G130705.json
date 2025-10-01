@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G130705",
+  "local_body_name_en": "Muzhappilangad",
+  "local_body_name_ml": "മുഴപ്പിലങ്ങാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "12",
+    "assembly_name_en": "Dharmadom",
+    "assembly_name_ml": "ധര്‍മ്മടം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6bff826f-7741-4347-adac-99a70a5665e7",
+      "ward_no": "1",
+      "ward_name_en": "Pachakkara",
+      "ward_name_ml": "പാച്ചാക്കര"
+    },
+    {
+      "ward_id": "738937b8-05fb-41b0-b905-549fd3f0e06f",
+      "ward_no": "2",
+      "ward_name_en": "Malakkuthazhe",
+      "ward_name_ml": "മലക്ക്താഴെ"
+    },
+    {
+      "ward_id": "b29d6c48-99df-4a5c-a3ea-07b57a85247b",
+      "ward_no": "3",
+      "ward_name_en": "Dharmakulam",
+      "ward_name_ml": "ധര്‍മകുളം"
+    },
+    {
+      "ward_id": "43d26037-df9c-47c5-a179-7afb1fba7841",
+      "ward_no": "4",
+      "ward_name_en": "Kannanvayal",
+      "ward_name_ml": "കണ്ണന്‍വയല്‍"
+    },
+    {
+      "ward_id": "7c648289-7e0a-40da-9182-2f5d14855250",
+      "ward_no": "5",
+      "ward_name_en": "Mammakkunnu",
+      "ward_name_ml": "മമ്മാക്കുന്ന്"
+    },
+    {
+      "ward_id": "71244a17-9fac-4299-9218-c7b7c2ee9c3c",
+      "ward_no": "6",
+      "ward_name_en": "Thekkekunnumbram",
+      "ward_name_ml": "തെക്കെക്കുന്നുംബ്രം"
+    },
+    {
+      "ward_id": "84179c1a-4ff8-4dd6-ab1d-50630f69fff5",
+      "ward_no": "7",
+      "ward_name_en": "Sreekoormbakavu",
+      "ward_name_ml": "ശ്രീകൂര്‍മ്പകാവ്"
+    },
+    {
+      "ward_id": "559f508b-0712-48f5-a0fc-abfeeda05650",
+      "ward_no": "8",
+      "ward_name_en": "Sreenarayanamadam",
+      "ward_name_ml": "ശ്രീനാരായണമഠം"
+    },
+    {
+      "ward_id": "dc98893c-5887-4a85-9ccd-b98904709ace",
+      "ward_no": "9",
+      "ward_name_en": "Mullapram",
+      "ward_name_ml": "മുല്ലപ്രം"
+    },
+    {
+      "ward_id": "609f6d91-a1d9-4415-ac69-9fbb77308b93",
+      "ward_no": "10",
+      "ward_name_en": "Kunhippuzha",
+      "ward_name_ml": "കുഞ്ഞിപ്പുഴ"
+    },
+    {
+      "ward_id": "3316e81f-7b6e-4859-855e-e4a84a627c55",
+      "ward_no": "11",
+      "ward_name_en": "Deepthi",
+      "ward_name_ml": "ദീപ്തി"
+    },
+    {
+      "ward_id": "762022cc-eb00-4fa7-a362-2dcdd2a095ef",
+      "ward_no": "12",
+      "ward_name_en": "Surabhi",
+      "ward_name_ml": "സുരഭി"
+    },
+    {
+      "ward_id": "952b4735-04b5-453a-b508-e433f909d740",
+      "ward_no": "13",
+      "ward_name_en": "Neerozhukku",
+      "ward_name_ml": "നീരൊഴുക്ക്"
+    },
+    {
+      "ward_id": "905942e4-ea16-4cad-af81-5319bdf3c707",
+      "ward_no": "14",
+      "ward_name_en": "Kettinakam",
+      "ward_name_ml": "കെട്ടിനകം"
+    },
+    {
+      "ward_id": "3f621e4e-1dbe-4aca-86c3-69354294bc5d",
+      "ward_no": "15",
+      "ward_name_en": "Dispensary",
+      "ward_name_ml": "ഡിസ്പെന്‍സറി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130705.geojson"
+  }
+}

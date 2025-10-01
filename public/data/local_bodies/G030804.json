@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G030804",
+  "local_body_name_en": "Kadampanad",
+  "local_body_name_ml": "കടമ്പനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "115",
+    "assembly_name_en": "Adoor",
+    "assembly_name_ml": "അടൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "ea56d5d3-dd39-4df9-9fef-e1797541f897",
+      "ward_no": "1",
+      "ward_name_en": "Ganeshavilasam",
+      "ward_name_ml": "ഗണേശവിലാസം"
+    },
+    {
+      "ward_id": "5aca4b18-67f5-41fa-b89f-ffa3a8beb02a",
+      "ward_no": "2",
+      "ward_name_en": "Nellimukal",
+      "ward_name_ml": "നെല്ലിമുകള്‍"
+    },
+    {
+      "ward_id": "709f0488-8907-438f-92bf-d37a63f768bd",
+      "ward_no": "3",
+      "ward_name_en": "Malankavu",
+      "ward_name_ml": "മലങ്കാവ്"
+    },
+    {
+      "ward_id": "f1266213-1bf6-469b-a456-1451a3f91ecd",
+      "ward_no": "4",
+      "ward_name_en": "Maharshimangalam",
+      "ward_name_ml": "മഹര്‍ഷിമംഗലം"
+    },
+    {
+      "ward_id": "1fdb4a75-ca4e-4e56-a22b-d3a5410eef0d",
+      "ward_no": "5",
+      "ward_name_en": "Manjali",
+      "ward_name_ml": "മാഞ്ഞാലി"
+    },
+    {
+      "ward_id": "a1a15c0f-7395-43a4-afda-34a9cc8c969d",
+      "ward_no": "6",
+      "ward_name_en": "Kannimala",
+      "ward_name_ml": "കന്നിമല"
+    },
+    {
+      "ward_id": "db3d48fc-69d9-4cb7-a5c4-43c45771d78a",
+      "ward_no": "7",
+      "ward_name_en": "Mudippura",
+      "ward_name_ml": "മുടിപ്പുര"
+    },
+    {
+      "ward_id": "e8dda1ee-0338-4671-b77e-d05e79aeaa21",
+      "ward_no": "8",
+      "ward_name_en": "Deshakallummoodu",
+      "ward_name_ml": "ദേശക്കല്ലുംമൂട്"
+    },
+    {
+      "ward_id": "3d825d9b-4519-488e-bfe0-86216b0b43e3",
+      "ward_no": "9",
+      "ward_name_en": "Veluthampidalava",
+      "ward_name_ml": "വേലുത്തമ്പിദളവ"
+    },
+    {
+      "ward_id": "adacd444-1bb6-415f-b538-dab75c2fb5d9",
+      "ward_no": "10",
+      "ward_name_en": "Mannady",
+      "ward_name_ml": "മണ്ണടി"
+    },
+    {
+      "ward_id": "966e35b3-284e-4850-a199-3305093c4055",
+      "ward_no": "11",
+      "ward_name_en": "Mannadithazham",
+      "ward_name_ml": "മണ്ണടിത്താഴം"
+    },
+    {
+      "ward_id": "d48672c4-2a5e-43cf-8c50-b7a06a886a59",
+      "ward_no": "12",
+      "ward_name_en": "Pandimalappuram",
+      "ward_name_ml": "പാണ്ടിമലപ്പുറം"
+    },
+    {
+      "ward_id": "64cf3a9b-fc22-4aec-b14e-d4553468d86d",
+      "ward_no": "13",
+      "ward_name_en": "Nilackal",
+      "ward_name_ml": "നിലയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "9b192fc4-bf7b-40df-b4c8-28bfb0338c58",
+      "ward_no": "14",
+      "ward_name_en": "Ellumvila",
+      "ward_name_ml": "എള്ളുംവിള"
+    },
+    {
+      "ward_id": "546c0c69-693b-4c0f-8eb9-73f2905b0222",
+      "ward_no": "15",
+      "ward_name_en": "Kadampanad Town",
+      "ward_name_ml": "കടമ്പനാട് ഠൌണ്‍"
+    },
+    {
+      "ward_id": "d2ea06e0-8ff4-4e63-bed9-ddefa0ebc44c",
+      "ward_no": "16",
+      "ward_name_en": "Thuvayoor",
+      "ward_name_ml": "തുവയൂര്‍"
+    },
+    {
+      "ward_id": "edc699fd-e4fb-49b8-9103-8c74867011d6",
+      "ward_no": "17",
+      "ward_name_en": "Kallukuzhy",
+      "ward_name_ml": "കല്ലുക്കുഴി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030804.geojson"
+  }
+}

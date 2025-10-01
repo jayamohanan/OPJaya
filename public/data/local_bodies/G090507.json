@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G090507",
+  "local_body_name_en": "Thachanattukara",
+  "local_body_name_ml": "തച്ചനാട്ടുകര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "52",
+    "assembly_name_en": "Ottapalam",
+    "assembly_name_ml": "ഒറ്റപ്പാലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "dbd07249-efda-4de6-a85f-da486638bce4",
+      "ward_no": "1",
+      "ward_name_en": "Thallachira",
+      "ward_name_ml": "തള്ളച്ചിറ"
+    },
+    {
+      "ward_id": "2b3fd4af-0c49-40cc-bf72-d9f786f33a05",
+      "ward_no": "2",
+      "ward_name_en": "Manalumpuram",
+      "ward_name_ml": "മണലുംപുറം"
+    },
+    {
+      "ward_id": "7d6ce409-f44f-4b30-a7be-12a1e9adebd0",
+      "ward_no": "3",
+      "ward_name_en": "Nattukal",
+      "ward_name_ml": "നാട്ടുകല്‍"
+    },
+    {
+      "ward_id": "a022e442-cf2d-4bba-a26b-9bca2fa16e81",
+      "ward_no": "4",
+      "ward_name_en": "Annanthodi",
+      "ward_name_ml": "അണ്ണാന്‍തൊടി"
+    },
+    {
+      "ward_id": "a4f268c7-900f-49b7-8d54-98b7ccf5412c",
+      "ward_no": "5",
+      "ward_name_en": "Puthumanakulambu",
+      "ward_name_ml": "പുതുമനകുളമ്പ്"
+    },
+    {
+      "ward_id": "4dd312c5-ad12-4dda-a305-3a9f4c41e36e",
+      "ward_no": "6",
+      "ward_name_en": "Kurumalikavu",
+      "ward_name_ml": "കുറുമാലിക്കാവ്"
+    },
+    {
+      "ward_id": "6b3437a3-422e-4a7c-b2c2-9b4eb7e88a30",
+      "ward_no": "7",
+      "ward_name_en": "Kundurkunnu",
+      "ward_name_ml": "കുണ്ടൂര്‍ക്കുന്ന്"
+    },
+    {
+      "ward_id": "e5873fc3-0b61-46ff-b380-35b1c1600db8",
+      "ward_no": "8",
+      "ward_name_en": "Palode",
+      "ward_name_ml": "പാലോട്"
+    },
+    {
+      "ward_id": "71b823c7-31bb-4613-b1db-588af19b6ccd",
+      "ward_no": "9",
+      "ward_name_en": "Parammal",
+      "ward_name_ml": "പാറമ്മല്‍"
+    },
+    {
+      "ward_id": "3093ae70-7ecd-48d0-82f9-dfd459045f8a",
+      "ward_no": "10",
+      "ward_name_en": "Koorimukku",
+      "ward_name_ml": "കൂരിമുക്ക്"
+    },
+    {
+      "ward_id": "18bef934-fe97-4bb7-8b54-22cc0078066f",
+      "ward_no": "11",
+      "ward_name_en": "Chamaparambu",
+      "ward_name_ml": "ചാമപറമ്പ്"
+    },
+    {
+      "ward_id": "d4ff8bcf-d8df-410b-9f54-48273199b6ca",
+      "ward_no": "12",
+      "ward_name_en": "Chethalloor",
+      "ward_name_ml": "ചെത്തല്ലൂര്‍"
+    },
+    {
+      "ward_id": "ec81de9d-db31-44e1-9be9-1717761d17e3",
+      "ward_no": "13",
+      "ward_name_en": "Thekkumuri",
+      "ward_name_ml": "തെക്കുംമുറി"
+    },
+    {
+      "ward_id": "24ee6d97-98eb-4d2d-854a-251091190613",
+      "ward_no": "14",
+      "ward_name_en": "Kavuvattam",
+      "ward_name_ml": "കാവുവട്ടം"
+    },
+    {
+      "ward_id": "3f6175e0-dea0-4df7-8f50-930fe4aad647",
+      "ward_no": "15",
+      "ward_name_en": "Poovathani",
+      "ward_name_ml": "പൂവ്വത്താണി"
+    },
+    {
+      "ward_id": "4a3c971d-06e8-4023-b1fb-76fdeb566d6c",
+      "ward_no": "16",
+      "ward_name_en": "Karinkallathani",
+      "ward_name_ml": "കരിങ്കല്ലത്താണി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090507.geojson"
+  }
+}

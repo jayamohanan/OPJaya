@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G010506",
+  "local_body_name_en": "Kuttichal",
+  "local_body_name_ml": "കുറ്റിച്ചല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "136",
+    "assembly_name_en": "Aruvikkara",
+    "assembly_name_ml": "അരുവിക്കര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "eabeb5fe-5bbc-4285-937c-376d9cc0fd3c",
+      "ward_no": "1",
+      "ward_name_en": "Kuttichal",
+      "ward_name_ml": "കുറ്റിച്ചല്‍"
+    },
+    {
+      "ward_id": "edfc5810-47f5-42ed-8008-e4b3a5b7bb9a",
+      "ward_no": "2",
+      "ward_name_en": "Pachakkad",
+      "ward_name_ml": "പച്ചക്കാട്"
+    },
+    {
+      "ward_id": "dec39581-e310-440c-85b2-9c0e49b5770b",
+      "ward_no": "3",
+      "ward_name_en": "Arukil",
+      "ward_name_ml": "അരുകില്‍"
+    },
+    {
+      "ward_id": "152cf4fe-9ae4-4048-8415-ea0b9340099b",
+      "ward_no": "4",
+      "ward_name_en": "Utharamcode",
+      "ward_name_ml": "ഉത്തരംകോട്"
+    },
+    {
+      "ward_id": "e95319c3-9d2e-4afb-8664-76c07d21bc01",
+      "ward_no": "5",
+      "ward_name_en": "Kodukkara",
+      "ward_name_ml": "കൊടുക്കറ"
+    },
+    {
+      "ward_id": "5f39d9b0-15d5-4170-93dc-dcce0f61b8f4",
+      "ward_no": "6",
+      "ward_name_en": "Elimala",
+      "ward_name_ml": "എലിമല"
+    },
+    {
+      "ward_id": "8489d509-a91b-468f-96b9-1c1e3cc1826b",
+      "ward_no": "7",
+      "ward_name_en": "Chonampara",
+      "ward_name_ml": "ചോനാംപാറ"
+    },
+    {
+      "ward_id": "8f182830-eb1c-45aa-ba9d-3aacabf3a3bd",
+      "ward_no": "8",
+      "ward_name_en": "Kottoor",
+      "ward_name_ml": "കോട്ടൂര്‍"
+    },
+    {
+      "ward_id": "31c760f9-54ba-4500-b8bd-f4a848ebe0c9",
+      "ward_no": "9",
+      "ward_name_en": "Kalliyal",
+      "ward_name_ml": "കള്ളിയല്‍"
+    },
+    {
+      "ward_id": "473240d5-d880-4ba7-97c6-fc53e24366da",
+      "ward_no": "10",
+      "ward_name_en": "Manthikkalam",
+      "ward_name_ml": "മന്തിക്കളം"
+    },
+    {
+      "ward_id": "d95d9344-dfcf-4c74-9278-3172af3239b8",
+      "ward_no": "11",
+      "ward_name_en": "Thachancode",
+      "ward_name_ml": "തച്ചന്‍കോട്"
+    },
+    {
+      "ward_id": "a5a84694-7e28-439e-b5bd-3db7d1daf848",
+      "ward_no": "12",
+      "ward_name_en": "Paruthippally",
+      "ward_name_ml": "പരുത്തിപ്പള്ളി"
+    },
+    {
+      "ward_id": "07f7f5cd-e4ee-4490-b086-ee02bbf14a6c",
+      "ward_no": "13",
+      "ward_name_en": "Kaithackal",
+      "ward_name_ml": "കൈതയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "d1847f44-80cd-4308-b5e7-b06d2e048e7b",
+      "ward_no": "14",
+      "ward_name_en": "Pezhummoodu",
+      "ward_name_ml": "പേഴുംമൂട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010506.geojson"
+  }
+}

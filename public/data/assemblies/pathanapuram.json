@@ -1,0 +1,66 @@
+{
+  "assembly_id": "120",
+  "assembly_name_en": "Pathanapuram",
+  "assembly_name_ml": "പത്തനാപുരം",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020303",
+      "local_body_name_en": "Melila",
+      "local_body_name_ml": "മേലില",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020406",
+      "local_body_name_en": "Pathanapuram",
+      "local_body_name_ml": "പത്തനാപുരം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020405",
+      "local_body_name_en": "Pattazhi",
+      "local_body_name_ml": "പട്ടാഴി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020404",
+      "local_body_name_en": "Pattazhi Vadakkekara",
+      "local_body_name_ml": "പട്ടാഴി വടക്കേക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020403",
+      "local_body_name_en": "Piravanthoor",
+      "local_body_name_ml": "പിറവന്തൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020402",
+      "local_body_name_en": "Thalavoor",
+      "local_body_name_ml": "തലവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020302",
+      "local_body_name_en": "Vettikavala",
+      "local_body_name_ml": "വെട്ടിക്കവല",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020401",
+      "local_body_name_en": "Vilakkudy",
+      "local_body_name_ml": "വിളക്കുടി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/pathanapuram.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/pathanapuram.geojson"
+  }
+}

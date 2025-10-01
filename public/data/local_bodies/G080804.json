@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G080804",
+  "local_body_name_en": "Nattika",
+  "local_body_name_ml": "നാട്ടിക",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "68",
+    "assembly_name_en": "Nattika",
+    "assembly_name_ml": "നാട്ടിക",
+    "category": "Good"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "16eebb9d-5703-4296-9c72-2e0899078e81",
+      "ward_no": "1",
+      "ward_name_en": "Kadappuram",
+      "ward_name_ml": "കടപ്പുറം"
+    },
+    {
+      "ward_id": "6a6c3ef8-f5ee-47a8-bf68-2d5eb999f683",
+      "ward_no": "2",
+      "ward_name_en": "Post Office Junction",
+      "ward_name_ml": "പോസ്റ്റ് ഓഫീസ്  ജംഗ്ഷന്‍"
+    },
+    {
+      "ward_id": "61d83cc8-14d0-4548-82ea-8718ed55279d",
+      "ward_no": "3",
+      "ward_name_en": "Masjid",
+      "ward_name_ml": "മസ്ജിദ്"
+    },
+    {
+      "ward_id": "86e248eb-4586-4267-8f9f-e854d6ad1be4",
+      "ward_no": "4",
+      "ward_name_en": "Thannapadam",
+      "ward_name_ml": "താന്നപാടം"
+    },
+    {
+      "ward_id": "97efc801-2d09-4873-bcc5-fd6a82957d47",
+      "ward_no": "5",
+      "ward_name_en": "Nattika",
+      "ward_name_ml": "നാട്ടിക"
+    },
+    {
+      "ward_id": "f3d556c0-9481-479f-b5da-9eccf635bdb6",
+      "ward_no": "6",
+      "ward_name_en": "Kalanji",
+      "ward_name_ml": "കലാഞ്ഞി"
+    },
+    {
+      "ward_id": "cb7c4319-22ac-4a6e-80c4-94692eaac714",
+      "ward_no": "7",
+      "ward_name_en": "Cherkkara",
+      "ward_name_ml": "ചേര്‍ക്കര"
+    },
+    {
+      "ward_id": "f8577dd5-77f4-4dc2-b6b3-6ef909168140",
+      "ward_no": "8",
+      "ward_name_en": "Temple",
+      "ward_name_ml": "ടെമ്പിള്‍"
+    },
+    {
+      "ward_id": "cb7d93fa-375b-4204-952b-00200e732a53",
+      "ward_no": "9",
+      "ward_name_en": "Gokhale",
+      "ward_name_ml": "ഗോഖലെ"
+    },
+    {
+      "ward_id": "1f3e8c93-14ac-4368-8f40-70a9214826a1",
+      "ward_no": "10",
+      "ward_name_en": "Sethukulam",
+      "ward_name_ml": "സേതുകുളം"
+    },
+    {
+      "ward_id": "b439fa8b-577c-44de-a554-60375a561634",
+      "ward_no": "11",
+      "ward_name_en": "Triprayar Center",
+      "ward_name_ml": "തൃപ്രയാര്‍ സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "6f8ef700-98bf-495b-8694-b1cb87c4185d",
+      "ward_no": "12",
+      "ward_name_en": "Vazhakulam",
+      "ward_name_ml": "വാഴക്കുളം"
+    },
+    {
+      "ward_id": "02085b36-0e35-42fa-b683-d9ec94856b64",
+      "ward_no": "13",
+      "ward_name_en": "Moothakunnam",
+      "ward_name_ml": "മൂത്തകുന്നം"
+    },
+    {
+      "ward_id": "aafcd746-665c-424e-8c5b-c3e1f107a049",
+      "ward_no": "14",
+      "ward_name_en": "Triprayar Beach",
+      "ward_name_ml": "തൃപ്രയാര്‍ ബീച്ച്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080804.geojson"
+  }
+}

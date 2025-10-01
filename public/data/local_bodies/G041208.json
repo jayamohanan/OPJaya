@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G041208",
+  "local_body_name_en": "Chingoli",
+  "local_body_name_ml": "ചിങ്ങോലി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "107",
+    "assembly_name_en": "Haripad",
+    "assembly_name_ml": "ഹരിപ്പാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5bc8e98f-9f7b-422c-bebc-7481be68b99d",
+      "ward_no": "1",
+      "ward_name_en": "St.Thomas High School",
+      "ward_name_ml": "സെന്‍റ് തോമസ് ഹൈസ്കൂള്‍"
+    },
+    {
+      "ward_id": "5ff8be9e-a24e-4836-96a5-c4b5cdd4adef",
+      "ward_no": "2",
+      "ward_name_en": "Kunnel Peedika",
+      "ward_name_ml": "കുന്നേല്‍ പീടിക"
+    },
+    {
+      "ward_id": "da2ca8a9-9a76-4e5b-b3f5-5aa175d23a30",
+      "ward_no": "3",
+      "ward_name_en": "Nangiarkulangara West",
+      "ward_name_ml": "നങ്ങ്യാര്‍കുളങ്ങര പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "6db02849-cecb-4321-a5c8-b813793df4a3",
+      "ward_no": "4",
+      "ward_name_en": "Nangiarkulangara",
+      "ward_name_ml": "നങ്ങ്യാര്‍കുളങ്ങര"
+    },
+    {
+      "ward_id": "a66ef271-91ce-4d50-8a5d-e5e984737349",
+      "ward_no": "5",
+      "ward_name_en": "Moozhikulam",
+      "ward_name_ml": "മൂഴിക്കുളം"
+    },
+    {
+      "ward_id": "fe24dd76-02af-4823-ba69-06961b3e40cb",
+      "ward_no": "6",
+      "ward_name_en": "Kanjoor Kottakakm",
+      "ward_name_ml": "കാഞ്ഞൂര്‍ക്കോട്ടയ്ക്കകം"
+    },
+    {
+      "ward_id": "9a2013f4-9b2c-4f97-82d2-88e710b442a3",
+      "ward_no": "7",
+      "ward_name_en": "Chingoli Town",
+      "ward_name_ml": "ചിങ്ങോലി ടൌണ്‍"
+    },
+    {
+      "ward_id": "95449fff-1834-47d9-8057-51c1796bd659",
+      "ward_no": "8",
+      "ward_name_en": "Vayanasala",
+      "ward_name_ml": "വായനശാല"
+    },
+    {
+      "ward_id": "392f9797-46f2-41dc-b547-375198394cb0",
+      "ward_no": "9",
+      "ward_name_en": "Ntpc",
+      "ward_name_ml": "എന്‍.ടി.പി.സി"
+    },
+    {
+      "ward_id": "26857b59-a6e9-44f7-8319-450689d3fa91",
+      "ward_no": "10",
+      "ward_name_en": "Vempuzha",
+      "ward_name_ml": "വെമ്പുഴ"
+    },
+    {
+      "ward_id": "41b6baa4-a50f-4800-a849-70221c7b1e8c",
+      "ward_no": "11",
+      "ward_name_en": "Chooravila",
+      "ward_name_ml": "ചൂരവിള"
+    },
+    {
+      "ward_id": "4e3f9a5f-f412-4e90-b235-1a81f82ca843",
+      "ward_no": "12",
+      "ward_name_en": "Panchayath Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+    },
+    {
+      "ward_id": "97b9aab0-20cd-4e99-9e47-9be5159b2c6a",
+      "ward_no": "13",
+      "ward_name_en": "Chingoli West",
+      "ward_name_ml": "ചിങ്ങോലി പടിഞ്ഞാറ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G041208.geojson"
+  }
+}

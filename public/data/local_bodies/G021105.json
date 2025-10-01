@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G021105",
+  "local_body_name_en": "Velinalloor",
+  "local_body_name_ml": "വെളിനല്ലൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "122",
+    "assembly_name_en": "Chadayamangalam",
+    "assembly_name_ml": "ചടയമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "54ebae0d-d754-4e13-8b99-2891dd522cea",
+      "ward_no": "1",
+      "ward_name_en": "Ambalamkunnu",
+      "ward_name_ml": "അമ്പലംകുന്ന്"
+    },
+    {
+      "ward_id": "ff66a338-b59a-4974-8356-d3aebdba8e4e",
+      "ward_no": "2",
+      "ward_name_en": "Chenkoor",
+      "ward_name_ml": "ചെങ്കൂര്‍"
+    },
+    {
+      "ward_id": "c1de4096-4846-414f-ab81-45d7ae292ff0",
+      "ward_no": "3",
+      "ward_name_en": "Mulayarachal",
+      "ward_name_ml": "മുളയറച്ചാല്‍"
+    },
+    {
+      "ward_id": "7c80e82b-79db-4d4e-ba73-0c56dc5e4d93",
+      "ward_no": "4",
+      "ward_name_en": "Cheriya Velinalloor",
+      "ward_name_ml": "ചെറിയ വെളിനല്ലൂര്‍"
+    },
+    {
+      "ward_id": "5ba4653f-6415-46bb-85db-45a1001e0b67",
+      "ward_no": "5",
+      "ward_name_en": "Roaduvila",
+      "ward_name_ml": "റോഡുവിള"
+    },
+    {
+      "ward_id": "dfe724ca-5f0b-4e37-b2a3-f97ddc4f2fb0",
+      "ward_no": "6",
+      "ward_name_en": "Anjoottinalu",
+      "ward_name_ml": "അഞ്ഞൂറ്റിനാല്"
+    },
+    {
+      "ward_id": "a2c695ab-33b5-4878-90b4-b504fb5e2bee",
+      "ward_no": "7",
+      "ward_name_en": "Alummoodu",
+      "ward_name_ml": "ആലുംമൂട്"
+    },
+    {
+      "ward_id": "d7c7c91d-e3c1-4076-9520-6aab019b7093",
+      "ward_no": "8",
+      "ward_name_en": "Motorkunnu",
+      "ward_name_ml": "മോട്ടോര്‍കുന്ന്"
+    },
+    {
+      "ward_id": "dbe0b7fe-f9a0-41e8-a400-4d61761b49f2",
+      "ward_no": "9",
+      "ward_name_en": "Akkal",
+      "ward_name_ml": "ആക്കല്‍"
+    },
+    {
+      "ward_id": "c71247d9-3d3d-4d08-b384-7d6e4a962451",
+      "ward_no": "10",
+      "ward_name_en": "Attoorkkonam",
+      "ward_name_ml": "ആറ്റൂര്‍കോണം"
+    },
+    {
+      "ward_id": "a08fdc43-bef7-4a9d-aeb9-0feea9d175a3",
+      "ward_no": "11",
+      "ward_name_en": "Puthussery",
+      "ward_name_ml": "പുതുശ്ശേരി"
+    },
+    {
+      "ward_id": "a6d2ebbc-c33c-4226-9a34-5fc61f3ed9cc",
+      "ward_no": "12",
+      "ward_name_en": "Karingannoor",
+      "ward_name_ml": "കരിങ്ങന്നൂര്‍"
+    },
+    {
+      "ward_id": "11c9d6cf-331c-4804-9f2d-38b6bfb22405",
+      "ward_no": "13",
+      "ward_name_en": "Ugramkunnu",
+      "ward_name_ml": "ഉഗ്രംകുന്ന്"
+    },
+    {
+      "ward_id": "1c11d95c-036b-431b-baab-67aa127d7396",
+      "ward_no": "14",
+      "ward_name_en": "Kalavayal",
+      "ward_name_ml": "കാളവയല്‍"
+    },
+    {
+      "ward_id": "d909fef3-f2ee-49cc-bf6d-a8bf0db431a0",
+      "ward_no": "15",
+      "ward_name_en": "Oyoor",
+      "ward_name_ml": "ഓയൂര്‍"
+    },
+    {
+      "ward_id": "0b53a8be-38d9-435a-b6a6-2070645739ce",
+      "ward_no": "16",
+      "ward_name_en": "Vattappara",
+      "ward_name_ml": "വട്ടപ്പാറ"
+    },
+    {
+      "ward_id": "c8e4d9fa-5e93-483a-bf5b-2290d5d17d80",
+      "ward_no": "17",
+      "ward_name_en": "Meeyana",
+      "ward_name_ml": "മീയന"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G021105.geojson"
+  }
+}

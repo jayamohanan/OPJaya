@@ -1,0 +1,54 @@
+{
+  "assembly_id": "23",
+  "assembly_name_en": "Koyilandy",
+  "assembly_name_ml": "കൊയിലാണ്ടി",
+  "category": "Normal",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G110801",
+      "local_body_name_en": "Chemanchery",
+      "local_body_name_ml": "ചേമഞ്ചരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G110804",
+      "local_body_name_en": "Chengottukavu",
+      "local_body_name_ml": "ചേങ്ങോട്ടുകാവ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M110200",
+      "local_body_name_en": "Koyilandy",
+      "local_body_name_ml": "കൊയിലാണ്ടി",
+      "category": ""
+    },
+    {
+      "local_body_id": "G110803",
+      "local_body_name_en": "Moodadi",
+      "local_body_name_ml": "മൂടാടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M110300",
+      "local_body_name_en": "Payyoli",
+      "local_body_name_ml": "പയ്യോളി",
+      "category": ""
+    },
+    {
+      "local_body_id": "G110503",
+      "local_body_name_en": "Thikkodi",
+      "local_body_name_ml": "തിക്കോടി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/koyilandy.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/koyilandy.geojson"
+  }
+}

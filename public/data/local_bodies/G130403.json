@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G130403",
+  "local_body_name_en": "Malappattam",
+  "local_body_name_ml": "മലപ്പട്ടം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "8",
+    "assembly_name_en": "Taliparamba",
+    "assembly_name_ml": "തളിപ്പറമ്പ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "868c09ed-fa9c-48a4-bc45-caec43fb1c44",
+      "ward_no": "1",
+      "ward_name_en": "Kolantha",
+      "ward_name_ml": "കൊളന്ത"
+    },
+    {
+      "ward_id": "d379a8d2-0d15-463c-bcdd-d5d36d75ab95",
+      "ward_no": "2",
+      "ward_name_en": "Adoor",
+      "ward_name_ml": "അഡൂര്‍"
+    },
+    {
+      "ward_id": "d4406806-5521-43db-98ee-b8f9ef9e6f98",
+      "ward_no": "3",
+      "ward_name_en": "Aduvappuram North",
+      "ward_name_ml": "അഡുവാപ്പുറം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "b5bf205e-bbcd-4b7e-9876-a7b1d687acb7",
+      "ward_no": "4",
+      "ward_name_en": "Aduvappuram South",
+      "ward_name_ml": "അഡുവാപ്പുറം സൌത്ത്"
+    },
+    {
+      "ward_id": "c8e07be8-ce32-48f6-b194-e26fb81feeda",
+      "ward_no": "5",
+      "ward_name_en": "Karimbeel",
+      "ward_name_ml": "കരിമ്പീല്‍"
+    },
+    {
+      "ward_id": "1b466a08-f5b2-4b40-ba42-9598b46fe12c",
+      "ward_no": "6",
+      "ward_name_en": "Thalakode East",
+      "ward_name_ml": "തലക്കോട് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "5b680389-9727-4ade-86ed-17618163584d",
+      "ward_no": "7",
+      "ward_name_en": "Thalakode West",
+      "ward_name_ml": "തലക്കോട് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "c88ab13a-6112-47b6-8902-1cdcfe6c83cc",
+      "ward_no": "8",
+      "ward_name_en": "Malappattam East",
+      "ward_name_ml": "മലപ്പട്ടം ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "4b29ec9c-5236-43ab-810d-c20289228122",
+      "ward_no": "9",
+      "ward_name_en": "Malappattam West",
+      "ward_name_ml": "മലപ്പട്ടം വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "9c194d13-8936-41b5-ab7d-2035a471f2a1",
+      "ward_no": "10",
+      "ward_name_en": "Pookkandam",
+      "ward_name_ml": "പൂക്കണ്ടം"
+    },
+    {
+      "ward_id": "062c01b5-1825-48a2-8db7-190c42c0ca0b",
+      "ward_no": "11",
+      "ward_name_en": "Kovunthala",
+      "ward_name_ml": "കൊവുന്തല"
+    },
+    {
+      "ward_id": "08b4695c-1ac9-437c-b1e6-eee9f3a5ffef",
+      "ward_no": "12",
+      "ward_name_en": "Adichery",
+      "ward_name_ml": "അടിച്ചേരി"
+    },
+    {
+      "ward_id": "e3252c4b-954c-4198-b1dc-a032f5839d6a",
+      "ward_no": "13",
+      "ward_name_en": "Malappattam Centre",
+      "ward_name_ml": "മലപ്പട്ടം സെന്‍റര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130403.geojson"
+  }
+}

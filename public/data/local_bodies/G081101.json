@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G081101",
+  "local_body_name_en": "Alagappanagar",
+  "local_body_name_ml": "അളഗപ്പനഗര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "71",
+    "assembly_name_en": "Puthukkad",
+    "assembly_name_ml": "പുതുക്കാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "4482512e-c488-4cef-87a9-a36d13d6e868",
+      "ward_no": "1",
+      "ward_name_en": "Amballur",
+      "ward_name_ml": "ആമ്പല്ലൂര്‍"
+    },
+    {
+      "ward_id": "46322036-c5f7-4274-b8c6-2a7333483bd5",
+      "ward_no": "2",
+      "ward_name_en": "Vendore West",
+      "ward_name_ml": "വെണ്ടോര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "440a39ed-9ef9-4df5-b461-5ebd786d72c7",
+      "ward_no": "3",
+      "ward_name_en": "Vendore North",
+      "ward_name_ml": "വെണ്ടോര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "a3ea1e65-b8d6-40a7-b7de-b0b275942b3b",
+      "ward_no": "4",
+      "ward_name_en": "Vendore Centre",
+      "ward_name_ml": "വെണ്ടോര്‍ സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "bd1cbbed-2011-44f3-8474-83e728853488",
+      "ward_no": "5",
+      "ward_name_en": "Mannanpetta",
+      "ward_name_ml": "മണ്ണംപേട്ട"
+    },
+    {
+      "ward_id": "3e863802-adf4-41e0-bc67-a0fdf35a9f15",
+      "ward_no": "6",
+      "ward_name_en": "Vattanathra",
+      "ward_name_ml": "വട്ടണാത്ര"
+    },
+    {
+      "ward_id": "5f15a76a-0366-4bda-8cab-630c40c4f245",
+      "ward_no": "7",
+      "ward_name_en": "Pachalipuram",
+      "ward_name_ml": "പച്ചളിപ്പുറം"
+    },
+    {
+      "ward_id": "0700df66-6400-4e67-8f8b-4f29add78c7c",
+      "ward_no": "8",
+      "ward_name_en": "Palakunnu",
+      "ward_name_ml": "പാലകുന്ന്"
+    },
+    {
+      "ward_id": "e2198f33-80f0-449b-bf56-e7ebf6f474b0",
+      "ward_no": "9",
+      "ward_name_en": "Payyakkara",
+      "ward_name_ml": "പയ്യാക്കര"
+    },
+    {
+      "ward_id": "6e4ba4f4-46c7-4f8c-b72c-3613934b72ad",
+      "ward_no": "10",
+      "ward_name_en": "Varakkara",
+      "ward_name_ml": "വരാക്കര"
+    },
+    {
+      "ward_id": "4256e00e-07ea-44b6-8fd2-51b8d62702a8",
+      "ward_no": "11",
+      "ward_name_en": "Kalakkallu",
+      "ward_name_ml": "കാളക്കല്ല്"
+    },
+    {
+      "ward_id": "ded47804-09f2-428f-9ecd-e9d25fe71bf0",
+      "ward_no": "12",
+      "ward_name_en": "Pookode",
+      "ward_name_ml": "പൂക്കോട്"
+    },
+    {
+      "ward_id": "a3ce51c4-0491-410f-9aad-1324a741ae3d",
+      "ward_no": "13",
+      "ward_name_en": "Pookode West",
+      "ward_name_ml": "പൂക്കോട് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "330404d9-ed1a-4c3c-87d4-f5ca40f1d289",
+      "ward_no": "14",
+      "ward_name_en": "Thekkekkara",
+      "ward_name_ml": "തെക്കേക്കര"
+    },
+    {
+      "ward_id": "75bf5f61-2621-472b-9b45-377166f05b32",
+      "ward_no": "15",
+      "ward_name_en": "Valanjoopadam",
+      "ward_name_ml": "വളഞ്ഞൂപ്പാടം"
+    },
+    {
+      "ward_id": "8f36e308-3faf-49e8-81f2-0c9d2323a0a9",
+      "ward_no": "16",
+      "ward_name_en": "Chungam",
+      "ward_name_ml": "ചുങ്കം"
+    },
+    {
+      "ward_id": "e2f4d2cd-6e95-4efc-89bb-812e73396ac5",
+      "ward_no": "17",
+      "ward_name_en": "Alagappanagar",
+      "ward_name_ml": "അളഗപ്പനഗര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081101.geojson"
+  }
+}

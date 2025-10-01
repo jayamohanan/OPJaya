@@ -1,0 +1,66 @@
+{
+  "assembly_id": "136",
+  "assembly_name_en": "Aruvikkara",
+  "assembly_name_ml": "അരുവിക്കര",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G010602",
+      "local_body_name_en": "Aruvikkara",
+      "local_body_name_ml": "അരുവിക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010501",
+      "local_body_name_en": "Aryanad",
+      "local_body_name_ml": "ആര്യനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010506",
+      "local_body_name_en": "Kuttichal",
+      "local_body_name_ml": "കുറ്റിച്ചല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010502",
+      "local_body_name_en": "Poovachal",
+      "local_body_name_ml": "പൂവച്ചല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010507",
+      "local_body_name_en": "Tholicode",
+      "local_body_name_ml": "തൊളിക്കോട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010505",
+      "local_body_name_en": "Uzhamalakkal",
+      "local_body_name_ml": "ഉഴമലയ്ക്കല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010503",
+      "local_body_name_en": "Vellanad",
+      "local_body_name_ml": "വെള്ളനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010504",
+      "local_body_name_en": "Vithura",
+      "local_body_name_ml": "വിതുര",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/aruvikkara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/aruvikkara.geojson"
+  }
+}

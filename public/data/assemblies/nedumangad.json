@@ -1,0 +1,54 @@
+{
+  "assembly_id": "130",
+  "assembly_name_en": "Nedumangad",
+  "assembly_name_ml": "നെടുമങ്ങാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G010604",
+      "local_body_name_en": "Karakulam",
+      "local_body_name_ml": "കരകുളം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010408",
+      "local_body_name_en": "Manickal",
+      "local_body_name_ml": "മാണിക്കല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M010300",
+      "local_body_name_en": "Nedumangad",
+      "local_body_name_ml": "നെടുമങ്ങാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010704",
+      "local_body_name_en": "Pothencode",
+      "local_body_name_ml": "പോത്തന്‍കോട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010605",
+      "local_body_name_en": "Vembayam",
+      "local_body_name_ml": "വെമ്പായം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010701",
+      "local_body_name_en": "Andoorkonam",
+      "local_body_name_ml": "അണ്ടൂര്‍ക്കോണം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/nedumangad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/nedumangad.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G100207",
+  "local_body_name_en": "Edappatta",
+  "local_body_name_ml": "എടപ്പറ്റ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "37",
+    "assembly_name_en": "Manjeri",
+    "assembly_name_ml": "മഞ്ചേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3fb7cfe9-bc71-4d8e-9532-cfbbb4eb0c0b",
+      "ward_no": "1",
+      "ward_name_en": "Ramanthiruthi",
+      "ward_name_ml": "രാമന്‍തിരുത്തി"
+    },
+    {
+      "ward_id": "1329acd8-07aa-4cb0-8fe5-899c6874f1af",
+      "ward_no": "2",
+      "ward_name_en": "Edappatta",
+      "ward_name_ml": "എടപ്പറ്റ"
+    },
+    {
+      "ward_id": "b09cd866-0f21-4453-8f66-72e1f5a6354b",
+      "ward_no": "3",
+      "ward_name_en": "Pullanikad",
+      "ward_name_ml": "പുല്ലാനിക്കാട്"
+    },
+    {
+      "ward_id": "cc8ac05f-0531-4288-862c-4e3b2321615a",
+      "ward_no": "4",
+      "ward_name_en": "Eppikkad",
+      "ward_name_ml": "എപ്പിക്കാട്"
+    },
+    {
+      "ward_id": "8d529a50-7353-44a1-aa18-a944bf13ac2f",
+      "ward_no": "5",
+      "ward_name_en": "Ambazhaparambu",
+      "ward_name_ml": "അമ്പാഴപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "0ccc6a59-ecf8-4b81-8252-1bb820b03bdf",
+      "ward_no": "6",
+      "ward_name_en": "Punnakkalchola",
+      "ward_name_ml": "പുന്നക്കല്‍ചോല"
+    },
+    {
+      "ward_id": "85b78705-eaac-479b-a671-4bd8fe301f96",
+      "ward_no": "7",
+      "ward_name_en": "Puliyakkode",
+      "ward_name_ml": "പുളിയക്കോട്"
+    },
+    {
+      "ward_id": "372b4480-b9c1-4fe8-94cd-f112cf59edf0",
+      "ward_no": "8",
+      "ward_name_en": "Moonadi",
+      "ward_name_ml": "മൂനാടി"
+    },
+    {
+      "ward_id": "1d4c6091-0c18-4e63-abe4-ad180ca5e18a",
+      "ward_no": "9",
+      "ward_name_en": "Anjilangadi",
+      "ward_name_ml": "ആഞ്ഞിലങ്ങാടി"
+    },
+    {
+      "ward_id": "f0cd9fa3-df23-4573-ae03-e6843914b24b",
+      "ward_no": "10",
+      "ward_name_en": "Cheriparamba",
+      "ward_name_ml": "ചേരിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "2e66b766-88e5-48a1-b843-7a0460b5e789",
+      "ward_no": "11",
+      "ward_name_en": "Velliyanchery",
+      "ward_name_ml": "വെള്ളിയഞ്ചേരി"
+    },
+    {
+      "ward_id": "d47de47c-7e33-498b-b06f-f164e1b25855",
+      "ward_no": "12",
+      "ward_name_en": "Pulluparamba",
+      "ward_name_ml": "പുല്ലുപറമ്പ്"
+    },
+    {
+      "ward_id": "91dca052-1f3b-47a9-8db6-96a73dfd5fe8",
+      "ward_no": "13",
+      "ward_name_en": "Pathirikkode",
+      "ward_name_ml": "പാതിരിക്കോട്"
+    },
+    {
+      "ward_id": "44abb140-b5ae-41fb-8104-14e7139f5d78",
+      "ward_no": "14",
+      "ward_name_en": "Kombankallu",
+      "ward_name_ml": "കൊമ്പംക്കല്ല്"
+    },
+    {
+      "ward_id": "dc7cc3c5-820b-49eb-954b-feda63f6aaa8",
+      "ward_no": "15",
+      "ward_name_en": "Pezhumthara",
+      "ward_name_ml": "പെഴുംതറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100207.geojson"
+  }
+}

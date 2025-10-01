@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071104",
+  "local_body_name_en": "Kottappady",
+  "local_body_name_ml": "കോട്ടപ്പടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "87",
+    "assembly_name_en": "Kothamangalam",
+    "assembly_name_ml": "കോതമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3002f281-fd82-47f4-a19c-fad83114937b",
+      "ward_no": "1",
+      "ward_name_en": "Plamudy",
+      "ward_name_ml": "പ്ലാമുടി"
+    },
+    {
+      "ward_id": "921876fc-b799-4c57-80d3-825f22d9a2c6",
+      "ward_no": "2",
+      "ward_name_en": "Kallumala",
+      "ward_name_ml": "കല്ലുമല"
+    },
+    {
+      "ward_id": "c3d173a7-fb3e-4a16-b5b7-6c5c351ebf21",
+      "ward_no": "3",
+      "ward_name_en": "Muttathupara",
+      "ward_name_ml": "മുട്ടത്തുപാറ"
+    },
+    {
+      "ward_id": "9c55e8c2-f92d-4b01-9b28-c9d689211773",
+      "ward_no": "4",
+      "ward_name_en": "Chelackappilly",
+      "ward_name_ml": "ചേലയ്ക്കാപ്പിള്ളി"
+    },
+    {
+      "ward_id": "63259938-894c-4f9b-be28-444f7ae124db",
+      "ward_no": "5",
+      "ward_name_en": "Uppukandam",
+      "ward_name_ml": "ഉപ്പുകണ്ടം"
+    },
+    {
+      "ward_id": "f1012a4a-654c-4f17-9752-2d0a967e0056",
+      "ward_no": "6",
+      "ward_name_en": "Vadassery",
+      "ward_name_ml": "വടാശ്ശേരി"
+    },
+    {
+      "ward_id": "3a9521d8-33fb-4e63-bd3a-314d43d9d7a7",
+      "ward_no": "7",
+      "ward_name_en": "Munthoor",
+      "ward_name_ml": "മുന്തൂര്‍"
+    },
+    {
+      "ward_id": "024e6ad4-9b7d-4dbe-aa34-3c34a1454c59",
+      "ward_no": "8",
+      "ward_name_en": "Naganchery",
+      "ward_name_ml": "നാഗഞ്ചേരി"
+    },
+    {
+      "ward_id": "6216a8d4-2287-4b34-a9b7-8d090219e133",
+      "ward_no": "9",
+      "ward_name_en": "Panipra",
+      "ward_name_ml": "പാനിപ്ര"
+    },
+    {
+      "ward_id": "e5b3546d-aad6-4fcc-b8b5-a56a9b8a1a74",
+      "ward_no": "10",
+      "ward_name_en": "Thurangam",
+      "ward_name_ml": "തുരങ്കം"
+    },
+    {
+      "ward_id": "381a3eca-6d95-4641-aa57-9aebcd4aae70",
+      "ward_no": "11",
+      "ward_name_en": "Kolliparambu",
+      "ward_name_ml": "കൊള്ളിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "75c2a049-4db8-47b6-9c1d-d111d5ccf306",
+      "ward_no": "12",
+      "ward_name_en": "Cheranganal Town",
+      "ward_name_ml": "ചേറങ്ങനാല്‍ ടൌണ്‍"
+    },
+    {
+      "ward_id": "9baacb3d-edcf-41ca-accd-de52ec39cc22",
+      "ward_no": "13",
+      "ward_name_en": "Kottappady",
+      "ward_name_ml": "കോട്ടപ്പടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071104.geojson"
+  }
+}

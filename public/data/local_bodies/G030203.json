@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030203",
+  "local_body_name_en": "Niranam",
+  "local_body_name_ml": "നിരണം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d349ffe9-a378-4961-b86e-727518048979",
+      "ward_no": "1",
+      "ward_name_en": "Kattunilam",
+      "ward_name_ml": "കാട്ടുനിലം"
+    },
+    {
+      "ward_id": "5aa60437-1696-4bb3-bbaf-cffa1e5c93a3",
+      "ward_no": "2",
+      "ward_name_en": "Vadakkumbhagom Padinjaru",
+      "ward_name_ml": "വടക്കുംഭാഗം പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "c4b6543c-f467-4390-9b3a-e14f954b8aaa",
+      "ward_no": "3",
+      "ward_name_en": "Vadakkumbhagom Kizhakku",
+      "ward_name_ml": "വടക്കുംഭാഗം കിഴക്ക്"
+    },
+    {
+      "ward_id": "4c7a594d-b0c2-4483-9c60-6d31900ad6ba",
+      "ward_no": "4",
+      "ward_name_en": "Kannassa",
+      "ward_name_ml": "കണ്ണശ"
+    },
+    {
+      "ward_id": "a91d9285-a43f-43b9-aff3-9a6aeb4050d2",
+      "ward_no": "5",
+      "ward_name_en": "Ymca",
+      "ward_name_ml": "വൈ എം സി എ"
+    },
+    {
+      "ward_id": "985ead7f-d3c0-4bf2-aa20-adf504307c16",
+      "ward_no": "6",
+      "ward_name_en": "Duck Farm",
+      "ward_name_ml": "ഡക്ക് ഫാം"
+    },
+    {
+      "ward_id": "b479c5d6-5dc0-46b0-b96a-de3225a7a6cc",
+      "ward_no": "7",
+      "ward_name_en": "Kizhakkummuri",
+      "ward_name_ml": "കിഴക്കുംമുറി"
+    },
+    {
+      "ward_id": "80f510cd-6cbd-4285-aba2-aa1317b741aa",
+      "ward_no": "8",
+      "ward_name_en": "Thottumada",
+      "ward_name_ml": "തോട്ടുമട"
+    },
+    {
+      "ward_id": "3ae5f8a4-405e-4e15-a17e-1f969e7f2766",
+      "ward_no": "9",
+      "ward_name_en": "Panchayath Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ആഫീസ്"
+    },
+    {
+      "ward_id": "ecb31189-f468-4006-8c8a-d2e9c4f369da",
+      "ward_no": "10",
+      "ward_name_en": "Phc",
+      "ward_name_ml": "പി എച്ച് സി"
+    },
+    {
+      "ward_id": "32fe9c01-64ec-47c7-83d2-f7b0e6eeb174",
+      "ward_no": "11",
+      "ward_name_en": "Erathodu",
+      "ward_name_ml": "എരതോട്"
+    },
+    {
+      "ward_id": "0db5b692-511e-4d1c-bbe3-9898a03b5f66",
+      "ward_no": "12",
+      "ward_name_en": "Kombankery",
+      "ward_name_ml": "കൊമ്പങ്കേരി"
+    },
+    {
+      "ward_id": "b6121db8-d932-4878-b800-c3c754792fff",
+      "ward_no": "13",
+      "ward_name_en": "Thottadi",
+      "ward_name_ml": "തോട്ടടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030203.geojson"
+  }
+}

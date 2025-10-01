@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G020103",
+  "local_body_name_en": "Clappana",
+  "local_body_name_ml": "ക്ളാപ്പന",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "116",
+    "assembly_name_en": "Karunagapally",
+    "assembly_name_ml": "കരുനാഗപ്പള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "9f27b310-f976-4417-b467-54fc017b0b05",
+      "ward_no": "1",
+      "ward_name_en": "Prayar South A",
+      "ward_name_ml": "പ്രയാര്‍ തെക്ക് എ"
+    },
+    {
+      "ward_id": "d2cca2f5-eab5-4fff-aa8a-e46bbc9b1648",
+      "ward_no": "2",
+      "ward_name_en": "Prayar South B",
+      "ward_name_ml": "പ്രയാര്‍ തെക്ക് ബി"
+    },
+    {
+      "ward_id": "0df51238-0761-47d7-be83-0b2d2c24e7a2",
+      "ward_no": "3",
+      "ward_name_en": "Prayar South C",
+      "ward_name_ml": "പ്രയാര്‍ തെക്ക് സി"
+    },
+    {
+      "ward_id": "7b76620a-b9e3-4359-b1d9-d5508952e0e5",
+      "ward_no": "4",
+      "ward_name_en": "Prayar South D",
+      "ward_name_ml": "പ്രയാര്‍ തെക്ക് ഡി"
+    },
+    {
+      "ward_id": "4f71c663-ef4d-4f46-86df-8b52dd1f5c2b",
+      "ward_no": "5",
+      "ward_name_en": "Prayar South E",
+      "ward_name_ml": "പ്രയാര്‍ തെക്ക് ഇ"
+    },
+    {
+      "ward_id": "bc7ff007-3241-4064-ab80-5dcfd1b80e7c",
+      "ward_no": "6",
+      "ward_name_en": "Varavila-A",
+      "ward_name_ml": "വരവിള -എ"
+    },
+    {
+      "ward_id": "3432b28e-8030-435d-ae1c-479fd7a88a59",
+      "ward_no": "7",
+      "ward_name_en": "Perinad-B",
+      "ward_name_ml": "പെരിനാട് -ബി"
+    },
+    {
+      "ward_id": "4b6b0925-01b2-4558-9256-abb3b99b112e",
+      "ward_no": "8",
+      "ward_name_en": "Perumanthazha-A",
+      "ward_name_ml": "പെരുമാന്തഴ -എ"
+    },
+    {
+      "ward_id": "0742a5b3-61c0-409d-b555-676d02f4c34f",
+      "ward_no": "9",
+      "ward_name_en": "Varavila-B",
+      "ward_name_ml": "വരവിള-ബി"
+    },
+    {
+      "ward_id": "0eb75484-db5c-4e1a-8292-8b04d4ee7855",
+      "ward_no": "10",
+      "ward_name_en": "Perumanthazha-B",
+      "ward_name_ml": "പെരുമാന്തഴ-ബി"
+    },
+    {
+      "ward_id": "da9453a2-764d-4de2-9e78-164486c43a11",
+      "ward_no": "11",
+      "ward_name_en": "Clappana East",
+      "ward_name_ml": "ക്ലാപ്പന കിഴക്ക്‌"
+    },
+    {
+      "ward_id": "a3b2adca-3752-4cdd-b560-e694b8b5aea8",
+      "ward_no": "12",
+      "ward_name_en": "Clappana South",
+      "ward_name_ml": "ക്ലാപ്പന തെക്ക്‌"
+    },
+    {
+      "ward_id": "8f9b1747-cca1-435d-ae2a-a678b7bac788",
+      "ward_no": "13",
+      "ward_name_en": "Clappana North-A",
+      "ward_name_ml": "ക്ലാപ്പന വടക്ക്‌ -എ"
+    },
+    {
+      "ward_id": "da51e898-1181-4b18-b227-ad94212a7c28",
+      "ward_no": "14",
+      "ward_name_en": "Clappana North-B",
+      "ward_name_ml": "ക്ലാപ്പന വടക്ക്‌ -ബി"
+    },
+    {
+      "ward_id": "d6f94ac1-4a38-4dad-8da7-b01b1f1f09b3",
+      "ward_no": "15",
+      "ward_name_en": "Perinad-A",
+      "ward_name_ml": "പെരിനാട്-എ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G020103.geojson"
+  }
+}

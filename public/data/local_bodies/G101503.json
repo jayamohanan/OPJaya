@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G101503",
+  "local_body_name_en": "Nannammukku",
+  "local_body_name_ml": "നന്നംമുക്ക്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "48",
+    "assembly_name_en": "Ponnani",
+    "assembly_name_ml": "പൊന്നാനി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "65ae4cf7-b529-4fab-a8f7-3e432ed9bada",
+      "ward_no": "1",
+      "ward_name_en": "Chelakkadavu",
+      "ward_name_ml": "ചേലക്കടവ്"
+    },
+    {
+      "ward_id": "1285b1ae-fe99-4be6-9ea3-90564e7476b8",
+      "ward_no": "2",
+      "ward_name_en": "Kannenkavu",
+      "ward_name_ml": "കണ്ണേങ്കാവ്"
+    },
+    {
+      "ward_id": "f1aaf233-5f1a-407f-a506-a384b5e433bd",
+      "ward_no": "3",
+      "ward_name_en": "Mookkuthala",
+      "ward_name_ml": "മൂക്കുതല"
+    },
+    {
+      "ward_id": "ea1e3c06-9c0c-4d73-96c6-de5fa5ed562e",
+      "ward_no": "4",
+      "ward_name_en": "Kanjiyoor",
+      "ward_name_ml": "കാഞ്ഞിയൂര്‍"
+    },
+    {
+      "ward_id": "2fbefbb2-0b02-446b-802f-552fba726fab",
+      "ward_no": "5",
+      "ward_name_en": "Changaramkulam",
+      "ward_name_ml": "ചങ്ങരംകുളം"
+    },
+    {
+      "ward_id": "1544f568-0b11-450a-9f09-ad83402238b8",
+      "ward_no": "6",
+      "ward_name_en": "Pallikkara",
+      "ward_name_ml": "പള്ളിക്കര"
+    },
+    {
+      "ward_id": "01c9478f-020c-4dcd-9df1-eb31b4f69dee",
+      "ward_no": "7",
+      "ward_name_en": "Pallikkara Thekkumuri",
+      "ward_name_ml": "പള്ളിക്കര തെക്കുമുറി"
+    },
+    {
+      "ward_id": "d53a85c3-06cc-4c46-9b8a-847a848c2c1c",
+      "ward_no": "8",
+      "ward_name_en": "Ayinichode",
+      "ward_name_ml": "അയിനിച്ചോട്"
+    },
+    {
+      "ward_id": "f82af6df-3f55-4f28-9dd6-9939fce31eb0",
+      "ward_no": "9",
+      "ward_name_en": "Nannammukku",
+      "ward_name_ml": "നന്നംമുക്ക്"
+    },
+    {
+      "ward_id": "48b93712-f275-4408-b951-0da2ace54bf5",
+      "ward_no": "10",
+      "ward_name_en": "Thariyath",
+      "ward_name_ml": "തരിയത്ത്"
+    },
+    {
+      "ward_id": "6e99e8d5-54fb-4de9-a13e-a1e20feb4681",
+      "ward_no": "11",
+      "ward_name_en": "Kalloorma",
+      "ward_name_ml": "കല്ലൂര്‍മ്മ"
+    },
+    {
+      "ward_id": "a9e1f2b0-c410-49c7-a813-6dc4cd7dbe47",
+      "ward_no": "12",
+      "ward_name_en": "Perumbal",
+      "ward_name_ml": "പെരുമ്പാള്‍"
+    },
+    {
+      "ward_id": "9474f8ee-b327-4a4c-a006-b073ff4e2580",
+      "ward_no": "13",
+      "ward_name_en": "Mookkuthala South",
+      "ward_name_ml": "മൂക്കുതല സൌത്ത്"
+    },
+    {
+      "ward_id": "aae81dbc-ec95-4c07-b665-45d0bb925a3c",
+      "ward_no": "14",
+      "ward_name_en": "Pidavannoor",
+      "ward_name_ml": "പിടാവന്നൂര്‍"
+    },
+    {
+      "ward_id": "663641f2-8405-4321-8a7e-39cfe294108d",
+      "ward_no": "15",
+      "ward_name_en": "Pidavannoor West",
+      "ward_name_ml": "പിടാവന്നൂര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "9f23d18b-ec56-4083-a3cd-673b2f03d40d",
+      "ward_no": "16",
+      "ward_name_en": "Naranipuzha",
+      "ward_name_ml": "നരണിപുഴ"
+    },
+    {
+      "ward_id": "fb350d54-bb4b-4aa9-88fd-1ffe085f6bed",
+      "ward_no": "17",
+      "ward_name_en": "Kolencheri",
+      "ward_name_ml": "കൊളഞ്ചേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G101503.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G130309",
+  "local_body_name_en": "Kadannappally Panapuzha",
+  "local_body_name_ml": "കടന്നപ്പള്ളി പാണപ്പുഴ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "7",
+    "assembly_name_en": "Kalliasseri",
+    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a38cc411-a126-41ef-a74d-cdb42ce5a78d",
+      "ward_no": "1",
+      "ward_name_en": "Chandappura",
+      "ward_name_ml": "ചന്തപ്പുര"
+    },
+    {
+      "ward_id": "d89fe7cf-d121-40d4-b0e1-cb0476f4fbc6",
+      "ward_no": "2",
+      "ward_name_en": "Kandonthar",
+      "ward_name_ml": "കണ്ടോന്താര്‍"
+    },
+    {
+      "ward_id": "08bdf65e-f9f7-4b33-9d47-94eb11c55368",
+      "ward_no": "3",
+      "ward_name_en": "Panappuzha",
+      "ward_name_ml": "പാണപ്പുഴ"
+    },
+    {
+      "ward_id": "ec3f31c8-dbb5-40d6-bb92-dae1f070b808",
+      "ward_no": "4",
+      "ward_name_en": "Moodenga",
+      "ward_name_ml": "മൂടെങ്ങ"
+    },
+    {
+      "ward_id": "d57b2fbe-84b6-4a3c-8dd4-2297000289e3",
+      "ward_no": "5",
+      "ward_name_en": "Paravur",
+      "ward_name_ml": "പറവൂര്‍"
+    },
+    {
+      "ward_id": "960e34f1-e7a0-453e-aaa2-113ac3dd211b",
+      "ward_no": "6",
+      "ward_name_en": "Aalakkad",
+      "ward_name_ml": "ആലക്കാട്"
+    },
+    {
+      "ward_id": "67dc8737-3eaa-476a-a5ec-fc686fc79743",
+      "ward_no": "7",
+      "ward_name_en": "Eryam",
+      "ward_name_ml": "ഏര്യം"
+    },
+    {
+      "ward_id": "86ab397a-f169-4d42-afd3-945d84ea0dcb",
+      "ward_no": "8",
+      "ward_name_en": "Kanaramvayal",
+      "ward_name_ml": "കണാരംവയല്‍"
+    },
+    {
+      "ward_id": "e0773bed-817e-40ed-a9db-a84eb3c1662e",
+      "ward_no": "9",
+      "ward_name_en": "Cheruvicheri",
+      "ward_name_ml": "ചെരുവിചേരി"
+    },
+    {
+      "ward_id": "8c711161-246a-4dae-8621-b038d2df9eca",
+      "ward_no": "10",
+      "ward_name_en": "Kizhakkekkara",
+      "ward_name_ml": "കിഴക്കേക്കര"
+    },
+    {
+      "ward_id": "f949b3ff-600a-4954-84ee-ce07289a6fec",
+      "ward_no": "11",
+      "ward_name_en": "Thekkekkara",
+      "ward_name_ml": "തെക്കേക്കര"
+    },
+    {
+      "ward_id": "2a8366e6-96f2-4840-bd8d-522055eee3c5",
+      "ward_no": "12",
+      "ward_name_en": "Medical College",
+      "ward_name_ml": "മെഡിക്കല്‍കോളേജ്"
+    },
+    {
+      "ward_id": "048e8ec0-03e9-44f3-b9ca-d1ece41b2870",
+      "ward_no": "13",
+      "ward_name_en": "Vilayancode",
+      "ward_name_ml": "വിളയാങ്കോട്"
+    },
+    {
+      "ward_id": "27f8956d-f928-43f1-8b89-09511f06dc6d",
+      "ward_no": "14",
+      "ward_name_en": "Chittannur",
+      "ward_name_ml": "ചിട്ടന്നുര്‍"
+    },
+    {
+      "ward_id": "2b3ee002-b94a-4af8-9d6f-3c61516f9edc",
+      "ward_no": "15",
+      "ward_name_en": "Padinjarekkara",
+      "ward_name_ml": "പടിഞ്ഞാറേക്കര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130309.geojson"
+  }
+}

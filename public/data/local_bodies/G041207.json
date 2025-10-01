@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G041207",
+  "local_body_name_en": "Devikulangara",
+  "local_body_name_ml": "ദേവികുളങ്ങര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "108",
+    "assembly_name_en": "Kayamkulam",
+    "assembly_name_ml": "കായംകുളം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5351c3a0-6bff-467c-900c-15dc6acb4ae9",
+      "ward_no": "1",
+      "ward_name_en": "Govindamuttom",
+      "ward_name_ml": "ഗോവിന്ദമുട്ടം"
+    },
+    {
+      "ward_id": "be05f931-f6a1-4798-8c03-373ec3f83818",
+      "ward_no": "2",
+      "ward_name_en": "North Kochumuri",
+      "ward_name_ml": "വടക്ക് കൊച്ചുമുറി"
+    },
+    {
+      "ward_id": "6e111968-0802-4ad6-b772-263c6a863cfd",
+      "ward_no": "3",
+      "ward_name_en": "Kaniyamuri",
+      "ward_name_ml": "കണിയാമുറി"
+    },
+    {
+      "ward_id": "4909ebe6-da42-42a1-9f70-f8db1e77eef7",
+      "ward_no": "4",
+      "ward_name_en": "Vadakke Anjilimood",
+      "ward_name_ml": "വടക്കേആഞ്ഞിലിമൂട്"
+    },
+    {
+      "ward_id": "ccb667ed-3a74-4b3c-8f44-87f93829e3e3",
+      "ward_no": "5",
+      "ward_name_en": "Thekke Anjilimood",
+      "ward_name_ml": "തെക്കേ ആഞ്ഞിലിമൂട്"
+    },
+    {
+      "ward_id": "7ef5022a-7406-4ce1-a586-4e6f3a75c31e",
+      "ward_no": "6",
+      "ward_name_en": "High School Ward",
+      "ward_name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "2c85326c-17a1-44cc-8dfa-00fd536d4bf9",
+      "ward_no": "7",
+      "ward_name_en": "Sakthikulangara",
+      "ward_name_ml": "ശക്തികുളങ്ങര"
+    },
+    {
+      "ward_id": "00b67a18-2892-412e-a97b-9c9520c53aec",
+      "ward_no": "8",
+      "ward_name_en": "Kaleeckasseri",
+      "ward_name_ml": "കളീക്കശ്ശേരി"
+    },
+    {
+      "ward_id": "9ec04917-b669-441f-ae1b-9d2b57f7bc49",
+      "ward_no": "9",
+      "ward_name_en": "Kdasseri",
+      "ward_name_ml": "ക്ടാശ്ശേരി"
+    },
+    {
+      "ward_id": "fafd8b21-7d48-45e3-a2ce-804cb1c1a8f3",
+      "ward_no": "10",
+      "ward_name_en": "Bank Ward",
+      "ward_name_ml": "ബാങ്ക് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "f772af37-e6c8-4582-8331-dc991971d7e8",
+      "ward_no": "11",
+      "ward_name_en": "Devikulangara",
+      "ward_name_ml": "ദേവികുളങ്ങര"
+    },
+    {
+      "ward_id": "de27796e-0f7a-4fc4-ba7d-18e93c06e313",
+      "ward_no": "12",
+      "ward_name_en": "Kumbilisseril",
+      "ward_name_ml": "കുമ്പിളിശ്ശേരില്‍"
+    },
+    {
+      "ward_id": "038fe76d-7977-4f9e-bdba-7ebf7a974535",
+      "ward_no": "13",
+      "ward_name_en": "Krishi Bhavan",
+      "ward_name_ml": "കൃഷിഭവന്‍"
+    },
+    {
+      "ward_id": "6c71878a-0387-4ab8-87c6-685f745e9e93",
+      "ward_no": "14",
+      "ward_name_en": "Varanappally",
+      "ward_name_ml": "വാരണപ്പളളി"
+    },
+    {
+      "ward_id": "c54aace8-6302-466b-86f8-f0062c0ed941",
+      "ward_no": "15",
+      "ward_name_en": "Temple Ward",
+      "ward_name_ml": "ടെംപിള്‍ വാര്‍ഡ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G041207.geojson"
+  }
+}

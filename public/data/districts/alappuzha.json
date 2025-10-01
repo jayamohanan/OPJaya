@@ -1,0 +1,67 @@
+{
+  "district_id": "4",
+  "district_name_en": "Alappuzha",
+  "district_name_ml": "ആലപ്പുഴ",
+  "is_active": true,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "102",
+      "assembly_name_en": "Aroor",
+      "assembly_name_ml": "അരൂർ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "103",
+      "assembly_name_en": "Cherthala",
+      "assembly_name_ml": "ചേർത്തല",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "104",
+      "assembly_name_en": "Alappuzha",
+      "assembly_name_ml": "ആലപ്പുഴ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "105",
+      "assembly_name_en": "Ambalappuzha",
+      "assembly_name_ml": "അമ്പലപ്പുഴ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "106",
+      "assembly_name_en": "Kuttanad",
+      "assembly_name_ml": "കുട്ടനാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "107",
+      "assembly_name_en": "Haripad",
+      "assembly_name_ml": "ഹരിപ്പാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "108",
+      "assembly_name_en": "Kayamkulam",
+      "assembly_name_ml": "കായംകുളം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "109",
+      "assembly_name_en": "Mavelikara",
+      "assembly_name_ml": "മാവേലിക്കര",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "110",
+      "assembly_name_en": "Chengannur",
+      "assembly_name_ml": "ചെങ്ങന്നൂർ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/alappuzha.geojson",
+    "assemblies": "geojson/districts/with-assemblies/alappuzha.geojson"
+  }
+}

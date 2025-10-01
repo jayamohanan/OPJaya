@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G131001",
+  "local_body_name_en": "Aralam",
+  "local_body_name_ml": "ആറളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "16",
+    "assembly_name_en": "Peravoor",
+    "assembly_name_ml": "പേരാവൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "064cae61-d5c1-4d7f-aa14-dc80ad82e189",
+      "ward_no": "1",
+      "ward_name_en": "Edoor",
+      "ward_name_ml": "എടൂര്‍"
+    },
+    {
+      "ward_id": "453231cb-36a9-456b-a05a-2a24c2571f53",
+      "ward_no": "2",
+      "ward_name_en": "Manchuvad",
+      "ward_name_ml": "മാഞ്ചുവട്"
+    },
+    {
+      "ward_id": "4d569fde-afad-4e6b-9d91-400f904ecf0c",
+      "ward_no": "3",
+      "ward_name_en": "Kundumangode",
+      "ward_name_ml": "കുണ്ടുമാങ്ങോട്"
+    },
+    {
+      "ward_id": "26758e35-5490-426d-a68c-b2fbdb413f57",
+      "ward_no": "4",
+      "ward_name_en": "Chathiroor",
+      "ward_name_ml": "ചതിരൂര്‍"
+    },
+    {
+      "ward_id": "b23ee118-408b-46f4-af9c-3241ca79a6d1",
+      "ward_no": "5",
+      "ward_name_en": "Viyatnam",
+      "ward_name_ml": "വിയറ്റ്നാം"
+    },
+    {
+      "ward_id": "553a3843-bb3e-4bf5-920e-ad2c755de3f0",
+      "ward_no": "6",
+      "ward_name_en": "Aralam Farm",
+      "ward_name_ml": "ആറളംഫാം"
+    },
+    {
+      "ward_id": "ea64b4c9-60be-445e-a3f1-05984047dfaf",
+      "ward_no": "7",
+      "ward_name_en": "Keezhpally",
+      "ward_name_ml": "കീഴ്പ്പള്ളി"
+    },
+    {
+      "ward_id": "4296a631-812f-448a-bba1-b5455bb33d57",
+      "ward_no": "8",
+      "ward_name_en": "Velimanam",
+      "ward_name_ml": "വെളിമാനം"
+    },
+    {
+      "ward_id": "e02e2118-0233-40f8-bdfc-12f15661825a",
+      "ward_no": "9",
+      "ward_name_en": "Ambalakandy",
+      "ward_name_ml": "അമ്പലക്കണ്ടി"
+    },
+    {
+      "ward_id": "9061a4d9-d8f9-4788-a151-a4580be57c06",
+      "ward_no": "10",
+      "ward_name_en": "Veerpad",
+      "ward_name_ml": "വീര്‍പാട്"
+    },
+    {
+      "ward_id": "bdb6fa92-8d60-4891-b37b-1b65d78c8c48",
+      "ward_no": "11",
+      "ward_name_en": "Uruppumkund",
+      "ward_name_ml": "ഉരുപ്പുംകുണ്ട്"
+    },
+    {
+      "ward_id": "6cd50a05-6079-4388-b233-ebe833a57818",
+      "ward_no": "12",
+      "ward_name_en": "Kallara",
+      "ward_name_ml": "കല്ലറ"
+    },
+    {
+      "ward_id": "3df70138-5062-4a36-9632-c17672dc7aeb",
+      "ward_no": "13",
+      "ward_name_en": "Chedikkulam",
+      "ward_name_ml": "ചെടിക്കുളം"
+    },
+    {
+      "ward_id": "1081680a-0874-40c5-94db-7090b773460a",
+      "ward_no": "14",
+      "ward_name_en": "Perumpazhassi",
+      "ward_name_ml": "പെരുംന്പശ്ശി"
+    },
+    {
+      "ward_id": "369b58b0-fa37-4211-9b07-c8fd6bc0a4a6",
+      "ward_no": "15",
+      "ward_name_en": "Aralam",
+      "ward_name_ml": "ആറളം"
+    },
+    {
+      "ward_id": "3e2bc6fd-a668-443a-8e7a-1dc95c7c611b",
+      "ward_no": "16",
+      "ward_name_en": "Poothakundu",
+      "ward_name_ml": "പൂതക്കുണ്ട്"
+    },
+    {
+      "ward_id": "a4977454-535d-44ea-a784-d4d04fcc5ea6",
+      "ward_no": "17",
+      "ward_name_en": "Koottakkalam",
+      "ward_name_ml": "കൂട്ടക്കളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G131001.geojson"
+  }
+}

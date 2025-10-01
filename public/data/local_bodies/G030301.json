@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G030301",
+  "local_body_name_en": "Ayroor",
+  "local_body_name_ml": "അയിരൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "112",
+    "assembly_name_en": "Ranni",
+    "assembly_name_ml": "റാന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "59e9dc8f-c9c7-47d1-a089-d1c2e40debb6",
+      "ward_no": "2",
+      "ward_name_en": "Kadayar",
+      "ward_name_ml": "കടയാര്‍"
+    },
+    {
+      "ward_id": "0afb88df-8a65-4d11-b6c6-dd8ff0e3d01a",
+      "ward_no": "1",
+      "ward_name_en": "Ittiyapara",
+      "ward_name_ml": "ഇട്ടിയപ്പാറ"
+    },
+    {
+      "ward_id": "776321f2-79da-4cfc-a9d5-5d7e57b957ca",
+      "ward_no": "3",
+      "ward_name_en": "Velliyara",
+      "ward_name_ml": "വെള്ളിയറ"
+    },
+    {
+      "ward_id": "200e2b91-bd82-4804-8bd4-132043b77a1c",
+      "ward_no": "4",
+      "ward_name_en": "Pannikunnu",
+      "ward_name_ml": "പന്നിക്കുന്ന്"
+    },
+    {
+      "ward_id": "c1291ce7-65a0-416a-ba15-2d19fc7248a6",
+      "ward_no": "5",
+      "ward_name_en": "Podipara",
+      "ward_name_ml": "പൊടിപ്പാറ"
+    },
+    {
+      "ward_id": "19d06b65-9620-44af-8506-2086b19ac77b",
+      "ward_no": "6",
+      "ward_name_en": "Plankamon",
+      "ward_name_ml": "പ്ലാങ്കമണ്‍"
+    },
+    {
+      "ward_id": "f52245b5-1d63-433c-9963-fc13fd5c38ea",
+      "ward_no": "7",
+      "ward_name_en": "Peroorchal",
+      "ward_name_ml": "പേരൂര്‍ച്ചാല്‍"
+    },
+    {
+      "ward_id": "078a09da-8e9c-42d1-9f34-204ec22136c5",
+      "ward_no": "8",
+      "ward_name_en": "Edappavoor",
+      "ward_name_ml": "ഇടപ്പാവൂര്‍"
+    },
+    {
+      "ward_id": "1fd9bf82-d9a7-45f2-bdf3-43e5c5770d89",
+      "ward_no": "9",
+      "ward_name_en": "Kaithakody",
+      "ward_name_ml": "കൈതക്കോടി"
+    },
+    {
+      "ward_id": "6c41b4a7-7a34-458b-a565-e7727aa68029",
+      "ward_no": "10",
+      "ward_name_en": "Kottathoor",
+      "ward_name_ml": "കോറ്റാത്തൂര്‍"
+    },
+    {
+      "ward_id": "e548ea9f-cc5d-451b-8985-dc7780de624d",
+      "ward_no": "11",
+      "ward_name_en": "Njuzhoor",
+      "ward_name_ml": "ഞുഴൂര്‍"
+    },
+    {
+      "ward_id": "a0665873-0c78-4707-848d-374c320f665c",
+      "ward_no": "12",
+      "ward_name_en": "Ayroor",
+      "ward_name_ml": "അയിരൂര്‍"
+    },
+    {
+      "ward_id": "8d2bc131-3a0d-47e3-b764-0b53c1c8857e",
+      "ward_no": "13",
+      "ward_name_en": "Cherukolpuzha",
+      "ward_name_ml": "ചെറുകോല്‍പ്പുഴ"
+    },
+    {
+      "ward_id": "11361eaf-08b2-4380-bc0d-696c99c265eb",
+      "ward_no": "14",
+      "ward_name_en": "Puthezhum",
+      "ward_name_ml": "പുത്തേഴം"
+    },
+    {
+      "ward_id": "fed77cde-63bb-4121-9d94-3b697f8ac150",
+      "ward_no": "15",
+      "ward_name_en": "Kanjeetukara",
+      "ward_name_ml": "കാഞ്ഞീറ്റുകര"
+    },
+    {
+      "ward_id": "9d4e6ee8-9ba6-4724-9ec5-ef92ac98f656",
+      "ward_no": "16",
+      "ward_name_en": "Thadiyoor",
+      "ward_name_ml": "തടിയൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030301.geojson"
+  }
+}

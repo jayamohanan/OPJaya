@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G130902",
+  "local_body_name_en": "Chittariparamba",
+  "local_body_name_ml": "ചിറ്റാരിപ്പറമ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "15",
+    "assembly_name_en": "Mattanur",
+    "assembly_name_ml": "മട്ടന്നൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5142f214-7b75-46d0-b0fd-6aaa31684012",
+      "ward_no": "1",
+      "ward_name_en": "Mudappathur",
+      "ward_name_ml": "മുടപ്പത്തൂര്‍"
+    },
+    {
+      "ward_id": "9a8a87c3-ea36-43d0-beb3-8956f91f8838",
+      "ward_no": "2",
+      "ward_name_en": "Vattoli",
+      "ward_name_ml": "വട്ടോളി"
+    },
+    {
+      "ward_id": "0d86933e-b7a7-474f-abe9-f572b379f2c2",
+      "ward_no": "3",
+      "ward_name_en": "Edumba",
+      "ward_name_ml": "ഇടുമ്പ"
+    },
+    {
+      "ward_id": "0463ad6a-37c3-4672-a7e6-e756167bc301",
+      "ward_no": "4",
+      "ward_name_en": "Modoli",
+      "ward_name_ml": "മൊടോളി"
+    },
+    {
+      "ward_id": "a8fdabfe-140e-4830-877f-27a2b562ce16",
+      "ward_no": "5",
+      "ward_name_en": "Thodeekkalam",
+      "ward_name_ml": "തൊടീക്കളം"
+    },
+    {
+      "ward_id": "cc61ef55-29c2-4b02-9190-db106d9cd835",
+      "ward_no": "6",
+      "ward_name_en": "Poozhiyode",
+      "ward_name_ml": "പൂഴിയോട്"
+    },
+    {
+      "ward_id": "8f871fd0-d7ea-4df5-b766-3d30b9d3d5f0",
+      "ward_no": "7",
+      "ward_name_en": "Kannavam",
+      "ward_name_ml": "കണ്ണവം"
+    },
+    {
+      "ward_id": "f3dbc7e2-0d32-4b44-bebe-8a09110e974b",
+      "ward_no": "8",
+      "ward_name_en": "Poovathinkeezhil",
+      "ward_name_ml": "പൂവ്വത്തിന്‍കീഴില്‍"
+    },
+    {
+      "ward_id": "69d91b71-abf6-47ca-9efd-6ef2495716cd",
+      "ward_no": "9",
+      "ward_name_en": "Chittariparamba",
+      "ward_name_ml": "ചിറ്റാരിപറമ്പ്"
+    },
+    {
+      "ward_id": "bb2bd23f-5201-41b0-9f24-c63402c8feee",
+      "ward_no": "10",
+      "ward_name_en": "Mannanthara",
+      "ward_name_ml": "മണ്ണന്തറ"
+    },
+    {
+      "ward_id": "734012c5-adc5-478e-b756-0e09addf411c",
+      "ward_no": "11",
+      "ward_name_en": "Areekkara",
+      "ward_name_ml": "അരീക്കര"
+    },
+    {
+      "ward_id": "923a396d-5bb9-4a1f-a64a-1302a3ffa93b",
+      "ward_no": "12",
+      "ward_name_en": "Nhalil",
+      "ward_name_ml": "ഞാലില്‍"
+    },
+    {
+      "ward_id": "379cfc99-b3a2-447e-b9fb-76b9b9b2927c",
+      "ward_no": "13",
+      "ward_name_en": "Vannathimoola",
+      "ward_name_ml": "വണ്ണാത്തിമൂല"
+    },
+    {
+      "ward_id": "1867c732-6951-457e-9bbb-b49882739862",
+      "ward_no": "14",
+      "ward_name_en": "Manantheri",
+      "ward_name_ml": "മാനന്തേരി"
+    },
+    {
+      "ward_id": "6dacb769-f9a4-4abe-b864-14d3758a16d6",
+      "ward_no": "15",
+      "ward_name_en": "Ambayakadu",
+      "ward_name_ml": "അമ്പായക്കാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130902.geojson"
+  }
+}

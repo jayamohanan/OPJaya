@@ -1,0 +1,66 @@
+{
+  "assembly_id": "51",
+  "assembly_name_en": "Shoranur",
+  "assembly_name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G090303",
+      "local_body_name_en": "Chalavara",
+      "local_body_name_ml": "ചളവറ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M090600",
+      "local_body_name_en": "Cherpulassery",
+      "local_body_name_ml": "ചെര്‍പുളശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090308",
+      "local_body_name_en": "Nellaya",
+      "local_body_name_ml": "നെല്ലായ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M090200",
+      "local_body_name_en": "Shoranur",
+      "local_body_name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090306",
+      "local_body_name_en": "Trikkaderi",
+      "local_body_name_ml": "തൃക്കടീരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090305",
+      "local_body_name_en": "Vaniamkulam",
+      "local_body_name_ml": "വാണിയംകുളം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090302",
+      "local_body_name_en": "Ananganadi",
+      "local_body_name_ml": "അനങ്ങനടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090406",
+      "local_body_name_en": "Vellinezhi",
+      "local_body_name_ml": "വെള്ളിനേഴി",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/shoranur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/shoranur.geojson"
+  }
+}

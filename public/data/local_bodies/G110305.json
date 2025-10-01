@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G110305",
+  "local_body_name_en": "Maruthonkara",
+  "local_body_name_ml": "മരുതോങ്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "22",
+    "assembly_name_en": "Nadapuram",
+    "assembly_name_ml": "നാദാപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "59d680bb-5950-4858-b51e-bdc2c7ae7ac4",
+      "ward_no": "1",
+      "ward_name_en": "Kallad",
+      "ward_name_ml": "കള്ളാട്"
+    },
+    {
+      "ward_id": "2e29b0ac-150d-4878-b982-295e33b41d67",
+      "ward_no": "2",
+      "ward_name_en": "Paikkattummal",
+      "ward_name_ml": "പൈക്കാട്ടുമ്മല്"
+    },
+    {
+      "ward_id": "7f825196-4ca2-4bd1-b84f-cde5175c13f3",
+      "ward_no": "3",
+      "ward_name_en": "Kacheri",
+      "ward_name_ml": "കച്ചേരി"
+    },
+    {
+      "ward_id": "fb10c71b-104a-44ba-a239-4cab270857d4",
+      "ward_no": "4",
+      "ward_name_en": "Maruthomkara",
+      "ward_name_ml": "മരുതോങ്കര"
+    },
+    {
+      "ward_id": "dd76a933-1a9a-4319-9aaf-07a68a554617",
+      "ward_no": "5",
+      "ward_name_en": "Villiampara",
+      "ward_name_ml": "വില്യംപാറ"
+    },
+    {
+      "ward_id": "21b19151-f23d-4149-aae7-ea34fb6b7e01",
+      "ward_no": "6",
+      "ward_name_en": "Kothode",
+      "ward_name_ml": "കോതോട്"
+    },
+    {
+      "ward_id": "2603af60-560f-44dc-8fdc-6a1777e8cb38",
+      "ward_no": "7",
+      "ward_name_en": "Thoovattapoyil",
+      "ward_name_ml": "തൂവ്വട്ടപൊയില്"
+    },
+    {
+      "ward_id": "15eaf7d9-4d9d-47db-a180-b05915245a00",
+      "ward_no": "8",
+      "ward_name_en": "Pasukkadavu",
+      "ward_name_ml": "പശുക്കടവ്"
+    },
+    {
+      "ward_id": "4e4e066b-e981-4125-8137-f57b771c6dd7",
+      "ward_no": "9",
+      "ward_name_en": "Centremukku",
+      "ward_name_ml": "സെന്റര്മുക്ക്"
+    },
+    {
+      "ward_id": "a0c70664-fe2c-4d87-932c-3dfb82c0650c",
+      "ward_no": "10",
+      "ward_name_en": "Vannathichira",
+      "ward_name_ml": "വണ്ണാത്തിച്ചിറ"
+    },
+    {
+      "ward_id": "86b8c75c-b32e-4e87-9d10-9758ee60b0eb",
+      "ward_no": "11",
+      "ward_name_en": "Mullankunnu",
+      "ward_name_ml": "മുള്ളന്കുന്ന്"
+    },
+    {
+      "ward_id": "1de636d8-6d32-47f3-bc09-3eb931e06df4",
+      "ward_no": "12",
+      "ward_name_en": "Maruthomkara South",
+      "ward_name_ml": "മരുതോങ്കര സൌത്ത്"
+    },
+    {
+      "ward_id": "bd967c1a-5694-4ae8-808b-01c773d9a20b",
+      "ward_no": "13",
+      "ward_name_en": "Mundakkutti",
+      "ward_name_ml": "മുണ്ടക്കുറ്റി"
+    },
+    {
+      "ward_id": "98d59c04-08e4-4bc1-809d-14c99e1a940c",
+      "ward_no": "14",
+      "ward_name_en": "Adukkath",
+      "ward_name_ml": "അടുക്കത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110305.geojson"
+  }
+}

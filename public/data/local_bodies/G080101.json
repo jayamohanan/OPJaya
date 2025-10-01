@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G080101",
+  "local_body_name_en": "Kadappuram",
+  "local_body_name_ml": "കടപ്പുറം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "63",
+    "assembly_name_en": "Guruvayur",
+    "assembly_name_ml": "ഗുരുവായൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3bcf8748-ec15-442c-85bb-003c7ce2a2c0",
+      "ward_no": "1",
+      "ward_name_en": "Theeradesam",
+      "ward_name_ml": "തീരദേശം"
+    },
+    {
+      "ward_id": "12bb68bb-5f3a-475e-9213-1b44ac37551d",
+      "ward_no": "2",
+      "ward_name_en": "Erattappuzha",
+      "ward_name_ml": "ഇരട്ടപ്പുഴ"
+    },
+    {
+      "ward_id": "29882c4c-885a-4754-b969-fc1e736fe776",
+      "ward_no": "3",
+      "ward_name_en": "Blangad",
+      "ward_name_ml": "ബ്ലാങ്ങാട്"
+    },
+    {
+      "ward_id": "a2d3911a-4d85-47ba-87f2-5fa90698eda3",
+      "ward_no": "4",
+      "ward_name_en": "Poonthiruthi",
+      "ward_name_ml": "പൂന്തിരുത്തി"
+    },
+    {
+      "ward_id": "9d3f4ec3-0ec1-43c6-bbda-d24eda213990",
+      "ward_no": "5",
+      "ward_name_en": "Mattummal",
+      "ward_name_ml": "മാട്ടുമ്മല്‍"
+    },
+    {
+      "ward_id": "493af1df-e8ce-4f9e-b308-dd5fded4b43f",
+      "ward_no": "6",
+      "ward_name_en": "Vattekkad",
+      "ward_name_ml": "വട്ടേക്കാട്"
+    },
+    {
+      "ward_id": "7f319854-ae0e-4e10-a098-f698b6706472",
+      "ward_no": "7",
+      "ward_name_en": "Adithiruthi",
+      "ward_name_ml": "അടിത്തിരുത്തി"
+    },
+    {
+      "ward_id": "7317b94f-d285-4fe2-ab0f-cf3f850888a6",
+      "ward_no": "8",
+      "ward_name_en": "Karukamad",
+      "ward_name_ml": "കറുകമാട്"
+    },
+    {
+      "ward_id": "e882a7e2-e647-426c-b9ee-0310b2d06bc1",
+      "ward_no": "9",
+      "ward_name_en": "Azhimugham",
+      "ward_name_ml": "അഴിമുഖം"
+    },
+    {
+      "ward_id": "a139feec-461f-4215-b312-1f812b02c99b",
+      "ward_no": "10",
+      "ward_name_en": "Puthiyangadi",
+      "ward_name_ml": "പുതിയങ്ങാടി"
+    },
+    {
+      "ward_id": "1b4fde1b-aa1e-4c04-b3f1-742745fafe9c",
+      "ward_no": "11",
+      "ward_name_en": "Anjangadi",
+      "ward_name_ml": "അഞ്ചങ്ങാടി"
+    },
+    {
+      "ward_id": "05d23438-918b-4c5a-85c7-296685767048",
+      "ward_no": "12",
+      "ward_name_en": "Kacheri",
+      "ward_name_ml": "കച്ചേരി"
+    },
+    {
+      "ward_id": "799ad198-88b6-4dc9-affa-57de98b44261",
+      "ward_no": "13",
+      "ward_name_en": "Ashupathrippadi",
+      "ward_name_ml": "ആശുപത്രിപ്പടി"
+    },
+    {
+      "ward_id": "9e6346c2-cff6-4a48-bf96-cd2797354d64",
+      "ward_no": "14",
+      "ward_name_en": "Thottappu",
+      "ward_name_ml": "തൊട്ടാപ്പ്"
+    },
+    {
+      "ward_id": "769b9b7f-d896-4626-8739-a7dade4c9793",
+      "ward_no": "15",
+      "ward_name_en": "Focus",
+      "ward_name_ml": "ഫോക്കസ്"
+    },
+    {
+      "ward_id": "839c464e-a363-4e65-ae9e-4b7f48bb2ecb",
+      "ward_no": "16",
+      "ward_name_en": "Light House",
+      "ward_name_ml": "ലൈറ്റ് ഹൌസ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080101.geojson"
+  }
+}

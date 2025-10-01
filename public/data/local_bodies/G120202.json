@@ -1,0 +1,163 @@
+{
+  "local_body_id": "G120202",
+  "local_body_name_en": "Poothadi",
+  "local_body_name_ml": "പൂതാടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "18",
+    "assembly_name_en": "Sulthan Bathery",
+    "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "47b0b693-627c-4cc6-9f2a-f1657d90ea42",
+      "ward_no": "1",
+      "ward_name_en": "Nadavayal",
+      "ward_name_ml": "നടവയല്‍"
+    },
+    {
+      "ward_id": "637e984b-0908-4981-8513-bbed02f6011f",
+      "ward_no": "2",
+      "ward_name_en": "Kelamangalam",
+      "ward_name_ml": "കേളമംഗലം"
+    },
+    {
+      "ward_id": "6c252ee2-1859-4550-a7a8-bc349a44da4c",
+      "ward_no": "3",
+      "ward_name_en": "Manalvayal",
+      "ward_name_ml": "മണല്‍വയല്‍"
+    },
+    {
+      "ward_id": "84f58927-b6f4-446c-a8ea-1d9a8c580075",
+      "ward_no": "4",
+      "ward_name_en": "Irulam",
+      "ward_name_ml": "ഇരുളം"
+    },
+    {
+      "ward_id": "e85b1441-681f-421b-9fa8-e0a60567d29a",
+      "ward_no": "5",
+      "ward_name_en": "Cheeyambam",
+      "ward_name_ml": "ചീയമ്പം"
+    },
+    {
+      "ward_id": "0d628739-554e-49b2-871c-5ed5fb296b9c",
+      "ward_no": "6",
+      "ward_name_en": "Chundakolly",
+      "ward_name_ml": "ചുണ്ടക്കൊല്ലി"
+    },
+    {
+      "ward_id": "c0d426a7-ac84-4e29-8159-fd6b566b8097",
+      "ward_no": "7",
+      "ward_name_en": "Angadisseri",
+      "ward_name_ml": "അങ്ങാടിശ്ശേരി"
+    },
+    {
+      "ward_id": "cc44f4c4-66cd-4e54-b041-557a6998499d",
+      "ward_no": "8",
+      "ward_name_en": "Thoothaleri",
+      "ward_name_ml": "തൂത്തലേരി"
+    },
+    {
+      "ward_id": "54c2d229-a7f4-4cfb-8a23-e53a436f505a",
+      "ward_no": "9",
+      "ward_name_en": "Paplasseri",
+      "ward_name_ml": "പാപ്ലശ്ശേരി"
+    },
+    {
+      "ward_id": "32148956-a588-4ff1-8668-137d590c5ea8",
+      "ward_no": "10",
+      "ward_name_en": "Gandhinagar",
+      "ward_name_ml": "ഗാന്ധിനഗര്‍"
+    },
+    {
+      "ward_id": "f6aa17cf-2adb-4857-b053-f810d736a6d8",
+      "ward_no": "11",
+      "ward_name_en": "Moodakolly",
+      "ward_name_ml": "മൂടക്കൊല്ലി"
+    },
+    {
+      "ward_id": "ea24e56b-0b2a-4382-a7c2-2fe9df2066f9",
+      "ward_no": "12",
+      "ward_name_en": "Vakeri",
+      "ward_name_ml": "വാകേരി"
+    },
+    {
+      "ward_id": "b0eb9bfa-0911-41f6-8f86-fbc011a82108",
+      "ward_no": "13",
+      "ward_name_en": "Kallorekunnu",
+      "ward_name_ml": "കല്ലൂര്‍ക്കുന്ന്"
+    },
+    {
+      "ward_id": "233fa21e-fb86-44ad-83cf-1b3a33617578",
+      "ward_no": "14",
+      "ward_name_en": "Koleri",
+      "ward_name_ml": "കോളേരി"
+    },
+    {
+      "ward_id": "0565b3ae-caa5-43b0-99c7-79e9aee6f3a0",
+      "ward_no": "15",
+      "ward_name_en": "Athirattukunnu",
+      "ward_name_ml": "അതിരാറ്റ്കുന്ന്"
+    },
+    {
+      "ward_id": "ea4c252e-0b9b-43bc-92e7-82f340ce45ba",
+      "ward_no": "16",
+      "ward_name_en": "Kenichira",
+      "ward_name_ml": "കേണിച്ചിറ"
+    },
+    {
+      "ward_id": "7111cffc-3e8e-4de9-bd54-ee91d7178988",
+      "ward_no": "17",
+      "ward_name_en": "Thazhamunda",
+      "ward_name_ml": "താഴമുണ്ട"
+    },
+    {
+      "ward_id": "a2187cba-41c0-4823-8b25-43c283470d44",
+      "ward_no": "18",
+      "ward_name_en": "Nellikkara",
+      "ward_name_ml": "നെല്ലിക്കര"
+    },
+    {
+      "ward_id": "e74472ff-f0c4-42f2-b51b-bfc0bb45f9eb",
+      "ward_no": "19",
+      "ward_name_en": "Puliyambatta",
+      "ward_name_ml": "പുളിയമ്പറ്റ"
+    },
+    {
+      "ward_id": "4ab2aaf6-8f57-45fc-b7e4-c147c47ce4f5",
+      "ward_no": "20",
+      "ward_name_en": "Poothadi",
+      "ward_name_ml": "പൂതാടി"
+    },
+    {
+      "ward_id": "ed0a1794-7869-47cd-bac0-ad6c55f35c89",
+      "ward_no": "21",
+      "ward_name_en": "Kottavayal",
+      "ward_name_ml": "കോട്ടവയല്‍"
+    },
+    {
+      "ward_id": "a1ad8bb9-5950-4f2b-9e67-06ab92dbb243",
+      "ward_no": "22",
+      "ward_name_en": "Cherukunnu",
+      "ward_name_ml": "ചെറുകുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G120202.geojson"
+  }
+}

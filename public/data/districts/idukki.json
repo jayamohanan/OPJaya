@@ -1,0 +1,43 @@
+{
+  "district_id": "6",
+  "district_name_en": "Idukki",
+  "district_name_ml": "ഇടുക്കി",
+  "is_active": true,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "88",
+      "assembly_name_en": "Devikulam",
+      "assembly_name_ml": "ദേവികുളം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "89",
+      "assembly_name_en": "Udumbanchola",
+      "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "90",
+      "assembly_name_en": "Thodupuzha",
+      "assembly_name_ml": "തൊടുപുഴ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "91",
+      "assembly_name_en": "Idukki",
+      "assembly_name_ml": "ഇടുക്കി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "92",
+      "assembly_name_en": "Peerumade",
+      "assembly_name_ml": "പീരുമേട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/idukki.geojson",
+    "assemblies": "geojson/districts/with-assemblies/idukki.geojson"
+  }
+}

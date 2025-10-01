@@ -1,0 +1,72 @@
+{
+  "assembly_id": "137",
+  "assembly_name_en": "Parassala",
+  "assembly_name_ml": "പാറശ്ശാല",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G010904",
+      "local_body_name_en": "Aryancode",
+      "local_body_name_ml": "ആര്യങ്കോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010905",
+      "local_body_name_en": "Kallikkadu",
+      "local_body_name_ml": "കള്ളിക്കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010902",
+      "local_body_name_en": "Kollayil",
+      "local_body_name_ml": "കൊല്ലയില്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010906",
+      "local_body_name_en": "Kunnathukal",
+      "local_body_name_ml": "കുന്നത്തുകാല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010903",
+      "local_body_name_en": "Ottasekharamangalam",
+      "local_body_name_ml": "ഒറ്റശേഖരമംഗലം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G011104",
+      "local_body_name_en": "Parassala",
+      "local_body_name_ml": "പാറശ്ശാല",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010901",
+      "local_body_name_en": "Perumkadavila",
+      "local_body_name_ml": "പെരുങ്കടവിള",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010908",
+      "local_body_name_en": "Amboori",
+      "local_body_name_ml": "അമ്പൂരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010907",
+      "local_body_name_en": "Vellarada",
+      "local_body_name_ml": "വെള്ളറട",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/parassala.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/parassala.geojson"
+  }
+}

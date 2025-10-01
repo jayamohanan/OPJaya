@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G081404",
+  "local_body_name_en": "Perinjanam",
+  "local_body_name_ml": "പെരിഞ്ഞനം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "69",
+    "assembly_name_en": "Kaipamangalam",
+    "assembly_name_ml": "കൈപ്പമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "8e478eb5-d6dd-48dc-a41d-8daa6d0552f1",
+      "ward_no": "1",
+      "ward_name_en": "Perinjanam North",
+      "ward_name_ml": "പെരിഞ്ഞനം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "1b7235b1-6dab-45ad-8160-274ee5ce14ef",
+      "ward_no": "2",
+      "ward_name_en": "Mahallara",
+      "ward_name_ml": "മഹള്ളറ"
+    },
+    {
+      "ward_id": "892187e2-c05f-468f-af21-b5f9a80236b2",
+      "ward_no": "3",
+      "ward_name_en": "Achamkandam",
+      "ward_name_ml": "അച്ചംകണ്ടം"
+    },
+    {
+      "ward_id": "4a0ee635-0f88-4b28-8723-9485c1d43c29",
+      "ward_no": "4",
+      "ward_name_en": "Perinjanam Centre",
+      "ward_name_ml": "പെരിഞ്ഞനം സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "e493d5b1-9fd9-449e-84a1-570c8b321c2a",
+      "ward_no": "5",
+      "ward_name_en": "Moonnupeetika",
+      "ward_name_ml": "മൂന്നുപീടിക"
+    },
+    {
+      "ward_id": "38f6b3e7-b8ee-43c5-8978-2b761a564d57",
+      "ward_no": "6",
+      "ward_name_en": "Highschool",
+      "ward_name_ml": "ഹൈസ്കൂള്‍"
+    },
+    {
+      "ward_id": "8399fdc4-b715-4c2d-860a-a76fa7f3cac7",
+      "ward_no": "7",
+      "ward_name_en": "Kanal",
+      "ward_name_ml": "കനാല്‍"
+    },
+    {
+      "ward_id": "6cd6e53d-64ab-4131-acea-90a66bc97bf2",
+      "ward_no": "8",
+      "ward_name_en": "Chakkarappadam",
+      "ward_name_ml": "ചക്കരപ്പാടം"
+    },
+    {
+      "ward_id": "2cba5420-c8b9-4196-9b8d-4077309ad2ae",
+      "ward_no": "9",
+      "ward_name_en": "Sreemuruka",
+      "ward_name_ml": "ശ്രീമുരുക"
+    },
+    {
+      "ward_id": "edd21e4c-27c6-4a44-9441-016c3781c2fd",
+      "ward_no": "10",
+      "ward_name_en": "Kuttilakkadavu",
+      "ward_name_ml": "കുറ്റിലക്കടവ്"
+    },
+    {
+      "ward_id": "7dfaf0b4-3683-43aa-8ea4-dee662b4cf0a",
+      "ward_no": "11",
+      "ward_name_en": "Kottamkulam",
+      "ward_name_ml": "കൊറ്റംകുളം"
+    },
+    {
+      "ward_id": "c9fdeb21-078a-4591-bc0b-3433421b2602",
+      "ward_no": "12",
+      "ward_name_en": "Perinjanam South",
+      "ward_name_ml": "പെരിഞ്ഞനം സൌത്ത്"
+    },
+    {
+      "ward_id": "7b46d8a9-eadd-4247-a14d-09cd6391aa94",
+      "ward_no": "13",
+      "ward_name_en": "Onapparambu",
+      "ward_name_ml": "ഓണപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "44c9a4cb-628a-46dc-ad69-1e242bb96f2b",
+      "ward_no": "14",
+      "ward_name_en": "Kadappuram South",
+      "ward_name_ml": "കടപ്പുറം സൌത്ത്"
+    },
+    {
+      "ward_id": "4cab197d-cfe1-462e-981f-711090aaabd3",
+      "ward_no": "15",
+      "ward_name_en": "Kadappuram",
+      "ward_name_ml": "കടപ്പുറം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081404.geojson"
+  }
+}

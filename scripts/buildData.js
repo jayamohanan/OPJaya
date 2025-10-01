@@ -85,43 +85,38 @@ function toFilename(name) {
     const districtMap = Object.fromEntries(districts.map(d => [d.district_id, d]));
     const assemblyMap = Object.fromEntries(assemblies.map(a => [a.assembly_id, a]));
 
-    // For testing: limit to 10 items each
-    const testDistricts = districts.slice(0, 10);
-    const testAssemblies = assemblies.slice(0, 10);
-
-    // For category demo: pick one per unique category
-    function pickOnePerCategory(items, getCategory) {
-      const seen = new Set();
-      const result = [];
-      for (const item of items) {
-        const cat = getCategory(item);
-        if (!seen.has(cat)) {
-          seen.add(cat);
-          result.push(item);
-        }
+  // Remove all test/demo limits: use all districts, assemblies, and local bodies
+  const allDistricts = districts;
+  const allAssemblies = assemblies;
+    // Fetch all local bodies in batches (Supabase 1000 row limit workaround)
+    async function fetchAllLocalBodies(batchSize = 1000) {
+      let allLocalBodies = [];
+      let from = 0;
+      while (true) {
+        const { data, error } = await supabase
+          .from('local_body')
+          .select('*')
+          .range(from, from + batchSize - 1);
+        if (error) throw error;
+        if (!data.length) break;
+        allLocalBodies = allLocalBodies.concat(data);
+        from += batchSize;
+        if (data.length < batchSize) break;
       }
-      return result;
+      return allLocalBodies;
     }
-
-    // Pick one district per unique category
-    const demoDistricts = pickOnePerCategory(districts, d => districtCategoryMap[d.district_id] || '');
-    // Pick one assembly per unique category
-    const demoAssemblies = pickOnePerCategory(assemblies, a => assemblyCategoryMap[a.assembly_id] || '');
-    // Fetch local bodies and categories
-    const { data: localBodies } = await supabase.from('local_body').select('*');
+    const allLocalBodies = await fetchAllLocalBodies();
     const { data: localBodyCategories } = await supabase.from('local_body_category').select('*');
     const localBodyCategoryMap = Object.fromEntries((localBodyCategories || []).map(lc => [lc.local_body_id, lc.category]));
-    // Pick one local body per unique category
-    const demoLocalBodies = pickOnePerCategory(localBodies, l => localBodyCategoryMap[l.local_body_id] || '');
 
-    // --- 1. State JSON (ACTIVE) ---
+    // --- 1. State JSON (ALL) ---
     console.log('🏗️  Generating state JSON...');
     const stateJSON = {
       state_id: 'kl',
       state_name_en: 'Kerala',
       state_name_ml: 'കേരളം',
       category: 'normal',
-      districts: demoDistricts.map(d => ({
+      districts: allDistricts.map(d => ({
         district_id: d.district_id,
         district_name_en: d.district_name_en,
         district_name_ml: d.district_name_ml,
@@ -134,10 +129,10 @@ function toFilename(name) {
     };
     await writeJSON(path.join(DATA_DIR, 'state.json'), stateJSON);
 
-    // --- 2. District JSONs (one per category) ---
+    // --- 2. District JSONs (ALL) ---
     console.log('🏗️  Generating district JSON files...');
-    for (const d of demoDistricts) {
-      const districtAssemblies = assemblies.filter(a => a.district_id === d.district_id);
+    for (const d of allDistricts) {
+      const districtAssemblies = allAssemblies.filter(a => a.district_id === d.district_id);
       const districtJSON = {
         district_id: d.district_id,
         district_name_en: d.district_name_en,
@@ -158,11 +153,11 @@ function toFilename(name) {
       await writeJSON(path.join(DISTRICTS_DIR, `${toFilename(d.district_name_en)}.json`), districtJSON);
     }
 
-        // --- 3. Assembly JSONs (one per category) ---
+    // --- 3. Assembly JSONs (ALL) ---
     console.log('🏗️  Generating assembly JSON files...');
-    for (const a of demoAssemblies) {
+    for (const a of allAssemblies) {
       const district = districtMap[a.district_id] || {};
-      const assemblyLocalBodies = localBodies.filter(l => l.assembly_id === a.assembly_id);
+      const assemblyLocalBodies = allLocalBodies.filter(l => l.assembly_id === a.assembly_id);
       const assemblyJSON = {
         assembly_id: a.assembly_id,
         assembly_name_en: a.assembly_name_en,
@@ -188,24 +183,37 @@ function toFilename(name) {
       await writeJSON(path.join(ASSEMBLIES_DIR, `${toFilename(a.assembly_name_en)}.json`), assemblyJSON);
     }
 
-        // --- 4. Local Body JSONs (one per category) ---
+    // --- 4. Local Body JSONs (ALL) ---
     console.log('🏗️  Generating local body JSON files...');
     const { data: localBodyTypes } = await supabase.from('local_body_type').select('*');
-    const { data: wards, error: wardsError } = await supabase.from('ward').select('*');
-    if (wardsError) throw wardsError;
-    console.log('Fetched wards:', wards.length); // Add this line
+    // --- Fetch all wards in batches (Supabase 1000 row limit workaround) ---
+    async function fetchAllWards(batchSize = 1000) {
+      let allWards = [];
+      let from = 0;
+      let to = batchSize - 1;
+      let keepGoing = true;
+      while (keepGoing) {
+        const { data: batch, error } = await supabase.from('ward').select('*').range(from, to);
+        if (error) throw error;
+        if (!batch || batch.length === 0) break;
+        allWards = allWards.concat(batch);
+        if (batch.length < batchSize) break;
+        from += batchSize;
+        to += batchSize;
+      }
+      return allWards;
+    }
+    const wards = await fetchAllWards();
     const { data: towns } = await supabase.from('town').select('*');
     const { data: issues } = await supabase.from('issues').select('*');
     const { data: wardCollections } = await supabase.from('ward_collection').select('*');
     
     const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t.type_id, t]));
 
-    for (const l of demoLocalBodies) {
-        console.log('l.local_body_id ', l.local_body_id);
+    for (const l of allLocalBodies) {
       const type = localBodyTypeMap[l.type_id] || {};
       const assembly = assemblyMap[l.assembly_id] || {};
       const district = districtMap[assembly.district_id] || {};
-      console.log('4444555555wards.length:', wards.length);
       const lbWardsWithBasicInfo = wards
         .filter(w => w.local_body_id === l.local_body_id)
         .map(w => ({
@@ -247,10 +255,10 @@ function toFilename(name) {
         towns: lbTownsArr,
         issues: issuesByType,
         geojson_links: {
-          outline: `geojson/local-bodies/outlines/${toFilename(l.local_body_name_en)}.geojson`
+          outline: `geojson/local-bodies/outlines/${l.local_body_id}.geojson`
         }
       };
-      await writeJSON(path.join(LOCAL_BODIES_DIR, `${toFilename(l.local_body_name_en)}.json`), localBodyJSON);
+      await writeJSON(path.join(LOCAL_BODIES_DIR, `${l.local_body_id}.json`), localBodyJSON);
     }
 
     // --- COMMENTED OUT: Index JSON ---
@@ -284,14 +292,10 @@ function toFilename(name) {
 
     console.log('\n🎉 JSON generation completed!');
     console.log(`📁 Generated files:`);
-    console.log(`   - state.json (Kerala State)`);
-    console.log(`   - ${testDistricts.length} district files in: public/data/districts/`);
-    console.log(`   - ${testAssemblies.length} assembly files in: public/data/assemblies/`);
-    console.log(`   - 10 local body files in: public/data/local_bodies/`);
-    console.log('📋 District files created:');
-    for (const d of testDistricts) {
-      console.log(`   - ${toFilename(d.district_name_en)}.json (${d.district_name_en})`);
-    }
+  console.log(`   - state.json (Kerala State)`);
+  console.log(`   - ${allDistricts.length} district files in: public/data/districts/`);
+  console.log(`   - ${allAssemblies.length} assembly files in: public/data/assemblies/`);
+  console.log(`   - ${allLocalBodies.length} local body files in: public/data/local_bodies/`);
     console.log('\n📝 Next steps:');
     console.log('   1. Check the generated files in public/data/');
     console.log('   2. Verify the JSON structure is correct');

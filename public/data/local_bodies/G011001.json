@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G011001",
+  "local_body_name_en": "Athiyannoor",
+  "local_body_name_ml": "അതിയന്നൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "140",
+    "assembly_name_en": "Neyyattinkara",
+    "assembly_name_ml": "നെയ്യാറ്റിൻകര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b298d99a-3012-4e2a-b432-6d9d1910528d",
+      "ward_no": "1",
+      "ward_name_en": "Ramapuram",
+      "ward_name_ml": "രാമപുരം"
+    },
+    {
+      "ward_id": "22fc44bb-f664-4479-b220-489036fc1d9c",
+      "ward_no": "2",
+      "ward_name_en": "Athiyannoor",
+      "ward_name_ml": "അതിയന്നൂര്‍"
+    },
+    {
+      "ward_id": "ccbb16d7-7e6a-4d85-8194-1a7f432aeb0e",
+      "ward_no": "3",
+      "ward_name_en": "Arangamugal",
+      "ward_name_ml": "അരംഗമുകള്‍"
+    },
+    {
+      "ward_id": "6d2d4ad6-7fcf-4161-888a-f0605eea683f",
+      "ward_no": "4",
+      "ward_name_en": "Ooruttukala",
+      "ward_name_ml": "ഊരുട്ടുകാല"
+    },
+    {
+      "ward_id": "4e4bdbe8-27af-4ee5-a926-8310fc1bce6a",
+      "ward_no": "5",
+      "ward_name_en": "Kodangavila",
+      "ward_name_ml": "കൊടങ്ങാവിള"
+    },
+    {
+      "ward_id": "b7a157ca-d8e3-45ad-a771-fd48c78e6c0d",
+      "ward_no": "6",
+      "ward_name_en": "Kamukincode",
+      "ward_name_ml": "കമുകിന്‍കോട്"
+    },
+    {
+      "ward_id": "7124e92f-66f9-4d90-8de1-80b541b52491",
+      "ward_no": "7",
+      "ward_name_en": "Sasthamthala",
+      "ward_name_ml": "ശാസ്താംതല"
+    },
+    {
+      "ward_id": "633d49c4-b3a7-4825-8ae9-3db10c40878d",
+      "ward_no": "8",
+      "ward_name_en": "Venpakal",
+      "ward_name_ml": "വെണ്‍പകല്‍"
+    },
+    {
+      "ward_id": "c12452d2-c2a4-45c9-bad1-537aba4f3610",
+      "ward_no": "9",
+      "ward_name_en": "Bhaskernager",
+      "ward_name_ml": "ഭാസ്ക്കര്‍നഗര്‍"
+    },
+    {
+      "ward_id": "fda03a3c-5566-4643-9dd5-6b66d01d6588",
+      "ward_no": "10",
+      "ward_name_en": "Arangal",
+      "ward_name_ml": "അരങ്ങല്‍"
+    },
+    {
+      "ward_id": "2842e721-1f40-4e89-a237-bea04bb37189",
+      "ward_no": "11",
+      "ward_name_en": "Pongil",
+      "ward_name_ml": "പോങ്ങില്‍"
+    },
+    {
+      "ward_id": "b57cdcbd-57cd-4f5a-98e5-6f5f1798381c",
+      "ward_no": "12",
+      "ward_name_en": "Nellimoodu",
+      "ward_name_ml": "നെല്ലിമൂട്"
+    },
+    {
+      "ward_id": "78d54424-13e7-4155-a1f9-c73c6612564c",
+      "ward_no": "13",
+      "ward_name_en": "Kannaravila",
+      "ward_name_ml": "കണ്ണറവിള"
+    },
+    {
+      "ward_id": "f73f2aee-a43b-4d3e-a196-5a85c2050023",
+      "ward_no": "14",
+      "ward_name_en": "Poothamcode",
+      "ward_name_ml": "പൂതംകോട്"
+    },
+    {
+      "ward_id": "249b7f1f-f932-4319-923e-e6f241f0c75d",
+      "ward_no": "15",
+      "ward_name_en": "Maruthamcode",
+      "ward_name_ml": "മരുതംകോട്"
+    },
+    {
+      "ward_id": "98f56d43-6b55-4029-845f-0c2597b8aec9",
+      "ward_no": "16",
+      "ward_name_en": "Sabarimuttam",
+      "ward_name_ml": "ശബരിമുട്ടം"
+    },
+    {
+      "ward_id": "3178696f-ff8b-4beb-93db-f6e05fb28091",
+      "ward_no": "17",
+      "ward_name_en": "Thannimoodu",
+      "ward_name_ml": "താന്നിമൂട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G011001.geojson"
+  }
+}

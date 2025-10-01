@@ -1,0 +1,66 @@
+{
+  "assembly_id": "74",
+  "assembly_name_en": "Perumbavoor",
+  "assembly_name_ml": "പെരുമ്പാവൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G070401",
+      "local_body_name_en": "Asamannoor",
+      "local_body_name_ml": "അശമന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070405",
+      "local_body_name_en": "Koovappady",
+      "local_body_name_ml": "കൂവപ്പടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G070402",
+      "local_body_name_en": "Mudakuzha",
+      "local_body_name_ml": "മുടക്കുഴ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070406",
+      "local_body_name_en": "Okkal",
+      "local_body_name_ml": "ഒക്കല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M070700",
+      "local_body_name_en": "Perumbavoor",
+      "local_body_name_ml": "പെരുമ്പാവൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G070404",
+      "local_body_name_en": "Rayamangalam",
+      "local_body_name_ml": "രായമംഗലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G070501",
+      "local_body_name_en": "Vengola",
+      "local_body_name_ml": "വെങ്ങോല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070403",
+      "local_body_name_en": "Vengoor",
+      "local_body_name_ml": "വേങ്ങൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/perumbavoor.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/perumbavoor.geojson"
+  }
+}

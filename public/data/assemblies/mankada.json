@@ -1,0 +1,60 @@
+{
+  "assembly_id": "39",
+  "assembly_name_en": "Mankada",
+  "assembly_name_ml": "മങ്കട",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G100805",
+      "local_body_name_en": "Koottilangadi",
+      "local_body_name_ml": "കൂട്ടിലങ്ങാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100801",
+      "local_body_name_en": "Kuruva",
+      "local_body_name_ml": "കുറുവ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100803",
+      "local_body_name_en": "Makkaraparamba",
+      "local_body_name_ml": "മക്കരപറമ്പ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100802",
+      "local_body_name_en": "Mankada",
+      "local_body_name_ml": "മങ്കട",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100804",
+      "local_body_name_en": "Moorkkanad",
+      "local_body_name_ml": "മൂര്‍ക്കനാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100806",
+      "local_body_name_en": "Puzhakkattiri",
+      "local_body_name_ml": "പുഴക്കാട്ടിരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100708",
+      "local_body_name_en": "Angadippuram",
+      "local_body_name_ml": "അങ്ങാടിപ്പുറം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/mankada.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/mankada.geojson"
+  }
+}

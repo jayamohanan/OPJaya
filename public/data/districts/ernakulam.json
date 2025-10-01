@@ -1,0 +1,97 @@
+{
+  "district_id": "7",
+  "district_name_en": "Ernakulam",
+  "district_name_ml": "എറണാകുളം",
+  "is_active": false,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "74",
+      "assembly_name_en": "Perumbavoor",
+      "assembly_name_ml": "പെരുമ്പാവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "75",
+      "assembly_name_en": "Angamaly",
+      "assembly_name_ml": "അങ്കമാലി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "76",
+      "assembly_name_en": "Aluva",
+      "assembly_name_ml": "ആലുവ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "77",
+      "assembly_name_en": "Kalamassery",
+      "assembly_name_ml": "കളമശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "78",
+      "assembly_name_en": "Paravur",
+      "assembly_name_ml": "പരവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "79",
+      "assembly_name_en": "Vypin",
+      "assembly_name_ml": "വൈപ്പിൻ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "80",
+      "assembly_name_en": "Kochi",
+      "assembly_name_ml": "കൊച്ചി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "81",
+      "assembly_name_en": "Thrippunithura",
+      "assembly_name_ml": "തൃപ്പൂണിത്തുറ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "82",
+      "assembly_name_en": "Ernakulam",
+      "assembly_name_ml": "എറണാകുളം",
+      "category": "Good"
+    },
+    {
+      "assembly_id": "83",
+      "assembly_name_en": "Thrikkakara",
+      "assembly_name_ml": "തൃക്കാക്കര",
+      "category": "Perfect"
+    },
+    {
+      "assembly_id": "84",
+      "assembly_name_en": "Kunnathunad",
+      "assembly_name_ml": "കുന്നത്തുനാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "85",
+      "assembly_name_en": "Piravom",
+      "assembly_name_ml": "പിറവം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "86",
+      "assembly_name_en": "Muvattupuzha",
+      "assembly_name_ml": "മൂവാറ്റുപുഴ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "87",
+      "assembly_name_en": "Kothamangalam",
+      "assembly_name_ml": "കോതമംഗലം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/ernakulam.geojson",
+    "assemblies": "geojson/districts/with-assemblies/ernakulam.geojson"
+  }
+}

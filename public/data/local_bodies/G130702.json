@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G130702",
+  "local_body_name_en": "Eranholi",
+  "local_body_name_ml": "എരഞ്ഞോളി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "13",
+    "assembly_name_en": "Thalassery",
+    "assembly_name_ml": "തലശ്ശേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "92208eff-2a93-4712-afd6-6c4d95141af1",
+      "ward_no": "1",
+      "ward_name_en": "Kaliyil",
+      "ward_name_ml": "കാളിയില്‍"
+    },
+    {
+      "ward_id": "edb23c71-6721-47d3-bf9d-0d36b9d26b59",
+      "ward_no": "2",
+      "ward_name_en": "Koolibazar",
+      "ward_name_ml": "കൂളിബസാര്‍"
+    },
+    {
+      "ward_id": "1c964200-8e8e-4f37-abe4-1f311a88c64e",
+      "ward_no": "3",
+      "ward_name_en": "Thottummal",
+      "ward_name_ml": "തോട്ടുമ്മല്‍"
+    },
+    {
+      "ward_id": "f69a91d2-0cab-48f2-b318-490f659ff9aa",
+      "ward_no": "4",
+      "ward_name_en": "Perunthattil",
+      "ward_name_ml": "പെരുന്താറ്റില്‍"
+    },
+    {
+      "ward_id": "9b3c6a68-d376-45f5-8b7e-c5bf401e6019",
+      "ward_no": "5",
+      "ward_name_en": "Malal",
+      "ward_name_ml": "മലാല്‍"
+    },
+    {
+      "ward_id": "eb90557a-5727-4c35-a498-27299699111a",
+      "ward_no": "6",
+      "ward_name_en": "Kudakkalam",
+      "ward_name_ml": "കുടക്കളം"
+    },
+    {
+      "ward_id": "e45faa64-3b30-46c9-bcb5-82da725e6924",
+      "ward_no": "7",
+      "ward_name_en": "Kapparatti",
+      "ward_name_ml": "കപ്പരട്ടി"
+    },
+    {
+      "ward_id": "1ccf95be-ed2c-4d72-9126-e4d8e9ffa3c6",
+      "ward_no": "8",
+      "ward_name_en": "Chungam",
+      "ward_name_ml": "ചുങ്കം"
+    },
+    {
+      "ward_id": "3a5188bd-ea01-4853-827c-c2afadf97844",
+      "ward_no": "9",
+      "ward_name_en": "Chonadam",
+      "ward_name_ml": "ചോനാടം"
+    },
+    {
+      "ward_id": "555767b6-3d8c-4e3f-a7d4-bd8ed08761cb",
+      "ward_no": "10",
+      "ward_name_en": "Aragettu Parambu",
+      "ward_name_ml": "അരങ്ങേറ്റുപറമ്പ്"
+    },
+    {
+      "ward_id": "6f128dcf-9a1c-4bdd-bca9-3ba94f5e7c7e",
+      "ward_no": "11",
+      "ward_name_en": "Elayadath",
+      "ward_name_ml": "ഇളയടത്ത്"
+    },
+    {
+      "ward_id": "2b1eabf3-3c2a-4542-8b27-d090842efd78",
+      "ward_no": "12",
+      "ward_name_en": "Parakettu",
+      "ward_name_ml": "പാറക്കെട്ട്"
+    },
+    {
+      "ward_id": "6595add1-7a55-47bd-adcd-7ba0fdac8781",
+      "ward_no": "13",
+      "ward_name_en": "Madathumbhagam",
+      "ward_name_ml": "മഠത്തും ഭാഗം"
+    },
+    {
+      "ward_id": "42096e53-48c9-4db9-a1ea-9b91614f1d0d",
+      "ward_no": "14",
+      "ward_name_en": "Panniyottu",
+      "ward_name_ml": "പന്ന്യോട്ട്"
+    },
+    {
+      "ward_id": "98361892-fd8b-4627-af09-de5e3e8f5de2",
+      "ward_no": "15",
+      "ward_name_en": "Chandroth",
+      "ward_name_ml": "ചന്ദ്രോത്ത്"
+    },
+    {
+      "ward_id": "2c33efbe-bbfe-4118-b159-2907254961e1",
+      "ward_no": "16",
+      "ward_name_en": "Valiyathodu",
+      "ward_name_ml": "വലിയതോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130702.geojson"
+  }
+}

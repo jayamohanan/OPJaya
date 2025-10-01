@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G101007",
+  "local_body_name_en": "Oorakam",
+  "local_body_name_ml": "ഊരകം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "41",
+    "assembly_name_en": "Vengara",
+    "assembly_name_ml": "വേങ്ങര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f2f5f083-fad6-4204-a790-4625b965af2c",
+      "ward_no": "1",
+      "ward_name_en": "Nedumparamb",
+      "ward_name_ml": "നെടുംപറമ്പ്"
+    },
+    {
+      "ward_id": "1c8dd9f5-6382-45bc-ad17-2889b56511ca",
+      "ward_no": "2",
+      "ward_name_en": "Kuttaloor",
+      "ward_name_ml": "കുറ്റാളൂര്‍"
+    },
+    {
+      "ward_id": "69d3a4dd-e1f6-4a8d-8bd3-d79cbd52df0f",
+      "ward_no": "3",
+      "ward_name_en": "O.K.M. Nagar",
+      "ward_name_ml": "ഒ.കെ.എം. നഗര്‍"
+    },
+    {
+      "ward_id": "cb9da438-04ac-4156-9e64-9b1859d47e38",
+      "ward_no": "4",
+      "ward_name_en": "Karimbili",
+      "ward_name_ml": "കരിമ്പിലി"
+    },
+    {
+      "ward_id": "f221e9f6-16d5-4fad-90a6-da5f5be94ffc",
+      "ward_no": "5",
+      "ward_name_en": "Kodalikkund",
+      "ward_name_ml": "കൊടലിക്കുണ്ട്"
+    },
+    {
+      "ward_id": "0664fcfe-75d1-48c5-92eb-758f70411d45",
+      "ward_no": "6",
+      "ward_name_en": "Yarampadi",
+      "ward_name_ml": "യാറംപടി"
+    },
+    {
+      "ward_id": "69e10bba-7ba6-4bb0-b962-16888c2a3b45",
+      "ward_no": "7",
+      "ward_name_en": "Pullanchal",
+      "ward_name_ml": "പുല്ലഞ്ചാല്‍"
+    },
+    {
+      "ward_id": "807e2783-ce1d-43ec-92b2-691f4737ef95",
+      "ward_no": "8",
+      "ward_name_en": "Oorakam Mala",
+      "ward_name_ml": "ഊരകം മല"
+    },
+    {
+      "ward_id": "9586ed1e-166e-49e9-9032-989a418577f9",
+      "ward_no": "9",
+      "ward_name_en": "Puthan Peedika",
+      "ward_name_ml": "പുത്തന്‍ പീടിക"
+    },
+    {
+      "ward_id": "dce7e98d-b650-4ebd-9dd8-cb58e17972dc",
+      "ward_no": "10",
+      "ward_name_en": "Karathod",
+      "ward_name_ml": "കാരാതോട്"
+    },
+    {
+      "ward_id": "b90d6925-ae09-4687-b037-ec6217474abc",
+      "ward_no": "11",
+      "ward_name_en": "Venkulam",
+      "ward_name_ml": "വെങ്കുളം"
+    },
+    {
+      "ward_id": "712fba08-2c97-46f3-bb64-ef5d2974d1ce",
+      "ward_no": "12",
+      "ward_name_en": "Kottumala",
+      "ward_name_ml": "കോട്ടുമല"
+    },
+    {
+      "ward_id": "15d5ed93-adc8-400b-9726-33144a24c012",
+      "ward_no": "13",
+      "ward_name_en": "Panchayath Padi",
+      "ward_name_ml": "പഞ്ചായത്ത് പടി"
+    },
+    {
+      "ward_id": "21deae79-b421-4925-9fab-025adc8be657",
+      "ward_no": "14",
+      "ward_name_en": "Vadakke Kund",
+      "ward_name_ml": "വടക്കെ കുണ്ട്"
+    },
+    {
+      "ward_id": "1421aa19-a9b2-4d60-b027-a5284e78c188",
+      "ward_no": "15",
+      "ward_name_en": "Nelliparamb",
+      "ward_name_ml": "നെല്ലിപറമ്പ്"
+    },
+    {
+      "ward_id": "4115a40f-b0ab-436b-be25-ef33429b0e51",
+      "ward_no": "16",
+      "ward_name_en": "Thazhe Chalilkund",
+      "ward_name_ml": "താഴെ ചാലില്‍കുണ്ട്"
+    },
+    {
+      "ward_id": "9b174513-b1eb-4d56-b076-fffb6ce6a1e4",
+      "ward_no": "17",
+      "ward_name_en": "Mele Chalilkund",
+      "ward_name_ml": "മേലെ ചാലില്‍കുണ്ട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G101007.geojson"
+  }
+}

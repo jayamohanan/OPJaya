@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071106",
+  "local_body_name_en": "Varappetty",
+  "local_body_name_ml": "വാരപ്പെട്ടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "87",
+    "assembly_name_en": "Kothamangalam",
+    "assembly_name_ml": "കോതമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3d27e297-0725-4165-b162-3cb77f9a020f",
+      "ward_no": "1",
+      "ward_name_en": "Kozhippilly",
+      "ward_name_ml": "കോഴിപ്പിള്ളി"
+    },
+    {
+      "ward_id": "131689b5-1403-4dd4-9b33-ff1aeb17cfd0",
+      "ward_no": "2",
+      "ward_name_en": "Kudamunda",
+      "ward_name_ml": "കുടമുണ്ട"
+    },
+    {
+      "ward_id": "dbe243ce-68e6-4b3b-bd96-117ac07afa8b",
+      "ward_no": "3",
+      "ward_name_en": "Kozhippliiy East",
+      "ward_name_ml": "കോഴിപ്പിള്ളി കിഴക്ക്"
+    },
+    {
+      "ward_id": "12ef2128-d0f9-474a-96ff-d9cc9a74f124",
+      "ward_no": "4",
+      "ward_name_en": "Pidavoor",
+      "ward_name_ml": "പിടവൂര്‍"
+    },
+    {
+      "ward_id": "327a363d-7a5f-47a2-bc11-f769f975c5d7",
+      "ward_no": "5",
+      "ward_name_en": "Varappetty East",
+      "ward_name_ml": "വാരപ്പെട്ടി കിഴക്ക്"
+    },
+    {
+      "ward_id": "741e7ba4-2421-4aa3-9954-392601124757",
+      "ward_no": "6",
+      "ward_name_en": "Myloor",
+      "ward_name_ml": "മൈലൂര്‍"
+    },
+    {
+      "ward_id": "71a76737-5211-40ac-ae5e-4833d18322be",
+      "ward_no": "7",
+      "ward_name_en": "Kakkattoor",
+      "ward_name_ml": "കക്കാട്ടൂര്‍"
+    },
+    {
+      "ward_id": "55c0a3bd-8591-4198-ac1c-45b669012d8a",
+      "ward_no": "8",
+      "ward_name_en": "Elangavam",
+      "ward_name_ml": "ഇളങ്ങവം"
+    },
+    {
+      "ward_id": "59ed9b3d-6060-489e-b797-26ad0cc2aa42",
+      "ward_no": "9",
+      "ward_name_en": "Varappetty South",
+      "ward_name_ml": "വാരപ്പെട്ടി സൌത്ത്"
+    },
+    {
+      "ward_id": "e8e7a1a0-ec94-4cb8-95d8-cd1387cc33d9",
+      "ward_no": "10",
+      "ward_name_en": "Varappetty North",
+      "ward_name_ml": "വാരപ്പെട്ടി വടക്ക്"
+    },
+    {
+      "ward_id": "953add04-de1b-4312-825b-dbf147698f29",
+      "ward_no": "11",
+      "ward_name_en": "Inchoor East",
+      "ward_name_ml": "ഇഞ്ചൂര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "1be9fa1b-1c4e-42cb-83b9-5328ced95189",
+      "ward_no": "12",
+      "ward_name_en": "Inchoor",
+      "ward_name_ml": "ഇഞ്ചൂര്‍"
+    },
+    {
+      "ward_id": "04daee4f-a65d-487c-aea4-4c4c0165a69f",
+      "ward_no": "13",
+      "ward_name_en": "Kozhippilly South",
+      "ward_name_ml": "കോഴിപ്പിള്ളി സൌത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071106.geojson"
+  }
+}

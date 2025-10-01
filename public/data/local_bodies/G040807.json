@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040807",
+  "local_body_name_en": "Pandanad",
+  "local_body_name_ml": "പാണ്ടനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "110",
+    "assembly_name_en": "Chengannur",
+    "assembly_name_ml": "ചെങ്ങന്നൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "eec1cb66-9b1e-4578-8f76-5d8829075336",
+      "ward_no": "1",
+      "ward_name_en": "Pramattakkara",
+      "ward_name_ml": "പ്രമട്ടക്കര"
+    },
+    {
+      "ward_id": "7dfd8fdb-4871-4a8e-ad5d-ef8f43a77587",
+      "ward_no": "2",
+      "ward_name_en": "Pandanad Kottayam",
+      "ward_name_ml": "പാണ്ടനാട് കോട്ടയം"
+    },
+    {
+      "ward_id": "e7fc6396-f8a5-4780-9fc7-e16c69e3bcc4",
+      "ward_no": "3",
+      "ward_name_en": "Madavana",
+      "ward_name_ml": "മാടവന"
+    },
+    {
+      "ward_id": "c35f5f45-482b-473b-ac88-aa9a066d0ca0",
+      "ward_no": "4",
+      "ward_name_en": "Prayar",
+      "ward_name_ml": "പ്രയാര്‍"
+    },
+    {
+      "ward_id": "e7d0edfe-acf2-486e-95ec-fce9adcb3375",
+      "ward_no": "5",
+      "ward_name_en": "Muthavazhy",
+      "ward_name_ml": "മുതവഴി"
+    },
+    {
+      "ward_id": "f5fb0680-3d22-448f-a20e-ebb7e2a868dd",
+      "ward_no": "6",
+      "ward_name_en": "Vanmazhy East",
+      "ward_name_ml": "വന്മഴി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "05b6eb85-0b31-491f-abb6-18f39dab7743",
+      "ward_no": "7",
+      "ward_name_en": "Vanmazhy West",
+      "ward_name_ml": "വന്മഴി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "15208530-f560-4231-804c-0b190ce6e53a",
+      "ward_no": "8",
+      "ward_name_en": "Mithramadom",
+      "ward_name_ml": "മിത്രമഠം"
+    },
+    {
+      "ward_id": "b4dd5e59-6532-4311-b259-398a273b3d3c",
+      "ward_no": "9",
+      "ward_name_en": "Keezhvanmazhy East",
+      "ward_name_ml": "കീഴ്വന്മഴി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "7dcf7393-2441-4793-b9f9-b35e47fff764",
+      "ward_no": "10",
+      "ward_name_en": "Keezhvanmazhy West",
+      "ward_name_ml": "കീഴ്വന്മഴി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "6fa62ada-4287-46ab-806a-0e378f93dc1f",
+      "ward_no": "11",
+      "ward_name_en": "Pandanad East",
+      "ward_name_ml": "പാണ്ടനാട് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "81a3c97d-7a97-476e-9509-d5eb4dd8df90",
+      "ward_no": "12",
+      "ward_name_en": "Pandanad West",
+      "ward_name_ml": "പാണ്ടനാട് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "716a983c-d1e1-49ad-87e4-e6ef3ce541ac",
+      "ward_no": "13",
+      "ward_name_en": "Illimala",
+      "ward_name_ml": "ഇല്ലിമല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040807.geojson"
+  }
+}

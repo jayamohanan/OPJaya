@@ -1,0 +1,66 @@
+{
+  "assembly_id": "2",
+  "assembly_name_en": "Kasaragod",
+  "assembly_name_ml": "കാസര്‍കോഡ്",
+  "category": "Normal",
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G140305",
+      "local_body_name_en": "Badiadka",
+      "local_body_name_ml": "ബദിയഡുക്ക",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140201",
+      "local_body_name_en": "Belloor",
+      "local_body_name_ml": "ബേളൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140301",
+      "local_body_name_en": "Chengala",
+      "local_body_name_ml": "ചെങ്കള",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140204",
+      "local_body_name_en": "Karadka",
+      "local_body_name_ml": "കാറഡുക്ക",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M140200",
+      "local_body_name_en": "Kasaragod",
+      "local_body_name_ml": "കാസര്‍കോഡ്",
+      "category": ""
+    },
+    {
+      "local_body_id": "G140202",
+      "local_body_name_en": "Kumbadaje",
+      "local_body_name_ml": "കുംബഡാജെ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140303",
+      "local_body_name_en": "Madhur",
+      "local_body_name_ml": "മധൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140304",
+      "local_body_name_en": "MogralPuthur",
+      "local_body_name_ml": "മൊഗരാല്‍ പുത്തൂര്‍",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kasaragod.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kasaragod.geojson"
+  }
+}

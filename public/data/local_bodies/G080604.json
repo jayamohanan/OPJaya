@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G080604",
+  "local_body_name_en": "Mulakunnathukavu",
+  "local_body_name_ml": "മുളകുന്നത്തുകാവ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "65",
+    "assembly_name_en": "Wadakkanchery",
+    "assembly_name_ml": "വടക്കാഞ്ചേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "fbb52a26-a2d2-4478-a391-74589b858e31",
+      "ward_no": "1",
+      "ward_name_en": "Chirakkunnu",
+      "ward_name_ml": "ചിറകുന്ന്‍"
+    },
+    {
+      "ward_id": "09b3a035-902f-460a-afd9-47426ea4cc1c",
+      "ward_no": "2",
+      "ward_name_en": "Gramala",
+      "ward_name_ml": "ഗ്രാമല"
+    },
+    {
+      "ward_id": "777b9307-0808-4ef8-8903-56ab73cc9f2a",
+      "ward_no": "3",
+      "ward_name_en": "Udayanagar",
+      "ward_name_ml": "ഉദയനഗര്‍"
+    },
+    {
+      "ward_id": "545975c9-3f64-4b9f-81b4-7e4e57aff1ea",
+      "ward_no": "4",
+      "ward_name_en": "Thiroor Kizhake Angadi",
+      "ward_name_ml": "തിരൂര്‍ കിഴക്കെ അങ്ങാടി"
+    },
+    {
+      "ward_id": "3835b548-4ed1-4bfe-aa9b-c2236ba4de00",
+      "ward_no": "5",
+      "ward_name_en": "Poomala",
+      "ward_name_ml": "പൂമല"
+    },
+    {
+      "ward_id": "37bb8f43-95ed-4c78-8ccd-49cc44516e41",
+      "ward_no": "6",
+      "ward_name_en": "Chottupara",
+      "ward_name_ml": "ചോറ്റുപാറ"
+    },
+    {
+      "ward_id": "cad9da63-74ba-488f-bbc6-eb0ad23df9c2",
+      "ward_no": "7",
+      "ward_name_en": "Poolakkal",
+      "ward_name_ml": "പൂളാക്കല്‍"
+    },
+    {
+      "ward_id": "3803a4e4-d14e-4c53-a007-32eb751ead49",
+      "ward_no": "8",
+      "ward_name_en": "Thadaparambu",
+      "ward_name_ml": "തടപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "1540ba37-ce09-4216-ae98-6d726b0379d0",
+      "ward_no": "9",
+      "ward_name_en": "Thiroor",
+      "ward_name_ml": "തിരൂര്‍"
+    },
+    {
+      "ward_id": "e5173e23-ec04-47ce-890d-eaa77e820c79",
+      "ward_no": "10",
+      "ward_name_en": "Kaleapady",
+      "ward_name_ml": "കല്ല്യെപടി"
+    },
+    {
+      "ward_id": "10ec1cdd-158e-48ec-9482-202ec62e5316",
+      "ward_no": "11",
+      "ward_name_en": "Mulagunnathukavu",
+      "ward_name_ml": "മുളങ്കുന്നത്തുകാവ്"
+    },
+    {
+      "ward_id": "9500ff64-021e-439d-b84a-c04a5615423c",
+      "ward_no": "12",
+      "ward_name_en": "Ammankuzhy",
+      "ward_name_ml": "അമ്മാന്‍ക്കുഴി"
+    },
+    {
+      "ward_id": "7e88b339-68ce-4aac-bb63-00a92d217500",
+      "ward_no": "13",
+      "ward_name_en": "Kozhikunnu",
+      "ward_name_ml": "കോഴിക്കുന്ന്"
+    },
+    {
+      "ward_id": "c818df46-4a57-4c0c-8cb1-fde16ddf94a3",
+      "ward_no": "14",
+      "ward_name_en": "Akkodikavu",
+      "ward_name_ml": "ആക്കോടികാവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080604.geojson"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "district_id": "5",
+  "district_name_en": "Kottayam",
+  "district_name_ml": "കോട്ടയം",
+  "is_active": true,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "93",
+      "assembly_name_en": "Pala",
+      "assembly_name_ml": "പാലാ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "94",
+      "assembly_name_en": "Kaduthuruthy",
+      "assembly_name_ml": "കടുത്തുരുത്തി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "95",
+      "assembly_name_en": "Vaikom",
+      "assembly_name_ml": "വൈക്കം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "96",
+      "assembly_name_en": "Ettumanoor",
+      "assembly_name_ml": "ഏറ്റുമാനൂർ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "97",
+      "assembly_name_en": "Kottayam",
+      "assembly_name_ml": "കോട്ടയം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "98",
+      "assembly_name_en": "Puthuppally",
+      "assembly_name_ml": "പുതുപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "99",
+      "assembly_name_en": "Changanassery",
+      "assembly_name_ml": "ചങ്ങനാശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "100",
+      "assembly_name_en": "Kanjirappally",
+      "assembly_name_ml": "കാഞ്ഞിരപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "101",
+      "assembly_name_en": "Poonjar",
+      "assembly_name_ml": "പൂഞ്ഞാർ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/kottayam.geojson",
+    "assemblies": "geojson/districts/with-assemblies/kottayam.geojson"
+  }
+}

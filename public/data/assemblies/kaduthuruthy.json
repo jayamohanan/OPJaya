@@ -1,0 +1,84 @@
+{
+  "assembly_id": "94",
+  "assembly_name_en": "Kaduthuruthy",
+  "assembly_name_ml": "കടുത്തുരുത്തി",
+  "category": "Normal",
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G050401",
+      "local_body_name_en": "Kadaplamattom",
+      "local_body_name_ml": "കടപ്ളാമറ്റം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050201",
+      "local_body_name_en": "Kaduthuruthy",
+      "local_body_name_ml": "കടുത്തുരുത്തി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050403",
+      "local_body_name_en": "Kanakkary",
+      "local_body_name_ml": "കാണക്കാരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050707",
+      "local_body_name_en": "Kidangoor",
+      "local_body_name_ml": "കിടങ്ങൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050405",
+      "local_body_name_en": "Kuravilangad",
+      "local_body_name_ml": "കുറവിലങ്ങാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050408",
+      "local_body_name_en": "Manjoor",
+      "local_body_name_ml": "മാഞ്ഞൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050402",
+      "local_body_name_en": "Marangattupilly",
+      "local_body_name_ml": "മരങ്ങാട്ടുപിള്ളി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050203",
+      "local_body_name_en": "Mulakulam",
+      "local_body_name_ml": "മുളക്കുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050204",
+      "local_body_name_en": "Neezhoor",
+      "local_body_name_ml": "ഞീഴൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050406",
+      "local_body_name_en": "Uzhavoor",
+      "local_body_name_ml": "ഉഴവൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050404",
+      "local_body_name_en": "Veliyannoor",
+      "local_body_name_ml": "വെളിയന്നൂര്‍",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kaduthuruthy.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kaduthuruthy.geojson"
+  }
+}

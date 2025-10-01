@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030202",
+  "local_body_name_en": "Kuttoor",
+  "local_body_name_ml": "കുറ്റൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "01a7cd78-32bb-4b1a-bb73-87970790d6e3",
+      "ward_no": "1",
+      "ward_name_en": "Venpala",
+      "ward_name_ml": "വെണ്‍പാല"
+    },
+    {
+      "ward_id": "a067915e-7b00-44a2-a7c4-8e6fa9b5ce9d",
+      "ward_no": "2",
+      "ward_name_en": "Kadalimangalam",
+      "ward_name_ml": "കദളിമംഗലം"
+    },
+    {
+      "ward_id": "ee5b7262-16fe-452b-9c1c-8d50d62065cc",
+      "ward_no": "3",
+      "ward_name_en": "Kuttoor",
+      "ward_name_ml": "കുറ്റൂര്‍"
+    },
+    {
+      "ward_id": "2d95a20f-67eb-47b4-9294-0f57f5d3e072",
+      "ward_no": "4",
+      "ward_name_en": "Kuttoor Vadakku",
+      "ward_name_ml": "കുറ്റൂര്‍ വടക്ക്"
+    },
+    {
+      "ward_id": "fb7d1bd7-8dfa-46ef-8814-89cd64695147",
+      "ward_no": "5",
+      "ward_name_en": "Elakuttoor",
+      "ward_name_ml": "ഇളകുറ്റൂര്‍"
+    },
+    {
+      "ward_id": "d80327f3-e44e-4e2f-9acb-7119c576627a",
+      "ward_no": "6",
+      "ward_name_en": "Padinjattothara",
+      "ward_name_ml": "പടിഞ്ഞാറ്റോതറ"
+    },
+    {
+      "ward_id": "0e4b43b7-0916-415b-9c74-37b847ef9cf0",
+      "ward_no": "7",
+      "ward_name_en": "Padinjattothara Kizhakku",
+      "ward_name_ml": "പടിഞ്ഞാറ്റോതറ കിഴക്ക്"
+    },
+    {
+      "ward_id": "796b6ce4-81d9-47a1-91e3-cb3e51920941",
+      "ward_no": "8",
+      "ward_name_en": "Kothaviruthi",
+      "ward_name_ml": "കോതവിരുത്തി"
+    },
+    {
+      "ward_id": "acf3e872-cb6c-4e20-8b03-70f2ed461bd7",
+      "ward_no": "9",
+      "ward_name_en": "Thymaravumkara",
+      "ward_name_ml": "തൈമറവുംകര"
+    },
+    {
+      "ward_id": "872c92de-6620-4e22-ae6f-66ca5f7a001e",
+      "ward_no": "10",
+      "ward_name_en": "Kuttoor Kizhakku",
+      "ward_name_ml": "കുറ്റൂര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "eec21644-329f-4562-8ad8-3f1b96d62137",
+      "ward_no": "11",
+      "ward_name_en": "Kuttoor Thekku",
+      "ward_name_ml": "കുറ്റൂര്‍ തെക്ക്"
+    },
+    {
+      "ward_id": "0f046765-6186-4b40-9833-1d18fc39e937",
+      "ward_no": "12",
+      "ward_name_en": "Thalayar",
+      "ward_name_ml": "തലയാര്‍"
+    },
+    {
+      "ward_id": "3e181c18-95a4-44fc-af86-30b24dcd7769",
+      "ward_no": "13",
+      "ward_name_en": "Kuttoor Padinjaru",
+      "ward_name_ml": "കുറ്റൂര്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "b8eff37b-2b74-4c8c-97c1-2f042728c121",
+      "ward_no": "14",
+      "ward_name_en": "Thengeli",
+      "ward_name_ml": "തെങ്ങേലി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030202.geojson"
+  }
+}

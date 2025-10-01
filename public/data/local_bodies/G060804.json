@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G060804",
+  "local_body_name_en": "Peermade",
+  "local_body_name_ml": "പീരുമേട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "92",
+    "assembly_name_en": "Peerumade",
+    "assembly_name_ml": "പീരുമേട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "39b9eb5c-24f6-49e3-80b5-b404ba6bbe2c",
+      "ward_no": "1",
+      "ward_name_en": "Woodlands",
+      "ward_name_ml": "വുഡ് ലാന്‍റ്സ്"
+    },
+    {
+      "ward_id": "da8f5ec9-4cde-4bef-bffd-14d8580529e7",
+      "ward_no": "2",
+      "ward_name_en": "Glenmary",
+      "ward_name_ml": "ഗ്ലെന്‍മേരി"
+    },
+    {
+      "ward_id": "25a5d8c7-2dce-495c-ad36-cb9914e34065",
+      "ward_no": "3",
+      "ward_name_en": "Koduvakkaranam",
+      "ward_name_ml": "കൊടുവക്കരണം"
+    },
+    {
+      "ward_id": "fbef52df-f74e-4f6e-9e29-a8f634ccb9b6",
+      "ward_no": "4",
+      "ward_name_en": "Theppakulam",
+      "ward_name_ml": "തെപ്പക്കുളം"
+    },
+    {
+      "ward_id": "b51abea2-f771-4a81-9f39-d3c656de6395",
+      "ward_no": "5",
+      "ward_name_en": "Landrum",
+      "ward_name_ml": "ലാഡ്രം"
+    },
+    {
+      "ward_id": "4fd7f76f-f85a-4f45-98eb-7941e42d85c9",
+      "ward_no": "6",
+      "ward_name_en": "Pambanar East",
+      "ward_name_ml": "പാമ്പനാര്‍ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "398a05c9-ff3f-455f-80d9-49053ec65930",
+      "ward_no": "7",
+      "ward_name_en": "Ranikovil",
+      "ward_name_ml": "റാണികോവില്‍"
+    },
+    {
+      "ward_id": "1913fb2a-796b-4adc-92af-746e1a635c91",
+      "ward_no": "8",
+      "ward_name_en": "Karadikuzhy",
+      "ward_name_ml": "കരടിക്കുഴി"
+    },
+    {
+      "ward_id": "188f1682-50ad-4966-aa76-84e957133e2b",
+      "ward_no": "9",
+      "ward_name_en": "Pattumudi",
+      "ward_name_ml": "പട്ടുമുടി"
+    },
+    {
+      "ward_id": "97aa9d20-483b-4e64-8d56-22328bfcbbd9",
+      "ward_no": "10",
+      "ward_name_en": "Pattumala",
+      "ward_name_ml": "പട്ടുമല"
+    },
+    {
+      "ward_id": "0ba1a933-041b-4450-95a6-83cd14865440",
+      "ward_no": "11",
+      "ward_name_en": "Pambanar West",
+      "ward_name_ml": "പാമ്പനാര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "18dc2f0a-8f50-44b5-87da-73cfc8818ba9",
+      "ward_no": "12",
+      "ward_name_en": "Kallar",
+      "ward_name_ml": "കല്ലാര്‍"
+    },
+    {
+      "ward_id": "e679237c-af08-4603-a7eb-a907a6dc959a",
+      "ward_no": "13",
+      "ward_name_en": "Melazhutha",
+      "ward_name_ml": "മേലഴുത"
+    },
+    {
+      "ward_id": "e5570006-ef88-440f-ba9e-afe6d501c959",
+      "ward_no": "14",
+      "ward_name_en": "Peermade",
+      "ward_name_ml": "പീരുമേട്"
+    },
+    {
+      "ward_id": "ae9d6f93-eea1-4971-9098-a4df1ed89c70",
+      "ward_no": "15",
+      "ward_name_en": "Civil Station",
+      "ward_name_ml": "സിവില്‍ സ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "ec637517-bb16-409c-a39a-badb7394b299",
+      "ward_no": "16",
+      "ward_name_en": "Kuttykkanam",
+      "ward_name_ml": "കുട്ടിക്കാനം"
+    },
+    {
+      "ward_id": "e4ee88b6-8465-42a5-9f66-c8801eff4f42",
+      "ward_no": "17",
+      "ward_name_en": "Stag Brook",
+      "ward_name_ml": "സ്റ്റാഗ് ബ്രൂക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060804.geojson"
+  }
+}

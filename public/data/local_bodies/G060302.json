@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060302",
+  "local_body_name_en": "Senapathy",
+  "local_body_name_ml": "സേനാപതി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "89",
+    "assembly_name_en": "Udumbanchola",
+    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "e59cbcf5-2c5d-47b1-87b5-c1b1ed75ce9a",
+      "ward_no": "1",
+      "ward_name_en": "Kanakapuzha",
+      "ward_name_ml": "കനകപ്പുഴ"
+    },
+    {
+      "ward_id": "bf1ea99a-1de2-4024-8f93-8b60c72a4350",
+      "ward_no": "2",
+      "ward_name_en": "Mangathotty",
+      "ward_name_ml": "മാങ്ങാത്തൊട്ടി"
+    },
+    {
+      "ward_id": "a158e41e-db17-418b-b735-e33ddd933819",
+      "ward_no": "3",
+      "ward_name_en": "Avanakkumchal",
+      "ward_name_ml": "ആവണക്കുംചാല്‍"
+    },
+    {
+      "ward_id": "0dba157e-652c-4753-af0b-368a8284b0a3",
+      "ward_no": "4",
+      "ward_name_en": "Senapathy",
+      "ward_name_ml": "സേനാപതി"
+    },
+    {
+      "ward_id": "387b3cbd-cba2-4498-9190-6ec2877a4bd3",
+      "ward_no": "5",
+      "ward_name_en": "Swargammedu",
+      "ward_name_ml": "സ്വര്‍ഗ്ഗംമേട്"
+    },
+    {
+      "ward_id": "dbc941f5-0373-402e-aa03-1189ddd66964",
+      "ward_no": "6",
+      "ward_name_en": "Vattappara",
+      "ward_name_ml": "വട്ടപ്പാറ"
+    },
+    {
+      "ward_id": "e2de9695-b05d-4586-a178-f215bb940b06",
+      "ward_no": "7",
+      "ward_name_en": "Thalayankavu",
+      "ward_name_ml": "തലയങ്കാവ്"
+    },
+    {
+      "ward_id": "f0e2b06a-7739-40c4-bfb1-71c4c4ccd775",
+      "ward_no": "8",
+      "ward_name_en": "Melechemmannar",
+      "ward_name_ml": "മേലേചെമ്മണ്ണാര്‍"
+    },
+    {
+      "ward_id": "dc31f59e-10af-418a-bb3e-573e2e64aae5",
+      "ward_no": "9",
+      "ward_name_en": "Venkalappara",
+      "ward_name_ml": "വെങ്കലപ്പാറ"
+    },
+    {
+      "ward_id": "2a6c0a52-867a-47d9-8e92-016c7cd3392a",
+      "ward_no": "10",
+      "ward_name_en": "Ezharayekkar",
+      "ward_name_ml": "ഏഴരയേക്കര്‍"
+    },
+    {
+      "ward_id": "6dbe71ec-083a-4cfb-98a9-f2ce46ad721d",
+      "ward_no": "11",
+      "ward_name_en": "Mukkudil",
+      "ward_name_ml": "മുക്കുടില്‍"
+    },
+    {
+      "ward_id": "6c4f9334-ad61-4dab-aaf9-759775a5ad8e",
+      "ward_no": "12",
+      "ward_name_en": "Kanthippara",
+      "ward_name_ml": "കാന്തിപ്പാറ"
+    },
+    {
+      "ward_id": "a1880ec3-0f50-4c8e-9f53-b212dc55d8aa",
+      "ward_no": "13",
+      "ward_name_en": "Kuthumkal",
+      "ward_name_ml": "കുത്തുങ്കല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060302.geojson"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G101404",
+  "local_body_name_en": "Kaladi",
+  "local_body_name_ml": "കാലടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "47",
+    "assembly_name_en": "Tavanur",
+    "assembly_name_ml": "തവനൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5a884781-03d2-4ab6-9868-615d83f9f63d",
+      "ward_no": "12",
+      "ward_name_en": "Thiruthi",
+      "ward_name_ml": "തിരുത്തി"
+    },
+    {
+      "ward_id": "3ac10b50-5180-4058-a4c5-35f27e91d1ca",
+      "ward_no": "1",
+      "ward_name_en": "Naripparamba",
+      "ward_name_ml": "നരിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "18fb8beb-68a1-422b-9f44-9027ffd594f3",
+      "ward_no": "2",
+      "ward_name_en": "Vayalipatta",
+      "ward_name_ml": "വയലിപ്പറ്റ"
+    },
+    {
+      "ward_id": "87f35056-0489-4e2e-b19f-c6d9517aae5d",
+      "ward_no": "3",
+      "ward_name_en": "Thandilam",
+      "ward_name_ml": "തണ്ടിലം"
+    },
+    {
+      "ward_id": "a3c7bf8c-078e-4634-ab27-29c7aad089cd",
+      "ward_no": "4",
+      "ward_name_en": "Kadancheri",
+      "ward_name_ml": "കാടഞ്ചേരി"
+    },
+    {
+      "ward_id": "15760628-fec0-4e63-92bb-58a1de443a7b",
+      "ward_no": "5",
+      "ward_name_en": "Parappuram",
+      "ward_name_ml": "പാറപ്പുറം"
+    },
+    {
+      "ward_id": "a85faf2a-710c-4991-8da2-f25d467f6e79",
+      "ward_no": "6",
+      "ward_name_en": "Chalappuram",
+      "ward_name_ml": "ചാലപ്പുറം"
+    },
+    {
+      "ward_id": "d5900a52-9412-4483-902e-6d3e45e3451c",
+      "ward_no": "7",
+      "ward_name_en": "Kaladi",
+      "ward_name_ml": "കാലടി"
+    },
+    {
+      "ward_id": "c21bcb12-25f1-4afb-a5cc-5adf395ed192",
+      "ward_no": "8",
+      "ward_name_en": "Poochamkunnu",
+      "ward_name_ml": "പൂച്ചാംകുന്നു"
+    },
+    {
+      "ward_id": "e430a01d-390f-4770-ac8b-2f6e1eeaacb5",
+      "ward_no": "9",
+      "ward_name_en": "Kandanakam",
+      "ward_name_ml": "കണ്ടനകം"
+    },
+    {
+      "ward_id": "9fadc9d9-1972-4b2f-abe9-8a82867ff5e2",
+      "ward_no": "10",
+      "ward_name_en": "Kavilpadi",
+      "ward_name_ml": "കാവില്‍പ്പടി"
+    },
+    {
+      "ward_id": "d02d99fa-bf5c-4588-bd78-7eb271beda31",
+      "ward_no": "11",
+      "ward_name_en": "Veroor",
+      "ward_name_ml": "വെറൂര്‍"
+    },
+    {
+      "ward_id": "024ba9b6-a1fd-4d04-a69c-98c9e5b58ee5",
+      "ward_no": "13",
+      "ward_name_en": "Moorchira",
+      "ward_name_ml": "മൂര്‍ച്ചിറ"
+    },
+    {
+      "ward_id": "8194606f-ef95-431e-a416-634b871abeea",
+      "ward_no": "14",
+      "ward_name_en": "Mangatoor",
+      "ward_name_ml": "മാങ്ങാട്ടൂര്‍"
+    },
+    {
+      "ward_id": "281b04c8-100b-4b52-8ee6-2262d5d87151",
+      "ward_no": "15",
+      "ward_name_en": "Pothanoor Thekkummuri",
+      "ward_name_ml": "പോത്തനൂര്‍ തെക്കുംമുറി"
+    },
+    {
+      "ward_id": "b35c1040-9ffe-4b74-bf34-6398ba451d88",
+      "ward_no": "16",
+      "ward_name_en": "Pothanoor",
+      "ward_name_ml": "പോത്തനൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G101404.geojson"
+  }
+}

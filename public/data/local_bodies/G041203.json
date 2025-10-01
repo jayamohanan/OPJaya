@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G041203",
+  "local_body_name_en": "Cheppad",
+  "local_body_name_ml": "ചേപ്പാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "107",
+    "assembly_name_en": "Haripad",
+    "assembly_name_ml": "ഹരിപ്പാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "29f9fdbf-ed57-48e2-8d68-c12425634b99",
+      "ward_no": "1",
+      "ward_name_en": "Nangiarkulangara",
+      "ward_name_ml": "നങ്ങ്യാര്‍കുളങ്ങര"
+    },
+    {
+      "ward_id": "bc49223e-9d9e-4fe1-8da0-51499f8ca4dd",
+      "ward_no": "2",
+      "ward_name_en": "Muttom",
+      "ward_name_ml": "മുട്ടം"
+    },
+    {
+      "ward_id": "37d664c2-925f-4150-abfd-128d0052b678",
+      "ward_no": "3",
+      "ward_name_en": "Valiyakuzhi",
+      "ward_name_ml": "വലിയകുഴി"
+    },
+    {
+      "ward_id": "163884ea-0ea3-4472-8688-aa0d2bae123a",
+      "ward_no": "4",
+      "ward_name_en": "Mukkadu",
+      "ward_name_ml": "മുക്കാട്"
+    },
+    {
+      "ward_id": "0e356678-2d2f-4da1-a605-05d3b31c1ea2",
+      "ward_no": "5",
+      "ward_name_en": "Choondupalaka",
+      "ward_name_ml": "ചൂണ്ടുപലക"
+    },
+    {
+      "ward_id": "fb196276-55e4-4759-9a5e-566a1a1dd613",
+      "ward_no": "6",
+      "ward_name_en": "Parimanam",
+      "ward_name_ml": "പരിമണം"
+    },
+    {
+      "ward_id": "6b4b5e5e-d2f9-46eb-95e7-355ec165ca11",
+      "ward_no": "7",
+      "ward_name_en": "Kanichanalloor",
+      "ward_name_ml": "കണിച്ചനല്ലൂര്‍"
+    },
+    {
+      "ward_id": "ed0dfd4d-0f46-463e-b72b-57aff4843e53",
+      "ward_no": "8",
+      "ward_name_en": "Malamelkkodu",
+      "ward_name_ml": "മലമേല്‍ക്കോട്"
+    },
+    {
+      "ward_id": "d608f6d3-e280-42b0-aaca-3a2d6e464161",
+      "ward_no": "9",
+      "ward_name_en": "Evoor North",
+      "ward_name_ml": "ഏവൂര്‍ വടക്ക്"
+    },
+    {
+      "ward_id": "f5971c96-60d4-43d4-bc29-5805c05ab7e0",
+      "ward_no": "10",
+      "ward_name_en": "Evoor North West",
+      "ward_name_ml": "ഏവൂര്‍ വടക്ക് പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "263dbd7e-9506-4589-841e-258af7a1f404",
+      "ward_no": "11",
+      "ward_name_en": "Kottamkoyickal",
+      "ward_name_ml": "കോട്ടാംകോയിക്കല്‍"
+    },
+    {
+      "ward_id": "1003646f-8cfa-46fe-9ba2-bbcce72bbf6f",
+      "ward_no": "12",
+      "ward_name_en": "Mabrayalummoodu",
+      "ward_name_ml": "മാമ്പ്രയാലുംമൂട്"
+    },
+    {
+      "ward_id": "199b8919-f869-47b1-bbc4-5f8a8d52889c",
+      "ward_no": "13",
+      "ward_name_en": "Cheppad",
+      "ward_name_ml": "ചേപ്പാട്"
+    },
+    {
+      "ward_id": "69a5e59e-c818-459c-82a6-697918028d6b",
+      "ward_no": "14",
+      "ward_name_en": "Kanjoor Kottackakam",
+      "ward_name_ml": "കാഞ്ഞൂര്‍ കോട്ടയ്ക്കകം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G041203.geojson"
+  }
+}

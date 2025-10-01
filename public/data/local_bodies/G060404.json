@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060404",
+  "local_body_name_en": "Alakode",
+  "local_body_name_ml": "ആലക്കോട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "90",
+    "assembly_name_en": "Thodupuzha",
+    "assembly_name_ml": "തൊടുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "77ed429a-a161-4550-a605-153d11acc76b",
+      "ward_no": "1",
+      "ward_name_en": "Chilavu West",
+      "ward_name_ml": "ചിലവ് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "57748e1b-bbc6-4f82-9e0d-7c72334cc9bc",
+      "ward_no": "2",
+      "ward_name_en": "Chilavu East",
+      "ward_name_ml": "ചിലവ് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "1689f9ea-47b2-4ff0-ad21-7db18251e2d3",
+      "ward_no": "3",
+      "ward_name_en": "Uppukulam",
+      "ward_name_ml": "ഉപ്പുകുളം"
+    },
+    {
+      "ward_id": "6ceb4de2-1720-429f-9caa-79931303b550",
+      "ward_no": "4",
+      "ward_name_en": "Chavarna",
+      "ward_name_ml": "ചവര്‍ണ്ണ"
+    },
+    {
+      "ward_id": "1b0c7708-8dcf-4341-9d4b-91e93bf4e3b0",
+      "ward_no": "5",
+      "ward_name_en": "Kurichipadam",
+      "ward_name_ml": "കുറിച്ചിപ്പാടം"
+    },
+    {
+      "ward_id": "a83eac97-ebdf-41c5-9f64-e598f7e289ac",
+      "ward_no": "6",
+      "ward_name_en": "Palappilly",
+      "ward_name_ml": "പാലപ്പിള്ളി"
+    },
+    {
+      "ward_id": "feddba53-2660-468c-87c2-8ee706eba33d",
+      "ward_no": "7",
+      "ward_name_en": "Thalayanadu",
+      "ward_name_ml": "തലയനാട്"
+    },
+    {
+      "ward_id": "f36c76cc-1617-4724-9d0c-e1e11709dc60",
+      "ward_no": "8",
+      "ward_name_en": "Manjapra",
+      "ward_name_ml": "മഞ്ഞപ്ര"
+    },
+    {
+      "ward_id": "f62c2d5a-fa79-4701-9479-3fc0766d429e",
+      "ward_no": "9",
+      "ward_name_en": "Idivettippara",
+      "ward_name_ml": "ഇടിവെട്ടിപ്പാറ"
+    },
+    {
+      "ward_id": "2075dba8-34c7-4b88-a935-726c3d423029",
+      "ward_no": "10",
+      "ward_name_en": "Anchiri",
+      "ward_name_ml": "അഞ്ചിരി"
+    },
+    {
+      "ward_id": "6cc237b5-7e67-4de3-8db8-1bdc2d4baeee",
+      "ward_no": "11",
+      "ward_name_en": "Inchiyani",
+      "ward_name_ml": "ഇഞ്ചിയാനി"
+    },
+    {
+      "ward_id": "20f38f79-0a57-47da-8abf-8acc9bcf8790",
+      "ward_no": "12",
+      "ward_name_en": "Alakode South",
+      "ward_name_ml": "ആലക്കോട് സൌത്ത്"
+    },
+    {
+      "ward_id": "9966a359-590d-46b1-a226-e6f650190735",
+      "ward_no": "13",
+      "ward_name_en": "Alakode North",
+      "ward_name_ml": "ആലക്കോട് നോര്‍ത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060404.geojson"
+  }
+}

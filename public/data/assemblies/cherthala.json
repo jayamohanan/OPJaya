@@ -1,0 +1,66 @@
+{
+  "assembly_id": "103",
+  "assembly_name_en": "Cherthala",
+  "assembly_name_ml": "ചേർത്തല",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M040300",
+      "local_body_name_en": "Cherthala",
+      "local_body_name_ml": "ചേര്‍ത്തല",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040304",
+      "local_body_name_en": "Cherthala South",
+      "local_body_name_ml": "ചേര്‍ത്തല തെക്ക്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040305",
+      "local_body_name_en": "Kadakkarappally",
+      "local_body_name_ml": "കടക്കരപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040302",
+      "local_body_name_en": "Kanjikuzhy",
+      "local_body_name_ml": "കഞ്ഞിക്കുഴി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040404",
+      "local_body_name_en": "Muhamma",
+      "local_body_name_ml": "മുഹമ്മ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040202",
+      "local_body_name_en": "Pattanakkad",
+      "local_body_name_ml": "പട്ടണക്കാട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040303",
+      "local_body_name_en": "Thanneermukkom",
+      "local_body_name_ml": "തണ്ണീര്‍മുക്കം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040201",
+      "local_body_name_en": "Vayalar",
+      "local_body_name_ml": "വയലാര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/cherthala.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/cherthala.geojson"
+  }
+}

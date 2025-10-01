@@ -1,0 +1,36 @@
+{
+  "assembly_id": "29",
+  "assembly_name_en": "Beypore",
+  "assembly_name_ml": "ബേപ്പൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M110700",
+      "local_body_name_en": "Feroke",
+      "local_body_name_ml": "ഫറോക്ക്",
+      "category": ""
+    },
+    {
+      "local_body_id": "G111201",
+      "local_body_name_en": "Kadalundi",
+      "local_body_name_ml": "കടലുണ്ടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M110600",
+      "local_body_name_en": "Ramanattukara",
+      "local_body_name_ml": "രാമനാട്ടുകര",
+      "category": ""
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/beypore.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/beypore.geojson"
+  }
+}

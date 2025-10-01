@@ -1,0 +1,54 @@
+{
+  "assembly_id": "30",
+  "assembly_name_en": "Kunnamangalam",
+  "assembly_name_ml": "കുന്ദമംഗലം",
+  "category": "Normal",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G111106",
+      "local_body_name_en": "Chathamangalam",
+      "local_body_name_ml": "ചാത്തമംഗലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G111105",
+      "local_body_name_en": "Kunnamangalam",
+      "local_body_name_ml": "കുന്ദമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G111103",
+      "local_body_name_en": "Mavoor",
+      "local_body_name_ml": "മാവൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G111204",
+      "local_body_name_en": "Olavanna",
+      "local_body_name_ml": "ഒളവണ്ണ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G111109",
+      "local_body_name_en": "Perumanna",
+      "local_body_name_ml": "പെരുമണ്ണ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G111108",
+      "local_body_name_en": "Peruvayal",
+      "local_body_name_ml": "പെരുവയല്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kunnamangalam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kunnamangalam.geojson"
+  }
+}

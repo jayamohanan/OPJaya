@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G081403",
+  "local_body_name_en": "Mathilakam",
+  "local_body_name_ml": "മതിലകം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "69",
+    "assembly_name_en": "Kaipamangalam",
+    "assembly_name_ml": "കൈപ്പമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "64012e14-d3b2-4c8d-99e4-f6b065fd396b",
+      "ward_no": "1",
+      "ward_name_en": "Koolimuttam North",
+      "ward_name_ml": "കൂളിമുട്ടം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "2ced7ab1-5273-4638-930d-5271644adce4",
+      "ward_no": "2",
+      "ward_name_en": "Nedumparambu",
+      "ward_name_ml": "നെടുംപറമ്പ്"
+    },
+    {
+      "ward_id": "03a9da3c-1d35-4ea7-bf74-28d755b78f8c",
+      "ward_no": "3",
+      "ward_name_en": "Kathikodu",
+      "ward_name_ml": "കാതിക്കോട്"
+    },
+    {
+      "ward_id": "cb3a3ea0-ae7d-44dc-8c52-5206edd8bf05",
+      "ward_no": "4",
+      "ward_name_en": "Puthiyakavu East",
+      "ward_name_ml": "പുതിയകാവ് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "aca77c11-b689-4a98-a1a3-1cf3800c1f1c",
+      "ward_no": "5",
+      "ward_name_en": "Punnakkabasar",
+      "ward_name_ml": "പുന്നക്കബസാര്‍"
+    },
+    {
+      "ward_id": "51c19966-5942-4703-ac58-198ed178f777",
+      "ward_no": "6",
+      "ward_name_en": "Pallivalavu",
+      "ward_name_ml": "പള്ളിവളവ്"
+    },
+    {
+      "ward_id": "d8ced726-e88b-4a80-a63d-d0c9657b8397",
+      "ward_no": "7",
+      "ward_name_en": "Mathilakam",
+      "ward_name_ml": "മതിലകം"
+    },
+    {
+      "ward_id": "03f1e367-fbcd-48a3-b788-273d456141fa",
+      "ward_no": "8",
+      "ward_name_en": "Poovathumkadavu",
+      "ward_name_ml": "പൂവ്വത്തുംകടവ്"
+    },
+    {
+      "ward_id": "2ab78b74-dd44-4998-9b45-5084d8d195bd",
+      "ward_no": "9",
+      "ward_name_en": "Onchammavu",
+      "ward_name_ml": "ഓണച്ചമ്മാവ്"
+    },
+    {
+      "ward_id": "adc0ad4e-cb80-4a55-a262-0d053261ecc1",
+      "ward_no": "10",
+      "ward_name_en": "Highschool",
+      "ward_name_ml": "ഹൈസ്ക്കൂള്‍"
+    },
+    {
+      "ward_id": "e72e46fa-246f-4258-b6f7-a92d6d6e0c7b",
+      "ward_no": "11",
+      "ward_name_en": "Kalariparambu",
+      "ward_name_ml": "കളരിപറമ്പ്"
+    },
+    {
+      "ward_id": "26a96cf4-44bb-47fc-a815-ea3805294226",
+      "ward_no": "12",
+      "ward_name_en": "Puthiyakavu South",
+      "ward_name_ml": "പുതിയകാവ് സൌത്ത്"
+    },
+    {
+      "ward_id": "f80f5ec0-9085-4ca7-996c-0d1caf7ae863",
+      "ward_no": "13",
+      "ward_name_en": "Kazhuvilangu",
+      "ward_name_ml": "കഴുവിലങ്ങ്"
+    },
+    {
+      "ward_id": "38ddd089-a840-4500-83e3-76366ee16fa4",
+      "ward_no": "14",
+      "ward_name_en": "Thattungal",
+      "ward_name_ml": "തട്ടുങ്ങല്‍"
+    },
+    {
+      "ward_id": "ef730829-e6c9-460d-bada-52053a41b6d5",
+      "ward_no": "15",
+      "ward_name_en": "Emmad",
+      "ward_name_ml": "എമ്മാട്"
+    },
+    {
+      "ward_id": "3c8f714d-44a7-462e-a7c6-8ef749f8dfb8",
+      "ward_no": "16",
+      "ward_name_en": "Poklai",
+      "ward_name_ml": "പൊക്ലായ്"
+    },
+    {
+      "ward_id": "5c6ef887-1356-45d1-b2cf-126411df6a85",
+      "ward_no": "17",
+      "ward_name_en": "Koolimuttam South",
+      "ward_name_ml": "കൂളിമുട്ടം സൌത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081403.geojson"
+  }
+}

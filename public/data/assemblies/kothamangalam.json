@@ -1,0 +1,72 @@
+{
+  "assembly_id": "87",
+  "assembly_name_en": "Kothamangalam",
+  "assembly_name_ml": "കോതമംഗലം",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G071105",
+      "local_body_name_en": "Kavalangad",
+      "local_body_name_ml": "കവളങ്ങാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071107",
+      "local_body_name_en": "Keerampara",
+      "local_body_name_ml": "കീരംപാറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M070200",
+      "local_body_name_en": "Kothamangalam",
+      "local_body_name_ml": "കോതമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071104",
+      "local_body_name_en": "Kottappady",
+      "local_body_name_ml": "കോട്ടപ്പടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071110",
+      "local_body_name_en": "Kuttampuzha",
+      "local_body_name_ml": "കുട്ടമ്പുഴ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G071102",
+      "local_body_name_en": "Nellikuzhi",
+      "local_body_name_ml": "നെല്ലിക്കുഴി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071109",
+      "local_body_name_en": "Pallarimangalam",
+      "local_body_name_ml": "പല്ലാരിമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071103",
+      "local_body_name_en": "Pindimana",
+      "local_body_name_ml": "പിണ്ടിമന",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071106",
+      "local_body_name_en": "Varappetty",
+      "local_body_name_ml": "വാരപ്പെട്ടി",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kothamangalam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kothamangalam.geojson"
+  }
+}

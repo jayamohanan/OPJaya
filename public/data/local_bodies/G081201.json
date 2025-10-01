@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G081201",
+  "local_body_name_en": "Karalam",
+  "local_body_name_ml": "കാറളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "70",
+    "assembly_name_en": "Irinjalakuda",
+    "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "52fc0956-c089-4590-b280-3509841163f6",
+      "ward_no": "1",
+      "ward_name_en": "Nanthi",
+      "ward_name_ml": "നന്തി"
+    },
+    {
+      "ward_id": "0ca4c85b-3d59-45c2-a7ba-c8c1407ba937",
+      "ward_no": "2",
+      "ward_name_en": "Kumaramchira",
+      "ward_name_ml": "കുമരംചിറ"
+    },
+    {
+      "ward_id": "00acefa3-9cd6-4e1b-b654-ab3ff33c75d7",
+      "ward_no": "3",
+      "ward_name_en": "Ilampuzha",
+      "ward_name_ml": "ഇളംപുഴ"
+    },
+    {
+      "ward_id": "0aa04f00-b764-4b97-8996-17c59d0c38ad",
+      "ward_no": "4",
+      "ward_name_en": "Chemmanda",
+      "ward_name_ml": "ചെമ്മണ്ട"
+    },
+    {
+      "ward_id": "65ea1819-8b31-4cac-a2e2-c16d3429ad36",
+      "ward_no": "5",
+      "ward_name_en": "Pullathara",
+      "ward_name_ml": "പുല്ലത്തറ"
+    },
+    {
+      "ward_id": "6016cee0-b9f1-464f-8248-069392d4b018",
+      "ward_no": "6",
+      "ward_name_en": "Kizhuthani East",
+      "ward_name_ml": "കിഴുത്താണി കിഴക്ക്"
+    },
+    {
+      "ward_id": "943bbffe-d137-4e66-906b-08f2d3ff9235",
+      "ward_no": "7",
+      "ward_name_en": "Kizhuthani West",
+      "ward_name_ml": "കിഴുത്താണി പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "9c0b01e4-fa9d-4caa-8e9b-1485b319e8ff",
+      "ward_no": "8",
+      "ward_name_en": "Kizhuthani South",
+      "ward_name_ml": "കിഴുത്താണി തെക്ക്"
+    },
+    {
+      "ward_id": "5cd64c42-70e5-413f-8194-6538352a630a",
+      "ward_no": "9",
+      "ward_name_en": "Pathanapuram",
+      "ward_name_ml": "പത്തനാപുരം"
+    },
+    {
+      "ward_id": "d0c5e833-a547-415c-9b32-5c5552005012",
+      "ward_no": "10",
+      "ward_name_en": "Haripuram",
+      "ward_name_ml": "ഹരിപുരം"
+    },
+    {
+      "ward_id": "00befd91-ea2a-4284-83ed-3cf70a616b26",
+      "ward_no": "11",
+      "ward_name_en": "Thanissery",
+      "ward_name_ml": "താണിശ്ശേരി"
+    },
+    {
+      "ward_id": "c97c2ce6-e397-4641-b1bd-e5b0dcc90f00",
+      "ward_no": "12",
+      "ward_name_en": "Power House",
+      "ward_name_ml": "പവ്വര്‍ഹൌസ്"
+    },
+    {
+      "ward_id": "37e18f1a-f672-40a0-8143-f4cb8abf42ab",
+      "ward_no": "13",
+      "ward_name_en": "Vellani West",
+      "ward_name_ml": "വെള്ളാനി പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "a77e8742-5c1d-44db-9fdb-e41673201b1a",
+      "ward_no": "14",
+      "ward_name_en": "Vellani East",
+      "ward_name_ml": "വെള്ളാനി കിഴക്ക്"
+    },
+    {
+      "ward_id": "024c63a6-e2e4-4eca-a2ab-da7489034d8f",
+      "ward_no": "15",
+      "ward_name_en": "Karalam",
+      "ward_name_ml": "കാറളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081201.geojson"
+  }
+}

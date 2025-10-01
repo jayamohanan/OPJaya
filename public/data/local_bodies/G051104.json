@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G051104",
+  "local_body_name_en": "Manimala",
+  "local_body_name_ml": "മണിമല",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "100",
+    "assembly_name_en": "Kanjirappally",
+    "assembly_name_ml": "കാഞ്ഞിരപ്പള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a69cfe9b-beff-4af3-9d62-17404e18d5f2",
+      "ward_no": "1",
+      "ward_name_en": "Manimala",
+      "ward_name_ml": "മണിമല"
+    },
+    {
+      "ward_id": "7b41a955-3dee-4337-bde6-582deca2e16f",
+      "ward_no": "2",
+      "ward_name_en": "Poovatholy",
+      "ward_name_ml": "പൂവത്തോലി"
+    },
+    {
+      "ward_id": "131d0f27-bb1a-4753-b804-4d6d96cd4b43",
+      "ward_no": "3",
+      "ward_name_en": "Karikkattoor Centre",
+      "ward_name_ml": "കറിക്കാട്ടൂർ സെൻറര്‍"
+    },
+    {
+      "ward_id": "e3f3bbc8-e0d4-48e9-947f-80e5c23388fa",
+      "ward_no": "4",
+      "ward_name_en": "Konnakkulam",
+      "ward_name_ml": "കൊന്നക്കുളം"
+    },
+    {
+      "ward_id": "c0444aa8-c2bb-4aa5-bd67-6fbe889d266b",
+      "ward_no": "5",
+      "ward_name_en": "Charuveli",
+      "ward_name_ml": "ചാരൂവേലി"
+    },
+    {
+      "ward_id": "3e00ea9f-3353-4bec-86c5-b14a5a7dc799",
+      "ward_no": "6",
+      "ward_name_en": "Mukkada",
+      "ward_name_ml": "മുക്കട"
+    },
+    {
+      "ward_id": "6d2cfc71-6c49-4547-a007-5800c3bbd7a9",
+      "ward_no": "7",
+      "ward_name_en": "Aalayamkavala",
+      "ward_name_ml": "ആലയംകവല"
+    },
+    {
+      "ward_id": "5ce8a2d5-c442-4500-9641-0de990a5e479",
+      "ward_no": "8",
+      "ward_name_en": "Ponthenpuzha",
+      "ward_name_ml": "പൊന്തന്‍പൂഴ"
+    },
+    {
+      "ward_id": "dd8f8068-98a2-4e88-914b-05ae71a90e88",
+      "ward_no": "9",
+      "ward_name_en": "Karimpanakkulam",
+      "ward_name_ml": "കരിമ്പനക്കുളം"
+    },
+    {
+      "ward_id": "c078f3b0-7f6c-4b1a-a212-d200cf907a07",
+      "ward_no": "10",
+      "ward_name_en": "Alapara",
+      "ward_name_ml": "ആലപ്ര"
+    },
+    {
+      "ward_id": "2dedf5d9-28e0-48fa-beec-e8a3e416fb85",
+      "ward_no": "11",
+      "ward_name_en": "Vechookunnu",
+      "ward_name_ml": "വെച്ചുക്കുന്ന്"
+    },
+    {
+      "ward_id": "c02704be-c0ed-4876-a7cc-a1a2f4157545",
+      "ward_no": "12",
+      "ward_name_en": "Melekavala",
+      "ward_name_ml": "മേലേക്കവല"
+    },
+    {
+      "ward_id": "48826e4c-899e-48ba-87b7-51f257cfe39b",
+      "ward_no": "13",
+      "ward_name_en": "Pulikallu",
+      "ward_name_ml": "പുലിക്കല്ല്"
+    },
+    {
+      "ward_id": "39eb67e9-9322-435e-bfd0-de005e71193f",
+      "ward_no": "14",
+      "ward_name_en": "Karikkattoor",
+      "ward_name_ml": "കറിക്കാട്ടൂർ"
+    },
+    {
+      "ward_id": "33a3f20d-1fd1-4dee-b21f-b9b41da2bfe5",
+      "ward_no": "15",
+      "ward_name_en": "Nellitthanam",
+      "ward_name_ml": "നെല്ലിത്താനം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G051104.geojson"
+  }
+}

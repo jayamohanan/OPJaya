@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G130303",
+  "local_body_name_en": "Kurumathur",
+  "local_body_name_ml": "കുറുമാത്തൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "8",
+    "assembly_name_en": "Taliparamba",
+    "assembly_name_ml": "തളിപ്പറമ്പ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "20a55ea8-4869-4791-9cb5-2b2932595fbc",
+      "ward_no": "1",
+      "ward_name_en": "Karakkodi",
+      "ward_name_ml": "കാരാക്കൊടി"
+    },
+    {
+      "ward_id": "c3748d66-f522-43d5-ba85-d3f6e1aac851",
+      "ward_no": "2",
+      "ward_name_en": "Kalikkadavu",
+      "ward_name_ml": "കാലിക്കടവ്"
+    },
+    {
+      "ward_id": "70e29fb5-6ccf-4fda-a72c-82fe9374572f",
+      "ward_no": "3",
+      "ward_name_en": "Koonam",
+      "ward_name_ml": "കൂനം"
+    },
+    {
+      "ward_id": "246db6a6-e28e-4023-b440-50520573bc02",
+      "ward_no": "4",
+      "ward_name_en": "Vaithala",
+      "ward_name_ml": "വൈത്തല"
+    },
+    {
+      "ward_id": "d2b7822f-166a-45e5-a80b-fe7df6e0a936",
+      "ward_no": "5",
+      "ward_name_en": "Kurumathoor",
+      "ward_name_ml": "കുറുമാത്തൂര്"
+    },
+    {
+      "ward_id": "a9c46eb7-8010-40db-8cee-a087486c0aa8",
+      "ward_no": "6",
+      "ward_name_en": "Chorukkala",
+      "ward_name_ml": "ചൊറുക്കള"
+    },
+    {
+      "ward_id": "90d3904d-0b70-450b-92d7-65fd377b8cc0",
+      "ward_no": "7",
+      "ward_name_en": "Pullanjiyod",
+      "ward_name_ml": "പുല്ലാഞ്ഞിയോട്"
+    },
+    {
+      "ward_id": "61031c14-8de0-4036-98da-1ee04f085968",
+      "ward_no": "8",
+      "ward_name_en": "Munderi",
+      "ward_name_ml": "മുണ്ടേരി"
+    },
+    {
+      "ward_id": "259db844-a98c-4ed2-bdf3-6e66f2acd0aa",
+      "ward_no": "9",
+      "ward_name_en": "Vadakkanchery",
+      "ward_name_ml": "വടക്കാഞ്ചേരി"
+    },
+    {
+      "ward_id": "94b709aa-91c3-48b3-861b-7de59e5d4437",
+      "ward_no": "10",
+      "ward_name_en": "Parad",
+      "ward_name_ml": "പാറാട്"
+    },
+    {
+      "ward_id": "8ad110ba-2ff1-4937-95f1-27d249a343f6",
+      "ward_no": "11",
+      "ward_name_en": "Cheppannool",
+      "ward_name_ml": "ചെപ്പന്നൂല്"
+    },
+    {
+      "ward_id": "e7b56fdb-4b33-42f3-a36e-322ea74a9ca3",
+      "ward_no": "12",
+      "ward_name_en": "Muyyam",
+      "ward_name_ml": "മുയ്യം"
+    },
+    {
+      "ward_id": "146f2e15-0db6-4801-81f2-cc8c46041224",
+      "ward_no": "13",
+      "ward_name_en": "Panakkad",
+      "ward_name_ml": "പനക്കാട്"
+    },
+    {
+      "ward_id": "53208577-ab1a-48a5-841c-88b5372a620f",
+      "ward_no": "14",
+      "ward_name_en": "Chavanapuzha",
+      "ward_name_ml": "ചവനപ്പുഴ"
+    },
+    {
+      "ward_id": "d953327c-c146-48b3-90b5-cd0d59162883",
+      "ward_no": "15",
+      "ward_name_en": "Poomangalam",
+      "ward_name_ml": "പൂമംഗലം"
+    },
+    {
+      "ward_id": "69070e3b-a3ac-447a-b117-6acd003e7db2",
+      "ward_no": "16",
+      "ward_name_en": "Mazhoor",
+      "ward_name_ml": "മഴൂര്"
+    },
+    {
+      "ward_id": "597fd798-88a8-4ade-bcfd-cd4e1b974ac7",
+      "ward_no": "17",
+      "ward_name_en": "Panniyoor",
+      "ward_name_ml": "പന്നിയൂര്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130303.geojson"
+  }
+}

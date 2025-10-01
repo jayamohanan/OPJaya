@@ -1,0 +1,247 @@
+{
+  "local_body_id": "M080400",
+  "local_body_name_en": "Chalakudy",
+  "local_body_name_ml": "ചാലക്കുടി",
+  "local_body_type_en": "Municipality",
+  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "72",
+    "assembly_name_en": "Chalakudy",
+    "assembly_name_ml": "ചാലക്കുടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "387f8b13-9e94-48b2-b111-1016f9e16737",
+      "ward_no": "1",
+      "ward_name_en": "Thanippara",
+      "ward_name_ml": "താണിപ്പാറ"
+    },
+    {
+      "ward_id": "389b68fe-10a6-4a41-8737-75a927dc8a10",
+      "ward_no": "2",
+      "ward_name_en": "Periachira",
+      "ward_name_ml": "പെരിയച്ചിറ"
+    },
+    {
+      "ward_id": "71ca7a1c-e16c-49e8-9a4c-256980bc68cc",
+      "ward_no": "3",
+      "ward_name_en": "Potta School",
+      "ward_name_ml": "പോട്ട സ്കൂള്‍"
+    },
+    {
+      "ward_id": "67360da8-5072-4e5f-9ed3-250c262153f5",
+      "ward_no": "4",
+      "ward_name_en": "Alavi Center",
+      "ward_name_ml": "അലവി സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "50a6e486-b2b5-4af7-b802-4bc94c3ce467",
+      "ward_no": "5",
+      "ward_name_en": "Panambilly College",
+      "ward_name_ml": "പനമ്പിള്ളി കോളേജ്‌"
+    },
+    {
+      "ward_id": "f0bb043e-e992-4818-920c-2ffa02885a45",
+      "ward_no": "6",
+      "ward_name_en": "Sithara Nagar",
+      "ward_name_ml": "സിതാര നഗര്‍"
+    },
+    {
+      "ward_id": "ed9d1539-afc2-4f8f-be7a-9c7f07b8caaf",
+      "ward_no": "7",
+      "ward_name_en": "Pottachira",
+      "ward_name_ml": "പോട്ടച്ചിറ"
+    },
+    {
+      "ward_id": "3a998aaa-38cd-4076-8cc9-2d5711192db4",
+      "ward_no": "8",
+      "ward_name_en": "Parakottikkal Temple",
+      "ward_name_ml": "പറക്കോട്ടിക്കല്‍ ടെമ്പിള്‍"
+    },
+    {
+      "ward_id": "110a9a13-6da5-48a3-9ce5-d09a39279b63",
+      "ward_no": "9",
+      "ward_name_en": "St Joseph Church",
+      "ward_name_ml": "സെന്‍റ് ജോസഫ്‌ ചര്‍ച്ച്"
+    },
+    {
+      "ward_id": "0a370155-0775-4d11-b8a8-aed5569293d1",
+      "ward_no": "10",
+      "ward_name_en": "St James Hospital",
+      "ward_name_ml": "സെന്‍റ് ജെയിംസ്‌ ഹോസ്പിറ്റല്‍"
+    },
+    {
+      "ward_id": "f98293f1-5993-4dc0-9520-7582e356764c",
+      "ward_no": "11",
+      "ward_name_en": "Koodapuzha Church",
+      "ward_name_ml": "കൂടപ്പുഴ ചര്‍ച്ച്"
+    },
+    {
+      "ward_id": "da20cbbe-c84d-4396-9732-ea0f1364cad0",
+      "ward_no": "12",
+      "ward_name_en": "Thirumanthamkunnu Temple",
+      "ward_name_ml": "തിരുമാന്ധാംകുന്ന് ടെമ്പിള്‍"
+    },
+    {
+      "ward_id": "c98864a8-33be-496e-b862-d3f934c4acd1",
+      "ward_no": "13",
+      "ward_name_en": "Gandhi Nagar",
+      "ward_name_ml": "ഗാന്ധിനഗര്‍"
+    },
+    {
+      "ward_id": "07939eb0-40d3-4760-b0b7-a91e40ad2ea4",
+      "ward_no": "14",
+      "ward_name_en": "Power House",
+      "ward_name_ml": "പവര്‍ഹൗസ്"
+    },
+    {
+      "ward_id": "a37242aa-a500-435f-9db0-56ad9164cff6",
+      "ward_no": "15",
+      "ward_name_en": "Arattukadavu",
+      "ward_name_ml": "ആറാട്ടുകടവ്"
+    },
+    {
+      "ward_id": "a0f3f3da-f162-44fc-925e-6b579f8b6419",
+      "ward_no": "16",
+      "ward_name_en": "Vettukadavu",
+      "ward_name_ml": "വെട്ടുകടവ്"
+    },
+    {
+      "ward_id": "312e15ee-fa5b-441b-9f2f-d8b43b127996",
+      "ward_no": "17",
+      "ward_name_en": "Chenathunadu",
+      "ward_name_ml": "ചേനത്തുനാട്"
+    },
+    {
+      "ward_id": "cea58c9d-6f1b-440e-a4d6-390496ebabeb",
+      "ward_no": "18",
+      "ward_name_en": "Gayathri Ashramam",
+      "ward_name_ml": "ഗായത്രി ആശ്രമം"
+    },
+    {
+      "ward_id": "a5123235-c538-4069-8984-bf35d3d1b39f",
+      "ward_no": "19",
+      "ward_name_en": "St Marys Church",
+      "ward_name_ml": "സെന്‍റ് മേരീസ്‌ ചര്‍ച്ച്"
+    },
+    {
+      "ward_id": "4815f716-8db9-4b2a-bf6c-9ee08bcc9fd5",
+      "ward_no": "20",
+      "ward_name_en": "Housing Board",
+      "ward_name_ml": "ഹൗസിംഗ് ബോര്‍ഡ്‌"
+    },
+    {
+      "ward_id": "193bff5b-e699-430b-85ba-b4066e68abba",
+      "ward_no": "21",
+      "ward_name_en": "Municipal Quarters",
+      "ward_name_ml": "മുന്‍സിപ്പല്‍ ക്വാര്‍ട്ടേഴ്സ്"
+    },
+    {
+      "ward_id": "62b15cef-79fc-4bad-a4ed-9e042aa8fd20",
+      "ward_no": "22",
+      "ward_name_en": "Kannampuzha Temple",
+      "ward_name_ml": "കണ്ണമ്പുഴ ടെമ്പിള്‍"
+    },
+    {
+      "ward_id": "dca81637-4d72-461b-98e8-8f0728f3a732",
+      "ward_no": "23",
+      "ward_name_en": "I T I",
+      "ward_name_ml": "ഐ ടി ഐ"
+    },
+    {
+      "ward_id": "8420a37a-781e-42ee-aab1-671e46f057b8",
+      "ward_no": "24",
+      "ward_name_en": "I R M L P School",
+      "ward_name_ml": "ഐ ആര്‍‍ എം എല്‍ പി സ്കൂള്‍"
+    },
+    {
+      "ward_id": "e446c25c-79ae-4d06-b570-d56efc34c3b7",
+      "ward_no": "25",
+      "ward_name_en": "F C I",
+      "ward_name_ml": "എഫ്‌ സി ഐ"
+    },
+    {
+      "ward_id": "adf15a8f-e96a-4776-96ee-8a1e6c692860",
+      "ward_no": "26",
+      "ward_name_en": "Moonjel",
+      "ward_name_ml": "മൂഞ്ഞേലി"
+    },
+    {
+      "ward_id": "65fa0a31-f6cf-4891-b10b-d83a3b2a403e",
+      "ward_no": "27",
+      "ward_name_en": "Kottatt",
+      "ward_name_ml": "കോട്ടാറ്റ്‌"
+    },
+    {
+      "ward_id": "67d9c5ea-be0c-4698-8e7b-7234716d02a4",
+      "ward_no": "28",
+      "ward_name_en": "Maithri Nagar",
+      "ward_name_ml": "മൈത്രി നഗര്‍"
+    },
+    {
+      "ward_id": "4d83a946-448b-46e5-8714-4f93e9a96cc9",
+      "ward_no": "29",
+      "ward_name_en": "Karakulathunadu",
+      "ward_name_ml": "കാരക്കുളത്തുനാട്"
+    },
+    {
+      "ward_id": "7815e87e-2893-4a69-8d65-898827e1d845",
+      "ward_no": "30",
+      "ward_name_en": "Municipal Office",
+      "ward_name_ml": "മുന്‍സിപ്പല്‍ ഓഫീസ്"
+    },
+    {
+      "ward_id": "a632ddf5-cb1f-4c7e-8238-f1138274fd2c",
+      "ward_no": "31",
+      "ward_name_en": "Aryankala Masjid",
+      "ward_name_ml": "ആര്യങ്കാല മസ്ജിദ്‌"
+    },
+    {
+      "ward_id": "741590f0-9c38-422b-93ef-eca1bc44d92e",
+      "ward_no": "32",
+      "ward_name_en": "Thachudaparambu",
+      "ward_name_ml": "തച്ചുടപറമ്പ്"
+    },
+    {
+      "ward_id": "0b8d1b5e-387d-4e66-a5f2-6fffdc4b80db",
+      "ward_no": "33",
+      "ward_name_en": "V R Puram",
+      "ward_name_ml": "വി ആര്‍ പുരം"
+    },
+    {
+      "ward_id": "3c9a5a3b-1a61-40cd-b2b2-2c93ee77f67b",
+      "ward_no": "34",
+      "ward_name_en": "Urumbankunnu",
+      "ward_name_ml": "ഉറുമ്പന്‍കുന്ന്‌"
+    },
+    {
+      "ward_id": "ef7a66c9-7f1d-46f1-ab64-fa7354c14fb5",
+      "ward_no": "35",
+      "ward_name_en": "Prasanthi Hospital",
+      "ward_name_ml": "പ്രശാന്തി ഹോസ്പിറ്റല്‍"
+    },
+    {
+      "ward_id": "dacf82cc-6894-4bc8-8fc3-0836bebd8208",
+      "ward_no": "36",
+      "ward_name_en": "Karunalayam",
+      "ward_name_ml": "കരുണാലയം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/M080400.geojson"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "assembly_id": "117",
+  "assembly_name_en": "Chavara",
+  "assembly_name_ml": "ചവറ",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020802",
+      "local_body_name_en": "Chavara",
+      "local_body_name_ml": "ചവറ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020805",
+      "local_body_name_en": "Neendakara",
+      "local_body_name_ml": "നീണ്ടകര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020804",
+      "local_body_name_en": "Panmana",
+      "local_body_name_ml": "പന്‍മന",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020801",
+      "local_body_name_en": "Thekkumbhagom",
+      "local_body_name_ml": "തെക്കുംഭാഗം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020803",
+      "local_body_name_en": "Thevalakkara",
+      "local_body_name_ml": "തേവലക്കര",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/chavara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/chavara.geojson"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G060303",
+  "local_body_name_en": "Karunapuram",
+  "local_body_name_ml": "കരുണാപുരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "89",
+    "assembly_name_en": "Udumbanchola",
+    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6cee403c-29e5-4bf0-b66d-137000592e23",
+      "ward_no": "1",
+      "ward_name_en": "Thookkupalam",
+      "ward_name_ml": "തൂക്കുപാലം"
+    },
+    {
+      "ward_id": "763f5f90-0c99-423d-84d4-6cd54f92ddfc",
+      "ward_no": "2",
+      "ward_name_en": "Prakashgram",
+      "ward_name_ml": "പ്രകാശഗ്രാം"
+    },
+    {
+      "ward_id": "6138303f-dd0a-41e2-a1fa-180793b93931",
+      "ward_no": "3",
+      "ward_name_en": "Chottupara",
+      "ward_name_ml": "ചോറ്റുപാറ"
+    },
+    {
+      "ward_id": "27812830-bd1e-4d4a-bd79-4efbd2a6b897",
+      "ward_no": "4",
+      "ward_name_en": "Chakkakanam",
+      "ward_name_ml": "ചക്കകാനം"
+    },
+    {
+      "ward_id": "f76afe6f-1635-432a-8d9e-f771c6e8f05e",
+      "ward_no": "5",
+      "ward_name_en": "Ramakkalmedu",
+      "ward_name_ml": "രാമക്കല്‍മേട്"
+    },
+    {
+      "ward_id": "a5a76cd3-73ae-4e08-969e-4a976ead03b3",
+      "ward_no": "6",
+      "ward_name_en": "Kuruvikkanam",
+      "ward_name_ml": "കുരുവിക്കാനം"
+    },
+    {
+      "ward_id": "5bf97c6e-b0a5-4a5e-9c77-c3c252a9cd9d",
+      "ward_no": "7",
+      "ward_name_en": "Kattekanam",
+      "ward_name_ml": "കട്ടേക്കാനം"
+    },
+    {
+      "ward_id": "dd042be0-44a2-49a0-9cfd-0a3b9c44137a",
+      "ward_no": "8",
+      "ward_name_en": "Karunapuram",
+      "ward_name_ml": "കരുണാപുരം"
+    },
+    {
+      "ward_id": "35662243-1060-4300-bbc7-388db59b074f",
+      "ward_no": "9",
+      "ward_name_en": "Chennakulam",
+      "ward_name_ml": "ചെന്നാക്കുളം"
+    },
+    {
+      "ward_id": "cd78919d-7909-45aa-bd86-6438e6dc105c",
+      "ward_no": "10",
+      "ward_name_en": "Cumbammettu",
+      "ward_name_ml": "കമ്പംമെട്ട്"
+    },
+    {
+      "ward_id": "26b9c25d-dd03-4e13-9be1-0d9a825ace4d",
+      "ward_no": "11",
+      "ward_name_en": "Sulthanmedu",
+      "ward_name_ml": "സുല്‍ത്താന്‍മേട്"
+    },
+    {
+      "ward_id": "02a8d2b7-99a1-452c-b190-31426f1ae8b1",
+      "ward_no": "12",
+      "ward_name_en": "Chalakkudimedu",
+      "ward_name_ml": "ചാലക്കുടിമേട്"
+    },
+    {
+      "ward_id": "a967aea2-bde4-4bf8-a4a4-b5e610335eba",
+      "ward_no": "13",
+      "ward_name_en": "Kulathummedu",
+      "ward_name_ml": "കുളത്തുംമേട്"
+    },
+    {
+      "ward_id": "011e7eb7-5c46-4872-a2a2-cf062c32de32",
+      "ward_no": "14",
+      "ward_name_en": "Pothinkandom",
+      "ward_name_ml": "പോത്തിന്‍കണ്ടം"
+    },
+    {
+      "ward_id": "7f0dc466-fa9b-4f12-8771-f512b741cfbf",
+      "ward_no": "15",
+      "ward_name_en": "Kuzhitholu",
+      "ward_name_ml": "കുഴിത്തൊളു"
+    },
+    {
+      "ward_id": "9968c16f-e5f3-44fd-a51f-c15042cc3648",
+      "ward_no": "16",
+      "ward_name_en": "Kuzhikkandom",
+      "ward_name_ml": "കുഴിക്കണ്ടം"
+    },
+    {
+      "ward_id": "b1b18e6e-126f-4aa8-b8ac-86e507c5abd7",
+      "ward_no": "17",
+      "ward_name_en": "Koottar",
+      "ward_name_ml": "കൂട്ടാര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060303.geojson"
+  }
+}

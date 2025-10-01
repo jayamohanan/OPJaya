@@ -1,0 +1,72 @@
+{
+  "assembly_id": "16",
+  "assembly_name_en": "Peravoor",
+  "assembly_name_ml": "പേരാവൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G131001",
+      "local_body_name_en": "Aralam",
+      "local_body_name_ml": "ആറളം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131002",
+      "local_body_name_en": "Ayyankunnu",
+      "local_body_name_ml": "അയ്യന്‍കുന്ന്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M130800",
+      "local_body_name_en": "Iritty",
+      "local_body_name_ml": "ഇരിട്ടി",
+      "category": ""
+    },
+    {
+      "local_body_id": "G131101",
+      "local_body_name_en": "Kanichar",
+      "local_body_name_ml": "കണിച്ചാര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131102",
+      "local_body_name_en": "Kelakam",
+      "local_body_name_ml": "കേളകം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131103",
+      "local_body_name_en": "Kottiyoor",
+      "local_body_name_ml": "കൊട്ടിയൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G131104",
+      "local_body_name_en": "Muzhakkunnu",
+      "local_body_name_ml": "മുഴക്കുന്ന്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131006",
+      "local_body_name_en": "Payam",
+      "local_body_name_ml": "പായം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131107",
+      "local_body_name_en": "Peravoor",
+      "local_body_name_ml": "പേരാവൂര്‍",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/peravoor.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/peravoor.geojson"
+  }
+}

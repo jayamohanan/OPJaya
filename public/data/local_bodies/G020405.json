@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G020405",
+  "local_body_name_en": "Pattazhi",
+  "local_body_name_ml": "പട്ടാഴി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "120",
+    "assembly_name_en": "Pathanapuram",
+    "assembly_name_ml": "പത്തനാപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a37cd76b-7081-4ab2-a56b-9eea7729db1c",
+      "ward_no": "1",
+      "ward_name_en": "Thazhathuvadakku",
+      "ward_name_ml": "താഴത്ത് വടക്ക്"
+    },
+    {
+      "ward_id": "fd7eb04a-c3ed-48c0-b5be-66c4fca43dbe",
+      "ward_no": "2",
+      "ward_name_en": "Erathuvadakku",
+      "ward_name_ml": "ഏറത്ത് വടക്ക്"
+    },
+    {
+      "ward_id": "f233e782-3db7-4354-917b-f828a9351958",
+      "ward_no": "3",
+      "ward_name_en": "Meenam",
+      "ward_name_ml": "മീനം"
+    },
+    {
+      "ward_id": "d46541d5-388e-49df-b98b-663192b115f2",
+      "ward_no": "4",
+      "ward_name_en": "Panthaplave",
+      "ward_name_ml": "പന്തപ്ലാവ്"
+    },
+    {
+      "ward_id": "1272924e-768d-4a9a-b63a-ed14b56f6f45",
+      "ward_no": "5",
+      "ward_name_en": "Panthrandumuri",
+      "ward_name_ml": "പന്ത്രണ്ട്മുറി"
+    },
+    {
+      "ward_id": "4aec1c6a-8e60-4a49-a49c-0fc07cf403b3",
+      "ward_no": "6",
+      "ward_name_en": "Pulivila",
+      "ward_name_ml": "പുളിവിള"
+    },
+    {
+      "ward_id": "11824b39-ae1c-487a-99ed-b2954e8614ed",
+      "ward_no": "7",
+      "ward_name_en": "Mayiladumpara",
+      "ward_name_ml": "മയിലാടുംപാറ"
+    },
+    {
+      "ward_id": "53e0d7d7-bb42-4b89-938e-2d95fbc8a71a",
+      "ward_no": "8",
+      "ward_name_en": "Panayanam",
+      "ward_name_ml": "പനയനം"
+    },
+    {
+      "ward_id": "af801dad-b074-4bb9-ad2a-8c2c056c4eb8",
+      "ward_no": "9",
+      "ward_name_en": "Town",
+      "ward_name_ml": "ഠൌണ്‍"
+    },
+    {
+      "ward_id": "343c43e8-fb03-4d97-a7a6-3509891a391e",
+      "ward_no": "10",
+      "ward_name_en": "Kannimel",
+      "ward_name_ml": "കന്നിമേല്‍"
+    },
+    {
+      "ward_id": "4a166de5-794e-45f6-8123-7500c9076fd5",
+      "ward_no": "11",
+      "ward_name_en": "Nadutheri",
+      "ward_name_ml": "നടുത്തേരി"
+    },
+    {
+      "ward_id": "e19f22a0-5f1c-4331-a08b-7a40643a0258",
+      "ward_no": "12",
+      "ward_name_en": "Thekketheri",
+      "ward_name_ml": "തെക്കേത്തേരി"
+    },
+    {
+      "ward_id": "66d6d072-02f6-471d-8a38-9fb91da4d63a",
+      "ward_no": "13",
+      "ward_name_en": "Maruthamonbhagom",
+      "ward_name_ml": "മരുതമണ്‍ഭാഗം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G020405.geojson"
+  }
+}

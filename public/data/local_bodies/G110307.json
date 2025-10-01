@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G110307",
+  "local_body_name_en": "Narippatta",
+  "local_body_name_ml": "നരിപ്പറ്റ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "22",
+    "assembly_name_en": "Nadapuram",
+    "assembly_name_ml": "നാദാപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "47ad794b-3dcf-417e-be11-19e9dd03d3f3",
+      "ward_no": "1",
+      "ward_name_en": "Payyekkandi",
+      "ward_name_ml": "പയ്യേക്കണ്ടി"
+    },
+    {
+      "ward_id": "09e09314-6e97-49c4-8284-e24536b9a9fd",
+      "ward_no": "2",
+      "ward_name_en": "Kumbalachola",
+      "ward_name_ml": "കുമ്പളച്ചോല"
+    },
+    {
+      "ward_id": "945d17a3-9a26-4045-95a4-1bca65fe9b30",
+      "ward_no": "3",
+      "ward_name_en": "Valook",
+      "ward_name_ml": "വാളൂക്ക്"
+    },
+    {
+      "ward_id": "b2b54741-7c77-4c60-91d6-0d05cd4c90dd",
+      "ward_no": "4",
+      "ward_name_en": "Mullambath",
+      "ward_name_ml": "മുളളമ്പത്ത്"
+    },
+    {
+      "ward_id": "0cdb3d58-8ce9-4fcd-bea8-20616a061fa8",
+      "ward_no": "5",
+      "ward_name_en": "Naduthara",
+      "ward_name_ml": "നടുത്തറ"
+    },
+    {
+      "ward_id": "79fd15d2-7b76-4d87-820b-5ce961d66170",
+      "ward_no": "6",
+      "ward_name_en": "Thavullakolly",
+      "ward_name_ml": "താവുളളകൊല്ലി"
+    },
+    {
+      "ward_id": "bee60390-8c2d-4fdc-9c49-cc727557f929",
+      "ward_no": "7",
+      "ward_name_en": "Mundyode",
+      "ward_name_ml": "മുണ്ട്യോട്"
+    },
+    {
+      "ward_id": "ce5b1d5e-2b73-4569-80a0-052f44190d5a",
+      "ward_no": "8",
+      "ward_name_en": "Kaiveli",
+      "ward_name_ml": "കൈവേലി"
+    },
+    {
+      "ward_id": "8b7f7ebc-553d-444c-b030-4a8f91fe46e8",
+      "ward_no": "9",
+      "ward_name_en": "Chambilora",
+      "ward_name_ml": "ചമ്പിലോറ"
+    },
+    {
+      "ward_id": "ca8ab359-1098-4fd7-a546-da9e3391f5d9",
+      "ward_no": "10",
+      "ward_name_en": "Kayakkol",
+      "ward_name_ml": "കായക്കൂല്‍"
+    },
+    {
+      "ward_id": "ff389d15-81b1-4ec5-8e23-2a72fa2e6bce",
+      "ward_no": "11",
+      "ward_name_en": "Kandothkuni",
+      "ward_name_ml": "കണ്ടോത്ത്കുനി"
+    },
+    {
+      "ward_id": "6b710ad8-ae3a-4564-af12-e394888c3863",
+      "ward_no": "12",
+      "ward_name_en": "Manniyur",
+      "ward_name_ml": "മണ്ണ്യൂര്"
+    },
+    {
+      "ward_id": "5f9a555e-85cd-44bc-ad19-f12b2e33666b",
+      "ward_no": "13",
+      "ward_name_en": "Thazhe Narippatta",
+      "ward_name_ml": "താഴെ നരിപ്പറ്റ"
+    },
+    {
+      "ward_id": "e71c949a-e829-4377-83b7-f1c05f4af4e1",
+      "ward_no": "14",
+      "ward_name_en": "Chevittupara",
+      "ward_name_ml": "ചെവിട്ടുപാറ"
+    },
+    {
+      "ward_id": "c6c1b045-e0cf-429a-8a69-f9b846a0b207",
+      "ward_no": "15",
+      "ward_name_en": "Koyyal",
+      "ward_name_ml": "കോയ്യാല്‍"
+    },
+    {
+      "ward_id": "1ac87a87-059b-4ae0-9ac3-0344360b6ea7",
+      "ward_no": "16",
+      "ward_name_en": "Kakkuzhipeedika",
+      "ward_name_ml": "കക്കുഴിപീടിക"
+    },
+    {
+      "ward_id": "cf484047-949c-45f5-815d-59bed7a108fe",
+      "ward_no": "17",
+      "ward_name_en": "Thinoor",
+      "ward_name_ml": "തിനൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110307.geojson"
+  }
+}

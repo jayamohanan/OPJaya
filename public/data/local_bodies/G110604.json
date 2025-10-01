@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G110604",
+  "local_body_name_en": "Kayanna",
+  "local_body_name_ml": "കായണ്ണ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "25",
+    "assembly_name_en": "Balussery",
+    "assembly_name_ml": "ബാലുശ്ശേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a19d9cce-2c83-4f5a-9fea-b5e12cf9a96f",
+      "ward_no": "1",
+      "ward_name_en": "Kakkad",
+      "ward_name_ml": "കക്കാട്"
+    },
+    {
+      "ward_id": "8b81591e-2445-4bfb-a21a-d285c10dbb89",
+      "ward_no": "2",
+      "ward_name_en": "Kurikkal Kolli",
+      "ward_name_ml": "കുരിക്കള്‍ കൊല്ലി"
+    },
+    {
+      "ward_id": "68566692-21a2-4721-90af-d1ccfa5245a0",
+      "ward_no": "3",
+      "ward_name_en": "Mattanode",
+      "ward_name_ml": "മാട്ടനോട്"
+    },
+    {
+      "ward_id": "35ae109e-2283-44df-8fa9-b66cbbc5dadd",
+      "ward_no": "4",
+      "ward_name_en": "Paramuthu",
+      "ward_name_ml": "പാറമുതു"
+    },
+    {
+      "ward_id": "812482d0-2610-4f9a-8961-d926163e12a0",
+      "ward_no": "5",
+      "ward_name_en": "Ambayappara",
+      "ward_name_ml": "അമ്പാഴപ്പാറ"
+    },
+    {
+      "ward_id": "1094e915-4ee3-45e6-868f-3a6d6371eb48",
+      "ward_no": "6",
+      "ward_name_en": "Poovatham Kunnu",
+      "ward_name_ml": "പൂവ്വത്താംകുന്ന്"
+    },
+    {
+      "ward_id": "36597a0a-f500-4b8d-9239-bd780b2349e8",
+      "ward_no": "7",
+      "ward_name_en": "Mottanthara",
+      "ward_name_ml": "മൊട്ടന്തറ"
+    },
+    {
+      "ward_id": "b29844b9-aa42-44c0-a85d-9a3abf40d06a",
+      "ward_no": "8",
+      "ward_name_en": "Cherukkad",
+      "ward_name_ml": "ചെറുക്കാട്"
+    },
+    {
+      "ward_id": "7b0beb46-02c5-4dd7-aaaf-91f9a8e3fd05",
+      "ward_no": "9",
+      "ward_name_en": "Padikunnu",
+      "ward_name_ml": "പാടിക്കുന്ന്"
+    },
+    {
+      "ward_id": "33c28c8b-eab5-4950-aa00-0f50bf42aca7",
+      "ward_no": "10",
+      "ward_name_en": "Marappatta",
+      "ward_name_ml": "മരപ്പറ്റ"
+    },
+    {
+      "ward_id": "08533d23-c1e3-461b-ac8a-efacb9221276",
+      "ward_no": "11",
+      "ward_name_en": "Neelikunnu",
+      "ward_name_ml": "നീലികുന്ന്"
+    },
+    {
+      "ward_id": "b646cb66-2f05-4bac-bdc4-6a22e9db0034",
+      "ward_no": "12",
+      "ward_name_en": "Munduvayal",
+      "ward_name_ml": "മുണ്ടുവയല്‍"
+    },
+    {
+      "ward_id": "e4ae5ed6-d902-4a6a-aee0-73dbaae94473",
+      "ward_no": "13",
+      "ward_name_en": "Nambramkunnu",
+      "ward_name_ml": "നമ്പ്രംകുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110604.geojson"
+  }
+}

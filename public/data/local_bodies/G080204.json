@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G080204",
+  "local_body_name_en": "Kandanassery",
+  "local_body_name_ml": "കണ്ടാണശ്ശേരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "64",
+    "assembly_name_en": "Manalur",
+    "assembly_name_ml": "മണലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f91c27e4-c901-48b1-9a7d-04d5b0f5efdb",
+      "ward_no": "1",
+      "ward_name_en": "Chowalloor Kariyanoor",
+      "ward_name_ml": "ചൊവ്വല്ലൂര്‍ കരിയന്നൂര്‍"
+    },
+    {
+      "ward_id": "bb82f475-cfc3-48ab-93fc-f074bcb28933",
+      "ward_no": "2",
+      "ward_name_en": "Chowalloor",
+      "ward_name_ml": "ചൊവ്വല്ലൂര്‍"
+    },
+    {
+      "ward_id": "3d1cf6e4-34e6-4546-b34e-d61072bdc768",
+      "ward_no": "3",
+      "ward_name_en": "Kandanassery",
+      "ward_name_ml": "കണ്ടാണശ്ശേരി"
+    },
+    {
+      "ward_id": "aac3ecf0-1270-4551-bd69-7cb354803205",
+      "ward_no": "4",
+      "ward_name_en": "Arikanniyoor",
+      "ward_name_ml": "അരികന്നിയൂര്‍"
+    },
+    {
+      "ward_id": "6bfe38a3-3bda-4823-b828-3e65a4906db4",
+      "ward_no": "5",
+      "ward_name_en": "Kalanagar",
+      "ward_name_ml": "കലാനഗര്‍"
+    },
+    {
+      "ward_id": "31c3127d-0461-49a8-93ce-c76be1f26440",
+      "ward_no": "6",
+      "ward_name_en": "Koonamoochi",
+      "ward_name_ml": "കൂനംമൂച്ചി"
+    },
+    {
+      "ward_id": "81b5264c-d87f-4b67-a4d3-6e58bd21c028",
+      "ward_no": "7",
+      "ward_name_en": "Vettukkad",
+      "ward_name_ml": "വെട്ടുകാട്"
+    },
+    {
+      "ward_id": "a987b2ef-07d1-4f62-9a12-7625d9d5b126",
+      "ward_no": "8",
+      "ward_name_en": "Aloor",
+      "ward_name_ml": "ആളൂര്‍"
+    },
+    {
+      "ward_id": "78bb4464-b21d-4067-b1e8-e6781d6b8f5f",
+      "ward_no": "9",
+      "ward_name_en": "Thiruvathra Kandiyur",
+      "ward_name_ml": "തിരുവത്ര കണ്ടിയൂര്‍"
+    },
+    {
+      "ward_id": "e31cc9e2-882b-4929-be97-443bcf42363f",
+      "ward_no": "10",
+      "ward_name_en": "Mattom",
+      "ward_name_ml": "മറ്റം"
+    },
+    {
+      "ward_id": "4e3af22d-f475-4e3d-a066-bdfa866ac55e",
+      "ward_no": "11",
+      "ward_name_en": "Mattom West",
+      "ward_name_ml": "മറ്റം വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "083424ea-a9eb-4ea4-bef7-9f0d8443fd23",
+      "ward_no": "12",
+      "ward_name_en": "Valiadamkara",
+      "ward_name_ml": "വല്ല്യാടംകര"
+    },
+    {
+      "ward_id": "3ceb0848-7926-42a9-8ecf-022f7cc9bbfd",
+      "ward_no": "13",
+      "ward_name_en": "Vaduthala",
+      "ward_name_ml": "വടുതല"
+    },
+    {
+      "ward_id": "94371f31-2c59-4763-afe4-a454a6276a8d",
+      "ward_no": "14",
+      "ward_name_en": "Nambazhikkad",
+      "ward_name_ml": "നമ്പഴിക്കാട്"
+    },
+    {
+      "ward_id": "172a0e80-2336-4337-b98b-5ea8de1a890e",
+      "ward_no": "15",
+      "ward_name_en": "Sankaramkulam",
+      "ward_name_ml": "ശങ്കരംകുളം"
+    },
+    {
+      "ward_id": "88a97b8b-6aa9-41c6-89ec-ae7e352d7527",
+      "ward_no": "16",
+      "ward_name_en": "Aayiramkulam",
+      "ward_name_ml": "ആയിരംകുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080204.geojson"
+  }
+}

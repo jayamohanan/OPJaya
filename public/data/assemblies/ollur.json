@@ -1,0 +1,42 @@
+{
+  "assembly_id": "66",
+  "assembly_name_en": "Ollur",
+  "assembly_name_ml": "ഒല്ലൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G080501",
+      "local_body_name_en": "Madakkathara",
+      "local_body_name_ml": "മാടക്കത്തറ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080502",
+      "local_body_name_en": "Nadathara",
+      "local_body_name_ml": "നടത്തറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080503",
+      "local_body_name_en": "Pananchery",
+      "local_body_name_ml": "പാണഞ്ചരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080504",
+      "local_body_name_en": "Puthur",
+      "local_body_name_ml": "പുത്തൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/ollur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/ollur.geojson"
+  }
+}

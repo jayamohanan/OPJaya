@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G090704",
+  "local_body_name_en": "Mannur",
+  "local_body_name_ml": "മണ്ണൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "53",
+    "assembly_name_en": "Kongad",
+    "assembly_name_ml": "കോങ്ങാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2a1b5854-23dd-48e9-9e08-263745484308",
+      "ward_no": "1",
+      "ward_name_en": "Kottakkunnu",
+      "ward_name_ml": "കൊട്ടക്കുന്ന്"
+    },
+    {
+      "ward_id": "a49ab9ac-df9b-4671-bc7f-605011e611e5",
+      "ward_no": "2",
+      "ward_name_en": "Kanjirampara",
+      "ward_name_ml": "കാഞ്ഞിരംപാറ"
+    },
+    {
+      "ward_id": "9e54b3b9-7b8d-4f04-aa73-a51ac858e8d9",
+      "ward_no": "3",
+      "ward_name_en": "Pottupara",
+      "ward_name_ml": "പൊട്ടുപാറ"
+    },
+    {
+      "ward_id": "56bc667d-82f1-4046-af95-0061568ca2cd",
+      "ward_no": "4",
+      "ward_name_en": "Kizhakkumpuram",
+      "ward_name_ml": "കിഴക്കുംപുറം"
+    },
+    {
+      "ward_id": "c8cf5de8-534d-49ec-b7cd-0a13d3ca43ea",
+      "ward_no": "5",
+      "ward_name_en": "Kozhichunda",
+      "ward_name_ml": "കോഴിച്ചൂണ്ട"
+    },
+    {
+      "ward_id": "92a304b6-cf02-4b31-bf43-3c6429fca5df",
+      "ward_no": "6",
+      "ward_name_en": "Parayankadu",
+      "ward_name_ml": "പറയങ്കാട്"
+    },
+    {
+      "ward_id": "97242399-6e61-4f5b-a412-a1da77ac0dd6",
+      "ward_no": "7",
+      "ward_name_en": "Pezhumkad",
+      "ward_name_ml": "പേഴുംകാട്"
+    },
+    {
+      "ward_id": "eb62bdd3-340c-44a4-990b-22194c60f2e5",
+      "ward_no": "8",
+      "ward_name_en": "Onnam Mile",
+      "ward_name_ml": "ഒന്നാം മൈല്‍"
+    },
+    {
+      "ward_id": "278b11ec-1a55-4104-9cf0-54b7806cfd14",
+      "ward_no": "9",
+      "ward_name_en": "Pathirippala",
+      "ward_name_ml": "പത്തിരിപ്പാല"
+    },
+    {
+      "ward_id": "f5a5a803-e7e9-4dbd-8de3-444270a4a143",
+      "ward_no": "10",
+      "ward_name_en": "Mannur",
+      "ward_name_ml": "മണ്ണൂര്‍"
+    },
+    {
+      "ward_id": "c2e0bd86-aa17-46b4-a208-b2463d86bef4",
+      "ward_no": "11",
+      "ward_name_en": "Arimbankulangara",
+      "ward_name_ml": "അരിമ്പന്‍കുളങ്ങര"
+    },
+    {
+      "ward_id": "bfa9c3db-e981-4fa6-8df4-f1c03c8c3ef7",
+      "ward_no": "12",
+      "ward_name_en": "Nellikkad",
+      "ward_name_ml": "നെല്ലിക്കാട്"
+    },
+    {
+      "ward_id": "b390344c-1636-4d0e-89c5-65c3bae4d6bf",
+      "ward_no": "13",
+      "ward_name_en": "Peradikkunnu",
+      "ward_name_ml": "പേരടിക്കുന്ന്"
+    },
+    {
+      "ward_id": "d5288d1e-29c5-468b-8eb2-0ec0b20a924f",
+      "ward_no": "14",
+      "ward_name_en": "Cherumbala",
+      "ward_name_ml": "ചേറുമ്പാല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090704.geojson"
+  }
+}

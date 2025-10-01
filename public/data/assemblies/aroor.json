@@ -1,0 +1,78 @@
+{
+  "assembly_id": "102",
+  "assembly_name_en": "Aroor",
+  "assembly_name_ml": "അരൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G040101",
+      "local_body_name_en": "Arookutty",
+      "local_body_name_ml": "അരൂക്കുറ്റി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040207",
+      "local_body_name_en": "Aroor",
+      "local_body_name_ml": "അരൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040102",
+      "local_body_name_en": "Chennam Pallippuram",
+      "local_body_name_ml": "ചേന്നം പള്ളിപ്പുറം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040206",
+      "local_body_name_en": "Ezhupunna",
+      "local_body_name_ml": "എഴുപുന്ന",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040205",
+      "local_body_name_en": "Kodamthuruth",
+      "local_body_name_ml": "കോടംതുരുത്ത്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040204",
+      "local_body_name_en": "Kuthiathod",
+      "local_body_name_ml": "കുത്തിയതോട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040103",
+      "local_body_name_en": "Panavally",
+      "local_body_name_ml": "പാണാവള്ളി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040104",
+      "local_body_name_en": "Perumpalam",
+      "local_body_name_ml": "പെരുമ്പളം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040203",
+      "local_body_name_en": "Thuravoor",
+      "local_body_name_ml": "തുറവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040105",
+      "local_body_name_en": "Thycattussery",
+      "local_body_name_ml": "തൈക്കാട്ടുശ്ശേരി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/aroor.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/aroor.geojson"
+  }
+}

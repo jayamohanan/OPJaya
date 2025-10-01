@@ -1,0 +1,72 @@
+{
+  "assembly_id": "25",
+  "assembly_name_en": "Balussery",
+  "assembly_name_ml": "ബാലുശ്ശേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G110805",
+      "local_body_name_en": "Atholi",
+      "local_body_name_ml": "അത്തോളി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G110701",
+      "local_body_name_en": "Balussery",
+      "local_body_name_ml": "ബാലുശ്ശേരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110604",
+      "local_body_name_en": "Kayanna",
+      "local_body_name_ml": "കായണ്ണ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110707",
+      "local_body_name_en": "Koorachundu",
+      "local_body_name_ml": "കൂരാച്ചുണ്ട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110704",
+      "local_body_name_en": "Kottur",
+      "local_body_name_ml": "കോട്ടൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110702",
+      "local_body_name_en": "Naduvannur",
+      "local_body_name_ml": "നടുവണ്ണൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G110706",
+      "local_body_name_en": "Panangad",
+      "local_body_name_ml": "പനങ്ങാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G110703",
+      "local_body_name_en": "Ulliyeri",
+      "local_body_name_ml": "ഉള്ളിയേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G110705",
+      "local_body_name_en": "Unnikulum",
+      "local_body_name_ml": "ഉണ്ണികുളം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/balussery.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/balussery.geojson"
+  }
+}

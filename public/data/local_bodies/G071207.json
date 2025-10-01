@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071207",
+  "local_body_name_en": "Ramamangalam",
+  "local_body_name_ml": "രാമമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "85",
+    "assembly_name_en": "Piravom",
+    "assembly_name_ml": "പിറവം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "18332364-dbef-4f28-9b68-5d7ebae1e4ad",
+      "ward_no": "1",
+      "ward_name_en": "Sivaly",
+      "ward_name_ml": "ശിവലി"
+    },
+    {
+      "ward_id": "833299a0-c4ec-4e4f-8f90-331fa9214737",
+      "ward_no": "2",
+      "ward_name_en": "Kodikuthimala",
+      "ward_name_ml": "കൊടികുത്തിമല"
+    },
+    {
+      "ward_id": "6ebb8671-d3e0-4a64-9e26-30cb8b8bb175",
+      "ward_no": "3",
+      "ward_name_en": "Pathikkal",
+      "ward_name_ml": "പാത്തിക്കല്‍"
+    },
+    {
+      "ward_id": "b0f677f0-843e-4d69-ac06-b47a105ee2ef",
+      "ward_no": "4",
+      "ward_name_en": "Unnekkad",
+      "ward_name_ml": "ഉന്നേക്കാട്"
+    },
+    {
+      "ward_id": "ad502285-4aad-4b07-90d5-7ce75cf478b5",
+      "ward_no": "5",
+      "ward_name_en": "Kottappuram",
+      "ward_name_ml": "കോട്ടപ്പുറം"
+    },
+    {
+      "ward_id": "5b0e65c5-b4f1-413d-837a-179ab3331c18",
+      "ward_no": "6",
+      "ward_name_en": "Nettupadam",
+      "ward_name_ml": "നെട്ടുപ്പാടം"
+    },
+    {
+      "ward_id": "6843af92-9c82-44a1-8970-736e80f4e552",
+      "ward_no": "7",
+      "ward_name_en": "Kailoli",
+      "ward_name_ml": "കൈലോലി"
+    },
+    {
+      "ward_id": "4978b699-0da7-4f8a-849a-02b92a61778d",
+      "ward_no": "8",
+      "ward_name_en": "Kavumkada",
+      "ward_name_ml": "കാവുങ്കട"
+    },
+    {
+      "ward_id": "b15d0b72-6ab9-49e7-bbd3-728b95749f7d",
+      "ward_no": "9",
+      "ward_name_en": "Kottarathummukal",
+      "ward_name_ml": "കൊട്ടാരത്തുംമുകള്‍"
+    },
+    {
+      "ward_id": "ef56480d-005f-47ea-819a-0f18b33fb60f",
+      "ward_no": "10",
+      "ward_name_en": "Kizhumuri",
+      "ward_name_ml": "കിഴുമുറി"
+    },
+    {
+      "ward_id": "c48c66a6-9b67-4c99-9bbb-8ad044741ba1",
+      "ward_no": "11",
+      "ward_name_en": "Ramamangalam Kadavu",
+      "ward_name_ml": "രാമമംഗലം കടവ്"
+    },
+    {
+      "ward_id": "f0852943-1cd5-4f15-82bf-def0c8a76db1",
+      "ward_no": "12",
+      "ward_name_en": "Ramamangalam Central",
+      "ward_name_ml": "രാമമംഗലം സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "c32d72df-33cd-466a-9f85-50e3f6394cd3",
+      "ward_no": "13",
+      "ward_name_en": "Korankadavu",
+      "ward_name_ml": "കോരങ്കടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071207.geojson"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "assembly_id": "97",
+  "assembly_name_en": "Kottayam",
+  "assembly_name_ml": "കോട്ടയം",
+  "category": "Normal",
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M050400",
+      "local_body_name_en": "Kottayam",
+      "local_body_name_ml": "കോട്ടയം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050803",
+      "local_body_name_en": "Panachikkad",
+      "local_body_name_ml": "പനച്ചിക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050804",
+      "local_body_name_en": "Vijayapuram",
+      "local_body_name_ml": "വിജയപുരം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kottayam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kottayam.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G140104",
+  "local_body_name_en": "Meenja",
+  "local_body_name_ml": "മീഞ്ച",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "1",
+    "assembly_name_en": "Manjeshwar",
+    "assembly_name_ml": "മഞ്ചശ്വരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c1d96dca-e1f3-4332-9efc-57dfb63e037b",
+      "ward_no": "1",
+      "ward_name_en": "Majeerpalla",
+      "ward_name_ml": "മജീര്‍പള്ള"
+    },
+    {
+      "ward_id": "33e7b4a5-6553-4845-a812-a52707dc8854",
+      "ward_no": "2",
+      "ward_name_en": "Koliyoor",
+      "ward_name_ml": "കോളിയൂര്‍"
+    },
+    {
+      "ward_id": "52d79a3f-5ce7-42e0-b273-9de23c3cd216",
+      "ward_no": "3",
+      "ward_name_en": "Talekala",
+      "ward_name_ml": "തലേകള"
+    },
+    {
+      "ward_id": "7cd055ef-0c8f-4341-897c-524996509ced",
+      "ward_no": "4",
+      "ward_name_en": "Meenja",
+      "ward_name_ml": "മീഞ്ച"
+    },
+    {
+      "ward_id": "14aa90b7-7242-4115-b383-5e5249633d49",
+      "ward_no": "5",
+      "ward_name_en": "Berike",
+      "ward_name_ml": "ബേരികെ"
+    },
+    {
+      "ward_id": "6f84507a-3f8f-4acd-9633-99f24929c26b",
+      "ward_no": "6",
+      "ward_name_en": "Ariyala",
+      "ward_name_ml": "അരിയാള"
+    },
+    {
+      "ward_id": "d8f5307d-78f6-4c89-a82c-b07a5bc25414",
+      "ward_no": "7",
+      "ward_name_en": "Chigurupade",
+      "ward_name_ml": "ചിഗുരുപാദെ"
+    },
+    {
+      "ward_id": "f05e398c-51f2-4617-86ad-4c24c3f5aa3a",
+      "ward_no": "8",
+      "ward_name_en": "Baliyoor",
+      "ward_name_ml": "ബാളിയൂര്‍"
+    },
+    {
+      "ward_id": "1a2b54c3-da70-4d41-a249-dea600a3c319",
+      "ward_no": "9",
+      "ward_name_en": "Kuloor",
+      "ward_name_ml": "കുളൂര്‍"
+    },
+    {
+      "ward_id": "3b7ba2c5-4134-446b-a513-05128be5a670",
+      "ward_no": "10",
+      "ward_name_en": "Moodambail",
+      "ward_name_ml": "മൂഡംബൈല്‍"
+    },
+    {
+      "ward_id": "7692ca27-deee-4617-a08e-8d8eedb1f614",
+      "ward_no": "11",
+      "ward_name_en": "Majibail",
+      "ward_name_ml": "മജിബൈല്‍"
+    },
+    {
+      "ward_id": "29c9c3e5-269c-4e57-a0fd-19ceb5713f40",
+      "ward_no": "12",
+      "ward_name_en": "Durgipalla",
+      "ward_name_ml": "ദുര്‍ഗിപള്ള"
+    },
+    {
+      "ward_id": "c4e70246-0c5c-46f4-ac3f-591be6753d55",
+      "ward_no": "13",
+      "ward_name_en": "Bejja",
+      "ward_name_ml": "ബെജ്ജ"
+    },
+    {
+      "ward_id": "a9a85b81-288b-40c2-9a28-4c26ab211c8a",
+      "ward_no": "14",
+      "ward_name_en": "Kadambar",
+      "ward_name_ml": "കടമ്പാര്‍"
+    },
+    {
+      "ward_id": "2dc44570-1462-40e7-aea2-190bd3b5de03",
+      "ward_no": "15",
+      "ward_name_en": "Kaliyoor",
+      "ward_name_ml": "കളിയൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140104.geojson"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "assembly_id": "57",
+  "assembly_name_en": "Tarur",
+  "assembly_name_ml": "തരൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G091208",
+      "local_body_name_en": "Kannambra",
+      "local_body_name_ml": "കണ്ണമ്പ്ര",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091203",
+      "local_body_name_en": "Kavassery",
+      "local_body_name_ml": "കാവശ്ശേരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090801",
+      "local_body_name_en": "Kottayi",
+      "local_body_name_ml": "കോട്ടായി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090802",
+      "local_body_name_en": "Kuthanur",
+      "local_body_name_ml": "കുത്തന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090805",
+      "local_body_name_en": "Peringottukurissi",
+      "local_body_name_ml": "പെരിങ്ങോട്ടുകുറിശ്ശി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G091205",
+      "local_body_name_en": "Puducode",
+      "local_body_name_ml": "പുതുക്കോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G091206",
+      "local_body_name_en": "Tarur",
+      "local_body_name_ml": "തരൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091207",
+      "local_body_name_en": "Vadakkencheri",
+      "local_body_name_ml": "വടക്കഞ്ചേരി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/tarur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/tarur.geojson"
+  }
+}

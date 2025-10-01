@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G080402",
+  "local_body_name_en": "VallatholNagar",
+  "local_body_name_ml": "വള്ളത്തോള്‍ നഗര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "61",
+    "assembly_name_en": "Chelakkara",
+    "assembly_name_ml": "ചേലക്കര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c471aee5-e435-4425-b49d-e65fcc5ea47d",
+      "ward_no": "1",
+      "ward_name_en": "Pallam",
+      "ward_name_ml": "പള്ളം"
+    },
+    {
+      "ward_id": "4c351391-70be-4b55-8230-1c2b971955e4",
+      "ward_no": "2",
+      "ward_name_en": "Pudussery Manappadi",
+      "ward_name_ml": "പുതുശ്ശേരി മനപ്പടി"
+    },
+    {
+      "ward_id": "91ba3ffc-a0d3-4f48-842f-a67afdc959b5",
+      "ward_no": "3",
+      "ward_name_en": "Muesium",
+      "ward_name_ml": "മ്യൂസിയം"
+    },
+    {
+      "ward_id": "53914d72-5830-40db-a84d-344a5d68b865",
+      "ward_no": "4",
+      "ward_name_en": "Cheruthuruthy Town",
+      "ward_name_ml": "ചെറുതുരുത്തി ടൌണ്‍"
+    },
+    {
+      "ward_id": "2da1474a-7363-42c5-8628-2f18f0f017d4",
+      "ward_no": "5",
+      "ward_name_en": "Mecheri",
+      "ward_name_ml": "മേച്ചേരി"
+    },
+    {
+      "ward_id": "6dbaa5bd-a2e9-4a68-9b17-5615ea283c48",
+      "ward_no": "6",
+      "ward_name_en": "Kulambu",
+      "ward_name_ml": "കുളമ്പ്"
+    },
+    {
+      "ward_id": "e5b5e887-7140-48a1-a57d-c5b30e4dbe67",
+      "ward_no": "7",
+      "ward_name_en": "Kalamandalam",
+      "ward_name_ml": "കലാമണ്ഡലം"
+    },
+    {
+      "ward_id": "6bed6b34-c2ca-4bd5-9544-c45a27f77c1b",
+      "ward_no": "8",
+      "ward_name_en": "Vettikattiri",
+      "ward_name_ml": "വെട്ടിക്കാട്ടിരി"
+    },
+    {
+      "ward_id": "99386464-4b71-4ef3-bbef-7f61e77c5138",
+      "ward_no": "9",
+      "ward_name_en": "Thazhapra",
+      "ward_name_ml": "താഴപ്ര"
+    },
+    {
+      "ward_id": "e10f0b7c-a353-4391-bd46-6cabe9e74f3f",
+      "ward_no": "10",
+      "ward_name_en": "Nedumpura",
+      "ward_name_ml": "നെടുമ്പുര"
+    },
+    {
+      "ward_id": "4ecccf53-4fc8-470a-9bbc-1066f3ceee9e",
+      "ward_no": "11",
+      "ward_name_en": "Panniyadi",
+      "ward_name_ml": "പന്നിയടി"
+    },
+    {
+      "ward_id": "c6231a8a-6c5e-4ba2-b46d-1ae380c1dd23",
+      "ward_no": "12",
+      "ward_name_en": "Pallikkal School",
+      "ward_name_ml": "പള്ളിക്കല്‍ സ്കൂള്‍"
+    },
+    {
+      "ward_id": "b74c7d3d-40f6-4206-a0de-1efea913106c",
+      "ward_no": "13",
+      "ward_name_en": "Cheruthuruthy School",
+      "ward_name_ml": "ചെറുതുരുത്തി സ്കൂള്‍"
+    },
+    {
+      "ward_id": "2ceab909-4e47-4d84-8a53-1e4ced96ec27",
+      "ward_no": "14",
+      "ward_name_en": "Yatheemkhana",
+      "ward_name_ml": "യത്തീംഖാന"
+    },
+    {
+      "ward_id": "91cd7172-3326-4550-b2f3-193fe14f7e95",
+      "ward_no": "15",
+      "ward_name_en": "Cheyikal",
+      "ward_name_ml": "ചേയിക്കല്‍"
+    },
+    {
+      "ward_id": "95a28924-c7b4-4d93-be82-452467a169ec",
+      "ward_no": "16",
+      "ward_name_en": "Pudussery",
+      "ward_name_ml": "പുതുശ്ശേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080402.geojson"
+  }
+}

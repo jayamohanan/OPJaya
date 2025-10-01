@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G010903",
+  "local_body_name_en": "Ottasekharamangalam",
+  "local_body_name_ml": "ഒറ്റശേഖരമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "137",
+    "assembly_name_en": "Parassala",
+    "assembly_name_ml": "പാറശ്ശാല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1485c688-51be-4c63-b0c9-17a8918aa736",
+      "ward_no": "1",
+      "ward_name_en": "Poozhanadu",
+      "ward_name_ml": "പൂഴനാട്"
+    },
+    {
+      "ward_id": "8a5a1376-134d-4d27-8508-04223b908d5c",
+      "ward_no": "2",
+      "ward_name_en": "Alachalkkonam",
+      "ward_name_ml": "ആലച്ചല്‍ക്കോണം"
+    },
+    {
+      "ward_id": "dc8ffcb4-b997-4311-83d8-5b155ab179f2",
+      "ward_no": "3",
+      "ward_name_en": "Manakkala",
+      "ward_name_ml": "മണക്കാല"
+    },
+    {
+      "ward_id": "37ccb879-3ab3-45be-9f3a-6a82ce2831da",
+      "ward_no": "4",
+      "ward_name_en": "Perekkonam",
+      "ward_name_ml": "പേരേക്കോണം"
+    },
+    {
+      "ward_id": "29f591fb-de49-4296-8073-8c98ff449b51",
+      "ward_no": "5",
+      "ward_name_en": "Kalivilakam",
+      "ward_name_ml": "കളിവിളാകം"
+    },
+    {
+      "ward_id": "46ac4b87-99c3-44d7-91b8-557b471c20d9",
+      "ward_no": "6",
+      "ward_name_en": "Vazhichal",
+      "ward_name_ml": "വാഴിച്ചല്‍"
+    },
+    {
+      "ward_id": "c43e1823-4f0a-4a09-a62f-5b30e4b856ab",
+      "ward_no": "7",
+      "ward_name_en": "Plampazhinji",
+      "ward_name_ml": "പ്ലാന്പഴിഞ്ഞി"
+    },
+    {
+      "ward_id": "142582c7-acfe-4abd-b364-ec0ff8660baf",
+      "ward_no": "8",
+      "ward_name_en": "Vattaparambu",
+      "ward_name_ml": "വട്ടപ്പറന്പ്"
+    },
+    {
+      "ward_id": "463de31d-70f8-4adf-800f-98051632b5c5",
+      "ward_no": "9",
+      "ward_name_en": "Ottasekharamangalam",
+      "ward_name_ml": "ഒറ്റശേഖരമംലം"
+    },
+    {
+      "ward_id": "432b5a82-2d2d-424e-bc26-d165a60dc9ec",
+      "ward_no": "10",
+      "ward_name_en": "Kuravara",
+      "ward_name_ml": "കുരവറ"
+    },
+    {
+      "ward_id": "79334c25-1624-4122-ad3b-0c83490e7587",
+      "ward_no": "11",
+      "ward_name_en": "Valikode",
+      "ward_name_ml": "വാളികോട്"
+    },
+    {
+      "ward_id": "a0386769-105c-4640-8460-27962b687945",
+      "ward_no": "12",
+      "ward_name_en": "Mandapathinkadavu",
+      "ward_name_ml": "മണ്ഡപത്തിന്‍കടവ്"
+    },
+    {
+      "ward_id": "9120d167-55f8-4996-8826-168454a441a7",
+      "ward_no": "13",
+      "ward_name_en": "Kunnanadu",
+      "ward_name_ml": "കുന്നനാട്"
+    },
+    {
+      "ward_id": "fa0ab01b-713c-4e28-b963-eab3cdc370b5",
+      "ward_no": "14",
+      "ward_name_en": "Kadampara",
+      "ward_name_ml": "കടന്പറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010903.geojson"
+  }
+}

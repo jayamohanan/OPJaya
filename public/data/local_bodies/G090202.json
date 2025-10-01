@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G090202",
+  "local_body_name_en": "Kulukkallur",
+  "local_body_name_ml": "കുലുക്കല്ലൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "50",
+    "assembly_name_en": "Pattambi",
+    "assembly_name_ml": "പട്ടാമ്പി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "ac694a4c-0131-42f9-8236-3da884362ce7",
+      "ward_no": "1",
+      "ward_name_en": "Chundampatta",
+      "ward_name_ml": "ചുണ്ടമ്പറ്റ"
+    },
+    {
+      "ward_id": "5b7f675a-028c-4c35-b87a-a1221cf48064",
+      "ward_no": "2",
+      "ward_name_en": "Natyamangalam North",
+      "ward_name_ml": "നാട്യമംഗലം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "89be1768-c0eb-4a8b-ae4a-0d935b0006b4",
+      "ward_no": "3",
+      "ward_name_en": "Natyamangalam",
+      "ward_name_ml": "നാട്യമംഗലം"
+    },
+    {
+      "ward_id": "3b88218d-a43c-42af-94ba-fa138f8eb057",
+      "ward_no": "4",
+      "ward_name_en": "Chundampatta East",
+      "ward_name_ml": "ചുണ്ടമ്പറ്റ ഇൌസ്റ്റ്"
+    },
+    {
+      "ward_id": "0f481ef4-57cc-4e10-b927-bad009a00a85",
+      "ward_no": "5",
+      "ward_name_en": "Thathnampully",
+      "ward_name_ml": "തത്തനംപ്പുള്ളി"
+    },
+    {
+      "ward_id": "5b9cea39-d86f-414f-add2-13e48fda598e",
+      "ward_no": "6",
+      "ward_name_en": "Thathnampully  South",
+      "ward_name_ml": "തത്തനംപ്പുള്ളി സൌത്ത്"
+    },
+    {
+      "ward_id": "6fd1d593-e38f-43b2-a498-2123d1803ced",
+      "ward_no": "7",
+      "ward_name_en": "Mappatukara West",
+      "ward_name_ml": "മപ്പാട്ടുകര വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "9b17c15f-446f-4148-ad25-310e04ed4a01",
+      "ward_no": "8",
+      "ward_name_en": "Mappatukara East",
+      "ward_name_ml": "മപ്പാട്ടുകര ഇൌസ്റ്റ്"
+    },
+    {
+      "ward_id": "533c294e-f667-475a-a47d-c19f213d2b02",
+      "ward_no": "9",
+      "ward_name_en": "Puramathra",
+      "ward_name_ml": "പുറമത്ര"
+    },
+    {
+      "ward_id": "2bf1662a-c8f0-4a5f-9023-b43f7d0f8c8d",
+      "ward_no": "10",
+      "ward_name_en": "Puramathra South",
+      "ward_name_ml": "പുറമത്ര സൌത്ത്"
+    },
+    {
+      "ward_id": "b59ac432-a981-44e9-8809-583e5274679c",
+      "ward_no": "11",
+      "ward_name_en": "Kulukkallur",
+      "ward_name_ml": "കുലുക്കല്ലൂർ"
+    },
+    {
+      "ward_id": "7db640ac-d04c-4f17-955f-a6744816e50d",
+      "ward_no": "12",
+      "ward_name_en": "Eravathra",
+      "ward_name_ml": "എരവത്ര"
+    },
+    {
+      "ward_id": "da145d43-d1bb-430b-97bc-7a454edbb974",
+      "ward_no": "13",
+      "ward_name_en": "Mulayankavu South",
+      "ward_name_ml": "മുളയന്‍കാവ് സൌത്ത്"
+    },
+    {
+      "ward_id": "f924399f-e6b9-436b-9d07-d34cf0d4c904",
+      "ward_no": "14",
+      "ward_name_en": "Mulayankavu North",
+      "ward_name_ml": "മുളയന്‍കാവ് നോർത്ത്"
+    },
+    {
+      "ward_id": "fcb9d449-b129-4ece-909e-26dfed722cb2",
+      "ward_no": "15",
+      "ward_name_en": "Vandumthara",
+      "ward_name_ml": "വണ്ടുംതറ"
+    },
+    {
+      "ward_id": "88640cbb-3423-412a-b645-56ba67b55081",
+      "ward_no": "16",
+      "ward_name_en": "Valiyaparambu",
+      "ward_name_ml": "വലിയപറന്പ്"
+    },
+    {
+      "ward_id": "a633b2cf-e1d2-4d5b-b480-c02fb93d05b4",
+      "ward_no": "17",
+      "ward_name_en": "Chundampatta West",
+      "ward_name_ml": "ചുണ്ടമ്പറ്റ വെസ്റ്റ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090202.geojson"
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "local_body_id": "G080503",
+  "local_body_name_en": "Pananchery",
+  "local_body_name_ml": "പാണഞ്ചരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "66",
+    "assembly_name_en": "Ollur",
+    "assembly_name_ml": "ഒല്ലൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5be60260-b60c-47e0-94c4-df3d29388fa0",
+      "ward_no": "1",
+      "ward_name_en": "Pananchery",
+      "ward_name_ml": "പാണഞ്ചേരി"
+    },
+    {
+      "ward_id": "91c445eb-c71c-4fc6-9101-a87521703f95",
+      "ward_no": "2",
+      "ward_name_en": "Chembutra",
+      "ward_name_ml": "ചെമ്പൂത്ര"
+    },
+    {
+      "ward_id": "ba68816a-3924-4089-bb9b-caee2cbf8062",
+      "ward_no": "3",
+      "ward_name_en": "Pattikad",
+      "ward_name_ml": "പട്ടിക്കാട്"
+    },
+    {
+      "ward_id": "f43ed215-38ed-4b7a-8a47-6009c967fb59",
+      "ward_no": "4",
+      "ward_name_en": "Thanippadam",
+      "ward_name_ml": "താണിപ്പാടം"
+    },
+    {
+      "ward_id": "673ce379-1021-413f-8a0c-e4dd18b8395a",
+      "ward_no": "5",
+      "ward_name_en": "Poovanchira",
+      "ward_name_ml": "പൂവ്വന്‍ചിറ"
+    },
+    {
+      "ward_id": "974dde0d-8563-4e85-8fac-dd0a688dfa71",
+      "ward_no": "6",
+      "ward_name_en": "Chuvannamannu",
+      "ward_name_ml": "ചുവന്നമണ്ണ്"
+    },
+    {
+      "ward_id": "1dfcae96-b812-453f-871a-9ee30d8357f2",
+      "ward_no": "7",
+      "ward_name_en": "Vaniyampara",
+      "ward_name_ml": "വാണിയംപാറ"
+    },
+    {
+      "ward_id": "41d82cf8-d49f-4c10-8f22-bc10fb729645",
+      "ward_no": "8",
+      "ward_name_en": "Kombazha",
+      "ward_name_ml": "കൊമ്പഴ"
+    },
+    {
+      "ward_id": "79084201-9a6e-4b44-b96e-ec8402e386e6",
+      "ward_no": "9",
+      "ward_name_en": "Vazhakkumpara",
+      "ward_name_ml": "വഴക്കുംപാറ"
+    },
+    {
+      "ward_id": "44573a91-4496-4345-a7b9-0862830e27b9",
+      "ward_no": "10",
+      "ward_name_en": "Thekkumpadam",
+      "ward_name_ml": "തെക്കുംപാടം"
+    },
+    {
+      "ward_id": "c32040c9-7ac4-4133-bfdd-d2bb17f41dc0",
+      "ward_no": "11",
+      "ward_name_en": "Edappalam",
+      "ward_name_ml": "എടപ്പലം"
+    },
+    {
+      "ward_id": "6f62dd63-aa3f-47fa-8ce2-e5c20e16890d",
+      "ward_no": "12",
+      "ward_name_en": "Mailattumpara",
+      "ward_name_ml": "മൈലാട്ടുുംപാറ"
+    },
+    {
+      "ward_id": "3fdf982c-b312-4eb4-96e3-d22b171120b4",
+      "ward_no": "13",
+      "ward_name_en": "Peechi",
+      "ward_name_ml": "പീച്ചി"
+    },
+    {
+      "ward_id": "9960390a-1136-4e5e-a58b-ed25db608ed9",
+      "ward_no": "14",
+      "ward_name_en": "Thamaravellachal",
+      "ward_name_ml": "താമരവെള്ളച്ചാല്‍"
+    },
+    {
+      "ward_id": "a82cebc6-54a9-4e63-b2e0-efcb3e66b448",
+      "ward_no": "15",
+      "ward_name_en": "Vilangannoor",
+      "ward_name_ml": "വിലങ്ങന്നൂര്‍"
+    },
+    {
+      "ward_id": "aa1db4d6-4d77-4888-b260-37eea4fcc0d9",
+      "ward_no": "16",
+      "ward_name_en": "Kannara",
+      "ward_name_ml": "കണ്ണാറ"
+    },
+    {
+      "ward_id": "ef4f3c98-1877-4318-8d6a-5f401d7dc658",
+      "ward_no": "17",
+      "ward_name_en": "Veendassery",
+      "ward_name_ml": "വീണ്ടശ്ശേരി"
+    },
+    {
+      "ward_id": "972ed1e6-99e0-44af-84d9-d8379107bc89",
+      "ward_no": "18",
+      "ward_name_en": "Payyanam",
+      "ward_name_ml": "പയ്യനം"
+    },
+    {
+      "ward_id": "668283b6-e219-45dd-90a2-f92c4acc8f0c",
+      "ward_no": "19",
+      "ward_name_en": "Marakkal",
+      "ward_name_ml": "മാരായ്ക്കല്‍"
+    },
+    {
+      "ward_id": "048381ca-398d-46a0-9e49-684f47c08d2a",
+      "ward_no": "20",
+      "ward_name_en": "Koottala",
+      "ward_name_ml": "കൂട്ടാല"
+    },
+    {
+      "ward_id": "d6ea1a3d-1553-439b-8dab-ca38f00856fd",
+      "ward_no": "21",
+      "ward_name_en": "Alppara",
+      "ward_name_ml": "ആല്‍പാറ"
+    },
+    {
+      "ward_id": "43161ecd-50ac-47c4-9744-f1f50108fae1",
+      "ward_no": "22",
+      "ward_name_en": "Chirakkunnu",
+      "ward_name_ml": "ചിറക്കുന്ന്"
+    },
+    {
+      "ward_id": "64abff61-0d87-4eac-8f76-82a3f5a22d88",
+      "ward_no": "23",
+      "ward_name_en": "Mudikode",
+      "ward_name_ml": "മുടിക്കോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080503.geojson"
+  }
+}

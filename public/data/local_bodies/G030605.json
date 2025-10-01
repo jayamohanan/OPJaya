@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G030605",
+  "local_body_name_en": "Vallicode",
+  "local_body_name_ml": "വള്ളിക്കോട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "114",
+    "assembly_name_en": "Konni",
+    "assembly_name_ml": "കോന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3137b22d-39ff-4812-89a0-d9611d439238",
+      "ward_no": "1",
+      "ward_name_en": "Nariyapuram",
+      "ward_name_ml": "നരിയാപുരം"
+    },
+    {
+      "ward_id": "a1f085c3-5f5a-4dc0-bf55-d790f6629034",
+      "ward_no": "2",
+      "ward_name_en": "Kaipattoor",
+      "ward_name_ml": "കൈപ്പട്ടൂര്‍"
+    },
+    {
+      "ward_id": "5f6ff23e-e298-4534-acd4-d5ed5f877a4b",
+      "ward_no": "3",
+      "ward_name_en": "Kaipattoor Kizhakku",
+      "ward_name_ml": "കൈപ്പട്ടൂര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "8b5d7098-2b63-4c44-82ed-35dc9ae68663",
+      "ward_no": "4",
+      "ward_name_en": "Mayalil",
+      "ward_name_ml": "മായാലില്‍"
+    },
+    {
+      "ward_id": "1e4ef227-a504-4e15-bc1b-b022622ba47c",
+      "ward_no": "5",
+      "ward_name_en": "Vallicode",
+      "ward_name_ml": "വള്ളിക്കോട്"
+    },
+    {
+      "ward_id": "c8b49b75-3a8a-48d0-9797-d3a25a96d0e9",
+      "ward_no": "6",
+      "ward_name_en": "Vazhamuttom",
+      "ward_name_ml": "വാഴമുട്ടം"
+    },
+    {
+      "ward_id": "1bda4449-ff9d-4571-a054-31cda899c5d4",
+      "ward_no": "7",
+      "ward_name_en": "Kanjirapara",
+      "ward_name_ml": "കാഞ്ഞിരപ്പാറ"
+    },
+    {
+      "ward_id": "1d1facfa-9375-4799-822c-db4c5cba3a98",
+      "ward_no": "8",
+      "ward_name_en": "Kidangethu",
+      "ward_name_ml": "കിടങ്ങേത്ത്"
+    },
+    {
+      "ward_id": "ed3e6458-0f5f-46d0-ba1c-bca5031328bc",
+      "ward_no": "9",
+      "ward_name_en": "Njakkunilam",
+      "ward_name_ml": "ഞക്കുനിലം"
+    },
+    {
+      "ward_id": "b0fe24d2-4e74-4e58-af4f-0a2d42ade2cd",
+      "ward_no": "10",
+      "ward_name_en": "Painummoodu",
+      "ward_name_ml": "പൈനുംമൂട്"
+    },
+    {
+      "ward_id": "f0431d0f-8f2d-448e-9a98-eaad171e5c95",
+      "ward_no": "11",
+      "ward_name_en": "Vellapara",
+      "ward_name_ml": "വെള്ളപ്പാറ"
+    },
+    {
+      "ward_id": "427804ec-342a-46bf-be93-09a9e6cbcfc3",
+      "ward_no": "12",
+      "ward_name_en": "Kudamukku",
+      "ward_name_ml": "കുടമുക്ക്"
+    },
+    {
+      "ward_id": "4248b09c-2ab2-421e-aabf-04e11203f020",
+      "ward_no": "13",
+      "ward_name_en": "Kalluvila",
+      "ward_name_ml": "കല്ലുവിള"
+    },
+    {
+      "ward_id": "f1cd0857-f4e7-4bdd-80c7-f62c95da0eeb",
+      "ward_no": "14",
+      "ward_name_en": "Vayalavadakku",
+      "ward_name_ml": "വയലാവടക്ക്"
+    },
+    {
+      "ward_id": "1b105684-4ce3-4358-9b34-e78698b0a0a2",
+      "ward_no": "15",
+      "ward_name_en": "Nariyapuram Kizhakku",
+      "ward_name_ml": "നരിയാപുരം കിഴക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030605.geojson"
+  }
+}

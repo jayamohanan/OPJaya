@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G090907",
+  "local_body_name_en": "Polpully",
+  "local_body_name_ml": "പൊല്‍പ്പുള്ളി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "58",
+    "assembly_name_en": "Chittur",
+    "assembly_name_ml": "ചിറ്റൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "95951234-cbd6-4d90-9771-1e9b90cfc4e1",
+      "ward_no": "1",
+      "ward_name_en": "Choorikkad",
+      "ward_name_ml": "ചൂരിക്കാട്"
+    },
+    {
+      "ward_id": "c544f6e0-9b12-4d27-a55c-8819f1c3fd7f",
+      "ward_no": "2",
+      "ward_name_en": "Manthaparambu",
+      "ward_name_ml": "മന്തപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "b24e414e-aff7-40fd-9c69-320c7cf3afd3",
+      "ward_no": "3",
+      "ward_name_en": "Poolakkulam",
+      "ward_name_ml": "പൂളക്കുളം"
+    },
+    {
+      "ward_id": "2a180754-9b47-469b-a202-185355ab49a3",
+      "ward_no": "4",
+      "ward_name_en": "Erumakkalod",
+      "ward_name_ml": "എരുമക്കലോട്"
+    },
+    {
+      "ward_id": "88d50664-ee75-4a4b-9ae0-a18f906df439",
+      "ward_no": "5",
+      "ward_name_en": "Verkoly",
+      "ward_name_ml": "വേര്‍ക്കോലി"
+    },
+    {
+      "ward_id": "c3341ca9-9a43-4eda-92ba-263324b725c4",
+      "ward_no": "6",
+      "ward_name_en": "Plapully",
+      "ward_name_ml": "പ്ലാപ്പുള്ളി"
+    },
+    {
+      "ward_id": "a94e52fb-95da-4cdf-89db-e39d0565f3f5",
+      "ward_no": "7",
+      "ward_name_en": "Chiravattom",
+      "ward_name_ml": "ചിറവട്ടം"
+    },
+    {
+      "ward_id": "072a316d-5107-4c3f-a8ef-f76389af81c3",
+      "ward_no": "8",
+      "ward_name_en": "Puthukkudy",
+      "ward_name_ml": "പുതുക്കുടി"
+    },
+    {
+      "ward_id": "a76dc8e2-e580-4477-82f8-ee2ba9caab4d",
+      "ward_no": "9",
+      "ward_name_en": "Nellukuthupara",
+      "ward_name_ml": "നെല്ലുക്കുത്തുപാറ"
+    },
+    {
+      "ward_id": "f7ed29fc-4a8e-44c1-aa95-a451b5f82ed4",
+      "ward_no": "10",
+      "ward_name_en": "Nedumpura",
+      "ward_name_ml": "നെടുമ്പുര"
+    },
+    {
+      "ward_id": "30aa77f4-0ca2-4ba6-9084-f55c421521d3",
+      "ward_no": "11",
+      "ward_name_en": "Panayur",
+      "ward_name_ml": "പനയൂര്‍"
+    },
+    {
+      "ward_id": "4f1f0924-6e43-4ca7-a28b-a760236b9b6e",
+      "ward_no": "12",
+      "ward_name_en": "Kallukoottiyal",
+      "ward_name_ml": "കല്ലുകൂട്ടിയാല്‍"
+    },
+    {
+      "ward_id": "c054213f-e58c-4788-ac65-e83e3284ac80",
+      "ward_no": "13",
+      "ward_name_en": "Poothampully",
+      "ward_name_ml": "പൂത്തംപുള്ളി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090907.geojson"
+  }
+}

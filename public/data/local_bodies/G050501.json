@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050501",
+  "local_body_name_en": "Bharananganam",
+  "local_body_name_ml": "ഭരണങ്ങാനം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "93",
+    "assembly_name_en": "Pala",
+    "assembly_name_ml": "പാലാ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "e202818a-d288-44b1-939f-f90903d1dafb",
+      "ward_no": "1",
+      "ward_name_en": "Pravithanam",
+      "ward_name_ml": "പ്രവിത്താനം"
+    },
+    {
+      "ward_id": "299211fd-753c-4f31-b8c9-0dbcd6b600fb",
+      "ward_no": "2",
+      "ward_name_en": "Ullanad",
+      "ward_name_ml": "ഉള്ളനാട്"
+    },
+    {
+      "ward_id": "d02140f0-d629-46f5-b397-85c75a78c4cb",
+      "ward_no": "3",
+      "ward_name_en": "Alamattom",
+      "ward_name_ml": "ആലമറ്റം"
+    },
+    {
+      "ward_id": "74c33c93-a01e-4fd4-8d3a-eb53c319a9a5",
+      "ward_no": "4",
+      "ward_name_en": "Kayyoor",
+      "ward_name_ml": "കയ്യൂൂര്‍"
+    },
+    {
+      "ward_id": "32a7b81c-a7f2-459b-a38e-b12d4664e9f1",
+      "ward_no": "5",
+      "ward_name_en": "Kanjiramattom",
+      "ward_name_ml": "കാഞ്ഞിരമറ്റം"
+    },
+    {
+      "ward_id": "92434200-7cc0-4c80-9b63-8713cd849ddf",
+      "ward_no": "6",
+      "ward_name_en": "Choondacherry",
+      "ward_name_ml": "ചൂണ്ടച്ചേരി"
+    },
+    {
+      "ward_id": "d146b4da-7964-4f40-bc19-c50844fc2ebf",
+      "ward_no": "7",
+      "ward_name_en": "Bharananganam",
+      "ward_name_ml": "ഭരണങ്ങാനം"
+    },
+    {
+      "ward_id": "81d841f7-e878-427b-8690-c410371e606d",
+      "ward_no": "8",
+      "ward_name_en": "Aravakulam",
+      "ward_name_ml": "അറവക്കുളം"
+    },
+    {
+      "ward_id": "345960f4-f864-48e6-8980-c431d739cc1c",
+      "ward_no": "9",
+      "ward_name_en": "Edappady",
+      "ward_name_ml": "ഇടപ്പാടി"
+    },
+    {
+      "ward_id": "420383dd-4232-477b-9ca1-2dfa7c9518de",
+      "ward_no": "10",
+      "ward_name_en": "Areepara",
+      "ward_name_ml": "അരീപ്പാറ"
+    },
+    {
+      "ward_id": "5b5d883e-0aee-45dd-95dd-d5ba758e3547",
+      "ward_no": "11",
+      "ward_name_en": "Pamboorampara",
+      "ward_name_ml": "പാമ്പൂരാംപാറ"
+    },
+    {
+      "ward_id": "eeb3971e-945b-4d3c-b9a7-cb6ae7398618",
+      "ward_no": "12",
+      "ward_name_en": "Elamthottam",
+      "ward_name_ml": "ഇളംന്തോട്ടം"
+    },
+    {
+      "ward_id": "e9447f8b-e334-4657-9c5d-1cd35a9e7edc",
+      "ward_no": "13",
+      "ward_name_en": "Alanad",
+      "ward_name_ml": "അളനാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050501.geojson"
+  }
+}

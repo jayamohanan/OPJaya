@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G130103",
+  "local_body_name_en": "Karivellur Peralam",
+  "local_body_name_ml": "കരിവെള്ളൂര്‍ പെരളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "6",
+    "assembly_name_en": "Payyannur",
+    "assembly_name_ml": "പയ്യന്നൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c803fb76-d010-4897-99f4-d004f4cfdde6",
+      "ward_no": "10",
+      "ward_name_en": "South Manakkad",
+      "ward_name_ml": "തെക്കേ മണക്കാട്"
+    },
+    {
+      "ward_id": "081e6201-99bc-47b6-9510-5e5b1db2dcbd",
+      "ward_no": "11",
+      "ward_name_en": "Onakkunnu",
+      "ward_name_ml": "ഓണക്കുന്ന്"
+    },
+    {
+      "ward_id": "45b18026-9ee5-47dc-99f6-49cddb6e1998",
+      "ward_no": "1",
+      "ward_name_en": "Vadakkumbad",
+      "ward_name_ml": "വടക്കുമ്പാട്"
+    },
+    {
+      "ward_id": "23cc0e78-1a93-4a27-b161-f8d893d89eac",
+      "ward_no": "2",
+      "ward_name_en": "Palakkunnu",
+      "ward_name_ml": "പാലക്കുന്ന്"
+    },
+    {
+      "ward_id": "331d1c68-a802-4edc-801f-21d13a53bf25",
+      "ward_no": "3",
+      "ward_name_en": "North Manakkad",
+      "ward_name_ml": "നോര്‍ത്ത് മണക്കാട്"
+    },
+    {
+      "ward_id": "afd63ace-ee46-4468-8914-4486046cf414",
+      "ward_no": "4",
+      "ward_name_en": "Kookkanam",
+      "ward_name_ml": "കൂക്കാനം"
+    },
+    {
+      "ward_id": "6550f1f1-5ad3-4b13-8eec-9ef5727964fa",
+      "ward_no": "5",
+      "ward_name_en": "Puthur",
+      "ward_name_ml": "പുത്തൂര്‍"
+    },
+    {
+      "ward_id": "ac54e784-ef82-49d6-9590-9fc58a6bf6dd",
+      "ward_no": "6",
+      "ward_name_en": "Vereekkara",
+      "ward_name_ml": "വെരീക്കര"
+    },
+    {
+      "ward_id": "6ea70bf6-2944-481f-aa11-5e6406aa2c72",
+      "ward_no": "7",
+      "ward_name_en": "Kozhummal",
+      "ward_name_ml": "കൊഴുമ്മല്‍"
+    },
+    {
+      "ward_id": "99b7f807-073a-4b07-9b1a-331318245404",
+      "ward_no": "8",
+      "ward_name_en": "Koovacheri",
+      "ward_name_ml": "കൂവച്ചേരി"
+    },
+    {
+      "ward_id": "18dac58c-3bb0-465a-9488-4b56f8a27a15",
+      "ward_no": "9",
+      "ward_name_en": "Peralam",
+      "ward_name_ml": "പെരളം"
+    },
+    {
+      "ward_id": "d93c9f75-5b12-4981-9d1c-cf2650202165",
+      "ward_no": "12",
+      "ward_name_en": "Kuniyan Kizhakkekkara",
+      "ward_name_ml": "കുണിയന്‍ കിഴക്കേക്കര"
+    },
+    {
+      "ward_id": "7a537ee8-b1be-406f-8d0e-e6950f734182",
+      "ward_no": "13",
+      "ward_name_en": "Kuniyan Padinharu",
+      "ward_name_ml": "കുുണിയന്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "fb7a12f5-00c4-43d7-9ee3-4f91f47ee70e",
+      "ward_no": "14",
+      "ward_name_en": "Pallikkovval",
+      "ward_name_ml": "പളളിക്കൊവ്വല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130103.geojson"
+  }
+}

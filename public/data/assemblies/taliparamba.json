@@ -1,0 +1,72 @@
+{
+  "assembly_id": "8",
+  "assembly_name_en": "Taliparamba",
+  "assembly_name_ml": "തളിപ്പറമ്പ്",
+  "category": "Normal",
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G130305",
+      "local_body_name_en": "Chapparapadava",
+      "local_body_name_ml": "ചപ്പാരപ്പടവ്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130608",
+      "local_body_name_en": "Kolachery",
+      "local_body_name_ml": "കൊളച്ചേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130303",
+      "local_body_name_en": "Kurumathur",
+      "local_body_name_ml": "കുറുമാത്തൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G130405",
+      "local_body_name_en": "Kuttiattoor",
+      "local_body_name_ml": "കുറ്റ്യാട്ടൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130403",
+      "local_body_name_en": "Malappattam",
+      "local_body_name_ml": "മലപ്പട്ടം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130406",
+      "local_body_name_en": "Mayyil",
+      "local_body_name_ml": "മയ്യില്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130304",
+      "local_body_name_en": "Pariyaram",
+      "local_body_name_ml": "പരിയാരം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M130200",
+      "local_body_name_en": "Thalipparamba",
+      "local_body_name_ml": "തളിപ്പറമ്പ്",
+      "category": ""
+    },
+    {
+      "local_body_id": "M130900",
+      "local_body_name_en": "Anthoor",
+      "local_body_name_ml": "ആന്തൂര്‍",
+      "category": ""
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/taliparamba.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/taliparamba.geojson"
+  }
+}

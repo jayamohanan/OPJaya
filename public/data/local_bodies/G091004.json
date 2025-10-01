@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G091004",
+  "local_body_name_en": "Pudunagaram",
+  "local_body_name_ml": "പുതുനഗരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "59",
+    "assembly_name_en": "Nenmara",
+    "assembly_name_ml": "നെന്മാറ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3b5229a2-b30b-4f2d-8da8-8f2b01afe4e9",
+      "ward_no": "1",
+      "ward_name_en": "Karumanchala",
+      "ward_name_ml": "കരുമഞ്ചാല"
+    },
+    {
+      "ward_id": "b6bc9de4-1cb9-45ff-bdf0-8c68a3bfefa0",
+      "ward_no": "2",
+      "ward_name_en": "Thekkathivattaram",
+      "ward_name_ml": "തെക്കത്തിവട്ടാരം"
+    },
+    {
+      "ward_id": "c9c4e62d-ea8a-40a5-b1e0-df22ea4aeaa4",
+      "ward_no": "3",
+      "ward_name_en": "Pudunagaram Town",
+      "ward_name_ml": "പുതുനഗരം ടൌണ്‍"
+    },
+    {
+      "ward_id": "e593fec6-7501-4639-9144-066adf3c4f5d",
+      "ward_no": "4",
+      "ward_name_en": "Kosakkada",
+      "ward_name_ml": "കൊശക്കട"
+    },
+    {
+      "ward_id": "fb90729d-89dd-43df-a7e4-38ea65e6ba78",
+      "ward_no": "5",
+      "ward_name_en": "Chandapettavattaram",
+      "ward_name_ml": "ചന്തപ്പേട്ടവട്ടാരം"
+    },
+    {
+      "ward_id": "0ce64e9b-55dc-43a9-8e6a-dd673515ce21",
+      "ward_no": "6",
+      "ward_name_en": "Pallibasar",
+      "ward_name_ml": "പള്ളിബസാര്‍"
+    },
+    {
+      "ward_id": "5aa89997-e8ba-440e-9879-149956261ab7",
+      "ward_no": "7",
+      "ward_name_en": "Kattutheruvu",
+      "ward_name_ml": "കാട്ടുതെരുവ്"
+    },
+    {
+      "ward_id": "05192bf3-da56-42b1-86ce-2a994c7db5e8",
+      "ward_no": "8",
+      "ward_name_en": "Kulathumedu",
+      "ward_name_ml": "കുളത്തുമേട്"
+    },
+    {
+      "ward_id": "143d9f06-d282-489f-a98e-cd6efefe1059",
+      "ward_no": "9",
+      "ward_name_en": "Adichira",
+      "ward_name_ml": "അടിച്ചിറ"
+    },
+    {
+      "ward_id": "5d168466-a5ad-4ec5-aa32-ae9e053d5b2f",
+      "ward_no": "10",
+      "ward_name_en": "Variyathukalam",
+      "ward_name_ml": "വാരിയത്തുകളം"
+    },
+    {
+      "ward_id": "e00a99b3-60f5-48d2-a56b-827ab2a8bcd0",
+      "ward_no": "11",
+      "ward_name_en": "Karipode Thara",
+      "ward_name_ml": "കരിപ്പോട് തറ"
+    },
+    {
+      "ward_id": "7e917787-7b5c-44d5-87e9-35f6dd5cfd27",
+      "ward_no": "12",
+      "ward_name_en": "Veetiyode",
+      "ward_name_ml": "വീട്ടിയോട്"
+    },
+    {
+      "ward_id": "a59437da-0ffb-4bec-8bea-24adbcf2e4f1",
+      "ward_no": "13",
+      "ward_name_en": "Mangode",
+      "ward_name_ml": "മാങ്ങോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091004.geojson"
+  }
+}

@@ -1,0 +1,151 @@
+{
+  "local_body_id": "G050801",
+  "local_body_name_en": "Ayarkunnam",
+  "local_body_name_ml": "അയര്‍കുന്നം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "98",
+    "assembly_name_en": "Puthuppally",
+    "assembly_name_ml": "പുതുപ്പള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "fa3b6012-539f-4635-8e5d-a782dbbaab80",
+      "ward_no": "1",
+      "ward_name_en": "Arumanoor North",
+      "ward_name_ml": "ആറുമാനൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "9867678c-6253-4ba3-b601-e08945b7214b",
+      "ward_no": "2",
+      "ward_name_en": "Punnathura",
+      "ward_name_ml": "പുന്നത്തുറ"
+    },
+    {
+      "ward_id": "a3434370-13ee-488a-9405-bc68e5553b6e",
+      "ward_no": "3",
+      "ward_name_en": "Kochukongandoor",
+      "ward_name_ml": "കൊച്ചു്കൊങ്ങാണ്ടൂര്‍"
+    },
+    {
+      "ward_id": "300bf6a9-fffe-441b-9cfb-ab82d302be8d",
+      "ward_no": "4",
+      "ward_name_en": "Ayarkunnam West",
+      "ward_name_ml": "അയര്‍ക്കുന്നം വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "481f5a77-5c53-4305-a7fc-7c48dedf2e25",
+      "ward_no": "5",
+      "ward_name_en": "Kongandoor",
+      "ward_name_ml": "കൊങ്ങാണ്ടൂര്‍"
+    },
+    {
+      "ward_id": "19071480-0a77-48fd-aca1-0ef290a5ddbb",
+      "ward_no": "6",
+      "ward_name_en": "Nariveli",
+      "ward_name_ml": "നരിവേലി"
+    },
+    {
+      "ward_id": "1a144a57-050a-47ed-86e3-4a7ff78f63bc",
+      "ward_no": "7",
+      "ward_name_en": "Ayarkunnam East",
+      "ward_name_ml": "അയര്‍ക്കുന്നം ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "d0320fd7-74f8-4638-bcdb-43485bac680b",
+      "ward_no": "8",
+      "ward_name_en": "Thykkoottam",
+      "ward_name_ml": "തൈക്കൂട്ടം"
+    },
+    {
+      "ward_id": "38247e4a-6195-4ffe-958a-c4e5f63aa53c",
+      "ward_no": "9",
+      "ward_name_en": "Methrancheri",
+      "ward_name_ml": "മെത്രാഞ്ചേരി"
+    },
+    {
+      "ward_id": "433a0008-9986-4496-b2ec-de9d6fced9ce",
+      "ward_no": "10",
+      "ward_name_en": "Poothiri",
+      "ward_name_ml": "പൂതിരി"
+    },
+    {
+      "ward_id": "4bf7e5ca-d2db-447c-ada4-2f56c5f055eb",
+      "ward_no": "11",
+      "ward_name_en": "Vadakkanmannoor",
+      "ward_name_ml": "വടക്കന്‍മണ്ണൂര്‍"
+    },
+    {
+      "ward_id": "869e4df7-36bf-4d20-bb11-9a6b0f752e5f",
+      "ward_no": "12",
+      "ward_name_en": "Thuthootty",
+      "ward_name_ml": "തൂത്തൂട്ടി"
+    },
+    {
+      "ward_id": "3f6951e5-97cf-42c8-9762-5d69b9372e17",
+      "ward_no": "13",
+      "ward_name_en": "Puthupallykunnu",
+      "ward_name_ml": "പുതുപ്പള്ളിക്കുന്ന്"
+    },
+    {
+      "ward_id": "991e7184-84aa-40f1-b3e1-8b0cc5577991",
+      "ward_no": "14",
+      "ward_name_en": "Niravupadikunnu",
+      "ward_name_ml": "നിരവുപാടിക്കുന്ന്"
+    },
+    {
+      "ward_id": "a96b1866-a80d-4b27-9ab3-1eace4701949",
+      "ward_no": "15",
+      "ward_name_en": "Thiruvanchoor",
+      "ward_name_ml": "തിരുവഞ്ചൂര്‍"
+    },
+    {
+      "ward_id": "564ac9a3-43d2-4a1a-ba36-423e421c3c52",
+      "ward_no": "16",
+      "ward_name_en": "Vannalloorkara",
+      "ward_name_ml": "വന്നല്ലൂൂര്‍ക്കര"
+    },
+    {
+      "ward_id": "f3db5954-adb2-4775-af5e-f8826e34dc73",
+      "ward_no": "17",
+      "ward_name_en": "Ayyankoyickal",
+      "ward_name_ml": "അയ്യന്‍കോയിക്കല്‍"
+    },
+    {
+      "ward_id": "11c0a2d0-5d35-4817-85c3-1af1f42ee95b",
+      "ward_no": "18",
+      "ward_name_en": "Kandanchira",
+      "ward_name_ml": "കണ്ടന്‍ചിറ"
+    },
+    {
+      "ward_id": "687623f2-615a-4f98-9a13-fda11024eaa2",
+      "ward_no": "19",
+      "ward_name_en": "Neerikadu",
+      "ward_name_ml": "നീറിക്കാട്"
+    },
+    {
+      "ward_id": "7fff43a9-51c1-4dc1-acbc-bf91d7643cb6",
+      "ward_no": "20",
+      "ward_name_en": "Arumannoor South",
+      "ward_name_ml": "ആറുമാനൂര്‍ സൌത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050801.geojson"
+  }
+}

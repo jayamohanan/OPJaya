@@ -1,0 +1,66 @@
+{
+  "assembly_id": "78",
+  "assembly_name_en": "Paravur",
+  "assembly_name_ml": "പരവൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G070101",
+      "local_body_name_en": "Chendamangalam",
+      "local_body_name_ml": "ചേന്ദമംഗലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G070105",
+      "local_body_name_en": "Chittattukara",
+      "local_body_name_ml": "ചിറ്റാറ്റുകര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070103",
+      "local_body_name_en": "Ezhikkara",
+      "local_body_name_ml": "ഏഴിക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G070102",
+      "local_body_name_en": "Kottuvally",
+      "local_body_name_ml": "കോട്ടുവള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M070600",
+      "local_body_name_en": "North Paravur",
+      "local_body_name_ml": "വടക്കന്‍ പറവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071301",
+      "local_body_name_en": "Puthenvelikkara",
+      "local_body_name_ml": "പുത്തന്‍വേലിക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G070104",
+      "local_body_name_en": "Vadakkekkara",
+      "local_body_name_ml": "വടക്കേക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070202",
+      "local_body_name_en": "Varapuzha",
+      "local_body_name_ml": "വരാപ്പുഴ",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/paravur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/paravur.geojson"
+  }
+}

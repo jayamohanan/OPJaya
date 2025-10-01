@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G070307",
+  "local_body_name_en": "Kalady",
+  "local_body_name_ml": "കാലടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "75",
+    "assembly_name_en": "Angamaly",
+    "assembly_name_ml": "അങ്കമാലി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1abb7489-1f99-4cec-8e3d-58fd195e35f0",
+      "ward_no": "1",
+      "ward_name_en": "Marottichodu",
+      "ward_name_ml": "മരോട്ടിച്ചോട്"
+    },
+    {
+      "ward_id": "ff51a8a4-8094-403f-9ee3-9760eaa98621",
+      "ward_no": "2",
+      "ward_name_en": "Pothiyakkara",
+      "ward_name_ml": "പൊതിയക്കര"
+    },
+    {
+      "ward_id": "2d75c2f9-968f-4367-b496-7c8e79582cd9",
+      "ward_no": "3",
+      "ward_name_en": "Vattapparambu",
+      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "ba97d287-d059-4f25-bad7-83f56858ced2",
+      "ward_no": "4",
+      "ward_name_en": "Yordhanapuram",
+      "ward_name_ml": "യോര്‍ദ്ദനാപുരം"
+    },
+    {
+      "ward_id": "b34130cd-e7d6-4553-81d9-b6d01d62c859",
+      "ward_no": "5",
+      "ward_name_en": "Thottakam",
+      "ward_name_ml": "തോട്ടകം"
+    },
+    {
+      "ward_id": "b8021019-b6ce-4772-8f4d-c0891a6cebd2",
+      "ward_no": "6",
+      "ward_name_en": "Nettinampilly",
+      "ward_name_ml": "നെട്ടിനംപിളളി"
+    },
+    {
+      "ward_id": "dbbfcfbc-16c8-4b3f-897b-375605e001ba",
+      "ward_no": "7",
+      "ward_name_en": "Manickamangalam North",
+      "ward_name_ml": "മാണിക്യമംഗലം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "72ded891-8a76-4909-9b44-7a8c0e17a695",
+      "ward_no": "8",
+      "ward_name_en": "Manickamangalam South",
+      "ward_name_ml": "മാണിക്യമംഗലം സൌത്ത്"
+    },
+    {
+      "ward_id": "64df2f57-aad3-41e7-be33-cddb0dfd389e",
+      "ward_no": "9",
+      "ward_name_en": "Panayali",
+      "ward_name_ml": "പനയാലി"
+    },
+    {
+      "ward_id": "2f58f97b-c6fe-4219-b845-39e95e168915",
+      "ward_no": "10",
+      "ward_name_en": "Mekkalady",
+      "ward_name_ml": "മേക്കാലടി"
+    },
+    {
+      "ward_id": "dc7e4d06-1b17-4ebe-b915-416ff2591b19",
+      "ward_no": "11",
+      "ward_name_en": "Kalady Town",
+      "ward_name_ml": "കാലടി ടൌണ്‍"
+    },
+    {
+      "ward_id": "9824de42-7533-4107-949f-afc57ab7df8c",
+      "ward_no": "12",
+      "ward_name_en": "Kaippattoor",
+      "ward_name_ml": "കൈപ്പട്ടൂര്‍"
+    },
+    {
+      "ward_id": "1c7e9754-bd79-458c-9b54-f470c81e696d",
+      "ward_no": "13",
+      "ward_name_en": "Mattoor North",
+      "ward_name_ml": "മറ്റൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "9896c3ff-18fb-43b2-a846-244fd1daf248",
+      "ward_no": "14",
+      "ward_name_en": "Mattoor South",
+      "ward_name_ml": "മറ്റൂര്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "23eb570a-498b-4b93-9431-fd27641f6b8f",
+      "ward_no": "15",
+      "ward_name_en": "Piraroor",
+      "ward_name_ml": "പിരാരൂര്‍"
+    },
+    {
+      "ward_id": "2ab1aeeb-b32f-49fb-b2c6-1d8ff6f90047",
+      "ward_no": "16",
+      "ward_name_en": "Thevarmadom",
+      "ward_name_ml": "തേവര്‍മഠം"
+    },
+    {
+      "ward_id": "7ec39591-3578-4d3c-86cb-d6355cb1a5c7",
+      "ward_no": "17",
+      "ward_name_en": "Mattoor West",
+      "ward_name_ml": "മറ്റൂര്‍ വെസ്റ്റ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070307.geojson"
+  }
+}

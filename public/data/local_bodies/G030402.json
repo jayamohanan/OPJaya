@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030402",
+  "local_body_name_en": "Chenneerkara",
+  "local_body_name_ml": "ചെന്നീര്‍ക്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "113",
+    "assembly_name_en": "Aranmula",
+    "assembly_name_ml": "ആറന്മുള",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "eb394053-4762-4b47-aa87-c8a04935a3a0",
+      "ward_no": "1",
+      "ward_name_en": "Muttathukonam",
+      "ward_name_ml": "മുട്ടത്തുകോണം"
+    },
+    {
+      "ward_id": "c736559a-6cdc-477a-b58d-6d9a4170e249",
+      "ward_no": "2",
+      "ward_name_en": "Edanad",
+      "ward_name_ml": "ഇടനാട്"
+    },
+    {
+      "ward_id": "4fcd06ee-8963-4bfc-8d79-945647cce148",
+      "ward_no": "3",
+      "ward_name_en": "Prakkanam",
+      "ward_name_ml": "പ്രക്കാനം"
+    },
+    {
+      "ward_id": "f0757863-2468-4c9d-a999-edb57cb603fa",
+      "ward_no": "4",
+      "ward_name_en": "Muttukudukka",
+      "ward_name_ml": "മുട്ടുകുടുക്ക"
+    },
+    {
+      "ward_id": "878b8cc4-7511-4487-a91b-9e9a034fda6c",
+      "ward_no": "5",
+      "ward_name_en": "Umminikavu",
+      "ward_name_ml": "ഉമ്മിണിക്കാവ്"
+    },
+    {
+      "ward_id": "1a6cac18-4dab-4b4e-a7f8-89587cf8332a",
+      "ward_no": "6",
+      "ward_name_en": "Vettolimala",
+      "ward_name_ml": "വെട്ടോലിമല"
+    },
+    {
+      "ward_id": "fae76b3a-cb5e-414a-bba0-124001d47092",
+      "ward_no": "7",
+      "ward_name_en": "Valuthara",
+      "ward_name_ml": "വാലുതറ"
+    },
+    {
+      "ward_id": "a731f736-9a23-41d6-b156-a58d6007c52c",
+      "ward_no": "8",
+      "ward_name_en": "Manjinikkara",
+      "ward_name_ml": "മഞ്ഞിനിക്കര"
+    },
+    {
+      "ward_id": "40090610-6f16-4fd3-ad83-3d3f5fb8ea61",
+      "ward_no": "9",
+      "ward_name_en": "Mathoor",
+      "ward_name_ml": "മാത്തൂര്‍"
+    },
+    {
+      "ward_id": "8a014942-2ae5-4a60-8fc9-adf5193e5d24",
+      "ward_no": "10",
+      "ward_name_en": "Murippara",
+      "ward_name_ml": "മുറിപ്പാറ"
+    },
+    {
+      "ward_id": "c2901f18-b819-4723-a18c-ad3e903981d1",
+      "ward_no": "11",
+      "ward_name_en": "Ambalakadavu",
+      "ward_name_ml": "അമ്പലക്കടവ്"
+    },
+    {
+      "ward_id": "5df5817e-3716-485c-928a-92bd60fa567a",
+      "ward_no": "12",
+      "ward_name_en": "Chenneerkara",
+      "ward_name_ml": "ചെന്നീര്‍ക്കര"
+    },
+    {
+      "ward_id": "19308a99-552f-4d0d-929b-6e0b5982350f",
+      "ward_no": "13",
+      "ward_name_en": "Oonnukal",
+      "ward_name_ml": "ഊന്നുകല്‍"
+    },
+    {
+      "ward_id": "fea4c560-b0e0-4c56-af6a-013eabf116ac",
+      "ward_no": "14",
+      "ward_name_en": "Nallanikkunnu",
+      "ward_name_ml": "നല്ലാനിക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030402.geojson"
+  }
+}

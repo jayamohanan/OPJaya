@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G060604",
+  "local_body_name_en": "Kanchiyar",
+  "local_body_name_ml": "കാഞ്ചിയാര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "91",
+    "assembly_name_en": "Idukki",
+    "assembly_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c912f79b-6c36-4524-9248-2aeedf5c3cd1",
+      "ward_no": "1",
+      "ward_name_en": "Kovilmala",
+      "ward_name_ml": "കോവില്‍മല"
+    },
+    {
+      "ward_id": "f89ac066-cd4c-4700-a426-b1b5d7eeb678",
+      "ward_no": "2",
+      "ward_name_en": "Pambadikuzhy",
+      "ward_name_ml": "പാമ്പാടിക്കുഴി"
+    },
+    {
+      "ward_id": "19784288-5d58-46b0-8ad2-d3406408cb1f",
+      "ward_no": "3",
+      "ward_name_en": "Thoppipala",
+      "ward_name_ml": "തൊപ്പിപ്പാള"
+    },
+    {
+      "ward_id": "4c6fdd27-e42c-466f-80a8-82d372fb6133",
+      "ward_no": "4",
+      "ward_name_en": "Labbakada",
+      "ward_name_ml": "ലബ്ബക്കട"
+    },
+    {
+      "ward_id": "7832fb92-e354-470c-91bf-848785e22e5f",
+      "ward_no": "5",
+      "ward_name_en": "Pezhumkandam",
+      "ward_name_ml": "പേഴുംങ്കണ്ടം"
+    },
+    {
+      "ward_id": "3ad0231c-f295-4ab5-b921-71742fd4e5a2",
+      "ward_no": "6",
+      "ward_name_en": "Puthukadau",
+      "ward_name_ml": "പുതുക്കാട്"
+    },
+    {
+      "ward_id": "4cd59223-0d8d-4318-a547-32e279972c94",
+      "ward_no": "7",
+      "ward_name_en": "Anchuruli",
+      "ward_name_ml": "അഞ്ചുരുളി"
+    },
+    {
+      "ward_id": "ac83e2a5-a625-4fac-a432-549b90dbc1ae",
+      "ward_no": "8",
+      "ward_name_en": "Nariyampara",
+      "ward_name_ml": "നരിയമ്പാറ"
+    },
+    {
+      "ward_id": "848203be-ecdd-4edb-83dc-13ac9904a91e",
+      "ward_no": "9",
+      "ward_name_en": "Kanchiyar",
+      "ward_name_ml": "കാഞ്ചിയാര്‍"
+    },
+    {
+      "ward_id": "2c21a61e-aa32-4650-8060-9dbec23205cd",
+      "ward_no": "10",
+      "ward_name_en": "Vengaloorkada",
+      "ward_name_ml": "വെങ്ങാലൂര്‍കട"
+    },
+    {
+      "ward_id": "10be0516-ada3-4ce3-be02-b326c4eb00f6",
+      "ward_no": "11",
+      "ward_name_en": "Swarnavilasam",
+      "ward_name_ml": "സ്വര്‍ണവിലാസം"
+    },
+    {
+      "ward_id": "b478292d-f787-46ee-9389-691197ff56b6",
+      "ward_no": "12",
+      "ward_name_en": "Meppara",
+      "ward_name_ml": "മേപ്പാറ"
+    },
+    {
+      "ward_id": "b5042101-ce11-49b4-ac01-a7043b5998a9",
+      "ward_no": "13",
+      "ward_name_en": "Kizhakke Mattukatta",
+      "ward_name_ml": "കിഴക്കേമാട്ടുക്കട്ട"
+    },
+    {
+      "ward_id": "d610b008-d1e8-494c-83f3-566e1c347547",
+      "ward_no": "14",
+      "ward_name_en": "Kalthotty",
+      "ward_name_ml": "കല്‍ത്തൊട്ടി"
+    },
+    {
+      "ward_id": "5c61c100-0994-4c7c-913e-db7e7907cc2e",
+      "ward_no": "15",
+      "ward_name_en": "Kodalippara",
+      "ward_name_ml": "കോടാലിപ്പാറ"
+    },
+    {
+      "ward_id": "f01061ac-9db2-4c09-ae3b-9cd71e6b6bc6",
+      "ward_no": "16",
+      "ward_name_en": "Murikkattukudy",
+      "ward_name_ml": "മുരിക്കാട്ടുകുടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060604.geojson"
+  }
+}

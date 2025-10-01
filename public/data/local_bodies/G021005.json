@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G021005",
+  "local_body_name_en": "Chirakkara",
+  "local_body_name_ml": "ചിറക്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "126",
+    "assembly_name_en": "Chathannoor",
+    "assembly_name_ml": "ചാത്തന്നൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f6fac6ab-a268-4b90-91c4-920be61bda85",
+      "ward_no": "1",
+      "ward_name_en": "Kochalummoodu",
+      "ward_name_ml": "കൊച്ചാലുംമൂട്"
+    },
+    {
+      "ward_id": "2528ad19-1961-414d-9de2-95e78f187ad9",
+      "ward_no": "2",
+      "ward_name_en": "Uliyanadu",
+      "ward_name_ml": "ഉളിയനാട്"
+    },
+    {
+      "ward_id": "3b72be3d-5411-4f14-99e1-7bc8dc1b9fb0",
+      "ward_no": "3",
+      "ward_name_en": "College Ward",
+      "ward_name_ml": "കോളേജ് വാര്‍ഡ്‌"
+    },
+    {
+      "ward_id": "28495671-fa16-4abd-b889-58de0e9f8590",
+      "ward_no": "4",
+      "ward_name_en": "Kanneta",
+      "ward_name_ml": "കണ്ണേറ്റ"
+    },
+    {
+      "ward_id": "b5c0690c-6109-41a1-91b2-ec2225ac177f",
+      "ward_no": "5",
+      "ward_name_en": "Earam Thekku",
+      "ward_name_ml": "ഏറം തെക്ക്"
+    },
+    {
+      "ward_id": "1d987a7a-aed1-4b3b-a65a-82589b42b239",
+      "ward_no": "6",
+      "ward_name_en": "Chirakkara",
+      "ward_name_ml": "ചിറക്കര"
+    },
+    {
+      "ward_id": "9255a01e-4c20-4c4f-9af7-235bf1df5a56",
+      "ward_no": "7",
+      "ward_name_en": "Kulathoorkonam",
+      "ward_name_ml": "കുളത്തൂര്‍കോണം"
+    },
+    {
+      "ward_id": "569ccf9b-2922-4241-a8a4-6d99ff0d3957",
+      "ward_no": "8",
+      "ward_name_en": "Chirakkarakshetram",
+      "ward_name_ml": "ചിറക്കരക്ഷേത്രം"
+    },
+    {
+      "ward_id": "0027050a-6631-44ce-b60c-eb1078f962ad",
+      "ward_no": "9",
+      "ward_name_en": "Edavattom",
+      "ward_name_ml": "ഇടവട്ടം"
+    },
+    {
+      "ward_id": "437d9e00-2c5d-4f90-b2eb-55061ea42a01",
+      "ward_no": "10",
+      "ward_name_en": "Chirakkarathazham",
+      "ward_name_ml": "ചിറക്കരത്താഴം"
+    },
+    {
+      "ward_id": "b5b6a530-7e2e-43a7-9cae-7c6c376c120e",
+      "ward_no": "11",
+      "ward_name_en": "Kuzhuppil",
+      "ward_name_ml": "കുഴുപ്പില്‍"
+    },
+    {
+      "ward_id": "3a82ca44-5fb4-448e-b24a-3443dad4451a",
+      "ward_no": "12",
+      "ward_name_en": "Polachira",
+      "ward_name_ml": "പോളച്ചിറ"
+    },
+    {
+      "ward_id": "07f4f109-0338-4c40-b19b-5de5ff8b97e4",
+      "ward_no": "13",
+      "ward_name_en": "Ozhukupara",
+      "ward_name_ml": "ഒഴുകുപാറ"
+    },
+    {
+      "ward_id": "03a1a14f-afac-49d3-ab24-d7535b978d1e",
+      "ward_no": "14",
+      "ward_name_en": "Nedungolam",
+      "ward_name_ml": "നെടുങ്ങോലം"
+    },
+    {
+      "ward_id": "df671040-3c49-4e19-88e9-cbf7d6f88ef2",
+      "ward_no": "15",
+      "ward_name_en": "Malakkayal",
+      "ward_name_ml": "മാലക്കായല്‍"
+    },
+    {
+      "ward_id": "ac66e727-a410-4adf-ac4f-d4d7c846b31c",
+      "ward_no": "16",
+      "ward_name_en": "Nedungolam West",
+      "ward_name_ml": "നെടുങ്ങോലം പടിഞ്ഞാറ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G021005.geojson"
+  }
+}

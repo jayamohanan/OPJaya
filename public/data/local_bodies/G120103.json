@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G120103",
+  "local_body_name_en": "Thirunelly",
+  "local_body_name_ml": "തിരുനെല്ലി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "17",
+    "assembly_name_en": "Mananthavady",
+    "assembly_name_ml": "മാനന്തവാടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c9f9c62c-a79f-4bb0-a52d-a71abf8d0860",
+      "ward_no": "1",
+      "ward_name_en": "Thirunelly",
+      "ward_name_ml": "തിരുനെല്ലി"
+    },
+    {
+      "ward_id": "3043c997-dee1-45df-8f7e-275efafb930d",
+      "ward_no": "2",
+      "ward_name_en": "Appappara",
+      "ward_name_ml": "അപ്പപ്പാറ"
+    },
+    {
+      "ward_id": "824d1dd7-7a33-4eb0-a55a-655d809ce116",
+      "ward_no": "3",
+      "ward_name_en": "Aramangalam",
+      "ward_name_ml": "അരമംഗലം"
+    },
+    {
+      "ward_id": "765fb30f-f2b0-47c6-8f8f-dde730b4c652",
+      "ward_no": "4",
+      "ward_name_en": "Aranappara",
+      "ward_name_ml": "അരണപ്പാറ"
+    },
+    {
+      "ward_id": "157bcfbf-9609-4b72-bb44-c019805175a4",
+      "ward_no": "5",
+      "ward_name_en": "Tholpetty",
+      "ward_name_ml": "തോല്‍പ്പെട്ടി"
+    },
+    {
+      "ward_id": "8bbe2973-3b6c-4bf1-bbb6-a0b2a27da807",
+      "ward_no": "6",
+      "ward_name_en": "Kuthirakode",
+      "ward_name_ml": "കുതിരക്കോട്"
+    },
+    {
+      "ward_id": "d29490b3-66f7-446a-9ecf-e3a2e4c36ac0",
+      "ward_no": "7",
+      "ward_name_en": "Panavally",
+      "ward_name_ml": "പനവല്ലി"
+    },
+    {
+      "ward_id": "9ba0ba91-e24d-4091-896e-e116e94c2f7e",
+      "ward_no": "8",
+      "ward_name_en": "Alathoor",
+      "ward_name_ml": "ആലത്തൂര്‍"
+    },
+    {
+      "ward_id": "92d50b94-2949-4be7-b4e2-7790564c6c05",
+      "ward_no": "9",
+      "ward_name_en": "Begur",
+      "ward_name_ml": "ബേഗൂര്‍"
+    },
+    {
+      "ward_id": "55dcad09-9ebd-4c67-a939-38c093812453",
+      "ward_no": "10",
+      "ward_name_en": "Bavali",
+      "ward_name_ml": "ബാവലി"
+    },
+    {
+      "ward_id": "f8080105-88be-4d8a-8098-1841383b4bd0",
+      "ward_no": "11",
+      "ward_name_en": "Cheloor",
+      "ward_name_ml": "ചേലൂര്‍"
+    },
+    {
+      "ward_id": "7cac8c51-e809-4490-8024-ffcfd72569ee",
+      "ward_no": "12",
+      "ward_name_en": "Kattikulam",
+      "ward_name_ml": "കാട്ടിക്കുളം"
+    },
+    {
+      "ward_id": "44302109-b6af-4167-8561-e36e41a16537",
+      "ward_no": "13",
+      "ward_name_en": "Oliyode",
+      "ward_name_ml": "ഓലിയോട്"
+    },
+    {
+      "ward_id": "42209b77-72ff-4dc7-807b-6d266068080d",
+      "ward_no": "14",
+      "ward_name_en": "Edayoorkunnu",
+      "ward_name_ml": "എടയൂര്‍കുന്ന്"
+    },
+    {
+      "ward_id": "2b0f3903-b7db-43cc-a1ed-aa5e8454c33e",
+      "ward_no": "15",
+      "ward_name_en": "Thrissilery",
+      "ward_name_ml": "തൃശ്ശിലേരി"
+    },
+    {
+      "ward_id": "01623656-18bd-47ce-b767-cd1ebdd0bdac",
+      "ward_no": "16",
+      "ward_name_en": "Kaithavally",
+      "ward_name_ml": "കൈതവള്ളി"
+    },
+    {
+      "ward_id": "b1560a54-a50c-44dd-baf9-9e0e8c2830b1",
+      "ward_no": "17",
+      "ward_name_en": "Muthumary",
+      "ward_name_ml": "മുത്തുമാരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G120103.geojson"
+  }
+}

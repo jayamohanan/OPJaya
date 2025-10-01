@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G010301",
+  "local_body_name_en": "Anchuthengu",
+  "local_body_name_ml": "അഞ്ചുതെങ്ങ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "129",
+    "assembly_name_en": "Chirayinkeezhu",
+    "assembly_name_ml": "ചിറയിൻകീഴ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c73c7b3c-cad4-4066-990b-ea918d664f01",
+      "ward_no": "1",
+      "ward_name_en": "Kayikkara Asan Smarakam",
+      "ward_name_ml": "കായിക്കര ആശാന്‍ സ്മാരകം"
+    },
+    {
+      "ward_id": "099a6609-364d-4c0e-aa60-b6a233b7afd6",
+      "ward_no": "2",
+      "ward_name_en": "Nedunganda",
+      "ward_name_ml": "നെടുങ്ങണ്ട"
+    },
+    {
+      "ward_id": "baef6cb2-efbf-4e31-9f00-7dc3f7853e77",
+      "ward_no": "3",
+      "ward_name_en": "Kaikkara",
+      "ward_name_ml": "കായിക്കര"
+    },
+    {
+      "ward_id": "1a819a0a-63dc-4112-879e-b81aad18fb34",
+      "ward_no": "4",
+      "ward_name_en": "Kapaleeswaram",
+      "ward_name_ml": "കാപാലീശ്വരം"
+    },
+    {
+      "ward_id": "52ca5ddd-04de-4ce6-a63f-7c7665845770",
+      "ward_no": "5",
+      "ward_name_en": "Mudippura",
+      "ward_name_ml": "മുടിപ്പുര"
+    },
+    {
+      "ward_id": "d2e1495d-be85-4b9b-901c-8b9454b6c2cc",
+      "ward_no": "6",
+      "ward_name_en": "Puthen Nada",
+      "ward_name_ml": "പുത്തന്‍ നട"
+    },
+    {
+      "ward_id": "4ef808f1-d6a4-4763-ab3b-40b3fc4d9b5c",
+      "ward_no": "7",
+      "ward_name_en": "Valiya Palli",
+      "ward_name_ml": "വലിയ പളളി"
+    },
+    {
+      "ward_id": "6bcee408-9e4b-41d9-b3e1-561fa56d12db",
+      "ward_no": "8",
+      "ward_name_en": "Poothura",
+      "ward_name_ml": "പൂത്തുറ"
+    },
+    {
+      "ward_id": "d2857bcd-40df-478f-98e7-2041f048bb5f",
+      "ward_no": "9",
+      "ward_name_en": "Convent",
+      "ward_name_ml": "കോണ്‍വെന്‍റ്"
+    },
+    {
+      "ward_id": "975e11f9-1c60-4941-8c78-4a9193011855",
+      "ward_no": "10",
+      "ward_name_en": "Panchayat Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+    },
+    {
+      "ward_id": "472fa492-1e80-4a06-9d10-a6cfdcd32d63",
+      "ward_no": "11",
+      "ward_name_en": "Anchuthengu Junction",
+      "ward_name_ml": "അഞ്ചുതെങ്ങ് ജംഗ്ഷന്‍"
+    },
+    {
+      "ward_id": "d60e0537-d298-4fdc-893d-434958f12c24",
+      "ward_no": "12",
+      "ward_name_en": "Mannakkulam",
+      "ward_name_ml": "മണ്ണാക്കുളം"
+    },
+    {
+      "ward_id": "66207f3f-de67-44b8-b043-f85e7f03f5ec",
+      "ward_no": "13",
+      "ward_name_en": "Munduthura",
+      "ward_name_ml": "മുണ്ടുതുറ"
+    },
+    {
+      "ward_id": "5fdbd84f-53c5-441d-b732-9297b2fdf5fc",
+      "ward_no": "14",
+      "ward_name_en": "Mampally",
+      "ward_name_ml": "മാമ്പളളി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010301.geojson"
+  }
+}

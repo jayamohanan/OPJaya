@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050603",
+  "local_body_name_en": "Poonjar",
+  "local_body_name_ml": "പൂഞ്ഞാര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "101",
+    "assembly_name_en": "Poonjar",
+    "assembly_name_ml": "പൂഞ്ഞാർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "95bcb541-4801-4f9b-93ee-0b79232f4553",
+      "ward_no": "1",
+      "ward_name_en": "Perunnilam",
+      "ward_name_ml": "പെരുന്നിലം"
+    },
+    {
+      "ward_id": "e3768ddc-d6d5-481a-a149-ec450b0b21bf",
+      "ward_no": "2",
+      "ward_name_en": "Mattackadu",
+      "ward_name_ml": "മറ്റയ്ക്കാട്"
+    },
+    {
+      "ward_id": "9877d5c2-316f-4332-8902-6a51b836f1a7",
+      "ward_no": "3",
+      "ward_name_en": "Palace",
+      "ward_name_ml": "പാലസ്"
+    },
+    {
+      "ward_id": "4917b9c4-1ad9-4c44-85aa-b3ea24dc91a9",
+      "ward_no": "4",
+      "ward_name_en": "Nellickachal",
+      "ward_name_ml": "നെല്ലിയ്ക്കച്ചാല്‍"
+    },
+    {
+      "ward_id": "33cb1c12-76cf-4410-9091-6cd549d46b74",
+      "ward_no": "5",
+      "ward_name_en": "Panachikappara",
+      "ward_name_ml": "പനച്ചികപ്പാറ"
+    },
+    {
+      "ward_id": "8624dfc5-763b-4b48-ac59-ee720342c828",
+      "ward_no": "6",
+      "ward_name_en": "Thannippara",
+      "ward_name_ml": "തണ്ണിപ്പാറ"
+    },
+    {
+      "ward_id": "3496b804-4b60-49db-8d0a-ed496715e8cb",
+      "ward_no": "7",
+      "ward_name_en": "Pulickappalam",
+      "ward_name_ml": "പുളിയ്ക്കപ്പാലം"
+    },
+    {
+      "ward_id": "1a5e2795-b779-4beb-8ff5-09b11b236be7",
+      "ward_no": "8",
+      "ward_name_en": "Maniyamkunnu",
+      "ward_name_ml": "മണിയംകുന്ന്"
+    },
+    {
+      "ward_id": "f4044ab3-d659-43b7-99b0-9cf8cd3bee0a",
+      "ward_no": "9",
+      "ward_name_en": "Valathookk",
+      "ward_name_ml": "വളതൂക്ക്"
+    },
+    {
+      "ward_id": "2fadfeab-d2ca-4d38-8907-ef11c5bb30c8",
+      "ward_no": "10",
+      "ward_name_en": "Chennadu",
+      "ward_name_ml": "ചേന്നാട്"
+    },
+    {
+      "ward_id": "5cfad266-93f0-4cf8-aa29-6db540e2fefd",
+      "ward_no": "11",
+      "ward_name_en": "Nedunthanam",
+      "ward_name_ml": "നെടുന്താനം"
+    },
+    {
+      "ward_id": "4bd78f61-7945-4340-a219-bc1ae739ba8f",
+      "ward_no": "12",
+      "ward_name_en": "Cherukunnam",
+      "ward_name_ml": "ചെറുകുന്നം"
+    },
+    {
+      "ward_id": "032678c9-cac4-4a15-911f-daae599a8b71",
+      "ward_no": "13",
+      "ward_name_en": "Maniyamkulam",
+      "ward_name_ml": "മണിയംകുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050603.geojson"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G050703",
+  "local_body_name_en": "Kooroppada",
+  "local_body_name_ml": "കൂരോപ്പട",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "98",
+    "assembly_name_en": "Puthuppally",
+    "assembly_name_ml": "പുതുപ്പള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "835853dd-94a0-4bc6-aa7e-081b24862084",
+      "ward_no": "1",
+      "ward_name_en": "Kannankunnu",
+      "ward_name_ml": "കണ്ണന്‍കുന്ന്"
+    },
+    {
+      "ward_id": "8e91890c-cb23-46ad-ac20-5637ebd91a52",
+      "ward_no": "2",
+      "ward_name_en": "Kuttikkadu",
+      "ward_name_ml": "കുറ്റിക്കാട്"
+    },
+    {
+      "ward_id": "b60e3c6e-86c1-46b6-bc8f-26e52d9a1069",
+      "ward_no": "3",
+      "ward_name_en": "Kannadippara",
+      "ward_name_ml": "കണ്ണാടിപ്പാറ"
+    },
+    {
+      "ward_id": "44f925e3-6f1a-499e-8494-1a51ae7bb923",
+      "ward_no": "4",
+      "ward_name_en": "Kooroppada",
+      "ward_name_ml": "കൂരോപ്പട"
+    },
+    {
+      "ward_id": "608e52f8-d0c4-435f-8c8f-d12eb95e7d49",
+      "ward_no": "5",
+      "ward_name_en": "Eruthupuzha",
+      "ward_name_ml": "എരുത്തുപുഴ"
+    },
+    {
+      "ward_id": "75845ed4-e6ea-4709-9621-77a3308b8057",
+      "ward_no": "6",
+      "ward_name_en": "Madappadu",
+      "ward_name_ml": "മാടപ്പാട്"
+    },
+    {
+      "ward_id": "9480a1a9-ce1a-4ad4-b48c-6d525b4218cc",
+      "ward_no": "7",
+      "ward_name_en": "Edakkattukunnu",
+      "ward_name_ml": "ഇടയ്ക്കാട്ടുകുന്ന്"
+    },
+    {
+      "ward_id": "9efd6693-e99e-4ada-9675-be9bdef36f92",
+      "ward_no": "8",
+      "ward_name_en": "Panappally",
+      "ward_name_ml": "പാനാപ്പളളി"
+    },
+    {
+      "ward_id": "3785b3dc-cb30-4075-b306-bd54ac5a073c",
+      "ward_no": "9",
+      "ward_name_en": "Puthenkandam",
+      "ward_name_ml": "പുത്തന്‍കണ്ടം"
+    },
+    {
+      "ward_id": "6a5a5278-2b76-4d27-8146-80f9e0fcd268",
+      "ward_no": "10",
+      "ward_name_en": "Kothala",
+      "ward_name_ml": "കോത്തല"
+    },
+    {
+      "ward_id": "d53fe93f-3cae-4767-bcc3-693ca4217eed",
+      "ward_no": "11",
+      "ward_name_en": "Puthuvayal",
+      "ward_name_ml": "പുതുവയല്‍"
+    },
+    {
+      "ward_id": "38bfcf68-45de-4841-885f-49236f4e33e0",
+      "ward_no": "12",
+      "ward_name_en": "Nadepeedika",
+      "ward_name_ml": "നടേപ്പീടിക"
+    },
+    {
+      "ward_id": "2182ddbe-24ec-4b4b-8a26-b4e0eb84ae8c",
+      "ward_no": "13",
+      "ward_name_en": "Kochuparambu",
+      "ward_name_ml": "കൊച്ചുപറമ്പ്"
+    },
+    {
+      "ward_id": "a036ef71-067a-4690-b1b9-51f53095ba07",
+      "ward_no": "14",
+      "ward_name_en": "Kuppathanam",
+      "ward_name_ml": "കുപ്പത്താനം"
+    },
+    {
+      "ward_id": "17a93ace-6cbe-49be-b53b-985db318ef24",
+      "ward_no": "15",
+      "ward_name_en": "Anivayal",
+      "ward_name_ml": "ആനിവയല്‍"
+    },
+    {
+      "ward_id": "b4aa4fdf-410a-48c3-a277-6697e58c0fb4",
+      "ward_no": "16",
+      "ward_name_en": "Chakkara",
+      "ward_name_ml": "ചാക്കാറ"
+    },
+    {
+      "ward_id": "caccad24-3c9c-4e3f-aeee-405870a319b3",
+      "ward_no": "17",
+      "ward_name_en": "Lakkattoor",
+      "ward_name_ml": "ളാക്കാട്ടൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050703.geojson"
+  }
+}

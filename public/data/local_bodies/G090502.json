@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G090502",
+  "local_body_name_en": "Karimba",
+  "local_body_name_ml": "കരിമ്പ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "53",
+    "assembly_name_en": "Kongad",
+    "assembly_name_ml": "കോങ്ങാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "28096682-298b-4f01-a2cc-3b432fc0706c",
+      "ward_no": "1",
+      "ward_name_en": "Kappadam",
+      "ward_name_ml": "കപ്പടം"
+    },
+    {
+      "ward_id": "5043ab9d-cc51-483a-9d77-2de4daf53cbe",
+      "ward_no": "2",
+      "ward_name_en": "Maruthamkad",
+      "ward_name_ml": "മരുതംകാട്"
+    },
+    {
+      "ward_id": "033b1c55-7df1-4b32-9e76-3b4dfdf1bc92",
+      "ward_no": "3",
+      "ward_name_en": "Vakkode",
+      "ward_name_ml": "വാക്കോട്"
+    },
+    {
+      "ward_id": "04bbb177-0790-4704-b58b-ad5dfc35719d",
+      "ward_no": "4",
+      "ward_name_en": "Kalladikode",
+      "ward_name_ml": "കല്ലടിക്കോട്"
+    },
+    {
+      "ward_id": "3c9fcb16-ef71-4447-acb1-823ca37b66e5",
+      "ward_no": "5",
+      "ward_name_en": "Kaliparambu",
+      "ward_name_ml": "കളിപറന്പ്"
+    },
+    {
+      "ward_id": "9d73bcf3-d8d4-4871-aaca-016a7e247665",
+      "ward_no": "6",
+      "ward_name_en": "Koorikkunnu",
+      "ward_name_ml": "കൂരിക്കുന്ന്"
+    },
+    {
+      "ward_id": "56fc230e-60cf-46e6-adb4-632bdb2857a1",
+      "ward_no": "7",
+      "ward_name_en": "Choorakkode",
+      "ward_name_ml": "ചൂരക്കോട്"
+    },
+    {
+      "ward_id": "4019179a-d62b-4e26-8e73-851c63be08ea",
+      "ward_no": "8",
+      "ward_name_en": "Parakkad",
+      "ward_name_ml": "പറക്കാട്"
+    },
+    {
+      "ward_id": "9f4cd215-92aa-4ccc-95d0-b603cc22fb93",
+      "ward_no": "9",
+      "ward_name_en": "Melamadam",
+      "ward_name_ml": "മേലേമഠം"
+    },
+    {
+      "ward_id": "a363d891-0ec7-451b-a3a0-99479609998d",
+      "ward_no": "10",
+      "ward_name_en": "Kanjirani",
+      "ward_name_ml": "കാഞ്ഞിരാനി"
+    },
+    {
+      "ward_id": "1c820f07-92a8-4eba-840f-df840f327312",
+      "ward_no": "11",
+      "ward_name_en": "Kuttiyode",
+      "ward_name_ml": "കുറ്റിയോട്"
+    },
+    {
+      "ward_id": "6b312b98-5776-462d-90c1-d495bb7b504a",
+      "ward_no": "12",
+      "ward_name_en": "Vettom",
+      "ward_name_ml": "വെട്ടം"
+    },
+    {
+      "ward_id": "8e32d6df-fb1f-4676-b2b1-592889a2e1f9",
+      "ward_no": "13",
+      "ward_name_en": "Cherully",
+      "ward_name_ml": "ചെറുള്ളി"
+    },
+    {
+      "ward_id": "fdbb6177-0739-4d7d-bcf2-6865579ed9d0",
+      "ward_no": "14",
+      "ward_name_en": "Panayanpadam",
+      "ward_name_ml": "പനയംപാടം"
+    },
+    {
+      "ward_id": "3582fd5c-e87f-4bb9-8b74-f71404385a40",
+      "ward_no": "15",
+      "ward_name_en": "Kaliyode",
+      "ward_name_ml": "കാളിയോട്"
+    },
+    {
+      "ward_id": "9572c7db-8a57-4343-900e-4e117587d6f2",
+      "ward_no": "16",
+      "ward_name_en": "Edakkurussi",
+      "ward_name_ml": "ഇടക്കുറുശശി"
+    },
+    {
+      "ward_id": "bf9be2de-8894-44cf-9cee-26a924ca678f",
+      "ward_no": "17",
+      "ward_name_en": "Palalam",
+      "ward_name_ml": "പാലളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090502.geojson"
+  }
+}

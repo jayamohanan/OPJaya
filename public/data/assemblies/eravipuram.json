@@ -1,0 +1,24 @@
+{
+  "assembly_id": "125",
+  "assembly_name_en": "Eravipuram",
+  "assembly_name_ml": "ഇരവിപുരം",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020901",
+      "local_body_name_en": "Mayyanad",
+      "local_body_name_ml": "മയ്യനാട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/eravipuram.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/eravipuram.geojson"
+  }
+}

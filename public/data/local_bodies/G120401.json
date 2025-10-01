@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G120401",
+  "local_body_name_en": "Kottathara",
+  "local_body_name_ml": "കോട്ടത്തറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "19",
+    "assembly_name_en": "Kalpetta",
+    "assembly_name_ml": "കല്‍പ്പറ്റ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f8d530b3-168a-428b-8648-9f7e0b11ecdd",
+      "ward_no": "1",
+      "ward_name_en": "Venniyode",
+      "ward_name_ml": "വെണ്ണിയോട്"
+    },
+    {
+      "ward_id": "bf659dcf-10ee-4464-a662-50c711983743",
+      "ward_no": "2",
+      "ward_name_en": "Mailady",
+      "ward_name_ml": "മൈലാടി"
+    },
+    {
+      "ward_id": "77e2e7e5-7281-4f01-94f0-aaf5dfea5ba1",
+      "ward_no": "3",
+      "ward_name_en": "Cheerakath",
+      "ward_name_ml": "ചീരകത്ത്"
+    },
+    {
+      "ward_id": "0b8c0558-bdd5-4c25-a160-863408166002",
+      "ward_no": "4",
+      "ward_name_en": "Vandiyambetta",
+      "ward_name_ml": "വണ്ടിയാമ്പറ്റ"
+    },
+    {
+      "ward_id": "00e4727e-2cd3-4030-bbdf-d58fc580966e",
+      "ward_no": "5",
+      "ward_name_en": "Aneri",
+      "ward_name_ml": "ആനേരി"
+    },
+    {
+      "ward_id": "ec04ab62-bbdf-4997-a606-f6fabdd19285",
+      "ward_no": "6",
+      "ward_name_en": "Karimkutty",
+      "ward_name_ml": "കരിങ്കുറ്റി"
+    },
+    {
+      "ward_id": "1469dfd2-d8e7-4443-947e-863d9bd0ae91",
+      "ward_no": "7",
+      "ward_name_en": "Kottathara",
+      "ward_name_ml": "കോട്ടത്തറ"
+    },
+    {
+      "ward_id": "0ee918e7-5266-4c1b-a6db-380948952cc0",
+      "ward_no": "8",
+      "ward_name_en": "Kunnathaikunnu",
+      "ward_name_ml": "കുന്നത്തായിക്കുന്ന്"
+    },
+    {
+      "ward_id": "e791cf38-bd93-4c4e-ba22-7807c5bd263c",
+      "ward_no": "9",
+      "ward_name_en": "Karinjakunnu",
+      "ward_name_ml": "കരിഞ്ഞകുന്ന്"
+    },
+    {
+      "ward_id": "bfa6635f-4ee1-4776-8cdc-d6ec31feab05",
+      "ward_no": "10",
+      "ward_name_en": "Madakkunnu",
+      "ward_name_ml": "മാടക്കുന്ന്"
+    },
+    {
+      "ward_id": "04af3f92-db55-4a0c-98df-9b663864efa7",
+      "ward_no": "11",
+      "ward_name_en": "Vyppadi",
+      "ward_name_ml": "വൈപ്പടി"
+    },
+    {
+      "ward_id": "fa51e81e-0563-4d8c-8d1a-a04bd93fa325",
+      "ward_no": "12",
+      "ward_name_en": "Kuzhivayal",
+      "ward_name_ml": "കുഴിവയല്‍"
+    },
+    {
+      "ward_id": "7b1562e7-6b0a-4d79-908b-5225422b8818",
+      "ward_no": "13",
+      "ward_name_en": "Mechana",
+      "ward_name_ml": "മെച്ചന"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G120401.geojson"
+  }
+}

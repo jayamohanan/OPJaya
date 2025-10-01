@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G130105",
+  "local_body_name_en": "Eramam Kuttur",
+  "local_body_name_ml": "എരമം കുറ്റൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "6",
+    "assembly_name_en": "Payyannur",
+    "assembly_name_ml": "പയ്യന്നൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3795b76f-f123-4473-9b93-81291fa507cd",
+      "ward_no": "1",
+      "ward_name_en": "Eramam",
+      "ward_name_ml": "എരമം"
+    },
+    {
+      "ward_id": "dd57460e-b811-4d76-ab40-e19ddedda694",
+      "ward_no": "2",
+      "ward_name_en": "Ramapuram",
+      "ward_name_ml": "രാമപുരം"
+    },
+    {
+      "ward_id": "881b7859-001a-4d93-8113-365007e11f6d",
+      "ward_no": "3",
+      "ward_name_en": "Kuttur",
+      "ward_name_ml": "കുറ്റൂര്‍"
+    },
+    {
+      "ward_id": "9c9a0eae-b645-44da-bff5-b42a115c6f0e",
+      "ward_no": "4",
+      "ward_name_en": "Olayambadi",
+      "ward_name_ml": "ഓലയമ്പാടി"
+    },
+    {
+      "ward_id": "35d7a662-6174-4523-927a-cde43e804315",
+      "ward_no": "5",
+      "ward_name_en": "Chattiyol",
+      "ward_name_ml": "ചട്ട്യോള്‍"
+    },
+    {
+      "ward_id": "8cb7c39d-676c-4f02-87fd-f1760371217c",
+      "ward_no": "6",
+      "ward_name_en": "Peruvamba",
+      "ward_name_ml": "പെരുവാമ്പ"
+    },
+    {
+      "ward_id": "fcb40834-40b8-4a70-a21b-a4354ba58e5d",
+      "ward_no": "7",
+      "ward_name_en": "Kakkara",
+      "ward_name_ml": "കക്കറ"
+    },
+    {
+      "ward_id": "97410ef5-defd-4332-9e62-f3217136e3fb",
+      "ward_no": "8",
+      "ward_name_en": "Kayappoyil",
+      "ward_name_ml": "കായപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "32ae1e57-673f-4dcd-86ea-871909f63dff",
+      "ward_no": "9",
+      "ward_name_en": "Vellora",
+      "ward_name_ml": "വെള്ളോറ"
+    },
+    {
+      "ward_id": "4a22a29b-b270-46cd-984a-1f3f5956a9f6",
+      "ward_no": "10",
+      "ward_name_en": "Perumbadavu",
+      "ward_name_ml": "പെരുമ്പടവ്"
+    },
+    {
+      "ward_id": "d2d24095-f70a-42a1-8fe8-a20b5fc413b6",
+      "ward_no": "11",
+      "ward_name_en": "Karippal",
+      "ward_name_ml": "കരിപ്പാല്‍"
+    },
+    {
+      "ward_id": "63effe4c-572e-4b0f-bee1-5be9e9c8f43f",
+      "ward_no": "12",
+      "ward_name_en": "Koyipra",
+      "ward_name_ml": "കോയിപ്ര"
+    },
+    {
+      "ward_id": "90a643d7-30c1-48cd-84e0-6a8cd25cc339",
+      "ward_no": "13",
+      "ward_name_en": "Nelliyad",
+      "ward_name_ml": "നെല്ല്യാട്"
+    },
+    {
+      "ward_id": "9852c338-b273-4c68-aabc-3ef8224e6dff",
+      "ward_no": "14",
+      "ward_name_en": "Thumbathadam",
+      "ward_name_ml": "തുമ്പത്തടം"
+    },
+    {
+      "ward_id": "a12d91ae-59fe-4f69-af2a-b7008d89214a",
+      "ward_no": "15",
+      "ward_name_en": "Mathamangalam",
+      "ward_name_ml": "മാതമംഗലം"
+    },
+    {
+      "ward_id": "f44f177e-ac7e-43cf-ba54-69e6f16349bd",
+      "ward_no": "16",
+      "ward_name_en": "Perul",
+      "ward_name_ml": "പേരൂല്‍"
+    },
+    {
+      "ward_id": "a0f4bf2c-997f-474a-b66e-6de0deed520d",
+      "ward_no": "17",
+      "ward_name_en": "Eramam Pullukkara",
+      "ward_name_ml": "എരമം പുല്ലൂക്കര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130105.geojson"
+  }
+}

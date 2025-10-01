@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030406",
+  "local_body_name_en": "Mallappuzhassery",
+  "local_body_name_ml": "മല്ലപ്പുഴശ്ശേരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "113",
+    "assembly_name_en": "Aranmula",
+    "assembly_name_ml": "ആറന്മുള",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "aea6ee06-7885-4f57-a24b-1b5ef7f181be",
+      "ward_no": "1",
+      "ward_name_en": "Mallappuzhassery North",
+      "ward_name_ml": "മല്ലപ്പുഴശ്ശേരി വടക്ക്"
+    },
+    {
+      "ward_id": "7204fe84-54c3-4cbc-8479-9e3bf5eb7f22",
+      "ward_no": "2",
+      "ward_name_en": "Perappure",
+      "ward_name_ml": "പേരാപ്പൂര്"
+    },
+    {
+      "ward_id": "dbde3cc4-9c77-4574-9828-d06907e7f73a",
+      "ward_no": "3",
+      "ward_name_en": "Onthekkadu North",
+      "ward_name_ml": "ഓന്തേക്കാട്  വടക്ക്"
+    },
+    {
+      "ward_id": "e885592e-911c-4c0c-ad13-157a06a6afbc",
+      "ward_no": "4",
+      "ward_name_en": "Onthekkadu",
+      "ward_name_ml": "ഓന്തേക്കാട്"
+    },
+    {
+      "ward_id": "7e6fdb97-e4b1-4d80-814e-ee98f0d21688",
+      "ward_no": "5",
+      "ward_name_en": "Karthavyam",
+      "ward_name_ml": "കര്‍ത്തവ്യം"
+    },
+    {
+      "ward_id": "637e5e9a-3e30-4bd4-803c-2463127d73d5",
+      "ward_no": "6",
+      "ward_name_en": "Karamvely",
+      "ward_name_ml": "കാരംവേലി"
+    },
+    {
+      "ward_id": "0ee3ca81-5fd1-44c0-a74b-f060b5539cf2",
+      "ward_no": "7",
+      "ward_name_en": "Nellikkala",
+      "ward_name_ml": "നെല്ലിക്കാല"
+    },
+    {
+      "ward_id": "16f88857-dbea-479e-b55b-2f392808a6da",
+      "ward_no": "8",
+      "ward_name_en": "Punnakkadu",
+      "ward_name_ml": "പുന്നയ്ക്കാട്"
+    },
+    {
+      "ward_id": "9b91dde9-c274-40c2-abb5-53eb21b76f1b",
+      "ward_no": "9",
+      "ward_name_en": "Kuzhikkala East",
+      "ward_name_ml": "കുഴിക്കാല കിഴക്ക്"
+    },
+    {
+      "ward_id": "4c5f57cb-b66b-41be-bba0-cf54b2e640a2",
+      "ward_no": "10",
+      "ward_name_en": "Kuzhikala West",
+      "ward_name_ml": "കുഴിക്കാല പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "d35bf1d3-eec6-4b5e-a63e-72eb36ef4550",
+      "ward_no": "11",
+      "ward_name_en": "Kurunthar",
+      "ward_name_ml": "കുറുന്താര്‍"
+    },
+    {
+      "ward_id": "6179bde2-a0e4-453b-a4f8-3046b7873886",
+      "ward_no": "12",
+      "ward_name_en": "Kanjiraveli",
+      "ward_name_ml": "കാഞ്ഞിരവേലി"
+    },
+    {
+      "ward_id": "31dbc7ee-18be-491d-89f6-0c191c8419be",
+      "ward_no": "13",
+      "ward_name_en": "Mallappuzhassery South",
+      "ward_name_ml": "മല്ലപ്പുഴശ്ശേരി തെക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030406.geojson"
+  }
+}

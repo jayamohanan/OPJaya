@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040805",
+  "local_body_name_en": "Puliyoor",
+  "local_body_name_ml": "പുലിയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "110",
+    "assembly_name_en": "Chengannur",
+    "assembly_name_ml": "ചെങ്ങന്നൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b1badcf1-4b0b-4071-8c9c-da409007927e",
+      "ward_no": "1",
+      "ward_name_en": "Palchuvadu",
+      "ward_name_ml": "പാലച്ചുവട്"
+    },
+    {
+      "ward_id": "95e279c6-627d-489a-becc-2e61afe5c1ab",
+      "ward_no": "2",
+      "ward_name_en": "Pazhayattil",
+      "ward_name_ml": "പഴയാറ്റില്‍"
+    },
+    {
+      "ward_id": "8c15d1d0-3997-4fa7-bddf-31c285425e94",
+      "ward_no": "3",
+      "ward_name_en": "Perissery",
+      "ward_name_ml": "പേരിശ്ശേരി"
+    },
+    {
+      "ward_id": "9134b3d8-e8b6-4097-9ab6-1180b19d180d",
+      "ward_no": "4",
+      "ward_name_en": "Nootavanpara",
+      "ward_name_ml": "നൂറ്റവന്‍പാറ"
+    },
+    {
+      "ward_id": "86b4ade7-7706-4f8c-bf7a-84c6ea5e51eb",
+      "ward_no": "5",
+      "ward_name_en": "Thinkalamuttam",
+      "ward_name_ml": "തിങ്കളാമുറ്റം"
+    },
+    {
+      "ward_id": "783abd98-52e6-454b-87c4-83a2ff880cf2",
+      "ward_no": "6",
+      "ward_name_en": "Madathumpadi",
+      "ward_name_ml": "മഠത്തുംപടി"
+    },
+    {
+      "ward_id": "920eb741-0a72-4d6a-8e52-4b1fcadb70a5",
+      "ward_no": "7",
+      "ward_name_en": "Puliyoor East",
+      "ward_name_ml": "പുലിയൂര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "f7c1a726-e46b-4555-9a10-19123f673761",
+      "ward_no": "8",
+      "ward_name_en": "Kulikkampalam",
+      "ward_name_ml": "കുളിക്കാംപാലം"
+    },
+    {
+      "ward_id": "8f7bdf6a-19f7-4e30-8195-856cf0a24c46",
+      "ward_no": "9",
+      "ward_name_en": "Puliyoor Central",
+      "ward_name_ml": "പുലിയൂര്‍ സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "c1d22391-f300-487b-acc5-a962b0a15956",
+      "ward_no": "10",
+      "ward_name_en": "Thonakkadu",
+      "ward_name_ml": "തോനയ്ക്കാട്"
+    },
+    {
+      "ward_id": "0b6da690-50bc-4f38-82e9-bfbee02595e0",
+      "ward_no": "11",
+      "ward_name_en": "Elanjimel",
+      "ward_name_ml": "ഇലഞ്ഞിമേല്‍"
+    },
+    {
+      "ward_id": "ba5aad1b-b9e0-4347-be2a-7062e7586f76",
+      "ward_no": "12",
+      "ward_name_en": "Elanjimel Kadanmavu",
+      "ward_name_ml": "ഇലഞ്ഞിമേല്‍ കാടന്‍മാവ്"
+    },
+    {
+      "ward_id": "fe2f8d1b-957e-443e-a5f9-2cd60ad63104",
+      "ward_no": "13",
+      "ward_name_en": "Puliyoor West",
+      "ward_name_ml": "പുലിയൂര്‍ പടിഞ്ഞാറ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040805.geojson"
+  }
+}

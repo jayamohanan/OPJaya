@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G100503",
+  "local_body_name_en": "Keezhuparamba",
+  "local_body_name_ml": "കീഴുപറമ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "34",
+    "assembly_name_en": "Eranad",
+    "assembly_name_ml": "ഏറനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1bae21e9-37b6-44a8-b28b-d61b05435d43",
+      "ward_no": "1",
+      "ward_name_en": "Kallingal",
+      "ward_name_ml": "കല്ലിങ്ങല്‍"
+    },
+    {
+      "ward_id": "07215205-7491-41c1-bcc1-96830079e044",
+      "ward_no": "2",
+      "ward_name_en": "Thrikkalayoor",
+      "ward_name_ml": "തൃക്കളയൂര്‍"
+    },
+    {
+      "ward_id": "19909adc-4696-441a-8e58-125233919bdf",
+      "ward_no": "3",
+      "ward_name_en": "Kallittappalam",
+      "ward_name_ml": "കല്ലിട്ടപ്പാലം"
+    },
+    {
+      "ward_id": "b3e85b7a-ea12-4f2e-b10e-fedfd3740f46",
+      "ward_no": "4",
+      "ward_name_en": "Valillapuzha",
+      "ward_name_ml": "വാലില്ലാപുഴ"
+    },
+    {
+      "ward_id": "98581d50-68f0-4a4f-b031-8b66e0420855",
+      "ward_no": "5",
+      "ward_name_en": "Kuttooli",
+      "ward_name_ml": "കുറ്റൂളി"
+    },
+    {
+      "ward_id": "da5a4a9b-cf05-4d77-81b4-a724d6de813a",
+      "ward_no": "6",
+      "ward_name_en": "Parakkad",
+      "ward_name_ml": "പറക്കാട്"
+    },
+    {
+      "ward_id": "7e8842b8-321a-4536-9a31-061655330584",
+      "ward_no": "7",
+      "ward_name_en": "Pallippadi",
+      "ward_name_ml": "പള്ളിപ്പടി"
+    },
+    {
+      "ward_id": "a38294e0-c87b-419e-be55-da121b83ebfa",
+      "ward_no": "8",
+      "ward_name_en": "West Pathanapuram",
+      "ward_name_ml": "വെസ്റ്റ് പത്തനാപുരം"
+    },
+    {
+      "ward_id": "9daca7fa-f870-457b-b830-84625165aec9",
+      "ward_no": "9",
+      "ward_name_en": "Ariyanipotta",
+      "ward_name_ml": "അരിയാണിപ്പൊറ്റ"
+    },
+    {
+      "ward_id": "3aefe834-5a9a-4046-a843-dd78492c4f13",
+      "ward_no": "10",
+      "ward_name_en": "Anvar Nagar Kuniyil",
+      "ward_name_ml": "അന്‍വാര്‍ നഗര്‍ കുനിയില്‍"
+    },
+    {
+      "ward_id": "97671170-8b66-4b2a-a22d-b561373a715d",
+      "ward_no": "11",
+      "ward_name_en": "New Bazar Kuniyil",
+      "ward_name_ml": "ന്യൂ ബസാര്‍ കുനിയില്‍"
+    },
+    {
+      "ward_id": "153f3f34-4f12-4bc4-8c3e-51b2e5aee100",
+      "ward_no": "12",
+      "ward_name_en": "Melamparamb",
+      "ward_name_ml": "മേലാംപറമ്പ്"
+    },
+    {
+      "ward_id": "dccea72e-b76f-46af-8d5b-563dd50dea77",
+      "ward_no": "13",
+      "ward_name_en": "Othupallipuraya",
+      "ward_name_ml": "ഓത്തുപള്ളിപുറായ"
+    },
+    {
+      "ward_id": "00d7766c-33b3-40dc-a4ad-6adfb577e4a4",
+      "ward_no": "14",
+      "ward_name_en": "Keezhuparamba",
+      "ward_name_ml": "കീഴുപറമ്പ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100503.geojson"
+  }
+}

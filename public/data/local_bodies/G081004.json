@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G081004",
+  "local_body_name_en": "Vallachira",
+  "local_body_name_ml": "വല്ലച്ചിറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "71",
+    "assembly_name_en": "Puthukkad",
+    "assembly_name_ml": "പുതുക്കാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2200237b-fb93-425b-9ddf-94726cbc245b",
+      "ward_no": "1",
+      "ward_name_en": "Cherussery",
+      "ward_name_ml": "ചെറുശ്ശേരി"
+    },
+    {
+      "ward_id": "965cbb1f-f40b-47bc-bf6e-01051c713015",
+      "ward_no": "2",
+      "ward_name_en": "Sree Krishna Puram",
+      "ward_name_ml": "ശ്രീ കൃഷ്ണ പുരം"
+    },
+    {
+      "ward_id": "98a05ade-edc2-449b-91cf-084ef31492a7",
+      "ward_no": "3",
+      "ward_name_en": "Mosco Nagar",
+      "ward_name_ml": "മോസ്കോ നഗര്‍"
+    },
+    {
+      "ward_id": "1faa856d-291b-482e-b56b-f1d4b5e64dad",
+      "ward_no": "4",
+      "ward_name_en": "Chathakudam",
+      "ward_name_ml": "ചാത്തക്കുടം"
+    },
+    {
+      "ward_id": "88d0f5e7-c47c-436d-a499-547ffde2d135",
+      "ward_no": "5",
+      "ward_name_en": "Kadalassery",
+      "ward_name_ml": "കടലാശ്ശേരി"
+    },
+    {
+      "ward_id": "20127968-4271-4814-a99e-c56d3d981580",
+      "ward_no": "6",
+      "ward_name_en": "Njeruvissery",
+      "ward_name_ml": "ഞെരുവിശ്ശേരി"
+    },
+    {
+      "ward_id": "5f9df765-3d90-48ca-99cb-3f8a4142b021",
+      "ward_no": "7",
+      "ward_name_en": "Arattupuzha North",
+      "ward_name_ml": "ആറാട്ടുപുഴ വടക്ക്"
+    },
+    {
+      "ward_id": "dbaad360-09d2-4ac5-9632-aea918fb16ab",
+      "ward_no": "8",
+      "ward_name_en": "Arattupuzha South",
+      "ward_name_ml": "ആറാട്ടുപുഴ തെക്ക്"
+    },
+    {
+      "ward_id": "9d2a9ec7-4b3c-44bb-ad70-23cdc9192324",
+      "ward_no": "9",
+      "ward_name_en": "Pallissery",
+      "ward_name_ml": "പല്ലിശ്ശേരി"
+    },
+    {
+      "ward_id": "b0ff69b2-1182-4164-9b69-d96241d21d90",
+      "ward_no": "10",
+      "ward_name_en": "Kandeswaram",
+      "ward_name_ml": "കണ്ഠേശ്വരം"
+    },
+    {
+      "ward_id": "9d5b9baf-4b1c-458a-917d-b152d13e5b09",
+      "ward_no": "11",
+      "ward_name_en": "Ilamkunnu",
+      "ward_name_ml": "ഇളംകുന്ന്"
+    },
+    {
+      "ward_id": "53ed72c4-c65c-415a-9654-f90bc33ffdf1",
+      "ward_no": "12",
+      "ward_name_en": "Sree Narayana Puram",
+      "ward_name_ml": "ശ്രീ നാരായണ പുരം"
+    },
+    {
+      "ward_id": "691d5d22-65c8-4840-9c91-900008adc38e",
+      "ward_no": "13",
+      "ward_name_en": "Vallachira",
+      "ward_name_ml": "വല്ലച്ചിറ"
+    },
+    {
+      "ward_id": "d7142ebc-73f9-4925-8053-dd310a02eba9",
+      "ward_no": "14",
+      "ward_name_en": "Puthukulangara",
+      "ward_name_ml": "പുതുകുളങ്ങര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081004.geojson"
+  }
+}

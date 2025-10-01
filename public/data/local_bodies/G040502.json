@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G040502",
+  "local_body_name_en": "Ambalapuzha South",
+  "local_body_name_ml": "അമ്പലപ്പുഴ തെക്ക്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "105",
+    "assembly_name_en": "Ambalappuzha",
+    "assembly_name_ml": "അമ്പലപ്പുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "64b95255-6434-4133-9a1a-6784ee9de2ff",
+      "ward_no": "1",
+      "ward_name_en": "Kakkazham West",
+      "ward_name_ml": "കാക്കാഴം പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "7af71b29-8de1-42aa-812f-78eaa2d16645",
+      "ward_no": "2",
+      "ward_name_en": "Kakkazham East",
+      "ward_name_ml": "കാക്കാഴം കിഴക്ക്"
+    },
+    {
+      "ward_id": "989e4640-9507-4916-867b-07bb5b5a81a0",
+      "ward_no": "3",
+      "ward_name_en": "Kattakkuzhi",
+      "ward_name_ml": "കട്ടക്കുഴി"
+    },
+    {
+      "ward_id": "488c2dc8-fe86-4c90-9a90-d7087b736908",
+      "ward_no": "4",
+      "ward_name_en": "Kanjipadam",
+      "ward_name_ml": "കഞ്ഞിപ്പാടം"
+    },
+    {
+      "ward_id": "77b4a2f7-433d-42c8-9d31-2db2e05fae87",
+      "ward_no": "5",
+      "ward_name_en": "Sakthiswary",
+      "ward_name_ml": "ശക്തീശ്വരി"
+    },
+    {
+      "ward_id": "3bc2605f-7ae2-4879-9733-1d82ddae52b3",
+      "ward_no": "6",
+      "ward_name_en": "Karumady West",
+      "ward_name_ml": "കരുമാടി പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "bb201d9e-f3ae-4baa-ab75-9817aa7beca4",
+      "ward_no": "7",
+      "ward_name_en": "Karumady",
+      "ward_name_ml": "കരുമാടി"
+    },
+    {
+      "ward_id": "e5233250-c464-4a63-bd5e-30fe42906a69",
+      "ward_no": "8",
+      "ward_name_en": "Amayida",
+      "ward_name_ml": "ആമയിട"
+    },
+    {
+      "ward_id": "db127719-d51b-4728-b0bf-dab18361cade",
+      "ward_no": "9",
+      "ward_name_en": "Amayida West",
+      "ward_name_ml": "ആമയിട പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "5367aa5a-15c1-4e37-952a-4497ac99c443",
+      "ward_no": "10",
+      "ward_name_en": "Ambalapuzha",
+      "ward_name_ml": "അമ്പലപ്പുഴ"
+    },
+    {
+      "ward_id": "94834dfa-6c12-4c5d-bee0-85d580736405",
+      "ward_no": "11",
+      "ward_name_en": "Komana North",
+      "ward_name_ml": "കോമന വടക്ക്"
+    },
+    {
+      "ward_id": "8af8a1da-3f66-4fc6-a303-41fdf2255f34",
+      "ward_no": "12",
+      "ward_name_en": "Komana",
+      "ward_name_ml": "കോമന"
+    },
+    {
+      "ward_id": "00e62c19-e90c-4d89-8cc4-505c90546d5e",
+      "ward_no": "13",
+      "ward_name_en": "Panchayat Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ഒാഫീസ്"
+    },
+    {
+      "ward_id": "1ff2e3f1-a055-4cf3-88e7-38825336cc56",
+      "ward_no": "14",
+      "ward_name_en": "Komana South",
+      "ward_name_ml": "കോമന തെക്ക്"
+    },
+    {
+      "ward_id": "a1f2c5da-da63-4ae5-a042-12265c67872c",
+      "ward_no": "15",
+      "ward_name_en": "Komana West",
+      "ward_name_ml": "കോമന പടിഞ്ഞാറ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040502.geojson"
+  }
+}

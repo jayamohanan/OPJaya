@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G030602",
+  "local_body_name_en": "Aruvappulam",
+  "local_body_name_ml": "അരുവാപ്പുലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "114",
+    "assembly_name_en": "Konni",
+    "assembly_name_ml": "കോന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "21455e22-ef6c-4ec7-bf96-8737e5c75725",
+      "ward_no": "1",
+      "ward_name_en": "Mulakukodithottam",
+      "ward_name_ml": "മുളകുകൊടിത്തോട്ടം"
+    },
+    {
+      "ward_id": "73c2eeb6-4e33-47bd-a5d6-f0a68eef689b",
+      "ward_no": "2",
+      "ward_name_en": "Kummannoor",
+      "ward_name_ml": "കുമ്മണ്ണൂര്‍"
+    },
+    {
+      "ward_id": "e31bc04d-d37d-4695-b053-aa677e5ba4d4",
+      "ward_no": "3",
+      "ward_name_en": "Kokkathodu",
+      "ward_name_ml": "കൊക്കാത്തോട്"
+    },
+    {
+      "ward_id": "ad73bc1c-b478-4fca-9335-9ca782ce1877",
+      "ward_no": "4",
+      "ward_name_en": "Nellikkappara",
+      "ward_name_ml": "നെല്ലിക്കാപ്പാറ"
+    },
+    {
+      "ward_id": "9d115ca1-79a7-43a6-96bb-f86675eafcde",
+      "ward_no": "5",
+      "ward_name_en": "Kalleithottam",
+      "ward_name_ml": "കല്ലേലിത്തോട്ടം"
+    },
+    {
+      "ward_id": "9774302f-c592-417b-ae87-0d2e3a87b4b8",
+      "ward_no": "6",
+      "ward_name_en": "Kalleli",
+      "ward_name_ml": "കല്ലേലി"
+    },
+    {
+      "ward_id": "0c20a56e-0eb4-4d2a-80ae-54b157892d5d",
+      "ward_no": "7",
+      "ward_name_en": "Muthupezhumkal",
+      "ward_name_ml": "മുതുപേഴുങ്കല്‍"
+    },
+    {
+      "ward_id": "10e65e5a-a83b-4bd6-b43d-d9e166c23804",
+      "ward_no": "8",
+      "ward_name_en": "Athirumkal",
+      "ward_name_ml": "അതിരുങ്കല്‍"
+    },
+    {
+      "ward_id": "217d72f3-7c54-4f44-8bb0-70028a5a72ee",
+      "ward_no": "9",
+      "ward_name_en": "Mlanthadam",
+      "ward_name_ml": "മ്ലാന്തടം"
+    },
+    {
+      "ward_id": "3773e0e8-7f92-4d26-8f95-5c41e269c465",
+      "ward_no": "10",
+      "ward_name_en": "Padappackal",
+      "ward_name_ml": "പടപ്പയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "e865f0e2-1219-4ff9-b8aa-331e25213094",
+      "ward_no": "11",
+      "ward_name_en": "Oottupara",
+      "ward_name_ml": "ഊട്ടുപാറ"
+    },
+    {
+      "ward_id": "542d9641-acb6-49aa-abd1-9fd3d873de7f",
+      "ward_no": "12",
+      "ward_name_en": "Pulinchani",
+      "ward_name_ml": "പുളിഞ്ചാണി"
+    },
+    {
+      "ward_id": "3ef022bd-e3cc-407e-8056-791086656628",
+      "ward_no": "13",
+      "ward_name_en": "Aruvappulam",
+      "ward_name_ml": "അരുവാപ്പുലം"
+    },
+    {
+      "ward_id": "d2dee5a8-7bf7-471c-ab0b-51a521bed262",
+      "ward_no": "14",
+      "ward_name_en": "Mavanal",
+      "ward_name_ml": "മാവനാല്‍"
+    },
+    {
+      "ward_id": "0c7d1efd-ab2a-4fc5-837a-6d62e45c67a0",
+      "ward_no": "15",
+      "ward_name_en": "Airavon",
+      "ward_name_ml": "ഐരവണ്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030602.geojson"
+  }
+}

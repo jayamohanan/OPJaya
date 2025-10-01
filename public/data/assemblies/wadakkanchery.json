@@ -1,0 +1,66 @@
+{
+  "assembly_id": "65",
+  "assembly_name_en": "Wadakkanchery",
+  "assembly_name_ml": "വടക്കാഞ്ചേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G080602",
+      "local_body_name_en": "Avanur",
+      "local_body_name_ml": "അവണൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G080603",
+      "local_body_name_en": "Kaiparambu",
+      "local_body_name_ml": "കൈപ്പറമ്പ്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080606",
+      "local_body_name_en": "Kolazhy",
+      "local_body_name_ml": "കോലഴി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080604",
+      "local_body_name_en": "Mulakunnathukavu",
+      "local_body_name_ml": "മുളകുന്നത്തുകാവ്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080305",
+      "local_body_name_en": "Thekkumkara",
+      "local_body_name_ml": "തെക്കുംകര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080605",
+      "local_body_name_en": "Tholur",
+      "local_body_name_ml": "തോളൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080601",
+      "local_body_name_en": "Adat",
+      "local_body_name_ml": "അടാട്ട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M080700",
+      "local_body_name_en": "Wadakanchery",
+      "local_body_name_ml": "വടക്കാഞ്ചേരി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/wadakkanchery.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/wadakkanchery.geojson"
+  }
+}

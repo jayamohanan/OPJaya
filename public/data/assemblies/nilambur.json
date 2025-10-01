@@ -1,0 +1,66 @@
+{
+  "assembly_id": "35",
+  "assembly_name_en": "Nilambur",
+  "assembly_name_ml": "നിലമ്പൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G100102",
+      "local_body_name_en": "Chungathara",
+      "local_body_name_ml": "ചുങ്കത്തറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100105",
+      "local_body_name_en": "Edakkara",
+      "local_body_name_ml": "എടക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100202",
+      "local_body_name_en": "Karulai",
+      "local_body_name_ml": "കരുളായ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100103",
+      "local_body_name_en": "Moothedam",
+      "local_body_name_ml": "മൂത്തേടം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M100600",
+      "local_body_name_en": "Nilambur",
+      "local_body_name_ml": "നിലമ്പൂര്‍",
+      "category": ""
+    },
+    {
+      "local_body_id": "G100106",
+      "local_body_name_en": "Pothukallu",
+      "local_body_name_ml": "പോത്തുകല്ല്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100104",
+      "local_body_name_en": "Vazhikkadavu",
+      "local_body_name_ml": "വഴിക്കടവ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100201",
+      "local_body_name_en": "Amarambalam",
+      "local_body_name_ml": "അമരമ്പലം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/nilambur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/nilambur.geojson"
+  }
+}

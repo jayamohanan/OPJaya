@@ -1,0 +1,72 @@
+{
+  "assembly_id": "131",
+  "assembly_name_en": "Vamanapuram",
+  "assembly_name_ml": "വാമനപുരം",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G010401",
+      "local_body_name_en": "Kallara",
+      "local_body_name_ml": "കല്ലറ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010406",
+      "local_body_name_en": "Nanniyode",
+      "local_body_name_ml": "നന്ദിയോട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010402",
+      "local_body_name_en": "Nellanad",
+      "local_body_name_ml": "നെല്ലനാട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010603",
+      "local_body_name_en": "Panavoor",
+      "local_body_name_ml": "പനവൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010405",
+      "local_body_name_en": "Pangode",
+      "local_body_name_ml": "പാങ്ങോട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010407",
+      "local_body_name_en": "Peringammala",
+      "local_body_name_ml": "പെരിങ്ങമ്മല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010403",
+      "local_body_name_en": "Pullampara",
+      "local_body_name_ml": "പുല്ലമ്പാറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010404",
+      "local_body_name_en": "Vamanapuram",
+      "local_body_name_ml": "വാമനപുരം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010601",
+      "local_body_name_en": "Anad",
+      "local_body_name_ml": "ആനാട്",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/vamanapuram.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/vamanapuram.geojson"
+  }
+}

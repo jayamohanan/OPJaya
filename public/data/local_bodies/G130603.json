@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G130603",
+  "local_body_name_en": "Kadambur",
+  "local_body_name_ml": "കടമ്പൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "12",
+    "assembly_name_en": "Dharmadom",
+    "assembly_name_ml": "ധര്‍മ്മടം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "80029734-a331-4b74-981f-beee1aad54d6",
+      "ward_no": "1",
+      "ward_name_en": "Panonneri",
+      "ward_name_ml": "പനോന്നേരി"
+    },
+    {
+      "ward_id": "2a38e4c1-4d6b-4595-8274-29b3a7db708a",
+      "ward_no": "2",
+      "ward_name_en": "Adoor",
+      "ward_name_ml": "ആഡൂര്‍"
+    },
+    {
+      "ward_id": "cea2f887-7628-4b57-8d1f-58bd1f74a90b",
+      "ward_no": "3",
+      "ward_name_en": "Kottoor",
+      "ward_name_ml": "കോട്ടൂര്‍"
+    },
+    {
+      "ward_id": "c7ae4133-175d-4a37-b894-b897c301ef54",
+      "ward_no": "4",
+      "ward_name_en": "Kadachira",
+      "ward_name_ml": "കാടാച്ചിറ"
+    },
+    {
+      "ward_id": "cf66fdea-c0b9-4455-b561-9bae72e0be16",
+      "ward_no": "5",
+      "ward_name_en": "Orikara",
+      "ward_name_ml": "ഒരികര"
+    },
+    {
+      "ward_id": "b8de1bf6-7a07-4e4b-91e4-b486cbfd41a8",
+      "ward_no": "6",
+      "ward_name_en": "Kadambur",
+      "ward_name_ml": "കടമ്പൂര്‍"
+    },
+    {
+      "ward_id": "60812d03-fc85-4cf5-9ff1-ad09d69c4c80",
+      "ward_no": "7",
+      "ward_name_en": "Kadambur Central",
+      "ward_name_ml": "കടമ്പൂര്‍ സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "5600f8d8-ceee-45b2-ad8d-0559808bfab9",
+      "ward_no": "8",
+      "ward_name_en": "Mandool",
+      "ward_name_ml": "മണ്ടൂല്‍"
+    },
+    {
+      "ward_id": "6b31bd00-8b56-486f-9a58-35dcb4fc7ec7",
+      "ward_no": "9",
+      "ward_name_en": "Edakkad West",
+      "ward_name_ml": "എടക്കാട് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "c0d82065-2972-4948-bad8-421a1b4c57cf",
+      "ward_no": "10",
+      "ward_name_en": "Edakkad East",
+      "ward_name_ml": "എടക്കാട് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "0bed665c-ec88-4bc5-a7c7-c9902649b7f7",
+      "ward_no": "11",
+      "ward_name_en": "Kannadichal",
+      "ward_name_ml": "കണ്ണാടിച്ചാല്‍"
+    },
+    {
+      "ward_id": "ced6aedd-17fd-4979-90d8-f3162b1ffcbf",
+      "ward_no": "12",
+      "ward_name_en": "Adoor Central",
+      "ward_name_ml": "ആഡൂര്‍ സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "c0f643ee-7a31-4009-9c1d-8f37bcce2650",
+      "ward_no": "13",
+      "ward_name_en": "Panonneri West",
+      "ward_name_ml": "പനോന്നേരി വെസ്റ്റ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130603.geojson"
+  }
+}

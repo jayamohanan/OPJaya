@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G091103",
+  "local_body_name_en": "Elavancherry",
+  "local_body_name_ml": "എലവഞ്ചരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "59",
+    "assembly_name_en": "Nenmara",
+    "assembly_name_ml": "നെന്മാറ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6dec1af4-1519-4159-9be5-e449642d6902",
+      "ward_no": "1",
+      "ward_name_en": "Karimkulam",
+      "ward_name_ml": "കരിങ്കുളം"
+    },
+    {
+      "ward_id": "a2e91a69-219b-4394-a635-b3e68aebdf30",
+      "ward_no": "2",
+      "ward_name_en": "Thoottippadam",
+      "ward_name_ml": "തൂറ്റിപ്പാടം"
+    },
+    {
+      "ward_id": "bce6e7f6-21ca-4dff-a4de-a488af6da61d",
+      "ward_no": "3",
+      "ward_name_en": "Vadakkemuri",
+      "ward_name_ml": "വടക്കേമുറി"
+    },
+    {
+      "ward_id": "5239b88d-7c5f-44a6-a092-4524fa13e8dd",
+      "ward_no": "4",
+      "ward_name_en": "Vattekkad",
+      "ward_name_ml": "വട്ടെക്കാട്"
+    },
+    {
+      "ward_id": "8eb26b6b-1c12-4bc6-86bb-e1c43aa0c03a",
+      "ward_no": "5",
+      "ward_name_en": "Mannathupara",
+      "ward_name_ml": "മന്നത്തുപാറ"
+    },
+    {
+      "ward_id": "84e0ebc7-cde7-4514-b46b-dad7989d2059",
+      "ward_no": "6",
+      "ward_name_en": "Manjappara",
+      "ward_name_ml": "മഞ്ഞപ്പാറ"
+    },
+    {
+      "ward_id": "71f12ea8-0e3c-4231-bb82-831a8a2428a0",
+      "ward_no": "7",
+      "ward_name_en": "Panangattiri",
+      "ward_name_ml": "പനങ്ങാട്ടിരി"
+    },
+    {
+      "ward_id": "f9df0a83-b9b4-4b51-a90f-2694e79ade7d",
+      "ward_no": "8",
+      "ward_name_en": "Moochikkal",
+      "ward_name_ml": "മൂച്ചിക്കല്‍"
+    },
+    {
+      "ward_id": "ee01cf44-c0b7-48eb-8e3d-354753276c83",
+      "ward_no": "9",
+      "ward_name_en": "Kizhakkumuri",
+      "ward_name_ml": "കിഴക്കുമുറി"
+    },
+    {
+      "ward_id": "c74640f6-4b6a-4300-8475-cf04138ebb67",
+      "ward_no": "10",
+      "ward_name_en": "Perungottukavu",
+      "ward_name_ml": "പെരുങ്ങോട്ടുകാവ്"
+    },
+    {
+      "ward_id": "c94a05c5-377b-48fa-b5d8-4a5fb6e0810c",
+      "ward_no": "11",
+      "ward_name_en": "Parasseri",
+      "ward_name_ml": "പറശ്ശേരി"
+    },
+    {
+      "ward_id": "5f70ad38-51bd-4b3f-92bb-c272c157c119",
+      "ward_no": "12",
+      "ward_name_en": "Kottayamkadu",
+      "ward_name_ml": "കൊട്ടയംകാട്"
+    },
+    {
+      "ward_id": "cd88b883-7fd4-4588-b77b-4866493c3f91",
+      "ward_no": "13",
+      "ward_name_en": "Mozhappara",
+      "ward_name_ml": "മോഴപ്പാറ"
+    },
+    {
+      "ward_id": "9bd55021-4168-42ac-be4a-58b48b2451d6",
+      "ward_no": "14",
+      "ward_name_en": "Padinjamuri",
+      "ward_name_ml": "പടിഞ്ഞാമുറി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091103.geojson"
+  }
+}

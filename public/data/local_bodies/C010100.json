@@ -1,0 +1,625 @@
+{
+  "local_body_id": "C010100",
+  "local_body_name_en": "Thiruvananthapuram",
+  "local_body_name_ml": "തിരുവനന്തപുരം",
+  "local_body_type_en": "Corporation",
+  "local_body_type_ml": "കോർപ്പറേഷൻ",
+  "category": "Good",
+  "assembly": {
+    "category": ""
+  },
+  "district": {
+    "category": ""
+  },
+  "wards": [
+    {
+      "ward_id": "640f1324-819f-4200-9bdc-65b4c637cbc9",
+      "ward_no": "1",
+      "ward_name_en": "Kazhakuttom",
+      "ward_name_ml": "കഴക്കൂട്ടം"
+    },
+    {
+      "ward_id": "070a8710-362b-4471-a2e1-d2a853d651e5",
+      "ward_no": "2",
+      "ward_name_en": "Chandavila",
+      "ward_name_ml": "ചന്തവിള"
+    },
+    {
+      "ward_id": "636a3e6a-8571-4824-aa3f-cf7b38799e2e",
+      "ward_no": "3",
+      "ward_name_en": "Kattayikonam",
+      "ward_name_ml": "കാട്ടായിക്കോണം"
+    },
+    {
+      "ward_id": "9d1a211f-c3c2-4208-9888-13f4e5670eac",
+      "ward_no": "4",
+      "ward_name_en": "Sreekariyam",
+      "ward_name_ml": "ശ്രീകാര്യം"
+    },
+    {
+      "ward_id": "a8aed8ea-984e-460d-8df1-78d09181d4ce",
+      "ward_no": "5",
+      "ward_name_en": "Cheruvaikal",
+      "ward_name_ml": "ചെറുവയ്ക്കല്"
+    },
+    {
+      "ward_id": "1f0149e0-b635-4e98-a8f5-e9700c7b28dc",
+      "ward_no": "6",
+      "ward_name_en": "Ulloor",
+      "ward_name_ml": "ഉള്ളൂര്‌‍‍‍"
+    },
+    {
+      "ward_id": "98aadc95-78a9-46d7-acc1-4e2c2c02621b",
+      "ward_no": "7",
+      "ward_name_en": "Edavacode",
+      "ward_name_ml": "ഇടവക്കോട്"
+    },
+    {
+      "ward_id": "4c23c739-1290-4992-97c4-25dbede66854",
+      "ward_no": "8",
+      "ward_name_en": "Chellamangalam",
+      "ward_name_ml": "ചെല്ലമംഗലം"
+    },
+    {
+      "ward_id": "2fba8461-167f-4fdb-bc36-55ba7b60edcc",
+      "ward_no": "9",
+      "ward_name_en": "Chempazhanthy",
+      "ward_name_ml": "ചെമ്പഴന്തി"
+    },
+    {
+      "ward_id": "09cec22a-aade-43cf-a91e-9626b5cdb6bb",
+      "ward_no": "10",
+      "ward_name_en": "Powdikonam",
+      "ward_name_ml": "പൌഡിക്കോണം"
+    },
+    {
+      "ward_id": "994eeb40-2ad1-4050-9e71-78f8ff2d3b27",
+      "ward_no": "11",
+      "ward_name_en": "Njandoorkonam",
+      "ward_name_ml": "ഞാണ്ടൂര്കോണം"
+    },
+    {
+      "ward_id": "e89b751c-ea4e-4659-98ca-96f6851d0aca",
+      "ward_no": "12",
+      "ward_name_en": "Kinavoor",
+      "ward_name_ml": "കിണവൂര്"
+    },
+    {
+      "ward_id": "7a95819c-47a0-491c-9c6e-340c9a19ff8e",
+      "ward_no": "13",
+      "ward_name_en": "Mannanthala",
+      "ward_name_ml": "മണ്ണന്തല"
+    },
+    {
+      "ward_id": "5cc8afed-f944-40db-b1e2-1aa0f2ee94f3",
+      "ward_no": "14",
+      "ward_name_en": "Nalanchira",
+      "ward_name_ml": "നാലാഞ്ചിറ"
+    },
+    {
+      "ward_id": "ed160921-b378-4a5a-9fb7-cdb51e1ad8cd",
+      "ward_no": "15",
+      "ward_name_en": "Kesavadasapuram",
+      "ward_name_ml": "കേശവദാസപുരം"
+    },
+    {
+      "ward_id": "4807990c-e03b-45d0-afe4-60d850484b28",
+      "ward_no": "16",
+      "ward_name_en": "Medical College",
+      "ward_name_ml": "മെഡിക്കല് കോളേജ്"
+    },
+    {
+      "ward_id": "016e33bf-b30b-47a5-b837-cffb558c67ae",
+      "ward_no": "17",
+      "ward_name_en": "Pattom",
+      "ward_name_ml": "പട്ടം"
+    },
+    {
+      "ward_id": "036d4e35-5aba-4e4f-8d66-e21df183c5db",
+      "ward_no": "18",
+      "ward_name_en": "Muttada",
+      "ward_name_ml": "മുട്ടട"
+    },
+    {
+      "ward_id": "6e79ae81-0ef8-4044-9a8a-e665b235b653",
+      "ward_no": "19",
+      "ward_name_en": "Kudappanakunnu",
+      "ward_name_ml": "കുടപ്പനക്കുന്ന്"
+    },
+    {
+      "ward_id": "e46ed219-a721-4536-b7aa-5e9a247e319f",
+      "ward_no": "20",
+      "ward_name_en": "Pathirapally",
+      "ward_name_ml": "പാതിരപ്പള്ളി"
+    },
+    {
+      "ward_id": "e03b6caa-e34e-4712-860a-b5d3f9531420",
+      "ward_no": "21",
+      "ward_name_en": "Chettivilakam",
+      "ward_name_ml": "ചെട്ടിവിളാകം"
+    },
+    {
+      "ward_id": "b6f89b5a-2024-4d03-b1e2-22c93007b512",
+      "ward_no": "22",
+      "ward_name_en": "Sasthamangalam",
+      "ward_name_ml": "ശാസ്തമംഗലം"
+    },
+    {
+      "ward_id": "46403225-0c80-492d-adb1-448ca4aa3bf1",
+      "ward_no": "23",
+      "ward_name_en": "Kowdiar",
+      "ward_name_ml": "കവടിയാര്"
+    },
+    {
+      "ward_id": "b7705c1b-e7c9-4c12-bb25-844b5500f6b1",
+      "ward_no": "24",
+      "ward_name_en": "Kuravankonam",
+      "ward_name_ml": "കുറവന്കോണം"
+    },
+    {
+      "ward_id": "88713bbc-e515-4a64-82a5-d89ca10c570b",
+      "ward_no": "25",
+      "ward_name_en": "Nanthencode",
+      "ward_name_ml": "നന്തന്കോട്"
+    },
+    {
+      "ward_id": "c3fde974-ab78-4588-8af7-334292935f22",
+      "ward_no": "26",
+      "ward_name_en": "Kunnukuzhy",
+      "ward_name_ml": "കുന്നുകുഴി"
+    },
+    {
+      "ward_id": "0763d057-3a90-42a1-a365-cbd166564842",
+      "ward_no": "27",
+      "ward_name_en": "Palayam",
+      "ward_name_ml": "പാളയം"
+    },
+    {
+      "ward_id": "1102a91b-3266-44ed-a5a5-76e84f21fc92",
+      "ward_no": "28",
+      "ward_name_en": "Thycaud",
+      "ward_name_ml": "തൈക്കാട്"
+    },
+    {
+      "ward_id": "f95cb721-f6f9-408b-89eb-c424f7603465",
+      "ward_no": "29",
+      "ward_name_en": "Vazhuthacaud",
+      "ward_name_ml": "വഴുതക്കാട്"
+    },
+    {
+      "ward_id": "080d8f24-420f-4dc7-82c2-f14f7febc0f6",
+      "ward_no": "30",
+      "ward_name_en": "Kanjirampara",
+      "ward_name_ml": "കാഞ്ഞിരംപാറ"
+    },
+    {
+      "ward_id": "8e3e15c1-c14c-4781-a00b-0589399326c9",
+      "ward_no": "31",
+      "ward_name_en": "Peroorkada",
+      "ward_name_ml": "പേരൂര്ക്കട"
+    },
+    {
+      "ward_id": "f8877628-5d08-4017-bf13-2e3adda2a6b3",
+      "ward_no": "32",
+      "ward_name_en": "Thuruthummmoola",
+      "ward_name_ml": "തുരുത്തുംമൂല"
+    },
+    {
+      "ward_id": "8b206669-979f-40d2-a96c-20c63659f2b1",
+      "ward_no": "33",
+      "ward_name_en": "Nettayam",
+      "ward_name_ml": "നെട്ടയം"
+    },
+    {
+      "ward_id": "52e7e061-190f-41a7-9f14-2da561baaa5d",
+      "ward_no": "34",
+      "ward_name_en": "Kachani",
+      "ward_name_ml": "കാച്ചാണി"
+    },
+    {
+      "ward_id": "b947dbe5-4165-4e06-9caa-21acb67497fb",
+      "ward_no": "35",
+      "ward_name_en": "Vazhottukonam",
+      "ward_name_ml": "വാഴോട്ടുുകോണം"
+    },
+    {
+      "ward_id": "14198e51-6c2d-4ee9-a231-618826a0ed9e",
+      "ward_no": "36",
+      "ward_name_en": "Vattiyoorkavu",
+      "ward_name_ml": "വട്ടിയൂര്ക്കാവ്"
+    },
+    {
+      "ward_id": "709a791d-11b9-4e97-9b63-fe9151617318",
+      "ward_no": "37",
+      "ward_name_en": "Koduganoor",
+      "ward_name_ml": "കൊടുങ്ങാനൂര്"
+    },
+    {
+      "ward_id": "931a3183-040e-4533-9dce-1a456b085e9c",
+      "ward_no": "38",
+      "ward_name_en": "Ptp Nagar",
+      "ward_name_ml": "പി റ്റി പി നഗര്"
+    },
+    {
+      "ward_id": "3100cb17-f0a0-48a1-bfc9-45937955a32f",
+      "ward_no": "39",
+      "ward_name_en": "Pangode",
+      "ward_name_ml": "പാങ്ങോട്"
+    },
+    {
+      "ward_id": "a0623bb1-18a2-498a-ae42-92b4e2e0f6cc",
+      "ward_no": "40",
+      "ward_name_en": "Thirumala",
+      "ward_name_ml": "തിരുമല"
+    },
+    {
+      "ward_id": "cb5a23c0-a303-4eb4-9f28-6b819a02cddd",
+      "ward_no": "41",
+      "ward_name_en": "Valiyavila",
+      "ward_name_ml": "വലിയവിള"
+    },
+    {
+      "ward_id": "1bb7d4aa-19da-492a-8f54-c9049e5111aa",
+      "ward_no": "42",
+      "ward_name_en": "Poojappura",
+      "ward_name_ml": "പൂജപ്പുര"
+    },
+    {
+      "ward_id": "720d37e0-a526-4197-a2fd-185eb3835852",
+      "ward_no": "43",
+      "ward_name_en": "Valiyasala",
+      "ward_name_ml": "വലിയശ്ശാല"
+    },
+    {
+      "ward_id": "1a80337e-3dca-4fa2-b5db-ef61bae4b684",
+      "ward_no": "44",
+      "ward_name_en": "Jagathy",
+      "ward_name_ml": "ജഗതി"
+    },
+    {
+      "ward_id": "7050a69a-786f-4d89-ab3e-5f6e25d9f68f",
+      "ward_no": "45",
+      "ward_name_en": "Karamana",
+      "ward_name_ml": "കരമന"
+    },
+    {
+      "ward_id": "14e773b9-c1fa-4f22-9654-0eb0a83e6a86",
+      "ward_no": "46",
+      "ward_name_en": "Aranoor",
+      "ward_name_ml": "ആറന്നൂര്"
+    },
+    {
+      "ward_id": "660dee5f-771a-44d6-8221-5dfabd952b4a",
+      "ward_no": "47",
+      "ward_name_en": "Mudavanmughal",
+      "ward_name_ml": "മുടവന്മുഗള്‍"
+    },
+    {
+      "ward_id": "e9219a5c-c48b-4ad6-afa7-10b847bf607c",
+      "ward_no": "48",
+      "ward_name_en": "Thrikannapuram",
+      "ward_name_ml": "ത്യക്കണ്ണാപുരം"
+    },
+    {
+      "ward_id": "1f117aa6-4e24-46f2-9e7b-cbabdfd29342",
+      "ward_no": "49",
+      "ward_name_en": "Nemom",
+      "ward_name_ml": "നേമം"
+    },
+    {
+      "ward_id": "adeefd06-1e56-4ccf-b3e6-15f6ddc7580f",
+      "ward_no": "50",
+      "ward_name_en": "Ponnumangalam",
+      "ward_name_ml": "പൊന്നുമംഗലം"
+    },
+    {
+      "ward_id": "a386872a-ac80-4d6e-b15a-39b872be8c30",
+      "ward_no": "51",
+      "ward_name_en": "Punnakkamughal",
+      "ward_name_ml": "പുന്നക്കാമുഗള്"
+    },
+    {
+      "ward_id": "dc032ed5-aad4-4695-a4b7-3d16edb68b30",
+      "ward_no": "52",
+      "ward_name_en": "Pappanamcode",
+      "ward_name_ml": "പാപ്പനംകോട്"
+    },
+    {
+      "ward_id": "d3e30483-c73a-4abd-8566-c1b9aa2e3431",
+      "ward_no": "53",
+      "ward_name_en": "Estate",
+      "ward_name_ml": "എസ്റ്റേറ്റ്"
+    },
+    {
+      "ward_id": "9ece8317-ffd2-4057-9716-6713f4cff046",
+      "ward_no": "54",
+      "ward_name_en": "Nedumcaud",
+      "ward_name_ml": "നെടുംകാട്"
+    },
+    {
+      "ward_id": "d0eb28a4-56d5-4ea5-8583-8d720b42fc0f",
+      "ward_no": "55",
+      "ward_name_en": "Kalady",
+      "ward_name_ml": "കാലടി"
+    },
+    {
+      "ward_id": "0fdf9834-dd3f-4c7e-b06c-9e5fc6045f7a",
+      "ward_no": "56",
+      "ward_name_en": "Melamcode",
+      "ward_name_ml": "മേലാംകോട്"
+    },
+    {
+      "ward_id": "cbde9355-f66f-4f2a-9d16-776655e90e7d",
+      "ward_no": "57",
+      "ward_name_en": "Punchakari",
+      "ward_name_ml": "പുഞ്ചക്കരി"
+    },
+    {
+      "ward_id": "f5bc29a1-dabd-42a7-93f3-f8fcee62e769",
+      "ward_no": "58",
+      "ward_name_en": "Poonkulam",
+      "ward_name_ml": "പൂങ്കുളം"
+    },
+    {
+      "ward_id": "7ad72ef2-91b9-438e-a1d7-dcc724aead67",
+      "ward_no": "59",
+      "ward_name_en": "Venganoor",
+      "ward_name_ml": "വെങ്ങാനൂര്‍"
+    },
+    {
+      "ward_id": "925b4be4-462c-437b-ad58-3d2c7e40c7a0",
+      "ward_no": "60",
+      "ward_name_en": "Mulloor",
+      "ward_name_ml": "മൂല്ലൂര്‍"
+    },
+    {
+      "ward_id": "1ef00ed4-bab2-4fb7-a41c-81bcb12fb6c8",
+      "ward_no": "61",
+      "ward_name_en": "Kottappuram",
+      "ward_name_ml": "കോട്ടപ്പുറം"
+    },
+    {
+      "ward_id": "215f8b24-f1c4-4cbd-b4b7-5bf4634cb441",
+      "ward_no": "62",
+      "ward_name_en": "Vizhinjam",
+      "ward_name_ml": "വിഴിഞ്ഞം"
+    },
+    {
+      "ward_id": "8e86cf94-c9a1-45ce-a034-8ab89763c9ee",
+      "ward_no": "63",
+      "ward_name_en": "Harbar",
+      "ward_name_ml": "ഹാര്‍ബര്‍"
+    },
+    {
+      "ward_id": "3752fdad-1be7-46ff-99db-eb30ae7193ec",
+      "ward_no": "64",
+      "ward_name_en": "Vellar",
+      "ward_name_ml": "വെള്ളാര്‍"
+    },
+    {
+      "ward_id": "e1319c8a-a47c-49e6-869f-bcf88be1b381",
+      "ward_no": "65",
+      "ward_name_en": "Thiruvallam",
+      "ward_name_ml": "തിരുവല്ലം"
+    },
+    {
+      "ward_id": "856e5d86-2c11-496d-ac94-c20ff7cdbf23",
+      "ward_no": "66",
+      "ward_name_en": "Poonthura",
+      "ward_name_ml": "പൂന്തുറ"
+    },
+    {
+      "ward_id": "d98560f7-f6a5-4c4a-84cc-df0ec3331fbd",
+      "ward_no": "67",
+      "ward_name_en": "Ambalathara",
+      "ward_name_ml": "അമ്പലത്തറ"
+    },
+    {
+      "ward_id": "7693684d-f268-4899-b23a-4636f6e804a2",
+      "ward_no": "68",
+      "ward_name_en": "Kamaleswaram",
+      "ward_name_ml": "കമലേശ്വരം"
+    },
+    {
+      "ward_id": "0629efbc-efce-4a94-9bea-997590a86ab4",
+      "ward_no": "69",
+      "ward_name_en": "Kalippankulam",
+      "ward_name_ml": "കളിപ്പാങ്കുളം"
+    },
+    {
+      "ward_id": "a2751935-3bf9-4d6a-b281-1bb14a08f9bf",
+      "ward_no": "70",
+      "ward_name_en": "Attukal",
+      "ward_name_ml": "ആറ്റുകാല്‍"
+    },
+    {
+      "ward_id": "935be172-f589-44f3-a527-f85adc5d7f41",
+      "ward_no": "71",
+      "ward_name_en": "Chala",
+      "ward_name_ml": "ചാല"
+    },
+    {
+      "ward_id": "5b43b9a8-6e09-4cac-a30a-f06b1dbb23ae",
+      "ward_no": "72",
+      "ward_name_en": "Manacaud",
+      "ward_name_ml": "മണക്കാട്"
+    },
+    {
+      "ward_id": "5e648f16-bbaa-4947-bc8d-9ceb8fe8c905",
+      "ward_no": "73",
+      "ward_name_en": "Kuriyathy",
+      "ward_name_ml": "കുര്യാത്തി"
+    },
+    {
+      "ward_id": "78fca394-4da5-451b-b535-a1b38363a388",
+      "ward_no": "74",
+      "ward_name_en": "Puthenpally",
+      "ward_name_ml": "പുത്തന്‍പള്ളി"
+    },
+    {
+      "ward_id": "f43bf744-b108-487a-acd2-e9f65ad178d4",
+      "ward_no": "75",
+      "ward_name_en": "Manikavilakam",
+      "ward_name_ml": "മാണിക്യവിളാകം"
+    },
+    {
+      "ward_id": "71a89ccd-ffa1-420d-8aa1-868172272fb5",
+      "ward_no": "76",
+      "ward_name_en": "Beemapally East",
+      "ward_name_ml": "ബീമാപ്പള്ളി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "2ec3c6d3-12b7-4958-8ca0-c84798b82c42",
+      "ward_no": "77",
+      "ward_name_en": "Beemapally",
+      "ward_name_ml": "ബീമാപ്പള്ളി"
+    },
+    {
+      "ward_id": "f3bf433f-4cb7-40b5-bcdd-cdf29bb92254",
+      "ward_no": "78",
+      "ward_name_en": "Muttathara",
+      "ward_name_ml": "മുട്ടത്തറ"
+    },
+    {
+      "ward_id": "5532a62e-2575-4688-b076-16d6dde3ad1a",
+      "ward_no": "79",
+      "ward_name_en": "Sreevaraham",
+      "ward_name_ml": "ശ്രീവരാഹം"
+    },
+    {
+      "ward_id": "c92a620b-3e33-42b1-b668-10fbd707c5a7",
+      "ward_no": "80",
+      "ward_name_en": "Fort",
+      "ward_name_ml": "ഫോര്‍ട്ട്"
+    },
+    {
+      "ward_id": "85c872ce-f999-4983-8367-bcf33222e96c",
+      "ward_no": "81",
+      "ward_name_en": "Thampanoor",
+      "ward_name_ml": "തമ്പാനൂര്‍"
+    },
+    {
+      "ward_id": "83b0e960-f0e5-49ab-b746-d7e9375674da",
+      "ward_no": "82",
+      "ward_name_en": "Vanchiyoor",
+      "ward_name_ml": "വഞ്ചിയൂര‍്‍"
+    },
+    {
+      "ward_id": "c9d0fcc3-6715-4c9d-851b-406095c4418d",
+      "ward_no": "83",
+      "ward_name_en": "Sreekanteswaram",
+      "ward_name_ml": "ശ്രീകണ്ഠേശ്വരം"
+    },
+    {
+      "ward_id": "323f7d00-a68c-4376-b187-110539a7cb15",
+      "ward_no": "84",
+      "ward_name_en": "Perunthanni",
+      "ward_name_ml": "പെരുന്താന്നി"
+    },
+    {
+      "ward_id": "60400e44-f130-4e4e-a603-789d340642f5",
+      "ward_no": "85",
+      "ward_name_en": "Palkulangara",
+      "ward_name_ml": "പാല്‍ക്കുളങ്ങര"
+    },
+    {
+      "ward_id": "b804f5ea-db63-451e-a0dc-f154a4d498de",
+      "ward_no": "86",
+      "ward_name_en": "Chakkai",
+      "ward_name_ml": "ചാക്ക"
+    },
+    {
+      "ward_id": "bc18a56d-81cc-4afa-be23-0fcc277f881c",
+      "ward_no": "87",
+      "ward_name_en": "Valiyathura",
+      "ward_name_ml": "വലിയതുറ"
+    },
+    {
+      "ward_id": "a91fcc70-7c68-4e53-bf5e-06d1c9ab3b56",
+      "ward_no": "88",
+      "ward_name_en": "Vallakkadavu",
+      "ward_name_ml": "വള്ളക്കടവ്"
+    },
+    {
+      "ward_id": "32bc66c8-f5ea-484e-ad23-220be0b7f1d2",
+      "ward_no": "89",
+      "ward_name_en": "Sanghumugham",
+      "ward_name_ml": "ശംഖുമുഖം"
+    },
+    {
+      "ward_id": "24e2c96f-ddce-4dc6-b2c2-c7e03a833432",
+      "ward_no": "90",
+      "ward_name_en": "Vettucaud",
+      "ward_name_ml": "വെട്ടുകാട്"
+    },
+    {
+      "ward_id": "3b683786-2dd1-415c-8002-e39b028321e2",
+      "ward_no": "91",
+      "ward_name_en": "Karikkakam",
+      "ward_name_ml": "കരിക്കകം"
+    },
+    {
+      "ward_id": "bb64ebc1-4a37-46c7-8e7d-657b307a40af",
+      "ward_no": "92",
+      "ward_name_en": "Kadakampally",
+      "ward_name_ml": "കടകംപള്ളി"
+    },
+    {
+      "ward_id": "7e053a34-665c-4e7c-ad91-afb8f684cb26",
+      "ward_no": "93",
+      "ward_name_en": "Pettah",
+      "ward_name_ml": "പേട്ട"
+    },
+    {
+      "ward_id": "28d30e86-72cc-4c56-ac86-de8d36375509",
+      "ward_no": "94",
+      "ward_name_en": "Kannanmoola",
+      "ward_name_ml": "കണ്ണന്മൂല"
+    },
+    {
+      "ward_id": "3a772251-b020-4add-8ee8-67e3c798a44a",
+      "ward_no": "95",
+      "ward_name_en": "Anamugham",
+      "ward_name_ml": "അണമുഖം"
+    },
+    {
+      "ward_id": "2fd7dde0-74a7-4f76-b991-bb05d30813bf",
+      "ward_no": "96",
+      "ward_name_en": "Akkulam",
+      "ward_name_ml": "ആക്കുളം"
+    },
+    {
+      "ward_id": "4586221b-4d9b-4c52-aebf-31c4142f8523",
+      "ward_no": "97",
+      "ward_name_en": "Kulathoor",
+      "ward_name_ml": "കുളത്തൂര്‍"
+    },
+    {
+      "ward_id": "2d82091b-8fb0-4b67-a619-61393308bd2e",
+      "ward_no": "98",
+      "ward_name_en": "Attipra",
+      "ward_name_ml": "ആറ്റിപ്ര"
+    },
+    {
+      "ward_id": "d59c4746-5d55-42cd-bac9-f57fa7d5830c",
+      "ward_no": "99",
+      "ward_name_en": "Powndukadavu",
+      "ward_name_ml": "പൌണ്ടുകടവ്"
+    },
+    {
+      "ward_id": "50ddcb28-c2d7-4ade-9295-0dadc557eb0a",
+      "ward_no": "100",
+      "ward_name_en": "Pallithura",
+      "ward_name_ml": "പള്ളിത്തുറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/C010100.geojson"
+  }
+}

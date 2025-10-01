@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050607",
+  "local_body_name_en": "Teekoy",
+  "local_body_name_ml": "തീക്കോയി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "101",
+    "assembly_name_en": "Poonjar",
+    "assembly_name_ml": "പൂഞ്ഞാർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "cf282017-3187-4316-9591-26c069ad2664",
+      "ward_no": "1",
+      "ward_name_en": "Arukonmala",
+      "ward_name_ml": "അറുകോണ്‍മല"
+    },
+    {
+      "ward_id": "93ef8a2c-d2b1-4625-ab92-a4d6bb5cfa94",
+      "ward_no": "2",
+      "ward_name_en": "Teekoy Town",
+      "ward_name_ml": "തീക്കോയി ടൌണ്‍"
+    },
+    {
+      "ward_id": "7e1b6683-8464-4f7b-a8bd-1a9a68767057",
+      "ward_no": "3",
+      "ward_name_en": "Mangalagiri",
+      "ward_name_ml": "മംഗളഗിരി"
+    },
+    {
+      "ward_id": "3eee4aac-c118-4239-be9c-ffe9aa20b075",
+      "ward_no": "4",
+      "ward_name_en": "Teekoy Estate",
+      "ward_name_ml": "തീക്കോയി എസ്റ്റേറ്റ്"
+    },
+    {
+      "ward_id": "3ce6617b-5653-4995-a409-1a997c4e3188",
+      "ward_no": "5",
+      "ward_name_en": "Ottayeetti",
+      "ward_name_ml": "ഒറ്റയീട്ടി"
+    },
+    {
+      "ward_id": "46f74a8e-7c44-42b5-88e5-820e4cb8feda",
+      "ward_no": "6",
+      "ward_name_en": "Karikadu",
+      "ward_name_ml": "കാരികാട്"
+    },
+    {
+      "ward_id": "536f9e19-178b-4085-a26d-f853aec6d6f1",
+      "ward_no": "7",
+      "ward_name_en": "Vellikulam",
+      "ward_name_ml": "വെള്ളികുളം"
+    },
+    {
+      "ward_id": "2a8086f6-087e-4b4a-9cde-fc0f3b9059a4",
+      "ward_no": "8",
+      "ward_name_en": "Malamel",
+      "ward_name_ml": "മലമേല്‍"
+    },
+    {
+      "ward_id": "b486596d-5ac5-487a-b1ce-ebd5d52554f8",
+      "ward_no": "9",
+      "ward_name_en": "Velathusseri",
+      "ward_name_ml": "വേലത്തുശ്ശേരി"
+    },
+    {
+      "ward_id": "97c71c7c-619c-4435-b502-aa90e7b654e9",
+      "ward_no": "10",
+      "ward_name_en": "Vagamattom",
+      "ward_name_ml": "വാഗമറ്റം"
+    },
+    {
+      "ward_id": "232e632c-6232-4196-907b-75ef87296ecc",
+      "ward_no": "11",
+      "ward_name_en": "Cherimala",
+      "ward_name_ml": "ചേരിമല"
+    },
+    {
+      "ward_id": "1fac04f2-bab5-43a1-92dc-f607cf3ecdcb",
+      "ward_no": "12",
+      "ward_name_en": "Panchayat Junction",
+      "ward_name_ml": "പഞ്ചായത്ത് ജംഗ്ഷന്‍"
+    },
+    {
+      "ward_id": "db031356-28c4-4bd7-9daf-2e754f991076",
+      "ward_no": "13",
+      "ward_name_en": "Aniyilappu",
+      "ward_name_ml": "ആനിയിളപ്പ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050607.geojson"
+  }
+}

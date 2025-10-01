@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050608",
+  "local_body_name_en": "Thalanad",
+  "local_body_name_ml": "തലനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "93",
+    "assembly_name_en": "Pala",
+    "assembly_name_ml": "പാലാ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d1341600-cbff-44b4-9fc1-58513312c0a4",
+      "ward_no": "1",
+      "ward_name_en": "Chovoor",
+      "ward_name_ml": "ചൊവ്വൂര്‍"
+    },
+    {
+      "ward_id": "78fd075d-0d82-47f6-8993-04bfaa3d7ea5",
+      "ward_no": "2",
+      "ward_name_en": "Thalanad Centre",
+      "ward_name_ml": "തലനാട് സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "4d1ea6ef-4baf-46e3-8085-5755e794cb61",
+      "ward_no": "3",
+      "ward_name_en": "Chonamala",
+      "ward_name_ml": "ചോനമല"
+    },
+    {
+      "ward_id": "9965df2a-c057-4eba-9eda-afd1a7b64c71",
+      "ward_no": "4",
+      "ward_name_en": "Meladukkom",
+      "ward_name_ml": "മേലടുക്കം"
+    },
+    {
+      "ward_id": "95899329-0239-4751-bbb5-40d1c4cc29b8",
+      "ward_no": "5",
+      "ward_name_en": "Adukkom",
+      "ward_name_ml": "അടുക്കം"
+    },
+    {
+      "ward_id": "237847f8-bdd1-4a3c-a4e2-ed60af65fa2b",
+      "ward_no": "6",
+      "ward_name_en": "Peryamala",
+      "ward_name_ml": "പേര്യംമല"
+    },
+    {
+      "ward_id": "6f8a40b2-6bf3-4a4e-b436-a6544d1a441e",
+      "ward_no": "7",
+      "ward_name_en": "Vellani",
+      "ward_name_ml": "വെള്ളാനി"
+    },
+    {
+      "ward_id": "6301467f-84ec-4761-a35c-f8937acaf2ba",
+      "ward_no": "8",
+      "ward_name_en": "Attikalam",
+      "ward_name_ml": "അട്ടിക്കളം"
+    },
+    {
+      "ward_id": "c8f6baac-18cb-4451-a0c7-222838760fcf",
+      "ward_no": "9",
+      "ward_name_en": "Teekoy Estate",
+      "ward_name_ml": "തീക്കോയി എസ്റ്റേറ്റ്"
+    },
+    {
+      "ward_id": "f01eeb38-92f4-4364-bc77-c3324b2b4316",
+      "ward_no": "10",
+      "ward_name_en": "Maravikallu",
+      "ward_name_ml": "മരവിക്കല്ല്"
+    },
+    {
+      "ward_id": "3851e84d-660c-4430-97b7-753294b6a1ae",
+      "ward_no": "11",
+      "ward_name_en": "Panchayat Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+    },
+    {
+      "ward_id": "942453d0-89d9-47b4-997e-dc5c92c3c718",
+      "ward_no": "12",
+      "ward_name_en": "Ayyampara",
+      "ward_name_ml": "അയ്യമ്പാറ"
+    },
+    {
+      "ward_id": "560e662d-eecb-4933-8310-6e103ed1444e",
+      "ward_no": "13",
+      "ward_name_en": "Vadakkumbhagam",
+      "ward_name_ml": "വടക്കുംഭാഗം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050608.geojson"
+  }
+}

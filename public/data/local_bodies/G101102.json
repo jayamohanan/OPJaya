@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G101102",
+  "local_body_name_en": "Thenhipalam",
+  "local_body_name_ml": "തേഞ്ഞിപ്പലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "42",
+    "assembly_name_en": "Vallikkunnu",
+    "assembly_name_ml": "വള്ളിക്കുന്ന്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "16e87e69-a46e-48d3-89a2-fd515efccc42",
+      "ward_no": "1",
+      "ward_name_en": "Kadakkattupara",
+      "ward_name_ml": "കടക്കാട്ടുപ്പാറ"
+    },
+    {
+      "ward_id": "5a67cb3c-fa4a-4412-b976-eb71350d1419",
+      "ward_no": "2",
+      "ward_name_en": "Manikulathu Parambu",
+      "ward_name_ml": "മണികുളത്ത് പറമ്പ്"
+    },
+    {
+      "ward_id": "4d28129e-1f82-4af3-b4c3-894ba115e320",
+      "ward_no": "3",
+      "ward_name_en": "Illath",
+      "ward_name_ml": "ഇല്ലത്ത്"
+    },
+    {
+      "ward_id": "baebc6d1-bdbf-44a4-ac43-90cd6d911c62",
+      "ward_no": "4",
+      "ward_name_en": "Elambulasseri",
+      "ward_name_ml": "എളമ്പുലാശ്ശേരി"
+    },
+    {
+      "ward_id": "1c262e48-adda-4703-9d61-3852c77de7ec",
+      "ward_no": "5",
+      "ward_name_en": "University",
+      "ward_name_ml": "യൂനിവേഴ്സിറ്റി"
+    },
+    {
+      "ward_id": "79bf987e-7823-44d2-a9ac-c8d82f58ec71",
+      "ward_no": "6",
+      "ward_name_en": "Kohinoor",
+      "ward_name_ml": "കോഹിനൂര്‍"
+    },
+    {
+      "ward_id": "ef5b16b6-1fcf-4cc7-9c8e-05638ec35b67",
+      "ward_no": "7",
+      "ward_name_en": "Devathiyal",
+      "ward_name_ml": "ദേവതിയാല്‍"
+    },
+    {
+      "ward_id": "4871673a-387d-40a7-9b27-f2d8ca5b45d6",
+      "ward_no": "8",
+      "ward_name_en": "Neerolpalam",
+      "ward_name_ml": "നീരോല്‍പാലം"
+    },
+    {
+      "ward_id": "85f5bcb1-2960-4438-960e-ce28da59e5c6",
+      "ward_no": "9",
+      "ward_name_en": "Chullottuparambu",
+      "ward_name_ml": "ചുള്ളോട്ട് പറമ്പ്"
+    },
+    {
+      "ward_id": "01bec882-854b-4844-aac0-074c328a3ac2",
+      "ward_no": "10",
+      "ward_name_en": "Panambra",
+      "ward_name_ml": "പാണമ്പ്ര"
+    },
+    {
+      "ward_id": "d46aa65a-725a-476f-ab5f-1512f75553ea",
+      "ward_no": "11",
+      "ward_name_en": "Nethaji",
+      "ward_name_ml": "നേതാജി"
+    },
+    {
+      "ward_id": "ec81bd05-853f-4b55-8f89-df76c648a171",
+      "ward_no": "12",
+      "ward_name_en": "Alungal",
+      "ward_name_ml": "ആലുങ്ങല്‍"
+    },
+    {
+      "ward_id": "1dfeeec1-1f1e-477b-a3a5-def121588003",
+      "ward_no": "13",
+      "ward_name_en": "Padattal",
+      "ward_name_ml": "പാടാട്ടാല്‍"
+    },
+    {
+      "ward_id": "b8d1dc97-d704-41f1-bbad-295c4a30a8ec",
+      "ward_no": "14",
+      "ward_name_en": "Chenakkalangadi",
+      "ward_name_ml": "ചെനക്കലങ്ങാടി"
+    },
+    {
+      "ward_id": "0db54baf-a660-43f0-a1bd-10d36ae7378b",
+      "ward_no": "15",
+      "ward_name_en": "Mathapuzha",
+      "ward_name_ml": "മാതാപുഴ"
+    },
+    {
+      "ward_id": "8aa57941-d5eb-497f-91bf-6f769831d4d3",
+      "ward_no": "16",
+      "ward_name_en": "Kolathodu",
+      "ward_name_ml": "കൊളത്തോട്"
+    },
+    {
+      "ward_id": "611e62f1-57f3-476a-a4b9-9fb1ae60293e",
+      "ward_no": "17",
+      "ward_name_en": "Areepara",
+      "ward_name_ml": "അരീപ്പാറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G101102.geojson"
+  }
+}

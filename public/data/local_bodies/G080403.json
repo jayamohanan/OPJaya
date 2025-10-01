@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G080403",
+  "local_body_name_en": "Kondazhy",
+  "local_body_name_ml": "കൊണ്ടാഴി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "61",
+    "assembly_name_en": "Chelakkara",
+    "assembly_name_ml": "ചേലക്കര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "8fc93d95-a642-4162-b0e9-0e19cae20917",
+      "ward_no": "1",
+      "ward_name_en": "Mankulam",
+      "ward_name_ml": "മാങ്കുളം"
+    },
+    {
+      "ward_id": "6e77d1a3-7e21-4563-9655-dd9a3185a452",
+      "ward_no": "2",
+      "ward_name_en": "Gandhi Ashramam",
+      "ward_name_ml": "ഗാന്ധിആശ്രമം"
+    },
+    {
+      "ward_id": "6bb12a37-ac9b-4bd9-b2d4-4223f012b847",
+      "ward_no": "3",
+      "ward_name_en": "Moothedathpadi",
+      "ward_name_ml": "മൂത്തേടത്ത്പ്പടി"
+    },
+    {
+      "ward_id": "201d98ee-e950-47af-8007-d1de08540bf6",
+      "ward_no": "4",
+      "ward_name_en": "Mayannurkavu",
+      "ward_name_ml": "മായന്നൂര്‍ക്കാവ്"
+    },
+    {
+      "ward_id": "69e80e5a-19d7-4fdd-ae6b-548828c4a77f",
+      "ward_no": "5",
+      "ward_name_en": "Paramelpady",
+      "ward_name_ml": "പാറമേല്‍പ്പടി"
+    },
+    {
+      "ward_id": "f6028d47-aebf-402c-b1f9-1c04ec12b63d",
+      "ward_no": "6",
+      "ward_name_en": "Paramelpady South",
+      "ward_name_ml": "പാറമേല്‍പ്പടി സൗത്ത്"
+    },
+    {
+      "ward_id": "28bbed42-9c8d-464a-b01a-1bbd9735d324",
+      "ward_no": "7",
+      "ward_name_en": "Kuzhiyampadam",
+      "ward_name_ml": "കുഴിയംപ്പാടം"
+    },
+    {
+      "ward_id": "80264c63-4b29-4127-aae6-e7ed16f1329b",
+      "ward_no": "8",
+      "ward_name_en": "Thekke Kondazhy",
+      "ward_name_ml": "തെക്കേ കൊണ്ടാഴി"
+    },
+    {
+      "ward_id": "b54fc446-c096-438a-9ce5-2c3aa706d76c",
+      "ward_no": "9",
+      "ward_name_en": "Chelakkode",
+      "ward_name_ml": "ചേലക്കോട്"
+    },
+    {
+      "ward_id": "13d73bb8-a98d-464e-b827-1b672e4765e7",
+      "ward_no": "10",
+      "ward_name_en": "Koolikkunnu",
+      "ward_name_ml": "കൂളിക്കുന്ന്"
+    },
+    {
+      "ward_id": "51047bfc-8b5f-4044-a181-b690484b9549",
+      "ward_no": "11",
+      "ward_name_en": "Vadakkumkonam",
+      "ward_name_ml": "വടക്കുംകോണം"
+    },
+    {
+      "ward_id": "97a2867f-a515-4e3c-b338-a2b44995bbf8",
+      "ward_no": "12",
+      "ward_name_en": "Plantation",
+      "ward_name_ml": "പ്ലാന്റെഷന്‍"
+    },
+    {
+      "ward_id": "5700140a-d950-4e25-8e0b-63faa5c6da60",
+      "ward_no": "13",
+      "ward_name_en": "Melemuri",
+      "ward_name_ml": "മേലേമുറി"
+    },
+    {
+      "ward_id": "2177e44f-2a0a-48be-818a-f4e503b0e983",
+      "ward_no": "14",
+      "ward_name_en": "Chirankara",
+      "ward_name_ml": "ചിറങ്കര"
+    },
+    {
+      "ward_id": "d8ab9494-f190-4d71-a9d0-75c9788e1b82",
+      "ward_no": "15",
+      "ward_name_en": "Ullattukulam",
+      "ward_name_ml": "ഉള്ളാട്ടുകുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080403.geojson"
+  }
+}

@@ -1,0 +1,84 @@
+{
+  "assembly_id": "107",
+  "assembly_name_en": "Haripad",
+  "assembly_name_ml": "ഹരിപ്പാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G041205",
+      "local_body_name_en": "Arattupuzha",
+      "local_body_name_ml": "ആറാട്ടുപുഴ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G041203",
+      "local_body_name_en": "Cheppad",
+      "local_body_name_ml": "ചേപ്പാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040907",
+      "local_body_name_en": "Cheruthana",
+      "local_body_name_ml": "ചെറുതന",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G041208",
+      "local_body_name_en": "Chingoli",
+      "local_body_name_ml": "ചിങ്ങോലി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M040600",
+      "local_body_name_en": "Haripad",
+      "local_body_name_ml": "ഹരിപ്പാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040901",
+      "local_body_name_en": "Karthikappally",
+      "local_body_name_ml": "കാര്‍ത്തികപ്പള്ളി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040904",
+      "local_body_name_en": "Karuvatta",
+      "local_body_name_ml": "കരുവാറ്റ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040903",
+      "local_body_name_en": "Kumarapuram",
+      "local_body_name_ml": "കുമാരപുരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G041204",
+      "local_body_name_en": "Muthukulam",
+      "local_body_name_ml": "മുതുകുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040906",
+      "local_body_name_en": "Pallippad",
+      "local_body_name_ml": "പള്ളിപ്പാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040902",
+      "local_body_name_en": "Thrikkunnappuzha",
+      "local_body_name_ml": "തൃക്കുന്നപ്പുഴ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/haripad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/haripad.geojson"
+  }
+}

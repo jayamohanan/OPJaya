@@ -1,0 +1,103 @@
+{
+  "local_body_id": "G090602",
+  "local_body_name_en": "Pudur",
+  "local_body_name_ml": "പുതൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "54",
+    "assembly_name_en": "Mannarkkad",
+    "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a499f2be-86b8-44a1-9d6a-1e5001f2aa74",
+      "ward_no": "1",
+      "ward_name_en": "Thudukki",
+      "ward_name_ml": "തുടുക്കി"
+    },
+    {
+      "ward_id": "be7a658c-0567-47a1-8e4e-179308914a13",
+      "ward_no": "2",
+      "ward_name_en": "Paloor",
+      "ward_name_ml": "പാലൂർ"
+    },
+    {
+      "ward_id": "3ff1fd91-eb09-4a84-89f8-5f20d130259b",
+      "ward_no": "3",
+      "ward_name_en": "Kolappadi",
+      "ward_name_ml": "കൊളപ്പടി"
+    },
+    {
+      "ward_id": "36f20cab-8974-4f2a-9bec-a3a0eacf3376",
+      "ward_no": "5",
+      "ward_name_en": "Ummathampadi",
+      "ward_name_ml": "ഉമ്മത്താംപടി"
+    },
+    {
+      "ward_id": "3494e787-ac84-45a7-ab76-c09e21080139",
+      "ward_no": "6",
+      "ward_name_en": "Pudur",
+      "ward_name_ml": "പുതൂർ"
+    },
+    {
+      "ward_id": "6d02745e-a0d7-4f63-ad0f-c4db4b8e01d3",
+      "ward_no": "7",
+      "ward_name_en": "Chavadiyoor",
+      "ward_name_ml": "ചാവടിയൂർ"
+    },
+    {
+      "ward_id": "7ba1e2bb-cdb5-46b8-bd10-cfe36cbc3f32",
+      "ward_no": "8",
+      "ward_name_en": "Chalayoor",
+      "ward_name_ml": "ചാളയൂർ"
+    },
+    {
+      "ward_id": "60fa3b81-cd11-415d-8145-620b7e5aa609",
+      "ward_no": "9",
+      "ward_name_en": "Mulli",
+      "ward_name_ml": "മുളളി"
+    },
+    {
+      "ward_id": "776fdda7-9814-4690-8d47-62744eb47472",
+      "ward_no": "10",
+      "ward_name_en": "Elachivazhi",
+      "ward_name_ml": "ഇലച്ചിവഴി"
+    },
+    {
+      "ward_id": "34a917b7-5285-4eb3-b951-7df310e3bebc",
+      "ward_no": "11",
+      "ward_name_en": "Cheerakkadavu",
+      "ward_name_ml": "ചീരക്കടവ്"
+    },
+    {
+      "ward_id": "4b5384e8-3152-4584-84a6-542fd598fbc1",
+      "ward_no": "12",
+      "ward_name_en": "Padavayal",
+      "ward_name_ml": "പാടവയല്‍"
+    },
+    {
+      "ward_id": "570e2739-9dc8-4be3-a536-56ad5042cbb7",
+      "ward_no": "13",
+      "ward_name_en": "Anakkal",
+      "ward_name_ml": "ആനക്കല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090602.geojson"
+  }
+}

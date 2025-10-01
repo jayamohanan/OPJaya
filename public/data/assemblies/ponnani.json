@@ -1,0 +1,54 @@
+{
+  "assembly_id": "48",
+  "assembly_name_en": "Ponnani",
+  "assembly_name_ml": "പൊന്നാനി",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G101502",
+      "local_body_name_en": "Maranchery",
+      "local_body_name_ml": "മാറഞ്ചരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G101503",
+      "local_body_name_en": "Nannammukku",
+      "local_body_name_ml": "നന്നംമുക്ക്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G101504",
+      "local_body_name_en": "Perumpadappa",
+      "local_body_name_ml": "പെരുമ്പടപ്പ്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G101505",
+      "local_body_name_en": "Veliancode",
+      "local_body_name_ml": "വെളിയങ്കോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G101501",
+      "local_body_name_en": "Alamkode",
+      "local_body_name_ml": "ആലംകോട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M100200",
+      "local_body_name_en": "Ponnani",
+      "local_body_name_ml": "പൊന്നാനി",
+      "category": ""
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/ponnani.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/ponnani.geojson"
+  }
+}

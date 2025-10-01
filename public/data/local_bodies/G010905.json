@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G010905",
+  "local_body_name_en": "Kallikkadu",
+  "local_body_name_ml": "കള്ളിക്കാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "137",
+    "assembly_name_en": "Parassala",
+    "assembly_name_ml": "പാറശ്ശാല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7a5163fd-b152-4ee0-b333-d0a8cc395558",
+      "ward_no": "1",
+      "ward_name_en": "Thevancode",
+      "ward_name_ml": "തേവന്‍കോട്"
+    },
+    {
+      "ward_id": "da28e2fc-bacf-4c5e-a975-c2f06c5895fd",
+      "ward_no": "2",
+      "ward_name_en": "Vlavetty",
+      "ward_name_ml": "വ്ലാവെട്ടി"
+    },
+    {
+      "ward_id": "d6311574-7159-4951-94c2-aa6ccdc12705",
+      "ward_no": "3",
+      "ward_name_en": "Perumkulangara",
+      "ward_name_ml": "പെരുങ്കുളങ്ങര"
+    },
+    {
+      "ward_id": "e6239bce-6974-4e3f-a495-640e49661e5b",
+      "ward_no": "4",
+      "ward_name_en": "Neyyardam",
+      "ward_name_ml": "നെയ്യാര്‍ഡാം"
+    },
+    {
+      "ward_id": "d5df2a10-0001-4f6a-af50-9c8cbffe93b5",
+      "ward_no": "5",
+      "ward_name_en": "Kalattukavu",
+      "ward_name_ml": "കാലാട്ട്കാവ്"
+    },
+    {
+      "ward_id": "34335ddd-467e-4160-a56a-8558c19dc2ae",
+      "ward_no": "6",
+      "ward_name_en": "Nirappukala",
+      "ward_name_ml": "നിരപ്പുക്കാല"
+    },
+    {
+      "ward_id": "b28885d9-0dde-4817-862a-0db3d69f3066",
+      "ward_no": "7",
+      "ward_name_en": "Vavodu",
+      "ward_name_ml": "വാവോട്"
+    },
+    {
+      "ward_id": "18af3890-e1a7-4d15-b37d-61b4ea7acec0",
+      "ward_no": "8",
+      "ward_name_en": "Kalippara",
+      "ward_name_ml": "കാളിപ്പാറ"
+    },
+    {
+      "ward_id": "6419d574-3e6c-4f55-9a5e-73a2ca07b9e1",
+      "ward_no": "9",
+      "ward_name_en": "Manjadimoodu",
+      "ward_name_ml": "മഞ്ചാടിമൂട്"
+    },
+    {
+      "ward_id": "ba49bd52-c179-4330-84d3-b0224b0143f2",
+      "ward_no": "10",
+      "ward_name_en": "Chamavilapuram",
+      "ward_name_ml": "ചാമവിളപുറം"
+    },
+    {
+      "ward_id": "6b409c08-5f85-4146-acc9-81f9dab777ee",
+      "ward_no": "11",
+      "ward_name_en": "Mylakkara",
+      "ward_name_ml": "മൈലക്കര"
+    },
+    {
+      "ward_id": "0317cec5-0861-4f4f-99bb-46a73a67fe26",
+      "ward_no": "12",
+      "ward_name_en": "Perinjamkadavu",
+      "ward_name_ml": "പെരിഞ്ഞാംകടവ്"
+    },
+    {
+      "ward_id": "eba55b9b-e279-4067-b9f0-be7368b5484e",
+      "ward_no": "13",
+      "ward_name_en": "Kallikkadu",
+      "ward_name_ml": "കള്ളിക്കാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010905.geojson"
+  }
+}

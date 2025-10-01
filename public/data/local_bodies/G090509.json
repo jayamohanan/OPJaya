@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G090509",
+  "local_body_name_en": "Thenkara",
+  "local_body_name_ml": "തെങ്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "54",
+    "assembly_name_en": "Mannarkkad",
+    "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2b3906b9-e1bd-4eb1-8442-5c29b6a00465",
+      "ward_no": "1",
+      "ward_name_en": "Thathengalam",
+      "ward_name_ml": "തത്തേങ്ങലം"
+    },
+    {
+      "ward_id": "b8a9527e-1e98-4581-913c-5c458951a083",
+      "ward_no": "2",
+      "ward_name_en": "Karimbankunnu",
+      "ward_name_ml": "കരിമ്പന്‍കുന്ന്"
+    },
+    {
+      "ward_id": "aac88590-8ae9-43e8-b042-870b3bf643f5",
+      "ward_no": "3",
+      "ward_name_en": "Melamuri",
+      "ward_name_ml": "മേലാമുറി"
+    },
+    {
+      "ward_id": "f0c06799-d26d-487b-b918-b32cc8d393ae",
+      "ward_no": "4",
+      "ward_name_en": "Mezhukumpara",
+      "ward_name_ml": "മെഴുകുംപാറ"
+    },
+    {
+      "ward_id": "5432686c-92b1-4e4b-a7dc-4a7bfe82e6cd",
+      "ward_no": "5",
+      "ward_name_en": "Anamooli",
+      "ward_name_ml": "ആനമൂളി"
+    },
+    {
+      "ward_id": "3bd6dd7f-0da3-4c8b-a549-5dbe498de162",
+      "ward_no": "6",
+      "ward_name_en": "Kottiyode",
+      "ward_name_ml": "കൊറ്റിയോട്"
+    },
+    {
+      "ward_id": "46669350-a24d-4a89-a988-23a6e2fd9bd9",
+      "ward_no": "7",
+      "ward_name_en": "Kolppadam",
+      "ward_name_ml": "കോല്‍പ്പാടം"
+    },
+    {
+      "ward_id": "674f845d-3526-4321-b00f-fa17dcee9865",
+      "ward_no": "8",
+      "ward_name_en": "Thenkara",
+      "ward_name_ml": "തെങ്കര"
+    },
+    {
+      "ward_id": "b9374d6d-8e2c-4b67-9865-f36917ba690a",
+      "ward_no": "9",
+      "ward_name_en": "Kanhiravally",
+      "ward_name_ml": "കാഞ്ഞിരവളളി"
+    },
+    {
+      "ward_id": "2022ce50-1d70-4c17-a5bf-be6c5228f280",
+      "ward_no": "10",
+      "ward_name_en": "Muthuvally",
+      "ward_name_ml": "മുതുവല്ലി"
+    },
+    {
+      "ward_id": "57519a9f-faff-45dc-bea0-c4ab35bd64fb",
+      "ward_no": "11",
+      "ward_name_en": "Parasseri",
+      "ward_name_ml": "പറശ്ശേരി"
+    },
+    {
+      "ward_id": "30a29433-446b-4bb0-b52e-e4c29fc5ad81",
+      "ward_no": "12",
+      "ward_name_en": "Manaladi",
+      "ward_name_ml": "മണലടി"
+    },
+    {
+      "ward_id": "c36a8c8f-4116-4f10-928e-ccb42ebe891e",
+      "ward_no": "13",
+      "ward_name_en": "Vellaramkunnu",
+      "ward_name_ml": "വെളളാരംകുന്ന്"
+    },
+    {
+      "ward_id": "06f4ede8-b228-4ac6-9a4f-a0d4d791f51c",
+      "ward_no": "14",
+      "ward_name_en": "Punchakode",
+      "ward_name_ml": "പുഞ്ചക്കോട്"
+    },
+    {
+      "ward_id": "62d1a292-3b3b-4ac1-8ed8-6c267c8b7ec8",
+      "ward_no": "15",
+      "ward_name_en": "Mundakkanni",
+      "ward_name_ml": "മുണ്ടക്കണ്ണി"
+    },
+    {
+      "ward_id": "66c13e27-c591-49f5-abc9-e36e01373cc0",
+      "ward_no": "16",
+      "ward_name_en": "Cherumkulam",
+      "ward_name_ml": "ചേറുംകുളം"
+    },
+    {
+      "ward_id": "115fdc60-28c3-4fc9-a54e-8c9e2b320894",
+      "ward_no": "17",
+      "ward_name_en": "Kaithachira",
+      "ward_name_ml": "കൈതച്ചിറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090509.geojson"
+  }
+}

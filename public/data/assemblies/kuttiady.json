@@ -1,0 +1,66 @@
+{
+  "assembly_id": "21",
+  "assembly_name_en": "Kuttiady",
+  "assembly_name_ml": "കുറ്റ്യാടി",
+  "category": "Normal",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G110401",
+      "local_body_name_en": "Ayancheri",
+      "local_body_name_ml": "ആയഞ്ചരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110301",
+      "local_body_name_en": "Kunnummal",
+      "local_body_name_ml": "കുന്നുമ്മല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110304",
+      "local_body_name_en": "Kuttiadi",
+      "local_body_name_ml": "കുറ്റ്യാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G110403",
+      "local_body_name_en": "Maniyur",
+      "local_body_name_ml": "മണിയൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G110203",
+      "local_body_name_en": "Purameri",
+      "local_body_name_ml": "പുറമേരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G110404",
+      "local_body_name_en": "Thiruvallur",
+      "local_body_name_ml": "തിരുവള്ളൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G110402",
+      "local_body_name_en": "Villiappally",
+      "local_body_name_ml": "വില്യാപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G110306",
+      "local_body_name_en": "Velom",
+      "local_body_name_ml": "വേളം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kuttiady.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kuttiady.geojson"
+  }
+}

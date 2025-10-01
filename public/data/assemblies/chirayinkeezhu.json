@@ -1,0 +1,66 @@
+{
+  "assembly_id": "129",
+  "assembly_name_en": "Chirayinkeezhu",
+  "assembly_name_ml": "ചിറയിൻകീഴ്",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G010705",
+      "local_body_name_en": "Azhoor",
+      "local_body_name_ml": "അഴൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010303",
+      "local_body_name_en": "Chirayinkeezhu",
+      "local_body_name_ml": "ചിറയിന്‍കീഴ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010306",
+      "local_body_name_en": "Kadakkavoor",
+      "local_body_name_ml": "കടയ്ക്കാവൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010702",
+      "local_body_name_en": "Kadinamkulam",
+      "local_body_name_ml": "കഠിനംകുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010304",
+      "local_body_name_en": "Kizhuvilam",
+      "local_body_name_ml": "കിഴുവിലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010703",
+      "local_body_name_en": "Mangalapuram",
+      "local_body_name_ml": "മംഗലപുരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010305",
+      "local_body_name_en": "Mudakkal",
+      "local_body_name_ml": "മുദാക്കല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010301",
+      "local_body_name_en": "Anchuthengu",
+      "local_body_name_ml": "അഞ്ചുതെങ്ങ്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/chirayinkeezhu.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/chirayinkeezhu.geojson"
+  }
+}

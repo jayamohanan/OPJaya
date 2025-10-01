@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G090901",
+  "local_body_name_en": "Eruthenpathy",
+  "local_body_name_ml": "എരുത്തേമ്പതി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "58",
+    "assembly_name_en": "Chittur",
+    "assembly_name_ml": "ചിറ്റൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "e79587fa-7932-45c7-980d-4ac3fb3b94a1",
+      "ward_no": "1",
+      "ward_name_en": "Eruthenpathy",
+      "ward_name_ml": "എരുത്തേമ്പതി"
+    },
+    {
+      "ward_id": "d8d4c980-1ad1-4eca-b28a-8d7fffc7f15e",
+      "ward_no": "2",
+      "ward_name_en": "Ayyammarkalai",
+      "ward_name_ml": "അയ്യമ്മാര്‍കാലായ്"
+    },
+    {
+      "ward_id": "01610dc9-f438-408d-b66f-2074043fa058",
+      "ward_no": "3",
+      "ward_name_en": "Villoonni",
+      "ward_name_ml": "വില്ലൂന്നി"
+    },
+    {
+      "ward_id": "64eba67b-9749-416e-98ab-54a73591d540",
+      "ward_no": "4",
+      "ward_name_en": "Mangappallam",
+      "ward_name_ml": "മാങ്കാപ്പള്ളം"
+    },
+    {
+      "ward_id": "c8a6fc56-c526-4f5f-8c5d-83143e4407e6",
+      "ward_no": "5",
+      "ward_name_en": "Naduppuni",
+      "ward_name_ml": "നടുപ്പുണി"
+    },
+    {
+      "ward_id": "8e460443-7f0d-45e2-ae77-7e4a7fbb0690",
+      "ward_no": "6",
+      "ward_name_en": "Karumandakoundanoor",
+      "ward_name_ml": "കരുമാണ്ടകൌണ്ടനൂര്‍"
+    },
+    {
+      "ward_id": "98e33d6e-373c-4abd-8952-62510993c296",
+      "ward_no": "7",
+      "ward_name_en": "Moongilmada",
+      "ward_name_ml": "മൂങ്കില്‍മട"
+    },
+    {
+      "ward_id": "500db3a2-069e-4df3-b553-8d1dc4fb71d0",
+      "ward_no": "8",
+      "ward_name_en": "Kumaranoor",
+      "ward_name_ml": "കുമാരനൂര്‍"
+    },
+    {
+      "ward_id": "a5340a18-e089-46da-9186-c45634286f22",
+      "ward_no": "9",
+      "ward_name_en": "Sanjay Nagar",
+      "ward_name_ml": "സഞ്ചയ്നഗര്‍"
+    },
+    {
+      "ward_id": "10a64325-fa7b-4c4f-b146-55a0467932dc",
+      "ward_no": "10",
+      "ward_name_en": "Vannamada",
+      "ward_name_ml": "വണ്ണാമട"
+    },
+    {
+      "ward_id": "74598860-931a-458f-ad64-5a697a18aae1",
+      "ward_no": "11",
+      "ward_name_en": "Malayandikoundanoor",
+      "ward_name_ml": "മലയാണ്ടികൌണ്ടനൂര്‍"
+    },
+    {
+      "ward_id": "50b3d9b4-1344-45db-9278-6dfea88902b7",
+      "ward_no": "12",
+      "ward_name_en": "Kulappura",
+      "ward_name_ml": "കുളപ്പുര"
+    },
+    {
+      "ward_id": "884aebeb-e189-4f90-9d23-3c889e9be335",
+      "ward_no": "13",
+      "ward_name_en": "Rvp.Pudur",
+      "ward_name_ml": "ആര്‍.വി.പി.പുതൂര്‍"
+    },
+    {
+      "ward_id": "86312dc3-516d-441a-b316-0f70c08d209c",
+      "ward_no": "14",
+      "ward_name_en": "Pidarimedu",
+      "ward_name_ml": "പിടാരിമേട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090901.geojson"
+  }
+}

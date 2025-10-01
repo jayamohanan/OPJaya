@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040703",
+  "local_body_name_en": "Neelamperoor",
+  "local_body_name_ml": "നീലംപേരൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5168b8e0-18cc-4e1c-afda-e7b727ac896c",
+      "ward_no": "1",
+      "ward_name_en": "Pullayam",
+      "ward_name_ml": "പുല്ലായം"
+    },
+    {
+      "ward_id": "392128aa-378c-4cad-a082-ad03214a439d",
+      "ward_no": "2",
+      "ward_name_en": "Neelamperoor North",
+      "ward_name_ml": "നീലംപേരൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "e43fc8e9-f79f-454c-b33c-f1461e55dc0b",
+      "ward_no": "3",
+      "ward_name_en": "Neelamperoor South",
+      "ward_name_ml": "നീലംപേരൂര്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "0aef3e82-52d6-4904-b8ec-f1eee68b6276",
+      "ward_no": "4",
+      "ward_name_en": "Eara North",
+      "ward_name_ml": "ഈര നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "6ab2c769-2c77-492e-b06e-e013ee950056",
+      "ward_no": "5",
+      "ward_name_en": "Chakkachampakka",
+      "ward_name_ml": "ചക്കച്ചംപാക്ക"
+    },
+    {
+      "ward_id": "5336f4a3-9b34-42b2-b9d0-eaea3659fc3d",
+      "ward_no": "6",
+      "ward_name_en": "Eara South",
+      "ward_name_ml": "ഈര സൌത്ത്"
+    },
+    {
+      "ward_id": "65f31549-46bb-43db-87c8-269316b29114",
+      "ward_no": "7",
+      "ward_name_en": "Payattupakka",
+      "ward_name_ml": "പയറ്റുപാക്ക"
+    },
+    {
+      "ward_id": "5c547704-951f-403e-9cc2-298014d752ba",
+      "ward_no": "8",
+      "ward_name_en": "Valady",
+      "ward_name_ml": "വാലടി"
+    },
+    {
+      "ward_id": "b030e398-19f5-44c7-ace4-3d4da40ca67b",
+      "ward_no": "9",
+      "ward_name_en": "Narakathara",
+      "ward_name_ml": "നാരകത്തറ"
+    },
+    {
+      "ward_id": "30f50fb3-594b-42b5-9187-d2f29f6fc670",
+      "ward_no": "10",
+      "ward_name_en": "East Chennamkaru",
+      "ward_name_ml": "ഈസ്റ്റ് ചേന്നംങ്കരി"
+    },
+    {
+      "ward_id": "45f19493-f845-4581-a2ea-504921839283",
+      "ward_no": "11",
+      "ward_name_en": "Cherukara East",
+      "ward_name_ml": "ചെറുകര ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "b95719b2-dcee-4174-af35-eeab5bb9d2a2",
+      "ward_no": "12",
+      "ward_name_en": "Cherukara West",
+      "ward_name_ml": "ചെറുകര വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "85c71471-3540-4bf8-9ef0-0480d2970218",
+      "ward_no": "13",
+      "ward_name_en": "Kainady",
+      "ward_name_ml": "കൈനടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040703.geojson"
+  }
+}

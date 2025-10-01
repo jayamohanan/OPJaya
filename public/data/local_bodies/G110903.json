@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G110903",
+  "local_body_name_en": "Kakkur",
+  "local_body_name_ml": "കാക്കൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "26",
+    "assembly_name_en": "Elathur",
+    "assembly_name_ml": "ഏലത്തൂർ",
+    "category": "Good"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6abe87a2-34bd-400f-94c3-995afd80ec3a",
+      "ward_no": "1",
+      "ward_name_en": "Naduvallur",
+      "ward_name_ml": "നടുവല്ലൂര്‍"
+    },
+    {
+      "ward_id": "179c7430-0892-4f40-8c20-95055dab9ae7",
+      "ward_no": "2",
+      "ward_name_en": "Theerthankara",
+      "ward_name_ml": "തീര്‍ത്ഥങ്കര"
+    },
+    {
+      "ward_id": "fa98c745-438d-43ae-a3de-d41e5e40ff42",
+      "ward_no": "3",
+      "ward_name_en": "Ramallur",
+      "ward_name_ml": "രാമല്ലൂര്‍"
+    },
+    {
+      "ward_id": "7d372e1b-64a8-42d6-b741-05da4cd3cd4c",
+      "ward_no": "4",
+      "ward_name_en": "Arolipoyil",
+      "ward_name_ml": "ആറോളിപൊയില്‍"
+    },
+    {
+      "ward_id": "ad54aa87-7fd6-4ff4-b010-75218015c701",
+      "ward_no": "5",
+      "ward_name_en": "Kayalad",
+      "ward_name_ml": "കായലാട്"
+    },
+    {
+      "ward_id": "5e317f5e-a93e-48ed-9417-66b967dd8698",
+      "ward_no": "6",
+      "ward_name_en": "Kuttamboor",
+      "ward_name_ml": "കുട്ടമ്പൂര്‍"
+    },
+    {
+      "ward_id": "a22ba3ac-ae79-4337-8dc4-79ca6ec4e42e",
+      "ward_no": "7",
+      "ward_name_en": "Kakkunnam Chalil",
+      "ward_name_ml": "കക്കുന്നംചാലില്‍"
+    },
+    {
+      "ward_id": "4a54ac0c-52b4-419d-8bf1-ecdf54c0f49f",
+      "ward_no": "8",
+      "ward_name_en": "Punnasseri",
+      "ward_name_ml": "പുന്നശ്ശേരി"
+    },
+    {
+      "ward_id": "f64b6339-6e51-4392-8c5b-65d929950a4d",
+      "ward_no": "9",
+      "ward_name_en": "Kandothpara",
+      "ward_name_ml": "കണ്ടോത്ത് പാറ"
+    },
+    {
+      "ward_id": "3f097456-e96a-4ab2-8457-ffc72c989c11",
+      "ward_no": "10",
+      "ward_name_en": "Punnur Cherupalam",
+      "ward_name_ml": "പുന്നൂര്‍ ചെറുപാലം"
+    },
+    {
+      "ward_id": "e7180b65-9985-4978-82ad-3be9a40ccbf0",
+      "ward_no": "11",
+      "ward_name_en": "Alayad",
+      "ward_name_ml": "ആലയാട്"
+    },
+    {
+      "ward_id": "06750741-a9ac-452b-8f16-3832987cd502",
+      "ward_no": "12",
+      "ward_name_en": "Kakkur",
+      "ward_name_ml": "കാക്കൂര്‍"
+    },
+    {
+      "ward_id": "8014e0d6-7e43-49c4-bc85-093d41e82433",
+      "ward_no": "13",
+      "ward_name_en": "Nellikkunnu",
+      "ward_name_ml": "നെല്ലിക്കുന്ന്"
+    },
+    {
+      "ward_id": "251474a8-9362-4b61-9678-ac4697dde54c",
+      "ward_no": "14",
+      "ward_name_en": "Enthad",
+      "ward_name_ml": "ഈന്താട്"
+    },
+    {
+      "ward_id": "b0ac4f73-2b3b-4436-a17f-6fb83fa78407",
+      "ward_no": "15",
+      "ward_name_en": "Pavandoor",
+      "ward_name_ml": "പാവണ്ടൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110903.geojson"
+  }
+}

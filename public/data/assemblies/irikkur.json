@@ -1,0 +1,72 @@
+{
+  "assembly_id": "9",
+  "assembly_name_en": "Irikkur",
+  "assembly_name_ml": "ഇരിക്കൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G130302",
+      "local_body_name_en": "Chengalayi",
+      "local_body_name_ml": "ചെങ്ങളായി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130401",
+      "local_body_name_en": "Eruvessy",
+      "local_body_name_ml": "എരുവേശ്ശി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130402",
+      "local_body_name_en": "Irikkur",
+      "local_body_name_ml": "ഇരിക്കൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130306",
+      "local_body_name_en": "Naduvil",
+      "local_body_name_ml": "നടുവില്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130404",
+      "local_body_name_en": "Payyavoor",
+      "local_body_name_ml": "പയ്യാവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M130600",
+      "local_body_name_en": "Sreekandapuram",
+      "local_body_name_ml": "ശ്രീകണ്ഠാപുരം",
+      "category": ""
+    },
+    {
+      "local_body_id": "G130307",
+      "local_body_name_en": "Udayagiri",
+      "local_body_name_ml": "ഉദയഗിരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130409",
+      "local_body_name_en": "Ulikkal",
+      "local_body_name_ml": "ഉളിക്കല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130308",
+      "local_body_name_en": "Alakode",
+      "local_body_name_ml": "ആലക്കോട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/irikkur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/irikkur.geojson"
+  }
+}

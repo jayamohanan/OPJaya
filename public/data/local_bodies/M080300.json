@@ -1,0 +1,295 @@
+{
+  "local_body_id": "M080300",
+  "local_body_name_en": "Kodungallur",
+  "local_body_name_ml": "കൊടുങ്ങല്ലൂര്‍",
+  "local_body_type_en": "Municipality",
+  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "73",
+    "assembly_name_en": "Kodungallur",
+    "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "8571ec5a-c658-455d-b517-b9b95ce31c1b",
+      "ward_no": "1",
+      "ward_name_en": "Parappully",
+      "ward_name_ml": "പറപ്പുള്ളി"
+    },
+    {
+      "ward_id": "c46758b5-a17f-4254-bf06-c0e5957dacb6",
+      "ward_no": "2",
+      "ward_name_en": "Kaniyath",
+      "ward_name_ml": "കണിയത്ത്"
+    },
+    {
+      "ward_id": "f0f0252b-2dad-409e-97a4-8a04c4d5538b",
+      "ward_no": "3",
+      "ward_name_en": "J T S",
+      "ward_name_ml": "ജെ ടി എസ്"
+    },
+    {
+      "ward_id": "e7b8ed2c-4ab8-45bf-8358-6558aef9c1b6",
+      "ward_no": "4",
+      "ward_name_en": "Temple",
+      "ward_name_ml": "ടെമ്പിള്‍"
+    },
+    {
+      "ward_id": "511fbd23-28f2-4742-9f7b-bcd9cb0cdaca",
+      "ward_no": "5",
+      "ward_name_en": "Townhall",
+      "ward_name_ml": "ടൌണ്‍ഹാള്‍"
+    },
+    {
+      "ward_id": "50e510e1-3938-440d-a15d-d0405a152482",
+      "ward_no": "6",
+      "ward_name_en": "Society",
+      "ward_name_ml": "സൊസൈറ്റി"
+    },
+    {
+      "ward_id": "45339726-e6dc-4a15-bcab-648da0508278",
+      "ward_no": "7",
+      "ward_name_en": "Vayalar",
+      "ward_name_ml": "വയലാര്‍"
+    },
+    {
+      "ward_id": "b54f680f-d9dc-411e-abd9-35e0292a33a4",
+      "ward_no": "8",
+      "ward_name_en": "Thyveppu",
+      "ward_name_ml": "തൈവെപ്പ്"
+    },
+    {
+      "ward_id": "806e3469-00f3-4dc9-9f65-bfa158f2e4c9",
+      "ward_no": "9",
+      "ward_name_en": "Viyyathukulam",
+      "ward_name_ml": "വിയ്യത്ത് കുളം"
+    },
+    {
+      "ward_id": "f4cfc15d-028a-4f33-b967-11612e36708a",
+      "ward_no": "10",
+      "ward_name_en": "Kanakkankadavu",
+      "ward_name_ml": "കണക്കന്‍ കടവ്"
+    },
+    {
+      "ward_id": "67d1028f-06ee-4d19-bc6d-7c8dab7f1b3d",
+      "ward_no": "11",
+      "ward_name_en": "Narayanamangalam",
+      "ward_name_ml": "നാരായനമംഗലം"
+    },
+    {
+      "ward_id": "b8d84201-bbf4-4840-991a-e3919a0d4c5c",
+      "ward_no": "12",
+      "ward_name_en": "Nayakulam",
+      "ward_name_ml": "നായ്കുളം"
+    },
+    {
+      "ward_id": "ce30ccde-adf2-4e80-ac0a-6f071ca8efd7",
+      "ward_no": "13",
+      "ward_name_en": "K K T M",
+      "ward_name_ml": "കെ കെ ടി എം"
+    },
+    {
+      "ward_id": "e5b7a5ce-ba20-4f0b-94f8-256036d8417b",
+      "ward_no": "14",
+      "ward_name_en": "Chappara",
+      "ward_name_ml": "ചാപ്പാറ"
+    },
+    {
+      "ward_id": "342c50a3-6310-4efd-928c-4e6d96fd6f3e",
+      "ward_no": "15",
+      "ward_name_en": "Pandeerampala",
+      "ward_name_ml": "പന്തീരാംപാല"
+    },
+    {
+      "ward_id": "a79764bf-4834-4f3a-aa10-5138e5fd9e53",
+      "ward_no": "16",
+      "ward_name_en": "Powerhouse",
+      "ward_name_ml": "പവര്‍ ഹൌസ്"
+    },
+    {
+      "ward_id": "2f68b416-091c-4a6f-b938-b4849cd8d774",
+      "ward_no": "17",
+      "ward_name_en": "Park",
+      "ward_name_ml": "പാര്‍ക്ക്"
+    },
+    {
+      "ward_id": "98c35417-f4fe-47f2-ad03-2dc93646e004",
+      "ward_no": "18",
+      "ward_name_en": "Nalukandam",
+      "ward_name_ml": "നാലുകണ്ടം"
+    },
+    {
+      "ward_id": "1ce6c8ce-1aa4-411d-85bd-b8c604ede03f",
+      "ward_no": "19",
+      "ward_name_en": "Elthuruthu",
+      "ward_name_ml": "എല്‍തുരുത്ത്"
+    },
+    {
+      "ward_id": "3fa5f795-3dca-4e36-8d0a-84179fcc1d10",
+      "ward_no": "20",
+      "ward_name_en": "Paliyamthuruthu",
+      "ward_name_ml": "പാലിയംതുരുത്ത്"
+    },
+    {
+      "ward_id": "cd087685-7239-48e1-9ae4-3b790d8ddf40",
+      "ward_no": "21",
+      "ward_name_en": "Thiruvanchikulam",
+      "ward_name_ml": "തിരുവഞ്ചിക്കുളം"
+    },
+    {
+      "ward_id": "a573837e-198a-4839-9f5e-f08e26f35308",
+      "ward_no": "22",
+      "ward_name_en": "Kakkamadanthuruthu",
+      "ward_name_ml": "കക്കമാടന്‍തുരുത്ത്"
+    },
+    {
+      "ward_id": "29159ddc-9a2d-408b-b946-d139887b926c",
+      "ward_no": "23",
+      "ward_name_en": "Kotta",
+      "ward_name_ml": "കോട്ട"
+    },
+    {
+      "ward_id": "6a5afdd5-3c59-4bee-a7e9-431e7dd5b63c",
+      "ward_no": "24",
+      "ward_name_en": "Anapuzha",
+      "ward_name_ml": "ആനാപുഴ"
+    },
+    {
+      "ward_id": "52fb0d2b-9b39-4e60-a317-3004aa74ef72",
+      "ward_no": "25",
+      "ward_name_en": "Kottappuram",
+      "ward_name_ml": "കോട്ടപ്പുറം"
+    },
+    {
+      "ward_id": "964c8d2c-435c-427b-92b2-4791d4291bae",
+      "ward_no": "26",
+      "ward_name_en": "Valiyapanikkanthuruthu",
+      "ward_name_ml": "വലിയപനിക്കന്‍തുരുത്ത്"
+    },
+    {
+      "ward_id": "7df9e4d0-24f4-4b51-aacb-c7df039d7c00",
+      "ward_no": "27",
+      "ward_name_en": "Chalakulam",
+      "ward_name_ml": "ചാലക്കുളം"
+    },
+    {
+      "ward_id": "ddc6bf67-88a3-4b71-986a-17bd2a1559ca",
+      "ward_no": "28",
+      "ward_name_en": "Kunnamkulam",
+      "ward_name_ml": "കുന്ദംകുളം"
+    },
+    {
+      "ward_id": "d70e81a6-4849-4cd6-a2b0-7deb92941a54",
+      "ward_no": "29",
+      "ward_name_en": "Kandankulam",
+      "ward_name_ml": "കണ്ടംകുളം"
+    },
+    {
+      "ward_id": "5de7b3c3-2a4a-4f88-9120-f64e25f30adb",
+      "ward_no": "30",
+      "ward_name_en": "Padanna",
+      "ward_name_ml": "പടന്ന"
+    },
+    {
+      "ward_id": "c625a1b7-009e-4b18-b831-5f1f99121fcc",
+      "ward_no": "31",
+      "ward_name_en": "Methalapadam",
+      "ward_name_ml": "മേത്തലപാടം"
+    },
+    {
+      "ward_id": "806e2cd5-051a-43f1-b120-15c49f3b3e15",
+      "ward_no": "32",
+      "ward_name_en": "Anchapalam",
+      "ward_name_ml": "അഞ്ജപാലം"
+    },
+    {
+      "ward_id": "3b974120-d61a-4533-ba24-07587a7f2324",
+      "ward_no": "33",
+      "ward_name_en": "Kadukkachuvadu",
+      "ward_name_ml": "കടുക്കച്ചുവട്"
+    },
+    {
+      "ward_id": "034fb332-b778-4e4b-83f9-7efee3e10c98",
+      "ward_no": "34",
+      "ward_name_en": "Sreenagar",
+      "ward_name_ml": "ശ്രീനഗര്‍"
+    },
+    {
+      "ward_id": "93bb72e0-efb8-4470-8a46-7c6393454ea5",
+      "ward_no": "35",
+      "ward_name_en": "T K S Puram",
+      "ward_name_ml": "ടി കെ എസ് പുരം"
+    },
+    {
+      "ward_id": "aeddfcf8-4ac8-4760-982e-7b58f495627d",
+      "ward_no": "36",
+      "ward_name_en": "Perumthodu",
+      "ward_name_ml": "പെരുംതോട്"
+    },
+    {
+      "ward_id": "2ded3700-aef4-453b-9e8a-a9629b237786",
+      "ward_no": "37",
+      "ward_name_en": "Parambikulam",
+      "ward_name_ml": "പറമ്പികുളം"
+    },
+    {
+      "ward_id": "7f89793d-1a2c-4825-8d40-b709f20270c6",
+      "ward_no": "38",
+      "ward_name_en": "Keralewarapuram",
+      "ward_name_ml": "കേരളെശ്വരപുരം"
+    },
+    {
+      "ward_id": "01c108c0-8059-4b03-b9c2-ff11fad0fef6",
+      "ward_no": "39",
+      "ward_name_en": "Katholiparambu",
+      "ward_name_ml": "കതോളിപറമ്പ്"
+    },
+    {
+      "ward_id": "6eacb9d4-0d4b-450c-81cf-c488a09b7ce9",
+      "ward_no": "40",
+      "ward_name_en": "Padakulam",
+      "ward_name_ml": "പടാകുളം"
+    },
+    {
+      "ward_id": "e66d9984-b12e-48a4-831a-15a377a447a6",
+      "ward_no": "41",
+      "ward_name_en": "Cheraman Masjid",
+      "ward_name_ml": "ചേരമാന്‍ മസ്ജിദ്"
+    },
+    {
+      "ward_id": "64b6dfe8-0280-4eed-b45d-f3dfbc29121c",
+      "ward_no": "42",
+      "ward_name_en": "Karur",
+      "ward_name_ml": "കാരൂര്‍"
+    },
+    {
+      "ward_id": "6a92e6a1-45fe-410f-a157-8c24e02aa6d5",
+      "ward_no": "43",
+      "ward_name_en": "Ayikkaraparambu",
+      "ward_name_ml": "ഐക്കരപറമ്പ്"
+    },
+    {
+      "ward_id": "86c45b8d-2085-4fcf-bfab-96d717c856e6",
+      "ward_no": "44",
+      "ward_name_en": "Okay",
+      "ward_name_ml": "ഓകെ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/M080300.geojson"
+  }
+}

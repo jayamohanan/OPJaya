@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030604",
+  "local_body_name_en": "Mylapra",
+  "local_body_name_ml": "മൈലപ്രാ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "114",
+    "assembly_name_en": "Konni",
+    "assembly_name_ml": "കോന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "16c2cb55-b1f8-494c-a8ff-590b0a3c0249",
+      "ward_no": "1",
+      "ward_name_en": "Pezhumkadu",
+      "ward_name_ml": "പേഴുംകാട്"
+    },
+    {
+      "ward_id": "d8d6fe2b-7088-48d1-9591-a0de5e0a3ab5",
+      "ward_no": "2",
+      "ward_name_en": "Mekkozhoor",
+      "ward_name_ml": "മേക്കൊഴൂര്‍"
+    },
+    {
+      "ward_id": "6038e41d-3a5b-4c62-95fa-a19caf3044e6",
+      "ward_no": "3",
+      "ward_name_en": "Kottamala",
+      "ward_name_ml": "കോട്ടമല"
+    },
+    {
+      "ward_id": "752284a9-ce9d-456a-9848-c12c5596e79f",
+      "ward_no": "4",
+      "ward_name_en": "Mannarakulanji",
+      "ward_name_ml": "മണ്ണാറക്കുളഞ്ഞി"
+    },
+    {
+      "ward_id": "7719efb9-f980-4774-bcc1-23e2f45fd93f",
+      "ward_no": "5",
+      "ward_name_en": "Panchayat Ward",
+      "ward_name_ml": "പഞ്ചായത്ത് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "86ca12f1-012b-459b-bafe-0669eb7027d2",
+      "ward_no": "6",
+      "ward_name_en": "Kattadi Valiyathara",
+      "ward_name_ml": "കാറ്റാടി വലിയതറ"
+    },
+    {
+      "ward_id": "d841de42-16e2-427d-9cbf-bca9b96c0794",
+      "ward_no": "7",
+      "ward_name_en": "Mylapra Central",
+      "ward_name_ml": "മൈലപ്ര സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "91c38778-5e80-4812-b7a6-14963ce2900e",
+      "ward_no": "8",
+      "ward_name_en": "I.T.C  Ward",
+      "ward_name_ml": "ഐ.റ്റി.സി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "473ae35b-0ebb-459a-9cf7-c6e581ae6072",
+      "ward_no": "9",
+      "ward_name_en": "Shanthinagar",
+      "ward_name_ml": "ശാന്തിനഗര്‍"
+    },
+    {
+      "ward_id": "57a17ad1-3cf0-47aa-b2d8-0293118ea783",
+      "ward_no": "10",
+      "ward_name_en": "Kakkamthundu",
+      "ward_name_ml": "കാക്കാംതുണ്ട്"
+    },
+    {
+      "ward_id": "d59f3324-44c4-4a64-80e6-3902ae3802c8",
+      "ward_no": "11",
+      "ward_name_en": "Edakkara",
+      "ward_name_ml": "ഇടക്കര"
+    },
+    {
+      "ward_id": "e7013c56-9782-4e55-adfc-300bb6b2aa8f",
+      "ward_no": "12",
+      "ward_name_en": "P.H.C Subcentre Ward",
+      "ward_name_ml": "പി.എച്ച്.സി സബ് സെന്‍റര്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "7331958f-f953-443d-b048-3d928db59012",
+      "ward_no": "13",
+      "ward_name_en": "Mullankallu",
+      "ward_name_ml": "മുളളന്‍കല്ല്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030604.geojson"
+  }
+}

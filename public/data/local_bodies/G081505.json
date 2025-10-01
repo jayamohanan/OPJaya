@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G081505",
+  "local_body_name_en": "Poyya",
+  "local_body_name_ml": "പൊയ്യ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "73",
+    "assembly_name_en": "Kodungallur",
+    "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b5f1ef37-097c-4274-9648-f7aa3234c380",
+      "ward_no": "1",
+      "ward_name_en": "Chenthuruthy",
+      "ward_name_ml": "ചെന്തുരുത്തി"
+    },
+    {
+      "ward_id": "23eedae2-0f26-48b8-8a63-7b763c9d2fd3",
+      "ward_no": "2",
+      "ward_name_en": "Malapallippuram North",
+      "ward_name_ml": "മാളപള്ളിപ്പുറം വടക്ക്"
+    },
+    {
+      "ward_id": "12c8998d-01fa-4315-b217-10b671d34476",
+      "ward_no": "3",
+      "ward_name_en": "Vattakkotta",
+      "ward_name_ml": "വട്ടക്കോട്ട"
+    },
+    {
+      "ward_id": "135d4a09-ceb0-4f4b-8f82-216e0d54fbd3",
+      "ward_no": "4",
+      "ward_name_en": "Malapallippuram South",
+      "ward_name_ml": "മാളപള്ളിപ്പുറം തെക്ക്"
+    },
+    {
+      "ward_id": "111ecf5f-c087-4eaa-bb8c-1d1db3ded068",
+      "ward_no": "5",
+      "ward_name_en": "Pooppathy North",
+      "ward_name_ml": "പൂപ്പത്തി വടക്ക്"
+    },
+    {
+      "ward_id": "7084e107-4d11-4754-921d-1ca18f83acb0",
+      "ward_no": "6",
+      "ward_name_en": "Pooppathy East",
+      "ward_name_ml": "പൂപ്പത്തി കിഴക്ക്"
+    },
+    {
+      "ward_id": "793fbbf8-c897-48dd-8e74-22bb961872cc",
+      "ward_no": "7",
+      "ward_name_en": "Pooppathy South",
+      "ward_name_ml": "പൂപ്പത്തി തെക്ക്"
+    },
+    {
+      "ward_id": "42e139b0-b520-4209-b922-c0e96c242452",
+      "ward_no": "8",
+      "ward_name_en": "Madathumpady",
+      "ward_name_ml": "മടത്തുംപടി"
+    },
+    {
+      "ward_id": "246af72f-b243-4e28-80dd-67a1c71dc1b9",
+      "ward_no": "9",
+      "ward_name_en": "Manalikkad",
+      "ward_name_ml": "മണലിക്കാട്"
+    },
+    {
+      "ward_id": "4e4b8793-b85b-44cc-89f7-1a6fdf2a54cf",
+      "ward_no": "10",
+      "ward_name_en": "Erattappady",
+      "ward_name_ml": "എരട്ടപ്പടി"
+    },
+    {
+      "ward_id": "9529ec20-fcee-4c20-9bb6-a3ced91ddadc",
+      "ward_no": "11",
+      "ward_name_en": "Pulipparambu",
+      "ward_name_ml": "പുളിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "6f6df22d-b501-44fa-968f-8c4ca45a315a",
+      "ward_no": "12",
+      "ward_name_en": "Poyya",
+      "ward_name_ml": "പൊയ്യ"
+    },
+    {
+      "ward_id": "84a7762e-96ff-4c5b-9e36-e2d2e5e36b9c",
+      "ward_no": "13",
+      "ward_name_en": "Poyya Naluvazhy",
+      "ward_name_ml": "പൊയ്യ നാലുവഴി"
+    },
+    {
+      "ward_id": "62c6e515-5646-4a6b-bf45-16b0b61e95ec",
+      "ward_no": "14",
+      "ward_name_en": "Krishnankotta",
+      "ward_name_ml": "കൃഷ്ണന്‍കോട്ട"
+    },
+    {
+      "ward_id": "26a439a7-112e-4e4b-9496-c674e86255a1",
+      "ward_no": "15",
+      "ward_name_en": "Athikkadavu",
+      "ward_name_ml": "അത്തിക്കടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081505.geojson"
+  }
+}

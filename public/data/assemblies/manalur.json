@@ -1,0 +1,72 @@
+{
+  "assembly_id": "64",
+  "assembly_name_en": "Manalur",
+  "assembly_name_ml": "മണലൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G080905",
+      "local_body_name_en": "Arimpur",
+      "local_body_name_ml": "അരിമ്പൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080201",
+      "local_body_name_en": "Choondal",
+      "local_body_name_ml": "ചൂണ്ടല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080701",
+      "local_body_name_en": "Elavally",
+      "local_body_name_ml": "എളവള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080204",
+      "local_body_name_en": "Kandanassery",
+      "local_body_name_ml": "കണ്ടാണശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G080904",
+      "local_body_name_en": "Manalur",
+      "local_body_name_ml": "മണലൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080702",
+      "local_body_name_en": "Mullassery",
+      "local_body_name_ml": "മുല്ലശ്ശേരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080703",
+      "local_body_name_en": "Pavaratty",
+      "local_body_name_ml": "പാവറട്ടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080802",
+      "local_body_name_en": "Vatanapally",
+      "local_body_name_ml": "വാടാനപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080704",
+      "local_body_name_en": "Venkitangu",
+      "local_body_name_ml": "വെങ്കിടങ്ങ്",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/manalur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/manalur.geojson"
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "district_id": "2",
+  "district_name_en": "Kollam",
+  "district_name_ml": "കൊല്ലം",
+  "is_active": false,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "116",
+      "assembly_name_en": "Karunagapally",
+      "assembly_name_ml": "കരുനാഗപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "117",
+      "assembly_name_en": "Chavara",
+      "assembly_name_ml": "ചവറ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "118",
+      "assembly_name_en": "Kunnathur",
+      "assembly_name_ml": "കുന്നത്തൂർ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "119",
+      "assembly_name_en": "Kottarakkara",
+      "assembly_name_ml": "കൊട്ടാരക്കര",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "120",
+      "assembly_name_en": "Pathanapuram",
+      "assembly_name_ml": "പത്തനാപുരം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "121",
+      "assembly_name_en": "Punalur",
+      "assembly_name_ml": "പുനലൂർ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "122",
+      "assembly_name_en": "Chadayamangalam",
+      "assembly_name_ml": "ചടയമംഗലം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "123",
+      "assembly_name_en": "Kundara",
+      "assembly_name_ml": "കുണ്ടറ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "124",
+      "assembly_name_en": "Kollam",
+      "assembly_name_ml": "കൊല്ലം",
+      "category": "Perfect"
+    },
+    {
+      "assembly_id": "125",
+      "assembly_name_en": "Eravipuram",
+      "assembly_name_ml": "ഇരവിപുരം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "126",
+      "assembly_name_en": "Chathannoor",
+      "assembly_name_ml": "ചാത്തന്നൂർ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/kollam.geojson",
+    "assemblies": "geojson/districts/with-assemblies/kollam.geojson"
+  }
+}

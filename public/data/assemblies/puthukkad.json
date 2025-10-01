@@ -1,0 +1,66 @@
+{
+  "assembly_id": "71",
+  "assembly_name_en": "Puthukkad",
+  "assembly_name_ml": "പുതുക്കാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G081103",
+      "local_body_name_en": "Mattathur",
+      "local_body_name_ml": "മറ്റത്തൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081104",
+      "local_body_name_en": "Nenmanikkara",
+      "local_body_name_ml": "നെന്‍മണിക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081204",
+      "local_body_name_en": "Parappukkara",
+      "local_body_name_ml": "പറപ്പൂക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081105",
+      "local_body_name_en": "Pudukad",
+      "local_body_name_ml": "പുതുക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G081106",
+      "local_body_name_en": "Thrikkur",
+      "local_body_name_ml": "തൃക്കൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G081004",
+      "local_body_name_en": "Vallachira",
+      "local_body_name_ml": "വല്ലച്ചിറ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081107",
+      "local_body_name_en": "Varandarappilly",
+      "local_body_name_ml": "വരന്തരപ്പിള്ളി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081101",
+      "local_body_name_en": "Alagappanagar",
+      "local_body_name_ml": "അളഗപ്പനഗര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/puthukkad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/puthukkad.geojson"
+  }
+}

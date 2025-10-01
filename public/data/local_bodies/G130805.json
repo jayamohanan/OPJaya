@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G130805",
+  "local_body_name_en": "Mokeri",
+  "local_body_name_ml": "മൊകേരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "14",
+    "assembly_name_en": "Kuthuparamba",
+    "assembly_name_ml": "കൂത്തുപറമ്പ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "bc7cf9ef-bae2-4362-a005-38cbaf1086af",
+      "ward_no": "1",
+      "ward_name_en": "Attupuram",
+      "ward_name_ml": "ആറ്റുപുറം"
+    },
+    {
+      "ward_id": "a365f84d-c686-4438-b007-aba848faafde",
+      "ward_no": "2",
+      "ward_name_en": "Pathippalam",
+      "ward_name_ml": "പാത്തിപ്പാലം"
+    },
+    {
+      "ward_id": "e867a336-5bda-4c06-b417-8a12b8b926e4",
+      "ward_no": "3",
+      "ward_name_en": "Vallyayi North",
+      "ward_name_ml": "വളള്യായി നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "66a9a375-d11f-4e37-a95b-cffdc126dd1d",
+      "ward_no": "4",
+      "ward_name_en": "Vallyayi East",
+      "ward_name_ml": "വളള്യായി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "2fb1ebf0-3c4e-4f7a-994c-accaf9df47fa",
+      "ward_no": "5",
+      "ward_name_en": "Vallyayi",
+      "ward_name_ml": "വളള്യായി"
+    },
+    {
+      "ward_id": "89223f6c-80c0-41fa-9552-2cbedba15bcb",
+      "ward_no": "6",
+      "ward_name_en": "Makkool Peedika",
+      "ward_name_ml": "മാക്കൂല്‍പീടിക"
+    },
+    {
+      "ward_id": "3d2a33f1-3407-414a-9086-328279a40a2d",
+      "ward_no": "7",
+      "ward_name_en": "Muthari Peedika",
+      "ward_name_ml": "മുത്താറി പീടിക"
+    },
+    {
+      "ward_id": "a3dae3fe-e288-443b-aee2-1dca451acd20",
+      "ward_no": "8",
+      "ward_name_en": "Paremmal",
+      "ward_name_ml": "പാറേമ്മല്‍"
+    },
+    {
+      "ward_id": "2508baaf-082b-4f72-9bc4-eb3b1c7e9912",
+      "ward_no": "9",
+      "ward_name_en": "Vallangad",
+      "ward_name_ml": "വള്ളങ്ങാട്"
+    },
+    {
+      "ward_id": "a7ede4c8-00e5-4e45-a708-5c0b8275bd85",
+      "ward_no": "10",
+      "ward_name_en": "Mokeri",
+      "ward_name_ml": "മൊകേരി"
+    },
+    {
+      "ward_id": "06e1f5d1-1e8f-4167-8151-7d900d7441af",
+      "ward_no": "11",
+      "ward_name_en": "Kadepram",
+      "ward_name_ml": "കടേപ്രം"
+    },
+    {
+      "ward_id": "f7dff46c-c830-4cb0-b7da-870251f88cfc",
+      "ward_no": "12",
+      "ward_name_en": "Koorara",
+      "ward_name_ml": "കൂരാറ"
+    },
+    {
+      "ward_id": "1a571fbb-75c7-45d8-9837-900607f0ea83",
+      "ward_no": "13",
+      "ward_name_en": "Padinhare Mokeri",
+      "ward_name_ml": "പടിഞ്ഞാറെ മൊകേരി"
+    },
+    {
+      "ward_id": "2f44c340-d77e-4fb4-bb5f-a97172934ccf",
+      "ward_no": "14",
+      "ward_name_en": "Koorara North",
+      "ward_name_ml": "കൂരാറ നോര്‍ത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130805.geojson"
+  }
+}

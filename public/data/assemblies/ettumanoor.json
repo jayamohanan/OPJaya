@@ -1,0 +1,60 @@
+{
+  "assembly_id": "96",
+  "assembly_name_en": "Ettumanoor",
+  "assembly_name_ml": "ഏറ്റുമാനൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G050304",
+      "local_body_name_en": "Arpookara",
+      "local_body_name_ml": "ആര്‍പ്പൂക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050303",
+      "local_body_name_en": "Athirampuzha",
+      "local_body_name_ml": "അതിരമ്പുഴ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050302",
+      "local_body_name_en": "Aymanam",
+      "local_body_name_ml": "അയ്മനം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M050500",
+      "local_body_name_en": "Ettumanoor",
+      "local_body_name_ml": "ഏറ്റുമാനൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050306",
+      "local_body_name_en": "Kumarakom",
+      "local_body_name_ml": "കുമരകം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050305",
+      "local_body_name_en": "Neendoor",
+      "local_body_name_ml": "നീണ്ടൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050307",
+      "local_body_name_en": "Thiruvarppu",
+      "local_body_name_ml": "തിരുവാര്‍പ്പ്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/ettumanoor.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/ettumanoor.geojson"
+  }
+}

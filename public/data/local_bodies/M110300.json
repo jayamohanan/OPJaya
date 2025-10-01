@@ -1,0 +1,247 @@
+{
+  "local_body_id": "M110300",
+  "local_body_name_en": "Payyoli",
+  "local_body_name_ml": "പയ്യോളി",
+  "local_body_type_en": "Municipality",
+  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
+  "category": "",
+  "assembly": {
+    "assembly_id": "23",
+    "assembly_name_en": "Koyilandy",
+    "assembly_name_ml": "കൊയിലാണ്ടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "9b04996c-455e-49ca-ac85-a86c19de8d94",
+      "ward_no": "1",
+      "ward_name_en": "Kottakkal",
+      "ward_name_ml": "കോട്ടക്കല്‍"
+    },
+    {
+      "ward_id": "fb2fdd0b-cb49-4241-895d-71374306f58c",
+      "ward_no": "2",
+      "ward_name_en": "Kottakkal East",
+      "ward_name_ml": "കോട്ടക്കല്‍ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "177936c7-bbf7-4984-ba9a-c42eefd622cc",
+      "ward_no": "3",
+      "ward_name_en": "Moorad Central",
+      "ward_name_ml": "മൂരാട് സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "602144cb-eb63-45ad-a728-50d88556041c",
+      "ward_no": "4",
+      "ward_name_en": "Moorad South",
+      "ward_name_ml": "മൂരാട് സൌത്ത്"
+    },
+    {
+      "ward_id": "fae1b85a-1c49-4c66-b394-945474297fd8",
+      "ward_no": "5",
+      "ward_name_en": "Peringad",
+      "ward_name_ml": "പെരിങ്ങാട്"
+    },
+    {
+      "ward_id": "bdc980db-706e-4596-8741-aafa9b98ecea",
+      "ward_no": "6",
+      "ward_name_en": "Iringal East",
+      "ward_name_ml": "ഇരിങ്ങല്‍ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "a148ed8f-309f-4a69-bb85-5ed535c381a6",
+      "ward_no": "7",
+      "ward_name_en": "Iringal South",
+      "ward_name_ml": "ഇരിങ്ങല്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "b9e10e53-d183-4dc0-a077-8cc022e9a1fd",
+      "ward_no": "8",
+      "ward_name_en": "Ayanikkad North",
+      "ward_name_ml": "അയനിക്കാട് നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "830a0203-b655-4564-af8f-06669b79b486",
+      "ward_no": "9",
+      "ward_name_en": "Ayanikkad",
+      "ward_name_ml": "അയനിക്കാട്"
+    },
+    {
+      "ward_id": "fbdd3da4-4da0-4d89-a036-b4d00837b9b1",
+      "ward_no": "10",
+      "ward_name_en": "Ayanikkad South",
+      "ward_name_ml": "അയനിക്കാട് സൌത്ത്"
+    },
+    {
+      "ward_id": "5985fb50-1465-4ff0-996c-2c2230059029",
+      "ward_no": "11",
+      "ward_name_en": "Ayanikkad East",
+      "ward_name_ml": "അയനിക്കാട് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "17d7ef2d-e92b-48b8-83d2-f2724e4a8609",
+      "ward_no": "12",
+      "ward_name_en": "Kuttiyil Peedika",
+      "ward_name_ml": "കുറ്റിയില്‍ പീടിക"
+    },
+    {
+      "ward_id": "e7390934-f4aa-4f0e-a8f4-5c25c4ccb2f8",
+      "ward_no": "13",
+      "ward_name_en": "Payyoli North",
+      "ward_name_ml": "പയ്യോളി നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "601041d4-cb88-46c1-b3aa-70fc1431b7af",
+      "ward_no": "14",
+      "ward_name_en": "Nelleri Manikkoth North",
+      "ward_name_ml": "നെല്ല്യേരി മാണിക്കോത്ത് നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "470336e2-da4b-4b0f-bce8-c7a5f533e7c8",
+      "ward_no": "15",
+      "ward_name_en": "Kizhur",
+      "ward_name_ml": "കിഴൂര്‍"
+    },
+    {
+      "ward_id": "3f4bd938-4762-4177-a0fa-44a3be51c676",
+      "ward_no": "16",
+      "ward_name_en": "Kovvappuram",
+      "ward_name_ml": "കൊവ്വപ്പുറം"
+    },
+    {
+      "ward_id": "7d1c0f10-f834-4818-b65f-2224e50e3922",
+      "ward_no": "17",
+      "ward_name_en": "Thachankunnu",
+      "ward_name_ml": "തച്ചന്‍കുന്ന്"
+    },
+    {
+      "ward_id": "90f64afb-42bf-41a1-b760-c789a487d795",
+      "ward_no": "18",
+      "ward_name_en": "Thachankunnu South",
+      "ward_name_ml": "തച്ചന്‍കുന്ന് സൌത്ത്"
+    },
+    {
+      "ward_id": "af98e579-35ab-4ad3-aedf-cab3c2a8cb80",
+      "ward_no": "19",
+      "ward_name_en": "Kizhur South",
+      "ward_name_ml": "കിഴൂര്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "eb3ac6de-86a3-4792-88c3-e2bef8f3cd3f",
+      "ward_no": "20",
+      "ward_name_en": "Nelleri Manikkoth",
+      "ward_name_ml": "നെല്ല്യേരി മാണിക്കോത്ത്"
+    },
+    {
+      "ward_id": "285b09a8-afbc-4740-ac35-830ce88052e8",
+      "ward_no": "21",
+      "ward_name_en": "Payyoli Town",
+      "ward_name_ml": "പയ്യോളി ടൌണ്‍"
+    },
+    {
+      "ward_id": "38aafd88-6d5c-4b03-84ba-ced7784c20aa",
+      "ward_no": "22",
+      "ward_name_en": "Bhajanamadam",
+      "ward_name_ml": "ഭജനമഠം"
+    },
+    {
+      "ward_id": "a273a2a4-6575-4f0a-9e25-7a90c05a7748",
+      "ward_no": "23",
+      "ward_name_en": "Bhajanamadam North",
+      "ward_name_ml": "ഭജനമഠം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "33fd7fb1-e991-41eb-88bc-1947494f8525",
+      "ward_no": "24",
+      "ward_name_en": "Payyoli West",
+      "ward_name_ml": "പയ്യോളി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "2e8c3e5e-0cd1-4936-8b69-84f668f2ac55",
+      "ward_no": "25",
+      "ward_name_en": "Payyoli Beach",
+      "ward_name_ml": "പയ്യോളി ബീച്ച്"
+    },
+    {
+      "ward_id": "34709838-4324-4651-ad65-e918f48989b6",
+      "ward_no": "26",
+      "ward_name_en": "Eripparambil",
+      "ward_name_ml": "ഏരിപ്പറമ്പില്‍"
+    },
+    {
+      "ward_id": "255d3685-4df9-40ed-889b-b47842b299f3",
+      "ward_no": "27",
+      "ward_name_en": "Gandhinagar",
+      "ward_name_ml": "ഗാന്ധിനഗര്‍"
+    },
+    {
+      "ward_id": "c9280c34-c242-41dc-8f60-30941585679f",
+      "ward_no": "28",
+      "ward_name_en": "Bisminagar",
+      "ward_name_ml": "ബിസ്മിനഗര്‍"
+    },
+    {
+      "ward_id": "4b5c8bd8-52ef-4934-92de-388c962c8564",
+      "ward_no": "29",
+      "ward_name_en": "Puthan Marachalil",
+      "ward_name_ml": "പുത്തന്‍മരച്ചാലില്‍"
+    },
+    {
+      "ward_id": "4b834290-dd7e-4bf5-a4eb-4ddba475d663",
+      "ward_no": "30",
+      "ward_name_en": "Choriyanchalil",
+      "ward_name_ml": "ചൊറിയന്‍ചാലില്‍"
+    },
+    {
+      "ward_id": "7ba50664-4c88-4e0c-a4e1-3fea51122faf",
+      "ward_no": "31",
+      "ward_name_en": "Kuriyadithara",
+      "ward_name_ml": "കുരിയാടിത്താര"
+    },
+    {
+      "ward_id": "f509085a-4b43-48c8-8540-57a9dca2b854",
+      "ward_no": "32",
+      "ward_name_en": "Aruvayal South",
+      "ward_name_ml": "അറുവയല്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "82612a20-4e75-4ea6-be41-4ae6a165c65c",
+      "ward_no": "33",
+      "ward_name_en": "Kolavi",
+      "ward_name_ml": "കൊളാവി"
+    },
+    {
+      "ward_id": "001ea4ca-c26f-4dcb-9195-746a2df88aed",
+      "ward_no": "34",
+      "ward_name_en": "Chethilthara",
+      "ward_name_ml": "ചെത്തില്‍ത്താര"
+    },
+    {
+      "ward_id": "d9450b30-d073-418f-bb78-c2de1ef90ed8",
+      "ward_no": "35",
+      "ward_name_en": "Aruvayal",
+      "ward_name_ml": "അറുവയല്‍"
+    },
+    {
+      "ward_id": "80404eb3-9858-40f3-ac3c-700f9c1cbd16",
+      "ward_no": "36",
+      "ward_name_en": "Kolavippalam Beach",
+      "ward_name_ml": "കൊളാവിപ്പാലം ബീച്ച്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/M110300.geojson"
+  }
+}

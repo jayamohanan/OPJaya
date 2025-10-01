@@ -1,0 +1,66 @@
+{
+  "assembly_id": "121",
+  "assembly_name_en": "Punalur",
+  "assembly_name_ml": "പുനലൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020508",
+      "local_body_name_en": "Aryankavu",
+      "local_body_name_ml": "ആര്യങ്കാവ്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020505",
+      "local_body_name_en": "Edamulackal",
+      "local_body_name_ml": "ഇടമുളയ്ക്കല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020506",
+      "local_body_name_en": "Karavaloor",
+      "local_body_name_ml": "കരവാളൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020501",
+      "local_body_name_en": "Kulathupuzha",
+      "local_body_name_ml": "കുളത്തൂപ്പുഴ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M020300",
+      "local_body_name_en": "Punalur",
+      "local_body_name_ml": "പുനലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020507",
+      "local_body_name_en": "Thenmala",
+      "local_body_name_ml": "തെന്മല",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020502",
+      "local_body_name_en": "Yeroor",
+      "local_body_name_ml": "ഏരൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020504",
+      "local_body_name_en": "Anchal",
+      "local_body_name_ml": "അഞ്ചല്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/punalur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/punalur.geojson"
+  }
+}

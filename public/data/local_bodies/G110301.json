@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G110301",
+  "local_body_name_en": "Kunnummal",
+  "local_body_name_ml": "കുന്നുമ്മല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "21",
+    "assembly_name_en": "Kuttiady",
+    "assembly_name_ml": "കുറ്റ്യാടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d82a1069-02fc-4bb8-9d1e-3ec8d90cd243",
+      "ward_no": "1",
+      "ward_name_en": "Pathirippatta West",
+      "ward_name_ml": "പാതിരിപ്പറ്റ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "927be0d2-521e-4167-b536-663fc8fbf38f",
+      "ward_no": "2",
+      "ward_name_en": "Pathirippatta East",
+      "ward_name_ml": "പാതിരിപ്പറ്റ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "e1b95230-533f-4dd2-8f9f-b0ac3b492228",
+      "ward_no": "3",
+      "ward_name_en": "Pilacheri",
+      "ward_name_ml": "പിലാച്ചേരി"
+    },
+    {
+      "ward_id": "9ace3ba2-1a0f-4d11-b8fa-f6f60ffaacfa",
+      "ward_no": "4",
+      "ward_name_en": "Muruvassery",
+      "ward_name_ml": "മുറുവശ്ശേരി"
+    },
+    {
+      "ward_id": "4a12cd16-3582-4831-91b1-7db405e3bb79",
+      "ward_no": "5",
+      "ward_name_en": "Mokeri East",
+      "ward_name_ml": "മൊകേരി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "6970964b-5285-4f1a-be07-48938fe5cbf1",
+      "ward_no": "6",
+      "ward_name_en": "Mokeri West",
+      "ward_name_ml": "മൊകേരി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "6c3f44e9-871f-46fe-b619-09bb5d0e1f25",
+      "ward_no": "7",
+      "ward_name_en": "Vattoli",
+      "ward_name_ml": "വട്ടോളി"
+    },
+    {
+      "ward_id": "e5164f1a-88ad-4309-b49b-d6ab309a15a7",
+      "ward_no": "8",
+      "ward_name_en": "Mathukunnu",
+      "ward_name_ml": "മധുകുന്ന്"
+    },
+    {
+      "ward_id": "4c872f71-200b-42ac-94ba-89f211b1cb34",
+      "ward_no": "9",
+      "ward_name_en": "Kakkattil South",
+      "ward_name_ml": "കക്കട്ടില്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "1086dfff-0374-4610-bf2a-b6c078530318",
+      "ward_no": "10",
+      "ward_name_en": "Kunnummal",
+      "ward_name_ml": "കുന്നുമ്മല്‍"
+    },
+    {
+      "ward_id": "03e24bd4-414c-4547-b1fe-824285a74f40",
+      "ward_no": "11",
+      "ward_name_en": "Kakkattil North",
+      "ward_name_ml": "കക്കട്ടില്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "226b7439-e731-4d1d-8c07-cc6e2cacbeaf",
+      "ward_no": "12",
+      "ward_name_en": "Othayoth",
+      "ward_name_ml": "ഒതയോത്ത്"
+    },
+    {
+      "ward_id": "b33de777-ea57-4a48-a5e3-422c7e43ee5f",
+      "ward_no": "13",
+      "ward_name_en": "Kundukadavu",
+      "ward_name_ml": "കുണ്ടുകടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110301.geojson"
+  }
+}

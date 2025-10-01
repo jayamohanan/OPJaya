@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060703",
+  "local_body_name_en": "Edavetty",
+  "local_body_name_ml": "ഇടവെട്ടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "90",
+    "assembly_name_en": "Thodupuzha",
+    "assembly_name_ml": "തൊടുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b84ff4d6-368c-4e99-a08e-7cfd125a93b7",
+      "ward_no": "1",
+      "ward_name_en": "Edavettychira",
+      "ward_name_ml": "ഇടവെട്ടിച്ചിറ"
+    },
+    {
+      "ward_id": "3748e2fa-b364-47ab-abd4-58a609cebb89",
+      "ward_no": "2",
+      "ward_name_en": "Thondikuzha",
+      "ward_name_ml": "തൊണ്ടിക്കുഴ"
+    },
+    {
+      "ward_id": "97d10a71-32c0-44ac-abab-610432258d66",
+      "ward_no": "3",
+      "ward_name_en": "Nadayam",
+      "ward_name_ml": "നടയം"
+    },
+    {
+      "ward_id": "8ee94355-5be6-4e9d-a071-1d29841f5f25",
+      "ward_no": "4",
+      "ward_name_en": "Gandhinagar",
+      "ward_name_ml": "ഗാന്ധിനഗര്‍"
+    },
+    {
+      "ward_id": "f9b57a69-6398-4641-8262-c664891ced9a",
+      "ward_no": "5",
+      "ward_name_en": "Sasthampara",
+      "ward_name_ml": "ശാസ്താംപാറ"
+    },
+    {
+      "ward_id": "4ef8bdf2-5406-4c11-b8b1-ed1275e5e1d8",
+      "ward_no": "6",
+      "ward_name_en": "Meenmutty",
+      "ward_name_ml": "മീന്‍മുട്ടി"
+    },
+    {
+      "ward_id": "605a1b1d-376d-47f9-8f91-dfb3503d3f1a",
+      "ward_no": "7",
+      "ward_name_en": "Kallanickal",
+      "ward_name_ml": "കല്ലാനിക്കല്‍"
+    },
+    {
+      "ward_id": "7e9fbb7f-e271-4176-97b5-5e83beaf9953",
+      "ward_no": "8",
+      "ward_name_en": "Malankara",
+      "ward_name_ml": "മലങ്കര"
+    },
+    {
+      "ward_id": "51c45c18-9dd5-4986-9e7d-f274315a1d5a",
+      "ward_no": "9",
+      "ward_name_en": "Thekkumhagam",
+      "ward_name_ml": "തെക്കുംഭാഗം"
+    },
+    {
+      "ward_id": "9b76d91b-cb51-444f-a39b-a58887fb4c00",
+      "ward_no": "10",
+      "ward_name_en": "Keerikodu",
+      "ward_name_ml": "കീരികോട്"
+    },
+    {
+      "ward_id": "48beb418-3d99-4218-96e2-80d6a24adfda",
+      "ward_no": "11",
+      "ward_name_en": "Marthoma",
+      "ward_name_ml": "മാര്‍ത്തോമ"
+    },
+    {
+      "ward_id": "720a43d3-2208-48bc-8186-3cb133f23c2b",
+      "ward_no": "12",
+      "ward_name_en": "Edavetty South",
+      "ward_name_ml": "ഇടവെട്ടി സൌത്ത്"
+    },
+    {
+      "ward_id": "3d30a241-fd83-43bd-9bd6-830ea934cadb",
+      "ward_no": "13",
+      "ward_name_en": "Edavetty North",
+      "ward_name_ml": "ഇടവെട്ടി നോര്‍ത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060703.geojson"
+  }
+}

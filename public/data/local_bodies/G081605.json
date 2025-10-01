@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G081605",
+  "local_body_name_en": "Pariyaram",
+  "local_body_name_ml": "പരിയാരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "72",
+    "assembly_name_en": "Chalakudy",
+    "assembly_name_ml": "ചാലക്കുടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "70dee3dc-95b0-48b4-a8b1-cc251a04db2f",
+      "ward_no": "1",
+      "ward_name_en": "Elinjipra",
+      "ward_name_ml": "എലിഞ്ഞിപ്ര"
+    },
+    {
+      "ward_id": "113d35d4-f681-49e8-8d33-696e67f15f35",
+      "ward_no": "2",
+      "ward_name_en": "Pariyaram",
+      "ward_name_ml": "പരിയാരം"
+    },
+    {
+      "ward_id": "e6225631-4dd5-4caf-ab7b-76ebef135933",
+      "ward_no": "3",
+      "ward_name_en": "Parakkunnu",
+      "ward_name_ml": "പാറക്കുന്ന്"
+    },
+    {
+      "ward_id": "d261e5e4-aeae-4c01-90e4-59edbe5a05de",
+      "ward_no": "4",
+      "ward_name_en": "Kuttikkad",
+      "ward_name_ml": "കുറ്റിക്കാട്"
+    },
+    {
+      "ward_id": "6be0a7bf-3dbb-4f6c-a56a-fc5e48acf485",
+      "ward_no": "5",
+      "ward_name_en": "Chankankutty",
+      "ward_name_ml": "ചങ്കന്‍കുററി"
+    },
+    {
+      "ward_id": "54cba412-0456-4421-9d7f-058be91d9ba0",
+      "ward_no": "6",
+      "ward_name_en": "Mannumpuram",
+      "ward_name_ml": "മണ്ണുംപുറം"
+    },
+    {
+      "ward_id": "7d273aa0-545e-468a-9003-4e7dbb70f8d4",
+      "ward_no": "7",
+      "ward_name_en": "Peelarmuzhy",
+      "ward_name_ml": "പീലാര്‍മുഴി"
+    },
+    {
+      "ward_id": "298f791e-0ef7-46be-9ac0-8eeec09e0e8c",
+      "ward_no": "8",
+      "ward_name_en": "Konnakuzhy",
+      "ward_name_ml": "കൊന്നക്കുഴി"
+    },
+    {
+      "ward_id": "6850a06e-8cd2-4fa1-907c-fd657736ee46",
+      "ward_no": "9",
+      "ward_name_en": "Kanjirappilly",
+      "ward_name_ml": "കാഞ്ഞിരപ്പിള്ളി"
+    },
+    {
+      "ward_id": "fa2d45bc-b22f-4e1b-986a-fa23fc653034",
+      "ward_no": "10",
+      "ward_name_en": "Orappana",
+      "ward_name_ml": "ഒരപ്പന"
+    },
+    {
+      "ward_id": "f784c3e3-1616-4f95-88d2-9f1b3e76be39",
+      "ward_no": "11",
+      "ward_name_en": "Thoombacode",
+      "ward_name_ml": "തൂമ്പാക്കോട്"
+    },
+    {
+      "ward_id": "d2673339-20a2-4d27-8beb-3cc31460b912",
+      "ward_no": "12",
+      "ward_name_en": "Thrippappilly",
+      "ward_name_ml": "തൃപ്പാപ്പിള്ളി"
+    },
+    {
+      "ward_id": "2abca527-f2ca-49e0-b214-41a74e21f333",
+      "ward_no": "13",
+      "ward_name_en": "Poovathingal",
+      "ward_name_ml": "പൂവ്വത്തിങ്കല്‍"
+    },
+    {
+      "ward_id": "7502a17c-81bf-4218-8c0e-f1f8597520da",
+      "ward_no": "14",
+      "ward_name_en": "Moozhikkakadavu",
+      "ward_name_ml": "മൂഴിക്കകടവ്"
+    },
+    {
+      "ward_id": "eaba4553-f773-42bb-b36f-4059062c1f88",
+      "ward_no": "15",
+      "ward_name_en": "Kadungad",
+      "ward_name_ml": "കടുങ്ങാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081605.geojson"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "assembly_id": "126",
+  "assembly_name_en": "Chathannoor",
+  "assembly_name_ml": "ചാത്തന്നൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G021003",
+      "local_body_name_en": "Chathannoor",
+      "local_body_name_ml": "ചാത്തന്നൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G021005",
+      "local_body_name_en": "Chirakkara",
+      "local_body_name_ml": "ചിറക്കര",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021002",
+      "local_body_name_en": "Kalluvathukkal",
+      "local_body_name_ml": "കല്ലുവാതുക്കല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021004",
+      "local_body_name_en": "Adichanalloor",
+      "local_body_name_ml": "ആദിച്ചനല്ലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M020200",
+      "local_body_name_en": "Paravur",
+      "local_body_name_ml": "പരവൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G021001",
+      "local_body_name_en": "Poothakulam",
+      "local_body_name_ml": "പൂതക്കുളം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020602",
+      "local_body_name_en": "Pooyappally",
+      "local_body_name_ml": "പൂയപ്പള്ളി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/chathannoor.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/chathannoor.geojson"
+  }
+}

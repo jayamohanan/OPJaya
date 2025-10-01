@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G041202",
+  "local_body_name_en": "Kandalloor",
+  "local_body_name_ml": "കണ്ടല്ലൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "108",
+    "assembly_name_en": "Kayamkulam",
+    "assembly_name_ml": "കായംകുളം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2954e3cc-a783-45d1-9ae3-be2c474097df",
+      "ward_no": "1",
+      "ward_name_en": "Vadakkan Koickal",
+      "ward_name_ml": "വടക്കന്‍ കോയിക്കല്‍"
+    },
+    {
+      "ward_id": "17e2c647-b3cd-4101-a386-1e997cfea53b",
+      "ward_no": "2",
+      "ward_name_en": "Kopparethu H.S",
+      "ward_name_ml": "കൊപ്പാറേത്ത് എച്ച്.എസ്"
+    },
+    {
+      "ward_id": "b852beda-a238-425d-9072-848b797e661f",
+      "ward_no": "3",
+      "ward_name_en": "Puthiavila North",
+      "ward_name_ml": "പുതിയവിള വടക്ക്"
+    },
+    {
+      "ward_id": "0568b88c-bb72-4032-876d-e647c411a431",
+      "ward_no": "4",
+      "ward_name_en": "Mankulam",
+      "ward_name_ml": "മാങ്കുളം"
+    },
+    {
+      "ward_id": "29e51157-299d-49e2-99fd-9347ddee95d6",
+      "ward_no": "5",
+      "ward_name_en": "Puthiyavila",
+      "ward_name_ml": "പുതിയവിള"
+    },
+    {
+      "ward_id": "90876b50-6614-4847-a353-b101f5927844",
+      "ward_no": "6",
+      "ward_name_en": "Puthiyavila South",
+      "ward_name_ml": "പുതിയവിള സൌത്ത്"
+    },
+    {
+      "ward_id": "d85db880-be34-4ee4-a5f3-39bdae74859b",
+      "ward_no": "7",
+      "ward_name_en": "Pullukulangara North",
+      "ward_name_ml": "പുല്ലുകുളങ്ങര വടക്ക്"
+    },
+    {
+      "ward_id": "52d45fcf-c2e5-4ff5-98ba-310b41868ae4",
+      "ward_no": "8",
+      "ward_name_en": "Pullukulangara",
+      "ward_name_ml": "പുല്ലുകുളങ്ങര"
+    },
+    {
+      "ward_id": "634a81e6-c3ca-483c-85d6-fcf98a476404",
+      "ward_no": "9",
+      "ward_name_en": "Pipe Junction",
+      "ward_name_ml": "പൈപ്പ് ജംഗ്ഷന്‍"
+    },
+    {
+      "ward_id": "950b5750-e11a-4014-83b1-605c8c91d21a",
+      "ward_no": "10",
+      "ward_name_en": "Madampil",
+      "ward_name_ml": "മാടമ്പില്‍"
+    },
+    {
+      "ward_id": "33ba1aa8-d784-41e2-a738-71c59a8e2b7e",
+      "ward_no": "11",
+      "ward_name_en": "Kala Ward",
+      "ward_name_ml": "കലാ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "d7216d6c-76c6-46d9-94f1-d6fc07a03d67",
+      "ward_no": "12",
+      "ward_name_en": "Kalarikkal",
+      "ward_name_ml": "കളരിക്കല്‍"
+    },
+    {
+      "ward_id": "8eda88aa-7cdf-4599-9c87-018bdde3e6d7",
+      "ward_no": "13",
+      "ward_name_en": "Health Centre",
+      "ward_name_ml": "ഹെല്‍ത്ത് സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "6b4febb6-c728-43c5-be01-59682d416f26",
+      "ward_no": "14",
+      "ward_name_en": "Varambathu",
+      "ward_name_ml": "വരമ്പത്ത്"
+    },
+    {
+      "ward_id": "9c61438b-d360-40e0-b9f5-8b661ea2b132",
+      "ward_no": "15",
+      "ward_name_en": "Ambalathunada",
+      "ward_name_ml": "അമ്പലത്തുംനട"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G041202.geojson"
+  }
+}

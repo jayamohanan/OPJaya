@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G010201",
+  "local_body_name_en": "Kilimanoor",
+  "local_body_name_ml": "കിളിമാനൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "128",
+    "assembly_name_en": "Attingal",
+    "assembly_name_ml": "ആറ്റിങ്ങൽ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "10950086-2ef3-44fa-8ee6-c5e763fe068c",
+      "ward_no": "1",
+      "ward_name_en": "Malakkal",
+      "ward_name_ml": "മലയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "82102349-001d-4bdb-a346-05e6959d7a53",
+      "ward_no": "2",
+      "ward_name_en": "Panappamkunnu",
+      "ward_name_ml": "പനപ്പാംകുന്ന്"
+    },
+    {
+      "ward_id": "e9adcb52-8003-4424-80f3-9ccea9003916",
+      "ward_no": "3",
+      "ward_name_en": "Vilangara",
+      "ward_name_ml": "വിലങ്ങറ"
+    },
+    {
+      "ward_id": "5969ff2f-2757-45e1-b982-dbeba6718ad2",
+      "ward_no": "4",
+      "ward_name_en": "Puthumangalam",
+      "ward_name_ml": "പുതുമംഗലം"
+    },
+    {
+      "ward_id": "98382e43-efe4-4fe5-8b65-75aa834228a9",
+      "ward_no": "5",
+      "ward_name_en": "Mulakkalathukavu",
+      "ward_name_ml": "മുളയ്ക്കലത്തുകാവ്"
+    },
+    {
+      "ward_id": "6622323e-7169-4478-af3d-8e9e3f4bf310",
+      "ward_no": "6",
+      "ward_name_en": "Aroor",
+      "ward_name_ml": "ആരൂര്‍"
+    },
+    {
+      "ward_id": "e9efa737-1fb7-4d13-9154-4c5150f39a10",
+      "ward_no": "7",
+      "ward_name_en": "Pulimballikonam",
+      "ward_name_ml": "പുളിമ്പള്ളികോണം"
+    },
+    {
+      "ward_id": "1c8e7048-0d60-440c-b7c5-98d53977053a",
+      "ward_no": "8",
+      "ward_name_en": "Malayamadom",
+      "ward_name_ml": "മലയാമഠം"
+    },
+    {
+      "ward_id": "7164835b-42fe-4c46-9e53-1e0c340f8a11",
+      "ward_no": "9",
+      "ward_name_en": "R.R.V",
+      "ward_name_ml": "ആര്‍.ആര്‍.വി"
+    },
+    {
+      "ward_id": "51d6d84c-0bfb-4279-b35d-10a77f7ce881",
+      "ward_no": "10",
+      "ward_name_en": "Choottayil",
+      "ward_name_ml": "ചൂട്ടയില്‍"
+    },
+    {
+      "ward_id": "a7d27f10-f324-4d17-b84d-8f856ea1a3eb",
+      "ward_no": "11",
+      "ward_name_en": "Kottaram",
+      "ward_name_ml": "കൊട്ടാരം"
+    },
+    {
+      "ward_id": "04470b24-3e97-4507-9fc1-3067b5b6f7e9",
+      "ward_no": "12",
+      "ward_name_en": "Deveswaram",
+      "ward_name_ml": "ദേവേശ്വരം"
+    },
+    {
+      "ward_id": "aca07aa9-0f94-4098-94f6-a7d7a617f864",
+      "ward_no": "13",
+      "ward_name_en": "Alathukavu",
+      "ward_name_ml": "ആലത്തുകാവ്"
+    },
+    {
+      "ward_id": "243884b9-4c3a-41d9-ae4e-740d73354abd",
+      "ward_no": "14",
+      "ward_name_en": "Ponganadu",
+      "ward_name_ml": "പോങ്ങനാട്"
+    },
+    {
+      "ward_id": "3de259d7-b644-442b-85ad-56c6cfcbfc87",
+      "ward_no": "15",
+      "ward_name_en": "Varinjottukonam",
+      "ward_name_ml": "വരിഞ്ഞോട്ടുകോണം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010201.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G040205",
+  "local_body_name_en": "Kodamthuruth",
+  "local_body_name_ml": "കോടംതുരുത്ത്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "102",
+    "assembly_name_en": "Aroor",
+    "assembly_name_ml": "അരൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7dd98804-129e-4e4d-9268-2994881384ad",
+      "ward_no": "1",
+      "ward_name_en": "Neendakara",
+      "ward_name_ml": "നീണ്ടകര"
+    },
+    {
+      "ward_id": "39cdddbc-cc00-4066-ac40-7a7c834ffaa6",
+      "ward_no": "2",
+      "ward_name_en": "Kailasam",
+      "ward_name_ml": "കൈലാസം"
+    },
+    {
+      "ward_id": "85861b9f-08c9-45c7-8885-a6414f526553",
+      "ward_no": "3",
+      "ward_name_en": "Kuzhuveli",
+      "ward_name_ml": "കുഴുവേലി"
+    },
+    {
+      "ward_id": "cda106f4-8c0c-4580-b5dd-9b83f6c4b586",
+      "ward_no": "4",
+      "ward_name_en": "Kureethara",
+      "ward_name_ml": "കുരീത്തറ"
+    },
+    {
+      "ward_id": "a5bfb3b0-f84f-483a-8f0f-1726758929da",
+      "ward_no": "5",
+      "ward_name_en": "Chammanad",
+      "ward_name_ml": "ചമ്മനാട്"
+    },
+    {
+      "ward_id": "f7851fa6-c77c-404f-9f11-44a8458ed048",
+      "ward_no": "6",
+      "ward_name_en": "Monthachal",
+      "ward_name_ml": "മോന്തച്ചാല്‍"
+    },
+    {
+      "ward_id": "c06c9675-9da0-471a-bb04-a8df847748af",
+      "ward_no": "7",
+      "ward_name_en": "Chirackal",
+      "ward_name_ml": "ചിറയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "a3cdeb1c-172f-4c6b-9be9-51ac6626ed6d",
+      "ward_no": "8",
+      "ward_name_en": "Manathodam",
+      "ward_name_ml": "മനത്തോടം"
+    },
+    {
+      "ward_id": "43173fbc-a650-4028-9f98-7bf2cb656e59",
+      "ward_no": "9",
+      "ward_name_en": "Panchayath",
+      "ward_name_ml": "പഞ്ചായത്ത്"
+    },
+    {
+      "ward_id": "3aba70bd-1154-4bea-a607-692bd14b7070",
+      "ward_no": "10",
+      "ward_name_en": "Kelamkulangara",
+      "ward_name_ml": "കേളംകുളങ്ങര"
+    },
+    {
+      "ward_id": "acdc5afa-ad2c-4739-8723-7c8334c462fc",
+      "ward_no": "11",
+      "ward_name_en": "Koyickal",
+      "ward_name_ml": "കോയിക്കല്‍"
+    },
+    {
+      "ward_id": "a47271ca-a589-4987-911b-947d2636eb8f",
+      "ward_no": "12",
+      "ward_name_en": "Muttathil",
+      "ward_name_ml": "മുട്ടത്തില്‍"
+    },
+    {
+      "ward_id": "ed023e19-4df4-4c39-a269-3ce944310ca2",
+      "ward_no": "13",
+      "ward_name_en": "Vallethode",
+      "ward_name_ml": "വല്ലേത്തോട്"
+    },
+    {
+      "ward_id": "5c115635-5e92-4138-9075-9391c03d2063",
+      "ward_no": "14",
+      "ward_name_en": "Moorthinkal",
+      "ward_name_ml": "മൂര്‍ത്തിങ്കല്‍"
+    },
+    {
+      "ward_id": "801362bd-f35a-4d2c-8b49-1c89b39943d6",
+      "ward_no": "15",
+      "ward_name_en": "Changaram",
+      "ward_name_ml": "ചങ്ങരം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040205.geojson"
+  }
+}

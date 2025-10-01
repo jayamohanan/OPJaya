@@ -1,0 +1,66 @@
+{
+  "assembly_id": "50",
+  "assembly_name_en": "Pattambi",
+  "assembly_name_ml": "പട്ടാമ്പി",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G090201",
+      "local_body_name_en": "Koppam",
+      "local_body_name_ml": "കൊപ്പം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090202",
+      "local_body_name_en": "Kulukkallur",
+      "local_body_name_ml": "കുലുക്കല്ലൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090203",
+      "local_body_name_en": "Muthuthala",
+      "local_body_name_ml": "മുതുതല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090204",
+      "local_body_name_en": "Ongallur",
+      "local_body_name_ml": "ഓങ്ങല്ലൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M090500",
+      "local_body_name_en": "Pattambi",
+      "local_body_name_ml": "പട്ടാമ്പി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090207",
+      "local_body_name_en": "Thiruvegappura",
+      "local_body_name_ml": "തിരുവേഗപ്പുറ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090307",
+      "local_body_name_en": "Vallapuzha",
+      "local_body_name_ml": "വല്ലപ്പുഴ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090208",
+      "local_body_name_en": "Vilayur",
+      "local_body_name_ml": "വിളയൂര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/pattambi.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/pattambi.geojson"
+  }
+}

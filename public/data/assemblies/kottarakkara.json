@@ -1,0 +1,66 @@
+{
+  "assembly_id": "119",
+  "assembly_name_en": "Kottarakkara",
+  "assembly_name_ml": "കൊട്ടാരക്കര",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020604",
+      "local_body_name_en": "Ezhukone",
+      "local_body_name_ml": "എഴുകോണ്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020603",
+      "local_body_name_en": "Kareepra",
+      "local_body_name_ml": "കരീപ്ര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M020400",
+      "local_body_name_en": "Kottarakara",
+      "local_body_name_ml": "കൊട്ടാരക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020305",
+      "local_body_name_en": "Kulakkada",
+      "local_body_name_ml": "കുളക്കട",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020304",
+      "local_body_name_en": "Mylom",
+      "local_body_name_ml": "മൈലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020605",
+      "local_body_name_en": "Neduvathoor",
+      "local_body_name_ml": "നെടുവത്തൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020301",
+      "local_body_name_en": "Ummannoor",
+      "local_body_name_ml": "ഉമ്മന്നൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020601",
+      "local_body_name_en": "Veliyam",
+      "local_body_name_ml": "വെളിയം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kottarakkara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kottarakkara.geojson"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G010901",
+  "local_body_name_en": "Perumkadavila",
+  "local_body_name_ml": "പെരുങ്കടവിള",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "137",
+    "assembly_name_en": "Parassala",
+    "assembly_name_ml": "പാറശ്ശാല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "14f06e90-419d-457b-a9ec-b8d63aee215f",
+      "ward_no": "1",
+      "ward_name_en": "Pazhamala",
+      "ward_name_ml": "പഴമല"
+    },
+    {
+      "ward_id": "c17be519-8f46-49e7-875f-b719e8af51cc",
+      "ward_no": "2",
+      "ward_name_en": "Ancode",
+      "ward_name_ml": "ആങ്കോട്"
+    },
+    {
+      "ward_id": "97402675-4078-4145-9585-f5c8f89863a2",
+      "ward_no": "3",
+      "ward_name_en": "Palkulangara",
+      "ward_name_ml": "പാല്‍കുളങ്ങര"
+    },
+    {
+      "ward_id": "55f65c7c-59c0-4a73-8b70-26751da230fc",
+      "ward_no": "4",
+      "ward_name_en": "Alathoor",
+      "ward_name_ml": "ആലത്തൂര്‍"
+    },
+    {
+      "ward_id": "66593347-be37-4d5f-841d-e1380d2d22dc",
+      "ward_no": "5",
+      "ward_name_en": "Thathiyoor",
+      "ward_name_ml": "തത്തിയൂര്‍"
+    },
+    {
+      "ward_id": "f7a8bf6a-9a1e-4a15-995b-cf4a563d56e4",
+      "ward_no": "6",
+      "ward_name_en": "Thrippalavoor",
+      "ward_name_ml": "തൃപ്പലവൂര്‍"
+    },
+    {
+      "ward_id": "d63a7c65-dc9f-46e6-a190-fe1a8a9a58cf",
+      "ward_no": "7",
+      "ward_name_en": "Aruvikkara",
+      "ward_name_ml": "അരുവിക്കര"
+    },
+    {
+      "ward_id": "5f6c5354-2cf0-4a18-85bf-5d8bd4ce907d",
+      "ward_no": "8",
+      "ward_name_en": "Vadakara",
+      "ward_name_ml": "വടകര"
+    },
+    {
+      "ward_id": "92e1e455-2636-493e-88be-923b3bf95382",
+      "ward_no": "9",
+      "ward_name_en": "Chulliyoor",
+      "ward_name_ml": "ചുള്ളിയൂര്‍"
+    },
+    {
+      "ward_id": "e6e83800-8b53-46fc-aeb6-d7ed45a880b6",
+      "ward_no": "10",
+      "ward_name_en": "Anamukham",
+      "ward_name_ml": "അണമുഖം"
+    },
+    {
+      "ward_id": "801732b2-52f9-4fa1-a2e6-ac84b5666b84",
+      "ward_no": "11",
+      "ward_name_en": "Marayamuttom",
+      "ward_name_ml": "മാരായമുട്ടം"
+    },
+    {
+      "ward_id": "96d0ec6d-fa15-4a7b-b534-23b2fdebefd0",
+      "ward_no": "12",
+      "ward_name_en": "Aruvippuram",
+      "ward_name_ml": "അരുവിപ്പുറം"
+    },
+    {
+      "ward_id": "be20ebb8-22e0-44fe-ab5c-1d7d02bf66b4",
+      "ward_no": "13",
+      "ward_name_en": "Ayiroor",
+      "ward_name_ml": "അയിരൂര്‍"
+    },
+    {
+      "ward_id": "c4ca09dd-a99f-4f9e-bfc3-f8b77945f0c8",
+      "ward_no": "14",
+      "ward_name_en": "Thathamala",
+      "ward_name_ml": "തത്തമല"
+    },
+    {
+      "ward_id": "606c40f7-b0b3-49e7-955c-e1cc0eb250e1",
+      "ward_no": "15",
+      "ward_name_en": "Pulimancode",
+      "ward_name_ml": "പുളിമാംകോട്"
+    },
+    {
+      "ward_id": "56dcef66-9a32-42f7-aa94-92021d600dd7",
+      "ward_no": "16",
+      "ward_name_en": "Perumkadavila",
+      "ward_name_ml": "പെരുങ്കടവിള"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010901.geojson"
+  }
+}

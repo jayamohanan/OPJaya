@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G010302",
+  "local_body_name_en": "Vakkom",
+  "local_body_name_ml": "വക്കം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "128",
+    "assembly_name_en": "Attingal",
+    "assembly_name_ml": "ആറ്റിങ്ങൽ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "9f4a51c4-bf27-4c5d-a7ce-01d3112a54e5",
+      "ward_no": "1",
+      "ward_name_en": "Panayilkadavu",
+      "ward_name_ml": "പണയില്‍കടവ്"
+    },
+    {
+      "ward_id": "4a48612a-7670-47e0-b23c-e2d1f75a9b77",
+      "ward_no": "2",
+      "ward_name_en": "Kochupally",
+      "ward_name_ml": "കൊച്ചുപള്ളി"
+    },
+    {
+      "ward_id": "f2d18bea-86a0-43b5-824e-425eef07d63a",
+      "ward_no": "3",
+      "ward_name_en": "Puthennada",
+      "ward_name_ml": "പുത്തന്‍നട"
+    },
+    {
+      "ward_id": "51dab78e-6a03-415a-a9ee-423d67b400ac",
+      "ward_no": "4",
+      "ward_name_en": "Panchayat",
+      "ward_name_ml": "പഞ്ചായത്ത്"
+    },
+    {
+      "ward_id": "501bc453-a06e-4b82-bde6-1110e550aef5",
+      "ward_no": "5",
+      "ward_name_en": "Kunjanvilakom",
+      "ward_name_ml": "കുഞ്ചാന്‍വിളാകം"
+    },
+    {
+      "ward_id": "c59ef529-8b12-4b1c-a5e0-b85ad18fb608",
+      "ward_no": "6",
+      "ward_name_en": "Puthiyakavu",
+      "ward_name_ml": "പുതിയകാവ്"
+    },
+    {
+      "ward_id": "5ef0048f-3c6f-445a-b662-cd2f200c0d5c",
+      "ward_no": "7",
+      "ward_name_en": "Kayalvaram",
+      "ward_name_ml": "കായല്‍വാരം"
+    },
+    {
+      "ward_id": "91cb2890-fbb3-4545-a00d-a13c048372d0",
+      "ward_no": "8",
+      "ward_name_en": "Pattikkavila",
+      "ward_name_ml": "പാട്ടിക്കവിള"
+    },
+    {
+      "ward_id": "9441abbe-2da5-4f8b-9d39-1e1460aeb3e6",
+      "ward_no": "9",
+      "ward_name_en": "Nilakkamukku",
+      "ward_name_ml": "നിലയ്ക്കാമുക്ക്"
+    },
+    {
+      "ward_id": "71b185e6-e294-4a11-accb-6e4cac1320b6",
+      "ward_no": "10",
+      "ward_name_en": "Kunnuvila",
+      "ward_name_ml": "കുന്നുവിള"
+    },
+    {
+      "ward_id": "0fafa564-f8d3-4817-ade7-49fe8dc2b038",
+      "ward_no": "11",
+      "ward_name_en": "Society",
+      "ward_name_ml": "സൊസൈറ്റി"
+    },
+    {
+      "ward_id": "0f539fee-c6f4-4c3f-9608-2b951bbd8be2",
+      "ward_no": "12",
+      "ward_name_en": "Mukkaluvattom",
+      "ward_name_ml": "മുക്കാലുവട്ടം"
+    },
+    {
+      "ward_id": "34216c1c-64d5-4f59-881a-854295d0e840",
+      "ward_no": "13",
+      "ward_name_en": "Irangukadavu",
+      "ward_name_ml": "ഇറങ്ങുകടവ്"
+    },
+    {
+      "ward_id": "741e60e5-ff9b-44a5-969f-15c347d7b6df",
+      "ward_no": "14",
+      "ward_name_en": "Kayikkara Kadavu",
+      "ward_name_ml": "കായിക്കരകടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010302.geojson"
+  }
+}

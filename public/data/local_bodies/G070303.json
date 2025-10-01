@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G070303",
+  "local_body_name_en": "Manjapra",
+  "local_body_name_ml": "മഞ്ഞപ്ര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "75",
+    "assembly_name_en": "Angamaly",
+    "assembly_name_ml": "അങ്കമാലി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7580f0f0-a916-416e-a17f-f8da677f9c54",
+      "ward_no": "1",
+      "ward_name_en": "Elavanthi",
+      "ward_name_ml": "ഇലവന്തി"
+    },
+    {
+      "ward_id": "011d90a7-5b11-4b2f-a936-cedb3acc110a",
+      "ward_no": "2",
+      "ward_name_en": "Marygiry",
+      "ward_name_ml": "മേരിഗിരി"
+    },
+    {
+      "ward_id": "966264c8-6ae6-42b4-94e7-c08a6967ab73",
+      "ward_no": "3",
+      "ward_name_en": "Vadakkumbhagam",
+      "ward_name_ml": "വടക്കുംഭാഗം"
+    },
+    {
+      "ward_id": "1d037de8-dad1-4390-acdd-5872b59bdea7",
+      "ward_no": "4",
+      "ward_name_en": "Puthumana",
+      "ward_name_ml": "പുതുമന"
+    },
+    {
+      "ward_id": "8a4b3084-d77d-4475-9826-0cc56da29200",
+      "ward_no": "5",
+      "ward_name_en": "Naduvattam East",
+      "ward_name_ml": "നടുവട്ടം ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "32e8185b-5d9a-464c-9b51-b40e93075eb8",
+      "ward_no": "6",
+      "ward_name_en": "Naduvattam West",
+      "ward_name_ml": "നടുവട്ടം വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "fbad4feb-005a-4a40-a018-f83770a4bd63",
+      "ward_no": "7",
+      "ward_name_en": "Mularipadam",
+      "ward_name_ml": "മുളരിപ്പാടം"
+    },
+    {
+      "ward_id": "566af3c1-3f5d-4fba-8774-bf9ebd1c6e67",
+      "ward_no": "8",
+      "ward_name_en": "Karingalikadu",
+      "ward_name_ml": "കരിങ്ങാലിക്കാട്"
+    },
+    {
+      "ward_id": "937c6b76-ae5c-4520-8543-01864da1f072",
+      "ward_no": "9",
+      "ward_name_en": "Chandrapura",
+      "ward_name_ml": "ചന്ദ്രപ്പുര"
+    },
+    {
+      "ward_id": "73401b15-dbac-4b48-922f-6e5a7f2992f6",
+      "ward_no": "10",
+      "ward_name_en": "R C Church",
+      "ward_name_ml": "ആര്‍ സി ചര്‍ച്ച്"
+    },
+    {
+      "ward_id": "471ac0ab-c8d0-41ab-b1e4-8d40cc3556bb",
+      "ward_no": "11",
+      "ward_name_en": "Nadamuri",
+      "ward_name_ml": "നടമുറി"
+    },
+    {
+      "ward_id": "6dda8dbf-1bbe-43c4-a589-941c44fb186a",
+      "ward_no": "12",
+      "ward_name_en": "Thavalappara East",
+      "ward_name_ml": "തവളപ്പാറ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "a0d0eb09-2a9a-4d4a-85e4-7a6b46d56e69",
+      "ward_no": "13",
+      "ward_name_en": "Thavalappara West",
+      "ward_name_ml": "തവളപ്പാറ വെസ്റ്റ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070303.geojson"
+  }
+}

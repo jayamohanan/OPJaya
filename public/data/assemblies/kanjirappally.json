@@ -1,0 +1,72 @@
+{
+  "assembly_id": "100",
+  "assembly_name_en": "Kanjirappally",
+  "assembly_name_ml": "കാഞ്ഞിരപ്പള്ളി",
+  "category": "Normal",
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G051001",
+      "local_body_name_en": "Chirakkadavu",
+      "local_body_name_ml": "ചിറക്കടവ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G051002",
+      "local_body_name_en": "Kangazha",
+      "local_body_name_ml": "കങ്ങഴ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G051102",
+      "local_body_name_en": "Kanjirappally",
+      "local_body_name_ml": "കാഞ്ഞിരപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G051006",
+      "local_body_name_en": "Karukachal",
+      "local_body_name_ml": "കറുകച്ചാല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G051104",
+      "local_body_name_en": "Manimala",
+      "local_body_name_ml": "മണിമല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G051003",
+      "local_body_name_en": "Nedumkunnam",
+      "local_body_name_ml": "നെടുംകുന്നം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050705",
+      "local_body_name_en": "Pallickathodu",
+      "local_body_name_ml": "പള്ളിക്കത്തോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G051005",
+      "local_body_name_en": "Vazhoor",
+      "local_body_name_ml": "വാഴൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G051004",
+      "local_body_name_en": "Vellavoor",
+      "local_body_name_ml": "വെള്ളാവൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kanjirappally.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kanjirappally.geojson"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G091007",
+  "local_body_name_en": "Peruvemba",
+  "local_body_name_ml": "പെരുവെമ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "58",
+    "assembly_name_en": "Chittur",
+    "assembly_name_ml": "ചിറ്റൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1f4a888c-2d2b-4000-a5b1-10db5b3bf816",
+      "ward_no": "11",
+      "ward_name_en": "Chungam",
+      "ward_name_ml": "ചുങ്കം"
+    },
+    {
+      "ward_id": "2d74a4d0-66d3-4d05-bf1e-a2ae51438950",
+      "ward_no": "1",
+      "ward_name_en": "Thannissery",
+      "ward_name_ml": "തണ്ണിശ്ശേരി"
+    },
+    {
+      "ward_id": "8e431612-858d-4765-b514-d8f9f91c2ed7",
+      "ward_no": "2",
+      "ward_name_en": "Naramankulam",
+      "ward_name_ml": "നരമന്‍കുളം"
+    },
+    {
+      "ward_id": "f2b2b602-de17-4cdc-a153-e2dd28408084",
+      "ward_no": "3",
+      "ward_name_en": "Padinjarethara",
+      "ward_name_ml": "പടിഞ്ഞാറെത്തറ"
+    },
+    {
+      "ward_id": "b7e692c5-65ef-4181-afa7-ac8a307aea67",
+      "ward_no": "4",
+      "ward_name_en": "Appalam",
+      "ward_name_ml": "അപ്പളം"
+    },
+    {
+      "ward_id": "a97c0f36-1946-4686-8a61-d14e24c70e18",
+      "ward_no": "5",
+      "ward_name_en": "Kunnekkad",
+      "ward_name_ml": "കുന്നേക്കാട്"
+    },
+    {
+      "ward_id": "d929dc79-bf1c-4000-acbf-6b3d3266c3fb",
+      "ward_no": "6",
+      "ward_name_en": "Cheerayankkad",
+      "ward_name_ml": "ചീരയന്‍കാട്"
+    },
+    {
+      "ward_id": "4a396cf9-2c0c-4488-b141-00f7f581f912",
+      "ward_no": "7",
+      "ward_name_en": "Karukamani",
+      "ward_name_ml": "കറുകമണി"
+    },
+    {
+      "ward_id": "060e9828-9e9d-4fd4-9f5b-9606bedc4e34",
+      "ward_no": "8",
+      "ward_name_en": "Palathully",
+      "ward_name_ml": "പാലത്തുള്ളി"
+    },
+    {
+      "ward_id": "84e89fa4-ba10-4302-a25a-d14baa6ba8e4",
+      "ward_no": "9",
+      "ward_name_en": "Kallenchira",
+      "ward_name_ml": "കല്ലഞ്ചിറ"
+    },
+    {
+      "ward_id": "5b67176a-0a2c-4e31-91c6-e3330b9cf741",
+      "ward_no": "10",
+      "ward_name_en": "Kizhakkethara",
+      "ward_name_ml": "കിഴക്കെത്തറ"
+    },
+    {
+      "ward_id": "9c84b823-a044-453c-92ba-ea8234bef4ff",
+      "ward_no": "12",
+      "ward_name_en": "Melekkad",
+      "ward_name_ml": "മേലെക്കാട്"
+    },
+    {
+      "ward_id": "9e52f916-53da-4b05-8769-5fd5ac63463e",
+      "ward_no": "13",
+      "ward_name_en": "Vazhakkode",
+      "ward_name_ml": "വാഴക്കോട്"
+    },
+    {
+      "ward_id": "3113955f-a931-449a-a06b-7d067b2a3ec5",
+      "ward_no": "14",
+      "ward_name_en": "Mannathukavu",
+      "ward_name_ml": "മന്നത്തുകാവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091007.geojson"
+  }
+}

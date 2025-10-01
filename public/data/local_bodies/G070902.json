@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G070902",
+  "local_body_name_en": "Mulanthuruthy",
+  "local_body_name_ml": "മുളന്തുരുത്തി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "85",
+    "assembly_name_en": "Piravom",
+    "assembly_name_ml": "പിറവം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "02d4424a-019f-44a5-8d7f-c33354dc2cc3",
+      "ward_no": "1",
+      "ward_name_en": "Vezhaparambu",
+      "ward_name_ml": "വേഴപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "af086c2f-3117-4d88-9573-6d49410cf26a",
+      "ward_no": "2",
+      "ward_name_en": "Inchimala",
+      "ward_name_ml": "ഇഞ്ചിമല"
+    },
+    {
+      "ward_id": "8eca4599-06a4-4f0d-8c57-bd0091a617d6",
+      "ward_no": "3",
+      "ward_name_en": "Karikode",
+      "ward_name_ml": "കാരിക്കോട്"
+    },
+    {
+      "ward_id": "9e40b957-46e1-485a-8156-31e46ce5d33e",
+      "ward_no": "4",
+      "ward_name_en": "Pollemugal",
+      "ward_name_ml": "പൊല്ലെമുകള്‍"
+    },
+    {
+      "ward_id": "7f504ea3-c991-4b29-8e1c-172aaaf4afd4",
+      "ward_no": "5",
+      "ward_name_en": "Thuppampady",
+      "ward_name_ml": "തുപ്പംപടി"
+    },
+    {
+      "ward_id": "e8c630a8-4df4-4430-a845-e3a399a65f3d",
+      "ward_no": "6",
+      "ward_name_en": "Vettickal",
+      "ward_name_ml": "വെട്ടിക്കല്‍"
+    },
+    {
+      "ward_id": "83c81971-abcd-4765-9460-4b27de31a1ee",
+      "ward_no": "7",
+      "ward_name_en": "Arakkunnam",
+      "ward_name_ml": "ആരക്കുന്നം"
+    },
+    {
+      "ward_id": "53d288ff-f482-4a64-94be-1c63f86c885b",
+      "ward_no": "8",
+      "ward_name_en": "Pulikamaly",
+      "ward_name_ml": "പുളിക്കമാലി"
+    },
+    {
+      "ward_id": "6ddd989c-157f-433e-905f-ea16dc24da6a",
+      "ward_no": "9",
+      "ward_name_en": "Paingarapilly",
+      "ward_name_ml": "പൈങ്ങാരപ്പിള്ളി"
+    },
+    {
+      "ward_id": "10b5da7c-a5a1-4fa1-9627-9e80f3af9e83",
+      "ward_no": "10",
+      "ward_name_en": "Thuruthikara",
+      "ward_name_ml": "തുരുത്തിക്കര"
+    },
+    {
+      "ward_id": "9016152b-4687-430d-9c79-b7ba381985da",
+      "ward_no": "11",
+      "ward_name_en": "Kavummugal",
+      "ward_name_ml": "കാവുംമുകള്‍"
+    },
+    {
+      "ward_id": "9c16fe2b-8574-452d-8dcd-7659263d7e87",
+      "ward_no": "12",
+      "ward_name_en": "Railway Station",
+      "ward_name_ml": "റെയില്‍വേ സ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "3cdd5687-8892-4781-b5d9-a27bd68b7bd1",
+      "ward_no": "13",
+      "ward_name_en": "Perumpilly",
+      "ward_name_ml": "പെരുന്വിള്ളി"
+    },
+    {
+      "ward_id": "332a98ed-ed83-4be0-aec7-49ca15fc879f",
+      "ward_no": "14",
+      "ward_name_en": "Moolekuriz",
+      "ward_name_ml": "മൂലേക്കുരിശ്"
+    },
+    {
+      "ward_id": "3cdac88f-fb01-47ed-a676-eb6b2127a268",
+      "ward_no": "15",
+      "ward_name_en": "Padathukavu",
+      "ward_name_ml": "പാടത്തുകാവ്"
+    },
+    {
+      "ward_id": "8ae6fa55-5d63-48cb-81b9-d4008d9908b4",
+      "ward_no": "16",
+      "ward_name_en": "Karavattekurizu",
+      "ward_name_ml": "കരവട്ടെകുരിശ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070902.geojson"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G080305",
+  "local_body_name_en": "Thekkumkara",
+  "local_body_name_ml": "തെക്കുംകര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "65",
+    "assembly_name_en": "Wadakkanchery",
+    "assembly_name_ml": "വടക്കാഞ്ചേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a043681e-6d37-4df7-bd18-22bdaf5bec88",
+      "ward_no": "1",
+      "ward_name_en": "Karumathra",
+      "ward_name_ml": "കരുമത്ര"
+    },
+    {
+      "ward_id": "6a3e9685-cea0-4bc5-b0a1-71ce246d81d6",
+      "ward_no": "2",
+      "ward_name_en": "Karumathra Vadakkekkara",
+      "ward_name_ml": "കരുമത്ര വടക്കേക്കര"
+    },
+    {
+      "ward_id": "ce5b79a8-e19b-4017-8f71-e899953975c2",
+      "ward_no": "3",
+      "ward_name_en": "Viruppakka",
+      "ward_name_ml": "വിരുപ്പാക്ക"
+    },
+    {
+      "ward_id": "b03a645c-eeb8-4a16-afc5-15673e832e70",
+      "ward_no": "4",
+      "ward_name_en": "Vazhani",
+      "ward_name_ml": "വാഴാനി"
+    },
+    {
+      "ward_id": "5291021c-2618-444f-9818-b2f6fa69fe1c",
+      "ward_no": "5",
+      "ward_name_en": "Manalithra Kizhakkekkara",
+      "ward_name_ml": "മണലിത്ര കിഴക്കേക്കര"
+    },
+    {
+      "ward_id": "81906980-de3a-43cc-a096-a6c8bd943d83",
+      "ward_no": "6",
+      "ward_name_en": "Manalithra",
+      "ward_name_ml": "മണലിത്ര"
+    },
+    {
+      "ward_id": "4fdce729-0101-4783-b27f-79e74ead038e",
+      "ward_no": "7",
+      "ward_name_en": "Malakka",
+      "ward_name_ml": "മലാക്ക"
+    },
+    {
+      "ward_id": "9bfd2095-7646-478a-a337-195f5aac2d88",
+      "ward_no": "8",
+      "ward_name_en": "Veerolippadam",
+      "ward_name_ml": "വീരോലിപ്പാടം"
+    },
+    {
+      "ward_id": "4759c415-ef30-41a7-ab23-840f2d445b56",
+      "ward_no": "9",
+      "ward_name_en": "Pazhayannuppadam",
+      "ward_name_ml": "പഴയന്നൂപ്പാടം"
+    },
+    {
+      "ward_id": "0f51f677-38d7-48eb-97af-54aab6d545c9",
+      "ward_no": "10",
+      "ward_name_en": "Ambalappad",
+      "ward_name_ml": "അമ്പലപ്പാട്"
+    },
+    {
+      "ward_id": "1f27a97b-bfec-48dc-bbf0-fdd79d368fe5",
+      "ward_no": "11",
+      "ward_name_en": "Kundukad",
+      "ward_name_ml": "കുണ്ടുകാട്"
+    },
+    {
+      "ward_id": "11250942-67d4-431e-85be-491548783a5f",
+      "ward_no": "12",
+      "ward_name_en": "Meppadam",
+      "ward_name_ml": "മേപ്പാടം"
+    },
+    {
+      "ward_id": "c8fe5e80-4d8a-47ed-96f4-66733cb81377",
+      "ward_no": "13",
+      "ward_name_en": "Parambai",
+      "ward_name_ml": "പറമ്പായ്"
+    },
+    {
+      "ward_id": "25e920d4-c16a-4875-914a-99de85f7f703",
+      "ward_no": "14",
+      "ward_name_en": "Kuthupara",
+      "ward_name_ml": "കുത്തുപാറ"
+    },
+    {
+      "ward_id": "7066a9ab-f9c6-4e6c-8348-63151c31f389",
+      "ward_no": "15",
+      "ward_name_en": "Adangalam",
+      "ward_name_ml": "അടങ്ങളം"
+    },
+    {
+      "ward_id": "3933d565-9e5a-4586-bcc0-48d9832ad2fb",
+      "ward_no": "16",
+      "ward_name_en": "Panangattukara",
+      "ward_name_ml": "പനങ്ങാട്ടുകര"
+    },
+    {
+      "ward_id": "8bd26d5b-95bc-4be1-99e8-e7768c6066bd",
+      "ward_no": "17",
+      "ward_name_en": "Thekkumkara",
+      "ward_name_ml": "തെക്കുംകര"
+    },
+    {
+      "ward_id": "ce6cb8eb-23b9-4933-8c87-54c056ea9f1d",
+      "ward_no": "18",
+      "ward_name_en": "Punnamparambu",
+      "ward_name_ml": "പുന്നംപറമ്പ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080305.geojson"
+  }
+}

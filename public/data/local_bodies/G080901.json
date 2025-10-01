@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G080901",
+  "local_body_name_en": "Anthikad",
+  "local_body_name_ml": "അന്തിക്കാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "68",
+    "assembly_name_en": "Nattika",
+    "assembly_name_ml": "നാട്ടിക",
+    "category": "Good"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7ba3ff86-c0e5-4b91-aeaa-2a8d88d52b3e",
+      "ward_no": "1",
+      "ward_name_en": "Pulambuzha",
+      "ward_name_ml": "പുലാമ്പുഴ"
+    },
+    {
+      "ward_id": "589b41da-2c75-42d7-89be-a0006e655a19",
+      "ward_no": "2",
+      "ward_name_en": "Mangattukara",
+      "ward_name_ml": "മാങ്ങാട്ടുകര"
+    },
+    {
+      "ward_id": "d53f26cd-448d-4a3d-a2a0-febe9013cac1",
+      "ward_no": "3",
+      "ward_name_en": "Anthikad North",
+      "ward_name_ml": "അന്തിക്കാട് വടക്ക്"
+    },
+    {
+      "ward_id": "fea0d5b6-001c-4d82-9aa8-bd010c68ae05",
+      "ward_no": "4",
+      "ward_name_en": "Cheriyankulangara Bhagam",
+      "ward_name_ml": "ചെരിയന്‍കുളങ്ങര ഭാഗം"
+    },
+    {
+      "ward_id": "f5ae0c99-7e42-4060-8609-f4a05c9cbf2c",
+      "ward_no": "5",
+      "ward_name_en": "Panchayath Office Bhagam",
+      "ward_name_ml": "പഞ്ചായത്ത് ഒാഫീസ് ഭാഗം"
+    },
+    {
+      "ward_id": "dbf01505-e00b-4872-b452-3b2d935987cd",
+      "ward_no": "6",
+      "ward_name_en": "Panchayath  Ground Bhagam",
+      "ward_name_ml": "പഞ്ചായത്ത് ഗ്രൌണ്ട് ഭാഗം"
+    },
+    {
+      "ward_id": "afa83956-86eb-46bb-9500-5c70fab52040",
+      "ward_no": "7",
+      "ward_name_en": "Puthenpeedika East",
+      "ward_name_ml": "പുത്തന്‍പീടിക കിഴക്ക്"
+    },
+    {
+      "ward_id": "ac316c38-d43d-41f8-90ad-9121e5f7a291",
+      "ward_no": "8",
+      "ward_name_en": "Puthenpeedika West",
+      "ward_name_ml": "പുത്തന്‍പീടിക പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "b72bac14-40d4-44af-9f8c-506a533c1cdb",
+      "ward_no": "9",
+      "ward_name_en": "Anthikad South",
+      "ward_name_ml": "അന്തിക്കാട് തെക്ക്"
+    },
+    {
+      "ward_id": "6a4a572a-33ad-459c-95b8-1fc6d653d4ee",
+      "ward_no": "10",
+      "ward_name_en": "Padiyam",
+      "ward_name_ml": "പടിയം"
+    },
+    {
+      "ward_id": "139c9e49-f143-4a86-96cb-9ec8cece05c7",
+      "ward_no": "11",
+      "ward_name_en": "Anjangadi",
+      "ward_name_ml": "അഞ്ചങ്ങാടി"
+    },
+    {
+      "ward_id": "612a07c4-8e47-41fd-ad95-bcc0c1d9af85",
+      "ward_no": "12",
+      "ward_name_en": "Choorakode",
+      "ward_name_ml": "ചൂരക്കോട്"
+    },
+    {
+      "ward_id": "c7797ef8-559f-4069-a74a-80a051da8a18",
+      "ward_no": "13",
+      "ward_name_en": "Muttichur",
+      "ward_name_ml": "മുറ്റിച്ചൂർ"
+    },
+    {
+      "ward_id": "c354308b-6e64-4d18-987e-541275982192",
+      "ward_no": "14",
+      "ward_name_en": "Kottaraparambu",
+      "ward_name_ml": "കൊട്ടാരപറമ്പ്"
+    },
+    {
+      "ward_id": "722b93b1-9ceb-424b-aeab-c5a1bcd82f06",
+      "ward_no": "15",
+      "ward_name_en": "Karamakkal",
+      "ward_name_ml": "കാരാമാക്കല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080901.geojson"
+  }
+}

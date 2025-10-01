@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G081303",
+  "local_body_name_en": "Puthenchira",
+  "local_body_name_ml": "പുത്തന്‍ചിറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "73",
+    "assembly_name_en": "Kodungallur",
+    "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a6d883cd-5d9e-4641-a191-f950888cc9e9",
+      "ward_no": "1",
+      "ward_name_en": "Kannikulangara",
+      "ward_name_ml": "കണ്ണികുളങ്ങര"
+    },
+    {
+      "ward_id": "5ca1c861-b113-4ee9-bfbd-342bf95623bc",
+      "ward_no": "2",
+      "ward_name_en": "Pakarappilly",
+      "ward_name_ml": "പകരപ്പിള്ളി"
+    },
+    {
+      "ward_id": "e3be811a-5d0e-441d-8db9-397f88d96bb7",
+      "ward_no": "3",
+      "ward_name_en": "Santhinagar",
+      "ward_name_ml": "ശാന്തിനഗര്‍"
+    },
+    {
+      "ward_id": "5510759f-4dfd-49b1-8f11-52b9054836e5",
+      "ward_no": "4",
+      "ward_name_en": "Kizhakkummuri",
+      "ward_name_ml": "കിഴക്കുംമുറി"
+    },
+    {
+      "ward_id": "aad0649f-d5b6-4ad4-9817-a70cc6b95608",
+      "ward_no": "5",
+      "ward_name_en": "Sadanam",
+      "ward_name_ml": "സദനം"
+    },
+    {
+      "ward_id": "54ac1c95-d8f1-4a17-9db1-7bda9a9cb43b",
+      "ward_no": "6",
+      "ward_name_en": "Aasupathri",
+      "ward_name_ml": "ആശുപത്രി"
+    },
+    {
+      "ward_id": "fb944847-c21a-4914-8110-5d120135825e",
+      "ward_no": "7",
+      "ward_name_en": "Puthenchira",
+      "ward_name_ml": "പുത്തന്‍ചിറ"
+    },
+    {
+      "ward_id": "3ae1b450-6a83-409c-9f6d-4f740f245927",
+      "ward_no": "8",
+      "ward_name_en": "Karingachira",
+      "ward_name_ml": "കരിങ്ങച്ചിറ"
+    },
+    {
+      "ward_id": "51c0016e-9816-44db-9aa5-be419bfa798d",
+      "ward_no": "9",
+      "ward_name_en": "Pindani",
+      "ward_name_ml": "പിണ്ടാണി"
+    },
+    {
+      "ward_id": "d4ea9b04-90cf-4e6c-b6d5-3e7706eb6c4b",
+      "ward_no": "10",
+      "ward_name_en": "Kuppanbazar",
+      "ward_name_ml": "കുപ്പന്‍ബസാര്‍"
+    },
+    {
+      "ward_id": "09586eca-8e6d-4d1b-ad6e-de73f4f5f57e",
+      "ward_no": "11",
+      "ward_name_en": "Anappara",
+      "ward_name_ml": "ആനപ്പാറ"
+    },
+    {
+      "ward_id": "61b54e25-1d8f-4ca0-97a4-199480f7de0b",
+      "ward_no": "12",
+      "ward_name_en": "Kombathukadavu",
+      "ward_name_ml": "കൊമ്പത്തുകടവ്"
+    },
+    {
+      "ward_id": "8b0b72db-5c13-45f0-a7c4-cc782cca0689",
+      "ward_no": "13",
+      "ward_name_en": "Velloor",
+      "ward_name_ml": "വെള്ളൂര്‍"
+    },
+    {
+      "ward_id": "e721110b-42bf-49e8-84fd-de63b70dc070",
+      "ward_no": "14",
+      "ward_name_en": "Maniyamkavu",
+      "ward_name_ml": "മാണിയംകാവ്"
+    },
+    {
+      "ward_id": "fde33585-3d90-4122-8995-734569d6bf6b",
+      "ward_no": "15",
+      "ward_name_en": "Puliyilakkunnu",
+      "ward_name_ml": "പുളിയിലക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081303.geojson"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "assembly_id": "18",
+  "assembly_name_en": "Sulthan Bathery",
+  "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G120301",
+      "local_body_name_en": "Meenangadi",
+      "local_body_name_ml": "മീനങ്ങാടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G120203",
+      "local_body_name_en": "Mullankolly",
+      "local_body_name_ml": "മുള്ളന്‍കൊല്ലി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G120302",
+      "local_body_name_en": "Nenmeni",
+      "local_body_name_ml": "നെന്മേനി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G120305",
+      "local_body_name_en": "Noolpuzha",
+      "local_body_name_ml": "നൂല്‍പ്പുഴ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G120202",
+      "local_body_name_en": "Poothadi",
+      "local_body_name_ml": "പൂതാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G120204",
+      "local_body_name_en": "Pulpally",
+      "local_body_name_ml": "പുല്‍പ്പള്ളി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M120300",
+      "local_body_name_en": "Sulthan Bathery",
+      "local_body_name_ml": "സുല്‍ത്താന്‍ ബത്തേരി",
+      "category": ""
+    },
+    {
+      "local_body_id": "G120303",
+      "local_body_name_en": "Ambalavayal",
+      "local_body_name_ml": "അമ്പലവയല്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/sulthan-bathery.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/sulthan-bathery.geojson"
+  }
+}

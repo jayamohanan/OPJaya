@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G140203",
+  "local_body_name_en": "Muliyar",
+  "local_body_name_ml": "മുളിയാര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "3",
+    "assembly_name_en": "Udma",
+    "assembly_name_ml": "ഉദുമ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3692adad-4153-434c-92df-f27cd612ce45",
+      "ward_no": "1",
+      "ward_name_en": "Choorimoola",
+      "ward_name_ml": "ചൂരിമൂല"
+    },
+    {
+      "ward_id": "0c25593d-2ad5-431f-9e00-143168a612bb",
+      "ward_no": "2",
+      "ward_name_en": "Povval",
+      "ward_name_ml": "പൊവ്വല്‍"
+    },
+    {
+      "ward_id": "7b2259e8-6552-4ac8-b29d-d265a510f2d8",
+      "ward_no": "3",
+      "ward_name_en": "Mallam",
+      "ward_name_ml": "മല്ലം"
+    },
+    {
+      "ward_id": "ecf3a212-ee8b-4e2e-b1f8-2368f06afcba",
+      "ward_no": "4",
+      "ward_name_en": "Sreegiri",
+      "ward_name_ml": "ശ്രീഗിരി"
+    },
+    {
+      "ward_id": "98a171f2-e5d4-44ed-93cc-479f61d779a6",
+      "ward_no": "5",
+      "ward_name_en": "Pathanadukam",
+      "ward_name_ml": "പാത്തനടുക്കം"
+    },
+    {
+      "ward_id": "54c452f3-6596-42d3-ac79-fcba6d07768f",
+      "ward_no": "6",
+      "ward_name_en": "Panoor",
+      "ward_name_ml": "പാണൂര്‍"
+    },
+    {
+      "ward_id": "8ba9fdb8-9b36-483a-8bfd-fac4aa16446c",
+      "ward_no": "7",
+      "ward_name_en": "Kotoor",
+      "ward_name_ml": "കോട്ടൂര്‍"
+    },
+    {
+      "ward_id": "b14a968d-af88-4910-8590-08d7ec04f620",
+      "ward_no": "8",
+      "ward_name_en": "Kanathur",
+      "ward_name_ml": "കാനത്തൂര്‍"
+    },
+    {
+      "ward_id": "e6a90379-5311-4173-8c69-2b98127b9767",
+      "ward_no": "9",
+      "ward_name_en": "Iriyanni",
+      "ward_name_ml": "ഇരിയണ്ണി"
+    },
+    {
+      "ward_id": "b523c99f-7d85-40a9-8fab-e6fcc2d62d46",
+      "ward_no": "10",
+      "ward_name_en": "Bepu",
+      "ward_name_ml": "ബേപ്പ്"
+    },
+    {
+      "ward_id": "edc5f0a0-1091-4ce3-b0ec-ebefcb25ba18",
+      "ward_no": "11",
+      "ward_name_en": "Muliyar",
+      "ward_name_ml": "മുളിയാര്‍"
+    },
+    {
+      "ward_id": "bfc12762-5dc3-49d0-9d30-f28e7287ea5f",
+      "ward_no": "12",
+      "ward_name_en": "Bovikanam",
+      "ward_name_ml": "ബോവിക്കാനം"
+    },
+    {
+      "ward_id": "a0fa0e10-1c66-4613-94e2-990085db9798",
+      "ward_no": "13",
+      "ward_name_en": "Balanadukam",
+      "ward_name_ml": "ബാലനടുക്കം"
+    },
+    {
+      "ward_id": "0dd692f6-d619-4d5b-b762-a5d19c4a6111",
+      "ward_no": "14",
+      "ward_name_en": "Mooladukam",
+      "ward_name_ml": "മൂലടുക്കം"
+    },
+    {
+      "ward_id": "3a0acd1a-eced-45d7-840d-cc77703caf5b",
+      "ward_no": "15",
+      "ward_name_en": "Nellikad",
+      "ward_name_ml": "നെല്ലിക്കാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140203.geojson"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040702",
+  "local_body_name_en": "Veliyanad",
+  "local_body_name_ml": "വെളിയനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f0a78daf-5fda-4e6e-9e23-d4ab9c39e83c",
+      "ward_no": "1",
+      "ward_name_en": "Vellisrackal",
+      "ward_name_ml": "വെള്ളിസ്രാക്കല്‍"
+    },
+    {
+      "ward_id": "61873b7b-0ff1-420b-80a6-a6c9ca9585c8",
+      "ward_no": "2",
+      "ward_name_en": "Veliyanad North",
+      "ward_name_ml": "വെളിയനാട് വടക്ക്"
+    },
+    {
+      "ward_id": "9ce4acbf-8091-4d06-8d3c-65ba11bc593b",
+      "ward_no": "3",
+      "ward_name_en": "Mukkodi",
+      "ward_name_ml": "മുക്കോടി"
+    },
+    {
+      "ward_id": "dbfd8c9e-2f08-4f3e-97eb-5609f20663cc",
+      "ward_no": "4",
+      "ward_name_en": "Kumarankary",
+      "ward_name_ml": "കുമരങ്കരി"
+    },
+    {
+      "ward_id": "6410543d-506b-4abb-b615-7b1eddf022a8",
+      "ward_no": "5",
+      "ward_name_en": "Thachedam",
+      "ward_name_ml": "തച്ചേടം"
+    },
+    {
+      "ward_id": "de52bd25-d176-43f9-871f-c31ed80a415e",
+      "ward_no": "6",
+      "ward_name_en": "Kunnamkari",
+      "ward_name_ml": "കുന്നംകരി"
+    },
+    {
+      "ward_id": "a6922a34-88c8-49e4-869a-69d3c2c07bcc",
+      "ward_no": "7",
+      "ward_name_en": "Kidangara",
+      "ward_name_ml": "കിടങ്ങറ"
+    },
+    {
+      "ward_id": "24a5a4c9-c97a-4213-974a-7bd4d6b3d3db",
+      "ward_no": "8",
+      "ward_name_en": "Kidangara Bazar South",
+      "ward_name_ml": "കിടങ്ങറ ബസാർ തെക്ക്"
+    },
+    {
+      "ward_id": "b39c6263-a160-4983-8d99-f9ced2ab3074",
+      "ward_no": "9",
+      "ward_name_en": "Kidangara Bazar",
+      "ward_name_ml": "കിടങ്ങറ ബസാർ"
+    },
+    {
+      "ward_id": "a63e8446-af7f-4bd1-8ddb-a056c687475b",
+      "ward_no": "10",
+      "ward_name_en": "Kurisummoodu",
+      "ward_name_ml": "കുരിശുംമൂട്"
+    },
+    {
+      "ward_id": "f17d77b6-4449-4eb9-860f-4a97c3548a2f",
+      "ward_no": "11",
+      "ward_name_en": "Veliyanad South",
+      "ward_name_ml": "വെളിയനാട് തെക്ക്"
+    },
+    {
+      "ward_id": "054de43c-f9b8-45d8-a18b-8b08c34a0909",
+      "ward_no": "12",
+      "ward_name_en": "Village Office",
+      "ward_name_ml": "വില്ലേജ് ഓഫീസ്"
+    },
+    {
+      "ward_id": "0ee3376f-d4d9-4ca9-b025-1bb6c19d1dd7",
+      "ward_no": "13",
+      "ward_name_en": "Poochal",
+      "ward_name_ml": "പൂച്ചാൽ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040702.geojson"
+  }
+}

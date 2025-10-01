@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030407",
+  "local_body_name_en": "Naranganam",
+  "local_body_name_ml": "നാരങ്ങാനം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "113",
+    "assembly_name_en": "Aranmula",
+    "assembly_name_ml": "ആറന്മുള",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "8bee7a50-f3d2-4075-8347-1162af5b2896",
+      "ward_no": "1",
+      "ward_name_en": "Valiyakulam",
+      "ward_name_ml": "വലിയകുളം"
+    },
+    {
+      "ward_id": "fba30309-39de-46b5-ae8c-79158baa1a6e",
+      "ward_no": "2",
+      "ward_name_en": "Kanamukku",
+      "ward_name_ml": "കണമുക്ക്"
+    },
+    {
+      "ward_id": "d331ed9d-6d0a-4b80-a30a-67179dbcc6e8",
+      "ward_no": "3",
+      "ward_name_en": "Madathumpadi",
+      "ward_name_ml": "മഠത്തുംപടി"
+    },
+    {
+      "ward_id": "d9d63fec-2f24-4fd2-9729-9260b7899d9c",
+      "ward_no": "4",
+      "ward_name_en": "Alumkal",
+      "ward_name_ml": "ആലുങ്കൽ"
+    },
+    {
+      "ward_id": "042486b8-d411-45d3-9876-aee296727a89",
+      "ward_no": "5",
+      "ward_name_en": "Anthyalankavu",
+      "ward_name_ml": "അന്ത്യാളൻകാവ്"
+    },
+    {
+      "ward_id": "61b02a96-52fb-4fcc-88a5-a6ab99c82351",
+      "ward_no": "6",
+      "ward_name_en": "Kalleli",
+      "ward_name_ml": "കല്ലേലി"
+    },
+    {
+      "ward_id": "4b9a1842-226a-4211-a5e8-05008ff3b704",
+      "ward_no": "7",
+      "ward_name_en": "Ilappumkal",
+      "ward_name_ml": "ഇളപ്പുങ്കൽ"
+    },
+    {
+      "ward_id": "50e46db8-7c81-4541-b6ea-28f81b61d5fa",
+      "ward_no": "8",
+      "ward_name_en": "Kalloor",
+      "ward_name_ml": "കല്ലൂർ"
+    },
+    {
+      "ward_id": "216d1203-f2bb-475d-ac61-adfefb12b9b9",
+      "ward_no": "9",
+      "ward_name_en": "Kadammanitta",
+      "ward_name_ml": "കടമ്മനിട്ട"
+    },
+    {
+      "ward_id": "4d4f1920-1ed4-4821-afd3-c70721e6013a",
+      "ward_no": "10",
+      "ward_name_en": "Madumechil",
+      "ward_name_ml": "മാടുമേച്ചിൽ"
+    },
+    {
+      "ward_id": "b9c1da39-b773-43e0-8689-8202b6fb06c8",
+      "ward_no": "11",
+      "ward_name_en": "Thonnyamala",
+      "ward_name_ml": "തോന്ന്യാമല"
+    },
+    {
+      "ward_id": "ce2825f0-6837-48c6-8685-2ed5c4b578b4",
+      "ward_no": "12",
+      "ward_name_en": "Kannidumkuzhi",
+      "ward_name_ml": "കന്നിടുംകുഴി"
+    },
+    {
+      "ward_id": "dc930250-4f17-4f1a-8e23-2f1417f64b0e",
+      "ward_no": "13",
+      "ward_name_en": "Mahanimala",
+      "ward_name_ml": "മഹാണിമല"
+    },
+    {
+      "ward_id": "1084cc6b-d80c-46bd-a4a1-778aaf7c453f",
+      "ward_no": "14",
+      "ward_name_en": "Thekkebhagam",
+      "ward_name_ml": "തെക്കേഭാഗം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030407.geojson"
+  }
+}

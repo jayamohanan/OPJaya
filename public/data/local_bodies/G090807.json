@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G090807",
+  "local_body_name_en": "Kannadi",
+  "local_body_name_ml": "കണ്ണാടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "56",
+    "assembly_name_en": "Palakkad",
+    "assembly_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "cf2633dd-2f7f-4c45-9c1a-b454a1aeeff5",
+      "ward_no": "1",
+      "ward_name_en": "Kadalakurissi",
+      "ward_name_ml": "കടലാകുറുശ്ശി"
+    },
+    {
+      "ward_id": "e4cd6896-6591-4076-b924-e7aac16a104f",
+      "ward_no": "2",
+      "ward_name_en": "Manaloor",
+      "ward_name_ml": "മണലൂര്‍"
+    },
+    {
+      "ward_id": "6fc50d3e-71fd-4fc6-a327-a05bcd170382",
+      "ward_no": "3",
+      "ward_name_en": "Vadakkumuri",
+      "ward_name_ml": "വടക്കുമുറി"
+    },
+    {
+      "ward_id": "c5558ec5-3962-444f-aec8-d635101af3da",
+      "ward_no": "4",
+      "ward_name_en": "Puzhakkal",
+      "ward_name_ml": "പുഴയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "d82fe15e-0bdd-475c-bb28-9a413dab9978",
+      "ward_no": "5",
+      "ward_name_en": "Yakkara",
+      "ward_name_ml": "യാക്കര"
+    },
+    {
+      "ward_id": "f8cc03be-32a5-4c68-8ab8-14fa84a47e89",
+      "ward_no": "6",
+      "ward_name_en": "Uppumpadam",
+      "ward_name_ml": "ഉപ്പുംപാടം"
+    },
+    {
+      "ward_id": "efa176d5-740f-4d8f-b997-94ede1103ce9",
+      "ward_no": "7",
+      "ward_name_en": "Kadumthurithi",
+      "ward_name_ml": "കടുംന്തുരുത്തി"
+    },
+    {
+      "ward_id": "1deae218-8e2f-4955-85fc-fb5fb10b5689",
+      "ward_no": "8",
+      "ward_name_en": "Thanneerpanthal",
+      "ward_name_ml": "തണ്ണീര്‍പന്തല്‍"
+    },
+    {
+      "ward_id": "1ae57c80-1657-4478-9613-1d12fb302249",
+      "ward_no": "9",
+      "ward_name_en": "Parappana",
+      "ward_name_ml": "പരപ്പന"
+    },
+    {
+      "ward_id": "703e4134-eea8-48e6-931f-c95e158404e4",
+      "ward_no": "10",
+      "ward_name_en": "Neduvakkad",
+      "ward_name_ml": "നെടുവക്കാട്"
+    },
+    {
+      "ward_id": "f361a5cf-c620-471d-9dc4-6b129e4133ff",
+      "ward_no": "11",
+      "ward_name_en": "Chengalamkadu",
+      "ward_name_ml": "ചെങ്ങലംകാട്"
+    },
+    {
+      "ward_id": "db9e6116-87ed-4c45-ad9c-7d2b17270dd2",
+      "ward_no": "12",
+      "ward_name_en": "Njayarazchakavu",
+      "ward_name_ml": "ഞായറാഴ്ച്ചക്കാവ്"
+    },
+    {
+      "ward_id": "7380389e-a93c-44ee-9930-598480698a52",
+      "ward_no": "13",
+      "ward_name_en": "Pathikkal",
+      "ward_name_ml": "പാത്തിക്കല്‍"
+    },
+    {
+      "ward_id": "76b0bc16-5a32-41a4-9e76-98e405354226",
+      "ward_no": "14",
+      "ward_name_en": "Tharuvakurissi",
+      "ward_name_ml": "തരുവക്കുറുശ്ശി"
+    },
+    {
+      "ward_id": "cd99c427-a055-49cb-b0c5-eb9f8cb459ae",
+      "ward_no": "15",
+      "ward_name_en": "Kadakurissi",
+      "ward_name_ml": "കടകുറിശ്ശി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090807.geojson"
+  }
+}

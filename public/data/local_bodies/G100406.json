@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G100406",
+  "local_body_name_en": "Vazhayur",
+  "local_body_name_ml": "വാഴയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "33",
+    "assembly_name_en": "Kondotty",
+    "assembly_name_ml": "കൊണ്ടോട്ടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d9a4ae67-5848-4806-b909-66bb6027218c",
+      "ward_no": "1",
+      "ward_name_en": "Andikkadenkuzhi",
+      "ward_name_ml": "അണ്ടിക്കാടന്‍ക്കുഴി"
+    },
+    {
+      "ward_id": "7a41f452-64d0-45f5-bd5d-db1da33d508f",
+      "ward_no": "2",
+      "ward_name_en": "Azhinhilam",
+      "ward_name_ml": "അഴിഞ്ഞിലം"
+    },
+    {
+      "ward_id": "0a876907-5804-4b5c-bd7d-b04e333eb9b3",
+      "ward_no": "3",
+      "ward_name_en": "Karad",
+      "ward_name_ml": "കാരാട്"
+    },
+    {
+      "ward_id": "3d913274-4ba0-418d-be9b-57451684264f",
+      "ward_no": "4",
+      "ward_name_en": "Ponnempadam",
+      "ward_name_ml": "പൊന്നേംപാടം"
+    },
+    {
+      "ward_id": "99519f4a-7039-44c4-a62c-432328ba493f",
+      "ward_no": "5",
+      "ward_name_en": "Thiruthiyad",
+      "ward_name_ml": "തിരുത്തിയാട്"
+    },
+    {
+      "ward_id": "6ba1c183-c24d-4a71-9540-5a281fb19f65",
+      "ward_no": "6",
+      "ward_name_en": "Punchappadam",
+      "ward_name_ml": "പുഞ്ചപ്പാടം"
+    },
+    {
+      "ward_id": "2b723164-98b8-4a72-850f-07d1b172428e",
+      "ward_no": "7",
+      "ward_name_en": "Mundakasseri",
+      "ward_name_ml": "മുണ്ടകശ്ശേരി"
+    },
+    {
+      "ward_id": "135dd18f-c7e2-40d8-9bde-1ebb59bdbb73",
+      "ward_no": "8",
+      "ward_name_en": "Vazhayoor",
+      "ward_name_ml": "വാഴയൂര്‍"
+    },
+    {
+      "ward_id": "72d00e8a-c31f-4816-a487-b73b56348a02",
+      "ward_no": "9",
+      "ward_name_en": "Alungal",
+      "ward_name_ml": "ആലുങ്ങല്‍"
+    },
+    {
+      "ward_id": "48abe969-a12f-4aa8-aec6-0edc418febcc",
+      "ward_no": "10",
+      "ward_name_en": "Kakkove",
+      "ward_name_ml": "കക്കോവ്"
+    },
+    {
+      "ward_id": "13b92a6b-7448-4ba2-af09-50c39e2d6fc4",
+      "ward_no": "11",
+      "ward_name_en": "Kottupadam",
+      "ward_name_ml": "കോട്ടുപാടം"
+    },
+    {
+      "ward_id": "ec14a117-ce13-43a0-93c4-935f7b44af63",
+      "ward_no": "12",
+      "ward_name_en": "Charalodi",
+      "ward_name_ml": "ചരലൊടി"
+    },
+    {
+      "ward_id": "1ec5afc4-0a18-4d2c-891d-7cc3e025a3ff",
+      "ward_no": "13",
+      "ward_name_en": "East Karad",
+      "ward_name_ml": "ഈസ്റ്റ് കാരാട്"
+    },
+    {
+      "ward_id": "d7819d1a-c20e-467b-a5d6-751a0c566e6c",
+      "ward_no": "14",
+      "ward_name_en": "Puthukkode",
+      "ward_name_ml": "പുതുക്കോട്"
+    },
+    {
+      "ward_id": "29ca3124-8cd7-4652-a709-e7f9b13d67f8",
+      "ward_no": "15",
+      "ward_name_en": "Areekkunnu",
+      "ward_name_ml": "അരീക്കുന്ന്"
+    },
+    {
+      "ward_id": "4db39c4d-1072-41e0-8c24-5f491bba0d4c",
+      "ward_no": "16",
+      "ward_name_en": "Parammal",
+      "ward_name_ml": "പാറമ്മല്‍"
+    },
+    {
+      "ward_id": "caf4bc4c-5ffa-4a9a-bb08-f446a241eb2f",
+      "ward_no": "17",
+      "ward_name_en": "Kaliparamb",
+      "ward_name_ml": "കളിപറമ്പ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100406.geojson"
+  }
+}

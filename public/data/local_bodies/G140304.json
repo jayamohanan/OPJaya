@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G140304",
+  "local_body_name_en": "MogralPuthur",
+  "local_body_name_ml": "മൊഗരാല്‍ പുത്തൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "2",
+    "assembly_name_en": "Kasaragod",
+    "assembly_name_ml": "കാസര്‍കോഡ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5cdd2f48-af40-475a-823d-a89f8002aa4e",
+      "ward_no": "1",
+      "ward_name_en": "Mogar",
+      "ward_name_ml": "മൊഗര്‍"
+    },
+    {
+      "ward_id": "41ab2e69-8278-4189-ae95-06cd366ae17f",
+      "ward_no": "2",
+      "ward_name_en": "Ballur",
+      "ward_name_ml": "ബള്ളൂര്‍"
+    },
+    {
+      "ward_id": "6e3aa19c-dd8b-42f5-853c-1175357caa76",
+      "ward_no": "3",
+      "ward_name_en": "Kottakunnu",
+      "ward_name_ml": "കോട്ടക്കുന്ന്"
+    },
+    {
+      "ward_id": "7525029c-7e1b-40c9-b048-152ce8f35101",
+      "ward_no": "4",
+      "ward_name_en": "Kambar",
+      "ward_name_ml": "കമ്പാര്‍"
+    },
+    {
+      "ward_id": "704eda19-29e1-45f5-a85c-8e7e4c86adf7",
+      "ward_no": "5",
+      "ward_name_en": "Ujirkara Shastha Nagar",
+      "ward_name_ml": "ഉജിര്‍ക്കര ശാസ്ത നഗര്‍"
+    },
+    {
+      "ward_id": "ec7b9790-6690-4a10-8645-986bd0e34fa1",
+      "ward_no": "6",
+      "ward_name_en": "Majal",
+      "ward_name_ml": "മജല്‍"
+    },
+    {
+      "ward_id": "0495c295-6de6-4aba-87e5-16401e022b8b",
+      "ward_no": "7",
+      "ward_name_en": "Azad Nagar",
+      "ward_name_ml": "ആസാദ് നഗര്‍"
+    },
+    {
+      "ward_id": "39850761-fe0d-4a3a-b517-7d98ef91ce30",
+      "ward_no": "8",
+      "ward_name_en": "Pernadka",
+      "ward_name_ml": "പെര്‍ണടുക്ക"
+    },
+    {
+      "ward_id": "b1fe9ed1-9e95-4b4c-92f4-69e7f230307e",
+      "ward_no": "9",
+      "ward_name_en": "Kelugudde Ballimogar",
+      "ward_name_ml": "കേളുഗുഡ്ഡെ ബള്ളിമൊഗര്‍"
+    },
+    {
+      "ward_id": "332c5e56-37c0-4e05-862d-a8461da080ae",
+      "ward_no": "10",
+      "ward_name_en": "Eriyal",
+      "ward_name_ml": "എരിയാല്‍"
+    },
+    {
+      "ward_id": "a0bbb079-faa0-4237-b9bf-6d7f2484d850",
+      "ward_no": "11",
+      "ward_name_en": "Kulangara",
+      "ward_name_ml": "കുളങ്കര"
+    },
+    {
+      "ward_id": "6d48868d-8ede-4ed8-983b-8131f25266fc",
+      "ward_no": "12",
+      "ward_name_en": "Chowki Kunnil",
+      "ward_name_ml": "ചൌക്കി കുന്നില്‍"
+    },
+    {
+      "ward_id": "c2e053ff-bf4d-47ac-965d-88da39aeef2f",
+      "ward_no": "13",
+      "ward_name_en": "Kavugoli Kadappuram",
+      "ward_name_ml": "കാവുഗോളി കടപ്പുറം"
+    },
+    {
+      "ward_id": "898f9914-d278-4c83-80c1-1bfb166ddc1d",
+      "ward_no": "14",
+      "ward_name_en": "Kallangai",
+      "ward_name_ml": "കല്ലങ്കൈ"
+    },
+    {
+      "ward_id": "fdfc0ea6-6466-4097-95a8-fb31f2d15b38",
+      "ward_no": "15",
+      "ward_name_en": "Mogral Puthur",
+      "ward_name_ml": "മൊഗ്രാല്‍ പുത്തൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140304.geojson"
+  }
+}

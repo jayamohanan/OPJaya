@@ -1,0 +1,66 @@
+{
+  "assembly_id": "70",
+  "assembly_name_en": "Irinjalakuda",
+  "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M080500",
+      "local_body_name_en": "Irinjalakuda",
+      "local_body_name_ml": "ഇരിങ്ങാലക്കുട",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081201",
+      "local_body_name_en": "Karalam",
+      "local_body_name_ml": "കാറളം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G081202",
+      "local_body_name_en": "Kattoor",
+      "local_body_name_ml": "കാട്ടൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081203",
+      "local_body_name_en": "Muriyad",
+      "local_body_name_ml": "മുരിയാട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081301",
+      "local_body_name_en": "Padiyur",
+      "local_body_name_ml": "പടിയൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081302",
+      "local_body_name_en": "Poomangalam",
+      "local_body_name_ml": "പൂമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081501",
+      "local_body_name_en": "Aloor",
+      "local_body_name_ml": "ആളൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081305",
+      "local_body_name_en": "Velukara",
+      "local_body_name_ml": "വേളൂക്കര",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/irinjalakuda.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/irinjalakuda.geojson"
+  }
+}

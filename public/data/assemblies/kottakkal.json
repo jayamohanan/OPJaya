@@ -1,0 +1,60 @@
+{
+  "assembly_id": "46",
+  "assembly_name_en": "Kottakkal",
+  "assembly_name_ml": "കോട്ടക്കല്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G100902",
+      "local_body_name_en": "Edayur",
+      "local_body_name_ml": "എടയൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100903",
+      "local_body_name_en": "Irimbiliyam",
+      "local_body_name_ml": "ഇരിമ്പിളിയം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M100700",
+      "local_body_name_en": "Kottakkal",
+      "local_body_name_ml": "കോട്ടക്കല്‍",
+      "category": ""
+    },
+    {
+      "local_body_id": "G100905",
+      "local_body_name_en": "Kuttippuram",
+      "local_body_name_ml": "കുറ്റിപ്പുറം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100904",
+      "local_body_name_en": "Marakkara",
+      "local_body_name_ml": "മാറാക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100603",
+      "local_body_name_en": "Ponmala",
+      "local_body_name_ml": "പൊന്‍മള",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M100900",
+      "local_body_name_en": "Valanchery",
+      "local_body_name_ml": "വളാഞ്ചേരി",
+      "category": ""
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kottakkal.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kottakkal.geojson"
+  }
+}

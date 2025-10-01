@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G060105",
+  "local_body_name_en": "Pallivasal",
+  "local_body_name_ml": "പള്ളിവാസല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "88",
+    "assembly_name_en": "Devikulam",
+    "assembly_name_ml": "ദേവികുളം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a62a4106-3d4a-4917-9037-1b5b38e01cdf",
+      "ward_no": "1",
+      "ward_name_en": "Peechad",
+      "ward_name_ml": "പീച്ചാട്"
+    },
+    {
+      "ward_id": "9bbfc458-7443-45aa-9ca9-d2070a33e746",
+      "ward_no": "2",
+      "ward_name_en": "Kurisupara",
+      "ward_name_ml": "കുരിശുപാറ"
+    },
+    {
+      "ward_id": "a683f25a-885b-4b3d-b41a-39a0f4dd128a",
+      "ward_no": "3",
+      "ward_name_en": "2nd Mile",
+      "ward_name_ml": "രണ്ടാംമൈല്‍"
+    },
+    {
+      "ward_id": "6bb3c34b-ecfb-4db4-80ee-ad8b7255e67d",
+      "ward_no": "4",
+      "ward_name_en": "Pallivasal",
+      "ward_name_ml": "പള്ളിവാസല്‍"
+    },
+    {
+      "ward_id": "4e21df54-654a-4508-b65b-8ebd896162b6",
+      "ward_no": "5",
+      "ward_name_en": "Pothamedu",
+      "ward_name_ml": "പോതമേട്"
+    },
+    {
+      "ward_id": "e2d330a9-4038-44f1-8c96-e0d87baa5574",
+      "ward_no": "6",
+      "ward_name_en": "Attukadu",
+      "ward_name_ml": "ആറ്റുകാട്"
+    },
+    {
+      "ward_id": "ffe5b811-e38b-4a65-817f-085bae324cc1",
+      "ward_no": "7",
+      "ward_name_en": "Kunchithanny",
+      "ward_name_ml": "കുഞ്ചിത്തണ്ണി"
+    },
+    {
+      "ward_id": "c24ecd00-96df-4bc5-8d33-931153d2bc9a",
+      "ward_no": "8",
+      "ward_name_en": "Powerhouse",
+      "ward_name_ml": "പവ്വര്‍ഹൌസ്"
+    },
+    {
+      "ward_id": "710b0d83-88e8-4f00-a2e2-02ec4f7229c1",
+      "ward_no": "9",
+      "ward_name_en": "Chithirapuram",
+      "ward_name_ml": "ചിത്തിരപുരം"
+    },
+    {
+      "ward_id": "84c14bd2-a58b-46d2-8ca1-e1f79143852d",
+      "ward_no": "10",
+      "ward_name_en": "Anachal",
+      "ward_name_ml": "ആനച്ചാല്‍"
+    },
+    {
+      "ward_id": "b8446d9c-03d8-4527-a9cf-4fc85a85be47",
+      "ward_no": "11",
+      "ward_name_en": "Thokkupara",
+      "ward_name_ml": "തോക്കുപാറ"
+    },
+    {
+      "ward_id": "86f8bc86-4778-49af-88d2-05a7a7f17f3a",
+      "ward_no": "12",
+      "ward_name_en": "Kallar",
+      "ward_name_ml": "കല്ലാര്‍"
+    },
+    {
+      "ward_id": "67423f11-db3d-4ebf-a52b-7981ab4f2485",
+      "ward_no": "13",
+      "ward_name_en": "Iruttukanam",
+      "ward_name_ml": "ഇരുട്ടുകാനം"
+    },
+    {
+      "ward_id": "1f142a5a-75a4-444a-9eb0-17aabed399b9",
+      "ward_no": "14",
+      "ward_name_en": "Anaviratty",
+      "ward_name_ml": "ആനവിരട്ടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060105.geojson"
+  }
+}

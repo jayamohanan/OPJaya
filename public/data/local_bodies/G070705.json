@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G070705",
+  "local_body_name_en": "Kuzhuppilly",
+  "local_body_name_ml": "കുഴുപ്പിള്ളി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "79",
+    "assembly_name_en": "Vypin",
+    "assembly_name_ml": "വൈപ്പിൻ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5553c9b4-6fdc-4711-b8fb-10731bff7831",
+      "ward_no": "1",
+      "ward_name_en": "Thundippuram North",
+      "ward_name_ml": "തുണ്ടിപ്പുറം വടക്ക്"
+    },
+    {
+      "ward_id": "d9eb905c-5bde-4a92-a935-e56f6677a6ea",
+      "ward_no": "2",
+      "ward_name_en": "Ayyampilly West",
+      "ward_name_ml": "അയ്യമ്പിള്ളി പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "c1ad1500-a3ce-4c46-84f7-97660c78de72",
+      "ward_no": "3",
+      "ward_name_en": "Govt.Hospital Ward",
+      "ward_name_ml": "ഗവ. ഹോസ്പിറ്റല്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "bfa7e698-d84e-4db4-9dad-311b78aa67e1",
+      "ward_no": "4",
+      "ward_name_en": "Manappilly",
+      "ward_name_ml": "മനപ്പിള്ളി"
+    },
+    {
+      "ward_id": "3d2699bc-698c-46b3-b73a-8ca3f838e86c",
+      "ward_no": "5",
+      "ward_name_en": "Tharavattom",
+      "ward_name_ml": "തറവട്ടം"
+    },
+    {
+      "ward_id": "28359c23-4597-44b1-97de-cdacce4d4fc4",
+      "ward_no": "6",
+      "ward_name_en": "Ayyampilly East",
+      "ward_name_ml": "അയ്യമ്പിള്ളി കിഴക്ക്"
+    },
+    {
+      "ward_id": "1d04198b-d972-4b8e-9214-081ce6e50049",
+      "ward_no": "7",
+      "ward_name_en": "Cheruvype",
+      "ward_name_ml": "ചെറുവൈപ്പ്"
+    },
+    {
+      "ward_id": "9a65ecc3-1fa8-4d16-97e6-1ca9715e0dfe",
+      "ward_no": "8",
+      "ward_name_en": "Cheruvype South",
+      "ward_name_ml": "ചെറുവൈപ്പ് തെക്ക്"
+    },
+    {
+      "ward_id": "987d9c7a-dfb0-406e-a71f-6a0a25a9070d",
+      "ward_no": "9",
+      "ward_name_en": "Dheerajavan",
+      "ward_name_ml": "ധീരജവാന്‍"
+    },
+    {
+      "ward_id": "46d42b0c-df8f-4ded-b1b0-88b69c85af28",
+      "ward_no": "10",
+      "ward_name_en": "Kuzhuppilly",
+      "ward_name_ml": "കുഴുപ്പിള്ളി"
+    },
+    {
+      "ward_id": "2f4a4a27-9f0b-405a-9439-fcaac9827112",
+      "ward_no": "11",
+      "ward_name_en": "Pallathamkulangara",
+      "ward_name_ml": "പള്ളത്താംകുളങ്ങര"
+    },
+    {
+      "ward_id": "dba9b675-0eb2-49de-a9a5-7d998c8b7b75",
+      "ward_no": "12",
+      "ward_name_en": "Block Office Ward",
+      "ward_name_ml": "ബ്ലോക്ക് ഓഫീസ് വാര്‍‌ഡ്"
+    },
+    {
+      "ward_id": "858babc5-ec52-40a5-9419-77a8b7eb4301",
+      "ward_no": "13",
+      "ward_name_en": "Thundippuram South",
+      "ward_name_ml": "തുണ്ടിപ്പുറം തെക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070705.geojson"
+  }
+}

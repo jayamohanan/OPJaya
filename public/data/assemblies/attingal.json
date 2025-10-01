@@ -1,0 +1,78 @@
+{
+  "assembly_id": "128",
+  "assembly_name_en": "Attingal",
+  "assembly_name_ml": "ആറ്റിങ്ങൽ",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M010200",
+      "local_body_name_en": "Attingal",
+      "local_body_name_ml": "ആറ്റിങ്ങല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010106",
+      "local_body_name_en": "Cherunniyoor",
+      "local_body_name_ml": "ചെറുന്നിയൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010203",
+      "local_body_name_en": "Karavaram",
+      "local_body_name_ml": "കരവാരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010201",
+      "local_body_name_en": "Kilimanoor",
+      "local_body_name_ml": "കിളിമാനൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010104",
+      "local_body_name_en": "Manamboor",
+      "local_body_name_ml": "മണമ്പൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010206",
+      "local_body_name_en": "Nagaroor",
+      "local_body_name_ml": "നഗരൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010105",
+      "local_body_name_en": "Ottoor",
+      "local_body_name_ml": "ഒറ്റൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010202",
+      "local_body_name_en": "Pazhayakunnumel",
+      "local_body_name_ml": "പഴയകുന്നുമ്മേല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010208",
+      "local_body_name_en": "Pulimath",
+      "local_body_name_ml": "പുളിമാത്ത്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010302",
+      "local_body_name_en": "Vakkom",
+      "local_body_name_ml": "വക്കം",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/attingal.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/attingal.geojson"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G060406",
+  "local_body_name_en": "Karimannoor",
+  "local_body_name_ml": "കരിമണ്ണൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "90",
+    "assembly_name_en": "Thodupuzha",
+    "assembly_name_ml": "തൊടുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7ca53f62-fe9d-4351-b1ca-aa511b43b29f",
+      "ward_no": "1",
+      "ward_name_en": "Neyyassery",
+      "ward_name_ml": "നെയ്യശ്ശേരി"
+    },
+    {
+      "ward_id": "afc6b60b-4ee8-42dc-b668-d048474e2a46",
+      "ward_no": "2",
+      "ward_name_en": "Anikkuzha",
+      "ward_name_ml": "ആനിക്കുഴ"
+    },
+    {
+      "ward_id": "25517e3e-3564-460e-8bf4-03440d279fdd",
+      "ward_no": "3",
+      "ward_name_en": "Thommankuthu",
+      "ward_name_ml": "തൊമ്മന്‍കുത്ത്"
+    },
+    {
+      "ward_id": "2006342d-1ad9-4503-83a8-0bdfd42e3ec0",
+      "ward_no": "4",
+      "ward_name_en": "Mulappuram",
+      "ward_name_ml": "മുളപ്പുറം"
+    },
+    {
+      "ward_id": "14ee1bde-ce66-4bff-b857-7bc09cdbccfd",
+      "ward_no": "5",
+      "ward_name_en": "Kottakkavala",
+      "ward_name_ml": "കോട്ടക്കവല"
+    },
+    {
+      "ward_id": "a57e0192-cd54-4ab8-a9a1-14fc67c8c201",
+      "ward_no": "6",
+      "ward_name_en": "Nellimala",
+      "ward_name_ml": "നെല്ലിമല"
+    },
+    {
+      "ward_id": "2e3430b5-51a2-457d-ae82-84cbf5613a22",
+      "ward_no": "7",
+      "ward_name_en": "Pazhookkara",
+      "ward_name_ml": "പാഴൂക്കര"
+    },
+    {
+      "ward_id": "429ebb06-7cfc-4ea9-ab00-df72aff6f14b",
+      "ward_no": "8",
+      "ward_name_en": "Pallickamury",
+      "ward_name_ml": "പള്ളിയ്ക്കാമുറി"
+    },
+    {
+      "ward_id": "99fbdc99-0d77-4f92-82e6-ae14e2ff4191",
+      "ward_no": "9",
+      "ward_name_en": "Pannoor",
+      "ward_name_ml": "പന്നൂര്‍"
+    },
+    {
+      "ward_id": "2ab5bddd-1631-4878-9d44-9b31ceb4fcd3",
+      "ward_no": "10",
+      "ward_name_en": "Cherady",
+      "ward_name_ml": "ചേറാടി"
+    },
+    {
+      "ward_id": "9460f9c5-3932-487f-ab8e-d452072898b6",
+      "ward_no": "11",
+      "ward_name_en": "Karimanoor Town",
+      "ward_name_ml": "കരിമണ്ണൂര്‍ ടൌണ്‍"
+    },
+    {
+      "ward_id": "2de77ae1-2343-4226-b3a7-967c4d3d4834",
+      "ward_no": "12",
+      "ward_name_en": "Kiliyara",
+      "ward_name_ml": "കിളിയറ"
+    },
+    {
+      "ward_id": "2fbbed36-1c38-4639-9e98-3ea3a7e541ab",
+      "ward_no": "13",
+      "ward_name_en": "Ezhumuttam",
+      "ward_name_ml": "ഏഴുമുട്ടം"
+    },
+    {
+      "ward_id": "a522a2e8-8da6-40e3-9f79-0113582a8157",
+      "ward_no": "14",
+      "ward_name_en": "Kurumpalamattam",
+      "ward_name_ml": "കുറുമ്പാലമറ്റം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060406.geojson"
+  }
+}

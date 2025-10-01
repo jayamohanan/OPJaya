@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G080304",
+  "local_body_name_en": "Mullurkara",
+  "local_body_name_ml": "മുള്ളൂര്‍ക്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "61",
+    "assembly_name_en": "Chelakkara",
+    "assembly_name_ml": "ചേലക്കര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "34f96707-d651-47eb-9b15-b7d1b21184c5",
+      "ward_no": "1",
+      "ward_name_en": "Kanjirassery",
+      "ward_name_ml": "കാഞ്ഞിരശ്ശേരി"
+    },
+    {
+      "ward_id": "2a0108ec-e6c2-47b8-8949-d1a8816401da",
+      "ward_no": "2",
+      "ward_name_en": "Irunnilamcode",
+      "ward_name_ml": "ഇരുന്നിലംകോട്"
+    },
+    {
+      "ward_id": "de791ff3-fbb1-4e87-bddb-30aface01772",
+      "ward_no": "3",
+      "ward_name_en": "S N Nagar",
+      "ward_name_ml": "എസ് എന്‍ നഗര്‍"
+    },
+    {
+      "ward_id": "efba4bc7-f5b1-4adf-aec7-90a47e35a181",
+      "ward_no": "4",
+      "ward_name_en": "Ambalamkunnu",
+      "ward_name_ml": "അമ്പലംകുന്ന്"
+    },
+    {
+      "ward_id": "998d9d75-a6ce-4fda-bdde-1a5e4ebd1680",
+      "ward_no": "5",
+      "ward_name_en": "Attur",
+      "ward_name_ml": "ആറ്റൂര്‍"
+    },
+    {
+      "ward_id": "be00843d-ceb2-4756-9d4f-e9011cd464f8",
+      "ward_no": "6",
+      "ward_name_en": "Manappadi",
+      "ward_name_ml": "മനപ്പടി"
+    },
+    {
+      "ward_id": "45f5f980-31c8-48c4-b74a-9ac37c254a2b",
+      "ward_no": "7",
+      "ward_name_en": "Ambalanada Parappuram",
+      "ward_name_ml": "അമ്പലനട പാറപ്പുറം"
+    },
+    {
+      "ward_id": "631763f4-aed5-49fe-8be7-9d5af0a89596",
+      "ward_no": "8",
+      "ward_name_en": "Companippady",
+      "ward_name_ml": "കമ്പനിപ്പടി"
+    },
+    {
+      "ward_id": "460a206e-1a29-42c8-8ef9-2e599a52218a",
+      "ward_no": "9",
+      "ward_name_en": "Valavu Karakkad",
+      "ward_name_ml": "വളവ് കാരക്കാട്"
+    },
+    {
+      "ward_id": "c4bc97f2-43c4-473c-80db-0f9519242ff2",
+      "ward_no": "10",
+      "ward_name_en": "Valavu Kollammakku",
+      "ward_name_ml": "വളവ് കൊല്ലംമാക്ക്"
+    },
+    {
+      "ward_id": "461aba6f-0fc8-4e39-a026-dbf4398cb29c",
+      "ward_no": "11",
+      "ward_name_en": "Vandipparambu",
+      "ward_name_ml": "വണ്ടിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "466e3f4f-7caa-4283-a8be-0bc8b155498c",
+      "ward_no": "12",
+      "ward_name_en": "Mullurkkara",
+      "ward_name_ml": "മുള്ളൂര്‍ക്കര"
+    },
+    {
+      "ward_id": "806c46d3-9956-4558-a9c4-cb65b7706662",
+      "ward_no": "13",
+      "ward_name_en": "Vazhakode",
+      "ward_name_ml": "വാഴക്കോട്"
+    },
+    {
+      "ward_id": "4f77580b-12e4-4482-b925-c45545a78cc6",
+      "ward_no": "14",
+      "ward_name_en": "Kannampara",
+      "ward_name_ml": "കണ്ണംപാറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080304.geojson"
+  }
+}

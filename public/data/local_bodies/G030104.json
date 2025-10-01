@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030104",
+  "local_body_name_en": "Kottangal",
+  "local_body_name_ml": "കോട്ടാങ്ങല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "112",
+    "assembly_name_en": "Ranni",
+    "assembly_name_ml": "റാന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "bbd3b6c6-5f0c-43a3-9b7b-95564fc2c61c",
+      "ward_no": "1",
+      "ward_name_en": "Melepadimon",
+      "ward_name_ml": "മേലേപാടിമണ്‍"
+    },
+    {
+      "ward_id": "0dcbb509-46c8-42f5-b362-ebec40a40dc1",
+      "ward_no": "2",
+      "ward_name_en": "Sasthamkoickal",
+      "ward_name_ml": "ശാസ്താംകോയിക്കല്‍"
+    },
+    {
+      "ward_id": "12dc558e-1d07-49b6-a915-bce81a6536da",
+      "ward_no": "3",
+      "ward_name_en": "Vaipur",
+      "ward_name_ml": "വായ്പ്പൂര്‍"
+    },
+    {
+      "ward_id": "000b0473-890a-4777-a8b6-dad9a07cb030",
+      "ward_no": "4",
+      "ward_name_en": "Kulathoor",
+      "ward_name_ml": "കുളത്തൂര്‍"
+    },
+    {
+      "ward_id": "1947a377-e470-4b62-869b-3ee8b80c2503",
+      "ward_no": "5",
+      "ward_name_en": "Malampara",
+      "ward_name_ml": "മലമ്പാറ"
+    },
+    {
+      "ward_id": "117db117-99a7-4e91-9ec8-acd0f754ddc7",
+      "ward_no": "6",
+      "ward_name_en": "Kottangal Padinjaru",
+      "ward_name_ml": "കോട്ടാങ്ങല്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "834ad0b5-c9bb-459b-8a4c-4e9a70237e5f",
+      "ward_no": "7",
+      "ward_name_en": "Kottangal Kizhakku",
+      "ward_name_ml": "കോട്ടാങ്ങല്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "726647f1-0354-485b-ab67-7fd59c2d3fc3",
+      "ward_no": "8",
+      "ward_name_en": "Chunkappara Vadakku",
+      "ward_name_ml": "ചുങ്കപ്പാറ വടക്ക്"
+    },
+    {
+      "ward_id": "52d1a827-c759-4827-9f71-864ed470a97e",
+      "ward_no": "9",
+      "ward_name_en": "Chunkappara Thekku",
+      "ward_name_ml": "ചുങ്കപ്പാറ തെക്ക്"
+    },
+    {
+      "ward_id": "575ff94b-2929-483c-9fc4-8a283e901ae0",
+      "ward_no": "10",
+      "ward_name_en": "Keralapuram",
+      "ward_name_ml": "കേരളപുരം"
+    },
+    {
+      "ward_id": "6a13360a-a6e4-4481-8fbb-a1657c754a24",
+      "ward_no": "11",
+      "ward_name_en": "Kumbiluvelil",
+      "ward_name_ml": "കുമ്പിളുവേലില്‍"
+    },
+    {
+      "ward_id": "0707308e-5ffe-4ab3-a682-4306ee67644b",
+      "ward_no": "12",
+      "ward_name_en": "Oottukulam",
+      "ward_name_ml": "ഉൂട്ടുകുളം"
+    },
+    {
+      "ward_id": "102ab9eb-45bb-44cd-8a71-c87b63c40f71",
+      "ward_no": "13",
+      "ward_name_en": "Perumpara",
+      "ward_name_ml": "പെരുമ്പാറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030104.geojson"
+  }
+}

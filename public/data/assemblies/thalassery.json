@@ -1,0 +1,54 @@
+{
+  "assembly_id": "13",
+  "assembly_name_en": "Thalassery",
+  "assembly_name_ml": "തലശ്ശേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G130802",
+      "local_body_name_en": "Chokli",
+      "local_body_name_ml": "ചൊക്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130702",
+      "local_body_name_en": "Eranholi",
+      "local_body_name_ml": "എരഞ്ഞോളി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130801",
+      "local_body_name_en": "Kadirur",
+      "local_body_name_ml": "കതിരൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130704",
+      "local_body_name_en": "New Mahe",
+      "local_body_name_ml": "ന്യൂ മാഹി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130806",
+      "local_body_name_en": "Panniyannur",
+      "local_body_name_ml": "പന്ന്യന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M130500",
+      "local_body_name_en": "Thalassery",
+      "local_body_name_ml": "തലശ്ശേരി",
+      "category": ""
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/thalassery.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/thalassery.geojson"
+  }
+}

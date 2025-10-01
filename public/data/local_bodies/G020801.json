@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G020801",
+  "local_body_name_en": "Thekkumbhagom",
+  "local_body_name_ml": "തെക്കുംഭാഗം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "117",
+    "assembly_name_en": "Chavara",
+    "assembly_name_ml": "ചവറ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c3887164-ed93-41fc-bb72-bf4916361a30",
+      "ward_no": "1",
+      "ward_name_en": "Muttathu",
+      "ward_name_ml": "മുട്ടത്ത്"
+    },
+    {
+      "ward_id": "cc8f89ca-9e9a-49e3-a600-226898f364b4",
+      "ward_no": "2",
+      "ward_name_en": "Ammayarnada",
+      "ward_name_ml": "അമ്മയാര്‍നട"
+    },
+    {
+      "ward_id": "18950483-806b-4d73-85a6-d96f7b9c4d2f",
+      "ward_no": "3",
+      "ward_name_en": "Desakkallu",
+      "ward_name_ml": "ദേശക്കല്ല്"
+    },
+    {
+      "ward_id": "a9868f2f-0aa3-4df1-92e2-62e7fec8a797",
+      "ward_no": "4",
+      "ward_name_en": "Tholukadavu",
+      "ward_name_ml": "തോലുകടവ്"
+    },
+    {
+      "ward_id": "c10308cd-afea-4961-bc4a-436227866155",
+      "ward_no": "5",
+      "ward_name_en": "Thekkumvila",
+      "ward_name_ml": "തെക്കുംവിള"
+    },
+    {
+      "ward_id": "de0e5c87-90e5-4895-af00-38d0fd1d4612",
+      "ward_no": "6",
+      "ward_name_en": "Udayadithyapuram",
+      "ward_name_ml": "ഉദയാദിത്യപുരം"
+    },
+    {
+      "ward_id": "7536d6ef-4222-497c-b851-1aa3adc0952a",
+      "ward_no": "7",
+      "ward_name_en": "Njarammoodu",
+      "ward_name_ml": "ഞാറമ്മൂട്"
+    },
+    {
+      "ward_id": "2c101efe-603d-4db7-bbc4-88cca6aac392",
+      "ward_no": "8",
+      "ward_name_en": "Pallikkodi",
+      "ward_name_ml": "പള്ളിക്കോടി"
+    },
+    {
+      "ward_id": "303fd0e3-7c83-4aae-9a8d-0ded3030838e",
+      "ward_no": "9",
+      "ward_name_en": "Dalavapuram",
+      "ward_name_ml": "ദളവാപുരം"
+    },
+    {
+      "ward_id": "6acdcdea-54cc-4b34-bc57-b673e56afdbc",
+      "ward_no": "10",
+      "ward_name_en": "Guhanandapuram",
+      "ward_name_ml": "ഗുഹാനന്ദപുരം"
+    },
+    {
+      "ward_id": "b05b2601-9202-4049-ab4f-5a37c4424a47",
+      "ward_no": "11",
+      "ward_name_en": "Kudavoor",
+      "ward_name_ml": "കുടവൂര്‍"
+    },
+    {
+      "ward_id": "744f0b0d-761f-4662-93b0-612a46b6a5c2",
+      "ward_no": "12",
+      "ward_name_en": "Azhakathu",
+      "ward_name_ml": "അഴകത്ത്"
+    },
+    {
+      "ward_id": "2f2a09bc-fde7-4770-810c-f97d1edebdb9",
+      "ward_no": "13",
+      "ward_name_en": "Nadakkavu",
+      "ward_name_ml": "നടയ്ക്കാവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G020801.geojson"
+  }
+}

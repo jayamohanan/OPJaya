@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G081003",
+  "local_body_name_en": "Paralam",
+  "local_body_name_ml": "പാറളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "68",
+    "assembly_name_en": "Nattika",
+    "assembly_name_ml": "നാട്ടിക",
+    "category": "Good"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c36a7f36-8ab0-4b64-b11a-c02a850adff8",
+      "ward_no": "1",
+      "ward_name_en": "Aaryampadam",
+      "ward_name_ml": "ആര്യംപാടം"
+    },
+    {
+      "ward_id": "e23c404e-d695-4f04-b474-0c82253a5cda",
+      "ward_no": "2",
+      "ward_name_en": "Chakyarkadavu",
+      "ward_name_ml": "ചാക്യാര്‍ക്കടവ്"
+    },
+    {
+      "ward_id": "a271dfdf-a8b9-4daf-9fdc-e2bfbeee0e2f",
+      "ward_no": "3",
+      "ward_name_en": "Subramanyapuram",
+      "ward_name_ml": "സുബ്രഹ്മണ്യപുരം"
+    },
+    {
+      "ward_id": "39372886-004e-4a20-9eb1-b25893f65d32",
+      "ward_no": "4",
+      "ward_name_en": "Venginissery",
+      "ward_name_ml": "വെങ്ങിണിശ്ശേരി"
+    },
+    {
+      "ward_id": "1cffd733-da3c-43ee-8cea-6235b5b2e251",
+      "ward_no": "5",
+      "ward_name_en": "Arattukadavu",
+      "ward_name_ml": "ആറാട്ടുക്കടവ്"
+    },
+    {
+      "ward_id": "18cca7ce-0cdc-4742-a9bc-b77738e085e3",
+      "ward_no": "6",
+      "ward_name_en": "Perukkara",
+      "ward_name_ml": "പേരൂക്കര"
+    },
+    {
+      "ward_id": "a1ad747e-2ea6-4ed3-8b5c-5a9997b66d16",
+      "ward_no": "7",
+      "ward_name_en": "Sivapuram",
+      "ward_name_ml": "ശിവപുരം"
+    },
+    {
+      "ward_id": "22b2f67c-b372-451e-bafa-23d8490e023d",
+      "ward_no": "8",
+      "ward_name_en": "Paris-Kootalakunnu",
+      "ward_name_ml": "പാരീസ് -കൂട്ടാലക്കുന്ന്"
+    },
+    {
+      "ward_id": "af4e0757-206b-4b2d-aaa6-fba02ac9789c",
+      "ward_no": "9",
+      "ward_name_en": "Paralam",
+      "ward_name_ml": "പാറളം"
+    },
+    {
+      "ward_id": "396aa99f-408f-4663-9b0b-a0528211fdd1",
+      "ward_no": "10",
+      "ward_name_en": "Parppakadavu",
+      "ward_name_ml": "പാര്‍പ്പക്കടവ്"
+    },
+    {
+      "ward_id": "14a68faa-d984-41c5-84db-a80d502a3852",
+      "ward_no": "11",
+      "ward_name_en": "Chenam",
+      "ward_name_ml": "ചേനം"
+    },
+    {
+      "ward_id": "b2a3d849-f3e1-4882-aecf-c2ec63b26dbe",
+      "ward_no": "12",
+      "ward_name_en": "Ammadam",
+      "ward_name_ml": "അമ്മാടം"
+    },
+    {
+      "ward_id": "0d85138b-8334-480b-8c53-d65d87ecd8a0",
+      "ward_no": "13",
+      "ward_name_en": "Kodannur",
+      "ward_name_ml": "കോടന്നൂര്‍"
+    },
+    {
+      "ward_id": "c433a6b8-75d7-4c19-973b-ee41188ec176",
+      "ward_no": "14",
+      "ward_name_en": "Pallippuram",
+      "ward_name_ml": "പള്ളിപ്പുറം"
+    },
+    {
+      "ward_id": "38168d18-4551-4403-b92b-1bda651f5cf1",
+      "ward_no": "15",
+      "ward_name_en": "Sasthamkadavu",
+      "ward_name_ml": "ശാസ്താംകടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081003.geojson"
+  }
+}

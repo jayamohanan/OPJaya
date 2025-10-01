@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G040803",
+  "local_body_name_en": "Cheriyanad",
+  "local_body_name_ml": "ചെറിയനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "110",
+    "assembly_name_en": "Chengannur",
+    "assembly_name_ml": "ചെങ്ങന്നൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5cae3b70-b821-4987-9e76-b08972199502",
+      "ward_no": "1",
+      "ward_name_en": "Edavancad",
+      "ward_name_ml": "ഇടവങ്കാട്"
+    },
+    {
+      "ward_id": "d3c4ae93-1473-42b8-ad2c-828ab91f1027",
+      "ward_no": "2",
+      "ward_name_en": "Thuruthimel",
+      "ward_name_ml": "തുരുത്തിമേല്‍"
+    },
+    {
+      "ward_id": "9b784ab1-5a75-4bd9-884f-094ff2983d2b",
+      "ward_no": "3",
+      "ward_name_en": "Cheriyanad",
+      "ward_name_ml": "ചെറിയനാട്"
+    },
+    {
+      "ward_id": "1ac977e1-ab75-4931-922f-e7492866e0f2",
+      "ward_no": "4",
+      "ward_name_en": "Ariyannursseri",
+      "ward_name_ml": "അരിയന്നൂര്‍ശ്ശേരി"
+    },
+    {
+      "ward_id": "63dbc513-a475-41a7-ac1a-6bbc85e8ee55",
+      "ward_no": "5",
+      "ward_name_en": "Mampra",
+      "ward_name_ml": "മാമ്പ്ര"
+    },
+    {
+      "ward_id": "74a6f079-2310-48b4-beb4-9edc0e56aa0a",
+      "ward_no": "6",
+      "ward_name_en": "Phc Ward",
+      "ward_name_ml": "പിഎച്ച്സി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "ce45ba4f-16b2-44ae-b134-a198a13524b9",
+      "ward_no": "7",
+      "ward_name_en": "Alakode",
+      "ward_name_ml": "ആലക്കോട്"
+    },
+    {
+      "ward_id": "14cccf90-b82b-41ec-be08-dfcf3da3c6d1",
+      "ward_no": "8",
+      "ward_name_en": "Cherumicadu",
+      "ward_name_ml": "ചെറുമിക്കാട്"
+    },
+    {
+      "ward_id": "158645eb-7c79-4876-8ae7-baddca982469",
+      "ward_no": "9",
+      "ward_name_en": "Cheruvallur",
+      "ward_name_ml": "ചെറുവല്ലൂര്‍"
+    },
+    {
+      "ward_id": "965816c7-057b-47f0-b8e4-30b6eabc2d2b",
+      "ward_no": "10",
+      "ward_name_en": "Njanjukkad",
+      "ward_name_ml": "ഞാഞ്ഞുക്കാട്"
+    },
+    {
+      "ward_id": "e895713f-f90c-443f-88d1-01276cab4c43",
+      "ward_no": "11",
+      "ward_name_en": "Kollakadavu",
+      "ward_name_ml": "കൊല്ലകടവ്"
+    },
+    {
+      "ward_id": "2433961b-fe5a-4517-82fa-4c3f6f653146",
+      "ward_no": "12",
+      "ward_name_en": "Kadaikkad",
+      "ward_name_ml": "കടയിക്കാട്"
+    },
+    {
+      "ward_id": "ce29e259-1df5-46b5-a37d-593da2ce9ea7",
+      "ward_no": "13",
+      "ward_name_en": "Railway Stationcward",
+      "ward_name_ml": "റെയില്‍വേസ്റ്റേഷന്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "bb29be23-9439-4b55-baeb-38e85364e4ec",
+      "ward_no": "14",
+      "ward_name_en": "Athimancheri",
+      "ward_name_ml": "അത്തിമണ്‍ചേരി"
+    },
+    {
+      "ward_id": "440f79ef-1b60-4b99-9e97-e462f7d3b590",
+      "ward_no": "15",
+      "ward_name_en": "Mandapariyaram",
+      "ward_name_ml": "മണ്ഡപരിയാരം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040803.geojson"
+  }
+}

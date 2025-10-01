@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G070403",
+  "local_body_name_en": "Vengoor",
+  "local_body_name_ml": "വേങ്ങൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "74",
+    "assembly_name_en": "Perumbavoor",
+    "assembly_name_ml": "പെരുമ്പാവൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2f45eb2e-1693-43e5-9181-1211ad2ea8a6",
+      "ward_no": "1",
+      "ward_name_en": "Panamkuzhy",
+      "ward_name_ml": "പാണംകുഴി"
+    },
+    {
+      "ward_id": "671cf663-52ac-414b-8800-45c1a4490e28",
+      "ward_no": "2",
+      "ward_name_en": "Krariyely",
+      "ward_name_ml": "ക്രാരിയേലി"
+    },
+    {
+      "ward_id": "0ee282d1-6795-4b4c-aabe-be5fd749e31d",
+      "ward_no": "3",
+      "ward_name_en": "Paniely",
+      "ward_name_ml": "പാണിയേലി"
+    },
+    {
+      "ward_id": "c3408a41-6970-4ebd-a410-62a32eb83a4e",
+      "ward_no": "4",
+      "ward_name_en": "Munippara",
+      "ward_name_ml": "മുനിപ്പാറ"
+    },
+    {
+      "ward_id": "fb2a9ba9-334d-436a-bb7c-29981aba3184",
+      "ward_no": "5",
+      "ward_name_en": "Meckappala",
+      "ward_name_ml": "മേയ്ക്കപ്പാല"
+    },
+    {
+      "ward_id": "dbe559a2-7876-4d16-b072-c3066bca89d0",
+      "ward_no": "6",
+      "ward_name_en": "Kannamparambu",
+      "ward_name_ml": "കണ്ണംപറമ്പ്"
+    },
+    {
+      "ward_id": "f22d0e44-54bd-4b30-8588-4aa354ed90c0",
+      "ward_no": "7",
+      "ward_name_en": "Nedungapra",
+      "ward_name_ml": "നെടുങ്ങപ്ര"
+    },
+    {
+      "ward_id": "5205fab8-0141-48dc-b285-ed4cf9ee3252",
+      "ward_no": "8",
+      "ward_name_en": "Edathuruth",
+      "ward_name_ml": "ഇടത്തുരുത്ത്"
+    },
+    {
+      "ward_id": "aba837d5-9532-414f-906f-718393e1f347",
+      "ward_no": "9",
+      "ward_name_en": "Vengoor",
+      "ward_name_ml": "വേങ്ങൂര്‍"
+    },
+    {
+      "ward_id": "c7eef7c7-f9fb-4b2b-a6cc-6ea0e20c2fd9",
+      "ward_no": "10",
+      "ward_name_en": "Vakkuvally",
+      "ward_name_ml": "വക്കുവള്ളി"
+    },
+    {
+      "ward_id": "bb044dad-29f7-4d73-bf13-e87c556c96c5",
+      "ward_no": "11",
+      "ward_name_en": "Choorathodu",
+      "ward_name_ml": "ചൂരത്തോട്"
+    },
+    {
+      "ward_id": "f4b0efdc-f515-4eb0-9701-018b143b81af",
+      "ward_no": "12",
+      "ward_name_en": "Kaippilly",
+      "ward_name_ml": "കൈപ്പിള്ളി"
+    },
+    {
+      "ward_id": "2be93657-a635-4800-8e7d-7c589542aa2b",
+      "ward_no": "13",
+      "ward_name_en": "Kodempilly",
+      "ward_name_ml": "കോടമ്പിള്ളി"
+    },
+    {
+      "ward_id": "c23424a0-80b9-4c68-914a-3f97a3bf427c",
+      "ward_no": "14",
+      "ward_name_en": "Kombanad",
+      "ward_name_ml": "കൊമ്പനാട്"
+    },
+    {
+      "ward_id": "5b249739-f5af-4b52-b24a-4ed600ae0cd5",
+      "ward_no": "15",
+      "ward_name_en": "Puthumana",
+      "ward_name_ml": "പുതുമന"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070403.geojson"
+  }
+}

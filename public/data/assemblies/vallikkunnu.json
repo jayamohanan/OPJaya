@@ -1,0 +1,54 @@
+{
+  "assembly_id": "42",
+  "assembly_name_en": "Vallikkunnu",
+  "assembly_name_ml": "വള്ളിക്കുന്ന്",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G100401",
+      "local_body_name_en": "Chelembra",
+      "local_body_name_ml": "ചേലേമ്പ്ര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G101105",
+      "local_body_name_en": "Moonniyur",
+      "local_body_name_ml": "മൂന്നിയൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100405",
+      "local_body_name_en": "Pallikkal",
+      "local_body_name_ml": "പള്ളിക്കല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G101107",
+      "local_body_name_en": "Peruvalloor",
+      "local_body_name_ml": "പെരുവള്ളൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G101102",
+      "local_body_name_en": "Thenhipalam",
+      "local_body_name_ml": "തേഞ്ഞിപ്പലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G101104",
+      "local_body_name_en": "Vallikkunnu",
+      "local_body_name_ml": "വള്ളിക്കുന്ന്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/vallikkunnu.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/vallikkunnu.geojson"
+  }
+}

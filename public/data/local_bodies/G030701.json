@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030701",
+  "local_body_name_en": "Pandalam Thekkekara",
+  "local_body_name_ml": "പന്തളം തെക്കേക്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "115",
+    "assembly_name_en": "Adoor",
+    "assembly_name_ml": "അടൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "cd38016f-996e-446b-9613-80a9d1e57886",
+      "ward_no": "1",
+      "ward_name_en": "Perumpulickal",
+      "ward_name_ml": "പെരുംമ്പുളിക്കല്‍"
+    },
+    {
+      "ward_id": "87ac8fcb-7ee7-4434-a680-1d7bb14d933e",
+      "ward_no": "2",
+      "ward_name_en": "Mannamnagar",
+      "ward_name_ml": "മന്നംനഗര്‍"
+    },
+    {
+      "ward_id": "e6f843c6-89af-4ffe-969f-5d005c36760e",
+      "ward_no": "3",
+      "ward_name_en": "Padukottukal",
+      "ward_name_ml": "പടുക്കോട്ടുക്കല്‍"
+    },
+    {
+      "ward_id": "86261cb8-e1f8-4131-bc6f-c0a7c0c988a8",
+      "ward_no": "4",
+      "ward_name_en": "Keerukuzhi",
+      "ward_name_ml": "കീരുകുഴി"
+    },
+    {
+      "ward_id": "6fd2218b-c260-4751-8c0f-0b1e4ba344c6",
+      "ward_no": "5",
+      "ward_name_en": "Bhagavathikkum Padinjaru",
+      "ward_name_ml": "ഭഗവതിക്കും പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "08873c5a-7890-4cae-ad5c-d610da184639",
+      "ward_no": "6",
+      "ward_name_en": "Idamali",
+      "ward_name_ml": "ഇടമാലി"
+    },
+    {
+      "ward_id": "ed35b4f5-0b21-419c-96e3-65f722849e8d",
+      "ward_no": "7",
+      "ward_name_en": "Parakkara",
+      "ward_name_ml": "പാറക്കര"
+    },
+    {
+      "ward_id": "96174809-acc1-49fb-9a03-5dc4b99ff435",
+      "ward_no": "8",
+      "ward_name_en": "Mankuzhy",
+      "ward_name_ml": "മങ്കുഴി"
+    },
+    {
+      "ward_id": "bb0f7628-d63b-4dc4-a1d3-b30c26546258",
+      "ward_no": "9",
+      "ward_name_en": "Thattayil",
+      "ward_name_ml": "തട്ടയില്‍"
+    },
+    {
+      "ward_id": "8c1c2e8b-535a-4031-9055-68fc943f53df",
+      "ward_no": "10",
+      "ward_name_en": "Mallika",
+      "ward_name_ml": "മല്ലിക"
+    },
+    {
+      "ward_id": "960ccc3b-9222-4995-8e60-92e3b0600248",
+      "ward_no": "11",
+      "ward_name_en": "Mammodu",
+      "ward_name_ml": "മാമ്മൂട്"
+    },
+    {
+      "ward_id": "d8f6dc19-4b36-4c30-be97-a7ba6f805726",
+      "ward_no": "12",
+      "ward_name_en": "Pongalady",
+      "ward_name_ml": "പൊങ്ങലടി"
+    },
+    {
+      "ward_id": "55f6233a-f54f-4702-9591-5077d06d5be5",
+      "ward_no": "13",
+      "ward_name_en": "Cherilayam",
+      "ward_name_ml": "ചെറിലയം"
+    },
+    {
+      "ward_id": "845c8187-043c-447c-ae91-e17871a3bb10",
+      "ward_no": "14",
+      "ward_name_en": "Paranthal",
+      "ward_name_ml": "പറന്തല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030701.geojson"
+  }
+}

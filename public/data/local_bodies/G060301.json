@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G060301",
+  "local_body_name_en": "Pampadumpara",
+  "local_body_name_ml": "പാമ്പാടുംപാറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "89",
+    "assembly_name_en": "Udumbanchola",
+    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "8ef5b948-395b-4bbd-9af5-517ad1320ce2",
+      "ward_no": "1",
+      "ward_name_en": "Kallar",
+      "ward_name_ml": "കല്ലാര്‍"
+    },
+    {
+      "ward_id": "75e7aeb7-3ce8-45d0-ba56-f4f8d338785e",
+      "ward_no": "2",
+      "ward_name_en": "Thannimoodu",
+      "ward_name_ml": "താന്നിമൂട്"
+    },
+    {
+      "ward_id": "c3bccb73-1b6c-4fcb-acb1-dbbf050e6f32",
+      "ward_no": "3",
+      "ward_name_en": "Mundiyeruma",
+      "ward_name_ml": "മുണ്ടിയെരുമ"
+    },
+    {
+      "ward_id": "6601e86f-16a7-47de-8058-3777715978d7",
+      "ward_no": "4",
+      "ward_name_en": "Thookkupalam",
+      "ward_name_ml": "തൂക്കുപാലം"
+    },
+    {
+      "ward_id": "59bb7341-e118-4d3e-8f48-bf705ff91a20",
+      "ward_no": "5",
+      "ward_name_en": "Balagram",
+      "ward_name_ml": "ബാലഗ്രാം"
+    },
+    {
+      "ward_id": "93ad55dc-0c2e-43ab-b4d5-fa0c861ad0ea",
+      "ward_no": "6",
+      "ward_name_en": "Thirdcamp",
+      "ward_name_ml": "തേര്‍ഡ്ക്യാമ്പ്"
+    },
+    {
+      "ward_id": "5c7d8b00-1d8b-44a7-aebe-3b4a88172f9b",
+      "ward_no": "7",
+      "ward_name_en": "Kumarakammettu",
+      "ward_name_ml": "കുമരകംമെട്ട്"
+    },
+    {
+      "ward_id": "32d7ea0e-f21a-4640-9332-25f2da9d1ce2",
+      "ward_no": "8",
+      "ward_name_en": "Edathwamettu",
+      "ward_name_ml": "എടത്വാമെട്ട്"
+    },
+    {
+      "ward_id": "e747c331-e1e1-465f-b647-af274c4e74c4",
+      "ward_no": "9",
+      "ward_name_en": "Anyartholu",
+      "ward_name_ml": "അന്യാര്‍തൊളു"
+    },
+    {
+      "ward_id": "08465e3b-a438-4aa0-9a1e-60c4df9ffe8c",
+      "ward_no": "10",
+      "ward_name_en": "Sanniyasioda",
+      "ward_name_ml": "സന്യാസിയോട"
+    },
+    {
+      "ward_id": "ce684ca9-c8c4-43dd-9085-370011db2dd8",
+      "ward_no": "11",
+      "ward_name_en": "Aadiyarpuram",
+      "ward_name_ml": "ആദിയാര്‍പുരം"
+    },
+    {
+      "ward_id": "e0e5f851-7f05-4b33-91e7-c2b7766d13f6",
+      "ward_no": "12",
+      "ward_name_en": "Puthukkadu",
+      "ward_name_ml": "പുതുക്കാട്"
+    },
+    {
+      "ward_id": "90dd8e8c-0f19-4e5f-93b1-df3c7d5d8a3e",
+      "ward_no": "13",
+      "ward_name_en": "Valiyathovala",
+      "ward_name_ml": "വലിയതോവാള"
+    },
+    {
+      "ward_id": "1ac2acad-4ae7-4bad-90d9-448382f22e72",
+      "ward_no": "14",
+      "ward_name_en": "Mannakkudy",
+      "ward_name_ml": "മന്നാക്കുടി"
+    },
+    {
+      "ward_id": "cc383687-79e6-4010-b465-5cee28fe61b5",
+      "ward_no": "15",
+      "ward_name_en": "Pampadumpara",
+      "ward_name_ml": "പാമ്പാടുംപാറ"
+    },
+    {
+      "ward_id": "93794f34-b131-41de-a964-a0d8f2fabc72",
+      "ward_no": "16",
+      "ward_name_en": "Vattappara",
+      "ward_name_ml": "വട്ടപ്പാറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060301.geojson"
+  }
+}

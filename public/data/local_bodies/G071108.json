@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071108",
+  "local_body_name_en": "Pothanicad",
+  "local_body_name_ml": "പോത്താനിക്കാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "86",
+    "assembly_name_en": "Muvattupuzha",
+    "assembly_name_ml": "മൂവാറ്റുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "88e04dfc-52f9-4c5f-9b6a-70b77f8f9ef7",
+      "ward_no": "1",
+      "ward_name_en": "Manjalampara",
+      "ward_name_ml": "മഞ്ഞളാംപാറ"
+    },
+    {
+      "ward_id": "fc46fa78-71c6-4fe5-8761-f68f1e9257a7",
+      "ward_no": "2",
+      "ward_name_en": "Pulinthanam",
+      "ward_name_ml": "പുളിന്താനം"
+    },
+    {
+      "ward_id": "90d8e891-81ca-4597-8bae-d657d7be214d",
+      "ward_no": "3",
+      "ward_name_en": "Mavudy",
+      "ward_name_ml": "മാവുടി"
+    },
+    {
+      "ward_id": "8ec67e8e-eb1a-4142-8128-e9f0e672efbd",
+      "ward_no": "4",
+      "ward_name_en": "Pottanchira",
+      "ward_name_ml": "പൊട്ടന്‍ചിറ"
+    },
+    {
+      "ward_id": "9a27cc9f-f387-4228-bc05-42bdbbf25268",
+      "ward_no": "5",
+      "ward_name_en": "Thrikkeppady",
+      "ward_name_ml": "തൃക്കേപ്പടി"
+    },
+    {
+      "ward_id": "36608b21-9e4a-4bf5-9e53-54cb3a8f23a8",
+      "ward_no": "6",
+      "ward_name_en": "Peruneer",
+      "ward_name_ml": "പെരുനീര്‍"
+    },
+    {
+      "ward_id": "7eb5fca7-82a1-4048-a16e-60c652ae106d",
+      "ward_no": "7",
+      "ward_name_en": "Erappupara",
+      "ward_name_ml": "എരപ്പുപാറ"
+    },
+    {
+      "ward_id": "9f872e5a-31d3-4929-b8c0-a21e33106fbd",
+      "ward_no": "8",
+      "ward_name_en": "Anathuzhy",
+      "ward_name_ml": "ആനത്തുഴി"
+    },
+    {
+      "ward_id": "8dcae915-78b8-4f46-8fbc-bbf7ebadaf03",
+      "ward_no": "9",
+      "ward_name_en": "Pothanicad Central",
+      "ward_name_ml": "പോത്താനിക്കാട് സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "8ede53f7-d5d4-47b0-9f28-8811ff30f71a",
+      "ward_no": "10",
+      "ward_name_en": "Konnanpara",
+      "ward_name_ml": "കോന്നന്‍പാറ"
+    },
+    {
+      "ward_id": "aaa1b71a-aceb-4cd5-923f-10b2c09ee939",
+      "ward_no": "11",
+      "ward_name_en": "Thaymattom",
+      "ward_name_ml": "തായ്മറ്റം"
+    },
+    {
+      "ward_id": "72e5deb6-39f6-4e03-93d0-9b2edc22a75a",
+      "ward_no": "12",
+      "ward_name_en": "Kalladapoothappara",
+      "ward_name_ml": "കല്ലടപൂതപ്പാറ"
+    },
+    {
+      "ward_id": "ecf49f27-e47b-4f41-9fb8-55a3d0f1aaa2",
+      "ward_no": "13",
+      "ward_name_en": "Parambanchery",
+      "ward_name_ml": "പറമ്പന്‍ഞ്ചേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071108.geojson"
+  }
+}

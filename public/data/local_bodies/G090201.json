@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G090201",
+  "local_body_name_en": "Koppam",
+  "local_body_name_ml": "കൊപ്പം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "50",
+    "assembly_name_en": "Pattambi",
+    "assembly_name_ml": "പട്ടാമ്പി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "bb092dfb-6532-4eb1-bc5b-0883bb7acd23",
+      "ward_no": "1",
+      "ward_name_en": "South Pulasseri",
+      "ward_name_ml": "സൗത്ത് പുലാശ്ശേരി"
+    },
+    {
+      "ward_id": "80c19ec8-578c-4851-a5c9-192fa6bd4b7c",
+      "ward_no": "2",
+      "ward_name_en": "Pulasseri",
+      "ward_name_ml": "പുലാശ്ശേരി"
+    },
+    {
+      "ward_id": "db63a9ac-2f11-439e-b4ba-e59a69a3b434",
+      "ward_no": "3",
+      "ward_name_en": "Koppam",
+      "ward_name_ml": "കൊപ്പം"
+    },
+    {
+      "ward_id": "996af707-f7f3-46a2-a9a0-1c3687726834",
+      "ward_no": "4",
+      "ward_name_en": "Koppam North",
+      "ward_name_ml": "കൊപ്പം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "8dc167df-a669-485d-a324-26e9ec9a2202",
+      "ward_no": "5",
+      "ward_name_en": "Prabhapuram",
+      "ward_name_ml": "പ്രഭാപുരം"
+    },
+    {
+      "ward_id": "2226b437-78f9-4992-965e-e602f16f28b5",
+      "ward_no": "6",
+      "ward_name_en": "Mannengode",
+      "ward_name_ml": "മണ്ണേങ്ങോട്"
+    },
+    {
+      "ward_id": "fa7604d2-e734-4898-befa-a1b5d40431b0",
+      "ward_no": "7",
+      "ward_name_en": "Erayur",
+      "ward_name_ml": "എറയുര്‍"
+    },
+    {
+      "ward_id": "68a0ee33-3bf6-45da-9b05-ba988a3ddb92",
+      "ward_no": "8",
+      "ward_name_en": "Nedumbrakkad",
+      "ward_name_ml": "നെടുമ്പ്രക്കാട്"
+    },
+    {
+      "ward_id": "2d71df6e-3059-49c4-9249-daff3829d810",
+      "ward_no": "9",
+      "ward_name_en": "Kizhakkekara",
+      "ward_name_ml": "കിഴക്കേക്കര"
+    },
+    {
+      "ward_id": "fde23695-5eb9-422c-a89c-b188aa7e283b",
+      "ward_no": "10",
+      "ward_name_en": "Amayur",
+      "ward_name_ml": "ആമയുര്‍"
+    },
+    {
+      "ward_id": "ddf42b13-ea77-45cf-bf4d-ebba2cea55d3",
+      "ward_no": "11",
+      "ward_name_en": "Vettikkad",
+      "ward_name_ml": "വെട്ടിക്കാട്"
+    },
+    {
+      "ward_id": "82fb6db2-5286-45e4-a9a3-032de3080953",
+      "ward_no": "12",
+      "ward_name_en": "Thrithalakoppam",
+      "ward_name_ml": "തൃത്താലകൊപ്പം"
+    },
+    {
+      "ward_id": "477e9343-2d41-4a8d-b601-8177afb4a30a",
+      "ward_no": "13",
+      "ward_name_en": "Ansar Nagar",
+      "ward_name_ml": "അന്‍സാര്‍ നഗര്‍"
+    },
+    {
+      "ward_id": "e1598d92-f6b1-40cd-86f5-062fc43d305a",
+      "ward_no": "14",
+      "ward_name_en": "Melmuri",
+      "ward_name_ml": "മേല്‍മുറി"
+    },
+    {
+      "ward_id": "96ea3bd9-77c3-4509-b7ee-a74e153fc3c4",
+      "ward_no": "15",
+      "ward_name_en": "Kizhumuri",
+      "ward_name_ml": "കിഴുമുറി"
+    },
+    {
+      "ward_id": "41d8cb2b-0c66-40d2-b339-88d2c65f81ee",
+      "ward_no": "16",
+      "ward_name_en": "Koppam South",
+      "ward_name_ml": "കൊപ്പം സൌത്ത്"
+    },
+    {
+      "ward_id": "3367d1cf-5776-4c78-b1d2-63a743dc5315",
+      "ward_no": "17",
+      "ward_name_en": "Viyatnampadi",
+      "ward_name_ml": "വിയറ്റ്നാംപടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090201.geojson"
+  }
+}

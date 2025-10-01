@@ -1,0 +1,90 @@
+{
+  "assembly_id": "88",
+  "assembly_name_en": "Devikulam",
+  "assembly_name_ml": "ദേവികുളം",
+  "category": "Normal",
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G060103",
+      "local_body_name_en": "BysonValley",
+      "local_body_name_ml": "ബൈസണ്‍ വാലി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060206",
+      "local_body_name_en": "Chinnakanal",
+      "local_body_name_ml": "ചിന്നക്കനാല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060208",
+      "local_body_name_en": "Devikulam",
+      "local_body_name_ml": "ദേവികുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G060209",
+      "local_body_name_en": "Edamalakkudy",
+      "local_body_name_ml": "ഇടമലക്കുടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060203",
+      "local_body_name_en": "Kanthalloor",
+      "local_body_name_ml": "കാന്തല്ലൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060207",
+      "local_body_name_en": "Mankulam",
+      "local_body_name_ml": "മാങ്കുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G060201",
+      "local_body_name_en": "Marayoor",
+      "local_body_name_ml": "മറയൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G060202",
+      "local_body_name_en": "Munnar",
+      "local_body_name_ml": "മൂന്നാര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060105",
+      "local_body_name_en": "Pallivasal",
+      "local_body_name_ml": "പള്ളിവാസല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060101",
+      "local_body_name_en": "Adimaly",
+      "local_body_name_ml": "അടിമാലി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060104",
+      "local_body_name_en": "Vellathooval",
+      "local_body_name_ml": "വെള്ളത്തൂവല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G060204",
+      "local_body_name_en": "Vattavada",
+      "local_body_name_ml": "വട്ടവട",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/devikulam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/devikulam.geojson"
+  }
+}

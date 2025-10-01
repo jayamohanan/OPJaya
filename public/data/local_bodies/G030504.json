@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G030504",
+  "local_body_name_en": "Ranni Perunadu",
+  "local_body_name_ml": "റാന്നി പെരുനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "112",
+    "assembly_name_en": "Ranni",
+    "assembly_name_ml": "റാന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a5f69eeb-f45e-4804-b395-99e9ac58fc9b",
+      "ward_no": "12",
+      "ward_name_en": "Nedumon",
+      "ward_name_ml": "നെടുമണ്‍"
+    },
+    {
+      "ward_id": "d66b92ee-3a97-4066-a42e-cd27a824bfb0",
+      "ward_no": "1",
+      "ward_name_en": "Mukkam",
+      "ward_name_ml": "മുക്കം"
+    },
+    {
+      "ward_id": "72a7a9ac-a32e-451a-b9c3-8345dcefd1fe",
+      "ward_no": "2",
+      "ward_name_en": "Perunad",
+      "ward_name_ml": "പെരുനാട്"
+    },
+    {
+      "ward_id": "7efd6211-c1c9-4d8c-8836-e41011cdc4dd",
+      "ward_no": "3",
+      "ward_name_en": "Madathummoozhy",
+      "ward_name_ml": "മഠത്തുംമൂഴി"
+    },
+    {
+      "ward_id": "2ad5cfa8-566a-4ea1-8dd3-f227dd004f9a",
+      "ward_no": "4",
+      "ward_name_en": "Puthukkada",
+      "ward_name_ml": "പുതുക്കട"
+    },
+    {
+      "ward_id": "85acdca4-9719-4bd1-a785-1e564f2fae36",
+      "ward_no": "5",
+      "ward_name_en": "Arayanjilimon",
+      "ward_name_ml": "അരയാഞ്ഞിലിമണ്‍"
+    },
+    {
+      "ward_id": "6a913a78-1526-408b-a19c-1d277059138d",
+      "ward_no": "6",
+      "ward_name_en": "Thulappally",
+      "ward_name_ml": "തുലാപ്പളളി"
+    },
+    {
+      "ward_id": "bc09ed97-74d3-4730-b5e5-10b4782c8874",
+      "ward_no": "7",
+      "ward_name_en": "Naranamthodu",
+      "ward_name_ml": "നാറാണംതോട്"
+    },
+    {
+      "ward_id": "d28d3ff2-64bc-4904-a84d-3c57ed509e3b",
+      "ward_no": "8",
+      "ward_name_en": "Kissumam",
+      "ward_name_ml": "കിസുമം"
+    },
+    {
+      "ward_id": "1cfac0c4-dd46-4c97-b524-1cc4195cf512",
+      "ward_no": "9",
+      "ward_name_en": "Sabarimala",
+      "ward_name_ml": "ശബരിമല"
+    },
+    {
+      "ward_id": "893814c9-e6c4-4d02-8bf1-5317e2de74a5",
+      "ward_no": "10",
+      "ward_name_en": "Manakkayam",
+      "ward_name_ml": "മണക്കയം"
+    },
+    {
+      "ward_id": "5b5333fa-4f04-4ce6-9bb7-a0f37f9083f9",
+      "ward_no": "11",
+      "ward_name_en": "Kannannumon",
+      "ward_name_ml": "കണ്ണന്നുമണ്‍"
+    },
+    {
+      "ward_id": "ab553c3e-20af-4e0a-ac62-4353458f2b7a",
+      "ward_no": "13",
+      "ward_name_en": "Mampara",
+      "ward_name_ml": "മാമ്പാറ"
+    },
+    {
+      "ward_id": "ed234100-551d-4714-827c-fe0f420be697",
+      "ward_no": "14",
+      "ward_name_en": "Kakkad",
+      "ward_name_ml": "കക്കാട്"
+    },
+    {
+      "ward_id": "a4f43373-d501-4625-9e1a-5664d4d78a54",
+      "ward_no": "15",
+      "ward_name_en": "Madamon",
+      "ward_name_ml": "മാടമണ്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030504.geojson"
+  }
+}

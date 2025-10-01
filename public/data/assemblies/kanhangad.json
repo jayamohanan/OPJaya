@@ -1,0 +1,66 @@
+{
+  "assembly_id": "4",
+  "assembly_name_en": "Kanhangad",
+  "assembly_name_ml": "കാഞ്ഞങ്ങാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G140501",
+      "local_body_name_en": "Balal",
+      "local_body_name_ml": "ബളാല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140504",
+      "local_body_name_en": "Kallar",
+      "local_body_name_ml": "കള്ളാര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M140100",
+      "local_body_name_en": "Kanhangad",
+      "local_body_name_ml": "കാഞ്ഞങ്ങാട്",
+      "category": ""
+    },
+    {
+      "local_body_id": "G140507",
+      "local_body_name_en": "Kinanoor - Karinthalam",
+      "local_body_name_ml": "കിനാനൂര്‍ കരിന്തളം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140502",
+      "local_body_name_en": "KodomBelur",
+      "local_body_name_ml": "കോടോം ബേളൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140403",
+      "local_body_name_en": "Madikai",
+      "local_body_name_ml": "മടിക്കൈ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140503",
+      "local_body_name_en": "Panathady",
+      "local_body_name_ml": "പനത്തടി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140402",
+      "local_body_name_en": "Ajanur",
+      "local_body_name_ml": "അജാനൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kanhangad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kanhangad.geojson"
+  }
+}

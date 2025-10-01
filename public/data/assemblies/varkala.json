@@ -1,0 +1,66 @@
+{
+  "assembly_id": "127",
+  "assembly_name_en": "Varkala",
+  "assembly_name_ml": "വർക്കല",
+  "category": "Normal",
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G010101",
+      "local_body_name_en": "Chemmaruthy",
+      "local_body_name_ml": "ചെമ്മരുതി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010102",
+      "local_body_name_en": "Edava",
+      "local_body_name_ml": "ഇടവ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010103",
+      "local_body_name_en": "Elakamon",
+      "local_body_name_ml": "ഇലകമണ്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010204",
+      "local_body_name_en": "Madavoor",
+      "local_body_name_ml": "മടവൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G010207",
+      "local_body_name_en": "Navaikulam",
+      "local_body_name_ml": "നാവായിക്കുളം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G010205",
+      "local_body_name_en": "Pallickal",
+      "local_body_name_ml": "പള്ളിക്കല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M010100",
+      "local_body_name_en": "Varkala",
+      "local_body_name_ml": "വര്‍ക്കല",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G010107",
+      "local_body_name_en": "Vettoor",
+      "local_body_name_ml": "വെട്ടൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/varkala.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/varkala.geojson"
+  }
+}

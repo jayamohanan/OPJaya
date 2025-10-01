@@ -1,0 +1,78 @@
+{
+  "assembly_id": "91",
+  "assembly_name_en": "Idukki",
+  "assembly_name_ml": "ഇടുക്കി",
+  "category": "Normal",
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G060501",
+      "local_body_name_en": "IdukkiKanjikuzhy",
+      "local_body_name_ml": "ഇടുക്കി കഞ്ഞിക്കുഴി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060504",
+      "local_body_name_en": "Kamakshy",
+      "local_body_name_ml": "കാമാക്ഷി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060604",
+      "local_body_name_en": "Kanchiyar",
+      "local_body_name_ml": "കാഞ്ചിയാര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M060200",
+      "local_body_name_en": "Kattappana",
+      "local_body_name_ml": "കട്ടപ്പന",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060102",
+      "local_body_name_en": "Konnathady",
+      "local_body_name_ml": "കൊന്നത്തടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060407",
+      "local_body_name_en": "Kudayathoor",
+      "local_body_name_ml": "കുടയത്തൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060506",
+      "local_body_name_en": "Mariyapuram",
+      "local_body_name_ml": "മരിയാപുരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060502",
+      "local_body_name_en": "Vathikudy",
+      "local_body_name_ml": "വാത്തിക്കുടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060505",
+      "local_body_name_en": "Vazhathope",
+      "local_body_name_ml": "വാഴത്തോപ്പ്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060503",
+      "local_body_name_en": "Arakulam",
+      "local_body_name_ml": "അറക്കുളം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/idukki.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/idukki.geojson"
+  }
+}

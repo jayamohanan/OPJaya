@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G081503",
+  "local_body_name_en": "Kuzhur",
+  "local_body_name_ml": "കുഴൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "73",
+    "assembly_name_en": "Kodungallur",
+    "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "80e343b0-d362-45cb-a583-7802e273a76f",
+      "ward_no": "1",
+      "ward_name_en": "Thanissery",
+      "ward_name_ml": "താണിശ്ശേരി"
+    },
+    {
+      "ward_id": "7b98fbc1-a653-43b9-af98-9598c9615041",
+      "ward_no": "2",
+      "ward_name_en": "Kakkulissery",
+      "ward_name_ml": "കാക്കുളിശ്ശേരി"
+    },
+    {
+      "ward_id": "31f826f5-1f4b-4ecd-8307-5a635a0ee191",
+      "ward_no": "3",
+      "ward_name_en": "Thumbarassery",
+      "ward_name_ml": "തുമ്പരശ്ശേരി"
+    },
+    {
+      "ward_id": "1bba1581-6859-42ed-bfa4-7ef4905fe901",
+      "ward_no": "4",
+      "ward_name_en": "Kuzhur",
+      "ward_name_ml": "കുഴൂര്‍"
+    },
+    {
+      "ward_id": "926071a5-ed8d-4256-b93a-be8bc08a36b9",
+      "ward_no": "5",
+      "ward_name_en": "Thekkumcherry",
+      "ward_name_ml": "തെക്കുംചേരി"
+    },
+    {
+      "ward_id": "7923cd63-4408-4c39-8254-da4efc4aef2b",
+      "ward_no": "6",
+      "ward_name_en": "Eravathur",
+      "ward_name_ml": "എരവത്തൂര്‍"
+    },
+    {
+      "ward_id": "381ebcea-6b1e-4826-8981-b79b48524974",
+      "ward_no": "7",
+      "ward_name_en": "Kochukadavu",
+      "ward_name_ml": "കൊച്ചുകടവ്"
+    },
+    {
+      "ward_id": "75f70eb6-5f6c-4d1b-80f7-6cd7c2544c3f",
+      "ward_no": "8",
+      "ward_name_en": "Kundoor",
+      "ward_name_ml": "കുണ്ടൂര്‍"
+    },
+    {
+      "ward_id": "721b765d-f526-4a22-85b6-84fa5d20a39e",
+      "ward_no": "9",
+      "ward_name_en": "Vayalar",
+      "ward_name_ml": "വയലാര്‍"
+    },
+    {
+      "ward_id": "3c9c4662-2c48-4bb9-a4ad-85ffed2edf39",
+      "ward_no": "10",
+      "ward_name_en": "Alamattom",
+      "ward_name_ml": "ആലമറ്റം"
+    },
+    {
+      "ward_id": "6d00caf0-bc6c-463b-94e5-29d37a986f41",
+      "ward_no": "11",
+      "ward_name_en": "Thirutha",
+      "ward_name_ml": "തിരുത്ത"
+    },
+    {
+      "ward_id": "d129a558-e5e4-48b1-98d6-311c3d5b0de9",
+      "ward_no": "12",
+      "ward_name_en": "Thirumukkulam",
+      "ward_name_ml": "തിരുമുക്കുളം"
+    },
+    {
+      "ward_id": "ca05cb5a-7ae6-436b-aa90-b6768aa10752",
+      "ward_no": "13",
+      "ward_name_en": "Parappuram",
+      "ward_name_ml": "പാറപ്പുറം"
+    },
+    {
+      "ward_id": "2a8f88a6-6924-4bd2-a1c2-bc3fdecdcd48",
+      "ward_no": "14",
+      "ward_name_en": "Iranikkulam",
+      "ward_name_ml": "ഐരാണിക്കുളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081503.geojson"
+  }
+}

@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G010406",
+  "local_body_name_en": "Nanniyode",
+  "local_body_name_ml": "നന്ദിയോട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "131",
+    "assembly_name_en": "Vamanapuram",
+    "assembly_name_ml": "വാമനപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "17072cf8-f0e5-4260-bc3c-7c8b1c906f28",
+      "ward_no": "1",
+      "ward_name_en": "Anakulam",
+      "ward_name_ml": "ആനകുളം"
+    },
+    {
+      "ward_id": "919a18a6-163a-44ab-9a58-9bfa1b6d2258",
+      "ward_no": "2",
+      "ward_name_en": "Meenmutty",
+      "ward_name_ml": "മീന്‍മുട്ടി"
+    },
+    {
+      "ward_id": "856e0fc6-9218-48e1-9dba-07560fd1099b",
+      "ward_no": "3",
+      "ward_name_en": "Pandiyanpara",
+      "ward_name_ml": "പാണ്ഡ്യന്‍പാറ"
+    },
+    {
+      "ward_id": "90e7d190-d84d-48b5-a371-339b2249f88c",
+      "ward_no": "4",
+      "ward_name_en": "Kallippara",
+      "ward_name_ml": "കള്ളിപ്പാറ"
+    },
+    {
+      "ward_id": "328bbfed-e7c0-4e3b-a6aa-3ee8b1d0bdd0",
+      "ward_no": "5",
+      "ward_name_en": "Kurunthali",
+      "ward_name_ml": "കുറുന്താളി"
+    },
+    {
+      "ward_id": "4a43b3e8-dd5d-4c94-9676-f95d558a1c79",
+      "ward_no": "6",
+      "ward_name_en": "Palode",
+      "ward_name_ml": "പാലോട്"
+    },
+    {
+      "ward_id": "73c74ca6-83a1-4823-b93c-aac9b0727013",
+      "ward_no": "7",
+      "ward_name_en": "Puliyoor",
+      "ward_name_ml": "പുലിയൂര്‍"
+    },
+    {
+      "ward_id": "5ae4e65b-35d1-4bcf-a5d4-8f5916a378e3",
+      "ward_no": "8",
+      "ward_name_en": "Nanniyode",
+      "ward_name_ml": "നന്ദിയോട്"
+    },
+    {
+      "ward_id": "aa29a1b4-82e8-41c3-9ef1-d23d52aef8dc",
+      "ward_no": "9",
+      "ward_name_en": "Navodaya",
+      "ward_name_ml": "നവോദയ"
+    },
+    {
+      "ward_id": "374a574a-4176-4eb4-b6ca-a2cae42f8e57",
+      "ward_no": "10",
+      "ward_name_en": "Vattappankadu",
+      "ward_name_ml": "വട്ടപ്പന്‍കാട്"
+    },
+    {
+      "ward_id": "525dec4a-beb0-48fb-ba95-2e8540b64d06",
+      "ward_no": "11",
+      "ward_name_en": "Pacha",
+      "ward_name_ml": "പച്ച"
+    },
+    {
+      "ward_id": "46beb25b-ec7d-4690-827c-b33ead1f002c",
+      "ward_no": "12",
+      "ward_name_en": "Alumkuzhi",
+      "ward_name_ml": "ആലുംകുഴി"
+    },
+    {
+      "ward_id": "dfcf3acf-6461-4be5-aff3-2a0cf620698b",
+      "ward_no": "13",
+      "ward_name_en": "Kurupuzha",
+      "ward_name_ml": "കുറുപുഴ"
+    },
+    {
+      "ward_id": "e67501fa-e276-496c-aabd-315237646a17",
+      "ward_no": "14",
+      "ward_name_en": "Elavattom",
+      "ward_name_ml": "ഇളവട്ടം"
+    },
+    {
+      "ward_id": "05edd629-6a46-4579-b2da-0c48a0f0d320",
+      "ward_no": "15",
+      "ward_name_en": "Perayam",
+      "ward_name_ml": "പേരയം"
+    },
+    {
+      "ward_id": "8d47a463-f4f8-4822-b30b-e5e065b4849a",
+      "ward_no": "16",
+      "ward_name_en": "Thannimoodu",
+      "ward_name_ml": "താന്നിമൂട്"
+    },
+    {
+      "ward_id": "30fdcbac-099e-48ae-acd9-6791b16be4e2",
+      "ward_no": "17",
+      "ward_name_en": "Alampara",
+      "ward_name_ml": "ആലംപാറ"
+    },
+    {
+      "ward_id": "60f61ed2-e9aa-41b4-a955-ed8f2d43b25a",
+      "ward_no": "18",
+      "ward_name_en": "Paluvalli",
+      "ward_name_ml": "പാലുവള്ളി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010406.geojson"
+  }
+}

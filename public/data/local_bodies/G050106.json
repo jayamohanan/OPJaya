@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G050106",
+  "local_body_name_en": "Udayanapuram",
+  "local_body_name_ml": "ഉദയനാപുരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "95",
+    "assembly_name_en": "Vaikom",
+    "assembly_name_ml": "വൈക്കം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "db92fa4b-8d0a-470e-ac2f-4fbef710fe0e",
+      "ward_no": "1",
+      "ward_name_en": "Akkarapadom",
+      "ward_name_ml": "അക്കരപ്പാടം"
+    },
+    {
+      "ward_id": "f34a2ffb-69d3-46cc-9cb8-7e582fde24d7",
+      "ward_no": "2",
+      "ward_name_en": "Vadakkemuri",
+      "ward_name_ml": "വടക്കേമുറി"
+    },
+    {
+      "ward_id": "0b1acbec-3621-4a0d-b8d1-65ac03af8694",
+      "ward_no": "3",
+      "ward_name_en": "Nanadom",
+      "ward_name_ml": "നാനാടം"
+    },
+    {
+      "ward_id": "e8f9e162-a4c1-4a64-8e40-214b2ff8bf0b",
+      "ward_no": "4",
+      "ward_name_en": "Irumpoozhikkara",
+      "ward_name_ml": "ഇരുന്പൂഴിക്കര"
+    },
+    {
+      "ward_id": "62bf98c1-bff8-4e3c-ba0b-822f4ab9b12a",
+      "ward_no": "5",
+      "ward_name_en": "Vaikaprayar West",
+      "ward_name_ml": "വൈക്കപ്രയാര്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "ad4453f2-c087-487e-a501-b0b0acca8d0f",
+      "ward_no": "6",
+      "ward_name_en": "Vaikaprayar East",
+      "ward_name_ml": "വൈക്കപ്രയാര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "43dab02a-4469-40b3-802b-9c478233d3c0",
+      "ward_no": "7",
+      "ward_name_en": "Padinjarekkara",
+      "ward_name_ml": "പടിഞ്ഞാറേക്കര"
+    },
+    {
+      "ward_id": "b3f08b72-f907-4f50-bd2e-a23b4390155f",
+      "ward_no": "8",
+      "ward_name_en": "Puthenpalam",
+      "ward_name_ml": "പുത്തന്‍പാലം"
+    },
+    {
+      "ward_id": "4c1c9e1a-ba8c-49a3-982c-23957692ed5c",
+      "ward_no": "9",
+      "ward_name_en": "Vazhamana",
+      "ward_name_ml": "വാഴമന"
+    },
+    {
+      "ward_id": "6f11f70b-e1f5-4e18-a68a-f9bec57830bc",
+      "ward_no": "10",
+      "ward_name_en": "Kanathali",
+      "ward_name_ml": "കണത്താലി"
+    },
+    {
+      "ward_id": "e722e288-3d7d-4889-8c0f-29ee14166aff",
+      "ward_no": "11",
+      "ward_name_en": "Vallakom",
+      "ward_name_ml": "വല്ലകം"
+    },
+    {
+      "ward_id": "bc8d9911-0fd4-4415-9fa0-3156a09e8776",
+      "ward_no": "12",
+      "ward_name_en": "Paruthimudi",
+      "ward_name_ml": "പരുത്തിമുടി"
+    },
+    {
+      "ward_id": "b990e69d-1d95-4931-abea-70c6b3685a1b",
+      "ward_no": "13",
+      "ward_name_en": "Udayanapuram",
+      "ward_name_ml": "ഉദയനാപുരം"
+    },
+    {
+      "ward_id": "df75d7dc-2785-4b41-a3f4-f3938b2b2dcf",
+      "ward_no": "14",
+      "ward_name_en": "Padinjaremuri",
+      "ward_name_ml": "പടിഞ്ഞാറെമുറി"
+    },
+    {
+      "ward_id": "54dfe4ca-af5c-4e51-bc48-1227dc03e659",
+      "ward_no": "15",
+      "ward_name_en": "Panambukadu",
+      "ward_name_ml": "പനന്പുകാട്"
+    },
+    {
+      "ward_id": "b0ed7c0a-6771-4ccd-9de6-b1690ddcd1c0",
+      "ward_no": "16",
+      "ward_name_en": "Vallyara",
+      "ward_name_ml": "വല്ല്യാറ"
+    },
+    {
+      "ward_id": "dfcd508a-8c4d-4897-9d45-9662a619145a",
+      "ward_no": "17",
+      "ward_name_en": "Nerekadavu",
+      "ward_name_ml": "നേരെകടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050106.geojson"
+  }
+}

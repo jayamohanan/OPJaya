@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G020706",
+  "local_body_name_en": "Panayam",
+  "local_body_name_ml": "പനയം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "124",
+    "assembly_name_en": "Kollam",
+    "assembly_name_ml": "കൊല്ലം",
+    "category": "Perfect"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f64bf97f-3d47-4052-9ae8-0defa91f4836",
+      "ward_no": "1",
+      "ward_name_en": "Perumon West",
+      "ward_name_ml": "പെരുമണ്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "7c0f266e-41ed-4246-9b8e-251c868f757f",
+      "ward_no": "2",
+      "ward_name_en": "Perumon East",
+      "ward_name_ml": "പെരുമണ്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "56bdb27f-5bea-4b7d-9947-d848ee3afdf5",
+      "ward_no": "3",
+      "ward_name_en": "P.H.C",
+      "ward_name_ml": "പി.എച്ച്.സി"
+    },
+    {
+      "ward_id": "af367d82-6fb2-427a-ae92-42fe621d42ad",
+      "ward_no": "4",
+      "ward_name_en": "Railwaystation",
+      "ward_name_ml": "റയില്‍വെസ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "4f2f0684-0d60-4ae0-86ed-6d354cf55311",
+      "ward_no": "5",
+      "ward_name_en": "Chemmakkadu",
+      "ward_name_ml": "ചെമ്മക്കാട്"
+    },
+    {
+      "ward_id": "7266fe59-cb5e-4f74-be45-f0dd55bd0cb2",
+      "ward_no": "6",
+      "ward_name_en": "Charukadu",
+      "ward_name_ml": "ചാറുകാട്"
+    },
+    {
+      "ward_id": "2a82b233-c240-432e-8055-f7b7cf7e9791",
+      "ward_no": "7",
+      "ward_name_en": "Chathinamkulam",
+      "ward_name_ml": "ചാത്തിനാംകുളം"
+    },
+    {
+      "ward_id": "7fccd08c-72d8-4d18-b17e-4e38035a52a5",
+      "ward_no": "8",
+      "ward_name_en": "Gurukulam",
+      "ward_name_ml": "ഗുരുകുലം"
+    },
+    {
+      "ward_id": "519389fe-c13c-4914-a390-8fdcd8372338",
+      "ward_no": "9",
+      "ward_name_en": "Pampalil",
+      "ward_name_ml": "പാമ്പാലില്‍"
+    },
+    {
+      "ward_id": "07809392-2ec1-44e1-b0b5-bc347b0717fa",
+      "ward_no": "10",
+      "ward_name_en": "Kandachira",
+      "ward_name_ml": "കണ്ടച്ചിറ"
+    },
+    {
+      "ward_id": "36ef0203-1bb2-4b60-82fa-3c7de9bd37a7",
+      "ward_no": "11",
+      "ward_name_en": "Thannikkamukku",
+      "ward_name_ml": "താന്നിക്കമുക്ക്"
+    },
+    {
+      "ward_id": "d4166638-b644-4e55-9923-87500e5ecae5",
+      "ward_no": "12",
+      "ward_name_en": "Chonamchira",
+      "ward_name_ml": "ചോനംചിറ"
+    },
+    {
+      "ward_id": "50b9ac59-42f3-44e8-b82c-92bcf19ba37c",
+      "ward_no": "13",
+      "ward_name_en": "Ambazhavayal",
+      "ward_name_ml": "അമ്പഴവയല്‍"
+    },
+    {
+      "ward_id": "70dba7f5-5670-451f-9fac-85e34e96a86a",
+      "ward_no": "14",
+      "ward_name_en": "Panayam",
+      "ward_name_ml": "പനയം"
+    },
+    {
+      "ward_id": "ba998809-d6ad-40b0-b1af-ec2f24c38c57",
+      "ward_no": "15",
+      "ward_name_en": "Kovilmukku",
+      "ward_name_ml": "കോവില്‍മുക്ക്"
+    },
+    {
+      "ward_id": "dc37b8f7-182b-434a-9c79-a99e49606799",
+      "ward_no": "16",
+      "ward_name_en": "Chittayam",
+      "ward_name_ml": "ചിറ്റയം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G020706.geojson"
+  }
+}

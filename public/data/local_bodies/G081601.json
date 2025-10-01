@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G081601",
+  "local_body_name_en": "Kadukutty",
+  "local_body_name_ml": "കാടുകുറ്റി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "72",
+    "assembly_name_en": "Chalakudy",
+    "assembly_name_ml": "ചാലക്കുടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "e504a6e9-1d6f-4e46-9880-02d6a0c1fa34",
+      "ward_no": "1",
+      "ward_name_en": "Palayamparambu",
+      "ward_name_ml": "പാളയം പറമ്പ്"
+    },
+    {
+      "ward_id": "ec385e34-9c3a-4026-a666-ff631862c4e3",
+      "ward_no": "2",
+      "ward_name_en": "Kadukutty",
+      "ward_name_ml": "കാടുകുറ്റി"
+    },
+    {
+      "ward_id": "aa08bcec-c5c6-467b-90a9-f16bf7200ab2",
+      "ward_no": "3",
+      "ward_name_en": "Vattakkotta",
+      "ward_name_ml": "വട്ടക്കോട്ട"
+    },
+    {
+      "ward_id": "36b88963-2935-4801-a0bc-6c97d0037245",
+      "ward_no": "4",
+      "ward_name_en": "Gandhinagar",
+      "ward_name_ml": "ഗാന്ധിനഗര്‍"
+    },
+    {
+      "ward_id": "850aa390-b899-4b1d-9b1e-4a5c9b4cd9d5",
+      "ward_no": "5",
+      "ward_name_en": "Pamputhara",
+      "ward_name_ml": "പാമ്പൂത്തറ"
+    },
+    {
+      "ward_id": "db0780f9-b79a-45db-8d2e-ad148fbb8be0",
+      "ward_no": "6",
+      "ward_name_en": "Annanad",
+      "ward_name_ml": "അന്നനാട്"
+    },
+    {
+      "ward_id": "b7861600-9d2e-43f6-b99f-70cfb15ddc48",
+      "ward_no": "7",
+      "ward_name_en": "Arangali",
+      "ward_name_ml": "ആറങ്ങാലി"
+    },
+    {
+      "ward_id": "1cd7b27b-e904-49e2-9ff5-d4a66e4e1d4d",
+      "ward_no": "8",
+      "ward_name_en": "Kanalpalam",
+      "ward_name_ml": "കനാല്‍പാലം"
+    },
+    {
+      "ward_id": "2f62df54-4637-420b-bc69-ef1c1ffb8cb1",
+      "ward_no": "9",
+      "ward_name_en": "Kathikudom",
+      "ward_name_ml": "കാതികുടം"
+    },
+    {
+      "ward_id": "61671b5a-14a4-4b8d-bdbe-105201a65735",
+      "ward_no": "10",
+      "ward_name_en": "Parayam",
+      "ward_name_ml": "പാറയം"
+    },
+    {
+      "ward_id": "182241fe-5819-4ff1-9bb8-b2f36efefd75",
+      "ward_no": "11",
+      "ward_name_en": "Cheralakkunnu",
+      "ward_name_ml": "ചെറാലക്കുന്ന്"
+    },
+    {
+      "ward_id": "d82f2393-20ed-4dc2-b920-be062820b3e5",
+      "ward_no": "12",
+      "ward_name_en": "Kulayidam",
+      "ward_name_ml": "കുലയിടം"
+    },
+    {
+      "ward_id": "0372a7bc-dae9-4965-9454-34cbe32fae26",
+      "ward_no": "13",
+      "ward_name_en": "Cheruvaloor",
+      "ward_name_ml": "ചെറുവാളൂര്‍"
+    },
+    {
+      "ward_id": "56f7cd96-165c-4f7a-b6ae-7a2cc95e0918",
+      "ward_no": "14",
+      "ward_name_en": "Kalloor",
+      "ward_name_ml": "കല്ലൂര്‍"
+    },
+    {
+      "ward_id": "4e84d522-46c8-4fb2-a1e8-270c03dd6d18",
+      "ward_no": "15",
+      "ward_name_en": "Thykkoottam",
+      "ward_name_ml": "തൈക്കൂട്ടം"
+    },
+    {
+      "ward_id": "979b6819-1afe-4514-86fa-71f39a674e6a",
+      "ward_no": "16",
+      "ward_name_en": "Vynthala",
+      "ward_name_ml": "വൈന്തല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081601.geojson"
+  }
+}

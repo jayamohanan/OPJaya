@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030305",
+  "local_body_name_en": "Ezhumattoor",
+  "local_body_name_ml": "എഴുമറ്റൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "112",
+    "assembly_name_en": "Ranni",
+    "assembly_name_ml": "റാന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d1da7909-e93e-42b7-b4ad-4e77dde02b7c",
+      "ward_no": "1",
+      "ward_name_en": "Kottankudy",
+      "ward_name_ml": "കൊറ്റന്‍കുടി"
+    },
+    {
+      "ward_id": "abd9e180-afa0-4298-8a1a-a6938ed7ca98",
+      "ward_no": "2",
+      "ward_name_en": "Malekeezhu",
+      "ward_name_ml": "മലേക്കീഴ്"
+    },
+    {
+      "ward_id": "5889d2e4-a468-49f9-8f3b-cfb10a179dc3",
+      "ward_no": "3",
+      "ward_name_en": "Methanam",
+      "ward_name_ml": "മേത്താനം"
+    },
+    {
+      "ward_id": "ab55982b-b337-41d0-99dd-9283a9ab82ee",
+      "ward_no": "4",
+      "ward_name_en": "Ezhumattoor",
+      "ward_name_ml": "എഴുമറ്റൂര്‍"
+    },
+    {
+      "ward_id": "37956d0a-5112-463e-9793-9776dd4557e7",
+      "ward_no": "5",
+      "ward_name_en": "Irumbukuzhy",
+      "ward_name_ml": "ഇരുമ്പുകുഴി"
+    },
+    {
+      "ward_id": "a3428599-e2bb-4e10-aac5-9a659ff30b65",
+      "ward_no": "6",
+      "ward_name_en": "Indanadu",
+      "ward_name_ml": "ഇണ്ടനാട്"
+    },
+    {
+      "ward_id": "b77e3332-7698-4f4c-8b57-1ed398c0a74e",
+      "ward_no": "7",
+      "ward_name_en": "Edackadu",
+      "ward_name_ml": "ഇടയ്ക്കാട്"
+    },
+    {
+      "ward_id": "c5513ec0-1e4b-47be-8329-3baab1c7ef89",
+      "ward_no": "8",
+      "ward_name_en": "Vallikala",
+      "ward_name_ml": "വളളിക്കാല"
+    },
+    {
+      "ward_id": "6541119a-ca8d-4da2-b599-9d7df83547d4",
+      "ward_no": "9",
+      "ward_name_en": "Kottiyambalam",
+      "ward_name_ml": "കൊട്ടിയമ്പലം"
+    },
+    {
+      "ward_id": "77faede2-be54-4101-a872-4573e5e02e36",
+      "ward_no": "10",
+      "ward_name_en": "Thelliyoor",
+      "ward_name_ml": "തെളളിയൂര്‍"
+    },
+    {
+      "ward_id": "661b7592-d9e9-4aa6-94bb-b44001fc1d02",
+      "ward_no": "11",
+      "ward_name_en": "Perumbracadu",
+      "ward_name_ml": "പെരുമ്പ്രക്കാട്"
+    },
+    {
+      "ward_id": "255861d9-e280-4a42-b5b2-cd943f02b36e",
+      "ward_no": "12",
+      "ward_name_en": "Valakuzhy",
+      "ward_name_ml": "വാളക്കുഴി"
+    },
+    {
+      "ward_id": "c0f83fc6-4be3-4092-bb0d-f545005f5796",
+      "ward_no": "13",
+      "ward_name_en": "Santhipuram",
+      "ward_name_ml": "ശാന്തിപുരം"
+    },
+    {
+      "ward_id": "25b09c5c-6feb-437c-95cd-cec5da4efd99",
+      "ward_no": "14",
+      "ward_name_en": "Venghaza",
+      "ward_name_ml": "വേങ്ങഴ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030305.geojson"
+  }
+}

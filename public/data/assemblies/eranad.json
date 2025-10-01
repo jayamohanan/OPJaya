@@ -1,0 +1,60 @@
+{
+  "assembly_id": "34",
+  "assembly_name_en": "Eranad",
+  "assembly_name_ml": "ഏറനാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G100507",
+      "local_body_name_en": "Areacode",
+      "local_body_name_ml": "അരീക്കോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100101",
+      "local_body_name_en": "Chaliyar",
+      "local_body_name_ml": "ചാലിയാര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100508",
+      "local_body_name_en": "Edavanna",
+      "local_body_name_ml": "എടവണ്ണ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100502",
+      "local_body_name_en": "Kavanur",
+      "local_body_name_ml": "കാവനൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100503",
+      "local_body_name_en": "Keezhuparamba",
+      "local_body_name_ml": "കീഴുപറമ്പ്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100506",
+      "local_body_name_en": "Kuzhimanna",
+      "local_body_name_ml": "കുഴിമണ്ണ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100501",
+      "local_body_name_en": "Urangattiri",
+      "local_body_name_ml": "ഊര്‍ങ്ങാട്ടിരി",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/eranad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/eranad.geojson"
+  }
+}

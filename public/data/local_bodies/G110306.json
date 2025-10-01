@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G110306",
+  "local_body_name_en": "Velom",
+  "local_body_name_ml": "വേളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "21",
+    "assembly_name_en": "Kuttiady",
+    "assembly_name_ml": "കുറ്റ്യാടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a277c2cf-9a33-4706-bc95-421c5fe62d8d",
+      "ward_no": "1",
+      "ward_name_en": "Kakkuni",
+      "ward_name_ml": "കാക്കുനി"
+    },
+    {
+      "ward_id": "6e163a52-cf7c-4f3d-b9ec-19a36debbf8a",
+      "ward_no": "2",
+      "ward_name_en": "Theekkuni",
+      "ward_name_ml": "തീക്കുനി"
+    },
+    {
+      "ward_id": "b667a721-ebe7-4d0d-b0dc-14585df89fcc",
+      "ward_no": "3",
+      "ward_name_en": "Thoovamala",
+      "ward_name_ml": "തൂവ്വമല"
+    },
+    {
+      "ward_id": "d176b57a-a1a2-4a87-96a7-79e6aaac14ec",
+      "ward_no": "4",
+      "ward_name_en": "Valakettu",
+      "ward_name_ml": "വലകെട്ട്"
+    },
+    {
+      "ward_id": "8fb9fa7f-f828-4bd9-8032-76a0245b7960",
+      "ward_no": "5",
+      "ward_name_en": "Kappumala",
+      "ward_name_ml": "കാപ്പുമല"
+    },
+    {
+      "ward_id": "5747c442-f104-48cf-b50b-1b15fd993daf",
+      "ward_no": "6",
+      "ward_name_en": "Cherukunnu",
+      "ward_name_ml": "ചെറുകുന്ന്"
+    },
+    {
+      "ward_id": "1aff21df-543d-4680-b78b-a5e5d68c8707",
+      "ward_no": "7",
+      "ward_name_en": "Santhinagar",
+      "ward_name_ml": "ശാന്തിനഗര്‍"
+    },
+    {
+      "ward_id": "a2018e4e-6278-42c7-aa36-8d4e76bc9d8e",
+      "ward_no": "8",
+      "ward_name_en": "Koolikkunnu",
+      "ward_name_ml": "കൂളിക്കുന്ന്‍"
+    },
+    {
+      "ward_id": "c0c09059-3d0c-45a6-914d-72f432599433",
+      "ward_no": "9",
+      "ward_name_en": "Arambol",
+      "ward_name_ml": "അരംമ്പോല്‍"
+    },
+    {
+      "ward_id": "b92a9aaa-0298-4cf8-8754-0743a36b92f4",
+      "ward_no": "10",
+      "ward_name_en": "Peruvayal",
+      "ward_name_ml": "പെരുവയല്‍"
+    },
+    {
+      "ward_id": "bf0d6c52-b667-4476-a683-0a3968c00a56",
+      "ward_no": "11",
+      "ward_name_en": "Kurichakam",
+      "ward_name_ml": "കുറിച്ചകം"
+    },
+    {
+      "ward_id": "fb229ec6-949b-4d8d-af85-f66c0f967291",
+      "ward_no": "12",
+      "ward_name_en": "Palliyath",
+      "ward_name_ml": "പള്ളിയത്ത്"
+    },
+    {
+      "ward_id": "e4eee210-666a-4dfe-ae1b-f93c67d14cc0",
+      "ward_no": "13",
+      "ward_name_en": "Gulikappuzha",
+      "ward_name_ml": "ഗുളികപ്പുഴ"
+    },
+    {
+      "ward_id": "f386f6be-fdbf-4597-87c0-b2651d360cfa",
+      "ward_no": "14",
+      "ward_name_en": "Manimala",
+      "ward_name_ml": "മണിമല"
+    },
+    {
+      "ward_id": "627fd887-59be-4155-aa8c-8ed217356941",
+      "ward_no": "15",
+      "ward_name_en": "Poolakkool",
+      "ward_name_ml": "പൂളക്കൂല്‍"
+    },
+    {
+      "ward_id": "ab5d8c4d-a549-41a8-bbb8-5e0823aa3559",
+      "ward_no": "16",
+      "ward_name_en": "Koyura",
+      "ward_name_ml": "കോയ്യൂറ"
+    },
+    {
+      "ward_id": "7a8867c2-8191-4f7d-9c98-c85acf99ae83",
+      "ward_no": "17",
+      "ward_name_en": "Palodikkunnu",
+      "ward_name_ml": "പാലോടിക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110306.geojson"
+  }
+}

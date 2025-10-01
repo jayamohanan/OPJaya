@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G140201",
+  "local_body_name_en": "Belloor",
+  "local_body_name_ml": "ബേളൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "2",
+    "assembly_name_en": "Kasaragod",
+    "assembly_name_ml": "കാസര്‍കോഡ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "678dc496-273d-4ca4-a715-57724612f682",
+      "ward_no": "1",
+      "ward_name_en": "Indumoola",
+      "ward_name_ml": "ഇന്ദുമൂല"
+    },
+    {
+      "ward_id": "726a3390-9d36-49e2-8248-eb53fae3c930",
+      "ward_no": "2",
+      "ward_name_en": "Baja",
+      "ward_name_ml": "ബജ"
+    },
+    {
+      "ward_id": "e2967943-e8f3-4a43-8228-cf41a8766500",
+      "ward_no": "3",
+      "ward_name_en": "Koladapara",
+      "ward_name_ml": "കൊളതപ്പാറ"
+    },
+    {
+      "ward_id": "4596f1b2-4e51-45e6-b3de-6410d1b299ad",
+      "ward_no": "4",
+      "ward_name_en": "Maradamoola",
+      "ward_name_ml": "മരതമൂല"
+    },
+    {
+      "ward_id": "e30808d5-bd18-43ae-947a-85488100ca42",
+      "ward_no": "5",
+      "ward_name_en": "Nettanige",
+      "ward_name_ml": "നെട്ടണിഗെ"
+    },
+    {
+      "ward_id": "2cfea46c-18a9-445a-99bf-53a90609bba7",
+      "ward_no": "6",
+      "ward_name_en": "Kakkebettu",
+      "ward_name_ml": "കക്കബെട്ടു"
+    },
+    {
+      "ward_id": "c74e2472-2b22-4663-b52c-d5c3e4e173a1",
+      "ward_no": "7",
+      "ward_name_en": "Aithanadka",
+      "ward_name_ml": "ഐത്തനടുക്ക"
+    },
+    {
+      "ward_id": "f99242f5-1956-477c-bfd9-581c81ec8969",
+      "ward_no": "8",
+      "ward_name_en": "Basthi",
+      "ward_name_ml": "ബസ്തി"
+    },
+    {
+      "ward_id": "6aee028b-21f6-4876-ad17-d8ff9f6ebe7d",
+      "ward_no": "9",
+      "ward_name_en": "Bellur",
+      "ward_name_ml": "ബെള്ളൂര്‍"
+    },
+    {
+      "ward_id": "a8e01e8d-3844-4393-930a-dc537a8af50e",
+      "ward_no": "10",
+      "ward_name_en": "Natakkal",
+      "ward_name_ml": "നാട്ടക്കല്‍"
+    },
+    {
+      "ward_id": "e49c96bc-648c-45e3-985f-f4855aa84ee0",
+      "ward_no": "11",
+      "ward_name_en": "Kaimala",
+      "ward_name_ml": "കായിമല"
+    },
+    {
+      "ward_id": "ecb1feeb-226d-4aec-8696-764135f787ad",
+      "ward_no": "12",
+      "ward_name_en": "Panayala",
+      "ward_name_ml": "പനയാല"
+    },
+    {
+      "ward_id": "bae3fe25-a484-477a-b262-a9d99d0d3f58",
+      "ward_no": "13",
+      "ward_name_en": "Kinningar",
+      "ward_name_ml": "കിന്നിംഗാര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140201.geojson"
+  }
+}

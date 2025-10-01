@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G030801",
+  "local_body_name_en": "Enadimangalam",
+  "local_body_name_ml": "ഏനാദിമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "114",
+    "assembly_name_en": "Konni",
+    "assembly_name_ml": "കോന്നി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "20181eac-c4a1-4e5b-a49f-32ab80609d85",
+      "ward_no": "1",
+      "ward_name_en": "Mangadu North",
+      "ward_name_ml": "മങ്ങാട് വടക്ക്"
+    },
+    {
+      "ward_id": "f32cde54-2525-4cd1-a6d3-affdd5c9038b",
+      "ward_no": "2",
+      "ward_name_en": "Poothamkara West",
+      "ward_name_ml": "പൂതങ്കര പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "dc9afe98-73b3-4aeb-a761-fa822f043f91",
+      "ward_no": "3",
+      "ward_name_en": "Poothamkara Vettippuram",
+      "ward_name_ml": "പൂതങ്കര വെട്ടിപ്പുറം"
+    },
+    {
+      "ward_id": "4952f3ee-f267-4404-8470-6cfb9b27656b",
+      "ward_no": "4",
+      "ward_name_en": "Poothamkara East",
+      "ward_name_ml": "പൂതങ്കര കിഴക്ക്"
+    },
+    {
+      "ward_id": "60afd63c-9c3a-45a5-a9a9-2b00c46ebe39",
+      "ward_no": "5",
+      "ward_name_en": "Maroor North",
+      "ward_name_ml": "മാരൂര്‍ വടക്ക്"
+    },
+    {
+      "ward_id": "ef30c801-f043-4e63-90be-86ff649addb0",
+      "ward_no": "6",
+      "ward_name_en": "Changoor",
+      "ward_name_ml": "ചാങ്കൂർ"
+    },
+    {
+      "ward_id": "b4705dad-9208-4eda-bf33-8fbb1f29cff4",
+      "ward_no": "7",
+      "ward_name_en": "Maroor South",
+      "ward_name_ml": "മാരൂർ തെക്ക്"
+    },
+    {
+      "ward_id": "70917e6b-74b7-4bcb-9bf5-9008586f4bac",
+      "ward_no": "8",
+      "ward_name_en": "Kurumbakara East",
+      "ward_name_ml": "കുറുമ്പകര കിഴക്ക്"
+    },
+    {
+      "ward_id": "e84029ab-0c7f-42cd-bf50-6ff8d50cb569",
+      "ward_no": "9",
+      "ward_name_en": "Marroor Kattookkala",
+      "ward_name_ml": "മാരൂര്‍ കാട്ടൂക്കാലാ"
+    },
+    {
+      "ward_id": "94ba99ca-4422-41b9-8f64-bb0bac79f186",
+      "ward_no": "10",
+      "ward_name_en": "Kurumbakara West",
+      "ward_name_ml": "കുറുമ്പകര പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "4d8678a1-be7c-48d3-b92e-a8fb6935f888",
+      "ward_no": "11",
+      "ward_name_en": "Kunnida East",
+      "ward_name_ml": "കുന്നിട കിഴക്ക്"
+    },
+    {
+      "ward_id": "27bd7e56-93b7-4096-86f2-f4e6f707a66d",
+      "ward_no": "12",
+      "ward_name_en": "Kunnida West",
+      "ward_name_ml": "കുന്നിട പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "bb1d27ce-10fd-4a83-8f49-88be399684bd",
+      "ward_no": "13",
+      "ward_name_en": "Elamannoor East",
+      "ward_name_ml": "ഇളമണ്ണൂര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "4cf6033f-74ca-4bf6-8c1f-53ccb91396f3",
+      "ward_no": "14",
+      "ward_name_en": "Elamannoor West",
+      "ward_name_ml": "ഇളമണ്ണൂര്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "34d548c8-42d3-447d-a668-0f532594f505",
+      "ward_no": "15",
+      "ward_name_en": "Mangadu South",
+      "ward_name_ml": "മാങ്ങാട് തെക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030801.geojson"
+  }
+}

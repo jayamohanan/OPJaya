@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G060504",
+  "local_body_name_en": "Kamakshy",
+  "local_body_name_ml": "കാമാക്ഷി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "91",
+    "assembly_name_en": "Idukki",
+    "assembly_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7cbe7b46-f8c3-418f-8785-4b99d0c8a393",
+      "ward_no": "1",
+      "ward_name_en": "Karikkinmedu",
+      "ward_name_ml": "കരിക്കിന്‍മേട്"
+    },
+    {
+      "ward_id": "6f436b9a-95aa-48ed-a09d-de6de00d9dda",
+      "ward_no": "2",
+      "ward_name_en": "Prakash",
+      "ward_name_ml": "പ്രകാശ്‌"
+    },
+    {
+      "ward_id": "76088c74-5d20-4aff-bdd8-baa7cee7674d",
+      "ward_no": "3",
+      "ward_name_en": "Udayagiry",
+      "ward_name_ml": "ഉദയഗിരി"
+    },
+    {
+      "ward_id": "2c9bba4b-2266-4061-87a7-f61a52a76281",
+      "ward_no": "4",
+      "ward_name_en": "Pushpagiry",
+      "ward_name_ml": "പുഷ്പഗിരി"
+    },
+    {
+      "ward_id": "bb753d19-30a9-42be-b521-848fa0f5449f",
+      "ward_no": "5",
+      "ward_name_en": "Ambalamedu",
+      "ward_name_ml": "അമ്പലമേട്"
+    },
+    {
+      "ward_id": "8c9d6c11-6cf4-4c50-8260-ae226b099653",
+      "ward_no": "6",
+      "ward_name_en": "Kamakshy",
+      "ward_name_ml": "കാമാക്ഷി"
+    },
+    {
+      "ward_id": "245619e0-c538-4466-a437-d7097ed25cec",
+      "ward_no": "7",
+      "ward_name_en": "Nellippara",
+      "ward_name_ml": "നെല്ലിപ്പാറ"
+    },
+    {
+      "ward_id": "91497fdc-e7d9-4454-b180-0238d2b4597e",
+      "ward_no": "8",
+      "ward_name_en": "8th Mile",
+      "ward_name_ml": "എട്ടാം മൈല്‍"
+    },
+    {
+      "ward_id": "0ab44b9b-1733-4d58-82bd-9514a23c42b7",
+      "ward_no": "9",
+      "ward_name_en": "Calvaymount",
+      "ward_name_ml": "കാല്‍വരിമൌണ്ട്"
+    },
+    {
+      "ward_id": "c2ee9b4c-0299-408a-ba40-5c0af735f394",
+      "ward_no": "10",
+      "ward_name_en": "Koottakallu",
+      "ward_name_ml": "കൂട്ടക്കല്ല്"
+    },
+    {
+      "ward_id": "66764e53-86fb-4183-8960-9b0b3b5be58b",
+      "ward_no": "11",
+      "ward_name_en": "Thankamany East",
+      "ward_name_ml": "തങ്കമണി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "8e4e2e0e-bbb6-4777-b085-fadb9889f5b2",
+      "ward_no": "12",
+      "ward_name_en": "Thankamany West",
+      "ward_name_ml": "തങ്കമണി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "41948767-d705-4f41-a301-849091eb6464",
+      "ward_no": "13",
+      "ward_name_en": "Neelivayal",
+      "ward_name_ml": "നീലിവയല്‍"
+    },
+    {
+      "ward_id": "29349f00-aace-4439-aae5-6447292e87eb",
+      "ward_no": "14",
+      "ward_name_en": "Pandippara",
+      "ward_name_ml": "പാണ്ടിപ്പാറ"
+    },
+    {
+      "ward_id": "e11c044d-ad00-4bbd-9695-127b1b0ec2e8",
+      "ward_no": "15",
+      "ward_name_en": "Erukootty",
+      "ward_name_ml": "ഇരുകൂട്ടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060504.geojson"
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "local_body_id": "G040701",
+  "local_body_name_en": "Muttar",
+  "local_body_name_ml": "മുട്ടാര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a446a024-16e2-49fc-8bd0-9c3a6fb2dc06",
+      "ward_no": "1",
+      "ward_name_en": "Mithrakary West",
+      "ward_name_ml": "മിത്രക്കരി പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "982f6bf8-7bd1-4c9f-b6cb-0e79b6c5d8ef",
+      "ward_no": "3",
+      "ward_name_en": "Mithrakary East",
+      "ward_name_ml": "മിത്രക്കരി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "f3262548-8e76-4c7e-9b34-d06db8f759cf",
+      "ward_no": "4",
+      "ward_name_en": "Kumaramchira",
+      "ward_name_ml": "കുമരംചിറ"
+    },
+    {
+      "ward_id": "f53ad20e-c0fb-4916-98c5-469b14b8ab0d",
+      "ward_no": "5",
+      "ward_name_en": "Naluthodu",
+      "ward_name_ml": "നാലുതോട്"
+    },
+    {
+      "ward_id": "208b4878-d68b-4c73-ba4a-0ad185df4736",
+      "ward_no": "6",
+      "ward_name_en": "Muttar North",
+      "ward_name_ml": "മുട്ടാര്‍ വടക്ക്"
+    },
+    {
+      "ward_id": "53fc0540-28e3-42a0-a61c-bd5ccf297e5c",
+      "ward_no": "7",
+      "ward_name_en": "Muttar East",
+      "ward_name_ml": "മുട്ടാര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "08da324e-be0b-44cd-9f43-ebeb571466e0",
+      "ward_no": "8",
+      "ward_name_en": "Muttar Central",
+      "ward_name_ml": "മുട്ടാര്‍ സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "6059ba2b-d31d-435c-b3ef-b4bcb6f5b138",
+      "ward_no": "9",
+      "ward_name_en": "Muttar South",
+      "ward_name_ml": "മുട്ടാര്‍ തെക്ക്"
+    },
+    {
+      "ward_id": "a075f662-59e8-43c5-b90b-6f857a4259ce",
+      "ward_no": "10",
+      "ward_name_en": "Govenda",
+      "ward_name_ml": "ഗൊവേന്ദ"
+    },
+    {
+      "ward_id": "3eef1837-677d-4f57-85e2-644400c6ce92",
+      "ward_no": "11",
+      "ward_name_en": "Choorakutti",
+      "ward_name_ml": "ചൂരക്കുറ്റി"
+    },
+    {
+      "ward_id": "4a84d708-c76b-4130-93ce-d419b60e8a5d",
+      "ward_no": "12",
+      "ward_name_en": "Mithramadam",
+      "ward_name_ml": "മിത്രമഠം"
+    },
+    {
+      "ward_id": "72aa9a9d-47d7-4650-98dc-ca72454a4869",
+      "ward_no": "13",
+      "ward_name_en": "Alappurathukadu",
+      "ward_name_ml": "ആലപ്പുറത്ത്കാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040701.geojson"
+  }
+}

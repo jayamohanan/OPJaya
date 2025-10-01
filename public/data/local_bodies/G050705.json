@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050705",
+  "local_body_name_en": "Pallickathodu",
+  "local_body_name_ml": "പള്ളിക്കത്തോട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "100",
+    "assembly_name_en": "Kanjirappally",
+    "assembly_name_ml": "കാഞ്ഞിരപ്പള്ളി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "0b524854-4972-4c0a-8c59-1497bb56b9ef",
+      "ward_no": "1",
+      "ward_name_en": "Aruvikuzhy",
+      "ward_name_ml": "അരുവിക്കുഴി"
+    },
+    {
+      "ward_id": "41260dd7-1dee-4949-80e9-3e195be40297",
+      "ward_no": "2",
+      "ward_name_en": "Kizhakkadambu",
+      "ward_name_ml": "കിഴക്കടമ്പ്"
+    },
+    {
+      "ward_id": "d2ac4633-2b70-4ed2-997d-af229241dcda",
+      "ward_no": "3",
+      "ward_name_en": "Vattakakkavu",
+      "ward_name_ml": "വട്ടകക്കാവ്"
+    },
+    {
+      "ward_id": "fc315527-5d20-49dd-a89f-a90bdb64a871",
+      "ward_no": "4",
+      "ward_name_en": "Anickad",
+      "ward_name_ml": "ആനിക്കാട്"
+    },
+    {
+      "ward_id": "b0a6a8d7-be42-44cf-b365-9a539307ca3a",
+      "ward_no": "5",
+      "ward_name_en": "Verungalpara",
+      "ward_name_ml": "വേരുങ്കല്‍പാറ"
+    },
+    {
+      "ward_id": "4559b265-9d9a-4fb7-9519-e1cd9d160b72",
+      "ward_no": "6",
+      "ward_name_en": "Elampally",
+      "ward_name_ml": "ഇളംപള്ളി"
+    },
+    {
+      "ward_id": "71e163ed-c28b-4012-9ed8-65efe3a9b89c",
+      "ward_no": "7",
+      "ward_name_en": "Pullanithakidi",
+      "ward_name_ml": "പുല്ലാനിത്തകിടി"
+    },
+    {
+      "ward_id": "a12e8499-b935-4f9e-9cdd-240d07643c9e",
+      "ward_no": "8",
+      "ward_name_en": "Kayoori",
+      "ward_name_ml": "കയ്യൂരി"
+    },
+    {
+      "ward_id": "025c6223-5aff-430b-aeac-088bbac19c35",
+      "ward_no": "9",
+      "ward_name_en": "Edathinakam",
+      "ward_name_ml": "ഇടത്തിനകം"
+    },
+    {
+      "ward_id": "acd32645-5fc8-4f11-b46c-09f3f8861903",
+      "ward_no": "10",
+      "ward_name_en": "Kompara",
+      "ward_name_ml": "കൊമ്പാറ"
+    },
+    {
+      "ward_id": "fb703730-2961-474f-a39b-801a3732d03a",
+      "ward_no": "11",
+      "ward_name_en": "Myladikkara",
+      "ward_name_ml": "മൈലാടിക്കര"
+    },
+    {
+      "ward_id": "30c18a67-6b28-4df5-bf96-1fd090160ded",
+      "ward_no": "12",
+      "ward_name_en": "Mukkali",
+      "ward_name_ml": "മുക്കാലി"
+    },
+    {
+      "ward_id": "061ba168-afdd-4d5f-8fce-f156c1ecd3af",
+      "ward_no": "13",
+      "ward_name_en": "Kalladampoika",
+      "ward_name_ml": "കല്ലാടംപൊയ്ക"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050705.geojson"
+  }
+}

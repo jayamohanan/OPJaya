@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G110401",
+  "local_body_name_en": "Ayancheri",
+  "local_body_name_ml": "ആയഞ്ചരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "21",
+    "assembly_name_en": "Kuttiady",
+    "assembly_name_ml": "കുറ്റ്യാടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2eb9ea90-a131-4962-adbd-416cb3f16696",
+      "ward_no": "1",
+      "ward_name_en": "Midiyeri",
+      "ward_name_ml": "മിടിയേരി"
+    },
+    {
+      "ward_id": "32d5c452-c820-4a31-a509-f1ff08806821",
+      "ward_no": "2",
+      "ward_name_en": "Anchukandam",
+      "ward_name_ml": "അഞ്ചുകണ്ടം"
+    },
+    {
+      "ward_id": "ffb6e0e1-d617-4779-9d06-e6e3668c4fbd",
+      "ward_no": "3",
+      "ward_name_en": "Keeriyangadi",
+      "ward_name_ml": "കീരിയങ്ങാടി"
+    },
+    {
+      "ward_id": "482249e7-4de0-404e-90d9-081adc3adbeb",
+      "ward_no": "4",
+      "ward_name_en": "Thaneerpanthal",
+      "ward_name_ml": "തണ്ണീര്‍പന്തല്‍"
+    },
+    {
+      "ward_id": "fb7192f2-79af-411b-acf4-fb49ff4efd88",
+      "ward_no": "5",
+      "ward_name_en": "Kadameri",
+      "ward_name_ml": "കടമേരി"
+    },
+    {
+      "ward_id": "6054eba4-ba75-406e-ae2b-13cdde54b343",
+      "ward_no": "6",
+      "ward_name_en": "Kamicheri",
+      "ward_name_ml": "കാമിച്ചേരി"
+    },
+    {
+      "ward_id": "c4c6c286-5611-43e6-b6bc-036a5e5a98d7",
+      "ward_no": "7",
+      "ward_name_en": "Mookkadathum Vayal",
+      "ward_name_ml": "മുക്കടത്തുംവയല്‍"
+    },
+    {
+      "ward_id": "34d97a91-7385-442b-9704-07c7ece75f8f",
+      "ward_no": "8",
+      "ward_name_en": "Tharopoyil",
+      "ward_name_ml": "തറോപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "58acd57e-e912-4b1f-bce9-5408639cb4d8",
+      "ward_no": "9",
+      "ward_name_en": "Panthappoyil",
+      "ward_name_ml": "പന്തപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "d4a0a7d8-796a-4f01-ac08-2b5466c59f3f",
+      "ward_no": "10",
+      "ward_name_en": "Kuttiyadi Poyil",
+      "ward_name_ml": "കുറ്റ്യാടിപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "90c5288f-417f-4d5f-be24-44282443a7b5",
+      "ward_no": "11",
+      "ward_name_en": "Nalom Korol",
+      "ward_name_ml": "നാളോംകോറോല്‍"
+    },
+    {
+      "ward_id": "82326220-68df-471e-9d59-607e1d2a5470",
+      "ward_no": "12",
+      "ward_name_en": "Kadameri West",
+      "ward_name_ml": "കടമേരി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "0db739c7-0307-416e-b494-c3f30852b2bd",
+      "ward_no": "13",
+      "ward_name_en": "Mangalad",
+      "ward_name_ml": "മംഗലാട്"
+    },
+    {
+      "ward_id": "09a149e4-28f3-4dac-866f-cdc025291a6f",
+      "ward_no": "14",
+      "ward_name_en": "Poyilpara",
+      "ward_name_ml": "പൊയില്‍പ്പാറ"
+    },
+    {
+      "ward_id": "23717888-15f9-45d9-8a95-67073af41040",
+      "ward_no": "15",
+      "ward_name_en": "Kuttivayal",
+      "ward_name_ml": "കുറ്റിവയല്‍"
+    },
+    {
+      "ward_id": "3e7aa517-2fdd-4d01-8523-0935764e1ba5",
+      "ward_no": "16",
+      "ward_name_en": "Kacheriparambu",
+      "ward_name_ml": "കച്ചേരിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "24567342-b956-4763-9bf5-0d52d4882590",
+      "ward_no": "17",
+      "ward_name_en": "Ponmeri",
+      "ward_name_ml": "പൊന്മേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110401.geojson"
+  }
+}

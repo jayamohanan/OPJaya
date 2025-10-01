@@ -1,0 +1,78 @@
+{
+  "assembly_id": "95",
+  "assembly_name_en": "Vaikom",
+  "assembly_name_ml": "വൈക്കം",
+  "category": "Normal",
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G050102",
+      "local_body_name_en": "Chempu",
+      "local_body_name_ml": "ചെമ്പ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050202",
+      "local_body_name_en": "Kallara",
+      "local_body_name_ml": "കല്ലറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050103",
+      "local_body_name_en": "Maravanthuruthu",
+      "local_body_name_ml": "മറവന്‍തുരുത്ത്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050101",
+      "local_body_name_en": "Thalayazham",
+      "local_body_name_ml": "തലയാഴം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050205",
+      "local_body_name_en": "Thalayolaparambu",
+      "local_body_name_ml": "തലയോലപ്പറമ്പ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050104",
+      "local_body_name_en": "TV Puram",
+      "local_body_name_ml": "ടി.വി.പുരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050106",
+      "local_body_name_en": "Udayanapuram",
+      "local_body_name_ml": "ഉദയനാപുരം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M050200",
+      "local_body_name_en": "Vaikom",
+      "local_body_name_ml": "വൈക്കം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050105",
+      "local_body_name_en": "Vechoor",
+      "local_body_name_ml": "വെച്ചൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050206",
+      "local_body_name_en": "Velloor",
+      "local_body_name_ml": "വെള്ളൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/vaikom.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/vaikom.geojson"
+  }
+}

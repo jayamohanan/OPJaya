@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G131102",
+  "local_body_name_en": "Kelakam",
+  "local_body_name_ml": "കേളകം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "16",
+    "assembly_name_en": "Peravoor",
+    "assembly_name_ml": "പേരാവൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b2c7ea11-2b31-413a-8676-c264fb2e5e6c",
+      "ward_no": "1",
+      "ward_name_en": "Kunderi",
+      "ward_name_ml": "കുണ്ടേരി"
+    },
+    {
+      "ward_id": "dd079483-629a-4915-8886-78ea82e65214",
+      "ward_no": "2",
+      "ward_name_en": "Thullal",
+      "ward_name_ml": "തുള്ളല്‍"
+    },
+    {
+      "ward_id": "584545e3-56a9-4a93-9e6e-cef3a70e51bc",
+      "ward_no": "3",
+      "ward_name_en": "Illimukku",
+      "ward_name_ml": "ഇല്ലിമുക്ക്"
+    },
+    {
+      "ward_id": "cd02ab49-273c-47a6-858b-98fddb109421",
+      "ward_no": "4",
+      "ward_name_en": "Chettiamparamba",
+      "ward_name_ml": "ചെട്ട്യാംപറമ്പ്"
+    },
+    {
+      "ward_id": "6da6d481-961f-413e-bb8b-f2dbdad73cb8",
+      "ward_no": "5",
+      "ward_name_en": "Vendekkumchal",
+      "ward_name_ml": "വെണ്ടേക്കുംചാല്‍"
+    },
+    {
+      "ward_id": "440876de-dcb5-45f7-98ab-ba2a7696d7ee",
+      "ward_no": "6",
+      "ward_name_en": "Narangathattu",
+      "ward_name_ml": "നാരങ്ങത്തട്ട്"
+    },
+    {
+      "ward_id": "535179bd-9d1d-44db-93e4-e680f073443b",
+      "ward_no": "7",
+      "ward_name_en": "Santhigiri",
+      "ward_name_ml": "ശാന്തിഗിരി"
+    },
+    {
+      "ward_id": "5126ccdf-9df3-4cc6-baad-3829958c4b7a",
+      "ward_no": "8",
+      "ward_name_en": "Adakkathode",
+      "ward_name_ml": "അടക്കാത്തോട്"
+    },
+    {
+      "ward_id": "48a244dd-f97d-4370-ac00-b2f584c1ed05",
+      "ward_no": "9",
+      "ward_name_en": "Poyyamala",
+      "ward_name_ml": "പൊയ്യമല"
+    },
+    {
+      "ward_id": "9577ce48-bfe2-45e8-81e9-ff09a80fa6c5",
+      "ward_no": "10",
+      "ward_name_en": "Velloonny",
+      "ward_name_ml": "വെള്ളൂന്നി"
+    },
+    {
+      "ward_id": "53f067a7-0e99-4daa-9950-99da59452a6e",
+      "ward_no": "11",
+      "ward_name_en": "Poovathinchola",
+      "ward_name_ml": "പൂവത്തിന്‍ചോല"
+    },
+    {
+      "ward_id": "d3a100e4-4ace-4cb3-a7fe-9c53d93f1642",
+      "ward_no": "12",
+      "ward_name_en": "Manhalampuram",
+      "ward_name_ml": "മഞ്ഞളാംപുറം"
+    },
+    {
+      "ward_id": "9d277265-f61c-4c4b-ae0a-5c908388352a",
+      "ward_no": "13",
+      "ward_name_en": "Kelakam",
+      "ward_name_ml": "കേളകം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G131102.geojson"
+  }
+}

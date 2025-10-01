@@ -1,0 +1,48 @@
+{
+  "assembly_id": "37",
+  "assembly_name_en": "Manjeri",
+  "assembly_name_ml": "മഞ്ചേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M100300",
+      "local_body_name_en": "Manjeri",
+      "local_body_name_ml": "മഞ്ചേരി",
+      "category": ""
+    },
+    {
+      "local_body_id": "G100207",
+      "local_body_name_en": "Edappatta",
+      "local_body_name_ml": "എടപ്പറ്റ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100704",
+      "local_body_name_en": "Keezhattur",
+      "local_body_name_ml": "കീഴാറ്റൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G100302",
+      "local_body_name_en": "Pandikkad",
+      "local_body_name_ml": "പാണ്ടിക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G100304",
+      "local_body_name_en": "Thrikkalangodu",
+      "local_body_name_ml": "തൃക്കലങ്ങോട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/manjeri.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/manjeri.geojson"
+  }
+}

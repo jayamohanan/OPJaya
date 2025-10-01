@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G130408",
+  "local_body_name_en": "Padiyoor",
+  "local_body_name_ml": "പടിയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "15",
+    "assembly_name_en": "Mattanur",
+    "assembly_name_ml": "മട്ടന്നൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c9d60635-bd40-409c-bbc6-cef927ca3f42",
+      "ward_no": "1",
+      "ward_name_en": "Manneri",
+      "ward_name_ml": "മണ്ണേരി"
+    },
+    {
+      "ward_id": "f1738fad-a05b-4303-bcd4-46a67e4cb85b",
+      "ward_no": "2",
+      "ward_name_en": "Blathur",
+      "ward_name_ml": "ബ്ലാത്തൂര്‍"
+    },
+    {
+      "ward_id": "6f42e719-248a-4814-b6e1-cb427630d507",
+      "ward_no": "3",
+      "ward_name_en": "Thirur",
+      "ward_name_ml": "തിരൂര്‍"
+    },
+    {
+      "ward_id": "6b250d2c-f648-4d00-be9d-b64044fd826f",
+      "ward_no": "4",
+      "ward_name_en": "Urathur",
+      "ward_name_ml": "ഊരത്തൂര്‍"
+    },
+    {
+      "ward_id": "d8d0c9ab-925c-402e-9a10-6a735cdb6c60",
+      "ward_no": "5",
+      "ward_name_en": "Aryamkode",
+      "ward_name_ml": "ആര്യംകോട്"
+    },
+    {
+      "ward_id": "317ea71f-3198-4507-ab2d-dc9f73daf1ec",
+      "ward_no": "6",
+      "ward_name_en": "Pulikkad",
+      "ward_name_ml": "പുലിക്കാട്"
+    },
+    {
+      "ward_id": "7c8654af-abcf-4ffb-b591-58c11d8d14d0",
+      "ward_no": "7",
+      "ward_name_en": "Kalluvayal",
+      "ward_name_ml": "കല്ലുവയല്‍"
+    },
+    {
+      "ward_id": "324e7ecc-d7f2-4a48-85e6-35ae600963c4",
+      "ward_no": "8",
+      "ward_name_en": "Nidiyodi",
+      "ward_name_ml": "നിടിയോടി"
+    },
+    {
+      "ward_id": "d881536c-47c9-41bd-a18a-2aa8ebd3c42e",
+      "ward_no": "9",
+      "ward_name_en": "Padiyoor",
+      "ward_name_ml": "പടിയൂര്‍"
+    },
+    {
+      "ward_id": "3ff019ef-3603-47e6-a3cb-a3408760a4ab",
+      "ward_no": "10",
+      "ward_name_en": "Poovvam",
+      "ward_name_ml": "പൂവ്വം"
+    },
+    {
+      "ward_id": "9303e4c3-1cce-4a14-9673-0b93ac6b37f8",
+      "ward_no": "11",
+      "ward_name_en": "Kuyiloor",
+      "ward_name_ml": "കുയിലൂര്‍"
+    },
+    {
+      "ward_id": "dd8102df-d201-4349-9a1e-cbd868684cb7",
+      "ward_no": "12",
+      "ward_name_en": "Perumannu",
+      "ward_name_ml": "പെരുമണ്ണ്"
+    },
+    {
+      "ward_id": "a9764c7c-8240-436f-84fc-4ae33e7c7288",
+      "ward_no": "13",
+      "ward_name_en": "Pedayangode",
+      "ward_name_ml": "പെടയങ്ങോട്"
+    },
+    {
+      "ward_id": "a4e4d6ae-d03a-4497-9d76-daf1a01468fc",
+      "ward_no": "14",
+      "ward_name_en": "Kalliad",
+      "ward_name_ml": "കല്ല്യാട്"
+    },
+    {
+      "ward_id": "cd7ca631-6836-4710-ad29-f96832a10d32",
+      "ward_no": "15",
+      "ward_name_en": "Cholakkari",
+      "ward_name_ml": "ചോലക്കരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130408.geojson"
+  }
+}

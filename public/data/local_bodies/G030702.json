@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030702",
+  "local_body_name_en": "Thumpamon",
+  "local_body_name_ml": "തുമ്പമണ്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "115",
+    "assembly_name_en": "Adoor",
+    "assembly_name_ml": "അടൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "dc3f2f0f-faad-4756-b319-ddf81761d8ff",
+      "ward_no": "1",
+      "ward_name_en": "Muttom Vadakku",
+      "ward_name_ml": "മുട്ടം വടക്ക്"
+    },
+    {
+      "ward_id": "fcd15658-51b0-4d6e-aa33-cb73c454d3cf",
+      "ward_no": "2",
+      "ward_name_en": "Muttom Kizhakku",
+      "ward_name_ml": "മുട്ടം കിഴക്ക്"
+    },
+    {
+      "ward_id": "d4af61b0-95ff-464f-8081-5f1a63e8bdc2",
+      "ward_no": "3",
+      "ward_name_en": "Naduvilemuri Vadakku",
+      "ward_name_ml": "നടുവിലേമുറി വടക്ക്"
+    },
+    {
+      "ward_id": "9981d7fa-e024-4fae-a8bf-fa774d214269",
+      "ward_no": "4",
+      "ward_name_en": "Mampilali Vadakku",
+      "ward_name_ml": "മാമ്പിലാലി വടക്ക്"
+    },
+    {
+      "ward_id": "6e79d125-a28e-4bb4-9c1a-2811b26c5103",
+      "ward_no": "5",
+      "ward_name_en": "Mampilali Thekku",
+      "ward_name_ml": "മാമ്പിലാലി തെക്ക്"
+    },
+    {
+      "ward_id": "05c42329-a1d3-42e2-b6b8-651946236f97",
+      "ward_no": "6",
+      "ward_name_en": "Vayalinum Padinjaru Vadakku",
+      "ward_name_ml": "വയലിനുംപടിഞ്ഞാറ് വടക്ക്"
+    },
+    {
+      "ward_id": "2d3d877f-06bd-496b-b941-39492f113eec",
+      "ward_no": "7",
+      "ward_name_en": "Vijayapuram Kizhakku",
+      "ward_name_ml": "വിജയപുരം കിഴക്ക്"
+    },
+    {
+      "ward_id": "6ef88c6a-ca66-4ae4-8398-0b212ae23e85",
+      "ward_no": "8",
+      "ward_name_en": "Naduvilemuri Kizhakku",
+      "ward_name_ml": "നടുവിലേമുറി കിഴക്ക്"
+    },
+    {
+      "ward_id": "1fa8f123-f0b1-4c73-8534-786c74f48550",
+      "ward_no": "9",
+      "ward_name_en": "Thumpamon",
+      "ward_name_ml": "തുമ്പമണ്‍"
+    },
+    {
+      "ward_id": "1cb2bd79-16b6-41eb-b6c0-61b3df5d1b9d",
+      "ward_no": "10",
+      "ward_name_en": "Vijayapuram",
+      "ward_name_ml": "വിജയപുരം"
+    },
+    {
+      "ward_id": "05400c74-94b2-485c-a6fd-e3888b6d7479",
+      "ward_no": "11",
+      "ward_name_en": "Muttom Thekku",
+      "ward_name_ml": "മുട്ടം തെക്ക്"
+    },
+    {
+      "ward_id": "27411dfe-f756-49a0-9a19-b9e6d0de5818",
+      "ward_no": "12",
+      "ward_name_en": "Muttom",
+      "ward_name_ml": "മുട്ടം"
+    },
+    {
+      "ward_id": "a237232f-0ccb-4b61-b511-b38e12cff391",
+      "ward_no": "13",
+      "ward_name_en": "Muttom Padinjaru",
+      "ward_name_ml": "മുട്ടം പടിഞ്ഞാറ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030702.geojson"
+  }
+}

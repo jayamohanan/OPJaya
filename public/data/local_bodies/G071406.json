@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G071406",
+  "local_body_name_en": "Ayavana",
+  "local_body_name_ml": "ആയവന",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "86",
+    "assembly_name_en": "Muvattupuzha",
+    "assembly_name_ml": "മൂവാറ്റുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "8e1776e1-14d2-421b-9f81-68bbe8c789d8",
+      "ward_no": "1",
+      "ward_name_en": "Punnamattam",
+      "ward_name_ml": "പുന്നമറ്റം"
+    },
+    {
+      "ward_id": "d6323f13-8776-4ff6-a803-0e6275fc623d",
+      "ward_no": "2",
+      "ward_name_en": "Kadumpidi",
+      "ward_name_ml": "കടുംപിടി"
+    },
+    {
+      "ward_id": "9754db2a-dbd9-42bf-a4b1-509f0de2a056",
+      "ward_no": "3",
+      "ward_name_en": "Anchelpetty",
+      "ward_name_ml": "അഞ്ചല്‍പ്പെട്ടി"
+    },
+    {
+      "ward_id": "9c35944a-700d-4ca2-8f74-0e9c74ef423e",
+      "ward_no": "4",
+      "ward_name_en": "Kalamboor",
+      "ward_name_ml": "കാലാമ്പൂര്‍"
+    },
+    {
+      "ward_id": "0324c38c-aa8a-48e6-a22a-bcd988362bc9",
+      "ward_no": "5",
+      "ward_name_en": "Sidhanpadi",
+      "ward_name_ml": "സിദ്ധന്‍പടി"
+    },
+    {
+      "ward_id": "556d6d77-f0db-4fc2-a3d3-aaaf94b29c7e",
+      "ward_no": "6",
+      "ward_name_en": "Peramangalam",
+      "ward_name_ml": "പേരമംഗലം"
+    },
+    {
+      "ward_id": "ea76303a-9fe0-45dc-acb7-c8523aec7d5a",
+      "ward_no": "7",
+      "ward_name_en": "Kavakkad",
+      "ward_name_ml": "കാവക്കാട്"
+    },
+    {
+      "ward_id": "f2c2bc79-8c35-4ff8-85e8-fc904a2ef88d",
+      "ward_no": "8",
+      "ward_name_en": "Manappuzha",
+      "ward_name_ml": "മണപ്പുഴ"
+    },
+    {
+      "ward_id": "98de2085-6f5a-4a5d-a786-94715bb1e9c5",
+      "ward_no": "9",
+      "ward_name_en": "Ayavana",
+      "ward_name_ml": "ആയവന"
+    },
+    {
+      "ward_id": "35d72d52-cd9f-4fd5-8949-8638d588d357",
+      "ward_no": "10",
+      "ward_name_en": "Enanalloor",
+      "ward_name_ml": "ഏനാനല്ലൂര്‍"
+    },
+    {
+      "ward_id": "8f1ce317-f2e3-47ac-9fb7-770d58749d58",
+      "ward_no": "11",
+      "ward_name_en": "Mullappuzhachal",
+      "ward_name_ml": "മുല്ലപ്പുഴച്ചാല്‍"
+    },
+    {
+      "ward_id": "75463f83-cd4f-42f2-9d2e-c49e0c3703ce",
+      "ward_no": "12",
+      "ward_name_en": "Enanalloor West",
+      "ward_name_ml": "ഏനാനല്ലൂര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "f6d83852-cf2f-4cf9-af3e-f53d1d03c13c",
+      "ward_no": "13",
+      "ward_name_en": "Kadukkanchira",
+      "ward_name_ml": "കടുക്കാഞ്ചിറ"
+    },
+    {
+      "ward_id": "c0df0a80-21e8-402f-aaa4-89c32b952107",
+      "ward_no": "14",
+      "ward_name_en": "Thottanchery",
+      "ward_name_ml": "തോട്ടഞ്ചേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071406.geojson"
+  }
+}

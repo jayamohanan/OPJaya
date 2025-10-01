@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G100105",
+  "local_body_name_en": "Edakkara",
+  "local_body_name_ml": "എടക്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "35",
+    "assembly_name_en": "Nilambur",
+    "assembly_name_ml": "നിലമ്പൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "af02d958-31f7-47b9-b96e-3dc36d33640f",
+      "ward_no": "1",
+      "ward_name_en": "Malachi",
+      "ward_name_ml": "മലച്ചി"
+    },
+    {
+      "ward_id": "91cafcf5-326d-4882-b5ca-200b16e1950f",
+      "ward_no": "2",
+      "ward_name_en": "Karunechi",
+      "ward_name_ml": "കരുനെച്ചി"
+    },
+    {
+      "ward_id": "a2132bac-3601-4138-8d87-793c151227bf",
+      "ward_no": "3",
+      "ward_name_en": "Pallippadi",
+      "ward_name_ml": "പള്ളിപ്പടി"
+    },
+    {
+      "ward_id": "4ec427f1-ed23-44cb-838b-9c4c4bad7d4d",
+      "ward_no": "4",
+      "ward_name_en": "Palemad",
+      "ward_name_ml": "പാലേമാട്"
+    },
+    {
+      "ward_id": "a8773949-07c6-4e8c-94c3-30f81fd1b548",
+      "ward_no": "5",
+      "ward_name_en": "Payimbadam",
+      "ward_name_ml": "പായിമ്പാടം"
+    },
+    {
+      "ward_id": "a1c3c127-eb70-421c-a443-c98a79f9b64b",
+      "ward_no": "6",
+      "ward_name_en": "Sankaramkulam",
+      "ward_name_ml": "ശങ്കരംകുളം"
+    },
+    {
+      "ward_id": "e6bf3753-b99f-4a6e-8908-2a0fcc18ff90",
+      "ward_no": "7",
+      "ward_name_en": "Parli",
+      "ward_name_ml": "പാര്‍ലി"
+    },
+    {
+      "ward_id": "b08623d7-c645-4fdd-8237-be77e93e671d",
+      "ward_no": "8",
+      "ward_name_en": "Vellaramkunnu",
+      "ward_name_ml": "വെള്ളാരംകുന്ന്"
+    },
+    {
+      "ward_id": "e188d885-470d-4625-937a-0da60c5b2482",
+      "ward_no": "9",
+      "ward_name_en": "Menonpotty",
+      "ward_name_ml": "മേനോന്‍പൊട്ടി"
+    },
+    {
+      "ward_id": "8540e836-48fb-4678-87ad-5e24f50e0ef5",
+      "ward_no": "10",
+      "ward_name_en": "Edakkara",
+      "ward_name_ml": "എടക്കര"
+    },
+    {
+      "ward_id": "a9dfe57b-b21c-41f4-a848-abf102750d8f",
+      "ward_no": "11",
+      "ward_name_en": "Perumkulam",
+      "ward_name_ml": "പെരുങ്കുളം"
+    },
+    {
+      "ward_id": "e86db71a-d15c-425d-83db-90abd11fcb41",
+      "ward_no": "12",
+      "ward_name_en": "Kakkaparatha",
+      "ward_name_ml": "കാക്കപ്പരത"
+    },
+    {
+      "ward_id": "b3c2634f-9082-493e-8563-6cb953e136fa",
+      "ward_no": "13",
+      "ward_name_en": "Theyyathumpadam",
+      "ward_name_ml": "തെയ്യത്തുംപാടം"
+    },
+    {
+      "ward_id": "9b57e75b-afc2-4bb1-8416-6f177752c864",
+      "ward_no": "14",
+      "ward_name_en": "Muppini",
+      "ward_name_ml": "മുപ്പിനി"
+    },
+    {
+      "ward_id": "f1e4d0ad-4eaf-40ae-b9da-2a59b7dbfff5",
+      "ward_no": "15",
+      "ward_name_en": "Pathirippadam",
+      "ward_name_ml": "പാതിരിപ്പാടം"
+    },
+    {
+      "ward_id": "13f52a25-ff5f-4ded-b4f8-c03e38597a5b",
+      "ward_no": "16",
+      "ward_name_en": "Chathamunda",
+      "ward_name_ml": "ചാത്തമുണ്ട"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100105.geojson"
+  }
+}

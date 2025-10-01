@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G130504",
+  "local_body_name_en": "Valapattanam",
+  "local_body_name_ml": "വളപട്ടണം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "10",
+    "assembly_name_en": "Azhikode",
+    "assembly_name_ml": "അഴീക്കോട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6c39d2c0-07c9-4eee-9a28-4939d0910fa5",
+      "ward_no": "1",
+      "ward_name_en": "Murukandikkal",
+      "ward_name_ml": "മുരുകണ്ടിക്കല്‍"
+    },
+    {
+      "ward_id": "6a3cada8-e1e3-490f-baf1-4e3f300652f9",
+      "ward_no": "2",
+      "ward_name_en": "Thottarik",
+      "ward_name_ml": "തോട്ടരിക്"
+    },
+    {
+      "ward_id": "81f25d30-1760-4a44-a523-59a08a4d7009",
+      "ward_no": "3",
+      "ward_name_en": "Nagaram",
+      "ward_name_ml": "നഗരം"
+    },
+    {
+      "ward_id": "23bd10fb-a6da-4b7d-86b5-955c0f5059fd",
+      "ward_no": "4",
+      "ward_name_en": "Kottabhagam",
+      "ward_name_ml": "കോട്ടഭാഗം"
+    },
+    {
+      "ward_id": "6de52f06-9a84-4881-9efa-be80cd796866",
+      "ward_no": "5",
+      "ward_name_en": "Kariyil",
+      "ward_name_ml": "കരിയില്‍"
+    },
+    {
+      "ward_id": "1b234cee-b70c-42a8-aeeb-c2963f3b4294",
+      "ward_no": "6",
+      "ward_name_en": "Highwayside",
+      "ward_name_ml": "ഹൈവേ ഭാഗം"
+    },
+    {
+      "ward_id": "17c3b413-6921-4e18-a680-6e998973ba1a",
+      "ward_no": "7",
+      "ward_name_en": "Kalarivathukkal East",
+      "ward_name_ml": "കളരിവാതുക്കല്‍ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "1253fcd3-9cef-40e3-b982-c8d062fafe90",
+      "ward_no": "8",
+      "ward_name_en": "Kalarivathukkal South",
+      "ward_name_ml": "കളരിവാതുക്കല്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "3fe344de-2281-40cc-bf5c-b89e11a325fd",
+      "ward_no": "9",
+      "ward_name_en": "Kalarivathukkal West",
+      "ward_name_ml": "കളരിവാതുക്കല്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "cd7bacbc-02ef-4332-a842-f9731d0af984",
+      "ward_no": "10",
+      "ward_name_en": "Karingalppadi",
+      "ward_name_ml": "കരിങ്കല്‍പ്പടി"
+    },
+    {
+      "ward_id": "a8c4c5a6-4aef-412b-9f73-fc5ef0cfa7e4",
+      "ward_no": "11",
+      "ward_name_en": "Thangalvayal South",
+      "ward_name_ml": "തങ്ങള്‍വയല്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "32f61b08-2ae8-4d8f-a204-b544ddadca78",
+      "ward_no": "12",
+      "ward_name_en": "Thangalvayal West",
+      "ward_name_ml": "തങ്ങള്‍വയല്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "4cc23e71-5119-46ec-9be3-e7845848335e",
+      "ward_no": "13",
+      "ward_name_en": "Palottuvayal",
+      "ward_name_ml": "പാലോട്ടുവയല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130504.geojson"
+  }
+}

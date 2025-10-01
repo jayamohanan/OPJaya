@@ -1,0 +1,84 @@
+{
+  "assembly_id": "19",
+  "assembly_name_en": "Kalpetta",
+  "assembly_name_ml": "കല്‍പ്പറ്റ",
+  "category": "Normal",
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M120100",
+      "local_body_name_en": "Kalpetta",
+      "local_body_name_ml": "കല്‍പ്പറ്റ",
+      "category": ""
+    },
+    {
+      "local_body_id": "G120205",
+      "local_body_name_en": "Kaniyambetta",
+      "local_body_name_ml": "കണിയാമ്പറ്റ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G120401",
+      "local_body_name_en": "Kottathara",
+      "local_body_name_ml": "കോട്ടത്തറ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G120408",
+      "local_body_name_en": "Meppadi",
+      "local_body_name_ml": "മേപ്പാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G120409",
+      "local_body_name_en": "Muppainad",
+      "local_body_name_ml": "മൂപ്പൈനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G120404",
+      "local_body_name_en": "Muttil",
+      "local_body_name_ml": "മുട്ടില്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G120407",
+      "local_body_name_en": "Padinharathara",
+      "local_body_name_ml": "പടിഞ്ഞാറത്തറ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G120405",
+      "local_body_name_en": "Pozhuthana",
+      "local_body_name_ml": "പൊഴുതന",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G120406",
+      "local_body_name_en": "Thariode",
+      "local_body_name_ml": "തരിയോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G120402",
+      "local_body_name_en": "Vengappally",
+      "local_body_name_ml": "വേങ്ങപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G120403",
+      "local_body_name_en": "Vythiri",
+      "local_body_name_ml": "വൈത്തിരി",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kalpetta.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kalpetta.geojson"
+  }
+}

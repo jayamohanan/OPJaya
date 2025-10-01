@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G100706",
+  "local_body_name_en": "Vettathur",
+  "local_body_name_ml": "വെട്ടത്തൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "38",
+    "assembly_name_en": "Perinthalmanna",
+    "assembly_name_ml": "പെരിന്തല്‍മണ്ണ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "835278fb-c506-4b5c-96e3-e4d97a19f977",
+      "ward_no": "1",
+      "ward_name_en": "Pallikuth",
+      "ward_name_ml": "പള്ളിക്കുത്ത്"
+    },
+    {
+      "ward_id": "9146f631-9948-448d-9ad0-8468b79cb4bb",
+      "ward_no": "2",
+      "ward_name_en": "Kariavattam",
+      "ward_name_ml": "കാര്യാവട്ടം"
+    },
+    {
+      "ward_id": "a3288678-b990-41ba-b10a-cf32a729cb15",
+      "ward_no": "3",
+      "ward_name_en": "Pacheeri",
+      "ward_name_ml": "പച്ചീരി"
+    },
+    {
+      "ward_id": "5082ee73-32b3-4e97-9c22-a907830f6ec6",
+      "ward_no": "4",
+      "ward_name_en": "Thelakkad",
+      "ward_name_ml": "തേലക്കാട്"
+    },
+    {
+      "ward_id": "4561d898-d93a-4284-92ed-c42bccbbaf6f",
+      "ward_no": "5",
+      "ward_name_en": "Kappu",
+      "ward_name_ml": "കാപ്പ്"
+    },
+    {
+      "ward_id": "6cf72711-4650-49f5-85d7-de535692b3eb",
+      "ward_no": "6",
+      "ward_name_en": "Pooronakunnu",
+      "ward_name_ml": "പൂരോണക്കുന്ന്"
+    },
+    {
+      "ward_id": "6d3dc6ba-b917-4930-9cbf-8991d11aa04e",
+      "ward_no": "7",
+      "ward_name_en": "Ezhuthala",
+      "ward_name_ml": "ഏഴുതല"
+    },
+    {
+      "ward_id": "4943fe1b-480c-49e4-8099-d70cdce90298",
+      "ward_no": "8",
+      "ward_name_en": "Kara",
+      "ward_name_ml": "കാര"
+    },
+    {
+      "ward_id": "f1d365b0-2348-4046-8bdf-d38c93fdc94a",
+      "ward_no": "9",
+      "ward_name_en": "Vettathur",
+      "ward_name_ml": "വെട്ടത്തൂര്‍"
+    },
+    {
+      "ward_id": "edc3b38d-0ebf-48f7-996e-392962b920ea",
+      "ward_no": "10",
+      "ward_name_en": "Thekkanmala",
+      "ward_name_ml": "തെക്കന്‍മല"
+    },
+    {
+      "ward_id": "b83e2d27-f2d9-4cc6-a861-a2b884637a9f",
+      "ward_no": "11",
+      "ward_name_en": "Melkulangara",
+      "ward_name_ml": "മേല്‍ക്കുളങ്ങര"
+    },
+    {
+      "ward_id": "5d8e3aa2-2954-4cdf-a3ca-3ba94b00f976",
+      "ward_no": "12",
+      "ward_name_en": "Cherangarakunnu",
+      "ward_name_ml": "ചെരങ്ങരക്കുന്ന്"
+    },
+    {
+      "ward_id": "8a63fb6f-d1eb-4dad-8260-b4af00a575f9",
+      "ward_no": "13",
+      "ward_name_en": "Peedikappadi",
+      "ward_name_ml": "പീടികപ്പടി"
+    },
+    {
+      "ward_id": "c1b579fa-459f-483f-a4e3-d26e1030810d",
+      "ward_no": "14",
+      "ward_name_en": "Alungal",
+      "ward_name_ml": "ആലുങ്ങല്‍"
+    },
+    {
+      "ward_id": "cc7de9c4-a69f-49ee-838d-b3af9933595d",
+      "ward_no": "15",
+      "ward_name_en": "Mannarmala",
+      "ward_name_ml": "മണ്ണാര്‍മല"
+    },
+    {
+      "ward_id": "10230737-5149-4150-80fb-df5dbd14d6a7",
+      "ward_no": "16",
+      "ward_name_en": "Koorikkunnu",
+      "ward_name_ml": "കൂരിക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100706.geojson"
+  }
+}

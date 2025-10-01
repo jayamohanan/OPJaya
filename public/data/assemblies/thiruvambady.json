@@ -1,0 +1,60 @@
+{
+  "assembly_id": "32",
+  "assembly_name_en": "Thiruvambady",
+  "assembly_name_ml": "തിരുവമ്പാടി",
+  "category": "Normal",
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G111104",
+      "local_body_name_en": "Karassery",
+      "local_body_name_ml": "കാരശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G111010",
+      "local_body_name_en": "Kodanchery",
+      "local_body_name_ml": "കോടഞ്ചരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G111101",
+      "local_body_name_en": "Kodiyathur",
+      "local_body_name_ml": "കൊടിയത്തൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G111002",
+      "local_body_name_en": "Koodaranhi",
+      "local_body_name_ml": "കൂടരഞ്ഞി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M110500",
+      "local_body_name_en": "Mukkam",
+      "local_body_name_ml": "മുക്കം",
+      "category": ""
+    },
+    {
+      "local_body_id": "G111006",
+      "local_body_name_en": "Puduppady",
+      "local_body_name_ml": "പുതുപ്പാടി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G111001",
+      "local_body_name_en": "Thiruvambadi",
+      "local_body_name_ml": "തിരുവമ്പാടി",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/thiruvambady.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/thiruvambady.geojson"
+  }
+}

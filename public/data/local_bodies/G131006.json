@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G131006",
+  "local_body_name_en": "Payam",
+  "local_body_name_ml": "പായം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "16",
+    "assembly_name_en": "Peravoor",
+    "assembly_name_ml": "പേരാവൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5d8f3daf-b997-4367-8d00-87dffe2b27c0",
+      "ward_no": "1",
+      "ward_name_en": "Perinkeri",
+      "ward_name_ml": "പെരിങ്കരി"
+    },
+    {
+      "ward_id": "26f6058d-2662-4461-b7c2-08fcd6ac22b7",
+      "ward_no": "2",
+      "ward_name_en": "Mattini",
+      "ward_name_ml": "മട്ടിണി"
+    },
+    {
+      "ward_id": "ba002c74-a959-48cc-9ef7-9225332036b0",
+      "ward_no": "3",
+      "ward_name_en": "Kiliyanthara",
+      "ward_name_ml": "കിളിയന്തറ"
+    },
+    {
+      "ward_id": "f2a5462f-6bb6-484f-9b7e-3fad38596bfc",
+      "ward_no": "4",
+      "ward_name_en": "Vallithode",
+      "ward_name_ml": "വള്ളിത്തോട്"
+    },
+    {
+      "ward_id": "8f0ff3c5-28b5-4e56-a2b7-bd238658f74d",
+      "ward_no": "5",
+      "ward_name_en": "Anapanthi Kavala",
+      "ward_name_ml": "ആനപ്പന്തി കവല"
+    },
+    {
+      "ward_id": "7dabed11-7428-40b9-b0e1-22b73055fba1",
+      "ward_no": "6",
+      "ward_name_en": "Kunnoth",
+      "ward_name_ml": "കുന്നോത്ത്"
+    },
+    {
+      "ward_id": "90237a72-971b-4203-aa00-9f5346a5948f",
+      "ward_no": "7",
+      "ward_name_en": "Kolikkadavu",
+      "ward_name_ml": "കോളിക്കടവ്"
+    },
+    {
+      "ward_id": "8ac29323-44ba-491a-9323-ee7331d52824",
+      "ward_no": "8",
+      "ward_name_en": "Cheengakundam",
+      "ward_name_ml": "ചീങ്ങാക്കുണ്ടം"
+    },
+    {
+      "ward_id": "3d5f563d-f0d5-470a-81d0-a8cc052d3ac5",
+      "ward_no": "9",
+      "ward_name_en": "Kondambra",
+      "ward_name_ml": "കോണ്ടമ്പ്ര"
+    },
+    {
+      "ward_id": "dcd8517b-c8b7-4832-95e1-d91b89209874",
+      "ward_no": "10",
+      "ward_name_en": "Payam",
+      "ward_name_ml": "പായം"
+    },
+    {
+      "ward_id": "606217b4-d44d-4829-8732-36356a1c96ec",
+      "ward_no": "11",
+      "ward_name_en": "Vattiyara",
+      "ward_name_ml": "വട്ട്യറ"
+    },
+    {
+      "ward_id": "4b5a7738-8198-47c4-b9d9-93960b7b9424",
+      "ward_no": "12",
+      "ward_name_en": "Madathil",
+      "ward_name_ml": "മാടത്തില്‍"
+    },
+    {
+      "ward_id": "3bfd7ca2-a3c0-4b27-bddc-99814578fcaa",
+      "ward_no": "13",
+      "ward_name_en": "Thanthode",
+      "ward_name_ml": "തന്തോട്"
+    },
+    {
+      "ward_id": "663ee16a-4652-4921-a12a-1d21a0d75993",
+      "ward_no": "14",
+      "ward_name_en": "Perumparamba",
+      "ward_name_ml": "പെരുമ്പറമ്പ്"
+    },
+    {
+      "ward_id": "1225b8c5-bfe1-46df-a49c-b3ef57a34e96",
+      "ward_no": "15",
+      "ward_name_en": "Alapra",
+      "ward_name_ml": "അളപ്ര"
+    },
+    {
+      "ward_id": "456c5eb8-ffd3-4fb1-880c-69ca2af46248",
+      "ward_no": "16",
+      "ward_name_en": "Vilamana",
+      "ward_name_ml": "വിളമന"
+    },
+    {
+      "ward_id": "afbbc9cd-db71-4d54-ab9f-51b742a610b2",
+      "ward_no": "17",
+      "ward_name_en": "Malapottu",
+      "ward_name_ml": "മലപ്പൊട്ട്"
+    },
+    {
+      "ward_id": "a882ced9-8eb1-4cec-aa0c-5e5337a83c87",
+      "ward_no": "18",
+      "ward_name_en": "Udayagiri",
+      "ward_name_ml": "ഉദയഗിരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G131006.geojson"
+  }
+}

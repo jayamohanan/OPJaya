@@ -1,0 +1,24 @@
+{
+  "assembly_id": "82",
+  "assembly_name_en": "Ernakulam",
+  "assembly_name_ml": "എറണാകുളം",
+  "category": "Good",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G070602",
+      "local_body_name_en": "Cheranalloor",
+      "local_body_name_ml": "ചേരാനല്ലൂര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/ernakulam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/ernakulam.geojson"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060201",
+  "local_body_name_en": "Marayoor",
+  "local_body_name_ml": "മറയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "88",
+    "assembly_name_en": "Devikulam",
+    "assembly_name_ml": "ദേവികുളം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "118ac57a-d76b-4136-876f-976835da6ef1",
+      "ward_no": "1",
+      "ward_name_en": "Koodakkad",
+      "ward_name_ml": "കൂടക്കാട്"
+    },
+    {
+      "ward_id": "6137a90a-fb84-4440-b867-aa9b89bc6ac6",
+      "ward_no": "2",
+      "ward_name_en": "Iruttala",
+      "ward_name_ml": "ഇരുട്ടള"
+    },
+    {
+      "ward_id": "edafdb38-3321-487b-82aa-35d06b95b688",
+      "ward_no": "3",
+      "ward_name_en": "Rajeev Nagar",
+      "ward_name_ml": "രാജീവ്‌ നഗര്‍"
+    },
+    {
+      "ward_id": "03b223cb-74f4-4d09-8c28-29655c1d5e16",
+      "ward_no": "4",
+      "ward_name_en": "Indiranagar",
+      "ward_name_ml": "ഇന്ദിരാനഗര്‍"
+    },
+    {
+      "ward_id": "b25cd994-6f02-4533-911d-d23a0c86ed9e",
+      "ward_no": "5",
+      "ward_name_en": "Babunagar",
+      "ward_name_ml": "ബാബുനഗര്‍"
+    },
+    {
+      "ward_id": "449717cc-4fec-44d7-b2cc-7eb7f21b80d5",
+      "ward_no": "6",
+      "ward_name_en": "Puthachivayal",
+      "ward_name_ml": "പുതച്ചിവയല്‍"
+    },
+    {
+      "ward_id": "99d8a133-3497-4827-959f-d6139fb5cc2d",
+      "ward_no": "7",
+      "ward_name_en": "Jawaharnagar",
+      "ward_name_ml": "ജവഹര്‍നഗര്‍"
+    },
+    {
+      "ward_id": "765d4b43-562a-48c4-9211-7a07d304b42f",
+      "ward_no": "8",
+      "ward_name_en": "Marayoor Gramam",
+      "ward_name_ml": "മറയൂര്‍ ഗ്രാമം"
+    },
+    {
+      "ward_id": "918a5ae3-f8fd-4154-b3da-186540d15963",
+      "ward_no": "9",
+      "ward_name_en": "Masivayal",
+      "ward_name_ml": "മാശിവയല്‍"
+    },
+    {
+      "ward_id": "a5229563-e7d2-452d-a0b1-76e8e2d870cc",
+      "ward_no": "10",
+      "ward_name_en": "Melady",
+      "ward_name_ml": "മേലാടി"
+    },
+    {
+      "ward_id": "3cce8283-1a18-4a3e-82d0-977bc9d770a3",
+      "ward_no": "11",
+      "ward_name_en": "Nachivayal",
+      "ward_name_ml": "നാച്ചിവയല്‍"
+    },
+    {
+      "ward_id": "821414b5-1c63-4c04-8d12-0af939f55e52",
+      "ward_no": "12",
+      "ward_name_en": "Michaelgiri",
+      "ward_name_ml": "മൈക്കിള്‍ഗിരി"
+    },
+    {
+      "ward_id": "3f984190-8bb2-4233-a881-65b314867d08",
+      "ward_no": "13",
+      "ward_name_en": "Pallanadu",
+      "ward_name_ml": "പള്ളനാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060201.geojson"
+  }
+}

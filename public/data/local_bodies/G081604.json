@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G081604",
+  "local_body_name_en": "Meloor",
+  "local_body_name_ml": "മേലൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "72",
+    "assembly_name_en": "Chalakudy",
+    "assembly_name_ml": "ചാലക്കുടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2fbfd94e-e7ca-4fac-93a4-206035a94d8f",
+      "ward_no": "1",
+      "ward_name_en": "Santhipuram",
+      "ward_name_ml": "ശാന്തിപുരം"
+    },
+    {
+      "ward_id": "347651d6-7571-4f7d-af12-5e6d51d55298",
+      "ward_no": "2",
+      "ward_name_en": "Kallukuthy",
+      "ward_name_ml": "കല്ലുകുത്തി"
+    },
+    {
+      "ward_id": "a8c3dba5-1cc7-47e3-9658-6edfe63c557e",
+      "ward_no": "3",
+      "ward_name_en": "Poolani North",
+      "ward_name_ml": "പൂലാനി നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "694275be-7563-4b18-ae36-35aab8514822",
+      "ward_no": "4",
+      "ward_name_en": "Kuruppam",
+      "ward_name_ml": "കുറുപ്പം"
+    },
+    {
+      "ward_id": "44d7b266-1914-4cf1-9ed5-534de3005af9",
+      "ward_no": "5",
+      "ward_name_en": "Poolani South",
+      "ward_name_ml": "പൂലാനി സൌത്ത്"
+    },
+    {
+      "ward_id": "9122dbde-b589-42b4-8224-175f191c99b7",
+      "ward_no": "6",
+      "ward_name_en": "Kunnappilly",
+      "ward_name_ml": "കുന്നപ്പിള്ളി"
+    },
+    {
+      "ward_id": "6ba5a698-e480-4522-93e4-83beadbbfc2d",
+      "ward_no": "7",
+      "ward_name_en": "Adichily",
+      "ward_name_ml": "അടിച്ചിലി"
+    },
+    {
+      "ward_id": "08cea163-4ce5-4095-86ad-d55d88ec3de2",
+      "ward_no": "8",
+      "ward_name_en": "Pushpagiri",
+      "ward_name_ml": "പുഷ്പഗിരി"
+    },
+    {
+      "ward_id": "fa31f7e8-b4ea-43d9-b8e6-818bc8a725ba",
+      "ward_no": "9",
+      "ward_name_en": "Palappilly",
+      "ward_name_ml": "പാലപ്പിള്ളി"
+    },
+    {
+      "ward_id": "b611848b-e24e-4783-979d-e7a578761a55",
+      "ward_no": "10",
+      "ward_name_en": "Mullanpara",
+      "ward_name_ml": "മുള്ളമ്പാറ"
+    },
+    {
+      "ward_id": "cb71ac53-e918-4779-a36e-fc184cba2297",
+      "ward_no": "11",
+      "ward_name_en": "Meloor Centre",
+      "ward_name_ml": "മേലൂര്‍ സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "b595fcaa-0cee-43e0-9fa9-2a275f5308d2",
+      "ward_no": "12",
+      "ward_name_en": "Koovakkattukunu",
+      "ward_name_ml": "കൂവ്വക്കാട്ട്കുന്ന്"
+    },
+    {
+      "ward_id": "0f37c1ce-92da-49c0-9ec8-e496eeafe204",
+      "ward_no": "13",
+      "ward_name_en": "Naduthuruth",
+      "ward_name_ml": "നടുത്തുരുത്ത്"
+    },
+    {
+      "ward_id": "c93e17bc-d981-410f-a7f3-8248856490b8",
+      "ward_no": "14",
+      "ward_name_en": "Muringoor South",
+      "ward_name_ml": "മുരുങ്ങൂര്‍ സൌത്ത്"
+    },
+    {
+      "ward_id": "49f2623c-1ab5-4c23-a543-8edbc9ce13eb",
+      "ward_no": "15",
+      "ward_name_en": "Muringoor North",
+      "ward_name_ml": "മുരുങ്ങൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "1c2c9f05-70fa-425b-b522-c4d3a28d4ee7",
+      "ward_no": "16",
+      "ward_name_en": "Mandikkunnu",
+      "ward_name_ml": "മണ്ടിക്കുന്ന്"
+    },
+    {
+      "ward_id": "777dee6f-7674-4887-bf6d-d63805dc26d9",
+      "ward_no": "17",
+      "ward_name_en": "Kalady",
+      "ward_name_ml": "കാലടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G081604.geojson"
+  }
+}

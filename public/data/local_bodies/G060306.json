@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G060306",
+  "local_body_name_en": "Udumbanchola",
+  "local_body_name_ml": "ഉടുമ്പന്‍ചോല",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "89",
+    "assembly_name_en": "Udumbanchola",
+    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c263adc4-f2cf-426f-be94-b51cf1810053",
+      "ward_no": "1",
+      "ward_name_en": "Sleevamala",
+      "ward_name_ml": "സ്ലീവാമല"
+    },
+    {
+      "ward_id": "1c036688-7c22-4358-83e1-856592045475",
+      "ward_no": "2",
+      "ward_name_en": "Pampupara",
+      "ward_name_ml": "പാമ്പുപാറ"
+    },
+    {
+      "ward_id": "21ed4aef-47ce-46a3-96da-00d6ffcd19ad",
+      "ward_no": "3",
+      "ward_name_en": "Chemmannar",
+      "ward_name_ml": "ചെമ്മണ്ണാര്‍"
+    },
+    {
+      "ward_id": "0b6d1ea7-4052-4ba1-abf7-e5c090617014",
+      "ward_no": "4",
+      "ward_name_en": "Udumbanchola",
+      "ward_name_ml": "ഉടുമ്പന്‍ചോല"
+    },
+    {
+      "ward_id": "171c4a0c-a89e-4f84-be86-7d03d018e581",
+      "ward_no": "5",
+      "ward_name_en": "Manathodu",
+      "ward_name_ml": "മണത്തോട്"
+    },
+    {
+      "ward_id": "ce10d157-dca3-4f62-885a-398bdd1ea30b",
+      "ward_no": "6",
+      "ward_name_en": "Kallupalam",
+      "ward_name_ml": "കല്ലുപാലം"
+    },
+    {
+      "ward_id": "052c00dd-9da1-4fd8-a99d-e3aa2ec40393",
+      "ward_no": "7",
+      "ward_name_en": "Pappanpara",
+      "ward_name_ml": "പാപ്പന്‍പാറ"
+    },
+    {
+      "ward_id": "4d1ee603-4294-4b41-8c76-c66af572d411",
+      "ward_no": "8",
+      "ward_name_en": "Parathodu",
+      "ward_name_ml": "പാറത്തോട്"
+    },
+    {
+      "ward_id": "46aa8032-7b60-475f-9296-34a0109c2af3",
+      "ward_no": "9",
+      "ward_name_en": "Valppara",
+      "ward_name_ml": "വാല്‍പ്പാറ"
+    },
+    {
+      "ward_id": "e165d693-bcf7-4f87-8acd-cae6d288dadf",
+      "ward_no": "10",
+      "ward_name_en": "Mavady",
+      "ward_name_ml": "മാവടി"
+    },
+    {
+      "ward_id": "78167b0a-89e5-4d5d-8489-488b3deb9f4f",
+      "ward_no": "11",
+      "ward_name_en": "Pothakkally",
+      "ward_name_ml": "പൊത്തക്കളളി"
+    },
+    {
+      "ward_id": "dc3693cf-1287-4775-977f-729edcf8d084",
+      "ward_no": "12",
+      "ward_name_en": "Myladumpara",
+      "ward_name_ml": "മൈലാടുംപാറ"
+    },
+    {
+      "ward_id": "586e314d-1c1b-45a7-b64f-cd1120967ddb",
+      "ward_no": "13",
+      "ward_name_en": "Vallarakkanppara",
+      "ward_name_ml": "വല്ലറക്കന്‍പ്പാറ"
+    },
+    {
+      "ward_id": "fe52c646-8a83-4f78-9194-e5c14f483022",
+      "ward_no": "14",
+      "ward_name_en": "Thingalkkadu",
+      "ward_name_ml": "തിങ്കള്‍ക്കാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060306.geojson"
+  }
+}

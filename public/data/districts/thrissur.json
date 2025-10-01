@@ -1,0 +1,85 @@
+{
+  "district_id": "8",
+  "district_name_en": "Thrissur",
+  "district_name_ml": "തൃശ്ശൂർ",
+  "is_active": false,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "61",
+      "assembly_name_en": "Chelakkara",
+      "assembly_name_ml": "ചേലക്കര",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "62",
+      "assembly_name_en": "Kunnamkulam",
+      "assembly_name_ml": "കുന്നംകുളം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "63",
+      "assembly_name_en": "Guruvayur",
+      "assembly_name_ml": "ഗുരുവായൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "64",
+      "assembly_name_en": "Manalur",
+      "assembly_name_ml": "മണലൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "65",
+      "assembly_name_en": "Wadakkanchery",
+      "assembly_name_ml": "വടക്കാഞ്ചേരി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "66",
+      "assembly_name_en": "Ollur",
+      "assembly_name_ml": "ഒല്ലൂർ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "68",
+      "assembly_name_en": "Nattika",
+      "assembly_name_ml": "നാട്ടിക",
+      "category": "Good"
+    },
+    {
+      "assembly_id": "69",
+      "assembly_name_en": "Kaipamangalam",
+      "assembly_name_ml": "കൈപ്പമംഗലം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "70",
+      "assembly_name_en": "Irinjalakuda",
+      "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "71",
+      "assembly_name_en": "Puthukkad",
+      "assembly_name_ml": "പുതുക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "72",
+      "assembly_name_en": "Chalakudy",
+      "assembly_name_ml": "ചാലക്കുടി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "73",
+      "assembly_name_en": "Kodungallur",
+      "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/thrissur.geojson",
+    "assemblies": "geojson/districts/with-assemblies/thrissur.geojson"
+  }
+}

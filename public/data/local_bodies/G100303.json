@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G100303",
+  "local_body_name_en": "Porur",
+  "local_body_name_ml": "പോരൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "36",
+    "assembly_name_en": "Wandoor",
+    "assembly_name_ml": "വണ്ടൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "15519126-9d3c-4c45-abda-18535315bae1",
+      "ward_no": "1",
+      "ward_name_en": "Palakkode",
+      "ward_name_ml": "പാലക്കോട്"
+    },
+    {
+      "ward_id": "a5cad758-9153-4148-8a75-cd2e22d82603",
+      "ward_no": "2",
+      "ward_name_en": "Ravimangalam",
+      "ward_name_ml": "രവിമംഗലം"
+    },
+    {
+      "ward_id": "8d241079-dae7-4f79-9e6c-40f04a13b95a",
+      "ward_no": "3",
+      "ward_name_en": "Melannam",
+      "ward_name_ml": "മേലണ്ണം"
+    },
+    {
+      "ward_id": "73b67cbd-a4ba-4f17-926d-f2ed6acc5b82",
+      "ward_no": "4",
+      "ward_name_en": "Cherukode",
+      "ward_name_ml": "ചെറുകോട്"
+    },
+    {
+      "ward_id": "577c08ab-3464-422d-8778-737aae0f07ac",
+      "ward_no": "5",
+      "ward_name_en": "Puliyakkode",
+      "ward_name_ml": "പുളിയക്കോട്"
+    },
+    {
+      "ward_id": "460021f2-9bd5-47b7-9ef8-d4cba08b7141",
+      "ward_no": "6",
+      "ward_name_en": "Kottakkunnu",
+      "ward_name_ml": "കോട്ടക്കുന്ന്"
+    },
+    {
+      "ward_id": "98699a77-1b95-4fa1-9b7a-0f5fcd295076",
+      "ward_no": "7",
+      "ward_name_en": "Porur",
+      "ward_name_ml": "പോരൂര്‍"
+    },
+    {
+      "ward_id": "c8b0c280-2981-46ec-a23e-f86c133e170d",
+      "ward_no": "8",
+      "ward_name_en": "Pallikkunnu",
+      "ward_name_ml": "പള്ളിക്കുന്ന്"
+    },
+    {
+      "ward_id": "cb1acc5c-4243-42d4-9bc5-736b8231ce4e",
+      "ward_no": "9",
+      "ward_name_en": "Poothrakkove",
+      "ward_name_ml": "പൂത്രക്കോവ്"
+    },
+    {
+      "ward_id": "54c3a417-5277-4edf-99c2-4f8148274d9f",
+      "ward_no": "10",
+      "ward_name_en": "Thodikappulam",
+      "ward_name_ml": "തൊടികപ്പുലം"
+    },
+    {
+      "ward_id": "eff8a5b3-d8db-45ea-ba13-604b7198b77f",
+      "ward_no": "11",
+      "ward_name_en": "Thaliyamkundu",
+      "ward_name_ml": "താളിയംകുണ്ട്"
+    },
+    {
+      "ward_id": "1aba0168-f49d-40dc-a679-fabf33294089",
+      "ward_no": "12",
+      "ward_name_en": "Ayanikkode",
+      "ward_name_ml": "അയനിക്കോട്"
+    },
+    {
+      "ward_id": "25ab3400-04ff-4fab-a86f-6dc58012b3f1",
+      "ward_no": "13",
+      "ward_name_en": "Veethanasseri",
+      "ward_name_ml": "വീതനശ്ശേരി"
+    },
+    {
+      "ward_id": "a09eab53-0926-439b-ab12-f4fef3c94cca",
+      "ward_no": "14",
+      "ward_name_en": "Pattanamkundu",
+      "ward_name_ml": "പട്ടണംകുണ്ട്"
+    },
+    {
+      "ward_id": "d37b8508-ca78-435c-bde6-911f9b01319e",
+      "ward_no": "15",
+      "ward_name_en": "Eranhikkunnu",
+      "ward_name_ml": "എരഞ്ഞിക്കുന്ന്"
+    },
+    {
+      "ward_id": "1f7d6486-0011-4b2f-a65e-8e6d14d90ce8",
+      "ward_no": "16",
+      "ward_name_en": "Nirannaparambu",
+      "ward_name_ml": "നിരന്നപറമ്പ്"
+    },
+    {
+      "ward_id": "334262dc-6587-4198-a5a9-d37ff21ea687",
+      "ward_no": "17",
+      "ward_name_en": "Thalappoliparambu",
+      "ward_name_ml": "താലപ്പൊലിപറമ്പ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100303.geojson"
+  }
+}

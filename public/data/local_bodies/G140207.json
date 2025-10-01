@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G140207",
+  "local_body_name_en": "Kuttikol",
+  "local_body_name_ml": "കുറ്റിക്കോല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "3",
+    "assembly_name_en": "Udma",
+    "assembly_name_ml": "ഉദുമ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3a92e0b6-9574-4a0e-96fa-efe0ed33bf37",
+      "ward_no": "1",
+      "ward_name_en": "Bethurpara",
+      "ward_name_ml": "ബേത്തൂര്‍പ്പാറ"
+    },
+    {
+      "ward_id": "0892453e-88f2-43ad-b41c-25302f638d6f",
+      "ward_no": "2",
+      "ward_name_en": "Chadakam",
+      "ward_name_ml": "ചാടകം"
+    },
+    {
+      "ward_id": "b01b842b-ec18-4c86-9959-659ea3e66d77",
+      "ward_no": "3",
+      "ward_name_en": "Sankarampady",
+      "ward_name_ml": "ശങ്കംരംപാടി"
+    },
+    {
+      "ward_id": "799eca3f-1852-4774-aa06-e3f860644b6a",
+      "ward_no": "4",
+      "ward_name_en": "Ottamavungal",
+      "ward_name_ml": "ഒറ്റമാവുങ്കാല്‍"
+    },
+    {
+      "ward_id": "c335df70-5f19-4f30-af51-ef3fea21d8f7",
+      "ward_no": "5",
+      "ward_name_en": "Bandadka",
+      "ward_name_ml": "ബന്തടുക്ക"
+    },
+    {
+      "ward_id": "3e89bd78-d84f-44f5-82d5-e2b6e51e8ae4",
+      "ward_no": "6",
+      "ward_name_en": "Palar",
+      "ward_name_ml": "പാലാര്‍"
+    },
+    {
+      "ward_id": "d5ae7204-7440-47be-a825-89f8ccedce00",
+      "ward_no": "7",
+      "ward_name_en": "Bethalam",
+      "ward_name_ml": "ബേത്തലം"
+    },
+    {
+      "ward_id": "e9d26c62-a27e-4484-a6dc-f243e1bfc985",
+      "ward_no": "8",
+      "ward_name_en": "Veettiyadi",
+      "ward_name_ml": "വീട്ടിയാടി"
+    },
+    {
+      "ward_id": "4c6a9c50-71f7-491b-95b4-289125388cc6",
+      "ward_no": "9",
+      "ward_name_en": "Choorithodu",
+      "ward_name_ml": "ചൂരിത്തോട്"
+    },
+    {
+      "ward_id": "c7d56c8a-b11f-44c2-8735-107c54bfaca7",
+      "ward_no": "10",
+      "ward_name_en": "Eniyadi",
+      "ward_name_ml": "ഏണിയാടി"
+    },
+    {
+      "ward_id": "e77a14ec-1110-4616-a9d1-1573063be870",
+      "ward_no": "11",
+      "ward_name_en": "Karivedakam",
+      "ward_name_ml": "കരിവേടകം"
+    },
+    {
+      "ward_id": "aa903eda-e59b-4d70-9855-4cffc5d1cebf",
+      "ward_no": "12",
+      "ward_name_en": "Alinuthazhe",
+      "ward_name_ml": "ആലിനുതാഴെ"
+    },
+    {
+      "ward_id": "e1a722f5-696f-4022-b177-650914559942",
+      "ward_no": "13",
+      "ward_name_en": "Paduppu",
+      "ward_name_ml": "പടുപ്പ്"
+    },
+    {
+      "ward_id": "4c937763-1f87-41a9-b5da-ae2a9ced1240",
+      "ward_no": "14",
+      "ward_name_en": "Nheru",
+      "ward_name_ml": "ഞെരു"
+    },
+    {
+      "ward_id": "6fb4fa24-c517-44a9-b11e-c13565b6d0cd",
+      "ward_no": "15",
+      "ward_name_en": "Kalakkara",
+      "ward_name_ml": "കളക്കര"
+    },
+    {
+      "ward_id": "7c3dee8b-22ca-4cf6-bf2d-62e2f86c1a4d",
+      "ward_no": "16",
+      "ward_name_en": "Kuttikol",
+      "ward_name_ml": "കുറ്റിക്കോല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140207.geojson"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G080905",
+  "local_body_name_en": "Arimpur",
+  "local_body_name_ml": "അരിമ്പൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "64",
+    "assembly_name_en": "Manalur",
+    "assembly_name_ml": "മണലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6f29c473-67f3-4d0d-a551-97b0b0a12a88",
+      "ward_no": "1",
+      "ward_name_en": "Eravu North",
+      "ward_name_ml": "എറവ് നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "f6117f0b-a8dc-4996-a8f7-6439f33f59fe",
+      "ward_no": "2",
+      "ward_name_en": "Vadakkumpuram",
+      "ward_name_ml": "വടക്കുംപുറം"
+    },
+    {
+      "ward_id": "847e16ed-1966-4631-be26-2b5b0f4549e2",
+      "ward_no": "3",
+      "ward_name_en": "Arimpur",
+      "ward_name_ml": "അരിന്പൂര്‍"
+    },
+    {
+      "ward_id": "e3eb8dc0-2246-40f7-ad8d-f26d11324734",
+      "ward_no": "4",
+      "ward_name_en": "Parakkad West",
+      "ward_name_ml": "പരയ്ക്കാട് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "2decfee3-3542-47fb-a1ae-8681f3fb2a4e",
+      "ward_no": "5",
+      "ward_name_en": "Parakkad East",
+      "ward_name_ml": "പരയ്ക്കാട് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "998611f9-6a7b-4f5a-b2ed-0531c3b67216",
+      "ward_no": "6",
+      "ward_name_en": "Kizhakkumpuram",
+      "ward_name_ml": "കിഴക്കുംപുറം"
+    },
+    {
+      "ward_id": "381f7e01-be42-4753-8fe7-22f1319c8589",
+      "ward_no": "7",
+      "ward_name_en": "Manakkody",
+      "ward_name_ml": "മനക്കൊടി"
+    },
+    {
+      "ward_id": "d60e194d-34b6-4c3b-952a-2bf9a61fb154",
+      "ward_no": "8",
+      "ward_name_en": "Nadumuri",
+      "ward_name_ml": "നടുമുറി"
+    },
+    {
+      "ward_id": "2ae6daeb-5527-434a-a450-f5dcf7d6f661",
+      "ward_no": "9",
+      "ward_name_en": "Manakkody South",
+      "ward_name_ml": "മനക്കൊടി സൌത്ത്"
+    },
+    {
+      "ward_id": "be8b2810-f287-467d-b086-a7bd719f53bd",
+      "ward_no": "10",
+      "ward_name_en": "Thachampilly",
+      "ward_name_ml": "തച്ചംപിള്ളി"
+    },
+    {
+      "ward_id": "960e9870-5478-4085-8182-3d8253e23836",
+      "ward_no": "11",
+      "ward_name_en": "Veluthur",
+      "ward_name_ml": "വെളുത്തൂര്‍"
+    },
+    {
+      "ward_id": "b7b5d646-8074-4571-bee5-b912e524034d",
+      "ward_no": "12",
+      "ward_name_en": "Vilakkumadam",
+      "ward_name_ml": "വിളക്കുമാടം"
+    },
+    {
+      "ward_id": "652f80fb-850c-4da6-9f8a-529df9d9703a",
+      "ward_no": "13",
+      "ward_name_en": "Kunnathangadi",
+      "ward_name_ml": "കുന്നത്തങ്ങാടി"
+    },
+    {
+      "ward_id": "42be28d1-5cc5-4916-9725-2cbf48d630a1",
+      "ward_no": "14",
+      "ward_name_en": "Kaipilly East",
+      "ward_name_ml": "കൈപ്പിള്ളി ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "26f646ce-6a32-42e4-8ba2-27bd2e76d73d",
+      "ward_no": "15",
+      "ward_name_en": "Kaippilly",
+      "ward_name_ml": "കൈപ്പിള്ളി"
+    },
+    {
+      "ward_id": "9b85c36d-6baa-40e6-a452-8577d7cd05b3",
+      "ward_no": "16",
+      "ward_name_en": "Eravu East",
+      "ward_name_ml": "എറവ് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "c4d69aba-9f73-4153-8585-295c6f71712b",
+      "ward_no": "17",
+      "ward_name_en": "Eravu South",
+      "ward_name_ml": "എറവ് സൌത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080905.geojson"
+  }
+}

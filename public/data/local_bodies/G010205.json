@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G010205",
+  "local_body_name_en": "Pallickal",
+  "local_body_name_ml": "പള്ളിക്കല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "127",
+    "assembly_name_en": "Varkala",
+    "assembly_name_ml": "വർക്കല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "147044f3-3a78-41a3-a15a-1568f4f6665d",
+      "ward_no": "1",
+      "ward_name_en": "Arayil",
+      "ward_name_ml": "ആറയില്‍"
+    },
+    {
+      "ward_id": "6a7d6c26-ee29-48a3-8e5e-868e5c55bc4b",
+      "ward_no": "2",
+      "ward_name_en": "Pakalkuri",
+      "ward_name_ml": "പകല്‍ക്കുറി"
+    },
+    {
+      "ward_id": "71533ed9-52c4-4bc0-8caf-4c46d92d5db7",
+      "ward_no": "3",
+      "ward_name_en": "Moothala",
+      "ward_name_ml": "മൂതല"
+    },
+    {
+      "ward_id": "1d7b06db-44b1-46c4-9333-53b4d3484911",
+      "ward_no": "4",
+      "ward_name_en": "Moolabhagam",
+      "ward_name_ml": "മൂലഭാഗം"
+    },
+    {
+      "ward_id": "8c118a1c-db6c-48aa-a430-94a150e20362",
+      "ward_no": "5",
+      "ward_name_en": "K .K. Konam",
+      "ward_name_ml": "കെ.കെ. കോണം"
+    },
+    {
+      "ward_id": "305e71d4-5098-4717-aec9-241969170fa5",
+      "ward_no": "6",
+      "ward_name_en": "Molychantha",
+      "ward_name_ml": "മോളിചന്ത"
+    },
+    {
+      "ward_id": "ab3cdc37-f67f-43ff-af20-64df93451d61",
+      "ward_no": "7",
+      "ward_name_en": "Pallickal Town",
+      "ward_name_ml": "പള്ളിക്കല്‍ ടൌണ്‍"
+    },
+    {
+      "ward_id": "a973684c-2dff-491d-a9f8-aad336fa3858",
+      "ward_no": "8",
+      "ward_name_en": "Oonnamkallu",
+      "ward_name_ml": "ഊന്നംകല്ല്"
+    },
+    {
+      "ward_id": "02186731-2e58-46b1-8d1f-53938925b947",
+      "ward_no": "9",
+      "ward_name_en": "Kattuputhusseri",
+      "ward_name_ml": "കാട്ടുപുതുശേരി"
+    },
+    {
+      "ward_id": "5672ab59-85a1-4b32-bbba-dbd5f5373e50",
+      "ward_no": "10",
+      "ward_name_en": "Pallickal",
+      "ward_name_ml": "പള്ളിക്കല്‍"
+    },
+    {
+      "ward_id": "5b1f2328-e141-40d7-90fe-7f6b01f2640e",
+      "ward_no": "11",
+      "ward_name_en": "Chemmaram",
+      "ward_name_ml": "ചെമ്മരം"
+    },
+    {
+      "ward_id": "e2c847dc-936a-4e39-b933-54e6aac76106",
+      "ward_no": "12",
+      "ward_name_en": "Plachivila",
+      "ward_name_ml": "പ്ലാച്ചിവിള"
+    },
+    {
+      "ward_id": "70620edf-bdeb-4a44-93aa-3ac5fac6c221",
+      "ward_no": "13",
+      "ward_name_en": "Kottiyammukku",
+      "ward_name_ml": "കൊട്ടിയംമുക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010205.geojson"
+  }
+}

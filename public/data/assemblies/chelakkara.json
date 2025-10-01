@@ -1,0 +1,72 @@
+{
+  "assembly_id": "61",
+  "assembly_name_en": "Chelakkara",
+  "assembly_name_ml": "ചേലക്കര",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G080401",
+      "local_body_name_en": "Chelakkara",
+      "local_body_name_ml": "ചേലക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080301",
+      "local_body_name_en": "Desamangalam",
+      "local_body_name_ml": "ദേശമംഗലം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080403",
+      "local_body_name_en": "Kondazhy",
+      "local_body_name_ml": "കൊണ്ടാഴി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G080304",
+      "local_body_name_en": "Mullurkara",
+      "local_body_name_ml": "മുള്ളൂര്‍ക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080404",
+      "local_body_name_en": "Panjal",
+      "local_body_name_ml": "പാഞ്ഞാള്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080405",
+      "local_body_name_en": "Pazhayannur",
+      "local_body_name_ml": "പഴയന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080406",
+      "local_body_name_en": "Thiruvilwamala",
+      "local_body_name_ml": "തിരുവില്വാമല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080402",
+      "local_body_name_en": "VallatholNagar",
+      "local_body_name_ml": "വള്ളത്തോള്‍ നഗര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080306",
+      "local_body_name_en": "Varavoor",
+      "local_body_name_ml": "വരവൂര്‍",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/chelakkara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/chelakkara.geojson"
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "assembly_id": "3",
+  "assembly_name_en": "Udma",
+  "assembly_name_ml": "ഉദുമ",
+  "category": "Normal",
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G140206",
+      "local_body_name_en": "Bedadka",
+      "local_body_name_ml": "ബേഡഡുക്ക",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140302",
+      "local_body_name_en": "Chemnad",
+      "local_body_name_ml": "ചെമ്മനാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140205",
+      "local_body_name_en": "Delampady",
+      "local_body_name_ml": "ദേലംപാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140207",
+      "local_body_name_en": "Kuttikol",
+      "local_body_name_ml": "കുറ്റിക്കോല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140203",
+      "local_body_name_en": "Muliyar",
+      "local_body_name_ml": "മുളിയാര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140404",
+      "local_body_name_en": "Pallikere",
+      "local_body_name_ml": "പള്ളിക്കര",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140405",
+      "local_body_name_en": "PullurPeriya",
+      "local_body_name_ml": "പുല്ലൂര്‍ പെരിയ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140401",
+      "local_body_name_en": "Udma",
+      "local_body_name_ml": "ഉദുമ",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/udma.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/udma.geojson"
+  }
+}

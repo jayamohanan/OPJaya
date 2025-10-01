@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G010105",
+  "local_body_name_en": "Ottoor",
+  "local_body_name_ml": "ഒറ്റൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "128",
+    "assembly_name_en": "Attingal",
+    "assembly_name_ml": "ആറ്റിങ്ങൽ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b7632724-6dfc-486e-bf31-b1970ea5929e",
+      "ward_no": "1",
+      "ward_name_en": "Njekkade",
+      "ward_name_ml": "ഞെക്കാട്"
+    },
+    {
+      "ward_id": "298214a0-183d-4b23-bba4-1d1fd22f5f9c",
+      "ward_no": "2",
+      "ward_name_en": "Mathurakode",
+      "ward_name_ml": "മതുരക്കോട്"
+    },
+    {
+      "ward_id": "586013ba-89a9-4056-a292-a25476499502",
+      "ward_no": "3",
+      "ward_name_en": "Chennankode",
+      "ward_name_ml": "ചേന്നന്‍കോട്"
+    },
+    {
+      "ward_id": "8fa2dfca-1467-40a4-8723-81065a4d77da",
+      "ward_no": "4",
+      "ward_name_en": "Kallambalam",
+      "ward_name_ml": "കല്ലമ്പലം"
+    },
+    {
+      "ward_id": "55ca8450-cd8b-4e34-9cfa-ca089540e773",
+      "ward_no": "5",
+      "ward_name_en": "Mullaramkode",
+      "ward_name_ml": "മുള്ളറംകോട്"
+    },
+    {
+      "ward_id": "1df3c9e7-ae91-4530-9923-f044d4674c7c",
+      "ward_no": "6",
+      "ward_name_en": "Vettimankonam",
+      "ward_name_ml": "വെട്ടിമന്‍കോണം"
+    },
+    {
+      "ward_id": "81cd1bb6-c8bf-4456-9c4a-f08db70f7471",
+      "ward_no": "7",
+      "ward_name_en": "Thoppuvila",
+      "ward_name_ml": "തോപ്പുവിള"
+    },
+    {
+      "ward_id": "bb36c554-1a5c-48b2-93cf-2f904f5401f6",
+      "ward_no": "8",
+      "ward_name_en": "Nellikode",
+      "ward_name_ml": "നെല്ലിക്കോട്"
+    },
+    {
+      "ward_id": "e43992a5-18b8-4a93-a725-0f188dfa7962",
+      "ward_no": "9",
+      "ward_name_en": "Panchayat Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+    },
+    {
+      "ward_id": "e366cccf-1f1c-4fcb-b638-f0069e4f39a8",
+      "ward_no": "10",
+      "ward_name_en": "Ottoor Krishibhavan",
+      "ward_name_ml": "ഒറ്റൂര്‍ കൃഷിഭവന്‍"
+    },
+    {
+      "ward_id": "ae9b7260-c201-49e9-8d07-b8278e3c7cf3",
+      "ward_no": "11",
+      "ward_name_en": "Thoppil",
+      "ward_name_ml": "തോപ്പില്‍"
+    },
+    {
+      "ward_id": "33f31019-d15b-480e-bc99-98423a422293",
+      "ward_no": "12",
+      "ward_name_en": "Moongode",
+      "ward_name_ml": "മൂങ്ങോട്"
+    },
+    {
+      "ward_id": "90afc5ae-6e17-4263-bf74-479208237e6c",
+      "ward_no": "13",
+      "ward_name_en": "Sreenarayanapuram",
+      "ward_name_ml": "ശ്രീനാരായണപുരം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010105.geojson"
+  }
+}

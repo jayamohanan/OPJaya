@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G021107",
+  "local_body_name_en": "Nilamel",
+  "local_body_name_ml": "നിലമേല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "122",
+    "assembly_name_en": "Chadayamangalam",
+    "assembly_name_ml": "ചടയമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "82ee38f4-2ab7-4fda-a8ac-0c12474df4c3",
+      "ward_no": "1",
+      "ward_name_en": "Elikkunnamukal",
+      "ward_name_ml": "എലിക്കുന്നാംമുകള്‍"
+    },
+    {
+      "ward_id": "f164928f-5c60-416e-859d-bafe03200d7b",
+      "ward_no": "2",
+      "ward_name_en": "Valiyavazhy",
+      "ward_name_ml": "വലിയവഴി"
+    },
+    {
+      "ward_id": "9026e1ff-a9f0-4f60-b55c-e2be33b43795",
+      "ward_no": "3",
+      "ward_name_en": "Nedumpacha",
+      "ward_name_ml": "നെടുംപച്ച"
+    },
+    {
+      "ward_id": "3c23dc90-f712-49ec-a645-d2f2fa6e109a",
+      "ward_no": "4",
+      "ward_name_en": "Mulayakkonam",
+      "ward_name_ml": "മുളയക്കോണം"
+    },
+    {
+      "ward_id": "7cf81ddc-adc4-4559-94d9-7d1e83416df1",
+      "ward_no": "5",
+      "ward_name_en": "Murukkumon",
+      "ward_name_ml": "മുരുക്കുമണ്‍"
+    },
+    {
+      "ward_id": "8bebc14a-7205-4b7c-b952-877a95caab87",
+      "ward_no": "6",
+      "ward_name_en": "Puthussery",
+      "ward_name_ml": "പുതുശ്ശേരി"
+    },
+    {
+      "ward_id": "34881f5e-9a67-491f-8362-b24e92b9915f",
+      "ward_no": "7",
+      "ward_name_en": "College",
+      "ward_name_ml": "കോളേജ്"
+    },
+    {
+      "ward_id": "d1e435c4-1cf3-490f-b321-37ea0bd4e88d",
+      "ward_no": "8",
+      "ward_name_en": "Vellampara",
+      "ward_name_ml": "വെള്ളാംപാറ"
+    },
+    {
+      "ward_id": "325cc7b9-363c-4a5e-8678-e2de69769ec4",
+      "ward_no": "9",
+      "ward_name_en": "Cherattukuzhy",
+      "ward_name_ml": "ചേറാട്ടുകുഴി"
+    },
+    {
+      "ward_id": "405ee87c-742a-465f-97d7-cf4117d7fed1",
+      "ward_no": "10",
+      "ward_name_en": "Town",
+      "ward_name_ml": "ടൌണ്‍"
+    },
+    {
+      "ward_id": "f78eb2c8-6e4a-45f2-bbf9-e5f442993aea",
+      "ward_no": "11",
+      "ward_name_en": "Benglamkunnu",
+      "ward_name_ml": "ബംഗ്ളാംകുന്ന്"
+    },
+    {
+      "ward_id": "39add457-ed58-4d89-b4ea-20944adb374b",
+      "ward_no": "12",
+      "ward_name_en": "Veykal",
+      "ward_name_ml": "വേയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "414b0638-c21e-4b6f-83bc-d75436542a8c",
+      "ward_no": "13",
+      "ward_name_en": "Kaithodu",
+      "ward_name_ml": "കൈതോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G021107.geojson"
+  }
+}

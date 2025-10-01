@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G010902",
+  "local_body_name_en": "Kollayil",
+  "local_body_name_ml": "കൊല്ലയില്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "137",
+    "assembly_name_en": "Parassala",
+    "assembly_name_ml": "പാറശ്ശാല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c4767bd5-5866-4ecf-a1ee-28e248c55c0f",
+      "ward_no": "1",
+      "ward_name_en": "Nadoorkolla",
+      "ward_name_ml": "നടൂര്‍ക്കൊല്ല"
+    },
+    {
+      "ward_id": "0960c955-b9fc-4b1b-aff3-452e7f96ee76",
+      "ward_no": "2",
+      "ward_name_en": "Perumbottukonam",
+      "ward_name_ml": "പെരുമ്പോട്ടുകോണം"
+    },
+    {
+      "ward_id": "f8d37f23-26ad-4a26-aa01-0bb4f6017fd0",
+      "ward_no": "3",
+      "ward_name_en": "Mankottukonam",
+      "ward_name_ml": "മാങ്കോട്ടുകോണം"
+    },
+    {
+      "ward_id": "8a3bdc09-ab78-4124-a4ea-64cf3c739694",
+      "ward_no": "4",
+      "ward_name_en": "Malayilkada",
+      "ward_name_ml": "മലയില്‍ക്കട"
+    },
+    {
+      "ward_id": "3fe65438-f90f-4cc9-b578-f15ad686307a",
+      "ward_no": "5",
+      "ward_name_en": "Pankottukonam",
+      "ward_name_ml": "പാങ്കോട്ടുകോണം"
+    },
+    {
+      "ward_id": "9ab7cceb-0950-46d0-aa29-d9506d916b70",
+      "ward_no": "6",
+      "ward_name_en": "Manchavilakom",
+      "ward_name_ml": "മഞ്ചവിളാകം"
+    },
+    {
+      "ward_id": "6d17d624-349b-46b0-93d5-d9f35a016fd4",
+      "ward_no": "7",
+      "ward_name_en": "Poovathoor",
+      "ward_name_ml": "പൂവത്തൂര്‍"
+    },
+    {
+      "ward_id": "f2c26eaf-d509-4544-9006-fe9f432b0aeb",
+      "ward_no": "8",
+      "ward_name_en": "Charuvilakom",
+      "ward_name_ml": "ചാരുവിളാകം"
+    },
+    {
+      "ward_id": "0c3eabe1-864b-48f9-844d-8cc6d0594099",
+      "ward_no": "9",
+      "ward_name_en": "Mekolla",
+      "ward_name_ml": "മേക്കൊല്ല"
+    },
+    {
+      "ward_id": "29b6950b-ba7a-4a59-8185-1bc749094c65",
+      "ward_no": "10",
+      "ward_name_en": "Dhanuvachapuram",
+      "ward_name_ml": "ധനുവച്ചപുരം"
+    },
+    {
+      "ward_id": "135e220f-1467-4f11-9bdd-59980508d79c",
+      "ward_no": "11",
+      "ward_name_en": "Kottamam",
+      "ward_name_ml": "കൊറ്റാമം"
+    },
+    {
+      "ward_id": "9becfdd9-9306-4cd8-b86d-17717c44b9d1",
+      "ward_no": "12",
+      "ward_name_en": "Puthusserimadam",
+      "ward_name_ml": "പുതുശ്ശേരിമഠം"
+    },
+    {
+      "ward_id": "1c5e1a8c-18c4-4440-8a15-792742fee092",
+      "ward_no": "13",
+      "ward_name_en": "Eaithukondakani",
+      "ward_name_ml": "എയ്തുകൊണ്ടകാണി"
+    },
+    {
+      "ward_id": "008ab384-5752-4af6-8f65-244a73a42439",
+      "ward_no": "14",
+      "ward_name_en": "Udiyankulangara",
+      "ward_name_ml": "ഉദിയന്‍കുളങ്ങര"
+    },
+    {
+      "ward_id": "aeadf175-e1ef-4218-acd5-8332f2bfdf80",
+      "ward_no": "15",
+      "ward_name_en": "Deveswaram",
+      "ward_name_ml": "ദേവേശ്വരം"
+    },
+    {
+      "ward_id": "d1ffbc21-59e5-4c12-b20b-7c354344e92e",
+      "ward_no": "16",
+      "ward_name_en": "Panayammoola",
+      "ward_name_ml": "പനയംമൂല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010902.geojson"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G080801",
+  "local_body_name_en": "Engandiyur",
+  "local_body_name_ml": "ഏങ്ങണ്ടിയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "63",
+    "assembly_name_en": "Guruvayur",
+    "assembly_name_ml": "ഗുരുവായൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "17bbaf22-2d2a-4058-a5e3-fc6fcf6ed566",
+      "ward_no": "11",
+      "ward_name_en": "Polakkal",
+      "ward_name_ml": "പോളക്കല്‍"
+    },
+    {
+      "ward_id": "de0c9f53-3999-4122-b875-6ebd18b645fb",
+      "ward_no": "1",
+      "ward_name_en": "Chettuva",
+      "ward_name_ml": "ചേറ്റുവ"
+    },
+    {
+      "ward_id": "2ce7f3bd-c813-48c1-abc4-19e76a9eacf0",
+      "ward_no": "2",
+      "ward_name_en": "Vadakkummury",
+      "ward_name_ml": "വടക്കുംമുറി"
+    },
+    {
+      "ward_id": "61669d79-f015-47d5-903c-86e3ba1ce4e4",
+      "ward_no": "3",
+      "ward_name_en": "Pulikkakadavu",
+      "ward_name_ml": "പുളിക്കകടവ്"
+    },
+    {
+      "ward_id": "998fba07-48ed-40f0-9871-9f5daa2c4c91",
+      "ward_no": "4",
+      "ward_name_en": "Pulinchode",
+      "ward_name_ml": "പുളിഞ്ചോട്"
+    },
+    {
+      "ward_id": "7c5c9150-0235-4867-8b1b-fccb47c00813",
+      "ward_no": "5",
+      "ward_name_en": "Sreenarayana",
+      "ward_name_ml": "ശ്രീനാരായണ"
+    },
+    {
+      "ward_id": "26e5e74a-76da-4926-abac-e1b134c7f8b5",
+      "ward_no": "6",
+      "ward_name_en": "Vettekorumakan",
+      "ward_name_ml": "വേട്ടക്കൊരുമകന്‍"
+    },
+    {
+      "ward_id": "cb3a7ff0-6900-4d5a-81e0-bef9641591af",
+      "ward_no": "7",
+      "ward_name_en": "Market",
+      "ward_name_ml": "മാര്‍ക്കറ്റ്"
+    },
+    {
+      "ward_id": "fa678de1-a42f-4c30-ae05-25425106e938",
+      "ward_no": "8",
+      "ward_name_en": "N.H.S",
+      "ward_name_ml": "എന്‍.എച്ച്.എസ്"
+    },
+    {
+      "ward_id": "e41d7da0-f399-48a9-93c0-6a5628be4a0f",
+      "ward_no": "9",
+      "ward_name_en": "Ayiramkanni",
+      "ward_name_ml": "ആയിരംകണ്ണി"
+    },
+    {
+      "ward_id": "d3ddbe1d-3f95-45ab-a526-887d251f4a1e",
+      "ward_no": "10",
+      "ward_name_en": "Thirunarayana",
+      "ward_name_ml": "തിരുനാരായണ"
+    },
+    {
+      "ward_id": "463bfb78-bc53-45d7-9e3d-d56ba0458a79",
+      "ward_no": "12",
+      "ward_name_en": "Thirumangalam",
+      "ward_name_ml": "തിരുമംഗലം"
+    },
+    {
+      "ward_id": "e0b5ebb8-5c07-458c-a2a6-1da590a99b87",
+      "ward_no": "13",
+      "ward_name_en": "Fisharies",
+      "ward_name_ml": "ഫിഷറീസ്"
+    },
+    {
+      "ward_id": "54a3244e-428f-4639-9583-4aba855c3679",
+      "ward_no": "14",
+      "ward_name_en": "Ethai",
+      "ward_name_ml": "എത്തായ്"
+    },
+    {
+      "ward_id": "b32d00d6-3d06-4ff5-bc3e-b0fe39a0e290",
+      "ward_no": "15",
+      "ward_name_en": "Nethaji",
+      "ward_name_ml": "നേതാജി"
+    },
+    {
+      "ward_id": "768893e2-103e-4ef9-9517-5c68a0892095",
+      "ward_no": "16",
+      "ward_name_en": "Kotta",
+      "ward_name_ml": "കോട്ട"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080801.geojson"
+  }
+}

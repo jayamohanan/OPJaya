@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G040302",
+  "local_body_name_en": "Kanjikuzhy",
+  "local_body_name_ml": "കഞ്ഞിക്കുഴി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "103",
+    "assembly_name_en": "Cherthala",
+    "assembly_name_ml": "ചേർത്തല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d5f75b57-c40a-4081-a75f-9aa0f068d636",
+      "ward_no": "1",
+      "ward_name_en": "Mayithara North",
+      "ward_name_ml": "മായിത്തറ വടക്ക്"
+    },
+    {
+      "ward_id": "abbe8ee9-7f40-47fe-ad72-7ec766fcbc20",
+      "ward_no": "2",
+      "ward_name_en": "Subhash",
+      "ward_name_ml": "സുഭാഷ്"
+    },
+    {
+      "ward_id": "c1f2c72a-37af-44cc-aabd-0b5b2a793353",
+      "ward_no": "3",
+      "ward_name_en": "Cheruvaranam",
+      "ward_name_ml": "ചെറുവാരണം"
+    },
+    {
+      "ward_id": "988ba12c-3f3d-48a1-a403-2bd51b7591d0",
+      "ward_no": "4",
+      "ward_name_en": "Ayyappanchery",
+      "ward_name_ml": "അയ്യപ്പന്‍ഞ്ചേരി"
+    },
+    {
+      "ward_id": "f9b8bb55-4790-47d2-aa92-3739ef54db6b",
+      "ward_no": "5",
+      "ward_name_en": "Puthanambalam",
+      "ward_name_ml": "പുത്തനമ്പലം"
+    },
+    {
+      "ward_id": "f363afaa-3c13-46df-9ebc-c978ba267ec4",
+      "ward_no": "6",
+      "ward_name_en": "Moolamvely",
+      "ward_name_ml": "മൂലംവെളി"
+    },
+    {
+      "ward_id": "835a713a-6b7f-46b6-a6d6-742cd2082065",
+      "ward_no": "7",
+      "ward_name_en": "Koottuvely",
+      "ward_name_ml": "കൂറ്റുവേലി"
+    },
+    {
+      "ward_id": "84097834-0796-426a-aeef-77b32133b40f",
+      "ward_no": "8",
+      "ward_name_en": "Illathukavu",
+      "ward_name_ml": "ഇല്ലത്തുകാവ്"
+    },
+    {
+      "ward_id": "58620627-4bfb-45ed-8b01-8539e4b71a40",
+      "ward_no": "9",
+      "ward_name_en": "Vembally",
+      "ward_name_ml": "വെമ്പളളി"
+    },
+    {
+      "ward_id": "813e87b9-4e23-4693-8dbd-459904a2956d",
+      "ward_no": "10",
+      "ward_name_en": "Chathanad",
+      "ward_name_ml": "ചാത്തനാട്"
+    },
+    {
+      "ward_id": "2e2ae892-69e0-4ec8-a6ac-9c8446ac593c",
+      "ward_no": "11",
+      "ward_name_en": "Mangalapuram",
+      "ward_name_ml": "മംഗളാപുരം"
+    },
+    {
+      "ward_id": "fc88302b-55eb-417d-8584-55ed09499e5f",
+      "ward_no": "12",
+      "ward_name_en": "Lootharan",
+      "ward_name_ml": "ലൂഥറന്‍"
+    },
+    {
+      "ward_id": "05a758d4-09f8-4245-8a44-ad7b52170fda",
+      "ward_no": "13",
+      "ward_name_en": "Kannarkkad",
+      "ward_name_ml": "കണ്ണര്‍ക്കാട്"
+    },
+    {
+      "ward_id": "9b6f5112-62a9-498f-9c8f-90275ab2f81c",
+      "ward_no": "14",
+      "ward_name_en": "Kanjikuzhy",
+      "ward_name_ml": "കഞ്ഞിക്കുഴി"
+    },
+    {
+      "ward_id": "fc6ee412-874b-4c31-a18f-07089b8939a6",
+      "ward_no": "15",
+      "ward_name_en": "Kumarapuram",
+      "ward_name_ml": "കുമാരപുരം"
+    },
+    {
+      "ward_id": "28637462-f301-4351-9e9d-100c4133a0da",
+      "ward_no": "16",
+      "ward_name_en": "Kalathiveedu",
+      "ward_name_ml": "കളത്തിവീട്"
+    },
+    {
+      "ward_id": "c5c2e01d-e84e-4c79-a2a5-b97d238b81c2",
+      "ward_no": "17",
+      "ward_name_en": "Chalunkal",
+      "ward_name_ml": "ചാലുങ്കല്‍"
+    },
+    {
+      "ward_id": "533c804c-f4c3-456b-9dc6-0a6fd8facb1c",
+      "ward_no": "18",
+      "ward_name_en": "Mayithara",
+      "ward_name_ml": "മായിത്തറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040302.geojson"
+  }
+}

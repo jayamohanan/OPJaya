@@ -1,0 +1,295 @@
+{
+  "local_body_id": "M130400",
+  "local_body_name_en": "Payyannur",
+  "local_body_name_ml": "പയ്യന്നൂര്‍",
+  "local_body_type_en": "Municipality",
+  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
+  "category": "",
+  "assembly": {
+    "assembly_id": "6",
+    "assembly_name_en": "Payyannur",
+    "assembly_name_ml": "പയ്യന്നൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "17f374da-3e8d-46ed-b92b-52f9cf30770a",
+      "ward_no": "1",
+      "ward_name_en": "Kaniyeri",
+      "ward_name_ml": "കണിയേരി"
+    },
+    {
+      "ward_id": "1177dba7-016b-4ab1-bcda-ba5facc7b553",
+      "ward_no": "2",
+      "ward_name_en": "Kizhakkumbad",
+      "ward_name_ml": "കിഴക്കുംമ്പാട്"
+    },
+    {
+      "ward_id": "32c4747e-886c-4b1a-85c9-f872ae51cdd0",
+      "ward_no": "3",
+      "ward_name_en": "Velloor East",
+      "ward_name_ml": "വെള്ളൂര്‍ ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "2d6ca165-92f7-4278-8569-70cdbbc735d4",
+      "ward_no": "4",
+      "ward_name_en": "Eachilam Vayal",
+      "ward_name_ml": "ഏച്ചിലാം വയല്‍"
+    },
+    {
+      "ward_id": "78fbb732-86af-4dae-b5ed-68afddace06f",
+      "ward_no": "5",
+      "ward_name_en": "Kandoth",
+      "ward_name_ml": "കണ്ടോത്ത്‌"
+    },
+    {
+      "ward_id": "ced3cb95-f7fd-4d29-8958-6a45d0c5b512",
+      "ward_no": "6",
+      "ward_name_en": "Korome North",
+      "ward_name_ml": "കോറോം നോര്‍ത്ത്‌"
+    },
+    {
+      "ward_id": "e0ac2158-5d42-441f-abb1-942a2fe4cfee",
+      "ward_no": "7",
+      "ward_name_en": "Korome Central",
+      "ward_name_ml": "കോറോം സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "1bd535dc-7854-4f0c-aa8b-aaa7004a3dc9",
+      "ward_no": "8",
+      "ward_name_en": "Korome South",
+      "ward_name_ml": "കോറോം സൗത്ത്‌"
+    },
+    {
+      "ward_id": "9c2ef76a-5dca-4e7a-b14c-0ac51d0c59d3",
+      "ward_no": "9",
+      "ward_name_en": "Muthiyalam",
+      "ward_name_ml": "മുതിയലം"
+    },
+    {
+      "ward_id": "f0bf3278-9e7a-41cc-9356-f5a4f4349839",
+      "ward_no": "10",
+      "ward_name_en": "Kanayi North",
+      "ward_name_ml": "കാനായി നോര്‍ത്ത്‌"
+    },
+    {
+      "ward_id": "f6c97255-b4ae-47d6-a9c5-5f9544a05dba",
+      "ward_no": "11",
+      "ward_name_en": "Maniyara",
+      "ward_name_ml": "മണിയറ"
+    },
+    {
+      "ward_id": "728c0aa9-ce54-47f9-ad84-828f1cf46240",
+      "ward_no": "12",
+      "ward_name_en": "Kanayi South",
+      "ward_name_ml": "കാനായി സൗത്ത്‌"
+    },
+    {
+      "ward_id": "6f54fc10-e42a-41b6-b291-24f8e923829b",
+      "ward_no": "13",
+      "ward_name_en": "Paravanthatta",
+      "ward_name_ml": "പരവന്തട്ട"
+    },
+    {
+      "ward_id": "7767047e-0ea4-4610-b8d8-0f2a9ce7d7a2",
+      "ward_no": "14",
+      "ward_name_en": "Kokkott",
+      "ward_name_ml": "കൊക്കോട്ട്"
+    },
+    {
+      "ward_id": "b0e42d83-e961-41c6-be7d-7d76fa111ec4",
+      "ward_no": "15",
+      "ward_name_en": "Chittarikkovval",
+      "ward_name_ml": "ചിറ്റാരിക്കൊവ്വല്‍"
+    },
+    {
+      "ward_id": "78bf1886-8a11-4eac-8132-db2c294e1609",
+      "ward_no": "16",
+      "ward_name_en": "Perumba",
+      "ward_name_ml": "പെരുമ്പ"
+    },
+    {
+      "ward_id": "f82af055-25a4-4688-b869-cbdb8b10a046",
+      "ward_no": "17",
+      "ward_name_en": "Hospital",
+      "ward_name_ml": "ഹോസ്പിറ്റല്‍"
+    },
+    {
+      "ward_id": "788f66f6-8a10-472d-ad91-dcecbde725f3",
+      "ward_no": "18",
+      "ward_name_en": "Kokkanisseri",
+      "ward_name_ml": "കൊക്കാനിശ്ശേരി"
+    },
+    {
+      "ward_id": "d899e9ff-d4ce-453e-a2e2-ac5101707720",
+      "ward_no": "19",
+      "ward_name_en": "Town Ward",
+      "ward_name_ml": "ടൌണ്‍ വാര്‍ഡ്‌"
+    },
+    {
+      "ward_id": "beb70f89-68f0-4a93-ae72-f0e9f6ad6ec4",
+      "ward_no": "20",
+      "ward_name_en": "Mavicheri",
+      "ward_name_ml": "മാവിചേരി"
+    },
+    {
+      "ward_id": "8ac07269-851e-4344-bdd2-30bc96c5a949",
+      "ward_no": "21",
+      "ward_name_en": "Kandankali North",
+      "ward_name_ml": "കണ്ടങ്ങാളി"
+    },
+    {
+      "ward_id": "218a6c2d-1f94-40fa-8157-d8b73d910e8a",
+      "ward_no": "22",
+      "ward_name_en": "Kandankali South",
+      "ward_name_ml": "കണ്ടങ്ങാളി സൗത്ത്‌"
+    },
+    {
+      "ward_id": "97601c0d-3200-45dd-a2a2-de1e1af3a9a5",
+      "ward_no": "23",
+      "ward_name_en": "Punchakkad",
+      "ward_name_ml": "പുഞ്ചക്കാട്"
+    },
+    {
+      "ward_id": "c4e6b35c-0a35-4b0d-82b2-1ffbb3b25461",
+      "ward_no": "24",
+      "ward_name_en": "Kotty",
+      "ward_name_ml": "കൊറ്റി"
+    },
+    {
+      "ward_id": "cab56f27-f8f3-45b8-9a36-25d9f0b76b55",
+      "ward_no": "25",
+      "ward_name_en": "Mambalam",
+      "ward_name_ml": "മമ്പലം"
+    },
+    {
+      "ward_id": "968f8a27-0fc0-456b-8549-2c812c64b1ff",
+      "ward_no": "26",
+      "ward_name_en": "Padoli",
+      "ward_name_ml": "പടോളി"
+    },
+    {
+      "ward_id": "99e55bf8-ad1b-471f-bccf-9d10bfb2db6a",
+      "ward_no": "27",
+      "ward_name_en": "Temple Ward",
+      "ward_name_ml": "ടെമ്പിള്‍ വാര്‍ഡ്‌"
+    },
+    {
+      "ward_id": "df48c13f-c804-4640-a42a-926e0f9b47e5",
+      "ward_no": "28",
+      "ward_name_en": "Gramam East",
+      "ward_name_ml": "ഗ്രാമം ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "7a7c182c-a9e2-4c42-8381-911baf900920",
+      "ward_no": "29",
+      "ward_name_en": "Gramam West",
+      "ward_name_ml": "ഗ്രാമം വെസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "d8bec32e-b212-4d97-899e-877f5eadf8bb",
+      "ward_no": "30",
+      "ward_name_en": "Keloth South",
+      "ward_name_ml": "കേളോത്ത് സൗത്ത്‌"
+    },
+    {
+      "ward_id": "aea7a5df-cdcc-4523-90ff-d8f2fad47696",
+      "ward_no": "31",
+      "ward_name_en": "Keloth North",
+      "ward_name_ml": "കേളോത്ത് നോര്‍ത്ത്‌"
+    },
+    {
+      "ward_id": "2d63f4e4-91ff-476a-89f9-ef51dce14fa8",
+      "ward_no": "32",
+      "ward_name_en": "Kavvayi",
+      "ward_name_ml": "കവ്വായി"
+    },
+    {
+      "ward_id": "77494bd3-04cd-4437-af94-46576ec53d26",
+      "ward_no": "33",
+      "ward_name_en": "Thayineri West",
+      "ward_name_ml": "തായിനേരി വെസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "7862c33d-fde7-4d87-beff-2968aee12538",
+      "ward_no": "34",
+      "ward_name_en": "Thayineri East",
+      "ward_name_ml": "തായിനേരി ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "e82c21a1-14a5-4605-bb40-ccd6a6b31c6d",
+      "ward_no": "35",
+      "ward_name_en": "Muchilott Ward",
+      "ward_name_ml": "മുച്ചിലോട്ട് വാര്‍ഡ്‌"
+    },
+    {
+      "ward_id": "858fa622-c3fa-4c4c-87c5-b9aabfcc930d",
+      "ward_no": "36",
+      "ward_name_en": "Annoor South",
+      "ward_name_ml": "അന്നൂര്‍ സൗത്ത്‌"
+    },
+    {
+      "ward_id": "840a5d05-17d8-4ff6-b80f-62f97ea840b6",
+      "ward_no": "37",
+      "ward_name_en": "Annoor East",
+      "ward_name_ml": "അന്നൂര്‍ ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "cc4d8b7e-e15f-4cae-ba80-61c1095cdaaf",
+      "ward_no": "38",
+      "ward_name_en": "Annoor Kizhakkekovval",
+      "ward_name_ml": "അന്നൂര്‍ കിഴക്കെക്കൊവ്വല്‍"
+    },
+    {
+      "ward_id": "7e88ab80-2d09-4186-80e9-b0eed30eb1a6",
+      "ward_no": "39",
+      "ward_name_en": "Santhi Gramam",
+      "ward_name_ml": "ശാന്തി ഗ്രാമം"
+    },
+    {
+      "ward_id": "896ebaeb-d020-4ea3-a34f-d86b8792f88b",
+      "ward_no": "40",
+      "ward_name_en": "Kara",
+      "ward_name_ml": "കാര"
+    },
+    {
+      "ward_id": "62a7e478-b8ec-430c-881b-595ec02f5747",
+      "ward_no": "41",
+      "ward_name_en": "Annoor West",
+      "ward_name_ml": "അന്നൂര്‍ വെസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "110b53fb-d4af-4f1c-a57a-58f05064bc16",
+      "ward_no": "42",
+      "ward_name_en": "Karamel West",
+      "ward_name_ml": "കാറമേല്‍"
+    },
+    {
+      "ward_id": "92823c93-c9d2-43cb-928b-34831363a100",
+      "ward_no": "43",
+      "ward_name_en": "Karamel East",
+      "ward_name_ml": "കാറമേല്‍ ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "76f2b210-d0fb-4d31-ad00-4efecee2edbd",
+      "ward_no": "44",
+      "ward_name_en": "Velloor West",
+      "ward_name_ml": "വെള്ളൂര്‍ വെസ്റ്റ്‌"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/M130400.geojson"
+  }
+}

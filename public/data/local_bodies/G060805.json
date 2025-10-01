@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G060805",
+  "local_body_name_en": "Elappara",
+  "local_body_name_ml": "ഏലപ്പാറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "92",
+    "assembly_name_en": "Peerumade",
+    "assembly_name_ml": "പീരുമേട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "517a49de-1ccf-4012-ae9e-7eb9b2259b7c",
+      "ward_no": "1",
+      "ward_name_en": "Pullikkanam",
+      "ward_name_ml": "പുളളിക്കാനം"
+    },
+    {
+      "ward_id": "67f2583b-783d-4b5b-9fd7-cb3f0f5afdb1",
+      "ward_no": "2",
+      "ward_name_en": "Ulupponni",
+      "ward_name_ml": "ഉളുപ്പൂണി"
+    },
+    {
+      "ward_id": "24db8448-e4c7-4df2-a4d5-f17aa8aae039",
+      "ward_no": "3",
+      "ward_name_en": "Kottamala",
+      "ward_name_ml": "കോട്ടമല"
+    },
+    {
+      "ward_id": "00a5d0a7-0ad2-4f55-b58e-8d35e80f3757",
+      "ward_no": "4",
+      "ward_name_en": "Vattapathal",
+      "ward_name_ml": "വട്ടപ്പതാല്‍"
+    },
+    {
+      "ward_id": "fcb557b0-32e0-4b55-8428-9b6dda65ac72",
+      "ward_no": "5",
+      "ward_name_en": "Kochukrimtharuvi",
+      "ward_name_ml": "കൊച്ചുകരിന്തരുവി"
+    },
+    {
+      "ward_id": "78bd189d-a1ca-4265-b00a-953903c2c28e",
+      "ward_no": "6",
+      "ward_name_en": "Chemmannu",
+      "ward_name_ml": "ചെമ്മണ്ണ്"
+    },
+    {
+      "ward_id": "8ff1dd3e-aad6-44b4-9557-a0839697d15e",
+      "ward_no": "7",
+      "ward_name_en": "Chinnar",
+      "ward_name_ml": "ചിന്നാര്‍"
+    },
+    {
+      "ward_id": "0e0e715c-ca34-4977-8e70-b639822cb388",
+      "ward_no": "8",
+      "ward_name_en": "Vallakkadavu",
+      "ward_name_ml": "വളളക്കടവ്"
+    },
+    {
+      "ward_id": "dbbc8a6d-2827-4dea-af6f-3b234d92283f",
+      "ward_no": "9",
+      "ward_name_en": "Haileyburia",
+      "ward_name_ml": "ഹെലിബറിയ"
+    },
+    {
+      "ward_id": "fc6fd9cb-ae56-4a03-9f3d-29c3a8a1ee21",
+      "ward_no": "10",
+      "ward_name_en": "Kizhakkeputhuval",
+      "ward_name_ml": "കിഴക്കേപ്പുതുവല്‍"
+    },
+    {
+      "ward_id": "d7f57cf7-07b5-4048-9df0-278437654d1f",
+      "ward_no": "11",
+      "ward_name_en": "Kozhikkanam",
+      "ward_name_ml": "കോഴിക്കാനം"
+    },
+    {
+      "ward_id": "60e3c390-4161-45c5-994e-cd399e7d5c2b",
+      "ward_no": "12",
+      "ward_name_en": "Thannikkanam",
+      "ward_name_ml": "തണ്ണിക്കാനം"
+    },
+    {
+      "ward_id": "69f7eab8-1313-4e7f-970d-6cb0ad2c1ae7",
+      "ward_no": "13",
+      "ward_name_en": "Elappara",
+      "ward_name_ml": "ഏലപ്പാറ"
+    },
+    {
+      "ward_id": "62f43597-0909-42fe-9549-66617672c737",
+      "ward_no": "14",
+      "ward_name_en": "Tyford",
+      "ward_name_ml": "ടൈഫോര്‍ഡ്"
+    },
+    {
+      "ward_id": "1b89eb55-4652-4de1-a2ef-7ca87740f00c",
+      "ward_no": "15",
+      "ward_name_en": "Bonami",
+      "ward_name_ml": "ബോണാമി"
+    },
+    {
+      "ward_id": "eb221e3f-21fe-48a7-8a0f-a5958232d10b",
+      "ward_no": "16",
+      "ward_name_en": "Kolahalamedu",
+      "ward_name_ml": "കോലാഹലമേട്"
+    },
+    {
+      "ward_id": "362b344d-8278-4fed-923a-44ed8575ef19",
+      "ward_no": "17",
+      "ward_name_en": "Vgamon",
+      "ward_name_ml": "വാഗമണ്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060805.geojson"
+  }
+}

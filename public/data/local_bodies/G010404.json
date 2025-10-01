@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G010404",
+  "local_body_name_en": "Vamanapuram",
+  "local_body_name_ml": "വാമനപുരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "131",
+    "assembly_name_en": "Vamanapuram",
+    "assembly_name_ml": "വാമനപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a0ab3e8a-8ce4-495f-b2fe-e52fe2961c5d",
+      "ward_no": "1",
+      "ward_name_en": "Panthuvila",
+      "ward_name_ml": "പന്തുവിള"
+    },
+    {
+      "ward_id": "5ede08be-a4d0-4622-8a79-7d56562264fa",
+      "ward_no": "2",
+      "ward_name_en": "Anachal",
+      "ward_name_ml": "ആനച്ചല്‍"
+    },
+    {
+      "ward_id": "52132bbe-6ebc-47e4-bd02-8789f78ea5f3",
+      "ward_no": "3",
+      "ward_name_en": "Vazhvelikonam",
+      "ward_name_ml": "വാഴ്വേലിക്കോണം"
+    },
+    {
+      "ward_id": "6078db36-52eb-4302-8d6f-e52071dcbf42",
+      "ward_no": "4",
+      "ward_name_en": "Vamanapuram",
+      "ward_name_ml": "വാമനപുരം"
+    },
+    {
+      "ward_id": "6a7f03c8-616b-4834-97d3-150217772743",
+      "ward_no": "5",
+      "ward_name_en": "Karuvayal",
+      "ward_name_ml": "കരുവയല്‍"
+    },
+    {
+      "ward_id": "9cd85640-f1aa-491d-9fce-f91292eb0a13",
+      "ward_no": "6",
+      "ward_name_en": "Anakudy",
+      "ward_name_ml": "ആനാകുടി"
+    },
+    {
+      "ward_id": "276f6cf9-094d-4b10-8a7f-20bdec50d2dd",
+      "ward_no": "7",
+      "ward_name_en": "Kanjirampara",
+      "ward_name_ml": "കാഞ്ഞിരംപാറ"
+    },
+    {
+      "ward_id": "0bfd47ad-b0c2-4cd1-9440-01ceb92c52a6",
+      "ward_no": "8",
+      "ward_name_en": "Kuttimoodu",
+      "ward_name_ml": "കുറ്റിമൂട്"
+    },
+    {
+      "ward_id": "89b93e8b-85dd-446f-9a6b-d7a76267f882",
+      "ward_no": "9",
+      "ward_name_en": "Meethoor",
+      "ward_name_ml": "മീതൂര്‍"
+    },
+    {
+      "ward_id": "eca8feff-24eb-49f9-bcd2-7b46735c4f37",
+      "ward_no": "10",
+      "ward_name_en": "Thoongayil",
+      "ward_name_ml": "തൂങ്ങയില്‍"
+    },
+    {
+      "ward_id": "ad91843f-2b0e-42b3-a012-9f9a23e39c9d",
+      "ward_no": "11",
+      "ward_name_en": "Iruloor",
+      "ward_name_ml": "ഇരുളൂര്‍"
+    },
+    {
+      "ward_id": "5d48999b-9f63-41f0-9c3a-56a97b8d5773",
+      "ward_no": "12",
+      "ward_name_en": "Poovathoor",
+      "ward_name_ml": "പൂവത്തൂര്‍"
+    },
+    {
+      "ward_id": "779a5e38-7ee2-400d-864c-54c00e4c3d05",
+      "ward_no": "13",
+      "ward_name_en": "Melattumoozhy",
+      "ward_name_ml": "മേലാറ്റുമൂഴി"
+    },
+    {
+      "ward_id": "7a42f83d-f6aa-49fc-9612-d2b638c1ff6c",
+      "ward_no": "14",
+      "ward_name_en": "Eettimoodu",
+      "ward_name_ml": "ഈട്ടിമൂട്"
+    },
+    {
+      "ward_id": "6e71e98e-be13-467b-ac10-c0f461079a62",
+      "ward_no": "15",
+      "ward_name_en": "Kalamachal",
+      "ward_name_ml": "കളമച്ചല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010404.geojson"
+  }
+}

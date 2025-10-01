@@ -1,0 +1,48 @@
+{
+  "assembly_id": "105",
+  "assembly_name_en": "Ambalappuzha",
+  "assembly_name_ml": "അമ്പലപ്പുഴ",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G040505",
+      "local_body_name_en": "Punnapra North",
+      "local_body_name_ml": "പുന്നപ്ര വടക്ക്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040504",
+      "local_body_name_en": "Punnapra South",
+      "local_body_name_ml": "പുന്നപ്ര തെക്ക്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040501",
+      "local_body_name_en": "Purakkad",
+      "local_body_name_ml": "പുറക്കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040503",
+      "local_body_name_en": "Ambalapuzha North",
+      "local_body_name_ml": "അമ്പലപ്പുഴ വടക്ക്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040502",
+      "local_body_name_en": "Ambalapuzha South",
+      "local_body_name_ml": "അമ്പലപ്പുഴ തെക്ക്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/ambalappuzha.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/ambalappuzha.geojson"
+  }
+}

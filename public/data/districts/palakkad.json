@@ -1,0 +1,85 @@
+{
+  "district_id": "9",
+  "district_name_en": "Palakkad",
+  "district_name_ml": "പാലക്കാട്",
+  "is_active": true,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "49",
+      "assembly_name_en": "Thrithala",
+      "assembly_name_ml": "തൃത്താല",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "50",
+      "assembly_name_en": "Pattambi",
+      "assembly_name_ml": "പട്ടാമ്പി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "51",
+      "assembly_name_en": "Shoranur",
+      "assembly_name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "52",
+      "assembly_name_en": "Ottapalam",
+      "assembly_name_ml": "ഒറ്റപ്പാലം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "53",
+      "assembly_name_en": "Kongad",
+      "assembly_name_ml": "കോങ്ങാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "54",
+      "assembly_name_en": "Mannarkkad",
+      "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "55",
+      "assembly_name_en": "Malampuzha",
+      "assembly_name_ml": "മലമ്പുഴ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "56",
+      "assembly_name_en": "Palakkad",
+      "assembly_name_ml": "പാലക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "57",
+      "assembly_name_en": "Tarur",
+      "assembly_name_ml": "തരൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "58",
+      "assembly_name_en": "Chittur",
+      "assembly_name_ml": "ചിറ്റൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "59",
+      "assembly_name_en": "Nenmara",
+      "assembly_name_ml": "നെന്മാറ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "60",
+      "assembly_name_en": "Alathur",
+      "assembly_name_ml": "ആലത്തൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/palakkad.geojson",
+    "assemblies": "geojson/districts/with-assemblies/palakkad.geojson"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050602",
+  "local_body_name_en": "Moonnilavu",
+  "local_body_name_ml": "മൂന്നിലവ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "93",
+    "assembly_name_en": "Pala",
+    "assembly_name_ml": "പാലാ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b034eea8-e101-4fc2-b932-c9c74bac8c16",
+      "ward_no": "1",
+      "ward_name_en": "Erumapra",
+      "ward_name_ml": "ഇരുമാപ്ര"
+    },
+    {
+      "ward_id": "a8798a14-df82-4477-8e5d-37ba287bbd4d",
+      "ward_no": "2",
+      "ward_name_en": "Valakam",
+      "ward_name_ml": "വാളകം"
+    },
+    {
+      "ward_id": "01359239-7902-44f6-9d0e-9e0729877c8c",
+      "ward_no": "3",
+      "ward_name_en": "Mechal",
+      "ward_name_ml": "മേച്ചാല്‍"
+    },
+    {
+      "ward_id": "751e0f21-34d5-49a6-b734-04771a5eedd6",
+      "ward_no": "4",
+      "ward_name_en": "Pazhukkakkanam",
+      "ward_name_ml": "പഴുക്കാക്കാനം"
+    },
+    {
+      "ward_id": "6b7c22e3-5ce9-41f9-8213-58742c907fdd",
+      "ward_no": "5",
+      "ward_name_en": "Mankombu",
+      "ward_name_ml": "മങ്കൊമ്പ്"
+    },
+    {
+      "ward_id": "6f4a1a95-31f3-4e6a-949b-133e341f8f2d",
+      "ward_no": "6",
+      "ward_name_en": "Vellara",
+      "ward_name_ml": "വെളളറ"
+    },
+    {
+      "ward_id": "373b061a-608a-462f-a8c6-419bc66b8c50",
+      "ward_no": "7",
+      "ward_name_en": "Anjumala",
+      "ward_name_ml": "അഞ്ചുമല"
+    },
+    {
+      "ward_id": "4ac26855-caef-43d9-889a-c9e681910190",
+      "ward_no": "8",
+      "ward_name_en": "Moonnilavu",
+      "ward_name_ml": "മൂന്നിലവ്"
+    },
+    {
+      "ward_id": "90483562-0b8b-442a-b51a-356e93bb177b",
+      "ward_no": "9",
+      "ward_name_en": "Perumkavu",
+      "ward_name_ml": "പെരുങ്കാവ്"
+    },
+    {
+      "ward_id": "0e403b6b-14d4-45be-afed-d18ce521b7fb",
+      "ward_no": "10",
+      "ward_name_en": "Kurinjiplavu",
+      "ward_name_ml": "കുറിഞ്ഞിപ്ലാവ്"
+    },
+    {
+      "ward_id": "a4465e95-cec1-4c6a-8c10-b847d39a1f50",
+      "ward_no": "11",
+      "ward_name_en": "Chakiniyamthadam",
+      "ward_name_ml": "ചകിണിയാംതടം"
+    },
+    {
+      "ward_id": "465bd724-b2e0-4a67-a407-81981af49c73",
+      "ward_no": "12",
+      "ward_name_en": "Puthussery",
+      "ward_name_ml": "പുതുശ്ശേരി"
+    },
+    {
+      "ward_id": "bfc7983a-e603-4c4a-a7a7-3819d4c616c5",
+      "ward_no": "13",
+      "ward_name_en": "Thazhakkavayal",
+      "ward_name_ml": "തഴയ്ക്കവയല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050602.geojson"
+  }
+}

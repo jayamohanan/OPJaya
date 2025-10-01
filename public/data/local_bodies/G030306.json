@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030306",
+  "local_body_name_en": "Puramattom",
+  "local_body_name_ml": "പുറമറ്റം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "a8b08b61-431c-418b-8a2d-f283ba19d749",
+      "ward_no": "1",
+      "ward_name_en": "Gyalaxi Nagar",
+      "ward_name_ml": "ഗ്യാലക്സി നഗര്‍"
+    },
+    {
+      "ward_id": "e7c1a4e5-6459-4956-900c-c3a1499305c9",
+      "ward_no": "2",
+      "ward_name_en": "Kavungumprayar",
+      "ward_name_ml": "കവുങ്ങുംപ്രയാര്‍"
+    },
+    {
+      "ward_id": "673aebef-e36f-4036-bcfa-0729bc51f34c",
+      "ward_no": "3",
+      "ward_name_en": "Vennikulam",
+      "ward_name_ml": "വെണ്ണിക്കുളം"
+    },
+    {
+      "ward_id": "432ed428-ab64-45ee-8223-89fd28762761",
+      "ward_no": "4",
+      "ward_name_en": "Valankara",
+      "ward_name_ml": "വാലാങ്കര"
+    },
+    {
+      "ward_id": "bf8aff60-d93f-42c6-8f5c-9b943c72ab4e",
+      "ward_no": "5",
+      "ward_name_en": "Paduthodu",
+      "ward_name_ml": "പടുതോട്"
+    },
+    {
+      "ward_id": "18d26f82-4e41-4531-a386-d25f4010edb0",
+      "ward_no": "6",
+      "ward_name_en": "Muthupala",
+      "ward_name_ml": "മുതുപാല"
+    },
+    {
+      "ward_id": "63587b66-13fc-40ae-b3c5-0e23d2a9a2d5",
+      "ward_no": "7",
+      "ward_name_en": "Vellara",
+      "ward_name_ml": "വെള്ളാറ"
+    },
+    {
+      "ward_id": "16b7cdad-50f9-49d5-9785-d437c834bb76",
+      "ward_no": "8",
+      "ward_name_en": "Kothakulam",
+      "ward_name_ml": "കോതകുളം"
+    },
+    {
+      "ward_id": "d0b3e420-3243-4f42-a0db-50e9df5fd314",
+      "ward_no": "9",
+      "ward_name_en": "Memala",
+      "ward_name_ml": "മേമല"
+    },
+    {
+      "ward_id": "4bf6970f-3823-4dd5-9115-1a621dc13cc8",
+      "ward_no": "10",
+      "ward_name_en": "Mundamala",
+      "ward_name_ml": "മുണ്ടമല"
+    },
+    {
+      "ward_id": "7ddaf96f-bc1a-4647-9d8f-fa94aa624793",
+      "ward_no": "11",
+      "ward_name_en": "Neelavathukkal",
+      "ward_name_ml": "നീലവാതുക്കല്‍"
+    },
+    {
+      "ward_id": "6f19b701-c03d-4464-bb82-f3229f8af6c4",
+      "ward_no": "12",
+      "ward_name_en": "Puramattom",
+      "ward_name_ml": "പുറമറ്റം"
+    },
+    {
+      "ward_id": "49f3403a-f19f-4185-abb3-4fe7b6b9ef9b",
+      "ward_no": "13",
+      "ward_name_en": "Umikkunnu",
+      "ward_name_ml": "ഉമിക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030306.geojson"
+  }
+}

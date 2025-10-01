@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G110605",
+  "local_body_name_en": "Koothali",
+  "local_body_name_ml": "കൂത്താളി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "24",
+    "assembly_name_en": "Perambra",
+    "assembly_name_ml": "പേരാംബ്ര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "0887de4c-d902-4213-98f3-44b8209a2538",
+      "ward_no": "1",
+      "ward_name_en": "Moorikuthi",
+      "ward_name_ml": "മൂരികുത്തി"
+    },
+    {
+      "ward_id": "12b8f488-f12d-4ff6-b726-43468d448949",
+      "ward_no": "2",
+      "ward_name_en": "Kammoth",
+      "ward_name_ml": "കമ്മോത്ത്"
+    },
+    {
+      "ward_id": "3bf5cba5-c41d-4b67-abf6-df2ce88a1c49",
+      "ward_no": "3",
+      "ward_name_en": "Koothali",
+      "ward_name_ml": "കൂത്താളി"
+    },
+    {
+      "ward_id": "e6af2885-fca4-452d-bc0d-8e0ee1547da9",
+      "ward_no": "4",
+      "ward_name_en": "Karimbilamoola",
+      "ward_name_ml": "കരിമ്പിലമൂല"
+    },
+    {
+      "ward_id": "314c3c2e-a8ae-4c07-96a7-16022271114d",
+      "ward_no": "5",
+      "ward_name_en": "Vilayattukandy",
+      "ward_name_ml": "വിളയാട്ടുകണ്ടി"
+    },
+    {
+      "ward_id": "fe452777-f473-465a-8193-3ac66d1613c6",
+      "ward_no": "6",
+      "ward_name_en": "Kannoth",
+      "ward_name_ml": "കണ്ണോത്ത്"
+    },
+    {
+      "ward_id": "e45aa6c0-8a54-4b0c-a172-c2f8e17f1e79",
+      "ward_no": "7",
+      "ward_name_en": "Thandorappara",
+      "ward_name_ml": "തണ്ടോറപ്പാറ"
+    },
+    {
+      "ward_id": "db366cc5-3c10-4327-93ec-a627a547e6da",
+      "ward_no": "8",
+      "ward_name_en": "Koratti",
+      "ward_name_ml": "കൊരട്ടി"
+    },
+    {
+      "ward_id": "7b655f93-7903-4a3b-ad99-d306d3a60fe7",
+      "ward_no": "9",
+      "ward_name_en": "Panakkad",
+      "ward_name_ml": "പനക്കാട്"
+    },
+    {
+      "ward_id": "d072d045-84fc-48ce-8731-73bfd9d67a58",
+      "ward_no": "10",
+      "ward_name_en": "Pulikkott",
+      "ward_name_ml": "പുലിക്കോട്ട്"
+    },
+    {
+      "ward_id": "a06f41e8-9c7d-47dc-b396-ca3f2a49e9a6",
+      "ward_no": "11",
+      "ward_name_en": "Paithoth",
+      "ward_name_ml": "പൈതോത്ത്"
+    },
+    {
+      "ward_id": "0b7c2190-9d71-4cc9-90a9-f5b1921b6ec1",
+      "ward_no": "12",
+      "ward_name_en": "Koothali Theru",
+      "ward_name_ml": "കൂത്താളിതെരു"
+    },
+    {
+      "ward_id": "b3970ec0-7ff5-4a6b-aa3f-98108953cb9a",
+      "ward_no": "13",
+      "ward_name_en": "Eranjimmal",
+      "ward_name_ml": "ഈരാഞ്ഞീമ്മല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110605.geojson"
+  }
+}

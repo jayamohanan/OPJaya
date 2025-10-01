@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G021003",
+  "local_body_name_en": "Chathannoor",
+  "local_body_name_ml": "ചാത്തന്നൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "126",
+    "assembly_name_en": "Chathannoor",
+    "assembly_name_ml": "ചാത്തന്നൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f9992049-3d91-4996-92b2-dd62902be3b7",
+      "ward_no": "1",
+      "ward_name_en": "Kaliyakkulam",
+      "ward_name_ml": "കളിയാക്കുളം"
+    },
+    {
+      "ward_id": "094f86bf-4793-4158-af35-aa23abb428a7",
+      "ward_no": "2",
+      "ward_name_en": "Njavaroor",
+      "ward_name_ml": "ഞവരൂര്‍"
+    },
+    {
+      "ward_id": "ed382baa-1eb2-49e7-b54e-2c765294b948",
+      "ward_no": "3",
+      "ward_name_en": "Mampallikunnam",
+      "ward_name_ml": "മാമ്പള്ളിക്കുന്നം"
+    },
+    {
+      "ward_id": "33c4a7ad-c409-4216-8ac8-60564e02e838",
+      "ward_no": "4",
+      "ward_name_en": "Koippadu",
+      "ward_name_ml": "കോയിപ്പാട്"
+    },
+    {
+      "ward_id": "b86bd5f2-ba60-4422-8b55-98a2c0f414c1",
+      "ward_no": "5",
+      "ward_name_en": "Palavila",
+      "ward_name_ml": "പാലവിള"
+    },
+    {
+      "ward_id": "0c27991c-7f2c-4d2f-b405-5db090cf4260",
+      "ward_no": "6",
+      "ward_name_en": "Edanadu",
+      "ward_name_ml": "ഇടനാട്"
+    },
+    {
+      "ward_id": "06727211-97ee-4ebe-97f6-05f349bbe159",
+      "ward_no": "7",
+      "ward_name_en": "Vayalikkada",
+      "ward_name_ml": "വയലിക്കട"
+    },
+    {
+      "ward_id": "026cdc0e-747f-47df-95a1-23dfe134aa95",
+      "ward_no": "8",
+      "ward_name_en": "Varinjam",
+      "ward_name_ml": "വരിഞ്ഞം"
+    },
+    {
+      "ward_id": "7209b296-64da-4e6e-a965-217c8e16735d",
+      "ward_no": "9",
+      "ward_name_en": "Karamcodu",
+      "ward_name_ml": "കാരംകോട്"
+    },
+    {
+      "ward_id": "9c157e83-ef98-404a-bfee-8f583a5b193d",
+      "ward_no": "10",
+      "ward_name_en": "Koshnakkavu",
+      "ward_name_ml": "കോഷ്ണക്കാവ്"
+    },
+    {
+      "ward_id": "8a9471fb-3235-4288-8185-dcfb76494c39",
+      "ward_no": "11",
+      "ward_name_en": "Eram",
+      "ward_name_ml": "ഏറം"
+    },
+    {
+      "ward_id": "198ab029-abc0-4872-a793-8e2833501f63",
+      "ward_no": "12",
+      "ward_name_en": "Civil Station",
+      "ward_name_ml": "സിവില്‍സ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "a0159c19-6d47-4392-b2c2-3936ade3139f",
+      "ward_no": "13",
+      "ward_name_en": "Thazham",
+      "ward_name_ml": "താഴം"
+    },
+    {
+      "ward_id": "807bc71e-f8fa-4ca5-abbe-58ca3b864669",
+      "ward_no": "14",
+      "ward_name_en": "Kalluvettankuzhy",
+      "ward_name_ml": "കല്ലുവെട്ടാംകുഴി"
+    },
+    {
+      "ward_id": "7bbee701-a314-44f9-a4dc-e763a90a31dd",
+      "ward_no": "15",
+      "ward_name_en": "M.C. Puram",
+      "ward_name_ml": "എം.സി. പുരം"
+    },
+    {
+      "ward_id": "1d760f90-e868-4baf-8b4d-0183e2e5bf74",
+      "ward_no": "16",
+      "ward_name_en": "Meenad East",
+      "ward_name_ml": "മീനാട് കിഴക്ക്"
+    },
+    {
+      "ward_id": "27a27539-5418-4585-ba99-f73c0b6f3908",
+      "ward_no": "17",
+      "ward_name_en": "Meenad",
+      "ward_name_ml": "മീനാട്"
+    },
+    {
+      "ward_id": "0d733c4b-95e6-4e06-a1bb-35bec9e1062b",
+      "ward_no": "18",
+      "ward_name_en": "Kottuvathukkal",
+      "ward_name_ml": "കോട്ടുവാതുക്കല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G021003.geojson"
+  }
+}

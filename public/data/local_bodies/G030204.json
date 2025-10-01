@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030204",
+  "local_body_name_en": "Nedumpuram",
+  "local_body_name_ml": "നെടുമ്പ്രം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "9b77c409-2961-47fb-9fad-07292c6af6b6",
+      "ward_no": "1",
+      "ward_name_en": "Amichakari",
+      "ward_name_ml": "അമിച്ചകരി"
+    },
+    {
+      "ward_id": "c1b082bc-b0a1-461d-83bf-fb1cd57ca617",
+      "ward_no": "2",
+      "ward_name_en": "Nedumpuram",
+      "ward_name_ml": "നെടുമ്പ്രം"
+    },
+    {
+      "ward_id": "e7a2b981-1f10-4e89-b7e1-9414459e265a",
+      "ward_no": "3",
+      "ward_name_en": "Puthiyakavu",
+      "ward_name_ml": "പുതിയകാവ്"
+    },
+    {
+      "ward_id": "728ee421-51c8-4a3f-967b-08ce582a7153",
+      "ward_no": "4",
+      "ward_name_en": "Vayikkathillam",
+      "ward_name_ml": "വൈക്കത്തില്ലം"
+    },
+    {
+      "ward_id": "c3efa08e-2ac5-428d-87d7-414311441660",
+      "ward_no": "5",
+      "ward_name_en": "Choonthara",
+      "ward_name_ml": "ചൂന്താര"
+    },
+    {
+      "ward_id": "a1f12769-5bd1-48eb-9abb-0d21ff4d57d9",
+      "ward_no": "6",
+      "ward_name_en": "Podiyadi",
+      "ward_name_ml": "പൊടിയാടി"
+    },
+    {
+      "ward_id": "810f877e-356c-4ba9-8196-e7ea88c30b9c",
+      "ward_no": "7",
+      "ward_name_en": "Manippuzha",
+      "ward_name_ml": "മണിപ്പുഴ"
+    },
+    {
+      "ward_id": "2fa78f61-bf92-4f58-8088-c8697b8c3b39",
+      "ward_no": "8",
+      "ward_name_en": "Malayithra",
+      "ward_name_ml": "മലയിത്ര"
+    },
+    {
+      "ward_id": "cc3d929d-8fcc-433a-bed0-f73b43b3961d",
+      "ward_no": "9",
+      "ward_name_en": "Kallumkal",
+      "ward_name_ml": "കല്ലുങ്കല്‍"
+    },
+    {
+      "ward_id": "5851bf17-ce65-4a22-949b-ea20f0738167",
+      "ward_no": "10",
+      "ward_name_en": "Murinjachira",
+      "ward_name_ml": "മുറിഞ്ഞചിറ"
+    },
+    {
+      "ward_id": "8b575b1a-9299-4229-b2bb-50b91af433e5",
+      "ward_no": "11",
+      "ward_name_en": "Pulikkeezhu",
+      "ward_name_ml": "പുളിക്കീഴ്"
+    },
+    {
+      "ward_id": "c4a49efe-9f32-4977-9e78-87fee0fae098",
+      "ward_no": "12",
+      "ward_name_en": "Ottathengu",
+      "ward_name_ml": "ഒറ്റത്തെങ്ങ്"
+    },
+    {
+      "ward_id": "0b78b503-4e4d-465d-9866-2dd7be87aa35",
+      "ward_no": "13",
+      "ward_name_en": "Jalamela",
+      "ward_name_ml": "ജലമേള"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030204.geojson"
+  }
+}

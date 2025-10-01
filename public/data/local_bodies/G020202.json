@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G020202",
+  "local_body_name_en": "West Kallada",
+  "local_body_name_ml": "വെസ്റ് കല്ലട",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "118",
+    "assembly_name_en": "Kunnathur",
+    "assembly_name_ml": "കുന്നത്തൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1d151068-1211-43a2-8855-1edc45f70511",
+      "ward_no": "1",
+      "ward_name_en": "Karali Town",
+      "ward_name_ml": "കാരാളി ഠൗണ്‍"
+    },
+    {
+      "ward_id": "426dafe7-3ecd-4c71-a3e3-9ed87cbf913f",
+      "ward_no": "2",
+      "ward_name_en": "Kanatharkunnam",
+      "ward_name_ml": "കണത്താര്‍കുന്നം"
+    },
+    {
+      "ward_id": "0e1047a9-f355-4778-b83a-3c2ef3ffe26c",
+      "ward_no": "3",
+      "ward_name_en": "Valiyapadam West",
+      "ward_name_ml": "വലിയപാടം പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "f26df402-bbd9-4118-b858-5a4dfb04ef2c",
+      "ward_no": "4",
+      "ward_name_en": "Vilanthara",
+      "ward_name_ml": "വിളന്തറ"
+    },
+    {
+      "ward_id": "668e4f70-7ec5-43f6-b663-090eb9915dff",
+      "ward_no": "5",
+      "ward_name_en": "Valiyapadam East",
+      "ward_name_ml": "വലിയപാടം കിഴക്ക്"
+    },
+    {
+      "ward_id": "41a029d3-374c-4d3e-8034-30a280625019",
+      "ward_no": "6",
+      "ward_name_en": "Kadapuzha",
+      "ward_name_ml": "കടപുഴ"
+    },
+    {
+      "ward_id": "2d0ac5c7-a1b7-44e5-9be2-bea792a7414f",
+      "ward_no": "7",
+      "ward_name_en": "Koickal Bhagom",
+      "ward_name_ml": "കോയിക്കല്‍ഭാഗം"
+    },
+    {
+      "ward_id": "4ca6a7fc-c73e-4cf9-95ea-b7001b229e46",
+      "ward_no": "8",
+      "ward_name_en": "Naduvilakkara",
+      "ward_name_ml": "നടുവിലക്കര"
+    },
+    {
+      "ward_id": "cf28f3bd-a4a3-4377-8eb1-ea16fa4ef50d",
+      "ward_no": "9",
+      "ward_name_en": "Ulluruppu",
+      "ward_name_ml": "ഉള്ളുരുപ്പ്"
+    },
+    {
+      "ward_id": "73db164c-3d97-439a-b7be-ab1d6be5d461",
+      "ward_no": "10",
+      "ward_name_en": "Aithottuva North",
+      "ward_name_ml": "ഐത്തോട്ടുവ വടക്ക്"
+    },
+    {
+      "ward_id": "7df209d0-0d10-473d-981d-232db75c60a8",
+      "ward_no": "11",
+      "ward_name_en": "Aithottuva South",
+      "ward_name_ml": "ഐത്തോട്ടുവ തെക്ക്"
+    },
+    {
+      "ward_id": "6f2eac7a-313f-4c35-8cfd-7c13dd61c46f",
+      "ward_no": "12",
+      "ward_name_en": "Aithottuva West",
+      "ward_name_ml": "ഐത്തോട്ടുവ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "e8ea398f-ac26-47d9-b0e8-76254dfcb111",
+      "ward_no": "13",
+      "ward_name_en": "Kothapuram",
+      "ward_name_ml": "കോതപുരം"
+    },
+    {
+      "ward_id": "faeb8278-229f-48cb-a78b-30f63cc99d03",
+      "ward_no": "14",
+      "ward_name_en": "Pattakadav",
+      "ward_name_ml": "പട്ടകടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G020202.geojson"
+  }
+}

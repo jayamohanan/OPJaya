@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G140506",
+  "local_body_name_en": "WestEleri",
+  "local_body_name_ml": "വെസ്റ്റ് എളേരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "5",
+    "assembly_name_en": "Trikaripur",
+    "assembly_name_ml": "തൃക്കരിപ്പൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3524362f-cc0c-4344-86e1-b38f9c70e620",
+      "ward_no": "1",
+      "ward_name_en": "Parappachal",
+      "ward_name_ml": "പരപ്പച്ചാല്‍"
+    },
+    {
+      "ward_id": "6bb66261-db31-4180-b56d-ba346448761a",
+      "ward_no": "2",
+      "ward_name_en": "Bheemanady",
+      "ward_name_ml": "ഭീമനടി"
+    },
+    {
+      "ward_id": "78a7c57d-6f46-4bbd-96b3-c71a6abec313",
+      "ward_no": "3",
+      "ward_name_en": "Chennadukkam",
+      "ward_name_ml": "ചെന്നടുക്കം"
+    },
+    {
+      "ward_id": "b57f9f2a-b9b7-47bc-852e-ec3adc200ffc",
+      "ward_no": "4",
+      "ward_name_en": "Eleri",
+      "ward_name_ml": "എളേരി"
+    },
+    {
+      "ward_id": "595d309c-c3b2-41a6-8973-9dba2ef60bcd",
+      "ward_no": "5",
+      "ward_name_en": "Punnakkunnu",
+      "ward_name_ml": "പുന്നക്കുന്ന്"
+    },
+    {
+      "ward_id": "27cddcff-3b46-4606-b082-a2562030c9e6",
+      "ward_no": "6",
+      "ward_name_en": "Plachikkara",
+      "ward_name_ml": "പ്ലാച്ചിക്കര"
+    },
+    {
+      "ward_id": "8cdeb5b0-4bac-4d85-8b4d-4f3ff69eb0cb",
+      "ward_no": "7",
+      "ward_name_en": "Nattakkal",
+      "ward_name_ml": "നാട്ടക്കല്‍"
+    },
+    {
+      "ward_id": "1f074365-8b7f-46c0-88c8-47fd19d33b64",
+      "ward_no": "8",
+      "ward_name_en": "Karuvankayam",
+      "ward_name_ml": "കരുവങ്കയം"
+    },
+    {
+      "ward_id": "73376c0c-38a9-488d-9df8-45e00df8279d",
+      "ward_no": "9",
+      "ward_name_en": "Paramba",
+      "ward_name_ml": "പറമ്പ"
+    },
+    {
+      "ward_id": "918dd86c-4c8c-4331-8b63-8469fc362f93",
+      "ward_no": "10",
+      "ward_name_en": "Chattamala",
+      "ward_name_ml": "ചട്ടമല"
+    },
+    {
+      "ward_id": "12bb6563-6424-4b25-88d0-7300cbe1ec51",
+      "ward_no": "11",
+      "ward_name_en": "Kottamala",
+      "ward_name_ml": "കോട്ടമല"
+    },
+    {
+      "ward_id": "ab24575d-f039-42e6-903a-93e44bfbd95b",
+      "ward_no": "12",
+      "ward_name_en": "Narkilakkad",
+      "ward_name_ml": "നര്‍ക്കിലക്കാട്"
+    },
+    {
+      "ward_id": "671093a3-2ef9-49ea-9e7d-af89c345f6bc",
+      "ward_no": "13",
+      "ward_name_en": "Eachippoyil",
+      "ward_name_ml": "ഏച്ചിപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "d3a304d8-4e12-4881-b22f-37a4ccf0fc30",
+      "ward_no": "14",
+      "ward_name_en": "Mandapam",
+      "ward_name_ml": "മണ്ഡപം"
+    },
+    {
+      "ward_id": "99fca10c-7c2c-44e0-b3e3-d2dc16bfedad",
+      "ward_no": "15",
+      "ward_name_en": "Kammadam",
+      "ward_name_ml": "കമ്മാടം"
+    },
+    {
+      "ward_id": "e98fd52d-a4d3-46ac-9978-f30a6f65f1d8",
+      "ward_no": "16",
+      "ward_name_en": "Moukode",
+      "ward_name_ml": "മൌക്കോട്"
+    },
+    {
+      "ward_id": "ee79a329-b01d-4362-8eae-ac1b5437708b",
+      "ward_no": "17",
+      "ward_name_en": "Perumbatta",
+      "ward_name_ml": "പെരുമ്പട്ട"
+    },
+    {
+      "ward_id": "142a27ab-7c13-4c44-a591-807cae2c25b6",
+      "ward_no": "18",
+      "ward_name_en": "Kunnumkai",
+      "ward_name_ml": "കുന്നുംകൈ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140506.geojson"
+  }
+}

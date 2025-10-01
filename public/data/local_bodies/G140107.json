@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G140107",
+  "local_body_name_en": "Enmakaje",
+  "local_body_name_ml": "എന്‍മകജെ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "1",
+    "assembly_name_en": "Manjeshwar",
+    "assembly_name_ml": "മഞ്ചശ്വരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "33897f8d-f40b-4695-8dcf-d49ba7390ca9",
+      "ward_no": "1",
+      "ward_name_en": "Saya",
+      "ward_name_ml": "സായ"
+    },
+    {
+      "ward_id": "032890cc-f40e-44a3-a15e-b89776d0ec77",
+      "ward_no": "2",
+      "ward_name_en": "Chawarkad",
+      "ward_name_ml": "ചവര്‍ക്കാട്"
+    },
+    {
+      "ward_id": "e4adb072-be2b-4a2f-8213-e079375f49fa",
+      "ward_no": "3",
+      "ward_name_en": "Balemoole",
+      "ward_name_ml": "ബാലെമൂലെ"
+    },
+    {
+      "ward_id": "c921a3e2-2a2d-4d18-846c-bc85a532f828",
+      "ward_no": "4",
+      "ward_name_en": "Katukukke",
+      "ward_name_ml": "കാടുകുക്കെ"
+    },
+    {
+      "ward_id": "41cb889d-cf22-49e5-82db-ad021c17f720",
+      "ward_no": "5",
+      "ward_name_en": "Shivagiri",
+      "ward_name_ml": "ശിവഗിരി"
+    },
+    {
+      "ward_id": "58ebbd45-39f6-4e35-adf4-f0fe67671b92",
+      "ward_no": "6",
+      "ward_name_en": "Swarga",
+      "ward_name_ml": "സ്വര്‍ഗ്ഗ"
+    },
+    {
+      "ward_id": "c7b24f1c-7c9d-4eda-9e93-0824ba51da4d",
+      "ward_no": "7",
+      "ward_name_en": "Vaninagar",
+      "ward_name_ml": "വാണിനഗര്‍"
+    },
+    {
+      "ward_id": "734931c5-d892-471a-84d8-236e14ae1e13",
+      "ward_no": "8",
+      "ward_name_en": "Kajampadi",
+      "ward_name_ml": "കജംപാടി"
+    },
+    {
+      "ward_id": "ddb03304-6b58-4b1b-aa84-b29994fa71c5",
+      "ward_no": "9",
+      "ward_name_en": "Perla East",
+      "ward_name_ml": "പെരള ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "d2549314-622b-4bfb-82c1-c1fcc1ed2344",
+      "ward_no": "10",
+      "ward_name_en": "Perla West",
+      "ward_name_ml": "പെരള വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "cf07a44c-eaca-4db5-9c4d-4bd28803e1b2",
+      "ward_no": "11",
+      "ward_name_en": "Bedrampalla",
+      "ward_name_ml": "ബെദ്രമ്പള്ള"
+    },
+    {
+      "ward_id": "f883517b-eee4-4c00-ba2b-f001b734a368",
+      "ward_no": "12",
+      "ward_name_en": "Banputhadka",
+      "ward_name_ml": "ബന്പുതട്ക"
+    },
+    {
+      "ward_id": "191fad5c-3467-467c-a543-3527dd69b66d",
+      "ward_no": "13",
+      "ward_name_en": "Gunaje",
+      "ward_name_ml": "ഗുണാജെ"
+    },
+    {
+      "ward_id": "b5a11a9c-8f27-4d49-979d-6ee99b0604ce",
+      "ward_no": "14",
+      "ward_name_en": "Sheni",
+      "ward_name_ml": "ശേണി"
+    },
+    {
+      "ward_id": "276a5916-227a-453f-88ce-a82c822588ba",
+      "ward_no": "15",
+      "ward_name_en": "Enmakaje",
+      "ward_name_ml": "എന്മകജെ"
+    },
+    {
+      "ward_id": "a1a94004-98c0-45dd-8e5a-2d61eb53adc9",
+      "ward_no": "16",
+      "ward_name_en": "Bajakudlu",
+      "ward_name_ml": "ബജകുടല്"
+    },
+    {
+      "ward_id": "9bf51ba0-340f-4b76-a651-bba102c0114a",
+      "ward_no": "17",
+      "ward_name_en": "Adkasthala",
+      "ward_name_ml": "അട്കസ്ഥല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140107.geojson"
+  }
+}

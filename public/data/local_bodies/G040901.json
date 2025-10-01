@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040901",
+  "local_body_name_en": "Karthikappally",
+  "local_body_name_ml": "കാര്‍ത്തികപ്പള്ളി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "107",
+    "assembly_name_en": "Haripad",
+    "assembly_name_ml": "ഹരിപ്പാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c1aa626c-7dae-4269-ba21-9896c163dc0c",
+      "ward_no": "1",
+      "ward_name_en": "Pulikkezhu Vadakku",
+      "ward_name_ml": "പുളിക്കീഴ് വടക്ക്"
+    },
+    {
+      "ward_id": "9cfbe73c-ce7d-47ed-9934-ba422b1259a8",
+      "ward_no": "2",
+      "ward_name_en": "Pandarachira",
+      "ward_name_ml": "പണ്ടാരച്ചിറ"
+    },
+    {
+      "ward_id": "6c0bbc8b-7aaa-4b08-8f8b-a7efc06b5e9e",
+      "ward_no": "3",
+      "ward_name_en": "Mahathmagandhi Smaraka Vayanasala",
+      "ward_name_ml": "മഹാത്മാഗാന്ധിസ്മാരക വായനശാല"
+    },
+    {
+      "ward_id": "5e448eb9-3338-4e58-9ecd-133db7130de7",
+      "ward_no": "4",
+      "ward_name_en": "Thottukadavu",
+      "ward_name_ml": "തോട്ടുകടവ്"
+    },
+    {
+      "ward_id": "fed7590a-66d3-4ec1-97f5-1a2c4e96c22d",
+      "ward_no": "5",
+      "ward_name_en": "Phc Ward",
+      "ward_name_ml": "പി.എച്ച്.സി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "26d304aa-7bbf-45cf-a1d3-6888168113cc",
+      "ward_no": "6",
+      "ward_name_en": "Puthukkundam",
+      "ward_name_ml": "പുതുക്കുണ്ടം"
+    },
+    {
+      "ward_id": "a61b51ed-6174-446f-a723-eaac711dbba5",
+      "ward_no": "7",
+      "ward_name_en": "Vathalloorkoyikkal",
+      "ward_name_ml": "വാതല്ലൂര്‍കോയിക്കല്‍"
+    },
+    {
+      "ward_id": "7252b06e-0a56-4ba5-aeca-c58ba6a15ca7",
+      "ward_no": "8",
+      "ward_name_en": "Karthikappally",
+      "ward_name_ml": "കാര്‍ത്തികപ്പളളി"
+    },
+    {
+      "ward_id": "bfa60682-2ce9-4ee6-bb74-710fbb6cf935",
+      "ward_no": "9",
+      "ward_name_en": "Valiyakulangara",
+      "ward_name_ml": "വലിയകുളങ്ങര"
+    },
+    {
+      "ward_id": "e0b30e71-8c0f-48d1-9199-0370e4ba745e",
+      "ward_no": "10",
+      "ward_name_en": "Thottukadavu Ups",
+      "ward_name_ml": "തോട്ടുകടവ് യുപിഎസ്"
+    },
+    {
+      "ward_id": "58895b7a-3404-4cb8-a51c-f11e9daf032d",
+      "ward_no": "11",
+      "ward_name_en": "S.N.D.P.H.S",
+      "ward_name_ml": "എസ്.എന്‍.ഡി.പി.എച്ച്.എസ്"
+    },
+    {
+      "ward_id": "40fc1b1b-9e88-43a7-ae55-9897ef99adfe",
+      "ward_no": "12",
+      "ward_name_en": "Homoeo Aasupathri Ward",
+      "ward_name_ml": "ഹോമിയോ ആശുപത്രി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "3c5fd4ec-5f4a-49ba-8625-52c10fef2443",
+      "ward_no": "13",
+      "ward_name_en": "Mahakavi Kumaranasan Smaraka Vayanasala",
+      "ward_name_ml": "മഹാകവി കുമാരനാശാന്‍ സ്മാരക വായനശാല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040901.geojson"
+  }
+}

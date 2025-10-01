@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G091101",
+  "local_body_name_en": "Ayiloor",
+  "local_body_name_ml": "അയിലൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "59",
+    "assembly_name_en": "Nenmara",
+    "assembly_name_ml": "നെന്മാറ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d2565101-1ee0-477f-9c09-43c4568ef16c",
+      "ward_no": "1",
+      "ward_name_en": "Palamokku",
+      "ward_name_ml": "പാലമൊക്ക്"
+    },
+    {
+      "ward_id": "c969fa1f-0209-4198-9830-b8d6e2129e3a",
+      "ward_no": "2",
+      "ward_name_en": "Karakkattuparamb",
+      "ward_name_ml": "കാരക്കാട്ടുപറമ്പ്"
+    },
+    {
+      "ward_id": "c730aab2-fe0e-4bfa-ae61-9ecb0cf728c9",
+      "ward_no": "3",
+      "ward_name_en": "Thekkethara",
+      "ward_name_ml": "തെക്കേത്തറ"
+    },
+    {
+      "ward_id": "5ea67eef-7aec-47f0-9b2c-b20a0b559e61",
+      "ward_no": "4",
+      "ward_name_en": "Ayiloor",
+      "ward_name_ml": "അയിലൂര്‍"
+    },
+    {
+      "ward_id": "5809fa45-a1af-4d6a-8f53-b774acf9ed3e",
+      "ward_no": "5",
+      "ward_name_en": "Paliyamangalam",
+      "ward_name_ml": "പാളിയമംഗലം"
+    },
+    {
+      "ward_id": "ee085612-709d-43e2-97d6-f27d70973eeb",
+      "ward_no": "6",
+      "ward_name_en": "Kaippenchery",
+      "ward_name_ml": "കയ്പ്പഞ്ചേരി"
+    },
+    {
+      "ward_id": "a0d630a7-4707-4723-b118-386b7b9cfbeb",
+      "ward_no": "7",
+      "ward_name_en": "Kozhikkad",
+      "ward_name_ml": "കോഴിക്കാട്"
+    },
+    {
+      "ward_id": "0545f518-5820-4db1-b5b6-6f9d4ad6a3a4",
+      "ward_no": "8",
+      "ward_name_en": "Thiruvazhiyad",
+      "ward_name_ml": "തിരുവഴിയാട്"
+    },
+    {
+      "ward_id": "a23addd3-998f-4f5f-af26-a5a43691442c",
+      "ward_no": "9",
+      "ward_name_en": "Chakrai",
+      "ward_name_ml": "ചക്രായി"
+    },
+    {
+      "ward_id": "32852761-eb51-4810-b789-1ed5e107c452",
+      "ward_no": "10",
+      "ward_name_en": "Karimbara",
+      "ward_name_ml": "കരിമ്പാറ"
+    },
+    {
+      "ward_id": "4464ec34-1da8-4812-b90f-33c6bff93aaa",
+      "ward_no": "11",
+      "ward_name_en": "Maruthanchery",
+      "ward_name_ml": "മരുതന്ചേരി"
+    },
+    {
+      "ward_id": "e5609257-b154-4e35-a042-12101c8f2e08",
+      "ward_no": "12",
+      "ward_name_en": "Thengumpadam",
+      "ward_name_ml": "തെങ്ങുംപാടം"
+    },
+    {
+      "ward_id": "510a58f4-71d1-417b-aef9-a48613a77342",
+      "ward_no": "13",
+      "ward_name_en": "Olippara",
+      "ward_name_ml": "ഒലിപ്പാറ"
+    },
+    {
+      "ward_id": "d612f9d7-d0b7-4108-8cb6-bcd5093a721b",
+      "ward_no": "14",
+      "ward_name_en": "Adipperanda",
+      "ward_name_ml": "അടിപ്പെരണ്ട"
+    },
+    {
+      "ward_id": "0ddf7f10-3f0e-446a-8d5f-27e29dc2d09f",
+      "ward_no": "15",
+      "ward_name_en": "Payyamkod",
+      "ward_name_ml": "പയ്യാങ്കോട്"
+    },
+    {
+      "ward_id": "bbdda6f9-99ff-44ee-a919-d7a3efc3ef21",
+      "ward_no": "16",
+      "ward_name_en": "Kairady",
+      "ward_name_ml": "കയറാടി"
+    },
+    {
+      "ward_id": "17b45957-a6ac-4583-9059-985de7e7b0f7",
+      "ward_no": "17",
+      "ward_name_en": "Kanthalam",
+      "ward_name_ml": "കാന്തളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091101.geojson"
+  }
+}

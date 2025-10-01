@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060207",
+  "local_body_name_en": "Mankulam",
+  "local_body_name_ml": "മാങ്കുളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "88",
+    "assembly_name_en": "Devikulam",
+    "assembly_name_ml": "ദേവികുളം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "378a3006-f27f-4288-8b9f-c368a5fb9404",
+      "ward_no": "1",
+      "ward_name_en": "Anakkulam North",
+      "ward_name_ml": "ആനക്കുളം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "e938a341-5585-4401-b5db-4259c812624f",
+      "ward_no": "2",
+      "ward_name_en": "Sevalkudi",
+      "ward_name_ml": "ശേവല്‍കുടി"
+    },
+    {
+      "ward_id": "bc8f3a35-a58f-4f40-8b9e-535f69b118f0",
+      "ward_no": "3",
+      "ward_name_en": "50th Mile",
+      "ward_name_ml": "അമ്പതാംമൈല്‍"
+    },
+    {
+      "ward_id": "04713697-5761-491b-b163-1a3ad82ff6a6",
+      "ward_no": "4",
+      "ward_name_en": "6th Mile",
+      "ward_name_ml": "ആറാംമൈല്‍"
+    },
+    {
+      "ward_id": "49a4b6b2-347c-44a3-adbe-28f2ec49efbd",
+      "ward_no": "5",
+      "ward_name_en": "Mankulam",
+      "ward_name_ml": "മാങ്കുളം"
+    },
+    {
+      "ward_id": "c1f584f9-2504-4e10-9312-7fab99ff68a9",
+      "ward_no": "6",
+      "ward_name_en": "Munipara",
+      "ward_name_ml": "മുനിപാറ"
+    },
+    {
+      "ward_id": "b94b53a5-f0fa-4616-85e6-db7535715208",
+      "ward_no": "7",
+      "ward_name_en": "Viripara",
+      "ward_name_ml": "വിരിപാറ"
+    },
+    {
+      "ward_id": "cb5a5040-7444-469c-8377-5e2572c70c64",
+      "ward_no": "8",
+      "ward_name_en": "Pambumkayam",
+      "ward_name_ml": "പാമ്പുംകയം"
+    },
+    {
+      "ward_id": "ce149fae-892f-45d8-a759-79223dbb3f47",
+      "ward_no": "9",
+      "ward_name_en": "Thalumkandam",
+      "ward_name_ml": "താളുംകണ്ടം"
+    },
+    {
+      "ward_id": "05170813-e458-4bbf-ba9d-04abcd5c5513",
+      "ward_no": "10",
+      "ward_name_en": "Veliyamapara",
+      "ward_name_ml": "വേലിയാംപാറ"
+    },
+    {
+      "ward_id": "2cc064f3-6130-4aa0-b3fe-cb7e65b31356",
+      "ward_no": "11",
+      "ward_name_en": "Virinjapara",
+      "ward_name_ml": "വിരിഞ്ഞപാറ"
+    },
+    {
+      "ward_id": "dbd143fa-99b8-4303-8242-024dc96f2466",
+      "ward_no": "12",
+      "ward_name_en": "Perumbankuth",
+      "ward_name_ml": "പെരുമ്പന്‍കുത്ത്"
+    },
+    {
+      "ward_id": "2bad54d7-079f-407a-a097-c6d9cc66eb5f",
+      "ward_no": "13",
+      "ward_name_en": "Anakkulam South",
+      "ward_name_ml": "ആനക്കുളം സൌത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060207.geojson"
+  }
+}

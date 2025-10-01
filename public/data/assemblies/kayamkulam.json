@@ -1,0 +1,60 @@
+{
+  "assembly_id": "108",
+  "assembly_name_en": "Kayamkulam",
+  "assembly_name_ml": "കായംകുളം",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G041103",
+      "local_body_name_en": "Bharanickavu",
+      "local_body_name_ml": "ഭരണിക്കാവ്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G041002",
+      "local_body_name_en": "Chettikulangara",
+      "local_body_name_ml": "ചെട്ടികുളങ്ങര",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G041207",
+      "local_body_name_en": "Devikulangara",
+      "local_body_name_ml": "ദേവികുളങ്ങര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G041202",
+      "local_body_name_en": "Kandalloor",
+      "local_body_name_ml": "കണ്ടല്ലൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M040400",
+      "local_body_name_en": "Kayamkulam",
+      "local_body_name_ml": "കായംകുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G041206",
+      "local_body_name_en": "Krishnapuram",
+      "local_body_name_ml": "കൃഷ്ണപുരം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G041201",
+      "local_body_name_en": "Pathiyoor",
+      "local_body_name_ml": "പത്തിയൂര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kayamkulam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kayamkulam.geojson"
+  }
+}

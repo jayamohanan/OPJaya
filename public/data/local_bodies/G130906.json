@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G130906",
+  "local_body_name_en": "Kottayam",
+  "local_body_name_ml": "കോട്ടയം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "14",
+    "assembly_name_en": "Kuthuparamba",
+    "assembly_name_ml": "കൂത്തുപറമ്പ്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "60e5f4f0-2998-44be-89a7-1949174184b3",
+      "ward_no": "1",
+      "ward_name_en": "Mouverry",
+      "ward_name_ml": "മൌവ്വേരി"
+    },
+    {
+      "ward_id": "5f1e2eae-3195-4101-a70a-fddfdf928fb5",
+      "ward_no": "2",
+      "ward_name_en": "Kinavakkal",
+      "ward_name_ml": "കിണവക്കല്‍"
+    },
+    {
+      "ward_id": "7f78fcc5-02fc-4194-a6f5-9730c13eae24",
+      "ward_no": "3",
+      "ward_name_en": "Purakkalam",
+      "ward_name_ml": "പുറക്കളം"
+    },
+    {
+      "ward_id": "d6ede2dd-189c-4d1d-bbf4-a16dc34e693a",
+      "ward_no": "4",
+      "ward_name_en": "Kottayam Angadi",
+      "ward_name_ml": "കോട്ടയം അങ്ങാടി"
+    },
+    {
+      "ward_id": "900e0ed8-ae53-4f1a-a3c6-1c0f68a67014",
+      "ward_no": "5",
+      "ward_name_en": "Thallod",
+      "ward_name_ml": "തള്ളോട്"
+    },
+    {
+      "ward_id": "2aa6b8b1-e4c7-476f-9689-7c2fd06de07b",
+      "ward_no": "6",
+      "ward_name_en": "Kottayampoil",
+      "ward_name_ml": "കോട്ടയംപൊയില്‍"
+    },
+    {
+      "ward_id": "70ba7e26-dbc1-4e5c-8681-8fba8802bff0",
+      "ward_no": "7",
+      "ward_name_en": "Kanathum Chira",
+      "ward_name_ml": "കാനത്തും ചിറ"
+    },
+    {
+      "ward_id": "38b6acd0-cc5e-405c-a743-f8fc7529eb63",
+      "ward_no": "8",
+      "ward_name_en": "Kunninu Meethal",
+      "ward_name_ml": "കുന്നിന് മീത്തല്‍"
+    },
+    {
+      "ward_id": "eeafacb6-03ae-4822-a408-5390f05144cd",
+      "ward_no": "9",
+      "ward_name_en": "Aarammile",
+      "ward_name_ml": "ആറാംമൈല്‍"
+    },
+    {
+      "ward_id": "66140a4a-26f8-473a-8f10-edddb083df15",
+      "ward_no": "10",
+      "ward_name_en": "Eruvatty",
+      "ward_name_ml": "എരുവട്ടി"
+    },
+    {
+      "ward_id": "1df45326-47d1-444e-babe-cf3fd08f7221",
+      "ward_no": "11",
+      "ward_name_en": "Poolabazar",
+      "ward_name_ml": "പൂളബസാര്‍"
+    },
+    {
+      "ward_id": "896d1b64-32d4-4bd1-b549-797568ac9266",
+      "ward_no": "12",
+      "ward_name_en": "Koovapadi",
+      "ward_name_ml": "കൂവപ്പാടി"
+    },
+    {
+      "ward_id": "4ec18196-3b14-48b5-bad0-965a1084fd66",
+      "ward_no": "13",
+      "ward_name_en": "Olayikkara",
+      "ward_name_ml": "ഓലായിക്കര"
+    },
+    {
+      "ward_id": "6a9cbde9-f632-436e-be80-4bfa31ee67f7",
+      "ward_no": "14",
+      "ward_name_en": "Mangalottchaal",
+      "ward_name_ml": "മങ്ങലോട്ട് ചാല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130906.geojson"
+  }
+}

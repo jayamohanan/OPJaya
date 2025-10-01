@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G050205",
+  "local_body_name_en": "Thalayolaparambu",
+  "local_body_name_ml": "തലയോലപ്പറമ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "95",
+    "assembly_name_en": "Vaikom",
+    "assembly_name_ml": "വൈക്കം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f01457a1-2830-4526-800a-d0a14d4cd8f7",
+      "ward_no": "1",
+      "ward_name_en": "Vadayar North",
+      "ward_name_ml": "വടയാര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "3175330e-c046-48e1-8f41-9ca0e7fe5d54",
+      "ward_no": "2",
+      "ward_name_en": "Midayikunnam North",
+      "ward_name_ml": "മിഠായിക്കുന്നം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "9f05e4ce-0a77-4560-a5a4-b7d556b95c6e",
+      "ward_no": "3",
+      "ward_name_en": "Vettikkattumukku",
+      "ward_name_ml": "വെട്ടിക്കാട്ട്മുക്ക്"
+    },
+    {
+      "ward_id": "e634fc17-3965-4e73-8399-d64469024394",
+      "ward_no": "4",
+      "ward_name_en": "Ummamkunnu",
+      "ward_name_ml": "ഉമ്മാംകുന്ന്"
+    },
+    {
+      "ward_id": "29b89837-c446-4fa5-830d-d40424536dad",
+      "ward_no": "5",
+      "ward_name_en": "D.B. College",
+      "ward_name_ml": "ഡി.ബി. കോളേജ്"
+    },
+    {
+      "ward_id": "94c99161-ebad-4269-bbd3-03acbec44424",
+      "ward_no": "6",
+      "ward_name_en": "Pothy",
+      "ward_name_ml": "പൊതി"
+    },
+    {
+      "ward_id": "37119d8b-0e03-4ba4-aa65-7844fc3d987e",
+      "ward_no": "7",
+      "ward_name_en": "Thrikkarayikulam",
+      "ward_name_ml": "തൃക്കരായിക്കുളം"
+    },
+    {
+      "ward_id": "adc88dd3-b730-47c2-b6f5-93109904b23b",
+      "ward_no": "8",
+      "ward_name_en": "Thalayolaparambu East",
+      "ward_name_ml": "തലയോലപ്പറമ്പ് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "ff18f09d-ed7c-4957-aa2e-facb9ee3ad64",
+      "ward_no": "9",
+      "ward_name_en": "Illithondu",
+      "ward_name_ml": "ഇല്ലിത്തോണ്ട്"
+    },
+    {
+      "ward_id": "d5f89038-0de7-46f0-8f28-53eec585400d",
+      "ward_no": "10",
+      "ward_name_en": "Thalayolaparambu Town",
+      "ward_name_ml": "തലയോലപ്പറമ്പ് ടൌണ്‍"
+    },
+    {
+      "ward_id": "34c1a347-6c42-41e1-85ea-e52b3adf8012",
+      "ward_no": "11",
+      "ward_name_en": "Mathanam",
+      "ward_name_ml": "മാത്താനം"
+    },
+    {
+      "ward_id": "acd2c311-b4ef-4a71-a87d-575322884f4f",
+      "ward_no": "12",
+      "ward_name_en": "Korikkalpazhampetty",
+      "ward_name_ml": "കോരിക്കല്‍പഴംമ്പട്ടി"
+    },
+    {
+      "ward_id": "4f778a84-262e-4bc5-b6ce-0896800f5b00",
+      "ward_no": "13",
+      "ward_name_en": "Thevalakkadu",
+      "ward_name_ml": "തേവലക്കാട്"
+    },
+    {
+      "ward_id": "6be861fd-590b-4686-9086-df5e4c1be953",
+      "ward_no": "14",
+      "ward_name_en": "Chakkala",
+      "ward_name_ml": "ചക്കാല"
+    },
+    {
+      "ward_id": "beea38d1-05cd-4a96-8b69-ffaf50306c67",
+      "ward_no": "15",
+      "ward_name_en": "Vadayar Illamkavu",
+      "ward_name_ml": "വടയാര്‍ ഇളംകാവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050205.geojson"
+  }
+}

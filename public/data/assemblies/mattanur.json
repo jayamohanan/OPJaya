@@ -1,0 +1,72 @@
+{
+  "assembly_id": "15",
+  "assembly_name_en": "Mattanur",
+  "assembly_name_ml": "മട്ടന്നൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G130902",
+      "local_body_name_en": "Chittariparamba",
+      "local_body_name_ml": "ചിറ്റാരിപ്പറമ്പ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G131003",
+      "local_body_name_en": "Keezhallur",
+      "local_body_name_ml": "കീഴല്ലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131105",
+      "local_body_name_en": "Kolayad",
+      "local_body_name_ml": "കോളയാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G131005",
+      "local_body_name_en": "Koodali",
+      "local_body_name_ml": "കൂടാളി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G131106",
+      "local_body_name_en": "Malur",
+      "local_body_name_ml": "മാലൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130904",
+      "local_body_name_en": "Mangattidam",
+      "local_body_name_ml": "മാങ്ങാട്ടിടം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M130100",
+      "local_body_name_en": "Mattanur",
+      "local_body_name_ml": "മട്ടന്നൂര്‍",
+      "category": ""
+    },
+    {
+      "local_body_id": "G130408",
+      "local_body_name_en": "Padiyoor",
+      "local_body_name_ml": "പടിയൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G131004",
+      "local_body_name_en": "Thillankery",
+      "local_body_name_ml": "തില്ലങ്കേരി",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/mattanur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/mattanur.geojson"
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "assembly_id": "7",
+  "assembly_name_en": "Kalliasseri",
+  "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G130205",
+      "local_body_name_en": "Cherukunnu",
+      "local_body_name_ml": "ചെറുകുന്ന്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130201",
+      "local_body_name_en": "Cheruthazham",
+      "local_body_name_ml": "ചെറുതാഴം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130202",
+      "local_body_name_en": "Ezhome",
+      "local_body_name_ml": "ഏഴോം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130309",
+      "local_body_name_en": "Kadannappally Panapuzha",
+      "local_body_name_ml": "കടന്നപ്പള്ളി പാണപ്പുഴ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130206",
+      "local_body_name_en": "Kalliasseri",
+      "local_body_name_ml": "കല്ല്യാശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130207",
+      "local_body_name_en": "Kannapuram",
+      "local_body_name_ml": "കണ്ണപുരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130101",
+      "local_body_name_en": "Kunhimangalam",
+      "local_body_name_ml": "കുഞ്ഞിമംഗലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G130203",
+      "local_body_name_en": "Madayi",
+      "local_body_name_ml": "മാടായി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G130204",
+      "local_body_name_en": "Mattool",
+      "local_body_name_ml": "മാട്ടൂല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G130301",
+      "local_body_name_en": "Pattuvam",
+      "local_body_name_ml": "പട്ടുവം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kalliasseri.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kalliasseri.geojson"
+  }
+}

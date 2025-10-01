@@ -1,0 +1,79 @@
+{
+  "district_id": "13",
+  "district_name_en": "Kannur",
+  "district_name_ml": "കണ്ണൂർ",
+  "is_active": true,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "6",
+      "assembly_name_en": "Payyannur",
+      "assembly_name_ml": "പയ്യന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "7",
+      "assembly_name_en": "Kalliasseri",
+      "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "8",
+      "assembly_name_en": "Taliparamba",
+      "assembly_name_ml": "തളിപ്പറമ്പ്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "9",
+      "assembly_name_en": "Irikkur",
+      "assembly_name_ml": "ഇരിക്കൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "10",
+      "assembly_name_en": "Azhikode",
+      "assembly_name_ml": "അഴീക്കോട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "11",
+      "assembly_name_en": "Kannur",
+      "assembly_name_ml": "കണ്ണൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "12",
+      "assembly_name_en": "Dharmadom",
+      "assembly_name_ml": "ധര്‍മ്മടം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "13",
+      "assembly_name_en": "Thalassery",
+      "assembly_name_ml": "തലശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "14",
+      "assembly_name_en": "Kuthuparamba",
+      "assembly_name_ml": "കൂത്തുപറമ്പ്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "15",
+      "assembly_name_en": "Mattanur",
+      "assembly_name_ml": "മട്ടന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "16",
+      "assembly_name_en": "Peravoor",
+      "assembly_name_ml": "പേരാവൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/kannur.geojson",
+    "assemblies": "geojson/districts/with-assemblies/kannur.geojson"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G090803",
+  "local_body_name_en": "Kuzhalmannam",
+  "local_body_name_ml": "കുഴല്‍മന്ദം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "60",
+    "assembly_name_en": "Alathur",
+    "assembly_name_ml": "ആലത്തൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "638df916-ba66-4b67-b0f0-f738b82ac6ef",
+      "ward_no": "1",
+      "ward_name_en": "Puthanthara",
+      "ward_name_ml": "പുത്തന്‍ത്തറ"
+    },
+    {
+      "ward_id": "cb2e2997-f67c-4022-a8c9-125bca3193ae",
+      "ward_no": "2",
+      "ward_name_en": "Karinjamthodi",
+      "ward_name_ml": "കരിഞ്ഞാംതൊടി"
+    },
+    {
+      "ward_id": "769f82ec-a38a-4136-b3c8-8af34525902c",
+      "ward_no": "3",
+      "ward_name_en": "Aalingal",
+      "ward_name_ml": "ആലിങ്കല്‍"
+    },
+    {
+      "ward_id": "4e0df85f-08d8-4fdb-857c-7ba6efcfb426",
+      "ward_no": "4",
+      "ward_name_en": "Chanthapura",
+      "ward_name_ml": "ചന്തപ്പുര"
+    },
+    {
+      "ward_id": "b0f61104-a6f0-4f6c-afc7-aaa8e2859c6f",
+      "ward_no": "5",
+      "ward_name_en": "Kannanur",
+      "ward_name_ml": "കണ്ണനൂര്‍"
+    },
+    {
+      "ward_id": "e0a5f186-b53c-4522-9e04-808455b8494b",
+      "ward_no": "6",
+      "ward_name_en": "Puthucode",
+      "ward_name_ml": "പുതുക്കോട്"
+    },
+    {
+      "ward_id": "ce02b562-1541-481f-99ac-8a16323d2688",
+      "ward_no": "7",
+      "ward_name_en": "Kozhinjamparambu",
+      "ward_name_ml": "കൊഴിഞ്ഞംപറമ്പ്"
+    },
+    {
+      "ward_id": "ddf8d9a1-acdb-4c44-b7f0-fb60322ad7e9",
+      "ward_no": "8",
+      "ward_name_en": "Pullupara",
+      "ward_name_ml": "പുല്ലൂപ്പാറ"
+    },
+    {
+      "ward_id": "eab6dbaa-ad1b-4a7d-bd33-c2c9a0017ad2",
+      "ward_no": "9",
+      "ward_name_en": "Kalappetty",
+      "ward_name_ml": "കളപ്പെട്ടി"
+    },
+    {
+      "ward_id": "2c1c4bc4-c53d-410f-977c-4795c686b266",
+      "ward_no": "10",
+      "ward_name_en": "Perumkunnam",
+      "ward_name_ml": "പെരുംകുന്നം"
+    },
+    {
+      "ward_id": "ccd271ac-03a1-4c71-ad07-bbb37b56a717",
+      "ward_no": "11",
+      "ward_name_en": "Chithali",
+      "ward_name_ml": "ചിതലി"
+    },
+    {
+      "ward_id": "c9a2c0a2-cd5b-40ad-acf9-52d1deaefffb",
+      "ward_no": "12",
+      "ward_name_en": "Kallenkonam",
+      "ward_name_ml": "കല്ലേങ്കോണം"
+    },
+    {
+      "ward_id": "bdef95e6-d5c1-44e5-bdfc-a4dd6ad4f0c5",
+      "ward_no": "13",
+      "ward_name_en": "Manjadi",
+      "ward_name_ml": "മഞ്ഞാടി"
+    },
+    {
+      "ward_id": "bc7e8e38-52eb-478a-bcfd-143c96f312d9",
+      "ward_no": "14",
+      "ward_name_en": "Pooplikad",
+      "ward_name_ml": "പൂപ്ലിക്കാട്"
+    },
+    {
+      "ward_id": "a2c166ef-53c8-4f5b-9910-2d0c4531ef72",
+      "ward_no": "15",
+      "ward_name_en": "Charaparambu",
+      "ward_name_ml": "ചരപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "221b83a6-4419-4ed7-b5cc-8fb9156b632d",
+      "ward_no": "16",
+      "ward_name_en": "Kulavanmokku",
+      "ward_name_ml": "കുളവന്‍മൊക്ക്"
+    },
+    {
+      "ward_id": "82f29599-1862-47bf-8fb3-cc89d7ce7241",
+      "ward_no": "17",
+      "ward_name_en": "Mannam",
+      "ward_name_ml": "മന്ദം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090803.geojson"
+  }
+}

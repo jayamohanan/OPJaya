@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071109",
+  "local_body_name_en": "Pallarimangalam",
+  "local_body_name_ml": "പല്ലാരിമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "87",
+    "assembly_name_en": "Kothamangalam",
+    "assembly_name_ml": "കോതമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d6204675-7ea8-4bbd-959d-656ebdadca7a",
+      "ward_no": "1",
+      "ward_name_en": "Madiyoor",
+      "ward_name_ml": "മടിയൂര്‍"
+    },
+    {
+      "ward_id": "a27640fd-6a8c-4394-83bf-0791baee6bce",
+      "ward_no": "2",
+      "ward_name_en": "Eettipara",
+      "ward_name_ml": "ഈട്ടിപ്പാറ"
+    },
+    {
+      "ward_id": "5c6ca61f-93a0-4d26-b774-ff642c626189",
+      "ward_no": "3",
+      "ward_name_en": "Vellaramattom",
+      "ward_name_ml": "വെള്ളാരമറ്റം"
+    },
+    {
+      "ward_id": "a9a021ad-70fe-4743-979b-fd0244240e9d",
+      "ward_no": "4",
+      "ward_name_en": "Manikkinar",
+      "ward_name_ml": "മണിക്കിണര്‍"
+    },
+    {
+      "ward_id": "42c1350a-db2d-46b6-81c0-f396a147de1e",
+      "ward_no": "5",
+      "ward_name_en": "Valachira",
+      "ward_name_ml": "വാളാച്ചിറ"
+    },
+    {
+      "ward_id": "487949ea-bf3d-4a1b-b06d-cd3940677fa8",
+      "ward_no": "6",
+      "ward_name_en": "Paimattom",
+      "ward_name_ml": "പൈമറ്റം"
+    },
+    {
+      "ward_id": "f10b347d-1215-460f-be7a-20865e4e9e57",
+      "ward_no": "7",
+      "ward_name_en": "Koovalloor",
+      "ward_name_ml": "കൂവള്ളൂര്‍"
+    },
+    {
+      "ward_id": "432e2d6b-5936-4935-9163-1199bdce4eca",
+      "ward_no": "8",
+      "ward_name_en": "Kuruppukandom",
+      "ward_name_ml": "കുറുപ്പുകണ്ടം"
+    },
+    {
+      "ward_id": "2fe9a641-7893-4f1d-b906-a83a310049ab",
+      "ward_no": "9",
+      "ward_name_en": "Pallarimangalam North",
+      "ward_name_ml": "പല്ലാരിമംഗലം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "b5594596-36f6-4003-a178-e5a2ce6a5532",
+      "ward_no": "10",
+      "ward_name_en": "Pallarimangalam South",
+      "ward_name_ml": "പല്ലാരിമംഗലം സൌത്ത്"
+    },
+    {
+      "ward_id": "2b3a1473-93e7-4dd8-9217-b79fdb4fe3bf",
+      "ward_no": "11",
+      "ward_name_en": "Mavudy",
+      "ward_name_ml": "മാവുടി"
+    },
+    {
+      "ward_id": "34feebf8-1c2e-4813-8f2a-5d1378ac5866",
+      "ward_no": "12",
+      "ward_name_en": "Adivad",
+      "ward_name_ml": "അടിവാട്"
+    },
+    {
+      "ward_id": "ba4efffa-b816-4fb5-a4ae-0b04290a3ead",
+      "ward_no": "13",
+      "ward_name_en": "Pulikkunnepady",
+      "ward_name_ml": "പുലിക്കുന്നേപ്പടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071109.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G010204",
+  "local_body_name_en": "Madavoor",
+  "local_body_name_ml": "മടവൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "127",
+    "assembly_name_en": "Varkala",
+    "assembly_name_ml": "വർക്കല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f2e92c41-a915-4d06-9178-cb7d72c9927d",
+      "ward_no": "1",
+      "ward_name_en": "Panchayat Office Ward",
+      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "2a6fe779-1598-45c8-95bb-acba244b6f39",
+      "ward_no": "2",
+      "ward_name_en": "Vemoodu",
+      "ward_name_ml": "വേമൂട്"
+    },
+    {
+      "ward_id": "3fab51e7-83b0-48ef-9cd8-37fc16508c3e",
+      "ward_no": "3",
+      "ward_name_en": "Arukanjiram",
+      "ward_name_ml": "അറുകാഞ്ഞിരം"
+    },
+    {
+      "ward_id": "f78a930f-95a8-44bd-b24a-d328f1b56f31",
+      "ward_no": "4",
+      "ward_name_en": "Puliyoorkonam",
+      "ward_name_ml": "പുലിയൂര്‍ക്കോണം"
+    },
+    {
+      "ward_id": "1a407d12-4bfa-47e5-90c7-3a676d8f5b2f",
+      "ward_no": "5",
+      "ward_name_en": "Changayilkonam",
+      "ward_name_ml": "ചാങ്ങയില്‍ക്കോണം"
+    },
+    {
+      "ward_id": "b4a22655-f1e2-4b2b-8846-9e12b628d199",
+      "ward_no": "6",
+      "ward_name_en": "Kizhakkanela",
+      "ward_name_ml": "കിഴക്കനേല"
+    },
+    {
+      "ward_id": "57461aa3-cf8d-44f9-a7ea-d7c06302b8f7",
+      "ward_no": "7",
+      "ward_name_en": "Mulavana",
+      "ward_name_ml": "മുളവന"
+    },
+    {
+      "ward_id": "09e5656f-91b7-4fb6-8955-b85393020796",
+      "ward_no": "8",
+      "ward_name_en": "Madavoor",
+      "ward_name_ml": "മടവൂര്‍"
+    },
+    {
+      "ward_id": "4c0bd6db-030c-4f6b-8a73-9790fb661611",
+      "ward_no": "9",
+      "ward_name_en": "Thumbodu",
+      "ward_name_ml": "തുമ്പോട്"
+    },
+    {
+      "ward_id": "c15858da-66ed-44eb-9c80-0d8861170fdf",
+      "ward_no": "10",
+      "ward_name_en": "Seemanthapuram",
+      "ward_name_ml": "സീമന്തപുരം"
+    },
+    {
+      "ward_id": "390251a1-90b5-4bf4-8433-39024098a882",
+      "ward_no": "11",
+      "ward_name_en": "Padinjattela",
+      "ward_name_ml": "പടിഞ്ഞാറ്റേല"
+    },
+    {
+      "ward_id": "fe7f7e14-7aab-49fb-8a11-f84072123211",
+      "ward_no": "12",
+      "ward_name_en": "Njarayilkonam",
+      "ward_name_ml": "ഞാറയില്‍ക്കോണം"
+    },
+    {
+      "ward_id": "7da1ac44-b172-466c-bea0-a4acc48f6fb1",
+      "ward_no": "13",
+      "ward_name_en": "Kakkode",
+      "ward_name_ml": "കക്കോട്"
+    },
+    {
+      "ward_id": "20b38c73-64f3-487d-8d98-2c5406a65a3b",
+      "ward_no": "14",
+      "ward_name_en": "Anakunnam",
+      "ward_name_ml": "ആനകുന്നം"
+    },
+    {
+      "ward_id": "749cc64b-4c92-47c7-ac1e-709030e55874",
+      "ward_no": "15",
+      "ward_name_en": "Town Ward",
+      "ward_name_ml": "ഠൌണ്‍ വാര്‍ഡ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010204.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G100103",
+  "local_body_name_en": "Moothedam",
+  "local_body_name_ml": "മൂത്തേടം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "35",
+    "assembly_name_en": "Nilambur",
+    "assembly_name_ml": "നിലമ്പൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "79d9dfb8-0b73-4877-aae7-099ca6912900",
+      "ward_no": "1",
+      "ward_name_en": "Marathinkadav",
+      "ward_name_ml": "മരത്തിന്‍കടവ്"
+    },
+    {
+      "ward_id": "8f1f2ef4-abad-4779-adf0-c92128ff21cc",
+      "ward_no": "2",
+      "ward_name_en": "Nellikkuth",
+      "ward_name_ml": "നെല്ലിക്കുത്ത്"
+    },
+    {
+      "ward_id": "39ce28d8-2848-4063-a579-ed5c01389a25",
+      "ward_no": "3",
+      "ward_name_en": "Kalkulam",
+      "ward_name_ml": "കല്‍കുളം"
+    },
+    {
+      "ward_id": "0121353d-48a8-4a6c-8790-fd8b3834313f",
+      "ward_no": "4",
+      "ward_name_en": "Balamkulam",
+      "ward_name_ml": "ബാലംകുളം"
+    },
+    {
+      "ward_id": "c2b368ad-4110-44cc-b0ff-f98a486b2a0a",
+      "ward_no": "5",
+      "ward_name_en": "Karappuram",
+      "ward_name_ml": "കാരപ്പുറം"
+    },
+    {
+      "ward_id": "8aeff7c0-6f6c-4784-b42c-56c8b0b84c1d",
+      "ward_no": "6",
+      "ward_name_en": "Nellipoil",
+      "ward_name_ml": "നെല്ലിപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "3a70c6ff-fbbd-434d-adad-87e549cf1d3d",
+      "ward_no": "7",
+      "ward_name_en": "Cholamunda",
+      "ward_name_ml": "ചോളമുണ്ട"
+    },
+    {
+      "ward_id": "294b0010-919b-4f25-af47-11dc4694af2e",
+      "ward_no": "8",
+      "ward_name_en": "Vellaramunda",
+      "ward_name_ml": "വെള്ളാരമുണ്ട"
+    },
+    {
+      "ward_id": "6e2f1917-75a6-44fc-a82e-016f8e235370",
+      "ward_no": "9",
+      "ward_name_en": "Palankara",
+      "ward_name_ml": "പാലാങ്ങര"
+    },
+    {
+      "ward_id": "b197238e-39e4-497d-8d70-939f384dfb9c",
+      "ward_no": "10",
+      "ward_name_en": "Vattappadam",
+      "ward_name_ml": "വട്ടപ്പാടം"
+    },
+    {
+      "ward_id": "7038d514-77fc-48ac-8ed0-be136c656308",
+      "ward_no": "11",
+      "ward_name_en": "Kuttikkad",
+      "ward_name_ml": "കുറ്റിക്കാട്"
+    },
+    {
+      "ward_id": "ff477793-1a1e-4049-895d-5153ca8c35b7",
+      "ward_no": "12",
+      "ward_name_en": "Maruthangad",
+      "ward_name_ml": "മരുതങ്ങാട്"
+    },
+    {
+      "ward_id": "761c07ee-16b0-42e2-aff8-c61993e6e5d3",
+      "ward_no": "13",
+      "ward_name_en": "Maramvettichal",
+      "ward_name_ml": "മരംവെട്ടിച്ചാല്‍"
+    },
+    {
+      "ward_id": "1ea315a8-f945-41a5-b68a-d5e19d21e709",
+      "ward_no": "14",
+      "ward_name_en": "Kattadi",
+      "ward_name_ml": "കാറ്റാടി"
+    },
+    {
+      "ward_id": "e67ab13f-b149-44c9-9ab7-efe13ecc731a",
+      "ward_no": "15",
+      "ward_name_en": "Chemmanthitta",
+      "ward_name_ml": "ചെമ്മന്തിട്ട"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100103.geojson"
+  }
+}

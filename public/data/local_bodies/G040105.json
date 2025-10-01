@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G040105",
+  "local_body_name_en": "Thycattussery",
+  "local_body_name_ml": "തൈക്കാട്ടുശ്ശേരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "102",
+    "assembly_name_en": "Aroor",
+    "assembly_name_ml": "അരൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "596c3fb6-e9c7-4ead-9249-290b7077bb20",
+      "ward_no": "1",
+      "ward_name_en": "Ulavaipu",
+      "ward_name_ml": "ഉളവയ്പ്"
+    },
+    {
+      "ward_id": "fe41e01b-2d54-47f0-b710-bd4afcd4fc4a",
+      "ward_no": "2",
+      "ward_name_en": "Chudukattupuram",
+      "ward_name_ml": "ചുടുകാട്ടുപുറം"
+    },
+    {
+      "ward_id": "144fe69e-ed08-42bc-b4ef-b2893c16ccb0",
+      "ward_no": "3",
+      "ward_name_en": "Thevarvattom",
+      "ward_name_ml": "തേവര്‍വട്ടം"
+    },
+    {
+      "ward_id": "d7382d76-a7bf-4bb2-bc18-499196945dc5",
+      "ward_no": "4",
+      "ward_name_en": "Poochakkal",
+      "ward_name_ml": "പൂച്ചാക്കല്‍"
+    },
+    {
+      "ward_id": "a114bfff-7c69-4312-96a8-8d2fe50f1c36",
+      "ward_no": "5",
+      "ward_name_en": "Ponpuram",
+      "ward_name_ml": "പൊന്‍പുറം"
+    },
+    {
+      "ward_id": "b37f4cba-acae-4ae0-a877-f4fb86b98901",
+      "ward_no": "6",
+      "ward_name_en": "Nagari",
+      "ward_name_ml": "നഗരി"
+    },
+    {
+      "ward_id": "78e43aba-7db6-40a3-a16b-b342a8a77bbb",
+      "ward_no": "7",
+      "ward_name_en": "Aattupuram",
+      "ward_name_ml": "ആറ്റുപുറം"
+    },
+    {
+      "ward_id": "b69abc19-96dc-466b-83a4-925bd69c4d12",
+      "ward_no": "8",
+      "ward_name_en": "Manappuram",
+      "ward_name_ml": "മണപ്പുറം"
+    },
+    {
+      "ward_id": "400f4bcb-5ffa-47cf-ae56-437ee51e2002",
+      "ward_no": "9",
+      "ward_name_en": "Sub Station",
+      "ward_name_ml": "സബ് സ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "3c1881d0-ca69-4889-83a3-d582950fafb2",
+      "ward_no": "10",
+      "ward_name_en": "Cheerathukaadu",
+      "ward_name_ml": "ചീരാത്തുകാട്"
+    },
+    {
+      "ward_id": "de573d27-d398-473c-a368-f001cfd226af",
+      "ward_no": "11",
+      "ward_name_en": "Paniyathu",
+      "ward_name_ml": "പനിയാത്ത്"
+    },
+    {
+      "ward_id": "42fed691-c729-4f6f-a7c5-ecb093e95710",
+      "ward_no": "12",
+      "ward_name_en": "Shrambikkal",
+      "ward_name_ml": "ശ്രാമ്പിക്കല്‍"
+    },
+    {
+      "ward_id": "e15b9298-b1c7-4a2f-a747-9b5add5395c9",
+      "ward_no": "13",
+      "ward_name_en": "Thycattussery",
+      "ward_name_ml": "തൈക്കാട്ടുശ്ശേരി"
+    },
+    {
+      "ward_id": "5e9c7825-b06d-4a17-97e2-83907ed42495",
+      "ward_no": "14",
+      "ward_name_en": "Maniyathrikkal",
+      "ward_name_ml": "മണിയാതൃക്കല്‍"
+    },
+    {
+      "ward_id": "55ae92ee-7bc3-4fc2-bff7-7d79fcd5689a",
+      "ward_no": "15",
+      "ward_name_en": "Panchayat Office",
+      "ward_name_ml": "പഞ്ചായത്ത് ആഫീസ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040105.geojson"
+  }
+}

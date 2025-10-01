@@ -1,0 +1,78 @@
+{
+  "assembly_id": "89",
+  "assembly_name_en": "Udumbanchola",
+  "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+  "category": "Normal",
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G060605",
+      "local_body_name_en": "Erattayar",
+      "local_body_name_ml": "ഇരട്ടയാര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060303",
+      "local_body_name_en": "Karunapuram",
+      "local_body_name_ml": "കരുണാപുരം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060305",
+      "local_body_name_en": "Nedumkandam",
+      "local_body_name_ml": "നെടുങ്കണ്ടം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060301",
+      "local_body_name_en": "Pampadumpara",
+      "local_body_name_ml": "പാമ്പാടുംപാറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060304",
+      "local_body_name_en": "Rajakkad",
+      "local_body_name_ml": "രാജക്കാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060307",
+      "local_body_name_en": "Rajakumary",
+      "local_body_name_ml": "രാജകുമാരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G060205",
+      "local_body_name_en": "Santhanpara",
+      "local_body_name_ml": "ശാന്തന്‍പാറ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060302",
+      "local_body_name_en": "Senapathy",
+      "local_body_name_ml": "സേനാപതി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060306",
+      "local_body_name_en": "Udumbanchola",
+      "local_body_name_ml": "ഉടുമ്പന്‍ചോല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060603",
+      "local_body_name_en": "Vandanmedu",
+      "local_body_name_ml": "വണ്ടന്‍മേട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/udumbanchola.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/udumbanchola.geojson"
+  }
+}

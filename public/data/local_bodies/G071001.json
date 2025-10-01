@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G071001",
+  "local_body_name_en": "Poothrikka",
+  "local_body_name_ml": "പൂത്തൃക്ക",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "84",
+    "assembly_name_en": "Kunnathunad",
+    "assembly_name_ml": "കുന്നത്തുനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "45116465-4e3b-4b56-9267-f75386e60286",
+      "ward_no": "1",
+      "ward_name_en": "Malecruz",
+      "ward_name_ml": "മലേക്കുരിശ്"
+    },
+    {
+      "ward_id": "3e6a4e8b-e991-4653-b167-60f5ee27245f",
+      "ward_no": "2",
+      "ward_name_en": "Vadayampady",
+      "ward_name_ml": "വടയമ്പാടി"
+    },
+    {
+      "ward_id": "bb4654f2-30d4-4546-9fa0-c67fb87f028f",
+      "ward_no": "3",
+      "ward_name_en": "Pathammile",
+      "ward_name_ml": "പത്താംമൈല്‍"
+    },
+    {
+      "ward_id": "085eaf9a-30d4-4470-80b9-63a55e832056",
+      "ward_no": "4",
+      "ward_name_en": "Puthuppanam",
+      "ward_name_ml": "പുതുപ്പനം"
+    },
+    {
+      "ward_id": "9edb6bca-aa20-45e2-944f-45935b25408c",
+      "ward_no": "5",
+      "ward_name_en": "Kolenchery",
+      "ward_name_ml": "കോലഞ്ചേരി"
+    },
+    {
+      "ward_id": "bf984773-34d3-4018-a95c-c0865460813d",
+      "ward_no": "6",
+      "ward_name_en": "Karukappilly",
+      "ward_name_ml": "കറുകപ്പിളളി"
+    },
+    {
+      "ward_id": "7492a85d-461a-4762-bbf6-39099cb29b25",
+      "ward_no": "7",
+      "ward_name_en": "Thammanimattom",
+      "ward_name_ml": "തമ്മാനിമറ്റം"
+    },
+    {
+      "ward_id": "bd5a0894-ebc3-4f68-826b-a0df6a601e33",
+      "ward_no": "8",
+      "ward_name_en": "Kinginimattom",
+      "ward_name_ml": "കിങ്ങിണിമറ്റം"
+    },
+    {
+      "ward_id": "d38cd436-c6d7-4fb8-8782-f7e89749194a",
+      "ward_no": "9",
+      "ward_name_en": "Palackamattom",
+      "ward_name_ml": "പാലയ്ക്കാമറ്റം"
+    },
+    {
+      "ward_id": "90e470e2-6970-4560-91cc-b72e2024053b",
+      "ward_no": "10",
+      "ward_name_en": "Poothrikka West",
+      "ward_name_ml": "പൂത്തൃക്ക വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "e504f0ab-6bbd-40d8-8990-13fbe2e6f7b7",
+      "ward_no": "11",
+      "ward_name_en": "Poothrikka East",
+      "ward_name_ml": "പൂത്തൃക്ക ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "ad1da2f0-3614-4b27-a84a-841217cbabb4",
+      "ward_no": "12",
+      "ward_name_en": "Choondy",
+      "ward_name_ml": "ചൂണ്ടി"
+    },
+    {
+      "ward_id": "8411a085-5cbb-46b0-9337-43431d79cfca",
+      "ward_no": "13",
+      "ward_name_en": "Meempara",
+      "ward_name_ml": "മീമ്പാറ"
+    },
+    {
+      "ward_id": "6993bae0-de3c-45d0-969c-262d49774d82",
+      "ward_no": "14",
+      "ward_name_en": "Kurinji",
+      "ward_name_ml": "കുറിഞ്ഞി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071001.geojson"
+  }
+}

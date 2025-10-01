@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G130402",
+  "local_body_name_en": "Irikkur",
+  "local_body_name_ml": "ഇരിക്കൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "9",
+    "assembly_name_en": "Irikkur",
+    "assembly_name_ml": "ഇരിക്കൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2902038e-5a91-4ff4-abce-091a8ffa0b60",
+      "ward_no": "1",
+      "ward_name_en": "Modakkai",
+      "ward_name_ml": "മൊടക്കൈ"
+    },
+    {
+      "ward_id": "1420fa3b-3833-4704-a2a9-c55384e93d98",
+      "ward_no": "2",
+      "ward_name_en": "Peruvalathuparamba",
+      "ward_name_ml": "പെരുവളത്തുപറമ്പ്"
+    },
+    {
+      "ward_id": "7a228467-cf63-4a4f-9317-32aa417b18bc",
+      "ward_no": "3",
+      "ward_name_en": "Payasayi",
+      "ward_name_ml": "പയസായി"
+    },
+    {
+      "ward_id": "68ab00ff-59b0-4f86-b70b-fd72a7c8c0b8",
+      "ward_no": "4",
+      "ward_name_en": "Siddique Nagar",
+      "ward_name_ml": "സിദ്ദിക്ക് നഗര്‍"
+    },
+    {
+      "ward_id": "e446438e-97f0-43d4-b57c-6f3dace478fb",
+      "ward_no": "5",
+      "ward_name_en": "Kunnummal",
+      "ward_name_ml": "കുന്നുമ്മല്‍"
+    },
+    {
+      "ward_id": "27dc8ff3-9419-4e48-a929-c9cac775641c",
+      "ward_no": "6",
+      "ward_name_en": "Patteel",
+      "ward_name_ml": "പാട്ടീല്‍"
+    },
+    {
+      "ward_id": "b25b49e4-e3b4-48e2-a2fd-8b3c99472929",
+      "ward_no": "7",
+      "ward_name_en": "Pattuvam",
+      "ward_name_ml": "പട്ടുവം"
+    },
+    {
+      "ward_id": "471c9e31-d695-4598-8f4e-9d59d5e4bede",
+      "ward_no": "8",
+      "ward_name_en": "Niduvallur",
+      "ward_name_ml": "നിടുവള്ളൂര്‍"
+    },
+    {
+      "ward_id": "ba234e56-4ff4-4e9c-a790-7e6abdd5e9e7",
+      "ward_no": "9",
+      "ward_name_en": "Irikkur Town",
+      "ward_name_ml": "ഇരിക്കൂര്‍ ടൌണ്‍"
+    },
+    {
+      "ward_id": "874897e8-b0a4-4f3b-8d18-d005a31cc096",
+      "ward_no": "10",
+      "ward_name_en": "Nilamuttam",
+      "ward_name_ml": "നിലാമുറ്റം"
+    },
+    {
+      "ward_id": "45e0f05e-cfd9-4966-87a8-e21b7f752bc6",
+      "ward_no": "11",
+      "ward_name_en": "Kulinha",
+      "ward_name_ml": "കുളിഞ്ഞ"
+    },
+    {
+      "ward_id": "32a12b2c-c1d7-41d8-ba0a-988e843e693c",
+      "ward_no": "12",
+      "ward_name_en": "Kuttavu",
+      "ward_name_ml": "കുട്ടാവ്"
+    },
+    {
+      "ward_id": "a983b111-c957-4ce5-8967-9e5ef297ec6c",
+      "ward_no": "13",
+      "ward_name_en": "Chedichery",
+      "ward_name_ml": "ചേടിച്ചേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130402.geojson"
+  }
+}

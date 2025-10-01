@@ -1,0 +1,90 @@
+{
+  "assembly_id": "111",
+  "assembly_name_en": "Thiruvalla",
+  "assembly_name_ml": "തിരുവല്ല",
+  "category": "Normal",
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G030201",
+      "local_body_name_en": "Kadapra",
+      "local_body_name_ml": "കടപ്ര",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030105",
+      "local_body_name_en": "Kallooppara",
+      "local_body_name_ml": "കല്ലൂപ്പാറ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030102",
+      "local_body_name_en": "Kaviyoor",
+      "local_body_name_ml": "കവിയൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030106",
+      "local_body_name_en": "Kunnamthanam",
+      "local_body_name_ml": "കുന്നന്താനം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030202",
+      "local_body_name_en": "Kuttoor",
+      "local_body_name_ml": "കുറ്റൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030107",
+      "local_body_name_en": "Mallappally",
+      "local_body_name_ml": "മല്ലപ്പള്ളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030204",
+      "local_body_name_en": "Nedumpuram",
+      "local_body_name_ml": "നെടുമ്പ്രം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030203",
+      "local_body_name_en": "Niranam",
+      "local_body_name_ml": "നിരണം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030205",
+      "local_body_name_en": "Peringara",
+      "local_body_name_ml": "പെരിങ്ങര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030306",
+      "local_body_name_en": "Puramattom",
+      "local_body_name_ml": "പുറമറ്റം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M030200",
+      "local_body_name_en": "Thiruvalla",
+      "local_body_name_ml": "തിരുവല്ല",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030101",
+      "local_body_name_en": "Anicadu",
+      "local_body_name_ml": "ആനിക്കാട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/thiruvalla.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/thiruvalla.geojson"
+  }
+}

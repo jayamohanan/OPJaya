@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G010107",
+  "local_body_name_en": "Vettoor",
+  "local_body_name_ml": "വെട്ടൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "127",
+    "assembly_name_en": "Varkala",
+    "assembly_name_ml": "വർക്കല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3998a7e4-9184-4bce-8560-32ff07a56ba6",
+      "ward_no": "1",
+      "ward_name_en": "Tourist Banglow",
+      "ward_name_ml": "ടൂറിസ്റ്റ് ബംഗ്ലാവ്"
+    },
+    {
+      "ward_id": "2f8b6d4f-fe28-4ab7-9fbb-f02aaaeffc59",
+      "ward_no": "2",
+      "ward_name_en": "Akkaravila",
+      "ward_name_ml": "അക്കരവിള"
+    },
+    {
+      "ward_id": "3579a019-fcc0-4348-8526-dac5595f20af",
+      "ward_no": "3",
+      "ward_name_en": "Thengara",
+      "ward_name_ml": "തെങ്ങറ"
+    },
+    {
+      "ward_id": "cba1c390-53d0-48e7-ada8-2fa4bbc882d3",
+      "ward_no": "4",
+      "ward_name_en": "Puthenchantha",
+      "ward_name_ml": "പുത്തന്‍ചന്ത"
+    },
+    {
+      "ward_id": "b2d4848e-3b52-4579-80dc-136f2774ec02",
+      "ward_no": "5",
+      "ward_name_en": "Elappil",
+      "ward_name_ml": "ഇളപ്പില്‍"
+    },
+    {
+      "ward_id": "309d431e-1757-4559-8993-7563616236b8",
+      "ward_no": "6",
+      "ward_name_en": "Vettoor",
+      "ward_name_ml": "വെട്ടൂര്‍"
+    },
+    {
+      "ward_id": "9ed83939-885c-4804-b4dd-f5864fdb1e78",
+      "ward_no": "7",
+      "ward_name_en": "Nethaji",
+      "ward_name_ml": "നേതാജി"
+    },
+    {
+      "ward_id": "efe4b1af-8bbd-451d-aaf8-50c0bb052539",
+      "ward_no": "8",
+      "ward_name_en": "Kazhuthummoodu",
+      "ward_name_ml": "കഴുത്തുംമൂട്"
+    },
+    {
+      "ward_id": "0f6ce7fa-689c-4e5a-832c-5fcb7b99946e",
+      "ward_no": "9",
+      "ward_name_en": "Vilabhagom",
+      "ward_name_ml": "വിളബ്ഭാഗം"
+    },
+    {
+      "ward_id": "ac1dc052-418d-43b4-ac0b-dafeb51cbad8",
+      "ward_no": "10",
+      "ward_name_en": "Valayantakuzhy",
+      "ward_name_ml": "വലയന്‍റകുഴി"
+    },
+    {
+      "ward_id": "d123d23a-273f-45e0-9db9-d2f6badc5ecc",
+      "ward_no": "11",
+      "ward_name_en": "Plavazhikam",
+      "ward_name_ml": "പ്ലാവഴികം"
+    },
+    {
+      "ward_id": "56e3a6fb-2aaf-4223-9584-de877d8c28c2",
+      "ward_no": "12",
+      "ward_name_en": "Rathikkal",
+      "ward_name_ml": "റാത്തിക്കല്‍"
+    },
+    {
+      "ward_id": "4a515735-a869-4430-a470-0430e5c8bd0e",
+      "ward_no": "13",
+      "ward_name_en": "Perumam",
+      "ward_name_ml": "പെരുമം"
+    },
+    {
+      "ward_id": "52d37c26-5b72-48f2-974d-175076c73729",
+      "ward_no": "14",
+      "ward_name_en": "Choolappura",
+      "ward_name_ml": "ചൂളപ്പുര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010107.geojson"
+  }
+}

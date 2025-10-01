@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G010106",
+  "local_body_name_en": "Cherunniyoor",
+  "local_body_name_ml": "ചെറുന്നിയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "128",
+    "assembly_name_en": "Attingal",
+    "assembly_name_ml": "ആറ്റിങ്ങൽ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "dd6065d1-6ef3-48e7-83c9-97768fb4c4ee",
+      "ward_no": "1",
+      "ward_name_en": "Ayanthi",
+      "ward_name_ml": "അയന്തി"
+    },
+    {
+      "ward_id": "dc26514a-08e1-4b1e-a3af-a6ef0a876fb7",
+      "ward_no": "2",
+      "ward_name_en": "Palachira",
+      "ward_name_ml": "പാലച്ചിറ"
+    },
+    {
+      "ward_id": "ba10edd5-69f7-4ae2-ae88-647858e07ae8",
+      "ward_no": "3",
+      "ward_name_en": "Vadasserikonam",
+      "ward_name_ml": "വടശ്ശേരിക്കോണം"
+    },
+    {
+      "ward_id": "4e13e5ab-b83f-4d29-9977-87a6733ccdb4",
+      "ward_no": "4",
+      "ward_name_en": "Thettikulam",
+      "ward_name_ml": "തെറ്റിക്കുളം"
+    },
+    {
+      "ward_id": "2eee68a7-ee5f-4e6e-9072-6051b7e9b6a5",
+      "ward_no": "5",
+      "ward_name_en": "Nellettil",
+      "ward_name_ml": "നെല്ലേറ്റില്‍"
+    },
+    {
+      "ward_id": "93643260-d21c-41b0-a371-af18b717606d",
+      "ward_no": "6",
+      "ward_name_en": "Achumamukku",
+      "ward_name_ml": "അച്ചുമ്മാമുക്ക്"
+    },
+    {
+      "ward_id": "4776dcd5-511a-4d51-a83a-3eac50c92d2b",
+      "ward_no": "7",
+      "ward_name_en": "Dalavapuram",
+      "ward_name_ml": "ദളവാപുരം"
+    },
+    {
+      "ward_id": "d4d3ab20-85dc-4c91-aa90-67bf15166e49",
+      "ward_no": "8",
+      "ward_name_en": "Cherunniyoor",
+      "ward_name_ml": "ചെറുന്നിയൂര്‍"
+    },
+    {
+      "ward_id": "13a9b2a1-a3f4-4d5a-a0bc-0d8b54131a5c",
+      "ward_no": "9",
+      "ward_name_en": "Chakakapoyka",
+      "ward_name_ml": "ചാക്കപൊയ്ക"
+    },
+    {
+      "ward_id": "4216403e-1816-477f-bf36-7aa0c11ce3ea",
+      "ward_no": "10",
+      "ward_name_en": "Mudiacode",
+      "ward_name_ml": "മുടിയക്കോട്"
+    },
+    {
+      "ward_id": "c38e4420-44dd-45c1-bba9-0840b7862af1",
+      "ward_no": "11",
+      "ward_name_en": "Thannimoodu",
+      "ward_name_ml": "താന്നിമൂട്"
+    },
+    {
+      "ward_id": "2d0df7af-1341-4492-99d7-72534f1df1da",
+      "ward_no": "12",
+      "ward_name_en": "Vennicode",
+      "ward_name_ml": "വെന്നികോട്"
+    },
+    {
+      "ward_id": "2cac98e4-8af8-4954-8547-04b226ff1e62",
+      "ward_no": "13",
+      "ward_name_en": "Katting",
+      "ward_name_ml": "കട്ടിംഗ്"
+    },
+    {
+      "ward_id": "8f531ca5-6e6b-44d3-9aa3-e24453ed0366",
+      "ward_no": "14",
+      "ward_name_en": "Kallumalakunnu",
+      "ward_name_ml": "കല്ലുമലക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010106.geojson"
+  }
+}

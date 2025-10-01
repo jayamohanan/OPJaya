@@ -1,0 +1,54 @@
+{
+  "assembly_id": "77",
+  "assembly_name_en": "Kalamassery",
+  "assembly_name_ml": "കളമശ്ശേരി",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "M071000",
+      "local_body_name_en": "Eloor",
+      "local_body_name_ml": "ഏലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G070204",
+      "local_body_name_en": "Kadungalloor",
+      "local_body_name_ml": "കടുങ്ങല്ലൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M070100",
+      "local_body_name_en": "Kalamassery",
+      "local_body_name_ml": "കളമശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070201",
+      "local_body_name_en": "Karumallur",
+      "local_body_name_ml": "കരുമാല്ലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071305",
+      "local_body_name_en": "Kunnukara",
+      "local_body_name_ml": "കുന്നുകര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070203",
+      "local_body_name_en": "Alangad",
+      "local_body_name_ml": "ആലങ്ങാട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kalamassery.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kalamassery.geojson"
+  }
+}

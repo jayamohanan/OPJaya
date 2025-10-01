@@ -1,0 +1,72 @@
+{
+  "assembly_id": "5",
+  "assembly_name_en": "Trikaripur",
+  "assembly_name_ml": "തൃക്കരിപ്പൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G140601",
+      "local_body_name_en": "Cheruvathur",
+      "local_body_name_ml": "ചെറുവത്തൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140505",
+      "local_body_name_en": "East Eleri",
+      "local_body_name_ml": "ഈസ്റ്റ് എളേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140602",
+      "local_body_name_en": "Kayyur Cheemeni",
+      "local_body_name_ml": "കയ്യൂര്‍ ചീമേനി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "M140300",
+      "local_body_name_en": "Nileshwar",
+      "local_body_name_ml": "നീലേശ്വരം",
+      "category": ""
+    },
+    {
+      "local_body_id": "G140606",
+      "local_body_name_en": "Padne",
+      "local_body_name_ml": "പടന്ന",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G140603",
+      "local_body_name_en": "Pilicode",
+      "local_body_name_ml": "പിലിക്കോട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140604",
+      "local_body_name_en": "Trikaripur",
+      "local_body_name_ml": "തൃക്കരിപ്പൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G140605",
+      "local_body_name_en": "Valiyaparamba",
+      "local_body_name_ml": "വലിയപറമ്പ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G140506",
+      "local_body_name_en": "WestEleri",
+      "local_body_name_ml": "വെസ്റ്റ് എളേരി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/trikaripur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/trikaripur.geojson"
+  }
+}

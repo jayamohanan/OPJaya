@@ -1,0 +1,66 @@
+{
+  "assembly_id": "98",
+  "assembly_name_en": "Puthuppally",
+  "assembly_name_ml": "പുതുപ്പള്ളി",
+  "category": "Normal",
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G050801",
+      "local_body_name_en": "Ayarkunnam",
+      "local_body_name_ml": "അയര്‍കുന്നം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050703",
+      "local_body_name_en": "Kooroppada",
+      "local_body_name_ml": "കൂരോപ്പട",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G050708",
+      "local_body_name_en": "Manarcadu",
+      "local_body_name_ml": "മണര്‍കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050706",
+      "local_body_name_en": "Meenadom",
+      "local_body_name_ml": "മീനടം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050704",
+      "local_body_name_en": "Pampady",
+      "local_body_name_ml": "പാമ്പാടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050802",
+      "local_body_name_en": "Puthuppally",
+      "local_body_name_ml": "പുതുപ്പള്ളി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G050904",
+      "local_body_name_en": "Vakathanam",
+      "local_body_name_ml": "വാകത്താനം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G050701",
+      "local_body_name_en": "Akalakunnam",
+      "local_body_name_ml": "അകലക്കുന്നം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/puthuppally.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/puthuppally.geojson"
+  }
+}

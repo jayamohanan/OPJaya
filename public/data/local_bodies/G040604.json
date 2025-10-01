@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G040604",
+  "local_body_name_en": "Nedumudi",
+  "local_body_name_ml": "നെടുമുടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1b3d0a16-30b9-4e87-94b2-0671dadd64c6",
+      "ward_no": "1",
+      "ward_name_en": "Ponga South",
+      "ward_name_ml": "പൊങ്ങ സൌത്ത്"
+    },
+    {
+      "ward_id": "61a92c40-5229-4bfb-a9b9-db9ef266cc10",
+      "ward_no": "2",
+      "ward_name_en": "Ponga",
+      "ward_name_ml": "പൊങ്ങ"
+    },
+    {
+      "ward_id": "fc6ed91a-5ec1-4f48-bf98-c4535adaa162",
+      "ward_no": "3",
+      "ward_name_en": "Chennamkary",
+      "ward_name_ml": "ചേന്നംകരി"
+    },
+    {
+      "ward_id": "dc2b1441-7d98-44e9-8e60-3081c5258595",
+      "ward_no": "4",
+      "ward_name_en": "Nedumudy",
+      "ward_name_ml": "നെടുമുടി"
+    },
+    {
+      "ward_id": "c3206393-1d07-4fcb-a519-3f71f9039d49",
+      "ward_no": "5",
+      "ward_name_en": "Nedumudy South",
+      "ward_name_ml": "നെടുമുടി സൌത്ത്"
+    },
+    {
+      "ward_id": "10672d11-a387-49dd-9a43-6d1cfa74cf78",
+      "ward_no": "6",
+      "ward_name_en": "Thekkemury North",
+      "ward_name_ml": "തെക്കേമുറി നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "f623c7d9-df46-414a-b72e-f562a2ce0f2b",
+      "ward_no": "7",
+      "ward_name_en": "Thekkemury",
+      "ward_name_ml": "തെക്കേമുറി"
+    },
+    {
+      "ward_id": "697c40ec-8f9c-4a00-9648-bd291c25c752",
+      "ward_no": "8",
+      "ward_name_en": "Champakkulam North",
+      "ward_name_ml": "ചമ്പക്കുളം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "c60e45cc-b526-4a0e-99b8-08ac829cd437",
+      "ward_no": "9",
+      "ward_name_en": "Champakkulam",
+      "ward_name_ml": "ചമ്പക്കുളം"
+    },
+    {
+      "ward_id": "8ec52b15-1cd9-45cc-8383-f396b29af933",
+      "ward_no": "10",
+      "ward_name_en": "Manapra",
+      "ward_name_ml": "മണപ്ര"
+    },
+    {
+      "ward_id": "489752a4-ba9c-4d6f-89a6-74265d1512f0",
+      "ward_no": "11",
+      "ward_name_en": "Nadubhagom",
+      "ward_name_ml": "നടുഭാഗം"
+    },
+    {
+      "ward_id": "82e71646-78d5-47bc-80db-46175bde45bb",
+      "ward_no": "12",
+      "ward_name_en": "Vysyambhabom South",
+      "ward_name_ml": "വൈശ്യംഭാഗം സൌത്ത്"
+    },
+    {
+      "ward_id": "9e817ed7-72b9-444f-89d5-9b1af54c9929",
+      "ward_no": "13",
+      "ward_name_en": "Vysyambhagom North",
+      "ward_name_ml": "വൈശ്യംഭാഗം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "cdda4733-f618-4c2d-b523-64bff40a4051",
+      "ward_no": "14",
+      "ward_name_en": "Chempumpuram",
+      "ward_name_ml": "ചെമ്പുംപുറം"
+    },
+    {
+      "ward_id": "7602dd8e-b274-442c-a144-5469a0d79af9",
+      "ward_no": "15",
+      "ward_name_en": "Pazhayakary",
+      "ward_name_ml": "പഴയകരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040604.geojson"
+  }
+}

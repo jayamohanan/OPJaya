@@ -1,0 +1,42 @@
+{
+  "assembly_id": "104",
+  "assembly_name_en": "Alappuzha",
+  "assembly_name_ml": "ആലപ്പുഴ",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G040401",
+      "local_body_name_en": "Aryad",
+      "local_body_name_ml": "ആര്യാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040402",
+      "local_body_name_en": "Mannancherry",
+      "local_body_name_ml": "മണ്ണഞ്ചരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040301",
+      "local_body_name_en": "Mararikulam North",
+      "local_body_name_ml": "മാരാരിക്കുളം വടക്ക്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040403",
+      "local_body_name_en": "Mararikulam South",
+      "local_body_name_ml": "മാരാരിക്കുളം തെക്ക്",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/alappuzha.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/alappuzha.geojson"
+  }
+}

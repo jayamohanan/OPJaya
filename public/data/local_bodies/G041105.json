@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G041105",
+  "local_body_name_en": "Chunakara",
+  "local_body_name_ml": "ചുനക്കര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "109",
+    "assembly_name_en": "Mavelikara",
+    "assembly_name_ml": "മാവേലിക്കര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2305c781-780b-4cd3-837d-d801c8d5c639",
+      "ward_no": "1",
+      "ward_name_en": "Chunakara North",
+      "ward_name_ml": "ചുനക്കര വടക്ക്"
+    },
+    {
+      "ward_id": "71dcca47-f73b-4de9-acf5-39ec5842b643",
+      "ward_no": "2",
+      "ward_name_en": "Ambalaward",
+      "ward_name_ml": "അമ്പലവാര്‍ഡ്"
+    },
+    {
+      "ward_id": "a99c7adf-f9a0-49fc-a3bd-cdf289ed1320",
+      "ward_no": "3",
+      "ward_name_en": "Chunakara East",
+      "ward_name_ml": "ചുനക്കര കിഴക്ക്"
+    },
+    {
+      "ward_id": "7a7caf08-9ba1-4eb5-9d1f-18069150e797",
+      "ward_no": "4",
+      "ward_name_en": "Chunakara Naduvil East",
+      "ward_name_ml": "ചുനക്കര നടുവില്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "487fbf52-f750-488f-987a-f2f5ac0050ac",
+      "ward_no": "5",
+      "ward_name_en": "Kottaward",
+      "ward_name_ml": "കോട്ടവാര്‍ഡ്"
+    },
+    {
+      "ward_id": "3859ee74-fea0-4b86-afc3-d2ddd1d54731",
+      "ward_no": "6",
+      "ward_name_en": "Hospital Ward",
+      "ward_name_ml": "ആശുപത്രി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "189677bc-5ee8-4f15-9dfb-77a2d8a08804",
+      "ward_no": "7",
+      "ward_name_en": "Charummoodu",
+      "ward_name_ml": "ചാരുംമൂട്"
+    },
+    {
+      "ward_id": "d9675b20-b9a6-4ad5-83a1-ef37097499af",
+      "ward_no": "8",
+      "ward_name_en": "Paloothara",
+      "ward_name_ml": "പാലൂത്തറ"
+    },
+    {
+      "ward_id": "86e20dac-816b-46a8-8661-210f65895e01",
+      "ward_no": "9",
+      "ward_name_en": "Karimulackal South",
+      "ward_name_ml": "കരിമുളയ്ക്കല്‍ തെക്ക്"
+    },
+    {
+      "ward_id": "91bf50be-123e-4d87-a15f-14ee2d90764d",
+      "ward_no": "10",
+      "ward_name_en": "Karimulackal North",
+      "ward_name_ml": "കരിമുളയ്ക്കല്‍ വടക്ക്"
+    },
+    {
+      "ward_id": "560c1ea1-2bc8-4b60-ae71-00125b2769e1",
+      "ward_no": "11",
+      "ward_name_en": "Komalloor West",
+      "ward_name_ml": "കോമല്ലൂര്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "57a0b18e-db6f-439d-9954-330d19da655a",
+      "ward_no": "12",
+      "ward_name_en": "Komalloor East",
+      "ward_name_ml": "കോമല്ലൂര്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "267c678b-c9fc-4f62-b5ab-090b39d2af15",
+      "ward_no": "13",
+      "ward_name_en": "Theruvilmukku",
+      "ward_name_ml": "തെരുവില്‍മുക്ക്"
+    },
+    {
+      "ward_id": "4ca3ebc6-977b-4686-aa67-7bef2f7c6a90",
+      "ward_no": "14",
+      "ward_name_en": "Chunakara Naduvil West",
+      "ward_name_ml": "ചുനക്കര നടുവില്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "a753403a-8c57-4bfc-9c19-c87a69080ab7",
+      "ward_no": "15",
+      "ward_name_en": "Kottamukku",
+      "ward_name_ml": "കോട്ടമുക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G041105.geojson"
+  }
+}

@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G100305",
+  "local_body_name_en": "Thiruvali",
+  "local_body_name_ml": "തിരുവാലി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "36",
+    "assembly_name_en": "Wandoor",
+    "assembly_name_ml": "വണ്ടൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "79c47a25-975b-4e09-bf48-bb6eb12efbc2",
+      "ward_no": "1",
+      "ward_name_en": "Illathkunnu",
+      "ward_name_ml": "ഇല്ലത്ത്ക്കുന്ന്"
+    },
+    {
+      "ward_id": "dddfdce4-a964-41ef-94fe-4b07b7160695",
+      "ward_no": "2",
+      "ward_name_en": "Kaithayil",
+      "ward_name_ml": "കൈതയില്‍"
+    },
+    {
+      "ward_id": "5905d8df-ca08-40f6-8f4b-164d1596f997",
+      "ward_no": "3",
+      "ward_name_en": "Thayamkode",
+      "ward_name_ml": "തായംകോട്"
+    },
+    {
+      "ward_id": "e7f2b492-3766-4c46-a5f1-a8d4d0a293cc",
+      "ward_no": "4",
+      "ward_name_en": "Padakaliparamb",
+      "ward_name_ml": "പടകാളിപറമ്പ്"
+    },
+    {
+      "ward_id": "63a86322-cd4f-4f77-a627-233bb5be7cde",
+      "ward_no": "5",
+      "ward_name_en": "Naduvath",
+      "ward_name_ml": "നടുവത്ത്"
+    },
+    {
+      "ward_id": "a121bbe0-6419-4e69-9749-04c212e61e86",
+      "ward_no": "6",
+      "ward_name_en": "A.K.G Nagar",
+      "ward_name_ml": "എ.കെ.ജി നഗര്‍"
+    },
+    {
+      "ward_id": "30969559-1cc1-494d-9aee-86a12abcb5f2",
+      "ward_no": "7",
+      "ward_name_en": "Kandamangalam",
+      "ward_name_ml": "കണ്ടമംഗലം"
+    },
+    {
+      "ward_id": "627ca1fb-bfc4-406c-b070-5fa0f25171bd",
+      "ward_no": "8",
+      "ward_name_en": "Valoringal",
+      "ward_name_ml": "വാളോറിങ്ങല്‍"
+    },
+    {
+      "ward_id": "b0e9cd8d-a6bf-4990-868a-32b747df722e",
+      "ward_no": "9",
+      "ward_name_en": "Kottakkunn",
+      "ward_name_ml": "കോട്ടക്കുന്ന്"
+    },
+    {
+      "ward_id": "99ee0cdc-7f02-40dc-979f-5b716a396f37",
+      "ward_no": "10",
+      "ward_name_en": "Poolakkal",
+      "ward_name_ml": "പൂളക്കല്‍"
+    },
+    {
+      "ward_id": "f6dedae3-28d7-419e-8548-d93e69029476",
+      "ward_no": "11",
+      "ward_name_en": "Punnappala",
+      "ward_name_ml": "പുന്നപ്പാല"
+    },
+    {
+      "ward_id": "8067de32-e548-467d-8afb-59a86b4b7046",
+      "ward_no": "12",
+      "ward_name_en": "Thiruvali",
+      "ward_name_ml": "തിരുവാലി"
+    },
+    {
+      "ward_id": "cea56853-c32c-49fd-9e09-0f280baca03e",
+      "ward_no": "13",
+      "ward_name_en": "Thodayam",
+      "ward_name_ml": "തോടായം"
+    },
+    {
+      "ward_id": "11a30766-3f0f-42c8-b17b-c000e3c210f3",
+      "ward_no": "14",
+      "ward_name_en": "Vattapparamb",
+      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "ded6fdb2-e67b-4252-9521-2d7336a7515c",
+      "ward_no": "15",
+      "ward_name_en": "Pathiriyal",
+      "ward_name_ml": "പത്തിരിയാല്‍"
+    },
+    {
+      "ward_id": "bd66149b-738e-4da2-82cd-217a4d046774",
+      "ward_no": "16",
+      "ward_name_en": "Sharathkunnu",
+      "ward_name_ml": "ഷാരത്ത്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100305.geojson"
+  }
+}

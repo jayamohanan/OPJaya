@@ -1,0 +1,66 @@
+{
+  "assembly_id": "54",
+  "assembly_name_en": "Mannarkkad",
+  "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G090503",
+      "local_body_name_en": "Kottopadam",
+      "local_body_name_ml": "കോട്ടോപ്പാടം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090504",
+      "local_body_name_en": "Kumaramputhur",
+      "local_body_name_ml": "കുമരംപുത്തൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "M090700",
+      "local_body_name_en": "Mannarkad",
+      "local_body_name_ml": "മണ്ണാര്‍ക്കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090602",
+      "local_body_name_en": "Pudur",
+      "local_body_name_ml": "പുതൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090603",
+      "local_body_name_en": "Sholayoor",
+      "local_body_name_ml": "ഷോളയൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090509",
+      "local_body_name_en": "Thenkara",
+      "local_body_name_ml": "തെങ്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090601",
+      "local_body_name_en": "Agali",
+      "local_body_name_ml": "അഗളി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090501",
+      "local_body_name_en": "Alanallur",
+      "local_body_name_ml": "അലനല്ലൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/mannarkkad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/mannarkkad.geojson"
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "assembly_id": "112",
+  "assembly_name_en": "Ranni",
+  "assembly_name_ml": "റാന്നി",
+  "category": "Normal",
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G030301",
+      "local_body_name_en": "Ayroor",
+      "local_body_name_ml": "അയിരൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030404",
+      "local_body_name_en": "Cherukole",
+      "local_body_name_ml": "ചെറുകോല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030305",
+      "local_body_name_en": "Ezhumattoor",
+      "local_body_name_ml": "എഴുമറ്റൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030103",
+      "local_body_name_en": "Kottanad",
+      "local_body_name_ml": "കൊറ്റനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030104",
+      "local_body_name_en": "Kottangal",
+      "local_body_name_ml": "കോട്ടാങ്ങല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030508",
+      "local_body_name_en": "Naranammoozhy",
+      "local_body_name_ml": "നാറാണംമൂഴി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030503",
+      "local_body_name_en": "Ranni Angadi",
+      "local_body_name_ml": "റാന്നി അങ്ങാടി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030502",
+      "local_body_name_en": "Ranni",
+      "local_body_name_ml": "റാന്നി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030501",
+      "local_body_name_en": "Ranni Pazhavangadi",
+      "local_body_name_ml": "റാന്നി പഴവങ്ങാടി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030504",
+      "local_body_name_en": "Ranni Perunadu",
+      "local_body_name_ml": "റാന്നി പെരുനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030505",
+      "local_body_name_en": "Vadaserikara",
+      "local_body_name_ml": "വടശ്ശേരിക്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030509",
+      "local_body_name_en": "Vechoochira",
+      "local_body_name_ml": "വെച്ചൂച്ചിറ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/ranni.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/ranni.geojson"
+  }
+}

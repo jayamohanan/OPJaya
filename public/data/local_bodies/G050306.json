@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G050306",
+  "local_body_name_en": "Kumarakom",
+  "local_body_name_ml": "കുമരകം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "96",
+    "assembly_name_en": "Ettumanoor",
+    "assembly_name_ml": "ഏറ്റുമാനൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b9cb7214-6e31-48d6-9641-d8ed26a990c5",
+      "ward_no": "1",
+      "ward_name_en": "Kavanattinkara",
+      "ward_name_ml": "കവണാറ്റിന്‍കര"
+    },
+    {
+      "ward_id": "366f1a1f-af31-466a-b77a-91da316fa8b0",
+      "ward_no": "2",
+      "ward_name_en": "Csi Church",
+      "ward_name_ml": "സി.എസ്.ഐ പള്ളി"
+    },
+    {
+      "ward_id": "e1481758-f539-4497-b098-543cd266274b",
+      "ward_no": "3",
+      "ward_name_en": "Mankuzhy",
+      "ward_name_ml": "മങ്കുഴി"
+    },
+    {
+      "ward_id": "26efef23-09e0-4e43-8f13-5a9ee81d8eab",
+      "ward_no": "4",
+      "ward_name_en": "Vadakkumkara",
+      "ward_name_ml": "വടക്കുംകര"
+    },
+    {
+      "ward_id": "6e444ff1-85d8-4d62-82c2-6e0637839bae",
+      "ward_no": "5",
+      "ward_name_en": "Kollakery",
+      "ward_name_ml": "കൊല്ലകേരി"
+    },
+    {
+      "ward_id": "47d77fe5-480b-4110-a90d-09f707ad5046",
+      "ward_no": "6",
+      "ward_name_en": "Idavattam",
+      "ward_name_ml": "ഇടവട്ടം"
+    },
+    {
+      "ward_id": "b3ab17ac-cac9-4f17-8a54-b564f634d44e",
+      "ward_no": "7",
+      "ward_name_en": "Thekkumkara",
+      "ward_name_ml": "തെക്കുംകര"
+    },
+    {
+      "ward_id": "f0361f36-764d-450e-829d-46a9a1112a9c",
+      "ward_no": "8",
+      "ward_name_en": "Attipeedika",
+      "ward_name_ml": "അട്ടിപ്പീടിക"
+    },
+    {
+      "ward_id": "74c0ddef-64f1-4473-98cd-85465ac7850b",
+      "ward_no": "9",
+      "ward_name_en": "Nasreth",
+      "ward_name_ml": "നസ്രേത്ത്"
+    },
+    {
+      "ward_id": "72166586-646d-4d19-aa1f-cb49a95e708d",
+      "ward_no": "10",
+      "ward_name_en": "Bazar",
+      "ward_name_ml": "ബസാര്‍"
+    },
+    {
+      "ward_id": "128860bf-2b57-4efe-a958-e475d23f43d9",
+      "ward_no": "11",
+      "ward_name_en": "Melekkara",
+      "ward_name_ml": "മേലേക്കര"
+    },
+    {
+      "ward_id": "9529d680-e814-4f6f-b0fc-9d2b5e36e439",
+      "ward_no": "12",
+      "ward_name_en": "Marcket",
+      "ward_name_ml": "മാര്‍ക്കറ്റ്"
+    },
+    {
+      "ward_id": "16e24b1a-ff5a-40ba-8802-ec7c0bb5dd9f",
+      "ward_no": "13",
+      "ward_name_en": "Sbt",
+      "ward_name_ml": "എസ്.ബി.ടി"
+    },
+    {
+      "ward_id": "c5bffaae-f705-4ca2-af90-8462bc90e2b0",
+      "ward_no": "14",
+      "ward_name_en": "Ammankari",
+      "ward_name_ml": "അമ്മങ്കരി"
+    },
+    {
+      "ward_id": "ea17a6c4-fe82-49a2-ba27-c4cf68f98d61",
+      "ward_no": "15",
+      "ward_name_en": "Sree Kumaramangalam",
+      "ward_name_ml": "ശ്രീകുമാരമംഗലം"
+    },
+    {
+      "ward_id": "85e31188-dbcf-43f0-8278-ad51019c4359",
+      "ward_no": "16",
+      "ward_name_en": "Cheppannukari",
+      "ward_name_ml": "ചെപ്പന്നുക്കരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050306.geojson"
+  }
+}

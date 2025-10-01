@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G110803",
+  "local_body_name_en": "Moodadi",
+  "local_body_name_ml": "മൂടാടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "23",
+    "assembly_name_en": "Koyilandy",
+    "assembly_name_ml": "കൊയിലാണ്ടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f5dbc22a-94de-4b24-85c0-598a9453cfd8",
+      "ward_no": "1",
+      "ward_name_en": "Kodikkal",
+      "ward_name_ml": "കോടിക്കല്‍"
+    },
+    {
+      "ward_id": "b99b18c0-0931-43b8-9f28-d8476d1a6599",
+      "ward_no": "2",
+      "ward_name_en": "Irupatham Mile",
+      "ward_name_ml": "ഇരുപതാം മൈല്‍"
+    },
+    {
+      "ward_id": "099e0961-9a2e-43dc-9ace-7f88d4bbdd77",
+      "ward_no": "3",
+      "ward_name_en": "Elambilad",
+      "ward_name_ml": "എളംപിലാട്"
+    },
+    {
+      "ward_id": "6302d365-64c3-4956-9451-a6c2c9e538fb",
+      "ward_no": "4",
+      "ward_name_en": "Veeravanchery",
+      "ward_name_ml": "വീരവഞ്ചേരി"
+    },
+    {
+      "ward_id": "78241a95-596e-4839-9802-44d964419b51",
+      "ward_no": "5",
+      "ward_name_en": "Chingapuram",
+      "ward_name_ml": "ചിങ്ങപുരം"
+    },
+    {
+      "ward_id": "65f086f5-8d65-4174-ac41-d3678f04c5f0",
+      "ward_no": "6",
+      "ward_name_en": "Valiyamala",
+      "ward_name_ml": "വലിയമല"
+    },
+    {
+      "ward_id": "6b4628cb-06b9-4062-9748-271189d483e7",
+      "ward_no": "7",
+      "ward_name_en": "Neravath",
+      "ward_name_ml": "നെരവത്ത്"
+    },
+    {
+      "ward_id": "368f0160-297e-4608-8f9c-4db99340e5b6",
+      "ward_no": "8",
+      "ward_name_en": "Muchukunnu North",
+      "ward_name_ml": "മുചുകുന്ന് നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "e6ddcd27-fbf2-4b5a-b955-febb0d5ee808",
+      "ward_no": "9",
+      "ward_name_en": "Muchukunnu Central",
+      "ward_name_ml": "മുചുകുന്ന് സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "a8f4f88f-5f05-4da4-b106-a5a121c1d7f2",
+      "ward_no": "10",
+      "ward_name_en": "Muchukunnu South",
+      "ward_name_ml": "മുചുകുന്ന് സൌത്ത്"
+    },
+    {
+      "ward_id": "0abe42d0-1ec2-4021-a55e-259abd12c4bb",
+      "ward_no": "11",
+      "ward_name_en": "Gopalapuram",
+      "ward_name_ml": "ഗോപാലപുരം"
+    },
+    {
+      "ward_id": "3b82524b-19a7-4f3b-8a56-12c55fac11cb",
+      "ward_no": "12",
+      "ward_name_en": "Palakkulam",
+      "ward_name_ml": "പാലക്കുളം"
+    },
+    {
+      "ward_id": "b5ad83ff-c0d0-4b1a-b54f-56035fa7d107",
+      "ward_no": "13",
+      "ward_name_en": "Moodadi",
+      "ward_name_ml": "മൂടാടി"
+    },
+    {
+      "ward_id": "86e0226a-dd28-4a83-bb09-5b65cf89943c",
+      "ward_no": "14",
+      "ward_name_en": "Hillbazar",
+      "ward_name_ml": "ഹില്‍ബസാര്‍"
+    },
+    {
+      "ward_id": "e57ad874-7211-4c8f-b4b6-8a939d00f331",
+      "ward_no": "15",
+      "ward_name_en": "Nandi",
+      "ward_name_ml": "നന്തി"
+    },
+    {
+      "ward_id": "89de19ab-061f-4810-be2b-d3c3329cf4bb",
+      "ward_no": "16",
+      "ward_name_en": "Veemangalam",
+      "ward_name_ml": "വീമംഗലം"
+    },
+    {
+      "ward_id": "b8d4bb09-74e7-4db0-bd2a-be52893706bf",
+      "ward_no": "17",
+      "ward_name_en": "Kataloor",
+      "ward_name_ml": "കടലൂര്‍"
+    },
+    {
+      "ward_id": "f618ee2c-ef8b-4e7a-8ad3-e8714bff7a85",
+      "ward_no": "18",
+      "ward_name_en": "Avikkal",
+      "ward_name_ml": "ആവിക്കല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110803.geojson"
+  }
+}

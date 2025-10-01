@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060206",
+  "local_body_name_en": "Chinnakanal",
+  "local_body_name_ml": "ചിന്നക്കനാല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "88",
+    "assembly_name_en": "Devikulam",
+    "assembly_name_ml": "ദേവികുളം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3c392611-4a1c-4ead-bfda-a4872591d9d6",
+      "ward_no": "1",
+      "ward_name_en": "Powerhouse",
+      "ward_name_ml": "പവര്‍ഹൌസ്"
+    },
+    {
+      "ward_id": "3016ad7a-69df-4741-a134-58749abf6940",
+      "ward_no": "2",
+      "ward_name_en": "Chinnakanal",
+      "ward_name_ml": "ചിന്നക്കനാല്‍"
+    },
+    {
+      "ward_id": "c21e43fc-62c8-414f-b68f-851305b849ec",
+      "ward_no": "3",
+      "ward_name_en": "Gundumala",
+      "ward_name_ml": "ഗുണ്ടുമല"
+    },
+    {
+      "ward_id": "5d01d41b-779a-497c-82bd-b1a591821534",
+      "ward_no": "4",
+      "ward_name_en": "Lower Surianelli",
+      "ward_name_ml": "ലോവര്‍ സൂര്യനെല്ലി"
+    },
+    {
+      "ward_id": "ab085a80-53c9-493d-a325-37969cbd038a",
+      "ward_no": "5",
+      "ward_name_en": "Nagamala",
+      "ward_name_ml": "നാഗമല"
+    },
+    {
+      "ward_id": "668d7668-d2ba-4c4f-b84b-6e8680258950",
+      "ward_no": "6",
+      "ward_name_en": "Pappathichola",
+      "ward_name_ml": "പാപ്പാത്തിച്ചോല"
+    },
+    {
+      "ward_id": "61eb7b44-a01e-46f7-a551-cad0b0716e4b",
+      "ward_no": "7",
+      "ward_name_en": "Chempakathozhukudy",
+      "ward_name_ml": "ചെമ്പകത്തൊഴുകുടി"
+    },
+    {
+      "ward_id": "ddd9dc97-2895-426d-9fd7-885ac4510608",
+      "ward_no": "8",
+      "ward_name_en": "B.L.Ram",
+      "ward_name_ml": "ബിയല്‍റാം"
+    },
+    {
+      "ward_id": "f8396d77-0320-4043-975e-2495d0e9f221",
+      "ward_no": "9",
+      "ward_name_en": "Singukandam",
+      "ward_name_ml": "സിംഗുകണ്ടം"
+    },
+    {
+      "ward_id": "b6ecf231-c80d-4795-b657-ff2a7f2a2c5f",
+      "ward_no": "10",
+      "ward_name_en": "Surianelli",
+      "ward_name_ml": "സൂര്യനെല്ലി"
+    },
+    {
+      "ward_id": "716f2774-804e-45e7-8bd1-e43c9cf259ed",
+      "ward_no": "11",
+      "ward_name_en": "Periakanal",
+      "ward_name_ml": "പെരിയകനാല്‍"
+    },
+    {
+      "ward_id": "9d352ab7-0c17-45f1-bcef-4f71563672bd",
+      "ward_no": "12",
+      "ward_name_en": "Venadu",
+      "ward_name_ml": "വേണാട്"
+    },
+    {
+      "ward_id": "ba70e24f-d5ec-4e8d-83fa-7948dda68aa4",
+      "ward_no": "13",
+      "ward_name_en": "Muttukadu",
+      "ward_name_ml": "മുട്ടുകാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060206.geojson"
+  }
+}

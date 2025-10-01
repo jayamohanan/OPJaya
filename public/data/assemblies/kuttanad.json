@@ -1,0 +1,96 @@
+{
+  "assembly_id": "106",
+  "assembly_name_en": "Kuttanad",
+  "assembly_name_ml": "കുട്ടനാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G040605",
+      "local_body_name_en": "Champakulam",
+      "local_body_name_ml": "ചമ്പക്കുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040602",
+      "local_body_name_en": "Edathua",
+      "local_body_name_ml": "എടത്വാ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040606",
+      "local_body_name_en": "Kainakary",
+      "local_body_name_ml": "കൈനകരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040704",
+      "local_body_name_en": "Kavalam",
+      "local_body_name_ml": "കാവാലം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040701",
+      "local_body_name_en": "Muttar",
+      "local_body_name_ml": "മുട്ടാര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040604",
+      "local_body_name_en": "Nedumudi",
+      "local_body_name_ml": "നെടുമുടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040703",
+      "local_body_name_en": "Neelamperoor",
+      "local_body_name_ml": "നീലംപേരൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G040705",
+      "local_body_name_en": "Pulincunnoo",
+      "local_body_name_ml": "പുളിങ്കുന്ന്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040706",
+      "local_body_name_en": "Ramankary",
+      "local_body_name_ml": "രാമങ്കരി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040603",
+      "local_body_name_en": "Thakazhy",
+      "local_body_name_ml": "തകഴി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040601",
+      "local_body_name_en": "Thalavady",
+      "local_body_name_ml": "തലവടി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G040908",
+      "local_body_name_en": "Veeyapuram",
+      "local_body_name_ml": "വീയപുരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G040702",
+      "local_body_name_en": "Veliyanad",
+      "local_body_name_ml": "വെളിയനാട്",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kuttanad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kuttanad.geojson"
+  }
+}

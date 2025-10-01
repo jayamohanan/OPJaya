@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050406",
+  "local_body_name_en": "Uzhavoor",
+  "local_body_name_ml": "ഉഴവൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "94",
+    "assembly_name_en": "Kaduthuruthy",
+    "assembly_name_ml": "കടുത്തുരുത്തി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c76e6601-5ece-4516-80e8-db6e64ecabc8",
+      "ward_no": "1",
+      "ward_name_en": "Achickal",
+      "ward_name_ml": "ആച്ചിയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "e6d2c42d-64c8-4ea9-90b9-2840f5870dba",
+      "ward_no": "2",
+      "ward_name_en": "Kudukkappara",
+      "ward_name_ml": "കുടുക്കപ്പാറ"
+    },
+    {
+      "ward_id": "f328fac6-177f-443d-93fa-5fe6043a077c",
+      "ward_no": "3",
+      "ward_name_en": "Piousmount",
+      "ward_name_ml": "പയസ്മൌണ്ട്"
+    },
+    {
+      "ward_id": "b032f9ce-91a2-42c2-8d51-cf615f8bb5da",
+      "ward_no": "4",
+      "ward_name_en": "Areekkara",
+      "ward_name_ml": "അരീക്കര"
+    },
+    {
+      "ward_id": "fb39a2a2-d496-4aea-83f3-fcc415f1d284",
+      "ward_no": "5",
+      "ward_name_en": "Nedumpara",
+      "ward_name_ml": "നെടുമ്പാറ"
+    },
+    {
+      "ward_id": "d7f118cd-58ff-48c9-ae21-2250928771d2",
+      "ward_no": "6",
+      "ward_name_en": "Kurisumala",
+      "ward_name_ml": "കുരിശുമല"
+    },
+    {
+      "ward_id": "8ca26469-873e-4147-9f92-a21384aec5a5",
+      "ward_no": "7",
+      "ward_name_en": "Pulppara",
+      "ward_name_ml": "പുല്‍പ്പാറ"
+    },
+    {
+      "ward_id": "39d1f671-266d-4566-97f8-f31847736aeb",
+      "ward_no": "8",
+      "ward_name_en": "Uzhavoor Town",
+      "ward_name_ml": "ഉഴവൂര്‍ ടൌണ്‍"
+    },
+    {
+      "ward_id": "74d32d78-5271-4996-ba9d-55739f231d35",
+      "ward_no": "9",
+      "ward_name_en": "Perumthanam",
+      "ward_name_ml": "പെരുന്താനം"
+    },
+    {
+      "ward_id": "a94d548b-d6c6-4257-b2aa-3547f1638c3d",
+      "ward_no": "10",
+      "ward_name_en": "Karunechi",
+      "ward_name_ml": "കരുനെച്ചി"
+    },
+    {
+      "ward_id": "6f1d71b9-abb3-4cfc-8f58-0349d228abd5",
+      "ward_no": "11",
+      "ward_name_en": "Attakkanal",
+      "ward_name_ml": "അട്ടക്കനാല്‍"
+    },
+    {
+      "ward_id": "0214130b-4497-4737-8cd3-ecc1ae832f7a",
+      "ward_no": "12",
+      "ward_name_en": "Cheenkallel",
+      "ward_name_ml": "ചീങ്കല്ലേല്‍"
+    },
+    {
+      "ward_id": "2d74af48-306c-4069-b207-d24ac8620eaf",
+      "ward_no": "13",
+      "ward_name_en": "Monippally Town",
+      "ward_name_ml": "മോനിപ്പള്ളി ടൌണ്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050406.geojson"
+  }
+}

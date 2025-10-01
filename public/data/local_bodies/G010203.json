@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G010203",
+  "local_body_name_en": "Karavaram",
+  "local_body_name_ml": "കരവാരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "128",
+    "assembly_name_en": "Attingal",
+    "assembly_name_ml": "ആറ്റിങ്ങൽ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "0365ce2b-90a9-4daf-bb90-3d284873770c",
+      "ward_no": "1",
+      "ward_name_en": "Kallambalam",
+      "ward_name_ml": "കല്ലമ്പലം"
+    },
+    {
+      "ward_id": "504bc2ee-ad27-40c1-8b8b-006e8767959d",
+      "ward_no": "2",
+      "ward_name_en": "Puthusserimukku",
+      "ward_name_ml": "പുതുശ്ശേരിമുക്ക്"
+    },
+    {
+      "ward_id": "ccc0ebc8-33e6-4bbf-9b3d-2a519b722bb3",
+      "ward_no": "3",
+      "ward_name_en": "Ethukkadu",
+      "ward_name_ml": "എതുക്കാട്"
+    },
+    {
+      "ward_id": "1a4d0b7e-eb47-465b-923f-7916ee2a10c9",
+      "ward_no": "4",
+      "ward_name_en": "Konnoori",
+      "ward_name_ml": "കൊണ്ണൂറി"
+    },
+    {
+      "ward_id": "b80491ad-0692-442f-86d5-831927976484",
+      "ward_no": "5",
+      "ward_name_en": "Thottakkadu",
+      "ward_name_ml": "തോട്ടയ്ക്കാട്"
+    },
+    {
+      "ward_id": "0a60e676-0b13-4bf0-9d5a-7bc4cb5e0108",
+      "ward_no": "6",
+      "ward_name_en": "Mudiyottukonam",
+      "ward_name_ml": "മുടിയോട്ടുകോണം"
+    },
+    {
+      "ward_id": "ef8a0d65-1858-4acf-806c-0bc9c93c63e2",
+      "ward_no": "7",
+      "ward_name_en": "Kannattukonam",
+      "ward_name_ml": "കണ്ണാട്ടുകോണം"
+    },
+    {
+      "ward_id": "89d98ddb-a92e-4100-a623-4b4efcb2f639",
+      "ward_no": "8",
+      "ward_name_en": "Pattakonam",
+      "ward_name_ml": "പട്ടകോണം"
+    },
+    {
+      "ward_id": "cbd6b914-94ee-4835-b105-b75b28559b66",
+      "ward_no": "9",
+      "ward_name_en": "Njarakkattuvila",
+      "ward_name_ml": "ഞാറയ്ക്കാട്ടുവിള"
+    },
+    {
+      "ward_id": "f759c79a-d3ed-4d9e-80e1-f0a8a5494367",
+      "ward_no": "10",
+      "ward_name_en": "Vanchiyoor",
+      "ward_name_ml": "വഞ്ചിയൂര്‍"
+    },
+    {
+      "ward_id": "b4c92ef5-5d20-4428-8b8a-488d40f78e29",
+      "ward_no": "11",
+      "ward_name_en": "Eramam",
+      "ward_name_ml": "ഇരമം"
+    },
+    {
+      "ward_id": "89d7c525-08f8-4c0d-866a-b4e3e6ccfeb4",
+      "ward_no": "12",
+      "ward_name_en": "Patla",
+      "ward_name_ml": "പട്ട്ള"
+    },
+    {
+      "ward_id": "7e61ca1f-92cc-4d96-92b4-e9e1ae3435dc",
+      "ward_no": "13",
+      "ward_name_en": "Pallimukku",
+      "ward_name_ml": "പള്ളിമുക്ക്"
+    },
+    {
+      "ward_id": "f8689006-c17d-4770-b9fb-e95dd92a005c",
+      "ward_no": "14",
+      "ward_name_en": "Mevarkkal",
+      "ward_name_ml": "മേവര്‍ക്കല്‍"
+    },
+    {
+      "ward_id": "17f07e27-3c84-48ef-a862-def94156e226",
+      "ward_no": "15",
+      "ward_name_en": "Alamcodu.H.S",
+      "ward_name_ml": "ആലംകോട്.എച്ച്.എസ്"
+    },
+    {
+      "ward_id": "58bcc4f4-878c-4994-a5bd-ae742c6142bf",
+      "ward_no": "16",
+      "ward_name_en": "Chathampara",
+      "ward_name_ml": "ചാത്തമ്പറ"
+    },
+    {
+      "ward_id": "93e554d9-baa0-4b21-95fd-b5edf1516266",
+      "ward_no": "17",
+      "ward_name_en": "Parakkulam",
+      "ward_name_ml": "പറക്കുളം"
+    },
+    {
+      "ward_id": "4605b058-61fe-4c7d-bcc7-4e526ef539e4",
+      "ward_no": "18",
+      "ward_name_en": "Karavaram",
+      "ward_name_ml": "കരവാരം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010203.geojson"
+  }
+}

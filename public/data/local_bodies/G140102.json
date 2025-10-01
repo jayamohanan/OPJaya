@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G140102",
+  "local_body_name_en": "Vorkady",
+  "local_body_name_ml": "വോര്‍ക്കാടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "1",
+    "assembly_name_en": "Manjeshwar",
+    "assembly_name_ml": "മഞ്ചശ്വരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "dcc8a0c3-7f9d-492a-9afd-c8692895a1b1",
+      "ward_no": "9",
+      "ward_name_en": "Sodankoor",
+      "ward_name_ml": "സോഡoകൂര്‍"
+    },
+    {
+      "ward_id": "5ba7645f-8d2e-4112-ba7d-dfc28eecdd0c",
+      "ward_no": "1",
+      "ward_name_en": "Pavoor",
+      "ward_name_ml": "പാവൂര്‍"
+    },
+    {
+      "ward_id": "d5d809a1-d924-48eb-b9d4-0723a6f1d622",
+      "ward_no": "2",
+      "ward_name_en": "Kedumbady",
+      "ward_name_ml": "കെദുംബാഡി"
+    },
+    {
+      "ward_id": "da2d8df9-3046-46ce-ab74-aafab857adc2",
+      "ward_no": "3",
+      "ward_name_en": "Sunnangala",
+      "ward_name_ml": "സുന്നങ്കള"
+    },
+    {
+      "ward_id": "138f3a57-f639-4a18-a40e-fee3199a8484",
+      "ward_no": "4",
+      "ward_name_en": "Pavala",
+      "ward_name_ml": "പാവള"
+    },
+    {
+      "ward_id": "c971ff81-87ef-4322-a76a-c3f9ff2e9630",
+      "ward_no": "5",
+      "ward_name_en": "Boddody",
+      "ward_name_ml": "ബൊഡ്ഡോഡി"
+    },
+    {
+      "ward_id": "61c4d3fb-eaf8-4b4a-8520-488ea1025b3e",
+      "ward_no": "6",
+      "ward_name_en": "Sullyame",
+      "ward_name_ml": "സുള്യമേ"
+    },
+    {
+      "ward_id": "3a428d6b-9f45-44b8-b42f-293942b4b658",
+      "ward_no": "7",
+      "ward_name_en": "Pathoor",
+      "ward_name_ml": "പാത്തൂര്‍"
+    },
+    {
+      "ward_id": "a7f1abc4-b124-4e20-be0c-53ca568731bb",
+      "ward_no": "8",
+      "ward_name_en": "Thalekki",
+      "ward_name_ml": "തലെക്കി"
+    },
+    {
+      "ward_id": "e5af0404-21a8-4d68-9768-579e604359d1",
+      "ward_no": "10",
+      "ward_name_en": "Borkala",
+      "ward_name_ml": "ബോര്‍ക്കള"
+    },
+    {
+      "ward_id": "92019211-3644-4713-af6c-24879526e4dc",
+      "ward_no": "11",
+      "ward_name_en": "Konibail",
+      "ward_name_ml": "കൊണിബൈല്‍"
+    },
+    {
+      "ward_id": "a6d23cc3-26dd-41af-9e4e-eb581e5a404e",
+      "ward_no": "12",
+      "ward_name_en": "Kodlamogaru",
+      "ward_name_ml": "കൊട്ലമോഗരു"
+    },
+    {
+      "ward_id": "1888a2b2-4d7c-4a26-a6a6-e8a54fa09ebb",
+      "ward_no": "13",
+      "ward_name_en": "Dharmanagara",
+      "ward_name_ml": "ധര്‍മനഗര്‍"
+    },
+    {
+      "ward_id": "b483044c-76e8-4821-a01c-cc0708ff30ed",
+      "ward_no": "14",
+      "ward_name_en": "Vorkady",
+      "ward_name_ml": "വോര്‍ക്കാടി"
+    },
+    {
+      "ward_id": "0e1473ce-5116-4f1a-9fa2-d9f5472eacc1",
+      "ward_no": "15",
+      "ward_name_en": "Nallengi",
+      "ward_name_ml": "നല്ലെങ്കീ"
+    },
+    {
+      "ward_id": "f4a9d25f-7eb6-4376-891a-8bf9b4619c2f",
+      "ward_no": "16",
+      "ward_name_en": "Aribail",
+      "ward_name_ml": "അരിബൈല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140102.geojson"
+  }
+}

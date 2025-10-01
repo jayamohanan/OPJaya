@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G111101",
+  "local_body_name_en": "Kodiyathur",
+  "local_body_name_ml": "കൊടിയത്തൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "32",
+    "assembly_name_en": "Thiruvambady",
+    "assembly_name_ml": "തിരുവമ്പാടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5e1a16b4-2674-492a-a441-2ac7562c41a7",
+      "ward_no": "1",
+      "ward_name_en": "Kodiyathur",
+      "ward_name_ml": "കൊടിയത്തൂര്‍"
+    },
+    {
+      "ward_id": "1ea68e72-e3b4-45b4-8cd3-aca5bb4ae108",
+      "ward_no": "2",
+      "ward_name_en": "Karakutty",
+      "ward_name_ml": "കാരക്കുറ്റി"
+    },
+    {
+      "ward_id": "0687502d-4cfd-4244-8fcb-de3ff67d3e88",
+      "ward_no": "3",
+      "ward_name_en": "Mattumury",
+      "ward_name_ml": "മാട്ടുമുറി"
+    },
+    {
+      "ward_id": "6c10bcdf-198d-4952-95c1-267bfbdf842c",
+      "ward_no": "4",
+      "ward_name_en": "Gothamburoad",
+      "ward_name_ml": "ഗോതമ്പുറോഡ്"
+    },
+    {
+      "ward_id": "617e16f5-86db-4101-a58f-f3303d6640c8",
+      "ward_no": "5",
+      "ward_name_en": "Thottumukkam",
+      "ward_name_ml": "തോട്ടുമുക്കം"
+    },
+    {
+      "ward_id": "3635b96b-d0a1-4a81-b200-ef6a11639671",
+      "ward_no": "6",
+      "ward_name_en": "Pallithazham",
+      "ward_name_ml": "പള്ളിത്താഴം"
+    },
+    {
+      "ward_id": "48f3e86e-2003-4973-adcb-10a364456c1f",
+      "ward_no": "7",
+      "ward_name_en": "Puthiyanidam",
+      "ward_name_ml": "പുതിയനിടം"
+    },
+    {
+      "ward_id": "b5b5ab1a-c54a-4eda-9e8a-6f046811f222",
+      "ward_no": "8",
+      "ward_name_en": "Eranhimavu",
+      "ward_name_ml": "എരഞ്ഞിമാവ്"
+    },
+    {
+      "ward_id": "225c2c25-0da8-497c-8826-f29efa832cde",
+      "ward_no": "9",
+      "ward_name_en": "Pannicode",
+      "ward_name_ml": "പന്നിക്കോട്"
+    },
+    {
+      "ward_id": "bc46118c-4944-4c33-b049-3bc31be1cad8",
+      "ward_no": "10",
+      "ward_name_en": "Pazhamparambu",
+      "ward_name_ml": "പഴംപറമ്പ്"
+    },
+    {
+      "ward_id": "c1268491-2b45-4ea6-aa2e-f14edf954482",
+      "ward_no": "11",
+      "ward_name_en": "Pottammel",
+      "ward_name_ml": "പൊറ്റമ്മല്‍"
+    },
+    {
+      "ward_id": "06226673-93db-4872-a61e-b751ac4b45fa",
+      "ward_no": "12",
+      "ward_name_en": "Cheruvadi",
+      "ward_name_ml": "ചെറുവാടി"
+    },
+    {
+      "ward_id": "36c4373b-88e8-4186-ba68-d5ffb87f3861",
+      "ward_no": "13",
+      "ward_name_en": "Chullikkaparambu West",
+      "ward_name_ml": "ചുള്ളിക്കാപറമ്പ് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "514a7ec4-00a1-4f62-b656-3e9fd5fd28c7",
+      "ward_no": "14",
+      "ward_name_en": "Chullikkaparambu East",
+      "ward_name_ml": "ചുള്ളിക്കാപറമ്പ് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "800ffb3e-6706-4bd2-bb8b-5a659e7e9ef6",
+      "ward_no": "15",
+      "ward_name_en": "Kannamparambu",
+      "ward_name_ml": "കണ്ണാംപറമ്പ്"
+    },
+    {
+      "ward_id": "72bb0c87-6981-47cd-8738-699fb1a7efc5",
+      "ward_no": "16",
+      "ward_name_en": "South Kodiyathur",
+      "ward_name_ml": "സൌത്ത് കൊടിയത്തൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G111101.geojson"
+  }
+}

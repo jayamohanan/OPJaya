@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G090805",
+  "local_body_name_en": "Peringottukurissi",
+  "local_body_name_ml": "പെരിങ്ങോട്ടുകുറിശ്ശി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "57",
+    "assembly_name_en": "Tarur",
+    "assembly_name_ml": "തരൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "640eac0d-f24d-40ee-a5ab-001f7777e07b",
+      "ward_no": "1",
+      "ward_name_en": "Oduvankadu",
+      "ward_name_ml": "ഒടുവന്‍കാട്"
+    },
+    {
+      "ward_id": "7afb029b-b515-4ab5-af48-4fe689dac899",
+      "ward_no": "2",
+      "ward_name_en": "Kunnathuparambu",
+      "ward_name_ml": "കുന്നത്തുപറമ്പ്"
+    },
+    {
+      "ward_id": "80f91bdf-3a00-44be-bf94-ec3cecf0c8bb",
+      "ward_no": "3",
+      "ward_name_en": "Muduppully",
+      "ward_name_ml": "മുടുപ്പുളളി"
+    },
+    {
+      "ward_id": "ca10035f-b786-41e8-b3ee-233ae585123f",
+      "ward_no": "4",
+      "ward_name_en": "Paruthipully",
+      "ward_name_ml": "പരുത്തിപ്പുളളി"
+    },
+    {
+      "ward_id": "3a181eda-5b93-48b6-af6f-7d36be2c92c6",
+      "ward_no": "5",
+      "ward_name_en": "Peruvala",
+      "ward_name_ml": "പെരുവല"
+    },
+    {
+      "ward_id": "ae021aac-c9af-42f1-88dc-ebcb7b9ae1d3",
+      "ward_no": "6",
+      "ward_name_en": "Maniyampara",
+      "ward_name_ml": "മണിയമ്പാറ"
+    },
+    {
+      "ward_id": "9ef18f76-8f4c-4cdf-890a-8e74acecf0e6",
+      "ward_no": "7",
+      "ward_name_en": "Njettiyode",
+      "ward_name_ml": "ഞെട്ടിയോട്"
+    },
+    {
+      "ward_id": "d9ea130b-d757-4802-b707-cacc48e3f3d6",
+      "ward_no": "8",
+      "ward_name_en": "Bemmanur",
+      "ward_name_ml": "ബമ്മണൂര്‍"
+    },
+    {
+      "ward_id": "6b1892a2-073a-4101-9bf9-f2b933299fe1",
+      "ward_no": "9",
+      "ward_name_en": "Mandapathinkave",
+      "ward_name_ml": "മണ്ഡപത്തിന്‍കാവ്"
+    },
+    {
+      "ward_id": "8839eb6d-beaf-4687-91c6-e0269dfd6beb",
+      "ward_no": "10",
+      "ward_name_en": "Pilappully",
+      "ward_name_ml": "പിലാപ്പുളളി"
+    },
+    {
+      "ward_id": "64e398c0-7e5f-42cb-9121-4a50147e56d4",
+      "ward_no": "11",
+      "ward_name_en": "Peringottukurissi",
+      "ward_name_ml": "പെരുങ്ങോട്ടുകുറിശ്ശി"
+    },
+    {
+      "ward_id": "83fb9b2f-ee18-4f20-adc5-e9c634c846b3",
+      "ward_no": "12",
+      "ward_name_en": "Narangaparambu",
+      "ward_name_ml": "നാരങ്ങാപറമ്പ്"
+    },
+    {
+      "ward_id": "05ed5f6c-1934-43d2-9d66-2d6f6f50821a",
+      "ward_no": "13",
+      "ward_name_en": "Choolanur",
+      "ward_name_ml": "ചൂലനൂര്‍"
+    },
+    {
+      "ward_id": "e621c0b9-477e-40a4-9521-0aa4511fd5b4",
+      "ward_no": "14",
+      "ward_name_en": "Vadakkumuri",
+      "ward_name_ml": "വടക്കുമുറി"
+    },
+    {
+      "ward_id": "a2a6a6f7-dfe1-4ea5-9cef-9fd9bafe722a",
+      "ward_no": "15",
+      "ward_name_en": "Naduvathapara",
+      "ward_name_ml": "നടുവത്തപ്പാറ"
+    },
+    {
+      "ward_id": "451e2dcb-72ab-49db-a488-904d5ebebac2",
+      "ward_no": "16",
+      "ward_name_en": "Thottumukke",
+      "ward_name_ml": "തോട്ടുമുക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090805.geojson"
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G130101",
+  "local_body_name_en": "Kunhimangalam",
+  "local_body_name_ml": "കുഞ്ഞിമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "7",
+    "assembly_name_en": "Kalliasseri",
+    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "fc388a86-a38d-47bc-9506-9fabf1083a7f",
+      "ward_no": "1",
+      "ward_name_en": "Edat",
+      "ward_name_ml": "എടാട്ട്"
+    },
+    {
+      "ward_id": "348bc437-dc0c-44f1-926b-43f44d06f14c",
+      "ward_no": "2",
+      "ward_name_en": "Cheratt",
+      "ward_name_ml": "ചെറാട്ട്"
+    },
+    {
+      "ward_id": "12b14222-92d7-4458-a0f9-f8b4222cc198",
+      "ward_no": "3",
+      "ward_name_en": "Kunninukizhakku",
+      "ward_name_ml": "കുന്നിന്കിഴക്ക്"
+    },
+    {
+      "ward_id": "4c8c801f-2f51-446b-b491-202ef3c10784",
+      "ward_no": "4",
+      "ward_name_en": "Parambath",
+      "ward_name_ml": "പറമ്പത്ത്"
+    },
+    {
+      "ward_id": "8b1dbe0a-d256-4ca2-9a55-0bf1570fb39d",
+      "ward_no": "5",
+      "ward_name_en": "Kizhakkani",
+      "ward_name_ml": "കിഴക്കാനി"
+    },
+    {
+      "ward_id": "1c0bc77a-4f72-4ed0-b90c-29f01f93582e",
+      "ward_no": "6",
+      "ward_name_en": "Malliyote",
+      "ward_name_ml": "മല്ലിയോട്ട്"
+    },
+    {
+      "ward_id": "ce8f4bc4-b848-4734-ba79-425c3e508d4b",
+      "ward_no": "7",
+      "ward_name_en": "Panachira",
+      "ward_name_ml": "പാണച്ചിറ"
+    },
+    {
+      "ward_id": "0cbb6757-1a0a-4e29-afb1-24752d2fcedc",
+      "ward_no": "8",
+      "ward_name_en": "Angadi",
+      "ward_name_ml": "അങ്ങാടി"
+    },
+    {
+      "ward_id": "cf72e7a9-c67a-45e3-a8a1-8700c7f18eb5",
+      "ward_no": "9",
+      "ward_name_en": "Thalayi",
+      "ward_name_ml": "തലായി"
+    },
+    {
+      "ward_id": "636c97bc-9596-42cc-a539-e5e6aa0d4bae",
+      "ward_no": "10",
+      "ward_name_en": "Thekkumbad",
+      "ward_name_ml": "തെക്കുമ്പാട്"
+    },
+    {
+      "ward_id": "ebeab4a7-109e-4723-a4e5-ec300355f993",
+      "ward_no": "11",
+      "ward_name_en": "Puthiyapuzhakkara",
+      "ward_name_ml": "പുതിയപുഴക്കര"
+    },
+    {
+      "ward_id": "162bec27-58a7-407d-8c87-0e212cae5e43",
+      "ward_no": "12",
+      "ward_name_en": "Kuthirummal",
+      "ward_name_ml": "കുതിരുമ്മല്‍"
+    },
+    {
+      "ward_id": "7e7c0834-1044-424e-ac54-71117b0ed589",
+      "ward_no": "13",
+      "ward_name_en": "Kandamkulangara",
+      "ward_name_ml": "കണ്ടംകുളങ്ങര"
+    },
+    {
+      "ward_id": "cecebce6-1219-49f9-a414-88fcd72ea5ec",
+      "ward_no": "14",
+      "ward_name_en": "Vadakkumbad",
+      "ward_name_ml": "വടക്കുമ്പാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130101.geojson"
+  }
+}

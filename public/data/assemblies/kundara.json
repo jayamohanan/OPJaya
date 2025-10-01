@@ -1,0 +1,60 @@
+{
+  "assembly_id": "123",
+  "assembly_name_en": "Kundara",
+  "assembly_name_ml": "കുണ്ടറ",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020904",
+      "local_body_name_en": "Elampalloor",
+      "local_body_name_ml": "ഇളംപള്ളൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020903",
+      "local_body_name_en": "Kottamkara",
+      "local_body_name_ml": "കൊറ്റങ്കര",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020702",
+      "local_body_name_en": "Kundara",
+      "local_body_name_ml": "കുണ്ടറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020905",
+      "local_body_name_en": "Nedumpana",
+      "local_body_name_ml": "നെടുമ്പന",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020704",
+      "local_body_name_en": "Perayam",
+      "local_body_name_ml": "പേരയം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020701",
+      "local_body_name_en": "Perinad",
+      "local_body_name_ml": "പെരിനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020902",
+      "local_body_name_en": "Thrikkovilvattom",
+      "local_body_name_ml": "തൃക്കോവില്‍വട്ടം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kundara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kundara.geojson"
+  }
+}

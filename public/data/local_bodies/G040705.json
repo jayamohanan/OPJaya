@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G040705",
+  "local_body_name_en": "Pulincunnoo",
+  "local_body_name_ml": "പുളിങ്കുന്ന്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "c495b9bb-b4b8-4e77-b42e-6eca772c5506",
+      "ward_no": "1",
+      "ward_name_en": "Venattukadu",
+      "ward_name_ml": "വേണാട്ടുകാട്"
+    },
+    {
+      "ward_id": "e54ff3c9-e19e-49b6-aeac-55360c0f6f58",
+      "ward_no": "2",
+      "ward_name_en": "College",
+      "ward_name_ml": "കോളേജ്"
+    },
+    {
+      "ward_id": "1d49c33c-51de-41de-8b2b-7c09afdc5663",
+      "ward_no": "3",
+      "ward_name_en": "Kannady",
+      "ward_name_ml": "കണ്ണാടി"
+    },
+    {
+      "ward_id": "427e436e-1a7b-4b97-8dcf-26d140b140d2",
+      "ward_no": "4",
+      "ward_name_en": "Valanchery",
+      "ward_name_ml": "വളഞ്ചേരി"
+    },
+    {
+      "ward_id": "eaf8dd33-2382-4924-b01e-5c00f5ebe88a",
+      "ward_no": "5",
+      "ward_name_en": "Marada",
+      "ward_name_ml": "മാരാട"
+    },
+    {
+      "ward_id": "27237482-149c-42a3-994e-20662f306b34",
+      "ward_no": "6",
+      "ward_name_en": "Ambanapally",
+      "ward_name_ml": "അമ്പനാപള്ളി"
+    },
+    {
+      "ward_id": "183d1981-317c-4e80-b7d6-7222fb11b6c0",
+      "ward_no": "7",
+      "ward_name_en": "Kizhakkethalakkal",
+      "ward_name_ml": "കിഴക്കേത്തലയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "cd090c92-1f06-4a17-879c-3e83ade27b58",
+      "ward_no": "8",
+      "ward_name_en": "Kollamuttom",
+      "ward_name_ml": "കൊല്ലമുട്ടം"
+    },
+    {
+      "ward_id": "bd6a6641-c0d9-431e-bcac-f95fe8fba06b",
+      "ward_no": "9",
+      "ward_name_en": "Choolayil",
+      "ward_name_ml": "ചൂളയില്‍"
+    },
+    {
+      "ward_id": "a5e3a6ec-5807-4367-915a-a7745d9804b2",
+      "ward_no": "10",
+      "ward_name_en": "Kalakandam",
+      "ward_name_ml": "കാളകണ്ടം"
+    },
+    {
+      "ward_id": "3404f45b-5e02-446c-a625-19568959db7e",
+      "ward_no": "11",
+      "ward_name_en": "Pulincunnoo",
+      "ward_name_ml": "പുളിങ്കുന്ന്"
+    },
+    {
+      "ward_id": "e2ee1fb3-b094-4fab-9bbe-069b85a34f15",
+      "ward_no": "12",
+      "ward_name_en": "Kayalpuram",
+      "ward_name_ml": "കായല്‍പ്പുറം"
+    },
+    {
+      "ward_id": "0ffe38bb-9fc2-48c7-bf90-66aafbe5a561",
+      "ward_no": "13",
+      "ward_name_en": "Hospital Ward",
+      "ward_name_ml": "ഹോസ്പിറ്റല്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "50063fb5-d0b8-411f-878f-631d1063fa77",
+      "ward_no": "14",
+      "ward_name_en": "Moncompu Temple",
+      "ward_name_ml": "മങ്കൊമ്പ് ടെമ്പിള്‍"
+    },
+    {
+      "ward_id": "b848d794-c478-4808-b12b-f20096294d00",
+      "ward_no": "15",
+      "ward_name_en": "Moncompu Statue",
+      "ward_name_ml": "മങ്കൊമ്പ് സ്റ്റാച്യു"
+    },
+    {
+      "ward_id": "04e3920a-0573-4ffe-9747-fb7be093707f",
+      "ward_no": "16",
+      "ward_name_en": "Chathurthyakary",
+      "ward_name_ml": "ചതുര്‍ത്ഥ്യാകരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040705.geojson"
+  }
+}

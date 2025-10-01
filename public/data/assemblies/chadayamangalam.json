@@ -1,0 +1,72 @@
+{
+  "assembly_id": "122",
+  "assembly_name_en": "Chadayamangalam",
+  "assembly_name_ml": "ചടയമംഗലം",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G021103",
+      "local_body_name_en": "Chadayamangalam",
+      "local_body_name_ml": "ചടയമംഗലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021101",
+      "local_body_name_en": "Chithara",
+      "local_body_name_ml": "ചിതറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G021106",
+      "local_body_name_en": "Elamadu",
+      "local_body_name_ml": "ഇളമാട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021104",
+      "local_body_name_en": "Ittiva",
+      "local_body_name_ml": "ഇട്ടിവ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021102",
+      "local_body_name_en": "Kadakkal",
+      "local_body_name_ml": "കടയ്ക്കല്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G021108",
+      "local_body_name_en": "Kummil",
+      "local_body_name_ml": "കുമ്മിള്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021107",
+      "local_body_name_en": "Nilamel",
+      "local_body_name_ml": "നിലമേല്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G021105",
+      "local_body_name_en": "Velinalloor",
+      "local_body_name_ml": "വെളിനല്ലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020503",
+      "local_body_name_en": "Alayamon",
+      "local_body_name_ml": "അലയമണ്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/chadayamangalam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/chadayamangalam.geojson"
+  }
+}

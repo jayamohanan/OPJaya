@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G110303",
+  "local_body_name_en": "Kavilumpara",
+  "local_body_name_ml": "കാവിലുമ്പാറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "22",
+    "assembly_name_en": "Nadapuram",
+    "assembly_name_ml": "നാദാപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "67f76184-8d77-46ae-ab10-fa6e58221d92",
+      "ward_no": "1",
+      "ward_name_en": "Karingad",
+      "ward_name_ml": "കരിങ്ങാട്"
+    },
+    {
+      "ward_id": "450867a5-aba6-4073-aa06-6dc9ced8b92e",
+      "ward_no": "2",
+      "ward_name_en": "Koodalil",
+      "ward_name_ml": "കൂടലില്‍"
+    },
+    {
+      "ward_id": "086d8963-344f-4e46-a1ec-3becde33f67f",
+      "ward_no": "3",
+      "ward_name_en": "Karimunda",
+      "ward_name_ml": "കാരിമുണ്ട"
+    },
+    {
+      "ward_id": "9c93ae1a-497f-48d0-be44-9ee05f0c864c",
+      "ward_no": "4",
+      "ward_name_en": "Poothampara",
+      "ward_name_ml": "പൂതംപാറ"
+    },
+    {
+      "ward_id": "5180ed5a-f157-424e-93a1-5bfa25c157bd",
+      "ward_no": "5",
+      "ward_name_en": "Chappanthottam",
+      "ward_name_ml": "ചാപ്പന്‍തോട്ടം"
+    },
+    {
+      "ward_id": "14952681-7402-4bf9-a06e-ab3c9f33de42",
+      "ward_no": "6",
+      "ward_name_en": "Vannathiyett",
+      "ward_name_ml": "വണ്ണാത്തിയേറ്റ്"
+    },
+    {
+      "ward_id": "361141da-2b79-4da6-8dd6-d1245da5741e",
+      "ward_no": "7",
+      "ward_name_en": "Vattipana",
+      "ward_name_ml": "വട്ടിപ്പന"
+    },
+    {
+      "ward_id": "68aaf7d4-3682-49a4-8706-d82796359335",
+      "ward_no": "8",
+      "ward_name_en": "Kunduthode",
+      "ward_name_ml": "കുണ്ട്തോട്"
+    },
+    {
+      "ward_id": "5af0aed7-2b57-49fd-97aa-aed64ab4bbca",
+      "ward_no": "9",
+      "ward_name_en": "Puthukkad",
+      "ward_name_ml": "പുതുക്കാട്"
+    },
+    {
+      "ward_id": "f3a82be4-de20-491c-91be-bd0f4ba8c4ce",
+      "ward_no": "10",
+      "ward_name_en": "Nagampara",
+      "ward_name_ml": "നാഗംപാറ"
+    },
+    {
+      "ward_id": "70a8001c-b0c5-4946-9785-dab43dc263b2",
+      "ward_no": "11",
+      "ward_name_en": "Aswasi",
+      "ward_name_ml": "ആശ്വാസി"
+    },
+    {
+      "ward_id": "0fb5c57b-19c2-4637-b0b9-da5b333837ab",
+      "ward_no": "12",
+      "ward_name_en": "Kalangode",
+      "ward_name_ml": "കലങ്ങോട്"
+    },
+    {
+      "ward_id": "26b3e8c3-237a-4f3b-861d-89a7978c7178",
+      "ward_no": "13",
+      "ward_name_en": "Moyilothara",
+      "ward_name_ml": "മൊയിലോത്തറ"
+    },
+    {
+      "ward_id": "398e5b11-e8a9-4358-be83-3d5615d6ee28",
+      "ward_no": "14",
+      "ward_name_en": "Thekkelakkandi",
+      "ward_name_ml": "തെക്കേലക്കണ്ടി"
+    },
+    {
+      "ward_id": "00a3e087-c2ad-463a-b190-ba10bcf65198",
+      "ward_no": "15",
+      "ward_name_en": "Paikkalangadi",
+      "ward_name_ml": "പൈക്കലങ്ങാടി"
+    },
+    {
+      "ward_id": "86accf40-f782-4b34-8192-ce0eb54bfdb1",
+      "ward_no": "16",
+      "ward_name_en": "Thottilpalam",
+      "ward_name_ml": "തൊട്ടില്‍പാലം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110303.geojson"
+  }
+}

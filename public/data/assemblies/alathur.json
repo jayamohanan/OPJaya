@@ -1,0 +1,60 @@
+{
+  "assembly_id": "60",
+  "assembly_name_en": "Alathur",
+  "assembly_name_ml": "ആലത്തൂര്‍",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G091201",
+      "local_body_name_en": "Alathur",
+      "local_body_name_ml": "ആലത്തൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091202",
+      "local_body_name_en": "Erimayur",
+      "local_body_name_ml": "എരിമയൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G091204",
+      "local_body_name_en": "Kizhakkencherry",
+      "local_body_name_ml": "കിഴക്കഞ്ചരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090803",
+      "local_body_name_en": "Kuzhalmannam",
+      "local_body_name_ml": "കുഴല്‍മന്ദം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G091105",
+      "local_body_name_en": "Melarcode",
+      "local_body_name_ml": "മേലാര്‍കോട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090806",
+      "local_body_name_en": "Thenkurissi",
+      "local_body_name_ml": "തേങ്കുറിശ്ശി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091107",
+      "local_body_name_en": "Vandazhy",
+      "local_body_name_ml": "വണ്ടാഴി",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/alathur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/alathur.geojson"
+  }
+}

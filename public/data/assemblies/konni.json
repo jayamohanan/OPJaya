@@ -1,0 +1,84 @@
+{
+  "assembly_id": "114",
+  "assembly_name_en": "Konni",
+  "assembly_name_ml": "കോന്നി",
+  "category": "Normal",
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G030602",
+      "local_body_name_en": "Aruvappulam",
+      "local_body_name_ml": "അരുവാപ്പുലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030506",
+      "local_body_name_en": "Chittar",
+      "local_body_name_ml": "ചിറ്റാര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030801",
+      "local_body_name_en": "Enadimangalam",
+      "local_body_name_ml": "ഏനാദിമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030805",
+      "local_body_name_en": "Kalanjoor",
+      "local_body_name_ml": "കലഞ്ഞൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030601",
+      "local_body_name_en": "Konni",
+      "local_body_name_ml": "കോന്നി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030607",
+      "local_body_name_en": "Malayalapuzha",
+      "local_body_name_ml": "മലയാലപ്പുഴ",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030604",
+      "local_body_name_en": "Mylapra",
+      "local_body_name_ml": "മൈലപ്രാ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030603",
+      "local_body_name_en": "Pramadom",
+      "local_body_name_ml": "പ്രമാടം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G030507",
+      "local_body_name_en": "Seethathodu",
+      "local_body_name_ml": "സീതത്തോട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G030606",
+      "local_body_name_en": "Thannithodu",
+      "local_body_name_ml": "തണ്ണിത്തോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G030605",
+      "local_body_name_en": "Vallicode",
+      "local_body_name_ml": "വള്ളിക്കോട്",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/konni.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/konni.geojson"
+  }
+}

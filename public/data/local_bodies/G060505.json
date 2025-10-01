@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G060505",
+  "local_body_name_en": "Vazhathope",
+  "local_body_name_ml": "വാഴത്തോപ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "91",
+    "assembly_name_en": "Idukki",
+    "assembly_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "56049ede-bb96-4d2f-a442-12539f30eb36",
+      "ward_no": "1",
+      "ward_name_en": "Maniyarankudy",
+      "ward_name_ml": "മണിയാറന്‍കുടി"
+    },
+    {
+      "ward_id": "0ff0e05c-2de8-4420-985b-b5fbc92d3194",
+      "ward_no": "2",
+      "ward_name_en": "Mulakuvally",
+      "ward_name_ml": "മുളകുവള്ളി"
+    },
+    {
+      "ward_id": "f9af8be1-a266-4b3d-baf6-4562827e60ed",
+      "ward_no": "3",
+      "ward_name_en": "Manjappara",
+      "ward_name_ml": "മഞ്ഞപ്പാറ"
+    },
+    {
+      "ward_id": "3461f14f-509b-40b0-9405-ea49562248a1",
+      "ward_no": "4",
+      "ward_name_en": "Karimban",
+      "ward_name_ml": "കരിമ്പന്‍"
+    },
+    {
+      "ward_id": "d9b808a5-c39f-4b7c-b4b0-6ecd235b39e3",
+      "ward_no": "5",
+      "ward_name_en": "Thadiyampadu",
+      "ward_name_ml": "തടിയമ്പാട്"
+    },
+    {
+      "ward_id": "af9bd892-bac2-4b61-b971-fafc75ae69b5",
+      "ward_no": "6",
+      "ward_name_en": "Kesamuni",
+      "ward_name_ml": "കേശമുനി"
+    },
+    {
+      "ward_id": "46277b34-0c33-437b-bd89-292c6de7a871",
+      "ward_no": "7",
+      "ward_name_en": "Vazhathope",
+      "ward_name_ml": "വാഴത്തോപ്പ്"
+    },
+    {
+      "ward_id": "57a035cb-823d-4fe5-b264-e36c8b0b32e7",
+      "ward_no": "8",
+      "ward_name_en": "Peppara",
+      "ward_name_ml": "പേപ്പാറ"
+    },
+    {
+      "ward_id": "d2fd6b64-79e8-4445-b433-eb6869e33304",
+      "ward_no": "9",
+      "ward_name_en": "Thannikkandam",
+      "ward_name_ml": "താന്നിക്കണ്ടം"
+    },
+    {
+      "ward_id": "ef93ac71-5423-44af-98f7-5f89c6319f4f",
+      "ward_no": "10",
+      "ward_name_en": "Cheruthony",
+      "ward_name_ml": "ചെറുതോണി"
+    },
+    {
+      "ward_id": "a3cc8bbe-3aec-4e29-9e1c-da58a3b99b29",
+      "ward_no": "11",
+      "ward_name_en": "Gandhinagar",
+      "ward_name_ml": "ഗാന്ധിനഗര്‍"
+    },
+    {
+      "ward_id": "6acaa4d5-8b07-49e9-ba98-ab8617869797",
+      "ward_no": "12",
+      "ward_name_en": "Painavu",
+      "ward_name_ml": "പൈനാവ്"
+    },
+    {
+      "ward_id": "feeb46fb-5934-4dc8-b8d9-dc5b5f72bbd1",
+      "ward_no": "13",
+      "ward_name_en": "Mukkannankudy",
+      "ward_name_ml": "മുക്കണ്ണന്‍കുടി"
+    },
+    {
+      "ward_id": "ece7c10e-b877-4b54-ab82-3ecadc493b9c",
+      "ward_no": "14",
+      "ward_name_en": "Perumkala",
+      "ward_name_ml": "പെരുംകാല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060505.geojson"
+  }
+}

@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G060607",
+  "local_body_name_en": "Chakkupallam",
+  "local_body_name_ml": "ചക്കുപള്ളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "92",
+    "assembly_name_en": "Peerumade",
+    "assembly_name_ml": "പീരുമേട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "caf1f327-9c4a-4cf0-bcfb-9ae99f6f6a85",
+      "ward_no": "1",
+      "ward_name_en": "Anavilasam",
+      "ward_name_ml": "ആനവിലാസം"
+    },
+    {
+      "ward_id": "37b7188c-0d3a-40fc-9d8a-7fd3f531a5e5",
+      "ward_no": "2",
+      "ward_name_en": "Naduppara",
+      "ward_name_ml": "നടുപ്പാറ"
+    },
+    {
+      "ward_id": "01a3ebaf-f5e5-477a-b69a-fa499f857bc8",
+      "ward_no": "3",
+      "ward_name_en": "Ambalamedu",
+      "ward_name_ml": "അമ്പലമേട്"
+    },
+    {
+      "ward_id": "4678e498-93b0-4bf5-946c-892539e8da69",
+      "ward_no": "4",
+      "ward_name_en": "Chakkupallam North",
+      "ward_name_ml": "ചക്കുപള്ളം നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "8c9ba2a8-7116-48f7-a1ed-15d60b17a2ff",
+      "ward_no": "5",
+      "ward_name_en": "Sulthankada",
+      "ward_name_ml": "സുല്‍ത്താന്‍കട"
+    },
+    {
+      "ward_id": "288f8ea0-57c0-4a86-8dc7-640a7e2db7d0",
+      "ward_no": "6",
+      "ward_name_en": "Anakkara",
+      "ward_name_ml": "അണക്കര"
+    },
+    {
+      "ward_id": "37c80b7d-7b4c-428d-b1ba-9bc0a90ee8eb",
+      "ward_no": "7",
+      "ward_name_en": "Myladumpara",
+      "ward_name_ml": "മൈലാടുംപാറ"
+    },
+    {
+      "ward_id": "7af0742b-9ec5-49f5-8866-1cf8a51bfb4b",
+      "ward_no": "8",
+      "ward_name_en": "Chellarcovil",
+      "ward_name_ml": "ചെല്ലാര്‍കോവില്‍"
+    },
+    {
+      "ward_id": "b086d1d1-7513-4c5d-8ca5-9fe3e175902f",
+      "ward_no": "9",
+      "ward_name_en": "Udhayagirimedu",
+      "ward_name_ml": "ഉദയഗിരിമേട്"
+    },
+    {
+      "ward_id": "736478ca-67fd-4123-a6d7-a539cd59945f",
+      "ward_no": "10",
+      "ward_name_en": "Mathaikandam",
+      "ward_name_ml": "മത്തായിക്കണ്ടം"
+    },
+    {
+      "ward_id": "27b3d106-28c6-4a16-b2e8-9c9cc9bf756b",
+      "ward_no": "11",
+      "ward_name_en": "Valiyapara",
+      "ward_name_ml": "വലിയപാറ"
+    },
+    {
+      "ward_id": "b71e741e-6f5b-47cb-9de8-ee837b0c2a29",
+      "ward_no": "12",
+      "ward_name_en": "Menonmedu",
+      "ward_name_ml": "മേനോന്‍മേട്"
+    },
+    {
+      "ward_id": "11bcc60d-ac48-48f5-97df-e1da72b15f4e",
+      "ward_no": "13",
+      "ward_name_en": "Chakkupallam South",
+      "ward_name_ml": "ചക്കുപള്ളം സൌത്ത്"
+    },
+    {
+      "ward_id": "b4196876-20e1-4223-8ccd-cecdd1bdc7de",
+      "ward_no": "14",
+      "ward_name_en": "Melchakkupallam",
+      "ward_name_ml": "മേല്‍ചക്കുപള്ളം"
+    },
+    {
+      "ward_id": "dd9ccdfa-44d5-40e9-8f21-e47ec2a790b7",
+      "ward_no": "15",
+      "ward_name_en": "Nedumthotty",
+      "ward_name_ml": "നെടുംതൊട്ടി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060607.geojson"
+  }
+}

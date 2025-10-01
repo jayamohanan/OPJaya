@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G130207",
+  "local_body_name_en": "Kannapuram",
+  "local_body_name_ml": "കണ്ണപുരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "7",
+    "assembly_name_en": "Kalliasseri",
+    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "be8d9bca-1e29-4fc8-bf62-cae4cc6a3838",
+      "ward_no": "1",
+      "ward_name_en": "Ambalapuram",
+      "ward_name_ml": "അമ്പലപ്പുറം"
+    },
+    {
+      "ward_id": "2ab6c7bc-4cb9-48db-b6ec-9c23768b25f9",
+      "ward_no": "2",
+      "ward_name_en": "Kannapuram Town",
+      "ward_name_ml": "കണ്ണപുരം ടൌണ്‍"
+    },
+    {
+      "ward_id": "eb86bd36-10bb-4030-9f51-a80e398fd741",
+      "ward_no": "3",
+      "ward_name_en": "Kannapuram Centre",
+      "ward_name_ml": "കണ്ണപുരം സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "5b4f5ef6-bcbc-4969-a2ff-1b546d64e1e3",
+      "ward_no": "4",
+      "ward_name_en": "Chundavayal",
+      "ward_name_ml": "ചുണ്ടവയല്‍"
+    },
+    {
+      "ward_id": "73f3b0a4-d604-4531-b332-cf19992022d2",
+      "ward_no": "5",
+      "ward_name_en": "Chunda",
+      "ward_name_ml": "ചുണ്ട"
+    },
+    {
+      "ward_id": "45040901-a136-414f-97cf-581132383d20",
+      "ward_no": "6",
+      "ward_name_en": "Kayatteel",
+      "ward_name_ml": "കയറ്റീല്‍"
+    },
+    {
+      "ward_id": "519cacb4-0774-4ff9-af41-c965aa96606e",
+      "ward_no": "7",
+      "ward_name_en": "Keezhara",
+      "ward_name_ml": "കീഴറ"
+    },
+    {
+      "ward_id": "b47a7f70-4067-4bb9-8de5-37283270f653",
+      "ward_no": "8",
+      "ward_name_en": "Chemmaravayal",
+      "ward_name_ml": "ചെമ്മരവയല്‍"
+    },
+    {
+      "ward_id": "f9e7eb70-f2bd-44de-a231-959336d2c8cb",
+      "ward_no": "9",
+      "ward_name_en": "Mottammal",
+      "ward_name_ml": "മൊട്ടമ്മല്‍"
+    },
+    {
+      "ward_id": "7a8b2c58-54ac-4245-8ae3-7ed3f0a4c332",
+      "ward_no": "10",
+      "ward_name_en": "Thrikoth",
+      "ward_name_ml": "തൃക്കോത്ത്"
+    },
+    {
+      "ward_id": "4fef6748-1228-488b-b199-373f3d032bda",
+      "ward_no": "11",
+      "ward_name_en": "Kannapuram South",
+      "ward_name_ml": "കണ്ണപുരം സൌത്ത്"
+    },
+    {
+      "ward_id": "62dad334-04af-495d-8364-6f5753ef13ef",
+      "ward_no": "12",
+      "ward_name_en": "Edakkeppuram Kizhakke",
+      "ward_name_ml": "ഇടക്കേപ്പുറം കിഴക്ക്"
+    },
+    {
+      "ward_id": "807e3fbb-44b9-4c29-ac76-4b9beb0d67f7",
+      "ward_no": "13",
+      "ward_name_en": "Edakkeppuram Thekku",
+      "ward_name_ml": "ഇടക്കേപ്പുറം തെക്ക്"
+    },
+    {
+      "ward_id": "f78b1c1b-eb8e-4dd6-ba79-f5ffc9ab5217",
+      "ward_no": "14",
+      "ward_name_en": "Ayyoth",
+      "ward_name_ml": "അയ്യോത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130207.geojson"
+  }
+}

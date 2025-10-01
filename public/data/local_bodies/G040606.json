@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G040606",
+  "local_body_name_en": "Kainakary",
+  "local_body_name_ml": "കൈനകരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "989f994d-cdb3-42c7-95c2-7f798ddd8b63",
+      "ward_no": "1",
+      "ward_name_en": "Kuppappuram",
+      "ward_name_ml": "കുപ്പപ്പുറം"
+    },
+    {
+      "ward_id": "548364f6-b776-46ba-85d8-25fc6419929b",
+      "ward_no": "2",
+      "ward_name_en": "Cherukalikayal",
+      "ward_name_ml": "ചെറുകാലിക്കായല്‍"
+    },
+    {
+      "ward_id": "b390e645-a8cb-4f1b-be8e-af2c821a9bf9",
+      "ward_no": "3",
+      "ward_name_en": "Kuttamangalam",
+      "ward_name_ml": "കുട്ടമംഗലം"
+    },
+    {
+      "ward_id": "7de917bd-e1c3-4de6-9821-3b3fd9f7282b",
+      "ward_no": "4",
+      "ward_name_en": "Vavakadu",
+      "ward_name_ml": "വാവക്കാട്"
+    },
+    {
+      "ward_id": "0a3e0a60-76af-4660-9ea3-7a81fe697b9b",
+      "ward_no": "5",
+      "ward_name_en": "Bhajanamadom",
+      "ward_name_ml": "ഭജനമഠം"
+    },
+    {
+      "ward_id": "28aa65da-7d31-4005-ac4b-4ac6dac29603",
+      "ward_no": "6",
+      "ward_name_en": "Kizhakke Chennamkary",
+      "ward_name_ml": "കിഴക്കേ ചേന്നങ്കരി"
+    },
+    {
+      "ward_id": "9f8064fb-f54d-4b03-a9d6-1b00c31b2f56",
+      "ward_no": "7",
+      "ward_name_en": "Island Ward",
+      "ward_name_ml": "ഐലന്‍റ് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "9884e449-849f-44ac-9ea8-6b2f26e113b3",
+      "ward_no": "8",
+      "ward_name_en": "Vavakadu South",
+      "ward_name_ml": "തെക്കേ വാവക്കാട്"
+    },
+    {
+      "ward_id": "f1260d00-8a7e-4e9d-b4da-0a4b1c1e8ec3",
+      "ward_no": "9",
+      "ward_name_en": "Panchayat Ward",
+      "ward_name_ml": "പഞ്ചായത്ത് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "dffb9712-48df-45d9-851f-b86c0d886d17",
+      "ward_no": "10",
+      "ward_name_en": "Idappally Ward",
+      "ward_name_ml": "ഇടപ്പളളി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "bb133804-159b-4d43-b1db-b4fc4bd609bc",
+      "ward_no": "11",
+      "ward_name_en": "Puthenthuram",
+      "ward_name_ml": "പുത്തന്‍തുരം"
+    },
+    {
+      "ward_id": "f62c4a62-d0d7-41ce-996e-9ceb90468e68",
+      "ward_no": "12",
+      "ward_name_en": "Thottuvathala",
+      "ward_name_ml": "തോട്ടുവാത്തല"
+    },
+    {
+      "ward_id": "eb7a0263-a21c-4bd3-b8d1-235ab1e84c40",
+      "ward_no": "13",
+      "ward_name_en": "Arunnootumpadam",
+      "ward_name_ml": "അറുന്നൂറ്റുംപാടം"
+    },
+    {
+      "ward_id": "7026d0a8-d057-4b00-915d-cb22a316fd4c",
+      "ward_no": "14",
+      "ward_name_en": "West Kuttamangalam",
+      "ward_name_ml": "പടിഞ്ഞാറെ കുട്ടമംഗലം"
+    },
+    {
+      "ward_id": "a59535b5-4453-4a9c-a20f-ac009f4c25c0",
+      "ward_no": "15",
+      "ward_name_en": "Thottukadavu",
+      "ward_name_ml": "തോട്ടുകടവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040606.geojson"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G091005",
+  "local_body_name_en": "Vadavannur",
+  "local_body_name_ml": "വടവന്നൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "59",
+    "assembly_name_en": "Nenmara",
+    "assembly_name_ml": "നെന്മാറ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "b4208df1-b231-4f67-991a-ae9b6b065868",
+      "ward_no": "1",
+      "ward_name_en": "Mazhoorkavu",
+      "ward_name_ml": "മഴൂര്‍ക്കാവ്"
+    },
+    {
+      "ward_id": "6119ab10-b64b-4447-a9b3-35146459aef8",
+      "ward_no": "2",
+      "ward_name_en": "Pilapully",
+      "ward_name_ml": "പിലാപ്പുള്ളി"
+    },
+    {
+      "ward_id": "12b09660-f1ff-480e-b4d9-102642fea9fc",
+      "ward_no": "3",
+      "ward_name_en": "Mullakkalkulambu",
+      "ward_name_ml": "മുല്ലയ്ക്കല്‍കുളമ്പ്"
+    },
+    {
+      "ward_id": "8278e532-17ca-48b7-ba6f-368e1f952fc1",
+      "ward_no": "4",
+      "ward_name_en": "Pokkunni",
+      "ward_name_ml": "പൊക്കുന്നി"
+    },
+    {
+      "ward_id": "7e7c2e52-6cd9-4576-9c29-0cc25f8a4613",
+      "ward_no": "5",
+      "ward_name_en": "Thankayam",
+      "ward_name_ml": "തങ്കയം"
+    },
+    {
+      "ward_id": "f60fd83a-df8b-4f40-8cc5-6762477593e0",
+      "ward_no": "6",
+      "ward_name_en": "Koothampaku",
+      "ward_name_ml": "കൂത്തമ്പാക്ക"
+    },
+    {
+      "ward_id": "759a1fbc-e004-4643-a98f-c3a6dc3afd68",
+      "ward_no": "7",
+      "ward_name_en": "Menangathu",
+      "ward_name_ml": "മേനങ്ങത്ത്"
+    },
+    {
+      "ward_id": "a60a53ef-ec79-4db7-9f80-debb12fb9e4d",
+      "ward_no": "8",
+      "ward_name_en": "Madathanara",
+      "ward_name_ml": "മടത്തനാറ"
+    },
+    {
+      "ward_id": "ad55fdd1-c767-4b0d-a86b-3fdc5a74bb25",
+      "ward_no": "9",
+      "ward_name_en": "V P Thara",
+      "ward_name_ml": "വി പി തറ"
+    },
+    {
+      "ward_id": "38524c8b-5766-47e6-9597-b442572fbeda",
+      "ward_no": "10",
+      "ward_name_en": "Pallam",
+      "ward_name_ml": "പള്ളം"
+    },
+    {
+      "ward_id": "9e568f69-c137-49f5-8678-1c4d28caeea6",
+      "ward_no": "11",
+      "ward_name_en": "Keezhachira",
+      "ward_name_ml": "കീഴച്ചിറ"
+    },
+    {
+      "ward_id": "9aa94781-5c2b-4ea6-96a9-fe9004be3508",
+      "ward_no": "12",
+      "ward_name_en": "Pattathalachi",
+      "ward_name_ml": "പട്ടത്തലച്ചി"
+    },
+    {
+      "ward_id": "19d60e85-9c17-4c3b-aeb3-0727340c7b25",
+      "ward_no": "13",
+      "ward_name_en": "Kakkarakalam",
+      "ward_name_ml": "കാക്കരകളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091005.geojson"
+  }
+}

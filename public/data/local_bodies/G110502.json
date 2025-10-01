@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G110502",
+  "local_body_name_en": "Keezhariyur",
+  "local_body_name_ml": "കീഴരിയൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "24",
+    "assembly_name_en": "Perambra",
+    "assembly_name_ml": "പേരാംബ്ര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "f14b3336-9319-41a0-89cd-6fa118126037",
+      "ward_no": "1",
+      "ward_name_en": "Vadakkummuri",
+      "ward_name_ml": "വടക്കുംമുറി"
+    },
+    {
+      "ward_id": "aba46ee9-60b0-4b8f-8781-8c51aa6169c8",
+      "ward_no": "2",
+      "ward_name_en": "Keezhariyur West",
+      "ward_name_ml": "കീഴരിയൂര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "700369a4-bd51-46ed-8344-c14d0786abbd",
+      "ward_no": "3",
+      "ward_name_en": "Keezhariyur Centre",
+      "ward_name_ml": "കീഴരിയൂര്‍ സെന്‍റര്‍"
+    },
+    {
+      "ward_id": "9a82eb21-1ce2-40f4-9977-c51d85e972c3",
+      "ward_no": "4",
+      "ward_name_en": "Naduvathoor",
+      "ward_name_ml": "നടുവത്തൂര്‍"
+    },
+    {
+      "ward_id": "c243cab2-6777-435e-997f-639815cb184c",
+      "ward_no": "5",
+      "ward_name_en": "Manappattil Thazhe",
+      "ward_name_ml": "മണപ്പാട്ടില്‍ താഴെ"
+    },
+    {
+      "ward_id": "0b3775cf-5cba-4224-8cda-9743ff71473e",
+      "ward_no": "6",
+      "ward_name_en": "Kunnoth Mukku",
+      "ward_name_ml": "കുന്നോത്ത് മുക്ക്"
+    },
+    {
+      "ward_id": "513e5d24-bc71-4ce2-bca9-89285f2b712a",
+      "ward_no": "7",
+      "ward_name_en": "Nambrathukara",
+      "ward_name_ml": "നമ്പ്രത്തുകര"
+    },
+    {
+      "ward_id": "e35219f2-47d5-4bf8-b2f8-800c5f0c8c77",
+      "ward_no": "8",
+      "ward_name_en": "Nambrathukara West",
+      "ward_name_ml": "നമ്പ്രത്തുകര വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "c2c10891-63aa-45b8-9fc6-255b6b7a7582",
+      "ward_no": "9",
+      "ward_name_en": "Naduvathoor South",
+      "ward_name_ml": "നടുവത്തൂര്‍ സൗത്ത്"
+    },
+    {
+      "ward_id": "8db0e244-284a-4efe-8d1f-f39af338bdcf",
+      "ward_no": "10",
+      "ward_name_en": "Thathamvallipoyil",
+      "ward_name_ml": "തത്തംവള്ളിപ്പൊയില്‍"
+    },
+    {
+      "ward_id": "7a6a4ece-67ec-4497-a94d-efc4c69867c9",
+      "ward_no": "11",
+      "ward_name_en": "Mannadi",
+      "ward_name_ml": "മണ്ണാടി"
+    },
+    {
+      "ward_id": "76c77983-c1f6-4476-bade-49b513b6b394",
+      "ward_no": "12",
+      "ward_name_en": "Keeramkunnu",
+      "ward_name_ml": "കീരംകൂന്ന്"
+    },
+    {
+      "ward_id": "b207c8b2-c7d3-4797-b1dd-9816e7df021b",
+      "ward_no": "13",
+      "ward_name_en": "Korapra",
+      "ward_name_ml": "കോരപ്ര"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110502.geojson"
+  }
+}

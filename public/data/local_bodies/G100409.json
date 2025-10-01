@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G100409",
+  "local_body_name_en": "Muthuvalloor",
+  "local_body_name_ml": "മുതുവല്ലൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "33",
+    "assembly_name_en": "Kondotty",
+    "assembly_name_ml": "കൊണ്ടോട്ടി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "51f30236-9f49-441c-961e-a7d7810681c0",
+      "ward_no": "1",
+      "ward_name_en": "Parathakkad",
+      "ward_name_ml": "പരതക്കാട്"
+    },
+    {
+      "ward_id": "0a456181-68b0-48bd-965f-4c8b70a1d73b",
+      "ward_no": "2",
+      "ward_name_en": "Muthuparamba",
+      "ward_name_ml": "മുതുപറമ്പ്"
+    },
+    {
+      "ward_id": "a6558516-1068-4183-9829-a8cadcee6b57",
+      "ward_no": "3",
+      "ward_name_en": "Peedikakkandi",
+      "ward_name_ml": "പീടികക്കണ്ടി"
+    },
+    {
+      "ward_id": "8bca7bf9-bb0e-4eeb-947e-af8b4d485604",
+      "ward_no": "4",
+      "ward_name_en": "Mundilakkal",
+      "ward_name_ml": "മുണ്ടിലാക്കല്‍"
+    },
+    {
+      "ward_id": "f7cabe33-27a6-424f-a434-320de7166641",
+      "ward_no": "5",
+      "ward_name_en": "Chullikkode",
+      "ward_name_ml": "ചുള്ളിക്കോട്"
+    },
+    {
+      "ward_id": "93d7da1a-915c-4f1b-85bb-1de709208d53",
+      "ward_no": "6",
+      "ward_name_en": "Parappur",
+      "ward_name_ml": "പറപ്പൂർ"
+    },
+    {
+      "ward_id": "95b752ae-3a6c-4bfb-82f2-f4e419f988ff",
+      "ward_no": "7",
+      "ward_name_en": "Vilayil",
+      "ward_name_ml": "വിളയില്‍"
+    },
+    {
+      "ward_id": "66c738f7-d0bb-4262-9ff6-84648c0e00bc",
+      "ward_no": "8",
+      "ward_name_en": "Panatalungal",
+      "ward_name_ml": "പാണാട്ടാലുങ്ങല്‍"
+    },
+    {
+      "ward_id": "b6b8309b-25e3-4013-87e0-07cbcac03411",
+      "ward_no": "9",
+      "ward_name_en": "Vadakkeparamba",
+      "ward_name_ml": "വടക്കേപറമ്പ്"
+    },
+    {
+      "ward_id": "d3b3c322-e147-4f30-9256-3ccdd22006d7",
+      "ward_no": "10",
+      "ward_name_en": "Thaniyampuram",
+      "ward_name_ml": "തനിയംപുറം"
+    },
+    {
+      "ward_id": "44a1296b-e634-467b-b940-5e962c1fc801",
+      "ward_no": "11",
+      "ward_name_en": "Maneeri",
+      "ward_name_ml": "മാനീരി"
+    },
+    {
+      "ward_id": "8d26d1cd-b74b-4e8f-b5fc-70b0c077ffe4",
+      "ward_no": "12",
+      "ward_name_en": "Muthuvalloor",
+      "ward_name_ml": "മുതുവല്ലൂർ"
+    },
+    {
+      "ward_id": "6b54ea72-8f00-4593-98e0-edb66d15f0b6",
+      "ward_no": "13",
+      "ward_name_en": "Pappath",
+      "ward_name_ml": "പാപ്പത്ത്"
+    },
+    {
+      "ward_id": "bf9d7a15-d6bb-4779-9977-b1cd71ccac79",
+      "ward_no": "14",
+      "ward_name_en": "Mundakkulam South",
+      "ward_name_ml": "മുണ്ടക്കുളം സൌത്ത്"
+    },
+    {
+      "ward_id": "b3e748cc-4dea-4ebe-a87e-10e7f39b8a26",
+      "ward_no": "15",
+      "ward_name_en": "Mundakkulam North",
+      "ward_name_ml": "മുണ്ടക്കുളം നോർത്ത്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100409.geojson"
+  }
+}

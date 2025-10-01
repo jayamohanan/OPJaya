@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G120403",
+  "local_body_name_en": "Vythiri",
+  "local_body_name_ml": "വൈത്തിരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "19",
+    "assembly_name_en": "Kalpetta",
+    "assembly_name_ml": "കല്‍പ്പറ്റ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3228c5a1-f65c-4b64-b602-20079473884e",
+      "ward_no": "1",
+      "ward_name_en": "Sreepuram",
+      "ward_name_ml": "ശ്രീപുരം"
+    },
+    {
+      "ward_id": "1798780b-0b47-4036-a868-323e2f0a4e72",
+      "ward_no": "2",
+      "ward_name_en": "Kunhamkode",
+      "ward_name_ml": "കുഞ്ഞംകോട്"
+    },
+    {
+      "ward_id": "18c7c92d-98de-47e7-ab3a-4c52ece1fc5f",
+      "ward_no": "3",
+      "ward_name_en": "Chundale",
+      "ward_name_ml": "ചുണ്ടേല്‍"
+    },
+    {
+      "ward_id": "1f60820a-e7c3-49d2-bac8-30b93c033262",
+      "ward_no": "4",
+      "ward_name_en": "Thalimala",
+      "ward_name_ml": "തളിമല"
+    },
+    {
+      "ward_id": "a33c623a-7796-454b-ae1f-70b20dc99e90",
+      "ward_no": "5",
+      "ward_name_en": "Narangakunnu",
+      "ward_name_ml": "നാരങ്ങാകുന്ന്"
+    },
+    {
+      "ward_id": "1ca9a3df-beab-4e96-b51f-3b40b5398f14",
+      "ward_no": "6",
+      "ward_name_en": "Charity",
+      "ward_name_ml": "ചാരിറ്റി"
+    },
+    {
+      "ward_id": "d48c8eff-fd63-4358-9672-3c65a5a0fcb6",
+      "ward_no": "7",
+      "ward_name_en": "Mullampara",
+      "ward_name_ml": "മുള്ളംപാറ"
+    },
+    {
+      "ward_id": "75e48e09-5d81-4c98-b011-9927e2677bcc",
+      "ward_no": "8",
+      "ward_name_en": "Lakkidi",
+      "ward_name_ml": "ലക്കിടി"
+    },
+    {
+      "ward_id": "e94b64d1-283b-4ec5-a3dc-ce0bb61d73d7",
+      "ward_no": "9",
+      "ward_name_en": "Thalippuzha",
+      "ward_name_ml": "തളിപ്പുഴ"
+    },
+    {
+      "ward_id": "d28ea0e9-0cc8-481a-8191-ca22409ee617",
+      "ward_no": "10",
+      "ward_name_en": "Kolichal",
+      "ward_name_ml": "കോളിച്ചാല്‍"
+    },
+    {
+      "ward_id": "c90b8ee3-8aa0-444c-b081-4e825b34a580",
+      "ward_no": "11",
+      "ward_name_en": "Vythiri Town",
+      "ward_name_ml": "വൈത്തിരി ടൌണ്‍"
+    },
+    {
+      "ward_id": "254e1d76-ee4b-4e54-aaa3-3df2f0a17ff7",
+      "ward_no": "12",
+      "ward_name_en": "Panthrandampalam",
+      "ward_name_ml": "പന്ത്രണ്ടാംപാലം"
+    },
+    {
+      "ward_id": "03a20206-0c9b-4956-921a-577d435a7043",
+      "ward_no": "13",
+      "ward_name_en": "Vattavayal",
+      "ward_name_ml": "വട്ടവയല്‍"
+    },
+    {
+      "ward_id": "23f23273-2a3d-4ba1-957f-3e284f3ec62a",
+      "ward_no": "14",
+      "ward_name_en": "Vellamkolly",
+      "ward_name_ml": "വെള്ളംകൊല്ലി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G120403.geojson"
+  }
+}

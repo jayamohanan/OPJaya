@@ -1,0 +1,265 @@
+{
+  "local_body_id": "M030200",
+  "local_body_name_en": "Thiruvalla",
+  "local_body_name_ml": "തിരുവല്ല",
+  "local_body_type_en": "Municipality",
+  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "2645ae82-6304-460e-a785-2d2083f9a857",
+      "ward_no": "1",
+      "ward_name_en": "Muthoor North",
+      "ward_name_ml": "മുത്തൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "94aaa411-1aff-4df2-921f-b02935462c16",
+      "ward_no": "2",
+      "ward_name_en": "Chumathra",
+      "ward_name_ml": "ചുമത്ര"
+    },
+    {
+      "ward_id": "748c9f27-df61-45dd-9e59-4eaf769e8593",
+      "ward_no": "3",
+      "ward_name_en": "Attuchira",
+      "ward_name_ml": "ആറ്റുചിറ"
+    },
+    {
+      "ward_id": "1957caa7-4638-41df-b1a7-b5f6d084e384",
+      "ward_no": "4",
+      "ward_name_en": "Kizhakkan Muthoor",
+      "ward_name_ml": "കിഴക്കന്‍ മുത്തൂര്‍"
+    },
+    {
+      "ward_id": "72ac94db-e746-4b32-be2f-ed79255666f0",
+      "ward_no": "5",
+      "ward_name_en": "Varikad",
+      "ward_name_ml": "വാരിക്കാട്"
+    },
+    {
+      "ward_id": "ff500049-3fa2-4f10-87bd-6825fa56a912",
+      "ward_no": "6",
+      "ward_name_en": "Annavattom",
+      "ward_name_ml": "അണ്ണവട്ടം"
+    },
+    {
+      "ward_id": "d3df7cee-f392-4120-b281-215c4fee5709",
+      "ward_no": "7",
+      "ward_name_en": "Nattukadavu",
+      "ward_name_ml": "നാട്ടുകടവ്"
+    },
+    {
+      "ward_id": "c9aca41b-fa0d-463b-9cf7-036598e76cef",
+      "ward_no": "8",
+      "ward_name_en": "College Ward",
+      "ward_name_ml": "കോളേജ് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "9b599167-3934-4ea5-9fa5-84d4bf0f182d",
+      "ward_no": "9",
+      "ward_name_en": "Amalloor West",
+      "ward_name_ml": "ആമല്ലൂര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "e08dd0c7-e1ea-42cd-b12e-6aa240ffacf9",
+      "ward_no": "10",
+      "ward_name_en": "Amalloor East",
+      "ward_name_ml": "ആമല്ലൂര്‍ ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "3d001737-6a10-433b-8752-7259652cc0ae",
+      "ward_no": "11",
+      "ward_name_en": "Meenthalakara",
+      "ward_name_ml": "മീന്തലക്കര"
+    },
+    {
+      "ward_id": "60f84dc8-9cba-4dba-a3c2-3c0ed6e6d4d4",
+      "ward_no": "12",
+      "ward_name_en": "Manjadi",
+      "ward_name_ml": "മഞ്ഞാടി"
+    },
+    {
+      "ward_id": "4cd8ade2-f901-40e4-bc0c-40748f7303db",
+      "ward_no": "13",
+      "ward_name_en": "Railway Station",
+      "ward_name_ml": "റയില്‍വേ സ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "e6040997-48e7-4f80-89f3-08de01df78d6",
+      "ward_no": "14",
+      "ward_name_en": "Pushpagiri Ward",
+      "ward_name_ml": "പുഷ���പഗിരി വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "c5b33a9f-ddee-4810-bdb0-cd6a6b4c17c3",
+      "ward_no": "15",
+      "ward_name_en": "Thymala",
+      "ward_name_ml": "തൈമല"
+    },
+    {
+      "ward_id": "5a25f7f9-70d5-4f6d-b6f5-0bcf00839598",
+      "ward_no": "16",
+      "ward_name_en": "Kattode",
+      "ward_name_ml": "കറ്റോട്"
+    },
+    {
+      "ward_id": "1d8f8971-5b51-4346-b324-a68330f008f6",
+      "ward_no": "17",
+      "ward_name_en": "Eruvellipra",
+      "ward_name_ml": "ഇരുവള്ളിപ്ര"
+    },
+    {
+      "ward_id": "7e3bf367-78fc-4c35-abc4-f2e64166474b",
+      "ward_no": "18",
+      "ward_name_en": "Thondara",
+      "ward_name_ml": "തോണ്ടറ"
+    },
+    {
+      "ward_id": "929c9349-eb75-4953-a660-ecfbfd2c08ec",
+      "ward_no": "19",
+      "ward_name_en": "Thirumoolapuram East",
+      "ward_name_ml": "തിരുമൂലപുരം ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "10027825-532e-452a-9148-38093c8a4b50",
+      "ward_no": "20",
+      "ward_name_en": "Anjilimood",
+      "ward_name_ml": "ആഞ്ഞിലിമൂട്"
+    },
+    {
+      "ward_id": "c6550e55-c279-4894-b162-3031856e4ec6",
+      "ward_no": "21",
+      "ward_name_en": "Thirumoolapuram West",
+      "ward_name_ml": "തിരുമൂലപുരം വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "0d033c6a-0f4f-4685-b480-0bc7467ac3eb",
+      "ward_no": "22",
+      "ward_name_en": "Sree Ramakrishna Asramam",
+      "ward_name_ml": "ശ്രീരാമകൃഷ്ണാ ശ്രമം"
+    },
+    {
+      "ward_id": "f71392a2-8030-44ba-be06-4e6e8fc1f6be",
+      "ward_no": "23",
+      "ward_name_en": "Kulakkad",
+      "ward_name_ml": "കുളക്കാട്"
+    },
+    {
+      "ward_id": "1bc19e14-246d-4aeb-b041-be4c7ecaf70a",
+      "ward_no": "24",
+      "ward_name_en": "Thukallassery",
+      "ward_name_ml": "തുകലശ്ശേരി"
+    },
+    {
+      "ward_id": "cb9692af-216f-4174-866c-bd9c858e92e5",
+      "ward_no": "25",
+      "ward_name_en": "Mathil Bhagam",
+      "ward_name_ml": "മതില്‍ഭാഗം"
+    },
+    {
+      "ward_id": "676272de-b5b7-4cdd-89a2-4f19e44d2129",
+      "ward_no": "26",
+      "ward_name_en": "Kizhakkummuri",
+      "ward_name_ml": "കിഴക്കുംമുറി"
+    },
+    {
+      "ward_id": "77fd1e8e-acda-4094-a024-01e7686d4770",
+      "ward_no": "27",
+      "ward_name_en": "Sreevallabha",
+      "ward_name_ml": "ശ്രീവല്ലഭ"
+    },
+    {
+      "ward_id": "256d62d4-66d5-4714-9e3f-09c34d7f0994",
+      "ward_no": "28",
+      "ward_name_en": "Kavumbhagom",
+      "ward_name_ml": "കാവുംഭാഗം"
+    },
+    {
+      "ward_id": "43f12ff5-3f13-4940-84df-1004473e9fa0",
+      "ward_no": "29",
+      "ward_name_en": "Uthramel",
+      "ward_name_ml": "ഉത്രമേല്‍"
+    },
+    {
+      "ward_id": "3438cb37-9a68-42d2-b5a6-e6a940eb332c",
+      "ward_no": "30",
+      "ward_name_en": "Azhiyidathuchira",
+      "ward_name_ml": "അഴിയിടത്തുചിറ"
+    },
+    {
+      "ward_id": "339fde8b-93e7-4968-a11c-b8d3d1a60fc2",
+      "ward_no": "31",
+      "ward_name_en": "Mannankarachira",
+      "ward_name_ml": "മന്നംകരച്ചിറ"
+    },
+    {
+      "ward_id": "9549c6dc-15a9-474a-a05d-070299d2833a",
+      "ward_no": "32",
+      "ward_name_en": "Anchalkutty",
+      "ward_name_ml": "അഞ്ചല്‍കുറ്റി"
+    },
+    {
+      "ward_id": "192c452c-3291-4cb8-b5a8-8df4a2c205d9",
+      "ward_no": "33",
+      "ward_name_en": "M G M Ward",
+      "ward_name_ml": "എം.ജി.എം വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "88ff6ee6-8ad2-4deb-adb7-b3160229697c",
+      "ward_no": "34",
+      "ward_name_en": "Mary Giri",
+      "ward_name_ml": "മേരിഗിരി"
+    },
+    {
+      "ward_id": "e8b4ce88-6edf-4170-a208-ae8c51c597c6",
+      "ward_no": "35",
+      "ward_name_en": "Town Ward",
+      "ward_name_ml": "ടൗണ്‍ വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "cc1bc628-4606-43df-8c37-493cfb6c2aba",
+      "ward_no": "36",
+      "ward_name_en": "Ramanchira",
+      "ward_name_ml": "രാമന്‍ചിറ"
+    },
+    {
+      "ward_id": "dc9f5e06-3f8e-4dca-b6c8-44a4d5a8e625",
+      "ward_no": "37",
+      "ward_name_en": "J P Nagar",
+      "ward_name_ml": "ജെ.പി.നഗര്‍"
+    },
+    {
+      "ward_id": "5cf2848e-bbb5-4b37-b431-1d2d2bc2f727",
+      "ward_no": "38",
+      "ward_name_en": "Kottalil",
+      "ward_name_ml": "കോട്ടാലില്‍"
+    },
+    {
+      "ward_id": "1fb9f67d-e6b5-4193-a339-09f66b188aa6",
+      "ward_no": "39",
+      "ward_name_en": "Muthoor",
+      "ward_name_ml": "മുത്തൂര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/M030200.geojson"
+  }
+}

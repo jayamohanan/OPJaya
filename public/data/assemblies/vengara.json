@@ -1,0 +1,54 @@
+{
+  "assembly_id": "41",
+  "assembly_name_en": "Vengara",
+  "assembly_name_ml": "വേങ്ങര",
+  "category": "Normal",
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G101001",
+      "local_body_name_en": "ARNagar",
+      "local_body_name_ml": "അബ്ദുറഹിമാന്‍-നഗര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G101006",
+      "local_body_name_en": "Kannamangalam",
+      "local_body_name_ml": "കണ്ണമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G101007",
+      "local_body_name_en": "Oorakam",
+      "local_body_name_ml": "ഊരകം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G100606",
+      "local_body_name_en": "Othukkungal",
+      "local_body_name_ml": "ഒതുക്കുങ്ങല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G101003",
+      "local_body_name_en": "Parappur",
+      "local_body_name_ml": "പറപ്പൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G101005",
+      "local_body_name_en": "Vengara",
+      "local_body_name_ml": "വേങ്ങര",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/vengara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/vengara.geojson"
+  }
+}

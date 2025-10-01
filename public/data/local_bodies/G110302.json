@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G110302",
+  "local_body_name_en": "Kayakkody",
+  "local_body_name_ml": "കായക്കൊടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "22",
+    "assembly_name_en": "Nadapuram",
+    "assembly_name_ml": "നാദാപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "736bc183-96a0-45d0-94f4-9d25da92a634",
+      "ward_no": "1",
+      "ward_name_en": "Nedumannoor",
+      "ward_name_ml": "നെടുമണ്ണൂര്‍"
+    },
+    {
+      "ward_id": "8327c9df-bd81-42f4-be74-2a4b89528a11",
+      "ward_no": "2",
+      "ward_name_en": "Kanayamkode",
+      "ward_name_ml": "കണയംകോട്"
+    },
+    {
+      "ward_id": "c995916f-8952-4e3c-9a4e-4bcae1e49356",
+      "ward_no": "3",
+      "ward_name_en": "Kayakkody",
+      "ward_name_ml": "കായക്കൊടി"
+    },
+    {
+      "ward_id": "8f0445cf-9166-4828-8ed4-4bc631c1d9e7",
+      "ward_no": "4",
+      "ward_name_en": "Paloly",
+      "ward_name_ml": "പാലോളി"
+    },
+    {
+      "ward_id": "c8ff38c2-5ab9-4082-9e91-83de96cae3f9",
+      "ward_no": "5",
+      "ward_name_en": "Karimbalakkandy",
+      "ward_name_ml": "കരിമ്പാലക്കണ്ടി"
+    },
+    {
+      "ward_id": "22196f51-df9c-410f-8cee-d61114af66a2",
+      "ward_no": "6",
+      "ward_name_en": "Deverkovil",
+      "ward_name_ml": "ദേവര്‍കോവില്‍"
+    },
+    {
+      "ward_id": "a1f5493e-eb67-4cfa-9fab-a0d26ef208b4",
+      "ward_no": "7",
+      "ward_name_en": "Thaleekkara",
+      "ward_name_ml": "തളീക്കര"
+    },
+    {
+      "ward_id": "4eff39c8-9c51-4333-b740-21010fadace0",
+      "ward_no": "8",
+      "ward_name_en": "Poolakkandy",
+      "ward_name_ml": "പൂളക്കണ്ടി"
+    },
+    {
+      "ward_id": "ef753554-5627-4f61-909f-53c7c2153cae",
+      "ward_no": "9",
+      "ward_name_en": "Muttunada",
+      "ward_name_ml": "മുട്ടുനട"
+    },
+    {
+      "ward_id": "23cac873-46bb-43a6-9e23-b0df219d6cd7",
+      "ward_no": "10",
+      "ward_name_en": "Koottoor",
+      "ward_name_ml": "കൂട്ടൂര്‍"
+    },
+    {
+      "ward_id": "5be19f29-7d83-4355-bf17-3dd8d8c64dec",
+      "ward_no": "11",
+      "ward_name_en": "Kulangarathazha",
+      "ward_name_ml": "കുളങ്ങരതാഴ"
+    },
+    {
+      "ward_id": "e9ced3e8-75e0-48aa-89c9-229bda8956ca",
+      "ward_no": "12",
+      "ward_name_en": "Karandode",
+      "ward_name_ml": "കരണ്ടോട്"
+    },
+    {
+      "ward_id": "9736f5f9-1562-4ad0-9497-76856b5857f4",
+      "ward_no": "13",
+      "ward_name_en": "Changaramkulam",
+      "ward_name_ml": "ചങ്ങരംകുളം"
+    },
+    {
+      "ward_id": "d7678833-7d75-4c31-970c-c4d68950905b",
+      "ward_no": "14",
+      "ward_name_en": "Kovukkunnu",
+      "ward_name_ml": "കോവുക്കുന്ന്"
+    },
+    {
+      "ward_id": "7adb6c15-ec5c-4886-aab0-9c429f0932e3",
+      "ward_no": "15",
+      "ward_name_en": "Karekkunnu",
+      "ward_name_ml": "കാരേക്കുന്ന്"
+    },
+    {
+      "ward_id": "6db39a93-bb40-4510-8e73-d6e5ab01f34e",
+      "ward_no": "16",
+      "ward_name_en": "Palayad",
+      "ward_name_ml": "പാലയാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110302.geojson"
+  }
+}

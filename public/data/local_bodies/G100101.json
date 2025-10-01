@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G100101",
+  "local_body_name_en": "Chaliyar",
+  "local_body_name_ml": "ചാലിയാര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "34",
+    "assembly_name_en": "Eranad",
+    "assembly_name_ml": "ഏറനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "485d38e9-09cd-461a-862c-28a93ac23fad",
+      "ward_no": "1",
+      "ward_name_en": "Valamthode",
+      "ward_name_ml": "വളാംതോട്"
+    },
+    {
+      "ward_id": "a07605b0-3db2-461a-b821-28a27188db98",
+      "ward_no": "2",
+      "ward_name_en": "Edivanna",
+      "ward_name_ml": "ഇടിവണ്ണ"
+    },
+    {
+      "ward_id": "d7caa826-1199-4f8c-b558-d575ab637694",
+      "ward_no": "3",
+      "ward_name_en": "Parekkad",
+      "ward_name_ml": "പാറേക്കാട്"
+    },
+    {
+      "ward_id": "a69fb0eb-5842-41a3-bc28-3d8d554139b4",
+      "ward_no": "4",
+      "ward_name_en": "Muttiyel",
+      "ward_name_ml": "മുട്ടിയേല്‍"
+    },
+    {
+      "ward_id": "cd71de6d-c2c9-4299-85a9-164c0f165ad3",
+      "ward_no": "5",
+      "ward_name_en": "Perumbathoor",
+      "ward_name_ml": "പെരുമ്പത്തൂര്‍"
+    },
+    {
+      "ward_id": "3f9b31c6-c7c8-40ea-ba17-1fea005eb655",
+      "ward_no": "6",
+      "ward_name_en": "Elambilakkode",
+      "ward_name_ml": "എളമ്പിലാക്കോട്"
+    },
+    {
+      "ward_id": "0b7d14b3-1a9c-4c32-ac1d-5ab362a54dc3",
+      "ward_no": "7",
+      "ward_name_en": "Eranhimangad",
+      "ward_name_ml": "എരഞ്ഞിമങ്ങാട്"
+    },
+    {
+      "ward_id": "c03d5133-67a2-46b9-b5d3-b0bbbdefc238",
+      "ward_no": "8",
+      "ward_name_en": "Myladi",
+      "ward_name_ml": "മൈലാടി"
+    },
+    {
+      "ward_id": "a8cf45c4-bf5d-49be-8fa8-5a500d96b4cd",
+      "ward_no": "9",
+      "ward_name_en": "Mannuppadam",
+      "ward_name_ml": "മണ്ണുപ്പാടം"
+    },
+    {
+      "ward_id": "d1e8778b-ac53-4308-92de-f93633cd0cf4",
+      "ward_no": "10",
+      "ward_name_en": "Modavanna",
+      "ward_name_ml": "മൊടവണ്ണ"
+    },
+    {
+      "ward_id": "e0cdbbf4-00fb-4951-b44f-8027e6b16e4c",
+      "ward_no": "11",
+      "ward_name_en": "Kalakkunnu",
+      "ward_name_ml": "കളക്കുന്ന്"
+    },
+    {
+      "ward_id": "31303e4d-7fd0-4ef0-9e05-43df3054292b",
+      "ward_no": "12",
+      "ward_name_en": "Anappara",
+      "ward_name_ml": "ആനപ്പാറ"
+    },
+    {
+      "ward_id": "6f055c4a-81e5-49c6-8c9e-9ce1930b36b5",
+      "ward_no": "13",
+      "ward_name_en": "Akampadam",
+      "ward_name_ml": "അകമ്പാടം"
+    },
+    {
+      "ward_id": "7cd0a4f2-4949-445e-b009-8c79848b7945",
+      "ward_no": "14",
+      "ward_name_en": "Peruvampadam",
+      "ward_name_ml": "പെരുവമ്പാടം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100101.geojson"
+  }
+}

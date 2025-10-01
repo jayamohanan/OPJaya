@@ -1,0 +1,66 @@
+{
+  "assembly_id": "49",
+  "assembly_name_en": "Thrithala",
+  "assembly_name_ml": "തൃത്താല",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G090102",
+      "local_body_name_en": "Chalissery",
+      "local_body_name_ml": "ചാലിശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090103",
+      "local_body_name_en": "Kappur",
+      "local_body_name_ml": "കപ്പൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090104",
+      "local_body_name_en": "Nagalassery",
+      "local_body_name_ml": "നാഗലശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090206",
+      "local_body_name_en": "Paruthur",
+      "local_body_name_ml": "പരുതൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090105",
+      "local_body_name_en": "Pattithara",
+      "local_body_name_ml": "പട്ടിത്തറ",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090106",
+      "local_body_name_en": "Thirumittacode",
+      "local_body_name_ml": "തിരുമിറ്റക്കോട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G090107",
+      "local_body_name_en": "Trithala",
+      "local_body_name_ml": "തൃത്താല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090101",
+      "local_body_name_en": "Anakkara",
+      "local_body_name_ml": "ആനക്കര",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/thrithala.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/thrithala.geojson"
+  }
+}

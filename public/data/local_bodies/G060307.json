@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G060307",
+  "local_body_name_en": "Rajakumary",
+  "local_body_name_ml": "രാജകുമാരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "89",
+    "assembly_name_en": "Udumbanchola",
+    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "192886e6-f5f0-4120-9c6f-572fa3dbbecf",
+      "ward_no": "1",
+      "ward_name_en": "Puthakil",
+      "ward_name_ml": "പുതകില്‍"
+    },
+    {
+      "ward_id": "0310eea1-69f8-4d42-8a09-6b4fccfe33f1",
+      "ward_no": "2",
+      "ward_name_en": "Kumbappara",
+      "ward_name_ml": "കുംഭപ്പാറ"
+    },
+    {
+      "ward_id": "ee659670-d6f0-4464-9f7c-e0e25b7a905e",
+      "ward_no": "3",
+      "ward_name_en": "Kajanapara",
+      "ward_name_ml": "കജനാപ്പാറ"
+    },
+    {
+      "ward_id": "7dbd44a1-89af-46bd-8102-9aab2b6108a7",
+      "ward_no": "4",
+      "ward_name_en": "Aramanappara",
+      "ward_name_ml": "അരമനപ്പാറ"
+    },
+    {
+      "ward_id": "41fb110a-f890-4f25-bffc-b283a85465b7",
+      "ward_no": "5",
+      "ward_name_en": "B-Division",
+      "ward_name_ml": "ബി- ഡിവിഷന്‍"
+    },
+    {
+      "ward_id": "faccef11-7611-4097-80e9-5a70f6f83f91",
+      "ward_no": "6",
+      "ward_name_en": "Manjakuzhi",
+      "ward_name_ml": "മഞ്ഞക്കുഴി"
+    },
+    {
+      "ward_id": "3d72c7c7-226b-4533-a741-f5e765ffbdc5",
+      "ward_no": "7",
+      "ward_name_en": "Puthayalpara",
+      "ward_name_ml": "പുതയല്‍പ്പാറ"
+    },
+    {
+      "ward_id": "51e8e49f-9539-404d-b136-374220c1fc19",
+      "ward_no": "8",
+      "ward_name_en": "Murikkumthotty",
+      "ward_name_ml": "മുരുക്കുംതൊട്ടി"
+    },
+    {
+      "ward_id": "abc60bd9-f070-4372-8dfb-952706412064",
+      "ward_no": "9",
+      "ward_name_en": "Kulapparachal",
+      "ward_name_ml": "കുളപ്പാറച്ചാല്‍"
+    },
+    {
+      "ward_id": "66e035c5-94c1-46fd-adf1-0cec0e916772",
+      "ward_no": "10",
+      "ward_name_en": "Panniyar",
+      "ward_name_ml": "പന്നിയാര്‍"
+    },
+    {
+      "ward_id": "71ca0b39-fbe3-4e33-ac94-9d9d66b87011",
+      "ward_no": "11",
+      "ward_name_en": "Rajakumary North",
+      "ward_name_ml": "രാജകുമാരി നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "22f82552-c637-423f-825c-2353ad740731",
+      "ward_no": "12",
+      "ward_name_en": "Rajakumary South",
+      "ward_name_ml": "രാജകുമാരി സൌത്ത്"
+    },
+    {
+      "ward_id": "a3f61d7b-aec3-4685-a09c-2d1198c30cb1",
+      "ward_no": "13",
+      "ward_name_en": "Nadumattom",
+      "ward_name_ml": "നടുമറ്റം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G060307.geojson"
+  }
+}

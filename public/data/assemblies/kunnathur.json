@@ -1,0 +1,78 @@
+{
+  "assembly_id": "118",
+  "assembly_name_en": "Kunnathur",
+  "assembly_name_ml": "കുന്നത്തൂർ",
+  "category": "Normal",
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G020703",
+      "local_body_name_en": "East Kallada",
+      "local_body_name_ml": "കിഴക്കേ കല്ലട",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020205",
+      "local_body_name_en": "Kunnathoor",
+      "local_body_name_ml": "കുന്നത്തൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020705",
+      "local_body_name_en": "Munroethuruth",
+      "local_body_name_ml": "മണ്‍റോതുരുത്ത്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020207",
+      "local_body_name_en": "Mynagappally",
+      "local_body_name_ml": "മൈനാഗപ്പള്ളി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020306",
+      "local_body_name_en": "Pavithreswaram",
+      "local_body_name_ml": "പവിത്രേശ്വരം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020204",
+      "local_body_name_en": "Poruvazhy",
+      "local_body_name_ml": "പോരുവഴി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G020201",
+      "local_body_name_en": "Sasthamcotta",
+      "local_body_name_ml": "ശാസ്താംകോട്ട",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G020206",
+      "local_body_name_en": "Sooranad North",
+      "local_body_name_ml": "ശൂരനാട് നോര്‍ത്ത്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020203",
+      "local_body_name_en": "Sooranad South",
+      "local_body_name_ml": "ശൂരനാട് സൌത്ത്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G020202",
+      "local_body_name_en": "West Kallada",
+      "local_body_name_ml": "വെസ്റ് കല്ലട",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kunnathur.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kunnathur.geojson"
+  }
+}

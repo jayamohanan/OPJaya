@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G090904",
+  "local_body_name_en": "Perumatty",
+  "local_body_name_ml": "പെരുമാട്ടി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "58",
+    "assembly_name_en": "Chittur",
+    "assembly_name_ml": "ചിറ്റൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "51b1a6dc-d064-4e69-821c-b1f827df29eb",
+      "ward_no": "1",
+      "ward_name_en": "Athimani",
+      "ward_name_ml": "അത്തിമണി"
+    },
+    {
+      "ward_id": "76d4f595-92a9-4222-8856-7e37aba81f45",
+      "ward_no": "2",
+      "ward_name_en": "Parakkalam",
+      "ward_name_ml": "പാറക്കളം"
+    },
+    {
+      "ward_id": "d40c0080-5c3c-463d-a80f-3533a754a4ba",
+      "ward_no": "3",
+      "ward_name_en": "Vilayodi",
+      "ward_name_ml": "വിളയോടി"
+    },
+    {
+      "ward_id": "d5dab76c-09ec-46cd-9a9c-8f3881aab29f",
+      "ward_no": "4",
+      "ward_name_en": "Namboorichalla",
+      "ward_name_ml": "നമ്പൂരിചള്ള"
+    },
+    {
+      "ward_id": "c5ef520f-2405-4374-96b4-cbb30af7d964",
+      "ward_no": "5",
+      "ward_name_en": "Vembra",
+      "ward_name_ml": "വേമ്പ്ര"
+    },
+    {
+      "ward_id": "0242f76d-8a6e-4063-9773-2f3a10fe2367",
+      "ward_no": "6",
+      "ward_name_en": "Narani",
+      "ward_name_ml": "നറണി"
+    },
+    {
+      "ward_id": "8c19ae76-1f5e-41db-b397-e3d18db291ac",
+      "ward_no": "7",
+      "ward_name_en": "Kalyanapetta",
+      "ward_name_ml": "കല്ലൃാണപ്പേട്ട"
+    },
+    {
+      "ward_id": "d43095f5-59cb-47b4-b88d-4a9601beb278",
+      "ward_no": "8",
+      "ward_name_en": "Kambalathara",
+      "ward_name_ml": "കമ്പാലത്തറ"
+    },
+    {
+      "ward_id": "bce61074-0519-4ad7-97d3-55e0403e1fd9",
+      "ward_no": "9",
+      "ward_name_en": "Srambi",
+      "ward_name_ml": "സ്രാമ്പി"
+    },
+    {
+      "ward_id": "3b34ea97-984e-4935-bfce-0ed03d60c3f1",
+      "ward_no": "10",
+      "ward_name_en": "Moolathara",
+      "ward_name_ml": "മൂലത്തറ"
+    },
+    {
+      "ward_id": "56f9c061-ccb3-4c11-aef5-cfbf43a6c36b",
+      "ward_no": "11",
+      "ward_name_en": "Meenakshipuram",
+      "ward_name_ml": "മീനാക്ഷിപുരം"
+    },
+    {
+      "ward_id": "9d8fdd49-e077-4f47-acb6-4764621784d3",
+      "ward_no": "12",
+      "ward_name_en": "Nellimedu",
+      "ward_name_ml": "നെല്ലിമേട്"
+    },
+    {
+      "ward_id": "02d045f0-ab1c-4821-aecd-d711df5c09d1",
+      "ward_no": "14",
+      "ward_name_en": "Pattikulam",
+      "ward_name_ml": "പാട്ടികുളം"
+    },
+    {
+      "ward_id": "dd2547c8-089e-461e-a557-7347cf5dc565",
+      "ward_no": "15",
+      "ward_name_en": "Ayyapankavu",
+      "ward_name_ml": "അയ്യപ്പന്‍ക്കാവ്"
+    },
+    {
+      "ward_id": "693ebec6-c9af-48e6-9e87-d634a4f6d254",
+      "ward_no": "16",
+      "ward_name_en": "Vandithavalam",
+      "ward_name_ml": "വണ്ടിത്താവളം"
+    },
+    {
+      "ward_id": "2e916a6d-596c-4001-8e58-52567bd2cda7",
+      "ward_no": "17",
+      "ward_name_en": "Alayar",
+      "ward_name_ml": "അലയാര്‍"
+    },
+    {
+      "ward_id": "0321eb31-8921-445e-a0f6-c6a848220840",
+      "ward_no": "18",
+      "ward_name_en": "Madappalam",
+      "ward_name_ml": "മടപ്പള്ളം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G090904.geojson"
+  }
+}

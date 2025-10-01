@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G070304",
+  "local_body_name_en": "Karukutty",
+  "local_body_name_ml": "കറുകുറ്റി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "75",
+    "assembly_name_en": "Angamaly",
+    "assembly_name_ml": "അങ്കമാലി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "12fc975a-26a5-4c75-bc07-a60b13857947",
+      "ward_no": "1",
+      "ward_name_en": "Railway Station",
+      "ward_name_ml": "റെയില്‍ വേ സ്റ്റേഷന്‍"
+    },
+    {
+      "ward_id": "00a74ffd-1baf-4e28-8529-ce319772d23c",
+      "ward_no": "2",
+      "ward_name_en": "Cable Nagar",
+      "ward_name_ml": "കേബിള്‍ നഗര്‍"
+    },
+    {
+      "ward_id": "dfb2f8db-018c-4d24-bf77-481cffbe3726",
+      "ward_no": "3",
+      "ward_name_en": "Vazhachal",
+      "ward_name_ml": "വാഴച്ചാല്‍"
+    },
+    {
+      "ward_id": "39beae9f-c045-43e7-b750-155f16a41fe6",
+      "ward_no": "4",
+      "ward_name_en": "Panthackal",
+      "ward_name_ml": "പന്തയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "fe69e030-f852-4b19-bf2d-8f273e705b42",
+      "ward_no": "5",
+      "ward_name_en": "Edakkunnu",
+      "ward_name_ml": "എടക്കുന്ന്"
+    },
+    {
+      "ward_id": "735b1c60-2704-49dd-a73d-c8f7d43034b6",
+      "ward_no": "6",
+      "ward_name_en": "Palissery",
+      "ward_name_ml": "പാലിശ്ശേരി"
+    },
+    {
+      "ward_id": "bb441ce1-75fe-4570-83d8-ee26d58b983e",
+      "ward_no": "7",
+      "ward_name_en": "Ezghattumugham",
+      "ward_name_ml": "ഏഴാറ്റുമുഖം"
+    },
+    {
+      "ward_id": "f0c074e5-27b4-4dc0-9ae4-a6886464a1a5",
+      "ward_no": "8",
+      "ward_name_en": "Karamattam",
+      "ward_name_ml": "കാരമറ്റം"
+    },
+    {
+      "ward_id": "c772cc0f-634b-4a58-ad0b-b9a0c89cdda6",
+      "ward_no": "9",
+      "ward_name_en": "Edakkunnu East",
+      "ward_name_ml": "എടക്കുന്ന് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "9620a92b-6405-4295-9969-28fec0f1ca55",
+      "ward_no": "10",
+      "ward_name_en": "Paduvapuram",
+      "ward_name_ml": "പാദുവാപുരം"
+    },
+    {
+      "ward_id": "58457a2c-71a7-47a5-825f-3e9ac6a506a2",
+      "ward_no": "11",
+      "ward_name_en": "Moonnamparambu",
+      "ward_name_ml": "മൂന്നാംപറമ്പ്"
+    },
+    {
+      "ward_id": "d7809b31-1a01-4005-8312-1696ad675784",
+      "ward_no": "12",
+      "ward_name_en": "Malayamkunnu",
+      "ward_name_ml": "മലയാംകുന്ന്"
+    },
+    {
+      "ward_id": "fbda59f5-2cd6-47f3-9a83-95054f039ada",
+      "ward_no": "13",
+      "ward_name_en": "Palliyangadi",
+      "ward_name_ml": "പള്ളിയങ്ങാടി"
+    },
+    {
+      "ward_id": "a9e7a7ba-9095-470f-b4f2-37ae7a5ab2e4",
+      "ward_no": "14",
+      "ward_name_en": "Njalookkara",
+      "ward_name_ml": "ഞാലൂക്കര"
+    },
+    {
+      "ward_id": "c02aa7db-8cb5-4934-ae62-8c427436e6e2",
+      "ward_no": "15",
+      "ward_name_en": "Karayamparambu East",
+      "ward_name_ml": "കരയാം പറമ്പ് ഈസ്റ്റ്"
+    },
+    {
+      "ward_id": "e6b8c624-46df-4e44-a781-fc26a664ae3c",
+      "ward_no": "16",
+      "ward_name_en": "Karayamparambu West",
+      "ward_name_ml": "കരയാം പറമ്പ് വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "3316b595-198d-4e3a-9fee-d43d251c7ad0",
+      "ward_no": "17",
+      "ward_name_en": "Peechanikadu",
+      "ward_name_ml": "പീച്ചാനിക്കാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070304.geojson"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G120405",
+  "local_body_name_en": "Pozhuthana",
+  "local_body_name_ml": "പൊഴുതന",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "19",
+    "assembly_name_en": "Kalpetta",
+    "assembly_name_ml": "കല്‍പ്പറ്റ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "12",
+    "district_name_en": "Wayanad",
+    "district_name_ml": "വയനാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "e0a27b54-e3d8-4f5e-b9f6-86fc21f02cf0",
+      "ward_no": "1",
+      "ward_name_en": "Ediyamvayal",
+      "ward_name_ml": "ഇടിയംവയല്‍"
+    },
+    {
+      "ward_id": "31a494e6-23f8-4a29-8f01-cd5ea0e47023",
+      "ward_no": "2",
+      "ward_name_en": "Vayanamkunnu",
+      "ward_name_ml": "വയനാംകുന്ന്"
+    },
+    {
+      "ward_id": "d8e886b9-3445-4d70-82d6-51f8fccb0d71",
+      "ward_no": "3",
+      "ward_name_en": "Maravayal",
+      "ward_name_ml": "മരവയല്‍"
+    },
+    {
+      "ward_id": "18242c8d-ab9f-4bd3-9501-314ed12d27ee",
+      "ward_no": "4",
+      "ward_name_en": "Athimoola",
+      "ward_name_ml": "അത്തിമൂല"
+    },
+    {
+      "ward_id": "352d40f8-e04b-4822-b27e-d5001458bf59",
+      "ward_no": "5",
+      "ward_name_en": "Anoth",
+      "ward_name_ml": "ആനോത്ത്"
+    },
+    {
+      "ward_id": "9eaa6e07-8a6d-4fbe-b1cf-62c06002632e",
+      "ward_no": "6",
+      "ward_name_en": "Perumkoda",
+      "ward_name_ml": "പെരുങ്കോട"
+    },
+    {
+      "ward_id": "63c4a762-da89-4485-a268-8f53b03d6933",
+      "ward_no": "7",
+      "ward_name_en": "Kalloor",
+      "ward_name_ml": "കല്ലൂര്‍"
+    },
+    {
+      "ward_id": "39191053-a861-4c4b-a378-08f1376e624f",
+      "ward_no": "8",
+      "ward_name_en": "Sugandhagiri",
+      "ward_name_ml": "സുഗന്ധഗിരി"
+    },
+    {
+      "ward_id": "ef65a8dd-1dd1-4ef2-8d98-fe0e9fb295ca",
+      "ward_no": "9",
+      "ward_name_en": "Parakkunu",
+      "ward_name_ml": "പാറക്കുന്ന്"
+    },
+    {
+      "ward_id": "d40a995d-0d9c-4f42-b1b0-4fdec9304952",
+      "ward_no": "10",
+      "ward_name_en": "Pozhuthana",
+      "ward_name_ml": "പൊഴുതന"
+    },
+    {
+      "ward_id": "dd66f38b-9117-4701-84d7-4d023d3434e4",
+      "ward_no": "11",
+      "ward_name_en": "Achoor North",
+      "ward_name_ml": "അച്ചൂര്‍ നോര്‍ത്ത്"
+    },
+    {
+      "ward_id": "fc9def58-5a1b-41dc-88fd-ff4360475fc0",
+      "ward_no": "12",
+      "ward_name_en": "Valiyapara",
+      "ward_name_ml": "വലിയപാറ"
+    },
+    {
+      "ward_id": "f514e396-dc8f-4eda-95df-8c5dd3f34c99",
+      "ward_no": "13",
+      "ward_name_en": "Kuricharmala",
+      "ward_name_ml": "കുറിച്ച്യര്‍മല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G120405.geojson"
+  }
+}

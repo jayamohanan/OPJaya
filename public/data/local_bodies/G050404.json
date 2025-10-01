@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G050404",
+  "local_body_name_en": "Veliyannoor",
+  "local_body_name_ml": "വെളിയന്നൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "94",
+    "assembly_name_en": "Kaduthuruthy",
+    "assembly_name_ml": "കടുത്തുരുത്തി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "88b9f633-ce19-46d0-bd4a-2b2319a7eb4a",
+      "ward_no": "1",
+      "ward_name_en": "Kanjiramala",
+      "ward_name_ml": "കാഞ്ഞിരമല"
+    },
+    {
+      "ward_id": "5a7b040d-8173-482d-a651-a6176357b552",
+      "ward_no": "2",
+      "ward_name_en": "Pannapuram",
+      "ward_name_ml": "പന്നപ്പുറം"
+    },
+    {
+      "ward_id": "8ec8370c-1fae-49c4-842c-d3fa718da886",
+      "ward_no": "3",
+      "ward_name_en": "Veliyannoor",
+      "ward_name_ml": "വെളിയന്നൂര്‍"
+    },
+    {
+      "ward_id": "ab399950-f89d-47c2-ba94-10688aa55d01",
+      "ward_no": "4",
+      "ward_name_en": "Choozhikunnumala",
+      "ward_name_ml": "ചൂഴികുന്നുമല"
+    },
+    {
+      "ward_id": "fa281211-24a0-47b6-869e-ea41ba36b2cf",
+      "ward_no": "5",
+      "ward_name_en": "Thamarakad",
+      "ward_name_ml": "താമരക്കാട്"
+    },
+    {
+      "ward_id": "44bfee40-a581-4707-bed7-fc7ac4e44896",
+      "ward_no": "6",
+      "ward_name_en": "Parathotal",
+      "ward_name_ml": "പാറതൊട്ടാല്‍"
+    },
+    {
+      "ward_id": "28ec657d-4adb-4c18-b751-18b0baddaa41",
+      "ward_no": "7",
+      "ward_name_en": "Poovakulam",
+      "ward_name_ml": "പൂവക്കുളം"
+    },
+    {
+      "ward_id": "79da83ab-a169-476e-8519-4608d8dfb529",
+      "ward_no": "8",
+      "ward_name_en": "Perumkutty",
+      "ward_name_ml": "പെരുംകുറ്റി"
+    },
+    {
+      "ward_id": "36a33cb4-d5ea-4da1-a9af-3b4d1351f02a",
+      "ward_no": "9",
+      "ward_name_en": "Vandematharam",
+      "ward_name_ml": "വന്ദേമാതരം"
+    },
+    {
+      "ward_id": "a8bda77c-b967-4743-881e-0b25bbcdfb2f",
+      "ward_no": "10",
+      "ward_name_en": "Areekara",
+      "ward_name_ml": "അരീക്കര"
+    },
+    {
+      "ward_id": "93f77ba6-3ca5-4c5e-8ad0-223d8aeac8af",
+      "ward_no": "11",
+      "ward_name_en": "Kongatukunnu",
+      "ward_name_ml": "കൊങ്ങാട്ടുകുന്ന്"
+    },
+    {
+      "ward_id": "5cc3f62c-b192-4b15-bb64-ca6d6e777e07",
+      "ward_no": "12",
+      "ward_name_en": "Mulayanikunnu",
+      "ward_name_ml": "മുളയാനിക്കുന്ന്"
+    },
+    {
+      "ward_id": "8f0a4073-4433-4696-859c-46ffc16e7be5",
+      "ward_no": "13",
+      "ward_name_en": "Puthuveli",
+      "ward_name_ml": "പുതുവേലി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050404.geojson"
+  }
+}

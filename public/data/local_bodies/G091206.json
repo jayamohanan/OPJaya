@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G091206",
+  "local_body_name_en": "Tarur",
+  "local_body_name_ml": "തരൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "57",
+    "assembly_name_en": "Tarur",
+    "assembly_name_ml": "തരൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "81bcd093-f023-4a0f-85f0-4a42e6ad8bb2",
+      "ward_no": "1",
+      "ward_name_en": "Thottumpalla",
+      "ward_name_ml": "തോട്ടുംമ്പളള"
+    },
+    {
+      "ward_id": "f29b9b91-41da-442f-90d5-66b572655765",
+      "ward_no": "2",
+      "ward_name_en": "Pazhamapalakkode",
+      "ward_name_ml": "പഴമ്പാലക്കോട്"
+    },
+    {
+      "ward_id": "2cb7a29d-7fe9-4354-9bae-b328053a86cd",
+      "ward_no": "3",
+      "ward_name_en": "Cherikkal",
+      "ward_name_ml": "ചേരിക്കല്‍"
+    },
+    {
+      "ward_id": "46236cd6-be98-4851-aac2-492c9ddd8886",
+      "ward_no": "4",
+      "ward_name_en": "Kuttancode",
+      "ward_name_ml": "കുട്ടന്‍കോട്"
+    },
+    {
+      "ward_id": "ac353fe4-5abb-4f95-8758-e9acef30dd7a",
+      "ward_no": "5",
+      "ward_name_en": "Nechur",
+      "ward_name_ml": "നെച്ചൂര്‍"
+    },
+    {
+      "ward_id": "ae426aba-5092-41e8-b9de-e2c27ed0ce06",
+      "ward_no": "6",
+      "ward_name_en": "Ambattuparambu",
+      "ward_name_ml": "അമ്പാട്ടുപറമ്പ്"
+    },
+    {
+      "ward_id": "b43969de-ac89-44d4-afaa-082903c1d422",
+      "ward_no": "7",
+      "ward_name_en": "Thodukad",
+      "ward_name_ml": "തോട്കാട്"
+    },
+    {
+      "ward_id": "31028eef-4899-4088-a807-6a578681c492",
+      "ward_no": "8",
+      "ward_name_en": "Alinkalparamabu",
+      "ward_name_ml": "ആലിങ്കല്‍പറമ്പ്"
+    },
+    {
+      "ward_id": "6ab6e21a-b34d-4935-9200-f3c67f169873",
+      "ward_no": "9",
+      "ward_name_en": "Kundukadu",
+      "ward_name_ml": "കുണ്ടുകാട്"
+    },
+    {
+      "ward_id": "273988ed-2291-4eb7-a36f-8ef91a7bed74",
+      "ward_no": "10",
+      "ward_name_en": "Vavulliapuram",
+      "ward_name_ml": "വാവുള്ള്യാപുരം"
+    },
+    {
+      "ward_id": "927d6c1e-ae33-4c1d-b656-de705954c333",
+      "ward_no": "11",
+      "ward_name_en": "Kavungal",
+      "ward_name_ml": "കാവുങ്കല്‍"
+    },
+    {
+      "ward_id": "5d937cc9-bc1e-46d4-8fb1-aa79d41ee351",
+      "ward_no": "12",
+      "ward_name_en": "Athipotta",
+      "ward_name_ml": "അത്തിപ്പൊറ്റ"
+    },
+    {
+      "ward_id": "e806d16e-4fa2-442b-8bd1-d08e9c6a4648",
+      "ward_no": "13",
+      "ward_name_en": "Tarur",
+      "ward_name_ml": "തരൂര്‍"
+    },
+    {
+      "ward_id": "00763ba2-0856-45d3-adbc-ab38b21eefde",
+      "ward_no": "14",
+      "ward_name_en": "Valakkara",
+      "ward_name_ml": "വാളക്കര"
+    },
+    {
+      "ward_id": "26b4a5f9-d53d-4f20-9930-d655511e9bd2",
+      "ward_no": "15",
+      "ward_name_en": "Ariyassery",
+      "ward_name_ml": "അരിയശ്ശേരി"
+    },
+    {
+      "ward_id": "22b8b686-6dad-4fe9-a96e-6adf310a561d",
+      "ward_no": "16",
+      "ward_name_en": "Kuruthikode",
+      "ward_name_ml": "കുരുത്തിക്കോട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091206.geojson"
+  }
+}

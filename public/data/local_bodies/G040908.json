@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G040908",
+  "local_body_name_en": "Veeyapuram",
+  "local_body_name_ml": "വീയപുരം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "106",
+    "assembly_name_en": "Kuttanad",
+    "assembly_name_ml": "കുട്ടനാട്",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "7518a954-1e03-436f-aaf1-3efec777a7a3",
+      "ward_no": "1",
+      "ward_name_en": "Veeyapuram",
+      "ward_name_ml": "വീയപുരം"
+    },
+    {
+      "ward_id": "c5d5dfeb-e25d-4327-812d-94a827cd46ec",
+      "ward_no": "2",
+      "ward_name_en": "Veeyapuram East",
+      "ward_name_ml": "വീയപുരം കിഴക്ക്"
+    },
+    {
+      "ward_id": "017c0fb4-0771-4523-86a1-a9d575802e2f",
+      "ward_no": "3",
+      "ward_name_en": "Thuruthel Bhagam",
+      "ward_name_ml": "തുരുത്തേല്‍ ഭാഗം"
+    },
+    {
+      "ward_id": "9c96f9e4-ffd3-4e99-9692-8ab632ef3b5b",
+      "ward_no": "4",
+      "ward_name_en": "Melpadom North",
+      "ward_name_ml": "മേല്‍പ്പാടം വടക്ക്"
+    },
+    {
+      "ward_id": "45911e9c-a26d-43a6-9734-ddc7a784dd4a",
+      "ward_no": "5",
+      "ward_name_en": "Melpadom South",
+      "ward_name_ml": "മേല്‍പ്പാടം തെക്ക്"
+    },
+    {
+      "ward_id": "4300a311-63d7-4837-a98b-8a24fa1c6111",
+      "ward_no": "6",
+      "ward_name_en": "Vellamkulangara",
+      "ward_name_ml": "വെളളംകുളങ്ങര"
+    },
+    {
+      "ward_id": "d59cb29c-304d-4d01-93ee-24ef0eae71fd",
+      "ward_no": "7",
+      "ward_name_en": "Karichal North",
+      "ward_name_ml": "കാരിച്ചാല്‍ വടക്ക്"
+    },
+    {
+      "ward_id": "a84d7947-dbb2-4b9e-90b1-9a4754840563",
+      "ward_no": "8",
+      "ward_name_en": "Karichal South",
+      "ward_name_ml": "കാരിച്ചാല്‍ തെക്ക്"
+    },
+    {
+      "ward_id": "d67d9acc-76bf-44d6-ba75-253bd409912b",
+      "ward_no": "9",
+      "ward_name_en": "Kalayamkulangara",
+      "ward_name_ml": "കലയംകുളങ്ങര"
+    },
+    {
+      "ward_id": "f1487ce6-ec74-42bf-b8ff-ccc733148b3e",
+      "ward_no": "10",
+      "ward_name_en": "Thrivikramapuram",
+      "ward_name_ml": "ത്രിവിക്രമപുരം"
+    },
+    {
+      "ward_id": "b261a273-e279-40e9-81f3-c4454acdfd13",
+      "ward_no": "11",
+      "ward_name_en": "Payipad East",
+      "ward_name_ml": "പായിപ്പാട് കിഴക്ക്"
+    },
+    {
+      "ward_id": "449245ea-b74e-4159-833a-d0dee3461369",
+      "ward_no": "12",
+      "ward_name_en": "Payipad West",
+      "ward_name_ml": "പായിപ്പാട് പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "43ee7efd-ad8d-492f-820c-0656c5db87d8",
+      "ward_no": "13",
+      "ward_name_en": "Murinjapuzha Bhagam",
+      "ward_name_ml": "മുറിഞ്ഞപുഴ ഭാഗം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040908.geojson"
+  }
+}

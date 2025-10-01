@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G110601",
+  "local_body_name_en": "Cheruvannur",
+  "local_body_name_ml": "ചെറുവണ്ണൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "24",
+    "assembly_name_en": "Perambra",
+    "assembly_name_ml": "പേരാംബ്ര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6ca04cb0-7c09-4b3a-b7fb-e49504ae5838",
+      "ward_no": "1",
+      "ward_name_en": "Kovuppuram",
+      "ward_name_ml": "കോവുപ്പുറം"
+    },
+    {
+      "ward_id": "209bed60-9862-48a6-933a-293d340c6e5e",
+      "ward_no": "2",
+      "ward_name_en": "Avala",
+      "ward_name_ml": "ആവള"
+    },
+    {
+      "ward_id": "45d9826c-041b-49df-9570-738fb71d427a",
+      "ward_no": "3",
+      "ward_name_en": "Madhathil Mukku",
+      "ward_name_ml": "മഠത്തില്‍മുക്ക്"
+    },
+    {
+      "ward_id": "fb11036a-aeb3-411e-97cc-6b1c2f67db2b",
+      "ward_no": "4",
+      "ward_name_en": "Parappuram",
+      "ward_name_ml": "പാറപ്പുറം"
+    },
+    {
+      "ward_id": "072af618-945f-4616-9310-b1ff3c7a233c",
+      "ward_no": "5",
+      "ward_name_en": "Kuttoth",
+      "ward_name_ml": "കുട്ടോത്ത്"
+    },
+    {
+      "ward_id": "a1ae7eb0-3d20-4dd0-9b19-0e4893ee3585",
+      "ward_no": "6",
+      "ward_name_en": "Manikkoth",
+      "ward_name_ml": "മാണിക്കോത്ത്"
+    },
+    {
+      "ward_id": "9e08c258-0210-45d4-a4df-2aa0020158af",
+      "ward_no": "7",
+      "ward_name_en": "Ayolpadi",
+      "ward_name_ml": "അയോല്‍പടി"
+    },
+    {
+      "ward_id": "de5b527d-e3f7-46b7-ac4b-384ce29459e1",
+      "ward_no": "8",
+      "ward_name_en": "Cheruvannur",
+      "ward_name_ml": "ചെറുവണ്ണൂര്‍"
+    },
+    {
+      "ward_id": "bf545626-94eb-49c1-9972-b8ea3b5c8a3c",
+      "ward_no": "9",
+      "ward_name_en": "Kandeethazha",
+      "ward_name_ml": "കണ്ടീത്താഴ"
+    },
+    {
+      "ward_id": "a038b03b-0ba4-4c32-9ed7-cdc03a7cc083",
+      "ward_no": "10",
+      "ward_name_en": "Edacherichalil",
+      "ward_name_ml": "എടച്ചേരിച്ചാലില്‍"
+    },
+    {
+      "ward_id": "87c6dc7b-955f-4518-b2f4-c462bb1af1f3",
+      "ward_no": "11",
+      "ward_name_en": "Viyyanchira",
+      "ward_name_ml": "വിയ്യഞ്ചിറ"
+    },
+    {
+      "ward_id": "2d76862e-79f8-43fb-bc85-55b374a7d269",
+      "ward_no": "12",
+      "ward_name_en": "Padinharakkara",
+      "ward_name_ml": "പടിഞ്ഞാറക്കര"
+    },
+    {
+      "ward_id": "d7c8c45e-8dde-4572-9004-3568d1c654f6",
+      "ward_no": "13",
+      "ward_name_en": "Muyippoth",
+      "ward_name_ml": "മുയിപ്പോത്ത്"
+    },
+    {
+      "ward_id": "4e2e9688-5a84-416b-9d1e-78065d4903b9",
+      "ward_no": "14",
+      "ward_name_en": "Vennarode",
+      "ward_name_ml": "വെണ്ണാറോട്"
+    },
+    {
+      "ward_id": "e92c0644-d68e-4f1a-a9b5-c76ac8c57135",
+      "ward_no": "15",
+      "ward_name_en": "Kakkaramukku",
+      "ward_name_ml": "കക്കറമുക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110601.geojson"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "assembly_id": "69",
+  "assembly_name_en": "Kaipamangalam",
+  "assembly_name_ml": "കൈപ്പമംഗലം",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G081401",
+      "local_body_name_en": "Edathiruthy",
+      "local_body_name_ml": "എടത്തിരുത്തി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081406",
+      "local_body_name_en": "Edavilangu",
+      "local_body_name_ml": "എടവിലങ്ങ്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G081407",
+      "local_body_name_en": "Eriyad",
+      "local_body_name_ml": "എറിയാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G081402",
+      "local_body_name_en": "Kaipamangalam",
+      "local_body_name_ml": "കൈപ്പമംഗലം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G081403",
+      "local_body_name_en": "Mathilakam",
+      "local_body_name_ml": "മതിലകം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081404",
+      "local_body_name_en": "Perinjanam",
+      "local_body_name_ml": "പെരിഞ്ഞനം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G081405",
+      "local_body_name_en": "Sreenarayanapuram",
+      "local_body_name_ml": "ശ്രീനാരായണപുരം",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kaipamangalam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kaipamangalam.geojson"
+  }
+}

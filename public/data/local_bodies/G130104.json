@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G130104",
+  "local_body_name_en": "Kankol - Alappadamba",
+  "local_body_name_ml": "കാങ്കോല്‍ - ആലപ്പടമ്പ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "6",
+    "assembly_name_en": "Payyannur",
+    "assembly_name_ml": "പയ്യന്നൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "13",
+    "district_name_en": "Kannur",
+    "district_name_ml": "കണ്ണൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "88eb6ff7-059b-433b-b1c0-03415d40f9a5",
+      "ward_no": "1",
+      "ward_name_en": "Ettukudukka",
+      "ward_name_ml": "ഏറ്റുകുടുക്ക"
+    },
+    {
+      "ward_id": "6141d2bb-f815-4a44-9944-3c055e883cb1",
+      "ward_no": "2",
+      "ward_name_en": "Kanam",
+      "ward_name_ml": "കാനം"
+    },
+    {
+      "ward_id": "8a281518-e5cd-42d1-b931-3bb45a90275d",
+      "ward_no": "3",
+      "ward_name_en": "Challachal",
+      "ward_name_ml": "ചള്ളച്ചാല്‍"
+    },
+    {
+      "ward_id": "b435cd38-140d-4590-b5b2-e02807536f81",
+      "ward_no": "4",
+      "ward_name_en": "Chooral",
+      "ward_name_ml": "ചൂരല്‍"
+    },
+    {
+      "ward_id": "11dcd031-e516-4a22-8b96-64b151b6ad3a",
+      "ward_no": "5",
+      "ward_name_en": "Vadavanthur",
+      "ward_name_ml": "വടവന്തൂര്‍"
+    },
+    {
+      "ward_id": "10abd6e3-a954-49b3-9e9d-22c09a12ceaa",
+      "ward_no": "6",
+      "ward_name_en": "Mathil",
+      "ward_name_ml": "മാത്തില്‍"
+    },
+    {
+      "ward_id": "86aee193-fe4c-4cf0-83e5-532b235d961b",
+      "ward_no": "7",
+      "ward_name_en": "Alakkad",
+      "ward_name_ml": "ആലക്കാട്"
+    },
+    {
+      "ward_id": "3073d876-79b5-4f28-894b-8497de0abf16",
+      "ward_no": "8",
+      "ward_name_en": "Kaleeswaram",
+      "ward_name_ml": "കാളീശ്വരം"
+    },
+    {
+      "ward_id": "db3fc401-14b3-4ae8-8dbc-5f7d08aae448",
+      "ward_no": "9",
+      "ward_name_en": "Karinkuzhi",
+      "ward_name_ml": "കരിങ്കുഴി"
+    },
+    {
+      "ward_id": "e13c630a-1366-45e9-a279-884b3fcff47e",
+      "ward_no": "10",
+      "ward_name_en": "Kundayamkovval",
+      "ward_name_ml": "കുണ്ടയംകൊവ്വല്‍"
+    },
+    {
+      "ward_id": "a898b0da-6560-4217-9ff5-3da85460bb57",
+      "ward_no": "11",
+      "ward_name_en": "Thazhekurunth",
+      "ward_name_ml": "താഴെക്കുറുന്ത്"
+    },
+    {
+      "ward_id": "da8d1c76-ad2b-43fa-ae10-80c16d6ae7ee",
+      "ward_no": "12",
+      "ward_name_en": "Kankol",
+      "ward_name_ml": "കാങ്കോല്‍"
+    },
+    {
+      "ward_id": "98c25a41-ccfd-44ae-b006-19d282d2a98c",
+      "ward_no": "13",
+      "ward_name_en": "Papparatta",
+      "ward_name_ml": "പാപ്പാരട്ട"
+    },
+    {
+      "ward_id": "46ebfd5e-caa2-4ac3-b1f4-a5f0996f06f5",
+      "ward_no": "14",
+      "ward_name_en": "Kakkiriyad",
+      "ward_name_ml": "കക്കിരിയാട്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G130104.geojson"
+  }
+}

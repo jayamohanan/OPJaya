@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G030105",
+  "local_body_name_en": "Kallooppara",
+  "local_body_name_ml": "കല്ലൂപ്പാറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "111",
+    "assembly_name_en": "Thiruvalla",
+    "assembly_name_ml": "തിരുവല്ല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "ec82fe8f-4fac-423d-b9a9-a87bd62ae252",
+      "ward_no": "1",
+      "ward_name_en": "Chengaroor",
+      "ward_name_ml": "ചെങ്ങരൂര്‍"
+    },
+    {
+      "ward_id": "f64c9d5f-6ae5-47d2-9f0e-868f91f21f8f",
+      "ward_no": "2",
+      "ward_name_en": "Kanjirathinkal",
+      "ward_name_ml": "കാഞ്ഞിരത്തിങ്കല്‍"
+    },
+    {
+      "ward_id": "e5a7f0e5-7891-4ab1-a8eb-5060ccf772de",
+      "ward_no": "3",
+      "ward_name_en": "Madukkoli",
+      "ward_name_ml": "മടുക്കോലി"
+    },
+    {
+      "ward_id": "05c6b781-cab0-4822-bab0-cdac36c1f277",
+      "ward_no": "4",
+      "ward_name_en": "Thundiyamkulam",
+      "ward_name_ml": "തുണ്ടിയാംകുളം"
+    },
+    {
+      "ward_id": "f0bd0903-654d-45b3-a059-9467c04efb16",
+      "ward_no": "5",
+      "ward_name_en": "Thuruthicad",
+      "ward_name_ml": "തുരുത്തിക്കാട്"
+    },
+    {
+      "ward_id": "f63be067-40e4-44c7-9450-107cfe7b4264",
+      "ward_no": "6",
+      "ward_name_en": "Kumbhamala",
+      "ward_name_ml": "കുംഭമല"
+    },
+    {
+      "ward_id": "041537b3-db89-4a7c-85f8-c2f7550b3275",
+      "ward_no": "7",
+      "ward_name_en": "Ambattubhagom",
+      "ward_name_ml": "അമ്പാട്ടുഭാഗം"
+    },
+    {
+      "ward_id": "fe39e946-d654-4745-a10f-5ac7884f2e99",
+      "ward_no": "8",
+      "ward_name_en": "Madathumbhagom North",
+      "ward_name_ml": "മടത്തുംഭാഗം വടക്ക്"
+    },
+    {
+      "ward_id": "b8e7c010-6a5c-44c2-a218-a55874022f26",
+      "ward_no": "9",
+      "ward_name_en": "Cherumatha",
+      "ward_name_ml": "ചെറുമത"
+    },
+    {
+      "ward_id": "6db12c33-0cc6-44de-b577-f456e16fdc8d",
+      "ward_no": "10",
+      "ward_name_en": "Kalloor",
+      "ward_name_ml": "കല്ലൂര്‍"
+    },
+    {
+      "ward_id": "1969fac9-7795-4184-be26-3e5674142f07",
+      "ward_no": "11",
+      "ward_name_en": "Chackom Bhagom",
+      "ward_name_ml": "ചാക്കോംഭാഗം"
+    },
+    {
+      "ward_id": "fb438eed-a060-4725-af25-dd2f90b16a57",
+      "ward_no": "12",
+      "ward_name_en": "Kadamankulam",
+      "ward_name_ml": "കടമാന്‍കുളം"
+    },
+    {
+      "ward_id": "1fef1d81-b3e7-457a-84c1-3b5eabdf752d",
+      "ward_no": "13",
+      "ward_name_en": "Sasthamgal",
+      "ward_name_ml": "ശാസ്താങ്കല്‍"
+    },
+    {
+      "ward_id": "90af7b49-9368-4d07-bb45-6188cdb1d743",
+      "ward_no": "14",
+      "ward_name_en": "Puthusserry",
+      "ward_name_ml": "പുതുശ്ശേരി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030105.geojson"
+  }
+}

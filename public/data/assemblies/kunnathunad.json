@@ -1,0 +1,66 @@
+{
+  "assembly_id": "84",
+  "assembly_name_en": "Kunnathunad",
+  "assembly_name_ml": "കുന്നത്തുനാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G070503",
+      "local_body_name_en": "Kizhakkambalam",
+      "local_body_name_ml": "കിഴക്കമ്പലം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G071006",
+      "local_body_name_en": "Kunnathunad",
+      "local_body_name_ml": "കുന്നത്തുനാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071004",
+      "local_body_name_en": "Mazhuvannoor",
+      "local_body_name_ml": "മഴുവന്നൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071001",
+      "local_body_name_en": "Poothrikka",
+      "local_body_name_ml": "പൂത്തൃക്ക",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071002",
+      "local_body_name_en": "Thiruvaniyoor",
+      "local_body_name_ml": "തിരുവാണിയൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G071003",
+      "local_body_name_en": "VadavucodePuthencruz",
+      "local_body_name_ml": "വടവുകോട് പുത്തന്‍കുരിശ്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G071005",
+      "local_body_name_en": "Aikaranad",
+      "local_body_name_ml": "ഐക്കരനാട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G070502",
+      "local_body_name_en": "Vazhakulam",
+      "local_body_name_ml": "വാഴക്കുളം",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kunnathunad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kunnathunad.geojson"
+  }
+}

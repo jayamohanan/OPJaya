@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G021103",
+  "local_body_name_en": "Chadayamangalam",
+  "local_body_name_ml": "ചടയമംഗലം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "122",
+    "assembly_name_en": "Chadayamangalam",
+    "assembly_name_ml": "ചടയമംഗലം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "250165fc-6f2f-4340-ade1-678c01eaaa29",
+      "ward_no": "1",
+      "ward_name_en": "Theruvinbhagam",
+      "ward_name_ml": "തെരുവിന്‍ഭാഗം"
+    },
+    {
+      "ward_id": "2cf00e96-09dd-43d1-91dc-9956c9e43ffa",
+      "ward_no": "2",
+      "ward_name_en": "Vellooppara",
+      "ward_name_ml": "വെള്ളൂപ്പാറ"
+    },
+    {
+      "ward_id": "2ac43f36-5257-4f0b-9c13-26bab7fb5fc7",
+      "ward_no": "3",
+      "ward_name_en": "Edakkodu",
+      "ward_name_ml": "ഇടയ്ക്കോട്"
+    },
+    {
+      "ward_id": "e1c020eb-9fcf-457c-86a6-ff7b5de0fb13",
+      "ward_no": "4",
+      "ward_name_en": "Madannada",
+      "ward_name_ml": "മാടന്‍നട"
+    },
+    {
+      "ward_id": "1a127423-1dc7-4f2b-9af2-048acf71f456",
+      "ward_no": "5",
+      "ward_name_en": "Poonkodu",
+      "ward_name_ml": "പൂങ്കോട്"
+    },
+    {
+      "ward_id": "973bec24-8533-42d3-94dc-3fb1c1366213",
+      "ward_no": "6",
+      "ward_name_en": "Akkonam",
+      "ward_name_ml": "അക്കോണം"
+    },
+    {
+      "ward_id": "67c45d29-56a0-4907-b8a7-246e408a22c6",
+      "ward_no": "7",
+      "ward_name_en": "Mannamparampu",
+      "ward_name_ml": "മണ്ണാ൦പറമ്പ്"
+    },
+    {
+      "ward_id": "11dc1714-3d09-452c-9591-dcd950211580",
+      "ward_no": "8",
+      "ward_name_en": "Kannankodu",
+      "ward_name_ml": "കണ്ണങ്കോട്"
+    },
+    {
+      "ward_id": "42def8be-dca1-4791-b617-a7972e67c73a",
+      "ward_no": "9",
+      "ward_name_en": "Chadayamangalam",
+      "ward_name_ml": "ചടയമംഗലം"
+    },
+    {
+      "ward_id": "f3814533-d11d-42a1-8f84-12678b99b601",
+      "ward_no": "10",
+      "ward_name_en": "Kuriyodu",
+      "ward_name_ml": "കുരിയോട്"
+    },
+    {
+      "ward_id": "efea26fd-6c98-4b52-ab30-8055b0bcfeab",
+      "ward_no": "11",
+      "ward_name_en": "Vettuvazhi",
+      "ward_name_ml": "വെട്ടുവഴി"
+    },
+    {
+      "ward_id": "8365aad9-e243-4d63-85e3-e7da5b8f0dbd",
+      "ward_no": "12",
+      "ward_name_en": "Kalayam",
+      "ward_name_ml": "കലയം"
+    },
+    {
+      "ward_id": "104e07d6-4aa7-4f70-b63e-bb2ac190a49d",
+      "ward_no": "13",
+      "ward_name_en": "Kallikkadu",
+      "ward_name_ml": "കള്ളിക്കാട്"
+    },
+    {
+      "ward_id": "8f922700-7a4f-4b3c-92b4-18b25620dc7c",
+      "ward_no": "14",
+      "ward_name_en": "Moolamkodu",
+      "ward_name_ml": "മൂലങ്കോട്"
+    },
+    {
+      "ward_id": "12e4387f-08c3-4177-a97a-c891124a58cf",
+      "ward_no": "15",
+      "ward_name_en": "Poredom",
+      "ward_name_ml": "പോരേടം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G021103.geojson"
+  }
+}

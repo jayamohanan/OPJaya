@@ -1,0 +1,72 @@
+{
+  "assembly_id": "53",
+  "assembly_name_en": "Kongad",
+  "assembly_name_ml": "കോങ്ങാട്",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G090505",
+      "local_body_name_en": "Kanhirapuzha",
+      "local_body_name_ml": "കാഞ്ഞിരപുഴ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090407",
+      "local_body_name_en": "Karakurussi",
+      "local_body_name_ml": "കാരാകുറുശ്ശി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090502",
+      "local_body_name_en": "Karimba",
+      "local_body_name_ml": "കരിമ്പ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090701",
+      "local_body_name_en": "Keralassery",
+      "local_body_name_ml": "കേരളശ്ശേരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090702",
+      "local_body_name_en": "Kongad",
+      "local_body_name_ml": "കോങ്ങാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G090703",
+      "local_body_name_en": "Mankara",
+      "local_body_name_ml": "മങ്കര",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090704",
+      "local_body_name_en": "Mannur",
+      "local_body_name_ml": "മണ്ണൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090706",
+      "local_body_name_en": "Parali",
+      "local_body_name_ml": "പറളി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G090508",
+      "local_body_name_en": "Tachampara",
+      "local_body_name_ml": "തച്ചമ്പാറ",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kongad.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kongad.geojson"
+  }
+}

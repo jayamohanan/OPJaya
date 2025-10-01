@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G091301",
+  "local_body_name_en": "Akathethara",
+  "local_body_name_ml": "അകത്തേത്തറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "55",
+    "assembly_name_en": "Malampuzha",
+    "assembly_name_ml": "മലമ്പുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "db34a9e7-9e27-4000-96e9-d9fefbc73b8c",
+      "ward_no": "1",
+      "ward_name_en": "Dhoni",
+      "ward_name_ml": "ധോണി"
+    },
+    {
+      "ward_id": "8e715990-1774-41c6-931f-6da1185b731e",
+      "ward_no": "2",
+      "ward_name_en": "Engineering College",
+      "ward_name_ml": "എഞ്ചിനീയറിംഗ് കോളേജ്"
+    },
+    {
+      "ward_id": "727a1c6a-11c6-41b7-b3b2-59a6067b714a",
+      "ward_no": "3",
+      "ward_name_en": "Vadakkethara",
+      "ward_name_ml": "വടക്കേത്തറ"
+    },
+    {
+      "ward_id": "1666eab4-0b70-4e88-9670-d5f5303e83a5",
+      "ward_no": "4",
+      "ward_name_en": "Thekkethara",
+      "ward_name_ml": "തെക്കേത്തറ"
+    },
+    {
+      "ward_id": "04d79a59-f8ca-4d43-ae27-1baf0e8c2362",
+      "ward_no": "5",
+      "ward_name_en": "Ithingaparambu",
+      "ward_name_ml": "ഇത്തിങ്ങാപറമ്പ്"
+    },
+    {
+      "ward_id": "c4457296-2686-4fdd-a453-dd333c8a2304",
+      "ward_no": "6",
+      "ward_name_en": "Nadakkavu",
+      "ward_name_ml": "നടക്കാവ്"
+    },
+    {
+      "ward_id": "140587b3-7f73-4341-bce0-5210cd852383",
+      "ward_no": "7",
+      "ward_name_en": "Korathodi",
+      "ward_name_ml": "കോരത്തൊടി"
+    },
+    {
+      "ward_id": "b1d252c2-e3f3-40c8-ba6b-1b4e893a0801",
+      "ward_no": "8",
+      "ward_name_en": "Andimadom",
+      "ward_name_ml": "ആണ്ടിമഠം"
+    },
+    {
+      "ward_id": "69a137ea-75f2-44f7-809a-562e44e3ea09",
+      "ward_no": "9",
+      "ward_name_en": "Kunnampara",
+      "ward_name_ml": "കുന്നംപാറ"
+    },
+    {
+      "ward_id": "7d583aba-f43e-4498-92a8-52ac1de6dc0f",
+      "ward_no": "10",
+      "ward_name_en": "Kallekulangara",
+      "ward_name_ml": "കല്ലേക്കുളങ്ങര"
+    },
+    {
+      "ward_id": "c8da6ebf-ad4a-4c8e-820e-06c4086444f8",
+      "ward_no": "11",
+      "ward_name_en": "Hemambika Sanskrit School",
+      "ward_name_ml": "ഹേമാംബിക സംസ്കൃത സ്കൂള്‍"
+    },
+    {
+      "ward_id": "ecd8d62b-831c-4cf4-ae83-9cbde87d408d",
+      "ward_no": "12",
+      "ward_name_en": "Kunnukad",
+      "ward_name_ml": "കുന്നുകാട്"
+    },
+    {
+      "ward_id": "9dc3801a-5cb4-45aa-b1af-49623f965db1",
+      "ward_no": "13",
+      "ward_name_en": "Kongapadam",
+      "ward_name_ml": "കൊങ്ങപ്പാടം"
+    },
+    {
+      "ward_id": "293cb355-6d75-4227-bd8d-50566b8ea6b5",
+      "ward_no": "14",
+      "ward_name_en": "Punnakulam",
+      "ward_name_ml": "പുന്നക്കുളം"
+    },
+    {
+      "ward_id": "bf211dc1-4171-4cb6-9776-982158ad28dc",
+      "ward_no": "15",
+      "ward_name_en": "Railway Colony",
+      "ward_name_ml": "റെയില്‍വേ കോളനി"
+    },
+    {
+      "ward_id": "32af01bd-bab6-41a9-a3bb-e4038d43ef45",
+      "ward_no": "16",
+      "ward_name_en": "Kakkanni",
+      "ward_name_ml": "കാക്കണ്ണി"
+    },
+    {
+      "ward_id": "59eca0b9-4ce2-479e-ab49-e87d014f7a34",
+      "ward_no": "17",
+      "ward_name_en": "Ummini",
+      "ward_name_ml": "ഉമ്മിനി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091301.geojson"
+  }
+}

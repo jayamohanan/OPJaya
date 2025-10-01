@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G051106",
+  "local_body_name_en": "Parathodu",
+  "local_body_name_ml": "പാറത്തോട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "101",
+    "assembly_name_en": "Poonjar",
+    "assembly_name_ml": "പൂഞ്ഞാർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3ecd532c-b19a-4049-bd5a-decfad32565b",
+      "ward_no": "1",
+      "ward_name_en": "Vengathanam",
+      "ward_name_ml": "വേങ്ങത്താനം"
+    },
+    {
+      "ward_id": "1cfe85cf-d0c7-4e25-9a33-78a7b726c3b0",
+      "ward_no": "2",
+      "ward_name_en": "Palapra",
+      "ward_name_ml": "പാലപ്ര"
+    },
+    {
+      "ward_id": "3b4fb5e0-7c52-47d2-8db0-791a1070289b",
+      "ward_no": "3",
+      "ward_name_en": "Velichiyani",
+      "ward_name_ml": "വെളിച്ചിയാനി"
+    },
+    {
+      "ward_id": "7b116174-c938-4f79-8515-ae1a5dc4ff57",
+      "ward_no": "4",
+      "ward_name_en": "Chotty",
+      "ward_name_ml": "ചോറ്റി"
+    },
+    {
+      "ward_id": "f6340758-849d-43bd-bc5f-2b3d05f308ba",
+      "ward_no": "5",
+      "ward_name_en": "Mangappara",
+      "ward_name_ml": "മാങ്ങാപ്പാറ"
+    },
+    {
+      "ward_id": "91c695e8-59b9-427a-9725-94a2c66cbb3a",
+      "ward_no": "6",
+      "ward_name_en": "Vadakkemala",
+      "ward_name_ml": "വടക്കേമല"
+    },
+    {
+      "ward_id": "bb363270-d95d-48fd-8957-70db6d3bab95",
+      "ward_no": "7",
+      "ward_name_en": "Parathodu",
+      "ward_name_ml": "പാറത്തോട്"
+    },
+    {
+      "ward_id": "6f53e829-0e9c-4545-b026-0c1b85f65753",
+      "ward_no": "8",
+      "ward_name_en": "Nadukani",
+      "ward_name_ml": "നാടുകാണി"
+    },
+    {
+      "ward_id": "c57131fa-bae4-4cdc-a205-1e54724d2c37",
+      "ward_no": "9",
+      "ward_name_en": "Edakkunnam",
+      "ward_name_ml": "ഇടക്കുന്നം"
+    },
+    {
+      "ward_id": "5c5eaccb-07c9-45b2-8871-fa3c7af6e355",
+      "ward_no": "11",
+      "ward_name_en": "Koovappally",
+      "ward_name_ml": "കൂവപ്പള്ളി"
+    },
+    {
+      "ward_id": "a650c669-ab71-49fd-a65f-87e4c63d72ac",
+      "ward_no": "12",
+      "ward_name_en": "Kulappuram",
+      "ward_name_ml": "കുളപ്പുറം"
+    },
+    {
+      "ward_id": "cbc92644-4dfc-4e48-95da-0b08f4ec0584",
+      "ward_no": "13",
+      "ward_name_en": "Palampra",
+      "ward_name_ml": "പാലമ്പ്ര"
+    },
+    {
+      "ward_id": "b9cf15a3-37c2-4224-ad2f-0d4aab90e1cd",
+      "ward_no": "14",
+      "ward_name_en": "Mukkaly",
+      "ward_name_ml": "മുക്കാലി"
+    },
+    {
+      "ward_id": "0708359c-b84b-4835-8f66-8806a405b036",
+      "ward_no": "15",
+      "ward_name_en": "Podimattam",
+      "ward_name_ml": "പൊടിമറ്റം"
+    },
+    {
+      "ward_id": "2c5ba31a-fb17-48b7-a7d5-b7935cb9e63b",
+      "ward_no": "16",
+      "ward_name_en": "Anakkallu",
+      "ward_name_ml": "ആനക്കല്ല്"
+    },
+    {
+      "ward_id": "5f7f7fd1-58cf-4162-86a4-d0a7ae50d629",
+      "ward_no": "17",
+      "ward_name_en": "Pulkunnu",
+      "ward_name_ml": "പുല്‍ക്കുന്ന്"
+    },
+    {
+      "ward_id": "914a82a8-2d1a-4010-9013-83e072adb8a9",
+      "ward_no": "18",
+      "ward_name_en": "Pazhumala",
+      "ward_name_ml": "പഴൂമല"
+    },
+    {
+      "ward_id": "90f88570-0b99-4005-b00d-3e06452596bd",
+      "ward_no": "19",
+      "ward_name_en": "Chirabhagam",
+      "ward_name_ml": "ചിറഭാഗം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G051106.geojson"
+  }
+}

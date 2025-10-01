@@ -1,0 +1,145 @@
+{
+  "local_body_id": "G020201",
+  "local_body_name_en": "Sasthamcotta",
+  "local_body_name_ml": "ശാസ്താംകോട്ട",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "118",
+    "assembly_name_en": "Kunnathur",
+    "assembly_name_ml": "കുന്നത്തൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6a223a6e-c7dc-42e0-b8d2-ebc94f23f9f8",
+      "ward_no": "1",
+      "ward_name_en": "Panappetty",
+      "ward_name_ml": "പനപ്പെട്ടി"
+    },
+    {
+      "ward_id": "a2dca1bd-150b-4fe9-a90c-4955f5fa8fed",
+      "ward_no": "2",
+      "ward_name_en": "Panappetty East",
+      "ward_name_ml": "പനപ്പെട്ടി കിഴക്ക്"
+    },
+    {
+      "ward_id": "17ebcd40-2280-4112-adce-a0df82f96501",
+      "ward_no": "3",
+      "ward_name_en": "Cinemaparambu",
+      "ward_name_ml": "സിനിമാപറമ്പ്"
+    },
+    {
+      "ward_id": "f200ce72-5612-42f6-9793-4126b13d4c16",
+      "ward_no": "4",
+      "ward_name_en": "Muthupilakkadu East",
+      "ward_name_ml": "മുതുപിലാക്കാട് കിഴക്ക്"
+    },
+    {
+      "ward_id": "bf0b98ab-3f0e-4cce-8a3b-819f862fabe5",
+      "ward_no": "5",
+      "ward_name_en": "Muthupilakkadu",
+      "ward_name_ml": "മുതുപിലാക്കാട്"
+    },
+    {
+      "ward_id": "cfe3dfcf-d874-4cd7-825f-f9dfded5c32d",
+      "ward_no": "6",
+      "ward_name_en": "Karimthottuva",
+      "ward_name_ml": "കരിന്തോട്ടുവ"
+    },
+    {
+      "ward_id": "7b610706-7bee-4445-baeb-ddb94b288c88",
+      "ward_no": "7",
+      "ward_name_en": "Peruvelikkara",
+      "ward_name_ml": "പെരുവേലിക്കര"
+    },
+    {
+      "ward_id": "004a2c9b-dc92-45d5-9f6f-0b3dbb3afaa6",
+      "ward_no": "8",
+      "ward_name_en": "Punnamoodu",
+      "ward_name_ml": "പുന്നമൂട്"
+    },
+    {
+      "ward_id": "818ca33b-e647-427e-9118-395124ef66a4",
+      "ward_no": "9",
+      "ward_name_en": "Muthupilakkadu West",
+      "ward_name_ml": "മുതുപിലാക്കാട് പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "54acc88f-4f46-49ae-ba97-ace0e5a75673",
+      "ward_no": "10",
+      "ward_name_en": "Manakkara East",
+      "ward_name_ml": "മനക്കര കിഴക്ക്"
+    },
+    {
+      "ward_id": "76f8dd52-3f4a-4c48-9803-5709bbb50e06",
+      "ward_no": "11",
+      "ward_name_en": "Sasthamcotta Town",
+      "ward_name_ml": "ശാസ്താംകോട്ട ഠൌണ്‍"
+    },
+    {
+      "ward_id": "3876fce0-b801-410d-9fdd-bc161cf882f1",
+      "ward_no": "12",
+      "ward_name_en": "Rajagiri",
+      "ward_name_ml": "രാജഗിരി"
+    },
+    {
+      "ward_id": "2593a903-073e-4381-898b-78231f96a63c",
+      "ward_no": "13",
+      "ward_name_en": "Manakkara West",
+      "ward_name_ml": "മനക്കര പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "7ac37845-4aba-4b5d-9e8c-d06bc340b04d",
+      "ward_no": "14",
+      "ward_name_en": "Pallisserickal South",
+      "ward_name_ml": "പള്ളിശ്ശേരിക്കല്‍ തെക്ക്"
+    },
+    {
+      "ward_id": "bc3f2170-bb54-4e07-9328-b1a8248ead41",
+      "ward_no": "15",
+      "ward_name_en": "Pallisserickal",
+      "ward_name_ml": "പള്ളിശ്ശേരിക്കല്‍"
+    },
+    {
+      "ward_id": "2cd87769-9241-4801-ac10-c320facd1396",
+      "ward_no": "16",
+      "ward_name_en": "Pallisserickal West",
+      "ward_name_ml": "പള്ളിശ്ശേരിക്കല്‍ പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "b8049960-c602-43fa-b75c-a39a88ed15a0",
+      "ward_no": "17",
+      "ward_name_en": "Pallisserickal East",
+      "ward_name_ml": "പള്ളിശ്ശേരിക്കല്‍ കിഴക്ക്"
+    },
+    {
+      "ward_id": "c2822271-58e0-455e-a424-d57f9123d3f8",
+      "ward_no": "18",
+      "ward_name_en": "Manakkara",
+      "ward_name_ml": "മനക്കര"
+    },
+    {
+      "ward_id": "26ed96b1-14b5-49a3-84fb-25d3aada710d",
+      "ward_no": "19",
+      "ward_name_en": "Bharanikkavu",
+      "ward_name_ml": "ഭരണിക്കാവ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G020201.geojson"
+  }
+}

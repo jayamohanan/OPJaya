@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G091208",
+  "local_body_name_en": "Kannambra",
+  "local_body_name_ml": "കണ്ണമ്പ്ര",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "57",
+    "assembly_name_en": "Tarur",
+    "assembly_name_ml": "തരൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "569c6ca9-3ac3-49fb-ac8a-effbf8b54f27",
+      "ward_no": "1",
+      "ward_name_en": "Karappotta",
+      "ward_name_ml": "കാരപ്പൊറ്റ"
+    },
+    {
+      "ward_id": "47e86dda-5394-47d2-9eb0-e7f8f43a4bf0",
+      "ward_no": "2",
+      "ward_name_en": "Kottekkad",
+      "ward_name_ml": "കൊട്ടേക്കാട്"
+    },
+    {
+      "ward_id": "ae9fd676-6c2f-4a4f-a579-8709d3a31ee6",
+      "ward_no": "3",
+      "ward_name_en": "Vadakkumuri",
+      "ward_name_ml": "വടക്കുമുറി"
+    },
+    {
+      "ward_id": "4d837912-497e-4e6b-85f6-1cef1901a30f",
+      "ward_no": "4",
+      "ward_name_en": "Mannapra",
+      "ward_name_ml": "മഞ്ഞപ്ര"
+    },
+    {
+      "ward_id": "59f7fd47-271b-4c55-bae1-182cf603b623",
+      "ward_no": "5",
+      "ward_name_en": "Pulimkootam",
+      "ward_name_ml": "പുളിങ്കൂട്ടം"
+    },
+    {
+      "ward_id": "6119f516-afd2-4d4c-8807-10e5822bac70",
+      "ward_no": "6",
+      "ward_name_en": "Aramthodi",
+      "ward_name_ml": "ആറാംതൊടി"
+    },
+    {
+      "ward_id": "0ba59141-a0cd-4597-88d8-ee7c6de5b601",
+      "ward_no": "7",
+      "ward_name_en": "Chira",
+      "ward_name_ml": "ചിറ"
+    },
+    {
+      "ward_id": "03c0dfb4-91c2-4929-95c3-801e9ecfe12b",
+      "ward_no": "8",
+      "ward_name_en": "Konnencherry",
+      "ward_name_ml": "കൊന്നഞ്ചേരി"
+    },
+    {
+      "ward_id": "703cec3b-c3b6-400e-95c5-c797e51acc49",
+      "ward_no": "9",
+      "ward_name_en": "Karayankad",
+      "ward_name_ml": "കാരയങ്കാട്"
+    },
+    {
+      "ward_id": "b5f4826f-8b83-40d0-b5e6-340b12a78b62",
+      "ward_no": "10",
+      "ward_name_en": "Kannambra",
+      "ward_name_ml": "കണ്ണമ്പ്ര"
+    },
+    {
+      "ward_id": "7d151bb2-0389-442c-895e-752b1db3600e",
+      "ward_no": "11",
+      "ward_name_en": "Challiparambu",
+      "ward_name_ml": "ചല്ലിപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "4d55a008-cf59-41aa-b402-e251a5b08756",
+      "ward_no": "12",
+      "ward_name_en": "Panthalampadam",
+      "ward_name_ml": "പന്തലാംപാടം"
+    },
+    {
+      "ward_id": "e87becb6-555f-4f3f-afa8-2e86b5c3a3b8",
+      "ward_no": "13",
+      "ward_name_en": "Rakkandi",
+      "ward_name_ml": "രക്കാണ്ടി"
+    },
+    {
+      "ward_id": "d6e792a3-374c-4793-a64b-fdd3d959c5fd",
+      "ward_no": "14",
+      "ward_name_en": "Kallinkalpadam",
+      "ward_name_ml": "കല്ലിങ്കല്‍പാടം"
+    },
+    {
+      "ward_id": "3d1ec6e6-c0cb-406c-aee7-7271414d80ea",
+      "ward_no": "15",
+      "ward_name_en": "Kalleri",
+      "ward_name_ml": "കല്ലേരി"
+    },
+    {
+      "ward_id": "9cb30984-e25d-4938-b041-89807bfa5250",
+      "ward_no": "16",
+      "ward_name_en": "Choorkunnu",
+      "ward_name_ml": "ചൂര്‍ക്കുന്ന്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G091208.geojson"
+  }
+}

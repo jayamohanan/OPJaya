@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G070401",
+  "local_body_name_en": "Asamannoor",
+  "local_body_name_ml": "അശമന്നൂര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "74",
+    "assembly_name_en": "Perumbavoor",
+    "assembly_name_ml": "പെരുമ്പാവൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "0bfeb949-c9ed-40e1-9bcf-d146697ebdfd",
+      "ward_no": "1",
+      "ward_name_en": "Cherukunnam",
+      "ward_name_ml": "ചെറുകുന്നം"
+    },
+    {
+      "ward_id": "4bea7927-c72d-4a49-9c38-1b482dd12f55",
+      "ward_no": "2",
+      "ward_name_en": "Punnayam",
+      "ward_name_ml": "പുന്നയം"
+    },
+    {
+      "ward_id": "1bfb8355-3d17-413d-9df7-79a93d7b173f",
+      "ward_no": "3",
+      "ward_name_en": "Asamannoor",
+      "ward_name_ml": "അശമന്നൂര്‍"
+    },
+    {
+      "ward_id": "7d0d69e9-0dab-4e40-ba2a-2e505977371c",
+      "ward_no": "4",
+      "ward_name_en": "Payyal",
+      "ward_name_ml": "പയ്യാല്‍"
+    },
+    {
+      "ward_id": "92472b82-beaf-4ee6-806a-81285073bf7a",
+      "ward_no": "5",
+      "ward_name_en": "Panichayam",
+      "ward_name_ml": "പനിച്ചയം"
+    },
+    {
+      "ward_id": "ed5ceabc-109c-4ef8-8c07-b46b2ecd81fa",
+      "ward_no": "6",
+      "ward_name_en": "Noolely North",
+      "ward_name_ml": "നൂലേലി വടക്ക്"
+    },
+    {
+      "ward_id": "9d47b114-42d4-47cf-95eb-74129eb116b2",
+      "ward_no": "7",
+      "ward_name_en": "Noolely South",
+      "ward_name_ml": "നൂലേലി തെക്ക്"
+    },
+    {
+      "ward_id": "b64c2668-a8f4-4f65-bd16-cb06a6e5e91d",
+      "ward_no": "8",
+      "ward_name_en": "Ekkunnam",
+      "ward_name_ml": "ഏക്കുന്നം"
+    },
+    {
+      "ward_id": "0940fbb0-4f3d-4d88-82c9-82f52519b412",
+      "ward_no": "9",
+      "ward_name_en": "Methala North",
+      "ward_name_ml": "മേതല വടക്ക്"
+    },
+    {
+      "ward_id": "be7959f6-fc08-45aa-bdc1-6e903a84acfe",
+      "ward_no": "10",
+      "ward_name_en": "Methala South",
+      "ward_name_ml": "മേതല  തെക്ക്"
+    },
+    {
+      "ward_id": "272e0df1-f628-4043-a2f6-9d14bd646156",
+      "ward_no": "11",
+      "ward_name_en": "Kallil",
+      "ward_name_ml": "കല്ലില്‍"
+    },
+    {
+      "ward_id": "4152061c-7c0e-4fa3-bc48-ad9a4aed5b66",
+      "ward_no": "12",
+      "ward_name_en": "Thalapuncha",
+      "ward_name_ml": "തലപ്പുഞ്ച"
+    },
+    {
+      "ward_id": "8a091769-88fd-4afe-86da-fdacc94c114d",
+      "ward_no": "13",
+      "ward_name_en": "Poomala",
+      "ward_name_ml": "പൂമല"
+    },
+    {
+      "ward_id": "49637afd-4e5e-4205-a226-3a9074e28111",
+      "ward_no": "14",
+      "ward_name_en": "Odakkali",
+      "ward_name_ml": "ഓടയ്ക്കാലി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070401.geojson"
+  }
+}

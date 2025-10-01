@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071402",
+  "local_body_name_en": "Arakuzha",
+  "local_body_name_ml": "ആരക്കുഴ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "86",
+    "assembly_name_en": "Muvattupuzha",
+    "assembly_name_ml": "മൂവാറ്റുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "013cf307-3518-4fd4-9b1d-66a9101e9589",
+      "ward_no": "1",
+      "ward_name_en": "Peringazha",
+      "ward_name_ml": "പെരിങ്ങഴ"
+    },
+    {
+      "ward_id": "234aef1b-8f68-4781-a6e5-36a647447e23",
+      "ward_no": "2",
+      "ward_name_en": "Perumballoor",
+      "ward_name_ml": "പെരുമ്പല്ലൂര്‍"
+    },
+    {
+      "ward_id": "345250be-de01-48c0-9ac6-0a2bd5dbf917",
+      "ward_no": "3",
+      "ward_name_en": "Arakuzha",
+      "ward_name_ml": "ആരക്കുഴ"
+    },
+    {
+      "ward_id": "a85781af-e083-42fe-ae40-6d7734856249",
+      "ward_no": "4",
+      "ward_name_en": "Keezhmadangu",
+      "ward_name_ml": "കീഴ്മടങ്ങ്"
+    },
+    {
+      "ward_id": "aa04a6c8-3506-4f99-aaab-899641d5f8c9",
+      "ward_no": "5",
+      "ward_name_en": "Memadangu",
+      "ward_name_ml": "മേമടങ്ങ്‌"
+    },
+    {
+      "ward_id": "cf0ccf52-dc90-475a-904e-5e40fc61e504",
+      "ward_no": "6",
+      "ward_name_en": "Thottakkara",
+      "ward_name_ml": "തോട്ടക്കര"
+    },
+    {
+      "ward_id": "fe3b3922-c78e-481e-8f2a-612804bce3ac",
+      "ward_no": "7",
+      "ward_name_en": "Pandappilly",
+      "ward_name_ml": "പണ്ടപ്പിള്ളി"
+    },
+    {
+      "ward_id": "5e1f9490-de27-441f-9c99-c43b5d58372b",
+      "ward_no": "8",
+      "ward_name_en": "Mullappadi",
+      "ward_name_ml": "മുല്ലപ്പടി"
+    },
+    {
+      "ward_id": "4be314fc-272f-4fb0-b865-d059f4e1b01c",
+      "ward_no": "9",
+      "ward_name_en": "Pandappilly West",
+      "ward_name_ml": "പണ്ടപ്പിള്ളി വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "554eaf98-eb58-4a1d-95d4-ce19a8d03d5f",
+      "ward_no": "10",
+      "ward_name_en": "Aroor",
+      "ward_name_ml": "ആറൂര്‍"
+    },
+    {
+      "ward_id": "27c67b44-a32f-4d1e-8aa8-114674bd8649",
+      "ward_no": "11",
+      "ward_name_en": "Meenkunnam",
+      "ward_name_ml": "മീങ്കുന്നം"
+    },
+    {
+      "ward_id": "792ba746-4821-4d60-9a54-c22469154c38",
+      "ward_no": "12",
+      "ward_name_en": "Perumballoor West",
+      "ward_name_ml": "പെരുമ്പല്ലൂര്‍ വെസ്റ്റ്"
+    },
+    {
+      "ward_id": "f1f4a816-bc17-497f-a48c-39b6907b61db",
+      "ward_no": "13",
+      "ward_name_en": "Muthukallu",
+      "ward_name_ml": "മുതുകല്ല്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071402.geojson"
+  }
+}

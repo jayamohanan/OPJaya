@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G100803",
+  "local_body_name_en": "Makkaraparamba",
+  "local_body_name_ml": "മക്കരപറമ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "39",
+    "assembly_name_en": "Mankada",
+    "assembly_name_ml": "മങ്കട",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "10",
+    "district_name_en": "Malappuram",
+    "district_name_ml": "മലപ്പുറം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "e6f52ead-bb14-4575-b6d5-ac9d3be3bf6c",
+      "ward_no": "1",
+      "ward_name_en": "Kachinikkad West",
+      "ward_name_ml": "കാച്ചിനിക്കാട് പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "1f01837f-a46a-4f84-906b-0ac595900afc",
+      "ward_no": "2",
+      "ward_name_en": "Kachinikkad East",
+      "ward_name_ml": "കാച്ചിനിക്കാട് കിഴക്ക്"
+    },
+    {
+      "ward_id": "7e86dcd8-741d-4a79-8938-ca4adc5d84d0",
+      "ward_no": "3",
+      "ward_name_en": "Vellattuprambu",
+      "ward_name_ml": "വെള്ളാട്ടുപറമ്പ്"
+    },
+    {
+      "ward_id": "a29cea92-0e2c-4188-b4c5-6b5ac2a0ee03",
+      "ward_no": "4",
+      "ward_name_en": "Pothukundu",
+      "ward_name_ml": "പോത്തുകുണ്ട്"
+    },
+    {
+      "ward_id": "f90a2990-d8dd-46e4-a130-045f7244ff7b",
+      "ward_no": "5",
+      "ward_name_en": "Vadakkangara Vadakkekulambu",
+      "ward_name_ml": "വടക്കാങ്ങര വടക്കേകുളമ്പ്"
+    },
+    {
+      "ward_id": "25b8e7ea-5865-4413-8da2-8cb60e19ec1d",
+      "ward_no": "6",
+      "ward_name_en": "Vadakkangara East",
+      "ward_name_ml": "വടക്കാങ്ങര കിഴക്ക്"
+    },
+    {
+      "ward_id": "b9a834f0-b16c-42d9-9655-3217e43bea3a",
+      "ward_no": "7",
+      "ward_name_en": "Vadakkangara West",
+      "ward_name_ml": "വടക്കാങ്ങര പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "1c3b19ac-5be1-4e1c-a639-b93424a6c2e2",
+      "ward_no": "8",
+      "ward_name_en": "Thadathilkundu",
+      "ward_name_ml": "തടത്തില്‍കുണ്ട്"
+    },
+    {
+      "ward_id": "ee5c14a2-8cec-438c-8713-e1ac17c03bd8",
+      "ward_no": "9",
+      "ward_name_en": "Kalavu",
+      "ward_name_ml": "കാളാവ്"
+    },
+    {
+      "ward_id": "4b71c89a-87c8-4d05-ba24-838c6ed2b04f",
+      "ward_no": "10",
+      "ward_name_en": "Kottakunnu",
+      "ward_name_ml": "കോട്ടക്കുന്ന്"
+    },
+    {
+      "ward_id": "9b3b4035-7809-4a8a-a3d2-4f227278b70e",
+      "ward_no": "11",
+      "ward_name_en": "Makkaraparamba Town West",
+      "ward_name_ml": "മക്കരപ്പറമ്പ് പടിഞ്ഞാറ്"
+    },
+    {
+      "ward_id": "82a328d9-6046-422c-a605-047b57f2ab08",
+      "ward_no": "12",
+      "ward_name_en": "Makkaraparamba Town South",
+      "ward_name_ml": "മക്കരപ്പറമ്പ് തെക്ക്"
+    },
+    {
+      "ward_id": "1606b9f0-97ba-4834-b282-80e0fc207368",
+      "ward_no": "13",
+      "ward_name_en": "Makkaraparamba Town North",
+      "ward_name_ml": "മക്കരപ്പറമ്പ് വടക്ക്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G100803.geojson"
+  }
+}

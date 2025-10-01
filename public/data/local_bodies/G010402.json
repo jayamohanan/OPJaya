@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G010402",
+  "local_body_name_en": "Nellanad",
+  "local_body_name_ml": "നെല്ലനാട്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "131",
+    "assembly_name_en": "Vamanapuram",
+    "assembly_name_ml": "വാമനപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "6bdb6d3f-d229-42bf-896b-11f773a6c6a0",
+      "ward_no": "1",
+      "ward_name_en": "Kottukunnam",
+      "ward_name_ml": "കോട്ടുകുന്നം"
+    },
+    {
+      "ward_id": "2247172d-6c62-4e7c-94bb-4f7773f9f8cd",
+      "ward_no": "2",
+      "ward_name_en": "Nellanad",
+      "ward_name_ml": "നെല്ലനാട്"
+    },
+    {
+      "ward_id": "3e742ba4-7628-4b8d-a2a6-5d8fe15bf52c",
+      "ward_no": "3",
+      "ward_name_en": "Kanthalakonam",
+      "ward_name_ml": "കാന്തലകോണം"
+    },
+    {
+      "ward_id": "f7709d1b-85a1-46b7-99d3-f64e290b95f7",
+      "ward_no": "4",
+      "ward_name_en": "Keezhaikonam",
+      "ward_name_ml": "കീഴായികോണം"
+    },
+    {
+      "ward_id": "508a598a-3248-4d3b-9108-9a0deda09180",
+      "ward_no": "5",
+      "ward_name_en": "Thottumpuram",
+      "ward_name_ml": "തോട്ടുംപുറം"
+    },
+    {
+      "ward_id": "e9885d9a-f691-4f29-a4bb-4c3eb09ccfb5",
+      "ward_no": "6",
+      "ward_name_en": "Mylackal",
+      "ward_name_ml": "മൈലയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "dc09a455-0ca5-4668-81bd-5fc403902f89",
+      "ward_no": "7",
+      "ward_name_en": "Venjaramoodu",
+      "ward_name_ml": "വെഞ്ഞാറമൂട്"
+    },
+    {
+      "ward_id": "c5c1ae7e-b655-49c3-b6cc-2347f719b4bb",
+      "ward_no": "8",
+      "ward_name_en": "Manickamangalam",
+      "ward_name_ml": "മാണിക്കമംഗലം"
+    },
+    {
+      "ward_id": "b17114a2-e035-4e08-a71f-4739bac269de",
+      "ward_no": "9",
+      "ward_name_en": "Puthoor",
+      "ward_name_ml": "പുതൂര്‍"
+    },
+    {
+      "ward_id": "e5d2dd2c-9fce-4fec-8d44-0f54d68ef2a4",
+      "ward_no": "10",
+      "ward_name_en": "Valiyakattackal",
+      "ward_name_ml": "വലിയകട്ടയ്ക്കാല്‍"
+    },
+    {
+      "ward_id": "ac4a28d4-b488-4dbf-ab2a-b67705758081",
+      "ward_no": "11",
+      "ward_name_en": "Kaavara",
+      "ward_name_ml": "കാവറ"
+    },
+    {
+      "ward_id": "34ce33f4-1834-47cd-a132-8e7ea7117443",
+      "ward_no": "12",
+      "ward_name_en": "Mukkunnoor",
+      "ward_name_ml": "മുക്കുന്നൂര്‍"
+    },
+    {
+      "ward_id": "b51b16eb-8f90-408d-b6e5-89fe3d6018fb",
+      "ward_no": "13",
+      "ward_name_en": "Muroorkonam",
+      "ward_name_ml": "മുരൂര്‍കോണം"
+    },
+    {
+      "ward_id": "1ca035b9-4f49-4265-9139-a99eb14428cb",
+      "ward_no": "14",
+      "ward_name_en": "Alanthara",
+      "ward_name_ml": "ആലന്തറ"
+    },
+    {
+      "ward_id": "45d4931c-908c-4a27-a416-c9dd50ee21ce",
+      "ward_no": "15",
+      "ward_name_en": "Mandapakkunnu",
+      "ward_name_ml": "മണ്ഡപക്കുന്ന്"
+    },
+    {
+      "ward_id": "cef51655-6c07-41ed-a974-e926bdb83ed0",
+      "ward_no": "16",
+      "ward_name_en": "Parameswaram",
+      "ward_name_ml": "പരമേശ്വരം"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G010402.geojson"
+  }
+}

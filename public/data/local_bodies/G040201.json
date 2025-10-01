@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G040201",
+  "local_body_name_en": "Vayalar",
+  "local_body_name_ml": "വയലാര്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "103",
+    "assembly_name_en": "Cherthala",
+    "assembly_name_ml": "ചേർത്തല",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "4",
+    "district_name_en": "Alappuzha",
+    "district_name_ml": "ആലപ്പുഴ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "51028b0d-42b0-4409-bbd9-97e6155711c9",
+      "ward_no": "1",
+      "ward_name_en": "Kavil",
+      "ward_name_ml": "കാവില്‍"
+    },
+    {
+      "ward_id": "a8c23151-6b1d-4efb-9e60-ab5d3d75e365",
+      "ward_no": "2",
+      "ward_name_en": "Ettupurakkal",
+      "ward_name_ml": "എട്ടുപുരക്കല്‍"
+    },
+    {
+      "ward_id": "eefbb977-14d6-4d99-9d31-0a8bcde530ff",
+      "ward_no": "3",
+      "ward_name_en": "Ramavarmma High School",
+      "ward_name_ml": "രാമവര്‍മ്മ ഹൈസ്കൂള്‍"
+    },
+    {
+      "ward_id": "aa1f8dae-c722-4367-8526-5ee61aa40214",
+      "ward_no": "4",
+      "ward_name_en": "Nagamkulangara",
+      "ward_name_ml": "നാഗംകുളങ്ങര"
+    },
+    {
+      "ward_id": "a26ebad4-7b7e-4bd7-825e-915d07d61bff",
+      "ward_no": "5",
+      "ward_name_en": "P.H.C.",
+      "ward_name_ml": "പി.എച്ച്.സി."
+    },
+    {
+      "ward_id": "28367a0f-b76a-42c7-a2ab-15ac4807e0e7",
+      "ward_no": "6",
+      "ward_name_en": "Keraladithyapuram",
+      "ward_name_ml": "കേരളാദിത്യപുരം"
+    },
+    {
+      "ward_id": "caaf259a-971d-49c9-9285-d6a1f3fc5dcc",
+      "ward_no": "7",
+      "ward_name_en": "Ramavarmma Smarakam",
+      "ward_name_ml": "രാമവര്‍മ്മ സ്മാരകം"
+    },
+    {
+      "ward_id": "6f198a82-a4a9-4cf2-87a9-5dce21970b83",
+      "ward_no": "8",
+      "ward_name_en": "Mandapam",
+      "ward_name_ml": "മണ്ഡപം"
+    },
+    {
+      "ward_id": "0eb01280-e505-4a3e-a963-806c37392fa2",
+      "ward_no": "9",
+      "ward_name_en": "Saktheeswaram",
+      "ward_name_ml": "ശക്തീശ്വരം"
+    },
+    {
+      "ward_id": "552f64dd-64a1-4e79-87e6-c45b5f1fd43f",
+      "ward_no": "10",
+      "ward_name_en": "Kalavamkodam",
+      "ward_name_ml": "കളവംകോടം"
+    },
+    {
+      "ward_id": "dcdeb884-8954-4ac2-8f73-2be812736dc8",
+      "ward_no": "11",
+      "ward_name_en": "Karappuram",
+      "ward_name_ml": "കരപ്പുറം"
+    },
+    {
+      "ward_id": "fc8fadd0-b580-4eb4-bdc1-ef47b787fb86",
+      "ward_no": "12",
+      "ward_name_en": "Kollappalli",
+      "ward_name_ml": "കൊല്ലപ്പള്ളി"
+    },
+    {
+      "ward_id": "f664714c-05fc-4979-b78d-496a522c2fa5",
+      "ward_no": "13",
+      "ward_name_en": "Neelimangalam",
+      "ward_name_ml": "നീലിമംഗലം"
+    },
+    {
+      "ward_id": "fa183994-c3d0-43a0-a3a5-ec8051a38881",
+      "ward_no": "14",
+      "ward_name_en": "A.K.G.Grandhasala",
+      "ward_name_ml": "എ.കെ.ജി.ഗ്രന്ഥശാല"
+    },
+    {
+      "ward_id": "81841135-a1eb-4e1e-b6ef-6e58dafe649f",
+      "ward_no": "15",
+      "ward_name_en": "Chathanchira",
+      "ward_name_ml": "ചാത്തന്‍ചിറ"
+    },
+    {
+      "ward_id": "518968a6-2f46-442e-acb0-6ab59de6143a",
+      "ward_no": "16",
+      "ward_name_en": "Olathala",
+      "ward_name_ml": "ഒളതല"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G040201.geojson"
+  }
+}

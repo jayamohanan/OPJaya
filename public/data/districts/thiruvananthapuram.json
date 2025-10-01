@@ -1,0 +1,73 @@
+{
+  "district_id": "1",
+  "district_name_en": "Thiruvananthapuram",
+  "district_name_ml": "തിരുവനന്തപുരം",
+  "is_active": false,
+  "category": "Normal",
+  "assemblies": [
+    {
+      "assembly_id": "127",
+      "assembly_name_en": "Varkala",
+      "assembly_name_ml": "വർക്കല",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "128",
+      "assembly_name_en": "Attingal",
+      "assembly_name_ml": "ആറ്റിങ്ങൽ",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "129",
+      "assembly_name_en": "Chirayinkeezhu",
+      "assembly_name_ml": "ചിറയിൻകീഴ്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "130",
+      "assembly_name_en": "Nedumangad",
+      "assembly_name_ml": "നെടുമങ്ങാട്",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "131",
+      "assembly_name_en": "Vamanapuram",
+      "assembly_name_ml": "വാമനപുരം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "136",
+      "assembly_name_en": "Aruvikkara",
+      "assembly_name_ml": "അരുവിക്കര",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "137",
+      "assembly_name_en": "Parassala",
+      "assembly_name_ml": "പാറശ്ശാല",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "138",
+      "assembly_name_en": "Kattakkada",
+      "assembly_name_ml": "കാട്ടാക്കട",
+      "category": "Good"
+    },
+    {
+      "assembly_id": "139",
+      "assembly_name_en": "Kovalam",
+      "assembly_name_ml": "കോവളം",
+      "category": "Normal"
+    },
+    {
+      "assembly_id": "140",
+      "assembly_name_en": "Neyyattinkara",
+      "assembly_name_ml": "നെയ്യാറ്റിൻകര",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/districts/outlines/thiruvananthapuram.geojson",
+    "assemblies": "geojson/districts/with-assemblies/thiruvananthapuram.geojson"
+  }
+}

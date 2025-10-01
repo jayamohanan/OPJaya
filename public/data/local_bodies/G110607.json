@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G110607",
+  "local_body_name_en": "Chakkittapara",
+  "local_body_name_ml": "ചക്കിട്ടപ്പാറ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "24",
+    "assembly_name_en": "Perambra",
+    "assembly_name_ml": "പേരാംബ്ര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "14e095e5-06fd-4c1f-83cc-2ffcb2e5fe75",
+      "ward_no": "1",
+      "ward_name_en": "Pannikkottur",
+      "ward_name_ml": "പന്നിക്കോട്ടൂര്‍"
+    },
+    {
+      "ward_id": "16c1aa93-c678-4788-afe7-337f6ec60591",
+      "ward_no": "2",
+      "ward_name_en": "Chempanoda",
+      "ward_name_ml": "ചെമ്പനോട"
+    },
+    {
+      "ward_id": "1af0720e-fce3-452b-8d91-22a313ef9532",
+      "ward_no": "3",
+      "ward_name_en": "Kurathippara",
+      "ward_name_ml": "കുറത്തിപ്പാറ"
+    },
+    {
+      "ward_id": "78241573-cc8a-4659-8aea-78eae671f8ff",
+      "ward_no": "4",
+      "ward_name_en": "Poozhithode",
+      "ward_name_ml": "പൂഴിത്തോട്"
+    },
+    {
+      "ward_id": "9d5c3ffd-158d-4dab-be76-9b6e7e6f74d6",
+      "ward_no": "5",
+      "ward_name_en": "Muthukad",
+      "ward_name_ml": "മുതുകാട്"
+    },
+    {
+      "ward_id": "46706e2b-0a43-4239-89ed-0a2c0965b7a2",
+      "ward_no": "6",
+      "ward_name_en": "Chenkottakkolli",
+      "ward_name_ml": "ചെങ്കോട്ടക്കൊല്ലി"
+    },
+    {
+      "ward_id": "81c39d88-d3ed-42af-80f9-9f20665796d6",
+      "ward_no": "7",
+      "ward_name_en": "Ilamkad",
+      "ward_name_ml": "ഇളങ്കാട്"
+    },
+    {
+      "ward_id": "a879e4ce-17bd-42d3-b457-36d951e4fa52",
+      "ward_no": "8",
+      "ward_name_en": "Plantation",
+      "ward_name_ml": "പ്ലാന്‍റേഷന്‍"
+    },
+    {
+      "ward_id": "bdec4af7-4126-4c6b-917c-b578bdecf924",
+      "ward_no": "9",
+      "ward_name_en": "Narinada",
+      "ward_name_ml": "നരിനട"
+    },
+    {
+      "ward_id": "2d093fa0-000d-4ab0-907f-a872cb07a58c",
+      "ward_no": "10",
+      "ward_name_en": "Annakkuttanchal",
+      "ward_name_ml": "അണ്ണക്കുട്ടന്‍ചാല്‍"
+    },
+    {
+      "ward_id": "6323fb3e-7c72-42d5-a6e3-641c77bda8af",
+      "ward_no": "11",
+      "ward_name_en": "Peruvannamuzhi",
+      "ward_name_ml": "പെരുവണ്ണാമൂഴി"
+    },
+    {
+      "ward_id": "eb6c718c-0878-4ff9-b982-8f8b2cf14199",
+      "ward_no": "12",
+      "ward_name_en": "Chakkittapara",
+      "ward_name_ml": "ചക്കിട്ടപാറ"
+    },
+    {
+      "ward_id": "f0a44913-a33b-445e-8477-da79d65ba230",
+      "ward_no": "13",
+      "ward_name_en": "Kulathuvayal",
+      "ward_name_ml": "കുളത്തുവയല്‍"
+    },
+    {
+      "ward_id": "f29c4b5e-dc09-4dfc-898b-d93505356ad1",
+      "ward_no": "14",
+      "ward_name_en": "Thanniyod",
+      "ward_name_ml": "താന്നിയോട്"
+    },
+    {
+      "ward_id": "93b7ddd8-c740-4261-b5d1-eca76ee074ff",
+      "ward_no": "15",
+      "ward_name_en": "Kulathumthara",
+      "ward_name_ml": "കുളത്തുംതറ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110607.geojson"
+  }
+}

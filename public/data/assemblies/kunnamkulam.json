@@ -1,0 +1,66 @@
+{
+  "assembly_id": "62",
+  "assembly_name_en": "Kunnamkulam",
+  "assembly_name_ml": "കുന്നംകുളം",
+  "category": "Normal",
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G080202",
+      "local_body_name_en": "Chowannur",
+      "local_body_name_ml": "ചൊവ്വന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080302",
+      "local_body_name_en": "Erumapetty",
+      "local_body_name_ml": "എരുമപ്പെട്ടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080207",
+      "local_body_name_en": "Kadangode",
+      "local_body_name_ml": "കടങ്ങോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G080203",
+      "local_body_name_en": "Kadavallur",
+      "local_body_name_ml": "കടവല്ലൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080205",
+      "local_body_name_en": "Kattakampal",
+      "local_body_name_ml": "കാട്ടകാമ്പാല്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M080600",
+      "local_body_name_en": "Kunnamkulam",
+      "local_body_name_ml": "കുന്നംകുളം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G080206",
+      "local_body_name_en": "Porkulam",
+      "local_body_name_ml": "പോര്‍ക്കുളം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G080208",
+      "local_body_name_en": "Velur",
+      "local_body_name_ml": "വേലൂര്‍",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/kunnamkulam.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/kunnamkulam.geojson"
+  }
+}

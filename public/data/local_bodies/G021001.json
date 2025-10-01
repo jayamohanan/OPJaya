@@ -1,0 +1,139 @@
+{
+  "local_body_id": "G021001",
+  "local_body_name_en": "Poothakulam",
+  "local_body_name_ml": "പൂതക്കുളം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "126",
+    "assembly_name_en": "Chathannoor",
+    "assembly_name_ml": "ചാത്തന്നൂർ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "2",
+    "district_name_en": "Kollam",
+    "district_name_ml": "കൊല്ലം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "d73f80e2-674e-4797-92bc-6c45ce28b8d4",
+      "ward_no": "1",
+      "ward_name_en": "Kottuvankonam",
+      "ward_name_ml": "കോട്ടുവന്‍ക്കോണം"
+    },
+    {
+      "ward_id": "a747c085-ee7c-4ceb-bb8c-ca4d2e88ee5e",
+      "ward_no": "2",
+      "ward_name_en": "Mukkada",
+      "ward_name_ml": "മുക്കട"
+    },
+    {
+      "ward_id": "64241b24-ab1d-4e21-a460-0e2ca6626508",
+      "ward_no": "3",
+      "ward_name_en": "Koonamkulam",
+      "ward_name_ml": "കൂനംകുളം"
+    },
+    {
+      "ward_id": "d130df3f-8b89-4b2a-b3f0-28db80893fab",
+      "ward_no": "4",
+      "ward_name_en": "Puthankulam",
+      "ward_name_ml": "പുത്തന്‍കുളം"
+    },
+    {
+      "ward_id": "3fbcec72-489c-403e-bc19-1c5b2cb45c25",
+      "ward_no": "5",
+      "ward_name_en": "Oonninmoodu",
+      "ward_name_ml": "ഊന്നിന്‍മൂട്"
+    },
+    {
+      "ward_id": "dd9d3f98-8ffc-457d-bf87-9f52ad5bfa67",
+      "ward_no": "6",
+      "ward_name_en": "Ezhamvila",
+      "ward_name_ml": "ഈഴംവിള"
+    },
+    {
+      "ward_id": "7f0cfcf2-89f1-4469-921b-1ae44296cc0e",
+      "ward_no": "7",
+      "ward_name_en": "Poothakulam",
+      "ward_name_ml": "പൂതക്കുളം"
+    },
+    {
+      "ward_id": "f3059368-3141-4b91-8880-3748a192610e",
+      "ward_no": "8",
+      "ward_name_en": "H.S.Ward",
+      "ward_name_ml": "എച്ച്.എസ്.വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "294bcacf-ceae-417b-9bde-7b148686065f",
+      "ward_no": "9",
+      "ward_name_en": "Punnekkulam",
+      "ward_name_ml": "പുന്നേക്കുളം"
+    },
+    {
+      "ward_id": "f90ffc33-67f3-4e9f-88e1-6b549761d55d",
+      "ward_no": "10",
+      "ward_name_en": "Edayadi",
+      "ward_name_ml": "ഇടയാടി"
+    },
+    {
+      "ward_id": "9e08d19e-ef0c-414f-850c-facd42559217",
+      "ward_no": "11",
+      "ward_name_en": "Stadium",
+      "ward_name_ml": "സ്റ്റേഡിയം"
+    },
+    {
+      "ward_id": "97b32545-edaa-452d-bd5f-e6ad6cc4379d",
+      "ward_no": "12",
+      "ward_name_en": "Nellettil",
+      "ward_name_ml": "നെല്ലേറ്റില്‍"
+    },
+    {
+      "ward_id": "6e3ffc13-69e9-4227-94ec-f67e89912322",
+      "ward_no": "13",
+      "ward_name_en": "Mavila",
+      "ward_name_ml": "മാവിള"
+    },
+    {
+      "ward_id": "9d510f3c-8faa-4f30-8ec2-b86914a397ed",
+      "ward_no": "14",
+      "ward_name_en": "Edavattam",
+      "ward_name_ml": "ഇടവട്ടം"
+    },
+    {
+      "ward_id": "00051aa8-16a8-41f8-bf53-5705f984f7c4",
+      "ward_no": "15",
+      "ward_name_en": "Kalakkodu",
+      "ward_name_ml": "കലയ്ക്കോട്"
+    },
+    {
+      "ward_id": "706b3de3-59cf-409f-b915-223aa309af90",
+      "ward_no": "16",
+      "ward_name_en": "P.H.C",
+      "ward_name_ml": "പി.എച്ച്.സി"
+    },
+    {
+      "ward_id": "70f29664-fa40-47a6-a934-1fe555c39bed",
+      "ward_no": "17",
+      "ward_name_en": "Perumkulam",
+      "ward_name_ml": "പെരുംകുളം"
+    },
+    {
+      "ward_id": "7eee548a-2dbe-4f85-a4c0-81d62bebac49",
+      "ward_no": "18",
+      "ward_name_en": "Njarodu",
+      "ward_name_ml": "ഞാറോഡ്"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G021001.geojson"
+  }
+}

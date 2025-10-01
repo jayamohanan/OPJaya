@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G050102",
+  "local_body_name_en": "Chempu",
+  "local_body_name_ml": "ചെമ്പ്",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "95",
+    "assembly_name_en": "Vaikom",
+    "assembly_name_ml": "വൈക്കം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "5",
+    "district_name_en": "Kottayam",
+    "district_name_ml": "കോട്ടയം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "1f2c36af-0bda-4092-83fe-ad9215826543",
+      "ward_no": "1",
+      "ward_name_en": "Kattikunnu",
+      "ward_name_ml": "കാട്ടിക്കുന്ന്"
+    },
+    {
+      "ward_id": "1991d734-7091-4799-9670-02f9f4217e06",
+      "ward_no": "2",
+      "ward_name_en": "Panackal",
+      "ward_name_ml": "പനയ്ക്കല്‍"
+    },
+    {
+      "ward_id": "47d063a1-3ef2-4bd0-9546-9e445102354e",
+      "ward_no": "3",
+      "ward_name_en": "Eliyammel",
+      "ward_name_ml": "എലിയാമ്മേല്‍"
+    },
+    {
+      "ward_id": "537da96b-c2a2-4220-beee-865da66ecc8d",
+      "ward_no": "4",
+      "ward_name_en": "Dr.Ambedkar",
+      "ward_name_ml": "ഡോ.അംബേദ്കര്‍"
+    },
+    {
+      "ward_id": "14592e12-0083-4b55-bc6c-0619cbc93e31",
+      "ward_no": "5",
+      "ward_name_en": "Kallukuthankadavu",
+      "ward_name_ml": "കല്ലുകുത്താംകടവ്"
+    },
+    {
+      "ward_id": "5a9c96ca-32b5-43eb-a396-d8b18e3c113f",
+      "ward_no": "6",
+      "ward_name_en": "Brahmamangalam",
+      "ward_name_ml": "ബ്രഹ്മമംഗലം"
+    },
+    {
+      "ward_id": "b952de93-e198-4750-af1f-72cd448facff",
+      "ward_no": "7",
+      "ward_name_en": "Chalunkal",
+      "ward_name_ml": "ചാലുങ്കല്‍"
+    },
+    {
+      "ward_id": "ee477c99-f090-400b-8f3a-44158932cc81",
+      "ward_no": "8",
+      "ward_name_en": "Parappuram",
+      "ward_name_ml": "പാറപ്പുറം"
+    },
+    {
+      "ward_id": "e87a4e2f-3cd4-4846-bcfc-071257fc3305",
+      "ward_no": "9",
+      "ward_name_en": "Enadi",
+      "ward_name_ml": "ഏനാദി"
+    },
+    {
+      "ward_id": "92667aa8-e392-47a6-9e74-1a4a72387e33",
+      "ward_no": "10",
+      "ward_name_en": "Thuruthumma",
+      "ward_name_ml": "തുരുത്തുമ്മ"
+    },
+    {
+      "ward_id": "90448dd2-c9aa-43a9-9178-df1c2548d0d8",
+      "ward_no": "11",
+      "ward_name_en": "Chempu Postoffice",
+      "ward_name_ml": "ചെമ്പ് പോസ്റ്റ് ഓഫീസ്"
+    },
+    {
+      "ward_id": "25a32fd1-146a-4b8c-acde-e96345a69d10",
+      "ward_no": "12",
+      "ward_name_en": "Chempu Town",
+      "ward_name_ml": "ചെമ്പ് ടൌണ്‍"
+    },
+    {
+      "ward_id": "146549b1-3e01-4ce0-9e87-12c4023952fd",
+      "ward_no": "13",
+      "ward_name_en": "Vijayodhayam",
+      "ward_name_ml": "വിജയോദയം"
+    },
+    {
+      "ward_id": "a69e6d43-742d-453c-9a35-604c2d27fb73",
+      "ward_no": "14",
+      "ward_name_en": "Murinjapuzha",
+      "ward_name_ml": "മുറിഞ്ഞപുഴ"
+    },
+    {
+      "ward_id": "691f6db0-29b5-4fc6-b0c7-224715032df9",
+      "ward_no": "15",
+      "ward_name_en": "Mahatmagandhi",
+      "ward_name_ml": "മഹാത്മാഗാന്ധി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G050102.geojson"
+  }
+}

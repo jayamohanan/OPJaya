@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G071205",
+  "local_body_name_en": "Palakuzha",
+  "local_body_name_ml": "പാലക്കുഴ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "86",
+    "assembly_name_en": "Muvattupuzha",
+    "assembly_name_ml": "മൂവാറ്റുപുഴ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "9fbf3bd9-ce14-43bc-b212-c62743e9fe36",
+      "ward_no": "1",
+      "ward_name_en": "North Palakuzha",
+      "ward_name_ml": "വടക്കന്‍ പാലക്കുഴ"
+    },
+    {
+      "ward_id": "adbedebb-4de2-4aaf-97a0-234dd227de9a",
+      "ward_no": "2",
+      "ward_name_en": "Palakuzha Kavum Bhagam",
+      "ward_name_ml": "പാലക്കുഴ കാവുംഭാഗം"
+    },
+    {
+      "ward_id": "3cfd1fb8-22b3-401a-962d-f72ab68cc546",
+      "ward_no": "3",
+      "ward_name_en": "Illikkunnu",
+      "ward_name_ml": "ഇല്ലിക്കുന്ന്"
+    },
+    {
+      "ward_id": "8755c8ab-52fb-46f6-89d1-c87a9a1e03c7",
+      "ward_no": "4",
+      "ward_name_en": "Marika North",
+      "ward_name_ml": "മാറിക വടക്ക്"
+    },
+    {
+      "ward_id": "6e036408-90aa-42d8-8872-e648b9aca78a",
+      "ward_no": "5",
+      "ward_name_en": "Marika South",
+      "ward_name_ml": "മാറിക സൌത്ത്"
+    },
+    {
+      "ward_id": "0736f266-a1e3-4929-b55e-03eac4ee85ee",
+      "ward_no": "6",
+      "ward_name_en": "Mangalasserithazham",
+      "ward_name_ml": "മംഗലശേരിത്താഴം"
+    },
+    {
+      "ward_id": "cbb47ee6-5efb-4a7f-b6e7-9d7f1f1ea689",
+      "ward_no": "7",
+      "ward_name_en": "Karamala",
+      "ward_name_ml": "കാരമല"
+    },
+    {
+      "ward_id": "b3ecae8e-5a20-49af-b16f-7075f6606521",
+      "ward_no": "8",
+      "ward_name_en": "Kozhippilly",
+      "ward_name_ml": "കോഴിപ്പിളളി"
+    },
+    {
+      "ward_id": "cd1237a9-042c-4804-90a9-7162bb6896aa",
+      "ward_no": "9",
+      "ward_name_en": "Palakuzha South",
+      "ward_name_ml": "പാലക്കുഴ തെക്ക്"
+    },
+    {
+      "ward_id": "acd7f057-4c00-410e-aeae-773d6a9e47b3",
+      "ward_no": "10",
+      "ward_name_en": "Palakuzha North",
+      "ward_name_ml": "പാലക്കുഴ വടക്ക്"
+    },
+    {
+      "ward_id": "771819db-d341-4a3a-a8e0-5c4fc093efbc",
+      "ward_no": "11",
+      "ward_name_en": "Palakuzha Central",
+      "ward_name_ml": "പാലക്കുഴ സെന്‍ട്രല്‍"
+    },
+    {
+      "ward_id": "0aa0c4e7-d3cc-42a2-9071-7abfb431e9bf",
+      "ward_no": "12",
+      "ward_name_en": "Uppukandom",
+      "ward_name_ml": "ഉപ്പുകണ്ടം"
+    },
+    {
+      "ward_id": "992618e7-d785-4bdc-9a9a-dde6874c7b4d",
+      "ward_no": "13",
+      "ward_name_en": "Karimpana",
+      "ward_name_ml": "കരിമ്പന"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G071205.geojson"
+  }
+}

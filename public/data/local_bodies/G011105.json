@@ -1,0 +1,115 @@
+{
+  "local_body_id": "G011105",
+  "local_body_name_en": "Thirupuram",
+  "local_body_name_ml": "തിരുപുറം",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "140",
+    "assembly_name_en": "Neyyattinkara",
+    "assembly_name_ml": "നെയ്യാറ്റിൻകര",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "1",
+    "district_name_en": "Thiruvananthapuram",
+    "district_name_ml": "തിരുവനന്തപുരം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "3de55d62-b269-4ea6-800d-10df7fa405c7",
+      "ward_no": "1",
+      "ward_name_en": "Mulluvila",
+      "ward_name_ml": "മുള്ളുവിള"
+    },
+    {
+      "ward_id": "61913cef-aecd-4d45-b08f-4b72e922fd18",
+      "ward_no": "2",
+      "ward_name_en": "Iruvaikonam",
+      "ward_name_ml": "ഇരുവൈക്കോണം"
+    },
+    {
+      "ward_id": "dfafc101-d3a8-46b2-a1b0-70e7316e90be",
+      "ward_no": "3",
+      "ward_name_en": "Kumili",
+      "ward_name_ml": "കുമിളി"
+    },
+    {
+      "ward_id": "5617c76d-378f-43f5-9707-a7a156370b78",
+      "ward_no": "4",
+      "ward_name_en": "Kalumugham",
+      "ward_name_ml": "കാലുംമുഖം"
+    },
+    {
+      "ward_id": "8a563aea-a5d7-40cf-a94d-03e509f75ecb",
+      "ward_no": "5",
+      "ward_name_en": "Pazhayakada",
+      "ward_name_ml": "പഴയകട"
+    },
+    {
+      "ward_id": "29101f3e-bad3-4e9f-acf2-fdf2ffae8349",
+      "ward_no": "6",
+      "ward_name_en": "Mannakallu",
+      "ward_name_ml": "മണ്ണക്കല്ല്"
+    },
+    {
+      "ward_id": "53401ee0-68e4-498b-b8b6-ba4303426714",
+      "ward_no": "7",
+      "ward_name_en": "Kanjampazhinji",
+      "ward_name_ml": "കഞ്ചാംപഴിഞ്ഞി"
+    },
+    {
+      "ward_id": "7dcd2aad-8ca7-424f-a7bc-2896d43f0c22",
+      "ward_no": "8",
+      "ward_name_en": "Thirupuram",
+      "ward_name_ml": "തിരുപുറം"
+    },
+    {
+      "ward_id": "c650dabd-8d17-4b8a-a22c-ad57f71f3393",
+      "ward_no": "9",
+      "ward_name_en": "Planthottam",
+      "ward_name_ml": "പ്ലാന്തോട്ടം"
+    },
+    {
+      "ward_id": "d817588c-c8ad-4a6f-a3a6-3f425ca58c2f",
+      "ward_no": "10",
+      "ward_name_en": "Puthenkada",
+      "ward_name_ml": "പുത്തന്‍കട"
+    },
+    {
+      "ward_id": "28be860b-34ac-4e5f-9836-3aa6a0cb3a7a",
+      "ward_no": "11",
+      "ward_name_en": "Pathanavila",
+      "ward_name_ml": "പത്തനാവിള"
+    },
+    {
+      "ward_id": "91bd6869-e578-4167-b2a2-114088a753f8",
+      "ward_no": "12",
+      "ward_name_en": "Mankoottam",
+      "ward_name_ml": "മാങ്കൂട്ടം"
+    },
+    {
+      "ward_id": "b75c643c-930b-4e1b-b45c-53d3a7550579",
+      "ward_no": "13",
+      "ward_name_en": "Pulavangal",
+      "ward_name_ml": "പുലവംഗല്‍"
+    },
+    {
+      "ward_id": "69e339b7-b4df-4e01-9012-ac58fd841170",
+      "ward_no": "14",
+      "ward_name_en": "Puruthivila",
+      "ward_name_ml": "പുറുത്തിവിള"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G011105.geojson"
+  }
+}

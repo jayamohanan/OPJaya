@@ -1,0 +1,121 @@
+{
+  "local_body_id": "G080702",
+  "local_body_name_en": "Mullassery",
+  "local_body_name_ml": "മുല്ലശ്ശേരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Good",
+  "assembly": {
+    "assembly_id": "64",
+    "assembly_name_en": "Manalur",
+    "assembly_name_ml": "മണലൂര്‍",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "8",
+    "district_name_en": "Thrissur",
+    "district_name_ml": "തൃശ്ശൂർ",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "5ffc5868-8c2e-4e3f-b3d6-f604a93d41be",
+      "ward_no": "1",
+      "ward_name_en": "Thirunellur",
+      "ward_name_ml": "തിരുനെല്ലൂര്‍"
+    },
+    {
+      "ward_id": "723a634e-421f-4820-9a91-b3775f6a7183",
+      "ward_no": "2",
+      "ward_name_en": "Peruvallur",
+      "ward_name_ml": "പെരുവല്ലൂര്‍"
+    },
+    {
+      "ward_id": "010da7c4-a3d8-432d-80a6-1fb5da86c1fb",
+      "ward_no": "3",
+      "ward_name_en": "Ambedkargramam",
+      "ward_name_ml": "അംബേദ്കര്‍ഗ്രാമം"
+    },
+    {
+      "ward_id": "584233a5-0b6f-49ea-a5d8-ada7af410375",
+      "ward_no": "4",
+      "ward_name_en": "Penakam",
+      "ward_name_ml": "പേനകം"
+    },
+    {
+      "ward_id": "028af14b-da9f-45fa-85e8-e6c72f229b5d",
+      "ward_no": "5",
+      "ward_name_en": "Annakara",
+      "ward_name_ml": "അന്നകര"
+    },
+    {
+      "ward_id": "3093edec-9fb7-45a6-bb48-e8523c693bdd",
+      "ward_no": "6",
+      "ward_name_en": "Elavathur",
+      "ward_name_ml": "എലവത്തൂര്‍"
+    },
+    {
+      "ward_id": "087a3850-4530-47fa-94a0-95a331e3434f",
+      "ward_no": "7",
+      "ward_name_en": "Pathiyarkulangara",
+      "ward_name_ml": "പതിയാര്‍കുളങ്ങര"
+    },
+    {
+      "ward_id": "e2a614ae-46e4-4ecd-89ee-84d9eee5e128",
+      "ward_no": "8",
+      "ward_name_en": "Thanaveethy",
+      "ward_name_ml": "താണവീഥി"
+    },
+    {
+      "ward_id": "e02d1ff6-8aea-4658-90f0-a9ee2b3dfa15",
+      "ward_no": "9",
+      "ward_name_en": "Manina",
+      "ward_name_ml": "മാനിന"
+    },
+    {
+      "ward_id": "354b7baa-bb40-4b8c-8074-2d41f20897ab",
+      "ward_no": "10",
+      "ward_name_en": "Parambanthaly",
+      "ward_name_ml": "പറമ്പന്തളി"
+    },
+    {
+      "ward_id": "17d83e18-2df2-4b32-8e6d-f8f6be284df6",
+      "ward_no": "11",
+      "ward_name_en": "Santhigramam",
+      "ward_name_ml": "ശാന്തിഗ്രാമം"
+    },
+    {
+      "ward_id": "119cc448-d33d-4ca6-adb5-bc4047248ead",
+      "ward_no": "12",
+      "ward_name_en": "Poonchira",
+      "ward_name_ml": "പൂഞ്ചിറ"
+    },
+    {
+      "ward_id": "32123762-661b-402e-be9f-32f6d57c1795",
+      "ward_no": "13",
+      "ward_name_en": "Korly",
+      "ward_name_ml": "കോര്‍ളി"
+    },
+    {
+      "ward_id": "83052e28-7c49-49c3-a43f-e566c46a8495",
+      "ward_no": "14",
+      "ward_name_en": "Mullassery",
+      "ward_name_ml": "മുല്ലശ്ശേരി"
+    },
+    {
+      "ward_id": "2ccd2217-5c72-424b-a024-49c9b1d833ef",
+      "ward_no": "15",
+      "ward_name_en": "C H C",
+      "ward_name_ml": "സി എച്ച് സി"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G080702.geojson"
+  }
+}

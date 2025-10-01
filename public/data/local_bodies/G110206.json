@@ -1,0 +1,127 @@
+{
+  "local_body_id": "G110206",
+  "local_body_name_en": "Vanimal",
+  "local_body_name_ml": "വാണിമല്‍",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "22",
+    "assembly_name_en": "Nadapuram",
+    "assembly_name_ml": "നാദാപുരം",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "11",
+    "district_name_en": "Kozhikode",
+    "district_name_ml": "കോഴിക്കോട്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "cb68d298-8c27-49cd-8940-b57381e0d79b",
+      "ward_no": "1",
+      "ward_name_en": "Chelamukk",
+      "ward_name_ml": "ചേലമുക്ക്"
+    },
+    {
+      "ward_id": "ee4f302a-95a1-494a-ab45-dde0749c6565",
+      "ward_no": "2",
+      "ward_name_en": "Vayalpeedika",
+      "ward_name_ml": "വയല്‍പീടിക"
+    },
+    {
+      "ward_id": "ce20420d-2bbe-48ae-a50f-f971d3c33365",
+      "ward_no": "3",
+      "ward_name_en": "Verkkadavu",
+      "ward_name_ml": "വേര്‍ക്കടവ്"
+    },
+    {
+      "ward_id": "4df8c84e-8b0e-42e2-ad51-2a6d436c8c1c",
+      "ward_no": "4",
+      "ward_name_en": "Bhoomivathukkal",
+      "ward_name_ml": "ഭൂമിവാതുക്കല്‍"
+    },
+    {
+      "ward_id": "b19725af-91a7-489a-9adb-113f4176f4c8",
+      "ward_no": "5",
+      "ward_name_en": "Velliyode",
+      "ward_name_ml": "വെള്ളിയോട്"
+    },
+    {
+      "ward_id": "03bfdd3c-2094-4054-8a86-d58d81226d46",
+      "ward_no": "6",
+      "ward_name_en": "Puthukkudi",
+      "ward_name_ml": "പൂതുക്കുടി"
+    },
+    {
+      "ward_id": "01355c0e-acff-491a-b521-9346f78a1eb0",
+      "ward_no": "7",
+      "ward_name_en": "Nidumparamp",
+      "ward_name_ml": "നിടുംപറമ്പ്"
+    },
+    {
+      "ward_id": "8c0c38f5-a215-4f8d-bfda-7dbd8258bc55",
+      "ward_no": "8",
+      "ward_name_en": "Chittaari",
+      "ward_name_ml": "ചിറ്റാരി"
+    },
+    {
+      "ward_id": "cdf7d916-b455-44d9-9291-aaa336ea0990",
+      "ward_no": "9",
+      "ward_name_en": "Paloor",
+      "ward_name_ml": "പാലൂര്‍"
+    },
+    {
+      "ward_id": "7ca92b5a-9a8e-4def-b25d-3cfe37f60401",
+      "ward_no": "10",
+      "ward_name_en": "Vilangad",
+      "ward_name_ml": "വിലങ്ങാട്"
+    },
+    {
+      "ward_id": "b5ae9606-332a-46b9-b442-595b141f30a4",
+      "ward_no": "11",
+      "ward_name_en": "Karukulam",
+      "ward_name_ml": "കരുകുളം"
+    },
+    {
+      "ward_id": "247f898a-1b1c-4636-9a5f-96ea119361e8",
+      "ward_no": "12",
+      "ward_name_en": "Kommiyode",
+      "ward_name_ml": "കൊമ്മിയോട്"
+    },
+    {
+      "ward_id": "bae08d47-f349-4e18-8d0f-15ba68292961",
+      "ward_no": "13",
+      "ward_name_en": "Parappuparaa",
+      "ward_name_ml": "പരപ്പുപാറ"
+    },
+    {
+      "ward_id": "b433fcdc-8190-4603-afd7-1b09e05edba5",
+      "ward_no": "14",
+      "ward_name_en": "Kodiyura",
+      "ward_name_ml": "കോടിയൂറ"
+    },
+    {
+      "ward_id": "7b40ca99-f860-48a7-9349-4a51a265a0fb",
+      "ward_no": "15",
+      "ward_name_en": "Kulapparamp",
+      "ward_name_ml": "കുളപ്പറമ്പ്"
+    },
+    {
+      "ward_id": "8a0c4e14-4a94-41cd-9ceb-3a4091c00b72",
+      "ward_no": "16",
+      "ward_name_en": "Vanimel",
+      "ward_name_ml": "വാണിമേല്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G110206.geojson"
+  }
+}

@@ -1,0 +1,133 @@
+{
+  "local_body_id": "G140405",
+  "local_body_name_en": "PullurPeriya",
+  "local_body_name_ml": "പുല്ലൂര്‍ പെരിയ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Perfect",
+  "assembly": {
+    "assembly_id": "3",
+    "assembly_name_en": "Udma",
+    "assembly_name_ml": "ഉദുമ",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "14",
+    "district_name_en": "Kasaragod",
+    "district_name_ml": "കാസര്‍ഗോഡ്",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "357a1116-0001-4c24-a2cb-3cd17770802e",
+      "ward_no": "1",
+      "ward_name_en": "Kuniya",
+      "ward_name_ml": "കുണിയ"
+    },
+    {
+      "ward_id": "c72053c5-a1d8-41c8-bec7-44eb59de2695",
+      "ward_no": "2",
+      "ward_name_en": "Ayampara",
+      "ward_name_ml": "ആയമ്പാറ"
+    },
+    {
+      "ward_id": "c22907e3-e496-440e-ab27-68faac763774",
+      "ward_no": "3",
+      "ward_name_en": "Koodanam",
+      "ward_name_ml": "കൂടാനം"
+    },
+    {
+      "ward_id": "1843e292-bdcb-440b-b639-a7efa5094c38",
+      "ward_no": "4",
+      "ward_name_en": "Thannithode",
+      "ward_name_ml": "തന്നിത്തോട്"
+    },
+    {
+      "ward_id": "56919e35-09d2-4e0e-9d11-8d9be84626d7",
+      "ward_no": "5",
+      "ward_name_en": "Kalliot",
+      "ward_name_ml": "കല്ല്യോട്ട്"
+    },
+    {
+      "ward_id": "55e3cde0-1fb0-4416-8ba1-c348885f766e",
+      "ward_no": "6",
+      "ward_name_en": "Iriya",
+      "ward_name_ml": "ഇരിയ"
+    },
+    {
+      "ward_id": "deca7d16-e250-48e1-b7f9-4b2afeb0e504",
+      "ward_no": "7",
+      "ward_name_en": "Kumbala",
+      "ward_name_ml": "കുമ്പള"
+    },
+    {
+      "ward_id": "c8344967-60fd-49ce-a266-127826f1c47d",
+      "ward_no": "8",
+      "ward_name_en": "Ambalathara",
+      "ward_name_ml": "അമ്പലത്തറ"
+    },
+    {
+      "ward_id": "0997127b-905b-4976-b59d-c373670cc392",
+      "ward_no": "9",
+      "ward_name_en": "Kodavalam",
+      "ward_name_ml": "കൊടവലം"
+    },
+    {
+      "ward_id": "1a0b49a9-d1d6-463b-a702-a42e758cdfbd",
+      "ward_no": "10",
+      "ward_name_en": "Vishnumangalam",
+      "ward_name_ml": "വിഷ്ണുമംഗലം"
+    },
+    {
+      "ward_id": "cd70420c-e495-4da6-8bca-07d40cf7fb57",
+      "ward_no": "11",
+      "ward_name_en": "Haripuram",
+      "ward_name_ml": "ഹരിപുരം"
+    },
+    {
+      "ward_id": "0794b6ca-1afa-486d-a488-fbeaa547a2d2",
+      "ward_no": "12",
+      "ward_name_en": "Thattummal",
+      "ward_name_ml": "തട്ടുമ്മല്‍"
+    },
+    {
+      "ward_id": "08cf1540-98c9-4360-ba6c-1367cc26b69a",
+      "ward_no": "13",
+      "ward_name_en": "Keloth",
+      "ward_name_ml": "കേളോത്ത്"
+    },
+    {
+      "ward_id": "c6101411-c07d-4b4a-aaea-faa315c11e2d",
+      "ward_no": "14",
+      "ward_name_en": "Chalingal",
+      "ward_name_ml": "ചാലിങ്കല്‍"
+    },
+    {
+      "ward_id": "3050ff98-7c77-48d9-aa21-93583b350bc0",
+      "ward_no": "15",
+      "ward_name_en": "Kayakkulam",
+      "ward_name_ml": "കായക്കുളം"
+    },
+    {
+      "ward_id": "04e8b4c5-9a4b-496d-839c-78b3e6cc3afd",
+      "ward_no": "16",
+      "ward_name_en": "Periye",
+      "ward_name_ml": "പെരിയ"
+    },
+    {
+      "ward_id": "bbbdaf0d-a186-464e-a481-21fec6d56ac4",
+      "ward_no": "17",
+      "ward_name_en": "Periye Bazar",
+      "ward_name_ml": "പെരിയ ബസാര്‍"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G140405.geojson"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "assembly_id": "90",
+  "assembly_name_en": "Thodupuzha",
+  "assembly_name_ml": "തൊടുപുഴ",
+  "category": "Normal",
+  "district": {
+    "district_id": "6",
+    "district_name_en": "Idukki",
+    "district_name_ml": "ഇടുക്കി",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G060703",
+      "local_body_name_en": "Edavetty",
+      "local_body_name_ml": "ഇടവെട്ടി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060406",
+      "local_body_name_en": "Karimannoor",
+      "local_body_name_ml": "കരിമണ്ണൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060704",
+      "local_body_name_en": "Karimkunnam",
+      "local_body_name_ml": "കരിങ്കുന്നം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060403",
+      "local_body_name_en": "Kodikulam",
+      "local_body_name_ml": "കോടിക്കുളം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060702",
+      "local_body_name_en": "Kumaramangalam",
+      "local_body_name_ml": "കുമാരമംഗലം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060705",
+      "local_body_name_en": "Manakkad",
+      "local_body_name_ml": "മണക്കാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060701",
+      "local_body_name_en": "Muttom",
+      "local_body_name_ml": "മുട്ടം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060706",
+      "local_body_name_en": "Purapuzha",
+      "local_body_name_ml": "പുറപ്പുഴ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M060100",
+      "local_body_name_en": "Thodupuzha",
+      "local_body_name_ml": "തൊടുപുഴ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G060402",
+      "local_body_name_en": "Udumbanoor",
+      "local_body_name_ml": "ഉടുമ്പന്നൂര്‍",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060401",
+      "local_body_name_en": "Vannappuram",
+      "local_body_name_ml": "വണ്ണപ്പുറം",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060404",
+      "local_body_name_en": "Alakode",
+      "local_body_name_ml": "ആലക്കോട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G060405",
+      "local_body_name_en": "Velliyamattom",
+      "local_body_name_ml": "വെളളിയാമറ്റം",
+      "category": "Good"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/thodupuzha.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/thodupuzha.geojson"
+  }
+}

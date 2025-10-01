@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G030405",
+  "local_body_name_en": "Kozhencherry",
+  "local_body_name_ml": "കോഴഞ്ചരി",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "113",
+    "assembly_name_en": "Aranmula",
+    "assembly_name_ml": "ആറന്മുള",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "3",
+    "district_name_en": "Pathanamthitta",
+    "district_name_ml": "പത്തനംതിട്ട",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "0be7779c-402a-41d2-9d44-3e819cdd3baf",
+      "ward_no": "1",
+      "ward_name_en": "Keezhukara",
+      "ward_name_ml": "കീഴുകര"
+    },
+    {
+      "ward_id": "aeca52d3-c0bc-4cd8-94b5-74929a8e4324",
+      "ward_no": "2",
+      "ward_name_en": "Melukara",
+      "ward_name_ml": "മേലുകര"
+    },
+    {
+      "ward_id": "704c866c-0b1f-49e6-ae6d-4d9791bbee61",
+      "ward_no": "3",
+      "ward_name_en": "Melukara East",
+      "ward_name_ml": "മേലുകര കീഴക്ക്"
+    },
+    {
+      "ward_id": "3f48ee0e-308f-4fa3-8f70-574167655e22",
+      "ward_no": "4",
+      "ward_name_en": "College Ward",
+      "ward_name_ml": "കോളജ് വാര്‍ഡ്"
+    },
+    {
+      "ward_id": "867b7ec5-db8c-4bc5-a4df-e67779dabd8b",
+      "ward_no": "5",
+      "ward_name_en": "Pampadimon",
+      "ward_name_ml": "പാമ്പാടിമണ്‍"
+    },
+    {
+      "ward_id": "1187a20d-ccf5-4758-8e33-fc2c6827b156",
+      "ward_no": "6",
+      "ward_name_en": "Kurangumala",
+      "ward_name_ml": "കുരങ്ങുമല"
+    },
+    {
+      "ward_id": "df404348-fc75-472c-8bd3-77eb0c257977",
+      "ward_no": "7",
+      "ward_name_en": "Kozhencherry East",
+      "ward_name_ml": "കോഴഞ്ചേരി ഈസ്റ്റ്‌"
+    },
+    {
+      "ward_id": "c7ba40aa-be50-4946-a378-4b88e3ddb92e",
+      "ward_no": "8",
+      "ward_name_en": "Chekkulam",
+      "ward_name_ml": "ചേക്കുളം"
+    },
+    {
+      "ward_id": "157b112d-984d-4040-a9a7-a0efe147e2a7",
+      "ward_no": "9",
+      "ward_name_en": "Vanchithramala",
+      "ward_name_ml": "വഞ്ചിത്രമല"
+    },
+    {
+      "ward_id": "cee6f3d8-e63f-4bea-9304-8e61eb6abb0b",
+      "ward_no": "10",
+      "ward_name_en": "Thekkemala South",
+      "ward_name_ml": "തെക്കേമല സൗത്ത്"
+    },
+    {
+      "ward_id": "aeb6d1e2-79a5-4219-9a3b-d62317679b56",
+      "ward_no": "11",
+      "ward_name_en": "Kunnathukara",
+      "ward_name_ml": "കുന്നത്തുകര"
+    },
+    {
+      "ward_id": "925e7379-1355-4203-b25d-54713e9a9f91",
+      "ward_no": "12",
+      "ward_name_en": "Thekkemala Town",
+      "ward_name_ml": "തെക്കേമല ഠൗൺ"
+    },
+    {
+      "ward_id": "7f4e2719-0c2f-4c84-9382-d230ed6e897c",
+      "ward_no": "13",
+      "ward_name_en": "Kozhencherry Town",
+      "ward_name_ml": "കോഴഞ്ചേരി ഠൗൺ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G030405.geojson"
+  }
+}

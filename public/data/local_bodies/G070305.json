@@ -1,0 +1,109 @@
+{
+  "local_body_id": "G070305",
+  "local_body_name_en": "Ayyampuzha",
+  "local_body_name_ml": "അയ്യമ്പുഴ",
+  "local_body_type_en": "Grama Panchayat",
+  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
+  "category": "Normal",
+  "assembly": {
+    "assembly_id": "75",
+    "assembly_name_en": "Angamaly",
+    "assembly_name_ml": "അങ്കമാലി",
+    "category": "Normal"
+  },
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "category": "Normal"
+  },
+  "wards": [
+    {
+      "ward_id": "14f23ac7-b837-4906-b427-dffd0669564e",
+      "ward_no": "1",
+      "ward_name_en": "Vettilappara",
+      "ward_name_ml": "വെറ്റിലപ്പാറ"
+    },
+    {
+      "ward_id": "0065edec-2f2b-406b-bafc-62ecde3d9a11",
+      "ward_no": "2",
+      "ward_name_en": "Athirappilly",
+      "ward_name_ml": "അതിരപ്പിള്ളി"
+    },
+    {
+      "ward_id": "1373912c-3cb9-4880-90c8-50c0d8d0367a",
+      "ward_no": "3",
+      "ward_name_en": "Kallala",
+      "ward_name_ml": "കല്ലാല"
+    },
+    {
+      "ward_id": "b1f71553-cd6a-422d-a21a-7e70acee89e4",
+      "ward_no": "4",
+      "ward_name_en": "Kundiri",
+      "ward_name_ml": "കുന്തിരി"
+    },
+    {
+      "ward_id": "cae13b97-4ac6-48d7-9a55-066fc8e32d46",
+      "ward_no": "5",
+      "ward_name_en": "Kannimangalam",
+      "ward_name_ml": "കണ്ണിമംഗലം"
+    },
+    {
+      "ward_id": "7faea960-a91c-4fd6-9ea3-f5bc1996445d",
+      "ward_no": "6",
+      "ward_name_en": "Uppukallu",
+      "ward_name_ml": "ഉപ്പുകല്ല്"
+    },
+    {
+      "ward_id": "ca60d012-b0e0-4e80-8354-dde57d773737",
+      "ward_no": "7",
+      "ward_name_en": "Chathakulam",
+      "ward_name_ml": "ചാത്തക്കുളം"
+    },
+    {
+      "ward_id": "24459ecc-0830-4b0c-86ad-95613b87e1eb",
+      "ward_no": "8",
+      "ward_name_en": "Amalapuram",
+      "ward_name_ml": "അമലാപുരം"
+    },
+    {
+      "ward_id": "407b894d-3074-4e41-a5c6-0e0ff41be633",
+      "ward_no": "9",
+      "ward_name_en": "Kollakode",
+      "ward_name_ml": "കൊല്ലക്കോട്"
+    },
+    {
+      "ward_id": "afa356b0-b606-4f6c-b32f-769e9eb3f5f1",
+      "ward_no": "10",
+      "ward_name_en": "Kuttippara",
+      "ward_name_ml": "കുറ്റിപ്പാറ"
+    },
+    {
+      "ward_id": "ea04fe71-7a56-4bcc-a9b5-86dc4eea530e",
+      "ward_no": "11",
+      "ward_name_en": "Chully",
+      "ward_name_ml": "ചുള്ളി"
+    },
+    {
+      "ward_id": "316b920a-77dd-40af-96a8-9a60c505a35b",
+      "ward_no": "12",
+      "ward_name_en": "Olively",
+      "ward_name_ml": "ഒലിവേലി"
+    },
+    {
+      "ward_id": "387cde8e-7b7f-4628-b11d-c0b561241cdb",
+      "ward_no": "13",
+      "ward_name_en": "Ayyampuzha",
+      "ward_name_ml": "അയ്യമ്പുഴ"
+    }
+  ],
+  "towns": [],
+  "issues": {
+    "town": [],
+    "bus_stop": [],
+    "water_body": []
+  },
+  "geojson_links": {
+    "outline": "geojson/local-bodies/outlines/G070305.geojson"
+  }
+}

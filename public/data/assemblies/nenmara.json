@@ -1,0 +1,78 @@
+{
+  "assembly_id": "59",
+  "assembly_name_en": "Nenmara",
+  "assembly_name_ml": "നെന്മാറ",
+  "category": "Normal",
+  "district": {
+    "district_id": "9",
+    "district_name_en": "Palakkad",
+    "district_name_ml": "പാലക്കാട്",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G091101",
+      "local_body_name_en": "Ayiloor",
+      "local_body_name_ml": "അയിലൂര്‍",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G091103",
+      "local_body_name_en": "Elavancherry",
+      "local_body_name_ml": "എലവഞ്ചരി",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G091002",
+      "local_body_name_en": "Koduvayur",
+      "local_body_name_ml": "കൊടുവായൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091001",
+      "local_body_name_en": "Kollengode",
+      "local_body_name_ml": "കൊല്ലങ്കോട്",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G091003",
+      "local_body_name_en": "Muthalamada",
+      "local_body_name_ml": "മുതലമട",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091102",
+      "local_body_name_en": "Nelliyampathy",
+      "local_body_name_ml": "നെല്ലിയാമ്പതി",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091106",
+      "local_body_name_en": "Nenmara",
+      "local_body_name_ml": "നെന്മാറ",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091104",
+      "local_body_name_en": "Pallassana",
+      "local_body_name_ml": "പല്ലശ്ശന",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G091004",
+      "local_body_name_en": "Pudunagaram",
+      "local_body_name_ml": "പുതുനഗരം",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G091005",
+      "local_body_name_en": "Vadavannur",
+      "local_body_name_ml": "വടവന്നൂര്‍",
+      "category": "Normal"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/nenmara.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/nenmara.geojson"
+  }
+}

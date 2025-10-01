@@ -1,0 +1,66 @@
+{
+  "assembly_id": "76",
+  "assembly_name_en": "Aluva",
+  "assembly_name_ml": "ആലുവ",
+  "category": "Normal",
+  "district": {
+    "district_id": "7",
+    "district_name_en": "Ernakulam",
+    "district_name_ml": "എറണാകുളം",
+    "district_category": "Normal"
+  },
+  "local_bodies": [
+    {
+      "local_body_id": "G071302",
+      "local_body_name_en": "Chengamanad",
+      "local_body_name_ml": "ചെങ്ങമനാട്",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G070504",
+      "local_body_name_en": "Choornikkara",
+      "local_body_name_ml": "ചൂര്‍ണ്ണിക്കര",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G070505",
+      "local_body_name_en": "Edathala",
+      "local_body_name_ml": "എടത്തല",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G070306",
+      "local_body_name_en": "Kanjoor",
+      "local_body_name_ml": "കാഞ്ഞൂര്‍",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "G070506",
+      "local_body_name_en": "Keezhmad",
+      "local_body_name_ml": "കീഴ്മാട്",
+      "category": "Normal"
+    },
+    {
+      "local_body_id": "G071303",
+      "local_body_name_en": "Nedumbassery",
+      "local_body_name_ml": "നെടുമ്പാശ്ശേരി",
+      "category": "Perfect"
+    },
+    {
+      "local_body_id": "G071306",
+      "local_body_name_en": "Sreemoolanagaram",
+      "local_body_name_ml": "ശ്രീമൂലനഗരം",
+      "category": "Good"
+    },
+    {
+      "local_body_id": "M070800",
+      "local_body_name_en": "Aluva",
+      "local_body_name_ml": "ആലുവ",
+      "category": "Perfect"
+    }
+  ],
+  "geojson_links": {
+    "outline": "geojson/assemblies/outlines/aluva.geojson",
+    "local_bodies": "geojson/assemblies/with-local-bodies/aluva.geojson"
+  }
+}
