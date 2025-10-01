@@ -230,7 +230,29 @@ function toFilename(name) {
       const lbIssues = issues.filter(i => i.local_body_id === l.local_body_id);
       const issuesByType = {};
       for (const issueType of ['town', 'bus_stop', 'water_body']) {
-        issuesByType[issueType] = lbIssues.filter(i => i.type === issueType);
+        const filtered = lbIssues.filter(i => i.type === issueType);
+        if (issueType === 'town') {
+          // Group town issues by town name (from town table)
+          const grouped = {};
+          for (const issue of filtered) {
+            const townId = issue.town_id || 'unknown';
+            // Find town name from towns array
+            const townObj = towns.find(t => t.town_id === townId);
+            const townNameEn = townObj ? townObj.town_name_en : 'Unknown';
+            const townNameMl = townObj ? townObj.town_name_ml : 'അജ്ഞാതം';
+            // Add town name fields to each issue
+            const issueWithTownName = {
+              ...issue,
+              town_name_en: townNameEn,
+              town_name_ml: townNameMl
+            };
+            if (!grouped[townNameEn]) grouped[townNameEn] = [];
+            grouped[townNameEn].push(issueWithTownName);
+          }
+          issuesByType[issueType] = grouped;
+        } else {
+          issuesByType[issueType] = filtered;
+        }
       }
       const localBodyJSON = {
         local_body_id: l.local_body_id,

@@ -160,118 +160,142 @@
     }
   ],
   "issues": {
-    "town": [
-      {
-        "id": "a2f54e0d-0cb9-4efb-924a-00e13daede45",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jayamohanan",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:29:55.274029+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/dc231949-fe66-4b71-9b2c-8cf1459bd0a7_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "38aa72c3-f5ae-4375-b388-b5d280fbc51e",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jaya",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:30:16.811989+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/44cb2094-1957-4a48-92ad-453e8b471221_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "6cbca28e-bcd6-44bf-b997-fc00badb5362",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jayamohanan",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:30:38.216589+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/76d7834c-ef85-4ace-8d7f-064d745f27fe_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "61353513-5442-4876-8f4a-7c799247d979",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jayamohanan",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:31:03.815309+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/6366f2f5-ec58-4580-b216-a5acf86889b4_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "a8ebbb89-a8f0-4ed7-bc40-4b6ee7fa2118",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jayamohanan",
-        "location_url": "https://maps.google.com/?q=10.00015026692829,76.0001564025879",
-        "resolved": false,
-        "created_at": "2025-09-25T04:31:20.35805+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/e151ad67-4bfe-4060-97d7-eba85b7a04fe_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "15016f3b-ab8d-4f86-8d30-21b9342b0af1",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jayamohanan",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:31:36.911683+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/856e14d9-21db-44e3-a1db-1b7cb1bc3745_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "472fd1eb-00c2-41f9-a4ae-ec2dae10a059",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "jayamohanan",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:31:55.982466+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/7c684045-6b5e-4fbc-9127-6c1325c7e81b_photo_1.png",
-        "town_id": "d097dd84-508b-4488-9875-339878e3cfbc"
-      },
-      {
-        "id": "a697ee4b-c450-4f9f-8eab-dbdff70773c5",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "Mezhathoor jayamohanan ",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:33:09.892622+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/b3ddc2ab-1c33-4bdf-99bf-d354e521aa98_photo_1.png",
-        "town_id": "3777e481-2fe7-4287-9d34-7de1c9d3bac3"
-      },
-      {
-        "id": "f0d904e4-5e2a-4505-93f3-692569701922",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "Mezhathoor jayamohanan ",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:33:26.046222+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/6dd1fb0d-7dd9-48be-b345-b4ff003d2fa6_photo_1.png",
-        "town_id": "3777e481-2fe7-4287-9d34-7de1c9d3bac3"
-      },
-      {
-        "id": "4b75a786-c276-404e-ad52-a86072561fc8",
-        "local_body_id": "G090107",
-        "type": "town",
-        "description": "Mezhathoor jayamohanan ",
-        "location_url": "https://maps.google.com/?q=10,76",
-        "resolved": false,
-        "created_at": "2025-09-25T04:33:42.715317+00:00",
-        "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/d04e6707-5596-4466-85a3-8aeec6878373_photo_1.png",
-        "town_id": "3777e481-2fe7-4287-9d34-7de1c9d3bac3"
-      }
-    ],
+    "town": {
+      "Thrithala Town": [
+        {
+          "id": "a2f54e0d-0cb9-4efb-924a-00e13daede45",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jayamohanan",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:29:55.274029+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/dc231949-fe66-4b71-9b2c-8cf1459bd0a7_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        },
+        {
+          "id": "38aa72c3-f5ae-4375-b388-b5d280fbc51e",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jaya",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:30:16.811989+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/44cb2094-1957-4a48-92ad-453e8b471221_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        },
+        {
+          "id": "6cbca28e-bcd6-44bf-b997-fc00badb5362",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jayamohanan",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:30:38.216589+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/76d7834c-ef85-4ace-8d7f-064d745f27fe_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        },
+        {
+          "id": "61353513-5442-4876-8f4a-7c799247d979",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jayamohanan",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:31:03.815309+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/6366f2f5-ec58-4580-b216-a5acf86889b4_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        },
+        {
+          "id": "a8ebbb89-a8f0-4ed7-bc40-4b6ee7fa2118",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jayamohanan",
+          "location_url": "https://maps.google.com/?q=10.00015026692829,76.0001564025879",
+          "resolved": false,
+          "created_at": "2025-09-25T04:31:20.35805+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/e151ad67-4bfe-4060-97d7-eba85b7a04fe_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        },
+        {
+          "id": "15016f3b-ab8d-4f86-8d30-21b9342b0af1",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jayamohanan",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:31:36.911683+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/856e14d9-21db-44e3-a1db-1b7cb1bc3745_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        },
+        {
+          "id": "472fd1eb-00c2-41f9-a4ae-ec2dae10a059",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "jayamohanan",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:31:55.982466+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/7c684045-6b5e-4fbc-9127-6c1325c7e81b_photo_1.png",
+          "town_id": "d097dd84-508b-4488-9875-339878e3cfbc",
+          "town_name_en": "Thrithala Town",
+          "town_name_ml": "തൃത്താല ടൗൺ"
+        }
+      ],
+      "Mezhathoor": [
+        {
+          "id": "a697ee4b-c450-4f9f-8eab-dbdff70773c5",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "Mezhathoor jayamohanan ",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:33:09.892622+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/b3ddc2ab-1c33-4bdf-99bf-d354e521aa98_photo_1.png",
+          "town_id": "3777e481-2fe7-4287-9d34-7de1c9d3bac3",
+          "town_name_en": "Mezhathoor",
+          "town_name_ml": "മേഴത്തൂർ"
+        },
+        {
+          "id": "f0d904e4-5e2a-4505-93f3-692569701922",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "Mezhathoor jayamohanan ",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:33:26.046222+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/6dd1fb0d-7dd9-48be-b345-b4ff003d2fa6_photo_1.png",
+          "town_id": "3777e481-2fe7-4287-9d34-7de1c9d3bac3",
+          "town_name_en": "Mezhathoor",
+          "town_name_ml": "മേഴത്തൂർ"
+        },
+        {
+          "id": "4b75a786-c276-404e-ad52-a86072561fc8",
+          "local_body_id": "G090107",
+          "type": "town",
+          "description": "Mezhathoor jayamohanan ",
+          "location_url": "https://maps.google.com/?q=10,76",
+          "resolved": false,
+          "created_at": "2025-09-25T04:33:42.715317+00:00",
+          "image_url": "https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/d04e6707-5596-4466-85a3-8aeec6878373_photo_1.png",
+          "town_id": "3777e481-2fe7-4287-9d34-7de1c9d3bac3",
+          "town_name_en": "Mezhathoor",
+          "town_name_ml": "മേഴത്തൂർ"
+        }
+      ]
+    },
     "bus_stop": [
       {
         "id": "10212941-9186-4f7c-958b-5339637ea07c",
