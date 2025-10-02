@@ -822,13 +822,13 @@ function LocalBodyDashboard() {
             <div className="local-body-header">
               <h2 className="local-body-name malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.local_body_name_ml || localBody?.local_body_name_en || 'Unknown Local Body')
-                  : (localBody?.local_body_name_en || localBody?.local_body_name_ml || 'Unknown Local Body')}
+                  ? (localBody?.[FIELDS.LOCAL_BODY.NAME_ML] || localBody?.[FIELDS.LOCAL_BODY.NAME_EN] || 'Unknown Local Body')
+                  : (localBody?.[FIELDS.LOCAL_BODY.NAME_EN] || localBody?.[FIELDS.LOCAL_BODY.NAME_ML] || 'Unknown Local Body')}
               </h2>
               <div className="local-body-type malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
-                  : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
+                  ? (localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '')
+                  : (localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '')}
               </div>
               <div className="local-body-assembly-district-row" style={{ display: 'flex', flexDirection: 'column', gap: 2, marginTop: 8, paddingLeft: 12 }}>
                 {assembly && (

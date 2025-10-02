@@ -53,18 +53,18 @@
   CONSTRAINT issues_town_id_fkey FOREIGN KEY (town_id) REFERENCES town (town_id)
 );                                                                             |
 | local_body               | CREATE TABLE public.local_body (
-  local_body_name_en text NULL,
+  name_en text NULL,
   is_active boolean NOT NULL,
   block_name_en text NULL,
   district_panchayat_name_en text NULL,
-  local_body_name_ml text NULL,
+  name_ml text NULL,
   assembly_id text NULL,
   local_body_type_id text NULL,
   id text NOT NULL,
   CONSTRAINT local_body_pkey PRIMARY KEY (id),
   CONSTRAINT local_body_assembly_id_fkey FOREIGN KEY (assembly_id) REFERENCES assembly (assembly_id),
   CONSTRAINT local_body_local_body_type_id_fkey FOREIGN KEY (local_body_type_id) REFERENCES local_body_type (type_id)
-);                                |
+);                                                      |
 | local_body_category      | CREATE TABLE public.local_body_category (
   category text NOT NULL,
   local_body_id text NOT NULL,

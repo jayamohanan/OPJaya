@@ -59,11 +59,11 @@ export const FIELDS = {
 		IMAGE_URL: 'image_url',
 	},
 	LOCAL_BODY: {
-		NAME_EN: 'local_body_name_en',
+		NAME_EN: 'name_en',
 		ID: 'id',
 		BLOCK_NAME_EN: 'block_name_en',
 		DIST_PANCHAYAT_NAME_EN: 'district_panchayat_name_en',
-		NAME_ML: 'local_body_name_ml',
+		NAME_ML: 'name_ml',
 		ASSEMBLY_ID: 'assembly_id',
 		TYPE_ID: 'local_body_type_id',
 		IS_ACTIVE: 'is_active',
