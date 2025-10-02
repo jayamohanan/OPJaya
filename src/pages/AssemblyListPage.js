@@ -1,10 +1,15 @@
 import React, { useEffect, useState, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
 import { CATEGORY_COLORS } from '../constants/categoryColors';
 import { LABELS } from '../constants/labels';
+import { 
+  getAllDistrictsData, 
+  getAllAssembliesData, 
+  getAllLocalBodiesData, 
+  getLocalBodyCategories 
+} from '../services/clientDataService';
 
 function AssemblyListPage() {
   const { lang } = useContext(LanguageContext);
@@ -26,60 +31,52 @@ function AssemblyListPage() {
   useEffect(() => {
     async function fetchData() {
       setLoading(true);
-      const { data: districtData } = await supabase
-        .from(TABLES.DISTRICT)
-        .select([
-          FIELDS.DISTRICT.ID,
-          FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML
-        ].join(', '));
-      setDistricts(districtData || []);
-      const { data: assemblyData } = await supabase
-        .from(TABLES.ASSEMBLY)
-        .select([
-          FIELDS.ASSEMBLY.ID,
-          FIELDS.ASSEMBLY.NAME_EN,
-          FIELDS.ASSEMBLY.NAME_ML,
-          FIELDS.ASSEMBLY.DISTRICT_ID
-        ].join(', '));
-      // Group assemblies by district
-      const grouped = {};
-      (assemblyData || []).forEach(a => {
-        const dId = a[FIELDS.ASSEMBLY.DISTRICT_ID];
-        if (!grouped[dId]) grouped[dId] = [];
-        grouped[dId].push(a);
-      });
-      setAssembliesByDistrict(grouped);
-      // Fetch local bodies for all assemblies
-      const { data: localBodyData } = await supabase
-        .from(TABLES.LOCAL_BODY)
-        .select([
-          FIELDS.LOCAL_BODY.ID,
-          FIELDS.LOCAL_BODY.NAME_EN,
-          FIELDS.LOCAL_BODY.NAME_ML,
-          FIELDS.LOCAL_BODY.ASSEMBLY_ID
-        ].join(', '));
-      // Fetch local body categories
-      const { data: localBodyCategoryData } = await supabase
-        .from('local_body_category')
-        .select('local_body_id, category');
-      // Create a lookup for categories
-      const lbCategoryLookup = {};
-      (localBodyCategoryData || []).forEach(cat => {
-        lbCategoryLookup[cat.local_body_id] = cat.category;
-      });
-      // Merge category into local body data
-      (localBodyData || []).forEach(lb => {
-        lb.local_body_category = { category: lbCategoryLookup[lb[FIELDS.LOCAL_BODY.ID]] || 'Normal' };
-      });
-      const lbGrouped = {};
-      (localBodyData || []).forEach(lb => {
-        const aId = lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID];
-        if (!lbGrouped[aId]) lbGrouped[aId] = [];
-        lbGrouped[aId].push(lb);
-      });
-      setLocalBodiesByAssembly(lbGrouped);
-      setLoading(false);
+      
+      try {
+        // Fetch districts
+        const districtData = await getAllDistrictsData();
+        setDistricts(districtData || []);
+        
+        // Fetch assemblies
+        const assemblyData = await getAllAssembliesData();
+        // Group assemblies by district
+        const grouped = {};
+        (assemblyData || []).forEach(a => {
+          const dId = a[FIELDS.ASSEMBLY.DISTRICT_ID];
+          if (!grouped[dId]) grouped[dId] = [];
+          grouped[dId].push(a);
+        });
+        setAssembliesByDistrict(grouped);
+        
+        // Fetch local bodies for all assemblies
+        const localBodyData = await getAllLocalBodiesData();
+        
+        // Fetch local body categories
+        const localBodyCategoryData = await getLocalBodyCategories();
+        
+        // Create a lookup for categories
+        const lbCategoryLookup = {};
+        (localBodyCategoryData || []).forEach(cat => {
+          lbCategoryLookup[cat.local_body_id] = cat.category;
+        });
+        
+        // Merge category into local body data
+        (localBodyData || []).forEach(lb => {
+          lb.local_body_category = { category: lbCategoryLookup[lb[FIELDS.LOCAL_BODY.ID]] || 'Normal' };
+        });
+        
+        const lbGrouped = {};
+        (localBodyData || []).forEach(lb => {
+          const aId = lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID];
+          if (!lbGrouped[aId]) lbGrouped[aId] = [];
+          lbGrouped[aId].push(lb);
+        });
+        setLocalBodiesByAssembly(lbGrouped);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      } finally {
+        setLoading(false);
+      }
     }
     fetchData();
   }, []);

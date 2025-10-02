@@ -4,11 +4,20 @@ import { useParams, useNavigate, Link } from 'react-router-dom';
 import AddIssueModal from '../components/AddIssueModal';
 import Footer from '../components/Footer';
 import TopNav from '../components/TopNav'; // Add this import
-import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LABELS } from '../constants/labels';
 import './LocalBodyDashboard.css';
 import TownIssuesModal from '../components/TownIssuesModal';
+import { 
+  getLocalBodyData, 
+  getAssemblyData, 
+  getDistrictData, 
+  getWardsForLocalBody,
+  getWardCollectionRates,
+  getIssuesForLocalBody,
+  getTownsForLocalBody,
+  updateWardCollectionRates
+} from '../services/clientDataService';
 
 const sections = [
   { title: 'Towns' },
@@ -355,62 +364,40 @@ function LocalBodyDashboard() {
   useEffect(() => {
     async function fetchData() {
       if (!localBodyId) return;
-      // Fetch local body
-      const { data: lb, error: lbError } = await supabase
-        .from(TABLES.LOCAL_BODY)
-        .select([
-          FIELDS.LOCAL_BODY.ID,
-          FIELDS.LOCAL_BODY.NAME_EN,
-          FIELDS.LOCAL_BODY.NAME_ML,
-          FIELDS.LOCAL_BODY.BLOCK_NAME_EN,
-          FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN,
-          FIELDS.LOCAL_BODY.ASSEMBLY_ID,
-          FIELDS.LOCAL_BODY.TYPE_ID,
-          `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN}, ${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML})`
-        ].join(', '))
-        .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
-        .single();
-      if (lbError || !lb) {
+      
+      try {
+        // Fetch local body
+        const lb = await getLocalBodyData(localBodyId);
+        if (!lb) {
+          setLocalBody(null);
+          setAssembly(null);
+          setDistrict(null);
+          return;
+        }
+        setLocalBody(lb);
+
+        // Fetch assembly
+        const asm = await getAssemblyData(assemblyId || lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID]);
+        if (!asm) {
+          setAssembly(null);
+          setDistrict(null);
+          return;
+        }
+        setAssembly(asm);
+
+        // Fetch district
+        const dist = await getDistrictData(districtId || asm[FIELDS.ASSEMBLY.DISTRICT_ID]);
+        if (!dist) {
+          setDistrict(null);
+          return;
+        }
+        setDistrict(dist);
+      } catch (error) {
+        console.error('Error fetching data:', error);
         setLocalBody(null);
         setAssembly(null);
         setDistrict(null);
-        return;
       }
-      setLocalBody(lb);
-
-      // Fetch assembly
-      const { data: asm, error: asmError } = await supabase
-        .from(TABLES.ASSEMBLY)
-        .select([
-          FIELDS.ASSEMBLY.ID,
-          FIELDS.ASSEMBLY.NAME_EN,
-          FIELDS.ASSEMBLY.NAME_ML,
-          FIELDS.ASSEMBLY.DISTRICT_ID
-        ].join(', '))
-        .eq(FIELDS.ASSEMBLY.ID, assemblyId || lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID])
-        .single();
-      if (asmError || !asm) {
-        setAssembly(null);
-        setDistrict(null);
-        return;
-      }
-      setAssembly(asm);
-
-      // Fetch district
-      const { data: dist, error: distError } = await supabase
-        .from(TABLES.DISTRICT)
-        .select([
-          FIELDS.DISTRICT.ID,
-          FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML
-        ].join(', '))
-        .eq(FIELDS.DISTRICT.ID, districtId || asm[FIELDS.ASSEMBLY.DISTRICT_ID])
-        .single();
-      if (distError || !dist) {
-        setDistrict(null);
-        return;
-      }
-      setDistrict(dist);
     }
     fetchData();
   }, [localBodyId, assemblyId, districtId]);
@@ -464,55 +451,46 @@ function LocalBodyDashboard() {
     async function fetchHKSRates() {
       if (!localBody?.local_body_id) return;
       setLoadingHKSRates(true);
-      // 1. Get all ward_ids for the local body
-      const { data: wards, error: wardError } = await supabase
-        .from(TABLES.WARD)
-        .select([
-          FIELDS.WARD.ID,
-          FIELDS.WARD.WARD_NAME_EN,
-          FIELDS.WARD.WARD_NAME_ML,
-          FIELDS.WARD.WARD_NO
-        ].join(', '))
-        .eq(FIELDS.WARD.LOCAL_BODY_ID, localBody[FIELDS.LOCAL_BODY.ID]);
+      
+      try {
+        // 1. Get all ward_ids for the local body
+        const wards = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
+        if (!wards) return;
 
-      if (!wards) return;
+        const wardIds = wards.map(w => w.ward_id);
 
-      const wardIds = wards.map(w => w.ward_id);
+        // 2. Get all collections for those wards
+        const collections = await getWardCollectionRates(wardIds);
 
-      // 2. Get all collections for those wards
-      const { data: collections, error: collectionError } = await supabase
-        .from(TABLES.WARD_COLLECTION)
-        .select([
-          FIELDS.WARD_COLLECTION.RATE,
-          FIELDS.WARD_COLLECTION.YEAR_MONTH,
-          FIELDS.WARD_COLLECTION.WARD_ID
-        ].join(', '))
-        .in(FIELDS.WARD_COLLECTION.WARD_ID, wardIds);
+        // 3. Merge with ward info and pick latest per ward
+        const wardMap = {};
+        wards.forEach(w => { wardMap[w.ward_id] = w; });
 
-      // 3. Merge with ward info and pick latest per ward
-      const wardMap = {};
-      wards.forEach(w => { wardMap[w.ward_id] = w; });
+        const latestByWard = {};
+        (collections || []).forEach(item => {
+          if (!item.ward_id) return;
+          if (!latestByWard[item.ward_id] || new Date(item.year_month) > new Date(latestByWard[item.ward_id].year_month)) {
+            latestByWard[item.ward_id] = item;
+          }
+        });
 
-      const latestByWard = {};
-      (collections || []).forEach(item => {
-        if (!item.ward_id) return;
-        if (!latestByWard[item.ward_id] || new Date(item.year_month) > new Date(latestByWard[item.ward_id].year_month)) {
-          latestByWard[item.ward_id] = item;
-        }
-      });
-
-      const wardLabel = LABELS.ward[lang];
-      const mapped = Object.values(latestByWard)
-        .map(item => ({
-          name:
-            lang === 'ml'
-              ? `${wardMap[item.ward_id].ward_name_ml || wardMap[item.ward_id].ward_name_en} (${wardLabel} ${wardMap[item.ward_id].ward_no})`
-              : `${wardMap[item.ward_id].ward_name_en || wardMap[item.ward_id].ward_name_ml} (${wardLabel} ${wardMap[item.ward_id].ward_no})`,
-          rate: item.rate
-        }))
-        .sort((a, b) => a.rate - b.rate);
-      setHksCollectionRates(mapped);
-      setLoadingHKSRates(false);
+        const wardLabel = LABELS.ward[lang];
+        const mapped = Object.values(latestByWard)
+          .map(item => ({
+            name:
+              lang === 'ml'
+                ? `${wardMap[item.ward_id].ward_name_ml || wardMap[item.ward_id].ward_name_en} (${wardLabel} ${wardMap[item.ward_id].ward_no})`
+                : `${wardMap[item.ward_id].ward_name_en || wardMap[item.ward_id].ward_name_ml} (${wardLabel} ${wardMap[item.ward_id].ward_no})`,
+            rate: item.rate
+          }))
+          .sort((a, b) => a.rate - b.rate);
+        setHksCollectionRates(mapped);
+      } catch (error) {
+        console.error('Error fetching HKS rates:', error);
+        setHksCollectionRates([]);
+      } finally {
+        setLoadingHKSRates(false);
+      }
     }
     fetchHKSRates();
   }, [localBody?.local_body_id, lang]);
@@ -707,17 +685,16 @@ function LocalBodyDashboard() {
     const inserts = Object.entries(rates)
       .filter(([_, rate]) => rate !== '' && !isNaN(rate))
       .map(([ward_id, rate]) => ({ ward_id, year_month: yearMonth, rate: Number(rate) }));
+    
     if (inserts.length > 0) {
-      const { error, data } = await supabase
-        .from('ward_collection')
-        .upsert(inserts, { onConflict: ['ward_id', 'year_month'] });
-      if (error) {
+      try {
+        const data = await updateWardCollectionRates(inserts);
+        console.log('supa message:', data);
+      } catch (error) {
         console.log('supa message:', error.message);
         alert('Error updating rates: ' + error.message);
         setHksLoading(false);
         return;
-      } else {
-        console.log('supa message:', data);
       }
     }
     setHksLoading(false);
@@ -729,17 +706,14 @@ function LocalBodyDashboard() {
   useEffect(() => {
     async function fetchWards() {
       if (!localBody?.local_body_id) return;
-      const { data: wardsData } = await supabase
-        .from(TABLES.WARD)
-        .select([
-          FIELDS.WARD.ID,
-          FIELDS.WARD.WARD_NAME_EN,
-          FIELDS.WARD.WARD_NAME_ML,
-          FIELDS.WARD.WARD_NO,
-          FIELDS.WARD.LOCAL_BODY_ID
-        ].join(', '))
-        .eq(FIELDS.WARD.LOCAL_BODY_ID, localBody[FIELDS.LOCAL_BODY.ID]);
-      setWards(wardsData || []);
+      
+      try {
+        const wardsData = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
+        setWards(wardsData || []);
+      } catch (error) {
+        console.error('Error fetching wards:', error);
+        setWards([]);
+      }
     }
     fetchWards();
   }, [localBody?.local_body_id]);
@@ -748,27 +722,26 @@ function LocalBodyDashboard() {
   useEffect(() => {
     async function fetchIssuesFromTable() {
       if (!localBodyId) return;
-      const { data: issuesData, error } = await supabase
-        .from(TABLES.ISSUES)
-        .select('*')
-        .eq(FIELDS.ISSUES.LOCAL_BODY_ID, localBodyId);
-      if (error) {
+      
+      try {
+        const issuesData = await getIssuesForLocalBody(localBodyId);
+        if (!issuesData || issuesData.length === 0) {
+          console.log('no issue found, fallback to placeholder');
+          // fallback to placeholder for all sections
+          setIssues({});
+        } else {
+          // Group issues by type (section)
+          const grouped = {};
+          issuesData.forEach(issue => {
+            const section = issue.type;
+            if (!grouped[section]) grouped[section] = [];
+            grouped[section].push(issue);
+          });
+          setIssues(grouped);
+        }
+      } catch (error) {
         console.error('Error fetching issues:', error);
-        return;
-      }
-      if (!issuesData || issuesData.length === 0) {
-        console.log('no issue found, fallback to placeholder');
-        // fallback to placeholder for all sections
         setIssues({});
-      } else {
-        // Group issues by type (section)
-        const grouped = {};
-        issuesData.forEach(issue => {
-          const section = issue.type;
-          if (!grouped[section]) grouped[section] = [];
-          grouped[section].push(issue);
-        });
-        setIssues(grouped);
       }
     }
     fetchIssuesFromTable();
@@ -781,19 +754,17 @@ function LocalBodyDashboard() {
       return;
     }
     async function fetchTowns() {
-      const { data: towns, error } = await supabase
-        .from(TABLES.TOWN)
-        .select([
-          FIELDS.TOWN.TOWN_NAME_EN,
-          FIELDS.TOWN.TOWN_NAME_ML
-        ].join(', '))
-        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
-      if (towns && towns.length > 0) {
-        towns.forEach(town => {
-          console.log('Town:', town.town_name_en, '| Malayalam:', town.town_name_ml);
-        });
-      } else {
-        console.log('No towns found for this local body.');
+      try {
+        const towns = await getTownsForLocalBody(localBodyId);
+        if (towns && towns.length > 0) {
+          towns.forEach(town => {
+            console.log('Town:', town.town_name_en, '| Malayalam:', town.town_name_ml);
+          });
+        } else {
+          console.log('No towns found for this local body.');
+        }
+      } catch (error) {
+        console.error('Error fetching towns for logging:', error);
       }
     }
     fetchTowns();
@@ -807,19 +778,18 @@ function LocalBodyDashboard() {
   useEffect(() => {
     async function fetchTowns() {
       if (!localBodyId) return;
-      const { data: towns, error } = await supabase
-        .from(TABLES.TOWN)
-        .select([
-          FIELDS.TOWN.ID,
-          FIELDS.TOWN.TOWN_NAME_EN,
-          FIELDS.TOWN.TOWN_NAME_ML
-        ].join(', '))
-        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
-      if (towns && towns.length > 0) {
-        const map = {};
-        towns.forEach(town => { map[town.town_id] = town; });
-        setTownsMap(map);
-      } else {
+      
+      try {
+        const towns = await getTownsForLocalBody(localBodyId);
+        if (towns && towns.length > 0) {
+          const map = {};
+          towns.forEach(town => { map[town.town_id] = town; });
+          setTownsMap(map);
+        } else {
+          setTownsMap({});
+        }
+      } catch (error) {
+        console.error('Error fetching towns:', error);
         setTownsMap({});
       }
     }

@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { useEffect, useState, useContext } from 'react';
-import { supabase } from '../supabaseClient';
+import { getDistrictData, getAssembliesForDistrict } from '../services/clientDataService';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
 import RegionInfoPage from '../components/RegionInfoPage';
@@ -26,34 +26,16 @@ function DistrictPage() {
 
   useEffect(() => {
     async function fetchData() {
-      const { data: districtData, error: districtError } = await supabase
-        .from(TABLES.DISTRICT)
-        .select([
-          FIELDS.DISTRICT.ID,
-          FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML
-        ].join(', '))
-        .eq(FIELDS.DISTRICT.ID, districtId)
-        .single();
-      if (districtError || !districtData) {
-        setAssemblies([]);
-        setDistrict(null);
-        return;
-      }
-      setDistrict(districtData);
+      try {
+        const districtData = await getDistrictData(districtId);
+        if (!districtData) {
+          setAssemblies([]);
+          setDistrict(null);
+          return;
+        }
+        setDistrict(districtData);
 
-      const { data: asms, error: asmError } = await supabase
-        .from(TABLES.ASSEMBLY)
-        .select([
-          FIELDS.ASSEMBLY.ID,
-          FIELDS.ASSEMBLY.NAME_EN,
-          FIELDS.ASSEMBLY.NAME_ML,
-          `${TABLES.ASSEMBLY_CATEGORY}(${FIELDS.ASSEMBLY_CATEGORY.CATEGORY})`
-        ].join(', '))
-        .eq(FIELDS.ASSEMBLY.DISTRICT_ID, districtData[FIELDS.DISTRICT.ID]);
-      if (asmError) {
-        setAssemblies([]);
-      } else {
+        const asms = await getAssembliesForDistrict(districtId);
         setAssemblies(
           (asms || []).map(a => ({
             id: a[FIELDS.ASSEMBLY.ID],
@@ -63,6 +45,10 @@ function DistrictPage() {
             assembly_name_ml: a[FIELDS.ASSEMBLY.NAME_ML]
           }))
         );
+      } catch (error) {
+        console.error('Error fetching district data:', error);
+        setAssemblies([]);
+        setDistrict(null);
       }
     }
     fetchData();

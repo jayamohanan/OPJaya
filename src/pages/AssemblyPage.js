@@ -2,7 +2,7 @@ import React from 'react';
 import RegionInfoPage from '../components/RegionInfoPage';
 import { useParams } from 'react-router-dom';
 import { useEffect, useState, useContext } from 'react';
-import { supabase } from '../supabaseClient';
+import { getAssemblyData, getDistrictData, getLocalBodiesForAssembly } from '../services/clientDataService';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
 import { LABELS } from '../constants/labels';
@@ -19,64 +19,35 @@ function AssemblyPage() {
 
   useEffect(() => {
     async function fetchData() {
-      const { data: assemblyData, error: assemblyError } = await supabase
-        .from(TABLES.ASSEMBLY)
-        .select([
-          FIELDS.ASSEMBLY.ID,
-          FIELDS.ASSEMBLY.NAME_EN,
-          FIELDS.ASSEMBLY.NAME_ML,
-          FIELDS.ASSEMBLY.DISTRICT_ID
-        ].join(', '))
-        .eq(FIELDS.ASSEMBLY.ID, assemblyId)
-        .single();
-      if (assemblyError || !assemblyData) {
-        setRankedLocalBodies([]);
-        setDistrict('');
-        setAssembly(null);
-        return;
-      }
-      setAssembly(assemblyData);
-
-      let districtName = '';
-      if (assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]) {
-        const { data: districtData, error: districtError } = await supabase
-          .from(TABLES.DISTRICT)
-          .select([
-            FIELDS.DISTRICT.NAME_EN,
-            FIELDS.DISTRICT.NAME_ML
-          ].join(', '))
-          .eq(FIELDS.DISTRICT.ID, assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID])
-          .single();
-        if (!districtError && districtData) {
-          districtName =
-            lang === 'ml'
-              ? (districtData[FIELDS.DISTRICT.NAME_ML] || districtData[FIELDS.DISTRICT.NAME_EN])
-              : (districtData[FIELDS.DISTRICT.NAME_EN] || districtData[FIELDS.DISTRICT.NAME_ML]);
+      try {
+        const assemblyData = await getAssemblyData(assemblyId);
+        if (!assemblyData) {
+          setRankedLocalBodies([]);
+          setDistrict('');
+          setAssembly(null);
+          return;
         }
-      }
-      setDistrict(districtName);
+        setAssembly(assemblyData);
 
-      const { data: lbs, error: lbError } = await supabase
-        .from(TABLES.LOCAL_BODY)
-        .select([
-          FIELDS.LOCAL_BODY.ID,
-          FIELDS.LOCAL_BODY.NAME_EN,
-          FIELDS.LOCAL_BODY.NAME_ML,
-          `${TABLES.LOCAL_BODY_CATEGORY}(${FIELDS.LOCAL_BODY_CATEGORY.CATEGORY})`,
-          `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN},${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML})`
-        ].join(', '))
-        .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, assemblyData[FIELDS.ASSEMBLY.ID]);
-      if (lbError) {
-        setRankedLocalBodies([]);
-      } else {
+        let districtName = '';
+        if (assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]) {
+          const districtData = await getDistrictData(assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]);
+          if (districtData) {
+            districtName =
+              lang === 'ml'
+                ? (districtData[FIELDS.DISTRICT.NAME_ML] || districtData[FIELDS.DISTRICT.NAME_EN])
+                : (districtData[FIELDS.DISTRICT.NAME_EN] || districtData[FIELDS.DISTRICT.NAME_ML]);
+          }
+        }
+        setDistrict(districtName);
+
+        const lbs = await getLocalBodiesForAssembly(assemblyId);
         const categories = { 'Perfect': [], 'Good': [], 'Normal': [] };
         (lbs || []).forEach(lb => {
           const cat = lb.local_body_category?.[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
-          if(categories[cat]) 
-            {
-              categories[cat].push(lb);
-            }
-          else {
+          if(categories[cat]) {
+            categories[cat].push(lb);
+          } else {
             categories['Normal'].push(lb);
           }
         });
@@ -85,18 +56,11 @@ function AssemblyPage() {
           ...categories['Good'],
           ...categories['Normal']
         ]);
-      }
-
-      if (assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]) {
-        const { data: allInDistrict, error: error2 } = await supabase
-          .from(TABLES.ASSEMBLY)
-          .select([
-            FIELDS.ASSEMBLY.ID,
-            FIELDS.ASSEMBLY.NAME_EN,
-            FIELDS.ASSEMBLY.NAME_ML
-          ].join(', '))
-          .eq(FIELDS.ASSEMBLY.DISTRICT_ID, assemblyData[FIELDS.ASSEMBLY.DISTRICT_ID]);
-        
+      } catch (error) {
+        console.error('Error fetching assembly data:', error);
+        setRankedLocalBodies([]);
+        setDistrict('');
+        setAssembly(null);
       }
     }
     fetchData();

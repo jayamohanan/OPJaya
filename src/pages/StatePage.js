@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext } from 'react';
 import RegionInfoPage from '../components/RegionInfoPage';
-import { supabase } from '../supabaseClient';
+import { getStateData } from '../services/clientDataService';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
 
@@ -12,34 +12,23 @@ function StatePage() {
 
   useEffect(() => {
     async function fetchData() {
-      // Fetch all districts
-      const { data: districtData, error: districtError } = await supabase
-        .from(TABLES.DISTRICT)
-        .select([
-          FIELDS.DISTRICT.ID,
-          FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML
-        ].join(', '));
-      if (districtError || !districtData) {
+      try {
+        const stateData = await getStateData();
+        if (!stateData || !stateData.districts) {
+          setDistricts([]);
+          return;
+        }
+        const districtsWithCategory = (stateData.districts || []).map(d => ({
+          id: d.district_id,
+          name: lang === 'ml' ? (d.district_name_ml || d.district_name_en) : (d.district_name_en || d.district_name_ml),
+          name_en: (d.district_name_en || '').toLowerCase().trim(),
+          category: d.category || 'Normal'
+        }));
+        setDistricts(districtsWithCategory);
+      } catch (error) {
+        console.error('Error fetching state data:', error);
         setDistricts([]);
-        return;
       }
-      // Fetch district categories
-      const { data: catData, error: catError } = await supabase
-        .from('district_category')
-        .select('district_id, category');
-      // Map categories to districts
-      const categoryMap = {};
-      (catData || []).forEach(cat => {
-        categoryMap[cat.district_id] = cat.category;
-      });
-      const districtsWithCategory = (districtData || []).map(d => ({
-        id: d[FIELDS.DISTRICT.ID],
-        name: lang === 'ml' ? (d[FIELDS.DISTRICT.NAME_ML] || d[FIELDS.DISTRICT.NAME_EN]) : (d[FIELDS.DISTRICT.NAME_EN] || d[FIELDS.DISTRICT.NAME_ML]),
-        name_en: (d[FIELDS.DISTRICT.NAME_EN] || '').toLowerCase().trim(),
-        category: categoryMap[d[FIELDS.DISTRICT.ID]] || 'Normal'
-      }));
-      setDistricts(districtsWithCategory);
     }
     fetchData();
   }, [lang]);
