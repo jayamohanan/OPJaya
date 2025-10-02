@@ -827,8 +827,8 @@ function LocalBodyDashboard() {
               </h2>
               <div className="local-body-type malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '')
-                  : (localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || localBody?.local_body_type_id?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '')}
+                  ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
+                  : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
               </div>
               <div className="local-body-assembly-district-row" style={{ display: 'flex', flexDirection: 'column', gap: 2, marginTop: 8, paddingLeft: 12 }}>
                 {assembly && (
