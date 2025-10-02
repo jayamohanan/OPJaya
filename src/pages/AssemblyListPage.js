@@ -7,8 +7,7 @@ import { LABELS } from '../constants/labels';
 import { 
   getAllDistrictsData, 
   getAllAssembliesData, 
-  getAllLocalBodiesData, 
-  getLocalBodyCategories 
+  getAllLocalBodiesData
 } from '../services/clientDataService';
 
 function AssemblyListPage() {
@@ -51,20 +50,7 @@ function AssemblyListPage() {
         // Fetch local bodies for all assemblies
         const localBodyData = await getAllLocalBodiesData();
         
-        // Fetch local body categories
-        const localBodyCategoryData = await getLocalBodyCategories();
-        
-        // Create a lookup for categories
-        const lbCategoryLookup = {};
-        (localBodyCategoryData || []).forEach(cat => {
-          lbCategoryLookup[cat.local_body_id] = cat.category;
-        });
-        
-        // Merge category into local body data
-        (localBodyData || []).forEach(lb => {
-          lb.local_body_category = { category: lbCategoryLookup[lb[FIELDS.LOCAL_BODY.ID]] || 'Normal' };
-        });
-        
+        // Since the data is now mapped, categories are already included
         const lbGrouped = {};
         (localBodyData || []).forEach(lb => {
           const aId = lb[FIELDS.LOCAL_BODY.ASSEMBLY_ID];
@@ -132,7 +118,7 @@ function AssemblyListPage() {
           {expandedDistricts[district[FIELDS.DISTRICT.ID]] && (
             <ul style={{ marginLeft: 16, listStyleType: 'none', paddingLeft: 0 }}>
               {(assembliesByDistrict[district[FIELDS.DISTRICT.ID]] || []).map(assembly => {
-                const category = assembly.local_body_category?.category || 'Normal';
+                const category = assembly[FIELDS.ASSEMBLY_CATEGORY.CATEGORY] || 'Normal';
                 return (
                   <li key={assembly[FIELDS.ASSEMBLY.ID]} style={{ marginBottom: 6 }}>
                     <div style={{ display: 'flex', alignItems: 'center', gap: 8 }}>
@@ -164,14 +150,14 @@ function AssemblyListPage() {
                           const lbs = localBodiesByAssembly[assembly[FIELDS.ASSEMBLY.ID]] || [];
                           const sortedLbs = [...lbs].sort((a, b) => {
                             const order = { Perfect: 0, Good: 1, Normal: 2 };
-                            const aCatRaw = a.local_body_category?.category || 'Normal';
-                            const bCatRaw = b.local_body_category?.category || 'Normal';
+                            const aCatRaw = a[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
+                            const bCatRaw = b[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
                             const aCat = aCatRaw.trim().charAt(0).toUpperCase() + aCatRaw.trim().slice(1).toLowerCase();
                             const bCat = bCatRaw.trim().charAt(0).toUpperCase() + bCatRaw.trim().slice(1).toLowerCase();
                             return order[aCat] - order[bCat];
                           });
                           return sortedLbs.map(lb => {
-                            const lbCategoryRaw = lb.local_body_category?.category || 'Normal';
+                            const lbCategoryRaw = lb[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
                             const lbCategory = lbCategoryRaw.trim().charAt(0).toUpperCase() + lbCategoryRaw.trim().slice(1).toLowerCase();
                             return (
                               <li key={lb[FIELDS.LOCAL_BODY.ID]} style={{ marginBottom: 2, display: 'flex', alignItems: 'center', gap: 6 }}>

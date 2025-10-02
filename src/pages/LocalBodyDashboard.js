@@ -210,7 +210,7 @@ function UpdateHKSModal({ open, onClose, wards, lang, onSubmit, loading, localBo
   useEffect(() => {
     if (wards) {
       const initialRates = {};
-      wards.forEach(w => { initialRates[w.ward_id] = ''; });
+      wards.forEach(w => { initialRates[w[FIELDS.WARD.ID]] = ''; });
       setRates(initialRates);
     }
   }, [wards]);
@@ -288,17 +288,17 @@ function UpdateHKSModal({ open, onClose, wards, lang, onSubmit, loading, localBo
                 </thead>
                 <tbody>
                   {wards.map(w => (
-                    <tr key={w.ward_id}>
-                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{w.ward_no}</td>
-                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{lang === 'ml' ? (w.ward_name_ml || w.ward_name_en) : (w.ward_name_en || w.ward_name_ml)}</td>
+                    <tr key={w[FIELDS.WARD.ID]}>
+                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{w[FIELDS.WARD.WARD_NO]}</td>
+                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{lang === 'ml' ? (w[FIELDS.WARD.WARD_NAME_ML] || w[FIELDS.WARD.WARD_NAME_EN]) : (w[FIELDS.WARD.WARD_NAME_EN] || w[FIELDS.WARD.WARD_NAME_ML])}</td>
                       <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0' }}>
                         <input
                           type="number"
                           min="0"
                           max="100"
                           step="0.01"
-                          value={rates[w.ward_id]}
-                          onChange={e => handleChange(w.ward_id, e.target.value)}
+                          value={rates[w[FIELDS.WARD.ID]]}
+                          onChange={e => handleChange(w[FIELDS.WARD.ID], e.target.value)}
                           style={{ width: 90, padding: 4, borderRadius: 4, border: '1px solid #ccc' }}
                           inputMode="decimal"
                         />
@@ -457,20 +457,20 @@ function LocalBodyDashboard() {
         const wards = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
         if (!wards) return;
 
-        const wardIds = wards.map(w => w.ward_id);
+        const wardIds = wards.map(w => w[FIELDS.WARD.ID]);
 
         // 2. Get all collections for those wards
         const collections = await getWardCollectionRates(wardIds);
 
         // 3. Merge with ward info and pick latest per ward
         const wardMap = {};
-        wards.forEach(w => { wardMap[w.ward_id] = w; });
+        wards.forEach(w => { wardMap[w[FIELDS.WARD.ID]] = w; });
 
         const latestByWard = {};
         (collections || []).forEach(item => {
-          if (!item.ward_id) return;
-          if (!latestByWard[item.ward_id] || new Date(item.year_month) > new Date(latestByWard[item.ward_id].year_month)) {
-            latestByWard[item.ward_id] = item;
+          if (!item[FIELDS.WARD_COLLECTION.WARD_ID]) return;
+          if (!latestByWard[item[FIELDS.WARD_COLLECTION.WARD_ID]] || new Date(item[FIELDS.WARD_COLLECTION.YEAR_MONTH]) > new Date(latestByWard[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD_COLLECTION.YEAR_MONTH])) {
+            latestByWard[item[FIELDS.WARD_COLLECTION.WARD_ID]] = item;
           }
         });
 
@@ -479,9 +479,9 @@ function LocalBodyDashboard() {
           .map(item => ({
             name:
               lang === 'ml'
-                ? `${wardMap[item.ward_id].ward_name_ml || wardMap[item.ward_id].ward_name_en} (${wardLabel} ${wardMap[item.ward_id].ward_no})`
-                : `${wardMap[item.ward_id].ward_name_en || wardMap[item.ward_id].ward_name_ml} (${wardLabel} ${wardMap[item.ward_id].ward_no})`,
-            rate: item.rate
+                ? `${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_ML] || wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_EN]} (${wardLabel} ${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NO]})`
+                : `${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_EN] || wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_ML]} (${wardLabel} ${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NO]})`,
+            rate: item[FIELDS.WARD_COLLECTION.RATE]
           }))
           .sort((a, b) => a.rate - b.rate);
         setHksCollectionRates(mapped);
@@ -684,7 +684,7 @@ function LocalBodyDashboard() {
     const yearMonth = `${year}-${month}-01`;
     const inserts = Object.entries(rates)
       .filter(([_, rate]) => rate !== '' && !isNaN(rate))
-      .map(([ward_id, rate]) => ({ ward_id, year_month: yearMonth, rate: Number(rate) }));
+      .map(([ward_id, rate]) => ({ [FIELDS.WARD_COLLECTION.WARD_ID]: ward_id, [FIELDS.WARD_COLLECTION.YEAR_MONTH]: yearMonth, [FIELDS.WARD_COLLECTION.RATE]: Number(rate) }));
     
     if (inserts.length > 0) {
       try {
@@ -758,7 +758,7 @@ function LocalBodyDashboard() {
         const towns = await getTownsForLocalBody(localBodyId);
         if (towns && towns.length > 0) {
           towns.forEach(town => {
-            console.log('Town:', town.town_name_en, '| Malayalam:', town.town_name_ml);
+            console.log('Town:', town[FIELDS.TOWN.TOWN_NAME_EN], '| Malayalam:', town[FIELDS.TOWN.TOWN_NAME_ML]);
           });
         } else {
           console.log('No towns found for this local body.');
@@ -783,7 +783,7 @@ function LocalBodyDashboard() {
         const towns = await getTownsForLocalBody(localBodyId);
         if (towns && towns.length > 0) {
           const map = {};
-          towns.forEach(town => { map[town.town_id] = town; });
+          towns.forEach(town => { map[town[FIELDS.TOWN.ID]] = town; });
           setTownsMap(map);
         } else {
           setTownsMap({});
@@ -800,9 +800,9 @@ function LocalBodyDashboard() {
   const townIssues = (issues['town'] || []);
   const issuesByTown = {};
   townIssues.forEach(issue => {
-    if (issue.town_id) {
-      if (!issuesByTown[issue.town_id]) issuesByTown[issue.town_id] = [];
-      issuesByTown[issue.town_id].push(issue);
+    if (issue[FIELDS.ISSUES.TOWN_ID]) {
+      if (!issuesByTown[issue[FIELDS.ISSUES.TOWN_ID]]) issuesByTown[issue[FIELDS.ISSUES.TOWN_ID]] = [];
+      issuesByTown[issue[FIELDS.ISSUES.TOWN_ID]].push(issue);
     }
   });
   // Combine all non-town issues into 'others'
@@ -1030,7 +1030,7 @@ function LocalBodyDashboard() {
                                 {/* Empty rect for now */}
                               </div>
                               <div style={{ marginTop: 12, fontWeight: 600, fontSize: 16, textAlign: 'center' }}>
-                                {townsMap[townId]?.town_name_en || 'Unknown Town'}
+                                {townsMap[townId]?.[FIELDS.TOWN.TOWN_NAME_EN] || 'Unknown Town'}
                               </div>
                             </div>
                           ))

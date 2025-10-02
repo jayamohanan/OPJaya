@@ -44,7 +44,7 @@ function AssemblyPage() {
         const lbs = await getLocalBodiesForAssembly(assemblyId);
         const categories = { 'Perfect': [], 'Good': [], 'Normal': [] };
         (lbs || []).forEach(lb => {
-          const cat = lb.local_body_category?.[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
+          const cat = lb[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal';
           if(categories[cat]) {
             categories[cat].push(lb);
           } else {
@@ -76,8 +76,8 @@ function AssemblyPage() {
         ? (lb[FIELDS.LOCAL_BODY.NAME_ML] || lb[FIELDS.LOCAL_BODY.NAME_EN])
         : (lb[FIELDS.LOCAL_BODY.NAME_EN] || lb[FIELDS.LOCAL_BODY.NAME_ML]),
     name_en: (lb[FIELDS.LOCAL_BODY.NAME_EN] || '').toLowerCase().trim(),
-    type: lb.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || lb.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '',
-    category: lb.local_body_category?.[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal'
+    type: lb[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || lb[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '',
+    category: lb[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal'
   }));
   const rankingCategories = [
     { key: 'Perfect', label: '🏅 Perfect', color: '#43a047', bg: '#e8f5e9' },

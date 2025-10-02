@@ -40,7 +40,7 @@ function DistrictPage() {
           (asms || []).map(a => ({
             id: a[FIELDS.ASSEMBLY.ID],
             name: lang === 'ml' ? (a[FIELDS.ASSEMBLY.NAME_ML] || a[FIELDS.ASSEMBLY.NAME_EN]) : (a[FIELDS.ASSEMBLY.NAME_EN] || a[FIELDS.ASSEMBLY.NAME_ML]),
-            category: a.assembly_category?.[FIELDS.ASSEMBLY_CATEGORY.CATEGORY] || 'Normal',
+            category: a[FIELDS.ASSEMBLY_CATEGORY.CATEGORY] || 'Normal',
             assembly_name_en: a[FIELDS.ASSEMBLY.NAME_EN],
             assembly_name_ml: a[FIELDS.ASSEMBLY.NAME_ML]
           }))
