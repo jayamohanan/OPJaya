@@ -18,6 +18,7 @@ export const mapLocalBodyData = (supabaseData) => {
     [FIELDS.LOCAL_BODY_TYPE.TYPE_ID]: supabaseData.local_body_type?.[FIELDS.LOCAL_BODY_TYPE.TYPE_ID],
     // Map nested local_body_category using FIELDS reference
     [FIELDS.LOCAL_BODY_CATEGORY.CATEGORY]: supabaseData.local_body_category?.[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY]
+
   };
 };
 

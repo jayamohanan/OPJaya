@@ -454,7 +454,9 @@ function LocalBodyDashboard() {
       
       try {
         // 1. Get all ward_ids for the local body
+        console.log('**************fetching for localBody ', localBody);
         const wards = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
+        console.log('**************passed with ', localBody[FIELDS.LOCAL_BODY.ID]);
         if (!wards) return;
 
         const wardIds = wards.map(w => w[FIELDS.WARD.ID]);
@@ -756,13 +758,6 @@ function LocalBodyDashboard() {
     async function fetchTowns() {
       try {
         const towns = await getTownsForLocalBody(localBodyId);
-        if (towns && towns.length > 0) {
-          towns.forEach(town => {
-            console.log('Town:', town[FIELDS.TOWN.TOWN_NAME_EN], '| Malayalam:', town[FIELDS.TOWN.TOWN_NAME_ML]);
-          });
-        } else {
-          console.log('No towns found for this local body.');
-        }
       } catch (error) {
         console.error('Error fetching towns for logging:', error);
       }
@@ -840,10 +835,10 @@ function LocalBodyDashboard() {
                     <span
                       className="clickable-link"
                       style={{ textDecoration: 'underline', color: '#1976d2', cursor: 'pointer' }}
-                      onClick={() => navigate(`/assembly/${assembly.assembly_id}`)}
+                      onClick={() => navigate(`/assembly/${assembly.id}`)}
                       title="Go to Assembly"
                     >
-                      #{assembly.assembly_id} {lang === 'ml' ? (assembly.assembly_name_ml || assembly.assembly_name_en) : (assembly.assembly_name_en || assembly.assembly_name_ml)}
+                      #{assembly.id} {lang === 'ml' ? (assembly[FIELDS.ASSEMBLY.NAME_ML] || assembly[FIELDS.ASSEMBLY.NAME_EN]) : (assembly[FIELDS.ASSEMBLY.NAME_EN] || assembly[FIELDS.ASSEMBLY.NAME_ML])}
                     </span>
                   </span>
                 )}
@@ -856,10 +851,10 @@ function LocalBodyDashboard() {
                     <span
                       className="clickable-link"
                       style={{ textDecoration: 'underline', color: '#1976d2', cursor: 'pointer' }}
-                      onClick={() => navigate(`/district/${district.district_id}`)}
+                      onClick={() => navigate(`/district/${district[FIELDS.DISTRICT.ID]}`)}
                       title="Go to District"
                     >
-                      {lang === 'ml' ? (district.district_name_ml || district.district_name_en) : (district.district_name_en || district.district_name_ml)}
+                      {lang === 'ml' ? (district[FIELDS.DISTRICT.NAME_ML] || district[FIELDS.DISTRICT.NAME_EN]) : (district[FIELDS.DISTRICT.NAME_EN] || district[FIELDS.DISTRICT.NAME_ML])}
                     </span>
                   </span>
                 )}

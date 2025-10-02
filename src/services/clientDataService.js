@@ -142,7 +142,7 @@ export async function getLocalBodyData(localBodyId) {
       .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
       .single();
     if (localBodyError) throw localBodyError;
-    return mapLocalBodyData(localBodyData);
+    return localBodyData;
   } else {
     const res = await fetch(`/data/local_bodies/${localBodyId}.json`);
     if (!res.ok) throw new Error('Local Body JSON not found');
@@ -249,7 +249,9 @@ export async function getAllLocalBodiesData() {
         `${TABLES.LOCAL_BODY_CATEGORY}(*)`,
         `${TABLES.LOCAL_BODY_TYPE}(*)`
       ].join(', '));
-    return (localBodyData || []).map(mapLocalBodyData);
+      console.log('qqqqqqqqqqqqqqFetched local body data:', localBodyData);
+    // return (localBodyData || []).map(mapLocalBodyData);
+    return  localBodyData || [];
   } else {
     // For JSON mode, we'd need to aggregate from all assembly JSONs
     throw new Error('getAllLocalBodiesData not implemented for JSON mode');
@@ -270,6 +272,7 @@ export async function getLocalBodyCategories() {
 
 // Function to get wards for a local body
 export async function getWardsForLocalBody(localBodyId) {
+  console.log('************getWardsForLocalBody called with localBodyId:', localBodyId);
   if (!USE_SUPABASE) {
     throw new Error('Static data service not implemented for wards');
   }
