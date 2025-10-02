@@ -108,6 +108,7 @@ function TownMarkers({ localBodyId, onTownClick }) {
 
 function MapPage() {
   const { state } = useLocation();
+  console.log('[MapPage] useLocation().state:', state);
   const navigate = useNavigate();
   
   const lbName = state?.localBodyName || 'Unknown';

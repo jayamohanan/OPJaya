@@ -614,8 +614,8 @@ function LocalBodyDashboard() {
     // Remove geojsonUrl from state, as it is no longer defined or used
     navigate('/map', {
       state: {
-        localBodyName: localBody?.local_body_name_en,
-        localBodyType: localBody?.local_body_type_en,
+        localBodyName: localBody?.[FIELDS.LOCAL_BODY.NAME_EN],
+        localBodyType: localBody?.[FIELDS.LOCAL_BODY.TYPE_EN],
         localBodyData: localBody
       }
     });

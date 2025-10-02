@@ -29,10 +29,10 @@ function TopNav() {
           FIELDS.DISTRICT.ID,
           FIELDS.DISTRICT.NAME_EN,
           FIELDS.DISTRICT.NAME_ML,
-          'is_active'
+          FIELDS.DISTRICT.IS_ACTIVE
         ].join(', '));
       if (!error) {
-        setDistrictOptions((data || []).sort((a, b) => a.district_name_en.localeCompare(b.district_name_en)));
+        setDistrictOptions((data || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN])));
       }
       setLoadingDistricts(false);
     }
@@ -53,7 +53,7 @@ function TopNav() {
           ].join(', '))
           .eq(FIELDS.ASSEMBLY.DISTRICT_ID, district);
         if (!error) {
-          setAssemblyOptions((data || []).sort((a, b) => a.assembly_name_en.localeCompare(b.assembly_name_en)));
+          setAssemblyOptions((data || []).sort((a, b) => a[FIELDS.ASSEMBLY.NAME_EN].localeCompare(b[FIELDS.ASSEMBLY.NAME_EN])));
         }
         setAssembly('');
         setLocalBody('');
@@ -78,7 +78,7 @@ function TopNav() {
           ].join(', '))
           .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, assembly);
         if (!error) {
-          setLocalBodyOptions((data || []).sort((a, b) => a.local_body_name_en.localeCompare(b.local_body_name_en)));
+          setLocalBodyOptions((data || []).sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN])));
         }
         setLocalBody('');
         setLoadingLocalBodies(false);
@@ -122,8 +122,8 @@ function TopNav() {
           <select className="center-dropdown" value={district} onChange={e => setDistrict(e.target.value)} style={{ fontWeight: 500, padding: '4px 10px', borderRadius: 4 }} disabled={loadingDistricts}>
             <option value="">Select District</option>
             {districtOptions.map(opt => (
-              <option key={opt.district_id} value={opt.district_id} disabled={opt.is_active === false} style={opt.is_active === false ? { color: '#aaa' } : {}}>
-                {lang === 'ml' ? (opt.district_name_ml || opt.district_name_en) : (opt.district_name_en || opt.district_name_ml)}
+              <option key={opt[FIELDS.DISTRICT.ID]} value={opt[FIELDS.DISTRICT.ID]} disabled={opt[FIELDS.DISTRICT.IS_ACTIVE] === false} style={opt[FIELDS.DISTRICT.IS_ACTIVE] === false ? { color: '#aaa' } : {}}>
+                {lang === 'ml' ? (opt[FIELDS.DISTRICT.NAME_ML] || opt[FIELDS.DISTRICT.NAME_EN]) : (opt[FIELDS.DISTRICT.NAME_EN] || opt[FIELDS.DISTRICT.NAME_ML])}
               </option>
             ))}
           </select>
@@ -133,8 +133,8 @@ function TopNav() {
           <select className="center-dropdown" value={assembly} onChange={e => setAssembly(e.target.value)} style={{ fontWeight: 500, padding: '4px 10px', borderRadius: 4 }} disabled={!district || loadingAssemblies}>
             <option value="">Select Assembly</option>
             {assemblyOptions.map(opt => (
-              <option key={opt.assembly_id} value={opt.assembly_id}>
-                {lang === 'ml' ? (opt.assembly_name_ml || opt.assembly_name_en) : (opt.assembly_name_en || opt.assembly_name_ml)}
+              <option key={opt[FIELDS.ASSEMBLY.ID]} value={opt[FIELDS.ASSEMBLY.ID]}>
+                {lang === 'ml' ? (opt[FIELDS.ASSEMBLY.NAME_ML] || opt[FIELDS.ASSEMBLY.NAME_EN]) : (opt[FIELDS.ASSEMBLY.NAME_EN] || opt[FIELDS.ASSEMBLY.NAME_ML])}
               </option>
             ))}
           </select>
@@ -145,7 +145,7 @@ function TopNav() {
             <option value="">Select Local Body</option>
             {localBodyOptions.map(opt => (
               <option key={opt[FIELDS.LOCAL_BODY.ID]} value={opt[FIELDS.LOCAL_BODY.ID]}>
-                {lang === 'ml' ? (opt.local_body_name_ml || opt.local_body_name_en) : (opt.local_body_name_en || opt.local_body_name_ml)}
+                {lang === 'ml' ? (opt[FIELDS.LOCAL_BODY.NAME_ML] || opt[FIELDS.LOCAL_BODY.NAME_EN]) : (opt[FIELDS.LOCAL_BODY.NAME_EN] || opt[FIELDS.LOCAL_BODY.NAME_ML])}
               </option>
             ))}
           </select>
