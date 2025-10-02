@@ -93,7 +93,7 @@ function Signup() {
         Email: <span style={{ fontWeight: 700 }}>{invite.email}</span>
       </div>
       <div style={{ marginBottom: 16, textAlign: 'center', color: '#388e3c', fontWeight: 500 }}>
-        Access to Local Body: <span style={{ fontWeight: 700 }}>{localBodyName || invite.local_body_id}</span>
+        Access to Local Body: <span style={{ fontWeight: 700 }}>{localBodyName || invite[FIELDS.INVITES.LOCAL_BODY_ID]}</span>
         {localBodyType && (
           <span style={{ color: '#555', fontWeight: 400 }}> ({localBodyType})</span>
         )}

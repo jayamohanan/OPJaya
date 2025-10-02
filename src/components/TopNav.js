@@ -144,7 +144,7 @@ function TopNav() {
           <select className="center-dropdown" value={localBody} onChange={e => setLocalBody(e.target.value)} style={{ fontWeight: 500, padding: '4px 10px', borderRadius: 4 }} disabled={!assembly || loadingLocalBodies}>
             <option value="">Select Local Body</option>
             {localBodyOptions.map(opt => (
-              <option key={opt.local_body_id} value={opt.local_body_id}>
+              <option key={opt[FIELDS.LOCAL_BODY.ID]} value={opt[FIELDS.LOCAL_BODY.ID]}>
                 {lang === 'ml' ? (opt.local_body_name_ml || opt.local_body_name_en) : (opt.local_body_name_en || opt.local_body_name_ml)}
               </option>
             ))}

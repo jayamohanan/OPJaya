@@ -3,6 +3,7 @@ import { MapContainer, GeoJSON, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { useNavigate } from 'react-router-dom';
+import { FIELDS } from '../constants/dbSchema';
 
 function FitBounds({ geojson }) {
   const map = useMap();
@@ -109,8 +110,8 @@ function GeojsonOutlineRect({ geojsonUrl, featureType, logAllFeatures }) {
   function handleGoto() {
     if (!popupInfo) return;
     const props = popupInfo.properties;
-    if (featureType === 'local_body' && props.local_body_id) {
-      navigate(`/localbodydashboard`, { state: { localBodyId: props.local_body_id } });
+    if (featureType === 'local_body' && props[FIELDS.LOCAL_BODY.ID]) {
+      navigate(`/localbodydashboard`, { state: { localBodyId: props[FIELDS.LOCAL_BODY.ID] } });
     } else if (featureType === 'assembly' && props.assembly_id) {
       navigate(`/assembly/${props.assembly_id}`);
     }

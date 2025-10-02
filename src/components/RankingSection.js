@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link, useLocation, useNavigate } from 'react-router-dom';
+import { FIELDS } from '../constants/dbSchema';
 
 function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 960, itemType, parentAssembly, parentDistrict }) {
   const navigate = useNavigate();
@@ -39,8 +40,8 @@ function RankingSection({ title, items, categories, minWidth = 520, maxWidth = 9
                   linkTo = `/district/${item.id}`;
                   linkState = undefined;
                 }
-                // Use a more robust key: prefer item.id, fallback to item.assembly_id, item.local_body_id, or item.name+idx
-                const uniqueKey = item.id || item.assembly_id || item.local_body_id || (item.name ? item.name + '-' + idx : idx);
+                // Use a more robust key: prefer item.id, fallback to FIELDS.ASSEMBLY.ID, FIELDS.LOCAL_BODY.ID, or item.name+idx
+                const uniqueKey = item.id || item[FIELDS.ASSEMBLY.ID] || item[FIELDS.LOCAL_BODY.ID] || (item.name ? item.name + '-' + idx : idx);
                 return (
                   <li
                     key={uniqueKey}

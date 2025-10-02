@@ -22,6 +22,7 @@ export const FIELDS = {
 		NAME_EN: 'assembly_name_en',
 		NAME_ML: 'assembly_name_ml',
 		DISTRICT_ID: 'district_id',
+		IS_ACTIVE: 'is_active',
 	},
 	ASSEMBLY_CATEGORY: {
 		ASSEMBLY_ID: 'assembly_id',
@@ -31,6 +32,7 @@ export const FIELDS = {
 		ID: 'district_id',
 		NAME_EN: 'district_name_en',
 		NAME_ML: 'district_name_ml',
+		IS_ACTIVE: 'is_active',
 	},
 	DISTRICT_CATEGORY: {
 		DISTRICT_ID: 'district_id',
@@ -58,12 +60,13 @@ export const FIELDS = {
 	},
 	LOCAL_BODY: {
 		NAME_EN: 'local_body_name_en',
-		ID: 'id',
+		ID: 'local_body_id',
 		BLOCK_NAME_EN: 'block_name_en',
 		DIST_PANCHAYAT_NAME_EN: 'district_panchayat_name_en',
 		NAME_ML: 'local_body_name_ml',
 		ASSEMBLY_ID: 'assembly_id',
 		TYPE_ID: 'local_body_type_id',
+		IS_ACTIVE: 'is_active',
 	},
 	LOCAL_BODY_CATEGORY: {
 		LOCAL_BODY_ID: 'local_body_id',

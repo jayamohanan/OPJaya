@@ -104,7 +104,7 @@ function Home() {
               [FIELDS.LOCAL_BODY.BLOCK_NAME_EN]: row[FIELDS.LOCAL_BODY.BLOCK_NAME_EN],
               [FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN]: row[FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN],
               [FIELDS.LOCAL_BODY.ASSEMBLY_ID]: row[FIELDS.LOCAL_BODY.ASSEMBLY_ID],
-              [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]: row[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE] || {}
+              [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]: row[TABLES.LOCAL_BODY_TYPE] || {}
             }))
             .filter(lb => lb[FIELDS.LOCAL_BODY.NAME_EN])
             .sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN]));
@@ -168,7 +168,7 @@ function Home() {
               value={selectedDistrictId}
               onChange={(e) => {
                 const selected = districts.find(d => d[FIELDS.DISTRICT.ID] === e.target.value);
-                if (selected && selected.is_active === false) return;
+                if (selected && selected[FIELDS.DISTRICT.IS_ACTIVE] === false) return;
                 setSelectedDistrictId(e.target.value);
               }}
               className="dropdown"
@@ -180,7 +180,7 @@ function Home() {
                 <>
                   <option value="">-- Select District --</option>
                   {districts.map(district => (
-                    <option key={district[FIELDS.DISTRICT.ID]} value={district[FIELDS.DISTRICT.ID]} disabled={district.is_active === false} style={district.is_active === false ? { color: '#aaa' } : {}}>
+                    <option key={district[FIELDS.DISTRICT.ID]} value={district[FIELDS.DISTRICT.ID]} disabled={district[FIELDS.DISTRICT.IS_ACTIVE] === false} style={district[FIELDS.DISTRICT.IS_ACTIVE] === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
                         ? (district[FIELDS.DISTRICT.NAME_ML] || district[FIELDS.DISTRICT.NAME_EN])
                         : (district[FIELDS.DISTRICT.NAME_EN] || district[FIELDS.DISTRICT.NAME_ML])}
@@ -198,7 +198,7 @@ function Home() {
               value={selectedAssemblyId}
               onChange={(e) => {
                 const selected = assemblies.find(a => a[FIELDS.ASSEMBLY.ID] === e.target.value);
-                if (selected && selected.is_active === false) return;
+                if (selected && selected[FIELDS.ASSEMBLY.IS_ACTIVE] === false) return;
                 setSelectedAssemblyId(e.target.value);
               }}
               disabled={!selectedDistrictId || loadingAssemblies}
@@ -210,7 +210,7 @@ function Home() {
                 <>
                   <option value="">-- Select Assembly --</option>
                   {assemblies.map(assembly => (
-                    <option key={assembly[FIELDS.ASSEMBLY.ID]} value={assembly[FIELDS.ASSEMBLY.ID]} disabled={assembly.is_active === false} style={assembly.is_active === false ? { color: '#aaa' } : {}}>
+                    <option key={assembly[FIELDS.ASSEMBLY.ID]} value={assembly[FIELDS.ASSEMBLY.ID]} disabled={assembly[FIELDS.ASSEMBLY.IS_ACTIVE] === false} style={assembly[FIELDS.ASSEMBLY.IS_ACTIVE] === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
                         ? (assembly[FIELDS.ASSEMBLY.NAME_ML] || assembly[FIELDS.ASSEMBLY.NAME_EN])
                         : (assembly[FIELDS.ASSEMBLY.NAME_EN] || assembly[FIELDS.ASSEMBLY.NAME_ML])}
@@ -228,7 +228,7 @@ function Home() {
               value={selectedLocalBodyId}
               onChange={(e) => {
                 const selected = localBodies.find(lb => lb[FIELDS.LOCAL_BODY.ID] === e.target.value);
-                if (selected && selected.is_active === false) return;
+                if (selected && selected[FIELDS.LOCAL_BODY.IS_ACTIVE] === false) return;
                 setSelectedLocalBodyId(e.target.value);
               }}
               disabled={!selectedAssemblyId || loadingLocalBodies}
@@ -240,7 +240,7 @@ function Home() {
                 <>
                   <option value="">-- Select Local Body --</option>
                   {localBodies.map(localBody => (
-                    <option key={localBody[FIELDS.LOCAL_BODY.ID]} value={localBody[FIELDS.LOCAL_BODY.ID]} disabled={localBody.is_active === false} style={localBody.is_active === false ? { color: '#aaa' } : {}}>
+                    <option key={localBody[FIELDS.LOCAL_BODY.ID]} value={localBody[FIELDS.LOCAL_BODY.ID]} disabled={localBody[FIELDS.LOCAL_BODY.IS_ACTIVE] === false} style={localBody[FIELDS.LOCAL_BODY.IS_ACTIVE] === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
                         ? (localBody[FIELDS.LOCAL_BODY.NAME_ML] || localBody[FIELDS.LOCAL_BODY.NAME_EN])
                         : (localBody[FIELDS.LOCAL_BODY.NAME_EN] || localBody[FIELDS.LOCAL_BODY.NAME_ML])}

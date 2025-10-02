@@ -260,7 +260,7 @@ export async function getLocalBodyCategories() {
   if (USE_SUPABASE) {
     const { data: localBodyCategoryData } = await supabase
       .from('local_body_category')
-      .select('local_body_id, category');
+      .select(`${FIELDS.LOCAL_BODY_CATEGORY.LOCAL_BODY_ID}, ${FIELDS.LOCAL_BODY_CATEGORY.CATEGORY}`);
     return localBodyCategoryData || [];
   } else {
     // Categories are included in the individual JSON files

@@ -60,7 +60,7 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
 
   useEffect(() => {
     async function fetchTowns() {
-      if (!isOpen || !localBodyData?.local_body_id) {
+      if (!isOpen || !localBodyData?.[FIELDS.LOCAL_BODY.ID]) {
         setTowns([]);
         setSelectedTown('');
         return;
@@ -79,7 +79,7 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
       setSelectedTown('');
     }
     fetchTowns();
-  }, [isOpen, localBodyData?.local_body_id]);
+  }, [isOpen, localBodyData?.[FIELDS.LOCAL_BODY.ID]]);
 
   useEffect(() => {
     if (formData.type === 'Towns' && selectedTown) {
@@ -269,8 +269,8 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
               >
                 <option value="">Select town</option>
                 {towns.map(town => (
-                  <option key={town.town_id} value={town.town_id}>
-                    {town.town_name_en} {town.town_name_ml ? ` / ${town.town_name_ml}` : ''}
+                  <option key={town[FIELDS.TOWN.ID]} value={town[FIELDS.TOWN.ID]}>
+                    {town[FIELDS.TOWN.TOWN_NAME_EN]} {town[FIELDS.TOWN.TOWN_NAME_ML] ? ` / ${town[FIELDS.TOWN.TOWN_NAME_ML]}` : ''}
                   </option>
                 ))}
               </select>

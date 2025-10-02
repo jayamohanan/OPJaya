@@ -7,6 +7,7 @@ import './MapPage.css';
 import { LanguageContext } from '../components/LanguageContext';
 import { supabase } from '../supabaseClient';
 import { LABELS } from '../constants/labels';
+import { FIELDS } from '../constants/dbSchema';
 import L from 'leaflet';
 import TownIssuesModal from '../components/TownIssuesModal';
 
@@ -65,13 +66,13 @@ function TownMarkers({ localBodyId, onTownClick }) {
       const { data: townsData } = await supabase
         .from('town')
         .select([
-          'town_id',
-          'town_name_en',
-          'town_name_ml',
+          FIELDS.TOWN.ID,
+          FIELDS.TOWN.TOWN_NAME_EN,
+          FIELDS.TOWN.TOWN_NAME_ML,
           LABELS.TOWN_LAT,
           LABELS.TOWN_LNG
         ].join(', '))
-        .eq('local_body_id', localBodyId);
+        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
       setTowns(townsData || []);
     }
     fetchTowns();
@@ -79,7 +80,7 @@ function TownMarkers({ localBodyId, onTownClick }) {
 
   return towns.map(town => {
     if (town[LABELS.TOWN_LAT] && town[LABELS.TOWN_LNG]) {
-      const label = lang === 'ml' ? (town.town_name_ml || town.town_name_en) : (town.town_name_en || town.town_name_ml);
+      const label = lang === 'ml' ? (town[FIELDS.TOWN.TOWN_NAME_ML] || town[FIELDS.TOWN.TOWN_NAME_EN]) : (town[FIELDS.TOWN.TOWN_NAME_EN] || town[FIELDS.TOWN.TOWN_NAME_ML]);
       const iconWithLabel = L.divIcon({
         html: `<div style='display: flex; flex-direction: column; align-items: center;'>
                   <img src='https://cdn-icons-png.flaticon.com/512/684/684908.png' style='width:32px;height:32px;'/>
@@ -92,11 +93,11 @@ function TownMarkers({ localBodyId, onTownClick }) {
       });
       return (
         <Marker
-          key={town.town_id}
+          key={town[FIELDS.TOWN.ID]}
           position={[parseFloat(town[LABELS.TOWN_LAT]), parseFloat(town[LABELS.TOWN_LNG])]}
           icon={iconWithLabel}
           eventHandlers={{
-            click: () => onTownClick(town.town_id)
+            click: () => onTownClick(town[FIELDS.TOWN.ID])
           }}
         />
       );
@@ -129,31 +130,31 @@ function MapPage() {
 
   useEffect(() => {
     async function fetchTownsAndIssues() {
-      if (!state?.localBodyData?.local_body_id) return;
+      if (!state?.localBodyData?.[FIELDS.LOCAL_BODY.ID]) return;
       // Fetch towns
       const { data: towns } = await supabase
         .from('town')
         .select('*')
-        .eq('local_body_id', state.localBodyData.local_body_id);
+        .eq(FIELDS.TOWN.LOCAL_BODY_ID, state.localBodyData[FIELDS.LOCAL_BODY.ID]);
       const map = {};
-      (towns || []).forEach(town => { map[town.town_id] = town; });
+      (towns || []).forEach(town => { map[town[FIELDS.TOWN.ID]] = town; });
       setTownsMap(map);
       // Fetch issues for towns
       const { data: issues } = await supabase
         .from('issues')
         .select('*')
-        .eq('local_body_id', state.localBodyData.local_body_id);
+        .eq(FIELDS.ISSUES.LOCAL_BODY_ID, state.localBodyData[FIELDS.LOCAL_BODY.ID]);
       const grouped = {};
       (issues || []).forEach(issue => {
-        if (issue.town_id) {
-          if (!grouped[issue.town_id]) grouped[issue.town_id] = [];
-          grouped[issue.town_id].push(issue);
+        if (issue[FIELDS.ISSUES.TOWN_ID]) {
+          if (!grouped[issue[FIELDS.ISSUES.TOWN_ID]]) grouped[issue[FIELDS.ISSUES.TOWN_ID]] = [];
+          grouped[issue[FIELDS.ISSUES.TOWN_ID]].push(issue);
         }
       });
       setIssuesByTown(grouped);
     }
     fetchTownsAndIssues();
-  }, [state?.localBodyData?.local_body_id]);
+  }, [state?.localBodyData?.[FIELDS.LOCAL_BODY.ID]]);
 
   return (
     <div className="map-container">
@@ -198,7 +199,7 @@ function MapPage() {
             />
           )}
           {/* Add town markers for current local body */}
-          {state?.localBodyData?.local_body_id && <TownMarkers localBodyId={state.localBodyData.local_body_id} onTownClick={setSelectedTownId} />}
+          {state?.localBodyData?.[FIELDS.LOCAL_BODY.ID] && <TownMarkers localBodyId={state.localBodyData[FIELDS.LOCAL_BODY.ID]} onTownClick={setSelectedTownId} />}
         </MapContainer>
         {/* Show TownIssuesModal when a town is selected */}
         {selectedTownId && (

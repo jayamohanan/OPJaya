@@ -449,7 +449,7 @@ function LocalBodyDashboard() {
   // Fetch HKS Collection Rates from Supabase for the current local body
   useEffect(() => {
     async function fetchHKSRates() {
-      if (!localBody?.local_body_id) return;
+      if (!localBody?.[FIELDS.LOCAL_BODY.ID]) return;
       setLoadingHKSRates(true);
       
       try {
@@ -493,7 +493,7 @@ function LocalBodyDashboard() {
       }
     }
     fetchHKSRates();
-  }, [localBody?.local_body_id, lang]);
+  }, [localBody?.[FIELDS.LOCAL_BODY.ID], lang]);
 
   // Show all or first 5
   const displayedHKSRates = showAllHKSRates ? hksCollectionRates : hksCollectionRates.slice(0, 5);
@@ -705,7 +705,7 @@ function LocalBodyDashboard() {
   // Fetch wards for the local body (shared for sidebar and modal)
   useEffect(() => {
     async function fetchWards() {
-      if (!localBody?.local_body_id) return;
+      if (!localBody?.[FIELDS.LOCAL_BODY.ID]) return;
       
       try {
         const wardsData = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
@@ -716,7 +716,7 @@ function LocalBodyDashboard() {
       }
     }
     fetchWards();
-  }, [localBody?.local_body_id]);
+  }, [localBody?.[FIELDS.LOCAL_BODY.ID]]);
 
   // Fetch issues from the issues table, group by type, and display as cards under each section. If no issues exist, use placeholder tiles for all sections and log fallback. If at least one issue exists, show only real issues and log 'issues found'.
   useEffect(() => {
@@ -796,7 +796,7 @@ function LocalBodyDashboard() {
     fetchTowns();
   }, [localBodyId]);
 
-  // Group town issues by town_id
+  // Group town issues by FIELDS.ISSUES.TOWN_ID
   const townIssues = (issues['town'] || []);
   const issuesByTown = {};
   townIssues.forEach(issue => {
@@ -1177,7 +1177,7 @@ function LocalBodyDashboard() {
         lang={lang}
         onSubmit={handleHKSSubmit}
         loading={hksLoading}
-        localBodyId={localBody?.local_body_id}
+        localBodyId={localBody?.[FIELDS.LOCAL_BODY.ID]}
       />
 
       {/* Town Issues Modal */}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { FIELDS } from '../constants/dbSchema';
 
 function TownIssuesModal({ isOpen, onClose, town, issues, townsMap }) {
   const [selectedImageIdx, setSelectedImageIdx] = useState(0);
@@ -7,7 +8,7 @@ function TownIssuesModal({ isOpen, onClose, town, issues, townsMap }) {
   const images = issues.map(issue => issue.image_url).filter(Boolean);
   const selectedImage = images[selectedImageIdx] || '';
   const selectedIssue = issues[selectedImageIdx] || {};
-  const townName = townsMap[town]?.town_name_en || 'Unknown Town';
+  const townName = townsMap[town]?.[FIELDS.TOWN.TOWN_NAME_EN] || 'Unknown Town';
   const canGoLeft = selectedImageIdx > 0;
   const canGoRight = selectedImageIdx < images.length - 1;
   return (
