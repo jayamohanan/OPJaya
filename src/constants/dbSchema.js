@@ -63,7 +63,7 @@ export const FIELDS = {
 		DIST_PANCHAYAT_NAME_EN: 'district_panchayat_name_en',
 		NAME_ML: 'local_body_name_ml',
 		ASSEMBLY_ID: 'assembly_id',
-		TYPE_ID: 'type_id',
+		TYPE_ID: 'local_body_type_id',
 	},
 	LOCAL_BODY_CATEGORY: {
 		LOCAL_BODY_ID: 'local_body_id',
