@@ -60,7 +60,7 @@ export const FIELDS = {
 	},
 	LOCAL_BODY: {
 		NAME_EN: 'local_body_name_en',
-		ID: 'local_body_id',
+		ID: 'id',
 		BLOCK_NAME_EN: 'block_name_en',
 		DIST_PANCHAYAT_NAME_EN: 'district_panchayat_name_en',
 		NAME_ML: 'local_body_name_ml',
