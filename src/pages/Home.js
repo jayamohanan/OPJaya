@@ -38,7 +38,7 @@ function Home() {
       if (error) {
         console.error("Error fetching districts from Supabase:", error);
       } else {
-        const sortedDistricts = (data || []).sort((a, b) => a.district_name_en.localeCompare(b.district_name_en));
+        const sortedDistricts = (data || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN]));
         setDistricts(sortedDistricts);
       }
       setLoadingDistricts(false);
@@ -63,7 +63,7 @@ function Home() {
         if (error) {
           console.error("Error fetching assemblies from Supabase:", error);
         } else {
-          const sortedAssemblies = (data || []).sort((a, b) => a.assembly_name_en.localeCompare(b.assembly_name_en));
+          const sortedAssemblies = (data || []).sort((a, b) => a[FIELDS.ASSEMBLY.NAME_EN].localeCompare(b[FIELDS.ASSEMBLY.NAME_EN]));
           setAssemblies(sortedAssemblies);
         }
         setSelectedAssemblyId('');
@@ -98,16 +98,16 @@ function Home() {
         } else {
           const filteredLocalBodies = (data || [])
             .map(row => ({
-              local_body_id: row.local_body_id,
-              local_body_name_en: row.local_body_name_en?.trim(),
-              local_body_type: row.local_body_type || {},
-              block_name_en: row.block_name_en,
-              district_panchayat_name_en: row.district_panchayat_name_en,
-              local_body_name_ml: row.local_body_name_ml,
-              assembly_id: row.assembly_id
+              [FIELDS.LOCAL_BODY.ID]: row[FIELDS.LOCAL_BODY.ID],
+              [FIELDS.LOCAL_BODY.NAME_EN]: row[FIELDS.LOCAL_BODY.NAME_EN]?.trim(),
+              [FIELDS.LOCAL_BODY.NAME_ML]: row[FIELDS.LOCAL_BODY.NAME_ML],
+              [FIELDS.LOCAL_BODY.BLOCK_NAME_EN]: row[FIELDS.LOCAL_BODY.BLOCK_NAME_EN],
+              [FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN]: row[FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN],
+              [FIELDS.LOCAL_BODY.ASSEMBLY_ID]: row[FIELDS.LOCAL_BODY.ASSEMBLY_ID],
+              [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]: row[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE] || {}
             }))
-            .filter(lb => lb.local_body_name_en)
-            .sort((a, b) => a.local_body_name_en.localeCompare(b.local_body_name_en));
+            .filter(lb => lb[FIELDS.LOCAL_BODY.NAME_EN])
+            .sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN]));
           setLocalBodies(filteredLocalBodies);
         }
         setSelectedLocalBodyId('');
@@ -167,7 +167,7 @@ function Home() {
               id="district-select"
               value={selectedDistrictId}
               onChange={(e) => {
-                const selected = districts.find(d => d.district_id === e.target.value);
+                const selected = districts.find(d => d[FIELDS.DISTRICT.ID] === e.target.value);
                 if (selected && selected.is_active === false) return;
                 setSelectedDistrictId(e.target.value);
               }}
@@ -180,10 +180,10 @@ function Home() {
                 <>
                   <option value="">-- Select District --</option>
                   {districts.map(district => (
-                    <option key={district.district_id} value={district.district_id} disabled={district.is_active === false} style={district.is_active === false ? { color: '#aaa' } : {}}>
+                    <option key={district[FIELDS.DISTRICT.ID]} value={district[FIELDS.DISTRICT.ID]} disabled={district.is_active === false} style={district.is_active === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
-                        ? (district.district_name_ml || district.district_name_en)
-                        : (district.district_name_en || district.district_name_ml)}
+                        ? (district[FIELDS.DISTRICT.NAME_ML] || district[FIELDS.DISTRICT.NAME_EN])
+                        : (district[FIELDS.DISTRICT.NAME_EN] || district[FIELDS.DISTRICT.NAME_ML])}
                     </option>
                   ))}
                 </>
@@ -197,7 +197,7 @@ function Home() {
               id="assembly-select"
               value={selectedAssemblyId}
               onChange={(e) => {
-                const selected = assemblies.find(a => a.assembly_id === e.target.value);
+                const selected = assemblies.find(a => a[FIELDS.ASSEMBLY.ID] === e.target.value);
                 if (selected && selected.is_active === false) return;
                 setSelectedAssemblyId(e.target.value);
               }}
@@ -210,10 +210,10 @@ function Home() {
                 <>
                   <option value="">-- Select Assembly --</option>
                   {assemblies.map(assembly => (
-                    <option key={assembly.assembly_id} value={assembly.assembly_id} disabled={assembly.is_active === false} style={assembly.is_active === false ? { color: '#aaa' } : {}}>
+                    <option key={assembly[FIELDS.ASSEMBLY.ID]} value={assembly[FIELDS.ASSEMBLY.ID]} disabled={assembly.is_active === false} style={assembly.is_active === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
-                        ? (assembly.assembly_name_ml || assembly.assembly_name_en)
-                        : (assembly.assembly_name_en || assembly.assembly_name_ml)}
+                        ? (assembly[FIELDS.ASSEMBLY.NAME_ML] || assembly[FIELDS.ASSEMBLY.NAME_EN])
+                        : (assembly[FIELDS.ASSEMBLY.NAME_EN] || assembly[FIELDS.ASSEMBLY.NAME_ML])}
                     </option>
                   ))}
                 </>
@@ -227,7 +227,7 @@ function Home() {
               id="localbody-select"
               value={selectedLocalBodyId}
               onChange={(e) => {
-                const selected = localBodies.find(lb => lb.local_body_id === e.target.value);
+                const selected = localBodies.find(lb => lb[FIELDS.LOCAL_BODY.ID] === e.target.value);
                 if (selected && selected.is_active === false) return;
                 setSelectedLocalBodyId(e.target.value);
               }}
@@ -240,14 +240,14 @@ function Home() {
                 <>
                   <option value="">-- Select Local Body --</option>
                   {localBodies.map(localBody => (
-                    <option key={localBody.local_body_id} value={localBody.local_body_id} disabled={localBody.is_active === false} style={localBody.is_active === false ? { color: '#aaa' } : {}}>
+                    <option key={localBody[FIELDS.LOCAL_BODY.ID]} value={localBody[FIELDS.LOCAL_BODY.ID]} disabled={localBody.is_active === false} style={localBody.is_active === false ? { color: '#aaa' } : {}}>
                       {lang === 'ml'
-                        ? (localBody.local_body_name_ml || localBody.local_body_name_en)
-                        : (localBody.local_body_name_en || localBody.local_body_name_ml)}
+                        ? (localBody[FIELDS.LOCAL_BODY.NAME_ML] || localBody[FIELDS.LOCAL_BODY.NAME_EN])
+                        : (localBody[FIELDS.LOCAL_BODY.NAME_EN] || localBody[FIELDS.LOCAL_BODY.NAME_ML])}
                       {' '}
                       ({lang === 'ml'
-                        ? (localBody.local_body_type?.type_name_ml || localBody.local_body_type?.type_name_en || '')
-                        : (localBody.local_body_type?.type_name_en || localBody.local_body_type?.type_name_ml || '')})
+                        ? (localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '')
+                        : (localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '')})
                     </option>
                   ))}
                 </>
