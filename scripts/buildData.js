@@ -277,7 +277,7 @@ function toFilename(name) {
         towns: lbTownsArr,
         issues: issuesByType,
         geojson_links: {
-          outline: `geojson/local-bodies/outlines/${l.local_body_id}.geojson`
+          outline: `geojson/local-bodies/outlines/${toFilename(l.local_body_name_en)}.geojson`
         }
       };
       await writeJSON(path.join(LOCAL_BODIES_DIR, `${l.local_body_id}.json`), localBodyJSON);
