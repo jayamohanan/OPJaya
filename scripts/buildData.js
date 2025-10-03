@@ -96,7 +96,7 @@ function toFilename(name) {
       let from = 0;
       while (true) {
         const { data, error } = await supabase
-          .from('local_body')
+          .from(TABLES.LOCAL_BODY)
           .select('*')
           .range(from, from + batchSize - 1);
         if (error) throw error;
@@ -108,9 +108,8 @@ function toFilename(name) {
       return allLocalBodies;
     }
     const allLocalBodies = await fetchAllLocalBodies();
-    const { data: localBodyCategories } = await supabase.from('local_body_category').select('*');
-    const localBodyCategoryMap = Object.fromEntries((localBodyCategories || []).map(lc => [lc.local_body_id, lc.category]));
-
+    const { data: localBodyCategories } = await supabase.from(TABLES.LOCAL_BODY_CATEGORY).select('*');
+    const localBodyCategoryMap = Object.fromEntries((localBodyCategories || []).map(lc => [lc[FIELDS.LOCAL_BODY_CATEGORY.LOCAL_BODY_ID], lc[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY]]));
     // --- 1. State JSON (ALL) ---
     console.log('🏗️  Generating state JSON...');
     const stateJSON = {
@@ -119,11 +118,11 @@ function toFilename(name) {
       name_ml: 'കേരളം',
       category: 'normal',
       districts: allDistricts.map(d => ({
-        id: d.id,
-        name_en: d.name_en,
-        name_ml: d.name_ml,
-        is_active: d.is_active !== false,
-        district_category: districtCategoryMap[d.id] ? { category: districtCategoryMap[d.id] } : null
+        [FIELDS.DISTRICT.ID]: d[FIELDS.DISTRICT.ID],
+        [FIELDS.DISTRICT.NAME_EN]: d[FIELDS.DISTRICT.NAME_EN],
+        [FIELDS.DISTRICT.NAME_ML]: d[FIELDS.DISTRICT.NAME_ML],
+        [FIELDS.DISTRICT.IS_ACTIVE]: d[FIELDS.DISTRICT.IS_ACTIVE] !== false,
+        [FIELDS.DISTRICT.CATEGORY]: districtCategoryMap[d[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[d[FIELDS.DISTRICT.ID]] } : null
       })),
       geojson_links: {
         outline: 'geojson/states/outlines/kerala.geojson',
@@ -137,23 +136,23 @@ function toFilename(name) {
     for (const d of allDistricts) {
       const districtAssemblies = allAssemblies.filter(a => a.district_id === d.id);
       const districtJSON = {
-        id: d.id,
-        name_en: d.name_en,
-        name_ml: d.name_ml,
-        is_active: d.is_active !== false,
-        district_category: districtCategoryMap[d.id] ? { category: districtCategoryMap[d.id] } : null,
+        [FIELDS.DISTRICT.ID]: d[FIELDS.DISTRICT.ID],
+        [FIELDS.DISTRICT.NAME_EN]: d[FIELDS.DISTRICT.NAME_EN],
+        [FIELDS.DISTRICT.NAME_ML]: d[FIELDS.DISTRICT.NAME_ML],
+        [FIELDS.DISTRICT.IS_ACTIVE]: d[FIELDS.DISTRICT.IS_ACTIVE] !== false,
+        [FIELDS.DISTRICT.CATEGORY]: districtCategoryMap[d[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[d[FIELDS.DISTRICT.ID]] } : null,
         assemblies: districtAssemblies.map(a => ({
-          id: a.id,
-          name_en: a.name_en,
-          name_ml: a.name_ml,
-          assembly_category: assemblyCategoryMap[a.id] ? { category: assemblyCategoryMap[a.id] } : null
+          [FIELDS.ASSEMBLY.ID]: a[FIELDS.ASSEMBLY.ID],
+          [FIELDS.ASSEMBLY.NAME_EN]: a[FIELDS.ASSEMBLY.NAME_EN],
+          [FIELDS.ASSEMBLY.NAME_ML]: a[FIELDS.ASSEMBLY.NAME_ML],
+          [FIELDS.ASSEMBLY.CATEGORY]: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] } : null
         })),
         geojson_links: {
-          outline: `geojson/districts/outlines/${toFilename(d.name_en)}.geojson`,
-          assemblies: `geojson/districts/with-assemblies/${toFilename(d.name_en)}.geojson`
+          outline: `geojson/districts/outlines/${toFilename(d[FIELDS.DISTRICT.NAME_EN])}.geojson`,
+          assemblies: `geojson/districts/with-assemblies/${toFilename(d[FIELDS.DISTRICT.NAME_EN])}.geojson`
         }
       };
-      await writeJSON(path.join(DISTRICTS_DIR, `${d.id}.json`), districtJSON);
+      await writeJSON(path.join(DISTRICTS_DIR, `${d[FIELDS.DISTRICT.ID]}.json`), districtJSON);
     }
 
     // --- 3. Assembly JSONs (ALL) ---
@@ -190,7 +189,7 @@ function toFilename(name) {
 
     // --- 4. Local Body JSONs (ALL) ---
     console.log('🏗️  Generating local body JSON files...');
-    const { data: localBodyTypes } = await supabase.from('local_body_type').select('*');
+    const { data: localBodyTypes } = await supabase.from(TABLES.LOCAL_BODY_TYPE).select('*');
     // --- Fetch all wards in batches (Supabase 1000 row limit workaround) ---
     async function fetchAllWards(batchSize = 1000) {
       let allWards = [];
@@ -198,7 +197,7 @@ function toFilename(name) {
       let to = batchSize - 1;
       let keepGoing = true;
       while (keepGoing) {
-        const { data: batch, error } = await supabase.from('ward').select('*').range(from, to);
+        const { data: batch, error } = await supabase.from(TABLES.WARD).select('*').range(from, to);
         if (error) throw error;
         if (!batch || batch.length === 0) break;
         allWards = allWards.concat(batch);
@@ -209,9 +208,8 @@ function toFilename(name) {
       return allWards;
     }
     const wards = await fetchAllWards();
-    const { data: towns } = await supabase.from('town').select('*');
-    const { data: issues } = await supabase.from('issues').select('*');
-    
+    const { data: towns } = await supabase.from(TABLES.TOWN).select('*');
+    const { data: issues } = await supabase.from(TABLES.ISSUES).select('*');
     // --- Fetch all ward collections in batches (Supabase 1000 row limit workaround) ---
     async function fetchAllWardCollections(batchSize = 1000) {
       let allWardCollections = [];
@@ -219,7 +217,7 @@ function toFilename(name) {
       console.log('📡 Fetching ward collections in batches...');
       while (true) {
         const { data: batch, error } = await supabase
-          .from('ward_collection')
+          .from(TABLES.WARD_COLLECTION)
           .select('*')
           .range(from, from + batchSize - 1);
         if (error) throw error;
@@ -248,25 +246,25 @@ function toFilename(name) {
       }
       
       const lbWardsWithBasicInfo = wards
-        .filter(w => w.local_body_id === l.id)
+        .filter(w => w[FIELDS.WARD.LOCAL_BODY_ID] === l[FIELDS.LOCAL_BODY.ID])
         .map(w => {
           // Find the latest collection for this ward
-          const collections = (wardCollections || []).filter(c => c.ward_id === w.id);
+          const collections = (wardCollections || []).filter(c => c[FIELDS.WARD_COLLECTION.WARD_ID] === w[FIELDS.WARD.ID]);
           // Sort by year_month descending and pick the first (latest)
           const sorted = collections
-            .filter(c => c.year_month)
-            .sort((a, b) => b.year_month.localeCompare(a.year_month));
+            .filter(c => c[FIELDS.WARD_COLLECTION.YEAR_MONTH])
+            .sort((a, b) => b[FIELDS.WARD_COLLECTION.YEAR_MONTH].localeCompare(a[FIELDS.WARD_COLLECTION.YEAR_MONTH]));
           const latest = sorted[0] || null;
           return {
-            id: w.id,
-            ward_no: w.ward_no || '',
-            name_en: w.name_en || '',
-            name_ml: w.name_ml || '',
+            id: w[FIELDS.WARD.ID],
+            ward_no: w[FIELDS.WARD.WARD_NO] || '',
+            name_en: w[FIELDS.WARD.WARD_NAME_EN] || '',
+            name_ml: w[FIELDS.WARD.WARD_NAME_ML] || '',
             ward_collection: latest ? {
-              collection_id: latest.collection_id,
-              ward_id: latest.ward_id,
-              year_month: latest.year_month,
-              rate: latest.rate
+              collection_id: latest[FIELDS.WARD_COLLECTION.COLLECTION_ID],
+              ward_id: latest[FIELDS.WARD_COLLECTION.WARD_ID],
+              year_month: latest[FIELDS.WARD_COLLECTION.YEAR_MONTH],
+              rate: latest[FIELDS.WARD_COLLECTION.RATE]
             } : null
           };
         });
