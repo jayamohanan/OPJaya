@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Koodallarkudy",
       "name_ml": "കൂടല്ലാര്‍കുടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7696,
+        "ward_id": "64e004b7-e7e4-4e05-8c1a-7b0fa6c4078a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "363858a4-747b-4f1c-818d-abed69953bfe",
       "ward_no": "2",
       "name_en": "Kottakomboor East",
       "name_ml": "കൊട്ടാക്കൊമ്പൂര്‍ ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4271,
+        "ward_id": "363858a4-747b-4f1c-818d-abed69953bfe",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "74ccf3ed-6548-4ce2-9c8f-b7f82ca51dc3",
       "ward_no": "3",
       "name_en": "Kadavari",
       "name_ml": "കടവരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8962,
+        "ward_id": "74ccf3ed-6548-4ce2-9c8f-b7f82ca51dc3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ea99ebef-f110-48e2-8ea9-3aa22e68e45a",
       "ward_no": "4",
       "name_en": "Kottakomboor West",
       "name_ml": "കൊട്ടാക്കൊമ്പൂര്‍ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17980,
+        "ward_id": "ea99ebef-f110-48e2-8ea9-3aa22e68e45a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6c632e37-21b7-4d42-a410-43b8cbf8b341",
       "ward_no": "5",
       "name_en": "Koviloor North",
       "name_ml": "കോവിലൂര്‍ നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8272,
+        "ward_id": "6c632e37-21b7-4d42-a410-43b8cbf8b341",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9e8770db-f408-4905-ae9d-ed4c984025ac",
       "ward_no": "6",
       "name_en": "Koviloor West",
       "name_ml": "കോവിലൂര്‍ വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12160,
+        "ward_id": "9e8770db-f408-4905-ae9d-ed4c984025ac",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "49d67dc2-9896-4379-894c-91e457e791a5",
       "ward_no": "7",
       "name_en": "Koviloor East",
       "name_ml": "കോവിലൂര്‍ ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5725,
+        "ward_id": "49d67dc2-9896-4379-894c-91e457e791a5",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "60fb28dd-1db3-4bbd-87c1-19fd5a1c1d1b",
       "ward_no": "8",
       "name_en": "Koviloor South",
       "name_ml": "കോവിലൂര്‍ സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7420,
+        "ward_id": "60fb28dd-1db3-4bbd-87c1-19fd5a1c1d1b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b98c9b4e-ac11-462f-9e4d-8788a254373f",
       "ward_no": "9",
       "name_en": "Vattavada South",
       "name_ml": "വട്ടവട സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14281,
+        "ward_id": "b98c9b4e-ac11-462f-9e4d-8788a254373f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "143b1575-b1a3-4227-b2a7-94e7e10cf2db",
       "ward_no": "10",
       "name_en": "Vattavada North",
       "name_ml": "വട്ടവട നോര്‍ത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1693,
+        "ward_id": "143b1575-b1a3-4227-b2a7-94e7e10cf2db",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "f53826ef-ec7b-4dbd-b1dd-dcc6da2d6c46",
       "ward_no": "11",
       "name_en": "Pazhathottam",
       "name_ml": "പഴത്തോട്ടം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18794,
+        "ward_id": "f53826ef-ec7b-4dbd-b1dd-dcc6da2d6c46",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "a401b365-257c-4103-9cd7-9e24a271ffdc",
       "ward_no": "12",
       "name_en": "Chilanthiyar",
       "name_ml": "ചിലന്തിയാര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12576,
+        "ward_id": "a401b365-257c-4103-9cd7-9e24a271ffdc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5591354d-78b4-4658-83e1-a250ca4ab537",
       "ward_no": "13",
       "name_en": "Swamiyaralakkudi",
       "name_ml": "സ്വാമിയാറാളക്കുടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6612,
+        "ward_id": "5591354d-78b4-4658-83e1-a250ca4ab537",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Mattool North",
       "name_ml": "മാട്ടൂല്‍ നോര്‍ത്ത്‌",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9738,
+        "ward_id": "7ed7d84a-2627-4f55-8c4f-b3b301bee8b4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ef60be39-33ea-44e7-a16c-801251999114",
       "ward_no": "2",
       "name_en": "Kavile Paramba",
       "name_ml": "കാവിലെ പറമ്പ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 18346,
+        "ward_id": "ef60be39-33ea-44e7-a16c-801251999114",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "83a1e5d4-d6a8-4c7e-9007-012c158d233e",
       "ward_no": "3",
       "name_en": "Siddeequabad",
       "name_ml": "സിദ്ദീഖാബാദ്‌",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10095,
+        "ward_id": "83a1e5d4-d6a8-4c7e-9007-012c158d233e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6f6f3b53-9e97-4645-b33e-8c481d996ac9",
       "ward_no": "4",
       "name_en": "Thekkumbad",
       "name_ml": "തെക്കുമ്പാട്‌",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8526,
+        "ward_id": "6f6f3b53-9e97-4645-b33e-8c481d996ac9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c44f909d-4e30-44d3-b0eb-9de6158f7b49",
       "ward_no": "5",
       "name_en": "Mattool Central",
       "name_ml": "മാട്ടൂല്‍ സെന്‍ട്രല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15105,
+        "ward_id": "c44f909d-4e30-44d3-b0eb-9de6158f7b49",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7d8010e0-1a0a-4bea-8987-bef183e7f916",
       "ward_no": "6",
       "name_en": "Madakkara East",
       "name_ml": "മടക്കര ഈസ്റ്റ്‌",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 9625,
+        "ward_id": "7d8010e0-1a0a-4bea-8987-bef183e7f916",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "2b495a4e-36f1-48cf-9619-7866dcb31ce6",
       "ward_no": "7",
       "name_en": "Madakkara West",
       "name_ml": "മടക്കര വെസ്റ്റ്‌",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3426,
+        "ward_id": "2b495a4e-36f1-48cf-9619-7866dcb31ce6",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fc63564e-67f9-4ab2-970c-c094605c2a9f",
       "ward_no": "8",
       "name_en": "Mattool Palli Pradesham",
       "name_ml": "മാട്ടൂല്‍ പള്ളി പ്രദേശം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 19368,
+        "ward_id": "fc63564e-67f9-4ab2-970c-c094605c2a9f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "38d7c446-1c63-4262-a7c4-efb01f0b6fad",
       "ward_no": "9",
       "name_en": "Mattool South",
       "name_ml": "മാട്ടൂല്‍ സൗത്ത്‌",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4469,
+        "ward_id": "38d7c446-1c63-4262-a7c4-efb01f0b6fad",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0722e02a-5b3e-4e84-b19b-a8b3885b8e9f",
       "ward_no": "10",
       "name_en": "Mattool South Munamb",
       "name_ml": "മാട്ടൂല്‍ സൗത്ത്‌ മുനമ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 717,
+        "ward_id": "0722e02a-5b3e-4e84-b19b-a8b3885b8e9f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9fccd58e-a20a-499b-a5fb-83038d358dc5",
       "ward_no": "11",
       "name_en": "Mattool South Chal",
       "name_ml": "മാട്ടൂല്‍ സൗത്ത്‌ ചാല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12248,
+        "ward_id": "9fccd58e-a20a-499b-a5fb-83038d358dc5",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5fa283ba-7921-48c6-9b05-0fd18ca23f09",
       "ward_no": "12",
       "name_en": "Mattool Thangale Palli Chal",
       "name_ml": "മാട്ടൂല്‍ തങ്ങളെ പള്ളി ചാല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7318,
+        "ward_id": "5fa283ba-7921-48c6-9b05-0fd18ca23f09",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6b95a743-377a-4eab-b828-05fd7b7339cb",
       "ward_no": "13",
       "name_en": "Mattool Kolkaran Chal",
       "name_ml": "മാട്ടൂല്‍ കോല്‍കാരന്‍ ചാല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8196,
+        "ward_id": "6b95a743-377a-4eab-b828-05fd7b7339cb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "600d35f4-18f4-41c4-94b1-b7b0394b2bcd",
       "ward_no": "14",
       "name_en": "Mattool Central Chal",
       "name_ml": "മാട്ടൂല്‍ സെന്‍ട്രല്‍ ചാല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7348,
+        "ward_id": "600d35f4-18f4-41c4-94b1-b7b0394b2bcd",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fb377c17-7c95-4fd8-852a-3c67d299b9d1",
       "ward_no": "15",
       "name_en": "Mattool Ariyil Chal",
       "name_ml": "മാട്ടൂല്‍ അരിയില്‍ ചാല്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 19274,
+        "ward_id": "fb377c17-7c95-4fd8-852a-3c67d299b9d1",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "824cca49-d144-4964-80d7-146183d53712",
       "ward_no": "16",
       "name_en": "Mattool Bavu Valappil Chal",
       "name_ml": "മാട്ടൂല്‍ ബാവു വളപ്പില്‍ ചാല്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 9991,
+        "ward_id": "824cca49-d144-4964-80d7-146183d53712",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "6589cee1-32f1-4c38-8c8f-e1377c439db3",
       "ward_no": "17",
       "name_en": "Mattool Kakkadan Chal",
       "name_ml": "മാട്ടൂല്‍ കക്കാടന്‍ ചാല്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7736,
+        "ward_id": "6589cee1-32f1-4c38-8c8f-e1377c439db3",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

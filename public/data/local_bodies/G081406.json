@@ -34,98 +34,168 @@
       "ward_no": "1",
       "name_en": "Kathiyalam",
       "name_ml": "കാതിയാളം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5499,
+        "ward_id": "475790e1-f22a-4284-b16a-9fcc168250c2",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "edd8db19-0706-4dfd-a1a9-b41c8b4b478a",
       "ward_no": "2",
       "name_en": "Mahila Samajam",
       "name_ml": "മഹിളാസമാജം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18236,
+        "ward_id": "edd8db19-0706-4dfd-a1a9-b41c8b4b478a",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "32c59632-10b9-427f-82cb-0a1a40d4f364",
       "ward_no": "3",
       "name_en": "Fisheries School",
       "name_ml": "ഫിഷറീസ് സ്ക്കൂള്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 4002,
+        "ward_id": "32c59632-10b9-427f-82cb-0a1a40d4f364",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "f32701a5-7775-45e8-b2d5-8bfe5d1115f1",
       "ward_no": "4",
       "name_en": "Edavilangu",
       "name_ml": "എടവിലങ്ങ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18648,
+        "ward_id": "f32701a5-7775-45e8-b2d5-8bfe5d1115f1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "66833c23-04b4-439b-a097-a04c2fb25f48",
       "ward_no": "5",
       "name_en": "Edavilangu North",
       "name_ml": "എടവിലങ്ങ് നോര്‍ത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7810,
+        "ward_id": "66833c23-04b4-439b-a097-a04c2fb25f48",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "0a97c0e8-e9eb-4edd-8eb2-40f3e74e1be1",
       "ward_no": "6",
       "name_en": "Pathinattarayalam",
       "name_ml": "പതിനെട്ടരയാളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 961,
+        "ward_id": "0a97c0e8-e9eb-4edd-8eb2-40f3e74e1be1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "52322956-38a1-4d1f-b0e9-a9ef9a6b2e4e",
       "ward_no": "7",
       "name_en": "Podiyan Bazar",
       "name_ml": "പൊടിയന്‍ ബസാര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 6358,
+        "ward_id": "52322956-38a1-4d1f-b0e9-a9ef9a6b2e4e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f6ce2719-8450-4c7f-8c21-225efab30acb",
       "ward_no": "8",
       "name_en": "Panchayath Office",
       "name_ml": "പഞ്ചായത്ത് ഓഫീസ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 18922,
+        "ward_id": "f6ce2719-8450-4c7f-8c21-225efab30acb",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9080ae69-2c6a-4463-a714-5b91c910c96b",
       "ward_no": "9",
       "name_en": "Kunjayini",
       "name_ml": "കുഞ്ഞയിനി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11081,
+        "ward_id": "9080ae69-2c6a-4463-a714-5b91c910c96b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9bb06a4a-7498-4289-9f0f-5fa655a218d2",
       "ward_no": "10",
       "name_en": "Kara East",
       "name_ml": "കാര ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11923,
+        "ward_id": "9bb06a4a-7498-4289-9f0f-5fa655a218d2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "db50ea56-0ee0-4944-ace6-18264bb74d03",
       "ward_no": "11",
       "name_en": "Puthiya Road East",
       "name_ml": "പുതിയ റോഡ് ഈസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16780,
+        "ward_id": "db50ea56-0ee0-4944-ace6-18264bb74d03",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "02b081cd-e57f-449f-8c97-7003cc754f3c",
       "ward_no": "12",
       "name_en": "Arappa",
       "name_ml": "അറപ്പ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 378,
+        "ward_id": "02b081cd-e57f-449f-8c97-7003cc754f3c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "181599bc-8056-413d-b55c-0cc3fb4c1730",
       "ward_no": "13",
       "name_en": "Kara West",
       "name_ml": "കാര വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1988,
+        "ward_id": "181599bc-8056-413d-b55c-0cc3fb4c1730",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f56359f3-35a5-4bab-bf33-d9f9a54e883e",
       "ward_no": "14",
       "name_en": "Fisheries School West",
       "name_ml": "ഫിഷറീസ് സ്ക്കൂള്‍ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18808,
+        "ward_id": "f56359f3-35a5-4bab-bf33-d9f9a54e883e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

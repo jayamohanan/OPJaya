@@ -23,7 +23,8 @@ export async function getStateData() {
     const res = await fetch('/data/state.json');
     if (!res.ok) throw new Error('State JSON not found');
     const stateJson = await res.json();
-    return stateJson.districts || [];
+    console.log('-------getStateData from JSON', stateJson.districts);
+    return { districts: stateJson.districts || [] };
   }
 }
 
@@ -305,7 +306,7 @@ export async function getWardsForLocalBody(localBodyId) {
 }
 
 // Function to get ward collection rates for HKS
-export async function getWardCollectionRates(wardIds) {
+export async function getWardCollectionRates(localbodyId, wardIds) {
   if (USE_SUPABASE) {
     try {
       const { data, error } = await supabase
@@ -325,7 +326,16 @@ export async function getWardCollectionRates(wardIds) {
       return [];
     }
   } else {
-    return [];
+    try {
+      const localBodyData = await getLocalBodyData(localbodyId);
+      if (!localBodyData.wards) return [];
+      return localBodyData.wards
+        .map(w => w.ward_collection)
+        .filter(wc => wc != null);
+    } catch (error) {
+      console.error('Error fetching ward collections from local body JSON:', error);
+      return [];
+    }
   }
 }
 
@@ -352,10 +362,23 @@ export async function getIssuesForLocalBody(localBodyId) {
   } else {
     try {
       const localBodyData = await getLocalBodyData(localBodyId);
-      return localBodyData.issues || {};
+      const issues = localBodyData.issues || {};
+      let allIssues = [];
+      for (const [type, value] of Object.entries(issues)) {
+        if (type === 'town') {
+          // value is an object: { townName: [issue, ...], ... }
+          for (const arr of Object.values(value)) {
+            allIssues = allIssues.concat(arr);
+          }
+        } else if (Array.isArray(value)) {
+          allIssues = allIssues.concat(value);
+        }
+      }
+      console.log('-------getIssuesForLocalBody from JSON', allIssues);
+      return allIssues;
     } catch (error) {
       console.error('Error fetching issues from local body JSON:', error);
-      return {};
+      return [];
     }
   }
 }

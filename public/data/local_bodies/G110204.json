@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Mudavantheri West",
       "name_ml": "മുടവന്തേരി വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2738,
+        "ward_id": "223b9a4d-e5bd-4f59-bbed-5521c7c7274f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3d9c1b91-9786-49de-8382-b22a92a9d3b2",
       "ward_no": "2",
       "name_en": "Kalathara",
       "name_ml": "കളത്തറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4810,
+        "ward_id": "3d9c1b91-9786-49de-8382-b22a92a9d3b2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0034c208-1755-48e2-9962-8e0a26d05b0b",
       "ward_no": "3",
       "name_en": "Mudavantheri East",
       "name_ml": "മുടവന്തേരി ഈസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 170,
+        "ward_id": "0034c208-1755-48e2-9962-8e0a26d05b0b",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4ecc9286-c8d9-4d8e-b22a-e47d788f9a07",
       "ward_no": "4",
       "name_en": "Perode",
       "name_ml": "പേരോട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 6092,
+        "ward_id": "4ecc9286-c8d9-4d8e-b22a-e47d788f9a07",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "cef4e6f2-9ee8-4eae-9547-8439fbc79729",
       "ward_no": "5",
       "name_en": "Avolam",
       "name_ml": "ആവോലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15902,
+        "ward_id": "cef4e6f2-9ee8-4eae-9547-8439fbc79729",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e3334d7b-f7ff-452e-b040-9660899d25df",
       "ward_no": "6",
       "name_en": "Chalappuram",
       "name_ml": "ചാലപ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17404,
+        "ward_id": "e3334d7b-f7ff-452e-b040-9660899d25df",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "276ea827-4089-4caf-b913-826101e3572d",
       "ward_no": "7",
       "name_en": "Velloor South",
       "name_ml": "വെള്ളൂര്‍ സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3122,
+        "ward_id": "276ea827-4089-4caf-b913-826101e3572d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9df598c7-0c12-41a8-83db-860bf2cf02b9",
       "ward_no": "8",
       "name_en": "Kodanchery South",
       "name_ml": "കോടഞ്ചേരി സൌത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12109,
+        "ward_id": "9df598c7-0c12-41a8-83db-860bf2cf02b9",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "94b42f93-ad68-4188-b561-cef8a138b3dd",
       "ward_no": "9",
       "name_en": "Kodanchery North",
       "name_ml": "കോടഞ്ചേരി നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11411,
+        "ward_id": "94b42f93-ad68-4188-b561-cef8a138b3dd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1b53d50b-c80f-41c0-a66b-c05e72c3aac1",
       "ward_no": "10",
       "name_en": "Tuneri West",
       "name_ml": "തൂണേരി വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2241,
+        "ward_id": "1b53d50b-c80f-41c0-a66b-c05e72c3aac1",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "2476c494-6363-4a40-80de-c381de2c954c",
       "ward_no": "11",
       "name_en": "Velloor North",
       "name_ml": "വെള്ളൂര്‍ നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2894,
+        "ward_id": "2476c494-6363-4a40-80de-c381de2c954c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7d392a09-86ba-4381-a7df-e4d9d7ec2646",
       "ward_no": "12",
       "name_en": "Chalappuram North",
       "name_ml": "ചാലപ്പുറം നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9609,
+        "ward_id": "7d392a09-86ba-4381-a7df-e4d9d7ec2646",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "61288cd4-bb0f-4328-aba9-af4b2f2da6bc",
       "ward_no": "13",
       "name_en": "Kannankai",
       "name_ml": "കണ്ണങ്കൈ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7431,
+        "ward_id": "61288cd4-bb0f-4328-aba9-af4b2f2da6bc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "498986a0-26af-47c3-b5ee-6083f4cf901f",
       "ward_no": "14",
       "name_en": "Tuneri Twon",
       "name_ml": "തൂണേരി ടൌണ്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5704,
+        "ward_id": "498986a0-26af-47c3-b5ee-6083f4cf901f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "779346b1-7888-40c8-826f-7b49a346c4c3",
       "ward_no": "15",
       "name_en": "Mudavantheri",
       "name_ml": "മുടവന്തേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9177,
+        "ward_id": "779346b1-7888-40c8-826f-7b49a346c4c3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

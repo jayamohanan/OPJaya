@@ -34,126 +34,216 @@
       "ward_no": "1",
       "name_en": "Chiramanengad",
       "name_ml": "ചിറമനേങ്ങാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1341,
+        "ward_id": "0fbbe25e-7c49-4404-b1cb-c4542380e8c2",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "360383dc-b4d6-4a26-9576-996c5d455507",
       "ward_no": "2",
       "name_en": "Parappu Nellikkunnu",
       "name_ml": "പരപ്പ് നെല്ലിക്കുന്നു",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4254,
+        "ward_id": "360383dc-b4d6-4a26-9576-996c5d455507",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fb2cc4ce-992b-40f6-850e-69acf50d8a81",
       "ward_no": "3",
       "name_en": "Kadangode Parappurram",
       "name_ml": "കടങ്ങോട് പാറപ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19267,
+        "ward_id": "fb2cc4ce-992b-40f6-850e-69acf50d8a81",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9bd625d5-95b7-4d3b-9168-2a8d143a4078",
       "ward_no": "4",
       "name_en": "Kadangode Rice Mill Thekkumurri",
       "name_ml": "കടങ്ങോട് റൈസ് മിൽ തെക്കുമുറി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11936,
+        "ward_id": "9bd625d5-95b7-4d3b-9168-2a8d143a4078",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "928ae239-bf44-464c-b701-ccd08bca8225",
       "ward_no": "5",
       "name_en": "Kadangode Kizhakumuri",
       "name_ml": "കടങ്ങോട്  കിഴക്കുമുറി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11262,
+        "ward_id": "928ae239-bf44-464c-b701-ccd08bca8225",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d425680f-efd6-47c0-a202-4164f1860263",
       "ward_no": "6",
       "name_en": "Mandamparambu",
       "name_ml": "മണ്ടംപറമ്പ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16281,
+        "ward_id": "d425680f-efd6-47c0-a202-4164f1860263",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "97f5f57b-6982-435a-bcaa-f5eb90845fbe",
       "ward_no": "7",
       "name_en": "Pazhiyottumuri",
       "name_ml": "പാഴിയോട്ടുമുറി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11640,
+        "ward_id": "97f5f57b-6982-435a-bcaa-f5eb90845fbe",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "407148f9-86cf-4553-baef-0ef4fc4b118e",
       "ward_no": "8",
       "name_en": "Vellarakkad",
       "name_ml": "വെള്ളറക്കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5002,
+        "ward_id": "407148f9-86cf-4553-baef-0ef4fc4b118e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "71876811-9542-4e80-9f7b-90f9ca051998",
       "ward_no": "9",
       "name_en": "Pengattupara",
       "name_ml": "പേങ്ങാട്ടുപാറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8693,
+        "ward_id": "71876811-9542-4e80-9f7b-90f9ca051998",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "57d1f041-5320-4530-b73e-060f52637f3b",
       "ward_no": "10",
       "name_en": "Vellathery",
       "name_ml": "വെള്ളത്തേരി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6781,
+        "ward_id": "57d1f041-5320-4530-b73e-060f52637f3b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d7ef3448-695b-4e6e-99b8-d712ccbe93ad",
       "ward_no": "11",
       "name_en": "Adhur",
       "name_ml": "ആദൂർ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16535,
+        "ward_id": "d7ef3448-695b-4e6e-99b8-d712ccbe93ad",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "52b5ba13-a7bd-45a3-8a98-ae382898ed01",
       "ward_no": "12",
       "name_en": "Eyyal Parapuram",
       "name_ml": "എയ്യാൽ പാറപ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6392,
+        "ward_id": "52b5ba13-a7bd-45a3-8a98-ae382898ed01",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4dbb6ce4-fbbf-49f2-9ef0-866580af241e",
       "ward_no": "13",
       "name_en": "Eyyal Ambalam",
       "name_ml": "എയ്യാൽ അമ്പലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6016,
+        "ward_id": "4dbb6ce4-fbbf-49f2-9ef0-866580af241e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "25a53566-8d30-4a67-84a8-f7f8c4628e46",
       "ward_no": "14",
       "name_en": "Chittilengadu",
       "name_ml": "ചിറ്റിലേങ്ങാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2984,
+        "ward_id": "25a53566-8d30-4a67-84a8-f7f8c4628e46",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1802a986-4d40-4cae-b82d-29602ae6f41c",
       "ward_no": "15",
       "name_en": "Neendoor",
       "name_ml": "നീണ്ടൂർ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1982,
+        "ward_id": "1802a986-4d40-4cae-b82d-29602ae6f41c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "25691d4b-d13b-4c3f-8a4c-d4ed99aa812d",
       "ward_no": "16",
       "name_en": "Marathamcode",
       "name_ml": "മരത്തംകോട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2971,
+        "ward_id": "25691d4b-d13b-4c3f-8a4c-d4ed99aa812d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "558ac585-5d5c-41d7-a467-817f5a33f166",
       "ward_no": "17",
       "name_en": "Kidangoor A.K.G.Nagar",
       "name_ml": "കിടങ്ങൂർ എ കെ ജി നഗർ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6611,
+        "ward_id": "558ac585-5d5c-41d7-a467-817f5a33f166",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "dfd29639-e4e5-4380-8e96-059bd484f483",
       "ward_no": "18",
       "name_en": "Pannithadam",
       "name_ml": "പന്നിത്തടം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17154,
+        "ward_id": "dfd29639-e4e5-4380-8e96-059bd484f483",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

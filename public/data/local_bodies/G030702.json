@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Muttom Vadakku",
       "name_ml": "മുട്ടം വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16872,
+        "ward_id": "dc3f2f0f-faad-4756-b319-ddf81761d8ff",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fcd15658-51b0-4d6e-aa33-cb73c454d3cf",
       "ward_no": "2",
       "name_en": "Muttom Kizhakku",
       "name_ml": "മുട്ടം കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19404,
+        "ward_id": "fcd15658-51b0-4d6e-aa33-cb73c454d3cf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d4af61b0-95ff-464f-8081-5f1a63e8bdc2",
       "ward_no": "3",
       "name_en": "Naduvilemuri Vadakku",
       "name_ml": "നടുവിലേമുറി വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16327,
+        "ward_id": "d4af61b0-95ff-464f-8081-5f1a63e8bdc2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9981d7fa-e024-4fae-a8bf-fa774d214269",
       "ward_no": "4",
       "name_en": "Mampilali Vadakku",
       "name_ml": "മാമ്പിലാലി വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11758,
+        "ward_id": "9981d7fa-e024-4fae-a8bf-fa774d214269",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6e79d125-a28e-4bb4-9c1a-2811b26c5103",
       "ward_no": "5",
       "name_en": "Mampilali Thekku",
       "name_ml": "മാമ്പിലാലി തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8435,
+        "ward_id": "6e79d125-a28e-4bb4-9c1a-2811b26c5103",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "05c42329-a1d3-42e2-b6b8-651946236f97",
       "ward_no": "6",
       "name_en": "Vayalinum Padinjaru Vadakku",
       "name_ml": "വയലിനുംപടിഞ്ഞാറ് വടക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 616,
+        "ward_id": "05c42329-a1d3-42e2-b6b8-651946236f97",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "2d3d877f-06bd-496b-b941-39492f113eec",
       "ward_no": "7",
       "name_en": "Vijayapuram Kizhakku",
       "name_ml": "വിജയപുരം കിഴക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3565,
+        "ward_id": "2d3d877f-06bd-496b-b941-39492f113eec",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "6ef88c6a-ca66-4ae4-8398-0b212ae23e85",
       "ward_no": "8",
       "name_en": "Naduvilemuri Kizhakku",
       "name_ml": "നടുവിലേമുറി കിഴക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8470,
+        "ward_id": "6ef88c6a-ca66-4ae4-8398-0b212ae23e85",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1fa8f123-f0b1-4c73-8534-786c74f48550",
       "ward_no": "9",
       "name_en": "Thumpamon",
       "name_ml": "തുമ്പമണ്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2578,
+        "ward_id": "1fa8f123-f0b1-4c73-8534-786c74f48550",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1cb2bd79-16b6-41eb-b6c0-61b3df5d1b9d",
       "ward_no": "10",
       "name_en": "Vijayapuram",
       "name_ml": "വിജയപുരം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2352,
+        "ward_id": "1cb2bd79-16b6-41eb-b6c0-61b3df5d1b9d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "05400c74-94b2-485c-a6fd-e3888b6d7479",
       "ward_no": "11",
       "name_en": "Muttom Thekku",
       "name_ml": "മുട്ടം തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 579,
+        "ward_id": "05400c74-94b2-485c-a6fd-e3888b6d7479",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "27411dfe-f756-49a0-9a19-b9e6d0de5818",
       "ward_no": "12",
       "name_en": "Muttom",
       "name_ml": "മുട്ടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3114,
+        "ward_id": "27411dfe-f756-49a0-9a19-b9e6d0de5818",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a237232f-0ccb-4b61-b511-b38e12cff391",
       "ward_no": "13",
       "name_en": "Muttom Padinjaru",
       "name_ml": "മുട്ടം പടിഞ്ഞാറ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12423,
+        "ward_id": "a237232f-0ccb-4b61-b511-b38e12cff391",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

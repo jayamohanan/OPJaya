@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Kambiltheru",
       "name_ml": "കമ്പില്‍തെരു",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8698,
+        "ward_id": "71a32cdb-2155-46aa-ba98-2b29b09bc925",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7d76eb14-c829-4440-8131-1e07b1392303",
       "ward_no": "2",
       "name_en": "Choyicheri",
       "name_ml": "ചോയിച്ചേരി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 9623,
+        "ward_id": "7d76eb14-c829-4440-8131-1e07b1392303",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b9f30c98-a610-4afb-bb8c-c66bd7fefe31",
       "ward_no": "3",
       "name_en": "Onapparambu",
       "name_ml": "ഓണപ്പറമ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14313,
+        "ward_id": "b9f30c98-a610-4afb-bb8c-c66bd7fefe31",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d0e613e9-2227-46db-a06b-6e5adc6ed8af",
       "ward_no": "4",
       "name_en": "Kottanchery",
       "name_ml": "കോട്ടാഞ്ചേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16042,
+        "ward_id": "d0e613e9-2227-46db-a06b-6e5adc6ed8af",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "72815125-6e03-47ef-90fa-b0deaafa0f0e",
       "ward_no": "5",
       "name_en": "Malot  North",
       "name_ml": "മാലോട്ട് നോര്‍ത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8775,
+        "ward_id": "72815125-6e03-47ef-90fa-b0deaafa0f0e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "95d8144f-9ced-467d-9281-ad4775769554",
       "ward_no": "6",
       "name_en": "Palleri",
       "name_ml": "പള്ളേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11505,
+        "ward_id": "95d8144f-9ced-467d-9281-ad4775769554",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8d82be16-adad-4ff9-acef-314d2703f15c",
       "ward_no": "7",
       "name_en": "Malot  South",
       "name_ml": "മാലോട്ട് സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10861,
+        "ward_id": "8d82be16-adad-4ff9-acef-314d2703f15c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "5141f761-8301-4360-acee-0deb69cd8b0e",
       "ward_no": "8",
       "name_en": "Kannadiparamba East",
       "name_ml": "കണ്ണാടിപ്പറമ്പ ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6284,
+        "ward_id": "5141f761-8301-4360-acee-0deb69cd8b0e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "07520aa9-9d36-4edc-99ca-c1629b8d96ad",
       "ward_no": "9",
       "name_en": "Mathodam",
       "name_ml": "മാതോടം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 742,
+        "ward_id": "07520aa9-9d36-4edc-99ca-c1629b8d96ad",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4b5eecba-c353-4003-a3b0-fc191c470133",
       "ward_no": "10",
       "name_en": "Vayapram",
       "name_ml": "വയപ്രം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5839,
+        "ward_id": "4b5eecba-c353-4003-a3b0-fc191c470133",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5be74817-5b50-478c-b6a8-201a857e1540",
       "ward_no": "11",
       "name_en": "Kannadiparamba West",
       "name_ml": "കണ്ണാടിപ്പറമ്പ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7067,
+        "ward_id": "5be74817-5b50-478c-b6a8-201a857e1540",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0c95817e-1f6a-4780-acfd-f84b0b8154af",
       "ward_no": "12",
       "name_en": "Pulloopi",
       "name_ml": "പുല്ലൂപ്പി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1125,
+        "ward_id": "0c95817e-1f6a-4780-acfd-f84b0b8154af",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "71f57225-df59-483e-ad07-8ba702922325",
       "ward_no": "13",
       "name_en": "Pulloopi West",
       "name_ml": "പുല്ലൂപ്പി വെസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8728,
+        "ward_id": "71f57225-df59-483e-ad07-8ba702922325",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "2e69ba45-f21f-4648-98e9-7602206d7773",
       "ward_no": "14",
       "name_en": "Niduvatt",
       "name_ml": "നിടുവാട്ട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3668,
+        "ward_id": "2e69ba45-f21f-4648-98e9-7602206d7773",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "48f9cffd-9909-4914-9bf9-b2e97ba01465",
       "ward_no": "15",
       "name_en": "Kakkathuruthi",
       "name_ml": "കാക്കത്തുരുത്തി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5646,
+        "ward_id": "48f9cffd-9909-4914-9bf9-b2e97ba01465",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b3d22266-d2a4-4363-96ad-13e160e2fb29",
       "ward_no": "16",
       "name_en": "Narath",
       "name_ml": "നാറാത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13839,
+        "ward_id": "b3d22266-d2a4-4363-96ad-13e160e2fb29",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c0da41c7-7d6d-4a99-800b-e6308853fb28",
       "ward_no": "17",
       "name_en": "Kambil",
       "name_ml": "കമ്പില്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14826,
+        "ward_id": "c0da41c7-7d6d-4a99-800b-e6308853fb28",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

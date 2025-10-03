@@ -34,112 +34,192 @@
       "ward_no": "1",
       "name_en": "Mangode",
       "name_ml": "മാങ്ങോട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 19376,
+        "ward_id": "fc72623c-a36a-47aa-90ae-f9a918b83e74",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "46b27fe5-9b3e-4fa3-a457-e3006966cb3d",
       "ward_no": "2",
       "name_en": "Chammanoor",
       "name_ml": "ചമ്മന്നൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5452,
+        "ward_id": "46b27fe5-9b3e-4fa3-a457-e3006966cb3d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0f7853ab-3682-4567-a236-6436bfe0e031",
       "ward_no": "3",
       "name_en": "Poothakkad",
       "name_ml": "പൂതക്കാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1320,
+        "ward_id": "0f7853ab-3682-4567-a236-6436bfe0e031",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "63d89104-1624-41fa-8457-90256abb0b9d",
       "ward_no": "4",
       "name_en": "Attassery",
       "name_ml": "ആറ്റാശ്ശേരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7626,
+        "ward_id": "63d89104-1624-41fa-8457-90256abb0b9d",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "18a4b51d-7742-4f26-b17f-00414bc6dbdd",
       "ward_no": "5",
       "name_en": "Kariyamutti",
       "name_ml": "കരിയാമുട്ടി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2032,
+        "ward_id": "18a4b51d-7742-4f26-b17f-00414bc6dbdd",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "199c97ec-16d5-4213-8dee-099156f0b3d4",
       "ward_no": "6",
       "name_en": "Kezhoor North",
       "name_ml": "കീഴൂര്‍വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2114,
+        "ward_id": "199c97ec-16d5-4213-8dee-099156f0b3d4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7489c6de-e7be-4bc9-8249-9d47c60cbf1f",
       "ward_no": "7",
       "name_en": "Kezhoor South",
       "name_ml": "കീഴൂര്‍ തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8937,
+        "ward_id": "7489c6de-e7be-4bc9-8249-9d47c60cbf1f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ce7b10cd-41c5-4323-a7d2-1d0d403a7c9b",
       "ward_no": "8",
       "name_en": "Kezhoor Road",
       "name_ml": "കീഴൂര്‍ റോഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15863,
+        "ward_id": "ce7b10cd-41c5-4323-a7d2-1d0d403a7c9b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8ec29af4-50ad-4a37-80ed-ce32bb55680a",
       "ward_no": "9",
       "name_en": "Thrikkadeeri Centre",
       "name_ml": "തൃക്കടീരി സെന്‍റര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10947,
+        "ward_id": "8ec29af4-50ad-4a37-80ed-ce32bb55680a",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "cb61d0f0-f3fc-435b-b00e-6e4c09f1894c",
       "ward_no": "10",
       "name_en": "Tharuvakonam",
       "name_ml": "തരുവക്കോണം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15613,
+        "ward_id": "cb61d0f0-f3fc-435b-b00e-6e4c09f1894c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "da597f00-67fd-4b48-a7af-433f2b678074",
       "ward_no": "11",
       "name_en": "Karattukurussi",
       "name_ml": "കാരാട്ടുകുര്‍ശ്ശി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16697,
+        "ward_id": "da597f00-67fd-4b48-a7af-433f2b678074",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fb746dc1-4d01-4769-904b-cfbcbc3f335a",
       "ward_no": "12",
       "name_en": "Thrikkadeeri Dispensary",
       "name_ml": "തൃക്കടീരി ഡിസ്പെന്‍സറി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19289,
+        "ward_id": "fb746dc1-4d01-4769-904b-cfbcbc3f335a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "87eebe8a-655e-4295-9e3b-bc0b93bbc91c",
       "ward_no": "13",
       "name_en": "Ambalavattam",
       "name_ml": "അന്പലവട്ടം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10413,
+        "ward_id": "87eebe8a-655e-4295-9e3b-bc0b93bbc91c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "c8047bd5-9b50-4baf-9f9a-8f3c80e6b545",
       "ward_no": "14",
       "name_en": "Ambalavattam Kizhakku",
       "name_ml": "അന്പലവട്ടം കിഴക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15348,
+        "ward_id": "c8047bd5-9b50-4baf-9f9a-8f3c80e6b545",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b204c414-c9e5-4414-a348-d97a498d52b4",
       "ward_no": "15",
       "name_en": "Veeramangalam",
       "name_ml": "വീരമംഗലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13687,
+        "ward_id": "b204c414-c9e5-4414-a348-d97a498d52b4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "26765866-3d22-47d3-899e-42859f55a4c8",
       "ward_no": "16",
       "name_en": "Mangode Millumpadi",
       "name_ml": "മാങ്ങോട് മില്ലുംപടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3053,
+        "ward_id": "26765866-3d22-47d3-899e-42859f55a4c8",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

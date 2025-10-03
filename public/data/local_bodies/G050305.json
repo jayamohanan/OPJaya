@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Kurumulloor",
       "name_ml": "കുറുമുള്ളൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6931,
+        "ward_id": "59bbd243-6d38-4372-ad88-0c8ee62b532c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "2efa5339-d522-4fd9-bc2e-d7cd5e4a8704",
       "ward_no": "2",
       "name_en": "Moozhikulangara",
       "name_ml": "മൂഴിക്കുളങ്ങര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3708,
+        "ward_id": "2efa5339-d522-4fd9-bc2e-d7cd5e4a8704",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9825605b-b644-4f49-8850-5052d17f1667",
       "ward_no": "3",
       "name_en": "Kairathapuram",
       "name_ml": "കൈരാതപുരം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 11659,
+        "ward_id": "9825605b-b644-4f49-8850-5052d17f1667",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "db8a3a97-6181-4570-aae2-04ae01a278d4",
       "ward_no": "4",
       "name_en": "S K V North",
       "name_ml": "എസ് കെ വി നോര്‍ത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16795,
+        "ward_id": "db8a3a97-6181-4570-aae2-04ae01a278d4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a8629ab9-a4a7-4161-a467-98aad6158c0a",
       "ward_no": "5",
       "name_en": "S K V South",
       "name_ml": "എസ് കെ വി സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12896,
+        "ward_id": "a8629ab9-a4a7-4161-a467-98aad6158c0a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8691c3a1-c3be-489f-b828-e0b0c00610a6",
       "ward_no": "6",
       "name_en": "Onamthuruthu",
       "name_ml": "ഓണംതുരുത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10314,
+        "ward_id": "8691c3a1-c3be-489f-b828-e0b0c00610a6",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "dbd8848e-38c9-49e0-b84a-8d880af4f483",
       "ward_no": "7",
       "name_en": "Kuttyanikulangara",
       "name_ml": "കുറ്റ്യാനിക്കുളങ്ങര",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16826,
+        "ward_id": "dbd8848e-38c9-49e0-b84a-8d880af4f483",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "45b5eb21-6cdb-4d7f-b73a-d6c087ed08c4",
       "ward_no": "8",
       "name_en": "Kaipuzha Hospital Ward",
       "name_ml": "കൈപ്പുഴ ആശുപത്രി വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5370,
+        "ward_id": "45b5eb21-6cdb-4d7f-b73a-d6c087ed08c4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "85bac117-b94c-482c-ab30-740ca16b7cac",
       "ward_no": "9",
       "name_en": "Kaipuzha Postoffice Ward",
       "name_ml": "കൈപ്പുഴ പോസ്റ്റോഫീസ് വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10256,
+        "ward_id": "85bac117-b94c-482c-ab30-740ca16b7cac",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b68ee827-985c-4cb2-b12c-77c6d4fcda32",
       "ward_no": "10",
       "name_en": "Mekkavu",
       "name_ml": "മേക്കാവ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14068,
+        "ward_id": "b68ee827-985c-4cb2-b12c-77c6d4fcda32",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "723b08ed-ea96-401f-89fa-e72a35f00ddc",
       "ward_no": "11",
       "name_en": "Sasthankal",
       "name_ml": "ശാസ്താങ്കല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8754,
+        "ward_id": "723b08ed-ea96-401f-89fa-e72a35f00ddc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ee29a6be-a868-4127-a300-2da100addeb0",
       "ward_no": "12",
       "name_en": "Kuttompuram",
       "name_ml": "കുട്ടോമ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18265,
+        "ward_id": "ee29a6be-a868-4127-a300-2da100addeb0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9819f6cc-4aff-4ee8-9c53-a7db98db12c3",
       "ward_no": "13",
       "name_en": "Palathuruthu",
       "name_ml": "പാലത്തുരുത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11652,
+        "ward_id": "9819f6cc-4aff-4ee8-9c53-a7db98db12c3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3f2c4cde-189b-42b8-8e11-c1542decd454",
       "ward_no": "14",
       "name_en": "Pravattom",
       "name_ml": "പ്രാവട്ടം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4912,
+        "ward_id": "3f2c4cde-189b-42b8-8e11-c1542decd454",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "51a0c1d8-e8f0-4dc3-a4ab-09aa5c6da534",
       "ward_no": "15",
       "name_en": "St.Michel",
       "name_ml": "സെന്‍റ്. മൈക്കിള്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6314,
+        "ward_id": "51a0c1d8-e8f0-4dc3-a4ab-09aa5c6da534",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

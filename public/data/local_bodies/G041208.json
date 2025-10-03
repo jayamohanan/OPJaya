@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "St.Thomas High School",
       "name_ml": "സെന്‍റ് തോമസ് ഹൈസ്കൂള്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7058,
+        "ward_id": "5bc8e98f-9f7b-422c-bebc-7481be68b99d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "5ff8be9e-a24e-4836-96a5-c4b5cdd4adef",
       "ward_no": "2",
       "name_en": "Kunnel Peedika",
       "name_ml": "കുന്നേല്‍ പീടിക",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7340,
+        "ward_id": "5ff8be9e-a24e-4836-96a5-c4b5cdd4adef",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "da2ca8a9-9a76-4e5b-b3f5-5aa175d23a30",
       "ward_no": "3",
       "name_en": "Nangiarkulangara West",
       "name_ml": "നങ്ങ്യാര്‍കുളങ്ങര പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16681,
+        "ward_id": "da2ca8a9-9a76-4e5b-b3f5-5aa175d23a30",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6db02849-cecb-4321-a5c8-b813793df4a3",
       "ward_no": "4",
       "name_en": "Nangiarkulangara",
       "name_ml": "നങ്ങ്യാര്‍കുളങ്ങര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8371,
+        "ward_id": "6db02849-cecb-4321-a5c8-b813793df4a3",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a66ef271-91ce-4d50-8a5d-e5e984737349",
       "ward_no": "5",
       "name_en": "Moozhikulam",
       "name_ml": "മൂഴിക്കുളം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12748,
+        "ward_id": "a66ef271-91ce-4d50-8a5d-e5e984737349",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "fe24dd76-02af-4823-ba69-06961b3e40cb",
       "ward_no": "6",
       "name_en": "Kanjoor Kottakakm",
       "name_ml": "കാഞ്ഞൂര്‍ക്കോട്ടയ്ക്കകം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19484,
+        "ward_id": "fe24dd76-02af-4823-ba69-06961b3e40cb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9a2013f4-9b2c-4f97-82d2-88e710b442a3",
       "ward_no": "7",
       "name_en": "Chingoli Town",
       "name_ml": "ചിങ്ങോലി ടൌണ്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11803,
+        "ward_id": "9a2013f4-9b2c-4f97-82d2-88e710b442a3",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "95449fff-1834-47d9-8057-51c1796bd659",
       "ward_no": "8",
       "name_en": "Vayanasala",
       "name_ml": "വായനശാല",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11458,
+        "ward_id": "95449fff-1834-47d9-8057-51c1796bd659",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "392f9797-46f2-41dc-b547-375198394cb0",
       "ward_no": "9",
       "name_en": "Ntpc",
       "name_ml": "എന്‍.ടി.പി.സി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4496,
+        "ward_id": "392f9797-46f2-41dc-b547-375198394cb0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "26857b59-a6e9-44f7-8319-450689d3fa91",
       "ward_no": "10",
       "name_en": "Vempuzha",
       "name_ml": "വെമ്പുഴ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3059,
+        "ward_id": "26857b59-a6e9-44f7-8319-450689d3fa91",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "41b6baa4-a50f-4800-a849-70221c7b1e8c",
       "ward_no": "11",
       "name_en": "Chooravila",
       "name_ml": "ചൂരവിള",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5081,
+        "ward_id": "41b6baa4-a50f-4800-a849-70221c7b1e8c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "4e3f9a5f-f412-4e90-b235-1a81f82ca843",
       "ward_no": "12",
       "name_en": "Panchayath Office",
       "name_ml": "പഞ്ചായത്ത് ഓഫീസ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6055,
+        "ward_id": "4e3f9a5f-f412-4e90-b235-1a81f82ca843",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "97b9aab0-20cd-4e99-9e47-9be5159b2c6a",
       "ward_no": "13",
       "name_en": "Chingoli West",
       "name_ml": "ചിങ്ങോലി പടിഞ്ഞാറ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11621,
+        "ward_id": "97b9aab0-20cd-4e99-9e47-9be5159b2c6a",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

@@ -247,36 +247,24 @@ function toFilename(name) {
       const lbWardsWithBasicInfo = wards
         .filter(w => w.local_body_id === l.id)
         .map(w => {
-          // Find the latest collection rate for this ward
+          // Find the latest collection for this ward
           const collections = (wardCollections || []).filter(c => c.ward_id === w.id);
-          
-          // Debug logging for G090107
-          if (l.id === 'G090107') {
-            console.log(`🔍 DEBUG: Ward ${w.ward_no} (${w.name_en}) - ID: ${w.id}`);
-            console.log(`🔍 DEBUG: Found ${collections.length} collections for this ward`);
-            if (collections.length > 0) {
-              console.log(`🔍 DEBUG: Sample collection:`, collections[0]);
-            }
-          }
-          
           // Sort by year_month descending and pick the first (latest)
           const sorted = collections
             .filter(c => c.year_month)
             .sort((a, b) => b.year_month.localeCompare(a.year_month));
           const latest = sorted[0] || null;
-          
-          // Debug logging for G090107
-          if (l.id === 'G090107' && latest) {
-            console.log(`🔍 DEBUG: Latest collection for ward ${w.ward_no}:`, latest);
-            console.log(`🔍 DEBUG: Rate value: ${latest.rate} (type: ${typeof latest.rate})`);
-          }
-          
           return {
             id: w.id,
             ward_no: w.ward_no || '',
             name_en: w.name_en || '',
             name_ml: w.name_ml || '',
-            rate: (latest && latest.rate != null && latest.rate !== '') ? Number(latest.rate) : null
+            ward_collection: latest ? {
+              collection_id: latest.collection_id,
+              ward_id: latest.ward_id,
+              year_month: latest.year_month,
+              rate: latest.rate
+            } : null
           };
         });
       const lbTowns = towns.filter(t => t.local_body_id === l.id);

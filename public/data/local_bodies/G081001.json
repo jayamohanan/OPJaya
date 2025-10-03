@@ -34,98 +34,168 @@
       "ward_no": "1",
       "name_en": "Palakkal",
       "name_ml": "പാലക്കല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10004,
+        "ward_id": "8277d807-fe32-4894-bc4e-258f0047915b",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "933a7bda-cf93-43e9-822f-b40323fac5da",
       "ward_no": "2",
       "name_en": "Palissery North",
       "name_ml": "പാലിശ്ശേരി നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11312,
+        "ward_id": "933a7bda-cf93-43e9-822f-b40323fac5da",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b1150801-d988-4602-8b7f-ae2a3f6e534c",
       "ward_no": "3",
       "name_en": "Ambedkar",
       "name_ml": "അംബേദ്ക്കര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13612,
+        "ward_id": "b1150801-d988-4602-8b7f-ae2a3f6e534c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3b9ab92e-c1e0-40bc-90ba-0f231c009469",
       "ward_no": "4",
       "name_en": "Bottujetty",
       "name_ml": "ബോട്ടുുജെട്ടി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 4680,
+        "ward_id": "3b9ab92e-c1e0-40bc-90ba-0f231c009469",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "30098dea-e601-40d5-9b23-09ea783994ea",
       "ward_no": "5",
       "name_en": "Avinissery",
       "name_ml": "അവിണിശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3793,
+        "ward_id": "30098dea-e601-40d5-9b23-09ea783994ea",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6bbd4e6e-1b45-4b11-a2cd-2ffbb3a4f251",
       "ward_no": "6",
       "name_en": "Vallissery North",
       "name_ml": "വള്ളിശ്ശേരി നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8217,
+        "ward_id": "6bbd4e6e-1b45-4b11-a2cd-2ffbb3a4f251",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "35000511-6159-443b-bf22-49116d860fe5",
       "ward_no": "7",
       "name_en": "Vallissery",
       "name_ml": "വള്ളിശ്ശേരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4189,
+        "ward_id": "35000511-6159-443b-bf22-49116d860fe5",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f6b658d2-3199-4c32-bd4c-7a96775a91d9",
       "ward_no": "8",
       "name_en": "Vallissery South",
       "name_ml": "വള്ളിശ്ശേരി സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18915,
+        "ward_id": "f6b658d2-3199-4c32-bd4c-7a96775a91d9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "04f98efe-911f-4346-a5e7-a62878a7a5d8",
       "ward_no": "9",
       "name_en": "Thrithamarassery",
       "name_ml": "തൃത്താമരശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 559,
+        "ward_id": "04f98efe-911f-4346-a5e7-a62878a7a5d8",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c8f873ab-a458-42b3-b1f5-d838c9ef70cc",
       "ward_no": "10",
       "name_en": "Perinchery",
       "name_ml": "പെരിഞ്ചേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15430,
+        "ward_id": "c8f873ab-a458-42b3-b1f5-d838c9ef70cc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "44bb6bc5-4efd-41d0-9785-269f9e7eaa69",
       "ward_no": "11",
       "name_en": "Cheruvathery",
       "name_ml": "ചെറുവത്തേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5296,
+        "ward_id": "44bb6bc5-4efd-41d0-9785-269f9e7eaa69",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "cf81fe29-7e08-47c3-922c-7989485cf913",
       "ward_no": "12",
       "name_en": "Thottapaya",
       "name_ml": "തോട്ടപ്പായ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15950,
+        "ward_id": "cf81fe29-7e08-47c3-922c-7989485cf913",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "15c6e88d-22f4-41db-ba07-c5cbbcb5f05b",
       "ward_no": "13",
       "name_en": "Palissery",
       "name_ml": "പാലിശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1810,
+        "ward_id": "15c6e88d-22f4-41db-ba07-c5cbbcb5f05b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a7dc6033-80c6-45d7-8bfd-551196bfb7c1",
       "ward_no": "14",
       "name_en": "Palakkal East",
       "name_ml": "പാലക്കല്‍ ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12856,
+        "ward_id": "a7dc6033-80c6-45d7-8bfd-551196bfb7c1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

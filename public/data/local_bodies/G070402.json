@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Elambakappilly North",
       "name_ml": "ഇളമ്പകപ്പിള്ളി വടക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16987,
+        "ward_id": "ddad3660-cce9-4362-9bf3-066c110f3cee",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b40bb1ee-eb38-466a-885e-6b2a7c38026c",
       "ward_no": "2",
       "name_en": "Akanad North",
       "name_ml": "അകനാട് വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13863,
+        "ward_id": "b40bb1ee-eb38-466a-885e-6b2a7c38026c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f3b82eb6-b365-408d-a990-1d13b2f4a37f",
       "ward_no": "3",
       "name_en": "Vaniyappilly",
       "name_ml": "വാണിയപ്പിള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18702,
+        "ward_id": "f3b82eb6-b365-408d-a990-1d13b2f4a37f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0e4af920-8e88-4b7f-ad99-313297bfe8b1",
       "ward_no": "4",
       "name_en": "Meembara",
       "name_ml": "മീമ്പാറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1251,
+        "ward_id": "0e4af920-8e88-4b7f-ad99-313297bfe8b1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6c542436-bb90-4332-b051-2e2460db97b9",
       "ward_no": "5",
       "name_en": "Pandikkad",
       "name_ml": "പാണ്ടിക്കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8269,
+        "ward_id": "6c542436-bb90-4332-b051-2e2460db97b9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0192c807-a5b5-4ca8-a2bf-1d6ab839a919",
       "ward_no": "6",
       "name_en": "Thuruthy",
       "name_ml": "തുരുത്തി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 285,
+        "ward_id": "0192c807-a5b5-4ca8-a2bf-1d6ab839a919",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "c0501757-59bb-4f47-98fb-b0bc87c4d5e6",
       "ward_no": "7",
       "name_en": "Pralayakkad South",
       "name_ml": "പ്രളയക്കാട് തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14788,
+        "ward_id": "c0501757-59bb-4f47-98fb-b0bc87c4d5e6",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "56a63a6e-9ba3-4261-b783-d7c6d36d5613",
       "ward_no": "8",
       "name_en": "Pralayakkad North",
       "name_ml": "പ്രളയക്കാട് വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6684,
+        "ward_id": "56a63a6e-9ba3-4261-b783-d7c6d36d5613",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1f148047-0a3a-4c07-b72e-7817a185a508",
       "ward_no": "9",
       "name_en": "Pettamala",
       "name_ml": "പെട്ടമല",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2530,
+        "ward_id": "1f148047-0a3a-4c07-b72e-7817a185a508",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "c286cc8c-396c-46da-ad28-7c7feab42037",
       "ward_no": "10",
       "name_en": "Mudakuzha East",
       "name_ml": "മുടക്കുഴ കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14970,
+        "ward_id": "c286cc8c-396c-46da-ad28-7c7feab42037",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "66532126-38b7-416a-960b-653681d97d43",
       "ward_no": "11",
       "name_en": "Akanad South",
       "name_ml": "അകനാട് തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7800,
+        "ward_id": "66532126-38b7-416a-960b-653681d97d43",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "2ab8a7b3-bd4c-4eae-9c07-f875bb791cea",
       "ward_no": "12",
       "name_en": "Mudakuzha West",
       "name_ml": "മുടക്കുഴ പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3382,
+        "ward_id": "2ab8a7b3-bd4c-4eae-9c07-f875bb791cea",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "628a38e4-3a22-4ab1-9b41-c0380912b547",
       "ward_no": "13",
       "name_en": "Elambakappilly South",
       "name_ml": "ഇളമ്പകപ്പിള്ളി തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7540,
+        "ward_id": "628a38e4-3a22-4ab1-9b41-c0380912b547",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

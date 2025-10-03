@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Panackal Kshetharam",
       "name_ml": "പനയ്ക്കല്‍ ക്ഷേത്രം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1603,
+        "ward_id": "130448d4-af74-4b6e-934f-431a22744ebd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3dece9a1-059f-4ac3-a9d2-b74c1b023dc9",
       "ward_no": "2",
       "name_en": "Kadambanakulangara",
       "name_ml": "കടമ്പനാകുളങ്ങര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4838,
+        "ward_id": "3dece9a1-059f-4ac3-a9d2-b74c1b023dc9",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "d0c11f62-6a69-4a77-9f8a-ea6aded74d76",
       "ward_no": "3",
       "name_en": "Kalathil Kshethram",
       "name_ml": "കളത്തില്‍ ക്ഷേത്രം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16030,
+        "ward_id": "d0c11f62-6a69-4a77-9f8a-ea6aded74d76",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1a171951-f702-490b-9715-ee9c768ebfae",
       "ward_no": "4",
       "name_en": "Krishibhavan",
       "name_ml": "കൃഷിഭവന്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2148,
+        "ward_id": "1a171951-f702-490b-9715-ee9c768ebfae",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "32d9ee6a-fea1-4a37-b7da-600849c5503c",
       "ward_no": "5",
       "name_en": "Kadavil Bhagavathy Kshethram",
       "name_ml": "കടവില്‍ ഭഗവതി ക്ഷേത്രം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4009,
+        "ward_id": "32d9ee6a-fea1-4a37-b7da-600849c5503c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f4eacfa4-d5d1-4ae0-b5a8-1718a88b99ae",
       "ward_no": "6",
       "name_en": "Village Office",
       "name_ml": "വില്ലേജ് ഓഫീസ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18774,
+        "ward_id": "f4eacfa4-d5d1-4ae0-b5a8-1718a88b99ae",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "119cc9a7-133d-448d-a519-a66b505925a1",
       "ward_no": "7",
       "name_en": "College",
       "name_ml": "കോളേജ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1498,
+        "ward_id": "119cc9a7-133d-448d-a519-a66b505925a1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9a6f660c-517d-40d9-8aa0-a22088522359",
       "ward_no": "8",
       "name_en": "Vadakumkara Kshethram",
       "name_ml": "വടക്കുംകര ക്ഷേത്രം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 11834,
+        "ward_id": "9a6f660c-517d-40d9-8aa0-a22088522359",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "99a6cc0d-3ad8-479c-913f-7f2c7a9a42d7",
       "ward_no": "9",
       "name_en": "St.Joseph Church",
       "name_ml": "സെന്‍റ് ജോസഫ് ചര്‍ച്ച്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11771,
+        "ward_id": "99a6cc0d-3ad8-479c-913f-7f2c7a9a42d7",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9f250b97-cd64-4a8e-b03e-4cc23710e294",
       "ward_no": "10",
       "name_en": "Govindapuram",
       "name_ml": "ഗോവിന്ദപുരം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12197,
+        "ward_id": "9f250b97-cd64-4a8e-b03e-4cc23710e294",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "7742389f-bc08-46a9-aef4-e71c2a3864f2",
       "ward_no": "11",
       "name_en": "Kallarathara",
       "name_ml": "കല്ലറത്തറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9139,
+        "ward_id": "7742389f-bc08-46a9-aef4-e71c2a3864f2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "da055a70-754f-4bbf-855c-5074fed7ea0f",
       "ward_no": "12",
       "name_en": "Vilakumaram",
       "name_ml": "വിളക്കുമരം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16662,
+        "ward_id": "da055a70-754f-4bbf-855c-5074fed7ea0f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "86eef203-fe30-43cf-8933-ee2027209ab9",
       "ward_no": "13",
       "name_en": "Thirunalloor",
       "name_ml": "തിരുനെല്ലൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10337,
+        "ward_id": "86eef203-fe30-43cf-8933-ee2027209ab9",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d5156e32-cb58-4e4b-9940-8ffc37ceca1c",
       "ward_no": "14",
       "name_en": "Pallathara",
       "name_ml": "പള്ളാത്തറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16348,
+        "ward_id": "d5156e32-cb58-4e4b-9940-8ffc37ceca1c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d8b2a918-3c26-46bb-bc88-942ad0677d07",
       "ward_no": "15",
       "name_en": "Padmapuram",
       "name_ml": "പത്മപുരം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16581,
+        "ward_id": "d8b2a918-3c26-46bb-bc88-942ad0677d07",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "d5c203f8-9086-4425-aae7-d54ac1bffe11",
       "ward_no": "16",
       "name_en": "Vellimuttam",
       "name_ml": "വെള്ളിമുറ്റം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16395,
+        "ward_id": "d5c203f8-9086-4425-aae7-d54ac1bffe11",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "acb0a9bd-2686-4c87-80a6-2bdad41b351b",
       "ward_no": "17",
       "name_en": "Palluvelil Bhagam",
       "name_ml": "പല്ലുവേലിഭാഗം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13237,
+        "ward_id": "acb0a9bd-2686-4c87-80a6-2bdad41b351b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

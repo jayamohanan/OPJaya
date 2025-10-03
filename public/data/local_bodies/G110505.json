@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Keezhppayur",
       "name_ml": "കീഴ്പ്പയ്യൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1293,
+        "ward_id": "0f14c318-43b5-4027-8189-84a25cf93481",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "2a7a2b8a-9af5-447b-991a-5ffc9e193650",
       "ward_no": "2",
       "name_en": "Janakeeyamukku",
       "name_ml": "ജനകീയമുക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3357,
+        "ward_id": "2a7a2b8a-9af5-447b-991a-5ffc9e193650",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "861dbfe5-8ed5-4e9f-a24f-3347eeddf780",
       "ward_no": "3",
       "name_en": "Meppayyur",
       "name_ml": "മേപ്പയ്യൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10281,
+        "ward_id": "861dbfe5-8ed5-4e9f-a24f-3347eeddf780",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c7448695-7705-4a77-96d1-11e223b82f59",
       "ward_no": "4",
       "name_en": "Edathilmukku",
       "name_ml": "എടത്തില്‍മുക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15299,
+        "ward_id": "c7448695-7705-4a77-96d1-11e223b82f59",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8f494798-9f9b-4bbd-a76c-bf11691a482a",
       "ward_no": "5",
       "name_en": "Madathumbhagam",
       "name_ml": "മഠത്തുംഭാഗം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10988,
+        "ward_id": "8f494798-9f9b-4bbd-a76c-bf11691a482a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "45a5425e-44e5-431e-8090-476888fe394a",
       "ward_no": "6",
       "name_en": "Changaramvelli",
       "name_ml": "ചങ്ങരംവെള്ളി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5364,
+        "ward_id": "45a5425e-44e5-431e-8090-476888fe394a",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a6bb1f1d-efa3-484b-8795-4abc98b2f0c7",
       "ward_no": "7",
       "name_en": "Kayalad",
       "name_ml": "കായലാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12772,
+        "ward_id": "a6bb1f1d-efa3-484b-8795-4abc98b2f0c7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9e4a4db9-ed7e-48be-9c5e-d9da3c4c25e1",
       "ward_no": "8",
       "name_en": "Meppayur Town",
       "name_ml": "മേപ്പയ്യൂര്‍ ടൌണ്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12134,
+        "ward_id": "9e4a4db9-ed7e-48be-9c5e-d9da3c4c25e1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "01266aba-21f3-4ac8-8acc-7dbc55c3c872",
       "ward_no": "9",
       "name_en": "Kozhukkallur",
       "name_ml": "കൊഴുക്കല്ലൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 247,
+        "ward_id": "01266aba-21f3-4ac8-8acc-7dbc55c3c872",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6e9cc286-d34a-4f47-bf02-9390aecb302a",
       "ward_no": "10",
       "name_en": "Chavattu",
       "name_ml": "ചാവട്ട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8444,
+        "ward_id": "6e9cc286-d34a-4f47-bf02-9390aecb302a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e9ff9bdd-b562-4cdd-8304-e75cea066de4",
       "ward_no": "11",
       "name_en": "Nidumboyil",
       "name_ml": "നിടുംമ്പൊയില്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17932,
+        "ward_id": "e9ff9bdd-b562-4cdd-8304-e75cea066de4",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "ee44e9aa-f6c1-4c9d-96e3-31d4bf4b7c38",
       "ward_no": "12",
       "name_en": "Narakkode",
       "name_ml": "നരക്കോട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18274,
+        "ward_id": "ee44e9aa-f6c1-4c9d-96e3-31d4bf4b7c38",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7ee990fb-d342-4ee3-b818-8fe050ee2989",
       "ward_no": "13",
       "name_en": "Marutheriparamb",
       "name_ml": "മരുതേരിപറമ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9743,
+        "ward_id": "7ee990fb-d342-4ee3-b818-8fe050ee2989",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5d22a248-7cfb-4f12-a9f5-02a3b37ee2d0",
       "ward_no": "14",
       "name_en": "Manhakulam",
       "name_ml": "മഞ്ഞക്കുളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7157,
+        "ward_id": "5d22a248-7cfb-4f12-a9f5-02a3b37ee2d0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "383cc141-f97a-4131-8135-53b3bbd711eb",
       "ward_no": "15",
       "name_en": "Pavattukandymukku",
       "name_ml": "പാവട്ട്കണ്ടിമുക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4424,
+        "ward_id": "383cc141-f97a-4131-8135-53b3bbd711eb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0675fb40-e3b4-4d9f-af98-897f0c8c628b",
       "ward_no": "16",
       "name_en": "Vilayattoor",
       "name_ml": "വിളയാട്ടൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 671,
+        "ward_id": "0675fb40-e3b4-4d9f-af98-897f0c8c628b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7b3aae35-bcb6-4cf0-9f54-cbb2db6e275e",
       "ward_no": "17",
       "name_en": "Narikkuni",
       "name_ml": "നരിക്കുനി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9460,
+        "ward_id": "7b3aae35-bcb6-4cf0-9f54-cbb2db6e275e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

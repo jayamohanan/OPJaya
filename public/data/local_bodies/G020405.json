@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Thazhathuvadakku",
       "name_ml": "താഴത്ത് വടക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12536,
+        "ward_id": "a37cd76b-7081-4ab2-a56b-9eea7729db1c",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fd7eb04a-c3ed-48c0-b5be-66c4fca43dbe",
       "ward_no": "2",
       "name_en": "Erathuvadakku",
       "name_ml": "ഏറത്ത് വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19444,
+        "ward_id": "fd7eb04a-c3ed-48c0-b5be-66c4fca43dbe",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f233e782-3db7-4354-917b-f828a9351958",
       "ward_no": "3",
       "name_en": "Meenam",
       "name_ml": "മീനം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18564,
+        "ward_id": "f233e782-3db7-4354-917b-f828a9351958",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d46541d5-388e-49df-b98b-663192b115f2",
       "ward_no": "4",
       "name_en": "Panthaplave",
       "name_ml": "പന്തപ്ലാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16303,
+        "ward_id": "d46541d5-388e-49df-b98b-663192b115f2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1272924e-768d-4a9a-b63a-ed14b56f6f45",
       "ward_no": "5",
       "name_en": "Panthrandumuri",
       "name_ml": "പന്ത്രണ്ട്മുറി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1557,
+        "ward_id": "1272924e-768d-4a9a-b63a-ed14b56f6f45",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4aec1c6a-8e60-4a49-a49c-0fc07cf403b3",
       "ward_no": "6",
       "name_en": "Pulivila",
       "name_ml": "പുളിവിള",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5803,
+        "ward_id": "4aec1c6a-8e60-4a49-a49c-0fc07cf403b3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "11824b39-ae1c-487a-99ed-b2954e8614ed",
       "ward_no": "7",
       "name_en": "Mayiladumpara",
       "name_ml": "മയിലാടുംപാറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1487,
+        "ward_id": "11824b39-ae1c-487a-99ed-b2954e8614ed",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "53e0d7d7-bb42-4b89-938e-2d95fbc8a71a",
       "ward_no": "8",
       "name_en": "Panayanam",
       "name_ml": "പനയനം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6487,
+        "ward_id": "53e0d7d7-bb42-4b89-938e-2d95fbc8a71a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "af801dad-b074-4bb9-ad2a-8c2c056c4eb8",
       "ward_no": "9",
       "name_en": "Town",
       "name_ml": "ഠൌണ്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13459,
+        "ward_id": "af801dad-b074-4bb9-ad2a-8c2c056c4eb8",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "343c43e8-fb03-4d97-a7a6-3509891a391e",
       "ward_no": "10",
       "name_en": "Kannimel",
       "name_ml": "കന്നിമേല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4121,
+        "ward_id": "343c43e8-fb03-4d97-a7a6-3509891a391e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4a166de5-794e-45f6-8123-7500c9076fd5",
       "ward_no": "11",
       "name_en": "Nadutheri",
       "name_ml": "നടുത്തേരി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5749,
+        "ward_id": "4a166de5-794e-45f6-8123-7500c9076fd5",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "e19f22a0-5f1c-4331-a08b-7a40643a0258",
       "ward_no": "12",
       "name_en": "Thekketheri",
       "name_ml": "തെക്കേത്തേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17287,
+        "ward_id": "e19f22a0-5f1c-4331-a08b-7a40643a0258",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "66d6d072-02f6-471d-8a38-9fb91da4d63a",
       "ward_no": "13",
       "name_en": "Maruthamonbhagom",
       "name_ml": "മരുതമണ്‍ഭാഗം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7829,
+        "ward_id": "66d6d072-02f6-471d-8a38-9fb91da4d63a",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

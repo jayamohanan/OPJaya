@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Thrikkottur West",
       "name_ml": "തൃക്കോട്ടൂൂര്‍ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6421,
+        "ward_id": "53003fb5-00cb-4fe8-8bb9-2a4febcafbe4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3186e1b6-2a72-473d-b2ea-305b272170e8",
       "ward_no": "2",
       "name_en": "Thrikkottur North",
       "name_ml": "തൃക്കോട്ടൂൂര്‍ നോര്‍ത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3900,
+        "ward_id": "3186e1b6-2a72-473d-b2ea-305b272170e8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "e8313162-3fd3-4c5b-8474-3557557ce00c",
       "ward_no": "3",
       "name_en": "Pallikkara North",
       "name_ml": "പള്ളിക്കര നോര്‍ത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17795,
+        "ward_id": "e8313162-3fd3-4c5b-8474-3557557ce00c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "0c1eb4b2-65d9-4510-b80c-778f898d17f8",
       "ward_no": "4",
       "name_en": "Pallikkara Central",
       "name_ml": "പള്ളിക്കര സെന്റ്രല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1098,
+        "ward_id": "0c1eb4b2-65d9-4510-b80c-778f898d17f8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "41fb024f-d1b8-4a1f-8b86-8ed62f12033c",
       "ward_no": "5",
       "name_en": "Pallikkara South",
       "name_ml": "പള്ളിക്കര സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5106,
+        "ward_id": "41fb024f-d1b8-4a1f-8b86-8ed62f12033c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5f8188d2-feba-4141-b733-4d2658b93fc4",
       "ward_no": "6",
       "name_en": "Purakkad Koprakandam",
       "name_ml": "പുറക്കാട് കൊപ്രക്കണ്ടം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7308,
+        "ward_id": "5f8188d2-feba-4141-b733-4d2658b93fc4",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "51767a67-952c-4d84-a461-16577002de96",
       "ward_no": "7",
       "name_en": "Kidanhikunnu",
       "name_ml": "കിടഞ്ഞിക്കുന്ന്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6294,
+        "ward_id": "51767a67-952c-4d84-a461-16577002de96",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ab6e6270-24f6-42ec-b8af-ae184c0e1227",
       "ward_no": "8",
       "name_en": "Purakkad",
       "name_ml": "പുറക്കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13140,
+        "ward_id": "ab6e6270-24f6-42ec-b8af-ae184c0e1227",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "482ae24f-f862-4af1-8957-72dca5e5c50a",
       "ward_no": "9",
       "name_en": "Purakkad West",
       "name_ml": "പുറക്കാട് വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5577,
+        "ward_id": "482ae24f-f862-4af1-8957-72dca5e5c50a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "2a202c5e-61f6-4575-96a5-1e5c472f7369",
       "ward_no": "10",
       "name_en": "Kozhipuram",
       "name_ml": "കോഴിപ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3325,
+        "ward_id": "2a202c5e-61f6-4575-96a5-1e5c472f7369",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "01a00612-cc92-4884-9b5c-00e5f427705b",
       "ward_no": "11",
       "name_en": "Thikkodi Town",
       "name_ml": "തിക്കോടി ടൌണ്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 289,
+        "ward_id": "01a00612-cc92-4884-9b5c-00e5f427705b",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b4b14af9-f5c7-4248-b40d-74c2769e685b",
       "ward_no": "12",
       "name_en": "Paloor",
       "name_ml": "പാലൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13913,
+        "ward_id": "b4b14af9-f5c7-4248-b40d-74c2769e685b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "8989411c-d0ea-4b1e-9e1a-1839776e75bc",
       "ward_no": "13",
       "name_en": "Paloor West",
       "name_ml": "പാലൂര്‍ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10523,
+        "ward_id": "8989411c-d0ea-4b1e-9e1a-1839776e75bc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6602769f-7e95-4845-9b83-2c18fd1feaa4",
       "ward_no": "14",
       "name_en": "Thikkodi West",
       "name_ml": "തിക്കോടി വെസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7769,
+        "ward_id": "6602769f-7e95-4845-9b83-2c18fd1feaa4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "ea6ce1b1-cb6c-43a9-8491-64aae6e1638d",
       "ward_no": "15",
       "name_en": "Thikkodi Angadi",
       "name_ml": "തിക്കോടി അങ്ങാടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17967,
+        "ward_id": "ea6ce1b1-cb6c-43a9-8491-64aae6e1638d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6047f61a-7126-45b4-a323-62a7c82d9977",
       "ward_no": "16",
       "name_en": "Thrikkottur South",
       "name_ml": "തൃക്കോട്ടൂൂര്‍ സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7369,
+        "ward_id": "6047f61a-7126-45b4-a323-62a7c82d9977",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "956cfaf1-fc25-44cc-9d7d-d4fe853959a5",
       "ward_no": "17",
       "name_en": "Thrikkottur",
       "name_ml": "തൃക്കോട്ടൂൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11467,
+        "ward_id": "956cfaf1-fc25-44cc-9d7d-d4fe853959a5",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

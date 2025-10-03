@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Palchuvadu",
       "name_ml": "പാലച്ചുവട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 13665,
+        "ward_id": "b1badcf1-4b0b-4071-8c9c-da409007927e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "95e279c6-627d-489a-becc-2e61afe5c1ab",
       "ward_no": "2",
       "name_en": "Pazhayattil",
       "name_ml": "പഴയാറ്റില്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11508,
+        "ward_id": "95e279c6-627d-489a-becc-2e61afe5c1ab",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "8c15d1d0-3997-4fa7-bddf-31c285425e94",
       "ward_no": "3",
       "name_en": "Perissery",
       "name_ml": "പേരിശ്ശേരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10745,
+        "ward_id": "8c15d1d0-3997-4fa7-bddf-31c285425e94",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9134b3d8-e8b6-4097-9ab6-1180b19d180d",
       "ward_no": "4",
       "name_en": "Nootavanpara",
       "name_ml": "നൂറ്റവന്‍പാറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11137,
+        "ward_id": "9134b3d8-e8b6-4097-9ab6-1180b19d180d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "86b4ade7-7706-4f8c-bf7a-84c6ea5e51eb",
       "ward_no": "5",
       "name_en": "Thinkalamuttam",
       "name_ml": "തിങ്കളാമുറ്റം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10323,
+        "ward_id": "86b4ade7-7706-4f8c-bf7a-84c6ea5e51eb",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "783abd98-52e6-454b-87c4-83a2ff880cf2",
       "ward_no": "6",
       "name_en": "Madathumpadi",
       "name_ml": "മഠത്തുംപടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9231,
+        "ward_id": "783abd98-52e6-454b-87c4-83a2ff880cf2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "920eb741-0a72-4d6a-8e52-4b1fcadb70a5",
       "ward_no": "7",
       "name_en": "Puliyoor East",
       "name_ml": "പുലിയൂര്‍ കിഴക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11215,
+        "ward_id": "920eb741-0a72-4d6a-8e52-4b1fcadb70a5",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "f7c1a726-e46b-4555-9a10-19123f673761",
       "ward_no": "8",
       "name_en": "Kulikkampalam",
       "name_ml": "കുളിക്കാംപാലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18999,
+        "ward_id": "f7c1a726-e46b-4555-9a10-19123f673761",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8f7bdf6a-19f7-4e30-8195-856cf0a24c46",
       "ward_no": "9",
       "name_en": "Puliyoor Central",
       "name_ml": "പുലിയൂര്‍ സെന്‍ട്രല്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10997,
+        "ward_id": "8f7bdf6a-19f7-4e30-8195-856cf0a24c46",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "c1d22391-f300-487b-acc5-a962b0a15956",
       "ward_no": "10",
       "name_en": "Thonakkadu",
       "name_ml": "തോനയ്ക്കാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14907,
+        "ward_id": "c1d22391-f300-487b-acc5-a962b0a15956",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "0b6da690-50bc-4f38-82e9-bfbee02595e0",
       "ward_no": "11",
       "name_en": "Elanjimel",
       "name_ml": "ഇലഞ്ഞിമേല്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1037,
+        "ward_id": "0b6da690-50bc-4f38-82e9-bfbee02595e0",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "ba5aad1b-b9e0-4347-be2a-7062e7586f76",
       "ward_no": "12",
       "name_en": "Elanjimel Kadanmavu",
       "name_ml": "ഇലഞ്ഞിമേല്‍ കാടന്‍മാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14344,
+        "ward_id": "ba5aad1b-b9e0-4347-be2a-7062e7586f76",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fe2f8d1b-957e-443e-a5f9-2cd60ad63104",
       "ward_no": "13",
       "name_en": "Puliyoor West",
       "name_ml": "പുലിയൂര്‍ പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19486,
+        "ward_id": "fe2f8d1b-957e-443e-a5f9-2cd60ad63104",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

@@ -34,112 +34,192 @@
       "ward_no": "1",
       "name_en": "Eravichira West",
       "name_ml": "ഇരവിച്ചിറ പടിഞ്ഞാറ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6519,
+        "ward_id": "5468de98-4a19-4bd5-bed3-e8a1969b275a",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "2d22f6ca-6b0b-43e0-9509-9e374e4252f4",
       "ward_no": "2",
       "name_en": "Eravichira",
       "name_ml": "ഇരവിച്ചിറ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3558,
+        "ward_id": "2d22f6ca-6b0b-43e0-9509-9e374e4252f4",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "a47bc4eb-434f-475d-aa16-4645f3bb9066",
       "ward_no": "3",
       "name_en": "Eravichira Naduvil",
       "name_ml": "ഇരവിച്ചിറ നടുവില്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12606,
+        "ward_id": "a47bc4eb-434f-475d-aa16-4645f3bb9066",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a03ca177-6d83-461f-8a13-f588177f8a32",
       "ward_no": "4",
       "name_en": "Thrikkunnapuzha North",
       "name_ml": "ത്യക്കുന്നപ്പുഴ വടക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12286,
+        "ward_id": "a03ca177-6d83-461f-8a13-f588177f8a32",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "3aaf1cca-296a-4edc-a806-8ad53b9a5705",
       "ward_no": "5",
       "name_en": "Eravichira East",
       "name_ml": "ഇരവിച്ചിറ കിഴക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4603,
+        "ward_id": "3aaf1cca-296a-4edc-a806-8ad53b9a5705",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1323038a-7b5c-41e9-ad67-b7bb8369f6c4",
       "ward_no": "6",
       "name_en": "Inchakkadu North",
       "name_ml": "ഇഞ്ചക്കാട് വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1611,
+        "ward_id": "1323038a-7b5c-41e9-ad67-b7bb8369f6c4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f16c4ede-1ca1-4500-b0e0-5e29dae29598",
       "ward_no": "7",
       "name_en": "Thrikkunnapuzha",
       "name_ml": "ത്യക്കുന്നപ്പുഴ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18518,
+        "ward_id": "f16c4ede-1ca1-4500-b0e0-5e29dae29598",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0e9e3cfe-1e67-42ad-9f58-f038de62cf9b",
       "ward_no": "8",
       "name_en": "Inchakkadu",
       "name_ml": "ഇഞ്ചക്കാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1265,
+        "ward_id": "0e9e3cfe-1e67-42ad-9f58-f038de62cf9b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "0938b6a9-1fc1-4439-ae38-95ec1310785f",
       "ward_no": "9",
       "name_en": "Ayikkunnam",
       "name_ml": "ആയിക്കുന്നം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 873,
+        "ward_id": "0938b6a9-1fc1-4439-ae38-95ec1310785f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4e3f7e77-0df5-49e0-8d17-4b3a0c12165b",
       "ward_no": "10",
       "name_en": "Thrikkunnapuzha South",
       "name_ml": "ത്യക്കുന്നപ്പുഴ തെക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6054,
+        "ward_id": "4e3f7e77-0df5-49e0-8d17-4b3a0c12165b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "a5ce6476-018e-4612-8ff6-2298c4ad7fff",
       "ward_no": "11",
       "name_en": "Eravichira South",
       "name_ml": "ഇരവിച്ചിറ തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12698,
+        "ward_id": "a5ce6476-018e-4612-8ff6-2298c4ad7fff",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a3320da1-2d90-484c-add8-83c1887abaf5",
       "ward_no": "12",
       "name_en": "Patharam",
       "name_ml": "പതാരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12512,
+        "ward_id": "a3320da1-2d90-484c-add8-83c1887abaf5",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0c4fa4b9-2fc7-4213-bd57-48c56c6c23be",
       "ward_no": "13",
       "name_en": "Kumaranchira",
       "name_ml": "കുമരഞ്ചിറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1104,
+        "ward_id": "0c4fa4b9-2fc7-4213-bd57-48c56c6c23be",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "93f2e876-3ec1-46bb-80ac-d0b3d01ad54a",
       "ward_no": "14",
       "name_en": "Kidangayam Kannimel",
       "name_ml": "കിടങ്ങയം കന്നിമേല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11363,
+        "ward_id": "93f2e876-3ec1-46bb-80ac-d0b3d01ad54a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "15d28595-fea2-49a4-827a-d79e58e96fab",
       "ward_no": "15",
       "name_en": "Kidangayam Naduvil",
       "name_ml": "കിടങ്ങയം നടുവില്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1815,
+        "ward_id": "15d28595-fea2-49a4-827a-d79e58e96fab",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "da3c7c1a-4069-4f84-8f9b-5259501ac667",
       "ward_no": "16",
       "name_en": "Kidangayam North",
       "name_ml": "കിടങ്ങയം വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16687,
+        "ward_id": "da3c7c1a-4069-4f84-8f9b-5259501ac667",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

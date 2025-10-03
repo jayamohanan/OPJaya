@@ -460,7 +460,7 @@ function LocalBodyDashboard() {
         const wardIds = wards.map(w => w[FIELDS.WARD.ID]);
 
         // 2. Get all collections for those wards
-        const collections = await getWardCollectionRates(wardIds);
+        const collections = await getWardCollectionRates(localBody[FIELDS.LOCAL_BODY.ID], wardIds);
 
         // 3. Merge with ward info and pick latest per ward
         const wardMap = {};

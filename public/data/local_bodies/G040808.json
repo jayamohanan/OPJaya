@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Eramallikkara",
       "name_ml": "ഇരമല്ലിക്കര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11283,
+        "ward_id": "92d654ef-a943-4c73-9e91-d15f78f3330e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d80fac4b-9bf7-48b5-8e41-abcb99fe914d",
       "ward_no": "2",
       "name_en": "Thiruvanvandoor",
       "name_ml": "തിരുവന്‍വണ്ടൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16545,
+        "ward_id": "d80fac4b-9bf7-48b5-8e41-abcb99fe914d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "92313460-78c7-4254-b0e3-0b8b50a652a9",
       "ward_no": "3",
       "name_en": "Nannad",
       "name_ml": "നന്നാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11227,
+        "ward_id": "92313460-78c7-4254-b0e3-0b8b50a652a9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c6a45905-b7d2-41c6-b26f-55f54228a1d7",
       "ward_no": "4",
       "name_en": "Thiruvanvandoor East",
       "name_ml": "തിരുവന്‍വണ്ടൂര്‍ ഈസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15252,
+        "ward_id": "c6a45905-b7d2-41c6-b26f-55f54228a1d7",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9dc80084-c5a5-4cb1-a026-1d51beab955e",
       "ward_no": "5",
       "name_en": "Panchayat Office Ward",
       "name_ml": "പഞ്ചായത്ത് ആഫീസ് വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12103,
+        "ward_id": "9dc80084-c5a5-4cb1-a026-1d51beab955e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e5dbb55f-2e5f-4e47-8b83-583c369a4d6d",
       "ward_no": "6",
       "name_en": "Pravinkoodu",
       "name_ml": "പ്രാവിന്‍കൂട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17628,
+        "ward_id": "e5dbb55f-2e5f-4e47-8b83-583c369a4d6d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c86774b9-7ee8-4fc9-9a26-d00a04eb3413",
       "ward_no": "7",
       "name_en": "Mazhukeer",
       "name_ml": "മഴുക്കീര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15383,
+        "ward_id": "c86774b9-7ee8-4fc9-9a26-d00a04eb3413",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "560b0ac9-bade-4a5a-b475-782345543466",
       "ward_no": "8",
       "name_en": "Mazhukermel",
       "name_ml": "മഴുക്കീര്‍മേല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6646,
+        "ward_id": "560b0ac9-bade-4a5a-b475-782345543466",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3dc70032-c076-49fb-9ba5-9e91982fc8af",
       "ward_no": "9",
       "name_en": "Kallissery",
       "name_ml": "കല്ലിശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4824,
+        "ward_id": "3dc70032-c076-49fb-9ba5-9e91982fc8af",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4de6146d-8481-4f80-bde5-0d5b2dc2f3e1",
       "ward_no": "10",
       "name_en": "Umayattukaramel",
       "name_ml": "ഉമയാറ്റുകരമേല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 6027,
+        "ward_id": "4de6146d-8481-4f80-bde5-0d5b2dc2f3e1",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1af96b00-c2aa-45a3-a3d8-46f4c86952aa",
       "ward_no": "11",
       "name_en": "Umayattukara",
       "name_ml": "ഉമയാറ്റുകര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2211,
+        "ward_id": "1af96b00-c2aa-45a3-a3d8-46f4c86952aa",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "ade15433-3900-473d-8231-4694423454ec",
       "ward_no": "12",
       "name_en": "Koladathussery",
       "name_ml": "കോലടത്തുശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13331,
+        "ward_id": "ade15433-3900-473d-8231-4694423454ec",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5f53cd54-7673-4770-922b-564d71650cdf",
       "ward_no": "13",
       "name_en": "Vanavathukkara",
       "name_ml": "വനവാതുക്കര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7292,
+        "ward_id": "5f53cd54-7673-4770-922b-564d71650cdf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Mannathoor West",
       "name_ml": "മണ്ണത്തൂര്‍ പടിഞ്ഞാറ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3871,
+        "ward_id": "311ad5ee-ae5d-4089-800b-69556e11d69c",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fd37e67c-40a5-4afc-9fea-7d0296719555",
       "ward_no": "2",
       "name_en": "Mannathoor North",
       "name_ml": "മണ്ണത്തൂര്‍ വടക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 19427,
+        "ward_id": "fd37e67c-40a5-4afc-9fea-7d0296719555",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f74fd3f2-3aa6-4006-921d-30274e2d9e83",
       "ward_no": "3",
       "name_en": "Mannathoor East",
       "name_ml": "മണ്ണത്തൂര്‍ കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18960,
+        "ward_id": "f74fd3f2-3aa6-4006-921d-30274e2d9e83",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "78b8ab55-5950-459e-8dc1-29973f5f21cd",
       "ward_no": "4",
       "name_en": "Oliyappuram North",
       "name_ml": "ഒലിയപ്പുറം വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9262,
+        "ward_id": "78b8ab55-5950-459e-8dc1-29973f5f21cd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1640e491-ee15-4c57-9ccc-f5225cb2847c",
       "ward_no": "5",
       "name_en": "Oliyappuram West",
       "name_ml": "ഒലിയപ്പുറം പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1846,
+        "ward_id": "1640e491-ee15-4c57-9ccc-f5225cb2847c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b02ef303-85b2-4d4b-a66c-e3147f1da4b4",
       "ward_no": "6",
       "name_en": "Oliyappuram East",
       "name_ml": "ഒലിയപ്പുറം കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13526,
+        "ward_id": "b02ef303-85b2-4d4b-a66c-e3147f1da4b4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d11cd4e9-7c7e-44ff-909f-4cbffa93e18f",
       "ward_no": "7",
       "name_en": "Oliyappuram South",
       "name_ml": "ഒലിയപ്പുറം സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16058,
+        "ward_id": "d11cd4e9-7c7e-44ff-909f-4cbffa93e18f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "c3dff6bf-1ba1-497b-9e23-93de2bcd14df",
       "ward_no": "8",
       "name_en": "Thirumarady North",
       "name_ml": "തിരുമാറാടി വടക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 15067,
+        "ward_id": "c3dff6bf-1ba1-497b-9e23-93de2bcd14df",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "2bc1a346-ed39-4f39-afdc-a10a04a9474b",
       "ward_no": "9",
       "name_en": "Thirumarady East",
       "name_ml": "തിരുമാറാടി കിഴക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3460,
+        "ward_id": "2bc1a346-ed39-4f39-afdc-a10a04a9474b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "59d04f96-f3a5-41fc-872b-47241ce8f4dd",
       "ward_no": "10",
       "name_en": "Thirumarady West",
       "name_ml": "തിരുമാറാടി പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6934,
+        "ward_id": "59d04f96-f3a5-41fc-872b-47241ce8f4dd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "31b9f12d-1d01-46d5-9a23-d11bc8194227",
       "ward_no": "11",
       "name_en": "Thirumarady South",
       "name_ml": "തിരുമാറാടി സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3915,
+        "ward_id": "31b9f12d-1d01-46d5-9a23-d11bc8194227",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c4a99da2-d41a-44cb-b84c-74d683af7645",
       "ward_no": "12",
       "name_en": "Kakkoor South",
       "name_ml": "കാക്കൂര്‍ തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15128,
+        "ward_id": "c4a99da2-d41a-44cb-b84c-74d683af7645",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8c472845-53de-4504-af80-8f6ff0f1d2cc",
       "ward_no": "13",
       "name_en": "Kakkoor North",
       "name_ml": "കാക്കൂര്‍ വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10760,
+        "ward_id": "8c472845-53de-4504-af80-8f6ff0f1d2cc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

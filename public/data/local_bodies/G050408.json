@@ -34,126 +34,216 @@
       "ward_no": "1",
       "name_en": "Mettumpara",
       "name_ml": "മേട്ടുംപാറ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1798,
+        "ward_id": "1590f6ab-df37-458e-ad77-4913ae1ca2c5",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9005c4ad-3997-4fd9-9f1f-56ceea6122cd",
       "ward_no": "2",
       "name_en": "Eravimangalam",
       "name_ml": "ഇരവിമംഗലം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11045,
+        "ward_id": "9005c4ad-3997-4fd9-9f1f-56ceea6122cd",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "24a7a476-a051-450f-ba43-ada2983cea65",
       "ward_no": "3",
       "name_en": "Kurrupanthara",
       "name_ml": "കുറുപ്പന്തറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2910,
+        "ward_id": "24a7a476-a051-450f-ba43-ada2983cea65",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fc268d5b-3f8b-49e4-9175-519eacb3aadb",
       "ward_no": "4",
       "name_en": "Kanjirathanam",
       "name_ml": "കാഞ്ഞിരത്താനം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19354,
+        "ward_id": "fc268d5b-3f8b-49e4-9175-519eacb3aadb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fc8a214d-036e-4186-8f6f-25a91d9b6190",
       "ward_no": "5",
       "name_en": "Sleevapuram",
       "name_ml": "സ്ലീവാപുരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19384,
+        "ward_id": "fc8a214d-036e-4186-8f6f-25a91d9b6190",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "eabe3af3-b0c7-4a2c-be7b-d0df9b06005a",
       "ward_no": "6",
       "name_en": "Omalloor",
       "name_ml": "ഓമല്ലൂര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17988,
+        "ward_id": "eabe3af3-b0c7-4a2c-be7b-d0df9b06005a",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "82804edb-2c98-40a7-9737-aae7f5ad3a4a",
       "ward_no": "7",
       "name_en": "Socialwelfare Centre",
       "name_ml": "സോഷ്യല്‍വെല്‍ഫെയര്‍ സെന്‍റര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10007,
+        "ward_id": "82804edb-2c98-40a7-9737-aae7f5ad3a4a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3c2f698b-758e-40ad-84b2-c4f29502a6cb",
       "ward_no": "8",
       "name_en": "Nambyakulam",
       "name_ml": "നമ്പ്യാകുളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4717,
+        "ward_id": "3c2f698b-758e-40ad-84b2-c4f29502a6cb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "bbe27e13-99a6-4925-b59a-51df2fb2b9c9",
       "ward_no": "9",
       "name_en": "Kothanalloor",
       "name_ml": "കോതനല്ലൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14466,
+        "ward_id": "bbe27e13-99a6-4925-b59a-51df2fb2b9c9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ba0795ab-8cee-4cf6-bab2-c2279f39c9b1",
       "ward_no": "10",
       "name_en": "Manjoor",
       "name_ml": "മാഞ്ഞൂര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14318,
+        "ward_id": "ba0795ab-8cee-4cf6-bab2-c2279f39c9b1",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "dcf28ae0-29b2-4cb8-82dd-b83dc72b1ffe",
       "ward_no": "11",
       "name_en": "Railway Station",
       "name_ml": "റെയില്‍വേ സ്റ്റേഷന്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16927,
+        "ward_id": "dcf28ae0-29b2-4cb8-82dd-b83dc72b1ffe",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fd434ae7-86a6-412a-9b1d-93119e42c674",
       "ward_no": "12",
       "name_en": "Manjoor Central",
       "name_ml": "മാഞ്ഞൂര്‍ സെന്‍ട്രല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19430,
+        "ward_id": "fd434ae7-86a6-412a-9b1d-93119e42c674",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "89f93221-0f23-446f-a777-4acefc0a2fe2",
       "ward_no": "13",
       "name_en": "Chamakala",
       "name_ml": "ചാമക്കാല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10561,
+        "ward_id": "89f93221-0f23-446f-a777-4acefc0a2fe2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "03755d97-c26c-4bd8-8f58-ec7372627295",
       "ward_no": "14",
       "name_en": "Manjoor South",
       "name_ml": "മാഞ്ഞൂര്‍ സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 433,
+        "ward_id": "03755d97-c26c-4bd8-8f58-ec7372627295",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a20c5f7b-1854-4240-b3d2-cbb677d46606",
       "ward_no": "15",
       "name_en": "Memury",
       "name_ml": "മേമ്മൂറ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12412,
+        "ward_id": "a20c5f7b-1854-4240-b3d2-cbb677d46606",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "210e29f2-2827-4891-8afa-33a4e8eddacc",
       "ward_no": "16",
       "name_en": "Manvettom",
       "name_ml": "മാന്‍വെട്ടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2665,
+        "ward_id": "210e29f2-2827-4891-8afa-33a4e8eddacc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "276628c3-d4e9-4d4b-9ac9-da145831f1c9",
       "ward_no": "17",
       "name_en": "Vijaya Library",
       "name_ml": "വിജയ ലൈബ്രറി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3120,
+        "ward_id": "276628c3-d4e9-4d4b-9ac9-da145831f1c9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "da946342-f1d1-4039-9e00-e0bac105fab3",
       "ward_no": "18",
       "name_en": "Kakkathumala",
       "name_ml": "കക്കത്തുമല",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16716,
+        "ward_id": "da946342-f1d1-4039-9e00-e0bac105fab3",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

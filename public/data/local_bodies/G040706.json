@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Manalady",
       "name_ml": "മണലാടി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14463,
+        "ward_id": "bbdb2101-d9cf-4cad-8c91-6f63606ddb4e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "ebacedda-b415-41f4-b055-adee88ce0c4e",
       "ward_no": "2",
       "name_en": "North Of Ramankary",
       "name_ml": "രാമങ്കരി വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18065,
+        "ward_id": "ebacedda-b415-41f4-b055-adee88ce0c4e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "13d3b481-f93a-40e8-8048-c4ef0b535957",
       "ward_no": "3",
       "name_en": "Ramankary Town",
       "name_ml": "രാമങ്കരി ടൌണ്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1661,
+        "ward_id": "13d3b481-f93a-40e8-8048-c4ef0b535957",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "c6fe6612-ae20-4275-b614-0b7061304c57",
       "ward_no": "4",
       "name_en": "Mampuzhakary West",
       "name_ml": "മാമ്പുഴക്കരി പടിഞ്ഞാറ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15281,
+        "ward_id": "c6fe6612-ae20-4275-b614-0b7061304c57",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "8ce5cb64-e310-4529-bf02-38eeadb5002e",
       "ward_no": "5",
       "name_en": "Mampuzhakary Centre",
       "name_ml": "മാമ്പുഴക്കരി സെന്റര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10813,
+        "ward_id": "8ce5cb64-e310-4529-bf02-38eeadb5002e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "3763d236-8181-4cea-9718-4404858e9e10",
       "ward_no": "6",
       "name_en": "Mampuzhakary East",
       "name_ml": "മാമ്പുഴക്കരി കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4362,
+        "ward_id": "3763d236-8181-4cea-9718-4404858e9e10",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "120e4811-31c4-4282-b342-e8d9f1477842",
       "ward_no": "7",
       "name_en": "Mampuzhakary South",
       "name_ml": "മാമ്പുഴക്കരി തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1530,
+        "ward_id": "120e4811-31c4-4282-b342-e8d9f1477842",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "67f7faea-b89c-4167-bb3b-cf4b49482985",
       "ward_no": "8",
       "name_en": "Oorukary North",
       "name_ml": "ഊരൂക്കരി വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7929,
+        "ward_id": "67f7faea-b89c-4167-bb3b-cf4b49482985",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a31e4fb5-613b-4205-aaef-d98e14da560a",
       "ward_no": "9",
       "name_en": "Puthukary",
       "name_ml": "പുതുക്കരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12504,
+        "ward_id": "a31e4fb5-613b-4205-aaef-d98e14da560a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "86bad2c4-c0cd-4608-921d-7044e8316039",
       "ward_no": "10",
       "name_en": "Oorukary",
       "name_ml": "ഊരൂക്കരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10327,
+        "ward_id": "86bad2c4-c0cd-4608-921d-7044e8316039",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "3596e13b-2175-49bf-99a5-f1792a0b1877",
       "ward_no": "11",
       "name_en": "Vezhapra East",
       "name_ml": "വേഴപ്ര കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4225,
+        "ward_id": "3596e13b-2175-49bf-99a5-f1792a0b1877",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8101d0fc-7900-41cc-812d-0b0db83d5e7d",
       "ward_no": "12",
       "name_en": "Vezhapra Centre",
       "name_ml": "വേഴപ്ര സെന്റര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9899,
+        "ward_id": "8101d0fc-7900-41cc-812d-0b0db83d5e7d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "11308559-79b7-4b2b-884f-714c6fa7bfb4",
       "ward_no": "13",
       "name_en": "Vezhapra West",
       "name_ml": "വേഴപ്ര പടിഞ്ഞാറ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1457,
+        "ward_id": "11308559-79b7-4b2b-884f-714c6fa7bfb4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

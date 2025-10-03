@@ -34,140 +34,240 @@
       "ward_no": "1",
       "name_en": "Mattupuram",
       "name_ml": "മാട്ടുപുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17834,
+        "ward_id": "e8a10ef1-6e84-474e-96a9-7707172e8e39",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b358c94a-6ed6-4ff2-aaa0-b5023419f570",
       "ward_no": "2",
       "name_en": "Manjali",
       "name_ml": "മാഞ്ഞാലി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 13799,
+        "ward_id": "b358c94a-6ed6-4ff2-aaa0-b5023419f570",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a5b8d80e-7248-4b62-bbb9-6ef12e3d66e7",
       "ward_no": "3",
       "name_en": "Kallikkuzhi",
       "name_ml": "കള്ളിക്കുഴി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12691,
+        "ward_id": "a5b8d80e-7248-4b62-bbb9-6ef12e3d66e7",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b12ea4f7-44d3-4709-8248-01b754539bbd",
       "ward_no": "4",
       "name_en": "Manakkapadi North",
       "name_ml": "മനക്കപ്പടി നോര്‍ത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13621,
+        "ward_id": "b12ea4f7-44d3-4709-8248-01b754539bbd",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9d964c99-2a3a-406a-95fe-22fa09012c85",
       "ward_no": "5",
       "name_en": "Thattampadi North",
       "name_ml": "തട്ടാംപടി നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12077,
+        "ward_id": "9d964c99-2a3a-406a-95fe-22fa09012c85",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1619a75f-99a5-4236-a320-f64071a7bbf6",
       "ward_no": "6",
       "name_en": "Karumallur",
       "name_ml": "കരുമാല്ലൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1837,
+        "ward_id": "1619a75f-99a5-4236-a320-f64071a7bbf6",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "23ea630e-7674-4ddd-a857-3ecfcaeb9ca9",
       "ward_no": "7",
       "name_en": "Aduvathuruth",
       "name_ml": "അടുവാതുരുത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2852,
+        "ward_id": "23ea630e-7674-4ddd-a857-3ecfcaeb9ca9",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "ccaef3c6-ef36-4120-aec1-335df4a8cdab",
       "ward_no": "8",
       "name_en": "West Veliyathunadu",
       "name_ml": "വെസ്റ്റ് വെളിയത്ത്നാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15710,
+        "ward_id": "ccaef3c6-ef36-4120-aec1-335df4a8cdab",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "594698d0-7091-482c-98f1-42365cad5d4c",
       "ward_no": "9",
       "name_en": "Paruvakkadu",
       "name_ml": "പരുവക്കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6898,
+        "ward_id": "594698d0-7091-482c-98f1-42365cad5d4c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "87616421-4af8-441d-a4ff-57e3f129b58e",
       "ward_no": "10",
       "name_en": "Vayalodam",
       "name_ml": "വയലോടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10367,
+        "ward_id": "87616421-4af8-441d-a4ff-57e3f129b58e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "83bd8368-d782-4438-9f9f-d4dae7320f83",
       "ward_no": "11",
       "name_en": "East Veliyathunadu",
       "name_ml": "ഈസ്റ്റ് വെളിയത്ത്നാട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10107,
+        "ward_id": "83bd8368-d782-4438-9f9f-d4dae7320f83",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "bb40a04e-a825-48e2-b633-adaf15e5b88c",
       "ward_no": "12",
       "name_en": "Kadooppadam",
       "name_ml": "കടൂപ്പാടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14423,
+        "ward_id": "bb40a04e-a825-48e2-b633-adaf15e5b88c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "641726be-5354-4d66-96f0-df4e1c4cd7a9",
       "ward_no": "13",
       "name_en": "U.C.College",
       "name_ml": "യു.സി.കോളേജ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7644,
+        "ward_id": "641726be-5354-4d66-96f0-df4e1c4cd7a9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5214ddf0-f755-4cb2-b46c-b2570c70d174",
       "ward_no": "14",
       "name_en": "Mariyappadi North",
       "name_ml": "മറിയപ്പടി നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6351,
+        "ward_id": "5214ddf0-f755-4cb2-b46c-b2570c70d174",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "da11727d-13ae-4b93-947f-7e3bfeb7399c",
       "ward_no": "15",
       "name_en": "Mariyappadi South",
       "name_ml": "മറിയപ്പടി സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16665,
+        "ward_id": "da11727d-13ae-4b93-947f-7e3bfeb7399c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a2379260-4ae8-4500-b3fd-a434733b8fb8",
       "ward_no": "16",
       "name_en": "Thattampadi South",
       "name_ml": "തട്ടാംപടി സൌത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12424,
+        "ward_id": "a2379260-4ae8-4500-b3fd-a434733b8fb8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "50cf5032-951a-497e-96c6-bdc46bfa38ba",
       "ward_no": "17",
       "name_en": "Chettikkad",
       "name_ml": "ചെട്ടിക്കാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6241,
+        "ward_id": "50cf5032-951a-497e-96c6-bdc46bfa38ba",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "046f96eb-ec60-41a5-b87e-532d284db8e9",
       "ward_no": "18",
       "name_en": "Manakkappadi South(Thoppu)",
       "name_ml": "മനക്കപ്പടി സൌത്ത്(തോപ്പ്)",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 507,
+        "ward_id": "046f96eb-ec60-41a5-b87e-532d284db8e9",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "532e6898-83c6-4331-adaf-26cfb56631f3",
       "ward_no": "19",
       "name_en": "Manakkapadi",
       "name_ml": "മനക്കപ്പടി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 6439,
+        "ward_id": "532e6898-83c6-4331-adaf-26cfb56631f3",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "6c4385b5-db91-4c34-a9fb-e57cd543da05",
       "ward_no": "20",
       "name_en": "Thekkethazham",
       "name_ml": "തെക്കേത്താഴം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8260,
+        "ward_id": "6c4385b5-db91-4c34-a9fb-e57cd543da05",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

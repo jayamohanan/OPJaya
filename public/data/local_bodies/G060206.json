@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Powerhouse",
       "name_ml": "പവര്‍ഹൌസ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4719,
+        "ward_id": "3c392611-4a1c-4ead-bfda-a4872591d9d6",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "3016ad7a-69df-4741-a134-58749abf6940",
       "ward_no": "2",
       "name_en": "Chinnakanal",
       "name_ml": "ചിന്നക്കനാല്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3796,
+        "ward_id": "3016ad7a-69df-4741-a134-58749abf6940",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "c21e43fc-62c8-414f-b68f-851305b849ec",
       "ward_no": "3",
       "name_en": "Gundumala",
       "name_ml": "ഗുണ്ടുമല",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14937,
+        "ward_id": "c21e43fc-62c8-414f-b68f-851305b849ec",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "5d01d41b-779a-497c-82bd-b1a591821534",
       "ward_no": "4",
       "name_en": "Lower Surianelli",
       "name_ml": "ലോവര്‍ സൂര്യനെല്ലി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7151,
+        "ward_id": "5d01d41b-779a-497c-82bd-b1a591821534",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ab085a80-53c9-493d-a325-37969cbd038a",
       "ward_no": "5",
       "name_en": "Nagamala",
       "name_ml": "നാഗമല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13109,
+        "ward_id": "ab085a80-53c9-493d-a325-37969cbd038a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "668d7668-d2ba-4c4f-b84b-6e8680258950",
       "ward_no": "6",
       "name_en": "Pappathichola",
       "name_ml": "പാപ്പാത്തിച്ചോല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7814,
+        "ward_id": "668d7668-d2ba-4c4f-b84b-6e8680258950",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "61eb7b44-a01e-46f7-a551-cad0b0716e4b",
       "ward_no": "7",
       "name_en": "Chempakathozhukudy",
       "name_ml": "ചെമ്പകത്തൊഴുകുടി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7490,
+        "ward_id": "61eb7b44-a01e-46f7-a551-cad0b0716e4b",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "ddd9dc97-2895-426d-9fd7-885ac4510608",
       "ward_no": "8",
       "name_en": "B.L.Ram",
       "name_ml": "ബിയല്‍റാം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17000,
+        "ward_id": "ddd9dc97-2895-426d-9fd7-885ac4510608",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f8396d77-0320-4043-975e-2495d0e9f221",
       "ward_no": "9",
       "name_en": "Singukandam",
       "name_ml": "സിംഗുകണ്ടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19032,
+        "ward_id": "f8396d77-0320-4043-975e-2495d0e9f221",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b6ecf231-c80d-4795-b657-ff2a7f2a2c5f",
       "ward_no": "10",
       "name_en": "Surianelli",
       "name_ml": "സൂര്യനെല്ലി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14092,
+        "ward_id": "b6ecf231-c80d-4795-b657-ff2a7f2a2c5f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "716f2774-804e-45e7-8bd1-e43c9cf259ed",
       "ward_no": "11",
       "name_en": "Periakanal",
       "name_ml": "പെരിയകനാല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8684,
+        "ward_id": "716f2774-804e-45e7-8bd1-e43c9cf259ed",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9d352ab7-0c17-45f1-bcef-4f71563672bd",
       "ward_no": "12",
       "name_en": "Venadu",
       "name_ml": "വേണാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12043,
+        "ward_id": "9d352ab7-0c17-45f1-bcef-4f71563672bd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ba70e24f-d5ec-4e8d-83fa-7948dda68aa4",
       "ward_no": "13",
       "name_en": "Muttukadu",
       "name_ml": "മുട്ടുകാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14353,
+        "ward_id": "ba70e24f-d5ec-4e8d-83fa-7948dda68aa4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

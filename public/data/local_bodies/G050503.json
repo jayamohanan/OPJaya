@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Cherpunkal",
       "name_ml": "ചേര്‍പ്പുങ്കല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15907,
+        "ward_id": "cefe2235-6c4f-40f2-8831-cbe13f575b94",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "25f0f777-5377-4f83-ad9a-d848b7bf7188",
       "ward_no": "2",
       "name_en": "Kezhuvamkulam East",
       "name_ml": "കെഴുവംകുളം ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3016,
+        "ward_id": "25f0f777-5377-4f83-ad9a-d848b7bf7188",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "741b65c1-bf57-4267-927b-dce356d6c39f",
       "ward_no": "3",
       "name_en": "Mevida East",
       "name_ml": "മേവിട ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8910,
+        "ward_id": "741b65c1-bf57-4267-927b-dce356d6c39f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e52b1bd5-772a-4ffc-91d1-bbedcea17ae4",
       "ward_no": "4",
       "name_en": "Mevida West",
       "name_ml": "മേവിട വെസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17575,
+        "ward_id": "e52b1bd5-772a-4ffc-91d1-bbedcea17ae4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "5b383fa3-256c-4401-89c0-323b342e7839",
       "ward_no": "5",
       "name_en": "Mevida",
       "name_ml": "മേവിട",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7029,
+        "ward_id": "5b383fa3-256c-4401-89c0-323b342e7839",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "77ab509c-0df2-4456-aa7f-7121fc81d523",
       "ward_no": "6",
       "name_en": "Moolethundi",
       "name_ml": "മൂലേത്തുണ്ടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9189,
+        "ward_id": "77ab509c-0df2-4456-aa7f-7121fc81d523",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c007aec3-343d-47d2-9ec2-deb0dd569fb8",
       "ward_no": "7",
       "name_en": "Thodanal East",
       "name_ml": "തോടനാല്‍ ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14765,
+        "ward_id": "c007aec3-343d-47d2-9ec2-deb0dd569fb8",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "493644d4-f9fe-4d88-b9ac-7805e4a99347",
       "ward_no": "8",
       "name_en": "Thodanal West",
       "name_ml": "തോടനാല്‍ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5670,
+        "ward_id": "493644d4-f9fe-4d88-b9ac-7805e4a99347",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ccee2f98-7bad-4908-96de-578f69080b6c",
       "ward_no": "9",
       "name_en": "Manakkunnu",
       "name_ml": "മനക്കുന്ന്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15728,
+        "ward_id": "ccee2f98-7bad-4908-96de-578f69080b6c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8f46d87a-774a-4140-82bc-59c6b5fe5b6a",
       "ward_no": "10",
       "name_en": "Thokkadu",
       "name_ml": "തോക്കാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10987,
+        "ward_id": "8f46d87a-774a-4140-82bc-59c6b5fe5b6a",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d1f3d54f-3f48-4bfd-aecf-d351503fe559",
       "ward_no": "11",
       "name_en": "Kozhuvanal Town",
       "name_ml": "കൊഴുവനാല്‍ ടൌണ്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16118,
+        "ward_id": "d1f3d54f-3f48-4bfd-aecf-d351503fe559",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1c84c74f-ed5f-4238-b6a7-0728279d5e84",
       "ward_no": "12",
       "name_en": "Kozhuvanal North",
       "name_ml": "കൊഴുവനാല്‍ നോര്‍ത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2330,
+        "ward_id": "1c84c74f-ed5f-4238-b6a7-0728279d5e84",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "7d2f4fa9-d634-4f49-8c23-99c35cc82f01",
       "ward_no": "13",
       "name_en": "Kezhuvamkulam West",
       "name_ml": "കെഴുവംകുളം വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9605,
+        "ward_id": "7d2f4fa9-d634-4f49-8c23-99c35cc82f01",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

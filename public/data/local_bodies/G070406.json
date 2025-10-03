@@ -34,112 +34,192 @@
       "ward_no": "1",
       "name_en": "Thannippuzha",
       "name_ml": "താന്നിപ്പുഴ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8815,
+        "ward_id": "72f37875-e453-4e6e-ac35-948716b90d4e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "13780d1f-144d-4bdb-93d5-84db04ac5517",
       "ward_no": "2",
       "name_en": "Okkal North",
       "name_ml": "ഒക്കല്‍ നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1637,
+        "ward_id": "13780d1f-144d-4bdb-93d5-84db04ac5517",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ad10dd58-c096-47f1-9e75-6e2832823f52",
       "ward_no": "3",
       "name_en": "Onampilly",
       "name_ml": "ഓണംപിള്ളി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 13264,
+        "ward_id": "ad10dd58-c096-47f1-9e75-6e2832823f52",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "78b461ce-212f-4146-a6e1-0695036320fe",
       "ward_no": "4",
       "name_en": "Naduppillithodu",
       "name_ml": "നടുപ്പിള്ളിത്തോട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9260,
+        "ward_id": "78b461ce-212f-4146-a6e1-0695036320fe",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b26ad6a4-f7fa-4203-a654-bf7c6a5aec5b",
       "ward_no": "5",
       "name_en": "Edavoor",
       "name_ml": "ഇടവൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13721,
+        "ward_id": "b26ad6a4-f7fa-4203-a654-bf7c6a5aec5b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "603f7484-3e1c-4b02-9d28-15adb380ccc9",
       "ward_no": "6",
       "name_en": "Koodalappadu East",
       "name_ml": "കൂടാലപ്പാട് ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7365,
+        "ward_id": "603f7484-3e1c-4b02-9d28-15adb380ccc9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "85446226-9aa3-4af2-9fbb-3b4e0408ea55",
       "ward_no": "7",
       "name_en": "Koduvelippady",
       "name_ml": "കൊടുവേലിപ്പടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10206,
+        "ward_id": "85446226-9aa3-4af2-9fbb-3b4e0408ea55",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e3460340-291b-4134-bcfa-24b0be361acd",
       "ward_no": "8",
       "name_en": "Koduvelippady East",
       "name_ml": "കൊടുവേലിപ്പടി ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17411,
+        "ward_id": "e3460340-291b-4134-bcfa-24b0be361acd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "73c99391-cf1f-4713-9dae-830c0d181ef4",
       "ward_no": "9",
       "name_en": "Okkal",
       "name_ml": "ഒക്കല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8886,
+        "ward_id": "73c99391-cf1f-4713-9dae-830c0d181ef4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0ab99af6-fa05-4946-b34b-6f31a47c0e57",
       "ward_no": "10",
       "name_en": "Karikkodu",
       "name_ml": "കാരിക്കോട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 980,
+        "ward_id": "0ab99af6-fa05-4946-b34b-6f31a47c0e57",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ded92f8a-efc1-45f0-b64e-5aba3dadf17c",
       "ward_no": "11",
       "name_en": "Kunnekkattumala",
       "name_ml": "കുന്നേക്കാട്ടുമല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17083,
+        "ward_id": "ded92f8a-efc1-45f0-b64e-5aba3dadf17c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c42aaed5-1312-4ee4-953d-e3b180c1446d",
       "ward_no": "12",
       "name_en": "Vallam North",
       "name_ml": "വല്ലം നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15092,
+        "ward_id": "c42aaed5-1312-4ee4-953d-e3b180c1446d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8535c47d-0117-4eea-945b-5a93cf44412e",
       "ward_no": "13",
       "name_en": "Vallam",
       "name_ml": "വല്ലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10199,
+        "ward_id": "8535c47d-0117-4eea-945b-5a93cf44412e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6b6a1cf3-b887-4a78-9104-62031c6285aa",
       "ward_no": "14",
       "name_en": "Chelamattam",
       "name_ml": "ചേലാമറ്റം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8188,
+        "ward_id": "6b6a1cf3-b887-4a78-9104-62031c6285aa",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d0dfacbb-5137-4fc1-92fc-9a49ebd56210",
       "ward_no": "15",
       "name_en": "Okkal Thuruthu",
       "name_ml": "ഒക്കല്‍ തുരുത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16038,
+        "ward_id": "d0dfacbb-5137-4fc1-92fc-9a49ebd56210",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b8298b35-72f6-4a60-9c2b-cf315fd45814",
       "ward_no": "16",
       "name_en": "Perumattam",
       "name_ml": "പെരുമറ്റം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14174,
+        "ward_id": "b8298b35-72f6-4a60-9c2b-cf315fd45814",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

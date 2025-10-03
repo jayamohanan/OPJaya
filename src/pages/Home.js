@@ -32,7 +32,7 @@ function Home() {
           FIELDS.DISTRICT.ID,
           FIELDS.DISTRICT.NAME_EN,
           FIELDS.DISTRICT.NAME_ML,
-          'is_active'
+          FIELDS.DISTRICT.IS_ACTIVE
         ].join(', '));
       if (error) {
         console.error("Error fetching districts from Supabase:", error);

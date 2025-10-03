@@ -34,98 +34,168 @@
       "ward_no": "1",
       "name_en": "Karali Town",
       "name_ml": "കാരാളി ഠൗണ്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2384,
+        "ward_id": "1d151068-1211-43a2-8855-1edc45f70511",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "426dafe7-3ecd-4c71-a3e3-9ed87cbf913f",
       "ward_no": "2",
       "name_en": "Kanatharkunnam",
       "name_ml": "കണത്താര്‍കുന്നം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5139,
+        "ward_id": "426dafe7-3ecd-4c71-a3e3-9ed87cbf913f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0e1047a9-f355-4778-b83a-3c2ef3ffe26c",
       "ward_no": "3",
       "name_en": "Valiyapadam West",
       "name_ml": "വലിയപാടം പടിഞ്ഞാറ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1231,
+        "ward_id": "0e1047a9-f355-4778-b83a-3c2ef3ffe26c",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f26df402-bbd9-4118-b858-5a4dfb04ef2c",
       "ward_no": "4",
       "name_en": "Vilanthara",
       "name_ml": "വിളന്തറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18583,
+        "ward_id": "f26df402-bbd9-4118-b858-5a4dfb04ef2c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "668e4f70-7ec5-43f6-b663-090eb9915dff",
       "ward_no": "5",
       "name_en": "Valiyapadam East",
       "name_ml": "വലിയപാടം കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7815,
+        "ward_id": "668e4f70-7ec5-43f6-b663-090eb9915dff",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "41a029d3-374c-4d3e-8034-30a280625019",
       "ward_no": "6",
       "name_en": "Kadapuzha",
       "name_ml": "കടപുഴ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5077,
+        "ward_id": "41a029d3-374c-4d3e-8034-30a280625019",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "2d0ac5c7-a1b7-44e5-9be2-bea792a7414f",
       "ward_no": "7",
       "name_en": "Koickal Bhagom",
       "name_ml": "കോയിക്കല്‍ഭാഗം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3550,
+        "ward_id": "2d0ac5c7-a1b7-44e5-9be2-bea792a7414f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "4ca6a7fc-c73e-4cf9-95ea-b7001b229e46",
       "ward_no": "8",
       "name_en": "Naduvilakkara",
       "name_ml": "നടുവിലക്കര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5943,
+        "ward_id": "4ca6a7fc-c73e-4cf9-95ea-b7001b229e46",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "cf28f3bd-a4a3-4377-8eb1-ea16fa4ef50d",
       "ward_no": "9",
       "name_en": "Ulluruppu",
       "name_ml": "ഉള്ളുരുപ്പ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15920,
+        "ward_id": "cf28f3bd-a4a3-4377-8eb1-ea16fa4ef50d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "73db164c-3d97-439a-b7be-ab1d6be5d461",
       "ward_no": "10",
       "name_en": "Aithottuva North",
       "name_ml": "ഐത്തോട്ടുവ വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8888,
+        "ward_id": "73db164c-3d97-439a-b7be-ab1d6be5d461",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7df209d0-0d10-473d-981d-232db75c60a8",
       "ward_no": "11",
       "name_en": "Aithottuva South",
       "name_ml": "ഐത്തോട്ടുവ തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9675,
+        "ward_id": "7df209d0-0d10-473d-981d-232db75c60a8",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6f2eac7a-313f-4c35-8cfd-7c13dd61c46f",
       "ward_no": "12",
       "name_en": "Aithottuva West",
       "name_ml": "ഐത്തോട്ടുവ പടിഞ്ഞാറ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8494,
+        "ward_id": "6f2eac7a-313f-4c35-8cfd-7c13dd61c46f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "e8ea398f-ac26-47d9-b0e8-76254dfcb111",
       "ward_no": "13",
       "name_en": "Kothapuram",
       "name_ml": "കോതപുരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17856,
+        "ward_id": "e8ea398f-ac26-47d9-b0e8-76254dfcb111",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "faeb8278-229f-48cb-a78b-30f63cc99d03",
       "ward_no": "14",
       "name_en": "Pattakadav",
       "name_ml": "പട്ടകടവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19247,
+        "ward_id": "faeb8278-229f-48cb-a78b-30f63cc99d03",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

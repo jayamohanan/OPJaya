@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Kachinikkad West",
       "name_ml": "കാച്ചിനിക്കാട് പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17708,
+        "ward_id": "e6f52ead-bb14-4575-b6d5-ac9d3be3bf6c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1f01837f-a46a-4f84-906b-0ac595900afc",
       "ward_no": "2",
       "name_en": "Kachinikkad East",
       "name_ml": "കാച്ചിനിക്കാട് കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2523,
+        "ward_id": "1f01837f-a46a-4f84-906b-0ac595900afc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7e86dcd8-741d-4a79-8938-ca4adc5d84d0",
       "ward_no": "3",
       "name_en": "Vellattuprambu",
       "name_ml": "വെള്ളാട്ടുപറമ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9715,
+        "ward_id": "7e86dcd8-741d-4a79-8938-ca4adc5d84d0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a29cea92-0e2c-4188-b4c5-6b5ac2a0ee03",
       "ward_no": "4",
       "name_en": "Pothukundu",
       "name_ml": "പോത്തുകുണ്ട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12461,
+        "ward_id": "a29cea92-0e2c-4188-b4c5-6b5ac2a0ee03",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f90a2990-d8dd-46e4-a130-045f7244ff7b",
       "ward_no": "5",
       "name_en": "Vadakkangara Vadakkekulambu",
       "name_ml": "വടക്കാങ്ങര വടക്കേകുളമ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19090,
+        "ward_id": "f90a2990-d8dd-46e4-a130-045f7244ff7b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "25b8e7ea-5865-4413-8da2-8cb60e19ec1d",
       "ward_no": "6",
       "name_en": "Vadakkangara East",
       "name_ml": "വടക്കാങ്ങര കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2995,
+        "ward_id": "25b8e7ea-5865-4413-8da2-8cb60e19ec1d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b9a834f0-b16c-42d9-9655-3217e43bea3a",
       "ward_no": "7",
       "name_en": "Vadakkangara West",
       "name_ml": "വടക്കാങ്ങര പടിഞ്ഞാറ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14294,
+        "ward_id": "b9a834f0-b16c-42d9-9655-3217e43bea3a",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "1c3b19ac-5be1-4e1c-a639-b93424a6c2e2",
       "ward_no": "8",
       "name_en": "Thadathilkundu",
       "name_ml": "തടത്തില്‍കുണ്ട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2310,
+        "ward_id": "1c3b19ac-5be1-4e1c-a639-b93424a6c2e2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ee5c14a2-8cec-438c-8713-e1ac17c03bd8",
       "ward_no": "9",
       "name_en": "Kalavu",
       "name_ml": "കാളാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18279,
+        "ward_id": "ee5c14a2-8cec-438c-8713-e1ac17c03bd8",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4b71c89a-87c8-4d05-ba24-838c6ed2b04f",
       "ward_no": "10",
       "name_en": "Kottakunnu",
       "name_ml": "കോട്ടക്കുന്ന്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5848,
+        "ward_id": "4b71c89a-87c8-4d05-ba24-838c6ed2b04f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9b3b4035-7809-4a8a-a3d2-4f227278b70e",
       "ward_no": "11",
       "name_en": "Makkaraparamba Town West",
       "name_ml": "മക്കരപ്പറമ്പ് പടിഞ്ഞാറ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 11889,
+        "ward_id": "9b3b4035-7809-4a8a-a3d2-4f227278b70e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "82a328d9-6046-422c-a605-047b57f2ab08",
       "ward_no": "12",
       "name_en": "Makkaraparamba Town South",
       "name_ml": "മക്കരപ്പറമ്പ് തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10016,
+        "ward_id": "82a328d9-6046-422c-a605-047b57f2ab08",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1606b9f0-97ba-4834-b282-80e0fc207368",
       "ward_no": "13",
       "name_en": "Makkaraparamba Town North",
       "name_ml": "മക്കരപ്പറമ്പ് വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1833,
+        "ward_id": "1606b9f0-97ba-4834-b282-80e0fc207368",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

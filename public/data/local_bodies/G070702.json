@@ -34,112 +34,192 @@
       "ward_no": "1",
       "name_en": "Mangalya",
       "name_ml": "മംഗല്യ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10052,
+        "ward_id": "8310be4f-24c4-4fdb-b5c6-91dea4c403f8",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "762f0e45-79f4-4fe5-b32d-0873b49a5a48",
       "ward_no": "2",
       "name_en": "Thayyezhath",
       "name_ml": "തയ്യേഴത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9068,
+        "ward_id": "762f0e45-79f4-4fe5-b32d-0873b49a5a48",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5dfa0214-8130-483b-bba1-aef2e8a5d5b2",
       "ward_no": "3",
       "name_en": "Vadakke Nedungad",
       "name_ml": "വടക്കേ നെടുങ്ങാട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7211,
+        "ward_id": "5dfa0214-8130-483b-bba1-aef2e8a5d5b2",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b740d4c5-fa56-4a30-b9d7-aecc2aae64aa",
       "ward_no": "4",
       "name_en": "Nedungad Central",
       "name_ml": "നെടുങ്ങാട് സെന്‍ട്രല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14111,
+        "ward_id": "b740d4c5-fa56-4a30-b9d7-aecc2aae64aa",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "01907563-6304-4456-9ba4-fa81c9127e62",
       "ward_no": "5",
       "name_en": "Thekke Nedungad",
       "name_ml": "തെക്കേ നെടുങ്ങാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 284,
+        "ward_id": "01907563-6304-4456-9ba4-fa81c9127e62",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "417c9100-0a7b-4f5a-94e1-0824fe10c86c",
       "ward_no": "6",
       "name_en": "Bhagavathi Ambalam",
       "name_ml": "ഭഗവതി അമ്പലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5070,
+        "ward_id": "417c9100-0a7b-4f5a-94e1-0824fe10c86c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "aec09c8a-fc43-42d6-a675-74d46a9986d7",
       "ward_no": "7",
       "name_en": "Vadel Church",
       "name_ml": "വാടേല്‍ ചര്‍ച്ച്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13410,
+        "ward_id": "aec09c8a-fc43-42d6-a675-74d46a9986d7",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "0b06b4dc-8a2a-46a0-a874-8bfe419b5098",
       "ward_no": "8",
       "name_en": "Kadekuris",
       "name_ml": "കടേകുരിശ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1006,
+        "ward_id": "0b06b4dc-8a2a-46a0-a874-8bfe419b5098",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "eac630eb-e9bf-4a09-af62-626f9f032e70",
       "ward_no": "9",
       "name_en": "Ramankulangara",
       "name_ml": "രാമന്‍കുളങ്ങര",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17991,
+        "ward_id": "eac630eb-e9bf-4a09-af62-626f9f032e70",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "68ac2013-bd9f-4f15-92c5-057234db74bd",
       "ward_no": "10",
       "name_en": "Manattuparamb East",
       "name_ml": "മാനാട്ടുപറമ്പ് ഈസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7983,
+        "ward_id": "68ac2013-bd9f-4f15-92c5-057234db74bd",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "38a4823e-25dc-46f6-be1a-02be6d26e8a3",
       "ward_no": "11",
       "name_en": "Manattuparamb West",
       "name_ml": "മാനാട്ടുപറമ്പ് വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4452,
+        "ward_id": "38a4823e-25dc-46f6-be1a-02be6d26e8a3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8c2c3dce-b6a4-4fa5-a2d5-0aedafc387e3",
       "ward_no": "12",
       "name_en": "Puthenkadappuram",
       "name_ml": "പുത്തന്‍കടപ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10753,
+        "ward_id": "8c2c3dce-b6a4-4fa5-a2d5-0aedafc387e3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b5f39f6a-dfc0-4dff-b4fb-0bb7dedfad38",
       "ward_no": "13",
       "name_en": "Veliyathamparamb",
       "name_ml": "വെളിയത്താംപറമ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14023,
+        "ward_id": "b5f39f6a-dfc0-4dff-b4fb-0bb7dedfad38",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "62550430-2918-48e9-ad35-43d5fa124b9a",
       "ward_no": "14",
       "name_en": "Kochambalam",
       "name_ml": "കൊച്ചമ്പലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7528,
+        "ward_id": "62550430-2918-48e9-ad35-43d5fa124b9a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e872c68d-e313-4491-ae0e-62d95de1b849",
       "ward_no": "15",
       "name_en": "Ayurveda Hospital",
       "name_ml": "ആയൂര്‍വ്വേദ ഹോസ്പിറ്റല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17816,
+        "ward_id": "e872c68d-e313-4491-ae0e-62d95de1b849",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b4f1d7a8-0a2e-4c7e-bf57-071eb2b9bb28",
       "ward_no": "16",
       "name_en": "Temple West",
       "name_ml": "ടെമ്പിള്‍ വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13931,
+        "ward_id": "b4f1d7a8-0a2e-4c7e-bf57-071eb2b9bb28",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

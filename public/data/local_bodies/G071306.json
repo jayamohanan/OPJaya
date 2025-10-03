@@ -34,112 +34,192 @@
       "ward_no": "1",
       "name_en": "Thriprayar",
       "name_ml": "തൃപ്രയാര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18000,
+        "ward_id": "eae24bb2-a00c-472a-8396-90dc1f410e0c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "936248f9-308d-49ac-ba47-5516da798356",
       "ward_no": "2",
       "name_en": "Thettaly",
       "name_ml": "തെറ്റാലി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11322,
+        "ward_id": "936248f9-308d-49ac-ba47-5516da798356",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e7640c2d-9648-4e86-a0a9-ea720b97818d",
       "ward_no": "3",
       "name_en": "Prasannapuram",
       "name_ml": "പ്രസന്നപുരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17739,
+        "ward_id": "e7640c2d-9648-4e86-a0a9-ea720b97818d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b2a4a868-0925-4bc2-850a-e7870f7b2e80",
       "ward_no": "4",
       "name_en": "Edanad",
       "name_ml": "എടനാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13747,
+        "ward_id": "b2a4a868-0925-4bc2-850a-e7870f7b2e80",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "862af6b0-499b-4f42-867c-28b72a9e2ff2",
       "ward_no": "5",
       "name_en": "Kallayam",
       "name_ml": "കല്ലയം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10288,
+        "ward_id": "862af6b0-499b-4f42-867c-28b72a9e2ff2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f0e2d87d-cd1e-4097-8a6f-d97099decb1a",
       "ward_no": "6",
       "name_en": "Sreemoolanagaram North",
       "name_ml": "ശ്രീമൂലനഗരം നോര്‍ത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18477,
+        "ward_id": "f0e2d87d-cd1e-4097-8a6f-d97099decb1a",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "cdb039c4-d23f-4d54-bdce-0ca77046a51d",
       "ward_no": "7",
       "name_en": "Sreemoolanagaram East",
       "name_ml": "ശ്രീമൂലനഗരം ഈസ്റ്റ്‌",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15792,
+        "ward_id": "cdb039c4-d23f-4d54-bdce-0ca77046a51d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "6694fa74-4856-45f3-b5d8-a9f081e763ae",
       "ward_no": "8",
       "name_en": "Parathetta",
       "name_ml": "പാറത്തെറ്റ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7816,
+        "ward_id": "6694fa74-4856-45f3-b5d8-a9f081e763ae",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3116b9f8-4797-4730-91fc-b2da01f0778a",
       "ward_no": "9",
       "name_en": "Vellarappilly",
       "name_ml": "വെള്ളാരപ്പിള്ളി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3867,
+        "ward_id": "3116b9f8-4797-4730-91fc-b2da01f0778a",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "914f2c53-cc79-443d-9308-8627f54a81f9",
       "ward_no": "10",
       "name_en": "Thrikkanikkavu",
       "name_ml": "ത്രിക്കണിക്കാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11149,
+        "ward_id": "914f2c53-cc79-443d-9308-8627f54a81f9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "cee93895-d46a-4963-80b7-4acbf6cb1195",
       "ward_no": "11",
       "name_en": "South Vellarappilly",
       "name_ml": "സൌത്ത് വെള്ളാരപ്പിള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15899,
+        "ward_id": "cee93895-d46a-4963-80b7-4acbf6cb1195",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e1f10505-2bbe-4b7e-80bb-b9be9124a012",
       "ward_no": "12",
       "name_en": "Thiruvairanikulam",
       "name_ml": "തിരുവൈരാണിക്കുളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17311,
+        "ward_id": "e1f10505-2bbe-4b7e-80bb-b9be9124a012",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "12f0ebf8-e786-44f6-9762-e3dc8fca8ee2",
       "ward_no": "13",
       "name_en": "Sreebhoothapuram East",
       "name_ml": "ശ്രീഭൂതപുരം ഈസ്റ്റ്‌",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1597,
+        "ward_id": "12f0ebf8-e786-44f6-9762-e3dc8fca8ee2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "afae8eaf-76ae-4d0e-a0d0-b67db0905d3a",
       "ward_no": "14",
       "name_en": "Sreebhoothapuram West",
       "name_ml": "ശ്രീഭൂതപുരം വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13478,
+        "ward_id": "afae8eaf-76ae-4d0e-a0d0-b67db0905d3a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5de5f0fc-f1d6-471c-9ecb-aba7449813da",
       "ward_no": "15",
       "name_en": "Sreemoolanagaram South",
       "name_ml": "ശ്രീമൂലനഗരം സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7201,
+        "ward_id": "5de5f0fc-f1d6-471c-9ecb-aba7449813da",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "110dd1ce-1b9f-46e7-8806-1c82747ccb21",
       "ward_no": "16",
       "name_en": "Chowara",
       "name_ml": "ചൊവ്വര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1448,
+        "ward_id": "110dd1ce-1b9f-46e7-8806-1c82747ccb21",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Blayikkadavu",
       "name_ml": "ബ്ലായിക്കടവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18608,
+        "ward_id": "f2c04694-e223-45bd-8d43-fa804142ee47",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "775000fd-6c6a-4265-aa8e-a432590aa932",
       "ward_no": "2",
       "name_en": "Primary Health Centre",
       "name_ml": "പ്രൈമറി ഹെല്‍ത്ത് സെന്‍റര്‍ര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9149,
+        "ward_id": "775000fd-6c6a-4265-aa8e-a432590aa932",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "18a93bf3-52f5-4b76-9610-89bc351b8ef4",
       "ward_no": "3",
       "name_en": "Thykkavu",
       "name_ml": "തൈക്കാവ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2035,
+        "ward_id": "18a93bf3-52f5-4b76-9610-89bc351b8ef4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "da026075-9ddb-47d2-8cf9-f9733f9e934f",
       "ward_no": "4",
       "name_en": "Glps Cheranalloor",
       "name_ml": "ജിഎല്‍പിഎസ് ചേരാനല്ലൂര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16661,
+        "ward_id": "da026075-9ddb-47d2-8cf9-f9733f9e934f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "bde9f35e-3e7c-4a24-b98a-d8d7f3090b19",
       "ward_no": "5",
       "name_en": "St.James Church",
       "name_ml": "സെന്‍റ് ജെയിംസ്‌ ചര്‍ച്ച്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14613,
+        "ward_id": "bde9f35e-3e7c-4a24-b98a-d8d7f3090b19",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "481d729d-44ea-44cd-9e56-fc2fb87ba08d",
       "ward_no": "6",
       "name_en": "Edayakunnam Kshetram",
       "name_ml": "ഇടയക്കുന്നം ക്ഷേത്രം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5569,
+        "ward_id": "481d729d-44ea-44cd-9e56-fc2fb87ba08d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a00604c3-a9b0-4829-9960-5fe7494b9914",
       "ward_no": "7",
       "name_en": "Hmca",
       "name_ml": "എച്ച് എം സി എ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12261,
+        "ward_id": "a00604c3-a9b0-4829-9960-5fe7494b9914",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a5f62d16-3884-43e5-9015-6e0c4cb00588",
       "ward_no": "8",
       "name_en": "Vayalar Vallassery",
       "name_ml": "വയലാര്‍ വള്ളാശ്ശേരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12710,
+        "ward_id": "a5f62d16-3884-43e5-9015-6e0c4cb00588",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "20566840-c0e9-417c-8da5-b76d5f4fa0b8",
       "ward_no": "9",
       "name_en": "Village Office",
       "name_ml": "വില്ലേജ് ഓഫിസ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2619,
+        "ward_id": "20566840-c0e9-417c-8da5-b76d5f4fa0b8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "370e4329-e3b4-4eb2-aba0-1862bf8ac0d0",
       "ward_no": "10",
       "name_en": "Chittoor Temple",
       "name_ml": "ചിറ്റൂര്‍ അമ്പലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4334,
+        "ward_id": "370e4329-e3b4-4eb2-aba0-1862bf8ac0d0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1dce0944-8d00-4392-a622-5118c99bbccd",
       "ward_no": "11",
       "name_en": "Chittoor Telephone Exchange",
       "name_ml": "CHITTOOR ടെലിഫോണ്‍ എക്സ്ചേഞ്ച്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2438,
+        "ward_id": "1dce0944-8d00-4392-a622-5118c99bbccd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "72f07dec-37da-4932-9551-885d4c377759",
       "ward_no": "12",
       "name_en": "Panchayat Office",
       "name_ml": "പഞ്ചായത്ത്‌ ഓഫീസ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8813,
+        "ward_id": "72f07dec-37da-4932-9551-885d4c377759",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "88e56e41-7d1c-40b7-801d-06a7e37b4e1e",
       "ward_no": "13",
       "name_en": "Valam",
       "name_ml": "വാലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10475,
+        "ward_id": "88e56e41-7d1c-40b7-801d-06a7e37b4e1e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f052cc84-1a6b-4880-b317-a8d8adfbf6a9",
       "ward_no": "14",
       "name_en": "Kappela",
       "name_ml": "കപ്പേള",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18429,
+        "ward_id": "f052cc84-1a6b-4880-b317-a8d8adfbf6a9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b633c3cc-9bed-4b08-b078-4132bf036afa",
       "ward_no": "15",
       "name_en": "Mattummel",
       "name_ml": "മാട്ടുമ്മല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14044,
+        "ward_id": "b633c3cc-9bed-4b08-b078-4132bf036afa",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d8b24430-63d9-485d-a6f7-cef5b272b955",
       "ward_no": "16",
       "name_en": "Vishnupuram",
       "name_ml": "വിഷ്ണുപുരം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16580,
+        "ward_id": "d8b24430-63d9-485d-a6f7-cef5b272b955",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "d939d36d-ad03-486c-a677-524efd2e32ea",
       "ward_no": "17",
       "name_en": "Maraparambu",
       "name_ml": "മാരാപ്പറമ്പ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16613,
+        "ward_id": "d939d36d-ad03-486c-a677-524efd2e32ea",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

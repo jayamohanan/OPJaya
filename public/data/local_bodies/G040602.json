@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Kodupunna",
       "name_ml": "കൊടുപ്പുന്ന",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10029,
+        "ward_id": "82caf959-05a0-4249-ae64-4c5361a72d71",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "427e2570-b8f3-4749-9b1d-2375edf747bf",
       "ward_no": "2",
       "name_en": "Thayankary East",
       "name_ml": "തായങ്കരി കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5142,
+        "ward_id": "427e2570-b8f3-4749-9b1d-2375edf747bf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "30014aea-ede7-4d66-adff-a2226bcfc062",
       "ward_no": "3",
       "name_en": "Changanakri",
       "name_ml": "ചങ്ങങ്കരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3788,
+        "ward_id": "30014aea-ede7-4d66-adff-a2226bcfc062",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ed7896bc-60d4-43bc-8767-3f779f55829e",
       "ward_no": "4",
       "name_en": "Edathua North",
       "name_ml": "എടത്വ നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18205,
+        "ward_id": "ed7896bc-60d4-43bc-8767-3f779f55829e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3fb206d9-7b89-4eef-a07b-f46cc13f89df",
       "ward_no": "5",
       "name_en": "Edathua Center",
       "name_ml": "എടത്വ സെന്‍റര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4946,
+        "ward_id": "3fb206d9-7b89-4eef-a07b-f46cc13f89df",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b8e3afa2-2548-41fa-ba91-ac8e2d132370",
       "ward_no": "6",
       "name_en": "Edathua East",
       "name_ml": "എടത്വ ഈസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14228,
+        "ward_id": "b8e3afa2-2548-41fa-ba91-ac8e2d132370",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "475fe3fd-47e5-4227-a25f-f1a8f5cc08f9",
       "ward_no": "7",
       "name_en": "Edathua South",
       "name_ml": "എടത്വ സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5504,
+        "ward_id": "475fe3fd-47e5-4227-a25f-f1a8f5cc08f9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d47cba6e-9325-43e0-9299-765baeb6a9b4",
       "ward_no": "8",
       "name_en": "Pandankary South",
       "name_ml": "പാണ്ടങ്കരി സൌത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16309,
+        "ward_id": "d47cba6e-9325-43e0-9299-765baeb6a9b4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "2bb1fa72-5d7f-4931-9b5b-23e1aa080caa",
       "ward_no": "9",
       "name_en": "Pandankary West",
       "name_ml": "പാണ്ടങ്കരി വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3457,
+        "ward_id": "2bb1fa72-5d7f-4931-9b5b-23e1aa080caa",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "74bb952c-f675-4c57-a7b4-a71af8306120",
       "ward_no": "10",
       "name_en": "Koyilmuck South",
       "name_ml": "കോയില്‍മുക്ക് തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8955,
+        "ward_id": "74bb952c-f675-4c57-a7b4-a71af8306120",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b17bfd18-bf0f-406d-ac12-96b1ba6ad5f7",
       "ward_no": "11",
       "name_en": "Koyilmuck North",
       "name_ml": "കോയില്‍മുക്ക് നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13645,
+        "ward_id": "b17bfd18-bf0f-406d-ac12-96b1ba6ad5f7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c41a50ae-6f11-4204-80ba-954511c5059e",
       "ward_no": "12",
       "name_en": "Pacha East",
       "name_ml": "പച്ച ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15090,
+        "ward_id": "c41a50ae-6f11-4204-80ba-954511c5059e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "75bc3bc2-aecb-4a7f-aca5-730375b5ce12",
       "ward_no": "13",
       "name_en": "Changankary South",
       "name_ml": "ചങ്ങങ്കരി സൌത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 9032,
+        "ward_id": "75bc3bc2-aecb-4a7f-aca5-730375b5ce12",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "dec9b5bc-fe95-45de-bdce-c5ed37ec3cbe",
       "ward_no": "14",
       "name_en": "Pacha West",
       "name_ml": "പച്ച വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17075,
+        "ward_id": "dec9b5bc-fe95-45de-bdce-c5ed37ec3cbe",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9529f245-f279-47ab-8a66-2e4bd1160703",
       "ward_no": "15",
       "name_en": "Thayankary West",
       "name_ml": "തായങ്കരി വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11450,
+        "ward_id": "9529f245-f279-47ab-8a66-2e4bd1160703",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

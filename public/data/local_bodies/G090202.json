@@ -34,119 +34,204 @@
       "ward_no": "1",
       "name_en": "Chundampatta",
       "name_ml": "ചുണ്ടമ്പറ്റ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13218,
+        "ward_id": "ac694a4c-0131-42f9-8236-3da884362ce7",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "5b7f675a-028c-4c35-b87a-a1221cf48064",
       "ward_no": "2",
       "name_en": "Natyamangalam North",
       "name_ml": "നാട്യമംഗലം നോര്‍ത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7048,
+        "ward_id": "5b7f675a-028c-4c35-b87a-a1221cf48064",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "89be1768-c0eb-4a8b-ae4a-0d935b0006b4",
       "ward_no": "3",
       "name_en": "Natyamangalam",
       "name_ml": "നാട്യമംഗലം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10537,
+        "ward_id": "89be1768-c0eb-4a8b-ae4a-0d935b0006b4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3b88218d-a43c-42af-94ba-fa138f8eb057",
       "ward_no": "4",
       "name_en": "Chundampatta East",
       "name_ml": "ചുണ്ടമ്പറ്റ ഇൌസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4672,
+        "ward_id": "3b88218d-a43c-42af-94ba-fa138f8eb057",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0f481ef4-57cc-4e10-b927-bad009a00a85",
       "ward_no": "5",
       "name_en": "Thathnampully",
       "name_ml": "തത്തനംപ്പുള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1310,
+        "ward_id": "0f481ef4-57cc-4e10-b927-bad009a00a85",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5b9cea39-d86f-414f-add2-13e48fda598e",
       "ward_no": "6",
       "name_en": "Thathnampully  South",
       "name_ml": "തത്തനംപ്പുള്ളി സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7053,
+        "ward_id": "5b9cea39-d86f-414f-add2-13e48fda598e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6fd1d593-e38f-43b2-a498-2123d1803ced",
       "ward_no": "7",
       "name_en": "Mappatukara West",
       "name_ml": "മപ്പാട്ടുകര വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8557,
+        "ward_id": "6fd1d593-e38f-43b2-a498-2123d1803ced",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9b17c15f-446f-4148-ad25-310e04ed4a01",
       "ward_no": "8",
       "name_en": "Mappatukara East",
       "name_ml": "മപ്പാട്ടുകര ഇൌസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11882,
+        "ward_id": "9b17c15f-446f-4148-ad25-310e04ed4a01",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "533c294e-f667-475a-a47d-c19f213d2b02",
       "ward_no": "9",
       "name_en": "Puramathra",
       "name_ml": "പുറമത്ര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6444,
+        "ward_id": "533c294e-f667-475a-a47d-c19f213d2b02",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "2bf1662a-c8f0-4a5f-9023-b43f7d0f8c8d",
       "ward_no": "10",
       "name_en": "Puramathra South",
       "name_ml": "പുറമത്ര സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3473,
+        "ward_id": "2bf1662a-c8f0-4a5f-9023-b43f7d0f8c8d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b59ac432-a981-44e9-8809-583e5274679c",
       "ward_no": "11",
       "name_en": "Kulukkallur",
       "name_ml": "കുലുക്കല്ലൂർ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13984,
+        "ward_id": "b59ac432-a981-44e9-8809-583e5274679c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7db640ac-d04c-4f17-955f-a6744816e50d",
       "ward_no": "12",
       "name_en": "Eravathra",
       "name_ml": "എരവത്ര",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 9645,
+        "ward_id": "7db640ac-d04c-4f17-955f-a6744816e50d",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "da145d43-d1bb-430b-97bc-7a454edbb974",
       "ward_no": "13",
       "name_en": "Mulayankavu South",
       "name_ml": "മുളയന്‍കാവ് സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16667,
+        "ward_id": "da145d43-d1bb-430b-97bc-7a454edbb974",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f924399f-e6b9-436b-9d07-d34cf0d4c904",
       "ward_no": "14",
       "name_en": "Mulayankavu North",
       "name_ml": "മുളയന്‍കാവ് നോർത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 19103,
+        "ward_id": "f924399f-e6b9-436b-9d07-d34cf0d4c904",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fcb9d449-b129-4ece-909e-26dfed722cb2",
       "ward_no": "15",
       "name_en": "Vandumthara",
       "name_ml": "വണ്ടുംതറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19396,
+        "ward_id": "fcb9d449-b129-4ece-909e-26dfed722cb2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "88640cbb-3423-412a-b645-56ba67b55081",
       "ward_no": "16",
       "name_en": "Valiyaparambu",
       "name_ml": "വലിയപറന്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10438,
+        "ward_id": "88640cbb-3423-412a-b645-56ba67b55081",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a633b2cf-e1d2-4d5b-b480-c02fb93d05b4",
       "ward_no": "17",
       "name_en": "Chundampatta West",
       "name_ml": "ചുണ്ടമ്പറ്റ വെസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12732,
+        "ward_id": "a633b2cf-e1d2-4d5b-b480-c02fb93d05b4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

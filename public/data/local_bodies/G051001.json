@@ -34,140 +34,240 @@
       "ward_no": "1",
       "name_en": "Attickal",
       "name_ml": "അട്ടിക്കല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 331,
+        "ward_id": "0239f2be-9b0d-4fde-a324-51f3928fe58f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4b664037-2d07-4049-806b-d2606b99658c",
       "ward_no": "2",
       "name_en": "Koyipally",
       "name_ml": "കോയിപ്പള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5844,
+        "ward_id": "4b664037-2d07-4049-806b-d2606b99658c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8a55991c-323e-4b0e-bf78-599635e0b6e0",
       "ward_no": "3",
       "name_en": "Pathaseri",
       "name_ml": "പത്താശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10595,
+        "ward_id": "8a55991c-323e-4b0e-bf78-599635e0b6e0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7232ff91-79d1-4cc6-94df-b3cc908b900f",
       "ward_no": "4",
       "name_en": "Chithranjali",
       "name_ml": "ചിത്രാഞ്ജലി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8750,
+        "ward_id": "7232ff91-79d1-4cc6-94df-b3cc908b900f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "52fe7ee4-80c4-43ca-9ba0-02613df62ad9",
       "ward_no": "5",
       "name_en": "Moolakunnu",
       "name_ml": "മൂലക്കുന്ന്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 6419,
+        "ward_id": "52fe7ee4-80c4-43ca-9ba0-02613df62ad9",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "8915331c-9323-4b5b-a221-15fe40d5fcfa",
       "ward_no": "6",
       "name_en": "Gramadeepam",
       "name_ml": "ഗ്രാമദീപം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10491,
+        "ward_id": "8915331c-9323-4b5b-a221-15fe40d5fcfa",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "bf54053e-e857-4565-9f3d-338d4102181f",
       "ward_no": "7",
       "name_en": "Kunnumbhagam",
       "name_ml": "കുന്നുംഭാഗം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14706,
+        "ward_id": "bf54053e-e857-4565-9f3d-338d4102181f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "adca261a-0255-4ed8-a6e1-39ae888775b6",
       "ward_no": "8",
       "name_en": "Mannamplavu",
       "name_ml": "മണ്ണംപ്ലാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13324,
+        "ward_id": "adca261a-0255-4ed8-a6e1-39ae888775b6",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "735d63ac-f06a-4561-ae3a-2823cceedd36",
       "ward_no": "9",
       "name_en": "Edabhagam",
       "name_ml": "ഇടഭാഗം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8848,
+        "ward_id": "735d63ac-f06a-4561-ae3a-2823cceedd36",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a87b7449-8bad-4c45-be71-b14831ed0c26",
       "ward_no": "10",
       "name_en": "Valakkayam",
       "name_ml": "വാളക്കയം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12907,
+        "ward_id": "a87b7449-8bad-4c45-be71-b14831ed0c26",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "42d30934-39a6-47d8-9d5f-625347bca650",
       "ward_no": "11",
       "name_en": "Cheruvally",
       "name_ml": "ചെറുവള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5168,
+        "ward_id": "42d30934-39a6-47d8-9d5f-625347bca650",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d191106c-f0b9-4e3b-a23a-6c7a933c4c22",
       "ward_no": "12",
       "name_en": "Mooleplavu",
       "name_ml": "മൂലേപ്ലാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16090,
+        "ward_id": "d191106c-f0b9-4e3b-a23a-6c7a933c4c22",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e537fadf-76a2-47a6-a353-db1a8fd1e935",
       "ward_no": "13",
       "name_en": "Kailathukavala",
       "name_ml": "കൈലാത്ത്കവല",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17581,
+        "ward_id": "e537fadf-76a2-47a6-a353-db1a8fd1e935",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "5532f626-5df1-4de2-813c-8173a24c7742",
       "ward_no": "14",
       "name_en": "Kottadikunnu",
       "name_ml": "കൊട്ടാടികുന്ന്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6581,
+        "ward_id": "5532f626-5df1-4de2-813c-8173a24c7742",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5140bd1d-defc-4e06-8bbd-e5b71bf60a8b",
       "ward_no": "15",
       "name_en": "Chennakunnu",
       "name_ml": "ചെന്നാക്കുന്ന്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6281,
+        "ward_id": "5140bd1d-defc-4e06-8bbd-e5b71bf60a8b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6e9769d3-d152-4c0e-938d-80e3868c6b68",
       "ward_no": "16",
       "name_en": "Thekkethukavala",
       "name_ml": "തെക്കെത്തുകവല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8442,
+        "ward_id": "6e9769d3-d152-4c0e-938d-80e3868c6b68",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "966f63c4-54cd-40d9-a322-e252a5a3e9b0",
       "ward_no": "17",
       "name_en": "Chirakkadavu Center",
       "name_ml": "ചിറക്കടവ്സെന്‍റെര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11538,
+        "ward_id": "966f63c4-54cd-40d9-a322-e252a5a3e9b0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "336f3a90-8365-4933-b5ae-b34036188aaa",
       "ward_no": "18",
       "name_en": "Mandhiram",
       "name_ml": "മന്ദിരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4054,
+        "ward_id": "336f3a90-8365-4933-b5ae-b34036188aaa",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "21360a5a-8eca-40fe-bdde-3c27bc875a8c",
       "ward_no": "19",
       "name_en": "Thonipara",
       "name_ml": "തോണിപ്പാറ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2671,
+        "ward_id": "21360a5a-8eca-40fe-bdde-3c27bc875a8c",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "afafec0a-f98c-4769-a604-f895b74aef7a",
       "ward_no": "20",
       "name_en": "Kadukkamala",
       "name_ml": "കടുക്കാമല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13479,
+        "ward_id": "afafec0a-f98c-4769-a604-f895b74aef7a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

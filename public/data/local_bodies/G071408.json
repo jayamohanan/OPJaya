@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Kayanad",
       "name_ml": "കായനാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1536,
+        "ward_id": "121c1551-2d67-4bab-8916-e06d6e521295",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "944eefcb-bc68-41f0-bb2f-d196209b225e",
       "ward_no": "2",
       "name_en": "Melakkunnu",
       "name_ml": "മേളക്കുന്ന്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11388,
+        "ward_id": "944eefcb-bc68-41f0-bb2f-d196209b225e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "09f6f462-5a8e-4339-a37a-9c6ffff0722e",
       "ward_no": "3",
       "name_en": "Marady Central",
       "name_ml": "മാറാടി സെന്‍ട്രല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 921,
+        "ward_id": "09f6f462-5a8e-4339-a37a-9c6ffff0722e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1d9bb9e4-855e-4dfa-b721-ae6c6991987c",
       "ward_no": "4",
       "name_en": "Thaikkavu",
       "name_ml": "തൈക്കാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2426,
+        "ward_id": "1d9bb9e4-855e-4dfa-b721-ae6c6991987c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "adc3f9c5-ba35-4820-9d7e-a577f32a3d2e",
       "ward_no": "5",
       "name_en": "Manjirippady",
       "name_ml": "മഞ്ചിരിപ്പടി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13322,
+        "ward_id": "adc3f9c5-ba35-4820-9d7e-a577f32a3d2e",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "f0e6906a-8cde-49c3-bc88-2c5eca3d03a9",
       "ward_no": "6",
       "name_en": "North Marady",
       "name_ml": "നോര്‍ത്ത് മാറാടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18478,
+        "ward_id": "f0e6906a-8cde-49c3-bc88-2c5eca3d03a9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8818bcf3-fc7d-49d3-8b14-6265dad8f09b",
       "ward_no": "7",
       "name_en": "Thevarkad",
       "name_ml": "തേവര്‍കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10422,
+        "ward_id": "8818bcf3-fc7d-49d3-8b14-6265dad8f09b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e2a11e94-5f33-41dc-99ed-2f968834e35f",
       "ward_no": "8",
       "name_en": "Mangambra",
       "name_ml": "മങ്ങമ്പ്ര",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17355,
+        "ward_id": "e2a11e94-5f33-41dc-99ed-2f968834e35f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "7144f3d4-8b4a-4fcd-909f-0c24706fdf49",
       "ward_no": "9",
       "name_en": "Changalimattom",
       "name_ml": "ചങ്ങാലിമറ്റം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8669,
+        "ward_id": "7144f3d4-8b4a-4fcd-909f-0c24706fdf49",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "6af4e9e9-f864-441e-a8c7-8c859f591d52",
       "ward_no": "10",
       "name_en": "East Marady",
       "name_ml": "ഈസ്റ്റ് മാറാടി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8147,
+        "ward_id": "6af4e9e9-f864-441e-a8c7-8c859f591d52",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "eb4b0072-cfc2-4868-88ec-7330069a38e4",
       "ward_no": "11",
       "name_en": "Maniyankallu",
       "name_ml": "മണിയങ്കല്ല്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 18025,
+        "ward_id": "eb4b0072-cfc2-4868-88ec-7330069a38e4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "cdaec625-3a5e-4e8f-88f5-e61dce3f5072",
       "ward_no": "12",
       "name_en": "Parathattal",
       "name_ml": "പാറത്തട്ടാല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 15791,
+        "ward_id": "cdaec625-3a5e-4e8f-88f5-e61dce3f5072",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4c8bf9c6-a9eb-46ae-90cc-019c0741b9b2",
       "ward_no": "13",
       "name_en": "Kandamchira",
       "name_ml": "കണ്ടംചിറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5929,
+        "ward_id": "4c8bf9c6-a9eb-46ae-90cc-019c0741b9b2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

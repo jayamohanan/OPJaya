@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Veeyapuram",
       "name_ml": "വീയപുരം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8981,
+        "ward_id": "7518a954-1e03-436f-aaf1-3efec777a7a3",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "c5d5dfeb-e25d-4327-812d-94a827cd46ec",
       "ward_no": "2",
       "name_en": "Veeyapuram East",
       "name_ml": "വീയപുരം കിഴക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 15188,
+        "ward_id": "c5d5dfeb-e25d-4327-812d-94a827cd46ec",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "017c0fb4-0771-4523-86a1-a9d575802e2f",
       "ward_no": "3",
       "name_en": "Thuruthel Bhagam",
       "name_ml": "തുരുത്തേല്‍ ഭാഗം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 282,
+        "ward_id": "017c0fb4-0771-4523-86a1-a9d575802e2f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9c96f9e4-ffd3-4e99-9692-8ab632ef3b5b",
       "ward_no": "4",
       "name_en": "Melpadom North",
       "name_ml": "മേല്‍പ്പാടം വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11992,
+        "ward_id": "9c96f9e4-ffd3-4e99-9692-8ab632ef3b5b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "45911e9c-a26d-43a6-9734-ddc7a784dd4a",
       "ward_no": "5",
       "name_en": "Melpadom South",
       "name_ml": "മേല്‍പ്പാടം തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5356,
+        "ward_id": "45911e9c-a26d-43a6-9734-ddc7a784dd4a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4300a311-63d7-4837-a98b-8a24fa1c6111",
       "ward_no": "6",
       "name_en": "Vellamkulangara",
       "name_ml": "വെളളംകുളങ്ങര",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5179,
+        "ward_id": "4300a311-63d7-4837-a98b-8a24fa1c6111",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d59cb29c-304d-4d01-93ee-24ef0eae71fd",
       "ward_no": "7",
       "name_en": "Karichal North",
       "name_ml": "കാരിച്ചാല്‍ വടക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16383,
+        "ward_id": "d59cb29c-304d-4d01-93ee-24ef0eae71fd",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a84d7947-dbb2-4b9e-90b1-9a4754840563",
       "ward_no": "8",
       "name_en": "Karichal South",
       "name_ml": "കാരിച്ചാല്‍ തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12888,
+        "ward_id": "a84d7947-dbb2-4b9e-90b1-9a4754840563",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "d67d9acc-76bf-44d6-ba75-253bd409912b",
       "ward_no": "9",
       "name_en": "Kalayamkulangara",
       "name_ml": "കലയംകുളങ്ങര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16446,
+        "ward_id": "d67d9acc-76bf-44d6-ba75-253bd409912b",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f1487ce6-ec74-42bf-b8ff-ccc733148b3e",
       "ward_no": "10",
       "name_en": "Thrivikramapuram",
       "name_ml": "ത്രിവിക്രമപുരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18509,
+        "ward_id": "f1487ce6-ec74-42bf-b8ff-ccc733148b3e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b261a273-e279-40e9-81f3-c4454acdfd13",
       "ward_no": "11",
       "name_en": "Payipad East",
       "name_ml": "പായിപ്പാട് കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13718,
+        "ward_id": "b261a273-e279-40e9-81f3-c4454acdfd13",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "449245ea-b74e-4159-833a-d0dee3461369",
       "ward_no": "12",
       "name_en": "Payipad West",
       "name_ml": "പായിപ്പാട് പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5285,
+        "ward_id": "449245ea-b74e-4159-833a-d0dee3461369",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "43ee7efd-ad8d-492f-820c-0656c5db87d8",
       "ward_no": "13",
       "name_en": "Murinjapuzha Bhagam",
       "name_ml": "മുറിഞ്ഞപുഴ ഭാഗം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5249,
+        "ward_id": "43ee7efd-ad8d-492f-820c-0656c5db87d8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

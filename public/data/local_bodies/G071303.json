@@ -34,133 +34,228 @@
       "ward_no": "1",
       "name_en": "Mallussery",
       "name_ml": "മള്ളുശ്ശേരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 13644,
+        "ward_id": "b175acab-dcfd-47fd-9395-f6c2c0baf886",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "ceca621b-1448-485f-87af-44603fbcf84d",
       "ward_no": "2",
       "name_en": "Karakkattukunnu North",
       "name_ml": "കാരയ്ക്കാട്ടുകുന്ന് നോര്‍ത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 15888,
+        "ward_id": "ceca621b-1448-485f-87af-44603fbcf84d",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "500ecdab-c8bb-4288-939f-6198c4ebfc8f",
       "ward_no": "3",
       "name_en": "Mekkad West",
       "name_ml": "മേയ്ക്കാട് വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6192,
+        "ward_id": "500ecdab-c8bb-4288-939f-6198c4ebfc8f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "e25c790a-eda5-4d9a-89c0-85a18c128bc9",
       "ward_no": "4",
       "name_en": "Mekkad East",
       "name_ml": "മേയ്ക്കാട് ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17337,
+        "ward_id": "e25c790a-eda5-4d9a-89c0-85a18c128bc9",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "cb32868a-67db-42de-b24a-d05d4ec91cce",
       "ward_no": "5",
       "name_en": "Chambannoor",
       "name_ml": "ചമ്പന്നൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15598,
+        "ward_id": "cb32868a-67db-42de-b24a-d05d4ec91cce",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7e992edd-ab68-4948-bca9-ff1e69bc00e6",
       "ward_no": "6",
       "name_en": "Cheriya Vappalassery West",
       "name_ml": "ചെറിയ വാപ്പാലശ്ശേരി വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9722,
+        "ward_id": "7e992edd-ab68-4948-bca9-ff1e69bc00e6",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "016865da-1df9-4301-80e0-2f5c8582c744",
       "ward_no": "7",
       "name_en": "Cheriya Vappalassery East",
       "name_ml": "ചെറിയ വാപ്പാലശ്ശേരി ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 275,
+        "ward_id": "016865da-1df9-4301-80e0-2f5c8582c744",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ad8fce99-6082-48b6-8810-7be92d0aaee3",
       "ward_no": "8",
       "name_en": "Cheriya Vappalassery North",
       "name_ml": "ചെറിയ വാപ്പാലശ്ശേരി  നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13305,
+        "ward_id": "ad8fce99-6082-48b6-8810-7be92d0aaee3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "583b2c82-ccd4-4633-aece-1b54bad3a918",
       "ward_no": "9",
       "name_en": "Akapparambu Mekkavu",
       "name_ml": "അകപ്പറമ്പ് മേയ്ക്കാവ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6812,
+        "ward_id": "583b2c82-ccd4-4633-aece-1b54bad3a918",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "cf7a1763-cacd-4175-b058-e3c97627919f",
       "ward_no": "10",
       "name_en": "Vappalassery",
       "name_ml": "വാപ്പാലശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15945,
+        "ward_id": "cf7a1763-cacd-4175-b058-e3c97627919f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c1bc72eb-5bca-4147-af12-a2fb675809c7",
       "ward_no": "11",
       "name_en": "Airport  Ward",
       "name_ml": "എയര്‍പോര്‍ട്ട്  വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14902,
+        "ward_id": "c1bc72eb-5bca-4147-af12-a2fb675809c7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0649a613-9bf5-4d5b-a2b6-dac0fd7a29e8",
       "ward_no": "12",
       "name_en": "Kariyad",
       "name_ml": "കരിയാട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 660,
+        "ward_id": "0649a613-9bf5-4d5b-a2b6-dac0fd7a29e8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b4bb94f7-f99a-4851-bee4-d81c9104624b",
       "ward_no": "13",
       "name_en": "Thuruthissery",
       "name_ml": "തുരുത്തിശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13917,
+        "ward_id": "b4bb94f7-f99a-4851-bee4-d81c9104624b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f015e948-9395-4ce0-8835-a02815b95ca2",
       "ward_no": "14",
       "name_en": "Kalpaka Nagar",
       "name_ml": "കല്‍പ്പക നഗര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18408,
+        "ward_id": "f015e948-9395-4ce0-8835-a02815b95ca2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "de8c3867-1272-4b7a-b067-aafacf06be70",
       "ward_no": "15",
       "name_en": "Nedumbassery",
       "name_ml": "നെടുമ്പാശ്ശേരി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17059,
+        "ward_id": "de8c3867-1272-4b7a-b067-aafacf06be70",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "158aa239-49f1-4572-9ec0-adf327bed903",
       "ward_no": "16",
       "name_en": "Karakkattukunnu South",
       "name_ml": "കാരയ്ക്കാട്ടുകുന്ന്  സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1797,
+        "ward_id": "158aa239-49f1-4572-9ec0-adf327bed903",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "7d89c41d-77a8-465f-90c6-fc1ee15250bf",
       "ward_no": "17",
       "name_en": "Athani Town",
       "name_ml": "അത്താണി ടൌണ്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 9628,
+        "ward_id": "7d89c41d-77a8-465f-90c6-fc1ee15250bf",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "ff9bda7d-176a-4344-8515-b12b660bcd0a",
       "ward_no": "18",
       "name_en": "Poickattussery South",
       "name_ml": "പൊയ്ക്കാട്ടുശ്ശേരി സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19603,
+        "ward_id": "ff9bda7d-176a-4344-8515-b12b660bcd0a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "23e9e452-5471-4246-9e80-645233c8412b",
       "ward_no": "19",
       "name_en": "Poickattussery",
       "name_ml": "പൊയ്ക്കാട്ടുശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2851,
+        "ward_id": "23e9e452-5471-4246-9e80-645233c8412b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

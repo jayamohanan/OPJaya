@@ -34,98 +34,168 @@
       "ward_no": "1",
       "name_en": "Cherussery",
       "name_ml": "ചെറുശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2722,
+        "ward_id": "2200237b-fb93-425b-9ddf-94726cbc245b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "965cbb1f-f40b-47bc-bf6e-01051c713015",
       "ward_no": "2",
       "name_en": "Sree Krishna Puram",
       "name_ml": "ശ്രീ കൃഷ്ണ പുരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11533,
+        "ward_id": "965cbb1f-f40b-47bc-bf6e-01051c713015",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "98a05ade-edc2-449b-91cf-084ef31492a7",
       "ward_no": "3",
       "name_en": "Mosco Nagar",
       "name_ml": "മോസ്കോ നഗര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11701,
+        "ward_id": "98a05ade-edc2-449b-91cf-084ef31492a7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1faa856d-291b-482e-b56b-f1d4b5e64dad",
       "ward_no": "4",
       "name_en": "Chathakudam",
       "name_ml": "ചാത്തക്കുടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2579,
+        "ward_id": "1faa856d-291b-482e-b56b-f1d4b5e64dad",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "88d0f5e7-c47c-436d-a499-547ffde2d135",
       "ward_no": "5",
       "name_en": "Kadalassery",
       "name_ml": "കടലാശ്ശേരി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10468,
+        "ward_id": "88d0f5e7-c47c-436d-a499-547ffde2d135",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "20127968-4271-4814-a99e-c56d3d981580",
       "ward_no": "6",
       "name_en": "Njeruvissery",
       "name_ml": "ഞെരുവിശ്ശേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2600,
+        "ward_id": "20127968-4271-4814-a99e-c56d3d981580",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5f9df765-3d90-48ca-99cb-3f8a4142b021",
       "ward_no": "7",
       "name_en": "Arattupuzha North",
       "name_ml": "ആറാട്ടുപുഴ വടക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7316,
+        "ward_id": "5f9df765-3d90-48ca-99cb-3f8a4142b021",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "dbaad360-09d2-4ac5-9632-aea918fb16ab",
       "ward_no": "8",
       "name_en": "Arattupuzha South",
       "name_ml": "ആറാട്ടുപുഴ തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16807,
+        "ward_id": "dbaad360-09d2-4ac5-9632-aea918fb16ab",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9d2a9ec7-4b3c-44bb-ad70-23cdc9192324",
       "ward_no": "9",
       "name_en": "Pallissery",
       "name_ml": "പല്ലിശ്ശേരി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12037,
+        "ward_id": "9d2a9ec7-4b3c-44bb-ad70-23cdc9192324",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b0ff69b2-1182-4164-9b69-d96241d21d90",
       "ward_no": "10",
       "name_en": "Kandeswaram",
       "name_ml": "കണ്ഠേശ്വരം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 13606,
+        "ward_id": "b0ff69b2-1182-4164-9b69-d96241d21d90",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "9d5b9baf-4b1c-458a-917d-b152d13e5b09",
       "ward_no": "11",
       "name_en": "Ilamkunnu",
       "name_ml": "ഇളംകുന്ന്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12057,
+        "ward_id": "9d5b9baf-4b1c-458a-917d-b152d13e5b09",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "53ed72c4-c65c-415a-9654-f90bc33ffdf1",
       "ward_no": "12",
       "name_en": "Sree Narayana Puram",
       "name_ml": "ശ്രീ നാരായണ പുരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6493,
+        "ward_id": "53ed72c4-c65c-415a-9654-f90bc33ffdf1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "691d5d22-65c8-4840-9c91-900008adc38e",
       "ward_no": "13",
       "name_en": "Vallachira",
       "name_ml": "വല്ലച്ചിറ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8014,
+        "ward_id": "691d5d22-65c8-4840-9c91-900008adc38e",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d7142ebc-73f9-4925-8053-dd310a02eba9",
       "ward_no": "14",
       "name_en": "Puthukulangara",
       "name_ml": "പുതുകുളങ്ങര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16479,
+        "ward_id": "d7142ebc-73f9-4925-8053-dd310a02eba9",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

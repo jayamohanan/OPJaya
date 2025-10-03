@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Padinjare Koodalloor",
       "name_ml": "പടിഞ്ഞാറെ കൂടല്ലൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1542,
+        "ward_id": "1234a6d6-04b1-4f19-a1a4-41557b771c1f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "34777eb2-1512-40ff-96db-57b7a5a2f6e7",
       "ward_no": "2",
       "name_en": "Kizhakke Koodalloor",
       "name_ml": "കിഴക്കേ കൂടല്ലൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4148,
+        "ward_id": "34777eb2-1512-40ff-96db-57b7a5a2f6e7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8f848a44-489f-42e7-adc8-76f73ace0d53",
       "ward_no": "3",
       "name_en": "Kottappuram",
       "name_ml": "കോട്ടപ്പുറം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10999,
+        "ward_id": "8f848a44-489f-42e7-adc8-76f73ace0d53",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d236b7e3-7bcd-46b2-bc67-f195762a92fa",
       "ward_no": "4",
       "name_en": "Kavalipuzha",
       "name_ml": "കാവാലിപ്പുഴ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16133,
+        "ward_id": "d236b7e3-7bcd-46b2-bc67-f195762a92fa",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d065e81d-6af9-4107-bf49-47fc5bb3c81f",
       "ward_no": "5",
       "name_en": "Kummannoor",
       "name_ml": "കുമ്മണ്ണൂര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16009,
+        "ward_id": "d065e81d-6af9-4107-bf49-47fc5bb3c81f",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "dd36c5ab-8850-46b0-80a6-a68c52486a5e",
       "ward_no": "6",
       "name_en": "Cherpunkal",
       "name_ml": "ചേര്‍പ്പുങ്കല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16947,
+        "ward_id": "dd36c5ab-8850-46b0-80a6-a68c52486a5e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4314c919-2b80-4b1a-b2e7-edc7bcbb7e0a",
       "ward_no": "7",
       "name_en": "Peringotty",
       "name_ml": "പെരിങ്ങോറ്റി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5184,
+        "ward_id": "4314c919-2b80-4b1a-b2e7-edc7bcbb7e0a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b2a3a69f-e411-49f8-b344-fdd7bd21e4c8",
       "ward_no": "8",
       "name_en": "Chempilavu",
       "name_ml": "ചെമ്പിളാവ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13745,
+        "ward_id": "b2a3a69f-e411-49f8-b344-fdd7bd21e4c8",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b330526c-0310-4fb4-8892-e6f34ed25dc2",
       "ward_no": "9",
       "name_en": "Uthameswaram",
       "name_ml": "ഉത്തമേശ്വരം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13789,
+        "ward_id": "b330526c-0310-4fb4-8892-e6f34ed25dc2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "82770148-3064-4554-a4a7-e42554beccd1",
       "ward_no": "10",
       "name_en": "Engineering College Ward",
       "name_ml": "എഞ്ചിനീയറിംഗ് കോളേജ് വാര്‍ഡ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 10003,
+        "ward_id": "82770148-3064-4554-a4a7-e42554beccd1",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "12e5612a-8e8d-456f-99f0-b50c01a03fc8",
       "ward_no": "11",
       "name_en": "Kidangoor South",
       "name_ml": "കിടങ്ങൂര്‍ സൌത്ത്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 1594,
+        "ward_id": "12e5612a-8e8d-456f-99f0-b50c01a03fc8",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "57b63565-c4c1-44d1-b066-dbb7548a07ed",
       "ward_no": "12",
       "name_en": "Kidangoor Temple Ward",
       "name_ml": "കിടങ്ങൂര്‍ അമ്പലം വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6773,
+        "ward_id": "57b63565-c4c1-44d1-b066-dbb7548a07ed",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "5c5f6cc5-7667-4659-974c-c1b4a0bab214",
       "ward_no": "13",
       "name_en": "Kattachira",
       "name_ml": "കട്ടച്ചിറ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 7104,
+        "ward_id": "5c5f6cc5-7667-4659-974c-c1b4a0bab214",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "dcb8e400-c8fb-4432-b17a-865a782e737e",
       "ward_no": "14",
       "name_en": "Sivakulangara",
       "name_ml": "ശിവക്കുളങ്ങര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16908,
+        "ward_id": "dcb8e400-c8fb-4432-b17a-865a782e737e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b767cdf4-914c-48ab-b458-7393c2af0714",
       "ward_no": "15",
       "name_en": "Pirayar",
       "name_ml": "പിറയാര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14125,
+        "ward_id": "b767cdf4-914c-48ab-b458-7393c2af0714",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

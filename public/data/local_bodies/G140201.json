@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Indumoola",
       "name_ml": "ഇന്ദുമൂല",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7891,
+        "ward_id": "678dc496-273d-4ca4-a715-57724612f682",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "726a3390-9d36-49e2-8248-eb53fae3c930",
       "ward_no": "2",
       "name_en": "Baja",
       "name_ml": "ബജ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8769,
+        "ward_id": "726a3390-9d36-49e2-8248-eb53fae3c930",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e2967943-e8f3-4a43-8228-cf41a8766500",
       "ward_no": "3",
       "name_en": "Koladapara",
       "name_ml": "കൊളതപ്പാറ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17354,
+        "ward_id": "e2967943-e8f3-4a43-8228-cf41a8766500",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4596f1b2-4e51-45e6-b3de-6410d1b299ad",
       "ward_no": "4",
       "name_en": "Maradamoola",
       "name_ml": "മരതമൂല",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5358,
+        "ward_id": "4596f1b2-4e51-45e6-b3de-6410d1b299ad",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "e30808d5-bd18-43ae-947a-85488100ca42",
       "ward_no": "5",
       "name_en": "Nettanige",
       "name_ml": "നെട്ടണിഗെ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17390,
+        "ward_id": "e30808d5-bd18-43ae-947a-85488100ca42",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "2cfea46c-18a9-445a-99bf-53a90609bba7",
       "ward_no": "6",
       "name_en": "Kakkebettu",
       "name_ml": "കക്കബെട്ടു",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3547,
+        "ward_id": "2cfea46c-18a9-445a-99bf-53a90609bba7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c74e2472-2b22-4663-b52c-d5c3e4e173a1",
       "ward_no": "7",
       "name_en": "Aithanadka",
       "name_ml": "ഐത്തനടുക്ക",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 15305,
+        "ward_id": "c74e2472-2b22-4663-b52c-d5c3e4e173a1",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "f99242f5-1956-477c-bfd9-581c81ec8969",
       "ward_no": "8",
       "name_en": "Basthi",
       "name_ml": "ബസ്തി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19136,
+        "ward_id": "f99242f5-1956-477c-bfd9-581c81ec8969",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6aee028b-21f6-4876-ad17-d8ff9f6ebe7d",
       "ward_no": "9",
       "name_en": "Bellur",
       "name_ml": "ബെള്ളൂര്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 8145,
+        "ward_id": "6aee028b-21f6-4876-ad17-d8ff9f6ebe7d",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a8e01e8d-3844-4393-930a-dc537a8af50e",
       "ward_no": "10",
       "name_en": "Natakkal",
       "name_ml": "നാട്ടക്കല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 12936,
+        "ward_id": "a8e01e8d-3844-4393-930a-dc537a8af50e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "e49c96bc-648c-45e3-985f-f4855aa84ee0",
       "ward_no": "11",
       "name_en": "Kaimala",
       "name_ml": "കായിമല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17523,
+        "ward_id": "e49c96bc-648c-45e3-985f-f4855aa84ee0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ecb1feeb-226d-4aec-8696-764135f787ad",
       "ward_no": "12",
       "name_en": "Panayala",
       "name_ml": "പനയാല",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 18138,
+        "ward_id": "ecb1feeb-226d-4aec-8696-764135f787ad",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "bae3fe25-a484-477a-b262-a9d99d0d3f58",
       "ward_no": "13",
       "name_en": "Kinningar",
       "name_ml": "കിന്നിംഗാര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14385,
+        "ward_id": "bae3fe25-a484-477a-b262-a9d99d0d3f58",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

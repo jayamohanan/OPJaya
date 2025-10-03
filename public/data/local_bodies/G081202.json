@@ -34,98 +34,168 @@
       "ward_no": "1",
       "name_en": "Munayam",
       "name_ml": "മുനയം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13112,
+        "ward_id": "ab13e87c-6f1e-4f40-a5f9-4e8b2eabcdb0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "810bd60a-5ee4-477e-a910-27cde4e99790",
       "ward_no": "2",
       "name_en": "Karanchira North",
       "name_ml": "കരാഞ്ചിറ നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9902,
+        "ward_id": "810bd60a-5ee4-477e-a910-27cde4e99790",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "17536fc6-4e8a-4ae9-9a0f-ee7051c22bfd",
       "ward_no": "3",
       "name_en": "Karanchira South",
       "name_ml": "കരാഞ്ചിറ സൌത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1930,
+        "ward_id": "17536fc6-4e8a-4ae9-9a0f-ee7051c22bfd",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "05d4795c-1986-4538-b9f3-8c81688042bb",
       "ward_no": "4",
       "name_en": "Labour Center",
       "name_ml": "ലേബര്‍സെന്‍റര��‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 623,
+        "ward_id": "05d4795c-1986-4538-b9f3-8c81688042bb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "cdd5737d-6272-4128-9d03-fd2103fbd66f",
       "ward_no": "5",
       "name_en": "Kunnathpeedika",
       "name_ml": "കുന്നത്ത്പീടിക",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15808,
+        "ward_id": "cdd5737d-6272-4128-9d03-fd2103fbd66f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "63d1540b-bf99-47b4-b3f7-719f477beeb7",
       "ward_no": "6",
       "name_en": "Ponjanam North",
       "name_ml": "പൊഞ്ഞനം നോര്‍ത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 7623,
+        "ward_id": "63d1540b-bf99-47b4-b3f7-719f477beeb7",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "5bf946e9-288b-4df6-97e4-1ed38a0c1dcf",
       "ward_no": "7",
       "name_en": "Narikuzhi",
       "name_ml": "നരിക്കുഴി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7072,
+        "ward_id": "5bf946e9-288b-4df6-97e4-1ed38a0c1dcf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f253092d-83e0-42d3-82e5-291dee47bce7",
       "ward_no": "8",
       "name_en": "Ponjanam East",
       "name_ml": "പൊഞ്ഞനം ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18573,
+        "ward_id": "f253092d-83e0-42d3-82e5-291dee47bce7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1a7a35f4-3f7e-4551-8782-5c47815a3429",
       "ward_no": "9",
       "name_en": "Illikkad",
       "name_ml": "ഇല്ലിക്കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2175,
+        "ward_id": "1a7a35f4-3f7e-4551-8782-5c47815a3429",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "04e9c9c8-4665-4c84-af46-bceaa2dfc541",
       "ward_no": "10",
       "name_en": "Ponjanam South",
       "name_ml": "പൊഞ്ഞനം സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 554,
+        "ward_id": "04e9c9c8-4665-4c84-af46-bceaa2dfc541",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "ecffde42-9349-41ee-9658-0289bdd1f0d5",
       "ward_no": "11",
       "name_en": "Kattoor",
       "name_ml": "കാട്ടൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18164,
+        "ward_id": "ecffde42-9349-41ee-9658-0289bdd1f0d5",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a28bc471-ad09-47d9-9af3-c1c80ac579a1",
       "ward_no": "12",
       "name_en": "Thekkumoola",
       "name_ml": "തേക്കുംമൂല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12456,
+        "ward_id": "a28bc471-ad09-47d9-9af3-c1c80ac579a1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "58dc9530-9f6a-4f09-a102-6843757b8a82",
       "ward_no": "13",
       "name_en": "Kattoor Bazar",
       "name_ml": "കാട്ടൂര്‍ ബസാര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6870,
+        "ward_id": "58dc9530-9f6a-4f09-a102-6843757b8a82",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9821c574-aab9-48b0-a537-9c17340bd799",
       "ward_no": "14",
       "name_en": "Nedumpura",
       "name_ml": "നെടുംമ്പുര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11655,
+        "ward_id": "9821c574-aab9-48b0-a537-9c17340bd799",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

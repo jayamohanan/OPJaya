@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Thundippuram North",
       "name_ml": "തുണ്ടിപ്പുറം വടക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6594,
+        "ward_id": "5553c9b4-6fdc-4711-b8fb-10731bff7831",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "d9eb905c-5bde-4a92-a935-e56f6677a6ea",
       "ward_no": "2",
       "name_en": "Ayyampilly West",
       "name_ml": "അയ്യമ്പിള്ളി പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16658,
+        "ward_id": "d9eb905c-5bde-4a92-a935-e56f6677a6ea",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c1ad1500-a3ce-4c46-84f7-97660c78de72",
       "ward_no": "3",
       "name_en": "Govt.Hospital Ward",
       "name_ml": "ഗവ. ഹോസ്പിറ്റല്‍ വാര്‍ഡ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14895,
+        "ward_id": "c1ad1500-a3ce-4c46-84f7-97660c78de72",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "bfa7e698-d84e-4db4-9dad-311b78aa67e1",
       "ward_no": "4",
       "name_en": "Manappilly",
       "name_ml": "മനപ്പിള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14742,
+        "ward_id": "bfa7e698-d84e-4db4-9dad-311b78aa67e1",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3d2699bc-698c-46b3-b73a-8ca3f838e86c",
       "ward_no": "5",
       "name_en": "Tharavattom",
       "name_ml": "തറവട്ടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4780,
+        "ward_id": "3d2699bc-698c-46b3-b73a-8ca3f838e86c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "28359c23-4597-44b1-97de-cdacce4d4fc4",
       "ward_no": "6",
       "name_en": "Ayyampilly East",
       "name_ml": "അയ്യമ്പിള്ളി കിഴക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 3184,
+        "ward_id": "28359c23-4597-44b1-97de-cdacce4d4fc4",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "1d04198b-d972-4b8e-9214-081ce6e50049",
       "ward_no": "7",
       "name_en": "Cheruvype",
       "name_ml": "ചെറുവൈപ്പ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2378,
+        "ward_id": "1d04198b-d972-4b8e-9214-081ce6e50049",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9a65ecc3-1fa8-4d16-97e6-1ca9715e0dfe",
       "ward_no": "8",
       "name_en": "Cheruvype South",
       "name_ml": "ചെറുവൈപ്പ് തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11830,
+        "ward_id": "9a65ecc3-1fa8-4d16-97e6-1ca9715e0dfe",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "987d9c7a-dfb0-406e-a71f-6a0a25a9070d",
       "ward_no": "9",
       "name_en": "Dheerajavan",
       "name_ml": "ധീരജവാന്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11689,
+        "ward_id": "987d9c7a-dfb0-406e-a71f-6a0a25a9070d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "46d42b0c-df8f-4ded-b1b0-88b69c85af28",
       "ward_no": "10",
       "name_en": "Kuzhuppilly",
       "name_ml": "കുഴുപ്പിള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 5460,
+        "ward_id": "46d42b0c-df8f-4ded-b1b0-88b69c85af28",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "2f4a4a27-9f0b-405a-9439-fcaac9827112",
       "ward_no": "11",
       "name_en": "Pallathamkulangara",
       "name_ml": "പള്ളത്താംകുളങ്ങര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3730,
+        "ward_id": "2f4a4a27-9f0b-405a-9439-fcaac9827112",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "dba9b675-0eb2-49de-a9a5-7d998c8b7b75",
       "ward_no": "12",
       "name_en": "Block Office Ward",
       "name_ml": "ബ്ലോക്ക് ഓഫീസ് വാര്‍‌ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16806,
+        "ward_id": "dba9b675-0eb2-49de-a9a5-7d998c8b7b75",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "858babc5-ec52-40a5-9419-77a8b7eb4301",
       "ward_no": "13",
       "name_en": "Thundippuram South",
       "name_ml": "തുണ്ടിപ്പുറം തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10232,
+        "ward_id": "858babc5-ec52-40a5-9419-77a8b7eb4301",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

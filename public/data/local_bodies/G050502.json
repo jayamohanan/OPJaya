@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Kudakkachira East",
       "name_ml": "കുടക്കച്ചിറ ഈസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2548,
+        "ward_id": "1f589a7c-933e-4900-891a-5847a72c2201",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "3f25ab30-e097-4962-9f1a-87c0ba9ef9bf",
       "ward_no": "2",
       "name_en": "Valavoor East",
       "name_ml": "വലവൂര് ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4910,
+        "ward_id": "3f25ab30-e097-4962-9f1a-87c0ba9ef9bf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c3690241-0eb1-4ac1-a34c-423212db4d41",
       "ward_no": "3",
       "name_en": "Nechipuzhoor",
       "name_ml": "നെച്ചിപ്പുഴൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15031,
+        "ward_id": "c3690241-0eb1-4ac1-a34c-423212db4d41",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b792b7aa-0154-452a-bb28-c69f53d6b563",
       "ward_no": "4",
       "name_en": "Payappar",
       "name_ml": "പയപ്പാര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 14133,
+        "ward_id": "b792b7aa-0154-452a-bb28-c69f53d6b563",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "1a1033ed-3afc-42b2-9f48-8f18b640fb36",
       "ward_no": "5",
       "name_en": "Anthinad East",
       "name_ml": "അന്തീനാട് ഈസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 2141,
+        "ward_id": "1a1033ed-3afc-42b2-9f48-8f18b640fb36",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "4f0dcadc-0259-475e-a613-e2a9302f9d95",
       "ward_no": "6",
       "name_en": "Anthinad West",
       "name_ml": "അന്തീനാട് വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6115,
+        "ward_id": "4f0dcadc-0259-475e-a613-e2a9302f9d95",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "05f5952e-a0d8-4889-876d-fd47bf59f705",
       "ward_no": "7",
       "name_en": "Karoor",
       "name_ml": "കരൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 630,
+        "ward_id": "05f5952e-a0d8-4889-876d-fd47bf59f705",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "830d798f-29d6-4f67-acdc-20ba5f6660af",
       "ward_no": "8",
       "name_en": "Ponad",
       "name_ml": "പോണാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10051,
+        "ward_id": "830d798f-29d6-4f67-acdc-20ba5f6660af",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fccc41c5-84b2-4624-bcde-69cc715da080",
       "ward_no": "9",
       "name_en": "Allappara",
       "name_ml": "അല്ലാപ്പാറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19402,
+        "ward_id": "fccc41c5-84b2-4624-bcde-69cc715da080",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1de1ee3e-8020-4dd5-bf07-536af10688ad",
       "ward_no": "10",
       "name_en": "Vallichira East",
       "name_ml": "വള്ളിച്ചിറ ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2447,
+        "ward_id": "1de1ee3e-8020-4dd5-bf07-536af10688ad",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a443742d-b56a-451a-bdcd-f4f391b7a185",
       "ward_no": "11",
       "name_en": "Vallichira West",
       "name_ml": "വള്ളിച്ചിറ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12589,
+        "ward_id": "a443742d-b56a-451a-bdcd-f4f391b7a185",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "10edb0c9-ceb9-408e-919a-87c8e1f73ba9",
       "ward_no": "12",
       "name_en": "Edanad West",
       "name_ml": "ഇടനാട് വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1433,
+        "ward_id": "10edb0c9-ceb9-408e-919a-87c8e1f73ba9",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "00c6d93b-f229-4794-8227-9fc525bacba2",
       "ward_no": "13",
       "name_en": "Edanad East",
       "name_ml": "ഇടനാട് ഈസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 223,
+        "ward_id": "00c6d93b-f229-4794-8227-9fc525bacba2",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "33e9b22d-acb2-497e-8bdb-19a4be824287",
       "ward_no": "14",
       "name_en": "Valavoor West",
       "name_ml": "വലവൂര്‍ വെസ്റ്റ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4093,
+        "ward_id": "33e9b22d-acb2-497e-8bdb-19a4be824287",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "38bc4733-b085-4061-a429-97a7ecf96e6c",
       "ward_no": "15",
       "name_en": "Kudakkachira West",
       "name_ml": "കുടക്കച്ചിറ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4458,
+        "ward_id": "38bc4733-b085-4061-a429-97a7ecf96e6c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

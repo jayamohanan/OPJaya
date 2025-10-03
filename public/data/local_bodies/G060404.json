@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Chilavu West",
       "name_ml": "ചിലവ് വെസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 9207,
+        "ward_id": "77ed429a-a161-4550-a605-153d11acc76b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "57748e1b-bbc6-4f82-9e0d-7c72334cc9bc",
       "ward_no": "2",
       "name_en": "Chilavu East",
       "name_ml": "ചിലവ് ഈസ്റ്റ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6752,
+        "ward_id": "57748e1b-bbc6-4f82-9e0d-7c72334cc9bc",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "1689f9ea-47b2-4ff0-ad21-7db18251e2d3",
       "ward_no": "3",
       "name_en": "Uppukulam",
       "name_ml": "ഉപ്പുകുളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1875,
+        "ward_id": "1689f9ea-47b2-4ff0-ad21-7db18251e2d3",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6ceb4de2-1720-429f-9caa-79931303b550",
       "ward_no": "4",
       "name_en": "Chavarna",
       "name_ml": "ചവര്‍ണ്ണ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8314,
+        "ward_id": "6ceb4de2-1720-429f-9caa-79931303b550",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "1b0c7708-8dcf-4341-9d4b-91e93bf4e3b0",
       "ward_no": "5",
       "name_en": "Kurichipadam",
       "name_ml": "കുറിച്ചിപ്പാടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2221,
+        "ward_id": "1b0c7708-8dcf-4341-9d4b-91e93bf4e3b0",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a83eac97-ebdf-41c5-9f64-e598f7e289ac",
       "ward_no": "6",
       "name_en": "Palappilly",
       "name_ml": "പാലപ്പിള്ളി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12881,
+        "ward_id": "a83eac97-ebdf-41c5-9f64-e598f7e289ac",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "feddba53-2660-468c-87c2-8ee706eba33d",
       "ward_no": "7",
       "name_en": "Thalayanadu",
       "name_ml": "തലയനാട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 19553,
+        "ward_id": "feddba53-2660-468c-87c2-8ee706eba33d",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f36c76cc-1617-4724-9d0c-e1e11709dc60",
       "ward_no": "8",
       "name_en": "Manjapra",
       "name_ml": "മഞ്ഞപ്ര",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 18674,
+        "ward_id": "f36c76cc-1617-4724-9d0c-e1e11709dc60",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f62c2d5a-fa79-4701-9479-3fc0766d429e",
       "ward_no": "9",
       "name_en": "Idivettippara",
       "name_ml": "ഇടിവെട്ടിപ്പാറ",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18867,
+        "ward_id": "f62c2d5a-fa79-4701-9479-3fc0766d429e",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "2075dba8-34c7-4b88-a935-726c3d423029",
       "ward_no": "10",
       "name_en": "Anchiri",
       "name_ml": "അഞ്ചിരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2629,
+        "ward_id": "2075dba8-34c7-4b88-a935-726c3d423029",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6cc237b5-7e67-4de3-8db8-1bdc2d4baeee",
       "ward_no": "11",
       "name_en": "Inchiyani",
       "name_ml": "ഇഞ്ചിയാനി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8302,
+        "ward_id": "6cc237b5-7e67-4de3-8db8-1bdc2d4baeee",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "20f38f79-0a57-47da-8abf-8acc9bcf8790",
       "ward_no": "12",
       "name_en": "Alakode South",
       "name_ml": "ആലക്കോട് സൌത്ത്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2654,
+        "ward_id": "20f38f79-0a57-47da-8abf-8acc9bcf8790",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "9966a359-590d-46b1-a226-e6f650190735",
       "ward_no": "13",
       "name_en": "Alakode North",
       "name_ml": "ആലക്കോട് നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11753,
+        "ward_id": "9966a359-590d-46b1-a226-e6f650190735",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Ori",
       "name_ml": "ഓരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18806,
+        "ward_id": "f55f5de3-8d5f-4d01-87ee-674e3336b3b2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "a01b68f7-2cbf-44da-ba01-a706d7c89053",
       "ward_no": "2",
       "name_en": "Padanna Kalikadavu",
       "name_ml": "പടന്ന കാലിക്കടവ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12266,
+        "ward_id": "a01b68f7-2cbf-44da-ba01-a706d7c89053",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "3b1bd63b-8140-4a71-a981-339a5f54ac4e",
       "ward_no": "3",
       "name_en": "Kavunthala",
       "name_ml": "കാവുന്തല",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4634,
+        "ward_id": "3b1bd63b-8140-4a71-a981-339a5f54ac4e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4569d968-f523-4660-a2d4-e670bd0c6697",
       "ward_no": "4",
       "name_en": "Padanna Centre",
       "name_ml": "പടന്ന സെന്‍റര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5343,
+        "ward_id": "4569d968-f523-4660-a2d4-e670bd0c6697",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "3048d3d8-4bad-403a-a754-55dcd30d9452",
       "ward_no": "5",
       "name_en": "Padanna Kanthilottu",
       "name_ml": "പടന്ന കാന്തിലോട്ട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3805,
+        "ward_id": "3048d3d8-4bad-403a-a754-55dcd30d9452",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "862db720-de5b-41af-8a1c-ee1601c6c881",
       "ward_no": "6",
       "name_en": "Porottu Payyalam",
       "name_ml": "പൊറോട്ട് പയ്യളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10290,
+        "ward_id": "862db720-de5b-41af-8a1c-ee1601c6c881",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0294cb37-22d0-4c88-9e80-ac67a2a5c34c",
       "ward_no": "7",
       "name_en": "Kinathil Vadakkumpuram",
       "name_ml": "കിനാത്തില്‍ വടക്കുപ്പുറം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 367,
+        "ward_id": "0294cb37-22d0-4c88-9e80-ac67a2a5c34c",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "803cea32-d1c0-4cee-b900-0158bc3eb3af",
       "ward_no": "8",
       "name_en": "Thadiyan Kovval",
       "name_ml": "തടിയന്‍കൊവ്വല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 9838,
+        "ward_id": "803cea32-d1c0-4cee-b900-0158bc3eb3af",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "f2b18ca8-6cc7-49b4-86e3-475e938a7698",
       "ward_no": "9",
       "name_en": "Thadiyankovval Nadakavu",
       "name_ml": "തടിയന്‍കൊവ്വല്‍ നടക്കാവ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18602,
+        "ward_id": "f2b18ca8-6cc7-49b4-86e3-475e938a7698",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "96806a3f-1374-4b60-b1d4-eee6a0359748",
       "ward_no": "10",
       "name_en": "Udinoor Centre Mullotukadavu",
       "name_ml": "ഉദിനൂര്‍ സെന്‍റര്‍ മുള്ളോട്ട് കടവ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 11545,
+        "ward_id": "96806a3f-1374-4b60-b1d4-eee6a0359748",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "c68eb3e8-a858-49f7-8f78-805f32175d95",
       "ward_no": "11",
       "name_en": "Udinoor Machikadu",
       "name_ml": "ഉദിനൂര്‍ മാച്ചിക്കാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15248,
+        "ward_id": "c68eb3e8-a858-49f7-8f78-805f32175d95",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "92040d92-a1a6-46c0-ae3b-66f781a49c43",
       "ward_no": "12",
       "name_en": "Machikadu Muthirakovval",
       "name_ml": "മാച്ചിക്കാട് മുതിരകൊവ്വല്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11214,
+        "ward_id": "92040d92-a1a6-46c0-ae3b-66f781a49c43",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e83f9408-7d84-4818-89b1-c04b5d315d6a",
       "ward_no": "13",
       "name_en": "Thekkekadu",
       "name_ml": "തെക്കേക്കാട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17798,
+        "ward_id": "e83f9408-7d84-4818-89b1-c04b5d315d6a",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "891e29f8-e284-442d-91b2-6a3e40e1c684",
       "ward_no": "14",
       "name_en": "Padanna Thekkepuram",
       "name_ml": "പടന്ന തെക്കേപ്പുറം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 10495,
+        "ward_id": "891e29f8-e284-442d-91b2-6a3e40e1c684",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b8f0d5f1-1c9c-4703-91d3-45d71dbf7647",
       "ward_no": "15",
       "name_en": "Padanna Bazaar",
       "name_ml": "പടന്ന ബസാര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14233,
+        "ward_id": "b8f0d5f1-1c9c-4703-91d3-45d71dbf7647",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

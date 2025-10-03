@@ -34,126 +34,216 @@
       "ward_no": "1",
       "name_en": "Pavukara A",
       "name_ml": "പാവുക്കര എ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 15697,
+        "ward_id": "cc77141a-7445-4a92-8f98-a90b1d6e3694",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "d3555520-83c9-434f-a9cf-e8b2c3667275",
       "ward_no": "2",
       "name_en": "Pavukara B",
       "name_ml": "പാവുക്കര ബി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 16219,
+        "ward_id": "d3555520-83c9-434f-a9cf-e8b2c3667275",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "12e50f2c-ec9c-43f5-a7ff-2e88eeac27de",
       "ward_no": "3",
       "name_en": "Pavukara C",
       "name_ml": "പാവുക്കര സി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 1592,
+        "ward_id": "12e50f2c-ec9c-43f5-a7ff-2e88eeac27de",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "6955cc7d-2edf-4218-bedf-5afb6f8bf423",
       "ward_no": "4",
       "name_en": "Society Ward",
       "name_ml": "സൊസെെറ്റി വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 8023,
+        "ward_id": "6955cc7d-2edf-4218-bedf-5afb6f8bf423",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e8ced969-e17e-48b5-8c86-aad264d13a7a",
       "ward_no": "5",
       "name_en": "Mannar Town",
       "name_ml": "മാന്നാര്‍ ടൌണ്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17846,
+        "ward_id": "e8ced969-e17e-48b5-8c86-aad264d13a7a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "18cfabc4-6a83-4ab7-9831-cd7a6ea68815",
       "ward_no": "6",
       "name_en": "Kurattikad A",
       "name_ml": "കുരട്ടിക്കാട് എ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2051,
+        "ward_id": "18cfabc4-6a83-4ab7-9831-cd7a6ea68815",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "8714850b-b6b0-432c-a76c-8a23f65fd7fe",
       "ward_no": "7",
       "name_en": "Panchayat Office Ward",
       "name_ml": "പഞ്ചായത്ത് ആഫീസ് വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 10343,
+        "ward_id": "8714850b-b6b0-432c-a76c-8a23f65fd7fe",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "0ce13343-db66-414a-838d-44b74f07a620",
       "ward_no": "8",
       "name_en": "Kurattikad B",
       "name_ml": "കുരട്ടിക്കാട് ബി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1147,
+        "ward_id": "0ce13343-db66-414a-838d-44b74f07a620",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b704c3bf-435d-49f8-a78e-2be43c137784",
       "ward_no": "9",
       "name_en": "Switch Gear Division",
       "name_ml": "സ്വിച്ച് ഗിയര്‍ ഡിവിഷന്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14096,
+        "ward_id": "b704c3bf-435d-49f8-a78e-2be43c137784",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a5e3e499-089f-480c-982f-f5a2c0c90c8e",
       "ward_no": "10",
       "name_en": "Muttel Ward",
       "name_ml": "മുട്ടേല്‍ വാര്‍ഡ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 12703,
+        "ward_id": "a5e3e499-089f-480c-982f-f5a2c0c90c8e",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "ac7afa5d-54de-4764-9901-d6861d8fe3da",
       "ward_no": "11",
       "name_en": "Kuttemperoor A",
       "name_ml": "കുട്ടംപേരൂര്‍ എ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13225,
+        "ward_id": "ac7afa5d-54de-4764-9901-d6861d8fe3da",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f557d7f8-b9b2-499f-8a59-36b06ad580e2",
       "ward_no": "12",
       "name_en": "Kuttemperoor B",
       "name_ml": "കുട്ടംപേരൂര്‍ ബി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 18803,
+        "ward_id": "f557d7f8-b9b2-499f-8a59-36b06ad580e2",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "35f794e3-0e23-46c2-a994-7881b8922b9f",
       "ward_no": "13",
       "name_en": "Kuttemperoor C",
       "name_ml": "കുട്ടംപേരൂര്‍  സി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4251,
+        "ward_id": "35f794e3-0e23-46c2-a994-7881b8922b9f",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f2a8181b-f176-4539-9c27-a7990de7d77e",
       "ward_no": "14",
       "name_en": "Kulanjikarazma",
       "name_ml": "കുളഞ്ഞികാരാഴ്മ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18599,
+        "ward_id": "f2a8181b-f176-4539-9c27-a7990de7d77e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d314dc24-8c64-43a9-a529-05fa458232a4",
       "ward_no": "15",
       "name_en": "Kuttemperoor D",
       "name_ml": "കുട്ടംപേരൂര്‍ ഡി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16201,
+        "ward_id": "d314dc24-8c64-43a9-a529-05fa458232a4",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "927c080b-4e01-41f9-8788-c52246b307e3",
       "ward_no": "16",
       "name_en": "Homeo Hospital Ward",
       "name_ml": "ഹോമിയോ ആശുപത്രി വാര്‍ഡ്‌",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 11253,
+        "ward_id": "927c080b-4e01-41f9-8788-c52246b307e3",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "51a7f628-1955-4092-b77e-99c3ce0732e2",
       "ward_no": "17",
       "name_en": "Town South",
       "name_ml": "ടൌണ്‍ സൗത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 6316,
+        "ward_id": "51a7f628-1955-4092-b77e-99c3ce0732e2",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ffdff567-8f05-46d3-80b3-43f1f6f6518a",
       "ward_no": "18",
       "name_en": "Town West",
       "name_ml": "ടൌണ്‍ വെസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19619,
+        "ward_id": "ffdff567-8f05-46d3-80b3-43f1f6f6518a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     }
   ],
   "towns": [],

@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "A.M.C.",
       "name_ml": "എ.എം.സി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3181,
+        "ward_id": "280e3525-2d4f-4762-bb72-909ac597ffb1",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "1a86eeac-62a8-4dd3-91c6-38abc36a3e80",
       "ward_no": "2",
       "name_en": "Puthenthura",
       "name_ml": "പുത്തന്‍തുറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 2180,
+        "ward_id": "1a86eeac-62a8-4dd3-91c6-38abc36a3e80",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "c3a5ab19-d630-4904-a490-87caada32192",
       "ward_no": "3",
       "name_en": "Fishermen Colony",
       "name_ml": "ഫിഷര്‍‌മെന്‍കോളനി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 15049,
+        "ward_id": "c3a5ab19-d630-4904-a490-87caada32192",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "b657ac5a-7a6b-4962-b751-bbf4ae8be6cc",
       "ward_no": "4",
       "name_en": "Pannackalthuruthu",
       "name_ml": "പന്നയ്ക്കല്‍തുരുത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 14054,
+        "ward_id": "b657ac5a-7a6b-4962-b751-bbf4ae8be6cc",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3a98dd77-9df7-4fd2-8082-d2644f1a5d8e",
       "ward_no": "5",
       "name_en": "Anamkandam",
       "name_ml": "ആനാംകണ്ടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4598,
+        "ward_id": "3a98dd77-9df7-4fd2-8082-d2644f1a5d8e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "fb6ab26c-2536-4e1f-9736-211a98baa67a",
       "ward_no": "6",
       "name_en": "Maryland",
       "name_ml": "മേരിലാന്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19285,
+        "ward_id": "fb6ab26c-2536-4e1f-9736-211a98baa67a",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "cec01e5c-7e03-4fd0-8183-b747eacb2964",
       "ward_no": "7",
       "name_en": "Neendakara",
       "name_ml": "നീണ്ടകര",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15887,
+        "ward_id": "cec01e5c-7e03-4fd0-8183-b747eacb2964",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f9216da9-4272-4d66-b55b-96f338af1bbf",
       "ward_no": "8",
       "name_en": "Port Ward",
       "name_ml": "പോര്‍ട്ട് വാര്‍ഡ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19100,
+        "ward_id": "f9216da9-4272-4d66-b55b-96f338af1bbf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "f9a83b63-9896-4ca8-bfcf-5ac681e7468b",
       "ward_no": "9",
       "name_en": "Vettuthara",
       "name_ml": "വേട്ടുതറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19144,
+        "ward_id": "f9a83b63-9896-4ca8-bfcf-5ac681e7468b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "2e29cde4-ac88-4b14-a401-0285412d23ae",
       "ward_no": "10",
       "name_en": "Parimanam South",
       "name_ml": "പരിമണം തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3642,
+        "ward_id": "2e29cde4-ac88-4b14-a401-0285412d23ae",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e62df44f-11de-4e66-b11b-b03053c7f58b",
       "ward_no": "11",
       "name_en": "Parimanam",
       "name_ml": "പരിമണം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17647,
+        "ward_id": "e62df44f-11de-4e66-b11b-b03053c7f58b",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "256a4312-c132-4a60-a05d-b83b505a87b6",
       "ward_no": "12",
       "name_en": "Foundation",
       "name_ml": "ഫൌണ്ടേഷന്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 2972,
+        "ward_id": "256a4312-c132-4a60-a05d-b83b505a87b6",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "722e68be-b4ed-44c9-9d7a-d33bd31df587",
       "ward_no": "13",
       "name_en": "Althara Beach",
       "name_ml": "ആല്‍ത്തറ ബീച്ച്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8748,
+        "ward_id": "722e68be-b4ed-44c9-9d7a-d33bd31df587",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

@@ -34,105 +34,180 @@
       "ward_no": "1",
       "name_en": "Vadayar North",
       "name_ml": "വടയാര്‍ നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18407,
+        "ward_id": "f01457a1-2830-4526-800a-d0a14d4cd8f7",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "3175330e-c046-48e1-8f41-9ca0e7fe5d54",
       "ward_no": "2",
       "name_en": "Midayikunnam North",
       "name_ml": "മിഠായിക്കുന്നം നോര്‍ത്ത്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3894,
+        "ward_id": "3175330e-c046-48e1-8f41-9ca0e7fe5d54",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9f05e4ce-0a77-4560-a5a4-b7d556b95c6e",
       "ward_no": "3",
       "name_en": "Vettikkattumukku",
       "name_ml": "വെട്ടിക്കാട്ട്മുക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12188,
+        "ward_id": "9f05e4ce-0a77-4560-a5a4-b7d556b95c6e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e634fc17-3965-4e73-8399-d64469024394",
       "ward_no": "4",
       "name_en": "Ummamkunnu",
       "name_ml": "ഉമ്മാംകുന്ന്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 17652,
+        "ward_id": "e634fc17-3965-4e73-8399-d64469024394",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "29b89837-c446-4fa5-830d-d40424536dad",
       "ward_no": "5",
       "name_en": "D.B. College",
       "name_ml": "ഡി.ബി. കോളേജ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3291,
+        "ward_id": "29b89837-c446-4fa5-830d-d40424536dad",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "94c99161-ebad-4269-bbd3-03acbec44424",
       "ward_no": "6",
       "name_en": "Pothy",
       "name_ml": "പൊതി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11420,
+        "ward_id": "94c99161-ebad-4269-bbd3-03acbec44424",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "37119d8b-0e03-4ba4-aa65-7844fc3d987e",
       "ward_no": "7",
       "name_en": "Thrikkarayikulam",
       "name_ml": "തൃക്കരായിക്കുളം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4335,
+        "ward_id": "37119d8b-0e03-4ba4-aa65-7844fc3d987e",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "adc88dd3-b730-47c2-b6f5-93109904b23b",
       "ward_no": "8",
       "name_en": "Thalayolaparambu East",
       "name_ml": "തലയോലപ്പറമ്പ് ഈസ്റ്റ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13323,
+        "ward_id": "adc88dd3-b730-47c2-b6f5-93109904b23b",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "ff18f09d-ed7c-4957-aa2e-facb9ee3ad64",
       "ward_no": "9",
       "name_en": "Illithondu",
       "name_ml": "ഇല്ലിത്തോണ്ട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19570,
+        "ward_id": "ff18f09d-ed7c-4957-aa2e-facb9ee3ad64",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d5f89038-0de7-46f0-8f28-53eec585400d",
       "ward_no": "10",
       "name_en": "Thalayolaparambu Town",
       "name_ml": "തലയോലപ്പറമ്പ് ടൌണ്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16409,
+        "ward_id": "d5f89038-0de7-46f0-8f28-53eec585400d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "34c1a347-6c42-41e1-85ea-e52b3adf8012",
       "ward_no": "11",
       "name_en": "Mathanam",
       "name_ml": "മാത്താനം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4168,
+        "ward_id": "34c1a347-6c42-41e1-85ea-e52b3adf8012",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "acd2c311-b4ef-4a71-a87d-575322884f4f",
       "ward_no": "12",
       "name_en": "Korikkalpazhampetty",
       "name_ml": "കോരിക്കല്‍പഴംമ്പട്ടി",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 13245,
+        "ward_id": "acd2c311-b4ef-4a71-a87d-575322884f4f",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "4f778a84-262e-4bc5-b6ce-0896800f5b00",
       "ward_no": "13",
       "name_en": "Thevalakkadu",
       "name_ml": "തേവലക്കാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 6148,
+        "ward_id": "4f778a84-262e-4bc5-b6ce-0896800f5b00",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "6be861fd-590b-4686-9086-df5e4c1be953",
       "ward_no": "14",
       "name_en": "Chakkala",
       "name_ml": "ചക്കാല",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8232,
+        "ward_id": "6be861fd-590b-4686-9086-df5e4c1be953",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "beea38d1-05cd-4a96-8b69-ffaf50306c67",
       "ward_no": "15",
       "name_en": "Vadayar Illamkavu",
       "name_ml": "വടയാര്‍ ഇളംകാവ്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 14673,
+        "ward_id": "beea38d1-05cd-4a96-8b69-ffaf50306c67",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],

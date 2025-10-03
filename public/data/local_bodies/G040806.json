@@ -34,98 +34,168 @@
       "ward_no": "1",
       "name_en": "Kadampoor",
       "name_ml": "കടമ്പൂര്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 19612,
+        "ward_id": "ffc2e603-bc96-4bb7-97d7-1994a8914b1b",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "e0058766-f2de-4674-bfe9-53673d55d7d3",
       "ward_no": "2",
       "name_en": "Budhanoor East",
       "name_ml": "ബുധനൂര്‍ കിഴക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17175,
+        "ward_id": "e0058766-f2de-4674-bfe9-53673d55d7d3",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "a71d514a-8ad4-4d27-a8da-786f346b6163",
       "ward_no": "3",
       "name_en": "Budhanoor West",
       "name_ml": "ബുധനൂര്‍ പടിഞ്ഞാറ്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 12797,
+        "ward_id": "a71d514a-8ad4-4d27-a8da-786f346b6163",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e74ead6e-b7ab-431e-9b8c-d7f0c57f7605",
       "ward_no": "4",
       "name_en": "Budhanoor South",
       "name_ml": "ബുധനൂര്‍ തെക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 17732,
+        "ward_id": "e74ead6e-b7ab-431e-9b8c-d7f0c57f7605",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "36bee6c3-b645-4a40-bbc5-2e3b4f3b7868",
       "ward_no": "5",
       "name_en": "Elanjimel",
       "name_ml": "ഇലഞ്ഞിമേല്‍",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 4313,
+        "ward_id": "36bee6c3-b645-4a40-bbc5-2e3b4f3b7868",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "d0ec8822-34df-4f41-8a39-344c2d8c85f8",
       "ward_no": "6",
       "name_en": "Peringilipuram East",
       "name_ml": "പെരിങ്ങിലിപ്പുറം കിഴക്ക്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 16045,
+        "ward_id": "d0ec8822-34df-4f41-8a39-344c2d8c85f8",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "0ee975ba-5757-4f81-8144-4ba7434f383c",
       "ward_no": "7",
       "name_en": "Peringilipuram West",
       "name_ml": "പെരിങ്ങിലിപ്പുറം പടിഞ്ഞാറ്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 1286,
+        "ward_id": "0ee975ba-5757-4f81-8144-4ba7434f383c",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "04727ac7-4c2d-45e3-9b52-7cc207a6556e",
       "ward_no": "8",
       "name_en": "Ulunthy East",
       "name_ml": "ഉളുന്തി കിഴക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 513,
+        "ward_id": "04727ac7-4c2d-45e3-9b52-7cc207a6556e",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "9c512552-f772-4ea9-9a7b-155ed7be8513",
       "ward_no": "9",
       "name_en": "Ulunthy",
       "name_ml": "ഉളുന്തി",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 11968,
+        "ward_id": "9c512552-f772-4ea9-9a7b-155ed7be8513",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "8fbcbcc5-fabf-4cea-b3ef-36575b90f745",
       "ward_no": "10",
       "name_en": "Gramam",
       "name_ml": "ഗ്രാമം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 11021,
+        "ward_id": "8fbcbcc5-fabf-4cea-b3ef-36575b90f745",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "b2544204-8ba3-48ce-a9f9-16b0f87e4425",
       "ward_no": "11",
       "name_en": "Ennakkad South",
       "name_ml": "എണ്ണയ്ക്കാട് തെക്ക്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 13711,
+        "ward_id": "b2544204-8ba3-48ce-a9f9-16b0f87e4425",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "fbd123c9-3596-44e2-adfe-f8cb2118b30d",
       "ward_no": "12",
       "name_en": "Ennakkad North",
       "name_ml": "എണ്ണയ്ക്കാട് വടക്ക്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 19326,
+        "ward_id": "fbd123c9-3596-44e2-adfe-f8cb2118b30d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "b546f5fc-80fa-4412-845e-9beff14a5f41",
       "ward_no": "13",
       "name_en": "Thayyoor",
       "name_ml": "തയ്യൂര്‍",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 13952,
+        "ward_id": "b546f5fc-80fa-4412-845e-9beff14a5f41",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "4ad6c6f4-c245-493e-aa1b-89f7e95116ce",
       "ward_no": "14",
       "name_en": "Peringad",
       "name_ml": "പെരിങ്ങാട്",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 5796,
+        "ward_id": "4ad6c6f4-c245-493e-aa1b-89f7e95116ce",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     }
   ],
   "towns": [],

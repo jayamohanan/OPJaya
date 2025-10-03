@@ -34,91 +34,156 @@
       "ward_no": "1",
       "name_en": "Pravithanam",
       "name_ml": "പ്രവിത്താനം",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17315,
+        "ward_id": "e202818a-d288-44b1-939f-f90903d1dafb",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "299211fd-753c-4f31-b8c9-0dbcd6b600fb",
       "ward_no": "2",
       "name_en": "Ullanad",
       "name_ml": "ഉള്ളനാട്",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 3280,
+        "ward_id": "299211fd-753c-4f31-b8c9-0dbcd6b600fb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d02140f0-d629-46f5-b397-85c75a78c4cb",
       "ward_no": "3",
       "name_en": "Alamattom",
       "name_ml": "ആലമറ്റം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 15991,
+        "ward_id": "d02140f0-d629-46f5-b397-85c75a78c4cb",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "74c33c93-a01e-4fd4-8d3a-eb53c319a9a5",
       "ward_no": "4",
       "name_en": "Kayyoor",
       "name_ml": "കയ്യൂൂര്‍",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 8958,
+        "ward_id": "74c33c93-a01e-4fd4-8d3a-eb53c319a9a5",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "32a7b81c-a7f2-459b-a38e-b12d4664e9f1",
       "ward_no": "5",
       "name_en": "Kanjiramattom",
       "name_ml": "കാഞ്ഞിരമറ്റം",
-      "rate": 65
+      "ward_collection": {
+        "collection_id": 3989,
+        "ward_id": "32a7b81c-a7f2-459b-a38e-b12d4664e9f1",
+        "year_month": "2025-09-01",
+        "rate": 65
+      }
     },
     {
       "id": "92434200-7cc0-4c80-9b63-8713cd849ddf",
       "ward_no": "6",
       "name_en": "Choondacherry",
       "name_ml": "ചൂണ്ടച്ചേരി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 11231,
+        "ward_id": "92434200-7cc0-4c80-9b63-8713cd849ddf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "d146b4da-7964-4f40-bc19-c50844fc2ebf",
       "ward_no": "7",
       "name_en": "Bharananganam",
       "name_ml": "ഭരണങ്ങാനം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 16073,
+        "ward_id": "d146b4da-7964-4f40-bc19-c50844fc2ebf",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "81d841f7-e878-427b-8690-c410371e606d",
       "ward_no": "8",
       "name_en": "Aravakulam",
       "name_ml": "അറവക്കുളം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 9954,
+        "ward_id": "81d841f7-e878-427b-8690-c410371e606d",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "345960f4-f864-48e6-8980-c431d739cc1c",
       "ward_no": "9",
       "name_en": "Edappady",
       "name_ml": "ഇടപ്പാടി",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 4135,
+        "ward_id": "345960f4-f864-48e6-8980-c431d739cc1c",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "420383dd-4232-477b-9ca1-2dfa7c9518de",
       "ward_no": "10",
       "name_en": "Areepara",
       "name_ml": "അരീപ്പാറ",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 5110,
+        "ward_id": "420383dd-4232-477b-9ca1-2dfa7c9518de",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     },
     {
       "id": "5b5d883e-0aee-45dd-95dd-d5ba758e3547",
       "ward_no": "11",
       "name_en": "Pamboorampara",
       "name_ml": "പാമ്പൂരാംപാറ",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 7040,
+        "ward_id": "5b5d883e-0aee-45dd-95dd-d5ba758e3547",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "eeb3971e-945b-4d3c-b9a7-cb6ae7398618",
       "ward_no": "12",
       "name_en": "Elamthottam",
       "name_ml": "ഇളംന്തോട്ടം",
-      "rate": 75
+      "ward_collection": {
+        "collection_id": 18301,
+        "ward_id": "eeb3971e-945b-4d3c-b9a7-cb6ae7398618",
+        "year_month": "2025-09-01",
+        "rate": 75
+      }
     },
     {
       "id": "e9447f8b-e334-4657-9c5d-1cd35a9e7edc",
       "ward_no": "13",
       "name_en": "Alanad",
       "name_ml": "അളനാട്",
-      "rate": 95
+      "ward_collection": {
+        "collection_id": 17883,
+        "ward_id": "e9447f8b-e334-4657-9c5d-1cd35a9e7edc",
+        "year_month": "2025-09-01",
+        "rate": 95
+      }
     }
   ],
   "towns": [],
