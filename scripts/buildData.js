@@ -45,6 +45,7 @@ async function writeJSON(filePath, data) {
 
 // Helper function to convert names to web-safe lowercase filenames
 function toFilename(name) {
+  if (!name || typeof name !== 'string') return 'unknown';
   return name
     .toLowerCase()
     .replace(/\s+/g, '-')           // Replace spaces with hyphens
