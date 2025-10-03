@@ -158,15 +158,15 @@ function toFilename(name) {
     // --- 3. Assembly JSONs (ALL) ---
     console.log('🏗️  Generating assembly JSON files...');
     for (const a of allAssemblies) {
-      const district = districtMap[a.district_id] || {};
-      const assemblyLocalBodies = allLocalBodies.filter(l => l.assembly_id === a.id);
+      const district = districtMap[a[FIELDS.DISTRICT.ID]] || {};
+      const assemblyLocalBodies = allLocalBodies.filter(l => l[FIELDS.LOCAL_BODY.ASSEMBLY_ID] === a[FIELDS.ASSEMBLY.ID]);
       const assemblyJSON = {
-        id: a.id,
-        name_en: a.name_en,
-        name_ml: a.name_ml,
-        district_id: a.district_id,
-        is_active: a.is_active !== false,
-        assembly_category: assemblyCategoryMap[a.id] ? { category: assemblyCategoryMap[a.id] } : null,
+        id: a[FIELDS.ASSEMBLY.ID],
+        name_en: a[FIELDS.ASSEMBLY.NAME_EN],
+        name_ml: a[FIELDS.ASSEMBLY.NAME_ML],
+        district_id: a[FIELDS.ASSEMBLY.DISTRICT_ID],
+        is_active: a[FIELDS.ASSEMBLY.IS_ACTIVE] !== false,
+        assembly_category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] } : null,
         district: {
           id: district.id,
           name_en: district.name_en,
