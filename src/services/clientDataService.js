@@ -22,7 +22,8 @@ export async function getStateData() {
   } else {
     const res = await fetch('/data/state.json');
     if (!res.ok) throw new Error('State JSON not found');
-    return await res.json();
+    const stateJson = await res.json();
+    return stateJson.districts || [];
   }
 }
 
@@ -188,7 +189,7 @@ export async function getDistrictDetails(districtId) {
   }
 }
 
-// --- Assembly List Page Data ---
+// ----------------------------------------------- Assembly List Page Data -----------------------------------------------
 export async function getAllDistrictsData() {
   if (USE_SUPABASE) {
     const { data: districtData } = await supabase
