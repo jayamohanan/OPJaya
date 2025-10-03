@@ -14,6 +14,7 @@ require('dotenv').config();
 const { createClient } = require('@supabase/supabase-js');
 const fs = require('fs').promises;
 const path = require('path');
+const { TABLES, FIELDS } = require('../src/constants/dbSchema');
 
 // --- CONFIG ---
 const SUPABASE_URL = process.env.SUPABASE_URL || process.env.REACT_APP_SUPABASE_URL;
@@ -61,30 +62,30 @@ function toFilename(name) {
   try {
     // 1. Fetch required data for districts
     console.log('📡 Fetching districts from Supabase...');
-    const { data: districts, error: districtError } = await supabase.from('district').select('*');
+    const { data: districts, error: districtError } = await supabase.from(TABLES.DISTRICT).select('*');
     if (districtError) throw districtError;
     
     console.log('📡 Fetching assemblies from Supabase...');
-    const { data: assemblies, error: assemblyError } = await supabase.from('assembly').select('*');
+    const { data: assemblies, error: assemblyError } = await supabase.from(TABLES.ASSEMBLY).select('*');
     if (assemblyError) throw assemblyError;
 
     console.log('📡 Fetching district categories from Supabase...');
-    const { data: districtCategories, error: districtCategoryError } = await supabase.from('district_category').select('*');
+    const { data: districtCategories, error: districtCategoryError } = await supabase.from(TABLES.DISTRICT_CATEGORY).select('*');
     if (districtCategoryError) throw districtCategoryError;
 
     console.log('📡 Fetching assembly categories from Supabase...');
-    const { data: assemblyCategories, error: assemblyCategoryError } = await supabase.from('assembly_category').select('*');
+    const { data: assemblyCategories, error: assemblyCategoryError } = await supabase.from(TABLES.ASSEMBLY_CATEGORY).select('*');
     if (assemblyCategoryError) throw assemblyCategoryError;
 
     console.log(`✅ Found ${districts.length} districts and ${assemblies.length} assemblies`);
 
     // Create category lookup maps
-    const districtCategoryMap = Object.fromEntries((districtCategories || []).map(dc => [dc.district_id, dc.category]));
-    const assemblyCategoryMap = Object.fromEntries((assemblyCategories || []).map(ac => [ac.assembly_id, ac.category]));
+    const districtCategoryMap = Object.fromEntries((districtCategories || []).map(dc => [dc[FIELDS.DISTRICT_CATEGORY.DISTRICT_ID], dc[FIELDS.DISTRICT_CATEGORY.CATEGORY]]));
+    const assemblyCategoryMap = Object.fromEntries((assemblyCategories || []).map(ac => [ac[FIELDS.ASSEMBLY_CATEGORY.ASSEMBLY_ID], ac[FIELDS.ASSEMBLY_CATEGORY.CATEGORY]]));
 
     // Helper maps for fast lookup
-    const districtMap = Object.fromEntries(districts.map(d => [d.id, d]));
-    const assemblyMap = Object.fromEntries(assemblies.map(a => [a.id, a]));
+    const districtMap = Object.fromEntries(districts.map(d => [d[FIELDS.DISTRICT.ID], d]));
+    const assemblyMap = Object.fromEntries(assemblies.map(a => [a[FIELDS.ASSEMBLY.ID], a]));
 
   // Remove all test/demo limits: use all districts, assemblies, and local bodies
   const allDistricts = districts;
