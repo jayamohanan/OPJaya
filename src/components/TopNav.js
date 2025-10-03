@@ -1,8 +1,8 @@
 import React, { useContext, useState, useEffect } from 'react';
 import { LanguageContext } from './LanguageContext';
 import { useNavigate } from 'react-router-dom';
-import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
+import { getStateData, getAssembliesForDistrict, getLocalBodiesForAssembly } from '../services/clientDataService';
 import './TopNav.css';
 
 function TopNav() {
@@ -23,16 +23,11 @@ function TopNav() {
   useEffect(() => {
     async function fetchDistricts() {
       setLoadingDistricts(true);
-      const { data, error } = await supabase
-        .from(TABLES.DISTRICT)
-        .select([
-          FIELDS.DISTRICT.ID,
-          FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML,
-          FIELDS.DISTRICT.IS_ACTIVE
-        ].join(', '));
-      if (!error) {
-        setDistrictOptions((data || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN])));
+      try {
+        const { districts } = await getStateData();
+        setDistrictOptions((districts || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN])));
+      } catch (error) {
+        console.error('Error fetching districts:', error);
       }
       setLoadingDistricts(false);
     }
@@ -43,17 +38,11 @@ function TopNav() {
     if (district) {
       async function fetchAssemblies() {
         setLoadingAssemblies(true);
-        const { data, error } = await supabase
-          .from(TABLES.ASSEMBLY)
-          .select([
-            FIELDS.ASSEMBLY.ID,
-            FIELDS.ASSEMBLY.NAME_EN,
-            FIELDS.ASSEMBLY.NAME_ML,
-            FIELDS.ASSEMBLY.DISTRICT_ID
-          ].join(', '))
-          .eq(FIELDS.ASSEMBLY.DISTRICT_ID, district);
-        if (!error) {
+        try {
+          const data = await getAssembliesForDistrict(district);
           setAssemblyOptions((data || []).sort((a, b) => a[FIELDS.ASSEMBLY.NAME_EN].localeCompare(b[FIELDS.ASSEMBLY.NAME_EN])));
+        } catch (error) {
+          console.error('Error fetching assemblies:', error);
         }
         setAssembly('');
         setLocalBody('');
@@ -68,17 +57,11 @@ function TopNav() {
     if (assembly && district) {
       async function fetchLocalBodies() {
         setLoadingLocalBodies(true);
-        const { data, error } = await supabase
-          .from(TABLES.LOCAL_BODY)
-          .select([
-            FIELDS.LOCAL_BODY.ID,
-            FIELDS.LOCAL_BODY.NAME_EN,
-            FIELDS.LOCAL_BODY.NAME_ML,
-            FIELDS.LOCAL_BODY.ASSEMBLY_ID
-          ].join(', '))
-          .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, assembly);
-        if (!error) {
+        try {
+          const data = await getLocalBodiesForAssembly(assembly);
           setLocalBodyOptions((data || []).sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN])));
+        } catch (error) {
+          console.error('Error fetching local bodies:', error);
         }
         setLocalBody('');
         setLoadingLocalBodies(false);

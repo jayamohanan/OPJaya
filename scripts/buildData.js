@@ -121,6 +121,7 @@ function toFilename(name) {
         id: d.id,
         name_en: d.name_en,
         name_ml: d.name_ml,
+        is_active: d.is_active !== false,
         district_category: districtCategoryMap[d.id] ? { category: districtCategoryMap[d.id] } : null
       })),
       geojson_links: {
@@ -164,6 +165,7 @@ function toFilename(name) {
         name_en: a.name_en,
         name_ml: a.name_ml,
         district_id: a.district_id,
+        is_active: a.is_active !== false,
         assembly_category: assemblyCategoryMap[a.id] ? { category: assemblyCategoryMap[a.id] } : null,
         district: {
           id: district.id,

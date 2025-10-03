@@ -17,13 +17,11 @@ export async function getStateData() {
       ].join(', '));
     if (districtError) throw districtError;
     const result = { districts: districtData || [] };
-    console.log('-------getStateData', result);
     return result;
   } else {
     const res = await fetch('/data/state.json');
     if (!res.ok) throw new Error('State JSON not found');
     const stateJson = await res.json();
-    console.log('-------getStateData from JSON', stateJson.districts);
     return { districts: stateJson.districts || [] };
   }
 }
@@ -235,7 +233,6 @@ export async function getAllAssembliesData() {
         '*',
         `${TABLES.ASSEMBLY_CATEGORY}(*)`
       ].join(', '));
-    console.log('-------getAllAssembliesData', assemblyData || []);
     return assemblyData || [];
   } else {
     // For JSON mode, we'd need to aggregate from all district JSONs
