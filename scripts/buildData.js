@@ -151,7 +151,7 @@ function toFilename(name) {
           assemblies: `geojson/districts/with-assemblies/${toFilename(d.name_en)}.geojson`
         }
       };
-      await writeJSON(path.join(DISTRICTS_DIR, `${toFilename(d.name_en)}.json`), districtJSON);
+      await writeJSON(path.join(DISTRICTS_DIR, `${d.id}.json`), districtJSON);
     }
 
     // --- 3. Assembly JSONs (ALL) ---
@@ -182,7 +182,7 @@ function toFilename(name) {
           local_bodies: `geojson/assemblies/with-local-bodies/${toFilename(a.name_en)}.geojson`
         }
       };
-      await writeJSON(path.join(ASSEMBLIES_DIR, `${toFilename(a.name_en)}.json`), assemblyJSON);
+      await writeJSON(path.join(ASSEMBLIES_DIR, `${a.id}.json`), assemblyJSON);
     }
 
     // --- 4. Local Body JSONs (ALL) ---

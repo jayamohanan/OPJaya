@@ -3,7 +3,7 @@ import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 
 // Set this flag to true to use Supabase, false to use static JSON files
-const USE_SUPABASE = true;
+const USE_SUPABASE = false;
 
 // --- State Data ---
 export async function getStateData() {
@@ -44,7 +44,15 @@ export async function getDistrictData(districtId) {
   } else {
     const res = await fetch(`/data/districts/${districtId}.json`);
     if (!res.ok) throw new Error('District JSON not found');
-    return await res.json();
+    const districtJson = await res.json();
+    console.log([TABLES.DISTRICT_CATEGORY]);
+    return {
+      [FIELDS.DISTRICT.ID]: districtJson[FIELDS.DISTRICT.ID],
+      [FIELDS.DISTRICT.IS_ACTIVE]: districtJson[FIELDS.DISTRICT.IS_ACTIVE],
+      [FIELDS.DISTRICT.NAME_EN]: districtJson[FIELDS.DISTRICT.NAME_EN],
+      [FIELDS.DISTRICT.NAME_ML]: districtJson[FIELDS.DISTRICT.NAME_ML],
+      [TABLES.DISTRICT_CATEGORY]: districtJson[TABLES.DISTRICT_CATEGORY] ? { category: districtJson[TABLES.DISTRICT_CATEGORY][FIELDS.DISTRICT_CATEGORY.CATEGORY] } : null
+    };
   }
 }
 
@@ -61,8 +69,10 @@ export async function getAssembliesForDistrict(districtId) {
     console.log('-------getAssembliesForDistrict', asms || []);
     return asms || [];
   } else {
-    const districtData = await getDistrictData(districtId);
-    return districtData.assemblies || [];
+    const res = await fetch(`/data/districts/${districtId}.json`);
+    if (!res.ok) throw new Error('District JSON not found');
+    const districtJson = await res.json();
+    return districtJson.assemblies || [];
   }
 }
 
@@ -83,7 +93,15 @@ export async function getAssemblyData(assemblyId) {
   } else {
     const res = await fetch(`/data/assemblies/${assemblyId}.json`);
     if (!res.ok) throw new Error('Assembly JSON not found');
-    return await res.json();
+    const assemblyJson = await res.json();
+    return {
+      [FIELDS.ASSEMBLY.ID]: assemblyJson[FIELDS.ASSEMBLY.ID],
+      [FIELDS.ASSEMBLY.DISTRICT_ID]: assemblyJson[FIELDS.ASSEMBLY.DISTRICT_ID],
+      [FIELDS.ASSEMBLY.IS_ACTIVE]: assemblyJson[FIELDS.ASSEMBLY.IS_ACTIVE],
+      [FIELDS.ASSEMBLY.NAME_EN]: assemblyJson[FIELDS.ASSEMBLY.NAME_EN],
+      [FIELDS.ASSEMBLY.NAME_ML]: assemblyJson[FIELDS.ASSEMBLY.NAME_ML],
+      [TABLES.ASSEMBLY_CATEGORY]: assemblyJson[TABLES.ASSEMBLY_CATEGORY] ? { category: assemblyJson[TABLES.ASSEMBLY_CATEGORY][FIELDS.ASSEMBLY_CATEGORY.CATEGORY] } : null
+    };
   }
 }
 
@@ -101,8 +119,10 @@ export async function getLocalBodiesForAssembly(assemblyId) {
     console.log('-------getLocalBodiesForAssembly', lbs || []);
     return lbs || [];
   } else {
-    const assemblyData = await getAssemblyData(assemblyId);
-    return assemblyData.local_bodies || [];
+    const res = await fetch(`/data/assemblies/${assemblyId}.json`);
+    if (!res.ok) throw new Error('Assembly JSON not found');
+    const assemblyJson = await res.json();
+    return assemblyJson.local_bodies || [];
   }
 }
 
@@ -239,7 +259,7 @@ export async function getAllLocalBodiesData() {
     throw new Error('getAllLocalBodiesData not implemented for JSON mode');
   }
 }
-
+//in doubt
 export async function getLocalBodyCategories() {
   if (USE_SUPABASE) {
     const { data: localBodyCategoryData } = await supabase
