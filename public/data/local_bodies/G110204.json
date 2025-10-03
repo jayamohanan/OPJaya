@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G110204",
-  "local_body_name_en": "Tuneri",
-  "local_body_name_ml": "തൂണേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "22",
-    "assembly_name_en": "Nadapuram",
-    "assembly_name_ml": "നാദാപുരം",
+  "id": "G110204",
+  "name_en": "Tuneri",
+  "name_ml": "തൂണേരി",
+  "assembly_id": "22",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "22",
+    "name_en": "Nadapuram",
+    "name_ml": "നാദാപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "223b9a4d-e5bd-4f59-bbed-5521c7c7274f",
+      "id": "223b9a4d-e5bd-4f59-bbed-5521c7c7274f",
       "ward_no": "1",
-      "ward_name_en": "Mudavantheri West",
-      "ward_name_ml": "മുടവന്തേരി വെസ്റ്റ്"
+      "name_en": "Mudavantheri West",
+      "name_ml": "മുടവന്തേരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "3d9c1b91-9786-49de-8382-b22a92a9d3b2",
+      "id": "3d9c1b91-9786-49de-8382-b22a92a9d3b2",
       "ward_no": "2",
-      "ward_name_en": "Kalathara",
-      "ward_name_ml": "കളത്തറ"
+      "name_en": "Kalathara",
+      "name_ml": "കളത്തറ"
     },
     {
-      "ward_id": "0034c208-1755-48e2-9962-8e0a26d05b0b",
+      "id": "0034c208-1755-48e2-9962-8e0a26d05b0b",
       "ward_no": "3",
-      "ward_name_en": "Mudavantheri East",
-      "ward_name_ml": "മുടവന്തേരി ഈസ്റ്റ്"
+      "name_en": "Mudavantheri East",
+      "name_ml": "മുടവന്തേരി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "4ecc9286-c8d9-4d8e-b22a-e47d788f9a07",
+      "id": "4ecc9286-c8d9-4d8e-b22a-e47d788f9a07",
       "ward_no": "4",
-      "ward_name_en": "Perode",
-      "ward_name_ml": "പേരോട്"
+      "name_en": "Perode",
+      "name_ml": "പേരോട്"
     },
     {
-      "ward_id": "cef4e6f2-9ee8-4eae-9547-8439fbc79729",
+      "id": "cef4e6f2-9ee8-4eae-9547-8439fbc79729",
       "ward_no": "5",
-      "ward_name_en": "Avolam",
-      "ward_name_ml": "ആവോലം"
+      "name_en": "Avolam",
+      "name_ml": "ആവോലം"
     },
     {
-      "ward_id": "e3334d7b-f7ff-452e-b040-9660899d25df",
+      "id": "e3334d7b-f7ff-452e-b040-9660899d25df",
       "ward_no": "6",
-      "ward_name_en": "Chalappuram",
-      "ward_name_ml": "ചാലപ്പുറം"
+      "name_en": "Chalappuram",
+      "name_ml": "ചാലപ്പുറം"
     },
     {
-      "ward_id": "276ea827-4089-4caf-b913-826101e3572d",
+      "id": "276ea827-4089-4caf-b913-826101e3572d",
       "ward_no": "7",
-      "ward_name_en": "Velloor South",
-      "ward_name_ml": "വെള്ളൂര്‍ സൌത്ത്"
+      "name_en": "Velloor South",
+      "name_ml": "വെള്ളൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "9df598c7-0c12-41a8-83db-860bf2cf02b9",
+      "id": "9df598c7-0c12-41a8-83db-860bf2cf02b9",
       "ward_no": "8",
-      "ward_name_en": "Kodanchery South",
-      "ward_name_ml": "കോടഞ്ചേരി സൌത്ത്"
+      "name_en": "Kodanchery South",
+      "name_ml": "കോടഞ്ചേരി സൌത്ത്"
     },
     {
-      "ward_id": "94b42f93-ad68-4188-b561-cef8a138b3dd",
+      "id": "94b42f93-ad68-4188-b561-cef8a138b3dd",
       "ward_no": "9",
-      "ward_name_en": "Kodanchery North",
-      "ward_name_ml": "കോടഞ്ചേരി നോര്‍ത്ത്"
+      "name_en": "Kodanchery North",
+      "name_ml": "കോടഞ്ചേരി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "1b53d50b-c80f-41c0-a66b-c05e72c3aac1",
+      "id": "1b53d50b-c80f-41c0-a66b-c05e72c3aac1",
       "ward_no": "10",
-      "ward_name_en": "Tuneri West",
-      "ward_name_ml": "തൂണേരി വെസ്റ്റ്"
+      "name_en": "Tuneri West",
+      "name_ml": "തൂണേരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "2476c494-6363-4a40-80de-c381de2c954c",
+      "id": "2476c494-6363-4a40-80de-c381de2c954c",
       "ward_no": "11",
-      "ward_name_en": "Velloor North",
-      "ward_name_ml": "വെള്ളൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Velloor North",
+      "name_ml": "വെള്ളൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "7d392a09-86ba-4381-a7df-e4d9d7ec2646",
+      "id": "7d392a09-86ba-4381-a7df-e4d9d7ec2646",
       "ward_no": "12",
-      "ward_name_en": "Chalappuram North",
-      "ward_name_ml": "ചാലപ്പുറം നോര്‍ത്ത്"
+      "name_en": "Chalappuram North",
+      "name_ml": "ചാലപ്പുറം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "61288cd4-bb0f-4328-aba9-af4b2f2da6bc",
+      "id": "61288cd4-bb0f-4328-aba9-af4b2f2da6bc",
       "ward_no": "13",
-      "ward_name_en": "Kannankai",
-      "ward_name_ml": "കണ്ണങ്കൈ"
+      "name_en": "Kannankai",
+      "name_ml": "കണ്ണങ്കൈ"
     },
     {
-      "ward_id": "498986a0-26af-47c3-b5ee-6083f4cf901f",
+      "id": "498986a0-26af-47c3-b5ee-6083f4cf901f",
       "ward_no": "14",
-      "ward_name_en": "Tuneri Twon",
-      "ward_name_ml": "തൂണേരി ടൌണ്‍"
+      "name_en": "Tuneri Twon",
+      "name_ml": "തൂണേരി ടൌണ്‍"
     },
     {
-      "ward_id": "779346b1-7888-40c8-826f-7b49a346c4c3",
+      "id": "779346b1-7888-40c8-826f-7b49a346c4c3",
       "ward_no": "15",
-      "ward_name_en": "Mudavantheri",
-      "ward_name_ml": "മുടവന്തേരി"
+      "name_en": "Mudavantheri",
+      "name_ml": "മുടവന്തേരി"
     }
   ],
   "towns": [],

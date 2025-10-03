@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G060202",
-  "local_body_name_en": "Munnar",
-  "local_body_name_ml": "മൂന്നാര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G060202",
+  "name_en": "Munnar",
+  "name_ml": "മൂന്നാര്‍",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
-    "category": "Normal"
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "79a0ba55-6141-4b48-a7a0-b65065bc2168",
+      "id": "79a0ba55-6141-4b48-a7a0-b65065bc2168",
       "ward_no": "1",
-      "ward_name_en": "Rajamalai",
-      "ward_name_ml": "രാജമലൈ"
+      "name_en": "Rajamalai",
+      "name_ml": "രാജമലൈ"
     },
     {
-      "ward_id": "b19f7069-46a3-4b6d-af54-b64c2488bc22",
+      "id": "b19f7069-46a3-4b6d-af54-b64c2488bc22",
       "ward_no": "2",
-      "ward_name_en": "Chattamunnar",
-      "ward_name_ml": "ചട്ടമൂന്നാര്‍"
+      "name_en": "Chattamunnar",
+      "name_ml": "ചട്ടമൂന്നാര്‍"
     },
     {
-      "ward_id": "2225fe09-64c9-48e5-ae78-30e8cf4760d6",
+      "id": "2225fe09-64c9-48e5-ae78-30e8cf4760d6",
       "ward_no": "3",
-      "ward_name_en": "Luckham",
-      "ward_name_ml": "ലക്കം"
+      "name_en": "Luckham",
+      "name_ml": "ലക്കം"
     },
     {
-      "ward_id": "742cbc56-91d4-4294-9094-615a153632bf",
+      "id": "742cbc56-91d4-4294-9094-615a153632bf",
       "ward_no": "4",
-      "ward_name_en": "Vaguvarai",
-      "ward_name_ml": "വാഗുവാരൈ"
+      "name_en": "Vaguvarai",
+      "name_ml": "വാഗുവാരൈ"
     },
     {
-      "ward_id": "fd5eafcc-4b02-4b59-a90b-4510af705130",
+      "id": "fd5eafcc-4b02-4b59-a90b-4510af705130",
       "ward_no": "5",
-      "ward_name_en": "Thalayar",
-      "ward_name_ml": "തലയാര്‍"
+      "name_en": "Thalayar",
+      "name_ml": "തലയാര്‍"
     },
     {
-      "ward_id": "75e19f4d-9565-4c1b-b9e3-e9ca628ece05",
+      "id": "75e19f4d-9565-4c1b-b9e3-e9ca628ece05",
       "ward_no": "6",
-      "ward_name_en": "Iravikulam",
-      "ward_name_ml": "ഇരവികുളം"
+      "name_en": "Iravikulam",
+      "name_ml": "ഇരവികുളം"
     },
     {
-      "ward_id": "b746e9e4-07ee-4910-bf03-bdb191f1b900",
+      "id": "b746e9e4-07ee-4910-bf03-bdb191f1b900",
       "ward_no": "7",
-      "ward_name_en": "Kannimala",
-      "ward_name_ml": "കന്നിമലൈ"
+      "name_en": "Kannimala",
+      "name_ml": "കന്നിമലൈ"
     },
     {
-      "ward_id": "7573474e-6a67-40f6-a350-2317d2ca06c7",
+      "id": "7573474e-6a67-40f6-a350-2317d2ca06c7",
       "ward_no": "8",
-      "ward_name_en": "Periyavarai",
-      "ward_name_ml": "പെരിയവാരൈ"
+      "name_en": "Periyavarai",
+      "name_ml": "പെരിയവാരൈ"
     },
     {
-      "ward_id": "7844d46f-cb65-4f76-ad8c-1422bc6f1785",
+      "id": "7844d46f-cb65-4f76-ad8c-1422bc6f1785",
       "ward_no": "9",
-      "ward_name_en": "Munnar Colony",
-      "ward_name_ml": "മൂന്നാര്‍ കോളനി"
+      "name_en": "Munnar Colony",
+      "name_ml": "മൂന്നാര്‍ കോളനി"
     },
     {
-      "ward_id": "8ddc68bb-472a-4ba7-ba52-ccc5d5d6a962",
+      "id": "8ddc68bb-472a-4ba7-ba52-ccc5d5d6a962",
       "ward_no": "10",
-      "ward_name_en": "Ikkanagar",
-      "ward_name_ml": "ഇക്കനഗര്‍"
+      "name_en": "Ikkanagar",
+      "name_ml": "ഇക്കനഗര്‍"
     },
     {
-      "ward_id": "ec35d9c7-2182-445a-b3dd-54298e9ed024",
+      "id": "ec35d9c7-2182-445a-b3dd-54298e9ed024",
       "ward_no": "11",
-      "ward_name_en": "Moolakada",
-      "ward_name_ml": "മൂല���്കട"
+      "name_en": "Moolakada",
+      "name_ml": "മൂല���്കട"
     },
     {
-      "ward_id": "8fd7b6cf-6e7b-4c2b-947e-f1d8aba245cc",
+      "id": "8fd7b6cf-6e7b-4c2b-947e-f1d8aba245cc",
       "ward_no": "12",
-      "ward_name_en": "Chokkanad",
-      "ward_name_ml": "ചൊക്കനാട്"
+      "name_en": "Chokkanad",
+      "name_ml": "ചൊക്കനാട്"
     },
     {
-      "ward_id": "d6932311-b92f-4815-96c3-304998b31d1a",
+      "id": "d6932311-b92f-4815-96c3-304998b31d1a",
       "ward_no": "13",
-      "ward_name_en": "Pazhayamunnar",
-      "ward_name_ml": "പഴയമൂന്നാര്‍"
+      "name_en": "Pazhayamunnar",
+      "name_ml": "പഴയമൂന്നാര്‍"
     },
     {
-      "ward_id": "60261892-7f0e-4908-be40-2e95d2f360ab",
+      "id": "60261892-7f0e-4908-be40-2e95d2f360ab",
       "ward_no": "14",
-      "ward_name_en": "Sevanmalay",
-      "ward_name_ml": "സെവന്‍മലൈ"
+      "name_en": "Sevanmalay",
+      "name_ml": "സെവന്‍മലൈ"
     },
     {
-      "ward_id": "660c1d51-64a3-40a0-bdfd-f049e4d5c908",
+      "id": "660c1d51-64a3-40a0-bdfd-f049e4d5c908",
       "ward_no": "15",
-      "ward_name_en": "Lakshmi",
-      "ward_name_ml": "ലക്ഷ്മി"
+      "name_en": "Lakshmi",
+      "name_ml": "ലക്ഷ്മി"
     },
     {
-      "ward_id": "fd554137-089f-4466-a052-cddf4c05f82c",
+      "id": "fd554137-089f-4466-a052-cddf4c05f82c",
       "ward_no": "16",
-      "ward_name_en": "Kallar",
-      "ward_name_ml": "കല്ലാര്‍"
+      "name_en": "Kallar",
+      "name_ml": "കല്ലാര്‍"
     },
     {
-      "ward_id": "67273713-d219-4214-9ec9-b465e1bdd265",
+      "id": "67273713-d219-4214-9ec9-b465e1bdd265",
       "ward_no": "17",
-      "ward_name_en": "Nallathanni",
-      "ward_name_ml": "നല്ലതണ്ണി"
+      "name_en": "Nallathanni",
+      "name_ml": "നല്ലതണ്ണി"
     },
     {
-      "ward_id": "35e0b69c-c422-4cf5-be4f-5f82f5ac2e63",
+      "id": "35e0b69c-c422-4cf5-be4f-5f82f5ac2e63",
       "ward_no": "18",
-      "ward_name_en": "Nadayar",
-      "ward_name_ml": "നടയാര്‍"
+      "name_en": "Nadayar",
+      "name_ml": "നടയാര്‍"
     },
     {
-      "ward_id": "e3034c0c-3012-4c01-8a93-ee68748ee6f5",
+      "id": "e3034c0c-3012-4c01-8a93-ee68748ee6f5",
       "ward_no": "19",
-      "ward_name_en": "Munnar Town",
-      "ward_name_ml": "മൂന്നാര്‍ ടൌണ്‍"
+      "name_en": "Munnar Town",
+      "name_ml": "മൂന്നാര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "ae0dff08-89e4-402e-9b94-22f09b8420f4",
+      "id": "ae0dff08-89e4-402e-9b94-22f09b8420f4",
       "ward_no": "20",
-      "ward_name_en": "Cholamalai",
-      "ward_name_ml": "ചോലമലൈ"
+      "name_en": "Cholamalai",
+      "name_ml": "ചോലമലൈ"
     },
     {
-      "ward_id": "d2b6ddab-3bf8-48f3-94ce-5d4db1252c1b",
+      "id": "d2b6ddab-3bf8-48f3-94ce-5d4db1252c1b",
       "ward_no": "21",
-      "ward_name_en": "Kadalar",
-      "ward_name_ml": "കടലാര്‍"
+      "name_en": "Kadalar",
+      "name_ml": "കടലാര്‍"
     }
   ],
   "towns": [],

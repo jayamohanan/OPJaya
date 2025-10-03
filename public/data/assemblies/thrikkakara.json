@@ -1,20 +1,27 @@
 {
-  "assembly_id": "83",
-  "assembly_name_en": "Thrikkakara",
-  "assembly_name_ml": "തൃക്കാക്കര",
-  "category": "Perfect",
+  "id": "83",
+  "name_en": "Thrikkakara",
+  "name_ml": "തൃക്കാക്കര",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Perfect"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M070900",
-      "local_body_name_en": "Thrikkakara",
-      "local_body_name_ml": "തൃക്കാക്കര",
-      "category": "Perfect"
+      "id": "M070900",
+      "name_en": "Thrikkakara",
+      "name_ml": "തൃക്കാക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

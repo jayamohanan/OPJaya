@@ -1,50 +1,65 @@
 {
-  "assembly_id": "13",
-  "assembly_name_en": "Thalassery",
-  "assembly_name_ml": "തലശ്ശേരി",
-  "category": "Normal",
+  "id": "13",
+  "name_en": "Thalassery",
+  "name_ml": "തലശ്ശേരി",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130802",
-      "local_body_name_en": "Chokli",
-      "local_body_name_ml": "ചൊക്ളി",
-      "category": "Normal"
+      "id": "G130802",
+      "name_en": "Chokli",
+      "name_ml": "ചൊക്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130702",
-      "local_body_name_en": "Eranholi",
-      "local_body_name_ml": "എരഞ്ഞോളി",
-      "category": "Perfect"
+      "id": "G130702",
+      "name_en": "Eranholi",
+      "name_ml": "എരഞ്ഞോളി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130801",
-      "local_body_name_en": "Kadirur",
-      "local_body_name_ml": "കതിരൂര്‍",
-      "category": "Normal"
+      "id": "G130801",
+      "name_en": "Kadirur",
+      "name_ml": "കതിരൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130704",
-      "local_body_name_en": "New Mahe",
-      "local_body_name_ml": "ന്യൂ മാഹി",
-      "category": "Normal"
+      "id": "G130704",
+      "name_en": "New Mahe",
+      "name_ml": "ന്യൂ മാഹി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130806",
-      "local_body_name_en": "Panniyannur",
-      "local_body_name_ml": "പന്ന്യന്നൂര്‍",
-      "category": "Normal"
+      "id": "G130806",
+      "name_en": "Panniyannur",
+      "name_ml": "പന്ന്യന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M130500",
-      "local_body_name_en": "Thalassery",
-      "local_body_name_ml": "തലശ്ശേരി",
-      "category": ""
+      "id": "M130500",
+      "name_en": "Thalassery",
+      "name_ml": "തലശ്ശേരി",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

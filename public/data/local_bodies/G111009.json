@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G111009",
-  "local_body_name_en": "Kattippara",
-  "local_body_name_ml": "കട്ടിപ്പാറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "31",
-    "assembly_name_en": "Koduvally",
-    "assembly_name_ml": "കൊടുവള്ളി",
+  "id": "G111009",
+  "name_en": "Kattippara",
+  "name_ml": "കട്ടിപ്പാറ",
+  "assembly_id": "31",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "31",
+    "name_en": "Koduvally",
+    "name_ml": "കൊടുവള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "fea913ca-c1ae-4e0f-bd64-9ea887d182b9",
+      "id": "fea913ca-c1ae-4e0f-bd64-9ea887d182b9",
       "ward_no": "1",
-      "ward_name_en": "Kallullathode",
-      "ward_name_ml": "കല്ലുള്ളതോട്"
+      "name_en": "Kallullathode",
+      "name_ml": "കല്ലുള്ളതോട്"
     },
     {
-      "ward_id": "1f8ba53d-2d12-4fde-a160-b30c225904ec",
+      "id": "1f8ba53d-2d12-4fde-a160-b30c225904ec",
       "ward_no": "2",
-      "ward_name_en": "Amarad",
-      "ward_name_ml": "അമരാട്"
+      "name_en": "Amarad",
+      "name_ml": "അമരാട്"
     },
     {
-      "ward_id": "4961b810-8465-409c-a293-765c654cb8c4",
+      "id": "4961b810-8465-409c-a293-765c654cb8c4",
       "ward_no": "3",
-      "ward_name_en": "Thazhvaram",
-      "ward_name_ml": "താഴ്വാരം"
+      "name_en": "Thazhvaram",
+      "name_ml": "താഴ്വാരം"
     },
     {
-      "ward_id": "5b5751e9-53a8-43ef-88bf-4f103e826d0e",
+      "id": "5b5751e9-53a8-43ef-88bf-4f103e826d0e",
       "ward_no": "4",
-      "ward_name_en": "Chamal",
-      "ward_name_ml": "ചമല്‍"
+      "name_en": "Chamal",
+      "name_ml": "ചമല്‍"
     },
     {
-      "ward_id": "3f12558a-0842-4777-9ad2-db5931b6d89a",
+      "id": "3f12558a-0842-4777-9ad2-db5931b6d89a",
       "ward_no": "5",
-      "ward_name_en": "Payona",
-      "ward_name_ml": "പയോണ"
+      "name_en": "Payona",
+      "name_ml": "പയോണ"
     },
     {
-      "ward_id": "26cb8bd1-237f-4213-bbd8-3b5b33904b97",
+      "id": "26cb8bd1-237f-4213-bbd8-3b5b33904b97",
       "ward_no": "6",
-      "ward_name_en": "Poolode",
-      "ward_name_ml": "പൂലോട്"
+      "name_en": "Poolode",
+      "name_ml": "പൂലോട്"
     },
     {
-      "ward_id": "9f6cf8ea-0317-43db-b126-454c8d7a3de5",
+      "id": "9f6cf8ea-0317-43db-b126-454c8d7a3de5",
       "ward_no": "7",
-      "ward_name_en": "Chundankuzhi",
-      "ward_name_ml": "ചുണ്ടന്‍കുഴി"
+      "name_en": "Chundankuzhi",
+      "name_ml": "ചുണ്ടന്‍കുഴി"
     },
     {
-      "ward_id": "7170cbc9-ed1a-489a-8aa9-fadde2ab9146",
+      "id": "7170cbc9-ed1a-489a-8aa9-fadde2ab9146",
       "ward_no": "8",
-      "ward_name_en": "Kannoottippara",
-      "ward_name_ml": "കന്നൂട്ടിപ്പാറ"
+      "name_en": "Kannoottippara",
+      "name_ml": "കന്നൂട്ടിപ്പാറ"
     },
     {
-      "ward_id": "d2158332-cfb6-47f0-8260-bd6a474b4755",
+      "id": "d2158332-cfb6-47f0-8260-bd6a474b4755",
       "ward_no": "9",
-      "ward_name_en": "Pullanhimedu",
-      "ward_name_ml": "പുല്ലാഞ്ഞിമേട്"
+      "name_en": "Pullanhimedu",
+      "name_ml": "പുല്ലാഞ്ഞിമേട്"
     },
     {
-      "ward_id": "a4cb2b74-ac4f-4f70-8f6f-ae25e1477eac",
+      "id": "a4cb2b74-ac4f-4f70-8f6f-ae25e1477eac",
       "ward_no": "10",
-      "ward_name_en": "Ambayathode",
-      "ward_name_ml": "അമ്പായത്തോട്"
+      "name_en": "Ambayathode",
+      "name_ml": "അമ്പായത്തോട്"
     },
     {
-      "ward_id": "c1799eb0-1f7b-4ad8-89b4-3b81aa476afd",
+      "id": "c1799eb0-1f7b-4ad8-89b4-3b81aa476afd",
       "ward_no": "11",
-      "ward_name_en": "Kolikkal",
-      "ward_name_ml": "കോളിക്കല്‍"
+      "name_en": "Kolikkal",
+      "name_ml": "കോളിക്കല്‍"
     },
     {
-      "ward_id": "f23f4c22-cf63-4248-85fe-48255a84ccf1",
+      "id": "f23f4c22-cf63-4248-85fe-48255a84ccf1",
       "ward_no": "12",
-      "ward_name_en": "Vadakkummuri",
-      "ward_name_ml": "വടക്കുംമുറി"
+      "name_en": "Vadakkummuri",
+      "name_ml": "വടക്കുംമുറി"
     },
     {
-      "ward_id": "022ee9b4-3f00-4b67-a9d9-93cd05cca0f6",
+      "id": "022ee9b4-3f00-4b67-a9d9-93cd05cca0f6",
       "ward_no": "13",
-      "ward_name_en": "Vetti Ozhinja Thottam",
-      "ward_name_ml": "വെട്ടിഒഴിഞ്ഞതോട്ടം"
+      "name_en": "Vetti Ozhinja Thottam",
+      "name_ml": "വെട്ടിഒഴിഞ്ഞതോട്ടം"
     },
     {
-      "ward_id": "3967a09b-5073-44d3-8493-bfcf219ae478",
+      "id": "3967a09b-5073-44d3-8493-bfcf219ae478",
       "ward_no": "14",
-      "ward_name_en": "Chembrakunda",
-      "ward_name_ml": "ചെമ്പ്രകുണ്ട"
+      "name_en": "Chembrakunda",
+      "name_ml": "ചെമ്പ്രകുണ്ട"
     },
     {
-      "ward_id": "cdc8b3d9-fc85-40ef-b2e5-623772472bda",
+      "id": "cdc8b3d9-fc85-40ef-b2e5-623772472bda",
       "ward_no": "15",
-      "ward_name_en": "Kattippara",
-      "ward_name_ml": "കട്ടിപ്പാറ"
+      "name_en": "Kattippara",
+      "name_ml": "കട്ടിപ്പാറ"
     }
   ],
   "towns": [],

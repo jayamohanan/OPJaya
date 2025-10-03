@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G100203",
-  "local_body_name_en": "Kalikavu",
-  "local_body_name_ml": "കാളികാവ്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G100203",
+  "name_en": "Kalikavu",
+  "name_ml": "കാളികാവ്",
+  "assembly_id": "36",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "36",
-    "assembly_name_en": "Wandoor",
-    "assembly_name_ml": "വണ്ടൂര്‍",
-    "category": "Normal"
+    "id": "36",
+    "name_en": "Wandoor",
+    "name_ml": "വണ്ടൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a140f580-0fc6-40a3-ac30-49f1da139dd5",
+      "id": "a140f580-0fc6-40a3-ac30-49f1da139dd5",
       "ward_no": "1",
-      "ward_name_en": "Karutheni",
-      "ward_name_ml": "കറുത്തേനി"
+      "name_en": "Karutheni",
+      "name_ml": "കറുത്തേനി"
     },
     {
-      "ward_id": "7127efd1-34d5-4560-a160-b9495bd94c20",
+      "id": "7127efd1-34d5-4560-a160-b9495bd94c20",
       "ward_no": "2",
-      "ward_name_en": "Anchachavidi",
-      "ward_name_ml": "അഞ്ചച്ചവിടി"
+      "name_en": "Anchachavidi",
+      "name_ml": "അഞ്ചച്ചവിടി"
     },
     {
-      "ward_id": "b260c43c-2e5f-45a1-8a4d-f1c8a2b2e64c",
+      "id": "b260c43c-2e5f-45a1-8a4d-f1c8a2b2e64c",
       "ward_no": "3",
-      "ward_name_en": "Venthodanpadi",
-      "ward_name_ml": "വെന്തോടന്‍പടി"
+      "name_en": "Venthodanpadi",
+      "name_ml": "വെന്തോടന്‍പടി"
     },
     {
-      "ward_id": "bc8f330f-e53e-430b-b261-ef5eafb060d5",
+      "id": "bc8f330f-e53e-430b-b261-ef5eafb060d5",
       "ward_no": "4",
-      "ward_name_en": "Pallisseri",
-      "ward_name_ml": "പള്ളിശ്ശേരി"
+      "name_en": "Pallisseri",
+      "name_ml": "പള്ളിശ്ശേരി"
     },
     {
-      "ward_id": "f2b30a3e-1061-417b-b474-208ed4aba957",
+      "id": "f2b30a3e-1061-417b-b474-208ed4aba957",
       "ward_no": "5",
-      "ward_name_en": "Ambalakkadavu",
-      "ward_name_ml": "അമ്പലക്കടവ്"
+      "name_en": "Ambalakkadavu",
+      "name_ml": "അമ്പലക്കടവ്"
     },
     {
-      "ward_id": "3adc2565-1839-4d8d-b1e5-b4898f83c209",
+      "id": "3adc2565-1839-4d8d-b1e5-b4898f83c209",
       "ward_no": "6",
-      "ward_name_en": "Kalikavu Town",
-      "ward_name_ml": "കാളികാവ് ടൌണ്‍"
+      "name_en": "Kalikavu Town",
+      "name_ml": "കാളികാവ് ടൌണ്‍"
     },
     {
-      "ward_id": "a2abbdf6-9889-4a00-8d34-4c653cbced01",
+      "id": "a2abbdf6-9889-4a00-8d34-4c653cbced01",
       "ward_no": "7",
-      "ward_name_en": "Mele Kalikavu",
-      "ward_name_ml": "മേലേ കാളികാവ്"
+      "name_en": "Mele Kalikavu",
+      "name_ml": "മേലേ കാളികാവ്"
     },
     {
-      "ward_id": "e123fa4a-9da6-4e56-a44b-fc7ebc8a00a0",
+      "id": "e123fa4a-9da6-4e56-a44b-fc7ebc8a00a0",
       "ward_no": "8",
-      "ward_name_en": "Adakkakundu",
-      "ward_name_ml": "അടക്കാക്കുണ്ട്"
+      "name_en": "Adakkakundu",
+      "name_ml": "അടക്കാക്കുണ്ട്"
     },
     {
-      "ward_id": "acf29177-78c3-4ca7-a1d5-cca7aeeb9b2b",
+      "id": "acf29177-78c3-4ca7-a1d5-cca7aeeb9b2b",
       "ward_no": "9",
-      "ward_name_en": "Parasseri",
-      "ward_name_ml": "പാറശ്ശേരി"
+      "name_en": "Parasseri",
+      "name_ml": "പാറശ്ശേരി"
     },
     {
-      "ward_id": "f95c09f0-1b09-4f9b-b0d3-d5ed9e6f63e5",
+      "id": "f95c09f0-1b09-4f9b-b0d3-d5ed9e6f63e5",
       "ward_no": "10",
-      "ward_name_en": "Enadi",
-      "ward_name_ml": "ഈനാദി"
+      "name_en": "Enadi",
+      "name_ml": "ഈനാദി"
     },
     {
-      "ward_id": "48480152-37eb-4faa-b943-4dc76cc77b2a",
+      "id": "48480152-37eb-4faa-b943-4dc76cc77b2a",
       "ward_no": "11",
-      "ward_name_en": "Chenkod",
-      "ward_name_ml": "ചെങ്കോട്"
+      "name_en": "Chenkod",
+      "name_ml": "ചെങ്കോട്"
     },
     {
-      "ward_id": "b15bc4c1-f7d0-4b5b-a065-67200762a099",
+      "id": "b15bc4c1-f7d0-4b5b-a065-67200762a099",
       "ward_no": "12",
-      "ward_name_en": "Chazhiyod",
-      "ward_name_ml": "ചാഴിയോട്"
+      "name_en": "Chazhiyod",
+      "name_ml": "ചാഴിയോട്"
     },
     {
-      "ward_id": "03b239ab-888d-4401-bd81-6d22219cb5aa",
+      "id": "03b239ab-888d-4401-bd81-6d22219cb5aa",
       "ward_no": "13",
-      "ward_name_en": "Kallamkunnu",
-      "ward_name_ml": "കല്ലംകുന്ന്"
+      "name_en": "Kallamkunnu",
+      "name_ml": "കല്ലംകുന്ന്"
     },
     {
-      "ward_id": "e0e861a8-223e-492e-8ee4-07ae49b83574",
+      "id": "e0e861a8-223e-492e-8ee4-07ae49b83574",
       "ward_no": "14",
-      "ward_name_en": "Thanducode",
-      "ward_name_ml": "തണ്ട്കോട്"
+      "name_en": "Thanducode",
+      "name_ml": "തണ്ട്കോട്"
     },
     {
-      "ward_id": "6bce5016-b525-4d83-999f-5819747ae63f",
+      "id": "6bce5016-b525-4d83-999f-5819747ae63f",
       "ward_no": "15",
-      "ward_name_en": "Ilasseri",
-      "ward_name_ml": "ഐലാശ്ശേരി"
+      "name_en": "Ilasseri",
+      "name_ml": "ഐലാശ്ശേരി"
     },
     {
-      "ward_id": "45bb335c-c00e-4bca-9bf4-763e4c426c2f",
+      "id": "45bb335c-c00e-4bca-9bf4-763e4c426c2f",
       "ward_no": "16",
-      "ward_name_en": "Puliyamkallu",
-      "ward_name_ml": "പുളിയങ്കല്ല്"
+      "name_en": "Puliyamkallu",
+      "name_ml": "പുളിയങ്കല്ല്"
     },
     {
-      "ward_id": "94b22e2f-7b9a-4468-b7ce-8e1bc1bed4da",
+      "id": "94b22e2f-7b9a-4468-b7ce-8e1bc1bed4da",
       "ward_no": "17",
-      "ward_name_en": "Vellayoor",
-      "ward_name_ml": "വെള്ളയൂര്‍"
+      "name_en": "Vellayoor",
+      "name_ml": "വെള്ളയൂര്‍"
     },
     {
-      "ward_id": "4faa1308-c2f9-426c-85eb-5751f66792f1",
+      "id": "4faa1308-c2f9-426c-85eb-5751f66792f1",
       "ward_no": "18",
-      "ward_name_en": "Cheripalam",
-      "ward_name_ml": "ചേരിപ്പലം"
+      "name_en": "Cheripalam",
+      "name_ml": "ചേരിപ്പലം"
     },
     {
-      "ward_id": "9f4bd913-5473-485a-8632-a752ea7c9d99",
+      "id": "9f4bd913-5473-485a-8632-a752ea7c9d99",
       "ward_no": "19",
-      "ward_name_en": "Poongod",
-      "ward_name_ml": "പൂങ്ങോട്"
+      "name_en": "Poongod",
+      "name_ml": "പൂങ്ങോട്"
     }
   ],
   "towns": [],

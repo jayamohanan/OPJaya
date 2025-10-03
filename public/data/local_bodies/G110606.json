@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G110606",
-  "local_body_name_en": "Perambra",
-  "local_body_name_ml": "പേരാമ്പ്ര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "24",
-    "assembly_name_en": "Perambra",
-    "assembly_name_ml": "പേരാംബ്ര",
+  "id": "G110606",
+  "name_en": "Perambra",
+  "name_ml": "പേരാമ്പ്ര",
+  "assembly_id": "24",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "24",
+    "name_en": "Perambra",
+    "name_ml": "പേരാംബ്ര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b7edef41-e9c1-47a5-b448-8bbfcc30945b",
+      "id": "b7edef41-e9c1-47a5-b448-8bbfcc30945b",
       "ward_no": "1",
-      "ward_name_en": "Edavarad",
-      "ward_name_ml": "എടവരാട്"
+      "name_en": "Edavarad",
+      "name_ml": "എടവരാട്"
     },
     {
-      "ward_id": "c084c81c-8836-4379-908e-20f2dac27c32",
+      "id": "c084c81c-8836-4379-908e-20f2dac27c32",
       "ward_no": "2",
-      "ward_name_en": "Kaipram",
-      "ward_name_ml": "കൈപ്രം"
+      "name_en": "Kaipram",
+      "name_ml": "കൈപ്രം"
     },
     {
-      "ward_id": "b89330ef-f271-48a0-822f-2a15d0e1d143",
+      "id": "b89330ef-f271-48a0-822f-2a15d0e1d143",
       "ward_no": "3",
-      "ward_name_en": "Kallode North",
-      "ward_name_ml": "കല്ലോട് നോര്‍ത്ത്"
+      "name_en": "Kallode North",
+      "name_ml": "കല്ലോട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "c2f64ea3-ad71-4e23-a757-2d2149b0b2bf",
+      "id": "c2f64ea3-ad71-4e23-a757-2d2149b0b2bf",
       "ward_no": "4",
-      "ward_name_en": "Kallode South",
-      "ward_name_ml": "കല്ലോട് സൌത്ത്"
+      "name_en": "Kallode South",
+      "name_ml": "കല്ലോട് സൌത്ത്"
     },
     {
-      "ward_id": "b36fac9c-8d30-4de1-a99a-281eb279ec7d",
+      "id": "b36fac9c-8d30-4de1-a99a-281eb279ec7d",
       "ward_no": "5",
-      "ward_name_en": "College",
-      "ward_name_ml": "കോളേജ്"
+      "name_en": "College",
+      "name_ml": "കോളേജ്"
     },
     {
-      "ward_id": "28abe809-bb02-48cc-9e41-a884e6b97d84",
+      "id": "28abe809-bb02-48cc-9e41-a884e6b97d84",
       "ward_no": "6",
-      "ward_name_en": "Moyothchal",
-      "ward_name_ml": "മൊയോത്ത് ചാല്‍"
+      "name_en": "Moyothchal",
+      "name_ml": "മൊയോത്ത് ചാല്‍"
     },
     {
-      "ward_id": "e52353aa-c0ce-4a0c-9f43-344dd3119860",
+      "id": "e52353aa-c0ce-4a0c-9f43-344dd3119860",
       "ward_no": "7",
-      "ward_name_en": "Menhanniam",
-      "ward_name_ml": "മേഞ്ഞാണ്യം"
+      "name_en": "Menhanniam",
+      "name_ml": "മേഞ്ഞാണ്യം"
     },
     {
-      "ward_id": "f88bf323-cefa-426a-bd04-2d7eff3a8b25",
+      "id": "f88bf323-cefa-426a-bd04-2d7eff3a8b25",
       "ward_no": "8",
-      "ward_name_en": "Pandikode",
-      "ward_name_ml": "പാണ്ടിക്കോട്"
+      "name_en": "Pandikode",
+      "name_ml": "പാണ്ടിക്കോട്"
     },
     {
-      "ward_id": "f3730177-e406-4d84-a43a-4f018043a46b",
+      "id": "f3730177-e406-4d84-a43a-4f018043a46b",
       "ward_no": "9",
-      "ward_name_en": "Koderichal",
-      "ward_name_ml": "കോടേരിച്ചാല്‍"
+      "name_en": "Koderichal",
+      "name_ml": "കോടേരിച്ചാല്‍"
     },
     {
-      "ward_id": "86a93259-5cbb-42e9-897d-1317c25c9ccb",
+      "id": "86a93259-5cbb-42e9-897d-1317c25c9ccb",
       "ward_no": "10",
-      "ward_name_en": "Marutheri",
-      "ward_name_ml": "മരുതേരി"
+      "name_en": "Marutheri",
+      "name_ml": "മരുതേരി"
     },
     {
-      "ward_id": "2f27e93d-2496-4573-b4a2-5997560d2df5",
+      "id": "2f27e93d-2496-4573-b4a2-5997560d2df5",
       "ward_no": "11",
-      "ward_name_en": "Unnikkunnu",
-      "ward_name_ml": "ഉണ്ണിക്കുന്ന്"
+      "name_en": "Unnikkunnu",
+      "name_ml": "ഉണ്ണിക്കുന്ന്"
     },
     {
-      "ward_id": "8b2ef4df-8f4a-46fa-aca1-e916399d0d12",
+      "id": "8b2ef4df-8f4a-46fa-aca1-e916399d0d12",
       "ward_no": "12",
-      "ward_name_en": "Perambra Town",
-      "ward_name_ml": "പേരാമ്പ്ര ടൌണ്‍"
+      "name_en": "Perambra Town",
+      "name_ml": "പേരാമ്പ്ര ടൌണ്‍"
     },
     {
-      "ward_id": "3711f85a-d71b-4612-b2f0-87def63e67d9",
+      "id": "3711f85a-d71b-4612-b2f0-87def63e67d9",
       "ward_no": "13",
-      "ward_name_en": "Kakkad",
-      "ward_name_ml": "കക്കാട്"
+      "name_en": "Kakkad",
+      "name_ml": "കക്കാട്"
     },
     {
-      "ward_id": "6136dafa-7738-4053-8f65-53e1a8c50854",
+      "id": "6136dafa-7738-4053-8f65-53e1a8c50854",
       "ward_no": "14",
-      "ward_name_en": "Ambalithazha",
-      "ward_name_ml": "അമ്പാളിത്താഴ"
+      "name_en": "Ambalithazha",
+      "name_ml": "അമ്പാളിത്താഴ"
     },
     {
-      "ward_id": "e522e984-9d2e-45b0-b2b4-59736a97d6c0",
+      "id": "e522e984-9d2e-45b0-b2b4-59736a97d6c0",
       "ward_no": "15",
-      "ward_name_en": "Kizhinhanniam",
-      "ward_name_ml": "കിഴിഞ്ഞാണ്യം"
+      "name_en": "Kizhinhanniam",
+      "name_ml": "കിഴിഞ്ഞാണ്യം"
     },
     {
-      "ward_id": "46534d51-a0b3-4983-933d-1c9de45a93f8",
+      "id": "46534d51-a0b3-4983-933d-1c9de45a93f8",
       "ward_no": "16",
-      "ward_name_en": "Parappuram",
-      "ward_name_ml": "പാറപ്പുറം"
+      "name_en": "Parappuram",
+      "name_ml": "പാറപ്പുറം"
     },
     {
-      "ward_id": "18ecdd92-8a96-452e-af66-1492e4e396c5",
+      "id": "18ecdd92-8a96-452e-af66-1492e4e396c5",
       "ward_no": "17",
-      "ward_name_en": "Akkooparamb",
-      "ward_name_ml": "ആക്കൂപ്പറമ്പ്"
+      "name_en": "Akkooparamb",
+      "name_ml": "ആക്കൂപ്പറമ്പ്"
     },
     {
-      "ward_id": "a2b49eb5-313d-45cc-8b03-e66c69f1bd96",
+      "id": "a2b49eb5-313d-45cc-8b03-e66c69f1bd96",
       "ward_no": "18",
-      "ward_name_en": "Eravattoor",
-      "ward_name_ml": "എരവട്ടൂര്‍"
+      "name_en": "Eravattoor",
+      "name_ml": "എരവട്ടൂര്‍"
     },
     {
-      "ward_id": "71c97775-6d60-4bd9-984d-3dabd30c0326",
+      "id": "71c97775-6d60-4bd9-984d-3dabd30c0326",
       "ward_no": "19",
-      "ward_name_en": "Erathumukku",
-      "ward_name_ml": "ഏരത്തുമുക്ക്"
+      "name_en": "Erathumukku",
+      "name_ml": "ഏരത്തുമുക്ക്"
     }
   ],
   "towns": [],

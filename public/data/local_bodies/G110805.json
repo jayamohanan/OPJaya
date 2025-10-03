@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110805",
-  "local_body_name_en": "Atholi",
-  "local_body_name_ml": "അത്തോളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G110805",
+  "name_en": "Atholi",
+  "name_ml": "അത്തോളി",
+  "assembly_id": "25",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "25",
-    "assembly_name_en": "Balussery",
-    "assembly_name_ml": "ബാലുശ്ശേരി",
-    "category": "Normal"
+    "id": "25",
+    "name_en": "Balussery",
+    "name_ml": "ബാലുശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "44c0d3ed-de1f-4528-a2fc-1aece90fcf1a",
+      "id": "44c0d3ed-de1f-4528-a2fc-1aece90fcf1a",
       "ward_no": "1",
-      "ward_name_en": "Modakkallur",
-      "ward_name_ml": "മൊടക്കല്ലൂര്‍"
+      "name_en": "Modakkallur",
+      "name_ml": "മൊടക്കല്ലൂര്‍"
     },
     {
-      "ward_id": "b021b598-0c84-4bce-a63a-29f544acbbe4",
+      "id": "b021b598-0c84-4bce-a63a-29f544acbbe4",
       "ward_no": "2",
-      "ward_name_en": "Koomulli",
-      "ward_name_ml": "കൂമുള്ളി"
+      "name_en": "Koomulli",
+      "name_ml": "കൂമുള്ളി"
     },
     {
-      "ward_id": "6a5f5ea6-92ef-46ad-923f-a2fdbffb5f4b",
+      "id": "6a5f5ea6-92ef-46ad-923f-a2fdbffb5f4b",
       "ward_no": "3",
-      "ward_name_en": "Kothankal",
-      "ward_name_ml": "കോതങ്കല്‍"
+      "name_en": "Kothankal",
+      "name_ml": "കോതങ്കല്‍"
     },
     {
-      "ward_id": "9c3e9271-ad4f-45dd-9e8d-314a10f14c80",
+      "id": "9c3e9271-ad4f-45dd-9e8d-314a10f14c80",
       "ward_no": "4",
-      "ward_name_en": "Kannippoyil",
-      "ward_name_ml": "കണ്ണിപൊയില്‍"
+      "name_en": "Kannippoyil",
+      "name_ml": "കണ്ണിപൊയില്‍"
     },
     {
-      "ward_id": "2a14e940-8c87-4f6a-a8db-43556057e7a4",
+      "id": "2a14e940-8c87-4f6a-a8db-43556057e7a4",
       "ward_no": "5",
-      "ward_name_en": "Kodasseri",
-      "ward_name_ml": "കൊടശേരി"
+      "name_en": "Kodasseri",
+      "name_ml": "കൊടശേരി"
     },
     {
-      "ward_id": "8b02d2b6-714e-4f2f-81d2-5fb44c7bcb77",
+      "id": "8b02d2b6-714e-4f2f-81d2-5fb44c7bcb77",
       "ward_no": "6",
-      "ward_name_en": "Pookod",
-      "ward_name_ml": "പൂക്കോട്"
+      "name_en": "Pookod",
+      "name_ml": "പൂക്കോട്"
     },
     {
-      "ward_id": "a99f5ff1-f180-489a-89b3-4ba00e3de1df",
+      "id": "a99f5ff1-f180-489a-89b3-4ba00e3de1df",
       "ward_no": "7",
-      "ward_name_en": "Kolakkad",
-      "ward_name_ml": "കൊളക്കാട്"
+      "name_en": "Kolakkad",
+      "name_ml": "കൊളക്കാട്"
     },
     {
-      "ward_id": "4915e40d-92ef-40e1-a3bf-6aa4d451f0dd",
+      "id": "4915e40d-92ef-40e1-a3bf-6aa4d451f0dd",
       "ward_no": "8",
-      "ward_name_en": "Atholikkave",
-      "ward_name_ml": "അത്തോളിക്കാവ്"
+      "name_en": "Atholikkave",
+      "name_ml": "അത്തോളിക്കാവ്"
     },
     {
-      "ward_id": "ff759fd9-2b49-4191-9094-8ab21106c550",
+      "id": "ff759fd9-2b49-4191-9094-8ab21106c550",
       "ward_no": "9",
-      "ward_name_en": "Athani",
-      "ward_name_ml": "അത്താണി"
+      "name_en": "Athani",
+      "name_ml": "അത്താണി"
     },
     {
-      "ward_id": "b7678321-3437-411c-b55c-7455ba0b157f",
+      "id": "b7678321-3437-411c-b55c-7455ba0b157f",
       "ward_no": "10",
-      "ward_name_en": "Kongannur East",
-      "ward_name_ml": "കൊങ്ങന്നൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Kongannur East",
+      "name_ml": "കൊങ്ങന്നൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "e99eba3f-241d-4963-944d-ac600fbb454f",
+      "id": "e99eba3f-241d-4963-944d-ac600fbb454f",
       "ward_no": "11",
-      "ward_name_en": "Kongannur",
-      "ward_name_ml": "കൊങ്ങന്നൂര്‍"
+      "name_en": "Kongannur",
+      "name_ml": "കൊങ്ങന്നൂര്‍"
     },
     {
-      "ward_id": "cb9ea43b-3e45-4b1a-b15d-91284724e37e",
+      "id": "cb9ea43b-3e45-4b1a-b15d-91284724e37e",
       "ward_no": "12",
-      "ward_name_en": "Kuniyil Kadave",
-      "ward_name_ml": "കുനിയില്‍ കടവ്"
+      "name_en": "Kuniyil Kadave",
+      "name_ml": "കുനിയില്‍ കടവ്"
     },
     {
-      "ward_id": "b43e624a-c1b9-463e-80b6-543a1917e791",
+      "id": "b43e624a-c1b9-463e-80b6-543a1917e791",
       "ward_no": "13",
-      "ward_name_en": "Atholi",
-      "ward_name_ml": "അത്തോളി"
+      "name_en": "Atholi",
+      "name_ml": "അത്തോളി"
     },
     {
-      "ward_id": "ec56ec97-3959-47f7-a302-b9f09415c4d7",
+      "id": "ec56ec97-3959-47f7-a302-b9f09415c4d7",
       "ward_no": "14",
-      "ward_name_en": "Kudakkallu",
-      "ward_name_ml": "കുടക്കല്ല്"
+      "name_en": "Kudakkallu",
+      "name_ml": "കുടക്കല്ല്"
     },
     {
-      "ward_id": "41d1779e-0f0b-4984-ae4f-e27cd60ebe15",
+      "id": "41d1779e-0f0b-4984-ae4f-e27cd60ebe15",
       "ward_no": "15",
-      "ward_name_en": "Velur",
-      "ward_name_ml": "വേളൂര്‍"
+      "name_en": "Velur",
+      "name_ml": "വേളൂര്‍"
     },
     {
-      "ward_id": "3a2b82e6-fb69-46f3-a213-706101530ad9",
+      "id": "3a2b82e6-fb69-46f3-a213-706101530ad9",
       "ward_no": "16",
-      "ward_name_en": "Velur West",
-      "ward_name_ml": "വേളൂര്‍ വെസ്റ്റ്"
+      "name_en": "Velur West",
+      "name_ml": "വേളൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "087413a3-9cb0-4af7-be95-916736226215",
+      "id": "087413a3-9cb0-4af7-be95-916736226215",
       "ward_no": "17",
-      "ward_name_en": "Thorayi",
-      "ward_name_ml": "തോരായി"
+      "name_en": "Thorayi",
+      "name_ml": "തോരായി"
     }
   ],
   "towns": [],

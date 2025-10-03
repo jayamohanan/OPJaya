@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G130806",
-  "local_body_name_en": "Panniyannur",
-  "local_body_name_ml": "പന്ന്യന്നൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "13",
-    "assembly_name_en": "Thalassery",
-    "assembly_name_ml": "തലശ്ശേരി",
+  "id": "G130806",
+  "name_en": "Panniyannur",
+  "name_ml": "പന്ന്യന്നൂര്‍",
+  "assembly_id": "13",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "13",
+    "name_en": "Thalassery",
+    "name_ml": "തലശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2e691f31-28ab-4a00-b8c9-3160e065639b",
+      "id": "2e691f31-28ab-4a00-b8c9-3160e065639b",
       "ward_no": "1",
-      "ward_name_en": "Ponniyampalam",
-      "ward_name_ml": "പൊന്ന്യംപാലം"
+      "name_en": "Ponniyampalam",
+      "name_ml": "പൊന്ന്യംപാലം"
     },
     {
-      "ward_id": "4612fce0-bef9-4e92-ae8f-c7e9da7e878c",
+      "id": "4612fce0-bef9-4e92-ae8f-c7e9da7e878c",
       "ward_no": "2",
-      "ward_name_en": "Manayathvayal",
-      "ward_name_ml": "മനയത്ത് വയല്‍"
+      "name_en": "Manayathvayal",
+      "name_ml": "മനയത്ത് വയല്‍"
     },
     {
-      "ward_id": "b0bf6f36-c0cf-4ae1-a441-e90a22c18eee",
+      "id": "b0bf6f36-c0cf-4ae1-a441-e90a22c18eee",
       "ward_no": "3",
-      "ward_name_en": "Thazhe Champad",
-      "ward_name_ml": "താഴെ ചമ്പാട്"
+      "name_en": "Thazhe Champad",
+      "name_ml": "താഴെ ചമ്പാട്"
     },
     {
-      "ward_id": "10fdf55c-8378-422c-8479-3dad8bbd0ff9",
+      "id": "10fdf55c-8378-422c-8479-3dad8bbd0ff9",
       "ward_no": "4",
-      "ward_name_en": "Arayakool",
-      "ward_name_ml": "അരയാക്കൂല്‍"
+      "name_en": "Arayakool",
+      "name_ml": "അരയാക്കൂല്‍"
     },
     {
-      "ward_id": "d7ff254e-de0d-4381-b693-84ea51bddfbf",
+      "id": "d7ff254e-de0d-4381-b693-84ea51bddfbf",
       "ward_no": "5",
-      "ward_name_en": "Kizhakke Champad",
-      "ward_name_ml": "കിഴക്കെ ചമ്പാട്"
+      "name_en": "Kizhakke Champad",
+      "name_ml": "കിഴക്കെ ചമ്പാട്"
     },
     {
-      "ward_id": "10fa7f01-8e81-42d4-a408-fe2ca6967a32",
+      "id": "10fa7f01-8e81-42d4-a408-fe2ca6967a32",
       "ward_no": "6",
-      "ward_name_en": "Kottakkunnu",
-      "ward_name_ml": "കോട്ടക്കുന്ന്"
+      "name_en": "Kottakkunnu",
+      "name_ml": "കോട്ടക്കുന്ന്"
     },
     {
-      "ward_id": "a8a28341-9c16-420d-b0bf-d7cd61237b93",
+      "id": "a8a28341-9c16-420d-b0bf-d7cd61237b93",
       "ward_no": "7",
-      "ward_name_en": "Vadakke Panniyannur",
-      "ward_name_ml": "വടക്കെ പന്ന്യന്നൂര്‍"
+      "name_en": "Vadakke Panniyannur",
+      "name_ml": "വടക്കെ പന്ന്യന്നൂര്‍"
     },
     {
-      "ward_id": "0598779c-eb76-4caa-9c13-b02a7a70f349",
+      "id": "0598779c-eb76-4caa-9c13-b02a7a70f349",
       "ward_no": "8",
-      "ward_name_en": "Kizhakke Panniyannur",
-      "ward_name_ml": "കിഴക്കെ പന്ന്യന്നൂര്‍"
+      "name_en": "Kizhakke Panniyannur",
+      "name_ml": "കിഴക്കെ പന്ന്യന്നൂര്‍"
     },
     {
-      "ward_id": "1c5b2107-faad-4579-880b-0de6f9a7c36f",
+      "id": "1c5b2107-faad-4579-880b-0de6f9a7c36f",
       "ward_no": "9",
-      "ward_name_en": "Thekke Panniyannur",
-      "ward_name_ml": "തെക്കെ പന്ന്യന്നൂര്‍"
+      "name_en": "Thekke Panniyannur",
+      "name_ml": "തെക്കെ പന്ന്യന്നൂര്‍"
     },
     {
-      "ward_id": "8cc4289c-7506-447d-a775-e66b6f13b447",
+      "id": "8cc4289c-7506-447d-a775-e66b6f13b447",
       "ward_no": "10",
-      "ward_name_en": "Panniyannur",
-      "ward_name_ml": "പന്ന്യന്നൂര്‍"
+      "name_en": "Panniyannur",
+      "name_ml": "പന്ന്യന്നൂര്‍"
     },
     {
-      "ward_id": "3b263dae-ffc3-46ae-9599-122347529e4a",
+      "id": "3b263dae-ffc3-46ae-9599-122347529e4a",
       "ward_no": "11",
-      "ward_name_en": "Kundukulangara",
-      "ward_name_ml": "കുണ്ടുകുളങ്ങര"
+      "name_en": "Kundukulangara",
+      "name_ml": "കുണ്ടുകുളങ്ങര"
     },
     {
-      "ward_id": "0b4b22f2-b3ae-4e91-8319-69beb6f31e89",
+      "id": "0b4b22f2-b3ae-4e91-8319-69beb6f31e89",
       "ward_no": "12",
-      "ward_name_en": "Central Manekkara",
-      "ward_name_ml": "സെന്‍ട്രല്‍ മനേക്കര"
+      "name_en": "Central Manekkara",
+      "name_ml": "സെന്‍ട്രല്‍ മനേക്കര"
     },
     {
-      "ward_id": "41837448-7481-4771-8baa-d58457107ce7",
+      "id": "41837448-7481-4771-8baa-d58457107ce7",
       "ward_no": "13",
-      "ward_name_en": "Manekkara",
-      "ward_name_ml": "മനേക്കര"
+      "name_en": "Manekkara",
+      "name_ml": "മനേക്കര"
     },
     {
-      "ward_id": "4cf40cdd-9bfa-43d3-9c54-3c38933dd830",
+      "id": "4cf40cdd-9bfa-43d3-9c54-3c38933dd830",
       "ward_no": "14",
-      "ward_name_en": "Punchakkara",
-      "ward_name_ml": "പുഞ്ചക്കര"
+      "name_en": "Punchakkara",
+      "name_ml": "പുഞ്ചക്കര"
     },
     {
-      "ward_id": "c22fba1e-230d-4894-a91f-fc38ef794fd3",
+      "id": "c22fba1e-230d-4894-a91f-fc38ef794fd3",
       "ward_no": "15",
-      "ward_name_en": "Meethale Champad",
-      "ward_name_ml": "മീത്തലെ ചമ്പാട്"
+      "name_en": "Meethale Champad",
+      "name_ml": "മീത്തലെ ചമ്പാട്"
     }
   ],
   "towns": [],

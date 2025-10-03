@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G140301",
-  "local_body_name_en": "Chengala",
-  "local_body_name_ml": "ചെങ്കള",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "2",
-    "assembly_name_en": "Kasaragod",
-    "assembly_name_ml": "കാസര്‍കോഡ്",
+  "id": "G140301",
+  "name_en": "Chengala",
+  "name_ml": "ചെങ്കള",
+  "assembly_id": "2",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "2",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍കോഡ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e4957462-b02b-4741-a40e-7252f846831e",
+      "id": "e4957462-b02b-4741-a40e-7252f846831e",
       "ward_no": "1",
-      "ward_name_en": "Kallakatta",
-      "ward_name_ml": "കല്ലക്കട്ട"
+      "name_en": "Kallakatta",
+      "name_ml": "കല്ലക്കട്ട"
     },
     {
-      "ward_id": "a73d574c-2f8e-4bf8-b0a0-d8adfd9222ea",
+      "id": "a73d574c-2f8e-4bf8-b0a0-d8adfd9222ea",
       "ward_no": "2",
-      "ward_name_en": "Adukam",
-      "ward_name_ml": "അടുക്കം"
+      "name_en": "Adukam",
+      "name_ml": "അടുക്കം"
     },
     {
-      "ward_id": "ce31fa76-e0f4-49b3-ba41-853e6976032f",
+      "id": "ce31fa76-e0f4-49b3-ba41-853e6976032f",
       "ward_no": "3",
-      "ward_name_en": "Nellikatta",
-      "ward_name_ml": "നെല്ലിക്കട്ട"
+      "name_en": "Nellikatta",
+      "name_ml": "നെല്ലിക്കട്ട"
     },
     {
-      "ward_id": "e1723570-dcda-4e53-86dc-aefce84cc861",
+      "id": "e1723570-dcda-4e53-86dc-aefce84cc861",
       "ward_no": "4",
-      "ward_name_en": "Pilankatta",
-      "ward_name_ml": "പിലാംങ്കട്ട"
+      "name_en": "Pilankatta",
+      "name_ml": "പിലാംങ്കട്ട"
     },
     {
-      "ward_id": "1c28f13a-48dc-49c7-93cc-03111ec3cddd",
+      "id": "1c28f13a-48dc-49c7-93cc-03111ec3cddd",
       "ward_no": "5",
-      "ward_name_en": "Narampady",
-      "ward_name_ml": "നാരമ്പാടി"
+      "name_en": "Narampady",
+      "name_ml": "നാരമ്പാടി"
     },
     {
-      "ward_id": "3ef11b90-bf3a-4302-a859-0058210974b0",
+      "id": "3ef11b90-bf3a-4302-a859-0058210974b0",
       "ward_no": "6",
-      "ward_name_en": "Arladka",
-      "ward_name_ml": "അര്‍ളട്ക്ക"
+      "name_en": "Arladka",
+      "name_ml": "അര്‍ളട്ക്ക"
     },
     {
-      "ward_id": "3847dfcd-5d16-4ea3-b74e-7210968a5ee4",
+      "id": "3847dfcd-5d16-4ea3-b74e-7210968a5ee4",
       "ward_no": "7",
-      "ward_name_en": "Baladka",
-      "ward_name_ml": "ബാലട്ക്ക"
+      "name_en": "Baladka",
+      "name_ml": "ബാലട്ക്ക"
     },
     {
-      "ward_id": "12b94574-3e09-4e8f-8670-ab07ab07a3d9",
+      "id": "12b94574-3e09-4e8f-8670-ab07ab07a3d9",
       "ward_no": "8",
-      "ward_name_en": "Edneer",
-      "ward_name_ml": "എടനീര്‍"
+      "name_en": "Edneer",
+      "name_ml": "എടനീര്‍"
     },
     {
-      "ward_id": "6c16270a-b96c-42a4-8cdc-446cc6a3ec2a",
+      "id": "6c16270a-b96c-42a4-8cdc-446cc6a3ec2a",
       "ward_no": "9",
-      "ward_name_en": "Pady",
-      "ward_name_ml": "പാടി"
+      "name_en": "Pady",
+      "name_ml": "പാടി"
     },
     {
-      "ward_id": "d403cf85-2781-4a42-b40e-a34ccc595715",
+      "id": "d403cf85-2781-4a42-b40e-a34ccc595715",
       "ward_no": "10",
-      "ward_name_en": "Alampady",
-      "ward_name_ml": "ആലംപാടി"
+      "name_en": "Alampady",
+      "name_ml": "ആലംപാടി"
     },
     {
-      "ward_id": "d9c62d30-ee69-4bd9-b91d-589667b7ad3d",
+      "id": "d9c62d30-ee69-4bd9-b91d-589667b7ad3d",
       "ward_no": "11",
-      "ward_name_en": "Padinharmoola",
-      "ward_name_ml": "പടിഞ്ഞാര്‍മൂല"
+      "name_en": "Padinharmoola",
+      "name_ml": "പടിഞ്ഞാര്‍മൂല"
     },
     {
-      "ward_id": "d63fd8e9-7e8d-4d99-8cfd-3f4278e08ead",
+      "id": "d63fd8e9-7e8d-4d99-8cfd-3f4278e08ead",
       "ward_no": "12",
-      "ward_name_en": "Thaivalappu",
-      "ward_name_ml": "തൈവളപ്പ്"
+      "name_en": "Thaivalappu",
+      "name_ml": "തൈവളപ്പ്"
     },
     {
-      "ward_id": "3bd57e44-d2da-4aef-8093-29ad5364b0d0",
+      "id": "3bd57e44-d2da-4aef-8093-29ad5364b0d0",
       "ward_no": "13",
-      "ward_name_en": "Cherkala West",
-      "ward_name_ml": "ചെര്‍ക്കള വെസ്റ്റ്"
+      "name_en": "Cherkala West",
+      "name_ml": "ചെര്‍ക്കള വെസ്റ്റ്"
     },
     {
-      "ward_id": "761c8d43-5e3c-4f54-b87b-993730349502",
+      "id": "761c8d43-5e3c-4f54-b87b-993730349502",
       "ward_no": "14",
-      "ward_name_en": "Cherkala",
-      "ward_name_ml": "ചെര്‍ക്കള"
+      "name_en": "Cherkala",
+      "name_ml": "ചെര്‍ക്കള"
     },
     {
-      "ward_id": "09100583-5682-4000-ae9a-0df25913c4a7",
+      "id": "09100583-5682-4000-ae9a-0df25913c4a7",
       "ward_no": "15",
-      "ward_name_en": "Berka",
-      "ward_name_ml": "ബേര്‍ക്ക"
+      "name_en": "Berka",
+      "name_ml": "ബേര്‍ക്ക"
     },
     {
-      "ward_id": "2d5cc741-786f-49be-a081-ae1fa2b49963",
+      "id": "2d5cc741-786f-49be-a081-ae1fa2b49963",
       "ward_no": "16",
-      "ward_name_en": "Pulikundu",
-      "ward_name_ml": "പുലിക്കുണ്ട്"
+      "name_en": "Pulikundu",
+      "name_ml": "പുലിക്കുണ്ട്"
     },
     {
-      "ward_id": "b5b8ba35-cc25-464b-9727-01a465fb4eef",
+      "id": "b5b8ba35-cc25-464b-9727-01a465fb4eef",
       "ward_no": "17",
-      "ward_name_en": "Bevinje",
-      "ward_name_ml": "ബേവിഞ്ച"
+      "name_en": "Bevinje",
+      "name_ml": "ബേവിഞ്ച"
     },
     {
-      "ward_id": "216ad09b-5908-44cd-8c96-6611afa0fc14",
+      "id": "216ad09b-5908-44cd-8c96-6611afa0fc14",
       "ward_no": "18",
-      "ward_name_en": "Cheroor",
-      "ward_name_ml": "ചേരൂര്‍"
+      "name_en": "Cheroor",
+      "name_ml": "ചേരൂര്‍"
     },
     {
-      "ward_id": "53ea29d7-cbb9-43f5-995b-fb3b8725b380",
+      "id": "53ea29d7-cbb9-43f5-995b-fb3b8725b380",
       "ward_no": "19",
-      "ward_name_en": "Chengala",
-      "ward_name_ml": "ചെങ്കള"
+      "name_en": "Chengala",
+      "name_ml": "ചെങ്കള"
     },
     {
-      "ward_id": "1cb162e6-f33b-4d2e-8f19-90f09e591c20",
+      "id": "1cb162e6-f33b-4d2e-8f19-90f09e591c20",
       "ward_no": "20",
-      "ward_name_en": "Panalam",
-      "ward_name_ml": "പാണലം"
+      "name_en": "Panalam",
+      "name_ml": "പാണലം"
     },
     {
-      "ward_id": "cbcffb23-292d-44b1-9d31-3caaf9aa720e",
+      "id": "cbcffb23-292d-44b1-9d31-3caaf9aa720e",
       "ward_no": "21",
-      "ward_name_en": "Naimarmoola",
-      "ward_name_ml": "നായന്മാര്‍മൂല"
+      "name_en": "Naimarmoola",
+      "name_ml": "നായന്മാര്‍മൂല"
     },
     {
-      "ward_id": "8c89d94f-2512-44d7-ae96-72b4f3248698",
+      "id": "8c89d94f-2512-44d7-ae96-72b4f3248698",
       "ward_no": "22",
-      "ward_name_en": "Civil Station",
-      "ward_name_ml": "സിവില്‍ സ്റ്റേഷന്‍"
+      "name_en": "Civil Station",
+      "name_ml": "സിവില്‍ സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "82c9c1a2-d130-460d-b624-ec42d2d60e3f",
+      "id": "82c9c1a2-d130-460d-b624-ec42d2d60e3f",
       "ward_no": "23",
-      "ward_name_en": "Eruthumkadavu",
-      "ward_name_ml": "എരുതുംകടവ്"
+      "name_en": "Eruthumkadavu",
+      "name_ml": "എരുതുംകടവ്"
     }
   ],
   "towns": [],

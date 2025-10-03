@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G130202",
-  "local_body_name_en": "Ezhome",
-  "local_body_name_ml": "ഏഴോം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G130202",
+  "name_en": "Ezhome",
+  "name_ml": "ഏഴോം",
+  "assembly_id": "7",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "7",
-    "assembly_name_en": "Kalliasseri",
-    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Kalliasseri",
+    "name_ml": "കല്ല്യാശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "40c35758-5d08-471b-983e-117d4b84db82",
+      "id": "40c35758-5d08-471b-983e-117d4b84db82",
       "ward_no": "1",
-      "ward_name_en": "Kannom",
-      "ward_name_ml": "കണ്ണോം"
+      "name_en": "Kannom",
+      "name_ml": "കണ്ണോം"
     },
     {
-      "ward_id": "334f3278-b469-4698-b59e-25e644c734f3",
+      "id": "334f3278-b469-4698-b59e-25e644c734f3",
       "ward_no": "2",
-      "ward_name_en": "Kottila",
-      "ward_name_ml": "കൊട്ടില"
+      "name_en": "Kottila",
+      "name_ml": "കൊട്ടില"
     },
     {
-      "ward_id": "37a052c4-e485-49eb-a046-66286524b73c",
+      "id": "37a052c4-e485-49eb-a046-66286524b73c",
       "ward_no": "3",
-      "ward_name_en": "Onapparamba",
-      "ward_name_ml": "ഓണപ്പറമ്പ"
+      "name_en": "Onapparamba",
+      "name_ml": "ഓണപ്പറമ്പ"
     },
     {
-      "ward_id": "85034d17-e302-437c-a9fb-c73a7034cddf",
+      "id": "85034d17-e302-437c-a9fb-c73a7034cddf",
       "ward_no": "4",
-      "ward_name_en": "Narikkode",
-      "ward_name_ml": "നരിക്കോട്"
+      "name_en": "Narikkode",
+      "name_ml": "നരിക്കോട്"
     },
     {
-      "ward_id": "d9b67341-4a80-4179-a37f-ff03c9d8e971",
+      "id": "d9b67341-4a80-4179-a37f-ff03c9d8e971",
       "ward_no": "5",
-      "ward_name_en": "Parammal",
-      "ward_name_ml": "പാറമ്മല്‍"
+      "name_en": "Parammal",
+      "name_ml": "പാറമ്മല്‍"
     },
     {
-      "ward_id": "e7d239d4-33d3-4d6d-a9d5-17b297bfa791",
+      "id": "e7d239d4-33d3-4d6d-a9d5-17b297bfa791",
       "ward_no": "6",
-      "ward_name_en": "Kottakkeel",
-      "ward_name_ml": "കോട്ടക്കീല്‍"
+      "name_en": "Kottakkeel",
+      "name_ml": "കോട്ടക്കീല്‍"
     },
     {
-      "ward_id": "c9a08153-fc30-4926-8844-89591ed3fd66",
+      "id": "c9a08153-fc30-4926-8844-89591ed3fd66",
       "ward_no": "7",
-      "ward_name_en": "Ezhome",
-      "ward_name_ml": "ഏഴോം"
+      "name_en": "Ezhome",
+      "name_ml": "ഏഴോം"
     },
     {
-      "ward_id": "a94f2078-082b-4b2c-a6cb-340034d46f6b",
+      "id": "a94f2078-082b-4b2c-a6cb-340034d46f6b",
       "ward_no": "8",
-      "ward_name_en": "Ezhomemoola",
-      "ward_name_ml": "ഏഴോം മൂല"
+      "name_en": "Ezhomemoola",
+      "name_ml": "ഏഴോം മൂല"
     },
     {
-      "ward_id": "e99c5f2c-f589-4586-a7e1-bf7af88fdaf2",
+      "id": "e99c5f2c-f589-4586-a7e1-bf7af88fdaf2",
       "ward_no": "9",
-      "ward_name_en": "Chengal",
-      "ward_name_ml": "ചെങ്ങല്‍"
+      "name_en": "Chengal",
+      "name_ml": "ചെങ്ങല്‍"
     },
     {
-      "ward_id": "7b2483a1-2521-45ff-b6ff-5b65b24bbc81",
+      "id": "7b2483a1-2521-45ff-b6ff-5b65b24bbc81",
       "ward_no": "10",
-      "ward_name_en": "Pazhayangadi",
-      "ward_name_ml": "പഴയങ്ങാടി"
+      "name_en": "Pazhayangadi",
+      "name_ml": "പഴയങ്ങാടി"
     },
     {
-      "ward_id": "fb8eff82-a7da-4999-9024-58fbcd01206c",
+      "id": "fb8eff82-a7da-4999-9024-58fbcd01206c",
       "ward_no": "11",
-      "ward_name_en": "Eripuram",
-      "ward_name_ml": "എരിപുരം"
+      "name_en": "Eripuram",
+      "name_ml": "എരിപുരം"
     },
     {
-      "ward_id": "7152fe90-fcb5-48e4-9c03-1e949f795bc8",
+      "id": "7152fe90-fcb5-48e4-9c03-1e949f795bc8",
       "ward_no": "12",
-      "ward_name_en": "Aduthila",
-      "ward_name_ml": "അടുത്തില"
+      "name_en": "Aduthila",
+      "name_ml": "അടുത്തില"
     },
     {
-      "ward_id": "40af3296-d857-47f2-ab9b-b688365128d9",
+      "id": "40af3296-d857-47f2-ab9b-b688365128d9",
       "ward_no": "13",
-      "ward_name_en": "Neruvambram",
-      "ward_name_ml": "നെരുവമ്പ്രം"
+      "name_en": "Neruvambram",
+      "name_ml": "നെരുവമ്പ്രം"
     },
     {
-      "ward_id": "31daebe4-4225-4e75-8fff-06c13063972d",
+      "id": "31daebe4-4225-4e75-8fff-06c13063972d",
       "ward_no": "14",
-      "ward_name_en": "Kanayi",
-      "ward_name_ml": "കാനായി"
+      "name_en": "Kanayi",
+      "name_ml": "കാനായി"
     }
   ],
   "towns": [],

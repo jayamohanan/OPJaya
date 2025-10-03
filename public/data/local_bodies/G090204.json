@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G090204",
-  "local_body_name_en": "Ongallur",
-  "local_body_name_ml": "ഓങ്ങല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G090204",
+  "name_en": "Ongallur",
+  "name_ml": "ഓങ്ങല്ലൂര്‍",
+  "assembly_id": "50",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "50",
-    "assembly_name_en": "Pattambi",
-    "assembly_name_ml": "പട്ടാമ്പി",
-    "category": "Normal"
+    "id": "50",
+    "name_en": "Pattambi",
+    "name_ml": "പട്ടാമ്പി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0ab27382-5b74-4e82-a706-aafdaf026041",
+      "id": "0ab27382-5b74-4e82-a706-aafdaf026041",
       "ward_no": "1",
-      "ward_name_en": "Poovakode",
-      "ward_name_ml": "പൂവ്വക്കോട്"
+      "name_en": "Poovakode",
+      "name_ml": "പൂവ്വക്കോട്"
     },
     {
-      "ward_id": "cef5acee-3ad1-478a-90da-5a759dd31994",
+      "id": "cef5acee-3ad1-478a-90da-5a759dd31994",
       "ward_no": "2",
-      "ward_name_en": "Thondiyannur",
-      "ward_name_ml": "തൊണ്ടിയന്നൂര്‍"
+      "name_en": "Thondiyannur",
+      "name_ml": "തൊണ്ടിയന്നൂര്‍"
     },
     {
-      "ward_id": "504fab68-068f-4757-acf2-3d3af2e70758",
+      "id": "504fab68-068f-4757-acf2-3d3af2e70758",
       "ward_no": "3",
-      "ward_name_en": "Maruthur",
-      "ward_name_ml": "മരുതൂര്‍"
+      "name_en": "Maruthur",
+      "name_ml": "മരുതൂര്‍"
     },
     {
-      "ward_id": "e2a6103d-c609-42f2-9aff-13e9d7decaab",
+      "id": "e2a6103d-c609-42f2-9aff-13e9d7decaab",
       "ward_no": "4",
-      "ward_name_en": "Kalladipatta",
-      "ward_name_ml": "കള്ളാടിപ്പറ്റ"
+      "name_en": "Kalladipatta",
+      "name_ml": "കള്ളാടിപ്പറ്റ"
     },
     {
-      "ward_id": "108ad3ce-2850-4f1c-81ec-1e4461b041ed",
+      "id": "108ad3ce-2850-4f1c-81ec-1e4461b041ed",
       "ward_no": "5",
-      "ward_name_en": "Thamanikkara",
-      "ward_name_ml": "താമാനിക്കര"
+      "name_en": "Thamanikkara",
+      "name_ml": "താമാനിക്കര"
     },
     {
-      "ward_id": "61ea2ef4-7997-46ca-a534-8ae85368c4ad",
+      "id": "61ea2ef4-7997-46ca-a534-8ae85368c4ad",
       "ward_no": "6",
-      "ward_name_en": "Poyloor",
-      "ward_name_ml": "പൊയ് ലൂര്‍"
+      "name_en": "Poyloor",
+      "name_ml": "പൊയ് ലൂര്‍"
     },
     {
-      "ward_id": "279cfa62-dfbf-4c12-9502-ad64f1bb97cf",
+      "id": "279cfa62-dfbf-4c12-9502-ad64f1bb97cf",
       "ward_no": "7",
-      "ward_name_en": "Vadanamkurussi",
-      "ward_name_ml": "വാടാനാംകുറുശ്ശി"
+      "name_en": "Vadanamkurussi",
+      "name_ml": "വാടാനാംകുറുശ്ശി"
     },
     {
-      "ward_id": "b196454e-3057-4cf9-b237-7687cccdfc4a",
+      "id": "b196454e-3057-4cf9-b237-7687cccdfc4a",
       "ward_no": "8",
-      "ward_name_en": "Karkidakachal",
-      "ward_name_ml": "കര്‍ക്കിടകച്ചാല്‍"
+      "name_en": "Karkidakachal",
+      "name_ml": "കര്‍ക്കിടകച്ചാല്‍"
     },
     {
-      "ward_id": "b6fe1d94-f3e6-48b9-931d-fbbbdf5cc69d",
+      "id": "b6fe1d94-f3e6-48b9-931d-fbbbdf5cc69d",
       "ward_no": "9",
-      "ward_name_en": "Kuzhiyanamkunnu",
-      "ward_name_ml": "കുഴിയാനാംകുന്ന്"
+      "name_en": "Kuzhiyanamkunnu",
+      "name_ml": "കുഴിയാനാംകുന്ന്"
     },
     {
-      "ward_id": "f457bc79-abbd-4498-be43-510c3c4c4983",
+      "id": "f457bc79-abbd-4498-be43-510c3c4c4983",
       "ward_no": "10",
-      "ward_name_en": "Menchithara",
-      "ward_name_ml": "മേഞ്ചിത്തറ"
+      "name_en": "Menchithara",
+      "name_ml": "മേഞ്ചിത്തറ"
     },
     {
-      "ward_id": "a73db24c-8b27-4223-9827-c76217462822",
+      "id": "a73db24c-8b27-4223-9827-c76217462822",
       "ward_no": "11",
-      "ward_name_en": "Karamanna",
-      "ward_name_ml": "കാരമണ്ണ"
+      "name_en": "Karamanna",
+      "name_ml": "കാരമണ്ണ"
     },
     {
-      "ward_id": "eba6a23e-ff6d-4ad3-9c15-20836a3ec796",
+      "id": "eba6a23e-ff6d-4ad3-9c15-20836a3ec796",
       "ward_no": "12",
-      "ward_name_en": "Karakkad",
-      "ward_name_ml": "കാരക്കാട്"
+      "name_en": "Karakkad",
+      "name_ml": "കാരക്കാട്"
     },
     {
-      "ward_id": "794dafec-2a64-4f05-9573-831415e08b59",
+      "id": "794dafec-2a64-4f05-9573-831415e08b59",
       "ward_no": "13",
-      "ward_name_en": "Pazhancheerikkunnu",
-      "ward_name_ml": "പഴഞ്ചീരിക്കുന്ന്"
+      "name_en": "Pazhancheerikkunnu",
+      "name_ml": "പഴഞ്ചീരിക്കുന്ന്"
     },
     {
-      "ward_id": "840884c3-8971-4850-b61f-5d8910eeee59",
+      "id": "840884c3-8971-4850-b61f-5d8910eeee59",
       "ward_no": "14",
-      "ward_name_en": "Ongallur South",
-      "ward_name_ml": "ഓങ്ങല്ലൂര്‍ സൌത്ത്"
+      "name_en": "Ongallur South",
+      "name_ml": "ഓങ്ങല്ലൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "3512a9eb-7c16-4be2-88ea-15277fd46289",
+      "id": "3512a9eb-7c16-4be2-88ea-15277fd46289",
       "ward_no": "15",
-      "ward_name_en": "Moloorkkara",
-      "ward_name_ml": "മൂലൂര്‍ക്കര"
+      "name_en": "Moloorkkara",
+      "name_ml": "മൂലൂര്‍ക്കര"
     },
     {
-      "ward_id": "f65084c4-c5ca-4b96-9a19-4a6eeeb30235",
+      "id": "f65084c4-c5ca-4b96-9a19-4a6eeeb30235",
       "ward_no": "16",
-      "ward_name_en": "Parappuram",
-      "ward_name_ml": "പാറപ്പുറം"
+      "name_en": "Parappuram",
+      "name_ml": "പാറപ്പുറം"
     },
     {
-      "ward_id": "fb9bb216-eca2-4c78-9aa8-19f59e5fe368",
+      "id": "fb9bb216-eca2-4c78-9aa8-19f59e5fe368",
       "ward_no": "17",
-      "ward_name_en": "Kollipparambu",
-      "ward_name_ml": "കൊള്ളിപ്പമ്പ്"
+      "name_en": "Kollipparambu",
+      "name_ml": "കൊള്ളിപ്പമ്പ്"
     },
     {
-      "ward_id": "240797c6-f763-4f1c-9a86-0965b2489373",
+      "id": "240797c6-f763-4f1c-9a86-0965b2489373",
       "ward_no": "18",
-      "ward_name_en": "Kondoorkkara",
-      "ward_name_ml": "കൊണ്ടൂര്‍ക്കര"
+      "name_en": "Kondoorkkara",
+      "name_ml": "കൊണ്ടൂര്‍ക്കര"
     },
     {
-      "ward_id": "cce2dc1e-05b1-4136-b4d7-b822ccf08247",
+      "id": "cce2dc1e-05b1-4136-b4d7-b822ccf08247",
       "ward_no": "19",
-      "ward_name_en": "Manjalungal",
-      "ward_name_ml": "മഞ്ഞളുങ്ങല്‍"
+      "name_en": "Manjalungal",
+      "name_ml": "മഞ്ഞളുങ്ങല്‍"
     },
     {
-      "ward_id": "7b450138-21a5-475a-9303-a39b284ccf09",
+      "id": "7b450138-21a5-475a-9303-a39b284ccf09",
       "ward_no": "20",
-      "ward_name_en": "Ongallur North",
-      "ward_name_ml": "ഓങ്ങല്ലൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Ongallur North",
+      "name_ml": "ഓങ്ങല്ലൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "1591a65f-e747-4166-94f1-7c95fef62edc",
+      "id": "1591a65f-e747-4166-94f1-7c95fef62edc",
       "ward_no": "21",
-      "ward_name_en": "Pulasserikkara",
-      "ward_name_ml": "പുലാശ്ശേരിക്കര"
+      "name_en": "Pulasserikkara",
+      "name_ml": "പുലാശ്ശേരിക്കര"
     },
     {
-      "ward_id": "680a4dc1-0205-4e35-9a1b-cff960511103",
+      "id": "680a4dc1-0205-4e35-9a1b-cff960511103",
       "ward_no": "22",
-      "ward_name_en": "Andaladi",
-      "ward_name_ml": "അണ്ടലാടി"
+      "name_en": "Andaladi",
+      "name_ml": "അണ്ടലാടി"
     }
   ],
   "towns": [],

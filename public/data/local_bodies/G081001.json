@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G081001",
-  "local_body_name_en": "Avinissery",
-  "local_body_name_ml": "ആവിണിശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
-  "assembly": {
-    "assembly_id": "68",
-    "assembly_name_en": "Nattika",
-    "assembly_name_ml": "നാട്ടിക",
+  "id": "G081001",
+  "name_en": "Avinissery",
+  "name_ml": "ആവിണിശ്ശേരി",
+  "assembly_id": "68",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Good"
   },
+  "assembly": {
+    "id": "68",
+    "name_en": "Nattika",
+    "name_ml": "നാട്ടിക",
+    "assembly_category": {
+      "category": "Good"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8277d807-fe32-4894-bc4e-258f0047915b",
+      "id": "8277d807-fe32-4894-bc4e-258f0047915b",
       "ward_no": "1",
-      "ward_name_en": "Palakkal",
-      "ward_name_ml": "പാലക്കല്‍"
+      "name_en": "Palakkal",
+      "name_ml": "പാലക്കല്‍"
     },
     {
-      "ward_id": "933a7bda-cf93-43e9-822f-b40323fac5da",
+      "id": "933a7bda-cf93-43e9-822f-b40323fac5da",
       "ward_no": "2",
-      "ward_name_en": "Palissery North",
-      "ward_name_ml": "പാലിശ്ശേരി നോര്‍ത്ത്"
+      "name_en": "Palissery North",
+      "name_ml": "പാലിശ്ശേരി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "b1150801-d988-4602-8b7f-ae2a3f6e534c",
+      "id": "b1150801-d988-4602-8b7f-ae2a3f6e534c",
       "ward_no": "3",
-      "ward_name_en": "Ambedkar",
-      "ward_name_ml": "അംബേദ്ക്കര്‍"
+      "name_en": "Ambedkar",
+      "name_ml": "അംബേദ്ക്കര്‍"
     },
     {
-      "ward_id": "3b9ab92e-c1e0-40bc-90ba-0f231c009469",
+      "id": "3b9ab92e-c1e0-40bc-90ba-0f231c009469",
       "ward_no": "4",
-      "ward_name_en": "Bottujetty",
-      "ward_name_ml": "ബോട്ടുുജെട്ടി"
+      "name_en": "Bottujetty",
+      "name_ml": "ബോട്ടുുജെട്ടി"
     },
     {
-      "ward_id": "30098dea-e601-40d5-9b23-09ea783994ea",
+      "id": "30098dea-e601-40d5-9b23-09ea783994ea",
       "ward_no": "5",
-      "ward_name_en": "Avinissery",
-      "ward_name_ml": "അവിണിശ്ശേരി"
+      "name_en": "Avinissery",
+      "name_ml": "അവിണിശ്ശേരി"
     },
     {
-      "ward_id": "6bbd4e6e-1b45-4b11-a2cd-2ffbb3a4f251",
+      "id": "6bbd4e6e-1b45-4b11-a2cd-2ffbb3a4f251",
       "ward_no": "6",
-      "ward_name_en": "Vallissery North",
-      "ward_name_ml": "വള്ളിശ്ശേരി നോര്‍ത്ത്"
+      "name_en": "Vallissery North",
+      "name_ml": "വള്ളിശ്ശേരി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "35000511-6159-443b-bf22-49116d860fe5",
+      "id": "35000511-6159-443b-bf22-49116d860fe5",
       "ward_no": "7",
-      "ward_name_en": "Vallissery",
-      "ward_name_ml": "വള്ളിശ്ശേരി"
+      "name_en": "Vallissery",
+      "name_ml": "വള്ളിശ്ശേരി"
     },
     {
-      "ward_id": "f6b658d2-3199-4c32-bd4c-7a96775a91d9",
+      "id": "f6b658d2-3199-4c32-bd4c-7a96775a91d9",
       "ward_no": "8",
-      "ward_name_en": "Vallissery South",
-      "ward_name_ml": "വള്ളിശ്ശേരി സൌത്ത്"
+      "name_en": "Vallissery South",
+      "name_ml": "വള്ളിശ്ശേരി സൌത്ത്"
     },
     {
-      "ward_id": "04f98efe-911f-4346-a5e7-a62878a7a5d8",
+      "id": "04f98efe-911f-4346-a5e7-a62878a7a5d8",
       "ward_no": "9",
-      "ward_name_en": "Thrithamarassery",
-      "ward_name_ml": "തൃത്താമരശ്ശേരി"
+      "name_en": "Thrithamarassery",
+      "name_ml": "തൃത്താമരശ്ശേരി"
     },
     {
-      "ward_id": "c8f873ab-a458-42b3-b1f5-d838c9ef70cc",
+      "id": "c8f873ab-a458-42b3-b1f5-d838c9ef70cc",
       "ward_no": "10",
-      "ward_name_en": "Perinchery",
-      "ward_name_ml": "പെരിഞ്ചേരി"
+      "name_en": "Perinchery",
+      "name_ml": "പെരിഞ്ചേരി"
     },
     {
-      "ward_id": "44bb6bc5-4efd-41d0-9785-269f9e7eaa69",
+      "id": "44bb6bc5-4efd-41d0-9785-269f9e7eaa69",
       "ward_no": "11",
-      "ward_name_en": "Cheruvathery",
-      "ward_name_ml": "ചെറുവത്തേരി"
+      "name_en": "Cheruvathery",
+      "name_ml": "ചെറുവത്തേരി"
     },
     {
-      "ward_id": "cf81fe29-7e08-47c3-922c-7989485cf913",
+      "id": "cf81fe29-7e08-47c3-922c-7989485cf913",
       "ward_no": "12",
-      "ward_name_en": "Thottapaya",
-      "ward_name_ml": "തോട്ടപ്പായ"
+      "name_en": "Thottapaya",
+      "name_ml": "തോട്ടപ്പായ"
     },
     {
-      "ward_id": "15c6e88d-22f4-41db-ba07-c5cbbcb5f05b",
+      "id": "15c6e88d-22f4-41db-ba07-c5cbbcb5f05b",
       "ward_no": "13",
-      "ward_name_en": "Palissery",
-      "ward_name_ml": "പാലിശ്ശേരി"
+      "name_en": "Palissery",
+      "name_ml": "പാലിശ്ശേരി"
     },
     {
-      "ward_id": "a7dc6033-80c6-45d7-8bfd-551196bfb7c1",
+      "id": "a7dc6033-80c6-45d7-8bfd-551196bfb7c1",
       "ward_no": "14",
-      "ward_name_en": "Palakkal East",
-      "ward_name_ml": "പാലക്കല്‍ ഈസ്റ്റ്"
+      "name_en": "Palakkal East",
+      "name_ml": "പാലക്കല്‍ ഈസ്റ്റ്"
     }
   ],
   "towns": [],

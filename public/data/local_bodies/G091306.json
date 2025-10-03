@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G091306",
-  "local_body_name_en": "Kodumbu",
-  "local_body_name_ml": "കൊടുമ്പ്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "55",
-    "assembly_name_en": "Malampuzha",
-    "assembly_name_ml": "മലമ്പുഴ",
+  "id": "G091306",
+  "name_en": "Kodumbu",
+  "name_ml": "കൊടുമ്പ്",
+  "assembly_id": "55",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "55",
+    "name_en": "Malampuzha",
+    "name_ml": "മലമ്പുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "fe958398-321b-4da5-ba44-5f94a9f77570",
+      "id": "fe958398-321b-4da5-ba44-5f94a9f77570",
       "ward_no": "1",
-      "ward_name_en": "Kadamkode",
-      "ward_name_ml": "കാടാങ്കോട്"
+      "name_en": "Kadamkode",
+      "name_ml": "കാടാങ്കോട്"
     },
     {
-      "ward_id": "260d890a-6264-4720-9023-1a321e361058",
+      "id": "260d890a-6264-4720-9023-1a321e361058",
       "ward_no": "2",
-      "ward_name_en": "Karakkad",
-      "ward_name_ml": "കാരക്കാട്"
+      "name_en": "Karakkad",
+      "name_ml": "കാരക്കാട്"
     },
     {
-      "ward_id": "204810cb-8773-4458-a7f5-a89756422d81",
+      "id": "204810cb-8773-4458-a7f5-a89756422d81",
       "ward_no": "3",
-      "ward_name_en": "Karingarapully",
-      "ward_name_ml": "കരിങ്കരപ്പുള്ളി"
+      "name_en": "Karingarapully",
+      "name_ml": "കരിങ്കരപ്പുള്ളി"
     },
     {
-      "ward_id": "5884cb62-4506-4266-89e7-62019ec3d491",
+      "id": "5884cb62-4506-4266-89e7-62019ec3d491",
       "ward_no": "4",
-      "ward_name_en": "Oorappadam",
-      "ward_name_ml": "ഊറപ്പാടം"
+      "name_en": "Oorappadam",
+      "name_ml": "ഊറപ്പാടം"
     },
     {
-      "ward_id": "4607244c-8262-45c5-89cc-08388a9f4ef3",
+      "id": "4607244c-8262-45c5-89cc-08388a9f4ef3",
       "ward_no": "5",
-      "ward_name_en": "Erattayal",
-      "ward_name_ml": "എരട്ടയാല്‍"
+      "name_en": "Erattayal",
+      "name_ml": "എരട്ടയാല്‍"
     },
     {
-      "ward_id": "f6569401-82eb-4232-92e6-339d402aece1",
+      "id": "f6569401-82eb-4232-92e6-339d402aece1",
       "ward_no": "6",
-      "ward_name_en": "Midhunampallam",
-      "ward_name_ml": "മിഥുനംപള്ളം"
+      "name_en": "Midhunampallam",
+      "name_ml": "മിഥുനംപള്ളം"
     },
     {
-      "ward_id": "f0083cb7-5b4f-4c64-96b4-a4f198ab3b88",
+      "id": "f0083cb7-5b4f-4c64-96b4-a4f198ab3b88",
       "ward_no": "7",
-      "ward_name_en": "Kodumbu",
-      "ward_name_ml": "കൊടുമ്പ്"
+      "name_en": "Kodumbu",
+      "name_ml": "കൊടുമ്പ്"
     },
     {
-      "ward_id": "0001eb8f-f7ab-4576-8402-3159a653b302",
+      "id": "0001eb8f-f7ab-4576-8402-3159a653b302",
       "ward_no": "8",
-      "ward_name_en": "Aalthara",
-      "ward_name_ml": "ആല്‍ത്തറ"
+      "name_en": "Aalthara",
+      "name_ml": "ആല്‍ത്തറ"
     },
     {
-      "ward_id": "8d90ca3d-1015-44dd-8de5-d115bebc3480",
+      "id": "8d90ca3d-1015-44dd-8de5-d115bebc3480",
       "ward_no": "9",
-      "ward_name_en": "Chirappadam",
-      "ward_name_ml": "ചിറപ്പാടം"
+      "name_en": "Chirappadam",
+      "name_ml": "ചിറപ്പാടം"
     },
     {
-      "ward_id": "c7bb6d3a-449c-459e-b035-5c65aecbf227",
+      "id": "c7bb6d3a-449c-459e-b035-5c65aecbf227",
       "ward_no": "10",
-      "ward_name_en": "Olassery",
-      "ward_name_ml": "ഓലശ്ശേരി"
+      "name_en": "Olassery",
+      "name_ml": "ഓലശ്ശേരി"
     },
     {
-      "ward_id": "d2c7adf9-a4a3-4fee-8c31-07f7cfb0ce4a",
+      "id": "d2c7adf9-a4a3-4fee-8c31-07f7cfb0ce4a",
       "ward_no": "11",
-      "ward_name_en": "Thasrack",
-      "ward_name_ml": "തസ്രാക്ക്"
+      "name_en": "Thasrack",
+      "name_ml": "തസ്രാക്ക്"
     },
     {
-      "ward_id": "350b2c2a-012c-4463-8bbc-2770f661db25",
+      "id": "350b2c2a-012c-4463-8bbc-2770f661db25",
       "ward_no": "12",
-      "ward_name_en": "Pezhumpallam",
-      "ward_name_ml": "പേഴുംപള്ളം"
+      "name_en": "Pezhumpallam",
+      "name_ml": "പേഴുംപള്ളം"
     },
     {
-      "ward_id": "24b58ce1-8a59-4b32-b6fb-e565c39b9f4c",
+      "id": "24b58ce1-8a59-4b32-b6fb-e565c39b9f4c",
       "ward_no": "13",
-      "ward_name_en": "Thiruvalathur",
-      "ward_name_ml": "തിരുവാലത്തൂര്‍"
+      "name_en": "Thiruvalathur",
+      "name_ml": "തിരുവാലത്തൂര്‍"
     },
     {
-      "ward_id": "7ee91798-7696-45a6-b766-06c4b2fcffca",
+      "id": "7ee91798-7696-45a6-b766-06c4b2fcffca",
       "ward_no": "14",
-      "ward_name_en": "Kallingal",
-      "ward_name_ml": "കല്ലിങ്കല്‍"
+      "name_en": "Kallingal",
+      "name_ml": "കല്ലിങ്കല്‍"
     },
     {
-      "ward_id": "0e9fcbe4-4678-4ead-a8b6-0b5a67abbd78",
+      "id": "0e9fcbe4-4678-4ead-a8b6-0b5a67abbd78",
       "ward_no": "15",
-      "ward_name_en": "Canal",
-      "ward_name_ml": "കനാല്‍"
+      "name_en": "Canal",
+      "name_ml": "കനാല്‍"
     }
   ],
   "towns": [],

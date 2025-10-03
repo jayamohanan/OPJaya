@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G070308",
-  "local_body_name_en": "MalayattoorNeeleswaram",
-  "local_body_name_ml": "മലയാറ്റൂര്‍ നീലേശ്വരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G070308",
+  "name_en": "MalayattoorNeeleswaram",
+  "name_ml": "മലയാറ്റൂര്‍ നീലേശ്വരം",
+  "assembly_id": "75",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "75",
-    "assembly_name_en": "Angamaly",
-    "assembly_name_ml": "അങ്കമാലി",
-    "category": "Normal"
+    "id": "75",
+    "name_en": "Angamaly",
+    "name_ml": "അങ്കമാലി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ea604258-4c89-4a1e-8698-2c6c398d44df",
+      "id": "ea604258-4c89-4a1e-8698-2c6c398d44df",
       "ward_no": "1",
-      "ward_name_en": "Naduvattam",
-      "ward_name_ml": "നടുവട്ടം"
+      "name_en": "Naduvattam",
+      "name_ml": "നടുവട്ടം"
     },
     {
-      "ward_id": "525f454a-8a30-4046-b411-e91686c4758f",
+      "id": "525f454a-8a30-4046-b411-e91686c4758f",
       "ward_no": "2",
-      "ward_name_en": "Kunnilangady",
-      "ward_name_ml": "കുന്നിലങ്ങാടി"
+      "name_en": "Kunnilangady",
+      "name_ml": "കുന്നിലങ്ങാടി"
     },
     {
-      "ward_id": "df88922a-80d6-475f-bc09-56e837fd4895",
+      "id": "df88922a-80d6-475f-bc09-56e837fd4895",
       "ward_no": "3",
-      "ward_name_en": "Mundangamattam",
-      "ward_name_ml": "മുണ്ടങ്ങാമറ്റം"
+      "name_en": "Mundangamattam",
+      "name_ml": "മുണ്ടങ്ങാമറ്റം"
     },
     {
-      "ward_id": "ef295c9d-b135-4543-9052-f1158efbd534",
+      "id": "ef295c9d-b135-4543-9052-f1158efbd534",
       "ward_no": "4",
-      "ward_name_en": "West Colony",
-      "ward_name_ml": "വെസ്റ്റ് കോളനി"
+      "name_en": "West Colony",
+      "name_ml": "വെസ്റ്റ് കോളനി"
     },
     {
-      "ward_id": "ed24d5de-aa40-4f49-8569-cd78fa89be5f",
+      "id": "ed24d5de-aa40-4f49-8569-cd78fa89be5f",
       "ward_no": "5",
-      "ward_name_en": "Kadappara",
-      "ward_name_ml": "കാടപ്പാറ"
+      "name_en": "Kadappara",
+      "name_ml": "കാടപ്പാറ"
     },
     {
-      "ward_id": "f458ee0a-9b41-4369-b99b-ce22eefaeb2d",
+      "id": "f458ee0a-9b41-4369-b99b-ce22eefaeb2d",
       "ward_no": "6",
-      "ward_name_en": "Illithodu",
-      "ward_name_ml": "ഇല്ലിത്തോട്"
+      "name_en": "Illithodu",
+      "name_ml": "ഇല്ലിത്തോട്"
     },
     {
-      "ward_id": "e3ea3ffc-13be-4500-a224-8e959b180fc5",
+      "id": "e3ea3ffc-13be-4500-a224-8e959b180fc5",
       "ward_no": "7",
-      "ward_name_en": "Mulamkuzhi",
-      "ward_name_ml": "മുളങ്കുഴി"
+      "name_en": "Mulamkuzhi",
+      "name_ml": "മുളങ്കുഴി"
     },
     {
-      "ward_id": "93554542-bcda-4bc0-9a31-e9f8162c135f",
+      "id": "93554542-bcda-4bc0-9a31-e9f8162c135f",
       "ward_no": "8",
-      "ward_name_en": "Puramthodu",
-      "ward_name_ml": "പുറന്തോട്"
+      "name_en": "Puramthodu",
+      "name_ml": "പുറന്തോട്"
     },
     {
-      "ward_id": "3d5c9118-33e3-4816-8b85-d19bdd6592db",
+      "id": "3d5c9118-33e3-4816-8b85-d19bdd6592db",
       "ward_no": "9",
-      "ward_name_en": "Malayattoor",
-      "ward_name_ml": "മലയാറ്റൂര്‍"
+      "name_en": "Malayattoor",
+      "name_ml": "മലയാറ്റൂര്‍"
     },
     {
-      "ward_id": "ef02f19a-14f1-4867-b589-ca791a572f9f",
+      "id": "ef02f19a-14f1-4867-b589-ca791a572f9f",
       "ward_no": "10",
-      "ward_name_en": "Karthanapuram",
-      "ward_name_ml": "കര്‍ത്തനാപുരം"
+      "name_en": "Karthanapuram",
+      "name_ml": "കര്‍ത്തനാപുരം"
     },
     {
-      "ward_id": "e3d43c92-745b-472f-b601-a0357997e08f",
+      "id": "e3d43c92-745b-472f-b601-a0357997e08f",
       "ward_no": "11",
-      "ward_name_en": "Thottuva",
-      "ward_name_ml": "തോട്ടുവ"
+      "name_en": "Thottuva",
+      "name_ml": "തോട്ടുവ"
     },
     {
-      "ward_id": "faf9f9db-8deb-4bed-9167-cf65f804ca9e",
+      "id": "faf9f9db-8deb-4bed-9167-cf65f804ca9e",
       "ward_no": "12",
-      "ward_name_en": "Neeleeswaram East",
-      "ward_name_ml": "നീലീശ്വരം ഈസ്റ്റ്"
+      "name_en": "Neeleeswaram East",
+      "name_ml": "നീലീശ്വരം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "bca2c8e5-5f5e-48e4-be6c-2e70e5325716",
+      "id": "bca2c8e5-5f5e-48e4-be6c-2e70e5325716",
       "ward_no": "13",
-      "ward_name_en": "Kottamam",
-      "ward_name_ml": "കൊറ്റമം"
+      "name_en": "Kottamam",
+      "name_ml": "കൊറ്റമം"
     },
     {
-      "ward_id": "afbccabb-2dc5-41a2-8c1c-3b5d38a455ae",
+      "id": "afbccabb-2dc5-41a2-8c1c-3b5d38a455ae",
       "ward_no": "14",
-      "ward_name_en": "Kalambattupuram",
-      "ward_name_ml": "കളമ്പാട്ടുപുരം"
+      "name_en": "Kalambattupuram",
+      "name_ml": "കളമ്പാട്ടുപുരം"
     },
     {
-      "ward_id": "1c9db59b-521d-4f9e-ada2-4a2bb3d5348d",
+      "id": "1c9db59b-521d-4f9e-ada2-4a2bb3d5348d",
       "ward_no": "15",
-      "ward_name_en": "Viswakarmapuram",
-      "ward_name_ml": "വിശ്വകര്‍മ്മപുരം"
+      "name_en": "Viswakarmapuram",
+      "name_ml": "വിശ്വകര്‍മ്മപുരം"
     },
     {
-      "ward_id": "aede04d2-44f7-4d89-87f9-c65135925f99",
+      "id": "aede04d2-44f7-4d89-87f9-c65135925f99",
       "ward_no": "16",
-      "ward_name_en": "Madhuvinmel",
-      "ward_name_ml": "മധുവിന്മേല്‍"
+      "name_en": "Madhuvinmel",
+      "name_ml": "മധുവിന്മേല്‍"
     },
     {
-      "ward_id": "b7c7935f-2493-4d5b-9834-7d16e4769637",
+      "id": "b7c7935f-2493-4d5b-9834-7d16e4769637",
       "ward_no": "17",
-      "ward_name_en": "Neeleeswaram West",
-      "ward_name_ml": "നീലീശ്വരം വെസ്റ്റ്"
+      "name_en": "Neeleeswaram West",
+      "name_ml": "നീലീശ്വരം വെസ്റ്റ്"
     }
   ],
   "towns": [],

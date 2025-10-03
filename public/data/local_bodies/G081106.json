@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G081106",
-  "local_body_name_en": "Thrikkur",
-  "local_body_name_ml": "തൃക്കൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "71",
-    "assembly_name_en": "Puthukkad",
-    "assembly_name_ml": "പുതുക്കാട്",
+  "id": "G081106",
+  "name_en": "Thrikkur",
+  "name_ml": "തൃക്കൂര്‍",
+  "assembly_id": "71",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "71",
+    "name_en": "Puthukkad",
+    "name_ml": "പുതുക്കാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6e418f6c-1b05-40e4-9939-9296ad1e0eba",
+      "id": "6e418f6c-1b05-40e4-9939-9296ad1e0eba",
       "ward_no": "1",
-      "ward_name_en": "Konikkara",
-      "ward_name_ml": "കോനിക്കര"
+      "name_en": "Konikkara",
+      "name_ml": "കോനിക്കര"
     },
     {
-      "ward_id": "e3970ac0-2949-4ee5-ac12-1b1161ff247d",
+      "id": "e3970ac0-2949-4ee5-ac12-1b1161ff247d",
       "ward_no": "2",
-      "ward_name_en": "Thrikkur",
-      "ward_name_ml": "തൃക്കൂര്‍"
+      "name_en": "Thrikkur",
+      "name_ml": "തൃക്കൂര്‍"
     },
     {
-      "ward_id": "821290d8-a63c-4707-a018-13b3454300b4",
+      "id": "821290d8-a63c-4707-a018-13b3454300b4",
       "ward_no": "3",
-      "ward_name_en": "Athani",
-      "ward_name_ml": "അത്താണി"
+      "name_en": "Athani",
+      "name_ml": "അത്താണി"
     },
     {
-      "ward_id": "975f100c-7048-4fec-abc3-3585661a5840",
+      "id": "975f100c-7048-4fec-abc3-3585661a5840",
       "ward_no": "4",
-      "ward_name_en": "Palliyara",
-      "ward_name_ml": "പള്ളിയറ"
+      "name_en": "Palliyara",
+      "name_ml": "പള്ളിയറ"
     },
     {
-      "ward_id": "4fda4784-b03f-4a64-a4cd-028fecc7b60d",
+      "id": "4fda4784-b03f-4a64-a4cd-028fecc7b60d",
       "ward_no": "5",
-      "ward_name_en": "Mathikkunnu",
-      "ward_name_ml": "മതിക്കുന്ന്"
+      "name_en": "Mathikkunnu",
+      "name_ml": "മതിക്കുന്ന്"
     },
     {
-      "ward_id": "d16a17bb-b311-4cc1-bef5-15f810b11927",
+      "id": "d16a17bb-b311-4cc1-bef5-15f810b11927",
       "ward_no": "6",
-      "ward_name_en": "Parakkad",
-      "ward_name_ml": "പാറക്കാട്"
+      "name_en": "Parakkad",
+      "name_ml": "പാറക്കാട്"
     },
     {
-      "ward_id": "945d4fe4-a8b1-4e66-8ac6-f27d352eb9bd",
+      "id": "945d4fe4-a8b1-4e66-8ac6-f27d352eb9bd",
       "ward_no": "7",
-      "ward_name_en": "Kottayi",
-      "ward_name_ml": "കോട്ടായി"
+      "name_en": "Kottayi",
+      "name_ml": "കോട്ടായി"
     },
     {
-      "ward_id": "bfa3d413-ac30-4dd0-8f5b-3151ec9dbe30",
+      "id": "bfa3d413-ac30-4dd0-8f5b-3151ec9dbe30",
       "ward_no": "8",
-      "ward_name_en": "Mavinchuvadu",
-      "ward_name_ml": "മാവിന്‍ചുവട്"
+      "name_en": "Mavinchuvadu",
+      "name_ml": "മാവിന്‍ചുവട്"
     },
     {
-      "ward_id": "cc3adc8d-d283-4b33-b7e3-def7e42f96c8",
+      "id": "cc3adc8d-d283-4b33-b7e3-def7e42f96c8",
       "ward_no": "9",
-      "ward_name_en": "Alengad",
-      "ward_name_ml": "ആലേങ്ങാട്"
+      "name_en": "Alengad",
+      "name_ml": "ആലേങ്ങാട്"
     },
     {
-      "ward_id": "52896f58-c965-4e70-9300-ea73fd6f7e41",
+      "id": "52896f58-c965-4e70-9300-ea73fd6f7e41",
       "ward_no": "10",
-      "ward_name_en": "Muttithadi",
-      "ward_name_ml": "മുട്ടിത്തടി"
+      "name_en": "Muttithadi",
+      "name_ml": "മുട്ടിത്തടി"
     },
     {
-      "ward_id": "e84ccbe6-0624-48a5-a336-bff2ca0ade87",
+      "id": "e84ccbe6-0624-48a5-a336-bff2ca0ade87",
       "ward_no": "11",
-      "ward_name_en": "Kallayi",
-      "ward_name_ml": "കള്ളായി"
+      "name_en": "Kallayi",
+      "name_ml": "കള്ളായി"
     },
     {
-      "ward_id": "ea81bed1-63ac-4141-b9f3-f8077ea7d2b2",
+      "id": "ea81bed1-63ac-4141-b9f3-f8077ea7d2b2",
       "ward_no": "12",
-      "ward_name_en": "Kavallur",
-      "ward_name_ml": "കാവല്ലൂര്‍"
+      "name_en": "Kavallur",
+      "name_ml": "കാവല്ലൂര്‍"
     },
     {
-      "ward_id": "ddf4b120-04b9-4631-9f05-6dbfdbbdb645",
+      "id": "ddf4b120-04b9-4631-9f05-6dbfdbbdb645",
       "ward_no": "13",
-      "ward_name_en": "Athur",
-      "ward_name_ml": "ആതൂര്‍"
+      "name_en": "Athur",
+      "name_ml": "ആതൂര്‍"
     },
     {
-      "ward_id": "e2e2cf72-af7a-4b20-9618-d309bf61cdbf",
+      "id": "e2e2cf72-af7a-4b20-9618-d309bf61cdbf",
       "ward_no": "14",
-      "ward_name_en": "Palakkaparambu",
-      "ward_name_ml": "പാലക്കപറമ്പ്"
+      "name_en": "Palakkaparambu",
+      "name_ml": "പാലക്കപറമ്പ്"
     },
     {
-      "ward_id": "f0fc6ced-bf54-4fc2-82d2-b744883a54d0",
+      "id": "f0fc6ced-bf54-4fc2-82d2-b744883a54d0",
       "ward_no": "15",
-      "ward_name_en": "Njellur",
-      "ward_name_ml": "ഞെള്ളൂര്‍"
+      "name_en": "Njellur",
+      "name_ml": "ഞെള്ളൂര്‍"
     },
     {
-      "ward_id": "2eb19d9b-ac5d-4701-ac6b-1668936c3e99",
+      "id": "2eb19d9b-ac5d-4701-ac6b-1668936c3e99",
       "ward_no": "16",
-      "ward_name_en": "Nayarangadi",
-      "ward_name_ml": "നായരങ്ങാടി"
+      "name_en": "Nayarangadi",
+      "name_ml": "നായരങ്ങാടി"
     },
     {
-      "ward_id": "5ad3208d-213a-4392-8d63-6b88f1639d9a",
+      "id": "5ad3208d-213a-4392-8d63-6b88f1639d9a",
       "ward_no": "17",
-      "ward_name_en": "Kallur",
-      "ward_name_ml": "കല്ലൂര്‍"
+      "name_en": "Kallur",
+      "name_ml": "കല്ലൂര്‍"
     }
   ],
   "towns": [],

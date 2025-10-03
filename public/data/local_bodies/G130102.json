@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G130102",
-  "local_body_name_en": "Ramanthali",
-  "local_body_name_ml": "രാമന്തളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "6",
-    "assembly_name_en": "Payyannur",
-    "assembly_name_ml": "പയ്യന്നൂര്‍",
+  "id": "G130102",
+  "name_en": "Ramanthali",
+  "name_ml": "രാമന്തളി",
+  "assembly_id": "6",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "6",
+    "name_en": "Payyannur",
+    "name_ml": "പയ്യന്നൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c8921b9f-a8d8-4f56-a60a-8fc61cb5281d",
+      "id": "c8921b9f-a8d8-4f56-a60a-8fc61cb5281d",
       "ward_no": "1",
-      "ward_name_en": "Vadakkumbad North",
-      "ward_name_ml": "വടക്കുമ്പാട് നോര്‍ത്ത്"
+      "name_en": "Vadakkumbad North",
+      "name_ml": "വടക്കുമ്പാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "94075aa1-68bf-41f0-b9f1-f27e7a1d6977",
+      "id": "94075aa1-68bf-41f0-b9f1-f27e7a1d6977",
       "ward_no": "2",
-      "ward_name_en": "Vadakkumbad East",
-      "ward_name_ml": "വടക്കുമ്പാട് ഈസ്റ്റ്"
+      "name_en": "Vadakkumbad East",
+      "name_ml": "വടക്കുമ്പാട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "bb64f5a1-3a07-4856-a554-dea1ad233113",
+      "id": "bb64f5a1-3a07-4856-a554-dea1ad233113",
       "ward_no": "3",
-      "ward_name_en": "Kovvappuram Kizhakku",
-      "ward_name_ml": "കൊവ്വപ്പുറം കിഴക്ക്"
+      "name_en": "Kovvappuram Kizhakku",
+      "name_ml": "കൊവ്വപ്പുറം കിഴക്ക്"
     },
     {
-      "ward_id": "81ead224-b25d-4093-b440-217c1d6a51c9",
+      "id": "81ead224-b25d-4093-b440-217c1d6a51c9",
       "ward_no": "4",
-      "ward_name_en": "Kunnatheru Ramanthali",
-      "ward_name_ml": "കുന്നത്തെരു രാമന്തളി"
+      "name_en": "Kunnatheru Ramanthali",
+      "name_ml": "കുന്നത്തെരു രാമന്തളി"
     },
     {
-      "ward_id": "58a4c0aa-b2b9-4b55-abde-729293206bb1",
+      "id": "58a4c0aa-b2b9-4b55-abde-729293206bb1",
       "ward_no": "5",
-      "ward_name_en": "Kallettinkadavu",
-      "ward_name_ml": "കല്ലേറ്റിന്‍കടവ്"
+      "name_en": "Kallettinkadavu",
+      "name_ml": "കല്ലേറ്റിന്‍കടവ്"
     },
     {
-      "ward_id": "194b2cb6-fd5c-45bc-b2df-a873bba308b4",
+      "id": "194b2cb6-fd5c-45bc-b2df-a873bba308b4",
       "ward_no": "6",
-      "ward_name_en": "Karanthad",
-      "ward_name_ml": "കാരന്താട്"
+      "name_en": "Karanthad",
+      "name_ml": "കാരന്താട്"
     },
     {
-      "ward_id": "e4904310-4006-4a18-888a-709a5736e539",
+      "id": "e4904310-4006-4a18-888a-709a5736e539",
       "ward_no": "7",
-      "ward_name_en": "Ezhimala",
-      "ward_name_ml": "ഏഴിമല"
+      "name_en": "Ezhimala",
+      "name_ml": "ഏഴിമല"
     },
     {
-      "ward_id": "aeceb4de-4714-465a-ba0c-a2036bd22f47",
+      "id": "aeceb4de-4714-465a-ba0c-a2036bd22f47",
       "ward_no": "8",
-      "ward_name_en": "Kunnaru Central",
-      "ward_name_ml": "കുന്നരു സെന്‍ട്രല്‍"
+      "name_en": "Kunnaru Central",
+      "name_ml": "കുന്നരു സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "b9ad4e04-84f8-4687-bcdf-b26397e31ccc",
+      "id": "b9ad4e04-84f8-4687-bcdf-b26397e31ccc",
       "ward_no": "9",
-      "ward_name_en": "Palakkode Central",
-      "ward_name_ml": "പാലക്കോട് സെന്‍ട്രല്‍"
+      "name_en": "Palakkode Central",
+      "name_ml": "പാലക്കോട് സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "b7d9109d-f785-49b2-90a8-10ecb6b17640",
+      "id": "b7d9109d-f785-49b2-90a8-10ecb6b17640",
       "ward_no": "10",
-      "ward_name_en": "Valiya Kadappuram",
-      "ward_name_ml": "വലിയകടപ്പുറം"
+      "name_en": "Valiya Kadappuram",
+      "name_ml": "വലിയകടപ്പുറം"
     },
     {
-      "ward_id": "167a9303-5d3b-451d-8303-d17e69ab2a47",
+      "id": "167a9303-5d3b-451d-8303-d17e69ab2a47",
       "ward_no": "11",
-      "ward_name_en": "Ettikulam Beach",
-      "ward_name_ml": "എട്ടിക്കുളം ബീച്ച്"
+      "name_en": "Ettikulam Beach",
+      "name_ml": "എട്ടിക്കുളം ബീച്ച്"
     },
     {
-      "ward_id": "e11d8efa-cbd0-4bcc-8c15-af2e62628cf2",
+      "id": "e11d8efa-cbd0-4bcc-8c15-af2e62628cf2",
       "ward_no": "12",
-      "ward_name_en": "Ettikulam Mottakkunnu",
-      "ward_name_ml": "എട്ടിക്കുളം മൊട്ടക്കുന്ന്"
+      "name_en": "Ettikulam Mottakkunnu",
+      "name_ml": "എട്ടിക്കുളം മൊട്ടക്കുന്ന്"
     },
     {
-      "ward_id": "74010e50-5b8b-4652-a42a-c9a7c582869d",
+      "id": "74010e50-5b8b-4652-a42a-c9a7c582869d",
       "ward_no": "13",
-      "ward_name_en": "Ramanthali Central",
-      "ward_name_ml": "രാമന്തളി സെന്‍ട്രല്‍"
+      "name_en": "Ramanthali Central",
+      "name_ml": "രാമന്തളി സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "023186a0-6c63-42d7-83a1-b4285dbae1fe",
+      "id": "023186a0-6c63-42d7-83a1-b4285dbae1fe",
       "ward_no": "14",
-      "ward_name_en": "Ramanthali West",
-      "ward_name_ml": "രാമന്തളി വെസ്റ്റ്"
+      "name_en": "Ramanthali West",
+      "name_ml": "രാമന്തളി വെസ്റ്റ്"
     },
     {
-      "ward_id": "88cef574-2af9-4410-bd42-3e5bec8c82e6",
+      "id": "88cef574-2af9-4410-bd42-3e5bec8c82e6",
       "ward_no": "15",
-      "ward_name_en": "Kovvappuram Padinharu",
-      "ward_name_ml": "കൊവ്വപ്പുറം പടിഞ്ഞാറ്"
+      "name_en": "Kovvappuram Padinharu",
+      "name_ml": "കൊവ്വപ്പുറം പടിഞ്ഞാറ്"
     }
   ],
   "towns": [],

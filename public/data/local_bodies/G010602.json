@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G010602",
-  "local_body_name_en": "Aruvikkara",
-  "local_body_name_ml": "അരുവിക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010602",
+  "name_en": "Aruvikkara",
+  "name_ml": "അരുവിക്കര",
+  "assembly_id": "136",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "136",
-    "assembly_name_en": "Aruvikkara",
-    "assembly_name_ml": "അരുവിക്കര",
-    "category": "Normal"
+    "id": "136",
+    "name_en": "Aruvikkara",
+    "name_ml": "അരുവിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "89f935bd-962a-4a49-a19a-561d395ee034",
+      "id": "89f935bd-962a-4a49-a19a-561d395ee034",
       "ward_no": "1",
-      "ward_name_en": "Vellorkkonam",
-      "ward_name_ml": "വെള്ളൂര്‍ക്കോണം"
+      "name_en": "Vellorkkonam",
+      "name_ml": "വെള്ളൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "57786a84-375d-4245-a072-18b05e073e80",
+      "id": "57786a84-375d-4245-a072-18b05e073e80",
       "ward_no": "2",
-      "ward_name_en": "Kokkothamangalam",
-      "ward_name_ml": "കൊക്കോതമംഗലം"
+      "name_en": "Kokkothamangalam",
+      "name_ml": "കൊക്കോതമംഗലം"
     },
     {
-      "ward_id": "14953582-b566-4ede-8d52-be350073d411",
+      "id": "14953582-b566-4ede-8d52-be350073d411",
       "ward_no": "3",
-      "ward_name_en": "Kalathara",
-      "ward_name_ml": "കളത്തറ"
+      "name_en": "Kalathara",
+      "name_ml": "കളത്തറ"
     },
     {
-      "ward_id": "8b55f25a-b789-4dc3-8403-1a6330d57c43",
+      "id": "8b55f25a-b789-4dc3-8403-1a6330d57c43",
       "ward_no": "4",
-      "ward_name_en": "Mundela",
-      "ward_name_ml": "മുണ്ടേല"
+      "name_en": "Mundela",
+      "name_ml": "മുണ്ടേല"
     },
     {
-      "ward_id": "6f8b89bc-4288-44e8-8864-d87767fd2874",
+      "id": "6f8b89bc-4288-44e8-8864-d87767fd2874",
       "ward_no": "5",
-      "ward_name_en": "Mailamoodu",
-      "ward_name_ml": "മൈലമൂട്"
+      "name_en": "Mailamoodu",
+      "name_ml": "മൈലമൂട്"
     },
     {
-      "ward_id": "4207e6a7-0909-4cdf-953e-027e839d28f6",
+      "id": "4207e6a7-0909-4cdf-953e-027e839d28f6",
       "ward_no": "6",
-      "ward_name_en": "Aruvikkara",
-      "ward_name_ml": "അരുവിക്കര"
+      "name_en": "Aruvikkara",
+      "name_ml": "അരുവിക്കര"
     },
     {
-      "ward_id": "d324cfe4-6e46-4d73-8bb7-becb03facd02",
+      "id": "d324cfe4-6e46-4d73-8bb7-becb03facd02",
       "ward_no": "7",
-      "ward_name_en": "Vembannoor",
-      "ward_name_ml": "വെമ്പന്നൂര്‍"
+      "name_en": "Vembannoor",
+      "name_ml": "വെമ്പന്നൂര്‍"
     },
     {
-      "ward_id": "c547be1c-7b4c-4a75-ba15-49be0ed2a525",
+      "id": "c547be1c-7b4c-4a75-ba15-49be0ed2a525",
       "ward_no": "8",
-      "ward_name_en": "Kadambanad",
-      "ward_name_ml": "കടമ്പനാട്"
+      "name_en": "Kadambanad",
+      "name_ml": "കടമ്പനാട്"
     },
     {
-      "ward_id": "bb42fd74-51c4-4689-9976-3195dbfcc66e",
+      "id": "bb42fd74-51c4-4689-9976-3195dbfcc66e",
       "ward_no": "9",
-      "ward_name_en": "Manambooru",
-      "ward_name_ml": "മണമ്പൂര്"
+      "name_en": "Manambooru",
+      "name_ml": "മണമ്പൂര്"
     },
     {
-      "ward_id": "f7394be7-1a7b-4152-a171-49635081d672",
+      "id": "f7394be7-1a7b-4152-a171-49635081d672",
       "ward_no": "10",
-      "ward_name_en": "Bhagavathipuram",
-      "ward_name_ml": "ഭഗവതിപുരം"
+      "name_en": "Bhagavathipuram",
+      "name_ml": "ഭഗവതിപുരം"
     },
     {
-      "ward_id": "2ecb66cc-5798-4758-9e66-fc12d5fea9be",
+      "id": "2ecb66cc-5798-4758-9e66-fc12d5fea9be",
       "ward_no": "11",
-      "ward_name_en": "Cheriyakonni",
-      "ward_name_ml": "ചെറിയകൊണ്ണി"
+      "name_en": "Cheriyakonni",
+      "name_ml": "ചെറിയകൊണ്ണി"
     },
     {
-      "ward_id": "c87d5761-1ff7-444f-86fa-0eaeb3616c4f",
+      "id": "c87d5761-1ff7-444f-86fa-0eaeb3616c4f",
       "ward_no": "12",
-      "ward_name_en": "Irayamcode",
-      "ward_name_ml": "ഇറയംകോട്"
+      "name_en": "Irayamcode",
+      "name_ml": "ഇറയംകോട്"
     },
     {
-      "ward_id": "63ef05b7-1ab3-459e-ab9d-243e976a5de2",
+      "id": "63ef05b7-1ab3-459e-ab9d-243e976a5de2",
       "ward_no": "13",
-      "ward_name_en": "Kachani",
-      "ward_name_ml": "കാച്ചാണി"
+      "name_en": "Kachani",
+      "name_ml": "കാച്ചാണി"
     },
     {
-      "ward_id": "6811669e-c43a-46df-8d22-d83a3b9e88dc",
+      "id": "6811669e-c43a-46df-8d22-d83a3b9e88dc",
       "ward_no": "14",
-      "ward_name_en": "Kalathukaal",
-      "ward_name_ml": "കളത്തുകാല്‍"
+      "name_en": "Kalathukaal",
+      "name_ml": "കളത്തുകാല്‍"
     },
     {
-      "ward_id": "f545460b-091e-49a6-b360-c6a084b3202b",
+      "id": "f545460b-091e-49a6-b360-c6a084b3202b",
       "ward_no": "15",
-      "ward_name_en": "Mailam",
-      "ward_name_ml": "മൈലം"
+      "name_en": "Mailam",
+      "name_ml": "മൈലം"
     },
     {
-      "ward_id": "45fe06b4-126d-46b9-b7d6-80ecec396d5d",
+      "id": "45fe06b4-126d-46b9-b7d6-80ecec396d5d",
       "ward_no": "16",
-      "ward_name_en": "Pandiyode",
-      "ward_name_ml": "പാണ്ടിയോട്"
+      "name_en": "Pandiyode",
+      "name_ml": "പാണ്ടിയോട്"
     },
     {
-      "ward_id": "58343049-0087-4a17-b2d2-f2a13132c5c8",
+      "id": "58343049-0087-4a17-b2d2-f2a13132c5c8",
       "ward_no": "17",
-      "ward_name_en": "Irumba",
-      "ward_name_ml": "ഇരുമ്പ"
+      "name_en": "Irumba",
+      "name_ml": "ഇരുമ്പ"
     },
     {
-      "ward_id": "375731a1-f016-45df-ac06-3c80c4275a72",
+      "id": "375731a1-f016-45df-ac06-3c80c4275a72",
       "ward_no": "18",
-      "ward_name_en": "Vattakkulam",
-      "ward_name_ml": "വട്ടക്കുളം"
+      "name_en": "Vattakkulam",
+      "name_ml": "വട്ടക്കുളം"
     },
     {
-      "ward_id": "8d414027-a5d8-4470-aca4-5f2330d9689a",
+      "id": "8d414027-a5d8-4470-aca4-5f2330d9689a",
       "ward_no": "19",
-      "ward_name_en": "Azhikkode",
-      "ward_name_ml": "അഴിക്കോട്"
+      "name_en": "Azhikkode",
+      "name_ml": "അഴിക്കോട്"
     },
     {
-      "ward_id": "b61ced86-af03-4a77-9f9e-60d7884fe7ef",
+      "id": "b61ced86-af03-4a77-9f9e-60d7884fe7ef",
       "ward_no": "20",
-      "ward_name_en": "Karumarakkode",
-      "ward_name_ml": "കരുമരക്കോട്"
+      "name_en": "Karumarakkode",
+      "name_ml": "കരുമരക്കോട്"
     }
   ],
   "towns": [],

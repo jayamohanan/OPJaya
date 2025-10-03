@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060407",
-  "local_body_name_en": "Kudayathoor",
-  "local_body_name_ml": "കുടയത്തൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "91",
-    "assembly_name_en": "Idukki",
-    "assembly_name_ml": "ഇടുക്കി",
+  "id": "G060407",
+  "name_en": "Kudayathoor",
+  "name_ml": "കുടയത്തൂര്‍",
+  "assembly_id": "91",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "91",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e5f700b2-648e-4e55-860b-23bbe0e905de",
+      "id": "e5f700b2-648e-4e55-860b-23bbe0e905de",
       "ward_no": "1",
-      "ward_name_en": "Kudayathoor North",
-      "ward_name_ml": "കുടയത്തൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Kudayathoor North",
+      "name_ml": "കുടയത്തൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "93f4ffa6-6463-46a7-b7d4-679728aa3048",
+      "id": "93f4ffa6-6463-46a7-b7d4-679728aa3048",
       "ward_no": "2",
-      "ward_name_en": "Kaipa",
-      "ward_name_ml": "കൈപ്പ"
+      "name_en": "Kaipa",
+      "name_ml": "കൈപ്പ"
     },
     {
-      "ward_id": "181db08d-61c7-4060-be3a-b6d53c310261",
+      "id": "181db08d-61c7-4060-be3a-b6d53c310261",
       "ward_no": "3",
-      "ward_name_en": "Njaralampuzha",
-      "ward_name_ml": "ഞരളംപുഴ"
+      "name_en": "Njaralampuzha",
+      "name_ml": "ഞരളംപുഴ"
     },
     {
-      "ward_id": "b2869139-7810-41b7-be7b-27d0908360b0",
+      "id": "b2869139-7810-41b7-be7b-27d0908360b0",
       "ward_no": "4",
-      "ward_name_en": "Kanjar",
-      "ward_name_ml": "കാഞ്ഞാര്‍"
+      "name_en": "Kanjar",
+      "name_ml": "കാഞ്ഞാര്‍"
     },
     {
-      "ward_id": "cf0ea13d-abc8-4e8b-8ab4-b6a65120201b",
+      "id": "cf0ea13d-abc8-4e8b-8ab4-b6a65120201b",
       "ward_no": "5",
-      "ward_name_en": "Koovappally",
-      "ward_name_ml": "കൂവപ്പള്ളി"
+      "name_en": "Koovappally",
+      "name_ml": "കൂവപ്പള്ളി"
     },
     {
-      "ward_id": "38d009bc-b838-431e-a496-1cd25604d680",
+      "id": "38d009bc-b838-431e-a496-1cd25604d680",
       "ward_no": "6",
-      "ward_name_en": "Chakkikavu",
-      "ward_name_ml": "ചക്കിക്കാവ്"
+      "name_en": "Chakkikavu",
+      "name_ml": "ചക്കിക്കാവ്"
     },
     {
-      "ward_id": "85eb97ff-3e82-40d0-b4e8-80565f11c087",
+      "id": "85eb97ff-3e82-40d0-b4e8-80565f11c087",
       "ward_no": "7",
-      "ward_name_en": "Morkadu",
-      "ward_name_ml": "മോര്‍ക്കാട്"
+      "name_en": "Morkadu",
+      "name_ml": "മോര്‍ക്കാട്"
     },
     {
-      "ward_id": "81c12867-f95c-4e6b-9cb0-575362b1b129",
+      "id": "81c12867-f95c-4e6b-9cb0-575362b1b129",
       "ward_no": "8",
-      "ward_name_en": "Kudayathoor East",
-      "ward_name_ml": "കുടയത്തൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Kudayathoor East",
+      "name_ml": "കുടയത്തൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "c1022807-f1ee-45e5-ae2c-f63873434572",
+      "id": "c1022807-f1ee-45e5-ae2c-f63873434572",
       "ward_no": "9",
-      "ward_name_en": "Kudayathoor Central",
-      "ward_name_ml": "കുടയത്തൂര്‍ സെന്‍ട്രല്‍"
+      "name_en": "Kudayathoor Central",
+      "name_ml": "കുടയത്തൂര്‍ സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "7251d4b8-e352-4a04-9a45-3e48321f6214",
+      "id": "7251d4b8-e352-4a04-9a45-3e48321f6214",
       "ward_no": "10",
-      "ward_name_en": "Kudayathoor West",
-      "ward_name_ml": "കുടയത്തൂര്‍ വെസ്റ്റ്"
+      "name_en": "Kudayathoor West",
+      "name_ml": "കുടയത്തൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "ae47de41-5bd5-4a13-98d8-23b5c25899a6",
+      "id": "ae47de41-5bd5-4a13-98d8-23b5c25899a6",
       "ward_no": "11",
-      "ward_name_en": "Adoormala",
-      "ward_name_ml": "അടൂര്‍മല"
+      "name_en": "Adoormala",
+      "name_ml": "അടൂര്‍മല"
     },
     {
-      "ward_id": "f5686f89-7092-40d6-8083-12898c2fb3e0",
+      "id": "f5686f89-7092-40d6-8083-12898c2fb3e0",
       "ward_no": "12",
-      "ward_name_en": "Kolapra South",
-      "ward_name_ml": "കോളപ്ര സൌത്ത്"
+      "name_en": "Kolapra South",
+      "name_ml": "കോളപ്ര സൌത്ത്"
     },
     {
-      "ward_id": "44b4204a-baf9-4c4e-bcc6-ee1e658785a8",
+      "id": "44b4204a-baf9-4c4e-bcc6-ee1e658785a8",
       "ward_no": "13",
-      "ward_name_en": "Kolapra Thalayanadu",
-      "ward_name_ml": "കോളപ്ര തലയനാട്"
+      "name_en": "Kolapra Thalayanadu",
+      "name_ml": "കോളപ്ര തലയനാട്"
     }
   ],
   "towns": [],

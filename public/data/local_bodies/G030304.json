@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030304",
-  "local_body_name_en": "Thottappuzhassery",
-  "local_body_name_ml": "തോട്ടപ്പുഴശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G030304",
+  "name_en": "Thottappuzhassery",
+  "name_ml": "തോട്ടപ്പുഴശ്ശേരി",
+  "assembly_id": "113",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "113",
-    "assembly_name_en": "Aranmula",
-    "assembly_name_ml": "ആറന്മുള",
-    "category": "Normal"
+    "id": "113",
+    "name_en": "Aranmula",
+    "name_ml": "ആറന്മുള",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "35ed159c-ff6a-4e55-8c6d-cc7c44970777",
+      "id": "35ed159c-ff6a-4e55-8c6d-cc7c44970777",
       "ward_no": "1",
-      "ward_name_en": "Kallippara",
-      "ward_name_ml": "കള്ളിപ്പാറ"
+      "name_en": "Kallippara",
+      "name_ml": "കള്ളിപ്പാറ"
     },
     {
-      "ward_id": "09685556-2b9a-461c-96ea-4b07efd111cb",
+      "id": "09685556-2b9a-461c-96ea-4b07efd111cb",
       "ward_no": "2",
-      "ward_name_en": "Charalkunnu",
-      "ward_name_ml": "ചരല്‍ക്കുന്ന്"
+      "name_en": "Charalkunnu",
+      "name_ml": "ചരല്‍ക്കുന്ന്"
     },
     {
-      "ward_id": "979faded-fa4c-4ffe-9fb4-2b7344c34f1f",
+      "id": "979faded-fa4c-4ffe-9fb4-2b7344c34f1f",
       "ward_no": "3",
-      "ward_name_en": "Maramkolli",
-      "ward_name_ml": "മരംകൊള്ളി"
+      "name_en": "Maramkolli",
+      "name_ml": "മരംകൊള്ളി"
     },
     {
-      "ward_id": "275fe976-82fa-4493-b259-3962bce137a9",
+      "id": "275fe976-82fa-4493-b259-3962bce137a9",
       "ward_no": "4",
-      "ward_name_en": "Ponmala",
-      "ward_name_ml": "പൊന്മല"
+      "name_en": "Ponmala",
+      "name_ml": "പൊന്മല"
     },
     {
-      "ward_id": "231bab5a-b466-412a-b4f9-3e084e711313",
+      "id": "231bab5a-b466-412a-b4f9-3e084e711313",
       "ward_no": "5",
-      "ward_name_en": "Kuriannoor",
-      "ward_name_ml": "കുറിയന്നൂര്‍"
+      "name_en": "Kuriannoor",
+      "name_ml": "കുറിയന്നൂര്‍"
     },
     {
-      "ward_id": "e59268c8-a09c-4bc1-b7a0-9ee8e357f757",
+      "id": "e59268c8-a09c-4bc1-b7a0-9ee8e357f757",
       "ward_no": "6",
-      "ward_name_en": "Katteppuram",
-      "ward_name_ml": "കട്ടേപ്പുറം"
+      "name_en": "Katteppuram",
+      "name_ml": "കട്ടേപ്പുറം"
     },
     {
-      "ward_id": "4e74a6e7-010e-4d08-bbbf-2e368fe7f1c5",
+      "id": "4e74a6e7-010e-4d08-bbbf-2e368fe7f1c5",
       "ward_no": "7",
-      "ward_name_en": "Nedumprayar",
-      "ward_name_ml": "നെടുംപ്രയാര്‍"
+      "name_en": "Nedumprayar",
+      "name_ml": "നെടുംപ്രയാര്‍"
     },
     {
-      "ward_id": "aae53ceb-9d77-41a8-bc9b-2b2913cb55a1",
+      "id": "aae53ceb-9d77-41a8-bc9b-2b2913cb55a1",
       "ward_no": "8",
-      "ward_name_en": "Maramon",
-      "ward_name_ml": "മാരാമണ്‍"
+      "name_en": "Maramon",
+      "name_ml": "മാരാമണ്‍"
     },
     {
-      "ward_id": "961bdc7f-180b-425e-92a6-eed398d769fc",
+      "id": "961bdc7f-180b-425e-92a6-eed398d769fc",
       "ward_no": "9",
-      "ward_name_en": "Thottappuzhassery",
-      "ward_name_ml": "തോട്ടപ്പുഴശ്ശേരി"
+      "name_en": "Thottappuzhassery",
+      "name_ml": "തോട്ടപ്പുഴശ്ശേരി"
     },
     {
-      "ward_id": "9a40a437-6a60-4846-a79b-6c71a2eecd6e",
+      "id": "9a40a437-6a60-4846-a79b-6c71a2eecd6e",
       "ward_no": "10",
-      "ward_name_en": "Vellangoor",
-      "ward_name_ml": "വെള്ളങ്ങൂര്‍"
+      "name_en": "Vellangoor",
+      "name_ml": "വെള്ളങ്ങൂര്‍"
     },
     {
-      "ward_id": "5dac3cf0-123c-4153-8a42-f29ff889ac4f",
+      "id": "5dac3cf0-123c-4153-8a42-f29ff889ac4f",
       "ward_no": "11",
-      "ward_name_en": "Chalaikkara",
-      "ward_name_ml": "ചലയിക്കര"
+      "name_en": "Chalaikkara",
+      "name_ml": "ചലയിക്കര"
     },
     {
-      "ward_id": "8749a6d1-44e9-4323-953e-1a35c378a345",
+      "id": "8749a6d1-44e9-4323-953e-1a35c378a345",
       "ward_no": "12",
-      "ward_name_en": "Chirayirampu",
-      "ward_name_ml": "ചിറയിറമ്പ്"
+      "name_en": "Chirayirampu",
+      "name_ml": "ചിറയിറമ്പ്"
     },
     {
-      "ward_id": "1dc70543-5d5a-4297-a2d6-4c8456b33f32",
+      "id": "1dc70543-5d5a-4297-a2d6-4c8456b33f32",
       "ward_no": "13",
-      "ward_name_en": "Thonippuzha",
-      "ward_name_ml": "തോണിപ്പുഴ"
+      "name_en": "Thonippuzha",
+      "name_ml": "തോണിപ്പുഴ"
     }
   ],
   "towns": [],

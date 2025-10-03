@@ -1,68 +1,91 @@
 {
-  "assembly_id": "58",
-  "assembly_name_en": "Chittur",
-  "assembly_name_ml": "ചിറ്റൂര്‍",
-  "category": "Normal",
+  "id": "58",
+  "name_en": "Chittur",
+  "name_ml": "ചിറ്റൂര്‍",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M090300",
-      "local_body_name_en": "Chittur Tattamangalam",
-      "local_body_name_ml": "ചിറ്റൂര്‍ തത്തമംഗലം",
-      "category": "Good"
+      "id": "M090300",
+      "name_en": "Chittur Tattamangalam",
+      "name_ml": "ചിറ്റൂര്‍ തത്തമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G090901",
-      "local_body_name_en": "Eruthenpathy",
-      "local_body_name_ml": "എരുത്തേമ്പതി",
-      "category": "Perfect"
+      "id": "G090901",
+      "name_en": "Eruthenpathy",
+      "name_ml": "എരുത്തേമ്പതി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090902",
-      "local_body_name_en": "Kozhinjampara",
-      "local_body_name_ml": "കൊഴിഞ്ഞാമ്പാറ",
-      "category": "Normal"
+      "id": "G090902",
+      "name_en": "Kozhinjampara",
+      "name_ml": "കൊഴിഞ്ഞാമ്പാറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090903",
-      "local_body_name_en": "Nallepilly",
-      "local_body_name_ml": "നല്ലേപ്പിള്ളി",
-      "category": "Normal"
+      "id": "G090903",
+      "name_en": "Nallepilly",
+      "name_ml": "നല്ലേപ്പിള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G091006",
-      "local_body_name_en": "Pattanchery",
-      "local_body_name_ml": "പട്ടഞ്ചരി",
-      "category": "Normal"
+      "id": "G091006",
+      "name_en": "Pattanchery",
+      "name_ml": "പട്ടഞ്ചരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090904",
-      "local_body_name_en": "Perumatty",
-      "local_body_name_ml": "പെരുമാട്ടി",
-      "category": "Normal"
+      "id": "G090904",
+      "name_en": "Perumatty",
+      "name_ml": "പെരുമാട്ടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G091007",
-      "local_body_name_en": "Peruvemba",
-      "local_body_name_ml": "പെരുവെമ്പ്",
-      "category": "Normal"
+      "id": "G091007",
+      "name_en": "Peruvemba",
+      "name_ml": "പെരുവെമ്പ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090907",
-      "local_body_name_en": "Polpully",
-      "local_body_name_ml": "പൊല്‍പ്പുള്ളി",
-      "category": "Normal"
+      "id": "G090907",
+      "name_en": "Polpully",
+      "name_ml": "പൊല്‍പ്പുള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090905",
-      "local_body_name_en": "Vadakarapathy",
-      "local_body_name_ml": "വടകരപ്പതി",
-      "category": "Perfect"
+      "id": "G090905",
+      "name_en": "Vadakarapathy",
+      "name_ml": "വടകരപ്പതി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

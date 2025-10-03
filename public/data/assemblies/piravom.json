@@ -1,80 +1,107 @@
 {
-  "assembly_id": "85",
-  "assembly_name_en": "Piravom",
-  "assembly_name_ml": "പിറവം",
-  "category": "Normal",
+  "id": "85",
+  "name_en": "Piravom",
+  "name_ml": "പിറവം",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070903",
-      "local_body_name_en": "Chottanikkara",
-      "local_body_name_ml": "ചോറ്റാനിക്കര",
-      "category": "Normal"
+      "id": "G070903",
+      "name_en": "Chottanikkara",
+      "name_ml": "ചോറ്റാനിക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070904",
-      "local_body_name_en": "Edakkattuvayal",
-      "local_body_name_ml": "എടയ്ക്കാട്ടുവയല്‍",
-      "category": "Normal"
+      "id": "G070904",
+      "name_en": "Edakkattuvayal",
+      "name_ml": "എടയ്ക്കാട്ടുവയല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071201",
-      "local_body_name_en": "Elanji",
-      "local_body_name_ml": "ഇലഞ്ഞി",
-      "category": "Normal"
+      "id": "G071201",
+      "name_en": "Elanji",
+      "name_ml": "ഇലഞ്ഞി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M071200",
-      "local_body_name_en": "Koothattukulam",
-      "local_body_name_ml": "കൂത്താട്ടുകുളം",
-      "category": "Normal"
+      "id": "M071200",
+      "name_en": "Koothattukulam",
+      "name_ml": "കൂത്താട്ടുകുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070906",
-      "local_body_name_en": "Maneed",
-      "local_body_name_ml": "മണീട്",
-      "category": "Normal"
+      "id": "G070906",
+      "name_en": "Maneed",
+      "name_ml": "മണീട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070902",
-      "local_body_name_en": "Mulanthuruthy",
-      "local_body_name_ml": "മുളന്തുരുത്തി",
-      "category": "Good"
+      "id": "G070902",
+      "name_en": "Mulanthuruthy",
+      "name_ml": "മുളന്തുരുത്തി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071206",
-      "local_body_name_en": "Pampakuda",
-      "local_body_name_ml": "പാമ്പാക്കുട",
-      "category": "Good"
+      "id": "G071206",
+      "name_en": "Pampakuda",
+      "name_ml": "പാമ്പാക്കുട",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071207",
-      "local_body_name_en": "Ramamangalam",
-      "local_body_name_ml": "രാമമംഗലം",
-      "category": "Normal"
+      "id": "G071207",
+      "name_en": "Ramamangalam",
+      "name_ml": "രാമമംഗലം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071204",
-      "local_body_name_en": "Thirumarady",
-      "local_body_name_ml": "തിരുമാറാടി",
-      "category": "Normal"
+      "id": "G071204",
+      "name_en": "Thirumarady",
+      "name_ml": "തിരുമാറാടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070905",
-      "local_body_name_en": "Amballoor",
-      "local_body_name_ml": "ആമ്പല്ലൂര്‍",
-      "category": "Good"
+      "id": "G070905",
+      "name_en": "Amballoor",
+      "name_ml": "ആമ്പല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M071300",
-      "local_body_name_en": "Piravom",
-      "local_body_name_ml": "പിറവം",
-      "category": "Perfect"
+      "id": "M071300",
+      "name_en": "Piravom",
+      "name_ml": "പിറവം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G101504",
-  "local_body_name_en": "Perumpadappa",
-  "local_body_name_ml": "പെരുമ്പടപ്പ്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G101504",
+  "name_en": "Perumpadappa",
+  "name_ml": "പെരുമ്പടപ്പ്",
+  "assembly_id": "48",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "48",
-    "assembly_name_en": "Ponnani",
-    "assembly_name_ml": "പൊന്നാനി",
-    "category": "Normal"
+    "id": "48",
+    "name_en": "Ponnani",
+    "name_ml": "പൊന്നാനി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2f66833e-3441-4165-b147-ceb8409dfe26",
+      "id": "2f66833e-3441-4165-b147-ceb8409dfe26",
       "ward_no": "1",
-      "ward_name_en": "Puthiyiruthy West",
-      "ward_name_ml": "പുതിയിരുത്തി വെസ്റ്റ്"
+      "name_en": "Puthiyiruthy West",
+      "name_ml": "പുതിയിരുത്തി വെസ്റ്റ്"
     },
     {
-      "ward_id": "203723cd-ce58-42aa-9c12-4ab409582eae",
+      "id": "203723cd-ce58-42aa-9c12-4ab409582eae",
       "ward_no": "2",
-      "ward_name_en": "Puthiyiruthy East",
-      "ward_name_ml": "പുതിയിരുത്തി ഈസ്റ്റ"
+      "name_en": "Puthiyiruthy East",
+      "name_ml": "പുതിയിരുത്തി ഈസ്റ്റ"
     },
     {
-      "ward_id": "cc1c7b06-eb6f-42ac-8de5-3f0cf49780dc",
+      "id": "cc1c7b06-eb6f-42ac-8de5-3f0cf49780dc",
       "ward_no": "3",
-      "ward_name_en": "Ayiroor East",
-      "ward_name_ml": "അയിരൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Ayiroor East",
+      "name_ml": "അയിരൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "cd294e16-6249-4142-a24b-a0fee220b546",
+      "id": "cd294e16-6249-4142-a24b-a0fee220b546",
       "ward_no": "4",
-      "ward_name_en": "Kodathur North",
-      "ward_name_ml": "കോടത്തൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Kodathur North",
+      "name_ml": "കോടത്തൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "50098362-f0c8-4314-89df-71a6630c1d77",
+      "id": "50098362-f0c8-4314-89df-71a6630c1d77",
       "ward_no": "5",
-      "ward_name_en": "Puthanpalli",
-      "ward_name_ml": "പുത്തന്‍പളളി"
+      "name_en": "Puthanpalli",
+      "name_ml": "പുത്തന്‍പളളി"
     },
     {
-      "ward_id": "5b56b142-aed7-4516-a991-d0b5236fc720",
+      "id": "5b56b142-aed7-4516-a991-d0b5236fc720",
       "ward_no": "6",
-      "ward_name_en": "Kuzhappulli",
-      "ward_name_ml": "കുഴപ്പുളളി"
+      "name_en": "Kuzhappulli",
+      "name_ml": "കുഴപ്പുളളി"
     },
     {
-      "ward_id": "530ff83b-b091-4cf6-b77b-16146c60702b",
+      "id": "530ff83b-b091-4cf6-b77b-16146c60702b",
       "ward_no": "7",
-      "ward_name_en": "Cheravallur West",
-      "ward_name_ml": "ചെറവല്ലൂര്‍ വെസ്റ്റ"
+      "name_en": "Cheravallur West",
+      "name_ml": "ചെറവല്ലൂര്‍ വെസ്റ്റ"
     },
     {
-      "ward_id": "0a067d46-cf95-4148-87c0-443570b1e672",
+      "id": "0a067d46-cf95-4148-87c0-443570b1e672",
       "ward_no": "8",
-      "ward_name_en": "Cheravallur East",
-      "ward_name_ml": "ചെറവല്ലൂര്‍ ഈസ്റ്റ"
+      "name_en": "Cheravallur East",
+      "name_ml": "ചെറവല്ലൂര്‍ ഈസ്റ്റ"
     },
     {
-      "ward_id": "51483dec-f0d1-45c1-9ae2-a3d3720c3652",
+      "id": "51483dec-f0d1-45c1-9ae2-a3d3720c3652",
       "ward_no": "9",
-      "ward_name_en": "Thavalakunnu",
-      "ward_name_ml": "തവളക്കുന്ന്"
+      "name_en": "Thavalakunnu",
+      "name_ml": "തവളക്കുന്ന്"
     },
     {
-      "ward_id": "a71b4d69-58b2-4f61-9bb5-0ae21535ffdd",
+      "id": "a71b4d69-58b2-4f61-9bb5-0ae21535ffdd",
       "ward_no": "10",
-      "ward_name_en": "Perumpadappu",
-      "ward_name_ml": "പെരുമ്പടപ്പ്"
+      "name_en": "Perumpadappu",
+      "name_ml": "പെരുമ്പടപ്പ്"
     },
     {
-      "ward_id": "4040fbb4-fd99-493b-90be-401546bfcaaf",
+      "id": "4040fbb4-fd99-493b-90be-401546bfcaaf",
       "ward_no": "11",
-      "ward_name_en": "Vanneri",
-      "ward_name_ml": "വന്നേരി"
+      "name_en": "Vanneri",
+      "name_ml": "വന്നേരി"
     },
     {
-      "ward_id": "297c361d-e104-43bd-8adb-43403c20c0c9",
+      "id": "297c361d-e104-43bd-8adb-43403c20c0c9",
       "ward_no": "12",
-      "ward_name_en": "Cherayi",
-      "ward_name_ml": "ചെറായി"
+      "name_en": "Cherayi",
+      "name_ml": "ചെറായി"
     },
     {
-      "ward_id": "f9bd981f-316a-409a-9dd7-e7e0ac362e95",
+      "id": "f9bd981f-316a-409a-9dd7-e7e0ac362e95",
       "ward_no": "13",
-      "ward_name_en": "Kodathur South",
-      "ward_name_ml": "കോടത്തൂര്‍ സൌത്ത്"
+      "name_en": "Kodathur South",
+      "name_ml": "കോടത്തൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "74b8c729-3c83-4031-a24c-3200f704c9f5",
+      "id": "74b8c729-3c83-4031-a24c-3200f704c9f5",
       "ward_no": "14",
-      "ward_name_en": "Ayiroor West",
-      "ward_name_ml": "അയിരൂര്‍ വെസ്റ്റ്"
+      "name_en": "Ayiroor West",
+      "name_ml": "അയിരൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "ce2c360c-f420-4c37-ae32-1bd59be366af",
+      "id": "ce2c360c-f420-4c37-ae32-1bd59be366af",
       "ward_no": "15",
-      "ward_name_en": "Palappetty East",
-      "ward_name_ml": "പാലപ്പെട്ടി ഈസ്റ്റ"
+      "name_en": "Palappetty East",
+      "name_ml": "പാലപ്പെട്ടി ഈസ്റ്റ"
     },
     {
-      "ward_id": "26b916f9-c472-442f-9c49-7b2a88c2ad8f",
+      "id": "26b916f9-c472-442f-9c49-7b2a88c2ad8f",
       "ward_no": "16",
-      "ward_name_en": "Poovankkara",
-      "ward_name_ml": "പൂവാങ്കര"
+      "name_en": "Poovankkara",
+      "name_ml": "പൂവാങ്കര"
     },
     {
-      "ward_id": "7c76ced5-d6f8-4dce-9809-959a7c55dec5",
+      "id": "7c76ced5-d6f8-4dce-9809-959a7c55dec5",
       "ward_no": "17",
-      "ward_name_en": "Palappetty West",
-      "ward_name_ml": "പാലപ്പെട്ടി വെസ്റ്റ"
+      "name_en": "Palappetty West",
+      "name_ml": "പാലപ്പെട്ടി വെസ്റ്റ"
     },
     {
-      "ward_id": "eaed6254-e107-4087-9611-eb62f91ef8fb",
+      "id": "eaed6254-e107-4087-9611-eb62f91ef8fb",
       "ward_no": "18",
-      "ward_name_en": "Thattuparambu",
-      "ward_name_ml": "തട്ടുപറമ്പ്"
+      "name_en": "Thattuparambu",
+      "name_ml": "തട്ടുപറമ്പ്"
     }
   ],
   "towns": [],

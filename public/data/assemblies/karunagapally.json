@@ -1,56 +1,75 @@
 {
-  "assembly_id": "116",
-  "assembly_name_en": "Karunagapally",
-  "assembly_name_ml": "കരുനാഗപ്പള്ളി",
-  "category": "Normal",
+  "id": "116",
+  "name_en": "Karunagapally",
+  "name_ml": "കരുനാഗപ്പള്ളി",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020103",
-      "local_body_name_en": "Clappana",
-      "local_body_name_ml": "ക്ളാപ്പന",
-      "category": "Normal"
+      "id": "G020103",
+      "name_en": "Clappana",
+      "name_ml": "ക്ളാപ്പന",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M020100",
-      "local_body_name_en": "Karunagappally",
-      "local_body_name_ml": "കരുനാഗപ്പള്ളി",
-      "category": "Good"
+      "id": "M020100",
+      "name_en": "Karunagappally",
+      "name_ml": "കരുനാഗപ്പള്ളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020102",
-      "local_body_name_en": "Kulasekharapuram",
-      "local_body_name_ml": "കുലശേഖരപുരം",
-      "category": "Normal"
+      "id": "G020102",
+      "name_en": "Kulasekharapuram",
+      "name_ml": "കുലശേഖരപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020101",
-      "local_body_name_en": "Oachira",
-      "local_body_name_ml": "ഓച്ചിറ",
-      "category": "Good"
+      "id": "G020101",
+      "name_en": "Oachira",
+      "name_ml": "ഓച്ചിറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020104",
-      "local_body_name_en": "Thazhava",
-      "local_body_name_ml": "തഴവ",
-      "category": "Normal"
+      "id": "G020104",
+      "name_en": "Thazhava",
+      "name_ml": "തഴവ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020106",
-      "local_body_name_en": "Thodiyoor",
-      "local_body_name_ml": "തൊടിയൂര്‍",
-      "category": "Good"
+      "id": "G020106",
+      "name_en": "Thodiyoor",
+      "name_ml": "തൊടിയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020105",
-      "local_body_name_en": "Alappad",
-      "local_body_name_ml": "ആലപ്പാട്",
-      "category": "Perfect"
+      "id": "G020105",
+      "name_en": "Alappad",
+      "name_ml": "ആലപ്പാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G051006",
-  "local_body_name_en": "Karukachal",
-  "local_body_name_ml": "കറുകച്ചാല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G051006",
+  "name_en": "Karukachal",
+  "name_ml": "കറുകച്ചാല്‍",
+  "assembly_id": "100",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "100",
-    "assembly_name_en": "Kanjirappally",
-    "assembly_name_ml": "കാഞ്ഞിരപ്പള്ളി",
-    "category": "Normal"
+    "id": "100",
+    "name_en": "Kanjirappally",
+    "name_ml": "കാഞ്ഞിരപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "38ebe72b-8e14-41e2-b480-dd7fca2ede70",
+      "id": "38ebe72b-8e14-41e2-b480-dd7fca2ede70",
       "ward_no": "1",
-      "ward_name_en": "Champakkara",
-      "ward_name_ml": "ചമ്പക്കര"
+      "name_en": "Champakkara",
+      "name_ml": "ചമ്പക്കര"
     },
     {
-      "ward_id": "9e4ac242-10e7-4d2e-ab56-4f5e99ee7b8e",
+      "id": "9e4ac242-10e7-4d2e-ab56-4f5e99ee7b8e",
       "ward_no": "2",
-      "ward_name_en": "Kuruppan Kavala",
-      "ward_name_ml": "കുറുപ്പന്‍ കവല"
+      "name_en": "Kuruppan Kavala",
+      "name_ml": "കുറുപ്പന്‍ കവല"
     },
     {
-      "ward_id": "2bea2ee5-a3f1-447c-8bf5-22756b8837dd",
+      "id": "2bea2ee5-a3f1-447c-8bf5-22756b8837dd",
       "ward_no": "3",
-      "ward_name_en": "Manthuruthi",
-      "ward_name_ml": "മാന്തുരുത്തി"
+      "name_en": "Manthuruthi",
+      "name_ml": "മാന്തുരുത്തി"
     },
     {
-      "ward_id": "86d0b707-5b24-4b45-9156-e36e029a1911",
+      "id": "86d0b707-5b24-4b45-9156-e36e029a1911",
       "ward_no": "4",
-      "ward_name_en": "Nethalloor",
-      "ward_name_ml": "നെത്തല്ലൂര്‍"
+      "name_en": "Nethalloor",
+      "name_ml": "നെത്തല്ലൂര്‍"
     },
     {
-      "ward_id": "9d98d4e4-5de2-4cb4-924e-7cbbf5d529b9",
+      "id": "9d98d4e4-5de2-4cb4-924e-7cbbf5d529b9",
       "ward_no": "5",
-      "ward_name_en": "Karukachal",
-      "ward_name_ml": "കറുകച്ചാല്‍"
+      "name_en": "Karukachal",
+      "name_ml": "കറുകച്ചാല്‍"
     },
     {
-      "ward_id": "a2fc39bc-c96b-4caa-adce-3053d6de15c1",
+      "id": "a2fc39bc-c96b-4caa-adce-3053d6de15c1",
       "ward_no": "6",
-      "ward_name_en": "Pachilamakkal",
-      "ward_name_ml": "പച്ചിലമാക്കല്‍"
+      "name_en": "Pachilamakkal",
+      "name_ml": "പച്ചിലമാക്കല്‍"
     },
     {
-      "ward_id": "ef87a5a1-d335-41bf-bda4-390cd2fd3c54",
+      "id": "ef87a5a1-d335-41bf-bda4-390cd2fd3c54",
       "ward_no": "7",
-      "ward_name_en": "Panayampala",
-      "ward_name_ml": "പനയമ്പാല"
+      "name_en": "Panayampala",
+      "name_ml": "പനയമ്പാല"
     },
     {
-      "ward_id": "93687fcf-4668-42db-8491-de8c2bd298bf",
+      "id": "93687fcf-4668-42db-8491-de8c2bd298bf",
       "ward_no": "8",
-      "ward_name_en": "Mamunda",
-      "ward_name_ml": "മാമുണ്ട"
+      "name_en": "Mamunda",
+      "name_ml": "മാമുണ്ട"
     },
     {
-      "ward_id": "15e9cf6a-b3ef-45c5-a4dd-908a404efb46",
+      "id": "15e9cf6a-b3ef-45c5-a4dd-908a404efb46",
       "ward_no": "9",
-      "ward_name_en": "Nedungadappally",
-      "ward_name_ml": "നെടുംങ്ങാടപ്പള്ളി"
+      "name_en": "Nedungadappally",
+      "name_ml": "നെടുംങ്ങാടപ്പള്ളി"
     },
     {
-      "ward_id": "da28cf18-f649-4a09-8c06-145a65b2610b",
+      "id": "da28cf18-f649-4a09-8c06-145a65b2610b",
       "ward_no": "10",
-      "ward_name_en": "Santhipuram",
-      "ward_name_ml": "ശാന്തിപുരം"
+      "name_en": "Santhipuram",
+      "name_ml": "ശാന്തിപുരം"
     },
     {
-      "ward_id": "24dd37f9-32ec-4d1e-ac10-7ea49cf4ca64",
+      "id": "24dd37f9-32ec-4d1e-ac10-7ea49cf4ca64",
       "ward_no": "11",
-      "ward_name_en": "Madathinachira",
-      "ward_name_ml": "മഠത്തിനാച്ചിറ"
+      "name_en": "Madathinachira",
+      "name_ml": "മഠത്തിനാച്ചിറ"
     },
     {
-      "ward_id": "45a24525-e138-4110-b418-6cf52fefcb5f",
+      "id": "45a24525-e138-4110-b418-6cf52fefcb5f",
       "ward_no": "12",
-      "ward_name_en": "Koothrappally",
-      "ward_name_ml": "കൂത്രപ്പള്ളി"
+      "name_en": "Koothrappally",
+      "name_ml": "കൂത്രപ്പള്ളി"
     },
     {
-      "ward_id": "ec7745a2-bb0f-446d-96e6-5cfa99f16017",
+      "id": "ec7745a2-bb0f-446d-96e6-5cfa99f16017",
       "ward_no": "13",
-      "ward_name_en": "Karickaniravu",
-      "ward_name_ml": "കാരിക്കാനിരവ്"
+      "name_en": "Karickaniravu",
+      "name_ml": "കാരിക്കാനിരവ്"
     },
     {
-      "ward_id": "90780ee8-8cfa-40cc-b453-7cb5002e26c4",
+      "id": "90780ee8-8cfa-40cc-b453-7cb5002e26c4",
       "ward_no": "14",
-      "ward_name_en": "Chirackal",
-      "ward_name_ml": "ചിറയ്ക്കല്‍"
+      "name_en": "Chirackal",
+      "name_ml": "ചിറയ്ക്കല്‍"
     },
     {
-      "ward_id": "d461643a-7a79-4d2c-bded-4db65fd655de",
+      "id": "d461643a-7a79-4d2c-bded-4db65fd655de",
       "ward_no": "15",
-      "ward_name_en": "Anchani",
-      "ward_name_ml": "അഞ്ചാനി"
+      "name_en": "Anchani",
+      "name_ml": "അഞ്ചാനി"
     },
     {
-      "ward_id": "4d1baca5-4b98-42dd-b641-c2abda171116",
+      "id": "4d1baca5-4b98-42dd-b641-c2abda171116",
       "ward_no": "16",
-      "ward_name_en": "Umbidi",
-      "ward_name_ml": "ഉമ്പിടി"
+      "name_en": "Umbidi",
+      "name_ml": "ഉമ്പിടി"
     }
   ],
   "towns": [],

@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G020102",
-  "local_body_name_en": "Kulasekharapuram",
-  "local_body_name_ml": "കുലശേഖരപുരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "116",
-    "assembly_name_en": "Karunagapally",
-    "assembly_name_ml": "കരുനാഗപ്പള്ളി",
+  "id": "G020102",
+  "name_en": "Kulasekharapuram",
+  "name_ml": "കുലശേഖരപുരം",
+  "assembly_id": "116",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "116",
+    "name_en": "Karunagapally",
+    "name_ml": "കരുനാഗപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4e1e4302-4f71-4ef3-b9d4-6f029cf15f04",
+      "id": "4e1e4302-4f71-4ef3-b9d4-6f029cf15f04",
       "ward_no": "15",
-      "ward_name_en": "Adinad South",
-      "ward_name_ml": "ആദിനാട് തെക്ക്"
+      "name_en": "Adinad South",
+      "name_ml": "ആദിനാട് തെക്ക്"
     },
     {
-      "ward_id": "f4bf6fa2-8a95-4cda-b954-29618bec8d57",
+      "id": "f4bf6fa2-8a95-4cda-b954-29618bec8d57",
       "ward_no": "1",
-      "ward_name_en": "Vallikkavu",
-      "ward_name_ml": "വള്ളിക്കാവ്"
+      "name_en": "Vallikkavu",
+      "name_ml": "വള്ളിക്കാവ്"
     },
     {
-      "ward_id": "9aba4e77-60fb-478f-9b58-af7d84083f93",
+      "id": "9aba4e77-60fb-478f-9b58-af7d84083f93",
       "ward_no": "2",
-      "ward_name_en": "Kottackupuram",
-      "ward_name_ml": "കോട്ടയ്ക്കുപുറം"
+      "name_en": "Kottackupuram",
+      "name_ml": "കോട്ടയ്ക്കുപുറം"
     },
     {
-      "ward_id": "8c5d07ca-f7b9-4081-a375-2079e7225f81",
+      "id": "8c5d07ca-f7b9-4081-a375-2079e7225f81",
       "ward_no": "3",
-      "ward_name_en": "H.S.S",
-      "ward_name_ml": "എച്ച്.എസ്.എസ്"
+      "name_en": "H.S.S",
+      "name_ml": "എച്ച്.എസ്.എസ്"
     },
     {
-      "ward_id": "bf58154f-3ae1-475b-9123-9a3364686510",
+      "id": "bf58154f-3ae1-475b-9123-9a3364686510",
       "ward_no": "4",
-      "ward_name_en": "Kalarivathukkal",
-      "ward_name_ml": "കളരിവാതുക്കല്‍"
+      "name_en": "Kalarivathukkal",
+      "name_ml": "കളരിവാതുക്കല്‍"
     },
     {
-      "ward_id": "e7c01c74-58d9-4b1c-b63f-0392da36ac32",
+      "id": "e7c01c74-58d9-4b1c-b63f-0392da36ac32",
       "ward_no": "5",
-      "ward_name_en": "Adinadu North",
-      "ward_name_ml": "ആദിനാട് വടക്ക്"
+      "name_en": "Adinadu North",
+      "name_ml": "ആദിനാട് വടക്ക്"
     },
     {
-      "ward_id": "5cc1c644-67b0-4cca-ac89-7f8c87fff39a",
+      "id": "5cc1c644-67b0-4cca-ac89-7f8c87fff39a",
       "ward_no": "6",
-      "ward_name_en": "Panchayat Center",
-      "ward_name_ml": "പഞ്ചായത്ത് സെന്റര്‍"
+      "name_en": "Panchayat Center",
+      "name_ml": "പഞ്ചായത്ത് സെന്റര്‍"
     },
     {
-      "ward_id": "d12277fc-78f4-4d32-b853-3a9f2e9fdd7a",
+      "id": "d12277fc-78f4-4d32-b853-3a9f2e9fdd7a",
       "ward_no": "7",
-      "ward_name_en": "Neelikulam",
-      "ward_name_ml": "നീലികുളം"
+      "name_en": "Neelikulam",
+      "name_ml": "നീലികുളം"
     },
     {
-      "ward_id": "9990359e-f4ca-41d2-9110-284fe24caa01",
+      "id": "9990359e-f4ca-41d2-9110-284fe24caa01",
       "ward_no": "8",
-      "ward_name_en": "Kadathoor",
-      "ward_name_ml": "കടത്തൂര്‍"
+      "name_en": "Kadathoor",
+      "name_ml": "കടത്തൂര്‍"
     },
     {
-      "ward_id": "3a422f5f-7544-4284-a576-ff38ad0173f6",
+      "id": "3a422f5f-7544-4284-a576-ff38ad0173f6",
       "ward_no": "9",
-      "ward_name_en": "Kurungappally",
-      "ward_name_ml": "കുറുങ്ങപ്പള്ളി"
+      "name_en": "Kurungappally",
+      "name_ml": "കുറുങ്ങപ്പള്ളി"
     },
     {
-      "ward_id": "9696ec8d-ba03-4b42-ac88-c3939d2380af",
+      "id": "9696ec8d-ba03-4b42-ac88-c3939d2380af",
       "ward_no": "10",
-      "ward_name_en": "Mannadisseri",
-      "ward_name_ml": "മണ്ണടിശ്ശേരി"
+      "name_en": "Mannadisseri",
+      "name_ml": "മണ്ണടിശ്ശേരി"
     },
     {
-      "ward_id": "a232fe1d-8038-4bad-bb8d-806c8b09a851",
+      "id": "a232fe1d-8038-4bad-bb8d-806c8b09a851",
       "ward_no": "11",
-      "ward_name_en": "Puthentheruvu",
-      "ward_name_ml": "പുത്തന്‍തെരുവ്"
+      "name_en": "Puthentheruvu",
+      "name_ml": "പുത്തന്‍തെരുവ്"
     },
     {
-      "ward_id": "8892a03b-e7c3-498b-9036-1ec8d64639e2",
+      "id": "8892a03b-e7c3-498b-9036-1ec8d64639e2",
       "ward_no": "12",
-      "ward_name_en": "Kulasekharapuram",
-      "ward_name_ml": "കുലശേഖരപുരം"
+      "name_en": "Kulasekharapuram",
+      "name_ml": "കുലശേഖരപുരം"
     },
     {
-      "ward_id": "6a9b3182-84fe-4b0d-8214-43152ae4c027",
+      "id": "6a9b3182-84fe-4b0d-8214-43152ae4c027",
       "ward_no": "13",
-      "ward_name_en": "Punnackulam",
-      "ward_name_ml": "പുന്നക്കുളം"
+      "name_en": "Punnackulam",
+      "name_ml": "പുന്നക്കുളം"
     },
     {
-      "ward_id": "795cddb2-83f3-4c20-8635-8b920af10e72",
+      "id": "795cddb2-83f3-4c20-8635-8b920af10e72",
       "ward_no": "14",
-      "ward_name_en": "Puthiyakavu",
-      "ward_name_ml": "പുതിയകാവ്"
+      "name_en": "Puthiyakavu",
+      "name_ml": "പുതിയകാവ്"
     },
     {
-      "ward_id": "6c719e5d-e7b5-4605-83e2-d710f1a3515d",
+      "id": "6c719e5d-e7b5-4605-83e2-d710f1a3515d",
       "ward_no": "16",
-      "ward_name_en": "Puthenchantha",
-      "ward_name_ml": "പുത്തന്‍ചന്ത"
+      "name_en": "Puthenchantha",
+      "name_ml": "പുത്തന്‍ചന്ത"
     },
     {
-      "ward_id": "479c2b48-c82c-4b3d-aa63-282d9c24daac",
+      "id": "479c2b48-c82c-4b3d-aa63-282d9c24daac",
       "ward_no": "17",
-      "ward_name_en": "Health Center",
-      "ward_name_ml": "ഹെല്‍ത്ത് സെന്റര്‍"
+      "name_en": "Health Center",
+      "name_ml": "ഹെല്‍ത്ത് സെന്റര്‍"
     },
     {
-      "ward_id": "a4d9486c-a586-4887-80ca-90b679e35133",
+      "id": "a4d9486c-a586-4887-80ca-90b679e35133",
       "ward_no": "18",
-      "ward_name_en": "Kochumammoodu",
-      "ward_name_ml": "കൊച്ചുമാംമൂട്"
+      "name_en": "Kochumammoodu",
+      "name_ml": "കൊച്ചുമാംമൂട്"
     },
     {
-      "ward_id": "095fdcf4-bc81-4a12-9e6e-28447cf27c10",
+      "id": "095fdcf4-bc81-4a12-9e6e-28447cf27c10",
       "ward_no": "19",
-      "ward_name_en": "Sakthikulangara",
-      "ward_name_ml": "ശക്തികുളങ്ങര"
+      "name_en": "Sakthikulangara",
+      "name_ml": "ശക്തികുളങ്ങര"
     },
     {
-      "ward_id": "4e9e862a-eb35-4fc3-be0b-88accc1d6d33",
+      "id": "4e9e862a-eb35-4fc3-be0b-88accc1d6d33",
       "ward_no": "20",
-      "ward_name_en": "Sangappuramukku",
-      "ward_name_ml": "സംഘപ്പുരമുക്ക്"
+      "name_en": "Sangappuramukku",
+      "name_ml": "സംഘപ്പുരമുക്ക്"
     },
     {
-      "ward_id": "47e0890a-5f0c-4838-ba56-e8e48ffaf3d2",
+      "id": "47e0890a-5f0c-4838-ba56-e8e48ffaf3d2",
       "ward_no": "21",
-      "ward_name_en": "Kattilkadavu",
-      "ward_name_ml": "കാട്ടില്‍കടവ്"
+      "name_en": "Kattilkadavu",
+      "name_ml": "കാട്ടില്‍കടവ്"
     },
     {
-      "ward_id": "5f923700-f4c8-46cd-aada-c689cf8c73da",
+      "id": "5f923700-f4c8-46cd-aada-c689cf8c73da",
       "ward_no": "22",
-      "ward_name_en": "Community Hall",
-      "ward_name_ml": "കമ്മ്യൂണിറ്റി ഹാള്‍"
+      "name_en": "Community Hall",
+      "name_ml": "കമ്മ്യൂണിറ്റി ഹാള്‍"
     },
     {
-      "ward_id": "2dde5b45-b186-4fcd-ba44-afc498fd0d37",
+      "id": "2dde5b45-b186-4fcd-ba44-afc498fd0d37",
       "ward_no": "23",
-      "ward_name_en": "Thurayilkadavu",
-      "ward_name_ml": "തുറയില്‍കടവ്"
+      "name_en": "Thurayilkadavu",
+      "name_ml": "തുറയില്‍കടവ്"
     }
   ],
   "towns": [],

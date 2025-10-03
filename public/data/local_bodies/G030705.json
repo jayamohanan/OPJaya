@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030705",
-  "local_body_name_en": "Mezhuveli",
-  "local_body_name_ml": "മെഴുവേലി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G030705",
+  "name_en": "Mezhuveli",
+  "name_ml": "മെഴുവേലി",
+  "assembly_id": "113",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "113",
-    "assembly_name_en": "Aranmula",
-    "assembly_name_ml": "ആറന്മുള",
-    "category": "Normal"
+    "id": "113",
+    "name_en": "Aranmula",
+    "name_ml": "ആറന്മുള",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "480d9e28-1e7b-4438-be4f-513f75fb5fb1",
+      "id": "480d9e28-1e7b-4438-be4f-513f75fb5fb1",
       "ward_no": "1",
-      "ward_name_en": "Karithotta",
-      "ward_name_ml": "കാരിത്തോട്ട"
+      "name_en": "Karithotta",
+      "name_ml": "കാരിത്തോട്ട"
     },
     {
-      "ward_id": "03d6f2ad-05f9-4ea4-8237-45b92a82c9ce",
+      "id": "03d6f2ad-05f9-4ea4-8237-45b92a82c9ce",
       "ward_no": "2",
-      "ward_name_en": "Kooduvettickal",
-      "ward_name_ml": "കൂടുവെട്ടിക്കല്‍"
+      "name_en": "Kooduvettickal",
+      "name_ml": "കൂടുവെട്ടിക്കല്‍"
     },
     {
-      "ward_id": "7b55445c-f64e-410c-b16e-20c000a6e7da",
+      "id": "7b55445c-f64e-410c-b16e-20c000a6e7da",
       "ward_no": "3",
-      "ward_name_en": "Kuriyanippally",
-      "ward_name_ml": "കുറിയാനിപ്പള്ളി"
+      "name_en": "Kuriyanippally",
+      "name_ml": "കുറിയാനിപ്പള്ളി"
     },
     {
-      "ward_id": "cdd17c07-40f1-4e92-b0ac-fc3e63320e78",
+      "id": "cdd17c07-40f1-4e92-b0ac-fc3e63320e78",
       "ward_no": "4",
-      "ward_name_en": "Pathissery",
-      "ward_name_ml": "പത്തിശ്ശേരി"
+      "name_en": "Pathissery",
+      "name_ml": "പത്തിശ്ശേരി"
     },
     {
-      "ward_id": "9bc7fdde-6d3f-47cd-863b-806615b6fcb5",
+      "id": "9bc7fdde-6d3f-47cd-863b-806615b6fcb5",
       "ward_no": "5",
-      "ward_name_en": "Alakkodu",
-      "ward_name_ml": "ആലക്കോട്"
+      "name_en": "Alakkodu",
+      "name_ml": "ആലക്കോട്"
     },
     {
-      "ward_id": "c4541cd3-e828-42f6-adaf-c5133f50e2ce",
+      "id": "c4541cd3-e828-42f6-adaf-c5133f50e2ce",
       "ward_no": "6",
-      "ward_name_en": "Muloor",
-      "ward_name_ml": "മൂലൂര്‍"
+      "name_en": "Muloor",
+      "name_ml": "മൂലൂര്‍"
     },
     {
-      "ward_id": "3278ebdd-332e-4368-aae2-8f9e27e325c2",
+      "id": "3278ebdd-332e-4368-aae2-8f9e27e325c2",
       "ward_no": "7",
-      "ward_name_en": "Maraman",
-      "ward_name_ml": "മാരാമണ്‍"
+      "name_en": "Maraman",
+      "name_ml": "മാരാമണ്‍"
     },
     {
-      "ward_id": "8ad00fc7-46b8-4ef9-8c0c-c88005278ee7",
+      "id": "8ad00fc7-46b8-4ef9-8c0c-c88005278ee7",
       "ward_no": "8",
-      "ward_name_en": "Elavumthitta",
-      "ward_name_ml": "ഇലവുംതിട്ട"
+      "name_en": "Elavumthitta",
+      "name_ml": "ഇലവുംതിട്ട"
     },
     {
-      "ward_id": "ca021174-0425-4a16-9d66-4731bb9b8ae9",
+      "id": "ca021174-0425-4a16-9d66-4731bb9b8ae9",
       "ward_no": "9",
-      "ward_name_en": "Kayyamthadam",
-      "ward_name_ml": "കയ്യംതടം"
+      "name_en": "Kayyamthadam",
+      "name_ml": "കയ്യംതടം"
     },
     {
-      "ward_id": "b8d04876-f336-4d67-9913-6dd0950fd472",
+      "id": "b8d04876-f336-4d67-9913-6dd0950fd472",
       "ward_no": "10",
-      "ward_name_en": "Nediyakala",
-      "ward_name_ml": "നെടിയകാലാ"
+      "name_en": "Nediyakala",
+      "name_ml": "നെടിയകാലാ"
     },
     {
-      "ward_id": "a61368b9-72d7-43f6-a47a-fa23076b63a5",
+      "id": "a61368b9-72d7-43f6-a47a-fa23076b63a5",
       "ward_no": "11",
-      "ward_name_en": "Anarkodu",
-      "ward_name_ml": "ആണര്‍കോട്"
+      "name_en": "Anarkodu",
+      "name_ml": "ആണര്‍കോട്"
     },
     {
-      "ward_id": "e33f8e70-cd5c-4781-8f6c-8891bf15737b",
+      "id": "e33f8e70-cd5c-4781-8f6c-8891bf15737b",
       "ward_no": "12",
-      "ward_name_en": "Mezhuveli",
-      "ward_name_ml": "മെഴുവേലി"
+      "name_en": "Mezhuveli",
+      "name_ml": "മെഴുവേലി"
     },
     {
-      "ward_id": "83ccee2d-a3e3-406a-9707-cf3b3d666b41",
+      "id": "83ccee2d-a3e3-406a-9707-cf3b3d666b41",
       "ward_no": "13",
-      "ward_name_en": "Ullannoor",
-      "ward_name_ml": "ഉള്ളന്നൂര്‍"
+      "name_en": "Ullannoor",
+      "name_ml": "ഉള്ളന്നൂര്‍"
     }
   ],
   "towns": [],

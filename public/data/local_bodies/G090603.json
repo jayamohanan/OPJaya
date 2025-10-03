@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G090603",
-  "local_body_name_en": "Sholayoor",
-  "local_body_name_ml": "ഷോളയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G090603",
+  "name_en": "Sholayoor",
+  "name_ml": "ഷോളയൂര്‍",
+  "assembly_id": "54",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "54",
-    "assembly_name_en": "Mannarkkad",
-    "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
-    "category": "Normal"
+    "id": "54",
+    "name_en": "Mannarkkad",
+    "name_ml": "മണ്ണാര്‍ക്കാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "88bf7727-a6bb-4ec2-b70f-04c67bd75669",
+      "id": "88bf7727-a6bb-4ec2-b70f-04c67bd75669",
       "ward_no": "1",
-      "ward_name_en": "Kottathara",
-      "ward_name_ml": "കോട്ടത്തറ"
+      "name_en": "Kottathara",
+      "name_ml": "കോട്ടത്തറ"
     },
     {
-      "ward_id": "ec5d9a11-655c-42f9-9c80-bceaac632d69",
+      "id": "ec5d9a11-655c-42f9-9c80-bceaac632d69",
       "ward_no": "2",
-      "ward_name_en": "Mattathukadu",
-      "ward_name_ml": "മട്ടത്തുകാട്"
+      "name_en": "Mattathukadu",
+      "name_ml": "മട്ടത്തുകാട്"
     },
     {
-      "ward_id": "d6ba3a7b-6cfa-4d75-978a-f30f8b4689e4",
+      "id": "d6ba3a7b-6cfa-4d75-978a-f30f8b4689e4",
       "ward_no": "3",
-      "ward_name_en": "Vattalakki",
-      "ward_name_ml": "വട്ടലക്കി"
+      "name_en": "Vattalakki",
+      "name_ml": "വട്ടലക്കി"
     },
     {
-      "ward_id": "b99ce9ec-2bb4-48c0-b802-19089a52984f",
+      "id": "b99ce9ec-2bb4-48c0-b802-19089a52984f",
       "ward_no": "4",
-      "ward_name_en": "Anakkatti",
-      "ward_name_ml": "ആനക്കട്ടി"
+      "name_en": "Anakkatti",
+      "name_ml": "ആനക്കട്ടി"
     },
     {
-      "ward_id": "74ae3e04-fb05-4c32-9e08-e9ccf2fcb556",
+      "id": "74ae3e04-fb05-4c32-9e08-e9ccf2fcb556",
       "ward_no": "5",
-      "ward_name_en": "Kadambara",
-      "ward_name_ml": "കടമ്പാറ"
+      "name_en": "Kadambara",
+      "name_ml": "കടമ്പാറ"
     },
     {
-      "ward_id": "8244991e-33c3-49c3-af72-18ffbef74aff",
+      "id": "8244991e-33c3-49c3-af72-18ffbef74aff",
       "ward_no": "6",
-      "ward_name_en": "Vechapathi",
-      "ward_name_ml": "വെച്ചപ്പതി"
+      "name_en": "Vechapathi",
+      "name_ml": "വെച്ചപ്പതി"
     },
     {
-      "ward_id": "f5fd9652-79aa-4ead-8200-49b815b82441",
+      "id": "f5fd9652-79aa-4ead-8200-49b815b82441",
       "ward_no": "7",
-      "ward_name_en": "Varagampadi",
-      "ward_name_ml": "വരഗംപാടി"
+      "name_en": "Varagampadi",
+      "name_ml": "വരഗംപാടി"
     },
     {
-      "ward_id": "f5a642ff-c491-4beb-b695-8a3fc498786d",
+      "id": "f5a642ff-c491-4beb-b695-8a3fc498786d",
       "ward_no": "8",
-      "ward_name_en": "Pettikkal",
-      "ward_name_ml": "പെട്ടിക്കല്‍"
+      "name_en": "Pettikkal",
+      "name_ml": "പെട്ടിക്കല്‍"
     },
     {
-      "ward_id": "e5d741fa-c9f9-4f17-bce3-505ff86f31f0",
+      "id": "e5d741fa-c9f9-4f17-bce3-505ff86f31f0",
       "ward_no": "9",
-      "ward_name_en": "Kozhikoodam",
-      "ward_name_ml": "കോഴിക്കൂടം"
+      "name_en": "Kozhikoodam",
+      "name_ml": "കോഴിക്കൂടം"
     },
     {
-      "ward_id": "548396bf-3297-4c39-aa16-2a1310fdb618",
+      "id": "548396bf-3297-4c39-aa16-2a1310fdb618",
       "ward_no": "10",
-      "ward_name_en": "Kuravanpadi",
-      "ward_name_ml": "കുറവന്‍പാടി"
+      "name_en": "Kuravanpadi",
+      "name_ml": "കുറവന്‍പാടി"
     },
     {
-      "ward_id": "8cbe5bb6-c265-4300-a0c1-883caf0e15d7",
+      "id": "8cbe5bb6-c265-4300-a0c1-883caf0e15d7",
       "ward_no": "11",
-      "ward_name_en": "Chundakulam",
-      "ward_name_ml": "ചുണ്ടകുളം"
+      "name_en": "Chundakulam",
+      "name_ml": "ചുണ്ടകുളം"
     },
     {
-      "ward_id": "b8d566d2-35b9-47b5-b0ac-ea9fafb73f44",
+      "id": "b8d566d2-35b9-47b5-b0ac-ea9fafb73f44",
       "ward_no": "12",
-      "ward_name_en": "Sholayur",
-      "ward_name_ml": "ഷോളയൂര്‍"
+      "name_en": "Sholayur",
+      "name_ml": "ഷോളയൂര്‍"
     },
     {
-      "ward_id": "4f25e83e-a352-4d43-a93d-27cbf1a0d505",
+      "id": "4f25e83e-a352-4d43-a93d-27cbf1a0d505",
       "ward_no": "13",
-      "ward_name_en": "Kallakkara",
-      "ward_name_ml": "കള്ളക്കര"
+      "name_en": "Kallakkara",
+      "name_ml": "കള്ളക്കര"
     },
     {
-      "ward_id": "9fa2b897-2b59-42d7-8cea-397b4d006f98",
+      "id": "9fa2b897-2b59-42d7-8cea-397b4d006f98",
       "ward_no": "14",
-      "ward_name_en": "Vannathara",
-      "ward_name_ml": "വണ്ണാന്തറ"
+      "name_en": "Vannathara",
+      "name_ml": "വണ്ണാന്തറ"
     }
   ],
   "towns": [],

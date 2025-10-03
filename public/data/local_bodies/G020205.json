@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G020205",
-  "local_body_name_en": "Kunnathoor",
-  "local_body_name_ml": "കുന്നത്തൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "118",
-    "assembly_name_en": "Kunnathur",
-    "assembly_name_ml": "കുന്നത്തൂർ",
+  "id": "G020205",
+  "name_en": "Kunnathoor",
+  "name_ml": "കുന്നത്തൂര്‍",
+  "assembly_id": "118",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "118",
+    "name_en": "Kunnathur",
+    "name_ml": "കുന്നത്തൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9db9e926-a973-48c8-90d0-0d4891846674",
+      "id": "9db9e926-a973-48c8-90d0-0d4891846674",
       "ward_no": "1",
-      "ward_name_en": "Ezhammile",
-      "ward_name_ml": "ഏഴാംമൈല്‍"
+      "name_en": "Ezhammile",
+      "name_ml": "ഏഴാംമൈല്‍"
     },
     {
-      "ward_id": "f691a5b9-454e-43de-a8a9-b44c924cad82",
+      "id": "f691a5b9-454e-43de-a8a9-b44c924cad82",
       "ward_no": "2",
-      "ward_name_en": "Manampuzha",
-      "ward_name_ml": "മാനാമ്പുഴ"
+      "name_en": "Manampuzha",
+      "name_ml": "മാനാമ്പുഴ"
     },
     {
-      "ward_id": "92ecf2d6-cf14-42e1-b104-679cae583a5d",
+      "id": "92ecf2d6-cf14-42e1-b104-679cae583a5d",
       "ward_no": "3",
-      "ward_name_en": "Nilackal",
-      "ward_name_ml": "നിലയ്ക്കല്‍"
+      "name_en": "Nilackal",
+      "name_ml": "നിലയ്ക്കല്‍"
     },
     {
-      "ward_id": "f1f3eda8-0a1b-4ce5-9a07-c8c713b63e76",
+      "id": "f1f3eda8-0a1b-4ce5-9a07-c8c713b63e76",
       "ward_no": "4",
-      "ward_name_en": "Thalayattu",
-      "ward_name_ml": "തലയാറ്റ്"
+      "name_en": "Thalayattu",
+      "name_ml": "തലയാറ്റ്"
     },
     {
-      "ward_id": "5f4bd3ef-fa54-4bd9-a3f9-35a493058001",
+      "id": "5f4bd3ef-fa54-4bd9-a3f9-35a493058001",
       "ward_no": "5",
-      "ward_name_en": "Thettimury",
-      "ward_name_ml": "തെറ്റിമുറി"
+      "name_en": "Thettimury",
+      "name_ml": "തെറ്റിമുറി"
     },
     {
-      "ward_id": "d8f9d8c9-ff00-4826-8ffe-45e592480a81",
+      "id": "d8f9d8c9-ff00-4826-8ffe-45e592480a81",
       "ward_no": "6",
-      "ward_name_en": "Keechappallil",
-      "ward_name_ml": "കീച്ചപ്പള്ളില്‍"
+      "name_en": "Keechappallil",
+      "name_ml": "കീച്ചപ്പള്ളില്‍"
     },
     {
-      "ward_id": "929400e2-1b30-4d94-aa1b-4b4625c2e83a",
+      "id": "929400e2-1b30-4d94-aa1b-4b4625c2e83a",
       "ward_no": "7",
-      "ward_name_en": "Iverkala Naduvil",
-      "ward_name_ml": "ഐവര്‍കാല നടുവില്‍"
+      "name_en": "Iverkala Naduvil",
+      "name_ml": "ഐവര്‍കാല നടുവില്‍"
     },
     {
-      "ward_id": "ee623f34-0c85-44f8-a1a9-9881733e5710",
+      "id": "ee623f34-0c85-44f8-a1a9-9881733e5710",
       "ward_no": "8",
-      "ward_name_en": "Puthanampalam East",
-      "ward_name_ml": "പുത്തനമ്പലം ഈസ്റ്റ്"
+      "name_en": "Puthanampalam East",
+      "name_ml": "പുത്തനമ്പലം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "26b0457b-ba8c-4e7d-80b8-e6d993848185",
+      "id": "26b0457b-ba8c-4e7d-80b8-e6d993848185",
       "ward_no": "9",
-      "ward_name_en": "Puthanampalam",
-      "ward_name_ml": "പുത്തനമ്പലം"
+      "name_en": "Puthanampalam",
+      "name_ml": "പുത്തനമ്പലം"
     },
     {
-      "ward_id": "e459efb5-7247-4791-afe7-bede5979fb5e",
+      "id": "e459efb5-7247-4791-afe7-bede5979fb5e",
       "ward_no": "10",
-      "ward_name_en": "Nattissery",
-      "ward_name_ml": "നാട്ടിശ്ശേരി"
+      "name_en": "Nattissery",
+      "name_ml": "നാട്ടിശ്ശേരി"
     },
     {
-      "ward_id": "ba963301-fb5e-420a-8098-11bf25c6f529",
+      "id": "ba963301-fb5e-420a-8098-11bf25c6f529",
       "ward_no": "11",
-      "ward_name_en": "Nediyavila East",
-      "ward_name_ml": "നെടിയവിള കിഴക്ക്"
+      "name_en": "Nediyavila East",
+      "name_ml": "നെടിയവിള കിഴക്ക്"
     },
     {
-      "ward_id": "dcf430cb-56fe-460e-b3a4-f99020d5a200",
+      "id": "dcf430cb-56fe-460e-b3a4-f99020d5a200",
       "ward_no": "12",
-      "ward_name_en": "Aattukadavu",
-      "ward_name_ml": "ആറ്റുകടവ്"
+      "name_en": "Aattukadavu",
+      "name_ml": "ആറ്റുകടവ്"
     },
     {
-      "ward_id": "47ad9727-1c30-4df4-9146-7fcf2472a09e",
+      "id": "47ad9727-1c30-4df4-9146-7fcf2472a09e",
       "ward_no": "13",
-      "ward_name_en": "Nediyavila Town",
-      "ward_name_ml": "നെടിയവിള ഠൌണ്‍"
+      "name_en": "Nediyavila Town",
+      "name_ml": "നെടിയവിള ഠൌണ്‍"
     },
     {
-      "ward_id": "3caf7c5c-4299-4e11-8b68-bb5e9565906e",
+      "id": "3caf7c5c-4299-4e11-8b68-bb5e9565906e",
       "ward_no": "14",
-      "ward_name_en": "Thuruthikkara East",
-      "ward_name_ml": "തുരുത്തിക്കര കിഴക്ക്"
+      "name_en": "Thuruthikkara East",
+      "name_ml": "തുരുത്തിക്കര കിഴക്ക്"
     },
     {
-      "ward_id": "60c775fb-11d7-47ce-b8b1-4c754de2e45a",
+      "id": "60c775fb-11d7-47ce-b8b1-4c754de2e45a",
       "ward_no": "15",
-      "ward_name_en": "Thuruthikkara West",
-      "ward_name_ml": "തുരുത്തിക്കര പടിഞ്ഞാറ്"
+      "name_en": "Thuruthikkara West",
+      "name_ml": "തുരുത്തിക്കര പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "67c93f3f-5333-47ba-bb7c-73f4cd946160",
+      "id": "67c93f3f-5333-47ba-bb7c-73f4cd946160",
       "ward_no": "16",
-      "ward_name_en": "Kunnathoor West",
-      "ward_name_ml": "കുന്നത്തൂര്‍ പടിഞ്ഞാറ്"
+      "name_en": "Kunnathoor West",
+      "name_ml": "കുന്നത്തൂര്‍ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "fc1c7ca9-ae5b-47b7-88ad-94bd6b0aa8ac",
+      "id": "fc1c7ca9-ae5b-47b7-88ad-94bd6b0aa8ac",
       "ward_no": "17",
-      "ward_name_en": "Bhoothakuzhy",
-      "ward_name_ml": "ഭൂതക്കുഴി"
+      "name_en": "Bhoothakuzhy",
+      "name_ml": "ഭൂതക്കുഴി"
     }
   ],
   "towns": [],

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G090207",
-  "local_body_name_en": "Thiruvegappura",
-  "local_body_name_ml": "തിരുവേഗപ്പുറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G090207",
+  "name_en": "Thiruvegappura",
+  "name_ml": "തിരുവേഗപ്പുറ",
+  "assembly_id": "50",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "50",
-    "assembly_name_en": "Pattambi",
-    "assembly_name_ml": "പട്ടാമ്പി",
-    "category": "Normal"
+    "id": "50",
+    "name_en": "Pattambi",
+    "name_ml": "പട്ടാമ്പി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2fb9ec90-c91a-4b9e-a0aa-e027e9539372",
+      "id": "2fb9ec90-c91a-4b9e-a0aa-e027e9539372",
       "ward_no": "1",
-      "ward_name_en": "Thiruvegappura",
-      "ward_name_ml": "തിരുവേഗപ്പുറ"
+      "name_en": "Thiruvegappura",
+      "name_ml": "തിരുവേഗപ്പുറ"
     },
     {
-      "ward_id": "b9a6b4df-1be9-45cd-afd2-8c8245ba3a0f",
+      "id": "b9a6b4df-1be9-45cd-afd2-8c8245ba3a0f",
       "ward_no": "2",
-      "ward_name_en": "West Kaippuram",
-      "ward_name_ml": "വെസ്റ്റ്കൈപ്പുറം"
+      "name_en": "West Kaippuram",
+      "name_ml": "വെസ്റ്റ്കൈപ്പുറം"
     },
     {
-      "ward_id": "43a478b1-eb8c-4060-b1d8-9e287121efa3",
+      "id": "43a478b1-eb8c-4060-b1d8-9e287121efa3",
       "ward_no": "3",
-      "ward_name_en": "Nedungottur Centre",
-      "ward_name_ml": "നെടുങ്ങോട്ടൂര്‍ സെന്‍റര്‍"
+      "name_en": "Nedungottur Centre",
+      "name_ml": "നെടുങ്ങോട്ടൂര്‍ സെന്‍റര്‍"
     },
     {
-      "ward_id": "726feb5c-b668-4d0d-bd95-2730f68268dd",
+      "id": "726feb5c-b668-4d0d-bd95-2730f68268dd",
       "ward_no": "4",
-      "ward_name_en": "Manakkalpeedika",
-      "ward_name_ml": "മനക്കല്‍പീടിക"
+      "name_en": "Manakkalpeedika",
+      "name_ml": "മനക്കല്‍പീടിക"
     },
     {
-      "ward_id": "90683962-0f65-41f2-a73f-4e166a3540ac",
+      "id": "90683962-0f65-41f2-a73f-4e166a3540ac",
       "ward_no": "5",
-      "ward_name_en": "Kaippuram Centre",
-      "ward_name_ml": "കൈപ്പുറം സെന്‍റര്‍"
+      "name_en": "Kaippuram Centre",
+      "name_ml": "കൈപ്പുറം സെന്‍റര്‍"
     },
     {
-      "ward_id": "70729e76-1181-48ad-bc61-3066a8ea460e",
+      "id": "70729e76-1181-48ad-bc61-3066a8ea460e",
       "ward_no": "6",
-      "ward_name_en": "Parayil Kaippuram",
-      "ward_name_ml": "പാറയില്‍ കൈപ്പുറം"
+      "name_en": "Parayil Kaippuram",
+      "name_ml": "പാറയില്‍ കൈപ്പുറം"
     },
     {
-      "ward_id": "2e5a9635-7ea6-40c8-a9d2-e54943b8b936",
+      "id": "2e5a9635-7ea6-40c8-a9d2-e54943b8b936",
       "ward_no": "7",
-      "ward_name_en": "Naduvattam",
-      "ward_name_ml": "നടുവട്ടം"
+      "name_en": "Naduvattam",
+      "name_ml": "നടുവട്ടം"
     },
     {
-      "ward_id": "834b6853-c718-4df1-8ef8-7088b37d4175",
+      "id": "834b6853-c718-4df1-8ef8-7088b37d4175",
       "ward_no": "8",
-      "ward_name_en": "Thekkummala",
-      "ward_name_ml": "തെക്കുമ്മല"
+      "name_en": "Thekkummala",
+      "name_ml": "തെക്കുമ്മല"
     },
     {
-      "ward_id": "11d2d6b6-5063-4948-95f3-bca56b263bb7",
+      "id": "11d2d6b6-5063-4948-95f3-bca56b263bb7",
       "ward_no": "9",
-      "ward_name_en": "Vilathur Edavarkunn",
-      "ward_name_ml": "വിളത്തൂര്‍ ഇടവര്‍ക്കുന്ന്"
+      "name_en": "Vilathur Edavarkunn",
+      "name_ml": "വിളത്തൂര്‍ ഇടവര്‍ക്കുന്ന്"
     },
     {
-      "ward_id": "b5d1e55f-8d00-49d5-ab0c-5e4162d0fa64",
+      "id": "b5d1e55f-8d00-49d5-ab0c-5e4162d0fa64",
       "ward_no": "10",
-      "ward_name_en": "Manhambra",
-      "ward_name_ml": "മാഞ്ഞാബ്ര"
+      "name_en": "Manhambra",
+      "name_ml": "മാഞ്ഞാബ്ര"
     },
     {
-      "ward_id": "45e33089-9698-49c8-a12c-57c6400c1ac0",
+      "id": "45e33089-9698-49c8-a12c-57c6400c1ac0",
       "ward_no": "11",
-      "ward_name_en": "Vilathur",
-      "ward_name_ml": "വിളത്തൂര്‍"
+      "name_en": "Vilathur",
+      "name_ml": "വിളത്തൂര്‍"
     },
     {
-      "ward_id": "6e4dd5c5-9efa-4048-acb3-7c991678c039",
+      "id": "6e4dd5c5-9efa-4048-acb3-7c991678c039",
       "ward_no": "12",
-      "ward_name_en": "Nhavalkad",
-      "ward_name_ml": "ഞാവള്‍ക്കാട്"
+      "name_en": "Nhavalkad",
+      "name_ml": "ഞാവള്‍ക്കാട്"
     },
     {
-      "ward_id": "e275ae3a-fe3b-44db-b4c6-1bde78c885f9",
+      "id": "e275ae3a-fe3b-44db-b4c6-1bde78c885f9",
       "ward_no": "13",
-      "ward_name_en": "Chembra Alinchuvad",
-      "ward_name_ml": "ചെമ്പ്ര ആലിന്‍ചുവട്"
+      "name_en": "Chembra Alinchuvad",
+      "name_ml": "ചെമ്പ്ര ആലിന്‍ചുവട്"
     },
     {
-      "ward_id": "cdff0143-ca83-48e1-8a09-4dc8541b3b92",
+      "id": "cdff0143-ca83-48e1-8a09-4dc8541b3b92",
       "ward_no": "14",
-      "ward_name_en": "Odupara",
-      "ward_name_ml": "ഒാടുപാറ"
+      "name_en": "Odupara",
+      "name_ml": "ഒാടുപാറ"
     },
     {
-      "ward_id": "1bad2028-ab08-4b36-9390-15ccf744cd4a",
+      "id": "1bad2028-ab08-4b36-9390-15ccf744cd4a",
       "ward_no": "15",
-      "ward_name_en": "Chembra",
-      "ward_name_ml": "ചെമ്പ്ര"
+      "name_en": "Chembra",
+      "name_ml": "ചെമ്പ്ര"
     },
     {
-      "ward_id": "a30a44b3-afb4-473b-9d18-3f5f55acd626",
+      "id": "a30a44b3-afb4-473b-9d18-3f5f55acd626",
       "ward_no": "16",
-      "ward_name_en": "Naripparamb",
-      "ward_name_ml": "നരിപ്പറമ്പ്"
+      "name_en": "Naripparamb",
+      "name_ml": "നരിപ്പറമ്പ്"
     },
     {
-      "ward_id": "7378bdc4-53f4-4bc1-bbdb-6c119bdc60fd",
+      "id": "7378bdc4-53f4-4bc1-bbdb-6c119bdc60fd",
       "ward_no": "17",
-      "ward_name_en": "Pazhanellippuram",
-      "ward_name_ml": "പഴനെല്ലിപ്പുറം"
+      "name_en": "Pazhanellippuram",
+      "name_ml": "പഴനെല്ലിപ്പുറം"
     },
     {
-      "ward_id": "63934aee-a7fa-43e7-abda-32d437bd5d63",
+      "id": "63934aee-a7fa-43e7-abda-32d437bd5d63",
       "ward_no": "18",
-      "ward_name_en": "Amappotta",
-      "ward_name_ml": "ആമപ്പൊറ്റ"
+      "name_en": "Amappotta",
+      "name_ml": "ആമപ്പൊറ്റ"
     }
   ],
   "towns": [],

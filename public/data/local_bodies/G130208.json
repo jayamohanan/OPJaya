@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G130208",
-  "local_body_name_en": "Narath",
-  "local_body_name_ml": "നാറാത്ത്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G130208",
+  "name_en": "Narath",
+  "name_ml": "നാറാത്ത്",
+  "assembly_id": "10",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "10",
-    "assembly_name_en": "Azhikode",
-    "assembly_name_ml": "അഴീക്കോട്",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Azhikode",
+    "name_ml": "അഴീക്കോട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "71a32cdb-2155-46aa-ba98-2b29b09bc925",
+      "id": "71a32cdb-2155-46aa-ba98-2b29b09bc925",
       "ward_no": "1",
-      "ward_name_en": "Kambiltheru",
-      "ward_name_ml": "കമ്പില്‍തെരു"
+      "name_en": "Kambiltheru",
+      "name_ml": "കമ്പില്‍തെരു"
     },
     {
-      "ward_id": "7d76eb14-c829-4440-8131-1e07b1392303",
+      "id": "7d76eb14-c829-4440-8131-1e07b1392303",
       "ward_no": "2",
-      "ward_name_en": "Choyicheri",
-      "ward_name_ml": "ചോയിച്ചേരി"
+      "name_en": "Choyicheri",
+      "name_ml": "ചോയിച്ചേരി"
     },
     {
-      "ward_id": "b9f30c98-a610-4afb-bb8c-c66bd7fefe31",
+      "id": "b9f30c98-a610-4afb-bb8c-c66bd7fefe31",
       "ward_no": "3",
-      "ward_name_en": "Onapparambu",
-      "ward_name_ml": "ഓണപ്പറമ്പ്"
+      "name_en": "Onapparambu",
+      "name_ml": "ഓണപ്പറമ്പ്"
     },
     {
-      "ward_id": "d0e613e9-2227-46db-a06b-6e5adc6ed8af",
+      "id": "d0e613e9-2227-46db-a06b-6e5adc6ed8af",
       "ward_no": "4",
-      "ward_name_en": "Kottanchery",
-      "ward_name_ml": "കോട്ടാഞ്ചേരി"
+      "name_en": "Kottanchery",
+      "name_ml": "കോട്ടാഞ്ചേരി"
     },
     {
-      "ward_id": "72815125-6e03-47ef-90fa-b0deaafa0f0e",
+      "id": "72815125-6e03-47ef-90fa-b0deaafa0f0e",
       "ward_no": "5",
-      "ward_name_en": "Malot  North",
-      "ward_name_ml": "മാലോട്ട് നോര്‍ത്ത്"
+      "name_en": "Malot  North",
+      "name_ml": "മാലോട്ട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "95d8144f-9ced-467d-9281-ad4775769554",
+      "id": "95d8144f-9ced-467d-9281-ad4775769554",
       "ward_no": "6",
-      "ward_name_en": "Palleri",
-      "ward_name_ml": "പള്ളേരി"
+      "name_en": "Palleri",
+      "name_ml": "പള്ളേരി"
     },
     {
-      "ward_id": "8d82be16-adad-4ff9-acef-314d2703f15c",
+      "id": "8d82be16-adad-4ff9-acef-314d2703f15c",
       "ward_no": "7",
-      "ward_name_en": "Malot  South",
-      "ward_name_ml": "മാലോട്ട് സൌത്ത്"
+      "name_en": "Malot  South",
+      "name_ml": "മാലോട്ട് സൌത്ത്"
     },
     {
-      "ward_id": "5141f761-8301-4360-acee-0deb69cd8b0e",
+      "id": "5141f761-8301-4360-acee-0deb69cd8b0e",
       "ward_no": "8",
-      "ward_name_en": "Kannadiparamba East",
-      "ward_name_ml": "കണ്ണാടിപ്പറമ്പ ഈസ്റ്റ്"
+      "name_en": "Kannadiparamba East",
+      "name_ml": "കണ്ണാടിപ്പറമ്പ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "07520aa9-9d36-4edc-99ca-c1629b8d96ad",
+      "id": "07520aa9-9d36-4edc-99ca-c1629b8d96ad",
       "ward_no": "9",
-      "ward_name_en": "Mathodam",
-      "ward_name_ml": "മാതോടം"
+      "name_en": "Mathodam",
+      "name_ml": "മാതോടം"
     },
     {
-      "ward_id": "4b5eecba-c353-4003-a3b0-fc191c470133",
+      "id": "4b5eecba-c353-4003-a3b0-fc191c470133",
       "ward_no": "10",
-      "ward_name_en": "Vayapram",
-      "ward_name_ml": "വയപ്രം"
+      "name_en": "Vayapram",
+      "name_ml": "വയപ്രം"
     },
     {
-      "ward_id": "5be74817-5b50-478c-b6a8-201a857e1540",
+      "id": "5be74817-5b50-478c-b6a8-201a857e1540",
       "ward_no": "11",
-      "ward_name_en": "Kannadiparamba West",
-      "ward_name_ml": "കണ്ണാടിപ്പറമ്പ വെസ്റ്റ്"
+      "name_en": "Kannadiparamba West",
+      "name_ml": "കണ്ണാടിപ്പറമ്പ വെസ്റ്റ്"
     },
     {
-      "ward_id": "0c95817e-1f6a-4780-acfd-f84b0b8154af",
+      "id": "0c95817e-1f6a-4780-acfd-f84b0b8154af",
       "ward_no": "12",
-      "ward_name_en": "Pulloopi",
-      "ward_name_ml": "പുല്ലൂപ്പി"
+      "name_en": "Pulloopi",
+      "name_ml": "പുല്ലൂപ്പി"
     },
     {
-      "ward_id": "71f57225-df59-483e-ad07-8ba702922325",
+      "id": "71f57225-df59-483e-ad07-8ba702922325",
       "ward_no": "13",
-      "ward_name_en": "Pulloopi West",
-      "ward_name_ml": "പുല്ലൂപ്പി വെസ്റ്റ്"
+      "name_en": "Pulloopi West",
+      "name_ml": "പുല്ലൂപ്പി വെസ്റ്റ്"
     },
     {
-      "ward_id": "2e69ba45-f21f-4648-98e9-7602206d7773",
+      "id": "2e69ba45-f21f-4648-98e9-7602206d7773",
       "ward_no": "14",
-      "ward_name_en": "Niduvatt",
-      "ward_name_ml": "നിടുവാട്ട്"
+      "name_en": "Niduvatt",
+      "name_ml": "നിടുവാട്ട്"
     },
     {
-      "ward_id": "48f9cffd-9909-4914-9bf9-b2e97ba01465",
+      "id": "48f9cffd-9909-4914-9bf9-b2e97ba01465",
       "ward_no": "15",
-      "ward_name_en": "Kakkathuruthi",
-      "ward_name_ml": "കാക്കത്തുരുത്തി"
+      "name_en": "Kakkathuruthi",
+      "name_ml": "കാക്കത്തുരുത്തി"
     },
     {
-      "ward_id": "b3d22266-d2a4-4363-96ad-13e160e2fb29",
+      "id": "b3d22266-d2a4-4363-96ad-13e160e2fb29",
       "ward_no": "16",
-      "ward_name_en": "Narath",
-      "ward_name_ml": "നാറാത്ത്"
+      "name_en": "Narath",
+      "name_ml": "നാറാത്ത്"
     },
     {
-      "ward_id": "c0da41c7-7d6d-4a99-800b-e6308853fb28",
+      "id": "c0da41c7-7d6d-4a99-800b-e6308853fb28",
       "ward_no": "17",
-      "ward_name_en": "Kambil",
-      "ward_name_ml": "കമ്പില്‍"
+      "name_en": "Kambil",
+      "name_ml": "കമ്പില്‍"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G081302",
-  "local_body_name_en": "Poomangalam",
-  "local_body_name_ml": "പൂമംഗലം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G081302",
+  "name_en": "Poomangalam",
+  "name_ml": "പൂമംഗലം",
+  "assembly_id": "70",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "70",
-    "assembly_name_en": "Irinjalakuda",
-    "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
-    "category": "Normal"
+    "id": "70",
+    "name_en": "Irinjalakuda",
+    "name_ml": "ഇരിങ്ങാലക്കുട",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "43f10c71-05fd-42a3-8744-142af1bf6241",
+      "id": "43f10c71-05fd-42a3-8744-142af1bf6241",
       "ward_no": "1",
-      "ward_name_en": "Chelookavu",
-      "ward_name_ml": "ചേലൂക്കാവ്"
+      "name_en": "Chelookavu",
+      "name_ml": "ചേലൂക്കാവ്"
     },
     {
-      "ward_id": "af5e93cd-2121-4540-9c4c-380926e52c65",
+      "id": "af5e93cd-2121-4540-9c4c-380926e52c65",
       "ward_no": "2",
-      "ward_name_en": "Shanmugham Canal",
-      "ward_name_ml": "ഷണ്‍മുഖം കനാല്‍"
+      "name_en": "Shanmugham Canal",
+      "name_ml": "ഷണ്‍മുഖം കനാല്‍"
     },
     {
-      "ward_id": "9bc6ca34-3530-4e50-b4b8-eadc60a317de",
+      "id": "9bc6ca34-3530-4e50-b4b8-eadc60a317de",
       "ward_no": "3",
-      "ward_name_en": "S.N. Nagar",
-      "ward_name_ml": "എസ്.എന്‍.നഗര്‍"
+      "name_en": "S.N. Nagar",
+      "name_ml": "എസ്.എന്‍.നഗര്‍"
     },
     {
-      "ward_id": "d90194e1-e199-4df0-a749-2159117b560f",
+      "id": "d90194e1-e199-4df0-a749-2159117b560f",
       "ward_no": "4",
-      "ward_name_en": "Edakulam",
-      "ward_name_ml": "എടക്കുളം"
+      "name_en": "Edakulam",
+      "name_ml": "എടക്കുളം"
     },
     {
-      "ward_id": "08118f12-74fb-41ae-bdb2-929bf0d62bbd",
+      "id": "08118f12-74fb-41ae-bdb2-929bf0d62bbd",
       "ward_no": "5",
-      "ward_name_en": "Thoppu",
-      "ward_name_ml": "തോപ്പ്"
+      "name_en": "Thoppu",
+      "name_ml": "തോപ്പ്"
     },
     {
-      "ward_id": "b18d16d5-a986-4f87-bdd9-cc95a389e4e1",
+      "id": "b18d16d5-a986-4f87-bdd9-cc95a389e4e1",
       "ward_no": "6",
-      "ward_name_en": "Pathiyamkulangara",
-      "ward_name_ml": "പതിയാംകുളങ്ങര"
+      "name_en": "Pathiyamkulangara",
+      "name_ml": "പതിയാംകുളങ്ങര"
     },
     {
-      "ward_id": "f7cdcbe9-8645-49e0-9fda-4c8f37083d90",
+      "id": "f7cdcbe9-8645-49e0-9fda-4c8f37083d90",
       "ward_no": "7",
-      "ward_name_en": "Kalparamba North",
-      "ward_name_ml": "കല്‍പ്പറമ്പ് നോര്‍ത്ത്"
+      "name_en": "Kalparamba North",
+      "name_ml": "കല്‍പ്പറമ്പ് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "1b579358-a9be-4a64-b26e-8eebb4daa2bb",
+      "id": "1b579358-a9be-4a64-b26e-8eebb4daa2bb",
       "ward_no": "8",
-      "ward_name_en": "Poomangalam",
-      "ward_name_ml": "പൂമംഗലം"
+      "name_en": "Poomangalam",
+      "name_ml": "പൂമംഗലം"
     },
     {
-      "ward_id": "5419d2d3-5627-4242-ab15-34ea54f3788f",
+      "id": "5419d2d3-5627-4242-ab15-34ea54f3788f",
       "ward_no": "9",
-      "ward_name_en": "Kalparamba  Centre",
-      "ward_name_ml": "കല്‍പ്പറമ്പ്  സെന്‍റര്‍"
+      "name_en": "Kalparamba  Centre",
+      "name_ml": "കല്‍പ്പറമ്പ്  സെന്‍റര്‍"
     },
     {
-      "ward_id": "0dedef52-22b1-4ed4-9581-b0edf2d53626",
+      "id": "0dedef52-22b1-4ed4-9581-b0edf2d53626",
       "ward_no": "10",
-      "ward_name_en": "Aripalam",
-      "ward_name_ml": "അരിപ്പാലം"
+      "name_en": "Aripalam",
+      "name_ml": "അരിപ്പാലം"
     },
     {
-      "ward_id": "711fae41-74ef-4bce-9092-fe530804399a",
+      "id": "711fae41-74ef-4bce-9092-fe530804399a",
       "ward_no": "11",
-      "ward_name_en": "Payammal",
-      "ward_name_ml": "പായമ്മല്‍"
+      "name_en": "Payammal",
+      "name_ml": "പായമ്മല്‍"
     },
     {
-      "ward_id": "24d714f2-454d-4c61-aeaf-99f9f2d2e61b",
+      "id": "24d714f2-454d-4c61-aeaf-99f9f2d2e61b",
       "ward_no": "12",
-      "ward_name_en": "Nettiyadu",
-      "ward_name_ml": "നെറ്റിയാട്"
+      "name_en": "Nettiyadu",
+      "name_ml": "നെറ്റിയാട്"
     },
     {
-      "ward_id": "2393e564-0565-4013-841b-c35e88fa7de9",
+      "id": "2393e564-0565-4013-841b-c35e88fa7de9",
       "ward_no": "13",
-      "ward_name_en": "Muttatheri",
-      "ward_name_ml": "മുട്ടത്തേരി"
+      "name_en": "Muttatheri",
+      "name_ml": "മുട്ടത്തേരി"
     }
   ],
   "towns": [],

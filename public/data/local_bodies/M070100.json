@@ -1,274 +1,285 @@
 {
-  "local_body_id": "M070100",
-  "local_body_name_en": "Kalamassery",
-  "local_body_name_ml": "കളമശ്ശേരി",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "77",
-    "assembly_name_en": "Kalamassery",
-    "assembly_name_ml": "കളമശ്ശേരി",
+  "id": "M070100",
+  "name_en": "Kalamassery",
+  "name_ml": "കളമശ്ശേരി",
+  "assembly_id": "77",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "77",
+    "name_en": "Kalamassery",
+    "name_ml": "കളമശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e036432d-0bbb-47de-b2e6-8ee74ca739c9",
+      "id": "e036432d-0bbb-47de-b2e6-8ee74ca739c9",
       "ward_no": "1",
-      "ward_name_en": "Glass Colony",
-      "ward_name_ml": "ഗ്ലാസ് കോളനി"
+      "name_en": "Glass Colony",
+      "name_ml": "ഗ്ലാസ് കോളനി"
     },
     {
-      "ward_id": "3528ec90-c5e7-4746-9f6d-c167002fd7ea",
+      "id": "3528ec90-c5e7-4746-9f6d-c167002fd7ea",
       "ward_no": "2",
-      "ward_name_en": "Santhinagar Annex",
-      "ward_name_ml": "ശാന്തിനഗര്‍ അനക്സ്"
+      "name_en": "Santhinagar Annex",
+      "name_ml": "ശാന്തിനഗര്‍ അനക്സ്"
     },
     {
-      "ward_id": "bb53a3fb-f8f8-4767-b373-cd3937c66872",
+      "id": "bb53a3fb-f8f8-4767-b373-cd3937c66872",
       "ward_no": "3",
-      "ward_name_en": "Rajagiri",
-      "ward_name_ml": "രാജഗിരി"
+      "name_en": "Rajagiri",
+      "name_ml": "രാജഗിരി"
     },
     {
-      "ward_id": "f042a504-0f42-4c0f-8c35-db913645fcc9",
+      "id": "f042a504-0f42-4c0f-8c35-db913645fcc9",
       "ward_no": "4",
-      "ward_name_en": "Sundharagiri",
-      "ward_name_ml": "സുന്ദരഗിരി"
+      "name_en": "Sundharagiri",
+      "name_ml": "സുന്ദരഗിരി"
     },
     {
-      "ward_id": "80e92814-b1cb-4b83-9086-083ac09f106a",
+      "id": "80e92814-b1cb-4b83-9086-083ac09f106a",
       "ward_no": "5",
-      "ward_name_en": "North Kalamassery",
-      "ward_name_ml": "നോര്‍ത്ത് കളമശ്ശേരി"
+      "name_en": "North Kalamassery",
+      "name_ml": "നോര്‍ത്ത് കളമശ്ശേരി"
     },
     {
-      "ward_id": "242422e4-565d-478d-b154-d555557b649a",
+      "id": "242422e4-565d-478d-b154-d555557b649a",
       "ward_no": "6",
-      "ward_name_en": "H M T Junction",
-      "ward_name_ml": "എച്ച് എം ടി ജംഗ്ഷന്‍"
+      "name_en": "H M T Junction",
+      "name_ml": "എച്ച് എം ടി ജംഗ്ഷന്‍"
     },
     {
-      "ward_id": "bd0b4ec3-4834-4f8b-8405-ecdf6687e2e1",
+      "id": "bd0b4ec3-4834-4f8b-8405-ecdf6687e2e1",
       "ward_no": "7",
-      "ward_name_en": "Sub Station",
-      "ward_name_ml": "സബ് സ്റ്റേഷന്‍"
+      "name_en": "Sub Station",
+      "name_ml": "സബ് സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "43dabd73-d955-4f92-b3b7-a6f16fc6aa29",
+      "id": "43dabd73-d955-4f92-b3b7-a6f16fc6aa29",
       "ward_no": "8",
-      "ward_name_en": "Rockwell",
-      "ward_name_ml": "റോക്ക് വെല്‍"
+      "name_en": "Rockwell",
+      "name_ml": "റോക്ക് വെല്‍"
     },
     {
-      "ward_id": "240989b0-112f-493e-9480-3732bcaa6b0e",
+      "id": "240989b0-112f-493e-9480-3732bcaa6b0e",
       "ward_no": "9",
-      "ward_name_en": "Vidakkuzha",
-      "ward_name_ml": "വിടാക്കുഴ"
+      "name_en": "Vidakkuzha",
+      "name_ml": "വിടാക്കുഴ"
     },
     {
-      "ward_id": "0ee41dfe-c0ea-478d-8628-d52c331f8288",
+      "id": "0ee41dfe-c0ea-478d-8628-d52c331f8288",
       "ward_no": "10",
-      "ward_name_en": "Peringazha",
-      "ward_name_ml": "പെരിങ്ങഴ"
+      "name_en": "Peringazha",
+      "name_ml": "പെരിങ്ങഴ"
     },
     {
-      "ward_id": "029b34bb-80ef-4108-bd86-004fdd5e11f4",
+      "id": "029b34bb-80ef-4108-bd86-004fdd5e11f4",
       "ward_no": "11",
-      "ward_name_en": "Pipeline",
-      "ward_name_ml": "പൈപ്പ് ലൈന്‍"
+      "name_en": "Pipeline",
+      "name_ml": "പൈപ്പ് ലൈന്‍"
     },
     {
-      "ward_id": "9f46bacc-c6ee-407d-92b7-9760e9249c33",
+      "id": "9f46bacc-c6ee-407d-92b7-9760e9249c33",
       "ward_no": "12",
-      "ward_name_en": "H M T Estate",
-      "ward_name_ml": "എച്ച് എം ടി എസ്റ്റേറ്റ്‌"
+      "name_en": "H M T Estate",
+      "name_ml": "എച്ച് എം ടി എസ്റ്റേറ്റ്‌"
     },
     {
-      "ward_id": "d59aca55-c31d-4a1d-9994-e42ac4012b14",
+      "id": "d59aca55-c31d-4a1d-9994-e42ac4012b14",
       "ward_no": "13",
-      "ward_name_en": "Kurupra",
-      "ward_name_ml": "കുറുപ്ര"
+      "name_en": "Kurupra",
+      "name_ml": "കുറുപ്ര"
     },
     {
-      "ward_id": "227f08b3-fba1-4844-a563-80f1535646d8",
+      "id": "227f08b3-fba1-4844-a563-80f1535646d8",
       "ward_no": "14",
-      "ward_name_en": "Medical College",
-      "ward_name_ml": "മെഡിക്കല്‍ കോളേജ്"
+      "name_en": "Medical College",
+      "name_ml": "മെഡിക്കല്‍ കോളേജ്"
     },
     {
-      "ward_id": "590c9c4f-c659-4a12-9ac6-4d4625155b86",
+      "id": "590c9c4f-c659-4a12-9ac6-4d4625155b86",
       "ward_no": "15",
-      "ward_name_en": "Thevakkal",
-      "ward_name_ml": "തേവയ്ക്കല്‍"
+      "name_en": "Thevakkal",
+      "name_ml": "തേവയ്ക്കല്‍"
     },
     {
-      "ward_id": "1854dbc5-2fc3-4b4c-be9c-cadff2bc2ab2",
+      "id": "1854dbc5-2fc3-4b4c-be9c-cadff2bc2ab2",
       "ward_no": "16",
-      "ward_name_en": "Parakkattumala",
-      "ward_name_ml": "പറക്കാട്ടുമല"
+      "name_en": "Parakkattumala",
+      "name_ml": "പറക്കാട്ടുമല"
     },
     {
-      "ward_id": "0ab677cc-3170-49ad-b484-3774cfc00644",
+      "id": "0ab677cc-3170-49ad-b484-3774cfc00644",
       "ward_no": "17",
-      "ward_name_en": "Puliyampuram",
-      "ward_name_ml": "പുളിയംപുറം"
+      "name_en": "Puliyampuram",
+      "name_ml": "പുളിയംപുറം"
     },
     {
-      "ward_id": "426c1c3d-7bf8-41b2-a4df-4967b6fdcd54",
+      "id": "426c1c3d-7bf8-41b2-a4df-4967b6fdcd54",
       "ward_no": "18",
-      "ward_name_en": "Mini Town Hall",
-      "ward_name_ml": "മിനി ടൌണ്‍ ഹാള്‍"
+      "name_en": "Mini Town Hall",
+      "name_ml": "മിനി ടൌണ്‍ ഹാള്‍"
     },
     {
-      "ward_id": "9e377c2d-3fa8-4cb1-abcd-b74f3c3d46c8",
+      "id": "9e377c2d-3fa8-4cb1-abcd-b74f3c3d46c8",
       "ward_no": "19",
-      "ward_name_en": "Kangarappady",
-      "ward_name_ml": "കങ്ങരപ്പടി"
+      "name_en": "Kangarappady",
+      "name_ml": "കങ്ങരപ്പടി"
     },
     {
-      "ward_id": "a348e6f8-cf71-4702-92df-61975bcceac2",
+      "id": "a348e6f8-cf71-4702-92df-61975bcceac2",
       "ward_no": "20",
-      "ward_name_en": "Vadakodu",
-      "ward_name_ml": "വടകോട്"
+      "name_en": "Vadakodu",
+      "name_ml": "വടകോട്"
     },
     {
-      "ward_id": "12f38092-1f4e-4fd3-a935-8ca9b84132b2",
+      "id": "12f38092-1f4e-4fd3-a935-8ca9b84132b2",
       "ward_no": "21",
-      "ward_name_en": "University Colony",
-      "ward_name_ml": "യൂണിവേഴ്സിറ്റി കോളനി"
+      "name_en": "University Colony",
+      "name_ml": "യൂണിവേഴ്സിറ്റി കോളനി"
     },
     {
-      "ward_id": "cfeb3b17-f203-4b5d-a0e8-dd91b7aa31e1",
+      "id": "cfeb3b17-f203-4b5d-a0e8-dd91b7aa31e1",
       "ward_no": "22",
-      "ward_name_en": "Punnakkattu",
-      "ward_name_ml": "പുന്നക്കാട്ട്"
+      "name_en": "Punnakkattu",
+      "name_ml": "പുന്നക്കാട്ട്"
     },
     {
-      "ward_id": "7799fb24-1dfd-4cdd-8ec9-11e1e4afe442",
+      "id": "7799fb24-1dfd-4cdd-8ec9-11e1e4afe442",
       "ward_no": "23",
-      "ward_name_en": "St Josephs",
-      "ward_name_ml": "സെന്‍റ് ജോസഫ്സ്"
+      "name_en": "St Josephs",
+      "name_ml": "സെന്‍റ് ജോസഫ്സ്"
     },
     {
-      "ward_id": "c0195b82-a4e1-4f44-a281-778dd01c8f8e",
+      "id": "c0195b82-a4e1-4f44-a281-778dd01c8f8e",
       "ward_no": "24",
-      "ward_name_en": "Town Hall",
-      "ward_name_ml": "ടൌണ്‍ ഹാള്‍"
+      "name_en": "Town Hall",
+      "name_ml": "ടൌണ്‍ ഹാള്‍"
     },
     {
-      "ward_id": "cef93da3-b0e2-479c-a614-4456b424522d",
+      "id": "cef93da3-b0e2-479c-a614-4456b424522d",
       "ward_no": "25",
-      "ward_name_en": "Changampuzha Nagar",
-      "ward_name_ml": "ചങ്ങമ്പുഴ നഗര്‍"
+      "name_en": "Changampuzha Nagar",
+      "name_ml": "ചങ്ങമ്പുഴ നഗര്‍"
     },
     {
-      "ward_id": "a3fe2f06-4487-4974-81f9-64ef13ce3433",
+      "id": "a3fe2f06-4487-4974-81f9-64ef13ce3433",
       "ward_no": "26",
-      "ward_name_en": "University",
-      "ward_name_ml": "യൂണിവേഴ്സിറ്റി"
+      "name_en": "University",
+      "name_ml": "യൂണിവേഴ്സിറ്റി"
     },
     {
-      "ward_id": "7c61ecf9-45d6-4bc4-bfcc-f11c96409a20",
+      "id": "7c61ecf9-45d6-4bc4-bfcc-f11c96409a20",
       "ward_no": "27",
-      "ward_name_en": "Thrikkakkara Ambalam",
-      "ward_name_ml": "തൃക്കാക്കര അമ്പലം"
+      "name_en": "Thrikkakkara Ambalam",
+      "name_ml": "തൃക്കാക്കര അമ്പലം"
     },
     {
-      "ward_id": "8748d397-5237-4938-9ff8-201b78214647",
+      "id": "8748d397-5237-4938-9ff8-201b78214647",
       "ward_no": "28",
-      "ward_name_en": "Kannamkulam",
-      "ward_name_ml": "കണ്ണംകുളം"
+      "name_en": "Kannamkulam",
+      "name_ml": "കണ്ണംകുളം"
     },
     {
-      "ward_id": "a9af2f40-6d3c-48c2-86ba-fde2fdede5b3",
+      "id": "a9af2f40-6d3c-48c2-86ba-fde2fdede5b3",
       "ward_no": "29",
-      "ward_name_en": "Hillvalley",
-      "ward_name_ml": "ഹില്‍ വാലി"
+      "name_en": "Hillvalley",
+      "name_ml": "ഹില്‍ വാലി"
     },
     {
-      "ward_id": "f1a1ae25-fbba-4f6e-960b-49fcaf669606",
+      "id": "f1a1ae25-fbba-4f6e-960b-49fcaf669606",
       "ward_no": "30",
-      "ward_name_en": "Library",
-      "ward_name_ml": "ലൈബ്രറി"
+      "name_en": "Library",
+      "name_ml": "ലൈബ്രറി"
     },
     {
-      "ward_id": "397c238e-51e5-458e-a77e-796ad206127a",
+      "id": "397c238e-51e5-458e-a77e-796ad206127a",
       "ward_no": "31",
-      "ward_name_en": "Puthuppallipram",
-      "ward_name_ml": "പുതുപ്പള്ളിപ്രം"
+      "name_en": "Puthuppallipram",
+      "name_ml": "പുതുപ്പള്ളിപ്രം"
     },
     {
-      "ward_id": "aa39c705-e97f-493d-98a3-10277090df3b",
+      "id": "aa39c705-e97f-493d-98a3-10277090df3b",
       "ward_no": "32",
-      "ward_name_en": "Unichira",
-      "ward_name_ml": "ഉണിച്ചിറ"
+      "name_en": "Unichira",
+      "name_ml": "ഉണിച്ചിറ"
     },
     {
-      "ward_id": "935d2d3a-29a2-41f7-91cb-53365e7a8a1a",
+      "id": "935d2d3a-29a2-41f7-91cb-53365e7a8a1a",
       "ward_no": "33",
-      "ward_name_en": "Parutheli",
-      "ward_name_ml": "പരുത്തേലി"
+      "name_en": "Parutheli",
+      "name_ml": "പരുത്തേലി"
     },
     {
-      "ward_id": "be7e7e0a-2ab7-43e0-9be9-0285ac6e24e3",
+      "id": "be7e7e0a-2ab7-43e0-9be9-0285ac6e24e3",
       "ward_no": "34",
-      "ward_name_en": "Tollgate",
-      "ward_name_ml": "ടോള്‍ ഗേറ്റ്"
+      "name_en": "Tollgate",
+      "name_ml": "ടോള്‍ ഗേറ്റ്"
     },
     {
-      "ward_id": "12da129b-6243-48c2-aa28-cb6b95b89dda",
+      "id": "12da129b-6243-48c2-aa28-cb6b95b89dda",
       "ward_no": "35",
-      "ward_name_en": "Koonamthai",
-      "ward_name_ml": "കൂനംതൈ"
+      "name_en": "Koonamthai",
+      "name_ml": "കൂനംതൈ"
     },
     {
-      "ward_id": "ad1826b8-5cec-4cda-8119-c4911e701afb",
+      "id": "ad1826b8-5cec-4cda-8119-c4911e701afb",
       "ward_no": "36",
-      "ward_name_en": "Muesium",
-      "ward_name_ml": "മ്യൂസിയം"
+      "name_en": "Muesium",
+      "name_ml": "മ്യൂസിയം"
     },
     {
-      "ward_id": "ccd2e93f-a443-45f0-b9ac-35e7a1e44c29",
+      "id": "ccd2e93f-a443-45f0-b9ac-35e7a1e44c29",
       "ward_no": "37",
-      "ward_name_en": "Municipal",
-      "ward_name_ml": "മുനിസിപ്പല്‍"
+      "name_en": "Municipal",
+      "name_ml": "മുനിസിപ്പല്‍"
     },
     {
-      "ward_id": "c1cd211c-b70a-4465-933d-6b0d4c9005ab",
+      "id": "c1cd211c-b70a-4465-933d-6b0d4c9005ab",
       "ward_no": "38",
-      "ward_name_en": "K B Park",
-      "ward_name_ml": "കെ ബി പാര്‍ക്ക്"
+      "name_en": "K B Park",
+      "name_ml": "കെ ബി പാര്‍ക്ക്"
     },
     {
-      "ward_id": "f45343e8-c80e-4750-b8ee-4903dfcedd98",
+      "id": "f45343e8-c80e-4750-b8ee-4903dfcedd98",
       "ward_no": "39",
-      "ward_name_en": "Vattekkunnam",
-      "ward_name_ml": "വട്ടേക്കുന്നം"
+      "name_en": "Vattekkunnam",
+      "name_ml": "വട്ടേക്കുന്നം"
     },
     {
-      "ward_id": "9dc5c142-2f62-4b63-9c98-ab2209cf23de",
+      "id": "9dc5c142-2f62-4b63-9c98-ab2209cf23de",
       "ward_no": "40",
-      "ward_name_en": "Muttar",
-      "ward_name_ml": "മുട്ടാര്‍"
+      "name_en": "Muttar",
+      "name_ml": "മുട്ടാര്‍"
     },
     {
-      "ward_id": "a122ec06-3927-4660-897a-bb608665ae07",
+      "id": "a122ec06-3927-4660-897a-bb608665ae07",
       "ward_no": "41",
-      "ward_name_en": "Industrial Estate",
-      "ward_name_ml": "ഇന്‍ഡസ്ട്രിയല്‍ എസ്റ്റേറ്റ്‌"
+      "name_en": "Industrial Estate",
+      "name_ml": "ഇന്‍ഡസ്ട്രിയല്‍ എസ്റ്റേറ്റ്‌"
     },
     {
-      "ward_id": "74fdb1d8-5ba7-4b96-aec0-9d325ff1ada6",
+      "id": "74fdb1d8-5ba7-4b96-aec0-9d325ff1ada6",
       "ward_no": "42",
-      "ward_name_en": "Chakyadam",
-      "ward_name_ml": "ചക്യാടം"
+      "name_en": "Chakyadam",
+      "name_ml": "ചക്യാടം"
     }
   ],
   "towns": [],

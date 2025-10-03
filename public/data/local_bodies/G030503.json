@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030503",
-  "local_body_name_en": "Ranni Angadi",
-  "local_body_name_ml": "റാന്നി അങ്ങാടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G030503",
+  "name_en": "Ranni Angadi",
+  "name_ml": "റാന്നി അങ്ങാടി",
+  "assembly_id": "112",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "112",
-    "assembly_name_en": "Ranni",
-    "assembly_name_ml": "റാന്നി",
-    "category": "Normal"
+    "id": "112",
+    "name_en": "Ranni",
+    "name_ml": "റാന്നി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "3458167f-36d7-4e16-b256-88b08ff23496",
+      "id": "3458167f-36d7-4e16-b256-88b08ff23496",
       "ward_no": "1",
-      "ward_name_en": "Nellickamon",
-      "ward_name_ml": "നെല്ലിക്കമണ്‍"
+      "name_en": "Nellickamon",
+      "name_ml": "നെല്ലിക്കമണ്‍"
     },
     {
-      "ward_id": "4c750e20-4099-469b-b08e-2fb15fd82453",
+      "id": "4c750e20-4099-469b-b08e-2fb15fd82453",
       "ward_no": "2",
-      "ward_name_en": "Chavaramplavu",
-      "ward_name_ml": "ചവറംപ്ലാവ്"
+      "name_en": "Chavaramplavu",
+      "name_ml": "ചവറംപ്ലാവ്"
     },
     {
-      "ward_id": "8434e4a7-4880-4b52-beb8-6ed4dab0be09",
+      "id": "8434e4a7-4880-4b52-beb8-6ed4dab0be09",
       "ward_no": "3",
-      "ward_name_en": "Mannarathara",
-      "ward_name_ml": "മണ്ണാറത്തറ"
+      "name_en": "Mannarathara",
+      "name_ml": "മണ്ണാറത്തറ"
     },
     {
-      "ward_id": "0cbbcd72-009b-4f34-9b41-7dff0b98084a",
+      "id": "0cbbcd72-009b-4f34-9b41-7dff0b98084a",
       "ward_no": "4",
-      "ward_name_en": "Valiyakavu",
-      "ward_name_ml": "വലിയകാവ്"
+      "name_en": "Valiyakavu",
+      "name_ml": "വലിയകാവ്"
     },
     {
-      "ward_id": "5e627fee-fda4-4ebe-b985-4c75578fc735",
+      "id": "5e627fee-fda4-4ebe-b985-4c75578fc735",
       "ward_no": "5",
-      "ward_name_en": "Ettichuvadu",
-      "ward_name_ml": "ഈട്ടിച്ചുവട്"
+      "name_en": "Ettichuvadu",
+      "name_ml": "ഈട്ടിച്ചുവട്"
     },
     {
-      "ward_id": "61138a22-d49f-4c55-843b-5670373855fb",
+      "id": "61138a22-d49f-4c55-843b-5670373855fb",
       "ward_no": "6",
-      "ward_name_en": "Pulloli",
-      "ward_name_ml": "പുള്ളോലി"
+      "name_en": "Pulloli",
+      "name_ml": "പുള്ളോലി"
     },
     {
-      "ward_id": "e6195165-d460-43ed-85ba-1080e050ff6f",
+      "id": "e6195165-d460-43ed-85ba-1080e050ff6f",
       "ward_no": "7",
-      "ward_name_en": "Angadi Town",
-      "ward_name_ml": "അങ്ങാടി ടൌണ്‍"
+      "name_en": "Angadi Town",
+      "name_ml": "അങ്ങാടി ടൌണ്‍"
     },
     {
-      "ward_id": "9a461aa1-9425-40f8-b898-8bc73d25709d",
+      "id": "9a461aa1-9425-40f8-b898-8bc73d25709d",
       "ward_no": "8",
-      "ward_name_en": "Karimkutty",
-      "ward_name_ml": "കരിങ്കുറ്റി"
+      "name_en": "Karimkutty",
+      "name_ml": "കരിങ്കുറ്റി"
     },
     {
-      "ward_id": "e0c171d1-f118-482f-90e6-20221bd2f391",
+      "id": "e0c171d1-f118-482f-90e6-20221bd2f391",
       "ward_no": "9",
-      "ward_name_en": "Menamthottam",
-      "ward_name_ml": "മേനാംതോട്ടം"
+      "name_en": "Menamthottam",
+      "name_ml": "മേനാംതോട്ടം"
     },
     {
-      "ward_id": "57b2adfe-5c80-4759-841c-5e773894e3d4",
+      "id": "57b2adfe-5c80-4759-841c-5e773894e3d4",
       "ward_no": "10",
-      "ward_name_en": "Pulloopram",
-      "ward_name_ml": "പുല്ലൂപ്രം"
+      "name_en": "Pulloopram",
+      "name_ml": "പുല്ലൂപ്രം"
     },
     {
-      "ward_id": "38bcc13e-0a1d-4233-b56f-2e124dd3d55c",
+      "id": "38bcc13e-0a1d-4233-b56f-2e124dd3d55c",
       "ward_no": "11",
-      "ward_name_en": "Varavoor",
-      "ward_name_ml": "വരവൂര്‍"
+      "name_en": "Varavoor",
+      "name_ml": "വരവൂര്‍"
     },
     {
-      "ward_id": "4f28e551-35e6-4d1c-8c7b-770a88e75126",
+      "id": "4f28e551-35e6-4d1c-8c7b-770a88e75126",
       "ward_no": "12",
-      "ward_name_en": "Poovanmala",
-      "ward_name_ml": "പൂവന്മല"
+      "name_en": "Poovanmala",
+      "name_ml": "പൂവന്മല"
     },
     {
-      "ward_id": "dba0e81c-86f6-455b-998c-e366150e2b8e",
+      "id": "dba0e81c-86f6-455b-998c-e366150e2b8e",
       "ward_no": "13",
-      "ward_name_en": "Pullampally",
-      "ward_name_ml": "പുല്ലമ്പള്ളി"
+      "name_en": "Pullampally",
+      "name_ml": "പുല്ലമ്പള്ളി"
     }
   ],
   "towns": [],

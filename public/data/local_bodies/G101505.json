@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G101505",
-  "local_body_name_en": "Veliancode",
-  "local_body_name_ml": "വെളിയങ്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "48",
-    "assembly_name_en": "Ponnani",
-    "assembly_name_ml": "പൊന്നാനി",
+  "id": "G101505",
+  "name_en": "Veliancode",
+  "name_ml": "വെളിയങ്കോട്",
+  "assembly_id": "48",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "48",
+    "name_en": "Ponnani",
+    "name_ml": "പൊന്നാനി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b92fae52-6956-437e-b086-a86166c3f54f",
+      "id": "b92fae52-6956-437e-b086-a86166c3f54f",
       "ward_no": "1",
-      "ward_name_en": "Ummerghasi",
-      "ward_name_ml": "ഉമ്മര്‍ഖാസി"
+      "name_en": "Ummerghasi",
+      "name_ml": "ഉമ്മര്‍ഖാസി"
     },
     {
-      "ward_id": "2a853c3c-fff6-4d8f-a9d1-0fa9986a5f9b",
+      "id": "2a853c3c-fff6-4d8f-a9d1-0fa9986a5f9b",
       "ward_no": "2",
-      "ward_name_en": "Thavalakulam",
-      "ward_name_ml": "താവളക്കുളം"
+      "name_en": "Thavalakulam",
+      "name_ml": "താവളക്കുളം"
     },
     {
-      "ward_id": "66ee00b7-ef02-43c0-a0e2-be0a2ea725dd",
+      "id": "66ee00b7-ef02-43c0-a0e2-be0a2ea725dd",
       "ward_no": "3",
-      "ward_name_en": "Veliyancode East",
-      "ward_name_ml": "വെളിയങ്കോട് ഈസ്റ്റ്"
+      "name_en": "Veliyancode East",
+      "name_ml": "വെളിയങ്കോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "3f4ba841-234e-426a-81d2-c73d293c1cb5",
+      "id": "3f4ba841-234e-426a-81d2-c73d293c1cb5",
       "ward_no": "4",
-      "ward_name_en": "Pazhanji",
-      "ward_name_ml": "പഴഞ്ഞി"
+      "name_en": "Pazhanji",
+      "name_ml": "പഴഞ്ഞി"
     },
     {
-      "ward_id": "1836b9a1-dd4a-4e32-8e4e-113c6ae71ee0",
+      "id": "1836b9a1-dd4a-4e32-8e4e-113c6ae71ee0",
       "ward_no": "5",
-      "ward_name_en": "Mulamukku",
-      "ward_name_ml": "മുളമുക്ക്"
+      "name_en": "Mulamukku",
+      "name_ml": "മുളമുക്ക്"
     },
     {
-      "ward_id": "67aaea76-cd1b-473a-8cbf-7523540d7403",
+      "id": "67aaea76-cd1b-473a-8cbf-7523540d7403",
       "ward_no": "6",
-      "ward_name_en": "Perumudisseri",
-      "ward_name_ml": "പെരുമുടിശ്ശേരി"
+      "name_en": "Perumudisseri",
+      "name_ml": "പെരുമുടിശ്ശേരി"
     },
     {
-      "ward_id": "90357c13-ec07-47ea-acc3-8ed938925944",
+      "id": "90357c13-ec07-47ea-acc3-8ed938925944",
       "ward_no": "7",
-      "ward_name_en": "Eramangalam",
-      "ward_name_ml": "എരമംഗലം"
+      "name_en": "Eramangalam",
+      "name_ml": "എരമംഗലം"
     },
     {
-      "ward_id": "0b06d22e-d45e-4227-9ee4-96827a686f27",
+      "id": "0b06d22e-d45e-4227-9ee4-96827a686f27",
       "ward_no": "8",
-      "ward_name_en": "Thazhathelpadi",
-      "ward_name_ml": "താഴത്തേല്‍പ്പടി"
+      "name_en": "Thazhathelpadi",
+      "name_ml": "താഴത്തേല്‍പ്പടി"
     },
     {
-      "ward_id": "199cbd73-f36b-4f4c-ae14-5dcc87d50550",
+      "id": "199cbd73-f36b-4f4c-ae14-5dcc87d50550",
       "ward_no": "9",
-      "ward_name_en": "Cherikallu",
-      "ward_name_ml": "ചേരിക്കല്ല്"
+      "name_en": "Cherikallu",
+      "name_ml": "ചേരിക്കല്ല്"
     },
     {
-      "ward_id": "a1576f45-cccc-4cf0-8fd9-5ad324998147",
+      "id": "a1576f45-cccc-4cf0-8fd9-5ad324998147",
       "ward_no": "10",
-      "ward_name_en": "Nakkola",
-      "ward_name_ml": "നാക്കോല"
+      "name_en": "Nakkola",
+      "name_ml": "നാക്കോല"
     },
     {
-      "ward_id": "2ebdc266-7a9e-4b0b-a17b-e0b6318ca01e",
+      "id": "2ebdc266-7a9e-4b0b-a17b-e0b6318ca01e",
       "ward_no": "11",
-      "ward_name_en": "Eramangalam West",
-      "ward_name_ml": "എരമംഗലം വെസ്റ്റ്"
+      "name_en": "Eramangalam West",
+      "name_ml": "എരമംഗലം വെസ്റ്റ്"
     },
     {
-      "ward_id": "94e1c061-c205-4c1b-b552-06f72f7b6776",
+      "id": "94e1c061-c205-4c1b-b552-06f72f7b6776",
       "ward_no": "12",
-      "ward_name_en": "Kothamukku",
-      "ward_name_ml": "കോതമുക്ക്"
+      "name_en": "Kothamukku",
+      "name_ml": "കോതമുക്ക്"
     },
     {
-      "ward_id": "6449f274-c72a-4ae9-83c9-4306ebd8c5bc",
+      "id": "6449f274-c72a-4ae9-83c9-4306ebd8c5bc",
       "ward_no": "13",
-      "ward_name_en": "Gramam",
-      "ward_name_ml": "ഗ്രാമം"
+      "name_en": "Gramam",
+      "name_ml": "ഗ്രാമം"
     },
     {
-      "ward_id": "3cf49526-e64f-488a-90cb-e6b2012f9f4a",
+      "id": "3cf49526-e64f-488a-90cb-e6b2012f9f4a",
       "ward_no": "14",
-      "ward_name_en": "Ayyottichira",
-      "ward_name_ml": "അയ്യോട്ടിച്ചിറ"
+      "name_en": "Ayyottichira",
+      "name_ml": "അയ്യോട്ടിച്ചിറ"
     },
     {
-      "ward_id": "e2a304cb-ae01-496a-921e-6ccba4038b2e",
+      "id": "e2a304cb-ae01-496a-921e-6ccba4038b2e",
       "ward_no": "15",
-      "ward_name_en": "Thannithura",
-      "ward_name_ml": "തണ്ണിത്തുറ"
+      "name_en": "Thannithura",
+      "name_ml": "തണ്ണിത്തുറ"
     },
     {
-      "ward_id": "4c2d86f6-e4a8-4f44-8df7-06e49253586e",
+      "id": "4c2d86f6-e4a8-4f44-8df7-06e49253586e",
       "ward_no": "16",
-      "ward_name_en": "Veliyancode Town",
-      "ward_name_ml": "വെളിയങ്കോട് ടൌണ്‍"
+      "name_en": "Veliyancode Town",
+      "name_ml": "വെളിയങ്കോട് ടൌണ്‍"
     },
     {
-      "ward_id": "9faf08d0-68fa-4d9c-8247-3afca40fd8ea",
+      "id": "9faf08d0-68fa-4d9c-8247-3afca40fd8ea",
       "ward_no": "17",
-      "ward_name_en": "Pathumuri",
-      "ward_name_ml": "പത്തുമുറി"
+      "name_en": "Pathumuri",
+      "name_ml": "പത്തുമുറി"
     },
     {
-      "ward_id": "eac90444-9462-4a46-93e2-845272c46da0",
+      "id": "eac90444-9462-4a46-93e2-845272c46da0",
       "ward_no": "18",
-      "ward_name_en": "Mattummal",
-      "ward_name_ml": "മാട്ടുമ്മല്‍"
+      "name_en": "Mattummal",
+      "name_ml": "മാട്ടുമ്മല്‍"
     }
   ],
   "towns": [],

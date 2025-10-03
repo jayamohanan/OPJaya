@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G030302",
-  "local_body_name_en": "Eraviperoor",
-  "local_body_name_ml": "ഇരവിപേരൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "113",
-    "assembly_name_en": "Aranmula",
-    "assembly_name_ml": "ആറന്മുള",
+  "id": "G030302",
+  "name_en": "Eraviperoor",
+  "name_ml": "ഇരവിപേരൂര്‍",
+  "assembly_id": "113",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "113",
+    "name_en": "Aranmula",
+    "name_ml": "ആറന്മുള",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "147d9eed-232c-4133-a91f-372fbf36b3de",
+      "id": "147d9eed-232c-4133-a91f-372fbf36b3de",
       "ward_no": "1",
-      "ward_name_en": "Eraviperoor Padinjaru",
-      "ward_name_ml": "ഇരവിപേരൂര്‍ പടിഞ്‍ഞാറ്"
+      "name_en": "Eraviperoor Padinjaru",
+      "name_ml": "ഇരവിപേരൂര്‍ പടിഞ്‍ഞാറ്"
     },
     {
-      "ward_id": "fd19356e-4329-4f0c-ab0d-5f69833cab73",
+      "id": "fd19356e-4329-4f0c-ab0d-5f69833cab73",
       "ward_no": "2",
-      "ward_name_en": "Eraviperoor",
-      "ward_name_ml": "ഇരവിപേരൂര്‍"
+      "name_en": "Eraviperoor",
+      "name_ml": "ഇരവിപേരൂര്‍"
     },
     {
-      "ward_id": "ce639477-8573-412e-99e7-23041a989595",
+      "id": "ce639477-8573-412e-99e7-23041a989595",
       "ward_no": "3",
-      "ward_name_en": "Eraviperoor Kizhakku",
-      "ward_name_ml": "ഇരവിപേരൂര്‍ കിഴക്ക്"
+      "name_en": "Eraviperoor Kizhakku",
+      "name_ml": "ഇരവിപേരൂര്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "c374fcf0-becb-4d57-9ed8-f7085969a214",
+      "id": "c374fcf0-becb-4d57-9ed8-f7085969a214",
       "ward_no": "4",
-      "ward_name_en": "Eraviperoor Thekku",
-      "ward_name_ml": "ഇരവിപേരൂര്‍ തെക്ക്"
+      "name_en": "Eraviperoor Thekku",
+      "name_ml": "ഇരവിപേരൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "1467ca39-dd57-4d85-b44c-27b3ca5b767f",
+      "id": "1467ca39-dd57-4d85-b44c-27b3ca5b767f",
       "ward_no": "5",
-      "ward_name_en": "Thottappuzha",
-      "ward_name_ml": "തോട്ടപ്പുഴ"
+      "name_en": "Thottappuzha",
+      "name_ml": "തോട്ടപ്പുഴ"
     },
     {
-      "ward_id": "009b0414-bda5-4596-9b02-3288a3648b42",
+      "id": "009b0414-bda5-4596-9b02-3288a3648b42",
       "ward_no": "6",
-      "ward_name_en": "Thevarcad",
-      "ward_name_ml": "തേവര്‍കാട്"
+      "name_en": "Thevarcad",
+      "name_ml": "തേവര്‍കാട്"
     },
     {
-      "ward_id": "2d352043-154d-4d12-8200-f6bb7cebeb90",
+      "id": "2d352043-154d-4d12-8200-f6bb7cebeb90",
       "ward_no": "7",
-      "ward_name_en": "Othara East",
-      "ward_name_ml": "ഓതറ കിഴക്ക്"
+      "name_en": "Othara East",
+      "name_ml": "ഓതറ കിഴക്ക്"
     },
     {
-      "ward_id": "e36321fd-eacf-42c8-933e-49b4b8a8b8b4",
+      "id": "e36321fd-eacf-42c8-933e-49b4b8a8b8b4",
       "ward_no": "8",
-      "ward_name_en": "Othera",
-      "ward_name_ml": "ഓതറ"
+      "name_en": "Othera",
+      "name_ml": "ഓതറ"
     },
     {
-      "ward_id": "f57b8b33-e39d-4841-87bb-4d456f6d6174",
+      "id": "f57b8b33-e39d-4841-87bb-4d456f6d6174",
       "ward_no": "9",
-      "ward_name_en": "Othera Thekku",
-      "ward_name_ml": "ഓതറ തെക്ക്"
+      "name_en": "Othera Thekku",
+      "name_ml": "ഓതറ തെക്ക്"
     },
     {
-      "ward_id": "25d457a2-3957-4793-9cb8-586e5f7f6196",
+      "id": "25d457a2-3957-4793-9cb8-586e5f7f6196",
       "ward_no": "10",
-      "ward_name_en": "Othera Padinjaru",
-      "ward_name_ml": "ഓതറ പടിഞ്ഞാറ്"
+      "name_en": "Othera Padinjaru",
+      "name_ml": "ഓതറ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "55f481bc-88d4-41a6-b192-ad07ade29839",
+      "id": "55f481bc-88d4-41a6-b192-ad07ade29839",
       "ward_no": "11",
-      "ward_name_en": "Kozhimala",
-      "ward_name_ml": "കോഴിമല"
+      "name_en": "Kozhimala",
+      "name_ml": "കോഴിമല"
     },
     {
-      "ward_id": "17ecf12a-82c7-456c-9f55-5059217c4b4e",
+      "id": "17ecf12a-82c7-456c-9f55-5059217c4b4e",
       "ward_no": "12",
-      "ward_name_en": "Nannur Kizhakku",
-      "ward_name_ml": "നന്നൂര്‍ കിഴക്ക്"
+      "name_en": "Nannur Kizhakku",
+      "name_ml": "നന്നൂര്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "3800251f-3a84-498e-b2b3-329c19d2e0c6",
+      "id": "3800251f-3a84-498e-b2b3-329c19d2e0c6",
       "ward_no": "13",
-      "ward_name_en": "Nannur Thekku",
-      "ward_name_ml": "നന്നൂര്‍ തെക്ക്"
+      "name_en": "Nannur Thekku",
+      "name_ml": "നന്നൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "0ce9a063-1a16-4bc9-9ae5-6dfc9eb1a3de",
+      "id": "0ce9a063-1a16-4bc9-9ae5-6dfc9eb1a3de",
       "ward_no": "14",
-      "ward_name_en": "Nannur Padinjaru",
-      "ward_name_ml": "നന്നൂര്‍ പടിഞ്ഞാറ്"
+      "name_en": "Nannur Padinjaru",
+      "name_ml": "നന്നൂര്‍ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "5a4203f9-4ed9-4d00-a44f-2e3c0b0a320d",
+      "id": "5a4203f9-4ed9-4d00-a44f-2e3c0b0a320d",
       "ward_no": "15",
-      "ward_name_en": "Vallamkulam Padinjaru",
-      "ward_name_ml": "വള്ളംകുളം പടിഞ്ഞാറ്"
+      "name_en": "Vallamkulam Padinjaru",
+      "name_ml": "വള്ളംകുളം പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "bf5950d1-12ad-4821-bfd2-89778b2a181c",
+      "id": "bf5950d1-12ad-4821-bfd2-89778b2a181c",
       "ward_no": "16",
-      "ward_name_en": "Vallamkulam Thekku",
-      "ward_name_ml": "വള്ളംകുളം തെക്ക്"
+      "name_en": "Vallamkulam Thekku",
+      "name_ml": "വള്ളംകുളം തെക്ക്"
     },
     {
-      "ward_id": "a039f9ba-cb6a-4541-ad51-a4264b00c7f8",
+      "id": "a039f9ba-cb6a-4541-ad51-a4264b00c7f8",
       "ward_no": "17",
-      "ward_name_en": "Nellad",
-      "ward_name_ml": "നെല്ലാട്"
+      "name_en": "Nellad",
+      "name_ml": "നെല്ലാട്"
     }
   ],
   "towns": [],

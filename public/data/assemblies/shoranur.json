@@ -1,62 +1,83 @@
 {
-  "assembly_id": "51",
-  "assembly_name_en": "Shoranur",
-  "assembly_name_ml": "ഷൊര്‍ണ്ണൂര്‍",
-  "category": "Normal",
+  "id": "51",
+  "name_en": "Shoranur",
+  "name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G090303",
-      "local_body_name_en": "Chalavara",
-      "local_body_name_ml": "ചളവറ",
-      "category": "Normal"
+      "id": "G090303",
+      "name_en": "Chalavara",
+      "name_ml": "ചളവറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M090600",
-      "local_body_name_en": "Cherpulassery",
-      "local_body_name_ml": "ചെര്‍പുളശ്ശേരി",
-      "category": "Perfect"
+      "id": "M090600",
+      "name_en": "Cherpulassery",
+      "name_ml": "ചെര്‍പുളശ്ശേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090308",
-      "local_body_name_en": "Nellaya",
-      "local_body_name_ml": "നെല്ലായ",
-      "category": "Good"
+      "id": "G090308",
+      "name_en": "Nellaya",
+      "name_ml": "നെല്ലായ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M090200",
-      "local_body_name_en": "Shoranur",
-      "local_body_name_ml": "ഷൊര്‍ണ്ണൂര്‍",
-      "category": "Normal"
+      "id": "M090200",
+      "name_en": "Shoranur",
+      "name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090306",
-      "local_body_name_en": "Trikkaderi",
-      "local_body_name_ml": "തൃക്കടീരി",
-      "category": "Normal"
+      "id": "G090306",
+      "name_en": "Trikkaderi",
+      "name_ml": "തൃക്കടീരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090305",
-      "local_body_name_en": "Vaniamkulam",
-      "local_body_name_ml": "വാണിയംകുളം",
-      "category": "Good"
+      "id": "G090305",
+      "name_en": "Vaniamkulam",
+      "name_ml": "വാണിയംകുളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G090302",
-      "local_body_name_en": "Ananganadi",
-      "local_body_name_ml": "അനങ്ങനടി",
-      "category": "Normal"
+      "id": "G090302",
+      "name_en": "Ananganadi",
+      "name_ml": "അനങ്ങനടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090406",
-      "local_body_name_en": "Vellinezhi",
-      "local_body_name_ml": "വെള്ളിനേഴി",
-      "category": "Good"
+      "id": "G090406",
+      "name_en": "Vellinezhi",
+      "name_ml": "വെള്ളിനേഴി",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

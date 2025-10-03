@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G010504",
-  "local_body_name_en": "Vithura",
-  "local_body_name_ml": "വിതുര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G010504",
+  "name_en": "Vithura",
+  "name_ml": "വിതുര",
+  "assembly_id": "136",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "136",
-    "assembly_name_en": "Aruvikkara",
-    "assembly_name_ml": "അരുവിക്കര",
-    "category": "Normal"
+    "id": "136",
+    "name_en": "Aruvikkara",
+    "name_ml": "അരുവിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a11db666-c474-4302-b4c4-0e908c554754",
+      "id": "a11db666-c474-4302-b4c4-0e908c554754",
       "ward_no": "1",
-      "ward_name_en": "Chettachal",
-      "ward_name_ml": "ചെറ്റച്ചല്‍"
+      "name_en": "Chettachal",
+      "name_ml": "ചെറ്റച്ചല്‍"
     },
     {
-      "ward_id": "9ee155ba-aa8e-4ee6-9de5-6569817e5588",
+      "id": "9ee155ba-aa8e-4ee6-9de5-6569817e5588",
       "ward_no": "2",
-      "ward_name_en": "Ganapathiyamkodu",
-      "ward_name_ml": "ഗണപതിയാംകോട്"
+      "name_en": "Ganapathiyamkodu",
+      "name_ml": "ഗണപതിയാംകോട്"
     },
     {
-      "ward_id": "8f7d88d7-3991-4f77-b6bb-e9568020cc2b",
+      "id": "8f7d88d7-3991-4f77-b6bb-e9568020cc2b",
       "ward_no": "3",
-      "ward_name_en": "Ponnamchundu",
-      "ward_name_ml": "പൊന്നാംചുണ്ട്"
+      "name_en": "Ponnamchundu",
+      "name_ml": "പൊന്നാംചുണ്ട്"
     },
     {
-      "ward_id": "81e9c83a-93de-4bba-9812-8c1b5b99b638",
+      "id": "81e9c83a-93de-4bba-9812-8c1b5b99b638",
       "ward_no": "4",
-      "ward_name_en": "Manali",
-      "ward_name_ml": "മണലി"
+      "name_en": "Manali",
+      "name_ml": "മണലി"
     },
     {
-      "ward_id": "5dd3f2a7-dd2d-4803-ac97-b93a8d6e648d",
+      "id": "5dd3f2a7-dd2d-4803-ac97-b93a8d6e648d",
       "ward_no": "5",
-      "ward_name_en": "Kallar",
-      "ward_name_ml": "കല്ലാര്‍"
+      "name_en": "Kallar",
+      "name_ml": "കല്ലാര്‍"
     },
     {
-      "ward_id": "83d9313b-1074-4236-9915-a5f21e55de24",
+      "id": "83d9313b-1074-4236-9915-a5f21e55de24",
       "ward_no": "6",
-      "ward_name_en": "Anappara",
-      "ward_name_ml": "ആനപ്പാറ"
+      "name_en": "Anappara",
+      "name_ml": "ആനപ്പാറ"
     },
     {
-      "ward_id": "02d55f75-305d-4f06-97a5-38dfcd0fb588",
+      "id": "02d55f75-305d-4f06-97a5-38dfcd0fb588",
       "ward_no": "7",
-      "ward_name_en": "Bonakkadu",
-      "ward_name_ml": "ബോണക്കാട്"
+      "name_en": "Bonakkadu",
+      "name_ml": "ബോണക്കാട്"
     },
     {
-      "ward_id": "ea12ac77-cae2-403d-83c0-491718ecc654",
+      "id": "ea12ac77-cae2-403d-83c0-491718ecc654",
       "ward_no": "8",
-      "ward_name_en": "Maruthamala",
-      "ward_name_ml": "മരുതാമല"
+      "name_en": "Maruthamala",
+      "name_ml": "മരുതാമല"
     },
     {
-      "ward_id": "c3c6ab77-1ae0-46c3-8d5c-48e8bbe2cce6",
+      "id": "c3c6ab77-1ae0-46c3-8d5c-48e8bbe2cce6",
       "ward_no": "9",
-      "ward_name_en": "Theviyodu",
-      "ward_name_ml": "തേവിയോട്"
+      "name_en": "Theviyodu",
+      "name_ml": "തേവിയോട്"
     },
     {
-      "ward_id": "2993b530-ea91-489e-92c0-b68a72bab35b",
+      "id": "2993b530-ea91-489e-92c0-b68a72bab35b",
       "ward_no": "10",
-      "ward_name_en": "Manithookki",
-      "ward_name_ml": "മണിതൂക്കി"
+      "name_en": "Manithookki",
+      "name_ml": "മണിതൂക്കി"
     },
     {
-      "ward_id": "9aaff1c1-66bb-4954-90a2-2269b04dc702",
+      "id": "9aaff1c1-66bb-4954-90a2-2269b04dc702",
       "ward_no": "11",
-      "ward_name_en": "Peppara",
-      "ward_name_ml": "പേപ്പാറ"
+      "name_en": "Peppara",
+      "name_ml": "പേപ്പാറ"
     },
     {
-      "ward_id": "08873c31-ced6-4e93-9a3b-a6573e2c00c2",
+      "id": "08873c31-ced6-4e93-9a3b-a6573e2c00c2",
       "ward_no": "12",
-      "ward_name_en": "Memala",
-      "ward_name_ml": "മേമല"
+      "name_en": "Memala",
+      "name_ml": "മേമല"
     },
     {
-      "ward_id": "e5fd482c-c4a0-48d2-93ee-059e55f4850b",
+      "id": "e5fd482c-c4a0-48d2-93ee-059e55f4850b",
       "ward_no": "13",
-      "ward_name_en": "Thallachira",
-      "ward_name_ml": "തള്ളച്ചിറ"
+      "name_en": "Thallachira",
+      "name_ml": "തള്ളച്ചിറ"
     },
     {
-      "ward_id": "bd81bd6c-35b6-4826-9b5a-1bb1ac68e325",
+      "id": "bd81bd6c-35b6-4826-9b5a-1bb1ac68e325",
       "ward_no": "14",
-      "ward_name_en": "Mulakkottukara",
-      "ward_name_ml": "മുളയ്ക്കോട്ടുകര"
+      "name_en": "Mulakkottukara",
+      "name_ml": "മുളയ്ക്കോട്ടുകര"
     },
     {
-      "ward_id": "a57ea68b-e848-4d24-96fe-90420b4f983f",
+      "id": "a57ea68b-e848-4d24-96fe-90420b4f983f",
       "ward_no": "15",
-      "ward_name_en": "Vithura",
-      "ward_name_ml": "വിതുര"
+      "name_en": "Vithura",
+      "name_ml": "വിതുര"
     },
     {
-      "ward_id": "d93f84d1-220e-4633-8e37-eae4c63ae74b",
+      "id": "d93f84d1-220e-4633-8e37-eae4c63ae74b",
       "ward_no": "16",
-      "ward_name_en": "Koppam",
-      "ward_name_ml": "കൊപ്പം"
+      "name_en": "Koppam",
+      "name_ml": "കൊപ്പം"
     },
     {
-      "ward_id": "377035ad-6fff-4c86-a6ab-6b2c39bca574",
+      "id": "377035ad-6fff-4c86-a6ab-6b2c39bca574",
       "ward_no": "17",
-      "ward_name_en": "Chennanpara",
-      "ward_name_ml": "ചേന്നന്‍പാറ"
+      "name_en": "Chennanpara",
+      "name_ml": "ചേന്നന്‍പാറ"
     }
   ],
   "towns": [],

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G111104",
-  "local_body_name_en": "Karassery",
-  "local_body_name_ml": "കാരശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G111104",
+  "name_en": "Karassery",
+  "name_ml": "കാരശ്ശേരി",
+  "assembly_id": "32",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "32",
-    "assembly_name_en": "Thiruvambady",
-    "assembly_name_ml": "തിരുവമ്പാടി",
-    "category": "Normal"
+    "id": "32",
+    "name_en": "Thiruvambady",
+    "name_ml": "തിരുവമ്പാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "08389d10-61b3-4f44-a50e-3bb80afc7e38",
+      "id": "08389d10-61b3-4f44-a50e-3bb80afc7e38",
       "ward_no": "1",
-      "ward_name_en": "Kumaranellur",
-      "ward_name_ml": "കുമാരനെല്ലൂര്‍"
+      "name_en": "Kumaranellur",
+      "name_ml": "കുമാരനെല്ലൂര്‍"
     },
     {
-      "ward_id": "8ace9791-5356-4ae8-927e-7503e7eaa3ac",
+      "id": "8ace9791-5356-4ae8-927e-7503e7eaa3ac",
       "ward_no": "2",
-      "ward_name_en": "Karamoola West",
-      "ward_name_ml": "കാരമൂല വെസ്റ്റ്"
+      "name_en": "Karamoola West",
+      "name_ml": "കാരമൂല വെസ്റ്റ്"
     },
     {
-      "ward_id": "dbedcf14-6f72-44a9-975c-beeac4bc6336",
+      "id": "dbedcf14-6f72-44a9-975c-beeac4bc6336",
       "ward_no": "3",
-      "ward_name_en": "Karamoola East",
-      "ward_name_ml": "കാരമൂല ഈസ്റ്റ്"
+      "name_en": "Karamoola East",
+      "name_ml": "കാരമൂല ഈസ്റ്റ്"
     },
     {
-      "ward_id": "c0fbf74c-0d8f-473a-b006-b68fade185e9",
+      "id": "c0fbf74c-0d8f-473a-b006-b68fade185e9",
       "ward_no": "4",
-      "ward_name_en": "Vallathaippara",
-      "ward_name_ml": "വല്ലത്തായ്പ്പാറ"
+      "name_en": "Vallathaippara",
+      "name_ml": "വല്ലത്തായ്പ്പാറ"
     },
     {
-      "ward_id": "5aba5570-6130-4e2c-afab-98631abba8ca",
+      "id": "5aba5570-6130-4e2c-afab-98631abba8ca",
       "ward_no": "5",
-      "ward_name_en": "Chundathumpoil",
-      "ward_name_ml": "ചുണ്ടെത്തുംപൊയില്‍"
+      "name_en": "Chundathumpoil",
+      "name_ml": "ചുണ്ടെത്തുംപൊയില്‍"
     },
     {
-      "ward_id": "f650edd8-1473-4acc-a3b3-73990555d22c",
+      "id": "f650edd8-1473-4acc-a3b3-73990555d22c",
       "ward_no": "6",
-      "ward_name_en": "Thottakkad",
-      "ward_name_ml": "തോട്ടക്കാട്"
+      "name_en": "Thottakkad",
+      "name_ml": "തോട്ടക്കാട്"
     },
     {
-      "ward_id": "bd0c90aa-e17a-482c-9cb2-1740ba9fa8e5",
+      "id": "bd0c90aa-e17a-482c-9cb2-1740ba9fa8e5",
       "ward_no": "7",
-      "ward_name_en": "Thekkumkutty",
-      "ward_name_ml": "തേക്കുംകുററി"
+      "name_en": "Thekkumkutty",
+      "name_ml": "തേക്കുംകുററി"
     },
     {
-      "ward_id": "56dea2be-1b05-4278-bcc1-2a69b84a88c4",
+      "id": "56dea2be-1b05-4278-bcc1-2a69b84a88c4",
       "ward_no": "8",
-      "ward_name_en": "Ally",
-      "ward_name_ml": "അളളി"
+      "name_en": "Ally",
+      "name_ml": "അളളി"
     },
     {
-      "ward_id": "a84fc402-5f5c-4b37-82da-b15408a4d5f7",
+      "id": "a84fc402-5f5c-4b37-82da-b15408a4d5f7",
       "ward_no": "9",
-      "ward_name_en": "Kalarikandi",
-      "ward_name_ml": "കളരിക്കണ്ടി"
+      "name_en": "Kalarikandi",
+      "name_ml": "കളരിക്കണ്ടി"
     },
     {
-      "ward_id": "2d35cce8-2092-49bd-a9f5-47acda82eb82",
+      "id": "2d35cce8-2092-49bd-a9f5-47acda82eb82",
       "ward_no": "10",
-      "ward_name_en": "Mysoormala",
-      "ward_name_ml": "മൈസൂര്‍മല"
+      "name_en": "Mysoormala",
+      "name_ml": "മൈസൂര്‍മല"
     },
     {
-      "ward_id": "d0611bfa-93d7-4f0e-8caf-ce3f09becf9a",
+      "id": "d0611bfa-93d7-4f0e-8caf-ce3f09becf9a",
       "ward_no": "11",
-      "ward_name_en": "Anayamkunnu",
-      "ward_name_ml": "ആനയാംകുന്ന്"
+      "name_en": "Anayamkunnu",
+      "name_ml": "ആനയാംകുന്ന്"
     },
     {
-      "ward_id": "f9d16538-fa41-492a-b428-d92cf234a8c8",
+      "id": "f9d16538-fa41-492a-b428-d92cf234a8c8",
       "ward_no": "12",
-      "ward_name_en": "Karuthaparambu",
-      "ward_name_ml": "കറുത്തപറമ്പ്"
+      "name_en": "Karuthaparambu",
+      "name_ml": "കറുത്തപറമ്പ്"
     },
     {
-      "ward_id": "41f8bc0b-1aee-4d1b-bb50-7dcff419f23f",
+      "id": "41f8bc0b-1aee-4d1b-bb50-7dcff419f23f",
       "ward_no": "13",
-      "ward_name_en": "Nellikkaparambu",
-      "ward_name_ml": "നെല്ലിക്കാപറമ്പ്"
+      "name_en": "Nellikkaparambu",
+      "name_ml": "നെല്ലിക്കാപറമ്പ്"
     },
     {
-      "ward_id": "7743df88-e047-41e0-8012-7d05a0236075",
+      "id": "7743df88-e047-41e0-8012-7d05a0236075",
       "ward_no": "14",
-      "ward_name_en": "Kakkad",
-      "ward_name_ml": "കക്കാട്"
+      "name_en": "Kakkad",
+      "name_ml": "കക്കാട്"
     },
     {
-      "ward_id": "9141b8c2-1005-4ad4-aca9-10bd64e5ed56",
+      "id": "9141b8c2-1005-4ad4-aca9-10bd64e5ed56",
       "ward_no": "15",
-      "ward_name_en": "South Karassery",
-      "ward_name_ml": "സൌത്ത് കാരശ്ശേരി"
+      "name_en": "South Karassery",
+      "name_ml": "സൌത്ത് കാരശ്ശേരി"
     },
     {
-      "ward_id": "8aeeab86-2dac-456a-ab4c-826ba7c05ea2",
+      "id": "8aeeab86-2dac-456a-ab4c-826ba7c05ea2",
       "ward_no": "16",
-      "ward_name_en": "Chonattu",
-      "ward_name_ml": "ചോണാട്"
+      "name_en": "Chonattu",
+      "name_ml": "ചോണാട്"
     },
     {
-      "ward_id": "72326746-bcdb-402c-b561-5ee28b233752",
+      "id": "72326746-bcdb-402c-b561-5ee28b233752",
       "ward_no": "17",
-      "ward_name_en": "North Karassery",
-      "ward_name_ml": "നോര്‍ത്ത് കാരശ്ശേരി"
+      "name_en": "North Karassery",
+      "name_ml": "നോര്‍ത്ത് കാരശ്ശേരി"
     },
     {
-      "ward_id": "7d1840df-70be-4ffc-85f8-1e32a148c2af",
+      "id": "7d1840df-70be-4ffc-85f8-1e32a148c2af",
       "ward_no": "18",
-      "ward_name_en": "Anayamkunnu West",
-      "ward_name_ml": "ആനയാംകുന്ന് വെസ്റ്റ്"
+      "name_en": "Anayamkunnu West",
+      "name_ml": "ആനയാംകുന്ന് വെസ്റ്റ്"
     }
   ],
   "towns": [],

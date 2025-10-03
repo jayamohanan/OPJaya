@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G030401",
-  "local_body_name_en": "Omalloor",
-  "local_body_name_ml": "ഓമല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "113",
-    "assembly_name_en": "Aranmula",
-    "assembly_name_ml": "ആറന്മുള",
+  "id": "G030401",
+  "name_en": "Omalloor",
+  "name_ml": "ഓമല്ലൂര്‍",
+  "assembly_id": "113",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "113",
+    "name_en": "Aranmula",
+    "name_ml": "ആറന്മുള",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b362dcb2-ad9b-4026-beda-505021b66051",
+      "id": "b362dcb2-ad9b-4026-beda-505021b66051",
       "ward_no": "1",
-      "ward_name_en": "Cheekkanal",
-      "ward_name_ml": "ചീക്കനാല്‍"
+      "name_en": "Cheekkanal",
+      "name_ml": "ചീക്കനാല്‍"
     },
     {
-      "ward_id": "fa220522-089a-435f-ac63-7ff01b110258",
+      "id": "fa220522-089a-435f-ac63-7ff01b110258",
       "ward_no": "2",
-      "ward_name_en": "Imali West",
-      "ward_name_ml": "ഐമാലി വെസ്റ്റ്"
+      "name_en": "Imali West",
+      "name_ml": "ഐമാലി വെസ്റ്റ്"
     },
     {
-      "ward_id": "e000b800-7510-4afc-ac08-5d2d1b216c67",
+      "id": "e000b800-7510-4afc-ac08-5d2d1b216c67",
       "ward_no": "3",
-      "ward_name_en": "Imali East",
-      "ward_name_ml": "ഐമാലി ഈസ്റ്റ്"
+      "name_en": "Imali East",
+      "name_ml": "ഐമാലി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "3fd8d17c-f46f-4a4e-9591-3ee319e28eb1",
+      "id": "3fd8d17c-f46f-4a4e-9591-3ee319e28eb1",
       "ward_no": "4",
-      "ward_name_en": "Parayanali",
-      "ward_name_ml": "പറയനാലി"
+      "name_en": "Parayanali",
+      "name_ml": "പറയനാലി"
     },
     {
-      "ward_id": "a436baa7-70b7-4a1b-acbf-c92b98babfbf",
+      "id": "a436baa7-70b7-4a1b-acbf-c92b98babfbf",
       "ward_no": "5",
-      "ward_name_en": "Mannaramala",
-      "ward_name_ml": "മണ്ണാറമല"
+      "name_en": "Mannaramala",
+      "name_ml": "മണ്ണാറമല"
     },
     {
-      "ward_id": "447e22e1-5568-48da-aaeb-5c27f9ad52c7",
+      "id": "447e22e1-5568-48da-aaeb-5c27f9ad52c7",
       "ward_no": "6",
-      "ward_name_en": "Puthenpeedika",
-      "ward_name_ml": "പുത്തന്‍പീടിക"
+      "name_en": "Puthenpeedika",
+      "name_ml": "പുത്തന്‍പീടിക"
     },
     {
-      "ward_id": "51ee32a7-2de0-4c98-bcbe-6d06db4b441b",
+      "id": "51ee32a7-2de0-4c98-bcbe-6d06db4b441b",
       "ward_no": "7",
-      "ward_name_en": "Paivalli",
-      "ward_name_ml": "പൈവള്ളി"
+      "name_en": "Paivalli",
+      "name_ml": "പൈവള്ളി"
     },
     {
-      "ward_id": "51e1c32f-c015-4dae-ba7d-8b313d649821",
+      "id": "51e1c32f-c015-4dae-ba7d-8b313d649821",
       "ward_no": "8",
-      "ward_name_en": "Vazhamuttom North",
-      "ward_name_ml": "വാഴമുട്ടം നോര്‍ത്ത്"
+      "name_en": "Vazhamuttom North",
+      "name_ml": "വാഴമുട്ടം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "1c1b4330-88f9-4cbf-818e-993024dda7c1",
+      "id": "1c1b4330-88f9-4cbf-818e-993024dda7c1",
       "ward_no": "9",
-      "ward_name_en": "Vazhamuttom",
-      "ward_name_ml": "വാഴമുട്ടം"
+      "name_en": "Vazhamuttom",
+      "name_ml": "വാഴമുട്ടം"
     },
     {
-      "ward_id": "213fc1c6-c21e-4a59-a21e-3c23c917c6de",
+      "id": "213fc1c6-c21e-4a59-a21e-3c23c917c6de",
       "ward_no": "10",
-      "ward_name_en": "Mullanikkadu",
-      "ward_name_ml": "മുള്ളനിക്കാട്"
+      "name_en": "Mullanikkadu",
+      "name_ml": "മുള്ളനിക്കാട്"
     },
     {
-      "ward_id": "d10c1351-efcf-413a-ab8a-f488ba19307f",
+      "id": "d10c1351-efcf-413a-ab8a-f488ba19307f",
       "ward_no": "11",
-      "ward_name_en": "Pannyali",
-      "ward_name_ml": "പന്ന്യാലി"
+      "name_en": "Pannyali",
+      "name_ml": "പന്ന്യാലി"
     },
     {
-      "ward_id": "e325365c-40e2-45f0-b74d-190b8c39d680",
+      "id": "e325365c-40e2-45f0-b74d-190b8c39d680",
       "ward_no": "12",
-      "ward_name_en": "Attarikam",
-      "ward_name_ml": "ആറ്റരികം"
+      "name_en": "Attarikam",
+      "name_ml": "ആറ്റരികം"
     },
     {
-      "ward_id": "1c91d71e-8d13-417f-aa74-4e664d463371",
+      "id": "1c91d71e-8d13-417f-aa74-4e664d463371",
       "ward_no": "13",
-      "ward_name_en": "Omalloor Town",
-      "ward_name_ml": "ഓമല്ലൂര് ടൌണ്‍"
+      "name_en": "Omalloor Town",
+      "name_ml": "ഓമല്ലൂര് ടൌണ്‍"
     },
     {
-      "ward_id": "6e7a6a22-e7fd-41c2-a35f-406ca5f12d77",
+      "id": "6e7a6a22-e7fd-41c2-a35f-406ca5f12d77",
       "ward_no": "14",
-      "ward_name_en": "Manjinikkara",
-      "ward_name_ml": "മഞ്ഞിനിക്കര"
+      "name_en": "Manjinikkara",
+      "name_ml": "മഞ്ഞിനിക്കര"
     }
   ],
   "towns": [],

@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G070203",
-  "local_body_name_en": "Alangad",
-  "local_body_name_ml": "ആലങ്ങാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "77",
-    "assembly_name_en": "Kalamassery",
-    "assembly_name_ml": "കളമശ്ശേരി",
+  "id": "G070203",
+  "name_en": "Alangad",
+  "name_ml": "ആലങ്ങാട്",
+  "assembly_id": "77",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "77",
+    "name_en": "Kalamassery",
+    "name_ml": "കളമശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "37559c4c-f075-42b6-86d8-7c4708cbdcbf",
+      "id": "37559c4c-f075-42b6-86d8-7c4708cbdcbf",
       "ward_no": "1",
-      "ward_name_en": "Neericode West",
-      "ward_name_ml": "നീറിക്കോട് വെസ്റ്റ്"
+      "name_en": "Neericode West",
+      "name_ml": "നീറിക്കോട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "bd0ab67e-def0-4777-860d-2ee4f370ccf7",
+      "id": "bd0ab67e-def0-4777-860d-2ee4f370ccf7",
       "ward_no": "2",
-      "ward_name_en": "Neericode East",
-      "ward_name_ml": "നീറിക്കോട് ഈസ്റ്റ്"
+      "name_en": "Neericode East",
+      "name_ml": "നീറിക്കോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "f0336b43-aeb4-4314-854f-781f25f93fd9",
+      "id": "f0336b43-aeb4-4314-854f-781f25f93fd9",
       "ward_no": "3",
-      "ward_name_en": "Panchayat Head Quarters",
-      "ward_name_ml": "പഞ്ചായത്ത് ഹെഡ് ക്വാര്‍ട്ടേഴ്സ്"
+      "name_en": "Panchayat Head Quarters",
+      "name_ml": "പഞ്ചായത്ത് ഹെഡ് ക്വാര്‍ട്ടേഴ്സ്"
     },
     {
-      "ward_id": "6f8aef91-72af-462f-a841-4b85d50ded64",
+      "id": "6f8aef91-72af-462f-a841-4b85d50ded64",
       "ward_no": "4",
-      "ward_name_en": "Koduvazhanga North",
-      "ward_name_ml": "കൊടുവഴങ്ങ നോര്‍ത്ത്"
+      "name_en": "Koduvazhanga North",
+      "name_ml": "കൊടുവഴങ്ങ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "33c97dcd-4881-441b-8446-24446255ba31",
+      "id": "33c97dcd-4881-441b-8446-24446255ba31",
       "ward_no": "5",
-      "ward_name_en": "Iravipuram",
-      "ward_name_ml": "ഇരവിപുരം"
+      "name_en": "Iravipuram",
+      "name_ml": "ഇരവിപുരം"
     },
     {
-      "ward_id": "3247de98-1311-402b-bc53-7b44f6211919",
+      "id": "3247de98-1311-402b-bc53-7b44f6211919",
       "ward_no": "6",
-      "ward_name_en": "Kottapuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottapuram",
+      "name_ml": "കോട്ടപ്പുറം"
     },
     {
-      "ward_id": "2ab964f7-b5d9-42fe-a21c-5ce5ed073ff2",
+      "id": "2ab964f7-b5d9-42fe-a21c-5ce5ed073ff2",
       "ward_no": "7",
-      "ward_name_en": "Malikampeedika",
-      "ward_name_ml": "മാളികംപീടിക"
+      "name_en": "Malikampeedika",
+      "name_ml": "മാളികംപീടിക"
     },
     {
-      "ward_id": "ddfe612a-b19f-4051-a170-38d13b9f7d36",
+      "id": "ddfe612a-b19f-4051-a170-38d13b9f7d36",
       "ward_no": "8",
-      "ward_name_en": "Alangad",
-      "ward_name_ml": "ആലങ്ങാട്"
+      "name_en": "Alangad",
+      "name_ml": "ആലങ്ങാട്"
     },
     {
-      "ward_id": "928641ea-5966-49be-bf53-498d237e18ea",
+      "id": "928641ea-5966-49be-bf53-498d237e18ea",
       "ward_no": "9",
-      "ward_name_en": "Thiruvalloor",
-      "ward_name_ml": "തിരുവാല്ലൂര്‍"
+      "name_en": "Thiruvalloor",
+      "name_ml": "തിരുവാല്ലൂര്‍"
     },
     {
-      "ward_id": "f2322358-ff8a-49fb-9468-6370a55ffd23",
+      "id": "f2322358-ff8a-49fb-9468-6370a55ffd23",
       "ward_no": "10",
-      "ward_name_en": "Kunnel",
-      "ward_name_ml": "കുന്നേല്‍"
+      "name_en": "Kunnel",
+      "name_ml": "കുന്നേല്‍"
     },
     {
-      "ward_id": "8053fbf6-a236-4054-991b-c1c971cadb48",
+      "id": "8053fbf6-a236-4054-991b-c1c971cadb48",
       "ward_no": "11",
-      "ward_name_en": "Koduvazhanga",
-      "ward_name_ml": "കൊടുവഴങ്ങ"
+      "name_en": "Koduvazhanga",
+      "name_ml": "കൊടുവഴങ്ങ"
     },
     {
-      "ward_id": "b0159255-3f78-4af4-bf7e-3a04001e9c36",
+      "id": "b0159255-3f78-4af4-bf7e-3a04001e9c36",
       "ward_no": "12",
-      "ward_name_en": "Panayikkulam",
-      "ward_name_ml": "പാനായിക്കുളം"
+      "name_en": "Panayikkulam",
+      "name_ml": "പാനായിക്കുളം"
     },
     {
-      "ward_id": "7bad9db9-a05d-4f48-8cd1-1f890a3278c7",
+      "id": "7bad9db9-a05d-4f48-8cd1-1f890a3278c7",
       "ward_no": "13",
-      "ward_name_en": "Methanam",
-      "ward_name_ml": "മേത്താനം"
+      "name_en": "Methanam",
+      "name_ml": "മേത്താനം"
     },
     {
-      "ward_id": "bb9b0876-9a11-447b-bf59-d59e2db68072",
+      "id": "bb9b0876-9a11-447b-bf59-d59e2db68072",
       "ward_no": "14",
-      "ward_name_en": "Chirayam",
-      "ward_name_ml": "ചിറയം"
+      "name_en": "Chirayam",
+      "name_ml": "ചിറയം"
     },
     {
-      "ward_id": "80900131-3262-47ad-b862-e76a82498a58",
+      "id": "80900131-3262-47ad-b862-e76a82498a58",
       "ward_no": "15",
-      "ward_name_en": "Kongorppilly East",
-      "ward_name_ml": "കൊങ്ങോര്‍പ്പിള്ളി ഈസ്റ്റ്"
+      "name_en": "Kongorppilly East",
+      "name_ml": "കൊങ്ങോര്‍പ്പിള്ളി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "b5edd96e-1f46-4f5e-8453-9324b6c71481",
+      "id": "b5edd96e-1f46-4f5e-8453-9324b6c71481",
       "ward_no": "16",
-      "ward_name_en": "Olanad",
-      "ward_name_ml": "ഒളനാട്"
+      "name_en": "Olanad",
+      "name_ml": "ഒളനാട്"
     },
     {
-      "ward_id": "2883d8a2-973f-4491-ba5e-2c5372b9acf8",
+      "id": "2883d8a2-973f-4491-ba5e-2c5372b9acf8",
       "ward_no": "17",
-      "ward_name_en": "Thirumuppam",
-      "ward_name_ml": "തിരുമുപ്പം"
+      "name_en": "Thirumuppam",
+      "name_ml": "തിരുമുപ്പം"
     },
     {
-      "ward_id": "790752e7-e635-4825-a1d5-74ce8a47280f",
+      "id": "790752e7-e635-4825-a1d5-74ce8a47280f",
       "ward_no": "18",
-      "ward_name_en": "Kongorppilly West",
-      "ward_name_ml": "കൊങ്ങോര്‍പ്പിള്ളി വെസ്റ്റ്"
+      "name_en": "Kongorppilly West",
+      "name_ml": "കൊങ്ങോര്‍പ്പിള്ളി വെസ്റ്റ്"
     },
     {
-      "ward_id": "74399b7c-d59b-43fb-bbc8-a34a7f5d944c",
+      "id": "74399b7c-d59b-43fb-bbc8-a34a7f5d944c",
       "ward_no": "19",
-      "ward_name_en": "Pazhampilly",
-      "ward_name_ml": "പഴമ്പിളി"
+      "name_en": "Pazhampilly",
+      "name_ml": "പഴമ്പിളി"
     },
     {
-      "ward_id": "e05a9ac8-7857-4030-bce6-86faccb5ec8c",
+      "id": "e05a9ac8-7857-4030-bce6-86faccb5ec8c",
       "ward_no": "20",
-      "ward_name_en": "Karingamthuruthu South",
-      "ward_name_ml": "കരിങ്ങാംതുരുത്ത് സൌത്ത്"
+      "name_en": "Karingamthuruthu South",
+      "name_ml": "കരിങ്ങാംതുരുത്ത് സൌത്ത്"
     },
     {
-      "ward_id": "b12050e0-9100-4dd5-a854-0e50eccac4ba",
+      "id": "b12050e0-9100-4dd5-a854-0e50eccac4ba",
       "ward_no": "21",
-      "ward_name_en": "Karingamthuruthu North",
-      "ward_name_ml": "കരിങ്ങാംതുരുത്ത് നോര്‍ത്ത്"
+      "name_en": "Karingamthuruthu North",
+      "name_ml": "കരിങ്ങാംതുരുത്ത് നോര്‍ത്ത്"
     }
   ],
   "towns": [],

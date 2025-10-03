@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G030601",
-  "local_body_name_en": "Konni",
-  "local_body_name_ml": "കോന്നി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G030601",
+  "name_en": "Konni",
+  "name_ml": "കോന്നി",
+  "assembly_id": "114",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "114",
-    "assembly_name_en": "Konni",
-    "assembly_name_ml": "കോന്നി",
-    "category": "Normal"
+    "id": "114",
+    "name_en": "Konni",
+    "name_ml": "കോന്നി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "66cdcc95-d5c3-4f18-b5b1-f6c04e96ba5d",
+      "id": "66cdcc95-d5c3-4f18-b5b1-f6c04e96ba5d",
       "ward_no": "1",
-      "ward_name_en": "Maniyanpara",
-      "ward_name_ml": "മണിയന്‍പാറ"
+      "name_en": "Maniyanpara",
+      "name_ml": "മണിയന്‍പാറ"
     },
     {
-      "ward_id": "8b7edd21-1f55-494b-b644-419445749cdc",
+      "id": "8b7edd21-1f55-494b-b644-419445749cdc",
       "ward_no": "2",
-      "ward_name_en": "Kizhakkupuram",
-      "ward_name_ml": "കിഴക്കുപുറം"
+      "name_en": "Kizhakkupuram",
+      "name_ml": "കിഴക്കുപുറം"
     },
     {
-      "ward_id": "cc39e6ba-6e99-48ba-b29a-cbb94b1b139b",
+      "id": "cc39e6ba-6e99-48ba-b29a-cbb94b1b139b",
       "ward_no": "3",
-      "ward_name_en": "Chengara",
-      "ward_name_ml": "ചെങ്ങറ"
+      "name_en": "Chengara",
+      "name_ml": "ചെങ്ങറ"
     },
     {
-      "ward_id": "8a1bca8d-ef3b-4224-8381-e3d10d25e892",
+      "id": "8a1bca8d-ef3b-4224-8381-e3d10d25e892",
       "ward_no": "4",
-      "ward_name_en": "Attachackal",
-      "ward_name_ml": "അട്ടച്ചാക്കല്‍"
+      "name_en": "Attachackal",
+      "name_ml": "അട്ടച്ചാക്കല്‍"
     },
     {
-      "ward_id": "e7e40031-2a64-4e78-8a40-4621daf41bed",
+      "id": "e7e40031-2a64-4e78-8a40-4621daf41bed",
       "ward_no": "5",
-      "ward_name_en": "Kaithakunnu",
-      "ward_name_ml": "കൈതകുന്ന്"
+      "name_en": "Kaithakunnu",
+      "name_ml": "കൈതകുന്ന്"
     },
     {
-      "ward_id": "8a3a8d35-9dbb-4e64-869a-d77fb183eb34",
+      "id": "8a3a8d35-9dbb-4e64-869a-d77fb183eb34",
       "ward_no": "6",
-      "ward_name_en": "Athumpumkulam",
-      "ward_name_ml": "അതുമ്പുംകുളം"
+      "name_en": "Athumpumkulam",
+      "name_ml": "അതുമ്പുംകുളം"
     },
     {
-      "ward_id": "10f3086d-43f5-469a-bf8f-79ba9c9761ec",
+      "id": "10f3086d-43f5-469a-bf8f-79ba9c9761ec",
       "ward_no": "7",
-      "ward_name_en": "Konnappara",
-      "ward_name_ml": "കൊന്നപ്പാറ"
+      "name_en": "Konnappara",
+      "name_ml": "കൊന്നപ്പാറ"
     },
     {
-      "ward_id": "700faa77-1908-4c57-bdd9-8ce9c9bd05c8",
+      "id": "700faa77-1908-4c57-bdd9-8ce9c9bd05c8",
       "ward_no": "8",
-      "ward_name_en": "Payyanamon",
-      "ward_name_ml": "പയ്യനാമണ്‍"
+      "name_en": "Payyanamon",
+      "name_ml": "പയ്യനാമണ്‍"
     },
     {
-      "ward_id": "6624d9f4-70b3-4339-afd0-4bc31e40f7e9",
+      "id": "6624d9f4-70b3-4339-afd0-4bc31e40f7e9",
       "ward_no": "9",
-      "ward_name_en": "Perinjottackal",
-      "ward_name_ml": "പെരിഞ്ഞൊട്ടയ്ക്കല്‍"
+      "name_en": "Perinjottackal",
+      "name_ml": "പെരിഞ്ഞൊട്ടയ്ക്കല്‍"
     },
     {
-      "ward_id": "10095dd3-e503-4cff-8f8e-9dd4349d164b",
+      "id": "10095dd3-e503-4cff-8f8e-9dd4349d164b",
       "ward_no": "10",
-      "ward_name_en": "Muringamangalam",
-      "ward_name_ml": "മുരിങ്ങമംഗലം"
+      "name_en": "Muringamangalam",
+      "name_ml": "മുരിങ്ങമംഗലം"
     },
     {
-      "ward_id": "4a374240-fa46-406c-95e5-5518d4a90f2f",
+      "id": "4a374240-fa46-406c-95e5-5518d4a90f2f",
       "ward_no": "11",
-      "ward_name_en": "Mangaram",
-      "ward_name_ml": "മങ്ങാരം"
+      "name_en": "Mangaram",
+      "name_ml": "മങ്ങാരം"
     },
     {
-      "ward_id": "68334561-786f-487d-8054-ec78c2863dfb",
+      "id": "68334561-786f-487d-8054-ec78c2863dfb",
       "ward_no": "12",
-      "ward_name_en": "Eliyarackal",
-      "ward_name_ml": "എലിയറയ്ക്കല്‍"
+      "name_en": "Eliyarackal",
+      "name_ml": "എലിയറയ്ക്കല്‍"
     },
     {
-      "ward_id": "ee0014e1-e654-4bfd-b92c-1a3511886be1",
+      "id": "ee0014e1-e654-4bfd-b92c-1a3511886be1",
       "ward_no": "13",
-      "ward_name_en": "Vakayar",
-      "ward_name_ml": "വകയാര്‍"
+      "name_en": "Vakayar",
+      "name_ml": "വകയാര്‍"
     },
     {
-      "ward_id": "cd1952d7-abc0-4b3e-821f-0f7051a21c4f",
+      "id": "cd1952d7-abc0-4b3e-821f-0f7051a21c4f",
       "ward_no": "14",
-      "ward_name_en": "Madathilkavu",
-      "ward_name_ml": "മഠത്തില്‍കാവ്"
+      "name_en": "Madathilkavu",
+      "name_ml": "മഠത്തില്‍കാവ്"
     },
     {
-      "ward_id": "846562eb-4afc-4ba9-9b65-8b2d9c604bb7",
+      "id": "846562eb-4afc-4ba9-9b65-8b2d9c604bb7",
       "ward_no": "15",
-      "ward_name_en": "Vattakkavu",
-      "ward_name_ml": "വട്ടക്കാവ്"
+      "name_en": "Vattakkavu",
+      "name_ml": "വട്ടക്കാവ്"
     },
     {
-      "ward_id": "293cffe7-d8a6-4250-9539-1d7ab5644b61",
+      "id": "293cffe7-d8a6-4250-9539-1d7ab5644b61",
       "ward_no": "16",
-      "ward_name_en": "Konni Town",
-      "ward_name_ml": "കോന്നി ഠൌണ്‍"
+      "name_en": "Konni Town",
+      "name_ml": "കോന്നി ഠൌണ്‍"
     },
     {
-      "ward_id": "662d2aa2-1cb1-4a2c-bb85-8e52f8ccf283",
+      "id": "662d2aa2-1cb1-4a2c-bb85-8e52f8ccf283",
       "ward_no": "17",
-      "ward_name_en": "Mammoodu",
-      "ward_name_ml": "മാമ്മൂട്"
+      "name_en": "Mammoodu",
+      "name_ml": "മാമ്മൂട്"
     },
     {
-      "ward_id": "6ca29972-1e15-4f5f-a570-3e86c71b2872",
+      "id": "6ca29972-1e15-4f5f-a570-3e86c71b2872",
       "ward_no": "18",
-      "ward_name_en": "Chittoor",
-      "ward_name_ml": "ചിറ്റൂര്‍"
+      "name_en": "Chittoor",
+      "name_ml": "ചിറ്റൂര്‍"
     }
   ],
   "towns": [],

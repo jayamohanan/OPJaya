@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G071110",
-  "local_body_name_en": "Kuttampuzha",
-  "local_body_name_ml": "കുട്ടമ്പുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G071110",
+  "name_en": "Kuttampuzha",
+  "name_ml": "കുട്ടമ്പുഴ",
+  "assembly_id": "87",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "87",
-    "assembly_name_en": "Kothamangalam",
-    "assembly_name_ml": "കോതമംഗലം",
-    "category": "Normal"
+    "id": "87",
+    "name_en": "Kothamangalam",
+    "name_ml": "കോതമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7971fd5d-649b-40c9-af41-c27be9573a38",
+      "id": "7971fd5d-649b-40c9-af41-c27be9573a38",
       "ward_no": "1",
-      "ward_name_en": "Thundathil",
-      "ward_name_ml": "തുണ്ടത്തില്‍"
+      "name_en": "Thundathil",
+      "name_ml": "തുണ്ടത്തില്‍"
     },
     {
-      "ward_id": "e9c1d58b-994a-4eb9-aa4d-7b747d82c9a3",
+      "id": "e9c1d58b-994a-4eb9-aa4d-7b747d82c9a3",
       "ward_no": "2",
-      "ward_name_en": "Vadattupara",
-      "ward_name_ml": "വടാട്ടുപാറ"
+      "name_en": "Vadattupara",
+      "name_ml": "വടാട്ടുപാറ"
     },
     {
-      "ward_id": "ff78541e-633d-4e1d-9140-4f79007f7122",
+      "id": "ff78541e-633d-4e1d-9140-4f79007f7122",
       "ward_no": "3",
-      "ward_name_en": "Poika",
-      "ward_name_ml": "പൊയ്ക"
+      "name_en": "Poika",
+      "name_ml": "പൊയ്ക"
     },
     {
-      "ward_id": "689af587-6832-4a60-820d-48393ffa20c0",
+      "id": "689af587-6832-4a60-820d-48393ffa20c0",
       "ward_no": "4",
-      "ward_name_en": "Arattuchira",
-      "ward_name_ml": "ആറാട്ടുചിറ"
+      "name_en": "Arattuchira",
+      "name_ml": "ആറാട്ടുചിറ"
     },
     {
-      "ward_id": "892dcbac-aad3-4da1-8795-d4cfb49224e6",
+      "id": "892dcbac-aad3-4da1-8795-d4cfb49224e6",
       "ward_no": "5",
-      "ward_name_en": "Edamalayar",
-      "ward_name_ml": "ഇടമലയാര്‍"
+      "name_en": "Edamalayar",
+      "name_ml": "ഇടമലയാര്‍"
     },
     {
-      "ward_id": "4f08c0b9-e400-42aa-9dc1-03fff63a86e3",
+      "id": "4f08c0b9-e400-42aa-9dc1-03fff63a86e3",
       "ward_no": "6",
-      "ward_name_en": "Kallelimed",
-      "ward_name_ml": "കല്ലേലിമേട്"
+      "name_en": "Kallelimed",
+      "name_ml": "കല്ലേലിമേട്"
     },
     {
-      "ward_id": "48a751ba-b276-498f-ac2f-7b8947171b5f",
+      "id": "48a751ba-b276-498f-ac2f-7b8947171b5f",
       "ward_no": "7",
-      "ward_name_en": "Manikandanchal",
-      "ward_name_ml": "മണികണ്ഠന്‍ചാല്‍"
+      "name_en": "Manikandanchal",
+      "name_ml": "മണികണ്ഠന്‍ചാല്‍"
     },
     {
-      "ward_id": "4714bfa6-03e8-4d49-8638-b8e3612ddfc0",
+      "id": "4714bfa6-03e8-4d49-8638-b8e3612ddfc0",
       "ward_no": "8",
-      "ward_name_en": "Pooyamkutty",
-      "ward_name_ml": "പൂയംകുട്ടി"
+      "name_en": "Pooyamkutty",
+      "name_ml": "പൂയംകുട്ടി"
     },
     {
-      "ward_id": "90cd779c-807d-470c-bac2-a5a991477977",
+      "id": "90cd779c-807d-470c-bac2-a5a991477977",
       "ward_no": "9",
-      "ward_name_en": "Kuttiamchal",
-      "ward_name_ml": "കുറ്റ്യാംചാല്‍"
+      "name_en": "Kuttiamchal",
+      "name_ml": "കുറ്റ്യാംചാല്‍"
     },
     {
-      "ward_id": "928ec67d-9315-4f9e-9422-a3c0238fc39f",
+      "id": "928ec67d-9315-4f9e-9422-a3c0238fc39f",
       "ward_no": "10",
-      "ward_name_en": "Thalippara",
-      "ward_name_ml": "താലിപ്പാറ"
+      "name_en": "Thalippara",
+      "name_ml": "താലിപ്പാറ"
     },
     {
-      "ward_id": "36761c24-0110-4112-9b24-d3ddb36fc40e",
+      "id": "36761c24-0110-4112-9b24-d3ddb36fc40e",
       "ward_no": "11",
-      "ward_name_en": "Mamalakandam",
-      "ward_name_ml": "മാമലക്കണ്ടം"
+      "name_en": "Mamalakandam",
+      "name_ml": "മാമലക്കണ്ടം"
     },
     {
-      "ward_id": "649dc885-dc6c-4943-97c6-76db7a92dccd",
+      "id": "649dc885-dc6c-4943-97c6-76db7a92dccd",
       "ward_no": "12",
-      "ward_name_en": "Pinavoorkudy",
-      "ward_name_ml": "പെണൂര്‍ക്കുടി"
+      "name_en": "Pinavoorkudy",
+      "name_ml": "പെണൂര്‍ക്കുടി"
     },
     {
-      "ward_id": "00a3dcf4-1963-48e0-aaff-890665b6455c",
+      "id": "00a3dcf4-1963-48e0-aaff-890665b6455c",
       "ward_no": "13",
-      "ward_name_en": "Inchathotty",
-      "ward_name_ml": "ഇഞ്ചത്തൊട്ടി"
+      "name_en": "Inchathotty",
+      "name_ml": "ഇഞ്ചത്തൊട്ടി"
     },
     {
-      "ward_id": "0a816fdc-845e-402f-858e-c45a1fd2e451",
+      "id": "0a816fdc-845e-402f-858e-c45a1fd2e451",
       "ward_no": "14",
-      "ward_name_en": "Urulanthanny",
-      "ward_name_ml": "ഉരുളന്‍തണ്ണി"
+      "name_en": "Urulanthanny",
+      "name_ml": "ഉരുളന്‍തണ്ണി"
     },
     {
-      "ward_id": "d398e14a-a186-431a-946f-954a64a3b957",
+      "id": "d398e14a-a186-431a-946f-954a64a3b957",
       "ward_no": "15",
-      "ward_name_en": "Anakkayam",
-      "ward_name_ml": "ആനക്കയം"
+      "name_en": "Anakkayam",
+      "name_ml": "ആനക്കയം"
     },
     {
-      "ward_id": "5a3121fc-241d-4876-9146-79566872816c",
+      "id": "5a3121fc-241d-4876-9146-79566872816c",
       "ward_no": "16",
-      "ward_name_en": "Kuttampuzha",
-      "ward_name_ml": "കുട്ടന്പുഴ"
+      "name_en": "Kuttampuzha",
+      "name_ml": "കുട്ടന്പുഴ"
     },
     {
-      "ward_id": "8a61b388-dbb5-455b-af32-a6a7ae7aa4a5",
+      "id": "8a61b388-dbb5-455b-af32-a6a7ae7aa4a5",
       "ward_no": "17",
-      "ward_name_en": "Thattekkad",
-      "ward_name_ml": "തട്ടേക്കാട്"
+      "name_en": "Thattekkad",
+      "name_ml": "തട്ടേക്കാട്"
     }
   ],
   "towns": [],

@@ -1,50 +1,65 @@
 {
-  "assembly_id": "44",
-  "assembly_name_en": "Tanur",
-  "assembly_name_ml": "താനൂര്‍",
-  "category": "Normal",
+  "id": "44",
+  "name_en": "Tanur",
+  "name_ml": "താനൂര്‍",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G101201",
-      "local_body_name_en": "Cheriyamundam",
-      "local_body_name_ml": "ചെറിയമുണ്ടം",
-      "category": "Good"
+      "id": "G101201",
+      "name_en": "Cheriyamundam",
+      "name_ml": "ചെറിയമുണ്ടം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101207",
-      "local_body_name_en": "Niramaruthur",
-      "local_body_name_ml": "നിറമരുതൂര്‍",
-      "category": "Good"
+      "id": "G101207",
+      "name_en": "Niramaruthur",
+      "name_ml": "നിറമരുതൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101202",
-      "local_body_name_en": "Ozhur",
-      "local_body_name_ml": "ഒഴൂര്‍",
-      "category": "Perfect"
+      "id": "G101202",
+      "name_en": "Ozhur",
+      "name_ml": "ഒഴൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G101206",
-      "local_body_name_en": "Ponmundam",
-      "local_body_name_ml": "പൊന്മുണ്ടം",
-      "category": "Normal"
+      "id": "G101206",
+      "name_en": "Ponmundam",
+      "name_ml": "പൊന്മുണ്ടം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101203",
-      "local_body_name_en": "Tanalur",
-      "local_body_name_ml": "താനാളൂര്‍",
-      "category": "Normal"
+      "id": "G101203",
+      "name_en": "Tanalur",
+      "name_ml": "താനാളൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M101200",
-      "local_body_name_en": "Tanur",
-      "local_body_name_ml": "താനൂര്‍",
-      "category": ""
+      "id": "M101200",
+      "name_en": "Tanur",
+      "name_ml": "താനൂര്‍",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

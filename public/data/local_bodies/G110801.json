@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G110801",
-  "local_body_name_en": "Chemanchery",
-  "local_body_name_ml": "ചേമഞ്ചരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "23",
-    "assembly_name_en": "Koyilandy",
-    "assembly_name_ml": "കൊയിലാണ്ടി",
+  "id": "G110801",
+  "name_en": "Chemanchery",
+  "name_ml": "ചേമഞ്ചരി",
+  "assembly_id": "23",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "23",
+    "name_en": "Koyilandy",
+    "name_ml": "കൊയിലാണ്ടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1c4408e8-efd5-4d10-ac42-a2439858f0a1",
+      "id": "1c4408e8-efd5-4d10-ac42-a2439858f0a1",
       "ward_no": "1",
-      "ward_name_en": "Chemanchery",
-      "ward_name_ml": "ചേമഞ്ചേരി"
+      "name_en": "Chemanchery",
+      "name_ml": "ചേമഞ്ചേരി"
     },
     {
-      "ward_id": "95b4a1e2-aa46-4b06-8a07-9cd9c505981f",
+      "id": "95b4a1e2-aa46-4b06-8a07-9cd9c505981f",
       "ward_no": "2",
-      "ward_name_en": "Chemanchery East",
-      "ward_name_ml": "ചേമഞ്ചേരി ഈസ്റ്റ്"
+      "name_en": "Chemanchery East",
+      "name_ml": "ചേമഞ്ചേരി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "ed4fed2d-7304-415a-9e30-24818fd45397",
+      "id": "ed4fed2d-7304-415a-9e30-24818fd45397",
       "ward_no": "3",
-      "ward_name_en": "Kanhilasseri",
-      "ward_name_ml": "കാഞ്ഞിലശ്ശേരി"
+      "name_en": "Kanhilasseri",
+      "name_ml": "കാഞ്ഞിലശ്ശേരി"
     },
     {
-      "ward_id": "d8afcb1f-e749-423c-9b1a-2929b18c3366",
+      "id": "d8afcb1f-e749-423c-9b1a-2929b18c3366",
       "ward_no": "4",
-      "ward_name_en": "Thuvvakkode",
-      "ward_name_ml": "തുവ്വക്കോട്"
+      "name_en": "Thuvvakkode",
+      "name_ml": "തുവ്വക്കോട്"
     },
     {
-      "ward_id": "e1110aa0-a0e4-4504-913b-12e8bfcf62b2",
+      "id": "e1110aa0-a0e4-4504-913b-12e8bfcf62b2",
       "ward_no": "5",
-      "ward_name_en": "Kolakkad",
-      "ward_name_ml": "കൊളക്കാട്"
+      "name_en": "Kolakkad",
+      "name_ml": "കൊളക്കാട്"
     },
     {
-      "ward_id": "80165257-9ae8-4f1e-8645-5592b84f93f2",
+      "id": "80165257-9ae8-4f1e-8645-5592b84f93f2",
       "ward_no": "6",
-      "ward_name_en": "Pookkad East",
-      "ward_name_ml": "പൂക്കാട് ഈസ്റ്റ്"
+      "name_en": "Pookkad East",
+      "name_ml": "പൂക്കാട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "434e2df1-a74f-4e4f-9abf-421c7b549c5d",
+      "id": "434e2df1-a74f-4e4f-9abf-421c7b549c5d",
       "ward_no": "7",
-      "ward_name_en": "Pookkad",
-      "ward_name_ml": "പൂക്കാട്"
+      "name_en": "Pookkad",
+      "name_ml": "പൂക്കാട്"
     },
     {
-      "ward_id": "5825291e-4e9e-4e26-9632-705126f1a516",
+      "id": "5825291e-4e9e-4e26-9632-705126f1a516",
       "ward_no": "8",
-      "ward_name_en": "Vettilapara",
-      "ward_name_ml": "വെറ്റിലപ്പാറ"
+      "name_en": "Vettilapara",
+      "name_ml": "വെറ്റിലപ്പാറ"
     },
     {
-      "ward_id": "f4bb0995-eb8d-46e1-a80f-19015c992651",
+      "id": "f4bb0995-eb8d-46e1-a80f-19015c992651",
       "ward_no": "9",
-      "ward_name_en": "Thiruvangoor",
-      "ward_name_ml": "തിരുവങ്ങൂര്‍"
+      "name_en": "Thiruvangoor",
+      "name_ml": "തിരുവങ്ങൂര്‍"
     },
     {
-      "ward_id": "a26acf71-87dd-4ff8-b131-ae2b42283fe7",
+      "id": "a26acf71-87dd-4ff8-b131-ae2b42283fe7",
       "ward_no": "10",
-      "ward_name_en": "Vengalam",
-      "ward_name_ml": "വെങ്ങളം"
+      "name_en": "Vengalam",
+      "name_ml": "വെങ്ങളം"
     },
     {
-      "ward_id": "c7013513-6151-4547-8c63-7484fd007c81",
+      "id": "c7013513-6151-4547-8c63-7484fd007c81",
       "ward_no": "11",
-      "ward_name_en": "Korapuzha",
-      "ward_name_ml": "കോരപ്പുഴ"
+      "name_en": "Korapuzha",
+      "name_ml": "കോരപ്പുഴ"
     },
     {
-      "ward_id": "ece4fb2e-724f-4995-8c4a-12ab2f228c91",
+      "id": "ece4fb2e-724f-4995-8c4a-12ab2f228c91",
       "ward_no": "12",
-      "ward_name_en": "Kattilapeedika",
-      "ward_name_ml": "കാട്ടിലപീടിക"
+      "name_en": "Kattilapeedika",
+      "name_ml": "കാട്ടിലപീടിക"
     },
     {
-      "ward_id": "77425415-99c3-468d-ab2d-86f910fc68d4",
+      "id": "77425415-99c3-468d-ab2d-86f910fc68d4",
       "ward_no": "13",
-      "ward_name_en": "Kannankadavu",
-      "ward_name_ml": "കണ്ണന്‍കടവ്"
+      "name_en": "Kannankadavu",
+      "name_ml": "കണ്ണന്‍കടവ്"
     },
     {
-      "ward_id": "ce2a3e77-138e-4630-adab-d21c87f29f1b",
+      "id": "ce2a3e77-138e-4630-adab-d21c87f29f1b",
       "ward_no": "14",
-      "ward_name_en": "Vengalam West",
-      "ward_name_ml": "വെങ്ങളം വെസ്റ്റ്"
+      "name_en": "Vengalam West",
+      "name_ml": "വെങ്ങളം വെസ്റ്റ്"
     },
     {
-      "ward_id": "49101d98-832e-4681-bb6b-d572943b0c2e",
+      "id": "49101d98-832e-4681-bb6b-d572943b0c2e",
       "ward_no": "15",
-      "ward_name_en": "Cheenichery",
-      "ward_name_ml": "ചീനിച്ചേരി"
+      "name_en": "Cheenichery",
+      "name_ml": "ചീനിച്ചേരി"
     },
     {
-      "ward_id": "adb1f303-66b8-4acf-96fc-65e5f522fa8a",
+      "id": "adb1f303-66b8-4acf-96fc-65e5f522fa8a",
       "ward_no": "16",
-      "ward_name_en": "Vikas Nagar",
-      "ward_name_ml": "വികാസ് നഗര്‍"
+      "name_en": "Vikas Nagar",
+      "name_ml": "വികാസ് നഗര്‍"
     },
     {
-      "ward_id": "62e5ca0e-f365-49cd-91d1-544880b62a35",
+      "id": "62e5ca0e-f365-49cd-91d1-544880b62a35",
       "ward_no": "17",
-      "ward_name_en": "Kappad",
-      "ward_name_ml": "കാപ്പാട്"
+      "name_en": "Kappad",
+      "name_ml": "കാപ്പാട്"
     },
     {
-      "ward_id": "109accec-474c-4453-8308-cd5c967ddaa9",
+      "id": "109accec-474c-4453-8308-cd5c967ddaa9",
       "ward_no": "18",
-      "ward_name_en": "Kappad North",
-      "ward_name_ml": "കാപ്പാട് നോര്‍ത്ത്"
+      "name_en": "Kappad North",
+      "name_ml": "കാപ്പാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "6acbdd50-8982-4611-a35e-653f1dabb6ec",
+      "id": "6acbdd50-8982-4611-a35e-653f1dabb6ec",
       "ward_no": "19",
-      "ward_name_en": "Pookkad West",
-      "ward_name_ml": "പൂക്കാട് വെസ്റ്റ്"
+      "name_en": "Pookkad West",
+      "name_ml": "പൂക്കാട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "ded3dd79-9cf3-4f0d-81c3-b959077fbc66",
+      "id": "ded3dd79-9cf3-4f0d-81c3-b959077fbc66",
       "ward_no": "20",
-      "ward_name_en": "Thuvvappara",
-      "ward_name_ml": "തുവ്വപ്പാറ"
+      "name_en": "Thuvvappara",
+      "name_ml": "തുവ്വപ്പാറ"
     }
   ],
   "towns": [],

@@ -1,50 +1,63 @@
 {
-  "assembly_id": "23",
-  "assembly_name_en": "Koyilandy",
-  "assembly_name_ml": "കൊയിലാണ്ടി",
-  "category": "Normal",
+  "id": "23",
+  "name_en": "Koyilandy",
+  "name_ml": "കൊയിലാണ്ടി",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110801",
-      "local_body_name_en": "Chemanchery",
-      "local_body_name_ml": "ചേമഞ്ചരി",
-      "category": "Normal"
+      "id": "G110801",
+      "name_en": "Chemanchery",
+      "name_ml": "ചേമഞ്ചരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110804",
-      "local_body_name_en": "Chengottukavu",
-      "local_body_name_ml": "ചേങ്ങോട്ടുകാവ്",
-      "category": "Normal"
+      "id": "G110804",
+      "name_en": "Chengottukavu",
+      "name_ml": "ചേങ്ങോട്ടുകാവ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M110200",
-      "local_body_name_en": "Koyilandy",
-      "local_body_name_ml": "കൊയിലാണ്ടി",
-      "category": ""
+      "id": "M110200",
+      "name_en": "Koyilandy",
+      "name_ml": "കൊയിലാണ്ടി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G110803",
-      "local_body_name_en": "Moodadi",
-      "local_body_name_ml": "മൂടാടി",
-      "category": "Normal"
+      "id": "G110803",
+      "name_en": "Moodadi",
+      "name_ml": "മൂടാടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M110300",
-      "local_body_name_en": "Payyoli",
-      "local_body_name_ml": "പയ്യോളി",
-      "category": ""
+      "id": "M110300",
+      "name_en": "Payyoli",
+      "name_ml": "പയ്യോളി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G110503",
-      "local_body_name_en": "Thikkodi",
-      "local_body_name_ml": "തിക്കോടി",
-      "category": "Normal"
+      "id": "G110503",
+      "name_en": "Thikkodi",
+      "name_ml": "തിക്കോടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

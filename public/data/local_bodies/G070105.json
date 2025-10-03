@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G070105",
-  "local_body_name_en": "Chittattukara",
-  "local_body_name_ml": "ചിറ്റാറ്റുകര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "78",
-    "assembly_name_en": "Paravur",
-    "assembly_name_ml": "പരവൂര്‍",
+  "id": "G070105",
+  "name_en": "Chittattukara",
+  "name_ml": "ചിറ്റാറ്റുകര",
+  "assembly_id": "78",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "78",
+    "name_en": "Paravur",
+    "name_ml": "പരവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6d4cb652-7587-486c-917f-5bf701f621ae",
+      "id": "6d4cb652-7587-486c-917f-5bf701f621ae",
       "ward_no": "1",
-      "ward_name_en": "Machamthuruth",
-      "ward_name_ml": "മാച്ചാംതുരുത്ത്"
+      "name_en": "Machamthuruth",
+      "name_ml": "മാച്ചാംതുരുത്ത്"
     },
     {
-      "ward_id": "802fc355-bbe2-4e7a-9073-97eb64468258",
+      "id": "802fc355-bbe2-4e7a-9073-97eb64468258",
       "ward_no": "2",
-      "ward_name_en": "Alamthuruth",
-      "ward_name_ml": "ആളംതുരുത്ത്"
+      "name_en": "Alamthuruth",
+      "name_ml": "ആളംതുരുത്ത്"
     },
     {
-      "ward_id": "a6b6a7f7-5146-49e3-86d8-c90cf9aa2aff",
+      "id": "a6b6a7f7-5146-49e3-86d8-c90cf9aa2aff",
       "ward_no": "3",
-      "ward_name_en": "Neendoor North(Head Quarters Ward)",
-      "ward_name_ml": "നീണ്ടൂർ വടക്ക്(ഹെഡ് ക്വാർട്ടേഴ്സ് വാർഡ്)"
+      "name_en": "Neendoor North(Head Quarters Ward)",
+      "name_ml": "നീണ്ടൂർ വടക്ക്(ഹെഡ് ക്വാർട്ടേഴ്സ് വാർഡ്)"
     },
     {
-      "ward_id": "072e1888-aca3-4022-9d18-6a4a3dd9eeff",
+      "id": "072e1888-aca3-4022-9d18-6a4a3dd9eeff",
       "ward_no": "4",
-      "ward_name_en": "Parayakad",
-      "ward_name_ml": "പറയകാട്"
+      "name_en": "Parayakad",
+      "name_ml": "പറയകാട്"
     },
     {
-      "ward_id": "12529e9a-9d99-438c-b99a-37795e462359",
+      "id": "12529e9a-9d99-438c-b99a-37795e462359",
       "ward_no": "5",
-      "ward_name_en": "Valiyapallamthuruth",
-      "ward_name_ml": "വലിയപല്ലംതുരുത്ത്"
+      "name_en": "Valiyapallamthuruth",
+      "name_ml": "വലിയപല്ലംതുരുത്ത്"
     },
     {
-      "ward_id": "3b20d6a2-b7ec-4af1-bf78-f87b2747dcda",
+      "id": "3b20d6a2-b7ec-4af1-bf78-f87b2747dcda",
       "ward_no": "6",
-      "ward_name_en": "Paravoothara",
-      "ward_name_ml": "പറവൂത്തറ"
+      "name_en": "Paravoothara",
+      "name_ml": "പറവൂത്തറ"
     },
     {
-      "ward_id": "7dc74a7b-f676-44aa-b9b3-45adcb274b1f",
+      "id": "7dc74a7b-f676-44aa-b9b3-45adcb274b1f",
       "ward_no": "7",
-      "ward_name_en": "Makkanai",
-      "ward_name_ml": "മാക്കനായി"
+      "name_en": "Makkanai",
+      "name_ml": "മാക്കനായി"
     },
     {
-      "ward_id": "a7f126ae-9c08-4252-a373-444ae59b7f8c",
+      "id": "a7f126ae-9c08-4252-a373-444ae59b7f8c",
       "ward_no": "8",
-      "ward_name_en": "Thoppu",
-      "ward_name_ml": "തോപ്പ്"
+      "name_en": "Thoppu",
+      "name_ml": "തോപ്പ്"
     },
     {
-      "ward_id": "f624aa00-5bd4-4690-923e-810ec108a011",
+      "id": "f624aa00-5bd4-4690-923e-810ec108a011",
       "ward_no": "9",
-      "ward_name_en": "Thannippadam",
-      "ward_name_ml": "താന്നിപ്പാടം"
+      "name_en": "Thannippadam",
+      "name_ml": "താന്നിപ്പാടം"
     },
     {
-      "ward_id": "f650eb4e-9802-4aa4-b601-fbeb42b0da68",
+      "id": "f650eb4e-9802-4aa4-b601-fbeb42b0da68",
       "ward_no": "10",
-      "ward_name_en": "Cheriyapallamthuruth North",
-      "ward_name_ml": "ചെറിയപല്ലംതുരുത്ത് വടക്ക്"
+      "name_en": "Cheriyapallamthuruth North",
+      "name_ml": "ചെറിയപല്ലംതുരുത്ത് വടക്ക്"
     },
     {
-      "ward_id": "51ca8a5d-6729-4d59-beb1-72acbfcae822",
+      "id": "51ca8a5d-6729-4d59-beb1-72acbfcae822",
       "ward_no": "11",
-      "ward_name_en": "Cheriyapallamthuruth South",
-      "ward_name_ml": "ചെറിയപല്ലംതുരുത്ത് തെക്ക്"
+      "name_en": "Cheriyapallamthuruth South",
+      "name_ml": "ചെറിയപല്ലംതുരുത്ത് തെക്ക്"
     },
     {
-      "ward_id": "9305a822-14be-483c-8611-a8af8bce8ec3",
+      "id": "9305a822-14be-483c-8611-a8af8bce8ec3",
       "ward_no": "12",
-      "ward_name_en": "Neendoor South",
-      "ward_name_ml": "നീണ്ടൂർ തെക്ക്"
+      "name_en": "Neendoor South",
+      "name_ml": "നീണ്ടൂർ തെക്ക്"
     },
     {
-      "ward_id": "b22c999e-8968-4fe3-9574-34eb7239b765",
+      "id": "b22c999e-8968-4fe3-9574-34eb7239b765",
       "ward_no": "13",
-      "ward_name_en": "Chittattukara",
-      "ward_name_ml": "ചിറ്റാറ്റുകര"
+      "name_en": "Chittattukara",
+      "name_ml": "ചിറ്റാറ്റുകര"
     },
     {
-      "ward_id": "96700c80-8036-4aa0-b521-aff9b054c294",
+      "id": "96700c80-8036-4aa0-b521-aff9b054c294",
       "ward_no": "14",
-      "ward_name_en": "Pooyappilly",
-      "ward_name_ml": "പൂയ്യപ്പിള്ളി"
+      "name_en": "Pooyappilly",
+      "name_ml": "പൂയ്യപ്പിള്ളി"
     },
     {
-      "ward_id": "0c07d8ba-4ba7-4650-98b6-f7fd586bd6b9",
+      "id": "0c07d8ba-4ba7-4650-98b6-f7fd586bd6b9",
       "ward_no": "15",
-      "ward_name_en": "Pattanam Mussaris",
-      "ward_name_ml": "പട്ടണം മുസ്സരിസ്"
+      "name_en": "Pattanam Mussaris",
+      "name_ml": "പട്ടണം മുസ്സരിസ്"
     },
     {
-      "ward_id": "37063491-164e-4399-9cc0-d5cdb045547a",
+      "id": "37063491-164e-4399-9cc0-d5cdb045547a",
       "ward_no": "16",
-      "ward_name_en": "Pattanam Center",
-      "ward_name_ml": "പട്ടണം സെന്‍റർ"
+      "name_en": "Pattanam Center",
+      "name_ml": "പട്ടണം സെന്‍റർ"
     },
     {
-      "ward_id": "c2d77a94-e327-465f-aa74-fb92d651dcf8",
+      "id": "c2d77a94-e327-465f-aa74-fb92d651dcf8",
       "ward_no": "17",
-      "ward_name_en": "Pattanam West",
-      "ward_name_ml": "പട്ടണം പടിഞ്ഞാറ്"
+      "name_en": "Pattanam West",
+      "name_ml": "പട്ടണം പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "13088f57-7437-449e-a0dd-df1e45048677",
+      "id": "13088f57-7437-449e-a0dd-df1e45048677",
       "ward_no": "18",
-      "ward_name_en": "Pattanam North",
-      "ward_name_ml": "പട്ടണം വടക്ക്"
+      "name_en": "Pattanam North",
+      "name_ml": "പട്ടണം വടക്ക്"
     }
   ],
   "towns": [],

@@ -1,68 +1,91 @@
 {
-  "assembly_id": "92",
-  "assembly_name_en": "Peerumade",
-  "assembly_name_ml": "പീരുമേട്",
-  "category": "Normal",
+  "id": "92",
+  "name_en": "Peerumade",
+  "name_ml": "പീരുമേട്",
+  "district_id": "6",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "district_category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G060606",
-      "local_body_name_en": "AyyappanCoil",
-      "local_body_name_ml": "അയ്യപ്പന്‍കോവില്‍",
-      "category": "Normal"
+      "id": "G060606",
+      "name_en": "AyyappanCoil",
+      "name_ml": "അയ്യപ്പന്‍കോവില്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060607",
-      "local_body_name_en": "Chakkupallam",
-      "local_body_name_ml": "ചക്കുപള്ളം",
-      "category": "Normal"
+      "id": "G060607",
+      "name_en": "Chakkupallam",
+      "name_ml": "ചക്കുപള്ളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060805",
-      "local_body_name_en": "Elappara",
-      "local_body_name_ml": "ഏലപ്പാറ",
-      "category": "Normal"
+      "id": "G060805",
+      "name_en": "Elappara",
+      "name_ml": "ഏലപ്പാറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060803",
-      "local_body_name_en": "Kokkayar",
-      "local_body_name_ml": "കൊക്കയാര്‍",
-      "category": "Perfect"
+      "id": "G060803",
+      "name_en": "Kokkayar",
+      "name_ml": "കൊക്കയാര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G060802",
-      "local_body_name_en": "Kumily",
-      "local_body_name_ml": "കുമിളി",
-      "category": "Good"
+      "id": "G060802",
+      "name_en": "Kumily",
+      "name_ml": "കുമിളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060804",
-      "local_body_name_en": "Peermade",
-      "local_body_name_ml": "പീരുമേട്",
-      "category": "Normal"
+      "id": "G060804",
+      "name_en": "Peermade",
+      "name_ml": "പീരുമേട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060801",
-      "local_body_name_en": "Peruvanthanam",
-      "local_body_name_ml": "പെരുവന്താനം",
-      "category": "Perfect"
+      "id": "G060801",
+      "name_en": "Peruvanthanam",
+      "name_ml": "പെരുവന്താനം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G060602",
-      "local_body_name_en": "Upputhara",
-      "local_body_name_ml": "ഉപ്പുതറ",
-      "category": "Normal"
+      "id": "G060602",
+      "name_en": "Upputhara",
+      "name_ml": "ഉപ്പുതറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060806",
-      "local_body_name_en": "Vandiperiyar",
-      "local_body_name_ml": "വണ്ടിപ്പെരിയാര്‍",
-      "category": "Normal"
+      "id": "G060806",
+      "name_en": "Vandiperiyar",
+      "name_ml": "വണ്ടിപ്പെരിയാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G100701",
-  "local_body_name_en": "Aliparamba",
-  "local_body_name_ml": "ആലിപ്പറമ്പ്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G100701",
+  "name_en": "Aliparamba",
+  "name_ml": "ആലിപ്പറമ്പ്",
+  "assembly_id": "38",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "38",
-    "assembly_name_en": "Perinthalmanna",
-    "assembly_name_ml": "പെരിന്തല്‍മണ്ണ",
-    "category": "Normal"
+    "id": "38",
+    "name_en": "Perinthalmanna",
+    "name_ml": "പെരിന്തല്‍മണ്ണ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "97ba8352-cee9-47ed-b636-3d328e7bfddd",
+      "id": "97ba8352-cee9-47ed-b636-3d328e7bfddd",
       "ward_no": "1",
-      "ward_name_en": "Chethanamkurssi",
-      "ward_name_ml": "ചെത്തനാംകുര്‍ശ്ശി"
+      "name_en": "Chethanamkurssi",
+      "name_ml": "ചെത്തനാംകുര്‍ശ്ശി"
     },
     {
-      "ward_id": "ae7ed496-c0d7-4d25-8c0d-d60e2dd3230e",
+      "id": "ae7ed496-c0d7-4d25-8c0d-d60e2dd3230e",
       "ward_no": "2",
-      "ward_name_en": "Anamangad",
-      "ward_name_ml": "ആനമങ്ങാട്"
+      "name_en": "Anamangad",
+      "name_ml": "ആനമങ്ങാട്"
     },
     {
-      "ward_id": "553ea6a6-a29f-4170-92a9-fa194119ec38",
+      "id": "553ea6a6-a29f-4170-92a9-fa194119ec38",
       "ward_no": "3",
-      "ward_name_en": "Valamkulam",
-      "ward_name_ml": "വളാംകുളം"
+      "name_en": "Valamkulam",
+      "name_ml": "വളാംകുളം"
     },
     {
-      "ward_id": "7d40e523-77a9-4ff7-84f2-ec96107deedf",
+      "id": "7d40e523-77a9-4ff7-84f2-ec96107deedf",
       "ward_no": "4",
-      "ward_name_en": "Odamala",
-      "ward_name_ml": "ഒടമല"
+      "name_en": "Odamala",
+      "name_ml": "ഒടമല"
     },
     {
-      "ward_id": "1c31b31a-0fca-4d7e-9925-b6aea30c0aef",
+      "id": "1c31b31a-0fca-4d7e-9925-b6aea30c0aef",
       "ward_no": "5",
-      "ward_name_en": "Pariyapuram",
-      "ward_name_ml": "പരിയാപുരം"
+      "name_en": "Pariyapuram",
+      "name_ml": "പരിയാപുരം"
     },
     {
-      "ward_id": "85b51fea-9186-4b38-af9b-4214f6277d19",
+      "id": "85b51fea-9186-4b38-af9b-4214f6277d19",
       "ward_no": "6",
-      "ward_name_en": "Edaikkal",
-      "ward_name_ml": "എടായ്ക്കല്‍"
+      "name_en": "Edaikkal",
+      "name_ml": "എടായ്ക്കല്‍"
     },
     {
-      "ward_id": "fa774be4-f22b-476a-b1c6-36fee5dc1985",
+      "id": "fa774be4-f22b-476a-b1c6-36fee5dc1985",
       "ward_no": "7",
-      "ward_name_en": "Vazhenkada",
-      "ward_name_ml": "വാഴേങ്കട"
+      "name_en": "Vazhenkada",
+      "name_ml": "വാഴേങ്കട"
     },
     {
-      "ward_id": "f757bc41-9413-4685-86f1-14cf40a45a60",
+      "id": "f757bc41-9413-4685-86f1-14cf40a45a60",
       "ward_no": "8",
-      "ward_name_en": "Vattaparamba",
-      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+      "name_en": "Vattaparamba",
+      "name_ml": "വട്ടപ്പറമ്പ്"
     },
     {
-      "ward_id": "f621bd68-2062-4161-a170-6ff22011af6f",
+      "id": "f621bd68-2062-4161-a170-6ff22011af6f",
       "ward_no": "9",
-      "ward_name_en": "Parakanni",
-      "ward_name_ml": "പാറക്കണ്ണി"
+      "name_en": "Parakanni",
+      "name_ml": "പാറക്കണ്ണി"
     },
     {
-      "ward_id": "911f1296-12fb-4b06-804d-f46178a8b984",
+      "id": "911f1296-12fb-4b06-804d-f46178a8b984",
       "ward_no": "10",
-      "ward_name_en": "Kodakaparamba",
-      "ward_name_ml": "കൊടക്കാപറമ്പ്"
+      "name_en": "Kodakaparamba",
+      "name_ml": "കൊടക്കാപറമ്പ്"
     },
     {
-      "ward_id": "2c64fdf4-0410-49b9-b55f-e5b11a807172",
+      "id": "2c64fdf4-0410-49b9-b55f-e5b11a807172",
       "ward_no": "11",
-      "ward_name_en": "Kamburam",
-      "ward_name_ml": "കാമ്പുറം"
+      "name_en": "Kamburam",
+      "name_ml": "കാമ്പുറം"
     },
     {
-      "ward_id": "8912a15b-3569-43ea-918f-153bc4f2b8b3",
+      "id": "8912a15b-3569-43ea-918f-153bc4f2b8b3",
       "ward_no": "12",
-      "ward_name_en": "Aliparamba",
-      "ward_name_ml": "ആലിപ്പറമ്പ്"
+      "name_en": "Aliparamba",
+      "name_ml": "ആലിപ്പറമ്പ്"
     },
     {
-      "ward_id": "f5d2ad73-3502-4ce5-bf26-41b531cd8709",
+      "id": "f5d2ad73-3502-4ce5-bf26-41b531cd8709",
       "ward_no": "13",
-      "ward_name_en": "Kunnanath",
-      "ward_name_ml": "കുന്നനാത്ത്"
+      "name_en": "Kunnanath",
+      "name_ml": "കുന്നനാത്ത്"
     },
     {
-      "ward_id": "72f19d6a-a4b9-4fde-8ebc-e6eaaafa8780",
+      "id": "72f19d6a-a4b9-4fde-8ebc-e6eaaafa8780",
       "ward_no": "14",
-      "ward_name_en": "Thekkepuram",
-      "ward_name_ml": "തെക്കേപ്പുറം"
+      "name_en": "Thekkepuram",
+      "name_ml": "തെക്കേപ്പുറം"
     },
     {
-      "ward_id": "4bc3dcc8-5eeb-48a0-9036-d163a2533f47",
+      "id": "4bc3dcc8-5eeb-48a0-9036-d163a2533f47",
       "ward_no": "15",
-      "ward_name_en": "Kuthuparamb",
-      "ward_name_ml": "കൂത്തുപറമ്പ്"
+      "name_en": "Kuthuparamb",
+      "name_ml": "കൂത്തുപറമ്പ്"
     },
     {
-      "ward_id": "4167389d-ecbc-4523-9b15-53736c05a86b",
+      "id": "4167389d-ecbc-4523-9b15-53736c05a86b",
       "ward_no": "16",
-      "ward_name_en": "Thootha",
-      "ward_name_ml": "തൂത"
+      "name_en": "Thootha",
+      "name_ml": "തൂത"
     },
     {
-      "ward_id": "fc194cce-9fd1-43fa-84b0-b41835d76c47",
+      "id": "fc194cce-9fd1-43fa-84b0-b41835d76c47",
       "ward_no": "17",
-      "ward_name_en": "Paral",
-      "ward_name_ml": "പാറല്‍"
+      "name_en": "Paral",
+      "name_ml": "പാറല്‍"
     },
     {
-      "ward_id": "d2602258-1e39-4d36-b277-b4fbe5d19148",
+      "id": "d2602258-1e39-4d36-b277-b4fbe5d19148",
       "ward_no": "18",
-      "ward_name_en": "Edathara",
-      "ward_name_ml": "എടത്തറ"
+      "name_en": "Edathara",
+      "name_ml": "എടത്തറ"
     },
     {
-      "ward_id": "b30d828c-ff6a-4865-8b57-91772c4d8b68",
+      "id": "b30d828c-ff6a-4865-8b57-91772c4d8b68",
       "ward_no": "19",
-      "ward_name_en": "Punnakode",
-      "ward_name_ml": "പുന്നക്കോട്"
+      "name_en": "Punnakode",
+      "name_ml": "പുന്നക്കോട്"
     },
     {
-      "ward_id": "3903a989-0983-41c7-b085-cfce4e8c208d",
+      "id": "3903a989-0983-41c7-b085-cfce4e8c208d",
       "ward_no": "20",
-      "ward_name_en": "Muzhannamanna",
-      "ward_name_ml": "മുഴന്നമണ്ണ"
+      "name_en": "Muzhannamanna",
+      "name_ml": "മുഴന്നമണ്ണ"
     },
     {
-      "ward_id": "8734f0a8-3a55-4cdb-9ed6-8e62551bd9be",
+      "id": "8734f0a8-3a55-4cdb-9ed6-8e62551bd9be",
       "ward_no": "21",
-      "ward_name_en": "Paloliparamba",
-      "ward_name_ml": "പാലോളിപ്പറമ്പ്"
+      "name_en": "Paloliparamba",
+      "name_ml": "പാലോളിപ്പറമ്പ്"
     }
   ],
   "towns": [],

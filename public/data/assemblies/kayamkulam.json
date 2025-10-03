@@ -1,56 +1,75 @@
 {
-  "assembly_id": "108",
-  "assembly_name_en": "Kayamkulam",
-  "assembly_name_ml": "കായംകുളം",
-  "category": "Normal",
+  "id": "108",
+  "name_en": "Kayamkulam",
+  "name_ml": "കായംകുളം",
+  "district_id": "4",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "district_category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G041103",
-      "local_body_name_en": "Bharanickavu",
-      "local_body_name_ml": "ഭരണിക്കാവ്",
-      "category": "Good"
+      "id": "G041103",
+      "name_en": "Bharanickavu",
+      "name_ml": "ഭരണിക്കാവ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G041002",
-      "local_body_name_en": "Chettikulangara",
-      "local_body_name_ml": "ചെട്ടികുളങ്ങര",
-      "category": "Good"
+      "id": "G041002",
+      "name_en": "Chettikulangara",
+      "name_ml": "ചെട്ടികുളങ്ങര",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G041207",
-      "local_body_name_en": "Devikulangara",
-      "local_body_name_ml": "ദേവികുളങ്ങര",
-      "category": "Normal"
+      "id": "G041207",
+      "name_en": "Devikulangara",
+      "name_ml": "ദേവികുളങ്ങര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G041202",
-      "local_body_name_en": "Kandalloor",
-      "local_body_name_ml": "കണ്ടല്ലൂര്‍",
-      "category": "Perfect"
+      "id": "G041202",
+      "name_en": "Kandalloor",
+      "name_ml": "കണ്ടല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M040400",
-      "local_body_name_en": "Kayamkulam",
-      "local_body_name_ml": "കായംകുളം",
-      "category": "Perfect"
+      "id": "M040400",
+      "name_en": "Kayamkulam",
+      "name_ml": "കായംകുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G041206",
-      "local_body_name_en": "Krishnapuram",
-      "local_body_name_ml": "കൃഷ്ണപുരം",
-      "category": "Perfect"
+      "id": "G041206",
+      "name_en": "Krishnapuram",
+      "name_ml": "കൃഷ്ണപുരം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G041201",
-      "local_body_name_en": "Pathiyoor",
-      "local_body_name_ml": "പത്തിയൂര്‍",
-      "category": "Good"
+      "id": "G041201",
+      "name_en": "Pathiyoor",
+      "name_ml": "പത്തിയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

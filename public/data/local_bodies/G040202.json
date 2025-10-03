@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G040202",
-  "local_body_name_en": "Pattanakkad",
-  "local_body_name_ml": "പട്ടണക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G040202",
+  "name_en": "Pattanakkad",
+  "name_ml": "പട്ടണക്കാട്",
+  "assembly_id": "103",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "103",
-    "assembly_name_en": "Cherthala",
-    "assembly_name_ml": "ചേർത്തല",
-    "category": "Normal"
+    "id": "103",
+    "name_en": "Cherthala",
+    "name_ml": "ചേർത്തല",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8153483b-1332-4c3f-b4c9-e377f568c7c8",
+      "id": "8153483b-1332-4c3f-b4c9-e377f568c7c8",
       "ward_no": "1",
-      "ward_name_en": "Veeyathra",
-      "ward_name_ml": "വീയാത്ര"
+      "name_en": "Veeyathra",
+      "name_ml": "വീയാത്ര"
     },
     {
-      "ward_id": "89046d87-a73d-455a-9563-f5cf8d3d8ae2",
+      "id": "89046d87-a73d-455a-9563-f5cf8d3d8ae2",
       "ward_no": "2",
-      "ward_name_en": "Parayil",
-      "ward_name_ml": "പാറയില്‍"
+      "name_en": "Parayil",
+      "name_ml": "പാറയില്‍"
     },
     {
-      "ward_id": "d7e6a66a-c66e-4560-900f-50c28c73f3c7",
+      "id": "d7e6a66a-c66e-4560-900f-50c28c73f3c7",
       "ward_no": "3",
-      "ward_name_en": "Ponnamveli North",
-      "ward_name_ml": "പൊന്നാംവെളി വടക്ക്"
+      "name_en": "Ponnamveli North",
+      "name_ml": "പൊന്നാംവെളി വടക്ക്"
     },
     {
-      "ward_id": "ba5658ba-de34-4b75-86f9-9a2577796e74",
+      "id": "ba5658ba-de34-4b75-86f9-9a2577796e74",
       "ward_no": "4",
-      "ward_name_en": "Ponnamveli",
-      "ward_name_ml": "പൊന്നാംവെളി"
+      "name_en": "Ponnamveli",
+      "name_ml": "പൊന്നാംവെളി"
     },
     {
-      "ward_id": "163f67b7-686f-4b3c-8dd8-1c117df1c0a8",
+      "id": "163f67b7-686f-4b3c-8dd8-1c117df1c0a8",
       "ward_no": "5",
-      "ward_name_en": "Pattanakad",
-      "ward_name_ml": "പട്ടണക്കാട്"
+      "name_en": "Pattanakad",
+      "name_ml": "പട്ടണക്കാട്"
     },
     {
-      "ward_id": "77355e11-2529-4ebb-80a9-aa306d0495c3",
+      "id": "77355e11-2529-4ebb-80a9-aa306d0495c3",
       "ward_no": "6",
-      "ward_name_en": "High School",
-      "ward_name_ml": "ഹൈസ്കൂള്‍"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്കൂള്‍"
     },
     {
-      "ward_id": "9686eca5-953b-4bac-a963-b66a97ed7e0b",
+      "id": "9686eca5-953b-4bac-a963-b66a97ed7e0b",
       "ward_no": "7",
-      "ward_name_en": "Puthiyakavu",
-      "ward_name_ml": "പുതിയകാവ്"
+      "name_en": "Puthiyakavu",
+      "name_ml": "പുതിയകാവ്"
     },
     {
-      "ward_id": "b324ea42-8d6f-409c-8d7d-9e2c9ea3e999",
+      "id": "b324ea42-8d6f-409c-8d7d-9e2c9ea3e999",
       "ward_no": "8",
-      "ward_name_en": "Uzhuva",
-      "ward_name_ml": "ഉഴുവ"
+      "name_en": "Uzhuva",
+      "name_ml": "ഉഴുവ"
     },
     {
-      "ward_id": "5861bb29-ab17-41f1-99e0-bef8d638a19a",
+      "id": "5861bb29-ab17-41f1-99e0-bef8d638a19a",
       "ward_no": "9",
-      "ward_name_en": "Uzhuva West",
-      "ward_name_ml": "ഉഴുവ പടിഞ്ഞാറ്"
+      "name_en": "Uzhuva West",
+      "name_ml": "ഉഴുവ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "0fd1aa45-4bea-476d-91d8-ad20ed2e20d8",
+      "id": "0fd1aa45-4bea-476d-91d8-ad20ed2e20d8",
       "ward_no": "10",
-      "ward_name_en": "Athikkad",
-      "ward_name_ml": "അത്തിക്കാട്"
+      "name_en": "Athikkad",
+      "name_ml": "അത്തിക്കാട്"
     },
     {
-      "ward_id": "af7cd0cb-e55c-4f72-ae66-fea723999ed4",
+      "id": "af7cd0cb-e55c-4f72-ae66-fea723999ed4",
       "ward_no": "11",
-      "ward_name_en": "Kothakulangara",
-      "ward_name_ml": "കോതകുളങ്ങര"
+      "name_en": "Kothakulangara",
+      "name_ml": "കോതകുളങ്ങര"
     },
     {
-      "ward_id": "22b25acd-5cd2-4acd-ad98-f82e70cb56e3",
+      "id": "22b25acd-5cd2-4acd-ad98-f82e70cb56e3",
       "ward_no": "12",
-      "ward_name_en": "Menasheri",
-      "ward_name_ml": "മേനാശ്ശേരി"
+      "name_en": "Menasheri",
+      "name_ml": "മേനാശ്ശേരി"
     },
     {
-      "ward_id": "a5e48bc5-cc16-49bc-9f24-56134112a45d",
+      "id": "a5e48bc5-cc16-49bc-9f24-56134112a45d",
       "ward_no": "13",
-      "ward_name_en": "Vettackal",
-      "ward_name_ml": "വെട്ടയ്ക്കല്‍"
+      "name_en": "Vettackal",
+      "name_ml": "വെട്ടയ്ക്കല്‍"
     },
     {
-      "ward_id": "40efe59c-e92e-41ac-b28a-9bfdc721635f",
+      "id": "40efe59c-e92e-41ac-b28a-9bfdc721635f",
       "ward_no": "14",
-      "ward_name_en": "Konattusheri",
-      "ward_name_ml": "കോനാട്ടുശ്ശേരി"
+      "name_en": "Konattusheri",
+      "name_ml": "കോനാട്ടുശ്ശേരി"
     },
     {
-      "ward_id": "66e27232-4fea-4f25-8b87-490f2688afc6",
+      "id": "66e27232-4fea-4f25-8b87-490f2688afc6",
       "ward_no": "15",
-      "ward_name_en": "Konattusheri South",
-      "ward_name_ml": "കോനാട്ടുശ്ശേരി തെക്ക്"
+      "name_en": "Konattusheri South",
+      "name_ml": "കോനാട്ടുശ്ശേരി തെക്ക്"
     },
     {
-      "ward_id": "74d218a9-c5d5-4d7c-b50b-976905da67e9",
+      "id": "74d218a9-c5d5-4d7c-b50b-976905da67e9",
       "ward_no": "16",
-      "ward_name_en": "Arashupuram",
-      "ward_name_ml": "ആരാശുപുരം"
+      "name_en": "Arashupuram",
+      "name_ml": "ആരാശുപുരം"
     },
     {
-      "ward_id": "57d093ee-2455-4975-8813-df2e6ed20410",
+      "id": "57d093ee-2455-4975-8813-df2e6ed20410",
       "ward_no": "17",
-      "ward_name_en": "Aarattuvazhi",
-      "ward_name_ml": "ആറാട്ടുവഴി"
+      "name_en": "Aarattuvazhi",
+      "name_ml": "ആറാട്ടുവഴി"
     },
     {
-      "ward_id": "6556c2cb-d92b-4e31-a898-0725c6a453cd",
+      "id": "6556c2cb-d92b-4e31-a898-0725c6a453cd",
       "ward_no": "18",
-      "ward_name_en": "Vettackal West",
-      "ward_name_ml": "വെട്ടയ്ക്കല്‍ പടിഞ്ഞാറ്"
+      "name_en": "Vettackal West",
+      "name_ml": "വെട്ടയ്ക്കല്‍ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "f2d4a51c-7b02-48e2-9fbd-3d6ddb45f666",
+      "id": "f2d4a51c-7b02-48e2-9fbd-3d6ddb45f666",
       "ward_no": "19",
-      "ward_name_en": "Andhakaranazhy",
-      "ward_name_ml": "അന്ധകാരനഴി"
+      "name_en": "Andhakaranazhy",
+      "name_ml": "അന്ധകാരനഴി"
     }
   ],
   "towns": [],

@@ -1,62 +1,83 @@
 {
-  "assembly_id": "52",
-  "assembly_name_en": "Ottapalam",
-  "assembly_name_ml": "ഒറ്റപ്പാലം",
-  "category": "Normal",
+  "id": "52",
+  "name_en": "Ottapalam",
+  "name_ml": "ഒറ്റപ്പാലം",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G090402",
-      "local_body_name_en": "Kadampazhipuram",
-      "local_body_name_ml": "കടമ്പഴിപ്പുറം",
-      "category": "Normal"
+      "id": "G090402",
+      "name_en": "Kadampazhipuram",
+      "name_ml": "കടമ്പഴിപ്പുറം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090403",
-      "local_body_name_en": "Karimpuzha",
-      "local_body_name_ml": "കരിമ്പുഴ",
-      "category": "Good"
+      "id": "G090403",
+      "name_en": "Karimpuzha",
+      "name_ml": "കരിമ്പുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G090304",
-      "local_body_name_en": "Lakkidi - Perur",
-      "local_body_name_ml": "ലെക്കിടി പേരൂര്‍",
-      "category": "Good"
+      "id": "G090304",
+      "name_en": "Lakkidi - Perur",
+      "name_ml": "ലെക്കിടി പേരൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M090100",
-      "local_body_name_en": "Ottapalam",
-      "local_body_name_ml": "ഒറ്റപ്പാലം",
-      "category": "Normal"
+      "id": "M090100",
+      "name_en": "Ottapalam",
+      "name_ml": "ഒറ്റപ്പാലം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090404",
-      "local_body_name_en": "Pookkottukavu",
-      "local_body_name_ml": "പൂക്കോട്ടുകാവ്",
-      "category": "Normal"
+      "id": "G090404",
+      "name_en": "Pookkottukavu",
+      "name_ml": "പൂക്കോട്ടുകാവ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090405",
-      "local_body_name_en": "Sreekrishnapuram",
-      "local_body_name_ml": "ശ്രീകൃഷ്ണപുരം",
-      "category": "Normal"
+      "id": "G090405",
+      "name_en": "Sreekrishnapuram",
+      "name_ml": "ശ്രീകൃഷ്ണപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090507",
-      "local_body_name_en": "Thachanattukara",
-      "local_body_name_ml": "തച്ചനാട്ടുകര",
-      "category": "Perfect"
+      "id": "G090507",
+      "name_en": "Thachanattukara",
+      "name_ml": "തച്ചനാട്ടുകര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090301",
-      "local_body_name_en": "Ambalappara",
-      "local_body_name_ml": "അമ്പലപ്പാറ",
-      "category": "Good"
+      "id": "G090301",
+      "name_en": "Ambalappara",
+      "name_ml": "അമ്പലപ്പാറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

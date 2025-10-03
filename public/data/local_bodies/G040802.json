@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G040802",
-  "local_body_name_en": "Venmoney",
-  "local_body_name_ml": "വെണ്മണി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "110",
-    "assembly_name_en": "Chengannur",
-    "assembly_name_ml": "ചെങ്ങന്നൂർ",
+  "id": "G040802",
+  "name_en": "Venmoney",
+  "name_ml": "വെണ്മണി",
+  "assembly_id": "110",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "110",
+    "name_en": "Chengannur",
+    "name_ml": "ചെങ്ങന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "213039bf-6372-404f-b096-f2b57df2f722",
+      "id": "213039bf-6372-404f-b096-f2b57df2f722",
       "ward_no": "1",
-      "ward_name_en": "Uliyanthara",
-      "ward_name_ml": "ഉളിയന്തറ"
+      "name_en": "Uliyanthara",
+      "name_ml": "ഉളിയന്തറ"
     },
     {
-      "ward_id": "fd9cd671-3d77-4bae-bbc9-c4d5f450fc61",
+      "id": "fd9cd671-3d77-4bae-bbc9-c4d5f450fc61",
       "ward_no": "2",
-      "ward_name_en": "Kodukulanji Karode",
-      "ward_name_ml": "കോടുകുളഞ്ഞി കരോട്"
+      "name_en": "Kodukulanji Karode",
+      "name_ml": "കോടുകുളഞ്ഞി കരോട്"
     },
     {
-      "ward_id": "eb7c5334-34b3-4a20-bf64-2f2078722b1f",
+      "id": "eb7c5334-34b3-4a20-bf64-2f2078722b1f",
       "ward_no": "3",
-      "ward_name_en": "Parachantha",
-      "ward_name_ml": "പാറചന്ത"
+      "name_en": "Parachantha",
+      "name_ml": "പാറചന്ത"
     },
     {
-      "ward_id": "d3e00508-aca5-422a-82fd-b63c2d65b5ce",
+      "id": "d3e00508-aca5-422a-82fd-b63c2d65b5ce",
       "ward_no": "4",
-      "ward_name_en": "Changamala",
-      "ward_name_ml": "ചാങ്ങമല"
+      "name_en": "Changamala",
+      "name_ml": "ചാങ്ങമല"
     },
     {
-      "ward_id": "ec725626-a17f-4b91-9ac6-81541dd0578c",
+      "id": "ec725626-a17f-4b91-9ac6-81541dd0578c",
       "ward_no": "5",
-      "ward_name_en": "Illathumeppuram",
-      "ward_name_ml": "ഇല്ലത്തുമേപ്പുറം"
+      "name_en": "Illathumeppuram",
+      "name_ml": "ഇല്ലത്തുമേപ്പുറം"
     },
     {
-      "ward_id": "24e29cd8-d5e0-44e4-9017-24bccf7b9039",
+      "id": "24e29cd8-d5e0-44e4-9017-24bccf7b9039",
       "ward_no": "6",
-      "ward_name_en": "Punthalathazham",
-      "ward_name_ml": "പുന്തലത്താഴം"
+      "name_en": "Punthalathazham",
+      "name_ml": "പുന്തലത്താഴം"
     },
     {
-      "ward_id": "d57e26dd-a970-4a5a-806b-8f98a8960f8b",
+      "id": "d57e26dd-a970-4a5a-806b-8f98a8960f8b",
       "ward_no": "7",
-      "ward_name_en": "Poika",
-      "ward_name_ml": "പൊയ്ക"
+      "name_en": "Poika",
+      "name_ml": "പൊയ്ക"
     },
     {
-      "ward_id": "b930ed94-e623-4255-baed-b9c7d81ddfae",
+      "id": "b930ed94-e623-4255-baed-b9c7d81ddfae",
       "ward_no": "8",
-      "ward_name_en": "Kakkada",
-      "ward_name_ml": "കക്കട"
+      "name_en": "Kakkada",
+      "name_ml": "കക്കട"
     },
     {
-      "ward_id": "4cf8ac37-9060-4b4b-976c-4c69fa88c592",
+      "id": "4cf8ac37-9060-4b4b-976c-4c69fa88c592",
       "ward_no": "9",
-      "ward_name_en": "Punthala South",
-      "ward_name_ml": "പുന്തല തെക്ക്"
+      "name_en": "Punthala South",
+      "name_ml": "പുന്തല തെക്ക്"
     },
     {
-      "ward_id": "0428e28b-59a2-484b-bc28-6a63afc8b2b8",
+      "id": "0428e28b-59a2-484b-bc28-6a63afc8b2b8",
       "ward_no": "10",
-      "ward_name_en": "Venmony Eram",
-      "ward_name_ml": "വെണ്മണി ഏറം"
+      "name_en": "Venmony Eram",
+      "name_ml": "വെണ്മണി ഏറം"
     },
     {
-      "ward_id": "2f84be6b-61f1-46e4-9aae-eee9c0e16b86",
+      "id": "2f84be6b-61f1-46e4-9aae-eee9c0e16b86",
       "ward_no": "11",
-      "ward_name_en": "Pulakkadavu",
-      "ward_name_ml": "പുലക്കടവ്"
+      "name_en": "Pulakkadavu",
+      "name_ml": "പുലക്കടവ്"
     },
     {
-      "ward_id": "613ff249-eee9-48f2-b4f3-19b23c9d9bdb",
+      "id": "613ff249-eee9-48f2-b4f3-19b23c9d9bdb",
       "ward_no": "12",
-      "ward_name_en": "Venmony Kizhakkummuri",
-      "ward_name_ml": "വെണ്മണി കിഴക്കുംമുറി"
+      "name_en": "Venmony Kizhakkummuri",
+      "name_ml": "വെണ്മണി കിഴക്കുംമുറി"
     },
     {
-      "ward_id": "af311cd8-b9d9-44ef-901a-f690b234a137",
+      "id": "af311cd8-b9d9-44ef-901a-f690b234a137",
       "ward_no": "13",
-      "ward_name_en": "Padinjattummuri",
-      "ward_name_ml": "പടിഞ്ഞാറ്റുംമുറി"
+      "name_en": "Padinjattummuri",
+      "name_ml": "പടിഞ്ഞാറ്റുംമുറി"
     },
     {
-      "ward_id": "c8672452-d2c8-4162-b226-8cb44397f2c3",
+      "id": "c8672452-d2c8-4162-b226-8cb44397f2c3",
       "ward_no": "14",
-      "ward_name_en": "Varampoor",
-      "ward_name_ml": "വരമ്പൂര്‍"
+      "name_en": "Varampoor",
+      "name_ml": "വരമ്പൂര്‍"
     },
     {
-      "ward_id": "73f4a828-b468-49ca-9e81-a4904990a4e6",
+      "id": "73f4a828-b468-49ca-9e81-a4904990a4e6",
       "ward_no": "15",
-      "ward_name_en": "Venmonythazham",
-      "ward_name_ml": "വെണ്മണിത്താഴം"
+      "name_en": "Venmonythazham",
+      "name_ml": "വെണ്മണിത്താഴം"
     }
   ],
   "towns": [],

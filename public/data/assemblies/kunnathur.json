@@ -1,74 +1,99 @@
 {
-  "assembly_id": "118",
-  "assembly_name_en": "Kunnathur",
-  "assembly_name_ml": "കുന്നത്തൂർ",
-  "category": "Normal",
+  "id": "118",
+  "name_en": "Kunnathur",
+  "name_ml": "കുന്നത്തൂർ",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020703",
-      "local_body_name_en": "East Kallada",
-      "local_body_name_ml": "കിഴക്കേ കല്ലട",
-      "category": "Good"
+      "id": "G020703",
+      "name_en": "East Kallada",
+      "name_ml": "കിഴക്കേ കല്ലട",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020205",
-      "local_body_name_en": "Kunnathoor",
-      "local_body_name_ml": "കുന്നത്തൂര്‍",
-      "category": "Normal"
+      "id": "G020205",
+      "name_en": "Kunnathoor",
+      "name_ml": "കുന്നത്തൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020705",
-      "local_body_name_en": "Munroethuruth",
-      "local_body_name_ml": "മണ്‍റോതുരുത്ത്",
-      "category": "Good"
+      "id": "G020705",
+      "name_en": "Munroethuruth",
+      "name_ml": "മണ്‍റോതുരുത്ത്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020207",
-      "local_body_name_en": "Mynagappally",
-      "local_body_name_ml": "മൈനാഗപ്പള്ളി",
-      "category": "Perfect"
+      "id": "G020207",
+      "name_en": "Mynagappally",
+      "name_ml": "മൈനാഗപ്പള്ളി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020306",
-      "local_body_name_en": "Pavithreswaram",
-      "local_body_name_ml": "പവിത്രേശ്വരം",
-      "category": "Normal"
+      "id": "G020306",
+      "name_en": "Pavithreswaram",
+      "name_ml": "പവിത്രേശ്വരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020204",
-      "local_body_name_en": "Poruvazhy",
-      "local_body_name_ml": "പോരുവഴി",
-      "category": "Normal"
+      "id": "G020204",
+      "name_en": "Poruvazhy",
+      "name_ml": "പോരുവഴി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020201",
-      "local_body_name_en": "Sasthamcotta",
-      "local_body_name_ml": "ശാസ്താംകോട്ട",
-      "category": "Good"
+      "id": "G020201",
+      "name_en": "Sasthamcotta",
+      "name_ml": "ശാസ്താംകോട്ട",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020206",
-      "local_body_name_en": "Sooranad North",
-      "local_body_name_ml": "ശൂരനാട് നോര്‍ത്ത്",
-      "category": "Perfect"
+      "id": "G020206",
+      "name_en": "Sooranad North",
+      "name_ml": "ശൂരനാട് നോര്‍ത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020203",
-      "local_body_name_en": "Sooranad South",
-      "local_body_name_ml": "ശൂരനാട് സൌത്ത്",
-      "category": "Perfect"
+      "id": "G020203",
+      "name_en": "Sooranad South",
+      "name_ml": "ശൂരനാട് സൌത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020202",
-      "local_body_name_en": "West Kallada",
-      "local_body_name_ml": "വെസ്റ് കല്ലട",
-      "category": "Good"
+      "id": "G020202",
+      "name_en": "West Kallada",
+      "name_ml": "വെസ്റ് കല്ലട",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

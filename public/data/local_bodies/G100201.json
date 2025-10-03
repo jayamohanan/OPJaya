@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G100201",
-  "local_body_name_en": "Amarambalam",
-  "local_body_name_ml": "അമരമ്പലം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G100201",
+  "name_en": "Amarambalam",
+  "name_ml": "അമരമ്പലം",
+  "assembly_id": "35",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "35",
-    "assembly_name_en": "Nilambur",
-    "assembly_name_ml": "നിലമ്പൂര്‍",
-    "category": "Normal"
+    "id": "35",
+    "name_en": "Nilambur",
+    "name_ml": "നിലമ്പൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6bdd46a7-81d1-46a3-b963-58158613c448",
+      "id": "6bdd46a7-81d1-46a3-b963-58158613c448",
       "ward_no": "1",
-      "ward_name_en": "Koottampara",
-      "ward_name_ml": "കൂറ്റമ്പാറ"
+      "name_en": "Koottampara",
+      "name_ml": "കൂറ്റമ്പാറ"
     },
     {
-      "ward_id": "c1ac2395-109b-44d5-baf4-d9d7cf01909e",
+      "id": "c1ac2395-109b-44d5-baf4-d9d7cf01909e",
       "ward_no": "2",
-      "ward_name_en": "Uppuvalli",
-      "ward_name_ml": "ഉപ്പുവളളി"
+      "name_en": "Uppuvalli",
+      "name_ml": "ഉപ്പുവളളി"
     },
     {
-      "ward_id": "96f2819d-fc7b-4692-ba80-075eebe30605",
+      "id": "96f2819d-fc7b-4692-ba80-075eebe30605",
       "ward_no": "3",
-      "ward_name_en": "Chelode",
-      "ward_name_ml": "ചേലോട്"
+      "name_en": "Chelode",
+      "name_ml": "ചേലോട്"
     },
     {
-      "ward_id": "d1f8e353-8ae0-4725-b32e-ec2ec55aebc6",
+      "id": "d1f8e353-8ae0-4725-b32e-ec2ec55aebc6",
       "ward_no": "4",
-      "ward_name_en": "Ayyappankulam",
-      "ward_name_ml": "അയ്യപ്പന്‍കുളം"
+      "name_en": "Ayyappankulam",
+      "name_ml": "അയ്യപ്പന്‍കുളം"
     },
     {
-      "ward_id": "16343f11-b502-420a-a6bc-7854582948af",
+      "id": "16343f11-b502-420a-a6bc-7854582948af",
       "ward_no": "5",
-      "ward_name_en": "Chulliyode",
-      "ward_name_ml": "ചുളളിയോട്"
+      "name_en": "Chulliyode",
+      "name_ml": "ചുളളിയോട്"
     },
     {
-      "ward_id": "9f251848-addf-4ee8-912b-6330ca66750c",
+      "id": "9f251848-addf-4ee8-912b-6330ca66750c",
       "ward_no": "6",
-      "ward_name_en": "Kavalamukkatta",
-      "ward_name_ml": "കവളമുക്കട്ട"
+      "name_en": "Kavalamukkatta",
+      "name_ml": "കവളമുക്കട്ട"
     },
     {
-      "ward_id": "bd0319f7-eb6b-4766-ba16-6284b2c4e7ff",
+      "id": "bd0319f7-eb6b-4766-ba16-6284b2c4e7ff",
       "ward_no": "7",
-      "ward_name_en": "Pattakkarimbu",
-      "ward_name_ml": "പാട്ടക്കരിമ്പ്"
+      "name_en": "Pattakkarimbu",
+      "name_ml": "പാട്ടക്കരിമ്പ്"
     },
     {
-      "ward_id": "57ed84a8-d7d6-4df4-bddf-894b3f59dcfe",
+      "id": "57ed84a8-d7d6-4df4-bddf-894b3f59dcfe",
       "ward_no": "8",
-      "ward_name_en": "T K Colony",
-      "ward_name_ml": "ടി കെ കോളനി"
+      "name_en": "T K Colony",
+      "name_ml": "ടി കെ കോളനി"
     },
     {
-      "ward_id": "b8e55281-9da8-4d8e-9d2f-1cffd920c29f",
+      "id": "b8e55281-9da8-4d8e-9d2f-1cffd920c29f",
       "ward_no": "9",
-      "ward_name_en": "Pottikkallu",
-      "ward_name_ml": "പൊട്ടിക്കല്ല്"
+      "name_en": "Pottikkallu",
+      "name_ml": "പൊട്ടിക്കല്ല്"
     },
     {
-      "ward_id": "5e95ebdf-d6b9-4452-950d-50a5b494529b",
+      "id": "5e95ebdf-d6b9-4452-950d-50a5b494529b",
       "ward_no": "10",
-      "ward_name_en": "Chettippadam",
-      "ward_name_ml": "ചെട്ടിപ്പാടം"
+      "name_en": "Chettippadam",
+      "name_ml": "ചെട്ടിപ്പാടം"
     },
     {
-      "ward_id": "678efaf8-986c-4f21-9737-7cda892e2b54",
+      "id": "678efaf8-986c-4f21-9737-7cda892e2b54",
       "ward_no": "11",
-      "ward_name_en": "Thottekkara",
-      "ward_name_ml": "തോട്ടേക്കര"
+      "name_en": "Thottekkara",
+      "name_ml": "തോട്ടേക്കര"
     },
     {
-      "ward_id": "89956315-fdba-4bc5-b6f4-e863236a9851",
+      "id": "89956315-fdba-4bc5-b6f4-e863236a9851",
       "ward_no": "12",
-      "ward_name_en": "Mampatta",
-      "ward_name_ml": "മാമ്പറ്റ"
+      "name_en": "Mampatta",
+      "name_ml": "മാമ്പറ്റ"
     },
     {
-      "ward_id": "2d13b904-95b5-43f8-b9a4-ae0f9cce7d82",
+      "id": "2d13b904-95b5-43f8-b9a4-ae0f9cce7d82",
       "ward_no": "13",
-      "ward_name_en": "Thattiyekkal",
-      "ward_name_ml": "തട്ടിയേക്കല്‍"
+      "name_en": "Thattiyekkal",
+      "name_ml": "തട്ടിയേക്കല്‍"
     },
     {
-      "ward_id": "12562dbb-a772-44fb-a2ce-3ec43c3c1540",
+      "id": "12562dbb-a772-44fb-a2ce-3ec43c3c1540",
       "ward_no": "14",
-      "ward_name_en": "Pookkottumpadam",
-      "ward_name_ml": "പൂക്കോട്ടുംപാടം"
+      "name_en": "Pookkottumpadam",
+      "name_ml": "പൂക്കോട്ടുംപാടം"
     },
     {
-      "ward_id": "fbafa1dd-08dd-4831-b026-f281ea07b9d7",
+      "id": "fbafa1dd-08dd-4831-b026-f281ea07b9d7",
       "ward_no": "15",
-      "ward_name_en": "Parakkappadam",
-      "ward_name_ml": "പാറക്കപ്പാടം"
+      "name_en": "Parakkappadam",
+      "name_ml": "പാറക്കപ്പാടം"
     },
     {
-      "ward_id": "3cbbf9ec-0be4-42a6-955b-cca16388e384",
+      "id": "3cbbf9ec-0be4-42a6-955b-cca16388e384",
       "ward_no": "16",
-      "ward_name_en": "Ulladu",
-      "ward_name_ml": "ഉളളാട്"
+      "name_en": "Ulladu",
+      "name_ml": "ഉളളാട്"
     },
     {
-      "ward_id": "8eb8d7a9-fbd7-40a4-a5b4-62abb2f7c535",
+      "id": "8eb8d7a9-fbd7-40a4-a5b4-62abb2f7c535",
       "ward_no": "17",
-      "ward_name_en": "Amarambalam South",
-      "ward_name_ml": "അമരമ്പലം സൌത്ത്"
+      "name_en": "Amarambalam South",
+      "name_ml": "അമരമ്പലം സൌത്ത്"
     },
     {
-      "ward_id": "04b9826d-cb59-4909-96ed-3468e7bb5a05",
+      "id": "04b9826d-cb59-4909-96ed-3468e7bb5a05",
       "ward_no": "18",
-      "ward_name_en": "Puthiyakalam",
-      "ward_name_ml": "പുതിയകളം"
+      "name_en": "Puthiyakalam",
+      "name_ml": "പുതിയകളം"
     },
     {
-      "ward_id": "6f17f50d-3d6a-451c-aeea-f878f5d5b1f7",
+      "id": "6f17f50d-3d6a-451c-aeea-f878f5d5b1f7",
       "ward_no": "19",
-      "ward_name_en": "Naripoyil",
-      "ward_name_ml": "നരിപൊയില്‍"
+      "name_en": "Naripoyil",
+      "name_ml": "നരിപൊയില്‍"
     }
   ],
   "towns": [],

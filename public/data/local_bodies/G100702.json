@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G100702",
-  "local_body_name_en": "Elamkulam",
-  "local_body_name_ml": "ഏലംകുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G100702",
+  "name_en": "Elamkulam",
+  "name_ml": "ഏലംകുളം",
+  "assembly_id": "38",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "38",
-    "assembly_name_en": "Perinthalmanna",
-    "assembly_name_ml": "പെരിന്തല്‍മണ്ണ",
-    "category": "Normal"
+    "id": "38",
+    "name_en": "Perinthalmanna",
+    "name_ml": "പെരിന്തല്‍മണ്ണ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e70e1cd5-8ccb-4161-ac21-2d7223878de8",
+      "id": "e70e1cd5-8ccb-4161-ac21-2d7223878de8",
       "ward_no": "1",
-      "ward_name_en": "Cherukara",
-      "ward_name_ml": "ചെറുകര"
+      "name_en": "Cherukara",
+      "name_ml": "ചെറുകര"
     },
     {
-      "ward_id": "65017ccd-c797-4c66-bb4d-f66d6b3edc28",
+      "id": "65017ccd-c797-4c66-bb4d-f66d6b3edc28",
       "ward_no": "2",
-      "ward_name_en": "Alumkoottam",
-      "ward_name_ml": "ആലുംകൂട്ടം"
+      "name_en": "Alumkoottam",
+      "name_ml": "ആലുംകൂട്ടം"
     },
     {
-      "ward_id": "f914ba8f-aff6-4cc4-9e3d-3d54ff426d85",
+      "id": "f914ba8f-aff6-4cc4-9e3d-3d54ff426d85",
       "ward_no": "3",
-      "ward_name_en": "Kizhungathole",
-      "ward_name_ml": "കിഴുങ്ങത്തോള്‍"
+      "name_en": "Kizhungathole",
+      "name_ml": "കിഴുങ്ങത്തോള്‍"
     },
     {
-      "ward_id": "3bcb486f-3a36-4792-a4c3-117aa5364fc4",
+      "id": "3bcb486f-3a36-4792-a4c3-117aa5364fc4",
       "ward_no": "4",
-      "ward_name_en": "Parakkalmukku",
-      "ward_name_ml": "പാറക്കല്‍മുക്ക്"
+      "name_en": "Parakkalmukku",
+      "name_ml": "പാറക്കല്‍മുക്ക്"
     },
     {
-      "ward_id": "b599946b-5eed-47d2-a5f8-4ba7030b8762",
+      "id": "b599946b-5eed-47d2-a5f8-4ba7030b8762",
       "ward_no": "5",
-      "ward_name_en": "Chenganampatta",
-      "ward_name_ml": "ചെങ്ങണംപറ്റ"
+      "name_en": "Chenganampatta",
+      "name_ml": "ചെങ്ങണംപറ്റ"
     },
     {
-      "ward_id": "a3b22022-2167-41a8-bc0b-c69932f1960f",
+      "id": "a3b22022-2167-41a8-bc0b-c69932f1960f",
       "ward_no": "6",
-      "ward_name_en": "Etheparambu",
-      "ward_name_ml": "ഈത്തേപ്പറമ്പ്"
+      "name_en": "Etheparambu",
+      "name_ml": "ഈത്തേപ്പറമ്പ്"
     },
     {
-      "ward_id": "1bea1491-8302-4ab4-8684-32a9d8fe450d",
+      "id": "1bea1491-8302-4ab4-8684-32a9d8fe450d",
       "ward_no": "7",
-      "ward_name_en": "Chenamparambu",
-      "ward_name_ml": "ചേനാംപറമ്പ്"
+      "name_en": "Chenamparambu",
+      "name_ml": "ചേനാംപറമ്പ്"
     },
     {
-      "ward_id": "05eafd67-e5e2-41c6-a959-fac4e9e1ea9f",
+      "id": "05eafd67-e5e2-41c6-a959-fac4e9e1ea9f",
       "ward_no": "8",
-      "ward_name_en": "Muthukurussi",
-      "ward_name_ml": "മുതുകുറുശ്ശി"
+      "name_en": "Muthukurussi",
+      "name_ml": "മുതുകുറുശ്ശി"
     },
     {
-      "ward_id": "310d546e-16b3-447e-add4-5cf6ea4ecee8",
+      "id": "310d546e-16b3-447e-add4-5cf6ea4ecee8",
       "ward_no": "9",
-      "ward_name_en": "Kunnakkavu",
-      "ward_name_ml": "കുന്നക്കാവ്"
+      "name_en": "Kunnakkavu",
+      "name_ml": "കുന്നക്കാവ്"
     },
     {
-      "ward_id": "5fdc300b-cde6-47fd-b334-e5174caff438",
+      "id": "5fdc300b-cde6-47fd-b334-e5174caff438",
       "ward_no": "10",
-      "ward_name_en": "Mallisseri",
-      "ward_name_ml": "മല്ലിശ്ശേരി"
+      "name_en": "Mallisseri",
+      "name_ml": "മല്ലിശ്ശേരി"
     },
     {
-      "ward_id": "47ff2c82-24f2-4e12-8fed-40857275cf11",
+      "id": "47ff2c82-24f2-4e12-8fed-40857275cf11",
       "ward_no": "11",
-      "ward_name_en": "Korakkuth",
-      "ward_name_ml": "കോരക്കുത്ത്"
+      "name_en": "Korakkuth",
+      "name_ml": "കോരക്കുത്ത്"
     },
     {
-      "ward_id": "4e51e64f-86ee-4654-8f14-01f8b4652b9b",
+      "id": "4e51e64f-86ee-4654-8f14-01f8b4652b9b",
       "ward_no": "12",
-      "ward_name_en": "Thekkumpuram",
-      "ward_name_ml": "തെക്കുംപുറം"
+      "name_en": "Thekkumpuram",
+      "name_ml": "തെക്കുംപുറം"
     },
     {
-      "ward_id": "877df80b-974d-45ca-935d-dd78cc4b06c1",
+      "id": "877df80b-974d-45ca-935d-dd78cc4b06c1",
       "ward_no": "13",
-      "ward_name_en": "Palathole",
-      "ward_name_ml": "പാലത്തോള്‍"
+      "name_en": "Palathole",
+      "name_ml": "പാലത്തോള്‍"
     },
     {
-      "ward_id": "5e7e5c1f-902c-4988-be33-e09a96b371c7",
+      "id": "5e7e5c1f-902c-4988-be33-e09a96b371c7",
       "ward_no": "14",
-      "ward_name_en": "Elamkulam",
-      "ward_name_ml": "ഏലംകുളം"
+      "name_en": "Elamkulam",
+      "name_ml": "ഏലംകുളം"
     },
     {
-      "ward_id": "663d3e1e-cc13-4077-b5de-4c3ea2664d44",
+      "id": "663d3e1e-cc13-4077-b5de-4c3ea2664d44",
       "ward_no": "15",
-      "ward_name_en": "Perumbara",
-      "ward_name_ml": "പെരുമ്പാറ"
+      "name_en": "Perumbara",
+      "name_ml": "പെരുമ്പാറ"
     },
     {
-      "ward_id": "41388807-4ee6-48b2-8052-0dc000ef3cca",
+      "id": "41388807-4ee6-48b2-8052-0dc000ef3cca",
       "ward_no": "16",
-      "ward_name_en": "Pulinkavu",
-      "ward_name_ml": "പുളിങ്കാവ്"
+      "name_en": "Pulinkavu",
+      "name_ml": "പുളിങ്കാവ്"
     }
   ],
   "towns": [],

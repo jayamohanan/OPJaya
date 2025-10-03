@@ -1,56 +1,71 @@
 {
-  "assembly_id": "14",
-  "assembly_name_en": "Kuthuparamba",
-  "assembly_name_ml": "കൂത്തുപറമ്പ്",
-  "category": "Normal",
+  "id": "14",
+  "name_en": "Kuthuparamba",
+  "name_ml": "കൂത്തുപറമ്പ്",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130906",
-      "local_body_name_en": "Kottayam",
-      "local_body_name_ml": "കോട്ടയം",
-      "category": "Perfect"
+      "id": "G130906",
+      "name_en": "Kottayam",
+      "name_ml": "കോട്ടയം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130903",
-      "local_body_name_en": "Kunnothuparamba",
-      "local_body_name_ml": "കുന്നാത്തുപറമ്പ്",
-      "category": "Good"
+      "id": "G130903",
+      "name_en": "Kunnothuparamba",
+      "name_ml": "കുന്നാത്തുപറമ്പ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M130300",
-      "local_body_name_en": "Kuthuparamba",
-      "local_body_name_ml": "കൂത്തുപറമ്പ്",
-      "category": ""
+      "id": "M130300",
+      "name_en": "Kuthuparamba",
+      "name_ml": "കൂത്തുപറമ്പ്",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G130805",
-      "local_body_name_en": "Mokeri",
-      "local_body_name_ml": "മൊകേരി",
-      "category": "Good"
+      "id": "G130805",
+      "name_en": "Mokeri",
+      "name_ml": "മൊകേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M130700",
-      "local_body_name_en": "Panoor",
-      "local_body_name_ml": "പാനൂര്‍",
-      "category": ""
+      "id": "M130700",
+      "name_en": "Panoor",
+      "name_ml": "പാനൂര്‍",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G130905",
-      "local_body_name_en": "Pattiam",
-      "local_body_name_ml": "പാട്യം",
-      "category": "Normal"
+      "id": "G130905",
+      "name_en": "Pattiam",
+      "name_ml": "പാട്യം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130901",
-      "local_body_name_en": "Triprangottoor",
-      "local_body_name_ml": "തൃപ്രങ്ങോട്ടൂര്‍",
-      "category": "Good"
+      "id": "G130901",
+      "name_en": "Triprangottoor",
+      "name_ml": "തൃപ്രങ്ങോട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G071107",
-  "local_body_name_en": "Keerampara",
-  "local_body_name_ml": "കീരംപാറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G071107",
+  "name_en": "Keerampara",
+  "name_ml": "കീരംപാറ",
+  "assembly_id": "87",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "87",
-    "assembly_name_en": "Kothamangalam",
-    "assembly_name_ml": "കോതമംഗലം",
-    "category": "Normal"
+    "id": "87",
+    "name_en": "Kothamangalam",
+    "name_ml": "കോതമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "167e8926-934b-478d-a757-1b620439cbcf",
+      "id": "167e8926-934b-478d-a757-1b620439cbcf",
       "ward_no": "1",
-      "ward_name_en": "Chenkara",
-      "ward_name_ml": "ചെങ്കര"
+      "name_en": "Chenkara",
+      "name_ml": "ചെങ്കര"
     },
     {
-      "ward_id": "717f89b3-3ee9-4948-a0fb-238d90602b40",
+      "id": "717f89b3-3ee9-4948-a0fb-238d90602b40",
       "ward_no": "2",
-      "ward_name_en": "Punnekkad North",
-      "ward_name_ml": "പുന്നേക്കാട് നോര്‍ത്ത്"
+      "name_en": "Punnekkad North",
+      "name_ml": "പുന്നേക്കാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "48bb82e0-fea2-4ff0-967e-30c11c3b760e",
+      "id": "48bb82e0-fea2-4ff0-967e-30c11c3b760e",
       "ward_no": "3",
-      "ward_name_en": "Koorikulam",
-      "ward_name_ml": "കൂരികുളം"
+      "name_en": "Koorikulam",
+      "name_ml": "കൂരികുളം"
     },
     {
-      "ward_id": "51251e08-16d0-46bb-9c28-fcb24679e41e",
+      "id": "51251e08-16d0-46bb-9c28-fcb24679e41e",
       "ward_no": "4",
-      "ward_name_en": "Velielchal",
-      "ward_name_ml": "വെളിയേല്‍ചാല്‍"
+      "name_en": "Velielchal",
+      "name_ml": "വെളിയേല്‍ചാല്‍"
     },
     {
-      "ward_id": "c0029b5c-c67e-456f-80f0-d4a49473ba89",
+      "id": "c0029b5c-c67e-456f-80f0-d4a49473ba89",
       "ward_no": "5",
-      "ward_name_en": "Palamattam",
-      "ward_name_ml": "പാലമറ്റം"
+      "name_en": "Palamattam",
+      "name_ml": "പാലമറ്റം"
     },
     {
-      "ward_id": "4096094d-58ef-4a92-88c1-6ee64894c46a",
+      "id": "4096094d-58ef-4a92-88c1-6ee64894c46a",
       "ward_no": "6",
-      "ward_name_en": "Muttathukandam",
-      "ward_name_ml": "മുട്ടത്തുകണ്ടം"
+      "name_en": "Muttathukandam",
+      "name_ml": "മുട്ടത്തുകണ്ടം"
     },
     {
-      "ward_id": "481d44a0-9e88-401d-81dc-36c36bd316bf",
+      "id": "481d44a0-9e88-401d-81dc-36c36bd316bf",
       "ward_no": "7",
-      "ward_name_en": "Punnekkad South",
-      "ward_name_ml": "പുന്നേക്കാട് സൌത്ത്"
+      "name_en": "Punnekkad South",
+      "name_ml": "പുന്നേക്കാട് സൌത്ത്"
     },
     {
-      "ward_id": "3ea691be-682b-4e5e-ac2c-648b8180a2b8",
+      "id": "3ea691be-682b-4e5e-ac2c-648b8180a2b8",
       "ward_no": "8",
-      "ward_name_en": "Nadukani",
-      "ward_name_ml": "നാടുകാണി"
+      "name_en": "Nadukani",
+      "name_ml": "നാടുകാണി"
     },
     {
-      "ward_id": "75ed59bc-ddcd-48c4-8423-c134da3acb80",
+      "id": "75ed59bc-ddcd-48c4-8423-c134da3acb80",
       "ward_no": "9",
-      "ward_name_en": "Chembikkod",
-      "ward_name_ml": "ചെമ്പിക്കോട്"
+      "name_en": "Chembikkod",
+      "name_ml": "ചെമ്പിക്കോട്"
     },
     {
-      "ward_id": "012976e8-7630-42af-abc0-5618515cc71c",
+      "id": "012976e8-7630-42af-abc0-5618515cc71c",
       "ward_no": "10",
-      "ward_name_en": "Parad",
-      "ward_name_ml": "പറാട്"
+      "name_en": "Parad",
+      "name_ml": "പറാട്"
     },
     {
-      "ward_id": "4e1d7ed8-dfe2-430c-921b-c96a00b93d48",
+      "id": "4e1d7ed8-dfe2-430c-921b-c96a00b93d48",
       "ward_no": "11",
-      "ward_name_en": "Oonjappara",
-      "ward_name_ml": "ഊഞ്ഞാപ്പാറ"
+      "name_en": "Oonjappara",
+      "name_ml": "ഊഞ്ഞാപ്പാറ"
     },
     {
-      "ward_id": "7cdf45a9-9118-44a4-83ba-d56e847d24cb",
+      "id": "7cdf45a9-9118-44a4-83ba-d56e847d24cb",
       "ward_no": "12",
-      "ward_name_en": "Keerampara",
-      "ward_name_ml": "കീരംപാറ"
+      "name_en": "Keerampara",
+      "name_ml": "കീരംപാറ"
     },
     {
-      "ward_id": "38b0e00a-52f6-4f9b-8350-bf4e2783d3c6",
+      "id": "38b0e00a-52f6-4f9b-8350-bf4e2783d3c6",
       "ward_no": "13",
-      "ward_name_en": "Kariyilappara",
-      "ward_name_ml": "കരിയിലപ്പാറ"
+      "name_en": "Kariyilappara",
+      "name_ml": "കരിയിലപ്പാറ"
     }
   ],
   "towns": [],

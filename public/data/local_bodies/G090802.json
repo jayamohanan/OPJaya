@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G090802",
-  "local_body_name_en": "Kuthanur",
-  "local_body_name_ml": "കുത്തന്നൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "57",
-    "assembly_name_en": "Tarur",
-    "assembly_name_ml": "തരൂര്‍",
+  "id": "G090802",
+  "name_en": "Kuthanur",
+  "name_ml": "കുത്തന്നൂര്‍",
+  "assembly_id": "57",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "57",
+    "name_en": "Tarur",
+    "name_ml": "തരൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "60a3ec5f-7850-4d80-af82-df80f42878d2",
+      "id": "60a3ec5f-7850-4d80-af82-df80f42878d2",
       "ward_no": "1",
-      "ward_name_en": "Kottode",
-      "ward_name_ml": "കൊട്ടോട്"
+      "name_en": "Kottode",
+      "name_ml": "കൊട്ടോട്"
     },
     {
-      "ward_id": "bd4ee02e-0548-4617-923a-fc164e105506",
+      "id": "bd4ee02e-0548-4617-923a-fc164e105506",
       "ward_no": "2",
-      "ward_name_en": "Karakkode",
-      "ward_name_ml": "കാരക്കോട്"
+      "name_en": "Karakkode",
+      "name_ml": "കാരക്കോട്"
     },
     {
-      "ward_id": "b2cda31a-e762-4738-8ea1-f60832468bfe",
+      "id": "b2cda31a-e762-4738-8ea1-f60832468bfe",
       "ward_no": "3",
-      "ward_name_en": "Lakshamveedu",
-      "ward_name_ml": "ലക്ഷംവീട്"
+      "name_en": "Lakshamveedu",
+      "name_ml": "ലക്ഷംവീട്"
     },
     {
-      "ward_id": "ab5c5869-4a01-41a2-9273-b3c852a77339",
+      "id": "ab5c5869-4a01-41a2-9273-b3c852a77339",
       "ward_no": "4",
-      "ward_name_en": "Kothamangalam",
-      "ward_name_ml": "കോതമംഗലം"
+      "name_en": "Kothamangalam",
+      "name_ml": "കോതമംഗലം"
     },
     {
-      "ward_id": "b3a7f0a5-3e4d-40b6-a233-fbbb7387ebdc",
+      "id": "b3a7f0a5-3e4d-40b6-a233-fbbb7387ebdc",
       "ward_no": "5",
-      "ward_name_en": "Naduthara",
-      "ward_name_ml": "നടുത്തറ"
+      "name_en": "Naduthara",
+      "name_ml": "നടുത്തറ"
     },
     {
-      "ward_id": "2b19a270-fe28-430f-a931-c73c4d1eed92",
+      "id": "2b19a270-fe28-430f-a931-c73c4d1eed92",
       "ward_no": "6",
-      "ward_name_en": "Balanparambu",
-      "ward_name_ml": "ബാലന്‍പറമ്പ്"
+      "name_en": "Balanparambu",
+      "name_ml": "ബാലന്‍പറമ്പ്"
     },
     {
-      "ward_id": "3b9251db-7bf4-411a-b26c-02badcab56c5",
+      "id": "3b9251db-7bf4-411a-b26c-02badcab56c5",
       "ward_no": "7",
-      "ward_name_en": "Prarukad",
-      "ward_name_ml": "പ്രാരുകാട്"
+      "name_en": "Prarukad",
+      "name_ml": "പ്രാരുകാട്"
     },
     {
-      "ward_id": "5ce2350c-5e5e-45ff-8f5d-36107de1c278",
+      "id": "5ce2350c-5e5e-45ff-8f5d-36107de1c278",
       "ward_no": "8",
-      "ward_name_en": "Ambalappadam",
-      "ward_name_ml": "അമ്പലപ്പാടം"
+      "name_en": "Ambalappadam",
+      "name_ml": "അമ്പലപ്പാടം"
     },
     {
-      "ward_id": "5300b57a-72e8-4f21-b8eb-d0e39c7f5095",
+      "id": "5300b57a-72e8-4f21-b8eb-d0e39c7f5095",
       "ward_no": "9",
-      "ward_name_en": "Valuparambu",
-      "ward_name_ml": "വലുപറമ്പ്"
+      "name_en": "Valuparambu",
+      "name_ml": "വലുപറമ്പ്"
     },
     {
-      "ward_id": "1e2d9928-2533-4f94-95a5-9a3f8cdd8f1b",
+      "id": "1e2d9928-2533-4f94-95a5-9a3f8cdd8f1b",
       "ward_no": "10",
-      "ward_name_en": "Malanchitty",
-      "ward_name_ml": "മലഞ്ചിറ്റി"
+      "name_en": "Malanchitty",
+      "name_ml": "മലഞ്ചിറ്റി"
     },
     {
-      "ward_id": "1124a94b-10bd-4f70-8317-19ca1e72e1d4",
+      "id": "1124a94b-10bd-4f70-8317-19ca1e72e1d4",
       "ward_no": "11",
-      "ward_name_en": "Maruthamthadam",
-      "ward_name_ml": "മരുതംതടം"
+      "name_en": "Maruthamthadam",
+      "name_ml": "മരുതംതടം"
     },
     {
-      "ward_id": "f7e39ac7-9514-44ff-9344-45ef7d98c862",
+      "id": "f7e39ac7-9514-44ff-9344-45ef7d98c862",
       "ward_no": "12",
-      "ward_name_en": "Karinjamthode",
-      "ward_name_ml": "കരിഞ്ഞാംതോട്"
+      "name_en": "Karinjamthode",
+      "name_ml": "കരിഞ്ഞാംതോട്"
     },
     {
-      "ward_id": "c6f38c64-db3d-471b-98ab-eb7e22a7ce32",
+      "id": "c6f38c64-db3d-471b-98ab-eb7e22a7ce32",
       "ward_no": "13",
-      "ward_name_en": "Chimbukad",
-      "ward_name_ml": "ചിമ്പുകാട്"
+      "name_en": "Chimbukad",
+      "name_ml": "ചിമ്പുകാട്"
     },
     {
-      "ward_id": "4b581e6a-c35e-4b17-af45-034b1dc63492",
+      "id": "4b581e6a-c35e-4b17-af45-034b1dc63492",
       "ward_no": "14",
-      "ward_name_en": "Karadiyampara",
-      "ward_name_ml": "കരടിയമ്പാറ"
+      "name_en": "Karadiyampara",
+      "name_ml": "കരടിയമ്പാറ"
     },
     {
-      "ward_id": "a6805437-894f-46cd-b8a2-04c952b47e04",
+      "id": "a6805437-894f-46cd-b8a2-04c952b47e04",
       "ward_no": "15",
-      "ward_name_en": "Palathara",
-      "ward_name_ml": "പാലത്തറ"
+      "name_en": "Palathara",
+      "name_ml": "പാലത്തറ"
     },
     {
-      "ward_id": "52337ebf-5283-4f0d-aec7-c0d25c265f88",
+      "id": "52337ebf-5283-4f0d-aec7-c0d25c265f88",
       "ward_no": "16",
-      "ward_name_en": "Pezhumkode",
-      "ward_name_ml": "പേഴുംകോട്"
+      "name_en": "Pezhumkode",
+      "name_ml": "പേഴുംകോട്"
     }
   ],
   "towns": [],

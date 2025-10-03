@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G010805",
-  "local_body_name_en": "Vilappil",
-  "local_body_name_ml": "വിളപ്പില്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
-  "assembly": {
-    "assembly_id": "138",
-    "assembly_name_en": "Kattakkada",
-    "assembly_name_ml": "കാട്ടാക്കട",
+  "id": "G010805",
+  "name_en": "Vilappil",
+  "name_ml": "വിളപ്പില്‍",
+  "assembly_id": "138",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Good"
   },
+  "assembly": {
+    "id": "138",
+    "name_en": "Kattakkada",
+    "name_ml": "കാട്ടാക്കട",
+    "assembly_category": {
+      "category": "Good"
+    }
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a5a7e284-2143-4c7c-a12e-111698903a71",
+      "id": "a5a7e284-2143-4c7c-a12e-111698903a71",
       "ward_no": "1",
-      "ward_name_en": "Vellaikadavu",
-      "ward_name_ml": "വെള്ളൈക്കടവ്"
+      "name_en": "Vellaikadavu",
+      "name_ml": "വെള്ളൈക്കടവ്"
     },
     {
-      "ward_id": "60c7fee8-c22b-45e8-87e6-8d6ff54a0f9c",
+      "id": "60c7fee8-c22b-45e8-87e6-8d6ff54a0f9c",
       "ward_no": "2",
-      "ward_name_en": "Myladi",
-      "ward_name_ml": "മൈലാടി"
+      "name_en": "Myladi",
+      "name_ml": "മൈലാടി"
     },
     {
-      "ward_id": "cc467443-1536-441b-867e-9acd64c8bcaa",
+      "id": "cc467443-1536-441b-867e-9acd64c8bcaa",
       "ward_no": "3",
-      "ward_name_en": "Chowallor",
-      "ward_name_ml": "ചൊവ്വള്ളൂര്‍"
+      "name_en": "Chowallor",
+      "name_ml": "ചൊവ്വള്ളൂര്‍"
     },
     {
-      "ward_id": "185e1e34-9b16-43b0-bc6d-63d79366c4b8",
+      "id": "185e1e34-9b16-43b0-bc6d-63d79366c4b8",
       "ward_no": "4",
-      "ward_name_en": "Padavancode",
-      "ward_name_ml": "പടവന്‍കോട്"
+      "name_en": "Padavancode",
+      "name_ml": "പടവന്‍കോട്"
     },
     {
-      "ward_id": "00f4a215-f94e-4695-8d14-9c14baee17ea",
+      "id": "00f4a215-f94e-4695-8d14-9c14baee17ea",
       "ward_no": "5",
-      "ward_name_en": "Cherucode",
-      "ward_name_ml": "ചെറുകോട്"
+      "name_en": "Cherucode",
+      "name_ml": "ചെറുകോട്"
     },
     {
-      "ward_id": "df64b0f2-7b52-4996-85bd-ffea7fcd8d1b",
+      "id": "df64b0f2-7b52-4996-85bd-ffea7fcd8d1b",
       "ward_no": "6",
-      "ward_name_en": "Karode",
-      "ward_name_ml": "കാരോട്"
+      "name_en": "Karode",
+      "name_ml": "കാരോട്"
     },
     {
-      "ward_id": "9da05d18-1b1f-4956-8dbd-c66fb7b332f6",
+      "id": "9da05d18-1b1f-4956-8dbd-c66fb7b332f6",
       "ward_no": "7",
-      "ward_name_en": "Puttumelkonam",
-      "ward_name_ml": "പുറ്റുമേല്‍ക്കോണം"
+      "name_en": "Puttumelkonam",
+      "name_ml": "പുറ്റുമേല്‍ക്കോണം"
     },
     {
-      "ward_id": "53b175ea-5eed-4949-8ed1-c14970499753",
+      "id": "53b175ea-5eed-4949-8ed1-c14970499753",
       "ward_no": "8",
-      "ward_name_en": "Nooliyode",
-      "ward_name_ml": "നൂലിയോട്"
+      "name_en": "Nooliyode",
+      "name_ml": "നൂലിയോട്"
     },
     {
-      "ward_id": "6dd5b142-4be1-418f-9c8a-8e7ce6bf88da",
+      "id": "6dd5b142-4be1-418f-9c8a-8e7ce6bf88da",
       "ward_no": "9",
-      "ward_name_en": "Kavinpuram",
-      "ward_name_ml": "കാവിന്‍പുറം"
+      "name_en": "Kavinpuram",
+      "name_ml": "കാവിന്‍പുറം"
     },
     {
-      "ward_id": "ebcfa881-375a-4a8a-b5f8-5987cb2c7b8b",
+      "id": "ebcfa881-375a-4a8a-b5f8-5987cb2c7b8b",
       "ward_no": "10",
-      "ward_name_en": "Vilappilsala",
-      "ward_name_ml": "വിളപ്പില്‍ശാല"
+      "name_en": "Vilappilsala",
+      "name_ml": "വിളപ്പില്‍ശാല"
     },
     {
-      "ward_id": "e4cbf806-12d1-419e-89cb-205eac093280",
+      "id": "e4cbf806-12d1-419e-89cb-205eac093280",
       "ward_no": "11",
-      "ward_name_en": "Karuvilanchi",
-      "ward_name_ml": "കരുവിലാഞ്ചി"
+      "name_en": "Karuvilanchi",
+      "name_ml": "കരുവിലാഞ്ചി"
     },
     {
-      "ward_id": "23d01ad0-6aeb-4091-ab3b-26ffdec4ee17",
+      "id": "23d01ad0-6aeb-4091-ab3b-26ffdec4ee17",
       "ward_no": "12",
-      "ward_name_en": "Minnamcode",
-      "ward_name_ml": "മിണ്ണംകോട്"
+      "name_en": "Minnamcode",
+      "name_ml": "മിണ്ണംകോട്"
     },
     {
-      "ward_id": "b1753a3c-f807-48eb-a0bb-8f93fb473430",
+      "id": "b1753a3c-f807-48eb-a0bb-8f93fb473430",
       "ward_no": "13",
-      "ward_name_en": "Thuruthumoola",
-      "ward_name_ml": "തുരുത്തുംമൂല"
+      "name_en": "Thuruthumoola",
+      "name_ml": "തുരുത്തുംമൂല"
     },
     {
-      "ward_id": "0bb82bf9-5995-462e-ae59-232a6b3213a8",
+      "id": "0bb82bf9-5995-462e-ae59-232a6b3213a8",
       "ward_no": "14",
-      "ward_name_en": "Alakunnam",
-      "ward_name_ml": "അലകുന്നം"
+      "name_en": "Alakunnam",
+      "name_ml": "അലകുന്നം"
     },
     {
-      "ward_id": "564f9550-3430-4112-bb9d-7a36ef22c56f",
+      "id": "564f9550-3430-4112-bb9d-7a36ef22c56f",
       "ward_no": "15",
-      "ward_name_en": "High School",
-      "ward_name_ml": "ഹൈസ്കൂള്‍"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്കൂള്‍"
     },
     {
-      "ward_id": "0f72f60f-2496-427c-b76c-650b5d44fb82",
+      "id": "0f72f60f-2496-427c-b76c-650b5d44fb82",
       "ward_no": "16",
-      "ward_name_en": "Pirayil",
-      "ward_name_ml": "പിറയില്‍"
+      "name_en": "Pirayil",
+      "name_ml": "പിറയില്‍"
     },
     {
-      "ward_id": "577be7b2-05b4-48fd-8de3-b87d17f59806",
+      "id": "577be7b2-05b4-48fd-8de3-b87d17f59806",
       "ward_no": "17",
-      "ward_name_en": "Office Ward",
-      "ward_name_ml": "ഓഫീസ് വാര്‍ഡ്"
+      "name_en": "Office Ward",
+      "name_ml": "ഓഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "31bc0e44-ba32-423f-baef-d7b6b4e69330",
+      "id": "31bc0e44-ba32-423f-baef-d7b6b4e69330",
       "ward_no": "18",
-      "ward_name_en": "Peyad",
-      "ward_name_ml": "പേയാട്"
+      "name_en": "Peyad",
+      "name_ml": "പേയാട്"
     },
     {
-      "ward_id": "7a59e419-a9a2-4d6b-a169-f21f477166c2",
+      "id": "7a59e419-a9a2-4d6b-a169-f21f477166c2",
       "ward_no": "19",
-      "ward_name_en": "Vittiyam",
-      "ward_name_ml": "വിട്ടിയം"
+      "name_en": "Vittiyam",
+      "name_ml": "വിട്ടിയം"
     },
     {
-      "ward_id": "b8c8eee7-f8b2-43b5-b7cb-a80c01670f45",
+      "id": "b8c8eee7-f8b2-43b5-b7cb-a80c01670f45",
       "ward_no": "20",
-      "ward_name_en": "Puliyarakonam",
-      "ward_name_ml": "പുളിയറക്കോണം"
+      "name_en": "Puliyarakonam",
+      "name_ml": "പുളിയറക്കോണം"
     }
   ],
   "towns": [],

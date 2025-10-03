@@ -1,62 +1,83 @@
 {
-  "assembly_id": "54",
-  "assembly_name_en": "Mannarkkad",
-  "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
-  "category": "Normal",
+  "id": "54",
+  "name_en": "Mannarkkad",
+  "name_ml": "മണ്ണാര്‍ക്കാട്",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G090503",
-      "local_body_name_en": "Kottopadam",
-      "local_body_name_ml": "കോട്ടോപ്പാടം",
-      "category": "Perfect"
+      "id": "G090503",
+      "name_en": "Kottopadam",
+      "name_ml": "കോട്ടോപ്പാടം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090504",
-      "local_body_name_en": "Kumaramputhur",
-      "local_body_name_ml": "കുമരംപുത്തൂര്‍",
-      "category": "Normal"
+      "id": "G090504",
+      "name_en": "Kumaramputhur",
+      "name_ml": "കുമരംപുത്തൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M090700",
-      "local_body_name_en": "Mannarkad",
-      "local_body_name_ml": "മണ്ണാര്‍ക്കാട്",
-      "category": "Good"
+      "id": "M090700",
+      "name_en": "Mannarkad",
+      "name_ml": "മണ്ണാര്‍ക്കാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G090602",
-      "local_body_name_en": "Pudur",
-      "local_body_name_ml": "പുതൂര്‍",
-      "category": "Perfect"
+      "id": "G090602",
+      "name_en": "Pudur",
+      "name_ml": "പുതൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090603",
-      "local_body_name_en": "Sholayoor",
-      "local_body_name_ml": "ഷോളയൂര്‍",
-      "category": "Perfect"
+      "id": "G090603",
+      "name_en": "Sholayoor",
+      "name_ml": "ഷോളയൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090509",
-      "local_body_name_en": "Thenkara",
-      "local_body_name_ml": "തെങ്കര",
-      "category": "Normal"
+      "id": "G090509",
+      "name_en": "Thenkara",
+      "name_ml": "തെങ്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090601",
-      "local_body_name_en": "Agali",
-      "local_body_name_ml": "അഗളി",
-      "category": "Normal"
+      "id": "G090601",
+      "name_en": "Agali",
+      "name_ml": "അഗളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090501",
-      "local_body_name_en": "Alanallur",
-      "local_body_name_ml": "അലനല്ലൂര്‍",
-      "category": "Normal"
+      "id": "G090501",
+      "name_en": "Alanallur",
+      "name_ml": "അലനല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

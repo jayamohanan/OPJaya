@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G050904",
-  "local_body_name_en": "Vakathanam",
-  "local_body_name_ml": "വാകത്താനം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050904",
+  "name_en": "Vakathanam",
+  "name_ml": "വാകത്താനം",
+  "assembly_id": "98",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "98",
-    "assembly_name_en": "Puthuppally",
-    "assembly_name_ml": "പുതുപ്പള്ളി",
-    "category": "Normal"
+    "id": "98",
+    "name_en": "Puthuppally",
+    "name_ml": "പുതുപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "08530f6e-8df7-4508-a93a-2ed582d4a53f",
+      "id": "08530f6e-8df7-4508-a93a-2ed582d4a53f",
       "ward_no": "1",
-      "ward_name_en": "Thrikothamangalam",
-      "ward_name_ml": "തൃക്കോതമംഗലം"
+      "name_en": "Thrikothamangalam",
+      "name_ml": "തൃക്കോതമംഗലം"
     },
     {
-      "ward_id": "eb1da715-7fe9-45d5-a441-071e009b5e77",
+      "id": "eb1da715-7fe9-45d5-a441-071e009b5e77",
       "ward_no": "2",
-      "ward_name_en": "Kodoorarvally",
-      "ward_name_ml": "കൊടൂരാര്‍വാലി"
+      "name_en": "Kodoorarvally",
+      "name_ml": "കൊടൂരാര്‍വാലി"
     },
     {
-      "ward_id": "40f8694d-7cd6-4e3b-8604-94d04764bf38",
+      "id": "40f8694d-7cd6-4e3b-8604-94d04764bf38",
       "ward_no": "3",
-      "ward_name_en": "Kadamury",
-      "ward_name_ml": "കാടമുറി"
+      "name_en": "Kadamury",
+      "name_ml": "കാടമുറി"
     },
     {
-      "ward_id": "50430ae1-7709-44b2-ad65-4a9f48e2a5ca",
+      "id": "50430ae1-7709-44b2-ad65-4a9f48e2a5ca",
       "ward_no": "4",
-      "ward_name_en": "Njaliyakuzhy",
-      "ward_name_ml": "ഞാലിയാകുഴി"
+      "name_en": "Njaliyakuzhy",
+      "name_ml": "ഞാലിയാകുഴി"
     },
     {
-      "ward_id": "b945e0e2-3cfc-419b-a94b-b0ef49b4950c",
+      "id": "b945e0e2-3cfc-419b-a94b-b0ef49b4950c",
       "ward_no": "5",
-      "ward_name_en": "Marangadu",
-      "ward_name_ml": "മരങ്ങാട്"
+      "name_en": "Marangadu",
+      "name_ml": "മരങ്ങാട്"
     },
     {
-      "ward_id": "0b9b2bd2-3e88-4963-b71f-c641824d5bb5",
+      "id": "0b9b2bd2-3e88-4963-b71f-c641824d5bb5",
       "ward_no": "6",
-      "ward_name_en": "Pariyaram",
-      "ward_name_ml": "പരിയാരം"
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം"
     },
     {
-      "ward_id": "198bb500-a019-4ee5-894c-3f6177fc98c9",
+      "id": "198bb500-a019-4ee5-894c-3f6177fc98c9",
       "ward_no": "7",
-      "ward_name_en": "Thottakkad",
-      "ward_name_ml": "തോട്ടയ്ക്കാട്"
+      "name_en": "Thottakkad",
+      "name_ml": "തോട്ടയ്ക്കാട്"
     },
     {
-      "ward_id": "84019e18-44a9-4540-a26a-e388d76b4074",
+      "id": "84019e18-44a9-4540-a26a-e388d76b4074",
       "ward_no": "8",
-      "ward_name_en": "Ambalakavala",
-      "ward_name_ml": "അമ്പലക്കവല"
+      "name_en": "Ambalakavala",
+      "name_ml": "അമ്പലക്കവല"
     },
     {
-      "ward_id": "e9765ea1-524f-4593-8df0-679b7a58dbca",
+      "id": "e9765ea1-524f-4593-8df0-679b7a58dbca",
       "ward_no": "9",
-      "ward_name_en": "Ezhuvanthanam",
-      "ward_name_ml": "എഴുവന്താനം"
+      "name_en": "Ezhuvanthanam",
+      "name_ml": "എഴുവന്താനം"
     },
     {
-      "ward_id": "8f8d5b16-f5cd-4149-8768-91d22c76c367",
+      "id": "8f8d5b16-f5cd-4149-8768-91d22c76c367",
       "ward_no": "10",
-      "ward_name_en": "Eravuchira",
-      "ward_name_ml": "ഇരവുചിറ"
+      "name_en": "Eravuchira",
+      "name_ml": "ഇരവുചിറ"
     },
     {
-      "ward_id": "2870a0f2-9656-4a41-85ca-5735bc67af7b",
+      "id": "2870a0f2-9656-4a41-85ca-5735bc67af7b",
       "ward_no": "11",
-      "ward_name_en": "Pongamthanam",
-      "ward_name_ml": "പൊങ്ങന്താനം"
+      "name_en": "Pongamthanam",
+      "name_ml": "പൊങ്ങന്താനം"
     },
     {
-      "ward_id": "1f00560b-d729-4c1b-bfbc-3e388264c20a",
+      "id": "1f00560b-d729-4c1b-bfbc-3e388264c20a",
       "ward_no": "12",
-      "ward_name_en": "Mudithanam",
-      "ward_name_ml": "മുടിത്താനം"
+      "name_en": "Mudithanam",
+      "name_ml": "മുടിത്താനം"
     },
     {
-      "ward_id": "23e0a206-38cb-42f8-bc1d-69d696bf2f5d",
+      "id": "23e0a206-38cb-42f8-bc1d-69d696bf2f5d",
       "ward_no": "13",
-      "ward_name_en": "Manikandapuram",
-      "ward_name_ml": "മണികണ്ഠപുരം"
+      "name_en": "Manikandapuram",
+      "name_ml": "മണികണ്ഠപുരം"
     },
     {
-      "ward_id": "0aaa0034-2a7f-49ff-b3bd-a2963ae4e6f0",
+      "id": "0aaa0034-2a7f-49ff-b3bd-a2963ae4e6f0",
       "ward_no": "14",
-      "ward_name_en": "Unnamattom",
-      "ward_name_ml": "ഉണ്ണാമറ്റം"
+      "name_en": "Unnamattom",
+      "name_ml": "ഉണ്ണാമറ്റം"
     },
     {
-      "ward_id": "76bd8928-366d-4a5e-8541-3999ae949dd7",
+      "id": "76bd8928-366d-4a5e-8541-3999ae949dd7",
       "ward_no": "15",
-      "ward_name_en": "Pandanchira",
-      "ward_name_ml": "പാണ്ടന്‍ചിറ"
+      "name_en": "Pandanchira",
+      "name_ml": "പാണ്ടന്‍ചിറ"
     },
     {
-      "ward_id": "6ef3e495-731e-4017-8599-39b5512b3b51",
+      "id": "6ef3e495-731e-4017-8599-39b5512b3b51",
       "ward_no": "16",
-      "ward_name_en": "Nalunnakkal",
-      "ward_name_ml": "നാലുന്നാക്കല്‍"
+      "name_en": "Nalunnakkal",
+      "name_ml": "നാലുന്നാക്കല്‍"
     },
     {
-      "ward_id": "1f310a7c-5159-4d1d-90bb-209647a32e69",
+      "id": "1f310a7c-5159-4d1d-90bb-209647a32e69",
       "ward_no": "17",
-      "ward_name_en": "Puthenchantha",
-      "ward_name_ml": "പുത്തന്‍ചന്ത"
+      "name_en": "Puthenchantha",
+      "name_ml": "പുത്തന്‍ചന്ത"
     },
     {
-      "ward_id": "e4e1be8a-3f5b-463b-b90d-cfea0e313033",
+      "id": "e4e1be8a-3f5b-463b-b90d-cfea0e313033",
       "ward_no": "18",
-      "ward_name_en": "Jerusalemmount",
-      "ward_name_ml": "ജെറുസലേംമൌണ്ട്"
+      "name_en": "Jerusalemmount",
+      "name_ml": "ജെറുസലേംമൌണ്ട്"
     },
     {
-      "ward_id": "5a304226-10aa-40a4-8795-1738997da6ee",
+      "id": "5a304226-10aa-40a4-8795-1738997da6ee",
       "ward_no": "19",
-      "ward_name_en": "Vallikkad",
-      "ward_name_ml": "വള്ളിക്കാട്"
+      "name_en": "Vallikkad",
+      "name_ml": "വള്ളിക്കാട്"
     },
     {
-      "ward_id": "4327fc33-5f85-4592-9b5e-68abe86124e7",
+      "id": "4327fc33-5f85-4592-9b5e-68abe86124e7",
       "ward_no": "20",
-      "ward_name_en": "Udhikkal",
-      "ward_name_ml": "ഉദിക്കല്‍"
+      "name_en": "Udhikkal",
+      "name_ml": "ഉദിക്കല്‍"
     }
   ],
   "towns": [],

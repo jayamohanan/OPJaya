@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G070301",
-  "local_body_name_en": "Mookkannur",
-  "local_body_name_ml": "മൂക്കന്നൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "75",
-    "assembly_name_en": "Angamaly",
-    "assembly_name_ml": "അങ്കമാലി",
+  "id": "G070301",
+  "name_en": "Mookkannur",
+  "name_ml": "മൂക്കന്നൂര്‍",
+  "assembly_id": "75",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "75",
+    "name_en": "Angamaly",
+    "name_ml": "അങ്കമാലി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4820cb00-6fc8-4e5d-ac76-f775d448753a",
+      "id": "4820cb00-6fc8-4e5d-ac76-f775d448753a",
       "ward_no": "1",
-      "ward_name_en": "Poothamkutty",
-      "ward_name_ml": "പൂതംകുറ്റി"
+      "name_en": "Poothamkutty",
+      "name_ml": "പൂതംകുറ്റി"
     },
     {
-      "ward_id": "1a2e7750-b148-497b-b9ad-88fde87ba0cc",
+      "id": "1a2e7750-b148-497b-b9ad-88fde87ba0cc",
       "ward_no": "2",
-      "ward_name_en": "Edalakkad",
-      "ward_name_ml": "എടലക്കാട്"
+      "name_en": "Edalakkad",
+      "name_ml": "എടലക്കാട്"
     },
     {
-      "ward_id": "bba30d59-f880-441c-8566-aa553418a378",
+      "id": "bba30d59-f880-441c-8566-aa553418a378",
       "ward_no": "3",
-      "ward_name_en": "Thabore",
-      "ward_name_ml": "താബോര്‍"
+      "name_en": "Thabore",
+      "name_ml": "താബോര്‍"
     },
     {
-      "ward_id": "d517c7c9-ebd1-44f7-b8bb-4bab0efb3e00",
+      "id": "d517c7c9-ebd1-44f7-b8bb-4bab0efb3e00",
       "ward_no": "4",
-      "ward_name_en": "Kokkunnu",
-      "ward_name_ml": "കോക്കുന്ന്"
+      "name_en": "Kokkunnu",
+      "name_ml": "കോക്കുന്ന്"
     },
     {
-      "ward_id": "ca3b716c-8763-4dc2-8d6d-c995cc83254a",
+      "id": "ca3b716c-8763-4dc2-8d6d-c995cc83254a",
       "ward_no": "5",
-      "ward_name_en": "Kanan Desam",
-      "ward_name_ml": "കാനാന്‍ ദേശം"
+      "name_en": "Kanan Desam",
+      "name_ml": "കാനാന്‍ ദേശം"
     },
     {
-      "ward_id": "ea2c7bc4-625d-4af7-bd85-6146eeb2e8d3",
+      "id": "ea2c7bc4-625d-4af7-bd85-6146eeb2e8d3",
       "ward_no": "6",
-      "ward_name_en": "Baselious Nager",
-      "ward_name_ml": "ബസേലിയൂസ് നഗര്‍"
+      "name_en": "Baselious Nager",
+      "name_ml": "ബസേലിയൂസ് നഗര്‍"
     },
     {
-      "ward_id": "c8102e02-693a-4c12-a1cd-98494e119d41",
+      "id": "c8102e02-693a-4c12-a1cd-98494e119d41",
       "ward_no": "7",
-      "ward_name_en": "Mookkannoor Church",
-      "ward_name_ml": "മൂക്കന്നൂര്‍ ചര്‍ച്ച്"
+      "name_en": "Mookkannoor Church",
+      "name_ml": "മൂക്കന്നൂര്‍ ചര്‍ച്ച്"
     },
     {
-      "ward_id": "6eae9592-37df-44d5-86ff-30b8a88787f4",
+      "id": "6eae9592-37df-44d5-86ff-30b8a88787f4",
       "ward_no": "8",
-      "ward_name_en": "Koottala",
-      "ward_name_ml": "കൂട്ടാല"
+      "name_en": "Koottala",
+      "name_ml": "കൂട്ടാല"
     },
     {
-      "ward_id": "9ccb2106-7c68-4e22-a7d4-912e89789fa7",
+      "id": "9ccb2106-7c68-4e22-a7d4-912e89789fa7",
       "ward_no": "9",
-      "ward_name_en": "Mookkannoor Town",
-      "ward_name_ml": "മൂക്കന്നൂര്‍ ടൌണ്‍"
+      "name_en": "Mookkannoor Town",
+      "name_ml": "മൂക്കന്നൂര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "b8faa5f6-8890-4900-98cc-4c8386a2424c",
+      "id": "b8faa5f6-8890-4900-98cc-4c8386a2424c",
       "ward_no": "10",
-      "ward_name_en": "Azhakam",
-      "ward_name_ml": "ആഴകം"
+      "name_en": "Azhakam",
+      "name_ml": "ആഴകം"
     },
     {
-      "ward_id": "0154f84d-965c-4a96-9abb-8b3ee8fc0c43",
+      "id": "0154f84d-965c-4a96-9abb-8b3ee8fc0c43",
       "ward_no": "11",
-      "ward_name_en": "Hormis Nager",
-      "ward_name_ml": "ഹോര്‍മീസ് നഗര്‍"
+      "name_en": "Hormis Nager",
+      "name_ml": "ഹോര്‍മീസ് നഗര്‍"
     },
     {
-      "ward_id": "2da8748e-7974-4201-842f-862a550d5cd4",
+      "id": "2da8748e-7974-4201-842f-862a550d5cd4",
       "ward_no": "12",
-      "ward_name_en": "Vattekkad",
-      "ward_name_ml": "വട്ടേക്കാട്"
+      "name_en": "Vattekkad",
+      "name_ml": "വട്ടേക്കാട്"
     },
     {
-      "ward_id": "9442e13a-c554-47cf-9d70-c129a6680896",
+      "id": "9442e13a-c554-47cf-9d70-c129a6680896",
       "ward_no": "13",
-      "ward_name_en": "Attara",
-      "ward_name_ml": "അട്ടാറ"
+      "name_en": "Attara",
+      "name_ml": "അട്ടാറ"
     },
     {
-      "ward_id": "be564977-5e66-4acd-b7c9-373b4418f4f0",
+      "id": "be564977-5e66-4acd-b7c9-373b4418f4f0",
       "ward_no": "14",
-      "ward_name_en": "Parambayam",
-      "ward_name_ml": "പറമ്പയം"
+      "name_en": "Parambayam",
+      "name_ml": "പറമ്പയം"
     }
   ],
   "towns": [],

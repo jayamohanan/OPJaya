@@ -1,74 +1,99 @@
 {
-  "assembly_id": "7",
-  "assembly_name_en": "Kalliasseri",
-  "assembly_name_ml": "കല്ല്യാശ്ശേരി",
-  "category": "Normal",
+  "id": "7",
+  "name_en": "Kalliasseri",
+  "name_ml": "കല്ല്യാശ്ശേരി",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130205",
-      "local_body_name_en": "Cherukunnu",
-      "local_body_name_ml": "ചെറുകുന്ന്",
-      "category": "Normal"
+      "id": "G130205",
+      "name_en": "Cherukunnu",
+      "name_ml": "ചെറുകുന്ന്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130201",
-      "local_body_name_en": "Cheruthazham",
-      "local_body_name_ml": "ചെറുതാഴം",
-      "category": "Normal"
+      "id": "G130201",
+      "name_en": "Cheruthazham",
+      "name_ml": "ചെറുതാഴം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130202",
-      "local_body_name_en": "Ezhome",
-      "local_body_name_ml": "ഏഴോം",
-      "category": "Perfect"
+      "id": "G130202",
+      "name_en": "Ezhome",
+      "name_ml": "ഏഴോം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130309",
-      "local_body_name_en": "Kadannappally Panapuzha",
-      "local_body_name_ml": "കടന്നപ്പള്ളി പാണപ്പുഴ",
-      "category": "Normal"
+      "id": "G130309",
+      "name_en": "Kadannappally Panapuzha",
+      "name_ml": "കടന്നപ്പള്ളി പാണപ്പുഴ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130206",
-      "local_body_name_en": "Kalliasseri",
-      "local_body_name_ml": "കല്ല്യാശ്ശേരി",
-      "category": "Perfect"
+      "id": "G130206",
+      "name_en": "Kalliasseri",
+      "name_ml": "കല്ല്യാശ്ശേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130207",
-      "local_body_name_en": "Kannapuram",
-      "local_body_name_ml": "കണ്ണപുരം",
-      "category": "Normal"
+      "id": "G130207",
+      "name_en": "Kannapuram",
+      "name_ml": "കണ്ണപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130101",
-      "local_body_name_en": "Kunhimangalam",
-      "local_body_name_ml": "കുഞ്ഞിമംഗലം",
-      "category": "Perfect"
+      "id": "G130101",
+      "name_en": "Kunhimangalam",
+      "name_ml": "കുഞ്ഞിമംഗലം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130203",
-      "local_body_name_en": "Madayi",
-      "local_body_name_ml": "മാടായി",
-      "category": "Normal"
+      "id": "G130203",
+      "name_en": "Madayi",
+      "name_ml": "മാടായി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130204",
-      "local_body_name_en": "Mattool",
-      "local_body_name_ml": "മാട്ടൂല്‍",
-      "category": "Good"
+      "id": "G130204",
+      "name_en": "Mattool",
+      "name_ml": "മാട്ടൂല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G130301",
-      "local_body_name_en": "Pattuvam",
-      "local_body_name_ml": "പട്ടുവം",
-      "category": "Normal"
+      "id": "G130301",
+      "name_en": "Pattuvam",
+      "name_ml": "പട്ടുവം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

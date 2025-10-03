@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G050408",
-  "local_body_name_en": "Manjoor",
-  "local_body_name_ml": "മാഞ്ഞൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050408",
+  "name_en": "Manjoor",
+  "name_ml": "മാഞ്ഞൂര്‍",
+  "assembly_id": "94",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "94",
-    "assembly_name_en": "Kaduthuruthy",
-    "assembly_name_ml": "കടുത്തുരുത്തി",
-    "category": "Normal"
+    "id": "94",
+    "name_en": "Kaduthuruthy",
+    "name_ml": "കടുത്തുരുത്തി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1590f6ab-df37-458e-ad77-4913ae1ca2c5",
+      "id": "1590f6ab-df37-458e-ad77-4913ae1ca2c5",
       "ward_no": "1",
-      "ward_name_en": "Mettumpara",
-      "ward_name_ml": "മേട്ടുംപാറ"
+      "name_en": "Mettumpara",
+      "name_ml": "മേട്ടുംപാറ"
     },
     {
-      "ward_id": "9005c4ad-3997-4fd9-9f1f-56ceea6122cd",
+      "id": "9005c4ad-3997-4fd9-9f1f-56ceea6122cd",
       "ward_no": "2",
-      "ward_name_en": "Eravimangalam",
-      "ward_name_ml": "ഇരവിമംഗലം"
+      "name_en": "Eravimangalam",
+      "name_ml": "ഇരവിമംഗലം"
     },
     {
-      "ward_id": "24a7a476-a051-450f-ba43-ada2983cea65",
+      "id": "24a7a476-a051-450f-ba43-ada2983cea65",
       "ward_no": "3",
-      "ward_name_en": "Kurrupanthara",
-      "ward_name_ml": "കുറുപ്പന്തറ"
+      "name_en": "Kurrupanthara",
+      "name_ml": "കുറുപ്പന്തറ"
     },
     {
-      "ward_id": "fc268d5b-3f8b-49e4-9175-519eacb3aadb",
+      "id": "fc268d5b-3f8b-49e4-9175-519eacb3aadb",
       "ward_no": "4",
-      "ward_name_en": "Kanjirathanam",
-      "ward_name_ml": "കാഞ്ഞിരത്താനം"
+      "name_en": "Kanjirathanam",
+      "name_ml": "കാഞ്ഞിരത്താനം"
     },
     {
-      "ward_id": "fc8a214d-036e-4186-8f6f-25a91d9b6190",
+      "id": "fc8a214d-036e-4186-8f6f-25a91d9b6190",
       "ward_no": "5",
-      "ward_name_en": "Sleevapuram",
-      "ward_name_ml": "സ്ലീവാപുരം"
+      "name_en": "Sleevapuram",
+      "name_ml": "സ്ലീവാപുരം"
     },
     {
-      "ward_id": "eabe3af3-b0c7-4a2c-be7b-d0df9b06005a",
+      "id": "eabe3af3-b0c7-4a2c-be7b-d0df9b06005a",
       "ward_no": "6",
-      "ward_name_en": "Omalloor",
-      "ward_name_ml": "ഓമല്ലൂര്‍"
+      "name_en": "Omalloor",
+      "name_ml": "ഓമല്ലൂര്‍"
     },
     {
-      "ward_id": "82804edb-2c98-40a7-9737-aae7f5ad3a4a",
+      "id": "82804edb-2c98-40a7-9737-aae7f5ad3a4a",
       "ward_no": "7",
-      "ward_name_en": "Socialwelfare Centre",
-      "ward_name_ml": "സോഷ്യല്‍വെല്‍ഫെയര്‍ സെന്‍റര്‍"
+      "name_en": "Socialwelfare Centre",
+      "name_ml": "സോഷ്യല്‍വെല്‍ഫെയര്‍ സെന്‍റര്‍"
     },
     {
-      "ward_id": "3c2f698b-758e-40ad-84b2-c4f29502a6cb",
+      "id": "3c2f698b-758e-40ad-84b2-c4f29502a6cb",
       "ward_no": "8",
-      "ward_name_en": "Nambyakulam",
-      "ward_name_ml": "നമ്പ്യാകുളം"
+      "name_en": "Nambyakulam",
+      "name_ml": "നമ്പ്യാകുളം"
     },
     {
-      "ward_id": "bbe27e13-99a6-4925-b59a-51df2fb2b9c9",
+      "id": "bbe27e13-99a6-4925-b59a-51df2fb2b9c9",
       "ward_no": "9",
-      "ward_name_en": "Kothanalloor",
-      "ward_name_ml": "കോതനല്ലൂര്‍"
+      "name_en": "Kothanalloor",
+      "name_ml": "കോതനല്ലൂര്‍"
     },
     {
-      "ward_id": "ba0795ab-8cee-4cf6-bab2-c2279f39c9b1",
+      "id": "ba0795ab-8cee-4cf6-bab2-c2279f39c9b1",
       "ward_no": "10",
-      "ward_name_en": "Manjoor",
-      "ward_name_ml": "മാഞ്ഞൂര്‍"
+      "name_en": "Manjoor",
+      "name_ml": "മാഞ്ഞൂര്‍"
     },
     {
-      "ward_id": "dcf28ae0-29b2-4cb8-82dd-b83dc72b1ffe",
+      "id": "dcf28ae0-29b2-4cb8-82dd-b83dc72b1ffe",
       "ward_no": "11",
-      "ward_name_en": "Railway Station",
-      "ward_name_ml": "റെയില്‍വേ സ്റ്റേഷന്‍"
+      "name_en": "Railway Station",
+      "name_ml": "റെയില്‍വേ സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "fd434ae7-86a6-412a-9b1d-93119e42c674",
+      "id": "fd434ae7-86a6-412a-9b1d-93119e42c674",
       "ward_no": "12",
-      "ward_name_en": "Manjoor Central",
-      "ward_name_ml": "മാഞ്ഞൂര്‍ സെന്‍ട്രല്‍"
+      "name_en": "Manjoor Central",
+      "name_ml": "മാഞ്ഞൂര്‍ സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "89f93221-0f23-446f-a777-4acefc0a2fe2",
+      "id": "89f93221-0f23-446f-a777-4acefc0a2fe2",
       "ward_no": "13",
-      "ward_name_en": "Chamakala",
-      "ward_name_ml": "ചാമക്കാല"
+      "name_en": "Chamakala",
+      "name_ml": "ചാമക്കാല"
     },
     {
-      "ward_id": "03755d97-c26c-4bd8-8f58-ec7372627295",
+      "id": "03755d97-c26c-4bd8-8f58-ec7372627295",
       "ward_no": "14",
-      "ward_name_en": "Manjoor South",
-      "ward_name_ml": "മാഞ്ഞൂര്‍ സൌത്ത്"
+      "name_en": "Manjoor South",
+      "name_ml": "മാഞ്ഞൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "a20c5f7b-1854-4240-b3d2-cbb677d46606",
+      "id": "a20c5f7b-1854-4240-b3d2-cbb677d46606",
       "ward_no": "15",
-      "ward_name_en": "Memury",
-      "ward_name_ml": "മേമ്മൂറ"
+      "name_en": "Memury",
+      "name_ml": "മേമ്മൂറ"
     },
     {
-      "ward_id": "210e29f2-2827-4891-8afa-33a4e8eddacc",
+      "id": "210e29f2-2827-4891-8afa-33a4e8eddacc",
       "ward_no": "16",
-      "ward_name_en": "Manvettom",
-      "ward_name_ml": "മാന്‍വെട്ടം"
+      "name_en": "Manvettom",
+      "name_ml": "മാന്‍വെട്ടം"
     },
     {
-      "ward_id": "276628c3-d4e9-4d4b-9ac9-da145831f1c9",
+      "id": "276628c3-d4e9-4d4b-9ac9-da145831f1c9",
       "ward_no": "17",
-      "ward_name_en": "Vijaya Library",
-      "ward_name_ml": "വിജയ ലൈബ്രറി"
+      "name_en": "Vijaya Library",
+      "name_ml": "വിജയ ലൈബ്രറി"
     },
     {
-      "ward_id": "da946342-f1d1-4039-9e00-e0bac105fab3",
+      "id": "da946342-f1d1-4039-9e00-e0bac105fab3",
       "ward_no": "18",
-      "ward_name_en": "Kakkathumala",
-      "ward_name_ml": "കക്കത്തുമല"
+      "name_en": "Kakkathumala",
+      "name_ml": "കക്കത്തുമല"
     }
   ],
   "towns": [],

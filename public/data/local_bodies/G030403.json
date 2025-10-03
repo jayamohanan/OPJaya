@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030403",
-  "local_body_name_en": "Elanthoor",
-  "local_body_name_ml": "ഇലന്തൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G030403",
+  "name_en": "Elanthoor",
+  "name_ml": "ഇലന്തൂര്‍",
+  "assembly_id": "113",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "113",
-    "assembly_name_en": "Aranmula",
-    "assembly_name_ml": "ആറന്മുള",
-    "category": "Normal"
+    "id": "113",
+    "name_en": "Aranmula",
+    "name_ml": "ആറന്മുള",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "90f71ee1-d00f-4663-8e22-e7d1bbf34f56",
+      "id": "90f71ee1-d00f-4663-8e22-e7d1bbf34f56",
       "ward_no": "1",
-      "ward_name_en": "Pariyaram",
-      "ward_name_ml": "പരിയാരം"
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം"
     },
     {
-      "ward_id": "1ef4d861-8a9b-4193-a121-1417fa66fc90",
+      "id": "1ef4d861-8a9b-4193-a121-1417fa66fc90",
       "ward_no": "2",
-      "ward_name_en": "Thumpothara",
-      "ward_name_ml": "തുമ്പോന്തറ"
+      "name_en": "Thumpothara",
+      "name_ml": "തുമ്പോന്തറ"
     },
     {
-      "ward_id": "39da073a-412c-4282-8d96-8ff5ce1c49ed",
+      "id": "39da073a-412c-4282-8d96-8ff5ce1c49ed",
       "ward_no": "3",
-      "ward_name_en": "Olikal",
-      "ward_name_ml": "ഓലിക്കല്‍"
+      "name_en": "Olikal",
+      "name_ml": "ഓലിക്കല്‍"
     },
     {
-      "ward_id": "484fcea5-5892-4560-b1c3-261df611ee23",
+      "id": "484fcea5-5892-4560-b1c3-261df611ee23",
       "ward_no": "4",
-      "ward_name_en": "Madhumala",
-      "ward_name_ml": "മധുമല"
+      "name_en": "Madhumala",
+      "name_ml": "മധുമല"
     },
     {
-      "ward_id": "1d0c4efa-dc5e-44e9-a2b1-0e85cd748a1e",
+      "id": "1d0c4efa-dc5e-44e9-a2b1-0e85cd748a1e",
       "ward_no": "5",
-      "ward_name_en": "Edappariyaram",
-      "ward_name_ml": "ഇടപ്പരിയാരം"
+      "name_en": "Edappariyaram",
+      "name_ml": "ഇടപ്പരിയാരം"
     },
     {
-      "ward_id": "1002dc12-2d0e-4edd-89f9-c1b2493c5cb0",
+      "id": "1002dc12-2d0e-4edd-89f9-c1b2493c5cb0",
       "ward_no": "6",
-      "ward_name_en": "Bhagawathikkunnu",
-      "ward_name_ml": "ഭഗവതികുന്ന്"
+      "name_en": "Bhagawathikkunnu",
+      "name_ml": "ഭഗവതികുന്ന്"
     },
     {
-      "ward_id": "de5f21c1-6d7c-47a4-9690-1be5d32ffd41",
+      "id": "de5f21c1-6d7c-47a4-9690-1be5d32ffd41",
       "ward_no": "7",
-      "ward_name_en": "Variyapuram",
-      "ward_name_ml": "വാര്യാപുരം"
+      "name_en": "Variyapuram",
+      "name_ml": "വാര്യാപുരം"
     },
     {
-      "ward_id": "7dd50a2d-83dd-4a60-bb4d-b560508de0fd",
+      "id": "7dd50a2d-83dd-4a60-bb4d-b560508de0fd",
       "ward_no": "8",
-      "ward_name_en": "Areekkel",
-      "ward_name_ml": "അരീക്കല്‍"
+      "name_en": "Areekkel",
+      "name_ml": "അരീക്കല്‍"
     },
     {
-      "ward_id": "8b21eb4a-d7c4-49ca-84ed-3ab961550954",
+      "id": "8b21eb4a-d7c4-49ca-84ed-3ab961550954",
       "ward_no": "9",
-      "ward_name_en": "Mannumbhagom",
-      "ward_name_ml": "മണ്ണൂംഭാഗം"
+      "name_en": "Mannumbhagom",
+      "name_ml": "മണ്ണൂംഭാഗം"
     },
     {
-      "ward_id": "77a85a6a-2921-4347-8fd7-4aa096a325bc",
+      "id": "77a85a6a-2921-4347-8fd7-4aa096a325bc",
       "ward_no": "10",
-      "ward_name_en": "Valiyavattom",
-      "ward_name_ml": "വലിയവട്ടം"
+      "name_en": "Valiyavattom",
+      "name_ml": "വലിയവട്ടം"
     },
     {
-      "ward_id": "68595d37-d307-4371-b559-87edae1ad540",
+      "id": "68595d37-d307-4371-b559-87edae1ad540",
       "ward_no": "11",
-      "ward_name_en": "Elanthoor",
-      "ward_name_ml": "ഇലന്തൂര്‍"
+      "name_en": "Elanthoor",
+      "name_ml": "ഇലന്തൂര്‍"
     },
     {
-      "ward_id": "5aa9dcd9-10eb-47d2-9342-b2a58d88758a",
+      "id": "5aa9dcd9-10eb-47d2-9342-b2a58d88758a",
       "ward_no": "12",
-      "ward_name_en": "Elanthoor West",
-      "ward_name_ml": "ഇലന്തൂര്‍ വെസ്റ്റ്"
+      "name_en": "Elanthoor West",
+      "name_ml": "ഇലന്തൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "fd45cd51-dd22-4298-99f5-6bdd596f36ba",
+      "id": "fd45cd51-dd22-4298-99f5-6bdd596f36ba",
       "ward_no": "13",
-      "ward_name_en": "Pulinthitta",
-      "ward_name_ml": "പുളിന്തിട്ട"
+      "name_en": "Pulinthitta",
+      "name_ml": "പുളിന്തിട്ട"
     }
   ],
   "towns": [],

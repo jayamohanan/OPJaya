@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G091203",
-  "local_body_name_en": "Kavassery",
-  "local_body_name_ml": "കാവശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G091203",
+  "name_en": "Kavassery",
+  "name_ml": "കാവശ്ശേരി",
+  "assembly_id": "57",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "57",
-    "assembly_name_en": "Tarur",
-    "assembly_name_ml": "തരൂര്‍",
-    "category": "Normal"
+    "id": "57",
+    "name_en": "Tarur",
+    "name_ml": "തരൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "15d149ba-78a2-478b-b22b-f00e65f5f64c",
+      "id": "15d149ba-78a2-478b-b22b-f00e65f5f64c",
       "ward_no": "1",
-      "ward_name_en": "Peechamkode",
-      "ward_name_ml": "പീച്ചങ്കോട്"
+      "name_en": "Peechamkode",
+      "name_ml": "പീച്ചങ്കോട്"
     },
     {
-      "ward_id": "6138dbb9-55fa-403b-abc5-1532cbb7d333",
+      "id": "6138dbb9-55fa-403b-abc5-1532cbb7d333",
       "ward_no": "2",
-      "ward_name_en": "Padur",
-      "ward_name_ml": "പാടുര്"
+      "name_en": "Padur",
+      "name_ml": "പാടുര്"
     },
     {
-      "ward_id": "3fea08a4-3379-4dd5-95a5-e669dd9a4eb1",
+      "id": "3fea08a4-3379-4dd5-95a5-e669dd9a4eb1",
       "ward_no": "3",
-      "ward_name_en": "Kallepully",
-      "ward_name_ml": "കല്ലേപ്പുള്ളി"
+      "name_en": "Kallepully",
+      "name_ml": "കല്ലേപ്പുള്ളി"
     },
     {
-      "ward_id": "fd5bbf0d-1e78-4ad5-a45f-462919bbc3b1",
+      "id": "fd5bbf0d-1e78-4ad5-a45f-462919bbc3b1",
       "ward_no": "4",
-      "ward_name_en": "Valiyaparambu",
-      "ward_name_ml": "വലിയപറമ്പ്"
+      "name_en": "Valiyaparambu",
+      "name_ml": "വലിയപറമ്പ്"
     },
     {
-      "ward_id": "55ce2bb0-bc7d-48db-95a4-4f788899b207",
+      "id": "55ce2bb0-bc7d-48db-95a4-4f788899b207",
       "ward_no": "5",
-      "ward_name_en": "Pathanapuram",
-      "ward_name_ml": "പത്തനാപുരം"
+      "name_en": "Pathanapuram",
+      "name_ml": "പത്തനാപുരം"
     },
     {
-      "ward_id": "66eb3b94-80c8-438b-a847-e2564d37762e",
+      "id": "66eb3b94-80c8-438b-a847-e2564d37762e",
       "ward_no": "6",
-      "ward_name_en": "Muthanode",
-      "ward_name_ml": "മുത്താനോട്"
+      "name_en": "Muthanode",
+      "name_ml": "മുത്താനോട്"
     },
     {
-      "ward_id": "cf7a4803-651c-4686-aeab-7ab218fb9a7f",
+      "id": "cf7a4803-651c-4686-aeab-7ab218fb9a7f",
       "ward_no": "7",
-      "ward_name_en": "Arappuzha",
-      "ward_name_ml": "ആറാപ്പുഴ"
+      "name_en": "Arappuzha",
+      "name_ml": "ആറാപ്പുഴ"
     },
     {
-      "ward_id": "9d31afd2-9160-4735-a6ba-e657df13e543",
+      "id": "9d31afd2-9160-4735-a6ba-e657df13e543",
       "ward_no": "8",
-      "ward_name_en": "Chundakkad",
-      "ward_name_ml": "ചുണ്ടക്കാട്"
+      "name_en": "Chundakkad",
+      "name_ml": "ചുണ്ടക്കാട്"
     },
     {
-      "ward_id": "350e8834-ca6c-499a-a887-e0fe490e1629",
+      "id": "350e8834-ca6c-499a-a887-e0fe490e1629",
       "ward_no": "9",
-      "ward_name_en": "Mooppuparambu",
-      "ward_name_ml": "മൂപ്പുപറമ്പ്"
+      "name_en": "Mooppuparambu",
+      "name_ml": "മൂപ്പുപറമ്പ്"
     },
     {
-      "ward_id": "9e66726d-5822-4189-a83b-b2aa3bbb4a72",
+      "id": "9e66726d-5822-4189-a83b-b2aa3bbb4a72",
       "ward_no": "10",
-      "ward_name_en": "Anamary",
-      "ward_name_ml": "ആനമാറി"
+      "name_en": "Anamary",
+      "name_ml": "ആനമാറി"
     },
     {
-      "ward_id": "4704183f-9786-4e8c-a125-212da985f040",
+      "id": "4704183f-9786-4e8c-a125-212da985f040",
       "ward_no": "11",
-      "ward_name_en": "Erattakulam",
-      "ward_name_ml": "ഇരട്ടക്കുളം"
+      "name_en": "Erattakulam",
+      "name_ml": "ഇരട്ടക്കുളം"
     },
     {
-      "ward_id": "ede1db3d-2a15-4b6a-afa7-f8cd23ce5a3f",
+      "id": "ede1db3d-2a15-4b6a-afa7-f8cd23ce5a3f",
       "ward_no": "12",
-      "ward_name_en": "Kongalakkode",
-      "ward_name_ml": "കൊങ്ങാളക്കോട്"
+      "name_en": "Kongalakkode",
+      "name_ml": "കൊങ്ങാളക്കോട്"
     },
     {
-      "ward_id": "65f9e662-4ced-482b-91e5-bf76b60c1040",
+      "id": "65f9e662-4ced-482b-91e5-bf76b60c1040",
       "ward_no": "13",
-      "ward_name_en": "Veppilassery",
-      "ward_name_ml": "വേപ്പിലശ്ശേരി"
+      "name_en": "Veppilassery",
+      "name_ml": "വേപ്പിലശ്ശേരി"
     },
     {
-      "ward_id": "dd3dfcf9-9202-4da0-b0bf-8421f450ca7f",
+      "id": "dd3dfcf9-9202-4da0-b0bf-8421f450ca7f",
       "ward_no": "14",
-      "ward_name_en": "Thennilapuram",
-      "ward_name_ml": "തെന്നിലാപുരം"
+      "name_en": "Thennilapuram",
+      "name_ml": "തെന്നിലാപുരം"
     },
     {
-      "ward_id": "cbd37459-cac0-4b82-9db8-27f3a5cd28c7",
+      "id": "cbd37459-cac0-4b82-9db8-27f3a5cd28c7",
       "ward_no": "15",
-      "ward_name_en": "Kunninpuram",
-      "ward_name_ml": "കുന്നിന്പുറം"
+      "name_en": "Kunninpuram",
+      "name_ml": "കുന്നിന്പുറം"
     },
     {
-      "ward_id": "5213beab-ed45-4c71-8765-badfa381fb96",
+      "id": "5213beab-ed45-4c71-8765-badfa381fb96",
       "ward_no": "16",
-      "ward_name_en": "Cheenikkode",
-      "ward_name_ml": "ചീനിക്കോട്"
+      "name_en": "Cheenikkode",
+      "name_ml": "ചീനിക്കോട്"
     },
     {
-      "ward_id": "1875b8f6-6ba9-4d22-b1c9-71515197fd9a",
+      "id": "1875b8f6-6ba9-4d22-b1c9-71515197fd9a",
       "ward_no": "17",
-      "ward_name_en": "Kunduthodi",
-      "ward_name_ml": "കുണ്ടുതൊടി"
+      "name_en": "Kunduthodi",
+      "name_ml": "കുണ്ടുതൊടി"
     }
   ],
   "towns": [],

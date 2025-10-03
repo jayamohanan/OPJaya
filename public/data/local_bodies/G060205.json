@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060205",
-  "local_body_name_en": "Santhanpara",
-  "local_body_name_ml": "ശാന്തന്‍പാറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "89",
-    "assembly_name_en": "Udumbanchola",
-    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+  "id": "G060205",
+  "name_en": "Santhanpara",
+  "name_ml": "ശാന്തന്‍പാറ",
+  "assembly_id": "89",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "89",
+    "name_en": "Udumbanchola",
+    "name_ml": "ഉടുമ്പന്‍ചോല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6eb08fbc-390a-47a7-b42d-ceab4b7142e1",
+      "id": "6eb08fbc-390a-47a7-b42d-ceab4b7142e1",
       "ward_no": "1",
-      "ward_name_en": "Anayirankal",
-      "ward_name_ml": "ആനയിറങ്കല്‍"
+      "name_en": "Anayirankal",
+      "name_ml": "ആനയിറങ്കല്‍"
     },
     {
-      "ward_id": "dd40278d-96a1-4f6b-b721-21f21bc4546d",
+      "id": "dd40278d-96a1-4f6b-b721-21f21bc4546d",
       "ward_no": "2",
-      "ward_name_en": "Panniyar",
-      "ward_name_ml": "പന്നിയാര്‍"
+      "name_en": "Panniyar",
+      "name_ml": "പന്നിയാര്‍"
     },
     {
-      "ward_id": "47480156-327c-43c3-b704-a9bbbbd1dfe8",
+      "id": "47480156-327c-43c3-b704-a9bbbbd1dfe8",
       "ward_no": "3",
-      "ward_name_en": "Thondimala",
-      "ward_name_ml": "തോണ്ടിമല"
+      "name_en": "Thondimala",
+      "name_ml": "തോണ്ടിമല"
     },
     {
-      "ward_id": "17f10bf5-44a3-42bd-b763-b7c1076e701d",
+      "id": "17f10bf5-44a3-42bd-b763-b7c1076e701d",
       "ward_no": "4",
-      "ward_name_en": "Poopara East",
-      "ward_name_ml": "പൂപ്പാറ ഈസ്റ്റ്"
+      "name_en": "Poopara East",
+      "name_ml": "പൂപ്പാറ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "44d3f099-0f62-45ef-948f-2e1a3966a533",
+      "id": "44d3f099-0f62-45ef-948f-2e1a3966a533",
       "ward_no": "5",
-      "ward_name_en": "Pethotty",
-      "ward_name_ml": "പേത്തൊട്ടി"
+      "name_en": "Pethotty",
+      "name_ml": "പേത്തൊട്ടി"
     },
     {
-      "ward_id": "fb8c2786-e635-44de-9010-a0377847cd24",
+      "id": "fb8c2786-e635-44de-9010-a0377847cd24",
       "ward_no": "6",
-      "ward_name_en": "Santhanpara",
-      "ward_name_ml": "ശാന്തന്‍പാറ"
+      "name_en": "Santhanpara",
+      "name_ml": "ശാന്തന്‍പാറ"
     },
     {
-      "ward_id": "48aecbbd-1a65-4431-9727-ee80e278e8bd",
+      "id": "48aecbbd-1a65-4431-9727-ee80e278e8bd",
       "ward_no": "7",
-      "ward_name_en": "Cheriyar",
-      "ward_name_ml": "ചേരിയാര്‍"
+      "name_en": "Cheriyar",
+      "name_ml": "ചേരിയാര്‍"
     },
     {
-      "ward_id": "1ab1f1eb-f1e9-438b-821f-25485d2ac712",
+      "id": "1ab1f1eb-f1e9-438b-821f-25485d2ac712",
       "ward_no": "8",
-      "ward_name_en": "Puthady",
-      "ward_name_ml": "പുത്തടി"
+      "name_en": "Puthady",
+      "name_ml": "പുത്തടി"
     },
     {
-      "ward_id": "b094da67-d33f-454c-b35d-60450e2d57dc",
+      "id": "b094da67-d33f-454c-b35d-60450e2d57dc",
       "ward_no": "9",
-      "ward_name_en": "Pallikkunnu",
-      "ward_name_ml": "പള്ളിക്കുന്ന്"
+      "name_en": "Pallikkunnu",
+      "name_ml": "പള്ളിക്കുന്ന്"
     },
     {
-      "ward_id": "79cd55b6-e6dc-4f36-a6c1-adca7d691fd8",
+      "id": "79cd55b6-e6dc-4f36-a6c1-adca7d691fd8",
       "ward_no": "10",
-      "ward_name_en": "Thottikkanam",
-      "ward_name_ml": "തൊട്ടിക്കാനം"
+      "name_en": "Thottikkanam",
+      "name_ml": "തൊട്ടിക്കാനം"
     },
     {
-      "ward_id": "f131f8a6-7f9e-40cb-a0f3-a324881caf6c",
+      "id": "f131f8a6-7f9e-40cb-a0f3-a324881caf6c",
       "ward_no": "11",
-      "ward_name_en": "Poopara West",
-      "ward_name_ml": "പൂപ്പാറ വെസ്റ്റ്"
+      "name_en": "Poopara West",
+      "name_ml": "പൂപ്പാറ വെസ്റ്റ്"
     },
     {
-      "ward_id": "6bf6723c-f112-4113-a31c-25ba02c011bf",
+      "id": "6bf6723c-f112-4113-a31c-25ba02c011bf",
       "ward_no": "12",
-      "ward_name_en": "Estate Poopara",
-      "ward_name_ml": "എസ്റ്റേറ്റ് പൂപ്പാറ"
+      "name_en": "Estate Poopara",
+      "name_ml": "എസ്റ്റേറ്റ് പൂപ്പാറ"
     },
     {
-      "ward_id": "ac59a23e-73d7-4a08-873b-ae5615bbc636",
+      "id": "ac59a23e-73d7-4a08-873b-ae5615bbc636",
       "ward_no": "13",
-      "ward_name_en": "Mullanthandu",
-      "ward_name_ml": "മുള്ളന്‍തണ്ട്"
+      "name_en": "Mullanthandu",
+      "name_ml": "മുള്ളന്‍തണ്ട്"
     }
   ],
   "towns": [],

@@ -1,63 +1,83 @@
 {
-  "district_id": "4",
-  "district_name_en": "Alappuzha",
-  "district_name_ml": "ആലപ്പുഴ",
+  "id": "4",
+  "name_en": "Alappuzha",
+  "name_ml": "ആലപ്പുഴ",
   "is_active": true,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "102",
-      "assembly_name_en": "Aroor",
-      "assembly_name_ml": "അരൂർ",
-      "category": "Normal"
+      "id": "102",
+      "name_en": "Aroor",
+      "name_ml": "അരൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "103",
-      "assembly_name_en": "Cherthala",
-      "assembly_name_ml": "ചേർത്തല",
-      "category": "Normal"
+      "id": "103",
+      "name_en": "Cherthala",
+      "name_ml": "ചേർത്തല",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "104",
-      "assembly_name_en": "Alappuzha",
-      "assembly_name_ml": "ആലപ്പുഴ",
-      "category": "Normal"
+      "id": "104",
+      "name_en": "Alappuzha",
+      "name_ml": "ആലപ്പുഴ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "105",
-      "assembly_name_en": "Ambalappuzha",
-      "assembly_name_ml": "അമ്പലപ്പുഴ",
-      "category": "Normal"
+      "id": "105",
+      "name_en": "Ambalappuzha",
+      "name_ml": "അമ്പലപ്പുഴ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "106",
-      "assembly_name_en": "Kuttanad",
-      "assembly_name_ml": "കുട്ടനാട്",
-      "category": "Normal"
+      "id": "106",
+      "name_en": "Kuttanad",
+      "name_ml": "കുട്ടനാട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "107",
-      "assembly_name_en": "Haripad",
-      "assembly_name_ml": "ഹരിപ്പാട്",
-      "category": "Normal"
+      "id": "107",
+      "name_en": "Haripad",
+      "name_ml": "ഹരിപ്പാട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "108",
-      "assembly_name_en": "Kayamkulam",
-      "assembly_name_ml": "കായംകുളം",
-      "category": "Normal"
+      "id": "108",
+      "name_en": "Kayamkulam",
+      "name_ml": "കായംകുളം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "109",
-      "assembly_name_en": "Mavelikara",
-      "assembly_name_ml": "മാവേലിക്കര",
-      "category": "Normal"
+      "id": "109",
+      "name_en": "Mavelikara",
+      "name_ml": "മാവേലിക്കര",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "110",
-      "assembly_name_en": "Chengannur",
-      "assembly_name_ml": "ചെങ്ങന്നൂർ",
-      "category": "Normal"
+      "id": "110",
+      "name_en": "Chengannur",
+      "name_ml": "ചെങ്ങന്നൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

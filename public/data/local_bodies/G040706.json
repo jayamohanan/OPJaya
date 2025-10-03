@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040706",
-  "local_body_name_en": "Ramankary",
-  "local_body_name_ml": "രാമങ്കരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G040706",
+  "name_en": "Ramankary",
+  "name_ml": "രാമങ്കരി",
+  "assembly_id": "106",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "106",
-    "assembly_name_en": "Kuttanad",
-    "assembly_name_ml": "കുട്ടനാട്",
-    "category": "Normal"
+    "id": "106",
+    "name_en": "Kuttanad",
+    "name_ml": "കുട്ടനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bbdb2101-d9cf-4cad-8c91-6f63606ddb4e",
+      "id": "bbdb2101-d9cf-4cad-8c91-6f63606ddb4e",
       "ward_no": "1",
-      "ward_name_en": "Manalady",
-      "ward_name_ml": "മണലാടി"
+      "name_en": "Manalady",
+      "name_ml": "മണലാടി"
     },
     {
-      "ward_id": "ebacedda-b415-41f4-b055-adee88ce0c4e",
+      "id": "ebacedda-b415-41f4-b055-adee88ce0c4e",
       "ward_no": "2",
-      "ward_name_en": "North Of Ramankary",
-      "ward_name_ml": "രാമങ്കരി വടക്ക്"
+      "name_en": "North Of Ramankary",
+      "name_ml": "രാമങ്കരി വടക്ക്"
     },
     {
-      "ward_id": "13d3b481-f93a-40e8-8048-c4ef0b535957",
+      "id": "13d3b481-f93a-40e8-8048-c4ef0b535957",
       "ward_no": "3",
-      "ward_name_en": "Ramankary Town",
-      "ward_name_ml": "രാമങ്കരി ടൌണ്‍"
+      "name_en": "Ramankary Town",
+      "name_ml": "രാമങ്കരി ടൌണ്‍"
     },
     {
-      "ward_id": "c6fe6612-ae20-4275-b614-0b7061304c57",
+      "id": "c6fe6612-ae20-4275-b614-0b7061304c57",
       "ward_no": "4",
-      "ward_name_en": "Mampuzhakary West",
-      "ward_name_ml": "മാമ്പുഴക്കരി പടിഞ്ഞാറ്"
+      "name_en": "Mampuzhakary West",
+      "name_ml": "മാമ്പുഴക്കരി പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "8ce5cb64-e310-4529-bf02-38eeadb5002e",
+      "id": "8ce5cb64-e310-4529-bf02-38eeadb5002e",
       "ward_no": "5",
-      "ward_name_en": "Mampuzhakary Centre",
-      "ward_name_ml": "മാമ്പുഴക്കരി സെന്റര്‍"
+      "name_en": "Mampuzhakary Centre",
+      "name_ml": "മാമ്പുഴക്കരി സെന്റര്‍"
     },
     {
-      "ward_id": "3763d236-8181-4cea-9718-4404858e9e10",
+      "id": "3763d236-8181-4cea-9718-4404858e9e10",
       "ward_no": "6",
-      "ward_name_en": "Mampuzhakary East",
-      "ward_name_ml": "മാമ്പുഴക്കരി കിഴക്ക്"
+      "name_en": "Mampuzhakary East",
+      "name_ml": "മാമ്പുഴക്കരി കിഴക്ക്"
     },
     {
-      "ward_id": "120e4811-31c4-4282-b342-e8d9f1477842",
+      "id": "120e4811-31c4-4282-b342-e8d9f1477842",
       "ward_no": "7",
-      "ward_name_en": "Mampuzhakary South",
-      "ward_name_ml": "മാമ്പുഴക്കരി തെക്ക്"
+      "name_en": "Mampuzhakary South",
+      "name_ml": "മാമ്പുഴക്കരി തെക്ക്"
     },
     {
-      "ward_id": "67f7faea-b89c-4167-bb3b-cf4b49482985",
+      "id": "67f7faea-b89c-4167-bb3b-cf4b49482985",
       "ward_no": "8",
-      "ward_name_en": "Oorukary North",
-      "ward_name_ml": "ഊരൂക്കരി വടക്ക്"
+      "name_en": "Oorukary North",
+      "name_ml": "ഊരൂക്കരി വടക്ക്"
     },
     {
-      "ward_id": "a31e4fb5-613b-4205-aaef-d98e14da560a",
+      "id": "a31e4fb5-613b-4205-aaef-d98e14da560a",
       "ward_no": "9",
-      "ward_name_en": "Puthukary",
-      "ward_name_ml": "പുതുക്കരി"
+      "name_en": "Puthukary",
+      "name_ml": "പുതുക്കരി"
     },
     {
-      "ward_id": "86bad2c4-c0cd-4608-921d-7044e8316039",
+      "id": "86bad2c4-c0cd-4608-921d-7044e8316039",
       "ward_no": "10",
-      "ward_name_en": "Oorukary",
-      "ward_name_ml": "ഊരൂക്കരി"
+      "name_en": "Oorukary",
+      "name_ml": "ഊരൂക്കരി"
     },
     {
-      "ward_id": "3596e13b-2175-49bf-99a5-f1792a0b1877",
+      "id": "3596e13b-2175-49bf-99a5-f1792a0b1877",
       "ward_no": "11",
-      "ward_name_en": "Vezhapra East",
-      "ward_name_ml": "വേഴപ്ര കിഴക്ക്"
+      "name_en": "Vezhapra East",
+      "name_ml": "വേഴപ്ര കിഴക്ക്"
     },
     {
-      "ward_id": "8101d0fc-7900-41cc-812d-0b0db83d5e7d",
+      "id": "8101d0fc-7900-41cc-812d-0b0db83d5e7d",
       "ward_no": "12",
-      "ward_name_en": "Vezhapra Centre",
-      "ward_name_ml": "വേഴപ്ര സെന്റര്‍"
+      "name_en": "Vezhapra Centre",
+      "name_ml": "വേഴപ്ര സെന്റര്‍"
     },
     {
-      "ward_id": "11308559-79b7-4b2b-884f-714c6fa7bfb4",
+      "id": "11308559-79b7-4b2b-884f-714c6fa7bfb4",
       "ward_no": "13",
-      "ward_name_en": "Vezhapra West",
-      "ward_name_ml": "വേഴപ്ര പടിഞ്ഞാറ്"
+      "name_en": "Vezhapra West",
+      "name_ml": "വേഴപ്ര പടിഞ്ഞാറ്"
     }
   ],
   "towns": [],

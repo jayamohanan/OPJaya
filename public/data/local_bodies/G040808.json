@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040808",
-  "local_body_name_en": "Thiruvanvandoor",
-  "local_body_name_ml": "തിരുവന്‍വണ്ടൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "110",
-    "assembly_name_en": "Chengannur",
-    "assembly_name_ml": "ചെങ്ങന്നൂർ",
+  "id": "G040808",
+  "name_en": "Thiruvanvandoor",
+  "name_ml": "തിരുവന്‍വണ്ടൂര്‍",
+  "assembly_id": "110",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "110",
+    "name_en": "Chengannur",
+    "name_ml": "ചെങ്ങന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "92d654ef-a943-4c73-9e91-d15f78f3330e",
+      "id": "92d654ef-a943-4c73-9e91-d15f78f3330e",
       "ward_no": "1",
-      "ward_name_en": "Eramallikkara",
-      "ward_name_ml": "ഇരമല്ലിക്കര"
+      "name_en": "Eramallikkara",
+      "name_ml": "ഇരമല്ലിക്കര"
     },
     {
-      "ward_id": "d80fac4b-9bf7-48b5-8e41-abcb99fe914d",
+      "id": "d80fac4b-9bf7-48b5-8e41-abcb99fe914d",
       "ward_no": "2",
-      "ward_name_en": "Thiruvanvandoor",
-      "ward_name_ml": "തിരുവന്‍വണ്ടൂര്‍"
+      "name_en": "Thiruvanvandoor",
+      "name_ml": "തിരുവന്‍വണ്ടൂര്‍"
     },
     {
-      "ward_id": "92313460-78c7-4254-b0e3-0b8b50a652a9",
+      "id": "92313460-78c7-4254-b0e3-0b8b50a652a9",
       "ward_no": "3",
-      "ward_name_en": "Nannad",
-      "ward_name_ml": "നന്നാട്"
+      "name_en": "Nannad",
+      "name_ml": "നന്നാട്"
     },
     {
-      "ward_id": "c6a45905-b7d2-41c6-b26f-55f54228a1d7",
+      "id": "c6a45905-b7d2-41c6-b26f-55f54228a1d7",
       "ward_no": "4",
-      "ward_name_en": "Thiruvanvandoor East",
-      "ward_name_ml": "തിരുവന്‍വണ്ടൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Thiruvanvandoor East",
+      "name_ml": "തിരുവന്‍വണ്ടൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "9dc80084-c5a5-4cb1-a026-1d51beab955e",
+      "id": "9dc80084-c5a5-4cb1-a026-1d51beab955e",
       "ward_no": "5",
-      "ward_name_en": "Panchayat Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ആഫീസ് വാര്‍ഡ്"
+      "name_en": "Panchayat Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ആഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "e5dbb55f-2e5f-4e47-8b83-583c369a4d6d",
+      "id": "e5dbb55f-2e5f-4e47-8b83-583c369a4d6d",
       "ward_no": "6",
-      "ward_name_en": "Pravinkoodu",
-      "ward_name_ml": "പ്രാവിന്‍കൂട്"
+      "name_en": "Pravinkoodu",
+      "name_ml": "പ്രാവിന്‍കൂട്"
     },
     {
-      "ward_id": "c86774b9-7ee8-4fc9-9a26-d00a04eb3413",
+      "id": "c86774b9-7ee8-4fc9-9a26-d00a04eb3413",
       "ward_no": "7",
-      "ward_name_en": "Mazhukeer",
-      "ward_name_ml": "മഴുക്കീര്‍"
+      "name_en": "Mazhukeer",
+      "name_ml": "മഴുക്കീര്‍"
     },
     {
-      "ward_id": "560b0ac9-bade-4a5a-b475-782345543466",
+      "id": "560b0ac9-bade-4a5a-b475-782345543466",
       "ward_no": "8",
-      "ward_name_en": "Mazhukermel",
-      "ward_name_ml": "മഴുക്കീര്‍മേല്‍"
+      "name_en": "Mazhukermel",
+      "name_ml": "മഴുക്കീര്‍മേല്‍"
     },
     {
-      "ward_id": "3dc70032-c076-49fb-9ba5-9e91982fc8af",
+      "id": "3dc70032-c076-49fb-9ba5-9e91982fc8af",
       "ward_no": "9",
-      "ward_name_en": "Kallissery",
-      "ward_name_ml": "കല്ലിശ്ശേരി"
+      "name_en": "Kallissery",
+      "name_ml": "കല്ലിശ്ശേരി"
     },
     {
-      "ward_id": "4de6146d-8481-4f80-bde5-0d5b2dc2f3e1",
+      "id": "4de6146d-8481-4f80-bde5-0d5b2dc2f3e1",
       "ward_no": "10",
-      "ward_name_en": "Umayattukaramel",
-      "ward_name_ml": "ഉമയാറ്റുകരമേല്‍"
+      "name_en": "Umayattukaramel",
+      "name_ml": "ഉമയാറ്റുകരമേല്‍"
     },
     {
-      "ward_id": "1af96b00-c2aa-45a3-a3d8-46f4c86952aa",
+      "id": "1af96b00-c2aa-45a3-a3d8-46f4c86952aa",
       "ward_no": "11",
-      "ward_name_en": "Umayattukara",
-      "ward_name_ml": "ഉമയാറ്റുകര"
+      "name_en": "Umayattukara",
+      "name_ml": "ഉമയാറ്റുകര"
     },
     {
-      "ward_id": "ade15433-3900-473d-8231-4694423454ec",
+      "id": "ade15433-3900-473d-8231-4694423454ec",
       "ward_no": "12",
-      "ward_name_en": "Koladathussery",
-      "ward_name_ml": "കോലടത്തുശ്ശേരി"
+      "name_en": "Koladathussery",
+      "name_ml": "കോലടത്തുശ്ശേരി"
     },
     {
-      "ward_id": "5f53cd54-7673-4770-922b-564d71650cdf",
+      "id": "5f53cd54-7673-4770-922b-564d71650cdf",
       "ward_no": "13",
-      "ward_name_en": "Vanavathukkara",
-      "ward_name_ml": "വനവാതുക്കര"
+      "name_en": "Vanavathukkara",
+      "name_ml": "വനവാതുക്കര"
     }
   ],
   "towns": [],

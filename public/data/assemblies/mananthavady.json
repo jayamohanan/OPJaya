@@ -1,56 +1,73 @@
 {
-  "assembly_id": "17",
-  "assembly_name_en": "Mananthavady",
-  "assembly_name_ml": "മാനന്തവാടി",
-  "category": "Normal",
+  "id": "17",
+  "name_en": "Mananthavady",
+  "name_ml": "മാനന്തവാടി",
+  "district_id": "12",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "district_category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G120105",
-      "local_body_name_en": "Edavaka",
-      "local_body_name_ml": "എടവക",
-      "category": "Normal"
+      "id": "G120105",
+      "name_en": "Edavaka",
+      "name_ml": "എടവക",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M120200",
-      "local_body_name_en": "Mananthavady",
-      "local_body_name_ml": "മാനന്തവാടി",
-      "category": ""
+      "id": "M120200",
+      "name_en": "Mananthavady",
+      "name_ml": "മാനന്തവാടി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G120201",
-      "local_body_name_en": "Panamaram",
-      "local_body_name_ml": "പനമരം",
-      "category": "Perfect"
+      "id": "G120201",
+      "name_en": "Panamaram",
+      "name_ml": "പനമരം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G120106",
-      "local_body_name_en": "Thavinhal",
-      "local_body_name_ml": "തവിഞ്ഞാല്‍",
-      "category": "Perfect"
+      "id": "G120106",
+      "name_en": "Thavinhal",
+      "name_ml": "തവിഞ്ഞാല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G120103",
-      "local_body_name_en": "Thirunelly",
-      "local_body_name_ml": "തിരുനെല്ലി",
-      "category": "Good"
+      "id": "G120103",
+      "name_en": "Thirunelly",
+      "name_ml": "തിരുനെല്ലി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120104",
-      "local_body_name_en": "Thondernad",
-      "local_body_name_ml": "തൊണ്ടര്‍നാട്",
-      "category": "Normal"
+      "id": "G120104",
+      "name_en": "Thondernad",
+      "name_ml": "തൊണ്ടര്‍നാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G120102",
-      "local_body_name_en": "Vellamunda",
-      "local_body_name_ml": "വെള്ളമുണ്ട",
-      "category": "Good"
+      "id": "G120102",
+      "name_en": "Vellamunda",
+      "name_ml": "വെള്ളമുണ്ട",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

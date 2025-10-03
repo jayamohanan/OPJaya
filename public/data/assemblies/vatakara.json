@@ -1,44 +1,57 @@
 {
-  "assembly_id": "20",
-  "assembly_name_en": "Vatakara",
-  "assembly_name_ml": "വടകര",
-  "category": "Normal",
+  "id": "20",
+  "name_en": "Vatakara",
+  "name_ml": "വടകര",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110101",
-      "local_body_name_en": "Azhiyur",
-      "local_body_name_ml": "അഴിയൂര്‍",
-      "category": "Perfect"
+      "id": "G110101",
+      "name_en": "Azhiyur",
+      "name_ml": "അഴിയൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110102",
-      "local_body_name_en": "Chorode",
-      "local_body_name_ml": "ചോറോട്",
-      "category": "Normal"
+      "id": "G110102",
+      "name_en": "Chorode",
+      "name_ml": "ചോറോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110103",
-      "local_body_name_en": "Eramala",
-      "local_body_name_ml": "ഏറാമല",
-      "category": "Good"
+      "id": "G110103",
+      "name_en": "Eramala",
+      "name_ml": "ഏറാമല",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110104",
-      "local_body_name_en": "Onchiyam",
-      "local_body_name_ml": "ഒഞ്ചിയം",
-      "category": "Normal"
+      "id": "G110104",
+      "name_en": "Onchiyam",
+      "name_ml": "ഒഞ്ചിയം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M110100",
-      "local_body_name_en": "Vadakara",
-      "local_body_name_ml": "വടകര",
-      "category": ""
+      "id": "M110100",
+      "name_en": "Vadakara",
+      "name_ml": "വടകര",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

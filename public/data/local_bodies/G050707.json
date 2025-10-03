@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G050707",
-  "local_body_name_en": "Kidangoor",
-  "local_body_name_ml": "കിടങ്ങൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050707",
+  "name_en": "Kidangoor",
+  "name_ml": "കിടങ്ങൂര്‍",
+  "assembly_id": "94",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "94",
-    "assembly_name_en": "Kaduthuruthy",
-    "assembly_name_ml": "കടുത്തുരുത്തി",
-    "category": "Normal"
+    "id": "94",
+    "name_en": "Kaduthuruthy",
+    "name_ml": "കടുത്തുരുത്തി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1234a6d6-04b1-4f19-a1a4-41557b771c1f",
+      "id": "1234a6d6-04b1-4f19-a1a4-41557b771c1f",
       "ward_no": "1",
-      "ward_name_en": "Padinjare Koodalloor",
-      "ward_name_ml": "പടിഞ്ഞാറെ കൂടല്ലൂര്‍"
+      "name_en": "Padinjare Koodalloor",
+      "name_ml": "പടിഞ്ഞാറെ കൂടല്ലൂര്‍"
     },
     {
-      "ward_id": "34777eb2-1512-40ff-96db-57b7a5a2f6e7",
+      "id": "34777eb2-1512-40ff-96db-57b7a5a2f6e7",
       "ward_no": "2",
-      "ward_name_en": "Kizhakke Koodalloor",
-      "ward_name_ml": "കിഴക്കേ കൂടല്ലൂര്‍"
+      "name_en": "Kizhakke Koodalloor",
+      "name_ml": "കിഴക്കേ കൂടല്ലൂര്‍"
     },
     {
-      "ward_id": "8f848a44-489f-42e7-adc8-76f73ace0d53",
+      "id": "8f848a44-489f-42e7-adc8-76f73ace0d53",
       "ward_no": "3",
-      "ward_name_en": "Kottappuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottappuram",
+      "name_ml": "കോട്ടപ്പുറം"
     },
     {
-      "ward_id": "d236b7e3-7bcd-46b2-bc67-f195762a92fa",
+      "id": "d236b7e3-7bcd-46b2-bc67-f195762a92fa",
       "ward_no": "4",
-      "ward_name_en": "Kavalipuzha",
-      "ward_name_ml": "കാവാലിപ്പുഴ"
+      "name_en": "Kavalipuzha",
+      "name_ml": "കാവാലിപ്പുഴ"
     },
     {
-      "ward_id": "d065e81d-6af9-4107-bf49-47fc5bb3c81f",
+      "id": "d065e81d-6af9-4107-bf49-47fc5bb3c81f",
       "ward_no": "5",
-      "ward_name_en": "Kummannoor",
-      "ward_name_ml": "കുമ്മണ്ണൂര്‍"
+      "name_en": "Kummannoor",
+      "name_ml": "കുമ്മണ്ണൂര്‍"
     },
     {
-      "ward_id": "dd36c5ab-8850-46b0-80a6-a68c52486a5e",
+      "id": "dd36c5ab-8850-46b0-80a6-a68c52486a5e",
       "ward_no": "6",
-      "ward_name_en": "Cherpunkal",
-      "ward_name_ml": "ചേര്‍പ്പുങ്കല്‍"
+      "name_en": "Cherpunkal",
+      "name_ml": "ചേര്‍പ്പുങ്കല്‍"
     },
     {
-      "ward_id": "4314c919-2b80-4b1a-b2e7-edc7bcbb7e0a",
+      "id": "4314c919-2b80-4b1a-b2e7-edc7bcbb7e0a",
       "ward_no": "7",
-      "ward_name_en": "Peringotty",
-      "ward_name_ml": "പെരിങ്ങോറ്റി"
+      "name_en": "Peringotty",
+      "name_ml": "പെരിങ്ങോറ്റി"
     },
     {
-      "ward_id": "b2a3a69f-e411-49f8-b344-fdd7bd21e4c8",
+      "id": "b2a3a69f-e411-49f8-b344-fdd7bd21e4c8",
       "ward_no": "8",
-      "ward_name_en": "Chempilavu",
-      "ward_name_ml": "ചെമ്പിളാവ്"
+      "name_en": "Chempilavu",
+      "name_ml": "ചെമ്പിളാവ്"
     },
     {
-      "ward_id": "b330526c-0310-4fb4-8892-e6f34ed25dc2",
+      "id": "b330526c-0310-4fb4-8892-e6f34ed25dc2",
       "ward_no": "9",
-      "ward_name_en": "Uthameswaram",
-      "ward_name_ml": "ഉത്തമേശ്വരം"
+      "name_en": "Uthameswaram",
+      "name_ml": "ഉത്തമേശ്വരം"
     },
     {
-      "ward_id": "82770148-3064-4554-a4a7-e42554beccd1",
+      "id": "82770148-3064-4554-a4a7-e42554beccd1",
       "ward_no": "10",
-      "ward_name_en": "Engineering College Ward",
-      "ward_name_ml": "എഞ്ചിനീയറിംഗ് കോളേജ് വാര്‍ഡ്"
+      "name_en": "Engineering College Ward",
+      "name_ml": "എഞ്ചിനീയറിംഗ് കോളേജ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "12e5612a-8e8d-456f-99f0-b50c01a03fc8",
+      "id": "12e5612a-8e8d-456f-99f0-b50c01a03fc8",
       "ward_no": "11",
-      "ward_name_en": "Kidangoor South",
-      "ward_name_ml": "കിടങ്ങൂര്‍ സൌത്ത്"
+      "name_en": "Kidangoor South",
+      "name_ml": "കിടങ്ങൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "57b63565-c4c1-44d1-b066-dbb7548a07ed",
+      "id": "57b63565-c4c1-44d1-b066-dbb7548a07ed",
       "ward_no": "12",
-      "ward_name_en": "Kidangoor Temple Ward",
-      "ward_name_ml": "കിടങ്ങൂര്‍ അമ്പലം വാര്‍ഡ്"
+      "name_en": "Kidangoor Temple Ward",
+      "name_ml": "കിടങ്ങൂര്‍ അമ്പലം വാര്‍ഡ്"
     },
     {
-      "ward_id": "5c5f6cc5-7667-4659-974c-c1b4a0bab214",
+      "id": "5c5f6cc5-7667-4659-974c-c1b4a0bab214",
       "ward_no": "13",
-      "ward_name_en": "Kattachira",
-      "ward_name_ml": "കട്ടച്ചിറ"
+      "name_en": "Kattachira",
+      "name_ml": "കട്ടച്ചിറ"
     },
     {
-      "ward_id": "dcb8e400-c8fb-4432-b17a-865a782e737e",
+      "id": "dcb8e400-c8fb-4432-b17a-865a782e737e",
       "ward_no": "14",
-      "ward_name_en": "Sivakulangara",
-      "ward_name_ml": "ശിവക്കുളങ്ങര"
+      "name_en": "Sivakulangara",
+      "name_ml": "ശിവക്കുളങ്ങര"
     },
     {
-      "ward_id": "b767cdf4-914c-48ab-b458-7393c2af0714",
+      "id": "b767cdf4-914c-48ab-b458-7393c2af0714",
       "ward_no": "15",
-      "ward_name_en": "Pirayar",
-      "ward_name_ml": "പിറയാര്‍"
+      "name_en": "Pirayar",
+      "name_ml": "പിറയാര്‍"
     }
   ],
   "towns": [],

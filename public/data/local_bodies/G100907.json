@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G100907",
-  "local_body_name_en": "Kalpakanchery",
-  "local_body_name_ml": "കല്‍പകഞ്ചരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "45",
-    "assembly_name_en": "Tirur",
-    "assembly_name_ml": "തിരൂര്‍",
+  "id": "G100907",
+  "name_en": "Kalpakanchery",
+  "name_ml": "കല്‍പകഞ്ചരി",
+  "assembly_id": "45",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "45",
+    "name_en": "Tirur",
+    "name_ml": "തിരൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a02e3298-f81c-4331-aaf5-32321a0e55af",
+      "id": "a02e3298-f81c-4331-aaf5-32321a0e55af",
       "ward_no": "1",
-      "ward_name_en": "Parappuram",
-      "ward_name_ml": "പാറപ്പുറം"
+      "name_en": "Parappuram",
+      "name_ml": "പാറപ്പുറം"
     },
     {
-      "ward_id": "ed4fa9e3-d077-41b9-b05f-8041a053e4cb",
+      "id": "ed4fa9e3-d077-41b9-b05f-8041a053e4cb",
       "ward_no": "2",
-      "ward_name_en": "Variyath",
-      "ward_name_ml": "വാരിയത്ത്"
+      "name_en": "Variyath",
+      "name_ml": "വാരിയത്ത്"
     },
     {
-      "ward_id": "34fc6517-4b50-49c0-9291-a0a6ffaa1c98",
+      "id": "34fc6517-4b50-49c0-9291-a0a6ffaa1c98",
       "ward_no": "3",
-      "ward_name_en": "Randathani",
-      "ward_name_ml": "രണ്ടത്താണി"
+      "name_en": "Randathani",
+      "name_ml": "രണ്ടത്താണി"
     },
     {
-      "ward_id": "e0c45802-dc8c-4649-b5a8-a5d590643b62",
+      "id": "e0c45802-dc8c-4649-b5a8-a5d590643b62",
       "ward_no": "4",
-      "ward_name_en": "Kizhakkeppuram",
-      "ward_name_ml": "കിഴക്കേപ്പുറം"
+      "name_en": "Kizhakkeppuram",
+      "name_ml": "കിഴക്കേപ്പുറം"
     },
     {
-      "ward_id": "4c1ac458-c78b-4c47-8d9e-acd9eccbb9b5",
+      "id": "4c1ac458-c78b-4c47-8d9e-acd9eccbb9b5",
       "ward_no": "5",
-      "ward_name_en": "Tharalad",
-      "ward_name_ml": "തറളാട്"
+      "name_en": "Tharalad",
+      "name_ml": "തറളാട്"
     },
     {
-      "ward_id": "32d4fe1e-f8df-4da6-abb9-54e7d317aff1",
+      "id": "32d4fe1e-f8df-4da6-abb9-54e7d317aff1",
       "ward_no": "6",
-      "ward_name_en": "Manjachola",
-      "ward_name_ml": "മഞ്ഞച്ചോല"
+      "name_en": "Manjachola",
+      "name_ml": "മഞ്ഞച്ചോല"
     },
     {
-      "ward_id": "c68496a1-ce63-4f7a-99f1-c22c373ac699",
+      "id": "c68496a1-ce63-4f7a-99f1-c22c373ac699",
       "ward_no": "7",
-      "ward_name_en": "Kallingal",
-      "ward_name_ml": "കല്ലിങ്ങല്‍"
+      "name_en": "Kallingal",
+      "name_ml": "കല്ലിങ്ങല്‍"
     },
     {
-      "ward_id": "c93b8dc7-dcc7-4984-8a4c-b1fe11a6ab2d",
+      "id": "c93b8dc7-dcc7-4984-8a4c-b1fe11a6ab2d",
       "ward_no": "8",
-      "ward_name_en": "Paravannurchola",
-      "ward_name_ml": "പറവന്നൂര്‍ച്ചോല"
+      "name_en": "Paravannurchola",
+      "name_ml": "പറവന്നൂര്‍ച്ചോല"
     },
     {
-      "ward_id": "f4dc0b52-0713-449b-a864-4b4938acb216",
+      "id": "f4dc0b52-0713-449b-a864-4b4938acb216",
       "ward_no": "9",
-      "ward_name_en": "Padathepeedika",
-      "ward_name_ml": "പാടത്തെപീടിക"
+      "name_en": "Padathepeedika",
+      "name_ml": "പാടത്തെപീടിക"
     },
     {
-      "ward_id": "764ef94e-64e5-422a-9297-0341ffaff5d7",
+      "id": "764ef94e-64e5-422a-9297-0341ffaff5d7",
       "ward_no": "10",
-      "ward_name_en": "Paravannur",
-      "ward_name_ml": "പറവന്നൂര്‍"
+      "name_en": "Paravannur",
+      "name_ml": "പറവന്നൂര്‍"
     },
     {
-      "ward_id": "86113ccb-9d60-430f-8065-3f16bb921305",
+      "id": "86113ccb-9d60-430f-8065-3f16bb921305",
       "ward_no": "11",
-      "ward_name_en": "Ayirani",
-      "ward_name_ml": "അയിരാനി"
+      "name_en": "Ayirani",
+      "name_ml": "അയിരാനി"
     },
     {
-      "ward_id": "03e2a277-f815-4ec4-878e-3ca22ac8d3db",
+      "id": "03e2a277-f815-4ec4-878e-3ca22ac8d3db",
       "ward_no": "12",
-      "ward_name_en": "Kadugathukundu",
-      "ward_name_ml": "കടുങ്ങാത്തുകുണ്ട്"
+      "name_en": "Kadugathukundu",
+      "name_ml": "കടുങ്ങാത്തുകുണ്ട്"
     },
     {
-      "ward_id": "1407733b-d1e1-4de5-8796-0cb82bfa2acd",
+      "id": "1407733b-d1e1-4de5-8796-0cb82bfa2acd",
       "ward_no": "13",
-      "ward_name_en": "Kalpakanchery",
-      "ward_name_ml": "കല്‍പകഞ്ചേരി"
+      "name_en": "Kalpakanchery",
+      "name_ml": "കല്‍പകഞ്ചേരി"
     },
     {
-      "ward_id": "bbb797a7-2151-4e1a-8cdb-51b13c07bd08",
+      "id": "bbb797a7-2151-4e1a-8cdb-51b13c07bd08",
       "ward_no": "14",
-      "ward_name_en": "Thottayi",
-      "ward_name_ml": "തോട്ടായി"
+      "name_en": "Thottayi",
+      "name_ml": "തോട്ടായി"
     },
     {
-      "ward_id": "0f2617e7-709d-4533-b0fe-09cf44b5d655",
+      "id": "0f2617e7-709d-4533-b0fe-09cf44b5d655",
       "ward_no": "15",
-      "ward_name_en": "Kananchery",
-      "ward_name_ml": "കാനാഞ്ചേരി"
+      "name_en": "Kananchery",
+      "name_ml": "കാനാഞ്ചേരി"
     },
     {
-      "ward_id": "fec91b61-d116-4a5f-bc8e-8ba94a59c680",
+      "id": "fec91b61-d116-4a5f-bc8e-8ba94a59c680",
       "ward_no": "16",
-      "ward_name_en": "Paleth",
-      "ward_name_ml": "പാലേത്ത്"
+      "name_en": "Paleth",
+      "name_ml": "പാലേത്ത്"
     },
     {
-      "ward_id": "85068d62-6934-4a07-ad0a-f3c931bc95c9",
+      "id": "85068d62-6934-4a07-ad0a-f3c931bc95c9",
       "ward_no": "17",
-      "ward_name_en": "Varambingal",
-      "ward_name_ml": "വരമ്പിങ്ങല്‍"
+      "name_en": "Varambingal",
+      "name_ml": "വരമ്പിങ്ങല്‍"
     },
     {
-      "ward_id": "1207849b-1ce2-4a89-b503-bbf01bad5ff0",
+      "id": "1207849b-1ce2-4a89-b503-bbf01bad5ff0",
       "ward_no": "18",
-      "ward_name_en": "Kallingalparambu",
-      "ward_name_ml": "കല്ലിങ്ങല്‍പ്പറമ്പ്"
+      "name_en": "Kallingalparambu",
+      "name_ml": "കല്ലിങ്ങല്‍പ്പറമ്പ്"
     },
     {
-      "ward_id": "290895c0-5ca0-44b0-911d-052840b994f6",
+      "id": "290895c0-5ca0-44b0-911d-052840b994f6",
       "ward_no": "19",
-      "ward_name_en": "Kundamchina",
-      "ward_name_ml": "കുണ്ടംചിന"
+      "name_en": "Kundamchina",
+      "name_ml": "കുണ്ടംചിന"
     }
   ],
   "towns": [],

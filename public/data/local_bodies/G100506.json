@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G100506",
-  "local_body_name_en": "Kuzhimanna",
-  "local_body_name_ml": "കുഴിമണ്ണ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "34",
-    "assembly_name_en": "Eranad",
-    "assembly_name_ml": "ഏറനാട്",
+  "id": "G100506",
+  "name_en": "Kuzhimanna",
+  "name_ml": "കുഴിമണ്ണ",
+  "assembly_id": "34",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "34",
+    "name_en": "Eranad",
+    "name_ml": "ഏറനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2b19723c-dd38-4649-b744-c8a58e3b4f8e",
+      "id": "2b19723c-dd38-4649-b744-c8a58e3b4f8e",
       "ward_no": "1",
-      "ward_name_en": "Kizhisseri North",
-      "ward_name_ml": "കിഴിശ്ശേരി നോര്‍ത്ത്"
+      "name_en": "Kizhisseri North",
+      "name_ml": "കിഴിശ്ശേരി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "be3e8995-509a-4ee7-8708-474862eff50d",
+      "id": "be3e8995-509a-4ee7-8708-474862eff50d",
       "ward_no": "2",
-      "ward_name_en": "Neeruttikkal",
-      "ward_name_ml": "നീരുട്ടിക്കല്‍"
+      "name_en": "Neeruttikkal",
+      "name_ml": "നീരുട്ടിക്കല്‍"
     },
     {
-      "ward_id": "84a0a7eb-8ba3-4253-a3f5-c3a73bff66ec",
+      "id": "84a0a7eb-8ba3-4253-a3f5-c3a73bff66ec",
       "ward_no": "3",
-      "ward_name_en": "Mundamparamba West",
-      "ward_name_ml": "മുണ്ടംപറമ്പ് വെസ്റ്റ്"
+      "name_en": "Mundamparamba West",
+      "name_ml": "മുണ്ടംപറമ്പ് വെസ്റ്റ്"
     },
     {
-      "ward_id": "eec7e5cb-98be-4e13-abd0-dca28d224ea8",
+      "id": "eec7e5cb-98be-4e13-abd0-dca28d224ea8",
       "ward_no": "4",
-      "ward_name_en": "Mundamparamba",
-      "ward_name_ml": "മുണ്ടംപറമ്പ്"
+      "name_en": "Mundamparamba",
+      "name_ml": "മുണ്ടംപറമ്പ്"
     },
     {
-      "ward_id": "80e4846b-cb3b-4858-ae43-6b4349610958",
+      "id": "80e4846b-cb3b-4858-ae43-6b4349610958",
       "ward_no": "5",
-      "ward_name_en": "Kadungalloor",
-      "ward_name_ml": "കടുങ്ങല്ലൂര്‍"
+      "name_en": "Kadungalloor",
+      "name_ml": "കടുങ്ങല്ലൂര്‍"
     },
     {
-      "ward_id": "68fc5faf-73e9-456b-b078-2235c3535e9a",
+      "id": "68fc5faf-73e9-456b-b078-2235c3535e9a",
       "ward_no": "6",
-      "ward_name_en": "Chirappalam",
-      "ward_name_ml": "ചിറപ്പാലം"
+      "name_en": "Chirappalam",
+      "name_ml": "ചിറപ്പാലം"
     },
     {
-      "ward_id": "641d0511-6b6f-4975-9b3a-3a201d437d5a",
+      "id": "641d0511-6b6f-4975-9b3a-3a201d437d5a",
       "ward_no": "7",
-      "ward_name_en": "Akkapparamba",
-      "ward_name_ml": "ആക്കപ്പറമ്പ്"
+      "name_en": "Akkapparamba",
+      "name_ml": "ആക്കപ്പറമ്പ്"
     },
     {
-      "ward_id": "0811c80a-2c9a-4a20-9273-c3361bccef93",
+      "id": "0811c80a-2c9a-4a20-9273-c3361bccef93",
       "ward_no": "8",
-      "ward_name_en": "Puliyakkode",
-      "ward_name_ml": "പുളിയക്കോട്"
+      "name_en": "Puliyakkode",
+      "name_ml": "പുളിയക്കോട്"
     },
     {
-      "ward_id": "4530067d-91ef-490c-99ed-2fad26dc90f3",
+      "id": "4530067d-91ef-490c-99ed-2fad26dc90f3",
       "ward_no": "9",
-      "ward_name_en": "Melmuri",
-      "ward_name_ml": "മേല്‍മുറി"
+      "name_en": "Melmuri",
+      "name_ml": "മേല്‍മുറി"
     },
     {
-      "ward_id": "3a86a9eb-55aa-4940-89bc-d7b3939440f5",
+      "id": "3a86a9eb-55aa-4940-89bc-d7b3939440f5",
       "ward_no": "10",
-      "ward_name_en": "Kuzhiyamparamba",
-      "ward_name_ml": "കുഴിയംപറമ്പ്"
+      "name_en": "Kuzhiyamparamba",
+      "name_ml": "കുഴിയംപറമ്പ്"
     },
     {
-      "ward_id": "58cec1bc-6818-4f8f-bcc0-a0fd477f6de8",
+      "id": "58cec1bc-6818-4f8f-bcc0-a0fd477f6de8",
       "ward_no": "11",
-      "ward_name_en": "Kuzhimanna",
-      "ward_name_ml": "കുഴിമണ്ണ"
+      "name_en": "Kuzhimanna",
+      "name_ml": "കുഴിമണ്ണ"
     },
     {
-      "ward_id": "a39dbb68-676d-4a9c-aa06-912d71a3a8ae",
+      "id": "a39dbb68-676d-4a9c-aa06-912d71a3a8ae",
       "ward_no": "12",
-      "ward_name_en": "Kuzhimanna South",
-      "ward_name_ml": "കുഴിമണ്ണ സൌത്ത്"
+      "name_en": "Kuzhimanna South",
+      "name_ml": "കുഴിമണ്ണ സൌത്ത്"
     },
     {
-      "ward_id": "baa0220c-128f-4a20-85dd-09530a3efbdc",
+      "id": "baa0220c-128f-4a20-85dd-09530a3efbdc",
       "ward_no": "13",
-      "ward_name_en": "Pullanchery",
-      "ward_name_ml": "പുല്ലഞ്ചേരി"
+      "name_en": "Pullanchery",
+      "name_ml": "പുല്ലഞ്ചേരി"
     },
     {
-      "ward_id": "c6bc886f-3e3d-41f8-b919-32f3702621a8",
+      "id": "c6bc886f-3e3d-41f8-b919-32f3702621a8",
       "ward_no": "14",
-      "ward_name_en": "Ekkapparamba",
-      "ward_name_ml": "എക്കാപറമ്പ്"
+      "name_en": "Ekkapparamba",
+      "name_ml": "എക്കാപറമ്പ്"
     },
     {
-      "ward_id": "802d7a70-b2db-4951-a375-3a73492206a9",
+      "id": "802d7a70-b2db-4951-a375-3a73492206a9",
       "ward_no": "15",
-      "ward_name_en": "Mele Kizhisseri",
-      "ward_name_ml": "മേലേ കിഴിശ്ശേരി"
+      "name_en": "Mele Kizhisseri",
+      "name_ml": "മേലേ കിഴിശ്ശേരി"
     },
     {
-      "ward_id": "17e4fafd-1963-472b-bd0e-1deb006c8b3b",
+      "id": "17e4fafd-1963-472b-bd0e-1deb006c8b3b",
       "ward_no": "16",
-      "ward_name_en": "Kizhisseri Town",
-      "ward_name_ml": "കിഴിശ്ശേരി ടൌണ്‍"
+      "name_en": "Kizhisseri Town",
+      "name_ml": "കിഴിശ്ശേരി ടൌണ്‍"
     },
     {
-      "ward_id": "d88f3160-f65b-4c9c-900f-53204a86f70b",
+      "id": "d88f3160-f65b-4c9c-900f-53204a86f70b",
       "ward_no": "17",
-      "ward_name_en": "Kizhisseri West",
-      "ward_name_ml": "കിഴിശ്ശേരി വെസ്റ്റ്"
+      "name_en": "Kizhisseri West",
+      "name_ml": "കിഴിശ്ശേരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "aeb95180-e030-401e-9ec3-18116cebb729",
+      "id": "aeb95180-e030-401e-9ec3-18116cebb729",
       "ward_no": "18",
-      "ward_name_en": "Kuzhinholam",
-      "ward_name_ml": "കുഴിഞ്ഞൊളം"
+      "name_en": "Kuzhinholam",
+      "name_ml": "കുഴിഞ്ഞൊളം"
     }
   ],
   "towns": [],

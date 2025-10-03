@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030204",
-  "local_body_name_en": "Nedumpuram",
-  "local_body_name_ml": "നെടുമ്പ്രം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G030204",
+  "name_en": "Nedumpuram",
+  "name_ml": "നെടുമ്പ്രം",
+  "assembly_id": "111",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "111",
-    "assembly_name_en": "Thiruvalla",
-    "assembly_name_ml": "തിരുവല്ല",
-    "category": "Normal"
+    "id": "111",
+    "name_en": "Thiruvalla",
+    "name_ml": "തിരുവല്ല",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9b77c409-2961-47fb-9fad-07292c6af6b6",
+      "id": "9b77c409-2961-47fb-9fad-07292c6af6b6",
       "ward_no": "1",
-      "ward_name_en": "Amichakari",
-      "ward_name_ml": "അമിച്ചകരി"
+      "name_en": "Amichakari",
+      "name_ml": "അമിച്ചകരി"
     },
     {
-      "ward_id": "c1b082bc-b0a1-461d-83bf-fb1cd57ca617",
+      "id": "c1b082bc-b0a1-461d-83bf-fb1cd57ca617",
       "ward_no": "2",
-      "ward_name_en": "Nedumpuram",
-      "ward_name_ml": "നെടുമ്പ്രം"
+      "name_en": "Nedumpuram",
+      "name_ml": "നെടുമ്പ്രം"
     },
     {
-      "ward_id": "e7a2b981-1f10-4e89-b7e1-9414459e265a",
+      "id": "e7a2b981-1f10-4e89-b7e1-9414459e265a",
       "ward_no": "3",
-      "ward_name_en": "Puthiyakavu",
-      "ward_name_ml": "പുതിയകാവ്"
+      "name_en": "Puthiyakavu",
+      "name_ml": "പുതിയകാവ്"
     },
     {
-      "ward_id": "728ee421-51c8-4a3f-967b-08ce582a7153",
+      "id": "728ee421-51c8-4a3f-967b-08ce582a7153",
       "ward_no": "4",
-      "ward_name_en": "Vayikkathillam",
-      "ward_name_ml": "വൈക്കത്തില്ലം"
+      "name_en": "Vayikkathillam",
+      "name_ml": "വൈക്കത്തില്ലം"
     },
     {
-      "ward_id": "c3efa08e-2ac5-428d-87d7-414311441660",
+      "id": "c3efa08e-2ac5-428d-87d7-414311441660",
       "ward_no": "5",
-      "ward_name_en": "Choonthara",
-      "ward_name_ml": "ചൂന്താര"
+      "name_en": "Choonthara",
+      "name_ml": "ചൂന്താര"
     },
     {
-      "ward_id": "a1f12769-5bd1-48eb-9abb-0d21ff4d57d9",
+      "id": "a1f12769-5bd1-48eb-9abb-0d21ff4d57d9",
       "ward_no": "6",
-      "ward_name_en": "Podiyadi",
-      "ward_name_ml": "പൊടിയാടി"
+      "name_en": "Podiyadi",
+      "name_ml": "പൊടിയാടി"
     },
     {
-      "ward_id": "810f877e-356c-4ba9-8196-e7ea88c30b9c",
+      "id": "810f877e-356c-4ba9-8196-e7ea88c30b9c",
       "ward_no": "7",
-      "ward_name_en": "Manippuzha",
-      "ward_name_ml": "മണിപ്പുഴ"
+      "name_en": "Manippuzha",
+      "name_ml": "മണിപ്പുഴ"
     },
     {
-      "ward_id": "2fa78f61-bf92-4f58-8088-c8697b8c3b39",
+      "id": "2fa78f61-bf92-4f58-8088-c8697b8c3b39",
       "ward_no": "8",
-      "ward_name_en": "Malayithra",
-      "ward_name_ml": "മലയിത്ര"
+      "name_en": "Malayithra",
+      "name_ml": "മലയിത്ര"
     },
     {
-      "ward_id": "cc3d929d-8fcc-433a-bed0-f73b43b3961d",
+      "id": "cc3d929d-8fcc-433a-bed0-f73b43b3961d",
       "ward_no": "9",
-      "ward_name_en": "Kallumkal",
-      "ward_name_ml": "കല്ലുങ്കല്‍"
+      "name_en": "Kallumkal",
+      "name_ml": "കല്ലുങ്കല്‍"
     },
     {
-      "ward_id": "5851bf17-ce65-4a22-949b-ea20f0738167",
+      "id": "5851bf17-ce65-4a22-949b-ea20f0738167",
       "ward_no": "10",
-      "ward_name_en": "Murinjachira",
-      "ward_name_ml": "മുറിഞ്ഞചിറ"
+      "name_en": "Murinjachira",
+      "name_ml": "മുറിഞ്ഞചിറ"
     },
     {
-      "ward_id": "8b575b1a-9299-4229-b2bb-50b91af433e5",
+      "id": "8b575b1a-9299-4229-b2bb-50b91af433e5",
       "ward_no": "11",
-      "ward_name_en": "Pulikkeezhu",
-      "ward_name_ml": "പുളിക്കീഴ്"
+      "name_en": "Pulikkeezhu",
+      "name_ml": "പുളിക്കീഴ്"
     },
     {
-      "ward_id": "c4a49efe-9f32-4977-9e78-87fee0fae098",
+      "id": "c4a49efe-9f32-4977-9e78-87fee0fae098",
       "ward_no": "12",
-      "ward_name_en": "Ottathengu",
-      "ward_name_ml": "ഒറ്റത്തെങ്ങ്"
+      "name_en": "Ottathengu",
+      "name_ml": "ഒറ്റത്തെങ്ങ്"
     },
     {
-      "ward_id": "0b78b503-4e4d-465d-9866-2dd7be87aa35",
+      "id": "0b78b503-4e4d-465d-9866-2dd7be87aa35",
       "ward_no": "13",
-      "ward_name_en": "Jalamela",
-      "ward_name_ml": "ജലമേള"
+      "name_en": "Jalamela",
+      "name_ml": "ജലമേള"
     }
   ],
   "towns": [],

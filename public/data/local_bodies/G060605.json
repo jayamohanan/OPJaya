@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G060605",
-  "local_body_name_en": "Erattayar",
-  "local_body_name_ml": "ഇരട്ടയാര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "89",
-    "assembly_name_en": "Udumbanchola",
-    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+  "id": "G060605",
+  "name_en": "Erattayar",
+  "name_ml": "ഇരട്ടയാര്‍",
+  "assembly_id": "89",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "89",
+    "name_en": "Udumbanchola",
+    "name_ml": "ഉടുമ്പന്‍ചോല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "eb877911-d558-426d-920e-c8fa69d39f93",
+      "id": "eb877911-d558-426d-920e-c8fa69d39f93",
       "ward_no": "1",
-      "ward_name_en": "Chempakapara",
-      "ward_name_ml": "ചെമ്പകപ്പാറ"
+      "name_en": "Chempakapara",
+      "name_ml": "ചെമ്പകപ്പാറ"
     },
     {
-      "ward_id": "7c7af34c-8074-400e-8e74-26530367cac2",
+      "id": "7c7af34c-8074-400e-8e74-26530367cac2",
       "ward_no": "2",
-      "ward_name_en": "Eattithoppu",
-      "ward_name_ml": "ഈട്ടിത്തോപ്പ്"
+      "name_en": "Eattithoppu",
+      "name_ml": "ഈട്ടിത്തോപ്പ്"
     },
     {
-      "ward_id": "25254c4e-dfe5-40ca-a59b-3e0fbddaa11c",
+      "id": "25254c4e-dfe5-40ca-a59b-3e0fbddaa11c",
       "ward_no": "3",
-      "ward_name_en": "Pallickanam",
-      "ward_name_ml": "പളളിക്കാനം"
+      "name_en": "Pallickanam",
+      "name_ml": "പളളിക്കാനം"
     },
     {
-      "ward_id": "c64b3f08-545f-4afb-9cf3-d741005baa77",
+      "id": "c64b3f08-545f-4afb-9cf3-d741005baa77",
       "ward_no": "4",
-      "ward_name_en": "Erattayar North",
-      "ward_name_ml": "ഇരട്ടയാര്‍ നോര്‍ത്ത്"
+      "name_en": "Erattayar North",
+      "name_ml": "ഇരട്ടയാര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "64281636-b33b-4011-bd93-c6a92fc140e1",
+      "id": "64281636-b33b-4011-bd93-c6a92fc140e1",
       "ward_no": "5",
-      "ward_name_en": "Ezhukumvayal",
-      "ward_name_ml": "എഴുകുംവയല്‍"
+      "name_en": "Ezhukumvayal",
+      "name_ml": "എഴുകുംവയല്‍"
     },
     {
-      "ward_id": "d3253677-ea27-4368-a28c-58ab4f4f7d7a",
+      "id": "d3253677-ea27-4368-a28c-58ab4f4f7d7a",
       "ward_no": "6",
-      "ward_name_en": "Kattadikkavala",
-      "ward_name_ml": "കാറ്റാടിക്കവല"
+      "name_en": "Kattadikkavala",
+      "name_ml": "കാറ്റാടിക്കവല"
     },
     {
-      "ward_id": "430b9321-065b-4a69-b163-5c94381a2d5a",
+      "id": "430b9321-065b-4a69-b163-5c94381a2d5a",
       "ward_no": "7",
-      "ward_name_en": "Erattayar",
-      "ward_name_ml": "ഇരട്ടയാര്‍"
+      "name_en": "Erattayar",
+      "name_ml": "ഇരട്ടയാര്‍"
     },
     {
-      "ward_id": "eb200436-9348-45a5-84f6-a5219324a662",
+      "id": "eb200436-9348-45a5-84f6-a5219324a662",
       "ward_no": "8",
-      "ward_name_en": "Santhigram South",
-      "ward_name_ml": "ശാന്തിഗ്രാം സൌത്ത്"
+      "name_en": "Santhigram South",
+      "name_ml": "ശാന്തിഗ്രാം സൌത്ത്"
     },
     {
-      "ward_id": "1e16ebea-9649-45cf-9bbf-063a68d5e1ed",
+      "id": "1e16ebea-9649-45cf-9bbf-063a68d5e1ed",
       "ward_no": "9",
-      "ward_name_en": "Uppukandam",
-      "ward_name_ml": "ഉപ്പുകണ്ടം"
+      "name_en": "Uppukandam",
+      "name_ml": "ഉപ്പുകണ്ടം"
     },
     {
-      "ward_id": "63a06629-494d-4ed9-b30b-0aea9b1bf474",
+      "id": "63a06629-494d-4ed9-b30b-0aea9b1bf474",
       "ward_no": "10",
-      "ward_name_en": "Thulasippara",
-      "ward_name_ml": "തുളസിപ്പാറ"
+      "name_en": "Thulasippara",
+      "name_ml": "തുളസിപ്പാറ"
     },
     {
-      "ward_id": "8ca5684b-3ccc-486b-b873-1e1043ae63f6",
+      "id": "8ca5684b-3ccc-486b-b873-1e1043ae63f6",
       "ward_no": "11",
-      "ward_name_en": "Vazhavara",
-      "ward_name_ml": "വാഴവര"
+      "name_en": "Vazhavara",
+      "name_ml": "വാഴവര"
     },
     {
-      "ward_id": "b87f05f9-7699-4bb9-8a9b-de58ccb3f543",
+      "id": "b87f05f9-7699-4bb9-8a9b-de58ccb3f543",
       "ward_no": "12",
-      "ward_name_en": "Nalumukku",
-      "ward_name_ml": "നാലുമുക്ക്"
+      "name_en": "Nalumukku",
+      "name_ml": "നാലുമുക്ക്"
     },
     {
-      "ward_id": "688875e4-d79f-41d6-aad0-6c51f6093bf2",
+      "id": "688875e4-d79f-41d6-aad0-6c51f6093bf2",
       "ward_no": "13",
-      "ward_name_en": "Santhigram",
-      "ward_name_ml": "ശാന്തിഗ്രാം"
+      "name_en": "Santhigram",
+      "name_ml": "ശാന്തിഗ്രാം"
     },
     {
-      "ward_id": "027b908d-904c-493d-909c-174841ef9869",
+      "id": "027b908d-904c-493d-909c-174841ef9869",
       "ward_no": "14",
-      "ward_name_en": "Edinjamala",
-      "ward_name_ml": "ഇടിഞ്ഞമല"
+      "name_en": "Edinjamala",
+      "name_ml": "ഇടിഞ്ഞമല"
     }
   ],
   "towns": [],

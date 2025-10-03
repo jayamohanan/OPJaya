@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G050105",
-  "local_body_name_en": "Vechoor",
-  "local_body_name_ml": "വെച്ചൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "95",
-    "assembly_name_en": "Vaikom",
-    "assembly_name_ml": "വൈക്കം",
+  "id": "G050105",
+  "name_en": "Vechoor",
+  "name_ml": "വെച്ചൂര്‍",
+  "assembly_id": "95",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "95",
+    "name_en": "Vaikom",
+    "name_ml": "വൈക്കം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1ef97e9e-87ac-4260-8b92-1b2e5f0a4e44",
+      "id": "1ef97e9e-87ac-4260-8b92-1b2e5f0a4e44",
       "ward_no": "1",
-      "ward_name_en": "Poomkavu",
-      "ward_name_ml": "പൂങ്കാവ്"
+      "name_en": "Poomkavu",
+      "name_ml": "പൂങ്കാവ്"
     },
     {
-      "ward_id": "0f46f3b0-543d-49f1-b0cb-543fc4f684e0",
+      "id": "0f46f3b0-543d-49f1-b0cb-543fc4f684e0",
       "ward_no": "2",
-      "ward_name_en": "Edayazham",
-      "ward_name_ml": "ഇടയാഴം"
+      "name_en": "Edayazham",
+      "name_ml": "ഇടയാഴം"
     },
     {
-      "ward_id": "e5f4de22-4c5d-4b69-9b1c-fa323589a315",
+      "id": "e5f4de22-4c5d-4b69-9b1c-fa323589a315",
       "ward_no": "3",
-      "ward_name_en": "Thottappally",
-      "ward_name_ml": "തോട്ടാപ്പള്ളി"
+      "name_en": "Thottappally",
+      "name_ml": "തോട്ടാപ്പള്ളി"
     },
     {
-      "ward_id": "2fd6097a-7a20-4255-953a-46e015c259b0",
+      "id": "2fd6097a-7a20-4255-953a-46e015c259b0",
       "ward_no": "4",
-      "ward_name_en": "Muchoorkavu",
-      "ward_name_ml": "മുച്ചൂര്‍ക്കാവ്"
+      "name_en": "Muchoorkavu",
+      "name_ml": "മുച്ചൂര്‍ക്കാവ്"
     },
     {
-      "ward_id": "f4fa46d9-cfe4-42f6-9aae-6215a4eb63ba",
+      "id": "f4fa46d9-cfe4-42f6-9aae-6215a4eb63ba",
       "ward_no": "5",
-      "ward_name_en": "Mattam",
-      "ward_name_ml": "മറ്റം"
+      "name_en": "Mattam",
+      "name_ml": "മറ്റം"
     },
     {
-      "ward_id": "37fb378f-ea85-4639-b233-2b178998b38d",
+      "id": "37fb378f-ea85-4639-b233-2b178998b38d",
       "ward_no": "6",
-      "ward_name_en": "Kaippuzhamuttu",
-      "ward_name_ml": "കൈപ്പുഴമുട്ട്"
+      "name_en": "Kaippuzhamuttu",
+      "name_ml": "കൈപ്പുഴമുട്ട്"
     },
     {
-      "ward_id": "8f3efd46-54d0-4d7e-a34f-5ef26b74a464",
+      "id": "8f3efd46-54d0-4d7e-a34f-5ef26b74a464",
       "ward_no": "7",
-      "ward_name_en": "Achinakom",
-      "ward_name_ml": "അച്ചിനകം"
+      "name_en": "Achinakom",
+      "name_ml": "അച്ചിനകം"
     },
     {
-      "ward_id": "a9ad412c-f5f5-4bdd-8411-9e54e476d9c6",
+      "id": "a9ad412c-f5f5-4bdd-8411-9e54e476d9c6",
       "ward_no": "8",
-      "ward_name_en": "Govindapuram",
-      "ward_name_ml": "ഗോവിന്ദപുരം"
+      "name_en": "Govindapuram",
+      "name_ml": "ഗോവിന്ദപുരം"
     },
     {
-      "ward_id": "2427c333-6a77-4c05-8c94-122e78cc32af",
+      "id": "2427c333-6a77-4c05-8c94-122e78cc32af",
       "ward_no": "9",
-      "ward_name_en": "Sasthakkulam",
-      "ward_name_ml": "ശാസ്തക്കുളം"
+      "name_en": "Sasthakkulam",
+      "name_ml": "ശാസ്തക്കുളം"
     },
     {
-      "ward_id": "b4f1e212-6ea0-4f65-9936-0a62b6efd906",
+      "id": "b4f1e212-6ea0-4f65-9936-0a62b6efd906",
       "ward_no": "10",
-      "ward_name_en": "Nagarinna",
-      "ward_name_ml": "നഗരിന്ന"
+      "name_en": "Nagarinna",
+      "name_ml": "നഗരിന്ന"
     },
     {
-      "ward_id": "fe345405-f0d7-43db-b47d-8593ee3d0723",
+      "id": "fe345405-f0d7-43db-b47d-8593ee3d0723",
       "ward_no": "11",
-      "ward_name_en": "Vechoorpally",
-      "ward_name_ml": "വെച്ചൂര്‍പള്ളി"
+      "name_en": "Vechoorpally",
+      "name_ml": "വെച്ചൂര്‍പള്ളി"
     },
     {
-      "ward_id": "4feaf909-6b73-4e3e-b5e8-3c87cb3422d1",
+      "id": "4feaf909-6b73-4e3e-b5e8-3c87cb3422d1",
       "ward_no": "12",
-      "ward_name_en": "Cherakulangara",
-      "ward_name_ml": "ചേരകുളങ്ങര"
+      "name_en": "Cherakulangara",
+      "name_ml": "ചേരകുളങ്ങര"
     },
     {
-      "ward_id": "e88d9058-6b16-4e61-9934-fa272de140fc",
+      "id": "e88d9058-6b16-4e61-9934-fa272de140fc",
       "ward_no": "13",
-      "ward_name_en": "Pariyaram",
-      "ward_name_ml": "പരിയാരം"
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം"
     }
   ],
   "towns": [],

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G040102",
-  "local_body_name_en": "Chennam Pallippuram",
-  "local_body_name_ml": "ചേന്നം പള്ളിപ്പുറം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G040102",
+  "name_en": "Chennam Pallippuram",
+  "name_ml": "ചേന്നം പള്ളിപ്പുറം",
+  "assembly_id": "102",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "102",
-    "assembly_name_en": "Aroor",
-    "assembly_name_ml": "അരൂർ",
-    "category": "Normal"
+    "id": "102",
+    "name_en": "Aroor",
+    "name_ml": "അരൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "130448d4-af74-4b6e-934f-431a22744ebd",
+      "id": "130448d4-af74-4b6e-934f-431a22744ebd",
       "ward_no": "1",
-      "ward_name_en": "Panackal Kshetharam",
-      "ward_name_ml": "പനയ്ക്കല്‍ ക്ഷേത്രം"
+      "name_en": "Panackal Kshetharam",
+      "name_ml": "പനയ്ക്കല്‍ ക്ഷേത്രം"
     },
     {
-      "ward_id": "3dece9a1-059f-4ac3-a9d2-b74c1b023dc9",
+      "id": "3dece9a1-059f-4ac3-a9d2-b74c1b023dc9",
       "ward_no": "2",
-      "ward_name_en": "Kadambanakulangara",
-      "ward_name_ml": "കടമ്പനാകുളങ്ങര"
+      "name_en": "Kadambanakulangara",
+      "name_ml": "കടമ്പനാകുളങ്ങര"
     },
     {
-      "ward_id": "d0c11f62-6a69-4a77-9f8a-ea6aded74d76",
+      "id": "d0c11f62-6a69-4a77-9f8a-ea6aded74d76",
       "ward_no": "3",
-      "ward_name_en": "Kalathil Kshethram",
-      "ward_name_ml": "കളത്തില്‍ ക്ഷേത്രം"
+      "name_en": "Kalathil Kshethram",
+      "name_ml": "കളത്തില്‍ ക്ഷേത്രം"
     },
     {
-      "ward_id": "1a171951-f702-490b-9715-ee9c768ebfae",
+      "id": "1a171951-f702-490b-9715-ee9c768ebfae",
       "ward_no": "4",
-      "ward_name_en": "Krishibhavan",
-      "ward_name_ml": "കൃഷിഭവന്‍"
+      "name_en": "Krishibhavan",
+      "name_ml": "കൃഷിഭവന്‍"
     },
     {
-      "ward_id": "32d9ee6a-fea1-4a37-b7da-600849c5503c",
+      "id": "32d9ee6a-fea1-4a37-b7da-600849c5503c",
       "ward_no": "5",
-      "ward_name_en": "Kadavil Bhagavathy Kshethram",
-      "ward_name_ml": "കടവില്‍ ഭഗവതി ക്ഷേത്രം"
+      "name_en": "Kadavil Bhagavathy Kshethram",
+      "name_ml": "കടവില്‍ ഭഗവതി ക്ഷേത്രം"
     },
     {
-      "ward_id": "f4eacfa4-d5d1-4ae0-b5a8-1718a88b99ae",
+      "id": "f4eacfa4-d5d1-4ae0-b5a8-1718a88b99ae",
       "ward_no": "6",
-      "ward_name_en": "Village Office",
-      "ward_name_ml": "വില്ലേജ് ഓഫീസ്"
+      "name_en": "Village Office",
+      "name_ml": "വില്ലേജ് ഓഫീസ്"
     },
     {
-      "ward_id": "119cc9a7-133d-448d-a519-a66b505925a1",
+      "id": "119cc9a7-133d-448d-a519-a66b505925a1",
       "ward_no": "7",
-      "ward_name_en": "College",
-      "ward_name_ml": "കോളേജ്"
+      "name_en": "College",
+      "name_ml": "കോളേജ്"
     },
     {
-      "ward_id": "9a6f660c-517d-40d9-8aa0-a22088522359",
+      "id": "9a6f660c-517d-40d9-8aa0-a22088522359",
       "ward_no": "8",
-      "ward_name_en": "Vadakumkara Kshethram",
-      "ward_name_ml": "വടക്കുംകര ക്ഷേത്രം"
+      "name_en": "Vadakumkara Kshethram",
+      "name_ml": "വടക്കുംകര ക്ഷേത്രം"
     },
     {
-      "ward_id": "99a6cc0d-3ad8-479c-913f-7f2c7a9a42d7",
+      "id": "99a6cc0d-3ad8-479c-913f-7f2c7a9a42d7",
       "ward_no": "9",
-      "ward_name_en": "St.Joseph Church",
-      "ward_name_ml": "സെന്‍റ് ജോസഫ് ചര്‍ച്ച്"
+      "name_en": "St.Joseph Church",
+      "name_ml": "സെന്‍റ് ജോസഫ് ചര്‍ച്ച്"
     },
     {
-      "ward_id": "9f250b97-cd64-4a8e-b03e-4cc23710e294",
+      "id": "9f250b97-cd64-4a8e-b03e-4cc23710e294",
       "ward_no": "10",
-      "ward_name_en": "Govindapuram",
-      "ward_name_ml": "ഗോവിന്ദപുരം"
+      "name_en": "Govindapuram",
+      "name_ml": "ഗോവിന്ദപുരം"
     },
     {
-      "ward_id": "7742389f-bc08-46a9-aef4-e71c2a3864f2",
+      "id": "7742389f-bc08-46a9-aef4-e71c2a3864f2",
       "ward_no": "11",
-      "ward_name_en": "Kallarathara",
-      "ward_name_ml": "കല്ലറത്തറ"
+      "name_en": "Kallarathara",
+      "name_ml": "കല്ലറത്തറ"
     },
     {
-      "ward_id": "da055a70-754f-4bbf-855c-5074fed7ea0f",
+      "id": "da055a70-754f-4bbf-855c-5074fed7ea0f",
       "ward_no": "12",
-      "ward_name_en": "Vilakumaram",
-      "ward_name_ml": "വിളക്കുമരം"
+      "name_en": "Vilakumaram",
+      "name_ml": "വിളക്കുമരം"
     },
     {
-      "ward_id": "86eef203-fe30-43cf-8933-ee2027209ab9",
+      "id": "86eef203-fe30-43cf-8933-ee2027209ab9",
       "ward_no": "13",
-      "ward_name_en": "Thirunalloor",
-      "ward_name_ml": "തിരുനെല്ലൂര്‍"
+      "name_en": "Thirunalloor",
+      "name_ml": "തിരുനെല്ലൂര്‍"
     },
     {
-      "ward_id": "d5156e32-cb58-4e4b-9940-8ffc37ceca1c",
+      "id": "d5156e32-cb58-4e4b-9940-8ffc37ceca1c",
       "ward_no": "14",
-      "ward_name_en": "Pallathara",
-      "ward_name_ml": "പള്ളാത്തറ"
+      "name_en": "Pallathara",
+      "name_ml": "പള്ളാത്തറ"
     },
     {
-      "ward_id": "d8b2a918-3c26-46bb-bc88-942ad0677d07",
+      "id": "d8b2a918-3c26-46bb-bc88-942ad0677d07",
       "ward_no": "15",
-      "ward_name_en": "Padmapuram",
-      "ward_name_ml": "പത്മപുരം"
+      "name_en": "Padmapuram",
+      "name_ml": "പത്മപുരം"
     },
     {
-      "ward_id": "d5c203f8-9086-4425-aae7-d54ac1bffe11",
+      "id": "d5c203f8-9086-4425-aae7-d54ac1bffe11",
       "ward_no": "16",
-      "ward_name_en": "Vellimuttam",
-      "ward_name_ml": "വെള്ളിമുറ്റം"
+      "name_en": "Vellimuttam",
+      "name_ml": "വെള്ളിമുറ്റം"
     },
     {
-      "ward_id": "acb0a9bd-2686-4c87-80a6-2bdad41b351b",
+      "id": "acb0a9bd-2686-4c87-80a6-2bdad41b351b",
       "ward_no": "17",
-      "ward_name_en": "Palluvelil Bhagam",
-      "ward_name_ml": "പല്ലുവേലിഭാഗം"
+      "name_en": "Palluvelil Bhagam",
+      "name_ml": "പല്ലുവേലിഭാഗം"
     }
   ],
   "towns": [],

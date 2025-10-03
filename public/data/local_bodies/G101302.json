@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G101302",
-  "local_body_name_en": "Thalakkad",
-  "local_body_name_ml": "തലക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "45",
-    "assembly_name_en": "Tirur",
-    "assembly_name_ml": "തിരൂര്‍",
+  "id": "G101302",
+  "name_en": "Thalakkad",
+  "name_ml": "തലക്കാട്",
+  "assembly_id": "45",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "45",
+    "name_en": "Tirur",
+    "name_ml": "തിരൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0a069fb0-5252-4f8f-b040-eb3647ab5fc0",
+      "id": "0a069fb0-5252-4f8f-b040-eb3647ab5fc0",
       "ward_no": "1",
-      "ward_name_en": "Mangattiri",
-      "ward_name_ml": "മാങ്ങാട്ടിരി"
+      "name_en": "Mangattiri",
+      "name_ml": "മാങ്ങാട്ടിരി"
     },
     {
-      "ward_id": "5961e6f1-f57f-4c15-9a9b-1bcbbf1e1fc0",
+      "id": "5961e6f1-f57f-4c15-9a9b-1bcbbf1e1fc0",
       "ward_no": "2",
-      "ward_name_en": "Kattachira",
-      "ward_name_ml": "കട്ടച്ചിറ"
+      "name_en": "Kattachira",
+      "name_ml": "കട്ടച്ചിറ"
     },
     {
-      "ward_id": "7e429542-c18c-4ed7-85f8-be9c4d4a4d08",
+      "id": "7e429542-c18c-4ed7-85f8-be9c4d4a4d08",
       "ward_no": "3",
-      "ward_name_en": "Karayil",
-      "ward_name_ml": "കാരയില്‍"
+      "name_en": "Karayil",
+      "name_ml": "കാരയില്‍"
     },
     {
-      "ward_id": "7b395636-005a-4d09-ba4e-b60c065f089e",
+      "id": "7b395636-005a-4d09-ba4e-b60c065f089e",
       "ward_no": "4",
-      "ward_name_en": "Pullur",
-      "ward_name_ml": "പുല്ലൂര്‍"
+      "name_en": "Pullur",
+      "name_ml": "പുല്ലൂര്‍"
     },
     {
-      "ward_id": "ad7cee10-3081-417d-b9d1-c4201f3a67d5",
+      "id": "ad7cee10-3081-417d-b9d1-c4201f3a67d5",
       "ward_no": "5",
-      "ward_name_en": "Pullural",
-      "ward_name_ml": "പുല്ലുരാല്‍"
+      "name_en": "Pullural",
+      "name_ml": "പുല്ലുരാല്‍"
     },
     {
-      "ward_id": "f95d3c0d-b8c6-4ff9-8b3f-b54da0986c05",
+      "id": "f95d3c0d-b8c6-4ff9-8b3f-b54da0986c05",
       "ward_no": "6",
-      "ward_name_en": "Kanhirikkol",
-      "ward_name_ml": "കാഞ്ഞിരക്കോല്‍"
+      "name_en": "Kanhirikkol",
+      "name_ml": "കാഞ്ഞിരക്കോല്‍"
     },
     {
-      "ward_id": "c6d34f9e-51af-4d96-9029-fbf10c71d892",
+      "id": "c6d34f9e-51af-4d96-9029-fbf10c71d892",
       "ward_no": "7",
-      "ward_name_en": "Vadakkan Kuttoor",
-      "ward_name_ml": "വടക്കന്‍ കുറ്റൂര്‍"
+      "name_en": "Vadakkan Kuttoor",
+      "name_ml": "വടക്കന്‍ കുറ്റൂര്‍"
     },
     {
-      "ward_id": "5c7bb089-8896-4117-af6b-2151c070960a",
+      "id": "5c7bb089-8896-4117-af6b-2151c070960a",
       "ward_no": "8",
-      "ward_name_en": "Thekkan Kuttoor",
-      "ward_name_ml": "തെക്കന്‍ കുറ്റൂര്‍"
+      "name_en": "Thekkan Kuttoor",
+      "name_ml": "തെക്കന്‍ കുറ്റൂര്‍"
     },
     {
-      "ward_id": "22bd3c3a-cdc2-4901-ac22-c580c045086a",
+      "id": "22bd3c3a-cdc2-4901-ac22-c580c045086a",
       "ward_no": "9",
-      "ward_name_en": "Mukkilapeedika",
-      "ward_name_ml": "മുക്കിലപീടിക"
+      "name_en": "Mukkilapeedika",
+      "name_ml": "മുക്കിലപീടിക"
     },
     {
-      "ward_id": "d31bfc69-674e-43de-9f2d-f0f82ded0741",
+      "id": "d31bfc69-674e-43de-9f2d-f0f82ded0741",
       "ward_no": "10",
-      "ward_name_en": "Vengaloor",
-      "ward_name_ml": "വെങ്ങാലൂര്‍"
+      "name_en": "Vengaloor",
+      "name_ml": "വെങ്ങാലൂര്‍"
     },
     {
-      "ward_id": "80d986de-00d6-49ec-98c2-e6a36b6e022f",
+      "id": "80d986de-00d6-49ec-98c2-e6a36b6e022f",
       "ward_no": "11",
-      "ward_name_en": "Koloopalam",
-      "ward_name_ml": "കോലൂപാലം"
+      "name_en": "Koloopalam",
+      "name_ml": "കോലൂപാലം"
     },
     {
-      "ward_id": "b3578149-34d4-4e15-936b-9e11fc644eb3",
+      "id": "b3578149-34d4-4e15-936b-9e11fc644eb3",
       "ward_no": "12",
-      "ward_name_en": "Kottathara",
-      "ward_name_ml": "കോട്ടത്തറ"
+      "name_en": "Kottathara",
+      "name_ml": "കോട്ടത്തറ"
     },
     {
-      "ward_id": "a8f87d07-ab6d-4399-9130-1e9d5f8e262b",
+      "id": "a8f87d07-ab6d-4399-9130-1e9d5f8e262b",
       "ward_no": "13",
-      "ward_name_en": "B P Angadi Town",
-      "ward_name_ml": "ബി പി അങ്ങാടി ടൌണ്‍"
+      "name_en": "B P Angadi Town",
+      "name_ml": "ബി പി അങ്ങാടി ടൌണ്‍"
     },
     {
-      "ward_id": "2a6c7f2c-fbb8-4d12-b2c6-ccf1026f43b4",
+      "id": "2a6c7f2c-fbb8-4d12-b2c6-ccf1026f43b4",
       "ward_no": "14",
-      "ward_name_en": "Parasheri East",
-      "ward_name_ml": "പാറശ്ശേരി ഈസ്റ്റ്"
+      "name_en": "Parasheri East",
+      "name_ml": "പാറശ്ശേരി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "88b422c5-a0a0-49c7-a4da-304808c44592",
+      "id": "88b422c5-a0a0-49c7-a4da-304808c44592",
       "ward_no": "15",
-      "ward_name_en": "Parasheri West",
-      "ward_name_ml": "പാറശ്ശേരി വെസ്റ്റ്"
+      "name_en": "Parasheri West",
+      "name_ml": "പാറശ്ശേരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "48fcd834-0987-48dd-8b9b-e735db8d1b66",
+      "id": "48fcd834-0987-48dd-8b9b-e735db8d1b66",
       "ward_no": "16",
-      "ward_name_en": "Pookaitha",
-      "ward_name_ml": "പൂക്കൈത"
+      "name_en": "Pookaitha",
+      "name_ml": "പൂക്കൈത"
     },
     {
-      "ward_id": "8a1f6dcf-ecc9-4c5f-9a84-f3be6bf71834",
+      "id": "8a1f6dcf-ecc9-4c5f-9a84-f3be6bf71834",
       "ward_no": "17",
-      "ward_name_en": "B P Angadi",
-      "ward_name_ml": "ബി പി അങ്ങാടി"
+      "name_en": "B P Angadi",
+      "name_ml": "ബി പി അങ്ങാടി"
     },
     {
-      "ward_id": "ab771b69-44f4-4744-b665-5816728fe8e3",
+      "id": "ab771b69-44f4-4744-b665-5816728fe8e3",
       "ward_no": "18",
-      "ward_name_en": "Vadakke Angaadi",
-      "ward_name_ml": "വടക്കെ അങ്ങാടി"
+      "name_en": "Vadakke Angaadi",
+      "name_ml": "വടക്കെ അങ്ങാടി"
     },
     {
-      "ward_id": "b7ce82cf-0bc9-4e75-878f-e07438cd9bc8",
+      "id": "b7ce82cf-0bc9-4e75-878f-e07438cd9bc8",
       "ward_no": "19",
-      "ward_name_en": "Kallookadavu",
-      "ward_name_ml": "കല്ലൂകടവ്"
+      "name_en": "Kallookadavu",
+      "name_ml": "കല്ലൂകടവ്"
     }
   ],
   "towns": [],

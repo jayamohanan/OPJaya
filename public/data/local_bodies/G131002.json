@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G131002",
-  "local_body_name_en": "Ayyankunnu",
-  "local_body_name_ml": "അയ്യന്‍കുന്ന്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "16",
-    "assembly_name_en": "Peravoor",
-    "assembly_name_ml": "പേരാവൂര്‍",
+  "id": "G131002",
+  "name_en": "Ayyankunnu",
+  "name_ml": "അയ്യന്‍കുന്ന്",
+  "assembly_id": "16",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "16",
+    "name_en": "Peravoor",
+    "name_ml": "പേരാവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "53ce3d93-ea3d-4298-8198-b62647448430",
+      "id": "53ce3d93-ea3d-4298-8198-b62647448430",
       "ward_no": "1",
-      "ward_name_en": "Kacherikadavu",
-      "ward_name_ml": "കച്ചേരിക്കടവ്"
+      "name_en": "Kacherikadavu",
+      "name_ml": "കച്ചേരിക്കടവ്"
     },
     {
-      "ward_id": "c58bde51-85a7-4a7f-a2ec-1d07c7c758ed",
+      "id": "c58bde51-85a7-4a7f-a2ec-1d07c7c758ed",
       "ward_no": "2",
-      "ward_name_en": "Palathumkadavu",
-      "ward_name_ml": "പാലത്തുംകടവ്"
+      "name_en": "Palathumkadavu",
+      "name_ml": "പാലത്തുംകടവ്"
     },
     {
-      "ward_id": "e9de33b4-a26e-40be-a4b8-c49303e3845d",
+      "id": "e9de33b4-a26e-40be-a4b8-c49303e3845d",
       "ward_no": "3",
-      "ward_name_en": "Randamkadavu",
-      "ward_name_ml": "രണ്ടാംകടവ്"
+      "name_en": "Randamkadavu",
+      "name_ml": "രണ്ടാംകടവ്"
     },
     {
-      "ward_id": "3307b06d-3b18-4ec3-b359-9995ffb4bf31",
+      "id": "3307b06d-3b18-4ec3-b359-9995ffb4bf31",
       "ward_no": "4",
-      "ward_name_en": "Vaniyappara",
-      "ward_name_ml": "വാണിയപ്പാറ"
+      "name_en": "Vaniyappara",
+      "name_ml": "വാണിയപ്പാറ"
     },
     {
-      "ward_id": "98fc459f-d0eb-4ad3-bb73-22ca7051fa35",
+      "id": "98fc459f-d0eb-4ad3-bb73-22ca7051fa35",
       "ward_no": "5",
-      "ward_name_en": "Murikkumkary",
-      "ward_name_ml": "മുരിക്കുംകരി"
+      "name_en": "Murikkumkary",
+      "name_ml": "മുരിക്കുംകരി"
     },
     {
-      "ward_id": "83f34497-ba81-4ebd-ad69-d616eec277ac",
+      "id": "83f34497-ba81-4ebd-ad69-d616eec277ac",
       "ward_no": "6",
-      "ward_name_en": "Angadikadavu",
-      "ward_name_ml": "അങ്ങാടിക്കടവ്"
+      "name_en": "Angadikadavu",
+      "name_ml": "അങ്ങാടിക്കടവ്"
     },
     {
-      "ward_id": "af361e4f-c642-4ac3-822a-56fec69eedf1",
+      "id": "af361e4f-c642-4ac3-822a-56fec69eedf1",
       "ward_no": "7",
-      "ward_name_en": "Enthumkary",
-      "ward_name_ml": "ഈന്തുംകരി"
+      "name_en": "Enthumkary",
+      "name_ml": "ഈന്തുംകരി"
     },
     {
-      "ward_id": "eb2b7c0d-28db-48c6-9ead-dc0d56121a26",
+      "id": "eb2b7c0d-28db-48c6-9ead-dc0d56121a26",
       "ward_no": "8",
-      "ward_name_en": "Edapuzha",
-      "ward_name_ml": "എടപ്പുഴ"
+      "name_en": "Edapuzha",
+      "name_ml": "എടപ്പുഴ"
     },
     {
-      "ward_id": "29f6ecf4-a382-4ceb-88b7-3ef74d5f2c3c",
+      "id": "29f6ecf4-a382-4ceb-88b7-3ef74d5f2c3c",
       "ward_no": "9",
-      "ward_name_en": "Koomanthode",
-      "ward_name_ml": "കൂമന്‍തോട്"
+      "name_en": "Koomanthode",
+      "name_ml": "കൂമന്‍തോട്"
     },
     {
-      "ward_id": "ca0d244e-3a8c-4a16-8e7d-ceb9b12f9a1a",
+      "id": "ca0d244e-3a8c-4a16-8e7d-ceb9b12f9a1a",
       "ward_no": "10",
-      "ward_name_en": "Karikkottakary",
-      "ward_name_ml": "കരിക്കോട്ടക്കരി"
+      "name_en": "Karikkottakary",
+      "name_ml": "കരിക്കോട്ടക്കരി"
     },
     {
-      "ward_id": "6cc35413-5e4e-4faa-b502-34f38be1c9f2",
+      "id": "6cc35413-5e4e-4faa-b502-34f38be1c9f2",
       "ward_no": "11",
-      "ward_name_en": "Valiyaparambinkary",
-      "ward_name_ml": "വലിയപറമ്പിന്‍കരി"
+      "name_en": "Valiyaparambinkary",
+      "name_ml": "വലിയപറമ്പിന്‍കരി"
     },
     {
-      "ward_id": "abdb0cdb-12a4-421b-bdcd-f1fd1e726fc6",
+      "id": "abdb0cdb-12a4-421b-bdcd-f1fd1e726fc6",
       "ward_no": "12",
-      "ward_name_en": "Kampaninirath",
-      "ward_name_ml": "കമ്പനിനിരത്ത്"
+      "name_en": "Kampaninirath",
+      "name_ml": "കമ്പനിനിരത്ത്"
     },
     {
-      "ward_id": "dcebd21a-d21b-40e6-9a4f-364d70f4de1d",
+      "id": "dcebd21a-d21b-40e6-9a4f-364d70f4de1d",
       "ward_no": "13",
-      "ward_name_en": "Mundayamparamba",
-      "ward_name_ml": "മുണ്ടയാംപറമ്പ്"
+      "name_en": "Mundayamparamba",
+      "name_ml": "മുണ്ടയാംപറമ്പ്"
     },
     {
-      "ward_id": "a6a5a743-d670-4569-bbb1-b1ebc914700d",
+      "id": "a6a5a743-d670-4569-bbb1-b1ebc914700d",
       "ward_no": "14",
-      "ward_name_en": "Anappanthy",
-      "ward_name_ml": "ആനപ്പന്തി"
+      "name_en": "Anappanthy",
+      "name_ml": "ആനപ്പന്തി"
     },
     {
-      "ward_id": "b038a705-23ad-4800-817a-f08bc67f669c",
+      "id": "b038a705-23ad-4800-817a-f08bc67f669c",
       "ward_no": "15",
-      "ward_name_en": "Mudayiranji",
-      "ward_name_ml": "മുടയിരഞ്ഞി"
+      "name_en": "Mudayiranji",
+      "name_ml": "മുടയിരഞ്ഞി"
     },
     {
-      "ward_id": "efe87d26-4984-44dd-a883-f3c67f0def67",
+      "id": "efe87d26-4984-44dd-a883-f3c67f0def67",
       "ward_no": "16",
-      "ward_name_en": "Charal",
-      "ward_name_ml": "ചരള്‍"
+      "name_en": "Charal",
+      "name_ml": "ചരള്‍"
     }
   ],
   "towns": [],

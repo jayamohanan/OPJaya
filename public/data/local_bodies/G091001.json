@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G091001",
-  "local_body_name_en": "Kollengode",
-  "local_body_name_ml": "കൊല്ലങ്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G091001",
+  "name_en": "Kollengode",
+  "name_ml": "കൊല്ലങ്കോട്",
+  "assembly_id": "59",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "59",
-    "assembly_name_en": "Nenmara",
-    "assembly_name_ml": "നെന്മാറ",
-    "category": "Normal"
+    "id": "59",
+    "name_en": "Nenmara",
+    "name_ml": "നെന്മാറ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5ef1dd07-3d01-4a7f-acae-189b5a0a6fb1",
+      "id": "5ef1dd07-3d01-4a7f-acae-189b5a0a6fb1",
       "ward_no": "1",
-      "ward_name_en": "Puzhakkalthara",
-      "ward_name_ml": "പുഴയ്ക്കല്‍ത്തറ"
+      "name_en": "Puzhakkalthara",
+      "name_ml": "പുഴയ്ക്കല്‍ത്തറ"
     },
     {
-      "ward_id": "363ec502-b3a7-463c-a513-18cb6cf79fdf",
+      "id": "363ec502-b3a7-463c-a513-18cb6cf79fdf",
       "ward_no": "2",
-      "ward_name_en": "P.K.Village",
-      "ward_name_ml": "പി.കെ.വില്ലേജ്"
+      "name_en": "P.K.Village",
+      "name_ml": "പി.കെ.വില്ലേജ്"
     },
     {
-      "ward_id": "ef4b0100-6735-40f6-9ae4-4ed204b1545e",
+      "id": "ef4b0100-6735-40f6-9ae4-4ed204b1545e",
       "ward_no": "3",
-      "ward_name_en": "Kollengode Town",
-      "ward_name_ml": "കൊല്ലങ്കോട്  ടൌണ്‍"
+      "name_en": "Kollengode Town",
+      "name_ml": "കൊല്ലങ്കോട്  ടൌണ്‍"
     },
     {
-      "ward_id": "14733e72-4f10-403c-a43b-5a15a1180bad",
+      "id": "14733e72-4f10-403c-a43b-5a15a1180bad",
       "ward_no": "4",
-      "ward_name_en": "Thadanara",
-      "ward_name_ml": "താടനാറ"
+      "name_en": "Thadanara",
+      "name_ml": "താടനാറ"
     },
     {
-      "ward_id": "eecaf297-f593-4ca0-ae7a-233a58b9e59f",
+      "id": "eecaf297-f593-4ca0-ae7a-233a58b9e59f",
       "ward_no": "5",
-      "ward_name_en": "Anamari",
-      "ward_name_ml": "ആനമാറി"
+      "name_en": "Anamari",
+      "name_ml": "ആനമാറി"
     },
     {
-      "ward_id": "f7f1090c-d3e8-48f4-bda4-5f2a6ecc2b74",
+      "id": "f7f1090c-d3e8-48f4-bda4-5f2a6ecc2b74",
       "ward_no": "6",
-      "ward_name_en": "Chikkanampara",
-      "ward_name_ml": "ചിക്കനാംപാറ"
+      "name_en": "Chikkanampara",
+      "name_ml": "ചിക്കനാംപാറ"
     },
     {
-      "ward_id": "e4e2ec75-2f70-410e-8443-2a04503ee538",
+      "id": "e4e2ec75-2f70-410e-8443-2a04503ee538",
       "ward_no": "7",
-      "ward_name_en": "Edachira",
-      "ward_name_ml": "ഇടച്ചിറ"
+      "name_en": "Edachira",
+      "name_ml": "ഇടച്ചിറ"
     },
     {
-      "ward_id": "88fcd590-31fd-4656-8a1f-c01f1772a7bd",
+      "id": "88fcd590-31fd-4656-8a1f-c01f1772a7bd",
       "ward_no": "8",
-      "ward_name_en": "Achanamcode",
-      "ward_name_ml": "അച്ചനാംകോട്"
+      "name_en": "Achanamcode",
+      "name_ml": "അച്ചനാംകോട്"
     },
     {
-      "ward_id": "e5a8050a-5a41-4231-bad7-effc3cdf2f64",
+      "id": "e5a8050a-5a41-4231-bad7-effc3cdf2f64",
       "ward_no": "9",
-      "ward_name_en": "Nenmeni",
-      "ward_name_ml": "നെന്മേനി"
+      "name_en": "Nenmeni",
+      "name_ml": "നെന്മേനി"
     },
     {
-      "ward_id": "1c97081e-cbfc-46d3-9ef8-6f083b9dc460",
+      "id": "1c97081e-cbfc-46d3-9ef8-6f083b9dc460",
       "ward_no": "10",
-      "ward_name_en": "Padinjarechuttichira",
-      "ward_name_ml": "പടിഞ്ഞാറേച്ചുട്ടിചിറ"
+      "name_en": "Padinjarechuttichira",
+      "name_ml": "പടിഞ്ഞാറേച്ചുട്ടിചിറ"
     },
     {
-      "ward_id": "b97db03d-23e5-4ca3-97b0-b0ff159c8a86",
+      "id": "b97db03d-23e5-4ca3-97b0-b0ff159c8a86",
       "ward_no": "11",
-      "ward_name_en": "S.V.Street",
-      "ward_name_ml": "എസ്.വി.സ്ട്രീറ്റ്"
+      "name_en": "S.V.Street",
+      "name_ml": "എസ്.വി.സ്ട്രീറ്റ്"
     },
     {
-      "ward_id": "37e72023-e3ca-4419-91a3-4fff933efa9b",
+      "id": "37e72023-e3ca-4419-91a3-4fff933efa9b",
       "ward_no": "12",
-      "ward_name_en": "Konganchathi",
-      "ward_name_ml": "കൊങ്ങന്‍ചാത്തി"
+      "name_en": "Konganchathi",
+      "name_ml": "കൊങ്ങന്‍ചാത്തി"
     },
     {
-      "ward_id": "8e052ed1-a0d7-4764-94b7-e4df61a94526",
+      "id": "8e052ed1-a0d7-4764-94b7-e4df61a94526",
       "ward_no": "13",
-      "ward_name_en": "Cheerani",
-      "ward_name_ml": "ചീരണി"
+      "name_en": "Cheerani",
+      "name_ml": "ചീരണി"
     },
     {
-      "ward_id": "fca40c0c-a090-4d52-9c7b-334c0db58a81",
+      "id": "fca40c0c-a090-4d52-9c7b-334c0db58a81",
       "ward_no": "14",
-      "ward_name_en": "Pazhayangadi",
-      "ward_name_ml": "പഴയങ്ങാടി"
+      "name_en": "Pazhayangadi",
+      "name_ml": "പഴയങ്ങാടി"
     },
     {
-      "ward_id": "387f7c6c-c3e6-400f-a34c-fdd71a6a3994",
+      "id": "387f7c6c-c3e6-400f-a34c-fdd71a6a3994",
       "ward_no": "15",
-      "ward_name_en": "Payyalore",
-      "ward_name_ml": "പയ്യലൂര്‍"
+      "name_en": "Payyalore",
+      "name_ml": "പയ്യലൂര്‍"
     },
     {
-      "ward_id": "026cb091-6194-4ea9-93d8-a01b37da590e",
+      "id": "026cb091-6194-4ea9-93d8-a01b37da590e",
       "ward_no": "16",
-      "ward_name_en": "Kachamkkurrissi",
-      "ward_name_ml": "കാച്ചാംക്കുറിശ്ശി"
+      "name_en": "Kachamkkurrissi",
+      "name_ml": "കാച്ചാംക്കുറിശ്ശി"
     },
     {
-      "ward_id": "af9957ea-cf21-4ef7-a75f-4830c080b4ee",
+      "id": "af9957ea-cf21-4ef7-a75f-4830c080b4ee",
       "ward_no": "17",
-      "ward_name_en": "Thachakora",
-      "ward_name_ml": "തച്ചക്കോറ"
+      "name_en": "Thachakora",
+      "name_ml": "തച്ചക്കോറ"
     },
     {
-      "ward_id": "c5bf0094-a880-4f39-a668-06466912520e",
+      "id": "c5bf0094-a880-4f39-a668-06466912520e",
       "ward_no": "18",
-      "ward_name_en": "Aruvanoorparambu",
-      "ward_name_ml": "അരുവനൂര്‍പറമ്പ്"
+      "name_en": "Aruvanoorparambu",
+      "name_ml": "അരുവനൂര്‍പറമ്പ്"
     }
   ],
   "towns": [],

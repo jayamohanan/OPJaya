@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060403",
-  "local_body_name_en": "Kodikulam",
-  "local_body_name_ml": "കോടിക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G060403",
+  "name_en": "Kodikulam",
+  "name_ml": "കോടിക്കുളം",
+  "assembly_id": "90",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "90",
-    "assembly_name_en": "Thodupuzha",
-    "assembly_name_ml": "തൊടുപുഴ",
-    "category": "Normal"
+    "id": "90",
+    "name_en": "Thodupuzha",
+    "name_ml": "തൊടുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b13c18f3-2798-484f-88f7-6149be866d49",
+      "id": "b13c18f3-2798-484f-88f7-6149be866d49",
       "ward_no": "1",
-      "ward_name_en": "Parapuzha",
-      "ward_name_ml": "പാറപ്പുഴ"
+      "name_en": "Parapuzha",
+      "name_ml": "പാറപ്പുഴ"
     },
     {
-      "ward_id": "eb08fd12-e4ce-4fd6-a262-b829ebf729d0",
+      "id": "eb08fd12-e4ce-4fd6-a262-b829ebf729d0",
       "ward_no": "2",
-      "ward_name_en": "Thennathoor",
-      "ward_name_ml": "തെന്നത്തൂര്‍"
+      "name_en": "Thennathoor",
+      "name_ml": "തെന്നത്തൂര്‍"
     },
     {
-      "ward_id": "502045ce-24f4-4563-acf9-fdb97e1a4f56",
+      "id": "502045ce-24f4-4563-acf9-fdb97e1a4f56",
       "ward_no": "3",
-      "ward_name_en": "Kaliyar Estate",
-      "ward_name_ml": "കാളിയാര്‍ എസ്റ്റേറ്"
+      "name_en": "Kaliyar Estate",
+      "name_ml": "കാളിയാര്‍ എസ്റ്റേറ്"
     },
     {
-      "ward_id": "f307e745-fd6f-4d10-b730-da1b3b94851b",
+      "id": "f307e745-fd6f-4d10-b730-da1b3b94851b",
       "ward_no": "4",
-      "ward_name_en": "Koduvely",
-      "ward_name_ml": "കൊടുവേലി"
+      "name_en": "Koduvely",
+      "name_ml": "കൊടുവേലി"
     },
     {
-      "ward_id": "a0f9d296-be4a-44c4-9664-e85087b3bca7",
+      "id": "a0f9d296-be4a-44c4-9664-e85087b3bca7",
       "ward_no": "5",
-      "ward_name_en": "Kodikulam",
-      "ward_name_ml": "കോടിക്കുളം"
+      "name_en": "Kodikulam",
+      "name_ml": "കോടിക്കുളം"
     },
     {
-      "ward_id": "71990489-b0b2-4c8e-b27a-9613de91ce64",
+      "id": "71990489-b0b2-4c8e-b27a-9613de91ce64",
       "ward_no": "6",
-      "ward_name_en": "Cheriyanpara",
-      "ward_name_ml": "ചെരിയന്‍പാറ"
+      "name_en": "Cheriyanpara",
+      "name_ml": "ചെരിയന്‍പാറ"
     },
     {
-      "ward_id": "b05b14fc-05cd-403c-9fa2-d23edded5b3f",
+      "id": "b05b14fc-05cd-403c-9fa2-d23edded5b3f",
       "ward_no": "7",
-      "ward_name_en": "Vellamchira",
-      "ward_name_ml": "വെള്ളംചിറ"
+      "name_en": "Vellamchira",
+      "name_ml": "വെള്ളംചിറ"
     },
     {
-      "ward_id": "02e2d610-2a4d-4bde-9167-981f505e77be",
+      "id": "02e2d610-2a4d-4bde-9167-981f505e77be",
       "ward_no": "8",
-      "ward_name_en": "Nedumattom",
-      "ward_name_ml": "നെടുമറ്റം"
+      "name_en": "Nedumattom",
+      "name_ml": "നെടുമറ്റം"
     },
     {
-      "ward_id": "8af7b099-bd8c-4e75-a0ac-5c3e373a3635",
+      "id": "8af7b099-bd8c-4e75-a0ac-5c3e373a3635",
       "ward_no": "9",
-      "ward_name_en": "Vandamattom",
-      "ward_name_ml": "വണ്ടമറ്റം"
+      "name_en": "Vandamattom",
+      "name_ml": "വണ്ടമറ്റം"
     },
     {
-      "ward_id": "da8d32f8-df66-407c-9f5b-e590ccd5d02d",
+      "id": "da8d32f8-df66-407c-9f5b-e590ccd5d02d",
       "ward_no": "10",
-      "ward_name_en": "Irampilly",
-      "ward_name_ml": "ഐരാംപിള്ളി"
+      "name_en": "Irampilly",
+      "name_ml": "ഐരാംപിള്ളി"
     },
     {
-      "ward_id": "506bbbc1-ae42-455c-9b4a-9dae1e127315",
+      "id": "506bbbc1-ae42-455c-9b4a-9dae1e127315",
       "ward_no": "11",
-      "ward_name_en": "Cheruthottinkara",
-      "ward_name_ml": "ചെറുതോട്ടിന്‍കര"
+      "name_en": "Cheruthottinkara",
+      "name_ml": "ചെറുതോട്ടിന്‍കര"
     },
     {
-      "ward_id": "9bef36a1-33e6-42f4-9c03-9bb7ad500b01",
+      "id": "9bef36a1-33e6-42f4-9c03-9bb7ad500b01",
       "ward_no": "12",
-      "ward_name_en": "Irampilly West",
-      "ward_name_ml": "ഐരാമ്പിള്ളി വെസ്റ്റ്"
+      "name_en": "Irampilly West",
+      "name_ml": "ഐരാമ്പിള്ളി വെസ്റ്റ്"
     },
     {
-      "ward_id": "61ccad08-7f39-4215-bf7a-469b76728088",
+      "id": "61ccad08-7f39-4215-bf7a-469b76728088",
       "ward_no": "13",
-      "ward_name_en": "West Kodikulam",
-      "ward_name_ml": "പടിഞ്ഞാറെ കോടിക്കുളം"
+      "name_en": "West Kodikulam",
+      "name_ml": "പടിഞ്ഞാറെ കോടിക്കുളം"
     }
   ],
   "towns": [],

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110202",
-  "local_body_name_en": "Edacheri",
-  "local_body_name_ml": "എടച്ചേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "22",
-    "assembly_name_en": "Nadapuram",
-    "assembly_name_ml": "നാദാപുരം",
+  "id": "G110202",
+  "name_en": "Edacheri",
+  "name_ml": "എടച്ചേരി",
+  "assembly_id": "22",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "22",
+    "name_en": "Nadapuram",
+    "name_ml": "നാദാപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e5f503d8-cf13-4d61-a04c-dfdd8526c7e1",
+      "id": "e5f503d8-cf13-4d61-a04c-dfdd8526c7e1",
       "ward_no": "1",
-      "ward_name_en": "Kayappanachi",
-      "ward_name_ml": "കായപ്പനച്ചി"
+      "name_en": "Kayappanachi",
+      "name_ml": "കായപ്പനച്ചി"
     },
     {
-      "ward_id": "60c7dcb7-251a-4415-afed-845b88695c36",
+      "id": "60c7dcb7-251a-4415-afed-845b88695c36",
       "ward_no": "2",
-      "ward_name_en": "Iringannur West",
-      "ward_name_ml": "ഇരിങ്ങണ്ണൂര്‍ വെസ്റ്റ്"
+      "name_en": "Iringannur West",
+      "name_ml": "ഇരിങ്ങണ്ണൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "6d4fbe80-ef82-4a31-94e9-88d86ee58685",
+      "id": "6d4fbe80-ef82-4a31-94e9-88d86ee58685",
       "ward_no": "3",
-      "ward_name_en": "Iringannur High School",
-      "ward_name_ml": "ഇരിങ്ങണ്ണൂര്‍ ഹൈസ്കൂള്‍"
+      "name_en": "Iringannur High School",
+      "name_ml": "ഇരിങ്ങണ്ണൂര്‍ ഹൈസ്കൂള്‍"
     },
     {
-      "ward_id": "4d532395-a831-4429-949c-0c46e79c9f5b",
+      "id": "4d532395-a831-4429-949c-0c46e79c9f5b",
       "ward_no": "4",
-      "ward_name_en": "Iringannur",
-      "ward_name_ml": "ഇരിങ്ങണ്ണൂര്‍"
+      "name_en": "Iringannur",
+      "name_ml": "ഇരിങ്ങണ്ണൂര്‍"
     },
     {
-      "ward_id": "9e425fe6-266b-4673-b315-b7060b6d00f3",
+      "id": "9e425fe6-266b-4673-b315-b7060b6d00f3",
       "ward_no": "5",
-      "ward_name_en": "Health Center",
-      "ward_name_ml": "ഹെല്‍ത്ത് സെന്റര്‍"
+      "name_en": "Health Center",
+      "name_ml": "ഹെല്‍ത്ത് സെന്റര്‍"
     },
     {
-      "ward_id": "0732ed31-24f6-4fd7-98d8-ae933451501a",
+      "id": "0732ed31-24f6-4fd7-98d8-ae933451501a",
       "ward_no": "6",
-      "ward_name_en": "Kottembram",
-      "ward_name_ml": "കോട്ടേബ്രം"
+      "name_en": "Kottembram",
+      "name_ml": "കോട്ടേബ്രം"
     },
     {
-      "ward_id": "135baaef-cb72-4332-8083-0fc9d2577d88",
+      "id": "135baaef-cb72-4332-8083-0fc9d2577d88",
       "ward_no": "7",
-      "ward_name_en": "Kacheri",
-      "ward_name_ml": "കച്ചേരി"
+      "name_en": "Kacheri",
+      "name_ml": "കച്ചേരി"
     },
     {
-      "ward_id": "d427d55a-c181-4282-968a-ea5f5be15395",
+      "id": "d427d55a-c181-4282-968a-ea5f5be15395",
       "ward_no": "8",
-      "ward_name_en": "Edacheri North",
-      "ward_name_ml": "എടച്ചേരി നോര്‍ത്ത്"
+      "name_en": "Edacheri North",
+      "name_ml": "എടച്ചേരി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "e5b59af2-dc54-4437-b8e6-5ea70c58cbc3",
+      "id": "e5b59af2-dc54-4437-b8e6-5ea70c58cbc3",
       "ward_no": "9",
-      "ward_name_en": "Chundayil",
-      "ward_name_ml": "ചുണ്ടയില്‍"
+      "name_en": "Chundayil",
+      "name_ml": "ചുണ്ടയില്‍"
     },
     {
-      "ward_id": "8724f11b-7f77-4967-9e4b-c5ca4867e77a",
+      "id": "8724f11b-7f77-4967-9e4b-c5ca4867e77a",
       "ward_no": "10",
-      "ward_name_en": "Aalissery",
-      "ward_name_ml": "ആലിശ്ശേരി"
+      "name_en": "Aalissery",
+      "name_ml": "ആലിശ്ശേരി"
     },
     {
-      "ward_id": "1c8a2a62-a652-4a8e-9dab-5d469fe02f0a",
+      "id": "1c8a2a62-a652-4a8e-9dab-5d469fe02f0a",
       "ward_no": "11",
-      "ward_name_en": "Thalayi North",
-      "ward_name_ml": "തലായി നോര്‍ത്ത്"
+      "name_en": "Thalayi North",
+      "name_ml": "തലായി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "24c9d68a-91c8-4371-9e11-dcca7100ed80",
+      "id": "24c9d68a-91c8-4371-9e11-dcca7100ed80",
       "ward_no": "12",
-      "ward_name_en": "Thalayi",
-      "ward_name_ml": "തലായി"
+      "name_en": "Thalayi",
+      "name_ml": "തലായി"
     },
     {
-      "ward_id": "d00e8a22-0937-42ea-8338-ec7a413c357f",
+      "id": "d00e8a22-0937-42ea-8338-ec7a413c357f",
       "ward_no": "13",
-      "ward_name_en": "Narikkunnu",
-      "ward_name_ml": "നരിക്കുന്ന്"
+      "name_en": "Narikkunnu",
+      "name_ml": "നരിക്കുന്ന്"
     },
     {
-      "ward_id": "4a19633d-e76a-4a81-90ff-253853c4639b",
+      "id": "4a19633d-e76a-4a81-90ff-253853c4639b",
       "ward_no": "14",
-      "ward_name_en": "Kaliyam Velli",
-      "ward_name_ml": "കളിയാംവെള്ളി"
+      "name_en": "Kaliyam Velli",
+      "name_ml": "കളിയാംവെള്ളി"
     },
     {
-      "ward_id": "6229dd0f-6f34-4bde-b20f-db0cd707ca25",
+      "id": "6229dd0f-6f34-4bde-b20f-db0cd707ca25",
       "ward_no": "15",
-      "ward_name_en": "Kakkannur`",
-      "ward_name_ml": "കാക്കന്നൂര്‍"
+      "name_en": "Kakkannur`",
+      "name_ml": "കാക്കന്നൂര്‍"
     },
     {
-      "ward_id": "313f39b0-a6f1-40e5-8975-2672f0bc8335",
+      "id": "313f39b0-a6f1-40e5-8975-2672f0bc8335",
       "ward_no": "16",
-      "ward_name_en": "Edacheri Central",
-      "ward_name_ml": "എടച്ചേരി സെന്‍ട്രല്‍"
+      "name_en": "Edacheri Central",
+      "name_ml": "എടച്ചേരി സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "704ee59e-f09a-49e6-a7a4-cd2e7d1a3064",
+      "id": "704ee59e-f09a-49e6-a7a4-cd2e7d1a3064",
       "ward_no": "17",
-      "ward_name_en": "Thuruthi",
-      "ward_name_ml": "തുരുത്തി"
+      "name_en": "Thuruthi",
+      "name_ml": "തുരുത്തി"
     }
   ],
   "towns": [],

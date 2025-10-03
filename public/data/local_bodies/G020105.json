@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G020105",
-  "local_body_name_en": "Alappad",
-  "local_body_name_ml": "ആലപ്പാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G020105",
+  "name_en": "Alappad",
+  "name_ml": "ആലപ്പാട്",
+  "assembly_id": "116",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "116",
-    "assembly_name_en": "Karunagapally",
-    "assembly_name_ml": "കരുനാഗപ്പള്ളി",
-    "category": "Normal"
+    "id": "116",
+    "name_en": "Karunagapally",
+    "name_ml": "കരുനാഗപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ae8eb7b7-9872-4699-8aa6-16d3f452ba0f",
+      "id": "ae8eb7b7-9872-4699-8aa6-16d3f452ba0f",
       "ward_no": "1",
-      "ward_name_en": "Azheekal-A",
-      "ward_name_ml": "അഴീക്കല്‍-എ"
+      "name_en": "Azheekal-A",
+      "name_ml": "അഴീക്കല്‍-എ"
     },
     {
-      "ward_id": "7bf60be4-e75e-486c-86b3-4840e6a500b1",
+      "id": "7bf60be4-e75e-486c-86b3-4840e6a500b1",
       "ward_no": "2",
-      "ward_name_en": "Azheekal-B",
-      "ward_name_ml": "അഴീക്കല്‍-ബി"
+      "name_en": "Azheekal-B",
+      "name_ml": "അഴീക്കല്‍-ബി"
     },
     {
-      "ward_id": "8bb49f1d-2bcd-4435-bf9a-7baeea1b522a",
+      "id": "8bb49f1d-2bcd-4435-bf9a-7baeea1b522a",
       "ward_no": "3",
-      "ward_name_en": "Azheekal-C",
-      "ward_name_ml": "അഴീക്കല്‍-സി"
+      "name_en": "Azheekal-C",
+      "name_ml": "അഴീക്കല്‍-സി"
     },
     {
-      "ward_id": "7b4e726e-9423-4321-84cf-3c684a5a69e6",
+      "id": "7b4e726e-9423-4321-84cf-3c684a5a69e6",
       "ward_no": "4",
-      "ward_name_en": "Azheekal-D",
-      "ward_name_ml": "അഴീക്കല്‍-ഡി"
+      "name_en": "Azheekal-D",
+      "name_ml": "അഴീക്കല്‍-ഡി"
     },
     {
-      "ward_id": "fb1bab45-d764-41a3-9335-837d65ff58ce",
+      "id": "fb1bab45-d764-41a3-9335-837d65ff58ce",
       "ward_no": "5",
-      "ward_name_en": "Azheekal-E",
-      "ward_name_ml": "അഴീക്കല്‍-ഇ"
+      "name_en": "Azheekal-E",
+      "name_ml": "അഴീക്കല്‍-ഇ"
     },
     {
-      "ward_id": "b877ca21-b4ed-4184-b3ea-3e9a2351f7a9",
+      "id": "b877ca21-b4ed-4184-b3ea-3e9a2351f7a9",
       "ward_no": "6",
-      "ward_name_en": "Srayikkad",
-      "ward_name_ml": "ശ്രായിക്കാട്"
+      "name_en": "Srayikkad",
+      "name_ml": "ശ്രായിക്കാട്"
     },
     {
-      "ward_id": "c2dc4a83-08f7-4543-8bf8-2e096fd88f9f",
+      "id": "c2dc4a83-08f7-4543-8bf8-2e096fd88f9f",
       "ward_no": "7",
-      "ward_name_en": "Parayakadavu",
-      "ward_name_ml": "പറയകടവ്"
+      "name_en": "Parayakadavu",
+      "name_ml": "പറയകടവ്"
     },
     {
-      "ward_id": "bb1e9c24-6f5e-4875-ad41-862b6306e091",
+      "id": "bb1e9c24-6f5e-4875-ad41-862b6306e091",
       "ward_no": "8",
-      "ward_name_en": "Kuzhithura",
-      "ward_name_ml": "കുഴിത്തുറ"
+      "name_en": "Kuzhithura",
+      "name_ml": "കുഴിത്തുറ"
     },
     {
-      "ward_id": "ff685af2-a276-46ce-bd3d-d9a5d0e9bc67",
+      "id": "ff685af2-a276-46ce-bd3d-d9a5d0e9bc67",
       "ward_no": "9",
-      "ward_name_en": "Alappad",
-      "ward_name_ml": "ആലപ്പാട്"
+      "name_en": "Alappad",
+      "name_ml": "ആലപ്പാട്"
     },
     {
-      "ward_id": "2b86176a-3bfa-4c7e-b498-f15a2d2f4d25",
+      "id": "2b86176a-3bfa-4c7e-b498-f15a2d2f4d25",
       "ward_no": "10",
-      "ward_name_en": "Cheriazheekal-A",
-      "ward_name_ml": "ചെറിയഴീക്കല്‍-എ"
+      "name_en": "Cheriazheekal-A",
+      "name_ml": "ചെറിയഴീക്കല്‍-എ"
     },
     {
-      "ward_id": "290f69e8-2d6f-4d44-91d0-9e94489981b4",
+      "id": "290f69e8-2d6f-4d44-91d0-9e94489981b4",
       "ward_no": "11",
-      "ward_name_en": "Cheriazheekal-B",
-      "ward_name_ml": "ചെറിയഴീക്കല്‍-ബി"
+      "name_en": "Cheriazheekal-B",
+      "name_ml": "ചെറിയഴീക്കല്‍-ബി"
     },
     {
-      "ward_id": "b19ee39e-a175-4587-89ed-e730b75eb228",
+      "id": "b19ee39e-a175-4587-89ed-e730b75eb228",
       "ward_no": "12",
-      "ward_name_en": "Cheriazheekal-C",
-      "ward_name_ml": "ചെറിയഴീക്കല്‍-സി"
+      "name_en": "Cheriazheekal-C",
+      "name_ml": "ചെറിയഴീക്കല്‍-സി"
     },
     {
-      "ward_id": "df972645-abe5-4346-a603-dc3ce45cf60e",
+      "id": "df972645-abe5-4346-a603-dc3ce45cf60e",
       "ward_no": "13",
-      "ward_name_en": "Kochu Oachira",
-      "ward_name_ml": "കൊച്ച് ഓച്ചിറ"
+      "name_en": "Kochu Oachira",
+      "name_ml": "കൊച്ച് ഓച്ചിറ"
     },
     {
-      "ward_id": "4393cb27-2aa6-4d33-97cc-bf0c28b0b2ee",
+      "id": "4393cb27-2aa6-4d33-97cc-bf0c28b0b2ee",
       "ward_no": "14",
-      "ward_name_en": "Pandaraturuth-A",
-      "ward_name_ml": "പണ്ടാരതുരുത്ത്-എ"
+      "name_en": "Pandaraturuth-A",
+      "name_ml": "പണ്ടാരതുരുത്ത്-എ"
     },
     {
-      "ward_id": "2bb251ae-b354-442f-b271-d6c541f492db",
+      "id": "2bb251ae-b354-442f-b271-d6c541f492db",
       "ward_no": "15",
-      "ward_name_en": "Mookkumpuzha",
-      "ward_name_ml": "മൂക്കുംപുഴ"
+      "name_en": "Mookkumpuzha",
+      "name_ml": "മൂക്കുംപുഴ"
     },
     {
-      "ward_id": "d2d3de4f-7962-4037-a334-efbac6c02d10",
+      "id": "d2d3de4f-7962-4037-a334-efbac6c02d10",
       "ward_no": "16",
-      "ward_name_en": "Vellanathuruthu",
-      "ward_name_ml": "വെള്ളനാതുരുത്ത്"
+      "name_en": "Vellanathuruthu",
+      "name_ml": "വെള്ളനാതുരുത്ത്"
     }
   ],
   "towns": [],

@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G050402",
-  "local_body_name_en": "Marangattupilly",
-  "local_body_name_ml": "മരങ്ങാട്ടുപിള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050402",
+  "name_en": "Marangattupilly",
+  "name_ml": "മരങ്ങാട്ടുപിള്ളി",
+  "assembly_id": "94",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "94",
-    "assembly_name_en": "Kaduthuruthy",
-    "assembly_name_ml": "കടുത്തുരുത്തി",
-    "category": "Normal"
+    "id": "94",
+    "name_en": "Kaduthuruthy",
+    "name_ml": "കടുത്തുരുത്തി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "07e4cfdc-37b0-4340-957f-faeb11199f30",
+      "id": "07e4cfdc-37b0-4340-957f-faeb11199f30",
       "ward_no": "1",
-      "ward_name_en": "Kurianad",
-      "ward_name_ml": "കുര്യനാട്"
+      "name_en": "Kurianad",
+      "name_ml": "കുര്യനാട്"
     },
     {
-      "ward_id": "e52ef7cb-9bd4-427c-84cf-0791d809ae18",
+      "id": "e52ef7cb-9bd4-427c-84cf-0791d809ae18",
       "ward_no": "2",
-      "ward_name_en": "Poovathumkal",
-      "ward_name_ml": "പൂവത്തുങ്കല്‍"
+      "name_en": "Poovathumkal",
+      "name_ml": "പൂവത്തുങ്കല്‍"
     },
     {
-      "ward_id": "43e42a4a-320f-465f-9ced-d60c07986a39",
+      "id": "43e42a4a-320f-465f-9ced-d60c07986a39",
       "ward_no": "3",
-      "ward_name_en": "Kurichithanam",
-      "ward_name_ml": "കുറിച്ചിത്താനം"
+      "name_en": "Kurichithanam",
+      "name_ml": "കുറിച്ചിത്താനം"
     },
     {
-      "ward_id": "cdb498ff-6d3b-490e-b3b7-ca647bdbcfcf",
+      "id": "cdb498ff-6d3b-490e-b3b7-ca647bdbcfcf",
       "ward_no": "4",
-      "ward_name_en": "Nellithanathumala",
-      "ward_name_ml": "നെല്ലിത്താനത്തുമല"
+      "name_en": "Nellithanathumala",
+      "name_ml": "നെല്ലിത്താനത്തുമല"
     },
     {
-      "ward_id": "f224292a-c385-4375-b542-d1fdd72004d8",
+      "id": "f224292a-c385-4375-b542-d1fdd72004d8",
       "ward_no": "5",
-      "ward_name_en": "Irumukham",
-      "ward_name_ml": "ഇരുമുഖം"
+      "name_en": "Irumukham",
+      "name_ml": "ഇരുമുഖം"
     },
     {
-      "ward_id": "bed61bcb-2a4c-4da6-91e4-43e88eb3f28e",
+      "id": "bed61bcb-2a4c-4da6-91e4-43e88eb3f28e",
       "ward_no": "6",
-      "ward_name_en": "Palakkattumala",
-      "ward_name_ml": "പാലക്കാട്ടുമല"
+      "name_en": "Palakkattumala",
+      "name_ml": "പാലക്കാട്ടുമല"
     },
     {
-      "ward_id": "61e0ba81-b016-4e8c-9d73-007feeeebda8",
+      "id": "61e0ba81-b016-4e8c-9d73-007feeeebda8",
       "ward_no": "7",
-      "ward_name_en": "Andoor",
-      "ward_name_ml": "ആണ്ടൂര്‍"
+      "name_en": "Andoor",
+      "name_ml": "ആണ്ടൂര്‍"
     },
     {
-      "ward_id": "3e478f81-7ae7-4d43-8d91-b84676aa2d2e",
+      "id": "3e478f81-7ae7-4d43-8d91-b84676aa2d2e",
       "ward_no": "8",
-      "ward_name_en": "Marangattupilly",
-      "ward_name_ml": "മരങ്ങാട്ടുപിള്ളി"
+      "name_en": "Marangattupilly",
+      "name_ml": "മരങ്ങാട്ടുപിള്ളി"
     },
     {
-      "ward_id": "dd1bc587-1cb0-4069-957d-0c15e4d9d0e9",
+      "id": "dd1bc587-1cb0-4069-957d-0c15e4d9d0e9",
       "ward_no": "9",
-      "ward_name_en": "Paikkad",
-      "ward_name_ml": "പൈക്കാട്"
+      "name_en": "Paikkad",
+      "name_ml": "പൈക്കാട്"
     },
     {
-      "ward_id": "da53bab4-1694-4e4f-a3d8-ce50348db653",
+      "id": "da53bab4-1694-4e4f-a3d8-ce50348db653",
       "ward_no": "10",
-      "ward_name_en": "Mannackanad",
-      "ward_name_ml": "മണ്ണയ്ക്കനാട്"
+      "name_en": "Mannackanad",
+      "name_ml": "മണ്ണയ്ക്കനാട്"
     },
     {
-      "ward_id": "72ce4b00-a9a7-41ad-a6e4-f38b3d1e2f30",
+      "id": "72ce4b00-a9a7-41ad-a6e4-f38b3d1e2f30",
       "ward_no": "11",
-      "ward_name_en": "Valiyapara",
-      "ward_name_ml": "വലിയപാറ"
+      "name_en": "Valiyapara",
+      "name_ml": "വലിയപാറ"
     },
     {
-      "ward_id": "f298da14-6226-448d-a2d6-ec531fb85862",
+      "id": "f298da14-6226-448d-a2d6-ec531fb85862",
       "ward_no": "12",
-      "ward_name_en": "Cheruvally",
-      "ward_name_ml": "ചെറുവള്ളി"
+      "name_en": "Cheruvally",
+      "name_ml": "ചെറുവള്ളി"
     },
     {
-      "ward_id": "710a7368-a744-4da1-abd8-cce171c5f69c",
+      "id": "710a7368-a744-4da1-abd8-cce171c5f69c",
       "ward_no": "13",
-      "ward_name_en": "Valakuzhi",
-      "ward_name_ml": "വളകുളി"
+      "name_en": "Valakuzhi",
+      "name_ml": "വളകുളി"
     },
     {
-      "ward_id": "32a7aaf5-85e2-4194-9f7e-20e7a59b27fc",
+      "id": "32a7aaf5-85e2-4194-9f7e-20e7a59b27fc",
       "ward_no": "14",
-      "ward_name_en": "Pavackal",
-      "ward_name_ml": "പാവയ്ക്കല്‍"
+      "name_en": "Pavackal",
+      "name_ml": "പാവയ്ക്കല്‍"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030101",
-  "local_body_name_en": "Anicadu",
-  "local_body_name_ml": "ആനിക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "111",
-    "assembly_name_en": "Thiruvalla",
-    "assembly_name_ml": "തിരുവല്ല",
+  "id": "G030101",
+  "name_en": "Anicadu",
+  "name_ml": "ആനിക്കാട്",
+  "assembly_id": "111",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "111",
+    "name_en": "Thiruvalla",
+    "name_ml": "തിരുവല്ല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e1dba988-4e91-494c-9f70-2321237ed413",
+      "id": "e1dba988-4e91-494c-9f70-2321237ed413",
       "ward_no": "1",
-      "ward_name_en": "Nallorppadavu",
-      "ward_name_ml": "നല്ലൂര്‍പ്പടവ്"
+      "name_en": "Nallorppadavu",
+      "name_ml": "നല്ലൂര്‍പ്പടവ്"
     },
     {
-      "ward_id": "62f31146-f0e4-4895-8a88-2b470999a9e4",
+      "id": "62f31146-f0e4-4895-8a88-2b470999a9e4",
       "ward_no": "2",
-      "ward_name_en": "Valliyakulam",
-      "ward_name_ml": "വള്ളിയാകുളം"
+      "name_en": "Valliyakulam",
+      "name_ml": "വള്ളിയാകുളം"
     },
     {
-      "ward_id": "2fad4097-3461-4ecb-a97c-27e786e959ef",
+      "id": "2fad4097-3461-4ecb-a97c-27e786e959ef",
       "ward_no": "3",
-      "ward_name_en": "Anicadu",
-      "ward_name_ml": "ആനിക്കാട്"
+      "name_en": "Anicadu",
+      "name_ml": "ആനിക്കാട്"
     },
     {
-      "ward_id": "091bf6ac-46df-468d-8550-672e2a60a05f",
+      "id": "091bf6ac-46df-468d-8550-672e2a60a05f",
       "ward_no": "4",
-      "ward_name_en": "Noorommavu",
-      "ward_name_ml": "നൂറോമ്മാവ്"
+      "name_en": "Noorommavu",
+      "name_ml": "നൂറോമ്മാവ്"
     },
     {
-      "ward_id": "f21f1ded-c3b6-41b9-ada8-e5fa608fa3d0",
+      "id": "f21f1ded-c3b6-41b9-ada8-e5fa608fa3d0",
       "ward_no": "5",
-      "ward_name_en": "Punnavely",
-      "ward_name_ml": "പുന്നവേലി"
+      "name_en": "Punnavely",
+      "name_ml": "പുന്നവേലി"
     },
     {
-      "ward_id": "af112869-d98c-437e-a129-bbab5b8130fc",
+      "id": "af112869-d98c-437e-a129-bbab5b8130fc",
       "ward_no": "6",
-      "ward_name_en": "Kurunnamvely",
-      "ward_name_ml": "കുരുന്നംവേലി"
+      "name_en": "Kurunnamvely",
+      "name_ml": "കുരുന്നംവേലി"
     },
     {
-      "ward_id": "89aea961-c108-4e5f-8b65-b796bb132ac1",
+      "id": "89aea961-c108-4e5f-8b65-b796bb132ac1",
       "ward_no": "7",
-      "ward_name_en": "Vaipur",
-      "ward_name_ml": "വായ്പൂര്"
+      "name_en": "Vaipur",
+      "name_ml": "വായ്പൂര്"
     },
     {
-      "ward_id": "c5eb5ce7-fc7e-40ed-8c1d-99aaf38779a3",
+      "id": "c5eb5ce7-fc7e-40ed-8c1d-99aaf38779a3",
       "ward_no": "8",
-      "ward_name_en": "Vadakkemury",
-      "ward_name_ml": "വടക്കേമുറി"
+      "name_en": "Vadakkemury",
+      "name_ml": "വടക്കേമുറി"
     },
     {
-      "ward_id": "fa719e38-2dc3-4a1a-9bc9-036b8f1158d0",
+      "id": "fa719e38-2dc3-4a1a-9bc9-036b8f1158d0",
       "ward_no": "9",
-      "ward_name_en": "Pulickamala",
-      "ward_name_ml": "പുളിക്കാമല"
+      "name_en": "Pulickamala",
+      "name_ml": "പുളിക്കാമല"
     },
     {
-      "ward_id": "0bb9a37d-537c-4042-97d1-a00b1e49e554",
+      "id": "0bb9a37d-537c-4042-97d1-a00b1e49e554",
       "ward_no": "10",
-      "ward_name_en": "Pullukuthi",
-      "ward_name_ml": "പുല്ലുകുത്തി"
+      "name_en": "Pullukuthi",
+      "name_ml": "പുല്ലുകുത്തി"
     },
     {
-      "ward_id": "1da41386-4596-4092-b961-66abeacdb056",
+      "id": "1da41386-4596-4092-b961-66abeacdb056",
       "ward_no": "11",
-      "ward_name_en": "Poovanpara",
-      "ward_name_ml": "പൂവന്‍പാറ"
+      "name_en": "Poovanpara",
+      "name_ml": "പൂവന്‍പാറ"
     },
     {
-      "ward_id": "55739ff8-1d6f-4299-ac28-fcb4b5d8029e",
+      "id": "55739ff8-1d6f-4299-ac28-fcb4b5d8029e",
       "ward_no": "12",
-      "ward_name_en": "Pathikkadu",
-      "ward_name_ml": "പാതിക്കാട്"
+      "name_en": "Pathikkadu",
+      "name_ml": "പാതിക്കാട്"
     },
     {
-      "ward_id": "f9a7ae08-1a8e-420a-a21f-bd2c41a9665a",
+      "id": "f9a7ae08-1a8e-420a-a21f-bd2c41a9665a",
       "ward_no": "13",
-      "ward_name_en": "Marrickal",
-      "ward_name_ml": "മാരിക്കല്‍"
+      "name_en": "Marrickal",
+      "name_ml": "മാരിക്കല്‍"
     }
   ],
   "towns": [],

@@ -1,93 +1,123 @@
 {
-  "district_id": "7",
-  "district_name_en": "Ernakulam",
-  "district_name_ml": "എറണാകുളം",
+  "id": "7",
+  "name_en": "Ernakulam",
+  "name_ml": "എറണാകുളം",
   "is_active": false,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "74",
-      "assembly_name_en": "Perumbavoor",
-      "assembly_name_ml": "പെരുമ്പാവൂര്‍",
-      "category": "Normal"
+      "id": "74",
+      "name_en": "Perumbavoor",
+      "name_ml": "പെരുമ്പാവൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "75",
-      "assembly_name_en": "Angamaly",
-      "assembly_name_ml": "അങ്കമാലി",
-      "category": "Normal"
+      "id": "75",
+      "name_en": "Angamaly",
+      "name_ml": "അങ്കമാലി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "76",
-      "assembly_name_en": "Aluva",
-      "assembly_name_ml": "ആലുവ",
-      "category": "Normal"
+      "id": "76",
+      "name_en": "Aluva",
+      "name_ml": "ആലുവ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "77",
-      "assembly_name_en": "Kalamassery",
-      "assembly_name_ml": "കളമശ്ശേരി",
-      "category": "Normal"
+      "id": "77",
+      "name_en": "Kalamassery",
+      "name_ml": "കളമശ്ശേരി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "78",
-      "assembly_name_en": "Paravur",
-      "assembly_name_ml": "പരവൂര്‍",
-      "category": "Normal"
+      "id": "78",
+      "name_en": "Paravur",
+      "name_ml": "പരവൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "79",
-      "assembly_name_en": "Vypin",
-      "assembly_name_ml": "വൈപ്പിൻ",
-      "category": "Normal"
+      "id": "79",
+      "name_en": "Vypin",
+      "name_ml": "വൈപ്പിൻ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "80",
-      "assembly_name_en": "Kochi",
-      "assembly_name_ml": "കൊച്ചി",
-      "category": "Normal"
+      "id": "80",
+      "name_en": "Kochi",
+      "name_ml": "കൊച്ചി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "81",
-      "assembly_name_en": "Thrippunithura",
-      "assembly_name_ml": "തൃപ്പൂണിത്തുറ",
-      "category": "Normal"
+      "id": "81",
+      "name_en": "Thrippunithura",
+      "name_ml": "തൃപ്പൂണിത്തുറ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "82",
-      "assembly_name_en": "Ernakulam",
-      "assembly_name_ml": "എറണാകുളം",
-      "category": "Good"
+      "id": "82",
+      "name_en": "Ernakulam",
+      "name_ml": "എറണാകുളം",
+      "assembly_category": {
+        "category": "Good"
+      }
     },
     {
-      "assembly_id": "83",
-      "assembly_name_en": "Thrikkakara",
-      "assembly_name_ml": "തൃക്കാക്കര",
-      "category": "Perfect"
+      "id": "83",
+      "name_en": "Thrikkakara",
+      "name_ml": "തൃക്കാക്കര",
+      "assembly_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "assembly_id": "84",
-      "assembly_name_en": "Kunnathunad",
-      "assembly_name_ml": "കുന്നത്തുനാട്",
-      "category": "Normal"
+      "id": "84",
+      "name_en": "Kunnathunad",
+      "name_ml": "കുന്നത്തുനാട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "85",
-      "assembly_name_en": "Piravom",
-      "assembly_name_ml": "പിറവം",
-      "category": "Normal"
+      "id": "85",
+      "name_en": "Piravom",
+      "name_ml": "പിറവം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "86",
-      "assembly_name_en": "Muvattupuzha",
-      "assembly_name_ml": "മൂവാറ്റുപുഴ",
-      "category": "Normal"
+      "id": "86",
+      "name_en": "Muvattupuzha",
+      "name_ml": "മൂവാറ്റുപുഴ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "87",
-      "assembly_name_en": "Kothamangalam",
-      "assembly_name_ml": "കോതമംഗലം",
-      "category": "Normal"
+      "id": "87",
+      "name_en": "Kothamangalam",
+      "name_ml": "കോതമംഗലം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,68 +1,91 @@
 {
-  "assembly_id": "87",
-  "assembly_name_en": "Kothamangalam",
-  "assembly_name_ml": "കോതമംഗലം",
-  "category": "Normal",
+  "id": "87",
+  "name_en": "Kothamangalam",
+  "name_ml": "കോതമംഗലം",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G071105",
-      "local_body_name_en": "Kavalangad",
-      "local_body_name_ml": "കവളങ്ങാട്",
-      "category": "Good"
+      "id": "G071105",
+      "name_en": "Kavalangad",
+      "name_ml": "കവളങ്ങാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071107",
-      "local_body_name_en": "Keerampara",
-      "local_body_name_ml": "കീരംപാറ",
-      "category": "Good"
+      "id": "G071107",
+      "name_en": "Keerampara",
+      "name_ml": "കീരംപാറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M070200",
-      "local_body_name_en": "Kothamangalam",
-      "local_body_name_ml": "കോതമംഗലം",
-      "category": "Good"
+      "id": "M070200",
+      "name_en": "Kothamangalam",
+      "name_ml": "കോതമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071104",
-      "local_body_name_en": "Kottappady",
-      "local_body_name_ml": "കോട്ടപ്പടി",
-      "category": "Good"
+      "id": "G071104",
+      "name_en": "Kottappady",
+      "name_ml": "കോട്ടപ്പടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071110",
-      "local_body_name_en": "Kuttampuzha",
-      "local_body_name_ml": "കുട്ടമ്പുഴ",
-      "category": "Perfect"
+      "id": "G071110",
+      "name_en": "Kuttampuzha",
+      "name_ml": "കുട്ടമ്പുഴ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G071102",
-      "local_body_name_en": "Nellikuzhi",
-      "local_body_name_ml": "നെല്ലിക്കുഴി",
-      "category": "Normal"
+      "id": "G071102",
+      "name_en": "Nellikuzhi",
+      "name_ml": "നെല്ലിക്കുഴി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071109",
-      "local_body_name_en": "Pallarimangalam",
-      "local_body_name_ml": "പല്ലാരിമംഗലം",
-      "category": "Good"
+      "id": "G071109",
+      "name_en": "Pallarimangalam",
+      "name_ml": "പല്ലാരിമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071103",
-      "local_body_name_en": "Pindimana",
-      "local_body_name_ml": "പിണ്ടിമന",
-      "category": "Normal"
+      "id": "G071103",
+      "name_en": "Pindimana",
+      "name_ml": "പിണ്ടിമന",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071106",
-      "local_body_name_en": "Varappetty",
-      "local_body_name_ml": "വാരപ്പെട്ടി",
-      "category": "Perfect"
+      "id": "G071106",
+      "name_en": "Varappetty",
+      "name_ml": "വാരപ്പെട്ടി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

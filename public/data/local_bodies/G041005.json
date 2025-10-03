@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G041005",
-  "local_body_name_en": "Mannar",
-  "local_body_name_ml": "മാന്നാര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "110",
-    "assembly_name_en": "Chengannur",
-    "assembly_name_ml": "ചെങ്ങന്നൂർ",
+  "id": "G041005",
+  "name_en": "Mannar",
+  "name_ml": "മാന്നാര്‍",
+  "assembly_id": "110",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "110",
+    "name_en": "Chengannur",
+    "name_ml": "ചെങ്ങന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "cc77141a-7445-4a92-8f98-a90b1d6e3694",
+      "id": "cc77141a-7445-4a92-8f98-a90b1d6e3694",
       "ward_no": "1",
-      "ward_name_en": "Pavukara A",
-      "ward_name_ml": "പാവുക്കര എ"
+      "name_en": "Pavukara A",
+      "name_ml": "പാവുക്കര എ"
     },
     {
-      "ward_id": "d3555520-83c9-434f-a9cf-e8b2c3667275",
+      "id": "d3555520-83c9-434f-a9cf-e8b2c3667275",
       "ward_no": "2",
-      "ward_name_en": "Pavukara B",
-      "ward_name_ml": "പാവുക്കര ബി"
+      "name_en": "Pavukara B",
+      "name_ml": "പാവുക്കര ബി"
     },
     {
-      "ward_id": "12e50f2c-ec9c-43f5-a7ff-2e88eeac27de",
+      "id": "12e50f2c-ec9c-43f5-a7ff-2e88eeac27de",
       "ward_no": "3",
-      "ward_name_en": "Pavukara C",
-      "ward_name_ml": "പാവുക്കര സി"
+      "name_en": "Pavukara C",
+      "name_ml": "പാവുക്കര സി"
     },
     {
-      "ward_id": "6955cc7d-2edf-4218-bedf-5afb6f8bf423",
+      "id": "6955cc7d-2edf-4218-bedf-5afb6f8bf423",
       "ward_no": "4",
-      "ward_name_en": "Society Ward",
-      "ward_name_ml": "സൊസെെറ്റി വാര്‍ഡ്"
+      "name_en": "Society Ward",
+      "name_ml": "സൊസെെറ്റി വാര്‍ഡ്"
     },
     {
-      "ward_id": "e8ced969-e17e-48b5-8c86-aad264d13a7a",
+      "id": "e8ced969-e17e-48b5-8c86-aad264d13a7a",
       "ward_no": "5",
-      "ward_name_en": "Mannar Town",
-      "ward_name_ml": "മാന്നാര്‍ ടൌണ്‍"
+      "name_en": "Mannar Town",
+      "name_ml": "മാന്നാര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "18cfabc4-6a83-4ab7-9831-cd7a6ea68815",
+      "id": "18cfabc4-6a83-4ab7-9831-cd7a6ea68815",
       "ward_no": "6",
-      "ward_name_en": "Kurattikad A",
-      "ward_name_ml": "കുരട്ടിക്കാട് എ"
+      "name_en": "Kurattikad A",
+      "name_ml": "കുരട്ടിക്കാട് എ"
     },
     {
-      "ward_id": "8714850b-b6b0-432c-a76c-8a23f65fd7fe",
+      "id": "8714850b-b6b0-432c-a76c-8a23f65fd7fe",
       "ward_no": "7",
-      "ward_name_en": "Panchayat Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ആഫീസ് വാര്‍ഡ്"
+      "name_en": "Panchayat Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ആഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "0ce13343-db66-414a-838d-44b74f07a620",
+      "id": "0ce13343-db66-414a-838d-44b74f07a620",
       "ward_no": "8",
-      "ward_name_en": "Kurattikad B",
-      "ward_name_ml": "കുരട്ടിക്കാട് ബി"
+      "name_en": "Kurattikad B",
+      "name_ml": "കുരട്ടിക്കാട് ബി"
     },
     {
-      "ward_id": "b704c3bf-435d-49f8-a78e-2be43c137784",
+      "id": "b704c3bf-435d-49f8-a78e-2be43c137784",
       "ward_no": "9",
-      "ward_name_en": "Switch Gear Division",
-      "ward_name_ml": "സ്വിച്ച് ഗിയര്‍ ഡിവിഷന്‍"
+      "name_en": "Switch Gear Division",
+      "name_ml": "സ്വിച്ച് ഗിയര്‍ ഡിവിഷന്‍"
     },
     {
-      "ward_id": "a5e3e499-089f-480c-982f-f5a2c0c90c8e",
+      "id": "a5e3e499-089f-480c-982f-f5a2c0c90c8e",
       "ward_no": "10",
-      "ward_name_en": "Muttel Ward",
-      "ward_name_ml": "മുട്ടേല്‍ വാര്‍ഡ്"
+      "name_en": "Muttel Ward",
+      "name_ml": "മുട്ടേല്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "ac7afa5d-54de-4764-9901-d6861d8fe3da",
+      "id": "ac7afa5d-54de-4764-9901-d6861d8fe3da",
       "ward_no": "11",
-      "ward_name_en": "Kuttemperoor A",
-      "ward_name_ml": "കുട്ടംപേരൂര്‍ എ"
+      "name_en": "Kuttemperoor A",
+      "name_ml": "കുട്ടംപേരൂര്‍ എ"
     },
     {
-      "ward_id": "f557d7f8-b9b2-499f-8a59-36b06ad580e2",
+      "id": "f557d7f8-b9b2-499f-8a59-36b06ad580e2",
       "ward_no": "12",
-      "ward_name_en": "Kuttemperoor B",
-      "ward_name_ml": "കുട്ടംപേരൂര്‍ ബി"
+      "name_en": "Kuttemperoor B",
+      "name_ml": "കുട്ടംപേരൂര്‍ ബി"
     },
     {
-      "ward_id": "35f794e3-0e23-46c2-a994-7881b8922b9f",
+      "id": "35f794e3-0e23-46c2-a994-7881b8922b9f",
       "ward_no": "13",
-      "ward_name_en": "Kuttemperoor C",
-      "ward_name_ml": "കുട്ടംപേരൂര്‍  സി"
+      "name_en": "Kuttemperoor C",
+      "name_ml": "കുട്ടംപേരൂര്‍  സി"
     },
     {
-      "ward_id": "f2a8181b-f176-4539-9c27-a7990de7d77e",
+      "id": "f2a8181b-f176-4539-9c27-a7990de7d77e",
       "ward_no": "14",
-      "ward_name_en": "Kulanjikarazma",
-      "ward_name_ml": "കുളഞ്ഞികാരാഴ്മ"
+      "name_en": "Kulanjikarazma",
+      "name_ml": "കുളഞ്ഞികാരാഴ്മ"
     },
     {
-      "ward_id": "d314dc24-8c64-43a9-a529-05fa458232a4",
+      "id": "d314dc24-8c64-43a9-a529-05fa458232a4",
       "ward_no": "15",
-      "ward_name_en": "Kuttemperoor D",
-      "ward_name_ml": "കുട്ടംപേരൂര്‍ ഡി"
+      "name_en": "Kuttemperoor D",
+      "name_ml": "കുട്ടംപേരൂര്‍ ഡി"
     },
     {
-      "ward_id": "927c080b-4e01-41f9-8788-c52246b307e3",
+      "id": "927c080b-4e01-41f9-8788-c52246b307e3",
       "ward_no": "16",
-      "ward_name_en": "Homeo Hospital Ward",
-      "ward_name_ml": "ഹോമിയോ ആശുപത്രി വാര്‍ഡ്‌"
+      "name_en": "Homeo Hospital Ward",
+      "name_ml": "ഹോമിയോ ആശുപത്രി വാര്‍ഡ്‌"
     },
     {
-      "ward_id": "51a7f628-1955-4092-b77e-99c3ce0732e2",
+      "id": "51a7f628-1955-4092-b77e-99c3ce0732e2",
       "ward_no": "17",
-      "ward_name_en": "Town South",
-      "ward_name_ml": "ടൌണ്‍ സൗത്ത്"
+      "name_en": "Town South",
+      "name_ml": "ടൌണ്‍ സൗത്ത്"
     },
     {
-      "ward_id": "ffdff567-8f05-46d3-80b3-43f1f6f6518a",
+      "id": "ffdff567-8f05-46d3-80b3-43f1f6f6518a",
       "ward_no": "18",
-      "ward_name_en": "Town West",
-      "ward_name_ml": "ടൌണ്‍ വെസ്റ്റ്"
+      "name_en": "Town West",
+      "name_ml": "ടൌണ്‍ വെസ്റ്റ്"
     }
   ],
   "towns": [],

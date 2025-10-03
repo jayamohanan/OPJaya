@@ -1,74 +1,99 @@
 {
-  "assembly_id": "95",
-  "assembly_name_en": "Vaikom",
-  "assembly_name_ml": "വൈക്കം",
-  "category": "Normal",
+  "id": "95",
+  "name_en": "Vaikom",
+  "name_ml": "വൈക്കം",
+  "district_id": "5",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "district_category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G050102",
-      "local_body_name_en": "Chempu",
-      "local_body_name_ml": "ചെമ്പ്",
-      "category": "Normal"
+      "id": "G050102",
+      "name_en": "Chempu",
+      "name_ml": "ചെമ്പ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050202",
-      "local_body_name_en": "Kallara",
-      "local_body_name_ml": "കല്ലറ",
-      "category": "Good"
+      "id": "G050202",
+      "name_en": "Kallara",
+      "name_ml": "കല്ലറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050103",
-      "local_body_name_en": "Maravanthuruthu",
-      "local_body_name_ml": "മറവന്‍തുരുത്ത്",
-      "category": "Perfect"
+      "id": "G050103",
+      "name_en": "Maravanthuruthu",
+      "name_ml": "മറവന്‍തുരുത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050101",
-      "local_body_name_en": "Thalayazham",
-      "local_body_name_ml": "തലയാഴം",
-      "category": "Perfect"
+      "id": "G050101",
+      "name_en": "Thalayazham",
+      "name_ml": "തലയാഴം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050205",
-      "local_body_name_en": "Thalayolaparambu",
-      "local_body_name_ml": "തലയോലപ്പറമ്പ്",
-      "category": "Normal"
+      "id": "G050205",
+      "name_en": "Thalayolaparambu",
+      "name_ml": "തലയോലപ്പറമ്പ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050104",
-      "local_body_name_en": "TV Puram",
-      "local_body_name_ml": "ടി.വി.പുരം",
-      "category": "Normal"
+      "id": "G050104",
+      "name_en": "TV Puram",
+      "name_ml": "ടി.വി.പുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050106",
-      "local_body_name_en": "Udayanapuram",
-      "local_body_name_ml": "ഉദയനാപുരം",
-      "category": "Perfect"
+      "id": "G050106",
+      "name_en": "Udayanapuram",
+      "name_ml": "ഉദയനാപുരം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M050200",
-      "local_body_name_en": "Vaikom",
-      "local_body_name_ml": "വൈക്കം",
-      "category": "Normal"
+      "id": "M050200",
+      "name_en": "Vaikom",
+      "name_ml": "വൈക്കം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050105",
-      "local_body_name_en": "Vechoor",
-      "local_body_name_ml": "വെച്ചൂര്‍",
-      "category": "Normal"
+      "id": "G050105",
+      "name_en": "Vechoor",
+      "name_ml": "വെച്ചൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050206",
-      "local_body_name_en": "Velloor",
-      "local_body_name_ml": "വെള്ളൂര്‍",
-      "category": "Normal"
+      "id": "G050206",
+      "name_en": "Velloor",
+      "name_ml": "വെള്ളൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

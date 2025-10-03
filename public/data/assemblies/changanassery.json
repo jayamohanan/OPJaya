@@ -1,50 +1,67 @@
 {
-  "assembly_id": "99",
-  "assembly_name_en": "Changanassery",
-  "assembly_name_ml": "ചങ്ങനാശ്ശേരി",
-  "category": "Normal",
+  "id": "99",
+  "name_en": "Changanassery",
+  "name_ml": "ചങ്ങനാശ്ശേരി",
+  "district_id": "5",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "district_category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M050300",
-      "local_body_name_en": "Changanassery",
-      "local_body_name_ml": "ചങ്ങനാശ്ശേരി",
-      "category": "Good"
+      "id": "M050300",
+      "name_en": "Changanassery",
+      "name_ml": "ചങ്ങനാശ്ശേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050805",
-      "local_body_name_en": "Kurichy",
-      "local_body_name_ml": "കുറിച്ചി",
-      "category": "Normal"
+      "id": "G050805",
+      "name_en": "Kurichy",
+      "name_ml": "കുറിച്ചി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050901",
-      "local_body_name_en": "Madappally",
-      "local_body_name_ml": "മാടപ്പള്ളി",
-      "category": "Normal"
+      "id": "G050901",
+      "name_en": "Madappally",
+      "name_ml": "മാടപ്പള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050902",
-      "local_body_name_en": "Paippad",
-      "local_body_name_ml": "പായിപ്പാട്",
-      "category": "Normal"
+      "id": "G050902",
+      "name_en": "Paippad",
+      "name_ml": "പായിപ്പാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050903",
-      "local_body_name_en": "Thrickodithanam",
-      "local_body_name_ml": "തൃക്കൊടിത്താനം",
-      "category": "Good"
+      "id": "G050903",
+      "name_en": "Thrickodithanam",
+      "name_ml": "തൃക്കൊടിത്താനം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050905",
-      "local_body_name_en": "Vazhappally",
-      "local_body_name_ml": "വാഴപ്പള്ളി",
-      "category": "Perfect"
+      "id": "G050905",
+      "name_en": "Vazhappally",
+      "name_ml": "വാഴപ്പള്ളി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

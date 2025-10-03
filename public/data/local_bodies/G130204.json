@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G130204",
-  "local_body_name_en": "Mattool",
-  "local_body_name_ml": "മാട്ടൂല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G130204",
+  "name_en": "Mattool",
+  "name_ml": "മാട്ടൂല്‍",
+  "assembly_id": "7",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "7",
-    "assembly_name_en": "Kalliasseri",
-    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Kalliasseri",
+    "name_ml": "കല്ല്യാശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7ed7d84a-2627-4f55-8c4f-b3b301bee8b4",
+      "id": "7ed7d84a-2627-4f55-8c4f-b3b301bee8b4",
       "ward_no": "1",
-      "ward_name_en": "Mattool North",
-      "ward_name_ml": "മാട്ടൂല്‍ നോര്‍ത്ത്‌"
+      "name_en": "Mattool North",
+      "name_ml": "മാട്ടൂല്‍ നോര്‍ത്ത്‌"
     },
     {
-      "ward_id": "ef60be39-33ea-44e7-a16c-801251999114",
+      "id": "ef60be39-33ea-44e7-a16c-801251999114",
       "ward_no": "2",
-      "ward_name_en": "Kavile Paramba",
-      "ward_name_ml": "കാവിലെ പറമ്പ്"
+      "name_en": "Kavile Paramba",
+      "name_ml": "കാവിലെ പറമ്പ്"
     },
     {
-      "ward_id": "83a1e5d4-d6a8-4c7e-9007-012c158d233e",
+      "id": "83a1e5d4-d6a8-4c7e-9007-012c158d233e",
       "ward_no": "3",
-      "ward_name_en": "Siddeequabad",
-      "ward_name_ml": "സിദ്ദീഖാബാദ്‌"
+      "name_en": "Siddeequabad",
+      "name_ml": "സിദ്ദീഖാബാദ്‌"
     },
     {
-      "ward_id": "6f6f3b53-9e97-4645-b33e-8c481d996ac9",
+      "id": "6f6f3b53-9e97-4645-b33e-8c481d996ac9",
       "ward_no": "4",
-      "ward_name_en": "Thekkumbad",
-      "ward_name_ml": "തെക്കുമ്പാട്‌"
+      "name_en": "Thekkumbad",
+      "name_ml": "തെക്കുമ്പാട്‌"
     },
     {
-      "ward_id": "c44f909d-4e30-44d3-b0eb-9de6158f7b49",
+      "id": "c44f909d-4e30-44d3-b0eb-9de6158f7b49",
       "ward_no": "5",
-      "ward_name_en": "Mattool Central",
-      "ward_name_ml": "മാട്ടൂല്‍ സെന്‍ട്രല്‍"
+      "name_en": "Mattool Central",
+      "name_ml": "മാട്ടൂല്‍ സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "7d8010e0-1a0a-4bea-8987-bef183e7f916",
+      "id": "7d8010e0-1a0a-4bea-8987-bef183e7f916",
       "ward_no": "6",
-      "ward_name_en": "Madakkara East",
-      "ward_name_ml": "മടക്കര ഈസ്റ്റ്‌"
+      "name_en": "Madakkara East",
+      "name_ml": "മടക്കര ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "2b495a4e-36f1-48cf-9619-7866dcb31ce6",
+      "id": "2b495a4e-36f1-48cf-9619-7866dcb31ce6",
       "ward_no": "7",
-      "ward_name_en": "Madakkara West",
-      "ward_name_ml": "മടക്കര വെസ്റ്റ്‌"
+      "name_en": "Madakkara West",
+      "name_ml": "മടക്കര വെസ്റ്റ്‌"
     },
     {
-      "ward_id": "fc63564e-67f9-4ab2-970c-c094605c2a9f",
+      "id": "fc63564e-67f9-4ab2-970c-c094605c2a9f",
       "ward_no": "8",
-      "ward_name_en": "Mattool Palli Pradesham",
-      "ward_name_ml": "മാട്ടൂല്‍ പള്ളി പ്രദേശം"
+      "name_en": "Mattool Palli Pradesham",
+      "name_ml": "മാട്ടൂല്‍ പള്ളി പ്രദേശം"
     },
     {
-      "ward_id": "38d7c446-1c63-4262-a7c4-efb01f0b6fad",
+      "id": "38d7c446-1c63-4262-a7c4-efb01f0b6fad",
       "ward_no": "9",
-      "ward_name_en": "Mattool South",
-      "ward_name_ml": "മാട്ടൂല്‍ സൗത്ത്‌"
+      "name_en": "Mattool South",
+      "name_ml": "മാട്ടൂല്‍ സൗത്ത്‌"
     },
     {
-      "ward_id": "0722e02a-5b3e-4e84-b19b-a8b3885b8e9f",
+      "id": "0722e02a-5b3e-4e84-b19b-a8b3885b8e9f",
       "ward_no": "10",
-      "ward_name_en": "Mattool South Munamb",
-      "ward_name_ml": "മാട്ടൂല്‍ സൗത്ത്‌ മുനമ്പ്"
+      "name_en": "Mattool South Munamb",
+      "name_ml": "മാട്ടൂല്‍ സൗത്ത്‌ മുനമ്പ്"
     },
     {
-      "ward_id": "9fccd58e-a20a-499b-a5fb-83038d358dc5",
+      "id": "9fccd58e-a20a-499b-a5fb-83038d358dc5",
       "ward_no": "11",
-      "ward_name_en": "Mattool South Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ സൗത്ത്‌ ചാല്‍"
+      "name_en": "Mattool South Chal",
+      "name_ml": "മാട്ടൂല്‍ സൗത്ത്‌ ചാല്‍"
     },
     {
-      "ward_id": "5fa283ba-7921-48c6-9b05-0fd18ca23f09",
+      "id": "5fa283ba-7921-48c6-9b05-0fd18ca23f09",
       "ward_no": "12",
-      "ward_name_en": "Mattool Thangale Palli Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ തങ്ങളെ പള്ളി ചാല്‍"
+      "name_en": "Mattool Thangale Palli Chal",
+      "name_ml": "മാട്ടൂല്‍ തങ്ങളെ പള്ളി ചാല്‍"
     },
     {
-      "ward_id": "6b95a743-377a-4eab-b828-05fd7b7339cb",
+      "id": "6b95a743-377a-4eab-b828-05fd7b7339cb",
       "ward_no": "13",
-      "ward_name_en": "Mattool Kolkaran Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ കോല്‍കാരന്‍ ചാല്‍"
+      "name_en": "Mattool Kolkaran Chal",
+      "name_ml": "മാട്ടൂല്‍ കോല്‍കാരന്‍ ചാല്‍"
     },
     {
-      "ward_id": "600d35f4-18f4-41c4-94b1-b7b0394b2bcd",
+      "id": "600d35f4-18f4-41c4-94b1-b7b0394b2bcd",
       "ward_no": "14",
-      "ward_name_en": "Mattool Central Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ സെന്‍ട്രല്‍ ചാല്‍"
+      "name_en": "Mattool Central Chal",
+      "name_ml": "മാട്ടൂല്‍ സെന്‍ട്രല്‍ ചാല്‍"
     },
     {
-      "ward_id": "fb377c17-7c95-4fd8-852a-3c67d299b9d1",
+      "id": "fb377c17-7c95-4fd8-852a-3c67d299b9d1",
       "ward_no": "15",
-      "ward_name_en": "Mattool Ariyil Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ അരിയില്‍ ചാല്‍"
+      "name_en": "Mattool Ariyil Chal",
+      "name_ml": "മാട്ടൂല്‍ അരിയില്‍ ചാല്‍"
     },
     {
-      "ward_id": "824cca49-d144-4964-80d7-146183d53712",
+      "id": "824cca49-d144-4964-80d7-146183d53712",
       "ward_no": "16",
-      "ward_name_en": "Mattool Bavu Valappil Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ ബാവു വളപ്പില്‍ ചാല്‍"
+      "name_en": "Mattool Bavu Valappil Chal",
+      "name_ml": "മാട്ടൂല്‍ ബാവു വളപ്പില്‍ ചാല്‍"
     },
     {
-      "ward_id": "6589cee1-32f1-4c38-8c8f-e1377c439db3",
+      "id": "6589cee1-32f1-4c38-8c8f-e1377c439db3",
       "ward_no": "17",
-      "ward_name_en": "Mattool Kakkadan Chal",
-      "ward_name_ml": "മാട്ടൂല്‍ കക്കാടന്‍ ചാല്‍"
+      "name_en": "Mattool Kakkadan Chal",
+      "name_ml": "മാട്ടൂല്‍ കക്കാടന്‍ ചാല്‍"
     }
   ],
   "towns": [],

@@ -1,162 +1,173 @@
 {
-  "local_body_id": "G090107",
-  "local_body_name_en": "Trithala",
-  "local_body_name_ml": "തൃത്താല",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "49",
-    "assembly_name_en": "Thrithala",
-    "assembly_name_ml": "തൃത്താല",
+  "id": "G090107",
+  "name_en": "Trithala",
+  "name_ml": "തൃത്താല",
+  "assembly_id": "49",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "49",
+    "name_en": "Thrithala",
+    "name_ml": "തൃത്താല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "413fdd16-4417-49dd-a6ed-486cb95a01a5",
+      "id": "413fdd16-4417-49dd-a6ed-486cb95a01a5",
       "ward_no": "1",
-      "ward_name_en": "Velliyankallu",
-      "ward_name_ml": "വെള്ളിയാങ്കല്ല്"
+      "name_en": "Velliyankallu",
+      "name_ml": "വെള്ളിയാങ്കല്ല്"
     },
     {
-      "ward_id": "4c60b3ab-6059-4703-8696-6d05b20e3a53",
+      "id": "4c60b3ab-6059-4703-8696-6d05b20e3a53",
       "ward_no": "2",
-      "ward_name_en": "Thrithala",
-      "ward_name_ml": "തൃത്താല"
+      "name_en": "Thrithala",
+      "name_ml": "തൃത്താല"
     },
     {
-      "ward_id": "0bc1e094-5f41-414a-889c-4c8581f8c86b",
+      "id": "0bc1e094-5f41-414a-889c-4c8581f8c86b",
       "ward_no": "3",
-      "ward_name_en": "Thacharamkunnu",
-      "ward_name_ml": "തച്ചറംക്കുന്ന്"
+      "name_en": "Thacharamkunnu",
+      "name_ml": "തച്ചറംക്കുന്ന്"
     },
     {
-      "ward_id": "dd986c5b-c7ee-4563-87ac-288ae5235046",
+      "id": "dd986c5b-c7ee-4563-87ac-288ae5235046",
       "ward_no": "4",
-      "ward_name_en": "Varandukuttikkadavu",
-      "ward_name_ml": "വരണ്ടുകുറ്റിക്കടവ്"
+      "name_en": "Varandukuttikkadavu",
+      "name_ml": "വരണ്ടുകുറ്റിക്കടവ്"
     },
     {
-      "ward_id": "841557bd-1212-43df-b7b3-c3fd8e2327e6",
+      "id": "841557bd-1212-43df-b7b3-c3fd8e2327e6",
       "ward_no": "5",
-      "ward_name_en": "Ullannoor",
-      "ward_name_ml": "ഉള്ളന്നൂര്‍"
+      "name_en": "Ullannoor",
+      "name_ml": "ഉള്ളന്നൂര്‍"
     },
     {
-      "ward_id": "bf62b277-f95a-4f3b-a7a2-abb56ccf6e16",
+      "id": "bf62b277-f95a-4f3b-a7a2-abb56ccf6e16",
       "ward_no": "6",
-      "ward_name_en": "Thalayanapparamb",
-      "ward_name_ml": "തലയണപ്പറമ്പ്"
+      "name_en": "Thalayanapparamb",
+      "name_ml": "തലയണപ്പറമ്പ്"
     },
     {
-      "ward_id": "dfffdce9-9980-44d2-bd49-5f80bbb45f57",
+      "id": "dfffdce9-9980-44d2-bd49-5f80bbb45f57",
       "ward_no": "7",
-      "ward_name_en": "Thottappaya",
-      "ward_name_ml": "തോട്ടപ്പായ"
+      "name_en": "Thottappaya",
+      "name_ml": "തോട്ടപ്പായ"
     },
     {
-      "ward_id": "fd2455e1-26ab-4a3d-b059-bb90b366e9e7",
+      "id": "fd2455e1-26ab-4a3d-b059-bb90b366e9e7",
       "ward_no": "8",
-      "ward_name_en": "Nhangattiri",
-      "ward_name_ml": "ഞാങ്ങാട്ടിരി"
+      "name_en": "Nhangattiri",
+      "name_ml": "ഞാങ്ങാട്ടിരി"
     },
     {
-      "ward_id": "84de0b75-9260-4d3a-8b0a-d85265b3adc9",
+      "id": "84de0b75-9260-4d3a-8b0a-d85265b3adc9",
       "ward_no": "9",
-      "ward_name_en": "Kozhikkottiri",
-      "ward_name_ml": "കൊഴിക്കോട്ടിരി"
+      "name_en": "Kozhikkottiri",
+      "name_ml": "കൊഴിക്കോട്ടിരി"
     },
     {
-      "ward_id": "5d1428f0-acbc-4fcf-96a9-01e3cb881834",
+      "id": "5d1428f0-acbc-4fcf-96a9-01e3cb881834",
       "ward_no": "10",
-      "ward_name_en": "Mattaya",
-      "ward_name_ml": "മാട്ടായ"
+      "name_en": "Mattaya",
+      "name_ml": "മാട്ടായ"
     },
     {
-      "ward_id": "f6adfc76-4253-47d2-a0a8-172bd0e5def4",
+      "id": "f6adfc76-4253-47d2-a0a8-172bd0e5def4",
       "ward_no": "11",
-      "ward_name_en": "Kannannoor",
-      "ward_name_ml": "കണ്ണന്നൂര്‍"
+      "name_en": "Kannannoor",
+      "name_ml": "കണ്ണന്നൂര്‍"
     },
     {
-      "ward_id": "3b54dfd2-09b7-4347-a164-e0f30d09f59e",
+      "id": "3b54dfd2-09b7-4347-a164-e0f30d09f59e",
       "ward_no": "12",
-      "ward_name_en": "Mudavannoor",
-      "ward_name_ml": "മുടവന്നൂര്‍"
+      "name_en": "Mudavannoor",
+      "name_ml": "മുടവന്നൂര്‍"
     },
     {
-      "ward_id": "2ed9e977-b5cb-4ddd-9234-1d9f2c114acf",
+      "id": "2ed9e977-b5cb-4ddd-9234-1d9f2c114acf",
       "ward_no": "13",
-      "ward_name_en": "Kodanad",
-      "ward_name_ml": "കോടനാട്"
+      "name_en": "Kodanad",
+      "name_ml": "കോടനാട്"
     },
     {
-      "ward_id": "854ca8fa-c28c-41a3-b6ba-ec795ede9676",
+      "id": "854ca8fa-c28c-41a3-b6ba-ec795ede9676",
       "ward_no": "14",
-      "ward_name_en": "Karyeyil",
-      "ward_name_ml": "കര്യേയില്‍"
+      "name_en": "Karyeyil",
+      "name_ml": "കര്യേയില്‍"
     },
     {
-      "ward_id": "c77866bf-cd28-402f-8c8e-829b0d24760c",
+      "id": "c77866bf-cd28-402f-8c8e-829b0d24760c",
       "ward_no": "15",
-      "ward_name_en": "Mezhathur",
-      "ward_name_ml": "മേഴത്തൂര്‍"
+      "name_en": "Mezhathur",
+      "name_ml": "മേഴത്തൂര്‍"
     },
     {
-      "ward_id": "c0e110c9-7916-450c-9320-1e478e5ecb9c",
+      "id": "c0e110c9-7916-450c-9320-1e478e5ecb9c",
       "ward_no": "16",
-      "ward_name_en": "Thuruth",
-      "ward_name_ml": "തുരുത്ത്"
+      "name_en": "Thuruth",
+      "name_ml": "തുരുത്ത്"
     },
     {
-      "ward_id": "8c34f9b1-c46a-4d12-8cbf-2a0a48bbe3d5",
+      "id": "8c34f9b1-c46a-4d12-8cbf-2a0a48bbe3d5",
       "ward_no": "17",
-      "ward_name_en": "Kunnathukavu",
-      "ward_name_ml": "കുന്നത്തുകാവ്"
+      "name_en": "Kunnathukavu",
+      "name_ml": "കുന്നത്തുകാവ്"
     }
   ],
   "towns": [
     {
-      "town_name_en": "Thrithala Town",
-      "town_name_ml": "തൃത്താല ടൗൺ"
+      "name_en": "Thrithala Town",
+      "name_ml": "തൃത്താല ടൗൺ"
     },
     {
-      "town_name_en": "Mezhathoor",
-      "town_name_ml": "മേഴത്തൂർ"
+      "name_en": "Mezhathoor",
+      "name_ml": "മേഴത്തൂർ"
     },
     {
-      "town_name_en": "Nhangattiri",
-      "town_name_ml": "ഞാങ്ങാട്ടിരി"
+      "name_en": "Nhangattiri",
+      "name_ml": "ഞാങ്ങാട്ടിരി"
     },
     {
-      "town_name_en": "West Thrithala",
-      "town_name_ml": "വെസ്റ്റ് തൃത്താല"
+      "name_en": "West Thrithala",
+      "name_ml": "വെസ്റ്റ് തൃത്താല"
     },
     {
-      "town_name_en": "Mattaya",
-      "town_name_ml": "മാട്ടായ"
+      "name_en": "Mattaya",
+      "name_ml": "മാട്ടായ"
     },
     {
-      "town_name_en": "High School",
-      "town_name_ml": "ഹൈസ്കൂൾ"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്കൂൾ"
     },
     {
-      "town_name_en": "Kodanad",
-      "town_name_ml": "കോടനാട്"
+      "name_en": "Kodanad",
+      "name_ml": "കോടനാട്"
     },
     {
-      "town_name_en": "East Kodanad",
-      "town_name_ml": "ഈസ്റ്റ് കോടനാട്"
+      "name_en": "East Kodanad",
+      "name_ml": "ഈസ്റ്റ് കോടനാട്"
     },
     {
-      "town_name_en": "V.K Kadavu",
-      "town_name_ml": "വി.കെ കടവ്"
+      "name_en": "V.K Kadavu",
+      "name_ml": "വി.കെ കടവ്"
     }
   ],
   "issues": {

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G091302",
-  "local_body_name_en": "Malampuzha",
-  "local_body_name_ml": "മലമ്പുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G091302",
+  "name_en": "Malampuzha",
+  "name_ml": "മലമ്പുഴ",
+  "assembly_id": "55",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "55",
-    "assembly_name_en": "Malampuzha",
-    "assembly_name_ml": "മലമ്പുഴ",
-    "category": "Normal"
+    "id": "55",
+    "name_en": "Malampuzha",
+    "name_ml": "മലമ്പുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f43cd0e9-378f-445f-a18b-9655afbab851",
+      "id": "f43cd0e9-378f-445f-a18b-9655afbab851",
       "ward_no": "1",
-      "ward_name_en": "Kollamkunnu",
-      "ward_name_ml": "കൊല്ലംകുന്ന്"
+      "name_en": "Kollamkunnu",
+      "name_ml": "കൊല്ലംകുന്ന്"
     },
     {
-      "ward_id": "e98ea764-d13a-46f3-9d8a-50314d824ef3",
+      "id": "e98ea764-d13a-46f3-9d8a-50314d824ef3",
       "ward_no": "2",
-      "ward_name_en": "Anakkal",
-      "ward_name_ml": "ആനക്കല്‍"
+      "name_en": "Anakkal",
+      "name_ml": "ആനക്കല്‍"
     },
     {
-      "ward_id": "00fe32c6-7242-40dc-8635-08c11952a9d3",
+      "id": "00fe32c6-7242-40dc-8635-08c11952a9d3",
       "ward_no": "3",
-      "ward_name_en": "Ayyappanpotta",
-      "ward_name_ml": "അയ്യപ്പന്‍പൊറ്റ"
+      "name_en": "Ayyappanpotta",
+      "name_ml": "അയ്യപ്പന്‍പൊറ്റ"
     },
     {
-      "ward_id": "94c0edcb-52cb-4118-9aa8-429a9fa33e9b",
+      "id": "94c0edcb-52cb-4118-9aa8-429a9fa33e9b",
       "ward_no": "4",
-      "ward_name_en": "Manakkalkkad",
-      "ward_name_ml": "മനക്കല്‍ക്കാട്"
+      "name_en": "Manakkalkkad",
+      "name_ml": "മനക്കല്‍ക്കാട്"
     },
     {
-      "ward_id": "f9d8b58b-06b6-4458-9130-1ccc5284a15e",
+      "id": "f9d8b58b-06b6-4458-9130-1ccc5284a15e",
       "ward_no": "5",
-      "ward_name_en": "Kunuppully",
-      "ward_name_ml": "കുനുപ്പുള്ളി"
+      "name_en": "Kunuppully",
+      "name_ml": "കുനുപ്പുള്ളി"
     },
     {
-      "ward_id": "8b767970-04e7-43d9-8ae1-a78d414ecfa6",
+      "id": "8b767970-04e7-43d9-8ae1-a78d414ecfa6",
       "ward_no": "6",
-      "ward_name_en": "Varani",
-      "ward_name_ml": "വാരണി"
+      "name_en": "Varani",
+      "name_ml": "വാരണി"
     },
     {
-      "ward_id": "9fe81490-2bc7-429f-9683-e63f33cc59bf",
+      "id": "9fe81490-2bc7-429f-9683-e63f33cc59bf",
       "ward_no": "7",
-      "ward_name_en": "Kadukkamkunnu East",
-      "ward_name_ml": "കടുക്കാംകുന്നം ഈസ്റ്റ്"
+      "name_en": "Kadukkamkunnu East",
+      "name_ml": "കടുക്കാംകുന്നം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "ea6b5214-db4f-4595-ab01-b7efd5019acb",
+      "id": "ea6b5214-db4f-4595-ab01-b7efd5019acb",
       "ward_no": "8",
-      "ward_name_en": "Kadukkamkunnu West",
-      "ward_name_ml": "കടുക്കാംകുന്നം വെസ്റ്റ്"
+      "name_en": "Kadukkamkunnu West",
+      "name_ml": "കടുക്കാംകുന്നം വെസ്റ്റ്"
     },
     {
-      "ward_id": "a46157a7-f4a4-4a50-a0c6-a31df93a1c15",
+      "id": "a46157a7-f4a4-4a50-a0c6-a31df93a1c15",
       "ward_no": "9",
-      "ward_name_en": "Manthakkad South",
-      "ward_name_ml": "മന്തക്കാട്  സൌത്ത്"
+      "name_en": "Manthakkad South",
+      "name_ml": "മന്തക്കാട്  സൌത്ത്"
     },
     {
-      "ward_id": "3bb36b8c-17b3-4dbf-8822-be2a47d05121",
+      "id": "3bb36b8c-17b3-4dbf-8822-be2a47d05121",
       "ward_no": "10",
-      "ward_name_en": "Manthakkad North",
-      "ward_name_ml": "മന്തക്കാട്  നോര്‍ത്ത്"
+      "name_en": "Manthakkad North",
+      "name_ml": "മന്തക്കാട്  നോര്‍ത്ത്"
     },
     {
-      "ward_id": "917dd5c2-a7aa-4ea2-b8cf-4692d818f86f",
+      "id": "917dd5c2-a7aa-4ea2-b8cf-4692d818f86f",
       "ward_no": "11",
-      "ward_name_en": "Sastha Colony",
-      "ward_name_ml": "ശാസ്താ കോളനി"
+      "name_en": "Sastha Colony",
+      "name_ml": "ശാസ്താ കോളനി"
     },
     {
-      "ward_id": "7a8fc6da-a77a-4bcf-8e84-46c860b3a648",
+      "id": "7a8fc6da-a77a-4bcf-8e84-46c860b3a648",
       "ward_no": "12",
-      "ward_name_en": "Malampuzha Central",
-      "ward_name_ml": "മലമ്പുഴ സെന്‍ട്രല്‍"
+      "name_en": "Malampuzha Central",
+      "name_ml": "മലമ്പുഴ സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "0fbfc17d-52a0-4344-b6df-048863cda1eb",
+      "id": "0fbfc17d-52a0-4344-b6df-048863cda1eb",
       "ward_no": "13",
-      "ward_name_en": "Cherad",
-      "ward_name_ml": "ചെറാട്"
+      "name_en": "Cherad",
+      "name_ml": "ചെറാട്"
     }
   ],
   "towns": [],

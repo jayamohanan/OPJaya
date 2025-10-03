@@ -1,62 +1,83 @@
 {
-  "assembly_id": "1",
-  "assembly_name_en": "Manjeshwar",
-  "assembly_name_ml": "മഞ്ചശ്വരം",
-  "category": "Normal",
+  "id": "1",
+  "name_en": "Manjeshwar",
+  "name_ml": "മഞ്ചശ്വരം",
+  "district_id": "14",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "district_category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G140107",
-      "local_body_name_en": "Enmakaje",
-      "local_body_name_ml": "എന്‍മകജെ",
-      "category": "Normal"
+      "id": "G140107",
+      "name_en": "Enmakaje",
+      "name_ml": "എന്‍മകജെ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G140306",
-      "local_body_name_en": "Kumbla",
-      "local_body_name_ml": "കുമ്പള",
-      "category": "Perfect"
+      "id": "G140306",
+      "name_en": "Kumbla",
+      "name_ml": "കുമ്പള",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G140101",
-      "local_body_name_en": "Mangalpady",
-      "local_body_name_ml": "മംഗല്‍പാടി",
-      "category": "Good"
+      "id": "G140101",
+      "name_en": "Mangalpady",
+      "name_ml": "മംഗല്‍പാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140105",
-      "local_body_name_en": "Manjeshwar",
-      "local_body_name_ml": "മഞ്ചശ്വരം",
-      "category": "Good"
+      "id": "G140105",
+      "name_en": "Manjeshwar",
+      "name_ml": "മഞ്ചശ്വരം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140104",
-      "local_body_name_en": "Meenja",
-      "local_body_name_ml": "മീഞ്ച",
-      "category": "Normal"
+      "id": "G140104",
+      "name_en": "Meenja",
+      "name_ml": "മീഞ്ച",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G140106",
-      "local_body_name_en": "Paivalike",
-      "local_body_name_ml": "പൈവളികെ",
-      "category": "Good"
+      "id": "G140106",
+      "name_en": "Paivalike",
+      "name_ml": "പൈവളികെ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140103",
-      "local_body_name_en": "Puthige",
-      "local_body_name_ml": "പുത്തിഗെ",
-      "category": "Perfect"
+      "id": "G140103",
+      "name_en": "Puthige",
+      "name_ml": "പുത്തിഗെ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G140102",
-      "local_body_name_en": "Vorkady",
-      "local_body_name_ml": "വോര്‍ക്കാടി",
-      "category": "Good"
+      "id": "G140102",
+      "name_en": "Vorkady",
+      "name_ml": "വോര്‍ക്കാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

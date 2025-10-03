@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G010702",
-  "local_body_name_en": "Kadinamkulam",
-  "local_body_name_ml": "കഠിനംകുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010702",
+  "name_en": "Kadinamkulam",
+  "name_ml": "കഠിനംകുളം",
+  "assembly_id": "129",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "129",
-    "assembly_name_en": "Chirayinkeezhu",
-    "assembly_name_ml": "ചിറയിൻകീഴ്",
-    "category": "Normal"
+    "id": "129",
+    "name_en": "Chirayinkeezhu",
+    "name_ml": "ചിറയിൻകീഴ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "49058ab1-ab6e-430b-ab76-f8f87aa067bb",
+      "id": "49058ab1-ab6e-430b-ab76-f8f87aa067bb",
       "ward_no": "1",
-      "ward_name_en": "Cheramanthuruthu",
-      "ward_name_ml": "ചേരമാന്‍തുരുത്ത്"
+      "name_en": "Cheramanthuruthu",
+      "name_ml": "ചേരമാന്‍തുരുത്ത്"
     },
     {
-      "ward_id": "10e4d14d-2e0e-4b32-84b7-4ab68c3592dc",
+      "id": "10e4d14d-2e0e-4b32-84b7-4ab68c3592dc",
       "ward_no": "2",
-      "ward_name_en": "Kadinamkulam",
-      "ward_name_ml": "കഠിനംകുളം"
+      "name_en": "Kadinamkulam",
+      "name_ml": "കഠിനംകുളം"
     },
     {
-      "ward_id": "99b31413-351a-4adc-a5ee-fc61bd5b89c2",
+      "id": "99b31413-351a-4adc-a5ee-fc61bd5b89c2",
       "ward_no": "3",
-      "ward_name_en": "Kandavila",
-      "ward_name_ml": "കണ്ടവിള"
+      "name_en": "Kandavila",
+      "name_ml": "കണ്ടവിള"
     },
     {
-      "ward_id": "eb55aa55-20d7-42b3-a58b-79d1b6f3ecee",
+      "id": "eb55aa55-20d7-42b3-a58b-79d1b6f3ecee",
       "ward_no": "4",
-      "ward_name_en": "Channankara",
-      "ward_name_ml": "ചാന്നാങ്കര"
+      "name_en": "Channankara",
+      "name_ml": "ചാന്നാങ്കര"
     },
     {
-      "ward_id": "6b4edfaa-7c3b-4757-a41f-b61ac1b68f9a",
+      "id": "6b4edfaa-7c3b-4757-a41f-b61ac1b68f9a",
       "ward_no": "5",
-      "ward_name_en": "Anakkapilla",
-      "ward_name_ml": "അണക്കപ്പിള്ള"
+      "name_en": "Anakkapilla",
+      "name_ml": "അണക്കപ്പിള്ള"
     },
     {
-      "ward_id": "fb7503e8-3f3c-4501-aef1-4a4abe7bd3e3",
+      "id": "fb7503e8-3f3c-4501-aef1-4a4abe7bd3e3",
       "ward_no": "6",
-      "ward_name_en": "Padinjattumukku",
-      "ward_name_ml": "പടിഞ്ഞാറ്റുമുക്ക്"
+      "name_en": "Padinjattumukku",
+      "name_ml": "പടിഞ്ഞാറ്റുമുക്ക്"
     },
     {
-      "ward_id": "47b6fa84-e19d-487c-896d-295655c0c210",
+      "id": "47b6fa84-e19d-487c-896d-295655c0c210",
       "ward_no": "7",
-      "ward_name_en": "Chirackal",
-      "ward_name_ml": "ചിറയ്ക്കല്‍"
+      "name_en": "Chirackal",
+      "name_ml": "ചിറയ്ക്കല്‍"
     },
     {
-      "ward_id": "6207a755-8b40-4a68-92cf-443006fdcda1",
+      "id": "6207a755-8b40-4a68-92cf-443006fdcda1",
       "ward_no": "8",
-      "ward_name_en": "Chittattumukku",
-      "ward_name_ml": "ചിറ്റാറ്റുമുക്ക്"
+      "name_en": "Chittattumukku",
+      "name_ml": "ചിറ്റാറ്റുമുക്ക്"
     },
     {
-      "ward_id": "32d52d1e-02ac-48d1-b9c6-06f02e2ad0f1",
+      "id": "32d52d1e-02ac-48d1-b9c6-06f02e2ad0f1",
       "ward_no": "9",
-      "ward_name_en": "Menamkulam",
-      "ward_name_ml": "മേനംകുളം"
+      "name_en": "Menamkulam",
+      "name_ml": "മേനംകുളം"
     },
     {
-      "ward_id": "2b82a765-f197-4470-881c-533fa4fad592",
+      "id": "2b82a765-f197-4470-881c-533fa4fad592",
       "ward_no": "10",
-      "ward_name_en": "Kalpana",
-      "ward_name_ml": "കല്‍പന"
+      "name_en": "Kalpana",
+      "name_ml": "കല്‍പന"
     },
     {
-      "ward_id": "a6072bfa-aa37-4d7a-8ac8-50116c065f0a",
+      "id": "a6072bfa-aa37-4d7a-8ac8-50116c065f0a",
       "ward_no": "11",
-      "ward_name_en": "Vilayilkulam",
-      "ward_name_ml": "വിളയില്‍കുളം"
+      "name_en": "Vilayilkulam",
+      "name_ml": "വിളയില്‍കുളം"
     },
     {
-      "ward_id": "96997e2d-547c-4079-97d2-cc443a05f152",
+      "id": "96997e2d-547c-4079-97d2-cc443a05f152",
       "ward_no": "12",
-      "ward_name_en": "Thumba",
-      "ward_name_ml": "തുമ്പ"
+      "name_en": "Thumba",
+      "name_ml": "തുമ്പ"
     },
     {
-      "ward_id": "91b7ad5c-34b1-4c40-91c3-6be3f9d183ea",
+      "id": "91b7ad5c-34b1-4c40-91c3-6be3f9d183ea",
       "ward_no": "13",
-      "ward_name_en": "St.Andrews",
-      "ward_name_ml": "സെന്‍റ് ആന്‍ഡ്രൂസ്"
+      "name_en": "St.Andrews",
+      "name_ml": "സെന്‍റ് ആന്‍ഡ്രൂസ്"
     },
     {
-      "ward_id": "b869fddf-a321-4a6b-9fb6-76a266b836a7",
+      "id": "b869fddf-a321-4a6b-9fb6-76a266b836a7",
       "ward_no": "14",
-      "ward_name_en": "Puthanthope South",
-      "ward_name_ml": "പുത്തന്‍തോപ്പ് സൌത്ത്"
+      "name_en": "Puthanthope South",
+      "name_ml": "പുത്തന്‍തോപ്പ് സൌത്ത്"
     },
     {
-      "ward_id": "511e58cd-5c6f-4da2-939c-61d56ad7a4a5",
+      "id": "511e58cd-5c6f-4da2-939c-61d56ad7a4a5",
       "ward_no": "15",
-      "ward_name_en": "Puthanthope North",
-      "ward_name_ml": "പുത്തന്‍തോപ്പ് നോര്‍ത്ത്"
+      "name_en": "Puthanthope North",
+      "name_ml": "പുത്തന്‍തോപ്പ് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "26277693-2269-4ce9-a170-8944e4af42df",
+      "id": "26277693-2269-4ce9-a170-8944e4af42df",
       "ward_no": "16",
-      "ward_name_en": "Vettuthura",
-      "ward_name_ml": "വെട്ടുതുറ"
+      "name_en": "Vettuthura",
+      "name_ml": "വെട്ടുതുറ"
     },
     {
-      "ward_id": "04ad6971-702c-4705-a3cb-554cf2c41bd4",
+      "id": "04ad6971-702c-4705-a3cb-554cf2c41bd4",
       "ward_no": "17",
-      "ward_name_en": "Puthuval",
-      "ward_name_ml": "പുതുവല്‍"
+      "name_en": "Puthuval",
+      "name_ml": "പുതുവല്‍"
     },
     {
-      "ward_id": "c282f31b-3028-4259-b419-9db99b7ed691",
+      "id": "c282f31b-3028-4259-b419-9db99b7ed691",
       "ward_no": "18",
-      "ward_name_en": "Santhipuram",
-      "ward_name_ml": "ശാന്തിപുരം"
+      "name_en": "Santhipuram",
+      "name_ml": "ശാന്തിപുരം"
     },
     {
-      "ward_id": "925bf5f7-796b-4f4a-982e-19a3aca47dfb",
+      "id": "925bf5f7-796b-4f4a-982e-19a3aca47dfb",
       "ward_no": "19",
-      "ward_name_en": "Marianadu South",
-      "ward_name_ml": "മര്യനാട് സൌത്ത്"
+      "name_en": "Marianadu South",
+      "name_ml": "മര്യനാട് സൌത്ത്"
     },
     {
-      "ward_id": "97ce4e64-d8c4-440e-8c74-cf4df84eb832",
+      "id": "97ce4e64-d8c4-440e-8c74-cf4df84eb832",
       "ward_no": "20",
-      "ward_name_en": "Marianadu North",
-      "ward_name_ml": "മര്യനാട് നോര്‍ത്ത്"
+      "name_en": "Marianadu North",
+      "name_ml": "മര്യനാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "52930486-9f53-431b-bdc4-86232413c299",
+      "id": "52930486-9f53-431b-bdc4-86232413c299",
       "ward_no": "21",
-      "ward_name_en": "Puthukurichy East",
-      "ward_name_ml": "പുതുക്കുറിച്ചി ഈസ്റ്റ്"
+      "name_en": "Puthukurichy East",
+      "name_ml": "പുതുക്കുറിച്ചി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "4513c517-7932-409d-bea9-b689a6a035f8",
+      "id": "4513c517-7932-409d-bea9-b689a6a035f8",
       "ward_no": "22",
-      "ward_name_en": "Puthukurichy West",
-      "ward_name_ml": "പുതുക്കുറിച്ചി വെസ്റ്റ്"
+      "name_en": "Puthukurichy West",
+      "name_ml": "പുതുക്കുറിച്ചി വെസ്റ്റ്"
     },
     {
-      "ward_id": "2e3d5bc8-18ef-46c9-80aa-06fd73365e87",
+      "id": "2e3d5bc8-18ef-46c9-80aa-06fd73365e87",
       "ward_no": "23",
-      "ward_name_en": "Puthukurichy North",
-      "ward_name_ml": "പുതുക്കുറിച്ചി നോര്‍ത്ത്"
+      "name_en": "Puthukurichy North",
+      "name_ml": "പുതുക്കുറിച്ചി നോര്‍ത്ത്"
     }
   ],
   "towns": [],

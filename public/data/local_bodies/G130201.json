@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G130201",
-  "local_body_name_en": "Cheruthazham",
-  "local_body_name_ml": "ചെറുതാഴം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "7",
-    "assembly_name_en": "Kalliasseri",
-    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+  "id": "G130201",
+  "name_en": "Cheruthazham",
+  "name_ml": "ചെറുതാഴം",
+  "assembly_id": "7",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "7",
+    "name_en": "Kalliasseri",
+    "name_ml": "കല്ല്യാശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "03ac20f6-4555-44b5-b6c2-5a7433ae15c4",
+      "id": "03ac20f6-4555-44b5-b6c2-5a7433ae15c4",
       "ward_no": "1",
-      "ward_name_en": "Purachery",
-      "ward_name_ml": "പുറച്ചേരി"
+      "name_en": "Purachery",
+      "name_ml": "പുറച്ചേരി"
     },
     {
-      "ward_id": "205a0e8f-72db-4989-ae29-84f7d4dd1e38",
+      "id": "205a0e8f-72db-4989-ae29-84f7d4dd1e38",
       "ward_no": "2",
-      "ward_name_en": "Arathipparambu",
-      "ward_name_ml": "അറത്തിപ്പറമ്പ്"
+      "name_en": "Arathipparambu",
+      "name_ml": "അറത്തിപ്പറമ്പ്"
     },
     {
-      "ward_id": "2daf1745-300b-4d0c-bbb3-e00bbddc5dab",
+      "id": "2daf1745-300b-4d0c-bbb3-e00bbddc5dab",
       "ward_no": "3",
-      "ward_name_en": "Nareekamvally",
-      "ward_name_ml": "നരീക്കാംവള്ളി"
+      "name_en": "Nareekamvally",
+      "name_ml": "നരീക്കാംവള്ളി"
     },
     {
-      "ward_id": "d95cd84c-cf06-4420-b294-d424d6a41107",
+      "id": "d95cd84c-cf06-4420-b294-d424d6a41107",
       "ward_no": "4",
-      "ward_name_en": "Arathil",
-      "ward_name_ml": "അറത്തില്‍"
+      "name_en": "Arathil",
+      "name_ml": "അറത്തില്‍"
     },
     {
-      "ward_id": "43aa372a-2f1f-4272-b59c-5fbd14cdca0c",
+      "id": "43aa372a-2f1f-4272-b59c-5fbd14cdca0c",
       "ward_no": "5",
-      "ward_name_en": "Pilathara",
-      "ward_name_ml": "പിലാത്തറ"
+      "name_en": "Pilathara",
+      "name_ml": "പിലാത്തറ"
     },
     {
-      "ward_id": "fb860c12-3a98-4d60-a25f-debff23a64b3",
+      "id": "fb860c12-3a98-4d60-a25f-debff23a64b3",
       "ward_no": "6",
-      "ward_name_en": "Periyatt",
-      "ward_name_ml": "പെരിയാട്ട്"
+      "name_en": "Periyatt",
+      "name_ml": "പെരിയാട്ട്"
     },
     {
-      "ward_id": "25dc9937-bee9-4750-9846-99267bc72fc6",
+      "id": "25dc9937-bee9-4750-9846-99267bc72fc6",
       "ward_no": "7",
-      "ward_name_en": "Kulappuram",
-      "ward_name_ml": "കുളപ്പുറം"
+      "name_en": "Kulappuram",
+      "name_ml": "കുളപ്പുറം"
     },
     {
-      "ward_id": "a3c1fe45-00ee-4e00-a141-2c2294572a0e",
+      "id": "a3c1fe45-00ee-4e00-a141-2c2294572a0e",
       "ward_no": "8",
-      "ward_name_en": "Sreestha",
-      "ward_name_ml": "ശ്രീസ്ഥ"
+      "name_en": "Sreestha",
+      "name_ml": "ശ്രീസ്ഥ"
     },
     {
-      "ward_id": "478a67d2-a4f7-46e0-a495-5f6018a34cd6",
+      "id": "478a67d2-a4f7-46e0-a495-5f6018a34cd6",
       "ward_no": "9",
-      "ward_name_en": "Melathiyadam",
-      "ward_name_ml": "മേലതിയടം"
+      "name_en": "Melathiyadam",
+      "name_ml": "മേലതിയടം"
     },
     {
-      "ward_id": "bf0f6598-3ed3-4d74-94f9-4a12346d59b6",
+      "id": "bf0f6598-3ed3-4d74-94f9-4a12346d59b6",
       "ward_no": "10",
-      "ward_name_en": "Athiyadam",
-      "ward_name_ml": "അതിയടം"
+      "name_en": "Athiyadam",
+      "name_ml": "അതിയടം"
     },
     {
-      "ward_id": "6d647b72-7f6d-4dc0-b47c-de4d563d752f",
+      "id": "6d647b72-7f6d-4dc0-b47c-de4d563d752f",
       "ward_no": "11",
-      "ward_name_en": "Padannappuram",
-      "ward_name_ml": "പടന്നപ്പുറം"
+      "name_en": "Padannappuram",
+      "name_ml": "പടന്നപ്പുറം"
     },
     {
-      "ward_id": "ba795005-2133-4292-a6fa-915b2774cdff",
+      "id": "ba795005-2133-4292-a6fa-915b2774cdff",
       "ward_no": "12",
-      "ward_name_en": "Vayalapra",
-      "ward_name_ml": "വയലപ്ര"
+      "name_en": "Vayalapra",
+      "name_ml": "വയലപ്ര"
     },
     {
-      "ward_id": "b2b7523b-fb21-4d06-b6fc-8f30d2d1c747",
+      "id": "b2b7523b-fb21-4d06-b6fc-8f30d2d1c747",
       "ward_no": "13",
-      "ward_name_en": "Cheruthazham",
-      "ward_name_ml": "ചെറുതാഴം"
+      "name_en": "Cheruthazham",
+      "name_ml": "ചെറുതാഴം"
     },
     {
-      "ward_id": "f31816a0-6274-45b3-aabc-816b1345abb5",
+      "id": "f31816a0-6274-45b3-aabc-816b1345abb5",
       "ward_no": "14",
-      "ward_name_en": "Kovval",
-      "ward_name_ml": "കൊവ്വല്‍"
+      "name_en": "Kovval",
+      "name_ml": "കൊവ്വല്‍"
     },
     {
-      "ward_id": "eaa710bc-6147-47bd-ac20-0cb4befb8415",
+      "id": "eaa710bc-6147-47bd-ac20-0cb4befb8415",
       "ward_no": "15",
-      "ward_name_en": "Mandoor",
-      "ward_name_ml": "മണ്ടൂർ"
+      "name_en": "Mandoor",
+      "name_ml": "മണ്ടൂർ"
     },
     {
-      "ward_id": "47099a3f-00f1-4f0f-a2c7-fd6e3eee3639",
+      "id": "47099a3f-00f1-4f0f-a2c7-fd6e3eee3639",
       "ward_no": "16",
-      "ward_name_en": "Kakkoni",
-      "ward_name_ml": "കക്കോണി"
+      "name_en": "Kakkoni",
+      "name_ml": "കക്കോണി"
     },
     {
-      "ward_id": "069de65d-c9b8-44af-9dd5-3bcf6f8f1164",
+      "id": "069de65d-c9b8-44af-9dd5-3bcf6f8f1164",
       "ward_no": "17",
-      "ward_name_en": "Ezhilode",
-      "ward_name_ml": "ഏഴിലോട്"
+      "name_en": "Ezhilode",
+      "name_ml": "ഏഴിലോട്"
     }
   ],
   "towns": [],

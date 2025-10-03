@@ -1,56 +1,73 @@
 {
-  "assembly_id": "31",
-  "assembly_name_en": "Koduvally",
-  "assembly_name_ml": "കൊടുവള്ളി",
-  "category": "Normal",
+  "id": "31",
+  "name_en": "Koduvally",
+  "name_ml": "കൊടുവള്ളി",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G111009",
-      "local_body_name_en": "Kattippara",
-      "local_body_name_ml": "കട്ടിപ്പാറ",
-      "category": "Normal"
+      "id": "G111009",
+      "name_en": "Kattippara",
+      "name_ml": "കട്ടിപ്പാറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G111003",
-      "local_body_name_en": "Kizhakkoth",
-      "local_body_name_ml": "കിഴക്കോത്ത്",
-      "category": "Perfect"
+      "id": "G111003",
+      "name_en": "Kizhakkoth",
+      "name_ml": "കിഴക്കോത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M110400",
-      "local_body_name_en": "Koduvally",
-      "local_body_name_ml": "കൊടുവള്ളി",
-      "category": ""
+      "id": "M110400",
+      "name_en": "Koduvally",
+      "name_ml": "കൊടുവള്ളി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G111004",
-      "local_body_name_en": "Madavoor",
-      "local_body_name_ml": "മടവൂര്‍",
-      "category": "Perfect"
+      "id": "G111004",
+      "name_en": "Madavoor",
+      "name_ml": "മടവൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110905",
-      "local_body_name_en": "Narikunni",
-      "local_body_name_ml": "നരിക്കുനി",
-      "category": "Good"
+      "id": "G110905",
+      "name_en": "Narikunni",
+      "name_ml": "നരിക്കുനി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G111008",
-      "local_body_name_en": "Omassery",
-      "local_body_name_ml": "ഓമശ്ശേരി",
-      "category": "Perfect"
+      "id": "G111008",
+      "name_en": "Omassery",
+      "name_ml": "ഓമശ്ശേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G111007",
-      "local_body_name_en": "Thamarassery",
-      "local_body_name_ml": "താമരശ്ശേരി",
-      "category": "Perfect"
+      "id": "G111007",
+      "name_en": "Thamarassery",
+      "name_ml": "താമരശ്ശേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

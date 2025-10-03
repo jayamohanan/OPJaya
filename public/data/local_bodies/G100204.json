@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G100204",
-  "local_body_name_en": "Chokkad",
-  "local_body_name_ml": "ചോക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G100204",
+  "name_en": "Chokkad",
+  "name_ml": "ചോക്കാട്",
+  "assembly_id": "36",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "36",
-    "assembly_name_en": "Wandoor",
-    "assembly_name_ml": "വണ്ടൂര്‍",
-    "category": "Normal"
+    "id": "36",
+    "name_en": "Wandoor",
+    "name_ml": "വണ്ടൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2cdd51b6-9563-42f3-876d-c49b5b969865",
+      "id": "2cdd51b6-9563-42f3-876d-c49b5b969865",
       "ward_no": "1",
-      "ward_name_en": "Madambam",
-      "ward_name_ml": "മാടമ്പം"
+      "name_en": "Madambam",
+      "name_ml": "മാടമ്പം"
     },
     {
-      "ward_id": "c88a0896-118c-4123-81d9-f4b2823be850",
+      "id": "c88a0896-118c-4123-81d9-f4b2823be850",
       "ward_no": "2",
-      "ward_name_en": "Mambattumoola",
-      "ward_name_ml": "മമ്പാട്ടുമൂല"
+      "name_en": "Mambattumoola",
+      "name_ml": "മമ്പാട്ടുമൂല"
     },
     {
-      "ward_id": "456f8ec1-b9fd-467e-b289-be4cf02ce903",
+      "id": "456f8ec1-b9fd-467e-b289-be4cf02ce903",
       "ward_no": "3",
-      "ward_name_en": "Pannikkottumunda",
-      "ward_name_ml": "പന്നിക്കോട്ടുമുണ്ട"
+      "name_en": "Pannikkottumunda",
+      "name_ml": "പന്നിക്കോട്ടുമുണ്ട"
     },
     {
-      "ward_id": "b8c1e200-05f9-4b3e-a010-0550658a43df",
+      "id": "b8c1e200-05f9-4b3e-a010-0550658a43df",
       "ward_no": "4",
-      "ward_name_en": "Anakkallu",
-      "ward_name_ml": "ആനക്കല്ല്"
+      "name_en": "Anakkallu",
+      "name_ml": "ആനക്കല്ല്"
     },
     {
-      "ward_id": "7676df17-c4b8-40a8-9532-adaf72ece75e",
+      "id": "7676df17-c4b8-40a8-9532-adaf72ece75e",
       "ward_no": "5",
-      "ward_name_en": "Chokkad",
-      "ward_name_ml": "ചോക്കാട്"
+      "name_en": "Chokkad",
+      "name_ml": "ചോക്കാട്"
     },
     {
-      "ward_id": "3433c6ed-41be-4462-82df-7c606bd269bd",
+      "id": "3433c6ed-41be-4462-82df-7c606bd269bd",
       "ward_no": "6",
-      "ward_name_en": "Pedyanthal",
-      "ward_name_ml": "പെടയന്താള്‍"
+      "name_en": "Pedyanthal",
+      "name_ml": "പെടയന്താള്‍"
     },
     {
-      "ward_id": "e4ff80cf-fc89-4858-b7c6-7894b034900f",
+      "id": "e4ff80cf-fc89-4858-b7c6-7894b034900f",
       "ward_no": "7",
-      "ward_name_en": "Maruthangad",
-      "ward_name_ml": "മരുതങ്കാട്"
+      "name_en": "Maruthangad",
+      "name_ml": "മരുതങ്കാട്"
     },
     {
-      "ward_id": "8a798add-2397-42a7-bb93-1cf4847c42ec",
+      "id": "8a798add-2397-42a7-bb93-1cf4847c42ec",
       "ward_no": "8",
-      "ward_name_en": "Kallamoola",
-      "ward_name_ml": "കല്ലാമൂല"
+      "name_en": "Kallamoola",
+      "name_ml": "കല്ലാമൂല"
     },
     {
-      "ward_id": "456da091-fd30-4885-85df-60b7c24bc778",
+      "id": "456da091-fd30-4885-85df-60b7c24bc778",
       "ward_no": "9",
-      "ward_name_en": "Srambikkallu",
-      "ward_name_ml": "സ്രാമ്പിക്കല്ല്"
+      "name_en": "Srambikkallu",
+      "name_ml": "സ്രാമ്പിക്കല്ല്"
     },
     {
-      "ward_id": "acd7d784-ae2d-4dee-a68a-bdc050b0f0ab",
+      "id": "acd7d784-ae2d-4dee-a68a-bdc050b0f0ab",
       "ward_no": "10",
-      "ward_name_en": "Pullangode",
-      "ward_name_ml": "പുല്ലങ്കോട്"
+      "name_en": "Pullangode",
+      "name_ml": "പുല്ലങ്കോട്"
     },
     {
-      "ward_id": "e8fd6449-dfe9-42ef-851f-d097467e7597",
+      "id": "e8fd6449-dfe9-42ef-851f-d097467e7597",
       "ward_no": "11",
-      "ward_name_en": "Vedivachapara",
-      "ward_name_ml": "വെടിവച്ചപാറ"
+      "name_en": "Vedivachapara",
+      "name_ml": "വെടിവച്ചപാറ"
     },
     {
-      "ward_id": "2b8e825f-9f6a-41c3-8f96-f26e64d2c8cb",
+      "id": "2b8e825f-9f6a-41c3-8f96-f26e64d2c8cb",
       "ward_no": "12",
-      "ward_name_en": "Udarampoyil",
-      "ward_name_ml": "ഉദരംപൊയില്‍"
+      "name_en": "Udarampoyil",
+      "name_ml": "ഉദരംപൊയില്‍"
     },
     {
-      "ward_id": "b191dad5-8298-4ed0-8910-7b04ed0606d0",
+      "id": "b191dad5-8298-4ed0-8910-7b04ed0606d0",
       "ward_no": "13",
-      "ward_name_en": "Valiyaparambu",
-      "ward_name_ml": "വലിയപറമ്പ്"
+      "name_en": "Valiyaparambu",
+      "name_ml": "വലിയപറമ്പ്"
     },
     {
-      "ward_id": "e3daa3e1-ca06-49b2-a435-a84808fcec47",
+      "id": "e3daa3e1-ca06-49b2-a435-a84808fcec47",
       "ward_no": "14",
-      "ward_name_en": "Vellapoyil",
-      "ward_name_ml": "വെള്ളപൊയില്‍"
+      "name_en": "Vellapoyil",
+      "name_ml": "വെള്ളപൊയില്‍"
     },
     {
-      "ward_id": "3219370a-42dd-467f-a845-032730e96a50",
+      "id": "3219370a-42dd-467f-a845-032730e96a50",
       "ward_no": "15",
-      "ward_name_en": "Maliyekkal",
-      "ward_name_ml": "മാളിയേക്കല്‍"
+      "name_en": "Maliyekkal",
+      "name_ml": "മാളിയേക്കല്‍"
     },
     {
-      "ward_id": "dfd5318d-2989-47f8-89f5-204bbb2d5514",
+      "id": "dfd5318d-2989-47f8-89f5-204bbb2d5514",
       "ward_no": "16",
-      "ward_name_en": "Manjappetty",
-      "ward_name_ml": "മഞ്ഞപ്പെട്ടി"
+      "name_en": "Manjappetty",
+      "name_ml": "മഞ്ഞപ്പെട്ടി"
     },
     {
-      "ward_id": "6fd63675-9ef8-40cf-997c-632adf18493a",
+      "id": "6fd63675-9ef8-40cf-997c-632adf18493a",
       "ward_no": "17",
-      "ward_name_en": "Oravankunnu",
-      "ward_name_ml": "ഒറവംകുന്ന്"
+      "name_en": "Oravankunnu",
+      "name_ml": "ഒറവംകുന്ന്"
     },
     {
-      "ward_id": "e77ac0ab-5852-4626-92da-e42a52e96ceb",
+      "id": "e77ac0ab-5852-4626-92da-e42a52e96ceb",
       "ward_no": "18",
-      "ward_name_en": "Kooripoyil",
-      "ward_name_ml": "കൂരിപൊയില്‍"
+      "name_en": "Kooripoyil",
+      "name_ml": "കൂരിപൊയില്‍"
     }
   ],
   "towns": [],

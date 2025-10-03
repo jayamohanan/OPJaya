@@ -1,44 +1,57 @@
 {
-  "assembly_id": "37",
-  "assembly_name_en": "Manjeri",
-  "assembly_name_ml": "മഞ്ചേരി",
-  "category": "Normal",
+  "id": "37",
+  "name_en": "Manjeri",
+  "name_ml": "മഞ്ചേരി",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M100300",
-      "local_body_name_en": "Manjeri",
-      "local_body_name_ml": "മഞ്ചേരി",
-      "category": ""
+      "id": "M100300",
+      "name_en": "Manjeri",
+      "name_ml": "മഞ്ചേരി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G100207",
-      "local_body_name_en": "Edappatta",
-      "local_body_name_ml": "എടപ്പറ്റ",
-      "category": "Normal"
+      "id": "G100207",
+      "name_en": "Edappatta",
+      "name_ml": "എടപ്പറ്റ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100704",
-      "local_body_name_en": "Keezhattur",
-      "local_body_name_ml": "കീഴാറ്റൂര്‍",
-      "category": "Perfect"
+      "id": "G100704",
+      "name_en": "Keezhattur",
+      "name_ml": "കീഴാറ്റൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G100302",
-      "local_body_name_en": "Pandikkad",
-      "local_body_name_ml": "പാണ്ടിക്കാട്",
-      "category": "Normal"
+      "id": "G100302",
+      "name_en": "Pandikkad",
+      "name_ml": "പാണ്ടിക്കാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100304",
-      "local_body_name_en": "Thrikkalangodu",
-      "local_body_name_ml": "തൃക്കലങ്ങോട്",
-      "category": "Normal"
+      "id": "G100304",
+      "name_en": "Thrikkalangodu",
+      "name_ml": "തൃക്കലങ്ങോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

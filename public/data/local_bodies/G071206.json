@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G071206",
-  "local_body_name_en": "Pampakuda",
-  "local_body_name_ml": "പാമ്പാക്കുട",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G071206",
+  "name_en": "Pampakuda",
+  "name_ml": "പാമ്പാക്കുട",
+  "assembly_id": "85",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "85",
-    "assembly_name_en": "Piravom",
-    "assembly_name_ml": "പിറവം",
-    "category": "Normal"
+    "id": "85",
+    "name_en": "Piravom",
+    "name_ml": "പിറവം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "05634355-e2b6-458a-a46e-c9341ad1646b",
+      "id": "05634355-e2b6-458a-a46e-c9341ad1646b",
       "ward_no": "1",
-      "ward_name_en": "Naithusalappady",
-      "ward_name_ml": "നെയ്ത്തുശാലപ്പടി"
+      "name_en": "Naithusalappady",
+      "name_ml": "നെയ്ത്തുശാലപ്പടി"
     },
     {
-      "ward_id": "8c0835e5-951a-4532-8191-4cc567f2289c",
+      "id": "8c0835e5-951a-4532-8191-4cc567f2289c",
       "ward_no": "2",
-      "ward_name_en": "M. T. M.",
-      "ward_name_ml": "എം. റ്റി. എം."
+      "name_en": "M. T. M.",
+      "name_ml": "എം. റ്റി. എം."
     },
     {
-      "ward_id": "164d784c-df2a-4ab3-8d62-8b00ef48bb3d",
+      "id": "164d784c-df2a-4ab3-8d62-8b00ef48bb3d",
       "ward_no": "3",
-      "ward_name_en": "Ikkarakandam",
-      "ward_name_ml": "ഐക്കരക്കണ്ടം"
+      "name_en": "Ikkarakandam",
+      "name_ml": "ഐക്കരക്കണ്ടം"
     },
     {
-      "ward_id": "228cb6a9-ec53-4d97-b0ef-820622881ae3",
+      "id": "228cb6a9-ec53-4d97-b0ef-820622881ae3",
       "ward_no": "4",
-      "ward_name_en": "Piramadom",
-      "ward_name_ml": "പിറമാടം"
+      "name_en": "Piramadom",
+      "name_ml": "പിറമാടം"
     },
     {
-      "ward_id": "039b508e-c76d-4dc9-b0ae-aab9de26a3d0",
+      "id": "039b508e-c76d-4dc9-b0ae-aab9de26a3d0",
       "ward_no": "5",
-      "ward_name_en": "Pampakuda",
-      "ward_name_ml": "പാമ്പാക്കുട"
+      "name_en": "Pampakuda",
+      "name_ml": "പാമ്പാക്കുട"
     },
     {
-      "ward_id": "e62f9e39-dd7e-4216-9d31-5f08d3ad2a1f",
+      "id": "e62f9e39-dd7e-4216-9d31-5f08d3ad2a1f",
       "ward_no": "6",
-      "ward_name_en": "Kainy",
-      "ward_name_ml": "കൈനി"
+      "name_en": "Kainy",
+      "name_ml": "കൈനി"
     },
     {
-      "ward_id": "8dbc736e-9861-48e5-896b-62ce598e5cf1",
+      "id": "8dbc736e-9861-48e5-896b-62ce598e5cf1",
       "ward_no": "7",
-      "ward_name_en": "Anchelpetty",
-      "ward_name_ml": "അഞ്ചല്‍പ്പെട്ടി"
+      "name_en": "Anchelpetty",
+      "name_ml": "അഞ്ചല്‍പ്പെട്ടി"
     },
     {
-      "ward_id": "32ac0c76-c3d9-46a4-b83e-ad2ccfb66b6b",
+      "id": "32ac0c76-c3d9-46a4-b83e-ad2ccfb66b6b",
       "ward_no": "8",
-      "ward_name_en": "Ayurveda Hospital",
-      "ward_name_ml": "ആയുര്‍വേദ ആശുപത്രി"
+      "name_en": "Ayurveda Hospital",
+      "name_ml": "ആയുര്‍വേദ ആശുപത്രി"
     },
     {
-      "ward_id": "b21f4cc6-5037-4ce4-aa57-3ba8a628ca75",
+      "id": "b21f4cc6-5037-4ce4-aa57-3ba8a628ca75",
       "ward_no": "9",
-      "ward_name_en": "Kakkayam",
-      "ward_name_ml": "കക്കയം"
+      "name_en": "Kakkayam",
+      "name_ml": "കക്കയം"
     },
     {
-      "ward_id": "601bfbd8-c32d-4c8c-ad90-e6b49b8177db",
+      "id": "601bfbd8-c32d-4c8c-ad90-e6b49b8177db",
       "ward_no": "10",
-      "ward_name_en": "Thoduvakuzhi",
-      "ward_name_ml": "തൊടുവാക്കുഴി"
+      "name_en": "Thoduvakuzhi",
+      "name_ml": "തൊടുവാക്കുഴി"
     },
     {
-      "ward_id": "e6a35607-119e-4c5c-a037-e170744b26da",
+      "id": "e6a35607-119e-4c5c-a037-e170744b26da",
       "ward_no": "11",
-      "ward_name_en": "Onakkoor",
-      "ward_name_ml": "ഓണക്കൂര്‍"
+      "name_en": "Onakkoor",
+      "name_ml": "ഓണക്കൂര്‍"
     },
     {
-      "ward_id": "8816d4c9-711f-46d5-b9eb-d465d7b38b3f",
+      "id": "8816d4c9-711f-46d5-b9eb-d465d7b38b3f",
       "ward_no": "12",
-      "ward_name_en": "Thattupadam",
-      "ward_name_ml": "താറ്റുപാടം"
+      "name_en": "Thattupadam",
+      "name_ml": "താറ്റുപാടം"
     },
     {
-      "ward_id": "9da480df-3220-4e92-a708-be9652d9fbf0",
+      "id": "9da480df-3220-4e92-a708-be9652d9fbf0",
       "ward_no": "13",
-      "ward_name_en": "Memmury South",
-      "ward_name_ml": "മേമ്മുറി സൌത്ത്"
+      "name_en": "Memmury South",
+      "name_ml": "മേമ്മുറി സൌത്ത്"
     }
   ],
   "towns": [],

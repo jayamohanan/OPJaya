@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G101004",
-  "local_body_name_en": "Thennala",
-  "local_body_name_ml": "തെന്നല",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G101004",
+  "name_en": "Thennala",
+  "name_ml": "തെന്നല",
+  "assembly_id": "43",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "43",
-    "assembly_name_en": "Tirurangadi",
-    "assembly_name_ml": "തിരൂരങ്ങാടി",
-    "category": "Normal"
+    "id": "43",
+    "name_en": "Tirurangadi",
+    "name_ml": "തിരൂരങ്ങാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "087c649c-4da1-42bd-8af1-f17ef0a43b6b",
+      "id": "087c649c-4da1-42bd-8af1-f17ef0a43b6b",
       "ward_no": "1",
-      "ward_name_en": "Kodakkallu",
-      "ward_name_ml": "കൊടക്കല്ല്"
+      "name_en": "Kodakkallu",
+      "name_ml": "കൊടക്കല്ല്"
     },
     {
-      "ward_id": "fc31f150-435b-477d-9d40-4964eb7d246e",
+      "id": "fc31f150-435b-477d-9d40-4964eb7d246e",
       "ward_no": "2",
-      "ward_name_en": "Kuttikkattupara",
-      "ward_name_ml": "കുറ്റിക്കാട്ടുപാറ"
+      "name_en": "Kuttikkattupara",
+      "name_ml": "കുറ്റിക്കാട്ടുപാറ"
     },
     {
-      "ward_id": "2ed1c45c-2661-449d-b878-941995dbc091",
+      "id": "2ed1c45c-2661-449d-b878-941995dbc091",
       "ward_no": "3",
-      "ward_name_en": "Thachammad",
-      "ward_name_ml": "തച്ചമ്മാട്"
+      "name_en": "Thachammad",
+      "name_ml": "തച്ചമ്മാട്"
     },
     {
-      "ward_id": "53e796c5-2696-418e-a5d3-17783fea55c5",
+      "id": "53e796c5-2696-418e-a5d3-17783fea55c5",
       "ward_no": "4",
-      "ward_name_en": "Apla",
-      "ward_name_ml": "അപ്ല"
+      "name_en": "Apla",
+      "name_ml": "അപ്ല"
     },
     {
-      "ward_id": "fa5b58fe-a29b-4f1e-9ca4-cb9dbfd901e1",
+      "id": "fa5b58fe-a29b-4f1e-9ca4-cb9dbfd901e1",
       "ward_no": "5",
-      "ward_name_en": "Pookkipparamba",
-      "ward_name_ml": "പൂക്കിപ്പറമ്പ്"
+      "name_en": "Pookkipparamba",
+      "name_ml": "പൂക്കിപ്പറമ്പ്"
     },
     {
-      "ward_id": "bbcd8ccc-6804-4e4d-8e25-7a6b55e52457",
+      "id": "bbcd8ccc-6804-4e4d-8e25-7a6b55e52457",
       "ward_no": "6",
-      "ward_name_en": "Perumbuzha",
-      "ward_name_ml": "പെരുമ്പുഴ"
+      "name_en": "Perumbuzha",
+      "name_ml": "പെരുമ്പുഴ"
     },
     {
-      "ward_id": "a613fb85-eb75-4423-bf8f-eadbb2b4e461",
+      "id": "a613fb85-eb75-4423-bf8f-eadbb2b4e461",
       "ward_no": "7",
-      "ward_name_en": "Kulangara",
-      "ward_name_ml": "കുളങ്ങര"
+      "name_en": "Kulangara",
+      "name_ml": "കുളങ്ങര"
     },
     {
-      "ward_id": "0e0a4b72-0e18-4a9a-8ca6-d856e55daabe",
+      "id": "0e0a4b72-0e18-4a9a-8ca6-d856e55daabe",
       "ward_no": "8",
-      "ward_name_en": "Valakkulam",
-      "ward_name_ml": "വാളക്കുളം"
+      "name_en": "Valakkulam",
+      "name_ml": "വാളക്കുളം"
     },
     {
-      "ward_id": "2c1177bc-44f0-40bf-b9e5-30be2bbdf99a",
+      "id": "2c1177bc-44f0-40bf-b9e5-30be2bbdf99a",
       "ward_no": "9",
-      "ward_name_en": "Thoombathparamba",
-      "ward_name_ml": "തൂമ്പത്ത്പറമ്പ്"
+      "name_en": "Thoombathparamba",
+      "name_ml": "തൂമ്പത്ത്പറമ്പ്"
     },
     {
-      "ward_id": "98793d87-d020-4b48-a5a3-3f3de0470c58",
+      "id": "98793d87-d020-4b48-a5a3-3f3de0470c58",
       "ward_no": "10",
-      "ward_name_en": "Kundukulam",
-      "ward_name_ml": "കുണ്ടുകുളം"
+      "name_en": "Kundukulam",
+      "name_ml": "കുണ്ടുകുളം"
     },
     {
-      "ward_id": "7a2a0546-cd60-4132-9741-1bee8f551718",
+      "id": "7a2a0546-cd60-4132-9741-1bee8f551718",
       "ward_no": "11",
-      "ward_name_en": "Kozhichena",
-      "ward_name_ml": "കോഴിച്ചെന"
+      "name_en": "Kozhichena",
+      "name_ml": "കോഴിച്ചെന"
     },
     {
-      "ward_id": "66269659-5766-48fc-b116-4722fcccaf35",
+      "id": "66269659-5766-48fc-b116-4722fcccaf35",
       "ward_no": "12",
-      "ward_name_en": "Karthal",
-      "ward_name_ml": "കര്‍ത്താല്‍"
+      "name_en": "Karthal",
+      "name_ml": "കര്‍ത്താല്‍"
     },
     {
-      "ward_id": "2c868a1e-6069-4344-b629-ce8c99609271",
+      "id": "2c868a1e-6069-4344-b629-ce8c99609271",
       "ward_no": "13",
-      "ward_name_en": "Arakkal",
-      "ward_name_ml": "അറക്കല്‍"
+      "name_en": "Arakkal",
+      "name_ml": "അറക്കല്‍"
     },
     {
-      "ward_id": "892b8ef6-f49a-410f-acf4-6983fd489c0e",
+      "id": "892b8ef6-f49a-410f-acf4-6983fd489c0e",
       "ward_no": "14",
-      "ward_name_en": "West Bazar",
-      "ward_name_ml": "വെസ്റ്റ്ബസാര്‍"
+      "name_en": "West Bazar",
+      "name_ml": "വെസ്റ്റ്ബസാര്‍"
     },
     {
-      "ward_id": "19eeb682-94ff-4898-85d2-1a83f277f363",
+      "id": "19eeb682-94ff-4898-85d2-1a83f277f363",
       "ward_no": "15",
-      "ward_name_en": "Appiyath",
-      "ward_name_ml": "അപ്പിയത്ത്"
+      "name_en": "Appiyath",
+      "name_ml": "അപ്പിയത്ത്"
     },
     {
-      "ward_id": "f35f8b8b-0b32-4b8c-9941-41fc6c1ec918",
+      "id": "f35f8b8b-0b32-4b8c-9941-41fc6c1ec918",
       "ward_no": "16",
-      "ward_name_en": "Thennala",
-      "ward_name_ml": "തെന്നല"
+      "name_en": "Thennala",
+      "name_ml": "തെന്നല"
     },
     {
-      "ward_id": "7f88be02-8482-493f-95d3-eb36d0abe82f",
+      "id": "7f88be02-8482-493f-95d3-eb36d0abe82f",
       "ward_no": "17",
-      "ward_name_en": "Alungal",
-      "ward_name_ml": "ആലുങ്ങല്‍"
+      "name_en": "Alungal",
+      "name_ml": "ആലുങ്ങല്‍"
     }
   ],
   "towns": [],

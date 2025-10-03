@@ -1,190 +1,201 @@
 {
-  "local_body_id": "M040200",
-  "local_body_name_en": "Mavelikara",
-  "local_body_name_ml": "മാവേലിക്കര",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "109",
-    "assembly_name_en": "Mavelikara",
-    "assembly_name_ml": "മാവേലിക്കര",
+  "id": "M040200",
+  "name_en": "Mavelikara",
+  "name_ml": "മാവേലിക്കര",
+  "assembly_id": "109",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "109",
+    "name_en": "Mavelikara",
+    "name_ml": "മാവേലിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "595f3e5a-d2ea-46ef-876c-a1820d183472",
+      "id": "595f3e5a-d2ea-46ef-876c-a1820d183472",
       "ward_no": "1",
-      "ward_name_en": "Mattom North",
-      "ward_name_ml": "മറ്റം നോ൪ത്ത്"
+      "name_en": "Mattom North",
+      "name_ml": "മറ്റം നോ൪ത്ത്"
     },
     {
-      "ward_id": "2c1f1ffe-51f4-41df-8be0-9ffbe26cd07b",
+      "id": "2c1f1ffe-51f4-41df-8be0-9ffbe26cd07b",
       "ward_no": "2",
-      "ward_name_en": "Kuruvikkadu",
-      "ward_name_ml": "കുരുവിക്കാട്"
+      "name_en": "Kuruvikkadu",
+      "name_ml": "കുരുവിക്കാട്"
     },
     {
-      "ward_id": "d4e0233e-c165-441f-947e-7e35f8fa5c4d",
+      "id": "d4e0233e-c165-441f-947e-7e35f8fa5c4d",
       "ward_no": "3",
-      "ward_name_en": "Kandiyoor",
-      "ward_name_ml": "കണ്ടിയൂ൪"
+      "name_en": "Kandiyoor",
+      "name_ml": "കണ്ടിയൂ൪"
     },
     {
-      "ward_id": "a652676e-1d02-4761-8c19-7c2a5b4166d7",
+      "id": "a652676e-1d02-4761-8c19-7c2a5b4166d7",
       "ward_no": "4",
-      "ward_name_en": "Municipal Bus Stand",
-      "ward_name_ml": "മുനിസിപ്പല് ബസ് സ്റ്റാ൯ഡ്"
+      "name_en": "Municipal Bus Stand",
+      "name_ml": "മുനിസിപ്പല് ബസ് സ്റ്റാ൯ഡ്"
     },
     {
-      "ward_id": "1362991a-5ff1-4647-8e07-e5f3482b969e",
+      "id": "1362991a-5ff1-4647-8e07-e5f3482b969e",
       "ward_no": "5",
-      "ward_name_en": "Prayikkara Temple",
-      "ward_name_ml": "പ്രായിക്കര ടെമ്പിള്"
+      "name_en": "Prayikkara Temple",
+      "name_ml": "പ്രായിക്കര ടെമ്പിള്"
     },
     {
-      "ward_id": "2c4b1d5c-078f-46b7-bbef-1266f70acf4c",
+      "id": "2c4b1d5c-078f-46b7-bbef-1266f70acf4c",
       "ward_no": "6",
-      "ward_name_en": "Prayikkara",
-      "ward_name_ml": "പ്രായിക്കര"
+      "name_en": "Prayikkara",
+      "name_ml": "പ്രായിക്കര"
     },
     {
-      "ward_id": "a8afa182-cc5b-4946-ae0c-ac956d88300a",
+      "id": "a8afa182-cc5b-4946-ae0c-ac956d88300a",
       "ward_no": "7",
-      "ward_name_en": "Govt. Hospital Ward",
-      "ward_name_ml": "ഗവ. ഹോസ്പിറ്റല് വാ൪ഡ്"
+      "name_en": "Govt. Hospital Ward",
+      "name_ml": "ഗവ. ഹോസ്പിറ്റല് വാ൪ഡ്"
     },
     {
-      "ward_id": "c1f2a2c6-a7e2-4810-bb8c-37def5d32d6a",
+      "id": "c1f2a2c6-a7e2-4810-bb8c-37def5d32d6a",
       "ward_no": "8",
-      "ward_name_en": "Thazhakkara",
-      "ward_name_ml": "തഴക്കര"
+      "name_en": "Thazhakkara",
+      "name_ml": "തഴക്കര"
     },
     {
-      "ward_id": "6a605022-ddb5-46c8-8021-6cadd5536f6b",
+      "id": "6a605022-ddb5-46c8-8021-6cadd5536f6b",
       "ward_no": "9",
-      "ward_name_en": "Puthiyakavu Market",
-      "ward_name_ml": "പുതിയകാവ് മാ൪ക്കറ്റ്"
+      "name_en": "Puthiyakavu Market",
+      "name_ml": "പുതിയകാവ് മാ൪ക്കറ്റ്"
     },
     {
-      "ward_id": "e8e57636-9cba-41b6-93ba-fb891ebc9d81",
+      "id": "e8e57636-9cba-41b6-93ba-fb891ebc9d81",
       "ward_no": "10",
-      "ward_name_en": "Kottarkavu",
-      "ward_name_ml": "കൊറ്റാ൪കാവ്"
+      "name_en": "Kottarkavu",
+      "name_ml": "കൊറ്റാ൪കാവ്"
     },
     {
-      "ward_id": "e872f286-e72f-44fd-a518-4e6bdabe7d67",
+      "id": "e872f286-e72f-44fd-a518-4e6bdabe7d67",
       "ward_no": "11",
-      "ward_name_en": "Railway Station",
-      "ward_name_ml": "റെയില് വേ േസ്റ്റഷ൯"
+      "name_en": "Railway Station",
+      "name_ml": "റെയില് വേ േസ്റ്റഷ൯"
     },
     {
-      "ward_id": "229b7074-6c62-4dab-8342-7249578a2e65",
+      "id": "229b7074-6c62-4dab-8342-7249578a2e65",
       "ward_no": "12",
-      "ward_name_en": "Kallumala",
-      "ward_name_ml": "കല്ലുമല"
+      "name_en": "Kallumala",
+      "name_ml": "കല്ലുമല"
     },
     {
-      "ward_id": "1ba1dc3f-ab7f-4831-85ab-82b67af50f4b",
+      "id": "1ba1dc3f-ab7f-4831-85ab-82b67af50f4b",
       "ward_no": "13",
-      "ward_name_en": "Umbernadu",
-      "ward_name_ml": "ഉമ്പ൪നാട്"
+      "name_en": "Umbernadu",
+      "name_ml": "ഉമ്പ൪നാട്"
     },
     {
-      "ward_id": "64f4db3d-8430-4856-9025-d7bad5da1651",
+      "id": "64f4db3d-8430-4856-9025-d7bad5da1651",
       "ward_no": "14",
-      "ward_name_en": "Ayurveda Hospital",
-      "ward_name_ml": "ആയു൪വേദ ഹോസ്പിറ്റല്"
+      "name_en": "Ayurveda Hospital",
+      "name_ml": "ആയു൪വേദ ഹോസ്പിറ്റല്"
     },
     {
-      "ward_id": "84c51c6f-18bb-47b6-9efd-e07dfc1d9844",
+      "id": "84c51c6f-18bb-47b6-9efd-e07dfc1d9844",
       "ward_no": "15",
-      "ward_name_en": "Power House",
-      "ward_name_ml": "പവ൪ഹൌസ്"
+      "name_en": "Power House",
+      "name_ml": "പവ൪ഹൌസ്"
     },
     {
-      "ward_id": "5c68f1ce-b4b8-410d-9916-e2891b56c366",
+      "id": "5c68f1ce-b4b8-410d-9916-e2891b56c366",
       "ward_no": "16",
-      "ward_name_en": "Padeethodu",
-      "ward_name_ml": "പടീത്തോട്"
+      "name_en": "Padeethodu",
+      "name_ml": "പടീത്തോട്"
     },
     {
-      "ward_id": "da2a2f13-5a3f-4321-a9e3-be1634f8706a",
+      "id": "da2a2f13-5a3f-4321-a9e3-be1634f8706a",
       "ward_no": "17",
-      "ward_name_en": "Punnamood Market",
-      "ward_name_ml": "പുന്നമൂട് മാ൪ക്കറ്റ്"
+      "name_en": "Punnamood Market",
+      "name_ml": "പുന്നമൂട് മാ൪ക്കറ്റ്"
     },
     {
-      "ward_id": "27f9e2ca-2a99-4bef-b417-510a7d487a32",
+      "id": "27f9e2ca-2a99-4bef-b417-510a7d487a32",
       "ward_no": "18",
-      "ward_name_en": "Ponakam",
-      "ward_name_ml": "പോനകം"
+      "name_en": "Ponakam",
+      "name_ml": "പോനകം"
     },
     {
-      "ward_id": "e2b2331d-7876-414b-9700-ddba4d8de8db",
+      "id": "e2b2331d-7876-414b-9700-ddba4d8de8db",
       "ward_no": "19",
-      "ward_name_en": "Factory",
-      "ward_name_ml": "ഫാക്ടറി"
+      "name_en": "Factory",
+      "name_ml": "ഫാക്ടറി"
     },
     {
-      "ward_id": "1c690738-1b0e-446e-9f6f-65ab6857d9b7",
+      "id": "1c690738-1b0e-446e-9f6f-65ab6857d9b7",
       "ward_no": "20",
-      "ward_name_en": "Civil Station Ward",
-      "ward_name_ml": "സിവില് സ്റ്റേഷ൯ വാ൪ഡ്"
+      "name_en": "Civil Station Ward",
+      "name_ml": "സിവില് സ്റ്റേഷ൯ വാ൪ഡ്"
     },
     {
-      "ward_id": "64f994e6-3591-4821-9d7a-ca3216b9b948",
+      "id": "64f994e6-3591-4821-9d7a-ca3216b9b948",
       "ward_no": "21",
-      "ward_name_en": "Kochickal South",
-      "ward_name_ml": "കൊച്ചിയ്ക്കല് തെക്ക്"
+      "name_en": "Kochickal South",
+      "name_ml": "കൊച്ചിയ്ക്കല് തെക്ക്"
     },
     {
-      "ward_id": "b7b3f3ff-8542-4d9b-9e8d-04890d500b95",
+      "id": "b7b3f3ff-8542-4d9b-9e8d-04890d500b95",
       "ward_no": "22",
-      "ward_name_en": "Ponnaram Thottam",
-      "ward_name_ml": "പൊന്നാരംതോട്ടം"
+      "name_en": "Ponnaram Thottam",
+      "name_ml": "പൊന്നാരംതോട്ടം"
     },
     {
-      "ward_id": "a1c0542d-7255-418b-9f9b-eaf3aba41fa6",
+      "id": "a1c0542d-7255-418b-9f9b-eaf3aba41fa6",
       "ward_no": "23",
-      "ward_name_en": "Kottakkakam",
-      "ward_name_ml": "കൊട്ടയ്ക്കകം"
+      "name_en": "Kottakkakam",
+      "name_ml": "കൊട്ടയ്ക്കകം"
     },
     {
-      "ward_id": "19d5b1b8-bd74-46b3-98e9-596e89579302",
+      "id": "19d5b1b8-bd74-46b3-98e9-596e89579302",
       "ward_no": "24",
-      "ward_name_en": "Municipal Office",
-      "ward_name_ml": "മുനിസിപ്പല്  ഓഫീസ്"
+      "name_en": "Municipal Office",
+      "name_ml": "മുനിസിപ്പല്  ഓഫീസ്"
     },
     {
-      "ward_id": "c9b916c0-9645-4142-84dc-dfe8f3668c7a",
+      "id": "c9b916c0-9645-4142-84dc-dfe8f3668c7a",
       "ward_no": "25",
-      "ward_name_en": "Kochikkal",
-      "ward_name_ml": "കൊച്ചിയ്ക്കല്"
+      "name_en": "Kochikkal",
+      "name_ml": "കൊച്ചിയ്ക്കല്"
     },
     {
-      "ward_id": "7367cc8f-172e-4e66-a89e-f727dc684890",
+      "id": "7367cc8f-172e-4e66-a89e-f727dc684890",
       "ward_no": "26",
-      "ward_name_en": "Panachamoodu",
-      "ward_name_ml": "പനച്ചമൂട്"
+      "name_en": "Panachamoodu",
+      "name_ml": "പനച്ചമൂട്"
     },
     {
-      "ward_id": "f11bf141-f235-4229-8cef-de3efb32eb1c",
+      "id": "f11bf141-f235-4229-8cef-de3efb32eb1c",
       "ward_no": "27",
-      "ward_name_en": "Kandiyoor South",
-      "ward_name_ml": "കണ്ടിയൂ൪ സൌത്ത്"
+      "name_en": "Kandiyoor South",
+      "name_ml": "കണ്ടിയൂ൪ സൌത്ത്"
     },
     {
-      "ward_id": "1aec687f-4453-4537-ac44-e49fcf43497c",
+      "id": "1aec687f-4453-4537-ac44-e49fcf43497c",
       "ward_no": "28",
-      "ward_name_en": "Thattarambalam",
-      "ward_name_ml": "തട്ടാരമ്പലം"
+      "name_en": "Thattarambalam",
+      "name_ml": "തട്ടാരമ്പലം"
     }
   ],
   "towns": [],

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G140507",
-  "local_body_name_en": "Kinanoor - Karinthalam",
-  "local_body_name_ml": "കിനാനൂര്‍ കരിന്തളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G140507",
+  "name_en": "Kinanoor - Karinthalam",
+  "name_ml": "കിനാനൂര്‍ കരിന്തളം",
+  "assembly_id": "4",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "4",
-    "assembly_name_en": "Kanhangad",
-    "assembly_name_ml": "കാഞ്ഞങ്ങാട്",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Kanhangad",
+    "name_ml": "കാഞ്ഞങ്ങാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "110225aa-a6f3-4f67-b38f-4d85ccfe75a0",
+      "id": "110225aa-a6f3-4f67-b38f-4d85ccfe75a0",
       "ward_no": "1",
-      "ward_name_en": "Chayoth",
-      "ward_name_ml": "ചായ്യോത്ത്"
+      "name_en": "Chayoth",
+      "name_ml": "ചായ്യോത്ത്"
     },
     {
-      "ward_id": "bdf18561-e908-4264-95b7-ba71e9d1252f",
+      "id": "bdf18561-e908-4264-95b7-ba71e9d1252f",
       "ward_no": "2",
-      "ward_name_en": "Koovatty",
-      "ward_name_ml": "കൂവാറ്റി"
+      "name_en": "Koovatty",
+      "name_ml": "കൂവാറ്റി"
     },
     {
-      "ward_id": "4c65460d-c9ac-40cb-8aa7-67e7f3723b4c",
+      "id": "4c65460d-c9ac-40cb-8aa7-67e7f3723b4c",
       "ward_no": "3",
-      "ward_name_en": "Nelliyadukkam",
-      "ward_name_ml": "നെല്ലിയടുക്കം"
+      "name_en": "Nelliyadukkam",
+      "name_ml": "നെല്ലിയടുക്കം"
     },
     {
-      "ward_id": "fb165b32-ab21-4acd-bd12-7c136aba1cc7",
+      "id": "fb165b32-ab21-4acd-bd12-7c136aba1cc7",
       "ward_no": "4",
-      "ward_name_en": "Puthukkunnu",
-      "ward_name_ml": "പുതുക്കുന്ന്"
+      "name_en": "Puthukkunnu",
+      "name_ml": "പുതുക്കുന്ന്"
     },
     {
-      "ward_id": "ad954e7e-5375-4937-9ad6-7710df478f00",
+      "id": "ad954e7e-5375-4937-9ad6-7710df478f00",
       "ward_no": "5",
-      "ward_name_en": "Karalam",
-      "ward_name_ml": "കാറളം"
+      "name_en": "Karalam",
+      "name_ml": "കാറളം"
     },
     {
-      "ward_id": "065a12b2-96eb-4651-8fd8-0e8f5710ef47",
+      "id": "065a12b2-96eb-4651-8fd8-0e8f5710ef47",
       "ward_no": "6",
-      "ward_name_en": "Birikkulam",
-      "ward_name_ml": "ബിരിക്കുളം"
+      "name_en": "Birikkulam",
+      "name_ml": "ബിരിക്കുളം"
     },
     {
-      "ward_id": "da8404cd-adb7-4662-8372-888f332eafdb",
+      "id": "da8404cd-adb7-4662-8372-888f332eafdb",
       "ward_no": "7",
-      "ward_name_en": "Kammadam",
-      "ward_name_ml": "കമ്മാടം"
+      "name_en": "Kammadam",
+      "name_ml": "കമ്മാടം"
     },
     {
-      "ward_id": "2f6046dd-5ca1-4deb-b493-aeae8a8378ff",
+      "id": "2f6046dd-5ca1-4deb-b493-aeae8a8378ff",
       "ward_no": "8",
-      "ward_name_en": "Parappa",
-      "ward_name_ml": "പരപ്പ"
+      "name_en": "Parappa",
+      "name_ml": "പരപ്പ"
     },
     {
-      "ward_id": "49210bab-f88b-411b-b58e-8d9b2914d735",
+      "id": "49210bab-f88b-411b-b58e-8d9b2914d735",
       "ward_no": "9",
-      "ward_name_en": "Karattu",
-      "ward_name_ml": "കാരാട്ട്"
+      "name_en": "Karattu",
+      "name_ml": "കാരാട്ട്"
     },
     {
-      "ward_id": "5e53dbc5-ac18-432d-bfdd-178f5122c19d",
+      "id": "5e53dbc5-ac18-432d-bfdd-178f5122c19d",
       "ward_no": "10",
-      "ward_name_en": "Kooramkundu",
-      "ward_name_ml": "കൂരാംകുണ്ട്"
+      "name_en": "Kooramkundu",
+      "name_ml": "കൂരാംകുണ്ട്"
     },
     {
-      "ward_id": "71cf1d0a-30db-40d0-9334-e32da1cb33dc",
+      "id": "71cf1d0a-30db-40d0-9334-e32da1cb33dc",
       "ward_no": "11",
-      "ward_name_en": "Kolamkulam",
-      "ward_name_ml": "കോളംകുളം"
+      "name_en": "Kolamkulam",
+      "name_ml": "കോളംകുളം"
     },
     {
-      "ward_id": "30ebbbb5-d92c-4cea-becf-9387a934c025",
+      "id": "30ebbbb5-d92c-4cea-becf-9387a934c025",
       "ward_no": "12",
-      "ward_name_en": "Periyanganam",
-      "ward_name_ml": "പെരിയങ്ങാനം"
+      "name_en": "Periyanganam",
+      "name_ml": "പെരിയങ്ങാനം"
     },
     {
-      "ward_id": "136d2f97-0b2e-4f6b-b90a-e88099be71f7",
+      "id": "136d2f97-0b2e-4f6b-b90a-e88099be71f7",
       "ward_no": "13",
-      "ward_name_en": "Kumbalappally",
-      "ward_name_ml": "കുമ്പളപ്പള്ളി"
+      "name_en": "Kumbalappally",
+      "name_ml": "കുമ്പളപ്പള്ളി"
     },
     {
-      "ward_id": "4ba2170b-2425-4798-9dfc-e42d5b199c87",
+      "id": "4ba2170b-2425-4798-9dfc-e42d5b199c87",
       "ward_no": "14",
-      "ward_name_en": "Puliyannur",
-      "ward_name_ml": "പുലിയന്നൂര്‍"
+      "name_en": "Puliyannur",
+      "name_ml": "പുലിയന്നൂര്‍"
     },
     {
-      "ward_id": "ed9e0a27-10ed-40fa-a858-9448beeb7901",
+      "id": "ed9e0a27-10ed-40fa-a858-9448beeb7901",
       "ward_no": "15",
-      "ward_name_en": "Karinthalam",
-      "ward_name_ml": "കരിന്തളം"
+      "name_en": "Karinthalam",
+      "name_ml": "കരിന്തളം"
     },
     {
-      "ward_id": "184cd221-7196-4b6f-ace6-33f4750a9a2f",
+      "id": "184cd221-7196-4b6f-ace6-33f4750a9a2f",
       "ward_no": "16",
-      "ward_name_en": "Kollampara",
-      "ward_name_ml": "കൊല്ലംപാറ"
+      "name_en": "Kollampara",
+      "name_ml": "കൊല്ലംപാറ"
     },
     {
-      "ward_id": "4fe3000a-ea4b-4bb0-8fe4-8cc31284ad89",
+      "id": "4fe3000a-ea4b-4bb0-8fe4-8cc31284ad89",
       "ward_no": "17",
-      "ward_name_en": "Kinanoor",
-      "ward_name_ml": "കിനാനൂര്‍"
+      "name_en": "Kinanoor",
+      "name_ml": "കിനാനൂര്‍"
     }
   ],
   "towns": [],

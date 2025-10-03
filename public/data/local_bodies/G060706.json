@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060706",
-  "local_body_name_en": "Purapuzha",
-  "local_body_name_ml": "പുറപ്പുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G060706",
+  "name_en": "Purapuzha",
+  "name_ml": "പുറപ്പുഴ",
+  "assembly_id": "90",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "90",
-    "assembly_name_en": "Thodupuzha",
-    "assembly_name_ml": "തൊടുപുഴ",
-    "category": "Normal"
+    "id": "90",
+    "name_en": "Thodupuzha",
+    "name_ml": "തൊടുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e94f967d-8e85-4a71-9174-7f3bb861a812",
+      "id": "e94f967d-8e85-4a71-9174-7f3bb861a812",
       "ward_no": "1",
-      "ward_name_en": "Vazhithala",
-      "ward_name_ml": "വഴിത്തല"
+      "name_en": "Vazhithala",
+      "name_ml": "വഴിത്തല"
     },
     {
-      "ward_id": "114a42fe-5a85-466f-bf83-4e75dc5b8049",
+      "id": "114a42fe-5a85-466f-bf83-4e75dc5b8049",
       "ward_no": "2",
-      "ward_name_en": "Purapuzha West",
-      "ward_name_ml": "പുറപ്പുഴ വെസ്റ്റ്"
+      "name_en": "Purapuzha West",
+      "name_ml": "പുറപ്പുഴ വെസ്റ്റ്"
     },
     {
-      "ward_id": "16957a7e-3302-4ec8-8621-c7e3ad4026b6",
+      "id": "16957a7e-3302-4ec8-8621-c7e3ad4026b6",
       "ward_no": "3",
-      "ward_name_en": "Nediyasla",
-      "ward_name_ml": "നെടിയശാല"
+      "name_en": "Nediyasla",
+      "name_ml": "നെടിയശാല"
     },
     {
-      "ward_id": "607b1f40-8c34-4287-b9b8-d6a242450528",
+      "id": "607b1f40-8c34-4287-b9b8-d6a242450528",
       "ward_no": "4",
-      "ward_name_en": "Purapuzha",
-      "ward_name_ml": "പുറപ്പുഴ"
+      "name_en": "Purapuzha",
+      "name_ml": "പുറപ്പുഴ"
     },
     {
-      "ward_id": "8aad85b3-4704-4b2c-9f2c-f87c03076a32",
+      "id": "8aad85b3-4704-4b2c-9f2c-f87c03076a32",
       "ward_no": "5",
-      "ward_name_en": "Purapuzha East",
-      "ward_name_ml": "പുറപ്പുഴ ഈസ്റ്റ്"
+      "name_en": "Purapuzha East",
+      "name_ml": "പുറപ്പുഴ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "5d172e91-e8cb-47d6-86ba-ba8c9a8ab50a",
+      "id": "5d172e91-e8cb-47d6-86ba-ba8c9a8ab50a",
       "ward_no": "6",
-      "ward_name_en": "Kadarakuzhy",
-      "ward_name_ml": "കഠാരക്കുഴി"
+      "name_en": "Kadarakuzhy",
+      "name_ml": "കഠാരക്കുഴി"
     },
     {
-      "ward_id": "3f36672c-72b0-4d48-ae13-5902c87a5bac",
+      "id": "3f36672c-72b0-4d48-ae13-5902c87a5bac",
       "ward_no": "7",
-      "ward_name_en": "Karikombu",
-      "ward_name_ml": "കാരിക്കൊമ്പ്"
+      "name_en": "Karikombu",
+      "name_ml": "കാരിക്കൊമ്പ്"
     },
     {
-      "ward_id": "03217dbb-ab34-43a4-b459-12b28eeefd95",
+      "id": "03217dbb-ab34-43a4-b459-12b28eeefd95",
       "ward_no": "8",
-      "ward_name_en": "Kodikuthy",
-      "ward_name_ml": "കൊടികുത്തി"
+      "name_en": "Kodikuthy",
+      "name_ml": "കൊടികുത്തി"
     },
     {
-      "ward_id": "d42e1577-e6f3-4c2a-a4c2-cdd93c46eb21",
+      "id": "d42e1577-e6f3-4c2a-a4c2-cdd93c46eb21",
       "ward_no": "9",
-      "ward_name_en": "Manachal",
-      "ward_name_ml": "മാനാച്ചാല്‍"
+      "name_en": "Manachal",
+      "name_ml": "മാനാച്ചാല്‍"
     },
     {
-      "ward_id": "843ee9b8-53e5-45cf-a525-ec2631fb4b98",
+      "id": "843ee9b8-53e5-45cf-a525-ec2631fb4b98",
       "ward_no": "10",
-      "ward_name_en": "Kuninji",
-      "ward_name_ml": "കുണിഞ്ഞി"
+      "name_en": "Kuninji",
+      "name_ml": "കുണിഞ്ഞി"
     },
     {
-      "ward_id": "47e1eeca-77c1-4c7e-9cef-0489df98952d",
+      "id": "47e1eeca-77c1-4c7e-9cef-0489df98952d",
       "ward_no": "11",
-      "ward_name_en": "Mundunada",
-      "ward_name_ml": "മുണ്ടുനട"
+      "name_en": "Mundunada",
+      "name_ml": "മുണ്ടുനട"
     },
     {
-      "ward_id": "886f02aa-e659-4459-8f42-f6e5ee2bb0fe",
+      "id": "886f02aa-e659-4459-8f42-f6e5ee2bb0fe",
       "ward_no": "12",
-      "ward_name_en": "Santhigiri",
-      "ward_name_ml": "ശാന്തിഗിരി"
+      "name_en": "Santhigiri",
+      "name_ml": "ശാന്തിഗിരി"
     },
     {
-      "ward_id": "9dea31ff-daed-48f3-8e1b-0f21e2c471c0",
+      "id": "9dea31ff-daed-48f3-8e1b-0f21e2c471c0",
       "ward_no": "13",
-      "ward_name_en": "Kannadikandam",
-      "ward_name_ml": "കണ്ണാടികണ്ടം"
+      "name_en": "Kannadikandam",
+      "name_ml": "കണ്ണാടികണ്ടം"
     }
   ],
   "towns": [],

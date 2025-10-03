@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G081002",
-  "local_body_name_en": "Cherpu",
-  "local_body_name_ml": "ചേര്‍പ്പ്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
-  "assembly": {
-    "assembly_id": "68",
-    "assembly_name_en": "Nattika",
-    "assembly_name_ml": "നാട്ടിക",
+  "id": "G081002",
+  "name_en": "Cherpu",
+  "name_ml": "ചേര്‍പ്പ്",
+  "assembly_id": "68",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Good"
   },
+  "assembly": {
+    "id": "68",
+    "name_en": "Nattika",
+    "name_ml": "നാട്ടിക",
+    "assembly_category": {
+      "category": "Good"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bef099ba-348e-4e2e-9591-41be38463f22",
+      "id": "bef099ba-348e-4e2e-9591-41be38463f22",
       "ward_no": "1",
-      "ward_name_en": "Pootharakkal",
-      "ward_name_ml": "പൂത്തറക്കല്‍"
+      "name_en": "Pootharakkal",
+      "name_ml": "പൂത്തറക്കല്‍"
     },
     {
-      "ward_id": "ae6f0de1-64cc-4805-8b2f-1fba17b59a9f",
+      "id": "ae6f0de1-64cc-4805-8b2f-1fba17b59a9f",
       "ward_no": "2",
-      "ward_name_en": "Perumbillyssery",
-      "ward_name_ml": "പെരുംമ്പിള്ളിശ്ശേരി"
+      "name_en": "Perumbillyssery",
+      "name_ml": "പെരുംമ്പിള്ളിശ്ശേരി"
     },
     {
-      "ward_id": "1197d827-d666-4d40-8d28-063430709477",
+      "id": "1197d827-d666-4d40-8d28-063430709477",
       "ward_no": "3",
-      "ward_name_en": "Chevoor",
-      "ward_name_ml": "ചെവ്വൂര്‍"
+      "name_en": "Chevoor",
+      "name_ml": "ചെവ്വൂര്‍"
     },
     {
-      "ward_id": "6133677b-16d0-4575-8a6e-63f7f80af5b6",
+      "id": "6133677b-16d0-4575-8a6e-63f7f80af5b6",
       "ward_no": "4",
-      "ward_name_en": "Chevoor East",
-      "ward_name_ml": "ചെവ്വൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Chevoor East",
+      "name_ml": "ചെവ്വൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "785d63ec-1ab8-474a-9efc-8f50389ac08e",
+      "id": "785d63ec-1ab8-474a-9efc-8f50389ac08e",
       "ward_no": "5",
-      "ward_name_en": "Thiruvullakkavu",
-      "ward_name_ml": "തിരുവുള്ളക്കാവ്"
+      "name_en": "Thiruvullakkavu",
+      "name_ml": "തിരുവുള്ളക്കാവ്"
     },
     {
-      "ward_id": "82d8913d-9cd9-4cdf-8c5b-a50b2ed3f529",
+      "id": "82d8913d-9cd9-4cdf-8c5b-a50b2ed3f529",
       "ward_no": "6",
-      "ward_name_en": "Vallukunnathussery",
-      "ward_name_ml": "വള്ളുകുന്നത്തുശ്ശേരി"
+      "name_en": "Vallukunnathussery",
+      "name_ml": "വള്ളുകുന്നത്തുശ്ശേരി"
     },
     {
-      "ward_id": "1e48a73c-c56a-4af1-a8b1-2a6ddf3ed662",
+      "id": "1e48a73c-c56a-4af1-a8b1-2a6ddf3ed662",
       "ward_no": "7",
-      "ward_name_en": "Poochunnipadam",
-      "ward_name_ml": "പൂച്ചുണ്ണിപാടം"
+      "name_en": "Poochunnipadam",
+      "name_ml": "പൂച്ചുണ്ണിപാടം"
     },
     {
-      "ward_id": "a02b383d-6811-43d5-9a1a-01f18ef9a417",
+      "id": "a02b383d-6811-43d5-9a1a-01f18ef9a417",
       "ward_no": "8",
-      "ward_name_en": "Cherpu",
-      "ward_name_ml": "ചേര്‍പ്പ്"
+      "name_en": "Cherpu",
+      "name_ml": "ചേര്‍പ്പ്"
     },
     {
-      "ward_id": "67f477f4-3165-414a-aaca-c32abb462887",
+      "id": "67f477f4-3165-414a-aaca-c32abb462887",
       "ward_no": "9",
-      "ward_name_en": "Peruvanam",
-      "ward_name_ml": "പെരുവനം"
+      "name_en": "Peruvanam",
+      "name_ml": "പെരുവനം"
     },
     {
-      "ward_id": "1676e1a8-dbc3-4791-b01b-bb60949888c5",
+      "id": "1676e1a8-dbc3-4791-b01b-bb60949888c5",
       "ward_no": "10",
-      "ward_name_en": "Urakam North",
-      "ward_name_ml": "ഊരകം നോര്‍ത്ത്"
+      "name_en": "Urakam North",
+      "name_ml": "ഊരകം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "e632cd72-8f8b-4847-995a-1da69a846cf6",
+      "id": "e632cd72-8f8b-4847-995a-1da69a846cf6",
       "ward_no": "11",
-      "ward_name_en": "Urakam East",
-      "ward_name_ml": "ഊരകം ഈസ്റ്റ്"
+      "name_en": "Urakam East",
+      "name_ml": "ഊരകം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "1108123f-93b7-41ed-8960-262645a755ab",
+      "id": "1108123f-93b7-41ed-8960-262645a755ab",
       "ward_no": "12",
-      "ward_name_en": "Panamkulam",
-      "ward_name_ml": "പനംകുളം"
+      "name_en": "Panamkulam",
+      "name_ml": "പനംകുളം"
     },
     {
-      "ward_id": "062e3b94-ad31-458d-8500-cce544f1f1fd",
+      "id": "062e3b94-ad31-458d-8500-cce544f1f1fd",
       "ward_no": "13",
-      "ward_name_en": "Ettumana",
-      "ward_name_ml": "എട്ടുമന"
+      "name_en": "Ettumana",
+      "name_ml": "എട്ടുമന"
     },
     {
-      "ward_id": "48ba6e33-1d41-494a-a2d2-452a55db9d45",
+      "id": "48ba6e33-1d41-494a-a2d2-452a55db9d45",
       "ward_no": "14",
-      "ward_name_en": "Urakam",
-      "ward_name_ml": "ഊരകം"
+      "name_en": "Urakam",
+      "name_ml": "ഊരകം"
     },
     {
-      "ward_id": "71ccfbe1-ab54-491e-b091-445dff3fdabd",
+      "id": "71ccfbe1-ab54-491e-b091-445dff3fdabd",
       "ward_no": "15",
-      "ward_name_en": "Perumkulam",
-      "ward_name_ml": "പെരുംകുളം"
+      "name_en": "Perumkulam",
+      "name_ml": "പെരുംകുളം"
     },
     {
-      "ward_id": "f91439b8-96d9-4834-bcf8-a2e3091b2e10",
+      "id": "f91439b8-96d9-4834-bcf8-a2e3091b2e10",
       "ward_no": "16",
-      "ward_name_en": "Ettumana West",
-      "ward_name_ml": "എട്ടുമന വെസ്റ്റ്"
+      "name_en": "Ettumana West",
+      "name_ml": "എട്ടുമന വെസ്റ്റ്"
     },
     {
-      "ward_id": "3c7613df-7237-44f5-b1e0-bc8c8782c538",
+      "id": "3c7613df-7237-44f5-b1e0-bc8c8782c538",
       "ward_no": "17",
-      "ward_name_en": "Cherpu West",
-      "ward_name_ml": "ചേര്‍പ്പ് വെസ്റ്റ്"
+      "name_en": "Cherpu West",
+      "name_ml": "ചേര്‍പ്പ് വെസ്റ്റ്"
     },
     {
-      "ward_id": "b047726e-187c-4794-bf2c-cbb72cf9b777",
+      "id": "b047726e-187c-4794-bf2c-cbb72cf9b777",
       "ward_no": "18",
-      "ward_name_en": "Muthulliyal",
-      "ward_name_ml": "മുത്തുള്ളിയാല്‍"
+      "name_en": "Muthulliyal",
+      "name_ml": "മുത്തുള്ളിയാല്‍"
     },
     {
-      "ward_id": "cd100a94-616c-40e8-9ba2-7f5bdd1940d5",
+      "id": "cd100a94-616c-40e8-9ba2-7f5bdd1940d5",
       "ward_no": "19",
-      "ward_name_en": "Cherpu East",
-      "ward_name_ml": "ചേര്‍പ്പ് ഈസ്റ്റ്"
+      "name_en": "Cherpu East",
+      "name_ml": "ചേര്‍പ്പ് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "3fb8b89a-b831-4d51-9f12-8096aa0e209a",
+      "id": "3fb8b89a-b831-4d51-9f12-8096aa0e209a",
       "ward_no": "20",
-      "ward_name_en": "Thayamkulangara",
-      "ward_name_ml": "തായംകുളങ്ങര"
+      "name_en": "Thayamkulangara",
+      "name_ml": "തായംകുളങ്ങര"
     },
     {
-      "ward_id": "060abf1f-951f-434a-bc16-146fa425079e",
+      "id": "060abf1f-951f-434a-bc16-146fa425079e",
       "ward_no": "21",
-      "ward_name_en": "Perumbillyssery West",
-      "ward_name_ml": "പെരുംമ്പിള്ളിശ്ശേരി വെസ്റ്റ്"
+      "name_en": "Perumbillyssery West",
+      "name_ml": "പെരുംമ്പിള്ളിശ്ശേരി വെസ്റ്റ്"
     }
   ],
   "towns": [],

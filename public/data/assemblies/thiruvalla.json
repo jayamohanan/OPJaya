@@ -1,86 +1,115 @@
 {
-  "assembly_id": "111",
-  "assembly_name_en": "Thiruvalla",
-  "assembly_name_ml": "തിരുവല്ല",
-  "category": "Normal",
+  "id": "111",
+  "name_en": "Thiruvalla",
+  "name_ml": "തിരുവല്ല",
+  "district_id": "3",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "district_category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G030201",
-      "local_body_name_en": "Kadapra",
-      "local_body_name_ml": "കടപ്ര",
-      "category": "Good"
+      "id": "G030201",
+      "name_en": "Kadapra",
+      "name_ml": "കടപ്ര",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030105",
-      "local_body_name_en": "Kallooppara",
-      "local_body_name_ml": "കല്ലൂപ്പാറ",
-      "category": "Normal"
+      "id": "G030105",
+      "name_en": "Kallooppara",
+      "name_ml": "കല്ലൂപ്പാറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030102",
-      "local_body_name_en": "Kaviyoor",
-      "local_body_name_ml": "കവിയൂര്‍",
-      "category": "Normal"
+      "id": "G030102",
+      "name_en": "Kaviyoor",
+      "name_ml": "കവിയൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030106",
-      "local_body_name_en": "Kunnamthanam",
-      "local_body_name_ml": "കുന്നന്താനം",
-      "category": "Perfect"
+      "id": "G030106",
+      "name_en": "Kunnamthanam",
+      "name_ml": "കുന്നന്താനം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030202",
-      "local_body_name_en": "Kuttoor",
-      "local_body_name_ml": "കുറ്റൂര്‍",
-      "category": "Normal"
+      "id": "G030202",
+      "name_en": "Kuttoor",
+      "name_ml": "കുറ്റൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030107",
-      "local_body_name_en": "Mallappally",
-      "local_body_name_ml": "മല്ലപ്പള്ളി",
-      "category": "Normal"
+      "id": "G030107",
+      "name_en": "Mallappally",
+      "name_ml": "മല്ലപ്പള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030204",
-      "local_body_name_en": "Nedumpuram",
-      "local_body_name_ml": "നെടുമ്പ്രം",
-      "category": "Good"
+      "id": "G030204",
+      "name_en": "Nedumpuram",
+      "name_ml": "നെടുമ്പ്രം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030203",
-      "local_body_name_en": "Niranam",
-      "local_body_name_ml": "നിരണം",
-      "category": "Good"
+      "id": "G030203",
+      "name_en": "Niranam",
+      "name_ml": "നിരണം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030205",
-      "local_body_name_en": "Peringara",
-      "local_body_name_ml": "പെരിങ്ങര",
-      "category": "Normal"
+      "id": "G030205",
+      "name_en": "Peringara",
+      "name_ml": "പെരിങ്ങര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030306",
-      "local_body_name_en": "Puramattom",
-      "local_body_name_ml": "പുറമറ്റം",
-      "category": "Good"
+      "id": "G030306",
+      "name_en": "Puramattom",
+      "name_ml": "പുറമറ്റം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M030200",
-      "local_body_name_en": "Thiruvalla",
-      "local_body_name_ml": "തിരുവല്ല",
-      "category": "Perfect"
+      "id": "M030200",
+      "name_en": "Thiruvalla",
+      "name_ml": "തിരുവല്ല",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030101",
-      "local_body_name_en": "Anicadu",
-      "local_body_name_ml": "ആനിക്കാട്",
-      "category": "Normal"
+      "id": "G030101",
+      "name_en": "Anicadu",
+      "name_ml": "ആനിക്കാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

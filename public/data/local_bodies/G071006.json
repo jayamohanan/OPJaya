@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G071006",
-  "local_body_name_en": "Kunnathunad",
-  "local_body_name_ml": "കുന്നത്തുനാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "84",
-    "assembly_name_en": "Kunnathunad",
-    "assembly_name_ml": "കുന്നത്തുനാട്",
+  "id": "G071006",
+  "name_en": "Kunnathunad",
+  "name_ml": "കുന്നത്തുനാട്",
+  "assembly_id": "84",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "84",
+    "name_en": "Kunnathunad",
+    "name_ml": "കുന്നത്തുനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "3efc76f3-7ee5-4113-afc7-2955701f2003",
+      "id": "3efc76f3-7ee5-4113-afc7-2955701f2003",
       "ward_no": "1",
-      "ward_name_en": "Chittanadu",
-      "ward_name_ml": "ചിറ്റനാട്"
+      "name_en": "Chittanadu",
+      "name_ml": "ചിറ്റനാട്"
     },
     {
-      "ward_id": "5cb7b35d-dae3-430b-a1dc-0cb646f5b047",
+      "id": "5cb7b35d-dae3-430b-a1dc-0cb646f5b047",
       "ward_no": "2",
-      "ward_name_en": "Erumeli",
-      "ward_name_ml": "എരുമേലി"
+      "name_en": "Erumeli",
+      "name_ml": "എരുമേലി"
     },
     {
-      "ward_id": "de7b790f-15b4-464f-972b-6e187a8826d9",
+      "id": "de7b790f-15b4-464f-972b-6e187a8826d9",
       "ward_no": "3",
-      "ward_name_en": "Parakkode",
-      "ward_name_ml": "പറക്കേട്"
+      "name_en": "Parakkode",
+      "name_ml": "പറക്കേട്"
     },
     {
-      "ward_id": "ca657e76-3b0a-4aa3-89fc-8ff36288d314",
+      "id": "ca657e76-3b0a-4aa3-89fc-8ff36288d314",
       "ward_no": "4",
-      "ward_name_en": "Punnorkode",
-      "ward_name_ml": "പുന്നോര്‍ക്കോട്"
+      "name_en": "Punnorkode",
+      "name_ml": "പുന്നോര്‍ക്കോട്"
     },
     {
-      "ward_id": "73a68ce3-1975-41b5-8836-9fe045853489",
+      "id": "73a68ce3-1975-41b5-8836-9fe045853489",
       "ward_no": "5",
-      "ward_name_en": "Kaithakkadu South",
-      "ward_name_ml": "കൈതക്കാട് സൌത്ത്"
+      "name_en": "Kaithakkadu South",
+      "name_ml": "കൈതക്കാട് സൌത്ത്"
     },
     {
-      "ward_id": "7c2003b3-d954-4932-8472-076e338b668e",
+      "id": "7c2003b3-d954-4932-8472-076e338b668e",
       "ward_no": "6",
-      "ward_name_en": "Kaithakkadu North",
-      "ward_name_ml": "കൈതക്കാട് നോര്‍ത്ത്"
+      "name_en": "Kaithakkadu North",
+      "name_ml": "കൈതക്കാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "8a8c1676-d9c3-4aeb-a3fa-e51c8e0ff3b8",
+      "id": "8a8c1676-d9c3-4aeb-a3fa-e51c8e0ff3b8",
       "ward_no": "7",
-      "ward_name_en": "Pattimattom",
-      "ward_name_ml": "പട്ടിമറ്റം"
+      "name_en": "Pattimattom",
+      "name_ml": "പട്ടിമറ്റം"
     },
     {
-      "ward_id": "3e8b4c44-8443-4bf4-acab-613ad38516c2",
+      "id": "3e8b4c44-8443-4bf4-acab-613ad38516c2",
       "ward_no": "8",
-      "ward_name_en": "Chengara North",
-      "ward_name_ml": "ചെങ്ങര നോര്‍ത്ത്"
+      "name_en": "Chengara North",
+      "name_ml": "ചെങ്ങര നോര്‍ത്ത്"
     },
     {
-      "ward_id": "97f9b5f2-6be8-4b66-841e-2dcebdd46a1c",
+      "id": "97f9b5f2-6be8-4b66-841e-2dcebdd46a1c",
       "ward_no": "9",
-      "ward_name_en": "Chengara South",
-      "ward_name_ml": "ചെങ്ങര സൌത്ത്"
+      "name_en": "Chengara South",
+      "name_ml": "ചെങ്ങര സൌത്ത്"
     },
     {
-      "ward_id": "d59ee63f-d843-45f5-8eec-6a65db6c4900",
+      "id": "d59ee63f-d843-45f5-8eec-6a65db6c4900",
       "ward_no": "10",
-      "ward_name_en": "Parakkode East",
-      "ward_name_ml": "പറക്കോട് കിഴക്ക്"
+      "name_en": "Parakkode East",
+      "name_ml": "പറക്കോട് കിഴക്ക്"
     },
     {
-      "ward_id": "2cb17675-c597-42ca-8637-1fdf6dea688c",
+      "id": "2cb17675-c597-42ca-8637-1fdf6dea688c",
       "ward_no": "11",
-      "ward_name_en": "Vembilly",
-      "ward_name_ml": "വെന്പി‍ള്ളി"
+      "name_en": "Vembilly",
+      "name_ml": "വെന്പി‍ള്ളി"
     },
     {
-      "ward_id": "39366b8f-915e-4ff4-840f-bedfc959276e",
+      "id": "39366b8f-915e-4ff4-840f-bedfc959276e",
       "ward_no": "12",
-      "ward_name_en": "Peringala North",
-      "ward_name_ml": "പെരിങ്ങാല വടക്ക്"
+      "name_en": "Peringala North",
+      "name_ml": "പെരിങ്ങാല വടക്ക്"
     },
     {
-      "ward_id": "aaeefc2a-9401-4508-b0ad-042fb9bec1fc",
+      "id": "aaeefc2a-9401-4508-b0ad-042fb9bec1fc",
       "ward_no": "13",
-      "ward_name_en": "Peringala South",
-      "ward_name_ml": "പെരിങ്ങാല തെക്ക്"
+      "name_en": "Peringala South",
+      "name_ml": "പെരിങ്ങാല തെക്ക്"
     },
     {
-      "ward_id": "5ac7aaa0-4a2a-45db-be8b-b3b7880de6c7",
+      "id": "5ac7aaa0-4a2a-45db-be8b-b3b7880de6c7",
       "ward_no": "14",
-      "ward_name_en": "Peringala West",
-      "ward_name_ml": "പെരിങ്ങാല പടിഞ്ഞാറ്"
+      "name_en": "Peringala West",
+      "name_ml": "പെരിങ്ങാല പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "ce7b0880-f530-4328-95bb-3ca9dc565909",
+      "id": "ce7b0880-f530-4328-95bb-3ca9dc565909",
       "ward_no": "15",
-      "ward_name_en": "Pinarmunda",
-      "ward_name_ml": "പിണര്‍മുണ്ട"
+      "name_en": "Pinarmunda",
+      "name_ml": "പിണര്‍മുണ്ട"
     },
     {
-      "ward_id": "f4d11d90-61d6-4f04-a9e4-33ac336b6e31",
+      "id": "f4d11d90-61d6-4f04-a9e4-33ac336b6e31",
       "ward_no": "16",
-      "ward_name_en": "Pallikkara",
-      "ward_name_ml": "പള്ളിക്കര"
+      "name_en": "Pallikkara",
+      "name_ml": "പള്ളിക്കര"
     },
     {
-      "ward_id": "b582e19e-8316-4b58-b37a-8f83b8ef0427",
+      "id": "b582e19e-8316-4b58-b37a-8f83b8ef0427",
       "ward_no": "17",
-      "ward_name_en": "Morakkala East",
-      "ward_name_ml": "മോറക്കാല ഈസ്റ്റ്"
+      "name_en": "Morakkala East",
+      "name_ml": "മോറക്കാല ഈസ്റ്റ്"
     },
     {
-      "ward_id": "e8d0f924-c00a-4cd1-9384-be08f2222bb4",
+      "id": "e8d0f924-c00a-4cd1-9384-be08f2222bb4",
       "ward_no": "18",
-      "ward_name_en": "Morakkala West",
-      "ward_name_ml": "മോറക്കാല വെസ്റ്റ്"
+      "name_en": "Morakkala West",
+      "name_ml": "മോറക്കാല വെസ്റ്റ്"
     }
   ],
   "towns": [],

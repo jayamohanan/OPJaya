@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G050902",
-  "local_body_name_en": "Paippad",
-  "local_body_name_ml": "പായിപ്പാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "99",
-    "assembly_name_en": "Changanassery",
-    "assembly_name_ml": "ചങ്ങനാശ്ശേരി",
+  "id": "G050902",
+  "name_en": "Paippad",
+  "name_ml": "പായിപ്പാട്",
+  "assembly_id": "99",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "99",
+    "name_en": "Changanassery",
+    "name_ml": "ചങ്ങനാശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "94439735-99d8-452d-a110-2fc91eb38317",
+      "id": "94439735-99d8-452d-a110-2fc91eb38317",
       "ward_no": "1",
-      "ward_name_en": "Ambedkar",
-      "ward_name_ml": "അംബേദ്കര്‍"
+      "name_en": "Ambedkar",
+      "name_ml": "അംബേദ്കര്‍"
     },
     {
-      "ward_id": "f90a6383-c53a-47c6-a3b8-2d645a26d3de",
+      "id": "f90a6383-c53a-47c6-a3b8-2d645a26d3de",
       "ward_no": "2",
-      "ward_name_en": "Veshnal",
-      "ward_name_ml": "വേഷ്ണാല്‍"
+      "name_en": "Veshnal",
+      "name_ml": "വേഷ്ണാല്‍"
     },
     {
-      "ward_id": "cb844908-ee89-4de4-866f-dcbaa11fadf8",
+      "id": "cb844908-ee89-4de4-866f-dcbaa11fadf8",
       "ward_no": "3",
-      "ward_name_en": "Nalukodi",
-      "ward_name_ml": "നാലുകോടി"
+      "name_en": "Nalukodi",
+      "name_ml": "നാലുകോടി"
     },
     {
-      "ward_id": "308bb4cc-ab2b-400f-8698-0afe3b9dc0f2",
+      "id": "308bb4cc-ab2b-400f-8698-0afe3b9dc0f2",
       "ward_no": "4",
-      "ward_name_en": "P.H.C",
-      "ward_name_ml": "പി.എച്ച്.സി"
+      "name_en": "P.H.C",
+      "name_ml": "പി.എച്ച്.സി"
     },
     {
-      "ward_id": "27b0032f-4e0f-4c7f-ab6a-553d71b30df8",
+      "id": "27b0032f-4e0f-4c7f-ab6a-553d71b30df8",
       "ward_no": "5",
-      "ward_name_en": "Homeo Hospital",
-      "ward_name_ml": "ഹോമിയോ ആശുപത്രി"
+      "name_en": "Homeo Hospital",
+      "name_ml": "ഹോമിയോ ആശുപത്രി"
     },
     {
-      "ward_id": "9068ce20-b3db-4066-adef-4ffc23deb0e5",
+      "id": "9068ce20-b3db-4066-adef-4ffc23deb0e5",
       "ward_no": "6",
-      "ward_name_en": "Vallavanchira",
-      "ward_name_ml": "വള്ളവന്‍ച്ചിറ"
+      "name_en": "Vallavanchira",
+      "name_ml": "വള്ളവന്‍ച്ചിറ"
     },
     {
-      "ward_id": "c92e4057-75a0-4e0a-b925-e023992f0963",
+      "id": "c92e4057-75a0-4e0a-b925-e023992f0963",
       "ward_no": "7",
-      "ward_name_en": "Machippally",
-      "ward_name_ml": "മച്ചിപ്പള്ളി"
+      "name_en": "Machippally",
+      "name_ml": "മച്ചിപ്പള്ളി"
     },
     {
-      "ward_id": "748caea1-b9f8-4ef3-a541-893fa65f4ed9",
+      "id": "748caea1-b9f8-4ef3-a541-893fa65f4ed9",
       "ward_no": "8",
-      "ward_name_en": "Pallickachira",
-      "ward_name_ml": "പള്ളിക്കച്ചിറ"
+      "name_en": "Pallickachira",
+      "name_ml": "പള്ളിക്കച്ചിറ"
     },
     {
-      "ward_id": "c31756d4-5014-4898-904e-a472057e6936",
+      "id": "c31756d4-5014-4898-904e-a472057e6936",
       "ward_no": "9",
-      "ward_name_en": "Bible College",
-      "ward_name_ml": "ബൈബിള്‍ കോളജ്"
+      "name_en": "Bible College",
+      "name_ml": "ബൈബിള്‍ കോളജ്"
     },
     {
-      "ward_id": "a772d1e7-34bd-46d9-93d0-347e3b4fda48",
+      "id": "a772d1e7-34bd-46d9-93d0-347e3b4fda48",
       "ward_no": "10",
-      "ward_name_en": "Paippad Town",
-      "ward_name_ml": "പായിപ്പാട് ടൌണ്‍"
+      "name_en": "Paippad Town",
+      "name_ml": "പായിപ്പാട് ടൌണ്‍"
     },
     {
-      "ward_id": "7c39d012-ac77-448c-a147-2dd38400f419",
+      "id": "7c39d012-ac77-448c-a147-2dd38400f419",
       "ward_no": "11",
-      "ward_name_en": "Market",
-      "ward_name_ml": "മാര്‍ക്കറ്റ്"
+      "name_en": "Market",
+      "name_ml": "മാര്‍ക്കറ്റ്"
     },
     {
-      "ward_id": "fb5e501d-4b8b-4011-afda-6686cf69d314",
+      "id": "fb5e501d-4b8b-4011-afda-6686cf69d314",
       "ward_no": "12",
-      "ward_name_en": "Thuruthikkadavu",
-      "ward_name_ml": "തുരുത്തിക്കടവ്"
+      "name_en": "Thuruthikkadavu",
+      "name_ml": "തുരുത്തിക്കടവ്"
     },
     {
-      "ward_id": "ecc905c8-1e88-4773-afa8-7b4b51fde59a",
+      "id": "ecc905c8-1e88-4773-afa8-7b4b51fde59a",
       "ward_no": "13",
-      "ward_name_en": "U.P School",
-      "ward_name_ml": "യു.പു.സ്കൂല്‍"
+      "name_en": "U.P School",
+      "name_ml": "യു.പു.സ്കൂല്‍"
     },
     {
-      "ward_id": "addf4e8b-6ad8-4ada-ba5f-0e51b9ed316f",
+      "id": "addf4e8b-6ad8-4ada-ba5f-0e51b9ed316f",
       "ward_no": "14",
-      "ward_name_en": "Convent Ward",
-      "ward_name_ml": "കോണ്‍വന്‍റ് വാര്‍ഡ്"
+      "name_en": "Convent Ward",
+      "name_ml": "കോണ്‍വന്‍റ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "8b2dfec3-8f0c-4184-b6a3-ee5b5fe06a1c",
+      "id": "8b2dfec3-8f0c-4184-b6a3-ee5b5fe06a1c",
       "ward_no": "15",
-      "ward_name_en": "Layikkadu",
-      "ward_name_ml": "ളായിക്കാട്"
+      "name_en": "Layikkadu",
+      "name_ml": "ളായിക്കാട്"
     },
     {
-      "ward_id": "f9fb2b40-3d65-4fbd-bdfd-70e8cdc26a39",
+      "id": "f9fb2b40-3d65-4fbd-bdfd-70e8cdc26a39",
       "ward_no": "16",
-      "ward_name_en": "Poovam Constituency",
-      "ward_name_ml": "പൂവം നിയോജകമണ്ഡലം"
+      "name_en": "Poovam Constituency",
+      "name_ml": "പൂവം നിയോജകമണ്ഡലം"
     }
   ],
   "towns": [],

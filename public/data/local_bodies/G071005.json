@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G071005",
-  "local_body_name_en": "Aikaranad",
-  "local_body_name_ml": "ഐക്കരനാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G071005",
+  "name_en": "Aikaranad",
+  "name_ml": "ഐക്കരനാട്",
+  "assembly_id": "84",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "84",
-    "assembly_name_en": "Kunnathunad",
-    "assembly_name_ml": "കുന്നത്തുനാട്",
-    "category": "Normal"
+    "id": "84",
+    "name_en": "Kunnathunad",
+    "name_ml": "കുന്നത്തുനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "adefd802-764e-4b2e-a6a1-f922062199f9",
+      "id": "adefd802-764e-4b2e-a6a1-f922062199f9",
       "ward_no": "11",
-      "ward_name_en": "Pulinchod",
-      "ward_name_ml": "പുളിഞ്ചോട്"
+      "name_en": "Pulinchod",
+      "name_ml": "പുളിഞ്ചോട്"
     },
     {
-      "ward_id": "3aed1a5e-377e-4748-9af6-4faff9ee1b4a",
+      "id": "3aed1a5e-377e-4748-9af6-4faff9ee1b4a",
       "ward_no": "1",
-      "ward_name_en": "Pazhamthottam",
-      "ward_name_ml": "പഴന്തോട്ടം"
+      "name_en": "Pazhamthottam",
+      "name_ml": "പഴന്തോട്ടം"
     },
     {
-      "ward_id": "5c9746a4-d403-483b-8455-f694f645e32c",
+      "id": "5c9746a4-d403-483b-8455-f694f645e32c",
       "ward_no": "2",
-      "ward_name_en": "Valamboor",
-      "ward_name_ml": "വലമ്പൂര്‍"
+      "name_en": "Valamboor",
+      "name_ml": "വലമ്പൂര്‍"
     },
     {
-      "ward_id": "740ad3b2-992b-480b-903f-898078706137",
+      "id": "740ad3b2-992b-480b-903f-898078706137",
       "ward_no": "3",
-      "ward_name_en": "Ezhipram",
-      "ward_name_ml": "എഴിപ്രം"
+      "name_en": "Ezhipram",
+      "name_ml": "എഴിപ്രം"
     },
     {
-      "ward_id": "fede457c-2e64-402b-9558-261a2a89be97",
+      "id": "fede457c-2e64-402b-9558-261a2a89be97",
       "ward_no": "4",
-      "ward_name_en": "Kadayiruppu",
-      "ward_name_ml": "കടയിരുപ്പ്"
+      "name_en": "Kadayiruppu",
+      "name_ml": "കടയിരുപ്പ്"
     },
     {
-      "ward_id": "0958a23f-12db-4af7-96cb-634ea6b9a932",
+      "id": "0958a23f-12db-4af7-96cb-634ea6b9a932",
       "ward_no": "5",
-      "ward_name_en": "Mangattoor",
-      "ward_name_ml": "മാങ്ങാട്ടൂര്‍"
+      "name_en": "Mangattoor",
+      "name_ml": "മാങ്ങാട്ടൂര്‍"
     },
     {
-      "ward_id": "8f3aada8-80e5-4c46-8f08-d18509e94511",
+      "id": "8f3aada8-80e5-4c46-8f08-d18509e94511",
       "ward_no": "6",
-      "ward_name_en": "Thonnikka",
-      "ward_name_ml": "തോന്നിക്ക"
+      "name_en": "Thonnikka",
+      "name_ml": "തോന്നിക്ക"
     },
     {
-      "ward_id": "967d7560-10a1-44c8-9b24-06e22fa030d8",
+      "id": "967d7560-10a1-44c8-9b24-06e22fa030d8",
       "ward_no": "7",
-      "ward_name_en": "Kadamattom",
-      "ward_name_ml": "കടമറ്റം"
+      "name_en": "Kadamattom",
+      "name_ml": "കടമറ്റം"
     },
     {
-      "ward_id": "1acdf453-495a-4ff1-af58-04c931fd192a",
+      "id": "1acdf453-495a-4ff1-af58-04c931fd192a",
       "ward_no": "8",
-      "ward_name_en": "Peringole",
-      "ward_name_ml": "പെരിങ്ങോള്‍"
+      "name_en": "Peringole",
+      "name_ml": "പെരിങ്ങോള്‍"
     },
     {
-      "ward_id": "c2bdb366-e8b6-4721-b27e-d6b8763f60f6",
+      "id": "c2bdb366-e8b6-4721-b27e-d6b8763f60f6",
       "ward_no": "9",
-      "ward_name_en": "Thondipeedika",
-      "ward_name_ml": "തൊണ്ടിപ്പൂീടിക"
+      "name_en": "Thondipeedika",
+      "name_ml": "തൊണ്ടിപ്പൂീടിക"
     },
     {
-      "ward_id": "0d612e14-aefe-4b16-bcf9-6b05ee640554",
+      "id": "0d612e14-aefe-4b16-bcf9-6b05ee640554",
       "ward_no": "10",
-      "ward_name_en": "Parepeedika",
-      "ward_name_ml": "പാറേപ്പീടിക"
+      "name_en": "Parepeedika",
+      "name_ml": "പാറേപ്പീടിക"
     },
     {
-      "ward_id": "010d8b12-f230-42d4-8ea4-866fcd4e2a6d",
+      "id": "010d8b12-f230-42d4-8ea4-866fcd4e2a6d",
       "ward_no": "12",
-      "ward_name_en": "Pancode East",
-      "ward_name_ml": "പാങ്കോട് ഈസ്റ്റ്"
+      "name_en": "Pancode East",
+      "name_ml": "പാങ്കോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "48de2a63-52fa-4891-aff4-0fe2ace3b038",
+      "id": "48de2a63-52fa-4891-aff4-0fe2ace3b038",
       "ward_no": "13",
-      "ward_name_en": "Pancode West",
-      "ward_name_ml": "പാങ്കോട് വെസ്റ്റ്"
+      "name_en": "Pancode West",
+      "name_ml": "പാങ്കോട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "2f7ddb71-dc8e-4ccd-8946-2a5dc47c5034",
+      "id": "2f7ddb71-dc8e-4ccd-8946-2a5dc47c5034",
       "ward_no": "14",
-      "ward_name_en": "Manayathupeedika",
-      "ward_name_ml": "മനയത്തുപീടിക"
+      "name_en": "Manayathupeedika",
+      "name_ml": "മനയത്തുപീടിക"
     }
   ],
   "towns": [],

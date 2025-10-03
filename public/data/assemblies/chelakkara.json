@@ -1,68 +1,91 @@
 {
-  "assembly_id": "61",
-  "assembly_name_en": "Chelakkara",
-  "assembly_name_ml": "ചേലക്കര",
-  "category": "Normal",
+  "id": "61",
+  "name_en": "Chelakkara",
+  "name_ml": "ചേലക്കര",
+  "district_id": "8",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "district_category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G080401",
-      "local_body_name_en": "Chelakkara",
-      "local_body_name_ml": "ചേലക്കര",
-      "category": "Normal"
+      "id": "G080401",
+      "name_en": "Chelakkara",
+      "name_ml": "ചേലക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080301",
-      "local_body_name_en": "Desamangalam",
-      "local_body_name_ml": "ദേശമംഗലം",
-      "category": "Normal"
+      "id": "G080301",
+      "name_en": "Desamangalam",
+      "name_ml": "ദേശമംഗലം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080403",
-      "local_body_name_en": "Kondazhy",
-      "local_body_name_ml": "കൊണ്ടാഴി",
-      "category": "Perfect"
+      "id": "G080403",
+      "name_en": "Kondazhy",
+      "name_ml": "കൊണ്ടാഴി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G080304",
-      "local_body_name_en": "Mullurkara",
-      "local_body_name_ml": "മുള്ളൂര്‍ക്കര",
-      "category": "Normal"
+      "id": "G080304",
+      "name_en": "Mullurkara",
+      "name_ml": "മുള്ളൂര്‍ക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080404",
-      "local_body_name_en": "Panjal",
-      "local_body_name_ml": "പാഞ്ഞാള്‍",
-      "category": "Good"
+      "id": "G080404",
+      "name_en": "Panjal",
+      "name_ml": "പാഞ്ഞാള്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080405",
-      "local_body_name_en": "Pazhayannur",
-      "local_body_name_ml": "പഴയന്നൂര്‍",
-      "category": "Normal"
+      "id": "G080405",
+      "name_en": "Pazhayannur",
+      "name_ml": "പഴയന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080406",
-      "local_body_name_en": "Thiruvilwamala",
-      "local_body_name_ml": "തിരുവില്വാമല",
-      "category": "Normal"
+      "id": "G080406",
+      "name_en": "Thiruvilwamala",
+      "name_ml": "തിരുവില്വാമല",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080402",
-      "local_body_name_en": "VallatholNagar",
-      "local_body_name_ml": "വള്ളത്തോള്‍ നഗര്‍",
-      "category": "Good"
+      "id": "G080402",
+      "name_en": "VallatholNagar",
+      "name_ml": "വള്ളത്തോള്‍ നഗര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080306",
-      "local_body_name_en": "Varavoor",
-      "local_body_name_ml": "വരവൂര്‍",
-      "category": "Perfect"
+      "id": "G080306",
+      "name_en": "Varavoor",
+      "name_ml": "വരവൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

@@ -1,232 +1,243 @@
 {
-  "local_body_id": "M020100",
-  "local_body_name_en": "Karunagappally",
-  "local_body_name_ml": "കരുനാഗപ്പള്ളി",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Good",
+  "id": "M020100",
+  "name_en": "Karunagappally",
+  "name_ml": "കരുനാഗപ്പള്ളി",
+  "assembly_id": "116",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "116",
-    "assembly_name_en": "Karunagapally",
-    "assembly_name_ml": "കരുനാഗപ്പള്ളി",
-    "category": "Normal"
+    "id": "116",
+    "name_en": "Karunagapally",
+    "name_ml": "കരുനാഗപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f8bbaaad-06c8-4eb5-b227-cbde1874fbe0",
+      "id": "f8bbaaad-06c8-4eb5-b227-cbde1874fbe0",
       "ward_no": "1",
-      "ward_name_en": "Alappadu",
-      "ward_name_ml": "ആലപ്പാട്"
+      "name_en": "Alappadu",
+      "name_ml": "ആലപ്പാട്"
     },
     {
-      "ward_id": "1b8cdfc0-1615-43f8-8657-68706d1914b8",
+      "id": "1b8cdfc0-1615-43f8-8657-68706d1914b8",
       "ward_no": "2",
-      "ward_name_en": "Mampozhil",
-      "ward_name_ml": "മാമ്പോഴില്‍"
+      "name_en": "Mampozhil",
+      "name_ml": "മാമ്പോഴില്‍"
     },
     {
-      "ward_id": "cdd5dc3c-ae8a-4c40-b714-b84e473d9941",
+      "id": "cdd5dc3c-ae8a-4c40-b714-b84e473d9941",
       "ward_no": "3",
-      "ward_name_en": "Maruthurkulangara Lps",
-      "ward_name_ml": "മരുതൂര്‍കുളങ്ങര എല്‍.പി..എസ്"
+      "name_en": "Maruthurkulangara Lps",
+      "name_ml": "മരുതൂര്‍കുളങ്ങര എല്‍.പി..എസ്"
     },
     {
-      "ward_id": "ce6abf2d-4464-48f6-8838-dd3ae73ddd94",
+      "id": "ce6abf2d-4464-48f6-8838-dd3ae73ddd94",
       "ward_no": "4",
-      "ward_name_en": "Maruthurkulanagara",
-      "ward_name_ml": "മരുതൂര്‍കുളങ്ങര"
+      "name_en": "Maruthurkulanagara",
+      "name_ml": "മരുതൂര്‍കുളങ്ങര"
     },
     {
-      "ward_id": "f73e72de-0f00-40f8-9325-2067bc9cdba2",
+      "id": "f73e72de-0f00-40f8-9325-2067bc9cdba2",
       "ward_no": "5",
-      "ward_name_en": "Ampadiyilmukku",
-      "ward_name_ml": "ആമ്പാടിയില്‍ മുക്ക്"
+      "name_en": "Ampadiyilmukku",
+      "name_ml": "ആമ്പാടിയില്‍ മുക്ക്"
     },
     {
-      "ward_id": "eb805be4-bded-4f22-bf52-301c7bc9ce15",
+      "id": "eb805be4-bded-4f22-bf52-301c7bc9ce15",
       "ward_no": "6",
-      "ward_name_en": "Nambaruvikala",
-      "ward_name_ml": "നമ്പരുവികാല"
+      "name_en": "Nambaruvikala",
+      "name_ml": "നമ്പരുവികാല"
     },
     {
-      "ward_id": "806f58b8-c78d-482d-9618-e3c44d120b7a",
+      "id": "806f58b8-c78d-482d-9618-e3c44d120b7a",
       "ward_no": "7",
-      "ward_name_en": "Thachayil",
-      "ward_name_ml": "താച്ചയില്‍"
+      "name_en": "Thachayil",
+      "name_ml": "താച്ചയില്‍"
     },
     {
-      "ward_id": "41b51cbd-d8aa-4f81-ad67-fde334f7ea5c",
+      "id": "41b51cbd-d8aa-4f81-ad67-fde334f7ea5c",
       "ward_no": "8",
-      "ward_name_en": "Nambaruvikalaksheerasangam",
-      "ward_name_ml": "നമ്പരുവികാല ക്ഷീരസംഘം"
+      "name_en": "Nambaruvikalaksheerasangam",
+      "name_ml": "നമ്പരുവികാല ക്ഷീരസംഘം"
     },
     {
-      "ward_id": "12132b0b-57f4-4a2a-ae09-e9d2bd188810",
+      "id": "12132b0b-57f4-4a2a-ae09-e9d2bd188810",
       "ward_no": "9",
-      "ward_name_en": "Pulliman",
-      "ward_name_ml": "പുളളിമാന്‍"
+      "name_en": "Pulliman",
+      "name_ml": "പുളളിമാന്‍"
     },
     {
-      "ward_id": "ad75e257-974b-492c-8362-c38da385d1a5",
+      "id": "ad75e257-974b-492c-8362-c38da385d1a5",
       "ward_no": "10",
-      "ward_name_en": "Thalook Hospital",
-      "ward_name_ml": "താലൂക്ക് ഹോസ്പിറ്റല്‍"
+      "name_en": "Thalook Hospital",
+      "name_ml": "താലൂക്ക് ഹോസ്പിറ്റല്‍"
     },
     {
-      "ward_id": "697b3120-8f1d-4b98-bc12-d136fad6d73d",
+      "id": "697b3120-8f1d-4b98-bc12-d136fad6d73d",
       "ward_no": "11",
-      "ward_name_en": "Muslim Lps",
-      "ward_name_ml": "മുസ്ലിം എല്‍.പി.എസ്"
+      "name_en": "Muslim Lps",
+      "name_ml": "മുസ്ലിം എല്‍.പി.എസ്"
     },
     {
-      "ward_id": "2107609d-55d0-4983-abe1-999ac8e20827",
+      "id": "2107609d-55d0-4983-abe1-999ac8e20827",
       "ward_no": "12",
-      "ward_name_en": "Pulliman Library",
-      "ward_name_ml": "പുളളിമാന്‍ ലൈബ്രറി"
+      "name_en": "Pulliman Library",
+      "name_ml": "പുളളിമാന്‍ ലൈബ്രറി"
     },
     {
-      "ward_id": "a67f854d-5965-4d74-9220-9463dd3e4946",
+      "id": "a67f854d-5965-4d74-9220-9463dd3e4946",
       "ward_no": "13",
-      "ward_name_en": "Microwave",
-      "ward_name_ml": "മൈക്രോവേവ്"
+      "name_en": "Microwave",
+      "name_ml": "മൈക്രോവേവ്"
     },
     {
-      "ward_id": "ddd0818f-223a-45a9-b8f9-17da8ba7c4b2",
+      "id": "ddd0818f-223a-45a9-b8f9-17da8ba7c4b2",
       "ward_no": "14",
-      "ward_name_en": "Padanayarkulangara",
-      "ward_name_ml": "പടനായര്‍കുളങ്ങര"
+      "name_en": "Padanayarkulangara",
+      "name_ml": "പടനായര്‍കുളങ്ങര"
     },
     {
-      "ward_id": "a1ea64d0-598f-4e67-9ad4-1ff1034bbe9a",
+      "id": "a1ea64d0-598f-4e67-9ad4-1ff1034bbe9a",
       "ward_no": "15",
-      "ward_name_en": "Ksrtc",
-      "ward_name_ml": "കെ.എസ്.ആര്‍.റ്റി.സി"
+      "name_en": "Ksrtc",
+      "name_ml": "കെ.എസ്.ആര്‍.റ്റി.സി"
     },
     {
-      "ward_id": "edb5b1e4-9b67-432f-803a-ca19e7cfb9d3",
+      "id": "edb5b1e4-9b67-432f-803a-ca19e7cfb9d3",
       "ward_no": "16",
-      "ward_name_en": "Kannetti",
-      "ward_name_ml": "കന്നേറ്റി"
+      "name_en": "Kannetti",
+      "name_ml": "കന്നേറ്റി"
     },
     {
-      "ward_id": "911d0d4c-e2a1-42f6-a715-5f3ed7a9347b",
+      "id": "911d0d4c-e2a1-42f6-a715-5f3ed7a9347b",
       "ward_no": "17",
-      "ward_name_en": "Karunagappally Town",
-      "ward_name_ml": "കരുനാഗപ്പളളി ടൌണ്‍"
+      "name_en": "Karunagappally Town",
+      "name_ml": "കരുനാഗപ്പളളി ടൌണ്‍"
     },
     {
-      "ward_id": "76107697-db3b-4fc4-806e-f8ea7f47e8e4",
+      "id": "76107697-db3b-4fc4-806e-f8ea7f47e8e4",
       "ward_no": "18",
-      "ward_name_en": "Tharayil Mukku",
-      "ward_name_ml": "തറയില്‍മുക്ക്"
+      "name_en": "Tharayil Mukku",
+      "name_ml": "തറയില്‍മുക്ക്"
     },
     {
-      "ward_id": "17ba742f-f061-4899-8d27-c14cf273c3b0",
+      "id": "17ba742f-f061-4899-8d27-c14cf273c3b0",
       "ward_no": "19",
-      "ward_name_en": "Kesavapuram",
-      "ward_name_ml": "കേശവപുരം"
+      "name_en": "Kesavapuram",
+      "name_ml": "കേശവപുരം"
     },
     {
-      "ward_id": "4f470c13-3e4c-42d5-8dc7-c11f19e500df",
+      "id": "4f470c13-3e4c-42d5-8dc7-c11f19e500df",
       "ward_no": "20",
-      "ward_name_en": "Chembakasserilkadavu",
-      "ward_name_ml": "ചെമ്പകശ്ശേരില്‍കടവ്"
+      "name_en": "Chembakasserilkadavu",
+      "name_ml": "ചെമ്പകശ്ശേരില്‍കടവ്"
     },
     {
-      "ward_id": "7f08322e-fee7-4228-bda7-ee0f36fcd30a",
+      "id": "7f08322e-fee7-4228-bda7-ee0f36fcd30a",
       "ward_no": "21",
-      "ward_name_en": "Moothethkadavu",
-      "ward_name_ml": "മൂത്തേത്ത് കടവ്"
+      "name_en": "Moothethkadavu",
+      "name_ml": "മൂത്തേത്ത് കടവ്"
     },
     {
-      "ward_id": "52a60cd2-eb9a-4f5a-93d6-af9d246f844c",
+      "id": "52a60cd2-eb9a-4f5a-93d6-af9d246f844c",
       "ward_no": "22",
-      "ward_name_en": "Kozhikkodu",
-      "ward_name_ml": "കോഴിക്കോട്"
+      "name_en": "Kozhikkodu",
+      "name_ml": "കോഴിക്കോട്"
     },
     {
-      "ward_id": "7ac73fc0-1d0d-45ee-9b0e-8b31c6057cf2",
+      "id": "7ac73fc0-1d0d-45ee-9b0e-8b31c6057cf2",
       "ward_no": "23",
-      "ward_name_en": "Kayikkarakadavu",
-      "ward_name_ml": "കായിക്കര കടവ്"
+      "name_en": "Kayikkarakadavu",
+      "name_ml": "കായിക്കര കടവ്"
     },
     {
-      "ward_id": "0912c636-9619-41a5-b5e0-dbf19d17897d",
+      "id": "0912c636-9619-41a5-b5e0-dbf19d17897d",
       "ward_no": "24",
-      "ward_name_en": "Panickerkadavu",
-      "ward_name_ml": "പണിക്കര്‍കടവ്"
+      "name_en": "Panickerkadavu",
+      "name_ml": "പണിക്കര്‍കടവ്"
     },
     {
-      "ward_id": "88aba7b6-8a0e-4aa3-8a54-ddf22a1d3fee",
+      "id": "88aba7b6-8a0e-4aa3-8a54-ddf22a1d3fee",
       "ward_no": "25",
-      "ward_name_en": "Tti",
-      "ward_name_ml": "റ്റി.റ്റി.ഐ"
+      "name_en": "Tti",
+      "name_ml": "റ്റി.റ്റി.ഐ"
     },
     {
-      "ward_id": "33c4c866-3dda-45ae-b6c5-b604e43baa63",
+      "id": "33c4c866-3dda-45ae-b6c5-b604e43baa63",
       "ward_no": "26",
-      "ward_name_en": "Ayanivelikulangara",
-      "ward_name_ml": "അയണിവേലികുളങ്ങര"
+      "name_en": "Ayanivelikulangara",
+      "name_ml": "അയണിവേലികുളങ്ങര"
     },
     {
-      "ward_id": "b45d96a6-448d-468c-a845-ee27dd1fc142",
+      "id": "b45d96a6-448d-468c-a845-ee27dd1fc142",
       "ward_no": "27",
-      "ward_name_en": "Cherolimukku",
-      "ward_name_ml": "ചെറോലിമുക്ക്"
+      "name_en": "Cherolimukku",
+      "name_ml": "ചെറോലിമുക്ക്"
     },
     {
-      "ward_id": "0dd754d9-24a6-4856-8027-1c954777649d",
+      "id": "0dd754d9-24a6-4856-8027-1c954777649d",
       "ward_no": "28",
-      "ward_name_en": "Ottathilmukku",
-      "ward_name_ml": "ഒട്ടത്തില്‍മുക്ക്"
+      "name_en": "Ottathilmukku",
+      "name_ml": "ഒട്ടത്തില്‍മുക്ക്"
     },
     {
-      "ward_id": "da2b1621-51d5-4455-8f02-08f40d7ace71",
+      "id": "da2b1621-51d5-4455-8f02-08f40d7ace71",
       "ward_no": "29",
-      "ward_name_en": "Nediyavila",
-      "ward_name_ml": "നെടിയവിള"
+      "name_en": "Nediyavila",
+      "name_ml": "നെടിയവിള"
     },
     {
-      "ward_id": "30dd4ba1-2310-40d4-8d1f-436bf661914d",
+      "id": "30dd4ba1-2310-40d4-8d1f-436bf661914d",
       "ward_no": "30",
-      "ward_name_en": "Pakalveedu",
-      "ward_name_ml": "പകല്‍വീട്"
+      "name_en": "Pakalveedu",
+      "name_ml": "പകല്‍വീട്"
     },
     {
-      "ward_id": "36ecf940-a23c-4c67-b8f6-e35138cd9e89",
+      "id": "36ecf940-a23c-4c67-b8f6-e35138cd9e89",
       "ward_no": "31",
-      "ward_name_en": "S.K.V School",
-      "ward_name_ml": "എസ്.കെ.വി സ്കൂള്‍"
+      "name_en": "S.K.V School",
+      "name_ml": "എസ്.കെ.വി സ്കൂള്‍"
     },
     {
-      "ward_id": "fe8ba313-c0d3-42af-b0ca-d4141de02fc6",
+      "id": "fe8ba313-c0d3-42af-b0ca-d4141de02fc6",
       "ward_no": "32",
-      "ward_name_en": "Manninnavila",
-      "ward_name_ml": "മാന്‍നിന്നവിള"
+      "name_en": "Manninnavila",
+      "name_ml": "മാന്‍നിന്നവിള"
     },
     {
-      "ward_id": "ce7808c9-bfaa-4dfe-a6de-1f4393d7c3ea",
+      "id": "ce7808c9-bfaa-4dfe-a6de-1f4393d7c3ea",
       "ward_no": "33",
-      "ward_name_en": "Pallikkal",
-      "ward_name_ml": "പളളിക്കല്‍"
+      "name_en": "Pallikkal",
+      "name_ml": "പളളിക്കല്‍"
     },
     {
-      "ward_id": "a30c32fe-aca5-4560-b594-28cbec96e067",
+      "id": "a30c32fe-aca5-4560-b594-28cbec96e067",
       "ward_no": "34",
-      "ward_name_en": "Thurayilkunnu",
-      "ward_name_ml": "തുറയില്‍കുന്ന്"
+      "name_en": "Thurayilkunnu",
+      "name_ml": "തുറയില്‍കുന്ന്"
     },
     {
-      "ward_id": "f3a81499-3448-4aa0-aa38-4ad16664408b",
+      "id": "f3a81499-3448-4aa0-aa38-4ad16664408b",
       "ward_no": "35",
-      "ward_name_en": "Alumkadavu",
-      "ward_name_ml": "ആലുംകടവ്"
+      "name_en": "Alumkadavu",
+      "name_ml": "ആലുംകടവ്"
     }
   ],
   "towns": [],

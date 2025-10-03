@@ -1,322 +1,331 @@
 {
-  "local_body_id": "M100300",
-  "local_body_name_en": "Manjeri",
-  "local_body_name_ml": "മഞ്ചേരി",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "",
+  "id": "M100300",
+  "name_en": "Manjeri",
+  "name_ml": "മഞ്ചേരി",
+  "assembly_id": "37",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": null,
   "assembly": {
-    "assembly_id": "37",
-    "assembly_name_en": "Manjeri",
-    "assembly_name_ml": "മഞ്ചേരി",
-    "category": "Normal"
+    "id": "37",
+    "name_en": "Manjeri",
+    "name_ml": "മഞ്ചേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f9452ee8-f37b-4417-b780-66e78556520c",
+      "id": "f9452ee8-f37b-4417-b780-66e78556520c",
       "ward_no": "1",
-      "ward_name_en": "Kidangazhi",
-      "ward_name_ml": "കിടങ്ങഴി"
+      "name_en": "Kidangazhi",
+      "name_ml": "കിടങ്ങഴി"
     },
     {
-      "ward_id": "c9f3c823-2de3-49da-bfd7-ac430befee70",
+      "id": "c9f3c823-2de3-49da-bfd7-ac430befee70",
       "ward_no": "2",
-      "ward_name_en": "Erambra",
-      "ward_name_ml": "എറാമ്പ്ര"
+      "name_en": "Erambra",
+      "name_ml": "എറാമ്പ്ര"
     },
     {
-      "ward_id": "1049bbd9-e19c-463b-b488-4bf00c2b0a03",
+      "id": "1049bbd9-e19c-463b-b488-4bf00c2b0a03",
       "ward_no": "3",
-      "ward_name_en": "Pullur",
-      "ward_name_ml": "പുല്ലൂര്‍"
+      "name_en": "Pullur",
+      "name_ml": "പുല്ലൂര്‍"
     },
     {
-      "ward_id": "d11f4c92-3135-4101-93a3-55d1a5b09f46",
+      "id": "d11f4c92-3135-4101-93a3-55d1a5b09f46",
       "ward_no": "4",
-      "ward_name_en": "Chettiyangadi",
-      "ward_name_ml": "ചെട്ടിയങ്ങാടി"
+      "name_en": "Chettiyangadi",
+      "name_ml": "ചെട്ടിയങ്ങാടി"
     },
     {
-      "ward_id": "63c2e81d-7b1d-4b25-86bb-9a9815481fac",
+      "id": "63c2e81d-7b1d-4b25-86bb-9a9815481fac",
       "ward_no": "5",
-      "ward_name_en": "Cherani",
-      "ward_name_ml": "ചെരണി"
+      "name_en": "Cherani",
+      "name_ml": "ചെരണി"
     },
     {
-      "ward_id": "b621c33c-e4c8-4606-8c32-91238532ca35",
+      "id": "b621c33c-e4c8-4606-8c32-91238532ca35",
       "ward_no": "6",
-      "ward_name_en": "Nelliparamba",
-      "ward_name_ml": "നെല്ലിപ്പറമ്പ്"
+      "name_en": "Nelliparamba",
+      "name_ml": "നെല്ലിപ്പറമ്പ്"
     },
     {
-      "ward_id": "3daa3caf-3ac9-4ed5-ac07-2bf99d3a1d6b",
+      "id": "3daa3caf-3ac9-4ed5-ac07-2bf99d3a1d6b",
       "ward_no": "7",
-      "ward_name_en": "Melakkam",
-      "ward_name_ml": "മേലാക്കം"
+      "name_en": "Melakkam",
+      "name_ml": "മേലാക്കം"
     },
     {
-      "ward_id": "1966a584-4748-4727-a1d9-023e76082950",
+      "id": "1966a584-4748-4727-a1d9-023e76082950",
       "ward_no": "8",
-      "ward_name_en": "Cullakkad",
-      "ward_name_ml": "ചുള്ളക്കാട്"
+      "name_en": "Cullakkad",
+      "name_ml": "ചുള്ളക്കാട്"
     },
     {
-      "ward_id": "5422153d-b0d2-4f20-801c-0c49edb28948",
+      "id": "5422153d-b0d2-4f20-801c-0c49edb28948",
       "ward_no": "9",
-      "ward_name_en": "Thadathikuzhi",
-      "ward_name_ml": "തടത്തിക്കുഴി"
+      "name_en": "Thadathikuzhi",
+      "name_ml": "തടത്തിക്കുഴി"
     },
     {
-      "ward_id": "81335ecb-2b0d-4b2d-be5d-5ff271821b5b",
+      "id": "81335ecb-2b0d-4b2d-be5d-5ff271821b5b",
       "ward_no": "10",
-      "ward_name_en": "Kozhikkattukunnu",
-      "ward_name_ml": "കോഴിക്കാട്ടുകുന്ന്"
+      "name_en": "Kozhikkattukunnu",
+      "name_ml": "കോഴിക്കാട്ടുകുന്ന്"
     },
     {
-      "ward_id": "83e055d3-2b08-45d8-afa7-e076d50a6767",
+      "id": "83e055d3-2b08-45d8-afa7-e076d50a6767",
       "ward_no": "11",
-      "ward_name_en": "Punnakuzhi",
-      "ward_name_ml": "പുന്നക്കുഴി"
+      "name_en": "Punnakuzhi",
+      "name_ml": "പുന്നക്കുഴി"
     },
     {
-      "ward_id": "bbade972-d37b-4735-867d-0939887c040d",
+      "id": "bbade972-d37b-4735-867d-0939887c040d",
       "ward_no": "12",
-      "ward_name_en": "Mangalasheri",
-      "ward_name_ml": "മംഗലശ്ശേരി"
+      "name_en": "Mangalasheri",
+      "name_ml": "മംഗലശ്ശേരി"
     },
     {
-      "ward_id": "ae0bebc7-8694-462a-8130-99614054f951",
+      "id": "ae0bebc7-8694-462a-8130-99614054f951",
       "ward_no": "13",
-      "ward_name_en": "Palakkulam",
-      "ward_name_ml": "പാലക്കുളം"
+      "name_en": "Palakkulam",
+      "name_ml": "പാലക്കുളം"
     },
     {
-      "ward_id": "ab5df473-5657-4b5a-a6af-54ab3055a91b",
+      "id": "ab5df473-5657-4b5a-a6af-54ab3055a91b",
       "ward_no": "14",
-      "ward_name_en": "Thanippara",
-      "ward_name_ml": "താണിപ്പാറ"
+      "name_en": "Thanippara",
+      "name_ml": "താണിപ്പാറ"
     },
     {
-      "ward_id": "7979e8d9-7a9c-4599-8178-2c3e5e8dbe96",
+      "id": "7979e8d9-7a9c-4599-8178-2c3e5e8dbe96",
       "ward_no": "15",
-      "ward_name_en": "College Kunnu",
-      "ward_name_ml": "കോളേജ് കുന്ന്"
+      "name_en": "College Kunnu",
+      "name_ml": "കോളേജ് കുന്ന്"
     },
     {
-      "ward_id": "939d6f56-ef7f-458a-afc9-0681f39f3947",
+      "id": "939d6f56-ef7f-458a-afc9-0681f39f3947",
       "ward_no": "16",
-      "ward_name_en": "Kizhakkethala",
-      "ward_name_ml": "കിഴക്കേത്തല"
+      "name_en": "Kizhakkethala",
+      "name_ml": "കിഴക്കേത്തല"
     },
     {
-      "ward_id": "57845c19-2cc3-48fd-9fac-8a51726e0ebf",
+      "id": "57845c19-2cc3-48fd-9fac-8a51726e0ebf",
       "ward_no": "17",
-      "ward_name_en": "Vadakkangara",
-      "ward_name_ml": "വടക്കാങ്ങര"
+      "name_en": "Vadakkangara",
+      "name_ml": "വടക്കാങ്ങര"
     },
     {
-      "ward_id": "51a61b1d-7d76-4150-b721-971faed477c2",
+      "id": "51a61b1d-7d76-4150-b721-971faed477c2",
       "ward_no": "18",
-      "ward_name_en": "Payyanad",
-      "ward_name_ml": "പയ്യനാട്"
+      "name_en": "Payyanad",
+      "name_ml": "പയ്യനാട്"
     },
     {
-      "ward_id": "84e6c959-1efc-428e-a472-91113658283e",
+      "id": "84e6c959-1efc-428e-a472-91113658283e",
       "ward_no": "19",
-      "ward_name_en": "Elambra",
-      "ward_name_ml": "എലമ്പ്ര"
+      "name_en": "Elambra",
+      "name_ml": "എലമ്പ്ര"
     },
     {
-      "ward_id": "a79412f9-b753-4c06-bcc0-17d6f67dbeaf",
+      "id": "a79412f9-b753-4c06-bcc0-17d6f67dbeaf",
       "ward_no": "20",
-      "ward_name_en": "Athanikkal",
-      "ward_name_ml": "അത്താണിക്കല്‍"
+      "name_en": "Athanikkal",
+      "name_ml": "അത്താണിക്കല്‍"
     },
     {
-      "ward_id": "202a3562-c297-4502-9355-62c8f538b865",
+      "id": "202a3562-c297-4502-9355-62c8f538b865",
       "ward_no": "21",
-      "ward_name_en": "Thamarasheri",
-      "ward_name_ml": "താമരശ്ശേരി"
+      "name_en": "Thamarasheri",
+      "name_ml": "താമരശ്ശേരി"
     },
     {
-      "ward_id": "7c956923-8720-4047-a021-9b601251b12a",
+      "id": "7c956923-8720-4047-a021-9b601251b12a",
       "ward_no": "22",
-      "ward_name_en": "Nellikuth L.P School",
-      "ward_name_ml": "നെല്ലിക്കുത്ത് എല്‍.പി.സ്കുള്‍"
+      "name_en": "Nellikuth L.P School",
+      "name_ml": "നെല്ലിക്കുത്ത് എല്‍.പി.സ്കുള്‍"
     },
     {
-      "ward_id": "bac2b2ea-e559-4bdd-a8d2-0fa8ca38f5b4",
+      "id": "bac2b2ea-e559-4bdd-a8d2-0fa8ca38f5b4",
       "ward_no": "23",
-      "ward_name_en": "Nellikuth High  School",
-      "ward_name_ml": "നെല്ലിക്കുത്ത് ഹൈസ്കുള്‍"
+      "name_en": "Nellikuth High  School",
+      "name_ml": "നെല്ലിക്കുത്ത് ഹൈസ്കുള്‍"
     },
     {
-      "ward_id": "069deff1-1332-43c9-8da1-ccd578287ece",
+      "id": "069deff1-1332-43c9-8da1-ccd578287ece",
       "ward_no": "24",
-      "ward_name_en": "Chalukulam",
-      "ward_name_ml": "ചാലുകളം"
+      "name_en": "Chalukulam",
+      "name_ml": "ചാലുകളം"
     },
     {
-      "ward_id": "37a1086f-ca59-4119-ba85-889c5d35a1dd",
+      "id": "37a1086f-ca59-4119-ba85-889c5d35a1dd",
       "ward_no": "25",
-      "ward_name_en": "Kizhakkekunnu",
-      "ward_name_ml": "കിഴക്കേക്കുന്ന്"
+      "name_en": "Kizhakkekunnu",
+      "name_ml": "കിഴക്കേക്കുന്ന്"
     },
     {
-      "ward_id": "29c45cef-c829-4f93-a181-af4569573e68",
+      "id": "29c45cef-c829-4f93-a181-af4569573e68",
       "ward_no": "26",
-      "ward_name_en": "Pilakkal",
-      "ward_name_ml": "പിലാക്കല്‍"
+      "name_en": "Pilakkal",
+      "name_ml": "പിലാക്കല്‍"
     },
     {
-      "ward_id": "912aadc3-a175-4e72-a954-128996e5eb43",
+      "id": "912aadc3-a175-4e72-a954-128996e5eb43",
       "ward_no": "27",
-      "ward_name_en": "Amayamkode",
-      "ward_name_ml": "ആമയംകോട്"
+      "name_en": "Amayamkode",
+      "name_ml": "ആമയംകോട്"
     },
     {
-      "ward_id": "14051653-d2a9-44ac-95ea-cf7b1e83a3cc",
+      "id": "14051653-d2a9-44ac-95ea-cf7b1e83a3cc",
       "ward_no": "28",
-      "ward_name_en": "Pullancheri",
-      "ward_name_ml": "പുല്ലഞ്ചേരി"
+      "name_en": "Pullancheri",
+      "name_ml": "പുല്ലഞ്ചേരി"
     },
     {
-      "ward_id": "978f76ae-c7e7-45eb-9791-ba17f7302760",
+      "id": "978f76ae-c7e7-45eb-9791-ba17f7302760",
       "ward_no": "29",
-      "ward_name_en": "Vettekkode",
-      "ward_name_ml": "വേട്ടേക്കോട്"
+      "name_en": "Vettekkode",
+      "name_ml": "വേട്ടേക്കോട്"
     },
     {
-      "ward_id": "4ec0faf4-b1a7-469e-b909-900c531c7e54",
+      "id": "4ec0faf4-b1a7-469e-b909-900c531c7e54",
       "ward_no": "30",
-      "ward_name_en": "Vellarangal",
-      "ward_name_ml": "വെള്ളാരംങ്ങല്‍"
+      "name_en": "Vellarangal",
+      "name_ml": "വെള്ളാരംങ്ങല്‍"
     },
     {
-      "ward_id": "f27ac22e-47c3-4221-a940-784cce63717e",
+      "id": "f27ac22e-47c3-4221-a940-784cce63717e",
       "ward_no": "31",
-      "ward_name_en": "Vayparapadi",
-      "ward_name_ml": "വായ്പ്പാറപ്പടി"
+      "name_en": "Vayparapadi",
+      "name_ml": "വായ്പ്പാറപ്പടി"
     },
     {
-      "ward_id": "1630f353-b327-4a23-b74b-61d848007d26",
+      "id": "1630f353-b327-4a23-b74b-61d848007d26",
       "ward_no": "32",
-      "ward_name_en": "Kovilakam Kundu",
-      "ward_name_ml": "കോവിലകം കുണ്ട്"
+      "name_en": "Kovilakam Kundu",
+      "name_ml": "കോവിലകം കുണ്ട്"
     },
     {
-      "ward_id": "1fa35b85-3d9d-48d6-a778-324dfe850eae",
+      "id": "1fa35b85-3d9d-48d6-a778-324dfe850eae",
       "ward_no": "33",
-      "ward_name_en": "Town Ward",
-      "ward_name_ml": "ടൌണ്‍ വാര്‍ഡ്"
+      "name_en": "Town Ward",
+      "name_ml": "ടൌണ്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "525c4595-fda9-4f6c-99ea-6189a8016f21",
+      "id": "525c4595-fda9-4f6c-99ea-6189a8016f21",
       "ward_no": "34",
-      "ward_name_en": "Shanthi Gramam",
-      "ward_name_ml": "ശാന്തിഗ്രാമം"
+      "name_en": "Shanthi Gramam",
+      "name_ml": "ശാന്തിഗ്രാമം"
     },
     {
-      "ward_id": "4f813c85-c370-4a3a-89b5-045afdc28fab",
+      "id": "4f813c85-c370-4a3a-89b5-045afdc28fab",
       "ward_no": "35",
-      "ward_name_en": "Arukizhaya",
-      "ward_name_ml": "അരുകീഴായ"
+      "name_en": "Arukizhaya",
+      "name_ml": "അരുകീഴായ"
     },
     {
-      "ward_id": "5de6d312-d674-4d1a-8e26-cf52eb79dcba",
+      "id": "5de6d312-d674-4d1a-8e26-cf52eb79dcba",
       "ward_no": "36",
-      "ward_name_en": "Ulladamkunnu",
-      "ward_name_ml": "ഉള്ളാടംകുന്ന്"
+      "name_en": "Ulladamkunnu",
+      "name_ml": "ഉള്ളാടംകുന്ന്"
     },
     {
-      "ward_id": "2372e8f7-e587-4614-b67f-ef31d931d2e8",
+      "id": "2372e8f7-e587-4614-b67f-ef31d931d2e8",
       "ward_no": "37",
-      "ward_name_en": "Mullambara",
-      "ward_name_ml": "മുള്ളമ്പാറ"
+      "name_en": "Mullambara",
+      "name_ml": "മുള്ളമ്പാറ"
     },
     {
-      "ward_id": "ae1be0ad-4895-4586-a777-4e2e9095485e",
+      "id": "ae1be0ad-4895-4586-a777-4e2e9095485e",
       "ward_no": "38",
-      "ward_name_en": "Vakkethodi",
-      "ward_name_ml": "വാക്കേതൊടി"
+      "name_en": "Vakkethodi",
+      "name_ml": "വാക്കേതൊടി"
     },
     {
-      "ward_id": "77a2b0f6-806f-44b2-8df0-9ffd8477fa7b",
+      "id": "77a2b0f6-806f-44b2-8df0-9ffd8477fa7b",
       "ward_no": "39",
-      "ward_name_en": "Thadathiparamba",
-      "ward_name_ml": "തടത്തിപ്പറമ്പ്"
+      "name_en": "Thadathiparamba",
+      "name_ml": "തടത്തിപ്പറമ്പ്"
     },
     {
-      "ward_id": "de1f0a65-bb30-4499-91bb-c1b92392ea3f",
+      "id": "de1f0a65-bb30-4499-91bb-c1b92392ea3f",
       "ward_no": "40",
-      "ward_name_en": "Vattappara",
-      "ward_name_ml": "വട്ടപ്പാറ"
+      "name_en": "Vattappara",
+      "name_ml": "വട്ടപ്പാറ"
     },
     {
-      "ward_id": "cd25bc0f-2ac4-4f3f-bed6-01cb809ff2a9",
+      "id": "cd25bc0f-2ac4-4f3f-bed6-01cb809ff2a9",
       "ward_no": "41",
-      "ward_name_en": "Puliyanthodi",
-      "ward_name_ml": "പുളിയാന്‍തൊടി"
+      "name_en": "Puliyanthodi",
+      "name_ml": "പുളിയാന്‍തൊടി"
     },
     {
-      "ward_id": "921aa11c-52c6-4af3-8436-7fd688403633",
+      "id": "921aa11c-52c6-4af3-8436-7fd688403633",
       "ward_no": "42",
-      "ward_name_en": "Thurakkal",
-      "ward_name_ml": "തുറക്കല്‍"
+      "name_en": "Thurakkal",
+      "name_ml": "തുറക്കല്‍"
     },
     {
-      "ward_id": "fbb0e6ea-c42b-499e-80ac-5af47617c586",
+      "id": "fbb0e6ea-c42b-499e-80ac-5af47617c586",
       "ward_no": "43",
-      "ward_name_en": "Pottammal",
-      "ward_name_ml": "പൊറ്റമ്മല്‍"
+      "name_en": "Pottammal",
+      "name_ml": "പൊറ്റമ്മല്‍"
     },
     {
-      "ward_id": "b4d97adf-13c9-4513-beed-5b18d2ad8c65",
+      "id": "b4d97adf-13c9-4513-beed-5b18d2ad8c65",
       "ward_no": "44",
-      "ward_name_en": "Pattarkulam",
-      "ward_name_ml": "പട്ടര്‍കുളം"
+      "name_en": "Pattarkulam",
+      "name_ml": "പട്ടര്‍കുളം"
     },
     {
-      "ward_id": "24aad4b9-4353-476f-8a7a-454bb06743ed",
+      "id": "24aad4b9-4353-476f-8a7a-454bb06743ed",
       "ward_no": "45",
-      "ward_name_en": "Mariyad",
-      "ward_name_ml": "മാരിയാട്"
+      "name_en": "Mariyad",
+      "name_ml": "മാരിയാട്"
     },
     {
-      "ward_id": "babc4cee-27f7-4f61-b1f2-263e8c5faf4b",
+      "id": "babc4cee-27f7-4f61-b1f2-263e8c5faf4b",
       "ward_no": "46",
-      "ward_name_en": "Veemboor",
-      "ward_name_ml": "വീമ്പുര്‍"
+      "name_en": "Veemboor",
+      "name_ml": "വീമ്പുര്‍"
     },
     {
-      "ward_id": "22f878a9-35a2-47f1-887c-9f9c1862ebae",
+      "id": "22f878a9-35a2-47f1-887c-9f9c1862ebae",
       "ward_no": "47",
-      "ward_name_en": "Narukara",
-      "ward_name_ml": "നറുകര"
+      "name_en": "Narukara",
+      "name_ml": "നറുകര"
     },
     {
-      "ward_id": "c851fba6-30b3-464e-ab48-fe0c76d3b644",
+      "id": "c851fba6-30b3-464e-ab48-fe0c76d3b644",
       "ward_no": "48",
-      "ward_name_en": "Ambalappadi",
-      "ward_name_ml": "അമ്പലപ്പടി"
+      "name_en": "Ambalappadi",
+      "name_ml": "അമ്പലപ്പടി"
     },
     {
-      "ward_id": "922cbed6-79e1-45fe-b0e5-d04b7fdad7ae",
+      "id": "922cbed6-79e1-45fe-b0e5-d04b7fdad7ae",
       "ward_no": "49",
-      "ward_name_en": "Karuvambram",
-      "ward_name_ml": "കരുവമ്പ്രം"
+      "name_en": "Karuvambram",
+      "name_ml": "കരുവമ്പ്രം"
     },
     {
-      "ward_id": "3b2cb78b-b91d-4b18-9a3e-a3bb09376fcd",
+      "id": "3b2cb78b-b91d-4b18-9a3e-a3bb09376fcd",
       "ward_no": "50",
-      "ward_name_en": "Ramamkulam",
-      "ward_name_ml": "രാമംകുളം"
+      "name_en": "Ramamkulam",
+      "name_ml": "രാമംകുളം"
     }
   ],
   "towns": [],

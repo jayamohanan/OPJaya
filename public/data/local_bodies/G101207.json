@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G101207",
-  "local_body_name_en": "Niramaruthur",
-  "local_body_name_ml": "നിറമരുതൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G101207",
+  "name_en": "Niramaruthur",
+  "name_ml": "നിറമരുതൂര്‍",
+  "assembly_id": "44",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "44",
-    "assembly_name_en": "Tanur",
-    "assembly_name_ml": "താനൂര്‍",
-    "category": "Normal"
+    "id": "44",
+    "name_en": "Tanur",
+    "name_ml": "താനൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "65c97706-8f73-40fc-9ddb-48d4e5ce7c15",
+      "id": "65c97706-8f73-40fc-9ddb-48d4e5ce7c15",
       "ward_no": "1",
-      "ward_name_en": "Pudiyakadappuram",
-      "ward_name_ml": "പുതിയകടപ്പുറം"
+      "name_en": "Pudiyakadappuram",
+      "name_ml": "പുതിയകടപ്പുറം"
     },
     {
-      "ward_id": "e68f5ce4-78a4-48dd-988d-6f313d3d40f9",
+      "id": "e68f5ce4-78a4-48dd-988d-6f313d3d40f9",
       "ward_no": "2",
-      "ward_name_en": "Kalad",
-      "ward_name_ml": "കാളാട്"
+      "name_en": "Kalad",
+      "name_ml": "കാളാട്"
     },
     {
-      "ward_id": "60b33086-abd8-49ac-8870-b62658305713",
+      "id": "60b33086-abd8-49ac-8870-b62658305713",
       "ward_no": "3",
-      "ward_name_en": "Chakkaramoola",
-      "ward_name_ml": "ചക്കരമൂല"
+      "name_en": "Chakkaramoola",
+      "name_ml": "ചക്കരമൂല"
     },
     {
-      "ward_id": "91dd6592-e133-460e-80b0-82663c767cf7",
+      "id": "91dd6592-e133-460e-80b0-82663c767cf7",
       "ward_no": "4",
-      "ward_name_en": "Manjalampadi",
-      "ward_name_ml": "മഞ്ഞളംപടി"
+      "name_en": "Manjalampadi",
+      "name_ml": "മഞ്ഞളംപടി"
     },
     {
-      "ward_id": "8553dfb8-63de-4755-8c5a-0b4ef20eb184",
+      "id": "8553dfb8-63de-4755-8c5a-0b4ef20eb184",
       "ward_no": "5",
-      "ward_name_en": "Korangath",
-      "ward_name_ml": "കോരങ്ങത്ത്"
+      "name_en": "Korangath",
+      "name_ml": "കോരങ്ങത്ത്"
     },
     {
-      "ward_id": "6f0b9500-c461-4aa8-a230-c1bdb04f13e4",
+      "id": "6f0b9500-c461-4aa8-a230-c1bdb04f13e4",
       "ward_no": "6",
-      "ward_name_en": "Karimaram",
-      "ward_name_ml": "കരിമരം"
+      "name_en": "Karimaram",
+      "name_ml": "കരിമരം"
     },
     {
-      "ward_id": "f638b886-472e-45cb-8f16-25e7005d1ee9",
+      "id": "f638b886-472e-45cb-8f16-25e7005d1ee9",
       "ward_no": "7",
-      "ward_name_en": "Alinchuvadu",
-      "ward_name_ml": "ആലിന്‍ചുവട്"
+      "name_en": "Alinchuvadu",
+      "name_ml": "ആലിന്‍ചുവട്"
     },
     {
-      "ward_id": "a41f3b6a-f672-4f43-a33f-6ac94c74d9f8",
+      "id": "a41f3b6a-f672-4f43-a33f-6ac94c74d9f8",
       "ward_no": "8",
-      "ward_name_en": "Pathampad",
-      "ward_name_ml": "പത്തംപാട്"
+      "name_en": "Pathampad",
+      "name_ml": "പത്തംപാട്"
     },
     {
-      "ward_id": "9721a99d-ef1a-4e9b-b167-0ea5ba171198",
+      "id": "9721a99d-ef1a-4e9b-b167-0ea5ba171198",
       "ward_no": "9",
-      "ward_name_en": "Noormaidanam",
-      "ward_name_ml": "നൂര്‍മൈതാനം"
+      "name_en": "Noormaidanam",
+      "name_ml": "നൂര്‍മൈതാനം"
     },
     {
-      "ward_id": "8a8fce54-864b-4bb1-8c7f-ccc9cb31d124",
+      "id": "8a8fce54-864b-4bb1-8c7f-ccc9cb31d124",
       "ward_no": "10",
-      "ward_name_en": "Mangad",
-      "ward_name_ml": "മങ്ങാട്"
+      "name_en": "Mangad",
+      "name_ml": "മങ്ങാട്"
     },
     {
-      "ward_id": "92d7a806-3a5c-437b-811a-58868dacee3c",
+      "id": "92d7a806-3a5c-437b-811a-58868dacee3c",
       "ward_no": "11",
-      "ward_name_en": "Vallikkanhiram",
-      "ward_name_ml": "വള്ളിക്കാഞ്ഞിരം"
+      "name_en": "Vallikkanhiram",
+      "name_ml": "വള്ളിക്കാഞ്ഞിരം"
     },
     {
-      "ward_id": "67b640cd-d221-4bda-b108-19350c8ba8d6",
+      "id": "67b640cd-d221-4bda-b108-19350c8ba8d6",
       "ward_no": "12",
-      "ward_name_en": "Kumaranpadi",
-      "ward_name_ml": "കുമാരന്‍പടി"
+      "name_en": "Kumaranpadi",
+      "name_ml": "കുമാരന്‍പടി"
     },
     {
-      "ward_id": "44aa3f3f-79be-40f8-917d-40298c0bcae3",
+      "id": "44aa3f3f-79be-40f8-917d-40298c0bcae3",
       "ward_no": "13",
-      "ward_name_en": "Ayyappankavu",
-      "ward_name_ml": "അയ്യപ്പന്‍കാവ്"
+      "name_en": "Ayyappankavu",
+      "name_ml": "അയ്യപ്പന്‍കാവ്"
     },
     {
-      "ward_id": "f30ed6aa-3376-4578-9f0b-abf97b523da6",
+      "id": "f30ed6aa-3376-4578-9f0b-abf97b523da6",
       "ward_no": "14",
-      "ward_name_en": "Janathabasar",
-      "ward_name_ml": "ജനതാബസാര്‍"
+      "name_en": "Janathabasar",
+      "name_ml": "ജനതാബസാര്‍"
     },
     {
-      "ward_id": "3b56f837-4160-4c62-8d43-b273c08e131f",
+      "id": "3b56f837-4160-4c62-8d43-b273c08e131f",
       "ward_no": "15",
-      "ward_name_en": "Pancharamoola",
-      "ward_name_ml": "പഞ്ചാരമൂല"
+      "name_en": "Pancharamoola",
+      "name_ml": "പഞ്ചാരമൂല"
     },
     {
-      "ward_id": "79588a60-6ed3-43b9-acb2-5956846d9cf8",
+      "id": "79588a60-6ed3-43b9-acb2-5956846d9cf8",
       "ward_no": "16",
-      "ward_name_en": "Thevarkadappuram",
-      "ward_name_ml": "തേവര്‍കടപ്പുറം"
+      "name_en": "Thevarkadappuram",
+      "name_ml": "തേവര്‍കടപ്പുറം"
     },
     {
-      "ward_id": "a22b5a2c-8121-4617-9744-fcb9c486a6a7",
+      "id": "a22b5a2c-8121-4617-9744-fcb9c486a6a7",
       "ward_no": "17",
-      "ward_name_en": "Unniyal",
-      "ward_name_ml": "ഉണ്ണ്യാല്‍"
+      "name_en": "Unniyal",
+      "name_ml": "ഉണ്ണ്യാല്‍"
     }
   ],
   "towns": [],

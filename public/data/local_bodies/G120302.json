@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G120302",
-  "local_body_name_en": "Nenmeni",
-  "local_body_name_ml": "നെന്മേനി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G120302",
+  "name_en": "Nenmeni",
+  "name_ml": "നെന്മേനി",
+  "assembly_id": "18",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "18",
-    "assembly_name_en": "Sulthan Bathery",
-    "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
-    "category": "Normal"
+    "id": "18",
+    "name_en": "Sulthan Bathery",
+    "name_ml": "സുൽത്താൻ ബത്തേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "dde791c9-47dd-41ef-83ed-664c96d99a73",
+      "id": "dde791c9-47dd-41ef-83ed-664c96d99a73",
       "ward_no": "1",
-      "ward_name_en": "Ambukuthy",
-      "ward_name_ml": "അമ്പുകുത്തി"
+      "name_en": "Ambukuthy",
+      "name_ml": "അമ്പുകുത്തി"
     },
     {
-      "ward_id": "c0b19fee-504b-4436-87cf-b18713f336e6",
+      "id": "c0b19fee-504b-4436-87cf-b18713f336e6",
       "ward_no": "2",
-      "ward_name_en": "Malavayal",
-      "ward_name_ml": "മലവയല്‍"
+      "name_en": "Malavayal",
+      "name_ml": "മലവയല്‍"
     },
     {
-      "ward_id": "9308031f-710e-486a-be3e-ce3e5575bd21",
+      "id": "9308031f-710e-486a-be3e-ce3e5575bd21",
       "ward_no": "3",
-      "ward_name_en": "Kunthani",
-      "ward_name_ml": "കുന്താണി"
+      "name_en": "Kunthani",
+      "name_ml": "കുന്താണി"
     },
     {
-      "ward_id": "a2db2531-a4d0-4fec-8edd-09ac8965d53d",
+      "id": "a2db2531-a4d0-4fec-8edd-09ac8965d53d",
       "ward_no": "4",
-      "ward_name_en": "Malankara",
-      "ward_name_ml": "മലങ്കര"
+      "name_en": "Malankara",
+      "name_ml": "മലങ്കര"
     },
     {
-      "ward_id": "eeb3aae8-2ce3-4e1d-85a7-9e179cd40596",
+      "id": "eeb3aae8-2ce3-4e1d-85a7-9e179cd40596",
       "ward_no": "5",
-      "ward_name_en": "Puthankunnu",
-      "ward_name_ml": "പുത്തന്‍കുന്ന്"
+      "name_en": "Puthankunnu",
+      "name_ml": "പുത്തന്‍കുന്ന്"
     },
     {
-      "ward_id": "db7c0562-3374-455b-9aa9-cf2108b80297",
+      "id": "db7c0562-3374-455b-9aa9-cf2108b80297",
       "ward_no": "6",
-      "ward_name_en": "Koliyadi",
-      "ward_name_ml": "കോളിയാടി"
+      "name_en": "Koliyadi",
+      "name_ml": "കോളിയാടി"
     },
     {
-      "ward_id": "39a70e2a-4ddd-4f9a-b57f-d83033eb67ca",
+      "id": "39a70e2a-4ddd-4f9a-b57f-d83033eb67ca",
       "ward_no": "7",
-      "ward_name_en": "Cherumadu",
-      "ward_name_ml": "ചെറുമാട്"
+      "name_en": "Cherumadu",
+      "name_ml": "ചെറുമാട്"
     },
     {
-      "ward_id": "8164cbdc-01d9-4400-9c2e-7d9dc9e9e655",
+      "id": "8164cbdc-01d9-4400-9c2e-7d9dc9e9e655",
       "ward_no": "8",
-      "ward_name_en": "Pazhoor",
-      "ward_name_ml": "പഴൂര്‍"
+      "name_en": "Pazhoor",
+      "name_ml": "പഴൂര്‍"
     },
     {
-      "ward_id": "4f614778-215e-400a-a078-915a38f2c91c",
+      "id": "4f614778-215e-400a-a078-915a38f2c91c",
       "ward_no": "9",
-      "ward_name_en": "Mundakolly",
-      "ward_name_ml": "മുണ്ടക്കൊല്ലി"
+      "name_en": "Mundakolly",
+      "name_ml": "മുണ്ടക്കൊല്ലി"
     },
     {
-      "ward_id": "198acaa6-d7bb-4407-851c-312af0d422e3",
+      "id": "198acaa6-d7bb-4407-851c-312af0d422e3",
       "ward_no": "10",
-      "ward_name_en": "East Cheeral",
-      "ward_name_ml": "ഈസ്റ്റ് ചീരാല്‍"
+      "name_en": "East Cheeral",
+      "name_ml": "ഈസ്റ്റ് ചീരാല്‍"
     },
     {
-      "ward_id": "f3c26b6d-7928-4dc5-8f2b-39e35dc24187",
+      "id": "f3c26b6d-7928-4dc5-8f2b-39e35dc24187",
       "ward_no": "11",
-      "ward_name_en": "Nambiarkunnu",
-      "ward_name_ml": "നമ്പ്യാര്‍കുന്ന്"
+      "name_en": "Nambiarkunnu",
+      "name_ml": "നമ്പ്യാര്‍കുന്ന്"
     },
     {
-      "ward_id": "c19b87d3-d112-4d6d-af87-17531848f0d6",
+      "id": "c19b87d3-d112-4d6d-af87-17531848f0d6",
       "ward_no": "12",
-      "ward_name_en": "Cheeral",
-      "ward_name_ml": "ചീരാല്‍"
+      "name_en": "Cheeral",
+      "name_ml": "ചീരാല്‍"
     },
     {
-      "ward_id": "8ee05b31-9319-446c-a44b-2804474ed51f",
+      "id": "8ee05b31-9319-446c-a44b-2804474ed51f",
       "ward_no": "13",
-      "ward_name_en": "Kallinkara",
-      "ward_name_ml": "കല്ലിങ്കര"
+      "name_en": "Kallinkara",
+      "name_ml": "കല്ലിങ്കര"
     },
     {
-      "ward_id": "884f0574-dc5d-4a2a-9978-30f4053540a6",
+      "id": "884f0574-dc5d-4a2a-9978-30f4053540a6",
       "ward_no": "14",
-      "ward_name_en": "Thazhathoor",
-      "ward_name_ml": "താഴത്തൂര്‍"
+      "name_en": "Thazhathoor",
+      "name_ml": "താഴത്തൂര്‍"
     },
     {
-      "ward_id": "4dd990e4-6ae6-4fc9-8012-e01bb13816ef",
+      "id": "4dd990e4-6ae6-4fc9-8012-e01bb13816ef",
       "ward_no": "15",
-      "ward_name_en": "Mangalam",
-      "ward_name_ml": "മംഗലം"
+      "name_en": "Mangalam",
+      "name_ml": "മംഗലം"
     },
     {
-      "ward_id": "f49e7c5d-dbc2-4a73-804c-0f52d9930ae9",
+      "id": "f49e7c5d-dbc2-4a73-804c-0f52d9930ae9",
       "ward_no": "16",
-      "ward_name_en": "Madakkara",
-      "ward_name_ml": "മാടക്കര"
+      "name_en": "Madakkara",
+      "name_ml": "മാടക്കര"
     },
     {
-      "ward_id": "7bdb634c-397c-43e1-8cc7-03690729cca2",
+      "id": "7bdb634c-397c-43e1-8cc7-03690729cca2",
       "ward_no": "17",
-      "ward_name_en": "Palakkuni",
-      "ward_name_ml": "പാലാക്കുനി"
+      "name_en": "Palakkuni",
+      "name_ml": "പാലാക്കുനി"
     },
     {
-      "ward_id": "b0e162a5-8d01-4c57-aa8a-346f97913480",
+      "id": "b0e162a5-8d01-4c57-aa8a-346f97913480",
       "ward_no": "18",
-      "ward_name_en": "Chulliyode",
-      "ward_name_ml": "ചുള്ളിയോട്"
+      "name_en": "Chulliyode",
+      "name_ml": "ചുള്ളിയോട്"
     },
     {
-      "ward_id": "6f5394af-d863-467a-a901-e369d6ced73d",
+      "id": "6f5394af-d863-467a-a901-e369d6ced73d",
       "ward_no": "19",
-      "ward_name_en": "Thaloor",
-      "ward_name_ml": "താളൂര്‍"
+      "name_en": "Thaloor",
+      "name_ml": "താളൂര്‍"
     },
     {
-      "ward_id": "6e8dc6c4-0ac7-4e53-90e0-de2f4e9d0255",
+      "id": "6e8dc6c4-0ac7-4e53-90e0-de2f4e9d0255",
       "ward_no": "20",
-      "ward_name_en": "Karadippara",
-      "ward_name_ml": "കരടിപ്പാറ"
+      "name_en": "Karadippara",
+      "name_ml": "കരടിപ്പാറ"
     },
     {
-      "ward_id": "6b4ad2ae-6f24-4711-b992-d049d063b17e",
+      "id": "6b4ad2ae-6f24-4711-b992-d049d063b17e",
       "ward_no": "21",
-      "ward_name_en": "Thovarimala",
-      "ward_name_ml": "തൊവരിമല"
+      "name_en": "Thovarimala",
+      "name_ml": "തൊവരിമല"
     },
     {
-      "ward_id": "505b7401-356c-4cf6-9f90-7316a042bb4d",
+      "id": "505b7401-356c-4cf6-9f90-7316a042bb4d",
       "ward_no": "22",
-      "ward_name_en": "Malika",
-      "ward_name_ml": "മാളിക"
+      "name_en": "Malika",
+      "name_ml": "മാളിക"
     },
     {
-      "ward_id": "c6268c3f-f69b-4b7c-b1be-1d03cc03b031",
+      "id": "c6268c3f-f69b-4b7c-b1be-1d03cc03b031",
       "ward_no": "23",
-      "ward_name_en": "Edakkal",
-      "ward_name_ml": "എടക്കല്‍"
+      "name_en": "Edakkal",
+      "name_ml": "എടക്കല്‍"
     }
   ],
   "towns": [],

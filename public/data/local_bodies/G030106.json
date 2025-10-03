@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G030106",
-  "local_body_name_en": "Kunnamthanam",
-  "local_body_name_ml": "കുന്നന്താനം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G030106",
+  "name_en": "Kunnamthanam",
+  "name_ml": "കുന്നന്താനം",
+  "assembly_id": "111",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "111",
-    "assembly_name_en": "Thiruvalla",
-    "assembly_name_ml": "തിരുവല്ല",
-    "category": "Normal"
+    "id": "111",
+    "name_en": "Thiruvalla",
+    "name_ml": "തിരുവല്ല",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6e00b696-5ff1-4106-ade6-f7b3874ee6f1",
+      "id": "6e00b696-5ff1-4106-ade6-f7b3874ee6f1",
       "ward_no": "1",
-      "ward_name_en": "Vallikkad",
-      "ward_name_ml": "വളളിക്കാട്"
+      "name_en": "Vallikkad",
+      "name_ml": "വളളിക്കാട്"
     },
     {
-      "ward_id": "cd7389d3-1f89-4b7a-9921-4830b78ddea7",
+      "id": "cd7389d3-1f89-4b7a-9921-4830b78ddea7",
       "ward_no": "2",
-      "ward_name_en": "Vallokkunnu",
-      "ward_name_ml": "വളേളാക്കുന്ന്"
+      "name_en": "Vallokkunnu",
+      "name_ml": "വളേളാക്കുന്ന്"
     },
     {
-      "ward_id": "1664ddd0-a0b7-4613-92a2-4e3c1c4243ca",
+      "id": "1664ddd0-a0b7-4613-92a2-4e3c1c4243ca",
       "ward_no": "3",
-      "ward_name_en": "Palackathakidi",
-      "ward_name_ml": "പാലയ്ക്കാതകിടി"
+      "name_en": "Palackathakidi",
+      "name_ml": "പാലയ്ക്കാതകിടി"
     },
     {
-      "ward_id": "6b8f541f-17e3-4cca-8af9-0944116791f3",
+      "id": "6b8f541f-17e3-4cca-8af9-0944116791f3",
       "ward_no": "4",
-      "ward_name_en": "Karackadu",
-      "ward_name_ml": "കാരയ്ക്കാട്"
+      "name_en": "Karackadu",
+      "name_ml": "കാരയ്ക്കാട്"
     },
     {
-      "ward_id": "3eb33c14-3c54-429d-904e-99558ed04433",
+      "id": "3eb33c14-3c54-429d-904e-99558ed04433",
       "ward_no": "5",
-      "ward_name_en": "Mukkoor",
-      "ward_name_ml": "മുക്കൂര്‍"
+      "name_en": "Mukkoor",
+      "name_ml": "മുക്കൂര്‍"
     },
     {
-      "ward_id": "42bf3f2c-0817-42bd-a88d-fbcec94c1c0a",
+      "id": "42bf3f2c-0817-42bd-a88d-fbcec94c1c0a",
       "ward_no": "6",
-      "ward_name_en": "Pulinthanam",
-      "ward_name_ml": "പുളിന്താനം"
+      "name_en": "Pulinthanam",
+      "name_ml": "പുളിന്താനം"
     },
     {
-      "ward_id": "9d8ca5de-9686-4f1b-b7fc-72d1993676a8",
+      "id": "9d8ca5de-9686-4f1b-b7fc-72d1993676a8",
       "ward_no": "7",
-      "ward_name_en": "Nadackal",
-      "ward_name_ml": "നടയ്ക്കല്‍"
+      "name_en": "Nadackal",
+      "name_ml": "നടയ്ക്കല്‍"
     },
     {
-      "ward_id": "53dba5cb-56fc-4fcb-844e-c6009124450e",
+      "id": "53dba5cb-56fc-4fcb-844e-c6009124450e",
       "ward_no": "8",
-      "ward_name_en": "Kunnanthanam",
-      "ward_name_ml": "കുന്നംന്താനം"
+      "name_en": "Kunnanthanam",
+      "name_ml": "കുന്നംന്താനം"
     },
     {
-      "ward_id": "dc96f4c7-ebe7-4e55-9036-ca7f369d0145",
+      "id": "dc96f4c7-ebe7-4e55-9036-ca7f369d0145",
       "ward_no": "9",
-      "ward_name_en": "Mundackamon",
-      "ward_name_ml": "മുണ്ടക്കാമണ്‍"
+      "name_en": "Mundackamon",
+      "name_ml": "മുണ്ടക്കാമണ്‍"
     },
     {
-      "ward_id": "af86aba3-7817-46bb-8ce7-b9359d90081e",
+      "id": "af86aba3-7817-46bb-8ce7-b9359d90081e",
       "ward_no": "10",
-      "ward_name_en": "Palakuzhy",
-      "ward_name_ml": "പാലക്കുഴി"
+      "name_en": "Palakuzhy",
+      "name_ml": "പാലക്കുഴി"
     },
     {
-      "ward_id": "17b81313-1dba-4c55-a02c-3ba23a58fd89",
+      "id": "17b81313-1dba-4c55-a02c-3ba23a58fd89",
       "ward_no": "11",
-      "ward_name_en": "Kolathu",
-      "ward_name_ml": "കോലത്ത്"
+      "name_en": "Kolathu",
+      "name_ml": "കോലത്ത്"
     },
     {
-      "ward_id": "ca5fc8ca-9a4d-4fe1-826f-b0ef5307a9cc",
+      "id": "ca5fc8ca-9a4d-4fe1-826f-b0ef5307a9cc",
       "ward_no": "12",
-      "ward_name_en": "Anjilithanam",
-      "ward_name_ml": "ആഞ്ഞിലിത്താനം"
+      "name_en": "Anjilithanam",
+      "name_ml": "ആഞ്ഞിലിത്താനം"
     },
     {
-      "ward_id": "c1f9fb01-77ad-4485-ad9d-7fb51a607e93",
+      "id": "c1f9fb01-77ad-4485-ad9d-7fb51a607e93",
       "ward_no": "13",
-      "ward_name_en": "Mylamon",
-      "ward_name_ml": "മൈലമണ്‍"
+      "name_en": "Mylamon",
+      "name_ml": "മൈലമണ്‍"
     },
     {
-      "ward_id": "ea542244-957f-4489-9f3f-aa11016e85a1",
+      "id": "ea542244-957f-4489-9f3f-aa11016e85a1",
       "ward_no": "14",
-      "ward_name_en": "Thottapady",
-      "ward_name_ml": "തോട്ടപ്പടി"
+      "name_en": "Thottapady",
+      "name_ml": "തോട്ടപ്പടി"
     },
     {
-      "ward_id": "1a1ff1d2-c9ad-494c-ba71-51a1790fe3c0",
+      "id": "1a1ff1d2-c9ad-494c-ba71-51a1790fe3c0",
       "ward_no": "15",
-      "ward_name_en": "Manthanam",
-      "ward_name_ml": "മാന്താനം"
+      "name_en": "Manthanam",
+      "name_ml": "മാന്താനം"
     }
   ],
   "towns": [],

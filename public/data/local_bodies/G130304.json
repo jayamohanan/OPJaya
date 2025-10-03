@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G130304",
-  "local_body_name_en": "Pariyaram",
-  "local_body_name_ml": "പരിയാരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G130304",
+  "name_en": "Pariyaram",
+  "name_ml": "പരിയാരം",
+  "assembly_id": "8",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "8",
-    "assembly_name_en": "Taliparamba",
-    "assembly_name_ml": "തളിപ്പറമ്പ്",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Taliparamba",
+    "name_ml": "തളിപ്പറമ്പ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "687a5aef-836a-4b89-967e-b214c0d6fb26",
+      "id": "687a5aef-836a-4b89-967e-b214c0d6fb26",
       "ward_no": "1",
-      "ward_name_en": "Vayad",
-      "ward_name_ml": "വായാട്"
+      "name_en": "Vayad",
+      "name_ml": "വായാട്"
     },
     {
-      "ward_id": "cc8f1d82-4f43-4894-b049-8e5143b57c37",
+      "id": "cc8f1d82-4f43-4894-b049-8e5143b57c37",
       "ward_no": "2",
-      "ward_name_en": "Thiruvattoor",
-      "ward_name_ml": "തിരുവട്ടൂര്‍"
+      "name_en": "Thiruvattoor",
+      "name_ml": "തിരുവട്ടൂര്‍"
     },
     {
-      "ward_id": "e42174fe-70b2-4ee1-afb8-b17c0d87ad45",
+      "id": "e42174fe-70b2-4ee1-afb8-b17c0d87ad45",
       "ward_no": "3",
-      "ward_name_en": "Pacheni",
-      "ward_name_ml": "പാച്ചേനി"
+      "name_en": "Pacheni",
+      "name_ml": "പാച്ചേനി"
     },
     {
-      "ward_id": "11083764-9369-4d15-97e3-499a161ef6c4",
+      "id": "11083764-9369-4d15-97e3-499a161ef6c4",
       "ward_no": "4",
-      "ward_name_en": "Cheriyoor",
-      "ward_name_ml": "ചെറിയൂര്‍"
+      "name_en": "Cheriyoor",
+      "name_ml": "ചെറിയൂര്‍"
     },
     {
-      "ward_id": "bbd8aeef-5705-48e8-b788-c2b65eba85e8",
+      "id": "bbd8aeef-5705-48e8-b788-c2b65eba85e8",
       "ward_no": "5",
-      "ward_name_en": "Kanhirangad",
-      "ward_name_ml": "കാഞ്ഞിരങ്ങാട്"
+      "name_en": "Kanhirangad",
+      "name_ml": "കാഞ്ഞിരങ്ങാട്"
     },
     {
-      "ward_id": "7bc787be-9f22-4cf6-9dc1-8a9731ad3856",
+      "id": "7bc787be-9f22-4cf6-9dc1-8a9731ad3856",
       "ward_no": "6",
-      "ward_name_en": "Thalora",
-      "ward_name_ml": "തലോറ"
+      "name_en": "Thalora",
+      "name_ml": "തലോറ"
     },
     {
-      "ward_id": "83582585-a501-42ff-879d-f0ff7b8f4933",
+      "id": "83582585-a501-42ff-879d-f0ff7b8f4933",
       "ward_no": "7",
-      "ward_name_en": "Mavicheri",
-      "ward_name_ml": "മാവിച്ചേരി"
+      "name_en": "Mavicheri",
+      "name_ml": "മാവിച്ചേരി"
     },
     {
-      "ward_id": "97c421d9-6d10-44af-a826-328a156b83e0",
+      "id": "97c421d9-6d10-44af-a826-328a156b83e0",
       "ward_no": "8",
-      "ward_name_en": "Panangattoor",
-      "ward_name_ml": "പനങ്ങാട്ടൂര്‍"
+      "name_en": "Panangattoor",
+      "name_ml": "പനങ്ങാട്ടൂര്‍"
     },
     {
-      "ward_id": "c9684361-3df1-4d5e-81f6-abe903bffdca",
+      "id": "c9684361-3df1-4d5e-81f6-abe903bffdca",
       "ward_no": "9",
-      "ward_name_en": "Kuttiyeri",
-      "ward_name_ml": "കുറ്റ്യേരി"
+      "name_en": "Kuttiyeri",
+      "name_ml": "കുറ്റ്യേരി"
     },
     {
-      "ward_id": "f2b2891c-314d-495b-b816-af5c4c972917",
+      "id": "f2b2891c-314d-495b-b816-af5c4c972917",
       "ward_no": "10",
-      "ward_name_en": "Vellavu",
-      "ward_name_ml": "വെള്ളാവ്"
+      "name_en": "Vellavu",
+      "name_ml": "വെള്ളാവ്"
     },
     {
-      "ward_id": "1140b404-0a60-436c-bdee-c7a4e05894c2",
+      "id": "1140b404-0a60-436c-bdee-c7a4e05894c2",
       "ward_no": "11",
-      "ward_name_en": "Kuppam",
-      "ward_name_ml": "കുപ്പം"
+      "name_en": "Kuppam",
+      "name_ml": "കുപ്പം"
     },
     {
-      "ward_id": "d71219b4-7abc-421f-b139-9367068e881b",
+      "id": "d71219b4-7abc-421f-b139-9367068e881b",
       "ward_no": "12",
-      "ward_name_en": "Mukkunnu",
-      "ward_name_ml": "മുക്കുന്ന്"
+      "name_en": "Mukkunnu",
+      "name_ml": "മുക്കുന്ന്"
     },
     {
-      "ward_id": "c6d10631-7ca4-4d3b-805a-b207c76deaea",
+      "id": "c6d10631-7ca4-4d3b-805a-b207c76deaea",
       "ward_no": "13",
-      "ward_name_en": "Iringal",
-      "ward_name_ml": "ഇരിങ്ങല്‍"
+      "name_en": "Iringal",
+      "name_ml": "ഇരിങ്ങല്‍"
     },
     {
-      "ward_id": "9c79705c-95e9-4153-a947-f71a67e68eea",
+      "id": "9c79705c-95e9-4153-a947-f71a67e68eea",
       "ward_no": "14",
-      "ward_name_en": "Chithappile Poyil",
-      "ward_name_ml": "ചിതപ്പിലെ പൊയ്യില്‍"
+      "name_en": "Chithappile Poyil",
+      "name_ml": "ചിതപ്പിലെ പൊയ്യില്‍"
     },
     {
-      "ward_id": "f293aca7-766c-4511-a9ce-f0a12ac16b46",
+      "id": "f293aca7-766c-4511-a9ce-f0a12ac16b46",
       "ward_no": "15",
-      "ward_name_en": "Pariyaram Center",
-      "ward_name_ml": "പരിയാരം സെന്‍റര്‍"
+      "name_en": "Pariyaram Center",
+      "name_ml": "പരിയാരം സെന്‍റര്‍"
     },
     {
-      "ward_id": "ab685333-4a1c-40d6-857b-cac99f846cb0",
+      "id": "ab685333-4a1c-40d6-857b-cac99f846cb0",
       "ward_no": "16",
-      "ward_name_en": "Embett",
-      "ward_name_ml": "ഏമ്പേറ്റ്"
+      "name_en": "Embett",
+      "name_ml": "ഏമ്പേറ്റ്"
     },
     {
-      "ward_id": "4f321534-f717-4781-ac25-a361fcae54cf",
+      "id": "4f321534-f717-4781-ac25-a361fcae54cf",
       "ward_no": "17",
-      "ward_name_en": "Mudikkanam",
-      "ward_name_ml": "മുടിക്കാനം"
+      "name_en": "Mudikkanam",
+      "name_ml": "മുടിക്കാനം"
     },
     {
-      "ward_id": "bc87f845-7799-49c6-9bdf-0b53c7a88922",
+      "id": "bc87f845-7799-49c6-9bdf-0b53c7a88922",
       "ward_no": "18",
-      "ward_name_en": "Ammanappara",
-      "ward_name_ml": "അമ്മാനപ്പാറ"
+      "name_en": "Ammanappara",
+      "name_ml": "അമ്മാനപ്പാറ"
     }
   ],
   "towns": [],

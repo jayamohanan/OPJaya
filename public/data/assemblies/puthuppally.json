@@ -1,62 +1,83 @@
 {
-  "assembly_id": "98",
-  "assembly_name_en": "Puthuppally",
-  "assembly_name_ml": "പുതുപ്പള്ളി",
-  "category": "Normal",
+  "id": "98",
+  "name_en": "Puthuppally",
+  "name_ml": "പുതുപ്പള്ളി",
+  "district_id": "5",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "district_category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G050801",
-      "local_body_name_en": "Ayarkunnam",
-      "local_body_name_ml": "അയര്‍കുന്നം",
-      "category": "Normal"
+      "id": "G050801",
+      "name_en": "Ayarkunnam",
+      "name_ml": "അയര്‍കുന്നം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050703",
-      "local_body_name_en": "Kooroppada",
-      "local_body_name_ml": "കൂരോപ്പട",
-      "category": "Normal"
+      "id": "G050703",
+      "name_en": "Kooroppada",
+      "name_ml": "കൂരോപ്പട",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050708",
-      "local_body_name_en": "Manarcadu",
-      "local_body_name_ml": "മണര്‍കാട്",
-      "category": "Good"
+      "id": "G050708",
+      "name_en": "Manarcadu",
+      "name_ml": "മണര്‍കാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050706",
-      "local_body_name_en": "Meenadom",
-      "local_body_name_ml": "മീനടം",
-      "category": "Perfect"
+      "id": "G050706",
+      "name_en": "Meenadom",
+      "name_ml": "മീനടം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050704",
-      "local_body_name_en": "Pampady",
-      "local_body_name_ml": "പാമ്പാടി",
-      "category": "Good"
+      "id": "G050704",
+      "name_en": "Pampady",
+      "name_ml": "പാമ്പാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050802",
-      "local_body_name_en": "Puthuppally",
-      "local_body_name_ml": "പുതുപ്പള്ളി",
-      "category": "Good"
+      "id": "G050802",
+      "name_en": "Puthuppally",
+      "name_ml": "പുതുപ്പള്ളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050904",
-      "local_body_name_en": "Vakathanam",
-      "local_body_name_ml": "വാകത്താനം",
-      "category": "Perfect"
+      "id": "G050904",
+      "name_en": "Vakathanam",
+      "name_ml": "വാകത്താനം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050701",
-      "local_body_name_en": "Akalakunnam",
-      "local_body_name_ml": "അകലക്കുന്നം",
-      "category": "Good"
+      "id": "G050701",
+      "name_en": "Akalakunnam",
+      "name_ml": "അകലക്കുന്നം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

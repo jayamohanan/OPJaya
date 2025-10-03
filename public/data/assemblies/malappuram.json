@@ -1,50 +1,65 @@
 {
-  "assembly_id": "40",
-  "assembly_name_en": "Malappuram",
-  "assembly_name_ml": "മലപ്പുറം",
-  "category": "Normal",
+  "id": "40",
+  "name_en": "Malappuram",
+  "name_ml": "മലപ്പുറം",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G100605",
-      "local_body_name_en": "Kodur",
-      "local_body_name_ml": "കോഡൂര്‍",
-      "category": "Normal"
+      "id": "G100605",
+      "name_en": "Kodur",
+      "name_ml": "കോഡൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M100500",
-      "local_body_name_en": "Malappuram",
-      "local_body_name_ml": "മലപ്പുറം",
-      "category": ""
+      "id": "M100500",
+      "name_en": "Malappuram",
+      "name_ml": "മലപ്പുറം",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G100602",
-      "local_body_name_en": "Morayur",
-      "local_body_name_ml": "മൊറയൂര്‍",
-      "category": "Normal"
+      "id": "G100602",
+      "name_en": "Morayur",
+      "name_ml": "മൊറയൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100604",
-      "local_body_name_en": "Pookkottur",
-      "local_body_name_ml": "പൂക്കോട്ടൂര്‍",
-      "category": "Good"
+      "id": "G100604",
+      "name_en": "Pookkottur",
+      "name_ml": "പൂക്കോട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100504",
-      "local_body_name_en": "Pulpatta",
-      "local_body_name_ml": "പുല്‍പ്പറ്റ",
-      "category": "Good"
+      "id": "G100504",
+      "name_en": "Pulpatta",
+      "name_ml": "പുല്‍പ്പറ്റ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100601",
-      "local_body_name_en": "Anakkayam",
-      "local_body_name_ml": "ആനക്കയം",
-      "category": "Good"
+      "id": "G100601",
+      "name_en": "Anakkayam",
+      "name_ml": "ആനക്കയം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

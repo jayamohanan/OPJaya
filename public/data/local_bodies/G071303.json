@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G071303",
-  "local_body_name_en": "Nedumbassery",
-  "local_body_name_ml": "നെടുമ്പാശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G071303",
+  "name_en": "Nedumbassery",
+  "name_ml": "നെടുമ്പാശ്ശേരി",
+  "assembly_id": "76",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "76",
-    "assembly_name_en": "Aluva",
-    "assembly_name_ml": "ആലുവ",
-    "category": "Normal"
+    "id": "76",
+    "name_en": "Aluva",
+    "name_ml": "ആലുവ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b175acab-dcfd-47fd-9395-f6c2c0baf886",
+      "id": "b175acab-dcfd-47fd-9395-f6c2c0baf886",
       "ward_no": "1",
-      "ward_name_en": "Mallussery",
-      "ward_name_ml": "മള്ളുശ്ശേരി"
+      "name_en": "Mallussery",
+      "name_ml": "മള്ളുശ്ശേരി"
     },
     {
-      "ward_id": "ceca621b-1448-485f-87af-44603fbcf84d",
+      "id": "ceca621b-1448-485f-87af-44603fbcf84d",
       "ward_no": "2",
-      "ward_name_en": "Karakkattukunnu North",
-      "ward_name_ml": "കാരയ്ക്കാട്ടുകുന്ന് നോര്‍ത്ത്"
+      "name_en": "Karakkattukunnu North",
+      "name_ml": "കാരയ്ക്കാട്ടുകുന്ന് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "500ecdab-c8bb-4288-939f-6198c4ebfc8f",
+      "id": "500ecdab-c8bb-4288-939f-6198c4ebfc8f",
       "ward_no": "3",
-      "ward_name_en": "Mekkad West",
-      "ward_name_ml": "മേയ്ക്കാട് വെസ്റ്റ്"
+      "name_en": "Mekkad West",
+      "name_ml": "മേയ്ക്കാട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "e25c790a-eda5-4d9a-89c0-85a18c128bc9",
+      "id": "e25c790a-eda5-4d9a-89c0-85a18c128bc9",
       "ward_no": "4",
-      "ward_name_en": "Mekkad East",
-      "ward_name_ml": "മേയ്ക്കാട് ഈസ്റ്റ്"
+      "name_en": "Mekkad East",
+      "name_ml": "മേയ്ക്കാട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "cb32868a-67db-42de-b24a-d05d4ec91cce",
+      "id": "cb32868a-67db-42de-b24a-d05d4ec91cce",
       "ward_no": "5",
-      "ward_name_en": "Chambannoor",
-      "ward_name_ml": "ചമ്പന്നൂര്‍"
+      "name_en": "Chambannoor",
+      "name_ml": "ചമ്പന്നൂര്‍"
     },
     {
-      "ward_id": "7e992edd-ab68-4948-bca9-ff1e69bc00e6",
+      "id": "7e992edd-ab68-4948-bca9-ff1e69bc00e6",
       "ward_no": "6",
-      "ward_name_en": "Cheriya Vappalassery West",
-      "ward_name_ml": "ചെറിയ വാപ്പാലശ്ശേരി വെസ്റ്റ്"
+      "name_en": "Cheriya Vappalassery West",
+      "name_ml": "ചെറിയ വാപ്പാലശ്ശേരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "016865da-1df9-4301-80e0-2f5c8582c744",
+      "id": "016865da-1df9-4301-80e0-2f5c8582c744",
       "ward_no": "7",
-      "ward_name_en": "Cheriya Vappalassery East",
-      "ward_name_ml": "ചെറിയ വാപ്പാലശ്ശേരി ഈസ്റ്റ്"
+      "name_en": "Cheriya Vappalassery East",
+      "name_ml": "ചെറിയ വാപ്പാലശ്ശേരി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "ad8fce99-6082-48b6-8810-7be92d0aaee3",
+      "id": "ad8fce99-6082-48b6-8810-7be92d0aaee3",
       "ward_no": "8",
-      "ward_name_en": "Cheriya Vappalassery North",
-      "ward_name_ml": "ചെറിയ വാപ്പാലശ്ശേരി  നോര്‍ത്ത്"
+      "name_en": "Cheriya Vappalassery North",
+      "name_ml": "ചെറിയ വാപ്പാലശ്ശേരി  നോര്‍ത്ത്"
     },
     {
-      "ward_id": "583b2c82-ccd4-4633-aece-1b54bad3a918",
+      "id": "583b2c82-ccd4-4633-aece-1b54bad3a918",
       "ward_no": "9",
-      "ward_name_en": "Akapparambu Mekkavu",
-      "ward_name_ml": "അകപ്പറമ്പ് മേയ്ക്കാവ്"
+      "name_en": "Akapparambu Mekkavu",
+      "name_ml": "അകപ്പറമ്പ് മേയ്ക്കാവ്"
     },
     {
-      "ward_id": "cf7a1763-cacd-4175-b058-e3c97627919f",
+      "id": "cf7a1763-cacd-4175-b058-e3c97627919f",
       "ward_no": "10",
-      "ward_name_en": "Vappalassery",
-      "ward_name_ml": "വാപ്പാലശ്ശേരി"
+      "name_en": "Vappalassery",
+      "name_ml": "വാപ്പാലശ്ശേരി"
     },
     {
-      "ward_id": "c1bc72eb-5bca-4147-af12-a2fb675809c7",
+      "id": "c1bc72eb-5bca-4147-af12-a2fb675809c7",
       "ward_no": "11",
-      "ward_name_en": "Airport  Ward",
-      "ward_name_ml": "എയര്‍പോര്‍ട്ട്  വാര്‍ഡ്"
+      "name_en": "Airport  Ward",
+      "name_ml": "എയര്‍പോര്‍ട്ട്  വാര്‍ഡ്"
     },
     {
-      "ward_id": "0649a613-9bf5-4d5b-a2b6-dac0fd7a29e8",
+      "id": "0649a613-9bf5-4d5b-a2b6-dac0fd7a29e8",
       "ward_no": "12",
-      "ward_name_en": "Kariyad",
-      "ward_name_ml": "കരിയാട്"
+      "name_en": "Kariyad",
+      "name_ml": "കരിയാട്"
     },
     {
-      "ward_id": "b4bb94f7-f99a-4851-bee4-d81c9104624b",
+      "id": "b4bb94f7-f99a-4851-bee4-d81c9104624b",
       "ward_no": "13",
-      "ward_name_en": "Thuruthissery",
-      "ward_name_ml": "തുരുത്തിശ്ശേരി"
+      "name_en": "Thuruthissery",
+      "name_ml": "തുരുത്തിശ്ശേരി"
     },
     {
-      "ward_id": "f015e948-9395-4ce0-8835-a02815b95ca2",
+      "id": "f015e948-9395-4ce0-8835-a02815b95ca2",
       "ward_no": "14",
-      "ward_name_en": "Kalpaka Nagar",
-      "ward_name_ml": "കല്‍പ്പക നഗര്‍"
+      "name_en": "Kalpaka Nagar",
+      "name_ml": "കല്‍പ്പക നഗര്‍"
     },
     {
-      "ward_id": "de8c3867-1272-4b7a-b067-aafacf06be70",
+      "id": "de8c3867-1272-4b7a-b067-aafacf06be70",
       "ward_no": "15",
-      "ward_name_en": "Nedumbassery",
-      "ward_name_ml": "നെടുമ്പാശ്ശേരി"
+      "name_en": "Nedumbassery",
+      "name_ml": "നെടുമ്പാശ്ശേരി"
     },
     {
-      "ward_id": "158aa239-49f1-4572-9ec0-adf327bed903",
+      "id": "158aa239-49f1-4572-9ec0-adf327bed903",
       "ward_no": "16",
-      "ward_name_en": "Karakkattukunnu South",
-      "ward_name_ml": "കാരയ്ക്കാട്ടുകുന്ന്  സൌത്ത്"
+      "name_en": "Karakkattukunnu South",
+      "name_ml": "കാരയ്ക്കാട്ടുകുന്ന്  സൌത്ത്"
     },
     {
-      "ward_id": "7d89c41d-77a8-465f-90c6-fc1ee15250bf",
+      "id": "7d89c41d-77a8-465f-90c6-fc1ee15250bf",
       "ward_no": "17",
-      "ward_name_en": "Athani Town",
-      "ward_name_ml": "അത്താണി ടൌണ്‍"
+      "name_en": "Athani Town",
+      "name_ml": "അത്താണി ടൌണ്‍"
     },
     {
-      "ward_id": "ff9bda7d-176a-4344-8515-b12b660bcd0a",
+      "id": "ff9bda7d-176a-4344-8515-b12b660bcd0a",
       "ward_no": "18",
-      "ward_name_en": "Poickattussery South",
-      "ward_name_ml": "പൊയ്ക്കാട്ടുശ്ശേരി സൌത്ത്"
+      "name_en": "Poickattussery South",
+      "name_ml": "പൊയ്ക്കാട്ടുശ്ശേരി സൌത്ത്"
     },
     {
-      "ward_id": "23e9e452-5471-4246-9e80-645233c8412b",
+      "id": "23e9e452-5471-4246-9e80-645233c8412b",
       "ward_no": "19",
-      "ward_name_en": "Poickattussery",
-      "ward_name_ml": "പൊയ്ക്കാട്ടുശ്ശേരി"
+      "name_en": "Poickattussery",
+      "name_ml": "പൊയ്ക്കാട്ടുശ്ശേരി"
     }
   ],
   "towns": [],

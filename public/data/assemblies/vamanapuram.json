@@ -1,68 +1,91 @@
 {
-  "assembly_id": "131",
-  "assembly_name_en": "Vamanapuram",
-  "assembly_name_ml": "വാമനപുരം",
-  "category": "Normal",
+  "id": "131",
+  "name_en": "Vamanapuram",
+  "name_ml": "വാമനപുരം",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010401",
-      "local_body_name_en": "Kallara",
-      "local_body_name_ml": "കല്ലറ",
-      "category": "Perfect"
+      "id": "G010401",
+      "name_en": "Kallara",
+      "name_ml": "കല്ലറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010406",
-      "local_body_name_en": "Nanniyode",
-      "local_body_name_ml": "നന്ദിയോട്",
-      "category": "Good"
+      "id": "G010406",
+      "name_en": "Nanniyode",
+      "name_ml": "നന്ദിയോട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010402",
-      "local_body_name_en": "Nellanad",
-      "local_body_name_ml": "നെല്ലനാട്",
-      "category": "Perfect"
+      "id": "G010402",
+      "name_en": "Nellanad",
+      "name_ml": "നെല്ലനാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010603",
-      "local_body_name_en": "Panavoor",
-      "local_body_name_ml": "പനവൂര്‍",
-      "category": "Good"
+      "id": "G010603",
+      "name_en": "Panavoor",
+      "name_ml": "പനവൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010405",
-      "local_body_name_en": "Pangode",
-      "local_body_name_ml": "പാങ്ങോട്",
-      "category": "Perfect"
+      "id": "G010405",
+      "name_en": "Pangode",
+      "name_ml": "പാങ്ങോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010407",
-      "local_body_name_en": "Peringammala",
-      "local_body_name_ml": "പെരിങ്ങമ്മല",
-      "category": "Normal"
+      "id": "G010407",
+      "name_en": "Peringammala",
+      "name_ml": "പെരിങ്ങമ്മല",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010403",
-      "local_body_name_en": "Pullampara",
-      "local_body_name_ml": "പുല്ലമ്പാറ",
-      "category": "Good"
+      "id": "G010403",
+      "name_en": "Pullampara",
+      "name_ml": "പുല്ലമ്പാറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010404",
-      "local_body_name_en": "Vamanapuram",
-      "local_body_name_ml": "വാമനപുരം",
-      "category": "Good"
+      "id": "G010404",
+      "name_en": "Vamanapuram",
+      "name_ml": "വാമനപുരം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010601",
-      "local_body_name_en": "Anad",
-      "local_body_name_ml": "ആനാട്",
-      "category": "Good"
+      "id": "G010601",
+      "name_en": "Anad",
+      "name_ml": "ആനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

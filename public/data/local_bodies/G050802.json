@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G050802",
-  "local_body_name_en": "Puthuppally",
-  "local_body_name_ml": "പുതുപ്പള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G050802",
+  "name_en": "Puthuppally",
+  "name_ml": "പുതുപ്പള്ളി",
+  "assembly_id": "98",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "98",
-    "assembly_name_en": "Puthuppally",
-    "assembly_name_ml": "പുതുപ്പള്ളി",
-    "category": "Normal"
+    "id": "98",
+    "name_en": "Puthuppally",
+    "name_ml": "പുതുപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "97eb1729-9637-4b57-bb1c-72a6d2e86f3a",
+      "id": "97eb1729-9637-4b57-bb1c-72a6d2e86f3a",
       "ward_no": "1",
-      "ward_name_en": "Rubber Board",
-      "ward_name_ml": "റബ്ബര്‍ബോര്‍ഡ്"
+      "name_en": "Rubber Board",
+      "name_ml": "റബ്ബര്‍ബോര്‍ഡ്"
     },
     {
-      "ward_id": "5fe6bfdb-3f54-43a2-8333-2792f9927a93",
+      "id": "5fe6bfdb-3f54-43a2-8333-2792f9927a93",
       "ward_no": "2",
-      "ward_name_en": "Thalappady",
-      "ward_name_ml": "തലപ്പാടി"
+      "name_en": "Thalappady",
+      "name_ml": "തലപ്പാടി"
     },
     {
-      "ward_id": "3be11411-eade-4811-81a6-6e2bcf8c2983",
+      "id": "3be11411-eade-4811-81a6-6e2bcf8c2983",
       "ward_no": "3",
-      "ward_name_en": "Vellookutta",
-      "ward_name_ml": "വെള്ളുക്കുട്ട"
+      "name_en": "Vellookutta",
+      "name_ml": "വെള്ളുക്കുട്ട"
     },
     {
-      "ward_id": "9d5309c3-ae72-46d9-9585-28870479c797",
+      "id": "9d5309c3-ae72-46d9-9585-28870479c797",
       "ward_no": "4",
-      "ward_name_en": "Vennimala",
-      "ward_name_ml": "വെണ്ണിമല"
+      "name_en": "Vennimala",
+      "name_ml": "വെണ്ണിമല"
     },
     {
-      "ward_id": "2cdef9f0-dc1c-43dd-b193-75a8baddd00a",
+      "id": "2cdef9f0-dc1c-43dd-b193-75a8baddd00a",
       "ward_no": "5",
-      "ward_name_en": "Payyappadi",
-      "ward_name_ml": "പയ്യപ്പാടി"
+      "name_en": "Payyappadi",
+      "name_ml": "പയ്യപ്പാടി"
     },
     {
-      "ward_id": "d0ee400d-a027-424b-9ac6-38e0dc299ca3",
+      "id": "d0ee400d-a027-424b-9ac6-38e0dc299ca3",
       "ward_no": "6",
-      "ward_name_en": "Kanjirathum Moodu",
-      "ward_name_ml": "കാഞ്ഞിരത്തുംമൂട്"
+      "name_en": "Kanjirathum Moodu",
+      "name_ml": "കാഞ്ഞിരത്തുംമൂട്"
     },
     {
-      "ward_id": "02ebfff8-c73e-4214-a561-3ccf1fe96f51",
+      "id": "02ebfff8-c73e-4214-a561-3ccf1fe96f51",
       "ward_no": "7",
-      "ward_name_en": "Puthuppally Town",
-      "ward_name_ml": "പുതുപ്പള്ളി ടൌണ്‍"
+      "name_en": "Puthuppally Town",
+      "name_ml": "പുതുപ്പള്ളി ടൌണ്‍"
     },
     {
-      "ward_id": "20311f5f-d402-4d1e-9653-941ecfb18955",
+      "id": "20311f5f-d402-4d1e-9653-941ecfb18955",
       "ward_no": "8",
-      "ward_name_en": "Pinnakkumala",
-      "ward_name_ml": "പിണ്ണാക്കുമല"
+      "name_en": "Pinnakkumala",
+      "name_ml": "പിണ്ണാക്കുമല"
     },
     {
-      "ward_id": "5a451054-164d-4e57-ba1b-895299dd1536",
+      "id": "5a451054-164d-4e57-ba1b-895299dd1536",
       "ward_no": "9",
-      "ward_name_en": "Ponganpara",
-      "ward_name_ml": "പൊങ്ങന്‍പാറ"
+      "name_en": "Ponganpara",
+      "name_ml": "പൊങ്ങന്‍പാറ"
     },
     {
-      "ward_id": "d2890f3f-1e87-4202-aeff-3a5ff6568b06",
+      "id": "d2890f3f-1e87-4202-aeff-3a5ff6568b06",
       "ward_no": "10",
-      "ward_name_en": "Thottakkadu",
-      "ward_name_ml": "തോട്ടയ്ക്കാട്"
+      "name_en": "Thottakkadu",
+      "name_ml": "തോട്ടയ്ക്കാട്"
     },
     {
-      "ward_id": "62764b8f-8f9e-4144-b053-7ef643eefad3",
+      "id": "62764b8f-8f9e-4144-b053-7ef643eefad3",
       "ward_no": "11",
-      "ward_name_en": "Pariyaram",
-      "ward_name_ml": "പരിയാരം"
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം"
     },
     {
-      "ward_id": "9b938e10-bd70-4f53-8602-7d2ef554a022",
+      "id": "9b938e10-bd70-4f53-8602-7d2ef554a022",
       "ward_no": "12",
-      "ward_name_en": "Vettathukavala",
-      "ward_name_ml": "വെട്ടത്തുകവല"
+      "name_en": "Vettathukavala",
+      "name_ml": "വെട്ടത്തുകവല"
     },
     {
-      "ward_id": "2b093347-8220-49ad-8ee2-10ec64133dd6",
+      "id": "2b093347-8220-49ad-8ee2-10ec64133dd6",
       "ward_no": "13",
-      "ward_name_en": "Ericadu",
-      "ward_name_ml": "എറികാട്"
+      "name_en": "Ericadu",
+      "name_ml": "എറികാട്"
     },
     {
-      "ward_id": "a611c3ea-c5d4-4a65-b168-92469dff0668",
+      "id": "a611c3ea-c5d4-4a65-b168-92469dff0668",
       "ward_no": "14",
-      "ward_name_en": "Kochalummoodu",
-      "ward_name_ml": "കൊച്ചാലുംമൂട്"
+      "name_en": "Kochalummoodu",
+      "name_ml": "കൊച്ചാലുംമൂട്"
     },
     {
-      "ward_id": "e4bce775-c420-42e2-918d-13906bd99d43",
+      "id": "e4bce775-c420-42e2-918d-13906bd99d43",
       "ward_no": "15",
-      "ward_name_en": "Iravinelloor",
-      "ward_name_ml": "ഇരവിനല്ലൂര്‍"
+      "name_en": "Iravinelloor",
+      "name_ml": "ഇരവിനല്ലൂര്‍"
     },
     {
-      "ward_id": "fbfb9577-c738-4154-8025-7425cc421bc6",
+      "id": "fbfb9577-c738-4154-8025-7425cc421bc6",
       "ward_no": "16",
-      "ward_name_en": "Angadi",
-      "ward_name_ml": "അങ്ങാടി"
+      "name_en": "Angadi",
+      "name_ml": "അങ്ങാടി"
     },
     {
-      "ward_id": "ab744a2a-a020-4b76-82b7-4abe222d03a4",
+      "id": "ab744a2a-a020-4b76-82b7-4abe222d03a4",
       "ward_no": "17",
-      "ward_name_en": "Ellukala",
-      "ward_name_ml": "എള്ളുകാല"
+      "name_en": "Ellukala",
+      "name_ml": "എള്ളുകാല"
     },
     {
-      "ward_id": "1135ed2e-92cd-4cbf-b40f-08cd5048a4fd",
+      "id": "1135ed2e-92cd-4cbf-b40f-08cd5048a4fd",
       "ward_no": "18",
-      "ward_name_en": "Pummattam",
-      "ward_name_ml": "പുമ്മറ്റം"
+      "name_en": "Pummattam",
+      "name_ml": "പുമ്മറ്റം"
     }
   ],
   "towns": [],

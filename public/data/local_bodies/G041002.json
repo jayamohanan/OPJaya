@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G041002",
-  "local_body_name_en": "Chettikulangara",
-  "local_body_name_ml": "ചെട്ടികുളങ്ങര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G041002",
+  "name_en": "Chettikulangara",
+  "name_ml": "ചെട്ടികുളങ്ങര",
+  "assembly_id": "108",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "108",
-    "assembly_name_en": "Kayamkulam",
-    "assembly_name_ml": "കായംകുളം",
-    "category": "Normal"
+    "id": "108",
+    "name_en": "Kayamkulam",
+    "name_ml": "കായംകുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2224c415-0ca6-4c7f-b075-9a277cb3a1f7",
+      "id": "2224c415-0ca6-4c7f-b075-9a277cb3a1f7",
       "ward_no": "1",
-      "ward_name_en": "Karipuzha",
-      "ward_name_ml": "കരിപ്പുഴ"
+      "name_en": "Karipuzha",
+      "name_ml": "കരിപ്പുഴ"
     },
     {
-      "ward_id": "296a2977-28cc-40c8-bc29-4b2e33714458",
+      "id": "296a2977-28cc-40c8-bc29-4b2e33714458",
       "ward_no": "2",
-      "ward_name_en": "Anjilipra",
-      "ward_name_ml": "ആഞ്ഞിലിപ്ര"
+      "name_en": "Anjilipra",
+      "name_ml": "ആഞ്ഞിലിപ്ര"
     },
     {
-      "ward_id": "d46b5532-c6ce-4313-8688-bdfd7063a7ca",
+      "id": "d46b5532-c6ce-4313-8688-bdfd7063a7ca",
       "ward_no": "3",
-      "ward_name_en": "Mattom South",
-      "ward_name_ml": "മറ്റംതെക്ക്"
+      "name_en": "Mattom South",
+      "name_ml": "മറ്റംതെക്ക്"
     },
     {
-      "ward_id": "71447b54-32e2-40f9-8027-9057bca8b7bb",
+      "id": "71447b54-32e2-40f9-8027-9057bca8b7bb",
       "ward_no": "4",
-      "ward_name_en": "Pela",
-      "ward_name_ml": "പേള"
+      "name_en": "Pela",
+      "name_ml": "പേള"
     },
     {
-      "ward_id": "9d6acc7f-7ae8-43f9-a557-92101ae29a53",
+      "id": "9d6acc7f-7ae8-43f9-a557-92101ae29a53",
       "ward_no": "5",
-      "ward_name_en": "Kattuvally",
-      "ward_name_ml": "കാട്ടുവളളി"
+      "name_en": "Kattuvally",
+      "name_ml": "കാട്ടുവളളി"
     },
     {
-      "ward_id": "83426eca-916f-4bdc-a5e0-e91bcb0d792c",
+      "id": "83426eca-916f-4bdc-a5e0-e91bcb0d792c",
       "ward_no": "6",
-      "ward_name_en": "Erezha North",
-      "ward_name_ml": "ഈരേഴ വടക്ക്"
+      "name_en": "Erezha North",
+      "name_ml": "ഈരേഴ വടക്ക്"
     },
     {
-      "ward_id": "16ee8a0a-30bd-4fd6-a363-00a9952a9be7",
+      "id": "16ee8a0a-30bd-4fd6-a363-00a9952a9be7",
       "ward_no": "7",
-      "ward_name_en": "P.H.C Ward",
-      "ward_name_ml": "പി.എച്ച്.സി.വാര്‍ഡ്"
+      "name_en": "P.H.C Ward",
+      "name_ml": "പി.എച്ച്.സി.വാര്‍ഡ്"
     },
     {
-      "ward_id": "0b4c73f3-d0bc-4bef-a9b3-92a91f27f172",
+      "id": "0b4c73f3-d0bc-4bef-a9b3-92a91f27f172",
       "ward_no": "8",
-      "ward_name_en": "Erezha South",
-      "ward_name_ml": "ഈരേഴ തെക്ക്"
+      "name_en": "Erezha South",
+      "name_ml": "ഈരേഴ തെക്ക്"
     },
     {
-      "ward_id": "4c0b1a45-8bdc-4021-a6e5-3cb5a3f15141",
+      "id": "4c0b1a45-8bdc-4021-a6e5-3cb5a3f15141",
       "ward_no": "9",
-      "ward_name_en": "Erezha",
-      "ward_name_ml": "ഈരേഴ"
+      "name_en": "Erezha",
+      "name_ml": "ഈരേഴ"
     },
     {
-      "ward_id": "2ecb8575-a4f4-4fc8-a995-1b7027234de2",
+      "id": "2ecb8575-a4f4-4fc8-a995-1b7027234de2",
       "ward_no": "10",
-      "ward_name_en": "Koippallikarazhma East",
-      "ward_name_ml": "കൊയ്പ്പളളികാരാഴ്മ കിഴക്ക്"
+      "name_en": "Koippallikarazhma East",
+      "name_ml": "കൊയ്പ്പളളികാരാഴ്മ കിഴക്ക്"
     },
     {
-      "ward_id": "91625078-dfd7-41a6-8f11-0b747ccf25d8",
+      "id": "91625078-dfd7-41a6-8f11-0b747ccf25d8",
       "ward_no": "11",
-      "ward_name_en": "Nadackavu",
-      "ward_name_ml": "നടയ്ക്കാവ്"
+      "name_en": "Nadackavu",
+      "name_ml": "നടയ്ക്കാവ്"
     },
     {
-      "ward_id": "2defca21-ee61-42ab-b23c-60f7da850c35",
+      "id": "2defca21-ee61-42ab-b23c-60f7da850c35",
       "ward_no": "12",
-      "ward_name_en": "Koippallikarazhma",
-      "ward_name_ml": "കൊയ്പ്പളളികാരാഴ്മ"
+      "name_en": "Koippallikarazhma",
+      "name_ml": "കൊയ്പ്പളളികാരാഴ്മ"
     },
     {
-      "ward_id": "73b2ceec-5e0f-4e15-9324-79c7cde542b4",
+      "id": "73b2ceec-5e0f-4e15-9324-79c7cde542b4",
       "ward_no": "13",
-      "ward_name_en": "Menampally",
-      "ward_name_ml": "മേനാംമ്പളളി"
+      "name_en": "Menampally",
+      "name_ml": "മേനാംമ്പളളി"
     },
     {
-      "ward_id": "c409daab-7c36-40aa-aaeb-7194e8818a80",
+      "id": "c409daab-7c36-40aa-aaeb-7194e8818a80",
       "ward_no": "14",
-      "ward_name_en": "Koikkathara",
-      "ward_name_ml": "കോയിക്കത്തറ"
+      "name_en": "Koikkathara",
+      "name_ml": "കോയിക്കത്തറ"
     },
     {
-      "ward_id": "a513faba-6b6c-4158-bb14-4df445aa1b0b",
+      "id": "a513faba-6b6c-4158-bb14-4df445aa1b0b",
       "ward_no": "15",
-      "ward_name_en": "T K Madhavan Ward",
-      "ward_name_ml": "ടി.കെ.മാധവന്‍ വാര്‍ഡ്"
+      "name_en": "T K Madhavan Ward",
+      "name_ml": "ടി.കെ.മാധവന്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "4bf823bc-2957-4c09-aec1-1953c3c5cd25",
+      "id": "4bf823bc-2957-4c09-aec1-1953c3c5cd25",
       "ward_no": "16",
-      "ward_name_en": "Kannamangalam South",
-      "ward_name_ml": "കണ്ണമംഗലം തെക്ക്"
+      "name_en": "Kannamangalam South",
+      "name_ml": "കണ്ണമംഗലം തെക്ക്"
     },
     {
-      "ward_id": "65d73d3c-9fc5-46a5-89f2-98a2c8fa7eeb",
+      "id": "65d73d3c-9fc5-46a5-89f2-98a2c8fa7eeb",
       "ward_no": "17",
-      "ward_name_en": "Kannamangalam North",
-      "ward_name_ml": "കണ്ണമംഗലം വടക്ക്"
+      "name_en": "Kannamangalam North",
+      "name_ml": "കണ്ണമംഗലം വടക്ക്"
     },
     {
-      "ward_id": "0a4eb908-0c60-45a1-85d2-3a443d396944",
+      "id": "0a4eb908-0c60-45a1-85d2-3a443d396944",
       "ward_no": "18",
-      "ward_name_en": "Kaitha North",
-      "ward_name_ml": "കൈത വടക്ക്"
+      "name_en": "Kaitha North",
+      "name_ml": "കൈത വടക്ക്"
     },
     {
-      "ward_id": "0bd15761-d183-460e-9c7b-231951c3020e",
+      "id": "0bd15761-d183-460e-9c7b-231951c3020e",
       "ward_no": "19",
-      "ward_name_en": "Chettikulangara",
-      "ward_name_ml": "ചെട്ടികുളങ്ങര"
+      "name_en": "Chettikulangara",
+      "name_ml": "ചെട്ടികുളങ്ങര"
     },
     {
-      "ward_id": "4d38e928-4a8d-4879-b8aa-3add2da66ab0",
+      "id": "4d38e928-4a8d-4879-b8aa-3add2da66ab0",
       "ward_no": "20",
-      "ward_name_en": "Kadavoor South",
-      "ward_name_ml": "കടവൂര്‍ തെക്ക്"
+      "name_en": "Kadavoor South",
+      "name_ml": "കടവൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "5b74e7fb-c786-4182-9655-7338f791b005",
+      "id": "5b74e7fb-c786-4182-9655-7338f791b005",
       "ward_no": "21",
-      "ward_name_en": "Kadavoor",
-      "ward_name_ml": "കടവൂര്‍"
+      "name_en": "Kadavoor",
+      "name_ml": "കടവൂര്‍"
     }
   ],
   "towns": [],

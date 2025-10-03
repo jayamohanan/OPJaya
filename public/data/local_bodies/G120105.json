@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G120105",
-  "local_body_name_en": "Edavaka",
-  "local_body_name_ml": "എടവക",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "17",
-    "assembly_name_en": "Mananthavady",
-    "assembly_name_ml": "മാനന്തവാടി",
+  "id": "G120105",
+  "name_en": "Edavaka",
+  "name_ml": "എടവക",
+  "assembly_id": "17",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "17",
+    "name_en": "Mananthavady",
+    "name_ml": "മാനന്തവാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d30ede18-c436-4fbf-97a5-c547f140e5e5",
+      "id": "d30ede18-c436-4fbf-97a5-c547f140e5e5",
       "ward_no": "1",
-      "ward_name_en": "Orappu",
-      "ward_name_ml": "ഒരപ്പ്"
+      "name_en": "Orappu",
+      "name_ml": "ഒരപ്പ്"
     },
     {
-      "ward_id": "35454508-5baf-469e-829f-7490287fea7f",
+      "id": "35454508-5baf-469e-829f-7490287fea7f",
       "ward_no": "2",
-      "ward_name_en": "Ellumannam",
-      "ward_name_ml": "എള്ളൂമന്ദം"
+      "name_en": "Ellumannam",
+      "name_ml": "എള്ളൂമന്ദം"
     },
     {
-      "ward_id": "eb00aabe-5de7-489f-a23b-8202c4d62611",
+      "id": "eb00aabe-5de7-489f-a23b-8202c4d62611",
       "ward_no": "3",
-      "ward_name_en": "Ozhakkody",
-      "ward_name_ml": "ഒഴക്കോടി"
+      "name_en": "Ozhakkody",
+      "name_ml": "ഒഴക്കോടി"
     },
     {
-      "ward_id": "2ff8a82e-1ff1-4b05-869e-ff1d93f0d0cd",
+      "id": "2ff8a82e-1ff1-4b05-869e-ff1d93f0d0cd",
       "ward_no": "4",
-      "ward_name_en": "Pandikkadavu",
-      "ward_name_ml": "പാണ്ടിക്കടവ്"
+      "name_en": "Pandikkadavu",
+      "name_ml": "പാണ്ടിക്കടവ്"
     },
     {
-      "ward_id": "2aebbe96-c4e8-4223-9d89-cde1ca38c4fd",
+      "id": "2aebbe96-c4e8-4223-9d89-cde1ca38c4fd",
       "ward_no": "5",
-      "ward_name_en": "Chamadippoyil",
-      "ward_name_ml": "ചാമാടിപ്പൊയില്‍"
+      "name_en": "Chamadippoyil",
+      "name_ml": "ചാമാടിപ്പൊയില്‍"
     },
     {
-      "ward_id": "aeff444d-8ed8-48d7-bc18-af50a7ed0cff",
+      "id": "aeff444d-8ed8-48d7-bc18-af50a7ed0cff",
       "ward_no": "6",
-      "ward_name_en": "Paingattiri",
-      "ward_name_ml": "പൈങ്ങാട്ടിരി"
+      "name_en": "Paingattiri",
+      "name_ml": "പൈങ്ങാട്ടിരി"
     },
     {
-      "ward_id": "e4bdba84-886a-417c-9b32-62a76a4550fb",
+      "id": "e4bdba84-886a-417c-9b32-62a76a4550fb",
       "ward_no": "7",
-      "ward_name_en": "Payode",
-      "ward_name_ml": "പായോട്"
+      "name_en": "Payode",
+      "name_ml": "പായോട്"
     },
     {
-      "ward_id": "d0879fc4-588b-4991-8143-4b68f5dd44e0",
+      "id": "d0879fc4-588b-4991-8143-4b68f5dd44e0",
       "ward_no": "8",
-      "ward_name_en": "Dwaraka",
-      "ward_name_ml": "ദ്വാരക"
+      "name_en": "Dwaraka",
+      "name_ml": "ദ്വാരക"
     },
     {
-      "ward_id": "ef159195-21c8-4c1c-b345-fdc7022eea8d",
+      "id": "ef159195-21c8-4c1c-b345-fdc7022eea8d",
       "ward_no": "9",
-      "ward_name_en": "Cheruvayal",
-      "ward_name_ml": "ചെറുവയല്‍‌"
+      "name_en": "Cheruvayal",
+      "name_ml": "ചെറുവയല്‍‌"
     },
     {
-      "ward_id": "4653eaa0-4e7c-43fb-87c0-a762f83eebca",
+      "id": "4653eaa0-4e7c-43fb-87c0-a762f83eebca",
       "ward_no": "10",
-      "ward_name_en": "Kammana",
-      "ward_name_ml": "കമ്മന"
+      "name_en": "Kammana",
+      "name_ml": "കമ്മന"
     },
     {
-      "ward_id": "dbceafd7-7051-4922-b6c0-510ff21b1f11",
+      "id": "dbceafd7-7051-4922-b6c0-510ff21b1f11",
       "ward_no": "11",
-      "ward_name_en": "Pulikkad",
-      "ward_name_ml": "പുലിക്കാട്"
+      "name_en": "Pulikkad",
+      "name_ml": "പുലിക്കാട്"
     },
     {
-      "ward_id": "82f27b7d-87a8-42df-bedf-6265ac294602",
+      "id": "82f27b7d-87a8-42df-bedf-6265ac294602",
       "ward_no": "12",
-      "ward_name_en": "Peechamgode",
-      "ward_name_ml": "പീച്ചങ്കോട്"
+      "name_en": "Peechamgode",
+      "name_ml": "പീച്ചങ്കോട്"
     },
     {
-      "ward_id": "4b1d4522-61b5-4899-8ad8-0647827213cf",
+      "id": "4b1d4522-61b5-4899-8ad8-0647827213cf",
       "ward_no": "13",
-      "ward_name_en": "Thonichal",
-      "ward_name_ml": "തോണിച്ചാല്‍"
+      "name_en": "Thonichal",
+      "name_ml": "തോണിച്ചാല്‍"
     },
     {
-      "ward_id": "1cf12d85-4abb-41ac-9015-e3e34b692a61",
+      "id": "1cf12d85-4abb-41ac-9015-e3e34b692a61",
       "ward_no": "14",
-      "ward_name_en": "Palamukku",
-      "ward_name_ml": "പാലമുക്ക്"
+      "name_en": "Palamukku",
+      "name_ml": "പാലമുക്ക്"
     },
     {
-      "ward_id": "91105ab6-7b3b-4d97-bb92-c78ac36f103a",
+      "id": "91105ab6-7b3b-4d97-bb92-c78ac36f103a",
       "ward_no": "15",
-      "ward_name_en": "Kunnamangalam",
-      "ward_name_ml": "കുന്ദമംഗലം"
+      "name_en": "Kunnamangalam",
+      "name_ml": "കുന്ദമംഗലം"
     },
     {
-      "ward_id": "ef8e5db3-119c-48b6-ad0c-30b6eabb3306",
+      "id": "ef8e5db3-119c-48b6-ad0c-30b6eabb3306",
       "ward_no": "16",
-      "ward_name_en": "Pallikkal",
-      "ward_name_ml": "പള്ളിക്കല്‍"
+      "name_en": "Pallikkal",
+      "name_ml": "പള്ളിക്കല്‍"
     },
     {
-      "ward_id": "f4bae48b-4c88-4996-a5e3-65117494f4c5",
+      "id": "f4bae48b-4c88-4996-a5e3-65117494f4c5",
       "ward_no": "17",
-      "ward_name_en": "Kallody",
-      "ward_name_ml": "കല്ലോടി"
+      "name_en": "Kallody",
+      "name_ml": "കല്ലോടി"
     },
     {
-      "ward_id": "056f0495-d34d-4266-bca0-38a47214a016",
+      "id": "056f0495-d34d-4266-bca0-38a47214a016",
       "ward_no": "18",
-      "ward_name_en": "Ayilamoola",
-      "ward_name_ml": "അയിലമൂല"
+      "name_en": "Ayilamoola",
+      "name_ml": "അയിലമൂല"
     },
     {
-      "ward_id": "63527e60-60ee-4f39-94b7-c1336e4aec69",
+      "id": "63527e60-60ee-4f39-94b7-c1336e4aec69",
       "ward_no": "19",
-      "ward_name_en": "Valery",
-      "ward_name_ml": "വളേരി"
+      "name_en": "Valery",
+      "name_ml": "വളേരി"
     }
   ],
   "towns": [],

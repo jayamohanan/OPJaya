@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G070803",
-  "local_body_name_en": "Kumbalam",
-  "local_body_name_ml": "കുമ്പളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G070803",
+  "name_en": "Kumbalam",
+  "name_ml": "കുമ്പളം",
+  "assembly_id": "81",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "81",
-    "assembly_name_en": "Thrippunithura",
-    "assembly_name_ml": "തൃപ്പൂണിത്തുറ",
-    "category": "Normal"
+    "id": "81",
+    "name_en": "Thrippunithura",
+    "name_ml": "തൃപ്പൂണിത്തുറ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "be940ae3-c5fd-4702-a845-13f3750aa87f",
+      "id": "be940ae3-c5fd-4702-a845-13f3750aa87f",
       "ward_no": "1",
-      "ward_name_en": "Kumbalam North",
-      "ward_name_ml": "കുമ്പളം നോര്‍ത്ത്"
+      "name_en": "Kumbalam North",
+      "name_ml": "കുമ്പളം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "0c891994-1e83-4398-a3ac-dec03d9f4941",
+      "id": "0c891994-1e83-4398-a3ac-dec03d9f4941",
       "ward_no": "2",
-      "ward_name_en": "Udayathum Vathil",
-      "ward_name_ml": "ഉദയത്തുംവാതില്‍"
+      "name_en": "Udayathum Vathil",
+      "name_ml": "ഉദയത്തുംവാതില്‍"
     },
     {
-      "ward_id": "bf39f1a6-2682-4b1d-8e04-0ca64ccbbccd",
+      "id": "bf39f1a6-2682-4b1d-8e04-0ca64ccbbccd",
       "ward_no": "3",
-      "ward_name_en": "Panchayath Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് വാര്‍ഡ്"
+      "name_en": "Panchayath Ward",
+      "name_ml": "പഞ്ചായത്ത് വാര്‍ഡ്"
     },
     {
-      "ward_id": "c2986e56-a32b-4c31-ab8a-03b3154d9ac2",
+      "id": "c2986e56-a32b-4c31-ab8a-03b3154d9ac2",
       "ward_no": "4",
-      "ward_name_en": "Panangad Centre",
-      "ward_name_ml": "പനങ്ങാട് സെന്റര്‍"
+      "name_en": "Panangad Centre",
+      "name_ml": "പനങ്ങാട് സെന്റര്‍"
     },
     {
-      "ward_id": "1e41ceb0-dc42-4c29-b172-8ef51db682bc",
+      "id": "1e41ceb0-dc42-4c29-b172-8ef51db682bc",
       "ward_no": "5",
-      "ward_name_en": "Cheppanam",
-      "ward_name_ml": "ചേപ്പനം"
+      "name_en": "Cheppanam",
+      "name_ml": "ചേപ്പനം"
     },
     {
-      "ward_id": "56ed0949-f363-43d9-8440-887052bf360c",
+      "id": "56ed0949-f363-43d9-8440-887052bf360c",
       "ward_no": "6",
-      "ward_name_en": "Chathamma",
-      "ward_name_ml": "ചാത്തമ്മ"
+      "name_en": "Chathamma",
+      "name_ml": "ചാത്തമ്മ"
     },
     {
-      "ward_id": "bce3a90e-bdfc-48e3-9e05-bbf8a0de403c",
+      "id": "bce3a90e-bdfc-48e3-9e05-bbf8a0de403c",
       "ward_no": "7",
-      "ward_name_en": "Vidyabhavan",
-      "ward_name_ml": "വിദ്യാഭവന്‍"
+      "name_en": "Vidyabhavan",
+      "name_ml": "വിദ്യാഭവന്‍"
     },
     {
-      "ward_id": "1e35bc42-011a-4299-88c6-3ce7c8a11e2a",
+      "id": "1e35bc42-011a-4299-88c6-3ce7c8a11e2a",
       "ward_no": "8",
-      "ward_name_en": "Ollaril",
-      "ward_name_ml": "ഒല്ലാരില്‍"
+      "name_en": "Ollaril",
+      "name_ml": "ഒല്ലാരില്‍"
     },
     {
-      "ward_id": "55815dc8-0409-4f50-b069-ac520681b0bc",
+      "id": "55815dc8-0409-4f50-b069-ac520681b0bc",
       "ward_no": "9",
-      "ward_name_en": "Panangad South",
-      "ward_name_ml": "പനങ്ങാട് സൌത്ത്"
+      "name_en": "Panangad South",
+      "name_ml": "പനങ്ങാട് സൌത്ത്"
     },
     {
-      "ward_id": "6c8f6f43-c4e3-4c70-9019-9071a5aea109",
+      "id": "6c8f6f43-c4e3-4c70-9019-9071a5aea109",
       "ward_no": "10",
-      "ward_name_en": "Koombayil",
-      "ward_name_ml": "കൂമ്പയില്‍"
+      "name_en": "Koombayil",
+      "name_ml": "കൂമ്പയില്‍"
     },
     {
-      "ward_id": "f2275d1b-ae78-4b1a-9326-eb81b6faa074",
+      "id": "f2275d1b-ae78-4b1a-9326-eb81b6faa074",
       "ward_no": "11",
-      "ward_name_en": "Perumana",
-      "ward_name_ml": "പെരുമന"
+      "name_en": "Perumana",
+      "name_ml": "പെരുമന"
     },
     {
-      "ward_id": "01002173-88ba-40a9-a35f-e7b620edac82",
+      "id": "01002173-88ba-40a9-a35f-e7b620edac82",
       "ward_no": "12",
-      "ward_name_en": "Mundempilly",
-      "ward_name_ml": "മുണ്ടേമ്പിള്ളി"
+      "name_en": "Mundempilly",
+      "name_ml": "മുണ്ടേമ്പിള്ളി"
     },
     {
-      "ward_id": "4b83ce96-c8b7-4452-8bdc-f63465bae0ae",
+      "id": "4b83ce96-c8b7-4452-8bdc-f63465bae0ae",
       "ward_no": "13",
-      "ward_name_en": "Puthiyapalam Jetty",
-      "ward_name_ml": "പുതിയപാലം ജെട്ടി"
+      "name_en": "Puthiyapalam Jetty",
+      "name_ml": "പുതിയപാലം ജെട്ടി"
     },
     {
-      "ward_id": "4e95e705-8080-407c-817b-57d5cbea2f5e",
+      "id": "4e95e705-8080-407c-817b-57d5cbea2f5e",
       "ward_no": "14",
-      "ward_name_en": "Kumbalam West",
-      "ward_name_ml": "കുമ്പളം വെസ്റ്റ്"
+      "name_en": "Kumbalam West",
+      "name_ml": "കുമ്പളം വെസ്റ്റ്"
     },
     {
-      "ward_id": "4fa3b36e-eef4-49b3-af15-8721bcfffbe2",
+      "id": "4fa3b36e-eef4-49b3-af15-8721bcfffbe2",
       "ward_no": "15",
-      "ward_name_en": "School Ward",
-      "ward_name_ml": "സ്കൂള്‍ വാര്‍ഡ്"
+      "name_en": "School Ward",
+      "name_ml": "സ്കൂള്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "20a405d2-64c6-49dd-b886-371c219c58f5",
+      "id": "20a405d2-64c6-49dd-b886-371c219c58f5",
       "ward_no": "16",
-      "ward_name_en": "Kumbalam Centre",
-      "ward_name_ml": "കുമ്പളം സെന്റര്‍"
+      "name_en": "Kumbalam Centre",
+      "name_ml": "കുമ്പളം സെന്റര്‍"
     },
     {
-      "ward_id": "c7d715d7-ab21-4308-a351-c072233c3cb2",
+      "id": "c7d715d7-ab21-4308-a351-c072233c3cb2",
       "ward_no": "17",
-      "ward_name_en": "Pranavam",
-      "ward_name_ml": "പ്രണവം"
+      "name_en": "Pranavam",
+      "name_ml": "പ്രണവം"
     },
     {
-      "ward_id": "e4c4ec34-5abf-4f7f-8944-6695cb683632",
+      "id": "e4c4ec34-5abf-4f7f-8944-6695cb683632",
       "ward_no": "18",
-      "ward_name_en": "Ambedker Ward",
-      "ward_name_ml": "അംബേദ്കര്‍ വാര്‍ഡ്"
+      "name_en": "Ambedker Ward",
+      "name_ml": "അംബേദ്കര്‍ വാര്‍ഡ്"
     }
   ],
   "towns": [],

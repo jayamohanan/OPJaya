@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G020805",
-  "local_body_name_en": "Neendakara",
-  "local_body_name_ml": "നീണ്ടകര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G020805",
+  "name_en": "Neendakara",
+  "name_ml": "നീണ്ടകര",
+  "assembly_id": "117",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "117",
-    "assembly_name_en": "Chavara",
-    "assembly_name_ml": "ചവറ",
-    "category": "Normal"
+    "id": "117",
+    "name_en": "Chavara",
+    "name_ml": "ചവറ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "280e3525-2d4f-4762-bb72-909ac597ffb1",
+      "id": "280e3525-2d4f-4762-bb72-909ac597ffb1",
       "ward_no": "1",
-      "ward_name_en": "A.M.C.",
-      "ward_name_ml": "എ.എം.സി"
+      "name_en": "A.M.C.",
+      "name_ml": "എ.എം.സി"
     },
     {
-      "ward_id": "1a86eeac-62a8-4dd3-91c6-38abc36a3e80",
+      "id": "1a86eeac-62a8-4dd3-91c6-38abc36a3e80",
       "ward_no": "2",
-      "ward_name_en": "Puthenthura",
-      "ward_name_ml": "പുത്തന്‍തുറ"
+      "name_en": "Puthenthura",
+      "name_ml": "പുത്തന്‍തുറ"
     },
     {
-      "ward_id": "c3a5ab19-d630-4904-a490-87caada32192",
+      "id": "c3a5ab19-d630-4904-a490-87caada32192",
       "ward_no": "3",
-      "ward_name_en": "Fishermen Colony",
-      "ward_name_ml": "ഫിഷര്‍‌മെന്‍കോളനി"
+      "name_en": "Fishermen Colony",
+      "name_ml": "ഫിഷര്‍‌മെന്‍കോളനി"
     },
     {
-      "ward_id": "b657ac5a-7a6b-4962-b751-bbf4ae8be6cc",
+      "id": "b657ac5a-7a6b-4962-b751-bbf4ae8be6cc",
       "ward_no": "4",
-      "ward_name_en": "Pannackalthuruthu",
-      "ward_name_ml": "പന്നയ്ക്കല്‍തുരുത്ത്"
+      "name_en": "Pannackalthuruthu",
+      "name_ml": "പന്നയ്ക്കല്‍തുരുത്ത്"
     },
     {
-      "ward_id": "3a98dd77-9df7-4fd2-8082-d2644f1a5d8e",
+      "id": "3a98dd77-9df7-4fd2-8082-d2644f1a5d8e",
       "ward_no": "5",
-      "ward_name_en": "Anamkandam",
-      "ward_name_ml": "ആനാംകണ്ടം"
+      "name_en": "Anamkandam",
+      "name_ml": "ആനാംകണ്ടം"
     },
     {
-      "ward_id": "fb6ab26c-2536-4e1f-9736-211a98baa67a",
+      "id": "fb6ab26c-2536-4e1f-9736-211a98baa67a",
       "ward_no": "6",
-      "ward_name_en": "Maryland",
-      "ward_name_ml": "മേരിലാന്റ്"
+      "name_en": "Maryland",
+      "name_ml": "മേരിലാന്റ്"
     },
     {
-      "ward_id": "cec01e5c-7e03-4fd0-8183-b747eacb2964",
+      "id": "cec01e5c-7e03-4fd0-8183-b747eacb2964",
       "ward_no": "7",
-      "ward_name_en": "Neendakara",
-      "ward_name_ml": "നീണ്ടകര"
+      "name_en": "Neendakara",
+      "name_ml": "നീണ്ടകര"
     },
     {
-      "ward_id": "f9216da9-4272-4d66-b55b-96f338af1bbf",
+      "id": "f9216da9-4272-4d66-b55b-96f338af1bbf",
       "ward_no": "8",
-      "ward_name_en": "Port Ward",
-      "ward_name_ml": "പോര്‍ട്ട് വാര്‍ഡ്"
+      "name_en": "Port Ward",
+      "name_ml": "പോര്‍ട്ട് വാര്‍ഡ്"
     },
     {
-      "ward_id": "f9a83b63-9896-4ca8-bfcf-5ac681e7468b",
+      "id": "f9a83b63-9896-4ca8-bfcf-5ac681e7468b",
       "ward_no": "9",
-      "ward_name_en": "Vettuthara",
-      "ward_name_ml": "വേട്ടുതറ"
+      "name_en": "Vettuthara",
+      "name_ml": "വേട്ടുതറ"
     },
     {
-      "ward_id": "2e29cde4-ac88-4b14-a401-0285412d23ae",
+      "id": "2e29cde4-ac88-4b14-a401-0285412d23ae",
       "ward_no": "10",
-      "ward_name_en": "Parimanam South",
-      "ward_name_ml": "പരിമണം തെക്ക്"
+      "name_en": "Parimanam South",
+      "name_ml": "പരിമണം തെക്ക്"
     },
     {
-      "ward_id": "e62df44f-11de-4e66-b11b-b03053c7f58b",
+      "id": "e62df44f-11de-4e66-b11b-b03053c7f58b",
       "ward_no": "11",
-      "ward_name_en": "Parimanam",
-      "ward_name_ml": "പരിമണം"
+      "name_en": "Parimanam",
+      "name_ml": "പരിമണം"
     },
     {
-      "ward_id": "256a4312-c132-4a60-a05d-b83b505a87b6",
+      "id": "256a4312-c132-4a60-a05d-b83b505a87b6",
       "ward_no": "12",
-      "ward_name_en": "Foundation",
-      "ward_name_ml": "ഫൌണ്ടേഷന്‍"
+      "name_en": "Foundation",
+      "name_ml": "ഫൌണ്ടേഷന്‍"
     },
     {
-      "ward_id": "722e68be-b4ed-44c9-9d7a-d33bd31df587",
+      "id": "722e68be-b4ed-44c9-9d7a-d33bd31df587",
       "ward_no": "13",
-      "ward_name_en": "Althara Beach",
-      "ward_name_ml": "ആല്‍ത്തറ ബീച്ച്"
+      "name_en": "Althara Beach",
+      "name_ml": "ആല്‍ത്തറ ബീച്ച്"
     }
   ],
   "towns": [],

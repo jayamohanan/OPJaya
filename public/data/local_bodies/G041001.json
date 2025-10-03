@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G041001",
-  "local_body_name_en": "Mavelikara Thekkekara",
-  "local_body_name_ml": "മാവേലിക്കര തെക്കേക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "109",
-    "assembly_name_en": "Mavelikara",
-    "assembly_name_ml": "മാവേലിക്കര",
+  "id": "G041001",
+  "name_en": "Mavelikara Thekkekara",
+  "name_ml": "മാവേലിക്കര തെക്കേക്കര",
+  "assembly_id": "109",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "109",
+    "name_en": "Mavelikara",
+    "name_ml": "മാവേലിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "29dec908-3365-405d-aa18-3e6d6f4af652",
+      "id": "29dec908-3365-405d-aa18-3e6d6f4af652",
       "ward_no": "1",
-      "ward_name_en": "Umbernadu West",
-      "ward_name_ml": "ഉമ്പര്‍നാട്  പടിഞ്ഞാറ്"
+      "name_en": "Umbernadu West",
+      "name_ml": "ഉമ്പര്‍നാട്  പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "39edfa3d-ce99-4b82-adbb-b7da3bf3d2d3",
+      "id": "39edfa3d-ce99-4b82-adbb-b7da3bf3d2d3",
       "ward_no": "2",
-      "ward_name_en": "Umbernadu East",
-      "ward_name_ml": "ഉമ്പര്‍നാട്  കിഴക്ക്"
+      "name_en": "Umbernadu East",
+      "name_ml": "ഉമ്പര്‍നാട്  കിഴക്ക്"
     },
     {
-      "ward_id": "f33178ff-ed8b-4f9e-86f3-8feb730d7ca0",
+      "id": "f33178ff-ed8b-4f9e-86f3-8feb730d7ca0",
       "ward_no": "3",
-      "ward_name_en": "Cherukunnam",
-      "ward_name_ml": "ചെറുകുന്നം"
+      "name_en": "Cherukunnam",
+      "name_ml": "ചെറുകുന്നം"
     },
     {
-      "ward_id": "2b07af43-09f9-448c-b8d8-b4956fbd3d84",
+      "id": "2b07af43-09f9-448c-b8d8-b4956fbd3d84",
       "ward_no": "4",
-      "ward_name_en": "Vadakkemankuzhi",
-      "ward_name_ml": "വടക്കേമങ്കുഴി"
+      "name_en": "Vadakkemankuzhi",
+      "name_ml": "വടക്കേമങ്കുഴി"
     },
     {
-      "ward_id": "cc449968-5a54-48fb-91ff-4894f4173a2e",
+      "id": "cc449968-5a54-48fb-91ff-4894f4173a2e",
       "ward_no": "5",
-      "ward_name_en": "Panchayath Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്‌"
+      "name_en": "Panchayath Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്‌"
     },
     {
-      "ward_id": "7b7f081e-c94d-4a58-8b59-ccd1a90ae218",
+      "id": "7b7f081e-c94d-4a58-8b59-ccd1a90ae218",
       "ward_no": "6",
-      "ward_name_en": "Thadathilal",
-      "ward_name_ml": "തടത്തിലാല്‍"
+      "name_en": "Thadathilal",
+      "name_ml": "തടത്തിലാല്‍"
     },
     {
-      "ward_id": "c57e273e-1077-44ad-af54-f4acfb0e818b",
+      "id": "c57e273e-1077-44ad-af54-f4acfb0e818b",
       "ward_no": "7",
-      "ward_name_en": "Varenickal",
-      "ward_name_ml": "വരേണിക്കല്‍"
+      "name_en": "Varenickal",
+      "name_ml": "വരേണിക്കല്‍"
     },
     {
-      "ward_id": "2be2a1ff-217b-4125-a1f7-5b1e1e9e561a",
+      "id": "2be2a1ff-217b-4125-a1f7-5b1e1e9e561a",
       "ward_no": "8",
-      "ward_name_en": "Chooralloor",
-      "ward_name_ml": "ചൂരല്ലുര്‍"
+      "name_en": "Chooralloor",
+      "name_ml": "ചൂരല്ലുര്‍"
     },
     {
-      "ward_id": "c1b5e27b-ded3-4faa-8ec9-7e994d466b48",
+      "id": "c1b5e27b-ded3-4faa-8ec9-7e994d466b48",
       "ward_no": "9",
-      "ward_name_en": "Palliyavattom",
-      "ward_name_ml": "പള്ളിയാവട്ടം"
+      "name_en": "Palliyavattom",
+      "name_ml": "പള്ളിയാവട്ടം"
     },
     {
-      "ward_id": "2376d3f1-f0bf-44de-8273-5944fe4288b3",
+      "id": "2376d3f1-f0bf-44de-8273-5944fe4288b3",
       "ward_no": "10",
-      "ward_name_en": "Pallickal East",
-      "ward_name_ml": "പള്ളിക്കല്‍ ഈസ്റ്റ്"
+      "name_en": "Pallickal East",
+      "name_ml": "പള്ളിക്കല്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "eeaa2ade-2f72-4ff4-8bdd-4e3980310cd8",
+      "id": "eeaa2ade-2f72-4ff4-8bdd-4e3980310cd8",
       "ward_no": "11",
-      "ward_name_en": "Kurathikad",
-      "ward_name_ml": "കുറത്തികാട്"
+      "name_en": "Kurathikad",
+      "name_ml": "കുറത്തികാട്"
     },
     {
-      "ward_id": "26872cc2-c7b1-496b-8e2b-61322d6e9ead",
+      "id": "26872cc2-c7b1-496b-8e2b-61322d6e9ead",
       "ward_no": "12",
-      "ward_name_en": "Ponnezha",
-      "ward_name_ml": "പോന്നേഴ"
+      "name_en": "Ponnezha",
+      "name_ml": "പോന്നേഴ"
     },
     {
-      "ward_id": "658bccc9-5e15-4248-a2b2-70f993813540",
+      "id": "658bccc9-5e15-4248-a2b2-70f993813540",
       "ward_no": "13",
-      "ward_name_en": "Vathikulam",
-      "ward_name_ml": "വാത്തികുളം"
+      "name_en": "Vathikulam",
+      "name_ml": "വാത്തികുളം"
     },
     {
-      "ward_id": "d5695222-2fca-43b2-af63-f5c314d1266d",
+      "id": "d5695222-2fca-43b2-af63-f5c314d1266d",
       "ward_no": "14",
-      "ward_name_en": "Olakettiyambalam South",
-      "ward_name_ml": "ഓലകെട്ടിയമ്പലം തെക്ക്"
+      "name_en": "Olakettiyambalam South",
+      "name_ml": "ഓലകെട്ടിയമ്പലം തെക്ക്"
     },
     {
-      "ward_id": "cc2f44a1-bdd0-4095-826b-2f8e3820b7f0",
+      "id": "cc2f44a1-bdd0-4095-826b-2f8e3820b7f0",
       "ward_no": "15",
-      "ward_name_en": "Olakettiyambalam North",
-      "ward_name_ml": "ഓലകെട്ടിയമ്പലം വടക്ക്"
+      "name_en": "Olakettiyambalam North",
+      "name_ml": "ഓലകെട്ടിയമ്പലം വടക്ക്"
     },
     {
-      "ward_id": "57eb5b1a-c959-4f3b-96e2-de1248df10c7",
+      "id": "57eb5b1a-c959-4f3b-96e2-de1248df10c7",
       "ward_no": "16",
-      "ward_name_en": "Puthenkulangara",
-      "ward_name_ml": "പുത്തന്‍കുളങ്ങര"
+      "name_en": "Puthenkulangara",
+      "name_ml": "പുത്തന്‍കുളങ്ങര"
     },
     {
-      "ward_id": "01e5de94-8d5d-47bd-bacb-82f44ca10fc1",
+      "id": "01e5de94-8d5d-47bd-bacb-82f44ca10fc1",
       "ward_no": "17",
-      "ward_name_en": "Ponakam",
-      "ward_name_ml": "പോനകം"
+      "name_en": "Ponakam",
+      "name_ml": "പോനകം"
     },
     {
-      "ward_id": "1b725137-a822-44e1-b769-c87e5fca728c",
+      "id": "1b725137-a822-44e1-b769-c87e5fca728c",
       "ward_no": "18",
-      "ward_name_en": "Pallarimangalam",
-      "ward_name_ml": "പല്ലാരിമംഗലം"
+      "name_en": "Pallarimangalam",
+      "name_ml": "പല്ലാരിമംഗലം"
     },
     {
-      "ward_id": "4abdd5ef-7369-4606-89c1-73045013551e",
+      "id": "4abdd5ef-7369-4606-89c1-73045013551e",
       "ward_no": "19",
-      "ward_name_en": "Mullikulangara",
-      "ward_name_ml": "മുള്ളികുളങ്ങര"
+      "name_en": "Mullikulangara",
+      "name_ml": "മുള്ളികുളങ്ങര"
     }
   ],
   "towns": [],

@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G011106",
-  "local_body_name_en": "Poovar",
-  "local_body_name_ml": "പൂവാര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "139",
-    "assembly_name_en": "Kovalam",
-    "assembly_name_ml": "കോവളം",
+  "id": "G011106",
+  "name_en": "Poovar",
+  "name_ml": "പൂവാര്‍",
+  "assembly_id": "139",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "139",
+    "name_en": "Kovalam",
+    "name_ml": "കോവളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7fc54ab5-1cbc-441f-ac96-51e80ae10dd4",
+      "id": "7fc54ab5-1cbc-441f-ac96-51e80ae10dd4",
       "ward_no": "1",
-      "ward_name_en": "Paraniyam",
-      "ward_name_ml": "പരണീയം"
+      "name_en": "Paraniyam",
+      "name_ml": "പരണീയം"
     },
     {
-      "ward_id": "7bcef1ee-526e-413d-91a7-3f229d70ac2e",
+      "id": "7bcef1ee-526e-413d-91a7-3f229d70ac2e",
       "ward_no": "2",
-      "ward_name_en": "Kalayithottam",
-      "ward_name_ml": "കാലായിത്തോട്ടം"
+      "name_en": "Kalayithottam",
+      "name_ml": "കാലായിത്തോട്ടം"
     },
     {
-      "ward_id": "dc0a1726-c5b5-4a92-a39e-5b1ed6ddaf84",
+      "id": "dc0a1726-c5b5-4a92-a39e-5b1ed6ddaf84",
       "ward_no": "3",
-      "ward_name_en": "Arasummoodu",
-      "ward_name_ml": "അരശുംമൂട്"
+      "name_en": "Arasummoodu",
+      "name_ml": "അരശുംമൂട്"
     },
     {
-      "ward_id": "89411049-3d88-4d40-97ed-0ba8cdbaa72c",
+      "id": "89411049-3d88-4d40-97ed-0ba8cdbaa72c",
       "ward_no": "4",
-      "ward_name_en": "Kanchampazhinji",
-      "ward_name_ml": "കഞ്ചാംപഴിഞ്ഞി"
+      "name_en": "Kanchampazhinji",
+      "name_ml": "കഞ്ചാംപഴിഞ്ഞി"
     },
     {
-      "ward_id": "54446b2d-19ec-4757-a3e1-ebc543ca3f18",
+      "id": "54446b2d-19ec-4757-a3e1-ebc543ca3f18",
       "ward_no": "5",
-      "ward_name_en": "Arumanoor",
-      "ward_name_ml": "അരുമാനൂര്‍"
+      "name_en": "Arumanoor",
+      "name_ml": "അരുമാനൂര്‍"
     },
     {
-      "ward_id": "6d5befff-2e01-4c06-bab0-37da53e7e72f",
+      "id": "6d5befff-2e01-4c06-bab0-37da53e7e72f",
       "ward_no": "6",
-      "ward_name_en": "Soolamkudy",
-      "ward_name_ml": "ശൂലംകുടി"
+      "name_en": "Soolamkudy",
+      "name_ml": "ശൂലംകുടി"
     },
     {
-      "ward_id": "06b0b846-b8b3-4e03-a6e4-a53f8c86a391",
+      "id": "06b0b846-b8b3-4e03-a6e4-a53f8c86a391",
       "ward_no": "7",
-      "ward_name_en": "Poovar Bund",
-      "ward_name_ml": "പൂവാര്‍ ബണ്ട്"
+      "name_en": "Poovar Bund",
+      "name_ml": "പൂവാര്‍ ബണ്ട്"
     },
     {
-      "ward_id": "bdbf02a8-0721-4233-8948-b05acd6f3452",
+      "id": "bdbf02a8-0721-4233-8948-b05acd6f3452",
       "ward_no": "8",
-      "ward_name_en": "Poovar Town",
-      "ward_name_ml": "പൂവാര്‍ ടൌണ്‍"
+      "name_en": "Poovar Town",
+      "name_ml": "പൂവാര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "8aaa940b-9ae3-4041-8877-a3e4aa0960d2",
+      "id": "8aaa940b-9ae3-4041-8877-a3e4aa0960d2",
       "ward_no": "9",
-      "ward_name_en": "Poovar",
-      "ward_name_ml": "പൂവാര്‍"
+      "name_en": "Poovar",
+      "name_ml": "പൂവാര്‍"
     },
     {
-      "ward_id": "a7115490-ae40-4e40-b26d-51f0ba06bbea",
+      "id": "a7115490-ae40-4e40-b26d-51f0ba06bbea",
       "ward_no": "10",
-      "ward_name_en": "Varavilathoppu",
-      "ward_name_ml": "വരവിളത്തോപ്പ്"
+      "name_en": "Varavilathoppu",
+      "name_ml": "വരവിളത്തോപ്പ്"
     },
     {
-      "ward_id": "4bef304b-d504-415f-a2ce-01544b3faa98",
+      "id": "4bef304b-d504-415f-a2ce-01544b3faa98",
       "ward_no": "11",
-      "ward_name_en": "Beach",
-      "ward_name_ml": "ബീച്ച്"
+      "name_en": "Beach",
+      "name_ml": "ബീച്ച്"
     },
     {
-      "ward_id": "0bb4f12e-9bbc-4cbe-a235-a735195ab813",
+      "id": "0bb4f12e-9bbc-4cbe-a235-a735195ab813",
       "ward_no": "12",
-      "ward_name_en": "Erikkaluvila",
-      "ward_name_ml": "എരിക്കലുവിള"
+      "name_en": "Erikkaluvila",
+      "name_ml": "എരിക്കലുവിള"
     },
     {
-      "ward_id": "8021e042-510b-4a4a-b163-0b0814975689",
+      "id": "8021e042-510b-4a4a-b163-0b0814975689",
       "ward_no": "13",
-      "ward_name_en": "T.B",
-      "ward_name_ml": "റ്റി.ബി"
+      "name_en": "T.B",
+      "name_ml": "റ്റി.ബി"
     },
     {
-      "ward_id": "f9053ac0-0f1a-40be-aea4-a6b0f1667fd0",
+      "id": "f9053ac0-0f1a-40be-aea4-a6b0f1667fd0",
       "ward_no": "14",
-      "ward_name_en": "Kallingavilakom",
-      "ward_name_ml": "കല്ലിങ്ങവിളാകം"
+      "name_en": "Kallingavilakom",
+      "name_ml": "കല്ലിങ്ങവിളാകം"
     },
     {
-      "ward_id": "7dc2bbd0-7abd-42d9-9090-4ace7bad0b5c",
+      "id": "7dc2bbd0-7abd-42d9-9090-4ace7bad0b5c",
       "ward_no": "15",
-      "ward_name_en": "Chekkady",
-      "ward_name_ml": "ചെക്കടി"
+      "name_en": "Chekkady",
+      "name_ml": "ചെക്കടി"
     }
   ],
   "towns": [],

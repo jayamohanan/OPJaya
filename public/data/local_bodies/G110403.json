@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G110403",
-  "local_body_name_en": "Maniyur",
-  "local_body_name_ml": "മണിയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G110403",
+  "name_en": "Maniyur",
+  "name_ml": "മണിയൂര്‍",
+  "assembly_id": "21",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "21",
-    "assembly_name_en": "Kuttiady",
-    "assembly_name_ml": "കുറ്റ്യാടി",
-    "category": "Normal"
+    "id": "21",
+    "name_en": "Kuttiady",
+    "name_ml": "കുറ്റ്യാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "df7d08e5-df5e-44a4-a468-950f9d6e63a1",
+      "id": "df7d08e5-df5e-44a4-a468-950f9d6e63a1",
       "ward_no": "1",
-      "ward_name_en": "Pathiyarakkara North",
-      "ward_name_ml": "പതിയാരക്കര നോര്‍ത്ത്"
+      "name_en": "Pathiyarakkara North",
+      "name_ml": "പതിയാരക്കര നോര്‍ത്ത്"
     },
     {
-      "ward_id": "3bd0391e-faac-44d6-97fe-f42699feceb5",
+      "id": "3bd0391e-faac-44d6-97fe-f42699feceb5",
       "ward_no": "2",
-      "ward_name_en": "Mudappilavil North",
-      "ward_name_ml": "മുടപ്പിലാവില്‍ നോര്‍ത്ത്"
+      "name_en": "Mudappilavil North",
+      "name_ml": "മുടപ്പിലാവില്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "3cd1da28-0685-4cd6-ade2-3221b86b7023",
+      "id": "3cd1da28-0685-4cd6-ade2-3221b86b7023",
       "ward_no": "3",
-      "ward_name_en": "Mudappilavil Centre",
-      "ward_name_ml": "മുടപ്പിലാവില്‍ സെന്‍റര്‍"
+      "name_en": "Mudappilavil Centre",
+      "name_ml": "മുടപ്പിലാവില്‍ സെന്‍റര്‍"
     },
     {
-      "ward_id": "80a86f79-d89f-46a6-95bb-c30b54373ee3",
+      "id": "80a86f79-d89f-46a6-95bb-c30b54373ee3",
       "ward_no": "4",
-      "ward_name_en": "Mantharathur",
-      "ward_name_ml": "മന്തരത്തൂര്‍"
+      "name_en": "Mantharathur",
+      "name_ml": "മന്തരത്തൂര്‍"
     },
     {
-      "ward_id": "ca622e71-02ea-4aa5-84f3-f205fcf821f8",
+      "id": "ca622e71-02ea-4aa5-84f3-f205fcf821f8",
       "ward_no": "5",
-      "ward_name_en": "Edathumkara",
-      "ward_name_ml": "എടത്തുംകര"
+      "name_en": "Edathumkara",
+      "name_ml": "എടത്തുംകര"
     },
     {
-      "ward_id": "9e2274e4-0106-4a21-9a1a-5091183575af",
+      "id": "9e2274e4-0106-4a21-9a1a-5091183575af",
       "ward_no": "6",
-      "ward_name_en": "Kurunthodi East",
-      "ward_name_ml": "കുറുന്തോടി ഈസ്റ്റ്"
+      "name_en": "Kurunthodi East",
+      "name_ml": "കുറുന്തോടി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "83ae7860-3fee-4e2d-847f-caf6229285bf",
+      "id": "83ae7860-3fee-4e2d-847f-caf6229285bf",
       "ward_no": "7",
-      "ward_name_en": "Kurunthodi West",
-      "ward_name_ml": "കുറുന്തോടി വെസ്റ്റ്"
+      "name_en": "Kurunthodi West",
+      "name_ml": "കുറുന്തോടി വെസ്റ്റ്"
     },
     {
-      "ward_id": "72bd5240-0836-42d3-b944-9fd25e27935f",
+      "id": "72bd5240-0836-42d3-b944-9fd25e27935f",
       "ward_no": "8",
-      "ward_name_en": "Elambilad",
-      "ward_name_ml": "എളമ്പിലാട്"
+      "name_en": "Elambilad",
+      "name_ml": "എളമ്പിലാട്"
     },
     {
-      "ward_id": "6dfdb64d-53cd-4a74-b2e0-83091f216a1c",
+      "id": "6dfdb64d-53cd-4a74-b2e0-83091f216a1c",
       "ward_no": "9",
-      "ward_name_en": "Cherandathur",
-      "ward_name_ml": "ചെരണ്ടത്തൂര്‍"
+      "name_en": "Cherandathur",
+      "name_ml": "ചെരണ്ടത്തൂര്‍"
     },
     {
-      "ward_id": "196287ef-6d89-4d31-a15f-2ef2a56822f9",
+      "id": "196287ef-6d89-4d31-a15f-2ef2a56822f9",
       "ward_no": "10",
-      "ward_name_en": "Mankara",
-      "ward_name_ml": "മങ്കര"
+      "name_en": "Mankara",
+      "name_ml": "മങ്കര"
     },
     {
-      "ward_id": "60284b63-b9bb-4692-ab06-97977c7adfc8",
+      "id": "60284b63-b9bb-4692-ab06-97977c7adfc8",
       "ward_no": "11",
-      "ward_name_en": "Maniyur East",
-      "ward_name_ml": "മണിയൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Maniyur East",
+      "name_ml": "മണിയൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "f6d3e659-a747-45a0-99a1-35d1e621add7",
+      "id": "f6d3e659-a747-45a0-99a1-35d1e621add7",
       "ward_no": "12",
-      "ward_name_en": "Maniyur South",
-      "ward_name_ml": "മണിയൂര്‍ സൌത്ത്"
+      "name_en": "Maniyur South",
+      "name_ml": "മണിയൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "24dc4f42-e4e9-43e0-81e2-bf034099a922",
+      "id": "24dc4f42-e4e9-43e0-81e2-bf034099a922",
       "ward_no": "13",
-      "ward_name_en": "Maniyur North",
-      "ward_name_ml": "മണിയൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Maniyur North",
+      "name_ml": "മണിയൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "8790b07d-e1d8-4ca4-aab7-da0907e3218e",
+      "id": "8790b07d-e1d8-4ca4-aab7-da0907e3218e",
       "ward_no": "14",
-      "ward_name_en": "Muthuvana",
-      "ward_name_ml": "മുതുവന"
+      "name_en": "Muthuvana",
+      "name_ml": "മുതുവന"
     },
     {
-      "ward_id": "4656b8b8-9879-4b04-88be-24524cadd893",
+      "id": "4656b8b8-9879-4b04-88be-24524cadd893",
       "ward_no": "15",
-      "ward_name_en": "Kunnathukara",
-      "ward_name_ml": "കുന്നത്ത്കര"
+      "name_en": "Kunnathukara",
+      "name_ml": "കുന്നത്ത്കര"
     },
     {
-      "ward_id": "b7f12fa8-08c6-4085-8dfd-837c60c9bf35",
+      "id": "b7f12fa8-08c6-4085-8dfd-837c60c9bf35",
       "ward_no": "16",
-      "ward_name_en": "Meenathukara",
-      "ward_name_ml": "മീനത്ത്കര"
+      "name_en": "Meenathukara",
+      "name_ml": "മീനത്ത്കര"
     },
     {
-      "ward_id": "71b00f3b-5293-469f-95ec-c1499eabf109",
+      "id": "71b00f3b-5293-469f-95ec-c1499eabf109",
       "ward_no": "17",
-      "ward_name_en": "Karuvancheri",
-      "ward_name_ml": "കരുവഞ്ചേരി"
+      "name_en": "Karuvancheri",
+      "name_ml": "കരുവഞ്ചേരി"
     },
     {
-      "ward_id": "e43dc352-8833-4449-86af-c0b9e90e577c",
+      "id": "e43dc352-8833-4449-86af-c0b9e90e577c",
       "ward_no": "18",
-      "ward_name_en": "Palayad",
-      "ward_name_ml": "പാലയാട്"
+      "name_en": "Palayad",
+      "name_ml": "പാലയാട്"
     },
     {
-      "ward_id": "43c7b92b-44e4-4a60-96be-f9279c36177b",
+      "id": "43c7b92b-44e4-4a60-96be-f9279c36177b",
       "ward_no": "19",
-      "ward_name_en": "Pathiyarakkara South",
-      "ward_name_ml": "പതിയാരക്കര സൌത്ത്"
+      "name_en": "Pathiyarakkara South",
+      "name_ml": "പതിയാരക്കര സൌത്ത്"
     },
     {
-      "ward_id": "564653b9-fdd0-4298-8516-2b2902ed67e0",
+      "id": "564653b9-fdd0-4298-8516-2b2902ed67e0",
       "ward_no": "20",
-      "ward_name_en": "Pathiyarakkara Centre",
-      "ward_name_ml": "പതിയാരക്കര സെന്‍റര്‍"
+      "name_en": "Pathiyarakkara Centre",
+      "name_ml": "പതിയാരക്കര സെന്‍റര്‍"
     },
     {
-      "ward_id": "8452e210-2f08-4a28-bf65-74dff1053e24",
+      "id": "8452e210-2f08-4a28-bf65-74dff1053e24",
       "ward_no": "21",
-      "ward_name_en": "Naduvayal",
-      "ward_name_ml": "നടുവയല്‍"
+      "name_en": "Naduvayal",
+      "name_ml": "നടുവയല്‍"
     }
   ],
   "towns": [],

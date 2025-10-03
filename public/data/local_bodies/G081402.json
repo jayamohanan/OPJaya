@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G081402",
-  "local_body_name_en": "Kaipamangalam",
-  "local_body_name_ml": "കൈപ്പമംഗലം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "69",
-    "assembly_name_en": "Kaipamangalam",
-    "assembly_name_ml": "കൈപ്പമംഗലം",
+  "id": "G081402",
+  "name_en": "Kaipamangalam",
+  "name_ml": "കൈപ്പമംഗലം",
+  "assembly_id": "69",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "69",
+    "name_en": "Kaipamangalam",
+    "name_ml": "കൈപ്പമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5bc2e479-e3e4-43b5-9ae9-c51abd854c36",
+      "id": "5bc2e479-e3e4-43b5-9ae9-c51abd854c36",
       "ward_no": "1",
-      "ward_name_en": "Panjampally",
-      "ward_name_ml": "പഞ്ഞംപള്ളി"
+      "name_en": "Panjampally",
+      "name_ml": "പഞ്ഞംപള്ളി"
     },
     {
-      "ward_id": "4c5a5279-12f4-4603-b84d-09aa040d29a8",
+      "id": "4c5a5279-12f4-4603-b84d-09aa040d29a8",
       "ward_no": "2",
-      "ward_name_en": "Salafi Nagar",
-      "ward_name_ml": "സലഫിനഗര്‍"
+      "name_en": "Salafi Nagar",
+      "name_ml": "സലഫിനഗര്‍"
     },
     {
-      "ward_id": "5fe4dcba-3239-40ba-930e-5b40cfb83112",
+      "id": "5fe4dcba-3239-40ba-930e-5b40cfb83112",
       "ward_no": "3",
-      "ward_name_en": "Gramalakshmi",
-      "ward_name_ml": "ഗ്രാമലക്ഷ്മി"
+      "name_en": "Gramalakshmi",
+      "name_ml": "ഗ്രാമലക്ഷ്മി"
     },
     {
-      "ward_id": "340444c0-aeaa-404d-b7e1-b19e944d357c",
+      "id": "340444c0-aeaa-404d-b7e1-b19e944d357c",
       "ward_no": "4",
-      "ward_name_en": "Panchayath Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_en": "Panchayath Office",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
     },
     {
-      "ward_id": "da2b3fe2-74bb-43fa-b9dd-5deb67398bc1",
+      "id": "da2b3fe2-74bb-43fa-b9dd-5deb67398bc1",
       "ward_no": "5",
-      "ward_name_en": "Mahatmanagar",
-      "ward_name_ml": "മഹാത്മാനഗര്‍"
+      "name_en": "Mahatmanagar",
+      "name_ml": "മഹാത്മാനഗര്‍"
     },
     {
-      "ward_id": "4f54e4fc-f6a6-4fe1-b717-17b6df820185",
+      "id": "4f54e4fc-f6a6-4fe1-b717-17b6df820185",
       "ward_no": "6",
-      "ward_name_en": "Subash Nagar",
-      "ward_name_ml": "സൂഭാഷ് നഗര്‍"
+      "name_en": "Subash Nagar",
+      "name_ml": "സൂഭാഷ് നഗര്‍"
     },
     {
-      "ward_id": "52f93969-d6f1-4b80-a112-671db0398c14",
+      "id": "52f93969-d6f1-4b80-a112-671db0398c14",
       "ward_no": "7",
-      "ward_name_en": "Kadambattupadam",
-      "ward_name_ml": "കടമ്പാട്ടുപാടം"
+      "name_en": "Kadambattupadam",
+      "name_ml": "കടമ്പാട്ടുപാടം"
     },
     {
-      "ward_id": "cfcb9c6c-ea6d-4799-beab-f656a26b28e1",
+      "id": "cfcb9c6c-ea6d-4799-beab-f656a26b28e1",
       "ward_no": "8",
-      "ward_name_en": "Mannungal",
-      "ward_name_ml": "മണ്ണുങ്ങല്‍"
+      "name_en": "Mannungal",
+      "name_ml": "മണ്ണുങ്ങല്‍"
     },
     {
-      "ward_id": "d48048bb-00d2-4a79-853d-d5c4aaa24d81",
+      "id": "d48048bb-00d2-4a79-853d-d5c4aaa24d81",
       "ward_no": "9",
-      "ward_name_en": "Kakkathiruthy",
-      "ward_name_ml": "കാക്കാതിരുത്തി"
+      "name_en": "Kakkathiruthy",
+      "name_ml": "കാക്കാതിരുത്തി"
     },
     {
-      "ward_id": "ad148a76-630e-4f30-b8c6-780339ddad33",
+      "id": "ad148a76-630e-4f30-b8c6-780339ddad33",
       "ward_no": "10",
-      "ward_name_en": "Chalingad",
-      "ward_name_ml": "ചളിങ്ങാട്"
+      "name_en": "Chalingad",
+      "name_ml": "ചളിങ്ങാട്"
     },
     {
-      "ward_id": "637456be-7df6-4e47-9b63-b4f1611bc315",
+      "id": "637456be-7df6-4e47-9b63-b4f1611bc315",
       "ward_no": "11",
-      "ward_name_en": "Priyadarsini",
-      "ward_name_ml": "പ്രിയദര്‍ശിനി"
+      "name_en": "Priyadarsini",
+      "name_ml": "പ്രിയദര്‍ശിനി"
     },
     {
-      "ward_id": "717c2fb2-7997-4317-a265-72792c47e419",
+      "id": "717c2fb2-7997-4317-a265-72792c47e419",
       "ward_no": "12",
-      "ward_name_en": "Moonupeedika",
-      "ward_name_ml": "മൂന്നുപീടിക"
+      "name_en": "Moonupeedika",
+      "name_ml": "മൂന്നുപീടിക"
     },
     {
-      "ward_id": "e0277b36-f85f-448d-8f30-368d103bc7b6",
+      "id": "e0277b36-f85f-448d-8f30-368d103bc7b6",
       "ward_no": "13",
-      "ward_name_en": "Vazhiyambalam",
-      "ward_name_ml": "വഴിയമ്പലം"
+      "name_en": "Vazhiyambalam",
+      "name_ml": "വഴിയമ്പലം"
     },
     {
-      "ward_id": "a95a55e5-18b8-4ed5-8c7f-f46637198e31",
+      "id": "a95a55e5-18b8-4ed5-8c7f-f46637198e31",
       "ward_no": "14",
-      "ward_name_en": "Devamangalam",
-      "ward_name_ml": "ദേവമംഗലം"
+      "name_en": "Devamangalam",
+      "name_ml": "ദേവമംഗലം"
     },
     {
-      "ward_id": "fd008351-4462-4861-a11a-7ada19e098e3",
+      "id": "fd008351-4462-4861-a11a-7ada19e098e3",
       "ward_no": "15",
-      "ward_name_en": "Fisheries",
-      "ward_name_ml": "ഫിഷറീസ്"
+      "name_en": "Fisheries",
+      "name_ml": "ഫിഷറീസ്"
     },
     {
-      "ward_id": "dbedba48-f53f-4712-ae01-ea72830fca30",
+      "id": "dbedba48-f53f-4712-ae01-ea72830fca30",
       "ward_no": "16",
-      "ward_name_en": "Thainagar",
-      "ward_name_ml": "തായ്നഗര്‍"
+      "name_en": "Thainagar",
+      "name_ml": "തായ്നഗര്‍"
     },
     {
-      "ward_id": "e8755e2a-b584-414d-a155-a33306695e7a",
+      "id": "e8755e2a-b584-414d-a155-a33306695e7a",
       "ward_no": "17",
-      "ward_name_en": "Kalamuri",
-      "ward_name_ml": "കാളമുറി"
+      "name_en": "Kalamuri",
+      "name_ml": "കാളമുറി"
     },
     {
-      "ward_id": "a5843e51-846b-47d0-b601-223ee4464c57",
+      "id": "a5843e51-846b-47d0-b601-223ee4464c57",
       "ward_no": "18",
-      "ward_name_en": "Health Center",
-      "ward_name_ml": "ഹെല്‍ത്ത് സെന്‍റര്‍"
+      "name_en": "Health Center",
+      "name_ml": "ഹെല്‍ത്ത് സെന്‍റര്‍"
     },
     {
-      "ward_id": "6d5b7995-a5f5-454d-8fda-e52ad178ff69",
+      "id": "6d5b7995-a5f5-454d-8fda-e52ad178ff69",
       "ward_no": "19",
-      "ward_name_en": "Kadappuram",
-      "ward_name_ml": "കടപ്പുറം"
+      "name_en": "Kadappuram",
+      "name_ml": "കടപ്പുറം"
     },
     {
-      "ward_id": "83b2e2b4-8963-47b5-9065-2ba1513d7050",
+      "id": "83b2e2b4-8963-47b5-9065-2ba1513d7050",
       "ward_no": "20",
-      "ward_name_en": "Pathinettumuri",
-      "ward_name_ml": "പതിനെട്ടുമുറി"
+      "name_en": "Pathinettumuri",
+      "name_ml": "പതിനെട്ടുമുറി"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040605",
-  "local_body_name_en": "Champakulam",
-  "local_body_name_ml": "ചമ്പക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G040605",
+  "name_en": "Champakulam",
+  "name_ml": "ചമ്പക്കുളം",
+  "assembly_id": "106",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "106",
-    "assembly_name_en": "Kuttanad",
-    "assembly_name_ml": "കുട്ടനാട്",
-    "category": "Normal"
+    "id": "106",
+    "name_en": "Kuttanad",
+    "name_ml": "കുട്ടനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d7e47685-b3ab-4c17-8d60-0806c16a3ed4",
+      "id": "d7e47685-b3ab-4c17-8d60-0806c16a3ed4",
       "ward_no": "11",
-      "ward_name_en": "Nattayam",
-      "ward_name_ml": "നാട്ടായം"
+      "name_en": "Nattayam",
+      "name_ml": "നാട്ടായം"
     },
     {
-      "ward_id": "cdb87fe2-c83d-426d-8891-163a7d1b4f1e",
+      "id": "cdb87fe2-c83d-426d-8891-163a7d1b4f1e",
       "ward_no": "12",
-      "ward_name_en": "Amichakary",
-      "ward_name_ml": "അമിച്ചകരി"
+      "name_en": "Amichakary",
+      "name_ml": "അമിച്ചകരി"
     },
     {
-      "ward_id": "a317fd54-c30a-4c4b-96c0-87a1d4741f44",
+      "id": "a317fd54-c30a-4c4b-96c0-87a1d4741f44",
       "ward_no": "1",
-      "ward_name_en": "Chirakkupuram",
-      "ward_name_ml": "ചിറയ്ക്കുപുറം"
+      "name_en": "Chirakkupuram",
+      "name_ml": "ചിറയ്ക്കുപുറം"
     },
     {
-      "ward_id": "62ff5130-602c-4348-bc44-12ac54631d78",
+      "id": "62ff5130-602c-4348-bc44-12ac54631d78",
       "ward_no": "2",
-      "ward_name_en": "Moncompu Thekkekara",
-      "ward_name_ml": "മങ്കൊമ്പ് തെക്കേക്കര"
+      "name_en": "Moncompu Thekkekara",
+      "name_ml": "മങ്കൊമ്പ് തെക്കേക്കര"
     },
     {
-      "ward_id": "27011517-18dd-44fc-818f-cd79c0065e40",
+      "id": "27011517-18dd-44fc-818f-cd79c0065e40",
       "ward_no": "3",
-      "ward_name_en": "Punnakunnam",
-      "ward_name_ml": "പുന്നക്കുന്നം"
+      "name_en": "Punnakunnam",
+      "name_ml": "പുന്നക്കുന്നം"
     },
     {
-      "ward_id": "6151ce36-95d0-4d44-8854-86e0165d76ee",
+      "id": "6151ce36-95d0-4d44-8854-86e0165d76ee",
       "ward_no": "4",
-      "ward_name_en": "Thekkekara",
-      "ward_name_ml": "തെക്കേക്കര"
+      "name_en": "Thekkekara",
+      "name_ml": "തെക്കേക്കര"
     },
     {
-      "ward_id": "dbea43bf-9f9b-49dd-9709-e7147a194358",
+      "id": "dbea43bf-9f9b-49dd-9709-e7147a194358",
       "ward_no": "5",
-      "ward_name_en": "Onnakara",
-      "ward_name_ml": "ഒന്നാങ്കര"
+      "name_en": "Onnakara",
+      "name_ml": "ഒന്നാങ്കര"
     },
     {
-      "ward_id": "8c540cc2-d970-467b-a1b2-6cdbbef09f32",
+      "id": "8c540cc2-d970-467b-a1b2-6cdbbef09f32",
       "ward_no": "6",
-      "ward_name_en": "Kandakary",
-      "ward_name_ml": "കണ്ടങ്കരി"
+      "name_en": "Kandakary",
+      "name_ml": "കണ്ടങ്കരി"
     },
     {
-      "ward_id": "04eca7f2-7593-456a-b0ac-2406c2c0bce1",
+      "id": "04eca7f2-7593-456a-b0ac-2406c2c0bce1",
       "ward_no": "7",
-      "ward_name_en": "Pullangady",
-      "ward_name_ml": "പുല്ലങ്ങടി"
+      "name_en": "Pullangady",
+      "name_ml": "പുല്ലങ്ങടി"
     },
     {
-      "ward_id": "17b930d7-c3c5-439e-99de-91b3a1a30d42",
+      "id": "17b930d7-c3c5-439e-99de-91b3a1a30d42",
       "ward_no": "8",
-      "ward_name_en": "Champakulam",
-      "ward_name_ml": "ചമ്പക്കുളം"
+      "name_en": "Champakulam",
+      "name_ml": "ചമ്പക്കുളം"
     },
     {
-      "ward_id": "02a1c232-6cbe-4c56-a9e5-827d4b3674c8",
+      "id": "02a1c232-6cbe-4c56-a9e5-827d4b3674c8",
       "ward_no": "9",
-      "ward_name_en": "Champakulam East",
-      "ward_name_ml": "ചമ്പക്കുളം ഈസ്റ്റ്"
+      "name_en": "Champakulam East",
+      "name_ml": "ചമ്പക്കുളം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "5933c77a-1ab3-4699-954d-1b354d900c37",
+      "id": "5933c77a-1ab3-4699-954d-1b354d900c37",
       "ward_no": "10",
-      "ward_name_en": "Govenda",
-      "ward_name_ml": "ഗോവേന്ദ"
+      "name_en": "Govenda",
+      "name_ml": "ഗോവേന്ദ"
     },
     {
-      "ward_id": "db75b2f9-42d7-498e-ae3b-07c543372f9e",
+      "id": "db75b2f9-42d7-498e-ae3b-07c543372f9e",
       "ward_no": "13",
-      "ward_name_en": "Koyikary",
-      "ward_name_ml": "കോയിക്കരി"
+      "name_en": "Koyikary",
+      "name_ml": "കോയിക്കരി"
     }
   ],
   "towns": [],

@@ -1,68 +1,91 @@
 {
-  "assembly_id": "115",
-  "assembly_name_en": "Adoor",
-  "assembly_name_ml": "അടൂർ",
-  "category": "Normal",
+  "id": "115",
+  "name_en": "Adoor",
+  "name_ml": "അടൂർ",
+  "district_id": "3",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "district_category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G030802",
-      "local_body_name_en": "Erathu",
-      "local_body_name_ml": "ഏറത്ത്",
-      "category": "Normal"
+      "id": "G030802",
+      "name_en": "Erathu",
+      "name_ml": "ഏറത്ത്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030803",
-      "local_body_name_en": "Ezhamkulam",
-      "local_body_name_ml": "ഏഴംകുളം",
-      "category": "Perfect"
+      "id": "G030803",
+      "name_en": "Ezhamkulam",
+      "name_ml": "ഏഴംകുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030804",
-      "local_body_name_en": "Kadampanad",
-      "local_body_name_ml": "കടമ്പനാട്",
-      "category": "Perfect"
+      "id": "G030804",
+      "name_en": "Kadampanad",
+      "name_ml": "കടമ്പനാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030806",
-      "local_body_name_en": "Kodumon",
-      "local_body_name_ml": "കൊടുമണ്‍",
-      "category": "Good"
+      "id": "G030806",
+      "name_en": "Kodumon",
+      "name_ml": "കൊടുമണ്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030807",
-      "local_body_name_en": "Pallickal",
-      "local_body_name_ml": "പള്ളിയ്ക്കല്‍",
-      "category": "Good"
+      "id": "G030807",
+      "name_en": "Pallickal",
+      "name_ml": "പള്ളിയ്ക്കല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M030400",
-      "local_body_name_en": "Pandalam",
-      "local_body_name_ml": "പന്തളം",
-      "category": "Good"
+      "id": "M030400",
+      "name_en": "Pandalam",
+      "name_ml": "പന്തളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030701",
-      "local_body_name_en": "Pandalam Thekkekara",
-      "local_body_name_ml": "പന്തളം തെക്കേക്കര",
-      "category": "Good"
+      "id": "G030701",
+      "name_en": "Pandalam Thekkekara",
+      "name_ml": "പന്തളം തെക്കേക്കര",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030702",
-      "local_body_name_en": "Thumpamon",
-      "local_body_name_ml": "തുമ്പമണ്‍",
-      "category": "Normal"
+      "id": "G030702",
+      "name_en": "Thumpamon",
+      "name_ml": "തുമ്പമണ്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M030100",
-      "local_body_name_en": "Adoor",
-      "local_body_name_ml": "അടൂര്‍",
-      "category": "Perfect"
+      "id": "M030100",
+      "name_en": "Adoor",
+      "name_ml": "അടൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

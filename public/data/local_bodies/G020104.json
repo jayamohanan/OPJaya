@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G020104",
-  "local_body_name_en": "Thazhava",
-  "local_body_name_ml": "തഴവ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "116",
-    "assembly_name_en": "Karunagapally",
-    "assembly_name_ml": "കരുനാഗപ്പള്ളി",
+  "id": "G020104",
+  "name_en": "Thazhava",
+  "name_ml": "തഴവ",
+  "assembly_id": "116",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "116",
+    "name_en": "Karunagapally",
+    "name_ml": "കരുനാഗപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d02ce264-723f-49f7-9128-faaca925cc62",
+      "id": "d02ce264-723f-49f7-9128-faaca925cc62",
       "ward_no": "1",
-      "ward_name_en": "Kuthirapanthy",
-      "ward_name_ml": "കുതിരപ്പന്തി"
+      "name_en": "Kuthirapanthy",
+      "name_ml": "കുതിരപ്പന്തി"
     },
     {
-      "ward_id": "4d72cbd6-0aa1-4049-9ed5-584eeef00e59",
+      "id": "4d72cbd6-0aa1-4049-9ed5-584eeef00e59",
       "ward_no": "2",
-      "ward_name_en": "Vadakkum Muri",
-      "ward_name_ml": "വടക്കുംമുറി"
+      "name_en": "Vadakkum Muri",
+      "name_ml": "വടക്കുംമുറി"
     },
     {
-      "ward_id": "c041c0cf-91ab-469f-80cf-0a19c1dfb6d3",
+      "id": "c041c0cf-91ab-469f-80cf-0a19c1dfb6d3",
       "ward_no": "3",
-      "ward_name_en": "Vadakkum Muri Kizhakk",
-      "ward_name_ml": "വടക്കുംമുറി കിഴക്ക്"
+      "name_en": "Vadakkum Muri Kizhakk",
+      "name_ml": "വടക്കുംമുറി കിഴക്ക്"
     },
     {
-      "ward_id": "9a50d4e2-5d1d-4b88-b1a2-7fa471d30e91",
+      "id": "9a50d4e2-5d1d-4b88-b1a2-7fa471d30e91",
       "ward_no": "4",
-      "ward_name_en": "Manapally North",
-      "ward_name_ml": "മണപ്പളളി  വടക്ക്"
+      "name_en": "Manapally North",
+      "name_ml": "മണപ്പളളി  വടക്ക്"
     },
     {
-      "ward_id": "e961a438-404c-44bf-a9db-2f9cb36ab802",
+      "id": "e961a438-404c-44bf-a9db-2f9cb36ab802",
       "ward_no": "5",
-      "ward_name_en": "Pavumba Temple Ward",
-      "ward_name_ml": "പാവുമ്പ ക്ഷേത്രം"
+      "name_en": "Pavumba Temple Ward",
+      "name_ml": "പാവുമ്പ ക്ഷേത്രം"
     },
     {
-      "ward_id": "dcb7eca7-8904-4eba-a5da-c3d7cdc56023",
+      "id": "dcb7eca7-8904-4eba-a5da-c3d7cdc56023",
       "ward_no": "6",
-      "ward_name_en": "Chirackal",
-      "ward_name_ml": "ചിറയ്ക്കല്‍"
+      "name_en": "Chirackal",
+      "name_ml": "ചിറയ്ക്കല്‍"
     },
     {
-      "ward_id": "6a708017-5109-457a-94f7-b1ff2cef80da",
+      "id": "6a708017-5109-457a-94f7-b1ff2cef80da",
       "ward_no": "7",
-      "ward_name_en": "Pavumba North",
-      "ward_name_ml": "പാവുമ്പ വടക്ക്"
+      "name_en": "Pavumba North",
+      "name_ml": "പാവുമ്പ വടക്ക്"
     },
     {
-      "ward_id": "ec2893c8-4770-4800-99c7-468687b6e933",
+      "id": "ec2893c8-4770-4800-99c7-468687b6e933",
       "ward_no": "8",
-      "ward_name_en": "Kaliyanchantha",
-      "ward_name_ml": "കാളിയന്‍ചന്ത"
+      "name_en": "Kaliyanchantha",
+      "name_ml": "കാളിയന്‍ചന്ത"
     },
     {
-      "ward_id": "625c431d-440a-4fdd-b4ba-0c0cba8fdcfd",
+      "id": "625c431d-440a-4fdd-b4ba-0c0cba8fdcfd",
       "ward_no": "9",
-      "ward_name_en": "Palamoodu",
-      "ward_name_ml": "പാലമൂട്"
+      "name_en": "Palamoodu",
+      "name_ml": "പാലമൂട്"
     },
     {
-      "ward_id": "3e175c4f-50b7-4a30-aff6-6b4aae1680d0",
+      "id": "3e175c4f-50b7-4a30-aff6-6b4aae1680d0",
       "ward_no": "10",
-      "ward_name_en": "Pavumba South",
-      "ward_name_ml": "പാവുമ്പ തെക്ക്"
+      "name_en": "Pavumba South",
+      "name_ml": "പാവുമ്പ തെക്ക്"
     },
     {
-      "ward_id": "be8043e9-d898-4283-95b7-889f304bf623",
+      "id": "be8043e9-d898-4283-95b7-889f304bf623",
       "ward_no": "11",
-      "ward_name_en": "Manappally",
-      "ward_name_ml": "മണപ്പളളി"
+      "name_en": "Manappally",
+      "name_ml": "മണപ്പളളി"
     },
     {
-      "ward_id": "58bac73b-7270-406d-95b8-bdf78256f8df",
+      "id": "58bac73b-7270-406d-95b8-bdf78256f8df",
       "ward_no": "12",
-      "ward_name_en": "Azhakiyakavu",
-      "ward_name_ml": "അഴകിയകാവ്"
+      "name_en": "Azhakiyakavu",
+      "name_ml": "അഴകിയകാവ്"
     },
     {
-      "ward_id": "e8f04a94-155f-4a91-837a-22df2814e5a9",
+      "id": "e8f04a94-155f-4a91-837a-22df2814e5a9",
       "ward_no": "13",
-      "ward_name_en": "Kuttippuram",
-      "ward_name_ml": "കുറ്റിപ്പുറം"
+      "name_en": "Kuttippuram",
+      "name_ml": "കുറ്റിപ്പുറം"
     },
     {
-      "ward_id": "30d03294-07f0-4f0a-a2c0-3fb649ffa107",
+      "id": "30d03294-07f0-4f0a-a2c0-3fb649ffa107",
       "ward_no": "14",
-      "ward_name_en": "Girls H S",
-      "ward_name_ml": "ഗേള്‍സ് എച്ച് എസ്"
+      "name_en": "Girls H S",
+      "name_ml": "ഗേള്‍സ് എച്ച് എസ്"
     },
     {
-      "ward_id": "dac2c745-9d72-40bf-b2f2-6282a3e87400",
+      "id": "dac2c745-9d72-40bf-b2f2-6282a3e87400",
       "ward_no": "15",
-      "ward_name_en": "Thazhava",
-      "ward_name_ml": "തഴവ"
+      "name_en": "Thazhava",
+      "name_ml": "തഴവ"
     },
     {
-      "ward_id": "81e21a55-5d8f-4df0-96e4-9a3351b63479",
+      "id": "81e21a55-5d8f-4df0-96e4-9a3351b63479",
       "ward_no": "16",
-      "ward_name_en": "Karutheri",
-      "ward_name_ml": "കറുത്തേരി"
+      "name_en": "Karutheri",
+      "name_ml": "കറുത്തേരി"
     },
     {
-      "ward_id": "c89a5948-a17d-4714-afdc-8360c77476b1",
+      "id": "c89a5948-a17d-4714-afdc-8360c77476b1",
       "ward_no": "17",
-      "ward_name_en": "Boys H S Ward",
-      "ward_name_ml": "ബോയ്സ് എച്ച്എസ് വാര്‍ഡ്"
+      "name_en": "Boys H S Ward",
+      "name_ml": "ബോയ്സ് എച്ച്എസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "45fb8b32-333b-425e-ba67-fb0380ee4438",
+      "id": "45fb8b32-333b-425e-ba67-fb0380ee4438",
       "ward_no": "18",
-      "ward_name_en": "Kadathoor East",
-      "ward_name_ml": "കടത്തൂര്‍ കിഴക്ക്"
+      "name_en": "Kadathoor East",
+      "name_ml": "കടത്തൂര്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "49ec715d-b707-4a41-b040-31528f880bb8",
+      "id": "49ec715d-b707-4a41-b040-31528f880bb8",
       "ward_no": "19",
-      "ward_name_en": "Chittumoola",
-      "ward_name_ml": "ചിറ്റുമൂല"
+      "name_en": "Chittumoola",
+      "name_ml": "ചിറ്റുമൂല"
     },
     {
-      "ward_id": "f94fd5cb-7084-4ec8-b733-3522fd85dcbb",
+      "id": "f94fd5cb-7084-4ec8-b733-3522fd85dcbb",
       "ward_no": "20",
-      "ward_name_en": "Kadathoor",
-      "ward_name_ml": "കടത്തൂര്‍"
+      "name_en": "Kadathoor",
+      "name_ml": "കടത്തൂര്‍"
     },
     {
-      "ward_id": "10e35994-b22f-4eec-bb1b-1ddb708c3768",
+      "id": "10e35994-b22f-4eec-bb1b-1ddb708c3768",
       "ward_no": "21",
-      "ward_name_en": "Samskarika Nilayam Ward",
-      "ward_name_ml": "സാംസ്കാരിക നിലയം വാര്‍ഡ്"
+      "name_en": "Samskarika Nilayam Ward",
+      "name_ml": "സാംസ്കാരിക നിലയം വാര്‍ഡ്"
     },
     {
-      "ward_id": "f6b35eb0-5833-4446-800c-22d3f3190cbe",
+      "id": "f6b35eb0-5833-4446-800c-22d3f3190cbe",
       "ward_no": "22",
-      "ward_name_en": "Mullasseril Ward",
-      "ward_name_ml": "മുല്ലശ്ശേരില്‍ വാര്‍ഡ്"
+      "name_en": "Mullasseril Ward",
+      "name_ml": "മുല്ലശ്ശേരില്‍ വാര്‍ഡ്"
     }
   ],
   "towns": [],

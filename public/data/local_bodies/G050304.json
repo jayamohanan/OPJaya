@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G050304",
-  "local_body_name_en": "Arpookara",
-  "local_body_name_ml": "ആര്‍പ്പൂക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "96",
-    "assembly_name_en": "Ettumanoor",
-    "assembly_name_ml": "ഏറ്റുമാനൂർ",
+  "id": "G050304",
+  "name_en": "Arpookara",
+  "name_ml": "ആര്‍പ്പൂക്കര",
+  "assembly_id": "96",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "96",
+    "name_en": "Ettumanoor",
+    "name_ml": "ഏറ്റുമാനൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "86b883ba-b41a-4f0e-8222-6fe0a8c32358",
+      "id": "86b883ba-b41a-4f0e-8222-6fe0a8c32358",
       "ward_no": "1",
-      "ward_name_en": "Manchadikkari",
-      "ward_name_ml": "മഞ്ചാടിക്കരി"
+      "name_en": "Manchadikkari",
+      "name_ml": "മഞ്ചാടിക്കരി"
     },
     {
-      "ward_id": "fcc77142-d273-4e1d-b0d0-70c88497cad5",
+      "id": "fcc77142-d273-4e1d-b0d0-70c88497cad5",
       "ward_no": "2",
-      "ward_name_en": "Maniyaparambu",
-      "ward_name_ml": "മണിയാപറമ്പ്"
+      "name_en": "Maniyaparambu",
+      "name_ml": "മണിയാപറമ്പ്"
     },
     {
-      "ward_id": "c93c9f18-2513-47b9-a3ef-53d72ab666bd",
+      "id": "c93c9f18-2513-47b9-a3ef-53d72ab666bd",
       "ward_no": "3",
-      "ward_name_en": "Choorakkavu",
-      "ward_name_ml": "ചൂരക്കാവ്"
+      "name_en": "Choorakkavu",
+      "name_ml": "ചൂരക്കാവ്"
     },
     {
-      "ward_id": "e55ca34a-dc3c-4185-a622-e8e3501a6ed1",
+      "id": "e55ca34a-dc3c-4185-a622-e8e3501a6ed1",
       "ward_no": "4",
-      "ward_name_en": "Pinanchirakuzhy",
-      "ward_name_ml": "പിണഞ്ചിറക്കുഴി"
+      "name_en": "Pinanchirakuzhy",
+      "name_ml": "പിണഞ്ചിറക്കുഴി"
     },
     {
-      "ward_id": "b0c427f1-c6bc-4d1f-9d6c-6e789cd81c1f",
+      "id": "b0c427f1-c6bc-4d1f-9d6c-6e789cd81c1f",
       "ward_no": "5",
-      "ward_name_en": "Villoonni",
-      "ward_name_ml": "വില്ലൂന്നി"
+      "name_en": "Villoonni",
+      "name_ml": "വില്ലൂന്നി"
     },
     {
-      "ward_id": "29cfe43b-1610-43aa-9a7e-fc30f499c0ed",
+      "id": "29cfe43b-1610-43aa-9a7e-fc30f499c0ed",
       "ward_no": "6",
-      "ward_name_en": "Thonnamkuzhy",
-      "ward_name_ml": "തൊണ്ണംകുഴി"
+      "name_en": "Thonnamkuzhy",
+      "name_ml": "തൊണ്ണംകുഴി"
     },
     {
-      "ward_id": "06f78c30-1e52-4f5f-a38f-e55d71a36d2d",
+      "id": "06f78c30-1e52-4f5f-a38f-e55d71a36d2d",
       "ward_no": "7",
-      "ward_name_en": "Nerekadavu",
-      "ward_name_ml": "നേരേകടവ്"
+      "name_en": "Nerekadavu",
+      "name_ml": "നേരേകടവ്"
     },
     {
-      "ward_id": "ead0bbe4-eee7-42c6-a0aa-6b704b590340",
+      "id": "ead0bbe4-eee7-42c6-a0aa-6b704b590340",
       "ward_no": "8",
-      "ward_name_en": "Varyamuttom Charamkulam",
-      "ward_name_ml": "വാര്യമുട്ടം ചാരംകുളം"
+      "name_en": "Varyamuttom Charamkulam",
+      "name_ml": "വാര്യമുട്ടം ചാരംകുളം"
     },
     {
-      "ward_id": "c42d72e7-4bd6-4e91-b86e-d7e566ff79c4",
+      "id": "c42d72e7-4bd6-4e91-b86e-d7e566ff79c4",
       "ward_no": "9",
-      "ward_name_en": "Medical College",
-      "ward_name_ml": "മെഡിക്കല്‍കോളേജ്"
+      "name_en": "Medical College",
+      "name_ml": "മെഡിക്കല്‍കോളേജ്"
     },
     {
-      "ward_id": "aa4023a4-e846-4bb0-bb76-808baedceebe",
+      "id": "aa4023a4-e846-4bb0-bb76-808baedceebe",
       "ward_no": "10",
-      "ward_name_en": "Angadi",
-      "ward_name_ml": "അങ്ങാടി"
+      "name_en": "Angadi",
+      "name_ml": "അങ്ങാടി"
     },
     {
-      "ward_id": "95b21932-4028-4f54-8b49-985406fcd644",
+      "id": "95b21932-4028-4f54-8b49-985406fcd644",
       "ward_no": "11",
-      "ward_name_en": "Panampalam",
-      "ward_name_ml": "പനമ്പാലം"
+      "name_en": "Panampalam",
+      "name_ml": "പനമ്പാലം"
     },
     {
-      "ward_id": "36780d58-fc58-4ab7-8624-0dbcd3ae1342",
+      "id": "36780d58-fc58-4ab7-8624-0dbcd3ae1342",
       "ward_no": "12",
-      "ward_name_en": "Karippa",
-      "ward_name_ml": "കരിപ്പ"
+      "name_en": "Karippa",
+      "name_ml": "കരിപ്പ"
     },
     {
-      "ward_id": "89ab84fb-10b4-49de-a6b8-129639704b93",
+      "id": "89ab84fb-10b4-49de-a6b8-129639704b93",
       "ward_no": "13",
-      "ward_name_en": "Perumpadappu",
-      "ward_name_ml": "പെരുമ്പടപ്പ്"
+      "name_en": "Perumpadappu",
+      "name_ml": "പെരുമ്പടപ്പ്"
     },
     {
-      "ward_id": "25f42cc7-44c0-4e2c-b3ee-a3d9f3122769",
+      "id": "25f42cc7-44c0-4e2c-b3ee-a3d9f3122769",
       "ward_no": "14",
-      "ward_name_en": "Pulikkuttissery",
-      "ward_name_ml": "പുലിക്കുട്ടിശ്ശേരി"
+      "name_en": "Pulikkuttissery",
+      "name_ml": "പുലിക്കുട്ടിശ്ശേരി"
     },
     {
-      "ward_id": "bfd23f03-58d4-448c-9e73-9f726854b8bb",
+      "id": "bfd23f03-58d4-448c-9e73-9f726854b8bb",
       "ward_no": "15",
-      "ward_name_en": "Karipputhattu",
-      "ward_name_ml": "കരിപ്പൂത്തട്ട്"
+      "name_en": "Karipputhattu",
+      "name_ml": "കരിപ്പൂത്തട്ട്"
     },
     {
-      "ward_id": "fdad34c0-2f69-489b-b34f-030e21c1e622",
+      "id": "fdad34c0-2f69-489b-b34f-030e21c1e622",
       "ward_no": "16",
-      "ward_name_en": "Aryattoozham Chalakari",
-      "ward_name_ml": "ആര്യാട്ടൂഴം ചാലാകരി"
+      "name_en": "Aryattoozham Chalakari",
+      "name_ml": "ആര്യാട്ടൂഴം ചാലാകരി"
     }
   ],
   "towns": [],

@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G041204",
-  "local_body_name_en": "Muthukulam",
-  "local_body_name_ml": "മുതുകുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G041204",
+  "name_en": "Muthukulam",
+  "name_ml": "മുതുകുളം",
+  "assembly_id": "107",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "107",
-    "assembly_name_en": "Haripad",
-    "assembly_name_ml": "ഹരിപ്പാട്",
-    "category": "Normal"
+    "id": "107",
+    "name_en": "Haripad",
+    "name_ml": "ഹരിപ്പാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "790eb439-ec55-48f6-a6df-a9884fb35ae3",
+      "id": "790eb439-ec55-48f6-a6df-a9884fb35ae3",
       "ward_no": "1",
-      "ward_name_en": "Choolatheruvu",
-      "ward_name_ml": "ചൂളത്തെരുവ്"
+      "name_en": "Choolatheruvu",
+      "name_ml": "ചൂളത്തെരുവ്"
     },
     {
-      "ward_id": "b131a857-4ecf-4414-8204-d84ad1b74309",
+      "id": "b131a857-4ecf-4414-8204-d84ad1b74309",
       "ward_no": "2",
-      "ward_name_en": "Vettikulangara",
-      "ward_name_ml": "വെട്ടികുളങ്ങര"
+      "name_en": "Vettikulangara",
+      "name_ml": "വെട്ടികുളങ്ങര"
     },
     {
-      "ward_id": "9f439b1c-13e4-43c8-beb4-aa2b63e32d25",
+      "id": "9f439b1c-13e4-43c8-beb4-aa2b63e32d25",
       "ward_no": "3",
-      "ward_name_en": "Muringachira",
-      "ward_name_ml": "മുരിങ്ങച്ചിറ"
+      "name_en": "Muringachira",
+      "name_ml": "മുരിങ്ങച്ചിറ"
     },
     {
-      "ward_id": "aacdbe4f-8549-48ad-b43c-376bb7682c92",
+      "id": "aacdbe4f-8549-48ad-b43c-376bb7682c92",
       "ward_no": "4",
-      "ward_name_en": "Highschool",
-      "ward_name_ml": "ഹൈസ്ക്കൂള്‍"
+      "name_en": "Highschool",
+      "name_ml": "ഹൈസ്ക്കൂള്‍"
     },
     {
-      "ward_id": "db6339e9-0844-473b-8cfe-96344cbaa826",
+      "id": "db6339e9-0844-473b-8cfe-96344cbaa826",
       "ward_no": "5",
-      "ward_name_en": "Karunamuttam",
-      "ward_name_ml": "കരുണാമുറ്റം"
+      "name_en": "Karunamuttam",
+      "name_ml": "കരുണാമുറ്റം"
     },
     {
-      "ward_id": "9004e65c-8b68-4960-b38d-8e308a4e8db4",
+      "id": "9004e65c-8b68-4960-b38d-8e308a4e8db4",
       "ward_no": "6",
-      "ward_name_en": "Mamood",
-      "ward_name_ml": "മാമ്മൂട്"
+      "name_en": "Mamood",
+      "name_ml": "മാമ്മൂട്"
     },
     {
-      "ward_id": "b77e4f2e-00ba-4f0e-9087-6ef2ff193aa4",
+      "id": "b77e4f2e-00ba-4f0e-9087-6ef2ff193aa4",
       "ward_no": "7",
-      "ward_name_en": "Elangam",
-      "ward_name_ml": "ഇലങ്കം"
+      "name_en": "Elangam",
+      "name_ml": "ഇലങ്കം"
     },
     {
-      "ward_id": "9c490e5e-dba2-48e5-8d33-1daeee1706f4",
+      "id": "9c490e5e-dba2-48e5-8d33-1daeee1706f4",
       "ward_no": "8",
-      "ward_name_en": "Mayikkal",
-      "ward_name_ml": "മായിക്കല്‍‌"
+      "name_en": "Mayikkal",
+      "name_ml": "മായിക്കല്‍‌"
     },
     {
-      "ward_id": "c54dff61-c87b-4407-b824-1bc46a8bbd22",
+      "id": "c54dff61-c87b-4407-b824-1bc46a8bbd22",
       "ward_no": "9",
-      "ward_name_en": "Varanapally",
-      "ward_name_ml": "വാരണപ്പള്ളി"
+      "name_en": "Varanapally",
+      "name_ml": "വാരണപ്പള്ളി"
     },
     {
-      "ward_id": "79218468-35dc-4b20-9128-4befe8948fdf",
+      "id": "79218468-35dc-4b20-9128-4befe8948fdf",
       "ward_no": "10",
-      "ward_name_en": "Pandavarkavu",
-      "ward_name_ml": "പാണ്ഡവര്‍കാവ്"
+      "name_en": "Pandavarkavu",
+      "name_ml": "പാണ്ഡവര്‍കാവ്"
     },
     {
-      "ward_id": "a99e4a93-3ba2-49b3-b69c-1713c540acb7",
+      "id": "a99e4a93-3ba2-49b3-b69c-1713c540acb7",
       "ward_no": "11",
-      "ward_name_en": "Erayil",
-      "ward_name_ml": "ഈരയില്‍"
+      "name_en": "Erayil",
+      "name_ml": "ഈരയില്‍"
     },
     {
-      "ward_id": "c557942a-9f05-4cfd-8d8e-5cf189078dd8",
+      "id": "c557942a-9f05-4cfd-8d8e-5cf189078dd8",
       "ward_no": "12",
-      "ward_name_en": "Kurumpakara",
-      "ward_name_ml": "കുരുമ്പകര"
+      "name_en": "Kurumpakara",
+      "name_ml": "കുരുമ്പകര"
     },
     {
-      "ward_id": "ea4fd61e-0ce2-478e-89fd-60d6a7f2d865",
+      "id": "ea4fd61e-0ce2-478e-89fd-60d6a7f2d865",
       "ward_no": "13",
-      "ward_name_en": "Gopankulangara",
-      "ward_name_ml": "ഗോപന്‍കുളങ്ങര"
+      "name_en": "Gopankulangara",
+      "name_ml": "ഗോപന്‍കുളങ്ങര"
     },
     {
-      "ward_id": "e1ed357c-9ba8-47e6-8d4d-83ca49369735",
+      "id": "e1ed357c-9ba8-47e6-8d4d-83ca49369735",
       "ward_no": "14",
-      "ward_name_en": "Homeo",
-      "ward_name_ml": "ഹോമിയോ"
+      "name_en": "Homeo",
+      "name_ml": "ഹോമിയോ"
     },
     {
-      "ward_id": "e81aa334-ecd2-4676-8fea-23a766dffe49",
+      "id": "e81aa334-ecd2-4676-8fea-23a766dffe49",
       "ward_no": "15",
-      "ward_name_en": "Kollakal",
-      "ward_name_ml": "കൊല്ലകല്‍"
+      "name_en": "Kollakal",
+      "name_ml": "കൊല്ലകല്‍"
     }
   ],
   "towns": [],

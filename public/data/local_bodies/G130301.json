@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G130301",
-  "local_body_name_en": "Pattuvam",
-  "local_body_name_ml": "പട്ടുവം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "7",
-    "assembly_name_en": "Kalliasseri",
-    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+  "id": "G130301",
+  "name_en": "Pattuvam",
+  "name_ml": "പട്ടുവം",
+  "assembly_id": "7",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "7",
+    "name_en": "Kalliasseri",
+    "name_ml": "കല്ല്യാശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "27d5e5b5-6ad7-4564-8c48-ff237d4f07ef",
+      "id": "27d5e5b5-6ad7-4564-8c48-ff237d4f07ef",
       "ward_no": "1",
-      "ward_name_en": "Muthukuda",
-      "ward_name_ml": "മുതുകുട"
+      "name_en": "Muthukuda",
+      "name_ml": "മുതുകുട"
     },
     {
-      "ward_id": "21e16845-eafb-44c5-b4e6-21fc095e8eaf",
+      "id": "21e16845-eafb-44c5-b4e6-21fc095e8eaf",
       "ward_no": "2",
-      "ward_name_en": "Kavunkal",
-      "ward_name_ml": "കാവുങ്കല്‍"
+      "name_en": "Kavunkal",
+      "name_ml": "കാവുങ്കല്‍"
     },
     {
-      "ward_id": "93a4b385-3562-4b22-a724-282dde50e041",
+      "id": "93a4b385-3562-4b22-a724-282dde50e041",
       "ward_no": "3",
-      "ward_name_en": "Manukkara",
-      "ward_name_ml": "മാണുക്കര"
+      "name_en": "Manukkara",
+      "name_ml": "മാണുക്കര"
     },
     {
-      "ward_id": "1247d0a7-d9df-41ec-bafd-98451dafc143",
+      "id": "1247d0a7-d9df-41ec-bafd-98451dafc143",
       "ward_no": "4",
-      "ward_name_en": "Mangalasseri",
-      "ward_name_ml": "മംഗലശ്ശേരി"
+      "name_en": "Mangalasseri",
+      "name_ml": "മംഗലശ്ശേരി"
     },
     {
-      "ward_id": "92e6859e-ebb3-4ce0-8eee-b43651376123",
+      "id": "92e6859e-ebb3-4ce0-8eee-b43651376123",
       "ward_no": "5",
-      "ward_name_en": "Muriyathode",
-      "ward_name_ml": "മുറിയാത്തോട്"
+      "name_en": "Muriyathode",
+      "name_ml": "മുറിയാത്തോട്"
     },
     {
-      "ward_id": "7a7e6cd6-e2dc-4bf5-bc73-7252427e35b9",
+      "id": "7a7e6cd6-e2dc-4bf5-bc73-7252427e35b9",
       "ward_no": "6",
-      "ward_name_en": "Parappool",
-      "ward_name_ml": "പറപ്പൂല്‍"
+      "name_en": "Parappool",
+      "name_ml": "പറപ്പൂല്‍"
     },
     {
-      "ward_id": "0e2010bf-16c4-412e-8630-c6419c8a1e36",
+      "id": "0e2010bf-16c4-412e-8630-c6419c8a1e36",
       "ward_no": "7",
-      "ward_name_en": "Vellikkeel",
-      "ward_name_ml": "വെള്ളിക്കീല്‍"
+      "name_en": "Vellikkeel",
+      "name_ml": "വെള്ളിക്കീല്‍"
     },
     {
-      "ward_id": "afa73370-6a88-4e3c-a2b0-c2b4d8f60faf",
+      "id": "afa73370-6a88-4e3c-a2b0-c2b4d8f60faf",
       "ward_no": "8",
-      "ward_name_en": "Ariyil",
-      "ward_name_ml": "അരിയില്‍"
+      "name_en": "Ariyil",
+      "name_ml": "അരിയില്‍"
     },
     {
-      "ward_id": "b0735c31-6c1f-425b-ba6e-ce9e124bc6a7",
+      "id": "b0735c31-6c1f-425b-ba6e-ce9e124bc6a7",
       "ward_no": "9",
-      "ward_name_en": "Mullool",
-      "ward_name_ml": "മുള്ളൂല്‍"
+      "name_en": "Mullool",
+      "name_ml": "മുള്ളൂല്‍"
     },
     {
-      "ward_id": "a0e2e8e6-f77d-4372-b9b7-c0b0afb1099b",
+      "id": "a0e2e8e6-f77d-4372-b9b7-c0b0afb1099b",
       "ward_no": "10",
-      "ward_name_en": "Koothatt",
-      "ward_name_ml": "കൂത്താട്ട്"
+      "name_en": "Koothatt",
+      "name_ml": "കൂത്താട്ട്"
     },
     {
-      "ward_id": "c79a4ac0-efc6-4416-9679-085fc9276dac",
+      "id": "c79a4ac0-efc6-4416-9679-085fc9276dac",
       "ward_no": "11",
-      "ward_name_en": "Kunnaru",
-      "ward_name_ml": "കുന്നരു"
+      "name_en": "Kunnaru",
+      "name_ml": "കുന്നരു"
     },
     {
-      "ward_id": "71b0c24a-dabf-463b-a48d-c921d6dfe616",
+      "id": "71b0c24a-dabf-463b-a48d-c921d6dfe616",
       "ward_no": "12",
-      "ward_name_en": "Padinharechal",
-      "ward_name_ml": "പടിഞ്ഞാറെച്ചാല്‍"
+      "name_en": "Padinharechal",
+      "name_ml": "പടിഞ്ഞാറെച്ചാല്‍"
     },
     {
-      "ward_id": "39eb085e-9bcf-4cde-bf35-1e3276013c35",
+      "id": "39eb085e-9bcf-4cde-bf35-1e3276013c35",
       "ward_no": "13",
-      "ward_name_en": "Velichankeel",
-      "ward_name_ml": "വെളിച്ചാങ്കീല്‍"
+      "name_en": "Velichankeel",
+      "name_ml": "വെളിച്ചാങ്കീല്‍"
     }
   ],
   "towns": [],

@@ -1,68 +1,89 @@
 {
-  "assembly_id": "15",
-  "assembly_name_en": "Mattanur",
-  "assembly_name_ml": "മട്ടന്നൂര്‍",
-  "category": "Normal",
+  "id": "15",
+  "name_en": "Mattanur",
+  "name_ml": "മട്ടന്നൂര്‍",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130902",
-      "local_body_name_en": "Chittariparamba",
-      "local_body_name_ml": "ചിറ്റാരിപ്പറമ്പ്",
-      "category": "Normal"
+      "id": "G130902",
+      "name_en": "Chittariparamba",
+      "name_ml": "ചിറ്റാരിപ്പറമ്പ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G131003",
-      "local_body_name_en": "Keezhallur",
-      "local_body_name_ml": "കീഴല്ലൂര്‍",
-      "category": "Good"
+      "id": "G131003",
+      "name_en": "Keezhallur",
+      "name_ml": "കീഴല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G131105",
-      "local_body_name_en": "Kolayad",
-      "local_body_name_ml": "കോളയാട്",
-      "category": "Normal"
+      "id": "G131105",
+      "name_en": "Kolayad",
+      "name_ml": "കോളയാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G131005",
-      "local_body_name_en": "Koodali",
-      "local_body_name_ml": "കൂടാളി",
-      "category": "Good"
+      "id": "G131005",
+      "name_en": "Koodali",
+      "name_ml": "കൂടാളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G131106",
-      "local_body_name_en": "Malur",
-      "local_body_name_ml": "മാലൂര്‍",
-      "category": "Normal"
+      "id": "G131106",
+      "name_en": "Malur",
+      "name_ml": "മാലൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130904",
-      "local_body_name_en": "Mangattidam",
-      "local_body_name_ml": "മാങ്ങാട്ടിടം",
-      "category": "Normal"
+      "id": "G130904",
+      "name_en": "Mangattidam",
+      "name_ml": "മാങ്ങാട്ടിടം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M130100",
-      "local_body_name_en": "Mattanur",
-      "local_body_name_ml": "മട്ടന്നൂര്‍",
-      "category": ""
+      "id": "M130100",
+      "name_en": "Mattanur",
+      "name_ml": "മട്ടന്നൂര്‍",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G130408",
-      "local_body_name_en": "Padiyoor",
-      "local_body_name_ml": "പടിയൂര്‍",
-      "category": "Normal"
+      "id": "G130408",
+      "name_en": "Padiyoor",
+      "name_ml": "പടിയൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G131004",
-      "local_body_name_en": "Thillankery",
-      "local_body_name_ml": "തില്ലങ്കേരി",
-      "category": "Good"
+      "id": "G131004",
+      "name_en": "Thillankery",
+      "name_ml": "തില്ലങ്കേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

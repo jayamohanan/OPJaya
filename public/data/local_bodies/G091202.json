@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G091202",
-  "local_body_name_en": "Erimayur",
-  "local_body_name_ml": "എരിമയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G091202",
+  "name_en": "Erimayur",
+  "name_ml": "എരിമയൂര്‍",
+  "assembly_id": "60",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "60",
-    "assembly_name_en": "Alathur",
-    "assembly_name_ml": "ആലത്തൂര്‍",
-    "category": "Normal"
+    "id": "60",
+    "name_en": "Alathur",
+    "name_ml": "ആലത്തൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9190b7be-5462-4838-9d76-34f19179e2db",
+      "id": "9190b7be-5462-4838-9d76-34f19179e2db",
       "ward_no": "1",
-      "ward_name_en": "Ariyakkode",
-      "ward_name_ml": "അരിയക്കോട്"
+      "name_en": "Ariyakkode",
+      "name_ml": "അരിയക്കോട്"
     },
     {
-      "ward_id": "5e048fc5-05dd-4f6d-ba40-4b6ec911ece3",
+      "id": "5e048fc5-05dd-4f6d-ba40-4b6ec911ece3",
       "ward_no": "2",
-      "ward_name_en": "Cheranadu",
-      "ward_name_ml": "ചേരാനാട്"
+      "name_en": "Cheranadu",
+      "name_ml": "ചേരാനാട്"
     },
     {
-      "ward_id": "5c48fe7b-ab65-4a21-9473-957969c6f881",
+      "id": "5c48fe7b-ab65-4a21-9473-957969c6f881",
       "ward_no": "3",
-      "ward_name_en": "Maruthakkode",
-      "ward_name_ml": "മരുതക്കോട്"
+      "name_en": "Maruthakkode",
+      "name_ml": "മരുതക്കോട്"
     },
     {
-      "ward_id": "1f47c104-9904-4d4e-b70a-3c9de239640a",
+      "id": "1f47c104-9904-4d4e-b70a-3c9de239640a",
       "ward_no": "4",
-      "ward_name_en": "Kolakkapadam",
-      "ward_name_ml": "കൊളക്കപ്പാടം"
+      "name_en": "Kolakkapadam",
+      "name_ml": "കൊളക്കപ്പാടം"
     },
     {
-      "ward_id": "f34dbca9-b2b5-4ffe-abf9-19ae44194fee",
+      "id": "f34dbca9-b2b5-4ffe-abf9-19ae44194fee",
       "ward_no": "5",
-      "ward_name_en": "Koottala",
-      "ward_name_ml": "കൂട്ടാല"
+      "name_en": "Koottala",
+      "name_ml": "കൂട്ടാല"
     },
     {
-      "ward_id": "967f330d-e0ce-48ec-8476-aaa34e972d2c",
+      "id": "967f330d-e0ce-48ec-8476-aaa34e972d2c",
       "ward_no": "6",
-      "ward_name_en": "Kannampulli",
-      "ward_name_ml": "കണ്ണംപുള്ളി"
+      "name_en": "Kannampulli",
+      "name_ml": "കണ്ണംപുള്ളി"
     },
     {
-      "ward_id": "600805fe-57bb-4ba8-883a-271c4233dcca",
+      "id": "600805fe-57bb-4ba8-883a-271c4233dcca",
       "ward_no": "7",
-      "ward_name_en": "Kuthirappara",
-      "ward_name_ml": "കുതിരപ്പാറ"
+      "name_en": "Kuthirappara",
+      "name_ml": "കുതിരപ്പാറ"
     },
     {
-      "ward_id": "334034a8-90c2-42c5-bea8-05b836beba3d",
+      "id": "334034a8-90c2-42c5-bea8-05b836beba3d",
       "ward_no": "8",
-      "ward_name_en": "Chenkaram",
-      "ward_name_ml": "ചെങ്കാരം"
+      "name_en": "Chenkaram",
+      "name_ml": "ചെങ്കാരം"
     },
     {
-      "ward_id": "8bee77cd-8e3b-4811-b0ca-ae703dddb04a",
+      "id": "8bee77cd-8e3b-4811-b0ca-ae703dddb04a",
       "ward_no": "9",
-      "ward_name_en": "Koleppadam",
-      "ward_name_ml": "കോലേപ്പാടം"
+      "name_en": "Koleppadam",
+      "name_ml": "കോലേപ്പാടം"
     },
     {
-      "ward_id": "bc0ab317-57a3-4f1d-9a6c-bcba9de2df28",
+      "id": "bc0ab317-57a3-4f1d-9a6c-bcba9de2df28",
       "ward_no": "10",
-      "ward_name_en": "Kunissery",
-      "ward_name_ml": "കുനിശ്ശേരി"
+      "name_en": "Kunissery",
+      "name_ml": "കുനിശ്ശേരി"
     },
     {
-      "ward_id": "c7439836-a8b0-4214-9bcc-11011d4ff14a",
+      "id": "c7439836-a8b0-4214-9bcc-11011d4ff14a",
       "ward_no": "11",
-      "ward_name_en": "Thekkethara",
-      "ward_name_ml": "തെക്കേത്തറ"
+      "name_en": "Thekkethara",
+      "name_ml": "തെക്കേത്തറ"
     },
     {
-      "ward_id": "d675d15d-6a01-4aa8-b3b5-9993ce5c4a15",
+      "id": "d675d15d-6a01-4aa8-b3b5-9993ce5c4a15",
       "ward_no": "12",
-      "ward_name_en": "Vadakkethara",
-      "ward_name_ml": "വടക്കേത്തറ"
+      "name_en": "Vadakkethara",
+      "name_ml": "വടക്കേത്തറ"
     },
     {
-      "ward_id": "cff78573-9653-4265-bdfb-be1ecfc87adc",
+      "id": "cff78573-9653-4265-bdfb-be1ecfc87adc",
       "ward_no": "13",
-      "ward_name_en": "Panthalamkode",
-      "ward_name_ml": "പന്തലാംകോട്"
+      "name_en": "Panthalamkode",
+      "name_ml": "പന്തലാംകോട്"
     },
     {
-      "ward_id": "c9f1d06e-675d-4e73-ada9-86c5ab1acbba",
+      "id": "c9f1d06e-675d-4e73-ada9-86c5ab1acbba",
       "ward_no": "14",
-      "ward_name_en": "Pullode",
-      "ward_name_ml": "പുള്ളോട്"
+      "name_en": "Pullode",
+      "name_ml": "പുള്ളോട്"
     },
     {
-      "ward_id": "645d8cea-20fd-49db-8da7-db02bab207c1",
+      "id": "645d8cea-20fd-49db-8da7-db02bab207c1",
       "ward_no": "15",
-      "ward_name_en": "Thrippalur",
-      "ward_name_ml": "തൃപ്പാളൂര്‍"
+      "name_en": "Thrippalur",
+      "name_ml": "തൃപ്പാളൂര്‍"
     },
     {
-      "ward_id": "6ba00442-befb-46ae-8c48-3d2512ee1ef8",
+      "id": "6ba00442-befb-46ae-8c48-3d2512ee1ef8",
       "ward_no": "16",
-      "ward_name_en": "Chullimada",
-      "ward_name_ml": "ചുള്ളിമട"
+      "name_en": "Chullimada",
+      "name_ml": "ചുള്ളിമട"
     },
     {
-      "ward_id": "ea3016de-1d0b-4f54-80af-9ad530c9b855",
+      "id": "ea3016de-1d0b-4f54-80af-9ad530c9b855",
       "ward_no": "17",
-      "ward_name_en": "Erimayur",
-      "ward_name_ml": "എരിമയൂര്‍"
+      "name_en": "Erimayur",
+      "name_ml": "എരിമയൂര്‍"
     },
     {
-      "ward_id": "d1c1a494-71db-4623-8c48-6a728783bb54",
+      "id": "d1c1a494-71db-4623-8c48-6a728783bb54",
       "ward_no": "18",
-      "ward_name_en": "Marakkavu",
-      "ward_name_ml": "മാരാക്കാവ്"
+      "name_en": "Marakkavu",
+      "name_ml": "മാരാക്കാവ്"
     }
   ],
   "towns": [],

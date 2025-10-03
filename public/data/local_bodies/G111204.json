@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G111204",
-  "local_body_name_en": "Olavanna",
-  "local_body_name_ml": "ഒളവണ്ണ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G111204",
+  "name_en": "Olavanna",
+  "name_ml": "ഒളവണ്ണ",
+  "assembly_id": "30",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "30",
-    "assembly_name_en": "Kunnamangalam",
-    "assembly_name_ml": "കുന്ദമംഗലം",
-    "category": "Normal"
+    "id": "30",
+    "name_en": "Kunnamangalam",
+    "name_ml": "കുന്ദമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c7ef11fb-9296-4bec-aba3-592f8d5dabed",
+      "id": "c7ef11fb-9296-4bec-aba3-592f8d5dabed",
       "ward_no": "9",
-      "ward_name_en": "Manakkadave",
-      "ward_name_ml": "മണക്കടവ്"
+      "name_en": "Manakkadave",
+      "name_ml": "മണക്കടവ്"
     },
     {
-      "ward_id": "cf396f13-1aba-4687-8e93-515bbea879ed",
+      "id": "cf396f13-1aba-4687-8e93-515bbea879ed",
       "ward_no": "1",
-      "ward_name_en": "Iringallur",
-      "ward_name_ml": "ഇരിങ്ങല്ലൂര്‍"
+      "name_en": "Iringallur",
+      "name_ml": "ഇരിങ്ങല്ലൂര്‍"
     },
     {
-      "ward_id": "a76e8aa1-33db-4bab-8cd7-02ee68aede3a",
+      "id": "a76e8aa1-33db-4bab-8cd7-02ee68aede3a",
       "ward_no": "2",
-      "ward_name_en": "Palazhi Pala",
-      "ward_name_ml": "പാലാഴി പാല"
+      "name_en": "Palazhi Pala",
+      "name_ml": "പാലാഴി പാല"
     },
     {
-      "ward_id": "72ec7d44-ccf5-4348-8bc7-cb816fb912fd",
+      "id": "72ec7d44-ccf5-4348-8bc7-cb816fb912fd",
       "ward_no": "3",
-      "ward_name_en": "Palazhi West",
-      "ward_name_ml": "പാലാഴി വെസ്റ്റ്"
+      "name_en": "Palazhi West",
+      "name_ml": "പാലാഴി വെസ്റ്റ്"
     },
     {
-      "ward_id": "295baad5-a0a4-4723-a615-b404c73b53ea",
+      "id": "295baad5-a0a4-4723-a615-b404c73b53ea",
       "ward_no": "4",
-      "ward_name_en": "Palazhi East",
-      "ward_name_ml": "പാലാഴി ഈസ്റ്റ്"
+      "name_en": "Palazhi East",
+      "name_ml": "പാലാഴി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "d8edbeb1-fdb0-4c77-beff-972395ff29d8",
+      "id": "d8edbeb1-fdb0-4c77-beff-972395ff29d8",
       "ward_no": "5",
-      "ward_name_en": "Pantheerankave North",
-      "ward_name_ml": "പന്തീരാങ്കാവ് നോര്‍ത്ത്"
+      "name_en": "Pantheerankave North",
+      "name_ml": "പന്തീരാങ്കാവ് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "ad613438-e861-462f-86a8-62293fe4eeae",
+      "id": "ad613438-e861-462f-86a8-62293fe4eeae",
       "ward_no": "6",
-      "ward_name_en": "Pantheerankave South",
-      "ward_name_ml": "പന്തീരാങ്കാവ് സൗത്ത്"
+      "name_en": "Pantheerankave South",
+      "name_ml": "പന്തീരാങ്കാവ് സൗത്ത്"
     },
     {
-      "ward_id": "9ed3856a-c9aa-4420-a811-b0bce84e611b",
+      "id": "9ed3856a-c9aa-4420-a811-b0bce84e611b",
       "ward_no": "7",
-      "ward_name_en": "Poolenkara",
-      "ward_name_ml": "പൂളേങ്കര"
+      "name_en": "Poolenkara",
+      "name_ml": "പൂളേങ്കര"
     },
     {
-      "ward_id": "c6cb9112-3c6e-4580-8f6d-dcdacb21e0b8",
+      "id": "c6cb9112-3c6e-4580-8f6d-dcdacb21e0b8",
       "ward_no": "8",
-      "ward_name_en": "Muthuvanathara",
-      "ward_name_ml": "മുതുവനത്തറ"
+      "name_en": "Muthuvanathara",
+      "name_ml": "മുതുവനത്തറ"
     },
     {
-      "ward_id": "bf87b8f8-97a7-482d-a837-5ec301775c56",
+      "id": "bf87b8f8-97a7-482d-a837-5ec301775c56",
       "ward_no": "10",
-      "ward_name_en": "Kodal Nadakkave",
-      "ward_name_ml": "കൊടല്‍ നടക്കാവ്"
+      "name_en": "Kodal Nadakkave",
+      "name_ml": "കൊടല്‍ നടക്കാവ്"
     },
     {
-      "ward_id": "a59a68f9-3f98-44f6-a155-198064b5962f",
+      "id": "a59a68f9-3f98-44f6-a155-198064b5962f",
       "ward_no": "11",
-      "ward_name_en": "Moorkkanad",
-      "ward_name_ml": "മൂര്‍ക്കനാട്"
+      "name_en": "Moorkkanad",
+      "name_ml": "മൂര്‍ക്കനാട്"
     },
     {
-      "ward_id": "ab2831a4-7408-408d-8efd-fc35e9376791",
+      "id": "ab2831a4-7408-408d-8efd-fc35e9376791",
       "ward_no": "12",
-      "ward_name_en": "Chathothara",
-      "ward_name_ml": "ചാത്തോത്തറ"
+      "name_en": "Chathothara",
+      "name_ml": "ചാത്തോത്തറ"
     },
     {
-      "ward_id": "a6fc4d08-da90-41d2-8c08-e2b18f9eeee3",
+      "id": "a6fc4d08-da90-41d2-8c08-e2b18f9eeee3",
       "ward_no": "13",
-      "ward_name_en": "Kodinattumukku",
-      "ward_name_ml": "കൊടിനാട്ടുമുക്ക്"
+      "name_en": "Kodinattumukku",
+      "name_ml": "കൊടിനാട്ടുമുക്ക്"
     },
     {
-      "ward_id": "1c550bd4-67ba-438c-a541-b6bc31dd7098",
+      "id": "1c550bd4-67ba-438c-a541-b6bc31dd7098",
       "ward_no": "14",
-      "ward_name_en": "Palakurumba",
-      "ward_name_ml": "പാലകുറുമ്പ"
+      "name_en": "Palakurumba",
+      "name_ml": "പാലകുറുമ്പ"
     },
     {
-      "ward_id": "59be3824-b7fa-4e1f-a9a7-641538f65ecf",
+      "id": "59be3824-b7fa-4e1f-a9a7-641538f65ecf",
       "ward_no": "15",
-      "ward_name_en": "Olavanna",
-      "ward_name_ml": "ഒളവണ്ണ"
+      "name_en": "Olavanna",
+      "name_ml": "ഒളവണ്ണ"
     },
     {
-      "ward_id": "9d9ac093-0fa5-4dac-8ee7-b35ad70ff915",
+      "id": "9d9ac093-0fa5-4dac-8ee7-b35ad70ff915",
       "ward_no": "16",
-      "ward_name_en": "Thondilakkadave",
-      "ward_name_ml": "തൊണ്ടിലക്കടവ്"
+      "name_en": "Thondilakkadave",
+      "name_ml": "തൊണ്ടിലക്കടവ്"
     },
     {
-      "ward_id": "db99cef5-697f-451c-b5f9-e9cb8b5bf826",
+      "id": "db99cef5-697f-451c-b5f9-e9cb8b5bf826",
       "ward_no": "17",
-      "ward_name_en": "Kayatti",
-      "ward_name_ml": "കയറ്റി"
+      "name_en": "Kayatti",
+      "name_ml": "കയറ്റി"
     },
     {
-      "ward_id": "4e2791d3-3a86-4147-8a15-e738c84d35a9",
+      "id": "4e2791d3-3a86-4147-8a15-e738c84d35a9",
       "ward_no": "18",
-      "ward_name_en": "Odumbra",
-      "ward_name_ml": "ഒടുമ്പ്ര"
+      "name_en": "Odumbra",
+      "name_ml": "ഒടുമ്പ്ര"
     },
     {
-      "ward_id": "232c7b5b-a5a9-4353-beeb-79ca5a60c64c",
+      "id": "232c7b5b-a5a9-4353-beeb-79ca5a60c64c",
       "ward_no": "19",
-      "ward_name_en": "Kambiliparambu",
-      "ward_name_ml": "കമ്പിളിപറമ്പ്"
+      "name_en": "Kambiliparambu",
+      "name_ml": "കമ്പിളിപറമ്പ്"
     },
     {
-      "ward_id": "1f4a88cd-e3c6-48e0-a804-7992ba6d1d17",
+      "id": "1f4a88cd-e3c6-48e0-a804-7992ba6d1d17",
       "ward_no": "20",
-      "ward_name_en": "Kunnathupalam",
-      "ward_name_ml": "കുന്നത്തുപാലം"
+      "name_en": "Kunnathupalam",
+      "name_ml": "കുന്നത്തുപാലം"
     },
     {
-      "ward_id": "f8f53b45-902b-4b4d-b472-514ea13a18a8",
+      "id": "f8f53b45-902b-4b4d-b472-514ea13a18a8",
       "ward_no": "21",
-      "ward_name_en": "M.G.Nagar",
-      "ward_name_ml": "എം.ജി.നഗര്‍"
+      "name_en": "M.G.Nagar",
+      "name_ml": "എം.ജി.നഗര്‍"
     },
     {
-      "ward_id": "ba064d23-1fe9-44e2-bbc2-817a361c891f",
+      "id": "ba064d23-1fe9-44e2-bbc2-817a361c891f",
       "ward_no": "22",
-      "ward_name_en": "Mathara",
-      "ward_name_ml": "മാത്തറ"
+      "name_en": "Mathara",
+      "name_ml": "മാത്തറ"
     },
     {
-      "ward_id": "94fc9f6d-058b-47ba-81be-f46b6f88417e",
+      "id": "94fc9f6d-058b-47ba-81be-f46b6f88417e",
       "ward_no": "23",
-      "ward_name_en": "Konthanari",
-      "ward_name_ml": "കോന്തനാരി"
+      "name_en": "Konthanari",
+      "name_ml": "കോന്തനാരി"
     }
   ],
   "towns": [],

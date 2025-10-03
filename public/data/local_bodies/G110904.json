@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110904",
-  "local_body_name_en": "Nanminda",
-  "local_body_name_ml": "നന്മണ്ട",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G110904",
+  "name_en": "Nanminda",
+  "name_ml": "നന്മണ്ട",
+  "assembly_id": "26",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "26",
-    "assembly_name_en": "Elathur",
-    "assembly_name_ml": "ഏലത്തൂർ",
-    "category": "Good"
+    "id": "26",
+    "name_en": "Elathur",
+    "name_ml": "ഏലത്തൂർ",
+    "assembly_category": {
+      "category": "Good"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "66381a7e-0277-4f8d-a159-803c3f37754f",
+      "id": "66381a7e-0277-4f8d-a159-803c3f37754f",
       "ward_no": "1",
-      "ward_name_en": "Kolathur",
-      "ward_name_ml": "കൊളത്തൂര്‍"
+      "name_en": "Kolathur",
+      "name_ml": "കൊളത്തൂര്‍"
     },
     {
-      "ward_id": "b296ca48-0dd8-4089-b833-61c7f857254d",
+      "id": "b296ca48-0dd8-4089-b833-61c7f857254d",
       "ward_no": "2",
-      "ward_name_en": "Kariyanimala",
-      "ward_name_ml": "കരിയാണിമല"
+      "name_en": "Kariyanimala",
+      "name_ml": "കരിയാണിമല"
     },
     {
-      "ward_id": "7c79580d-ad3e-4f2a-8b99-759e093f3d9a",
+      "id": "7c79580d-ad3e-4f2a-8b99-759e093f3d9a",
       "ward_no": "3",
-      "ward_name_en": "Koliyod",
-      "ward_name_ml": "കോളിയോട്"
+      "name_en": "Koliyod",
+      "name_ml": "കോളിയോട്"
     },
     {
-      "ward_id": "75baceba-ac91-41ad-8d68-1bad1dbc6da4",
+      "id": "75baceba-ac91-41ad-8d68-1bad1dbc6da4",
       "ward_no": "4",
-      "ward_name_en": "Arayanapoyil",
-      "ward_name_ml": "അരയനപൊയില്‍"
+      "name_en": "Arayanapoyil",
+      "name_ml": "അരയനപൊയില്‍"
     },
     {
-      "ward_id": "20993c30-7e74-41d1-943f-0a39784debdb",
+      "id": "20993c30-7e74-41d1-943f-0a39784debdb",
       "ward_no": "5",
-      "ward_name_en": "Thiyyakkoth",
-      "ward_name_ml": "തിയ്യക്കോത്ത്"
+      "name_en": "Thiyyakkoth",
+      "name_ml": "തിയ്യക്കോത്ത്"
     },
     {
-      "ward_id": "4121f93f-1525-4775-a7fa-5482f58207fa",
+      "id": "4121f93f-1525-4775-a7fa-5482f58207fa",
       "ward_no": "6",
-      "ward_name_en": "Kunnatheru",
-      "ward_name_ml": "കുന്നത്തെരു"
+      "name_en": "Kunnatheru",
+      "name_ml": "കുന്നത്തെരു"
     },
     {
-      "ward_id": "c5f65947-14d1-4f2b-a56e-72bc386213ae",
+      "id": "c5f65947-14d1-4f2b-a56e-72bc386213ae",
       "ward_no": "7",
-      "ward_name_en": "Nanminda 14",
-      "ward_name_ml": "നന്മണ്ട 14"
+      "name_en": "Nanminda 14",
+      "name_ml": "നന്മണ്ട 14"
     },
     {
-      "ward_id": "4c555681-73db-4bf8-bcc7-587fe0f4e97f",
+      "id": "4c555681-73db-4bf8-bcc7-587fe0f4e97f",
       "ward_no": "8",
-      "ward_name_en": "Thali",
-      "ward_name_ml": "തളി"
+      "name_en": "Thali",
+      "name_ml": "തളി"
     },
     {
-      "ward_id": "53b388d3-6cfc-4c00-b9b1-a04500393a34",
+      "id": "53b388d3-6cfc-4c00-b9b1-a04500393a34",
       "ward_no": "9",
-      "ward_name_en": "Nanminda",
-      "ward_name_ml": "നന്മണ്ട"
+      "name_en": "Nanminda",
+      "name_ml": "നന്മണ്ട"
     },
     {
-      "ward_id": "a187869b-f766-4b83-bb14-ec2c18cc27c2",
+      "id": "a187869b-f766-4b83-bb14-ec2c18cc27c2",
       "ward_no": "10",
-      "ward_name_en": "Ehzukulam",
-      "ward_name_ml": "ഏഴുകുളം"
+      "name_en": "Ehzukulam",
+      "name_ml": "ഏഴുകുളം"
     },
     {
-      "ward_id": "47eee205-b3e1-407b-959c-2bfef4209a2e",
+      "id": "47eee205-b3e1-407b-959c-2bfef4209a2e",
       "ward_no": "11",
-      "ward_name_en": "National",
-      "ward_name_ml": "നേഷണല്‍"
+      "name_en": "National",
+      "name_ml": "നേഷണല്‍"
     },
     {
-      "ward_id": "21b07310-63aa-4740-a505-5ef36d2339cb",
+      "id": "21b07310-63aa-4740-a505-5ef36d2339cb",
       "ward_no": "12",
-      "ward_name_en": "Nanminda 12",
-      "ward_name_ml": "നന്മണ്ട 12"
+      "name_en": "Nanminda 12",
+      "name_ml": "നന്മണ്ട 12"
     },
     {
-      "ward_id": "4f17bd54-b4d0-40e6-834e-808673254487",
+      "id": "4f17bd54-b4d0-40e6-834e-808673254487",
       "ward_no": "13",
-      "ward_name_en": "Narakassery",
-      "ward_name_ml": "നാരകശ്ശേരി"
+      "name_en": "Narakassery",
+      "name_ml": "നാരകശ്ശേരി"
     },
     {
-      "ward_id": "dc9fa433-b74a-4f88-9c69-014fa54eb084",
+      "id": "dc9fa433-b74a-4f88-9c69-014fa54eb084",
       "ward_no": "14",
-      "ward_name_en": "Pookkunnu",
-      "ward_name_ml": "പൂക്കുന്ന്"
+      "name_en": "Pookkunnu",
+      "name_ml": "പൂക്കുന്ന്"
     },
     {
-      "ward_id": "f1c8f69c-acd1-42ce-9137-dca99d09606b",
+      "id": "f1c8f69c-acd1-42ce-9137-dca99d09606b",
       "ward_no": "15",
-      "ward_name_en": "Karinkalikavu",
-      "ward_name_ml": "കരിങ്കാളികാവ്"
+      "name_en": "Karinkalikavu",
+      "name_ml": "കരിങ്കാളികാവ്"
     },
     {
-      "ward_id": "478b1b9c-4fa9-4f88-819c-9eb9c56c20e0",
+      "id": "478b1b9c-4fa9-4f88-819c-9eb9c56c20e0",
       "ward_no": "16",
-      "ward_name_en": "Munnoorkkayil",
-      "ward_name_ml": "മുന്നൂര്‍ക്കയില്‍"
+      "name_en": "Munnoorkkayil",
+      "name_ml": "മുന്നൂര്‍ക്കയില്‍"
     },
     {
-      "ward_id": "a6800002-d428-425d-ac57-0267a0b9b05d",
+      "id": "a6800002-d428-425d-ac57-0267a0b9b05d",
       "ward_no": "17",
-      "ward_name_en": "Cheekkilode",
-      "ward_name_ml": "ചീക്കിലോട്"
+      "name_en": "Cheekkilode",
+      "name_ml": "ചീക്കിലോട്"
     }
   ],
   "towns": [],

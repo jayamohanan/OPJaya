@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G010507",
-  "local_body_name_en": "Tholicode",
-  "local_body_name_ml": "തൊളിക്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010507",
+  "name_en": "Tholicode",
+  "name_ml": "തൊളിക്കോട്",
+  "assembly_id": "136",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "136",
-    "assembly_name_en": "Aruvikkara",
-    "assembly_name_ml": "അരുവിക്കര",
-    "category": "Normal"
+    "id": "136",
+    "name_en": "Aruvikkara",
+    "name_ml": "അരുവിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bbf28a59-aac8-411f-be5b-8cc686799c04",
+      "id": "bbf28a59-aac8-411f-be5b-8cc686799c04",
       "ward_no": "1",
-      "ward_name_en": "Pulichamala",
-      "ward_name_ml": "പുളിച്ചാമല"
+      "name_en": "Pulichamala",
+      "name_ml": "പുളിച്ചാമല"
     },
     {
-      "ward_id": "e0729c01-6b2c-4dcd-8458-2d34067a7d5f",
+      "id": "e0729c01-6b2c-4dcd-8458-2d34067a7d5f",
       "ward_no": "2",
-      "ward_name_en": "Parappara",
-      "ward_name_ml": "പരപ്പാറ"
+      "name_en": "Parappara",
+      "name_ml": "പരപ്പാറ"
     },
     {
-      "ward_id": "3e6fdc53-7187-48ac-ad00-40c2e4cd2d28",
+      "id": "3e6fdc53-7187-48ac-ad00-40c2e4cd2d28",
       "ward_no": "3",
-      "ward_name_en": "Chayam",
-      "ward_name_ml": "ചായം"
+      "name_en": "Chayam",
+      "name_ml": "ചായം"
     },
     {
-      "ward_id": "65ca4dbb-ce07-428b-bdc8-088f13b36db1",
+      "id": "65ca4dbb-ce07-428b-bdc8-088f13b36db1",
       "ward_no": "4",
-      "ward_name_en": "Thottumukku",
-      "ward_name_ml": "തോട്ടുമുക്ക്"
+      "name_en": "Thottumukku",
+      "name_ml": "തോട്ടുമുക്ക്"
     },
     {
-      "ward_id": "5a1ba994-c3c2-4146-ad8b-e763956e41a4",
+      "id": "5a1ba994-c3c2-4146-ad8b-e763956e41a4",
       "ward_no": "5",
-      "ward_name_en": "Pulimoodu",
-      "ward_name_ml": "പുളിമൂട്"
+      "name_en": "Pulimoodu",
+      "name_ml": "പുളിമൂട്"
     },
     {
-      "ward_id": "906508c1-e599-4f7a-a55e-e5252d589f09",
+      "id": "906508c1-e599-4f7a-a55e-e5252d589f09",
       "ward_no": "6",
-      "ward_name_en": "Malayadi",
-      "ward_name_ml": "മലയടി"
+      "name_en": "Malayadi",
+      "name_ml": "മലയടി"
     },
     {
-      "ward_id": "11ef4b79-3aea-4caa-b678-e81b4c315da1",
+      "id": "11ef4b79-3aea-4caa-b678-e81b4c315da1",
       "ward_no": "7",
-      "ward_name_en": "Vinobanikethan",
-      "ward_name_ml": "വിനോബാനികേതന്‍"
+      "name_en": "Vinobanikethan",
+      "name_ml": "വിനോബാനികേതന്‍"
     },
     {
-      "ward_id": "c29959f5-f624-4ffe-9e40-3f6692e71606",
+      "id": "c29959f5-f624-4ffe-9e40-3f6692e71606",
       "ward_no": "8",
-      "ward_name_en": "Chettiyampara",
-      "ward_name_ml": "ചെട്ടിയാംപാറ"
+      "name_en": "Chettiyampara",
+      "name_ml": "ചെട്ടിയാംപാറ"
     },
     {
-      "ward_id": "dfb39d95-9a9d-46e6-84fb-a9278ffeb646",
+      "id": "dfb39d95-9a9d-46e6-84fb-a9278ffeb646",
       "ward_no": "9",
-      "ward_name_en": "Thachancode",
-      "ward_name_ml": "തച്ചന്‍കോട്"
+      "name_en": "Thachancode",
+      "name_ml": "തച്ചന്‍കോട്"
     },
     {
-      "ward_id": "2c54b5c9-ce3c-4947-8656-a46ca456e6c6",
+      "id": "2c54b5c9-ce3c-4947-8656-a46ca456e6c6",
       "ward_no": "10",
-      "ward_name_en": "Kaniyaramcode",
-      "ward_name_ml": "കണിയാരംകോട്"
+      "name_en": "Kaniyaramcode",
+      "name_ml": "കണിയാരംകോട്"
     },
     {
-      "ward_id": "5d61e295-15dd-465e-8011-71bcc6177cd0",
+      "id": "5d61e295-15dd-465e-8011-71bcc6177cd0",
       "ward_no": "11",
-      "ward_name_en": "Panacode",
-      "ward_name_ml": "പനയ്ക്കോട്"
+      "name_en": "Panacode",
+      "name_ml": "പനയ്ക്കോട്"
     },
     {
-      "ward_id": "dd5cf815-f445-4d97-8441-27e5ecf9ff47",
+      "id": "dd5cf815-f445-4d97-8441-27e5ecf9ff47",
       "ward_no": "12",
-      "ward_name_en": "Tholicode",
-      "ward_name_ml": "തൊളിക്കോട്"
+      "name_en": "Tholicode",
+      "name_ml": "തൊളിക്കോട്"
     },
     {
-      "ward_id": "f26c8097-4fa3-4ca1-a546-625c6ad17a8a",
+      "id": "f26c8097-4fa3-4ca1-a546-625c6ad17a8a",
       "ward_no": "13",
-      "ward_name_en": "Tholicode Town",
-      "ward_name_ml": "തൊളിക്കോട് ഠൌണ്‍"
+      "name_en": "Tholicode Town",
+      "name_ml": "തൊളിക്കോട് ഠൌണ്‍"
     },
     {
-      "ward_id": "723fb33e-d195-421c-81a6-6eb91ca18a72",
+      "id": "723fb33e-d195-421c-81a6-6eb91ca18a72",
       "ward_no": "14",
-      "ward_name_en": "Anappetty",
-      "ward_name_ml": "ആനപ്പെട്ടി"
+      "name_en": "Anappetty",
+      "name_ml": "ആനപ്പെട്ടി"
     },
     {
-      "ward_id": "fb7d3ede-92eb-465b-a56a-a5adbbdcbb4e",
+      "id": "fb7d3ede-92eb-465b-a56a-a5adbbdcbb4e",
       "ward_no": "15",
-      "ward_name_en": "Thevanpara",
-      "ward_name_ml": "തേവന്‍പാറ"
+      "name_en": "Thevanpara",
+      "name_ml": "തേവന്‍പാറ"
     },
     {
-      "ward_id": "9e6737c1-d9a7-4b13-8bcf-394db53a1e47",
+      "id": "9e6737c1-d9a7-4b13-8bcf-394db53a1e47",
       "ward_no": "16",
-      "ward_name_en": "Thuruthy",
-      "ward_name_ml": "തുരുത്തി"
+      "name_en": "Thuruthy",
+      "name_ml": "തുരുത്തി"
     }
   ],
   "towns": [],

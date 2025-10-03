@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G040801",
-  "local_body_name_en": "Mulakuzha",
-  "local_body_name_ml": "മുളക്കുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G040801",
+  "name_en": "Mulakuzha",
+  "name_ml": "മുളക്കുഴ",
+  "assembly_id": "110",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "110",
-    "assembly_name_en": "Chengannur",
-    "assembly_name_ml": "ചെങ്ങന്നൂർ",
-    "category": "Normal"
+    "id": "110",
+    "name_en": "Chengannur",
+    "name_ml": "ചെങ്ങന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6e343552-2649-47a4-bdc7-c33d46a4cc4a",
+      "id": "6e343552-2649-47a4-bdc7-c33d46a4cc4a",
       "ward_no": "1",
-      "ward_name_en": "Nikarumpuram",
-      "ward_name_ml": "നികരുംപുറം"
+      "name_en": "Nikarumpuram",
+      "name_ml": "നികരുംപുറം"
     },
     {
-      "ward_id": "064b68b1-1914-48e0-890d-299791df1efc",
+      "id": "064b68b1-1914-48e0-890d-299791df1efc",
       "ward_no": "2",
-      "ward_name_en": "Pallikal",
-      "ward_name_ml": "പള്ളിക്കല്‍"
+      "name_en": "Pallikal",
+      "name_ml": "പള്ളിക്കല്‍"
     },
     {
-      "ward_id": "6dedee4b-f79d-4b8b-b426-9f2db492945b",
+      "id": "6dedee4b-f79d-4b8b-b426-9f2db492945b",
       "ward_no": "3",
-      "ward_name_en": "Mulakuzha",
-      "ward_name_ml": "മുളക്കുഴ"
+      "name_en": "Mulakuzha",
+      "name_ml": "മുളക്കുഴ"
     },
     {
-      "ward_id": "c04b6e38-afb1-44bd-b4bc-fd781d97541c",
+      "id": "c04b6e38-afb1-44bd-b4bc-fd781d97541c",
       "ward_no": "4",
-      "ward_name_en": "Pallipadi",
-      "ward_name_ml": "പള്ളിപ്പടി"
+      "name_en": "Pallipadi",
+      "name_ml": "പള്ളിപ്പടി"
     },
     {
-      "ward_id": "9b498542-08c8-4dcc-bfb7-7b00070686e3",
+      "id": "9b498542-08c8-4dcc-bfb7-7b00070686e3",
       "ward_no": "5",
-      "ward_name_en": "Pattangad",
-      "ward_name_ml": "പട്ടങ്ങാട്"
+      "name_en": "Pattangad",
+      "name_ml": "പട്ടങ്ങാട്"
     },
     {
-      "ward_id": "2c481451-01c5-4c39-a8a7-6f7c2d145024",
+      "id": "2c481451-01c5-4c39-a8a7-6f7c2d145024",
       "ward_no": "6",
-      "ward_name_en": "Kudakkamaram",
-      "ward_name_ml": "കുടയ്ക്കാമരം"
+      "name_en": "Kudakkamaram",
+      "name_ml": "കുടയ്ക്കാമരം"
     },
     {
-      "ward_id": "51138141-8bd6-40b6-8c05-8cf45a9e8899",
+      "id": "51138141-8bd6-40b6-8c05-8cf45a9e8899",
       "ward_no": "7",
-      "ward_name_en": "Mannarakkode",
-      "ward_name_ml": "മണ്ണാറക്കോട്"
+      "name_en": "Mannarakkode",
+      "name_ml": "മണ്ണാറക്കോട്"
     },
     {
-      "ward_id": "a4968d24-6887-4496-8b1a-b6c500dcbefd",
+      "id": "a4968d24-6887-4496-8b1a-b6c500dcbefd",
       "ward_no": "8",
-      "ward_name_en": "Karakkad",
-      "ward_name_ml": "കാരയ്ക്കാട്"
+      "name_en": "Karakkad",
+      "name_ml": "കാരയ്ക്കാട്"
     },
     {
-      "ward_id": "d3bb9fba-becb-4916-a624-f0da7bf7deca",
+      "id": "d3bb9fba-becb-4916-a624-f0da7bf7deca",
       "ward_no": "9",
-      "ward_name_en": "Karimpinapoika",
-      "ward_name_ml": "കരിമ്പിനാംപൊയ്ക"
+      "name_en": "Karimpinapoika",
+      "name_ml": "കരിമ്പിനാംപൊയ്ക"
     },
     {
-      "ward_id": "a3bb0781-35ca-4676-a61c-3bb7c77f9520",
+      "id": "a3bb0781-35ca-4676-a61c-3bb7c77f9520",
       "ward_no": "10",
-      "ward_name_en": "Kadinavila",
-      "ward_name_ml": "കഠിനാവിള"
+      "name_en": "Kadinavila",
+      "name_ml": "കഠിനാവിള"
     },
     {
-      "ward_id": "fa0dd6fb-5a1c-42a5-96cb-7d45feb59e79",
+      "id": "fa0dd6fb-5a1c-42a5-96cb-7d45feb59e79",
       "ward_no": "11",
-      "ward_name_en": "Aranthakkad",
-      "ward_name_ml": "അറന്തക്കാട്"
+      "name_en": "Aranthakkad",
+      "name_ml": "അറന്തക്കാട്"
     },
     {
-      "ward_id": "e47e2551-6785-459a-9291-ef4bc4d0fb0e",
+      "id": "e47e2551-6785-459a-9291-ef4bc4d0fb0e",
       "ward_no": "12",
-      "ward_name_en": "Thazhambhagam",
-      "ward_name_ml": "താഴാംഭാഗം"
+      "name_en": "Thazhambhagam",
+      "name_ml": "താഴാംഭാഗം"
     },
     {
-      "ward_id": "9303a5f1-3f3f-480f-a434-d845576fc82e",
+      "id": "9303a5f1-3f3f-480f-a434-d845576fc82e",
       "ward_no": "13",
-      "ward_name_en": "Kalarithara",
-      "ward_name_ml": "കളരിത്തറ"
+      "name_en": "Kalarithara",
+      "name_ml": "കളരിത്തറ"
     },
     {
-      "ward_id": "a02340fa-a964-4a0e-8063-c5553d5709b7",
+      "id": "a02340fa-a964-4a0e-8063-c5553d5709b7",
       "ward_no": "14",
-      "ward_name_en": "Areekkara",
-      "ward_name_ml": "അരീക്കര"
+      "name_en": "Areekkara",
+      "name_ml": "അരീക്കര"
     },
     {
-      "ward_id": "6a33c9c8-a8b8-4dcd-9825-65de5fcce0dd",
+      "id": "6a33c9c8-a8b8-4dcd-9825-65de5fcce0dd",
       "ward_no": "15",
-      "ward_name_en": "Valiyaparambu",
-      "ward_name_ml": "വലിയപറമ്പ്"
+      "name_en": "Valiyaparambu",
+      "name_ml": "വലിയപറമ്പ്"
     },
     {
-      "ward_id": "8ea1cbad-8bef-413b-ae85-92880b417711",
+      "id": "8ea1cbad-8bef-413b-ae85-92880b417711",
       "ward_no": "16",
-      "ward_name_en": "Peringala",
-      "ward_name_ml": "പെരിങ്ങാല"
+      "name_en": "Peringala",
+      "name_ml": "പെരിങ്ങാല"
     },
     {
-      "ward_id": "2ac11167-573a-46c4-9ea4-325a7eb6647a",
+      "id": "2ac11167-573a-46c4-9ea4-325a7eb6647a",
       "ward_no": "17",
-      "ward_name_en": "Pooppankara",
-      "ward_name_ml": "പൂപ്പന്‍കര"
+      "name_en": "Pooppankara",
+      "name_ml": "പൂപ്പന്‍കര"
     },
     {
-      "ward_id": "df8d8c55-3186-44ab-b01a-d9f0f5cd43be",
+      "id": "df8d8c55-3186-44ab-b01a-d9f0f5cd43be",
       "ward_no": "18",
-      "ward_name_en": "Piralasseri",
-      "ward_name_ml": "പിരളശ്ശേരി"
+      "name_en": "Piralasseri",
+      "name_ml": "പിരളശ്ശേരി"
     }
   ],
   "towns": [],

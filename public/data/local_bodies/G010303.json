@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G010303",
-  "local_body_name_en": "Chirayinkeezhu",
-  "local_body_name_ml": "ചിറയിന്‍കീഴ്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "129",
-    "assembly_name_en": "Chirayinkeezhu",
-    "assembly_name_ml": "ചിറയിൻകീഴ്",
+  "id": "G010303",
+  "name_en": "Chirayinkeezhu",
+  "name_ml": "ചിറയിന്‍കീഴ്",
+  "assembly_id": "129",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "129",
+    "name_en": "Chirayinkeezhu",
+    "name_ml": "ചിറയിൻകീഴ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ffa674b2-03e5-4aa7-b872-7b319fb6af12",
+      "id": "ffa674b2-03e5-4aa7-b872-7b319fb6af12",
       "ward_no": "1",
-      "ward_name_en": "Guruvihar",
-      "ward_name_ml": "ഗുരുവിഹാര്‍"
+      "name_en": "Guruvihar",
+      "name_ml": "ഗുരുവിഹാര്‍"
     },
     {
-      "ward_id": "f8a08563-2c6b-4412-98fe-10df3ec9b13d",
+      "id": "f8a08563-2c6b-4412-98fe-10df3ec9b13d",
       "ward_no": "2",
-      "ward_name_en": "Pazhanchira",
-      "ward_name_ml": "പഴഞ്ചിറ"
+      "name_en": "Pazhanchira",
+      "name_ml": "പഴഞ്ചിറ"
     },
     {
-      "ward_id": "f622a7ee-5623-4373-9f7e-1c6b4f7224e8",
+      "id": "f622a7ee-5623-4373-9f7e-1c6b4f7224e8",
       "ward_no": "3",
-      "ward_name_en": "Melkadakkavoor",
-      "ward_name_ml": "മേല്‍കടയ്ക്കാവൂര്‍"
+      "name_en": "Melkadakkavoor",
+      "name_ml": "മേല്‍കടയ്ക്കാവൂര്‍"
     },
     {
-      "ward_id": "65275f95-b7d8-4a6e-9c3e-b294bd21a3fa",
+      "id": "65275f95-b7d8-4a6e-9c3e-b294bd21a3fa",
       "ward_no": "4",
-      "ward_name_en": "Altharamoodu",
-      "ward_name_ml": "ആല്‍ത്തറമൂട്"
+      "name_en": "Altharamoodu",
+      "name_ml": "ആല്‍ത്തറമൂട്"
     },
     {
-      "ward_id": "a21ff7d3-c6a5-4085-a823-0730fc75895d",
+      "id": "a21ff7d3-c6a5-4085-a823-0730fc75895d",
       "ward_no": "5",
-      "ward_name_en": "Sarkara",
-      "ward_name_ml": "ശാര്‍ക്കര"
+      "name_en": "Sarkara",
+      "name_ml": "ശാര്‍ക്കര"
     },
     {
-      "ward_id": "3d316b0d-4bc1-4423-a269-660915b9a320",
+      "id": "3d316b0d-4bc1-4423-a269-660915b9a320",
       "ward_no": "6",
-      "ward_name_en": "Chirayinkeezhu",
-      "ward_name_ml": "ചിറയിന്‍കീഴ്"
+      "name_en": "Chirayinkeezhu",
+      "name_ml": "ചിറയിന്‍കീഴ്"
     },
     {
-      "ward_id": "a512e90b-2dbd-42bf-8753-63420cd5b083",
+      "id": "a512e90b-2dbd-42bf-8753-63420cd5b083",
       "ward_no": "7",
-      "ward_name_en": "Valiyakada",
-      "ward_name_ml": "വലിയക്കട"
+      "name_en": "Valiyakada",
+      "name_ml": "വലിയക്കട"
     },
     {
-      "ward_id": "287f2144-0b44-4697-b5da-cc3213d2270d",
+      "id": "287f2144-0b44-4697-b5da-cc3213d2270d",
       "ward_no": "8",
-      "ward_name_en": "Kottapuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottapuram",
+      "name_ml": "കോട്ടപ്പുറം"
     },
     {
-      "ward_id": "90973e4f-8533-45d4-bba6-2beb00ec43c5",
+      "id": "90973e4f-8533-45d4-bba6-2beb00ec43c5",
       "ward_no": "9",
-      "ward_name_en": "Kadakom",
-      "ward_name_ml": "കടകം"
+      "name_en": "Kadakom",
+      "name_ml": "കടകം"
     },
     {
-      "ward_id": "35dd983d-a8b1-489b-8da0-3a971434282d",
+      "id": "35dd983d-a8b1-489b-8da0-3a971434282d",
       "ward_no": "10",
-      "ward_name_en": "Ottapana",
-      "ward_name_ml": "ഒറ്റപ്പന"
+      "name_en": "Ottapana",
+      "name_ml": "ഒറ്റപ്പന"
     },
     {
-      "ward_id": "080e5e88-fedf-457f-bf59-dd0017d0904a",
+      "id": "080e5e88-fedf-457f-bf59-dd0017d0904a",
       "ward_no": "11",
-      "ward_name_en": "Perumathura",
-      "ward_name_ml": "പെരുമാതുറ"
+      "name_en": "Perumathura",
+      "name_ml": "പെരുമാതുറ"
     },
     {
-      "ward_id": "e154eec2-22d3-4b0c-affd-b2607e9ae95c",
+      "id": "e154eec2-22d3-4b0c-affd-b2607e9ae95c",
       "ward_no": "12",
-      "ward_name_en": "Pozhikara",
-      "ward_name_ml": "പൊഴിക്കര"
+      "name_en": "Pozhikara",
+      "name_ml": "പൊഴിക്കര"
     },
     {
-      "ward_id": "46bdb58c-be96-44a2-9977-460071e9bcae",
+      "id": "46bdb58c-be96-44a2-9977-460071e9bcae",
       "ward_no": "13",
-      "ward_name_en": "Pulunthuruthi",
-      "ward_name_ml": "പുളുംതുരുത്തി"
+      "name_en": "Pulunthuruthi",
+      "name_ml": "പുളുംതുരുത്തി"
     },
     {
-      "ward_id": "490184ca-9348-40b0-8743-3019bd0f4cdf",
+      "id": "490184ca-9348-40b0-8743-3019bd0f4cdf",
       "ward_no": "14",
-      "ward_name_en": "Muthalapozhi",
-      "ward_name_ml": "മുതലപ്പൊഴി"
+      "name_en": "Muthalapozhi",
+      "name_ml": "മുതലപ്പൊഴി"
     },
     {
-      "ward_id": "2e40ed60-a5ed-45f4-95c7-23fd8adc493c",
+      "id": "2e40ed60-a5ed-45f4-95c7-23fd8adc493c",
       "ward_no": "15",
-      "ward_name_en": "Arayathuruthi",
-      "ward_name_ml": "അരയത്തുരുത്തി"
+      "name_en": "Arayathuruthi",
+      "name_ml": "അരയത്തുരുത്തി"
     },
     {
-      "ward_id": "730dfc77-440e-4d73-945c-4fe1b90abed8",
+      "id": "730dfc77-440e-4d73-945c-4fe1b90abed8",
       "ward_no": "16",
-      "ward_name_en": "Puthukkari",
-      "ward_name_ml": "പുതുക്കരി"
+      "name_en": "Puthukkari",
+      "name_ml": "പുതുക്കരി"
     },
     {
-      "ward_id": "4dcb5eb1-c528-418b-94f1-b21f22d89b06",
+      "id": "4dcb5eb1-c528-418b-94f1-b21f22d89b06",
       "ward_no": "17",
-      "ward_name_en": "Pandakasala",
-      "ward_name_ml": "പണ്ടകശാല"
+      "name_en": "Pandakasala",
+      "name_ml": "പണ്ടകശാല"
     },
     {
-      "ward_id": "3dd89385-3d46-4c67-8bcf-0a4adaa5322f",
+      "id": "3dd89385-3d46-4c67-8bcf-0a4adaa5322f",
       "ward_no": "18",
-      "ward_name_en": "Anathalavattom",
-      "ward_name_ml": "ആനത്തലവട്ടം"
+      "name_en": "Anathalavattom",
+      "name_ml": "ആനത്തലവട്ടം"
     },
     {
-      "ward_id": "78dd26a2-0aee-4285-abbe-7d1b3333e74b",
+      "id": "78dd26a2-0aee-4285-abbe-7d1b3333e74b",
       "ward_no": "19",
-      "ward_name_en": "Kalaposhani",
-      "ward_name_ml": "കലാപോഷണി"
+      "name_en": "Kalaposhani",
+      "name_ml": "കലാപോഷണി"
     }
   ],
   "towns": [],

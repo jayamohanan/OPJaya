@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G070302",
-  "local_body_name_en": "Thuravoor",
-  "local_body_name_ml": "തുറവൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G070302",
+  "name_en": "Thuravoor",
+  "name_ml": "തുറവൂര്‍",
+  "assembly_id": "75",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "75",
-    "assembly_name_en": "Angamaly",
-    "assembly_name_ml": "അങ്കമാലി",
-    "category": "Normal"
+    "id": "75",
+    "name_en": "Angamaly",
+    "name_ml": "അങ്കമാലി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "25e0cfcb-b7dd-4fc5-86af-54afc8acde81",
+      "id": "25e0cfcb-b7dd-4fc5-86af-54afc8acde81",
       "ward_no": "13",
-      "ward_name_en": "Thuravoor West",
-      "ward_name_ml": "തുറവൂര്‍ വെസ്റ്റ്"
+      "name_en": "Thuravoor West",
+      "name_ml": "തുറവൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "fd9a6895-9b9e-44e1-8380-e84bef67423c",
+      "id": "fd9a6895-9b9e-44e1-8380-e84bef67423c",
       "ward_no": "1",
-      "ward_name_en": "Vathakkad",
-      "ward_name_ml": "വാതക്കാട്"
+      "name_en": "Vathakkad",
+      "name_ml": "വാതക്കാട്"
     },
     {
-      "ward_id": "0ecc4847-9116-43bc-8eaa-1943f0d7b0d6",
+      "id": "0ecc4847-9116-43bc-8eaa-1943f0d7b0d6",
       "ward_no": "2",
-      "ward_name_en": "Anappara",
-      "ward_name_ml": "ആനപ്പാറ"
+      "name_en": "Anappara",
+      "name_ml": "ആനപ്പാറ"
     },
     {
-      "ward_id": "ed70c708-b5ac-4dae-a458-aaaa3bb7bd66",
+      "id": "ed70c708-b5ac-4dae-a458-aaaa3bb7bd66",
       "ward_no": "3",
-      "ward_name_en": "Thalakkottuparambu",
-      "ward_name_ml": "തലക്കോട്ട്പറമ്പ്"
+      "name_en": "Thalakkottuparambu",
+      "name_ml": "തലക്കോട്ട്പറമ്പ്"
     },
     {
-      "ward_id": "8cfa16ca-a890-4af7-8d35-a0712b03f3a6",
+      "id": "8cfa16ca-a890-4af7-8d35-a0712b03f3a6",
       "ward_no": "4",
-      "ward_name_en": "Yordhanapuram",
-      "ward_name_ml": "യോര്‍ദ്ദനാപുരം"
+      "name_en": "Yordhanapuram",
+      "name_ml": "യോര്‍ദ്ദനാപുരം"
     },
     {
-      "ward_id": "c0a0cbd0-9f26-4188-b396-7edd650746f5",
+      "id": "c0a0cbd0-9f26-4188-b396-7edd650746f5",
       "ward_no": "5",
-      "ward_name_en": "Sivajipuram",
-      "ward_name_ml": "ശിവജിപുരം"
+      "name_en": "Sivajipuram",
+      "name_ml": "ശിവജിപുരം"
     },
     {
-      "ward_id": "a31e9b40-18fa-46ea-b34b-8d6cef25cc00",
+      "id": "a31e9b40-18fa-46ea-b34b-8d6cef25cc00",
       "ward_no": "6",
-      "ward_name_en": "Peringamparambu",
-      "ward_name_ml": "പെരിങ്ങാംപറമ്പ്"
+      "name_en": "Peringamparambu",
+      "name_ml": "പെരിങ്ങാംപറമ്പ്"
     },
     {
-      "ward_id": "1d5bf045-893a-449b-b2af-54d2b4fa6540",
+      "id": "1d5bf045-893a-449b-b2af-54d2b4fa6540",
       "ward_no": "7",
-      "ward_name_en": "Kidangoor",
-      "ward_name_ml": "കിടങ്ങൂര്‍"
+      "name_en": "Kidangoor",
+      "name_ml": "കിടങ്ങൂര്‍"
     },
     {
-      "ward_id": "82da4c0e-efd3-49b6-a47c-8a0bf2da60d4",
+      "id": "82da4c0e-efd3-49b6-a47c-8a0bf2da60d4",
       "ward_no": "8",
-      "ward_name_en": "Kidangoor South",
-      "ward_name_ml": "കിടങ്ങൂര്‍ സൌത്ത്"
+      "name_en": "Kidangoor South",
+      "name_ml": "കിടങ്ങൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "fa70e9b6-63e3-4015-96c1-00625784dc91",
+      "id": "fa70e9b6-63e3-4015-96c1-00625784dc91",
       "ward_no": "9",
-      "ward_name_en": "Kidangoor West",
-      "ward_name_ml": "കിടങ്ങൂര്‍ വെസ്റ്റ്"
+      "name_en": "Kidangoor West",
+      "name_ml": "കിടങ്ങൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "00e835f3-7ff2-4120-92df-f0214ab162b3",
+      "id": "00e835f3-7ff2-4120-92df-f0214ab162b3",
       "ward_no": "10",
-      "ward_name_en": "Kidangoor North",
-      "ward_name_ml": "കിടങ്ങൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Kidangoor North",
+      "name_ml": "കിടങ്ങൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "ca32137a-a711-4052-856f-fa012a91221e",
+      "id": "ca32137a-a711-4052-856f-fa012a91221e",
       "ward_no": "11",
-      "ward_name_en": "Pazhopongue",
-      "ward_name_ml": "പഴോപൊങ്ങ്"
+      "name_en": "Pazhopongue",
+      "name_ml": "പഴോപൊങ്ങ്"
     },
     {
-      "ward_id": "f30bde45-4ef5-45fd-b0cf-6dd7a7fc0df9",
+      "id": "f30bde45-4ef5-45fd-b0cf-6dd7a7fc0df9",
       "ward_no": "12",
-      "ward_name_en": "Kidangoor East",
-      "ward_name_ml": "കിടങ്ങൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Kidangoor East",
+      "name_ml": "കിടങ്ങൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "c2c95bf9-c1ff-4ed3-a849-b0d3d4448112",
+      "id": "c2c95bf9-c1ff-4ed3-a849-b0d3d4448112",
       "ward_no": "14",
-      "ward_name_en": "Thuravoor Town",
-      "ward_name_ml": "തുറവൂര്‍ ടൌണ്‍"
+      "name_en": "Thuravoor Town",
+      "name_ml": "തുറവൂര്‍ ടൌണ്‍"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G020705",
-  "local_body_name_en": "Munroethuruth",
-  "local_body_name_ml": "മണ്‍റോതുരുത്ത്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G020705",
+  "name_en": "Munroethuruth",
+  "name_ml": "മണ്‍റോതുരുത്ത്",
+  "assembly_id": "118",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "118",
-    "assembly_name_en": "Kunnathur",
-    "assembly_name_ml": "കുന്നത്തൂർ",
-    "category": "Normal"
+    "id": "118",
+    "name_en": "Kunnathur",
+    "name_ml": "കുന്നത്തൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4fbca809-b2e9-421c-86d6-8018320367d1",
+      "id": "4fbca809-b2e9-421c-86d6-8018320367d1",
       "ward_no": "1",
-      "ward_name_en": "Kidapram North",
-      "ward_name_ml": "കിടപ്രം വടക്ക്"
+      "name_en": "Kidapram North",
+      "name_ml": "കിടപ്രം വടക്ക്"
     },
     {
-      "ward_id": "22eff569-a41e-4acb-b75e-6e7f9db461ff",
+      "id": "22eff569-a41e-4acb-b75e-6e7f9db461ff",
       "ward_no": "2",
-      "ward_name_en": "Kidapram South",
-      "ward_name_ml": "കിടപ്രം തെക്ക്"
+      "name_en": "Kidapram South",
+      "name_ml": "കിടപ്രം തെക്ക്"
     },
     {
-      "ward_id": "c23be47e-354d-4ceb-afe5-411265549a2f",
+      "id": "c23be47e-354d-4ceb-afe5-411265549a2f",
       "ward_no": "3",
-      "ward_name_en": "Kandramkani",
-      "ward_name_ml": "കണ്‍ട്രാംകാണി"
+      "name_en": "Kandramkani",
+      "name_ml": "കണ്‍ട്രാംകാണി"
     },
     {
-      "ward_id": "992768d2-a955-4c86-ae98-a276a013855d",
+      "id": "992768d2-a955-4c86-ae98-a276a013855d",
       "ward_no": "4",
-      "ward_name_en": "Villimangalam West",
-      "ward_name_ml": "വില്ലിമംഗലം വെസ്റ്റ്"
+      "name_en": "Villimangalam West",
+      "name_ml": "വില്ലിമംഗലം വെസ്റ്റ്"
     },
     {
-      "ward_id": "c2239446-a6c8-4c25-85d4-b27eab9543f2",
+      "id": "c2239446-a6c8-4c25-85d4-b27eab9543f2",
       "ward_no": "5",
-      "ward_name_en": "Villimangalam",
-      "ward_name_ml": "വില്ലിമംഗലം"
+      "name_en": "Villimangalam",
+      "name_ml": "വില്ലിമംഗലം"
     },
     {
-      "ward_id": "d0abc0ed-7254-4cc2-ae2e-52626f195f8d",
+      "id": "d0abc0ed-7254-4cc2-ae2e-52626f195f8d",
       "ward_no": "6",
-      "ward_name_en": "Nenmeni East",
-      "ward_name_ml": "നെന്മേനി കിഴക്ക്"
+      "name_en": "Nenmeni East",
+      "name_ml": "നെന്മേനി കിഴക്ക്"
     },
     {
-      "ward_id": "4474b985-ad53-4302-bc76-6a39dec2501c",
+      "id": "4474b985-ad53-4302-bc76-6a39dec2501c",
       "ward_no": "7",
-      "ward_name_en": "Thoompum Mukham",
-      "ward_name_ml": "തൂമ്പുംമുഖം"
+      "name_en": "Thoompum Mukham",
+      "name_ml": "തൂമ്പുംമുഖം"
     },
     {
-      "ward_id": "0da6b9da-381c-4595-ad36-913e2310617c",
+      "id": "0da6b9da-381c-4595-ad36-913e2310617c",
       "ward_no": "8",
-      "ward_name_en": "Nenmeni",
-      "ward_name_ml": "നെന്മേനി"
+      "name_en": "Nenmeni",
+      "name_ml": "നെന്മേനി"
     },
     {
-      "ward_id": "259b5276-5212-45ba-8b0f-03ab7ec271da",
+      "id": "259b5276-5212-45ba-8b0f-03ab7ec271da",
       "ward_no": "9",
-      "ward_name_en": "Nenmeni South",
-      "ward_name_ml": "നെന്മേനി തെക്ക്"
+      "name_en": "Nenmeni South",
+      "name_ml": "നെന്മേനി തെക്ക്"
     },
     {
-      "ward_id": "b5a5f704-3e2d-4d40-bf0f-88e65ed34693",
+      "id": "b5a5f704-3e2d-4d40-bf0f-88e65ed34693",
       "ward_no": "10",
-      "ward_name_en": "Pattomthuruthu East",
-      "ward_name_ml": "പട്ടംതുരുത്ത് കിഴക്ക്"
+      "name_en": "Pattomthuruthu East",
+      "name_ml": "പട്ടംതുരുത്ത് കിഴക്ക്"
     },
     {
-      "ward_id": "77d76ddb-4211-4a29-b48d-4ff42066dde9",
+      "id": "77d76ddb-4211-4a29-b48d-4ff42066dde9",
       "ward_no": "11",
-      "ward_name_en": "Pezhumthuruthu",
-      "ward_name_ml": "പേഴുംതുരുത്ത്"
+      "name_en": "Pezhumthuruthu",
+      "name_ml": "പേഴുംതുരുത്ത്"
     },
     {
-      "ward_id": "b0648654-68fe-4c7e-b1a1-899f301347de",
+      "id": "b0648654-68fe-4c7e-b1a1-899f301347de",
       "ward_no": "12",
-      "ward_name_en": "Pattomthuruthu West",
-      "ward_name_ml": "പട്ടംതുരുത്ത് പടിഞ്ഞാറ്"
+      "name_en": "Pattomthuruthu West",
+      "name_ml": "പട്ടംതുരുത്ത് പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "9f0ff665-a06c-4640-955f-5a9bc4a6db0d",
+      "id": "9f0ff665-a06c-4640-955f-5a9bc4a6db0d",
       "ward_no": "13",
-      "ward_name_en": "Perungalam",
-      "ward_name_ml": "പെരുങ്ങാലം"
+      "name_en": "Perungalam",
+      "name_ml": "പെരുങ്ങാലം"
     }
   ],
   "towns": [],

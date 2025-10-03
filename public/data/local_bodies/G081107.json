@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G081107",
-  "local_body_name_en": "Varandarappilly",
-  "local_body_name_ml": "വരന്തരപ്പിള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G081107",
+  "name_en": "Varandarappilly",
+  "name_ml": "വരന്തരപ്പിള്ളി",
+  "assembly_id": "71",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "71",
-    "assembly_name_en": "Puthukkad",
-    "assembly_name_ml": "പുതുക്കാട്",
-    "category": "Normal"
+    "id": "71",
+    "name_en": "Puthukkad",
+    "name_ml": "പുതുക്കാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f985d66b-1ed4-4d5f-a036-5cab92fd4422",
+      "id": "f985d66b-1ed4-4d5f-a036-5cab92fd4422",
       "ward_no": "1",
-      "ward_name_en": "Vadanthol",
-      "ward_name_ml": "വടാന്തോള്‍"
+      "name_en": "Vadanthol",
+      "name_ml": "വടാന്തോള്‍"
     },
     {
-      "ward_id": "97f67cde-021b-4c7d-9a7d-9c727e65be0b",
+      "id": "97f67cde-021b-4c7d-9a7d-9c727e65be0b",
       "ward_no": "2",
-      "ward_name_en": "Koranody",
-      "ward_name_ml": "കോരനൊടി"
+      "name_en": "Koranody",
+      "name_ml": "കോരനൊടി"
     },
     {
-      "ward_id": "bc9aaaee-51c3-4f5e-a308-b6fc7ee41dde",
+      "id": "bc9aaaee-51c3-4f5e-a308-b6fc7ee41dde",
       "ward_no": "3",
-      "ward_name_en": "Vadakkumury",
-      "ward_name_ml": "വടക്കുമുറി"
+      "name_en": "Vadakkumury",
+      "name_ml": "വടക്കുമുറി"
     },
     {
-      "ward_id": "fe7bb3e0-86b3-4899-bddf-500989f2c87f",
+      "id": "fe7bb3e0-86b3-4899-bddf-500989f2c87f",
       "ward_no": "4",
-      "ward_name_en": "Velupadam Madam",
-      "ward_name_ml": "വേലൂപ്പാടം മഠം"
+      "name_en": "Velupadam Madam",
+      "name_ml": "വേലൂപ്പാടം മഠം"
     },
     {
-      "ward_id": "571d5b78-2188-4411-91c6-c0fab09a4975",
+      "id": "571d5b78-2188-4411-91c6-c0fab09a4975",
       "ward_no": "5",
-      "ward_name_en": "Pulikkanny",
-      "ward_name_ml": "പുലിക്കണ്ണി"
+      "name_en": "Pulikkanny",
+      "name_ml": "പുലിക്കണ്ണി"
     },
     {
-      "ward_id": "a873c8cb-b075-4a62-ac25-a446ba15d63b",
+      "id": "a873c8cb-b075-4a62-ac25-a446ba15d63b",
       "ward_no": "6",
-      "ward_name_en": "Palappilly",
-      "ward_name_ml": "പാലപ്പിള്ളി"
+      "name_en": "Palappilly",
+      "name_ml": "പാലപ്പിള്ളി"
     },
     {
-      "ward_id": "a18f8ef0-fa7b-435e-b8bc-0e0f39cfd164",
+      "id": "a18f8ef0-fa7b-435e-b8bc-0e0f39cfd164",
       "ward_no": "7",
-      "ward_name_en": "Echippara",
-      "ward_name_ml": "എച്ചിപ്പാറ"
+      "name_en": "Echippara",
+      "name_ml": "എച്ചിപ്പാറ"
     },
     {
-      "ward_id": "9a47179e-0f4e-438b-8bdb-f70c9090eafb",
+      "id": "9a47179e-0f4e-438b-8bdb-f70c9090eafb",
       "ward_no": "8",
-      "ward_name_en": "Kundayi",
-      "ward_name_ml": "കുണ്ടായി"
+      "name_en": "Kundayi",
+      "name_ml": "കുണ്ടായി"
     },
     {
-      "ward_id": "df8a759e-8e7a-4e53-a992-af7acc0bf778",
+      "id": "df8a759e-8e7a-4e53-a992-af7acc0bf778",
       "ward_no": "9",
-      "ward_name_en": "Kannattupadam",
-      "ward_name_ml": "കന്നാറ്റുപാടം"
+      "name_en": "Kannattupadam",
+      "name_ml": "കന്നാറ്റുപാടം"
     },
     {
-      "ward_id": "836a7641-e8be-4807-a5bb-6c1efb2baa94",
+      "id": "836a7641-e8be-4807-a5bb-6c1efb2baa94",
       "ward_no": "10",
-      "ward_name_en": "Inchakundu",
-      "ward_name_ml": "ഇഞ്ചക്കുണ്ട്"
+      "name_en": "Inchakundu",
+      "name_ml": "ഇഞ്ചക്കുണ്ട്"
     },
     {
-      "ward_id": "93343ec5-3e9e-4a6e-a280-ed77da0e0b66",
+      "id": "93343ec5-3e9e-4a6e-a280-ed77da0e0b66",
       "ward_no": "11",
-      "ward_name_en": "Mupliyam",
-      "ward_name_ml": "മുപ്ലിയം"
+      "name_en": "Mupliyam",
+      "name_ml": "മുപ്ലിയം"
     },
     {
-      "ward_id": "0e36bc6f-74ce-4b2a-a459-7d44a8273a78",
+      "id": "0e36bc6f-74ce-4b2a-a459-7d44a8273a78",
       "ward_no": "12",
-      "ward_name_en": "Pound Karikulam Kadavu",
-      "ward_name_ml": "പൌണ്ട് കാരികുളം കടവ്"
+      "name_en": "Pound Karikulam Kadavu",
+      "name_ml": "പൌണ്ട് കാരികുളം കടവ്"
     },
     {
-      "ward_id": "9508015b-5b3d-4fe0-b57b-169bffa281c1",
+      "id": "9508015b-5b3d-4fe0-b57b-169bffa281c1",
       "ward_no": "13",
-      "ward_name_en": "Velupadam",
-      "ward_name_ml": "വേലൂപ്പാടം"
+      "name_en": "Velupadam",
+      "name_ml": "വേലൂപ്പാടം"
     },
     {
-      "ward_id": "3bf9fec2-aae4-4f5e-896b-ef9f45cf0450",
+      "id": "3bf9fec2-aae4-4f5e-896b-ef9f45cf0450",
       "ward_no": "14",
-      "ward_name_en": "Pidikkaparambu",
-      "ward_name_ml": "പിടിക്കപറമ്പ്"
+      "name_en": "Pidikkaparambu",
+      "name_ml": "പിടിക്കപറമ്പ്"
     },
     {
-      "ward_id": "8c3747eb-7fd3-46cb-b79c-7e178d29aade",
+      "id": "8c3747eb-7fd3-46cb-b79c-7e178d29aade",
       "ward_no": "15",
-      "ward_name_en": "Kunjakkara",
-      "ward_name_ml": "കുഞ്ഞക്കര"
+      "name_en": "Kunjakkara",
+      "name_ml": "കുഞ്ഞക്കര"
     },
     {
-      "ward_id": "398084d0-5562-4645-a4f6-20e5563931bf",
+      "id": "398084d0-5562-4645-a4f6-20e5563931bf",
       "ward_no": "16",
-      "ward_name_en": "Manjoor",
-      "ward_name_ml": "മാഞ്ഞൂര്‍"
+      "name_en": "Manjoor",
+      "name_ml": "മാഞ്ഞൂര്‍"
     },
     {
-      "ward_id": "749b385b-8c73-4228-85e5-2d71069714d0",
+      "id": "749b385b-8c73-4228-85e5-2d71069714d0",
       "ward_no": "17",
-      "ward_name_en": "Karayampadam",
-      "ward_name_ml": "കരയാംപാടം"
+      "name_en": "Karayampadam",
+      "name_ml": "കരയാംപാടം"
     },
     {
-      "ward_id": "40adfc0d-f97e-452c-9f47-e3b4ca401090",
+      "id": "40adfc0d-f97e-452c-9f47-e3b4ca401090",
       "ward_no": "18",
-      "ward_name_en": "Nandipulam",
-      "ward_name_ml": "നന്തിപുലം"
+      "name_en": "Nandipulam",
+      "name_ml": "നന്തിപുലം"
     },
     {
-      "ward_id": "4d759045-5f14-46ab-ad54-79f7c5dda28d",
+      "id": "4d759045-5f14-46ab-ad54-79f7c5dda28d",
       "ward_no": "19",
-      "ward_name_en": "Attappilly",
-      "ward_name_ml": "ആറ്റപ്പിള്ളി"
+      "name_en": "Attappilly",
+      "name_ml": "ആറ്റപ്പിള്ളി"
     },
     {
-      "ward_id": "27323e0b-a3f5-4ead-8d04-d5162f646de3",
+      "id": "27323e0b-a3f5-4ead-8d04-d5162f646de3",
       "ward_no": "20",
-      "ward_name_en": "Mattumala",
-      "ward_name_ml": "മാട്ടുമല"
+      "name_en": "Mattumala",
+      "name_ml": "മാട്ടുമല"
     },
     {
-      "ward_id": "613ffe93-230a-44bb-881f-635ef0280bcb",
+      "id": "613ffe93-230a-44bb-881f-635ef0280bcb",
       "ward_no": "21",
-      "ward_name_en": "Varandarappilly",
-      "ward_name_ml": "വരന്തരപ്പിള്ളി"
+      "name_en": "Varandarappilly",
+      "name_ml": "വരന്തരപ്പിള്ളി"
     },
     {
-      "ward_id": "adf0a5cd-e006-41f4-bbec-11c6fa474f8e",
+      "id": "adf0a5cd-e006-41f4-bbec-11c6fa474f8e",
       "ward_no": "22",
-      "ward_name_en": "Mattildesam",
-      "ward_name_ml": "മാട്ടില്‍ദേശം"
+      "name_en": "Mattildesam",
+      "name_ml": "മാട്ടില്‍ദേശം"
     }
   ],
   "towns": [],

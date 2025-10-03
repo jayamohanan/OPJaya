@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G130608",
-  "local_body_name_en": "Kolachery",
-  "local_body_name_ml": "കൊളച്ചേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G130608",
+  "name_en": "Kolachery",
+  "name_ml": "കൊളച്ചേരി",
+  "assembly_id": "8",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "8",
-    "assembly_name_en": "Taliparamba",
-    "assembly_name_ml": "തളിപ്പറമ്പ്",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Taliparamba",
+    "name_ml": "തളിപ്പറമ്പ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9e6f31ce-9d59-40e9-af9b-021b7c1bcd1b",
+      "id": "9e6f31ce-9d59-40e9-af9b-021b7c1bcd1b",
       "ward_no": "1",
-      "ward_name_en": "Pamburuthi",
-      "ward_name_ml": "പാമ്പുരുത്തി"
+      "name_en": "Pamburuthi",
+      "name_ml": "പാമ്പുരുത്തി"
     },
     {
-      "ward_id": "69db9aba-1246-455c-8fdd-5d078bb65433",
+      "id": "69db9aba-1246-455c-8fdd-5d078bb65433",
       "ward_no": "2",
-      "ward_name_en": "Kambil",
-      "ward_name_ml": "കമ്പില്‍"
+      "name_en": "Kambil",
+      "name_ml": "കമ്പില്‍"
     },
     {
-      "ward_id": "078bea8b-54db-48b3-9d03-da6a42a9d239",
+      "id": "078bea8b-54db-48b3-9d03-da6a42a9d239",
       "ward_no": "3",
-      "ward_name_en": "Panniyankandi",
-      "ward_name_ml": "പന്ന്യങ്കണ്ടി"
+      "name_en": "Panniyankandi",
+      "name_ml": "പന്ന്യങ്കണ്ടി"
     },
     {
-      "ward_id": "0445fcec-656f-4df8-ac1c-c946bbeff223",
+      "id": "0445fcec-656f-4df8-ac1c-c946bbeff223",
       "ward_no": "4",
-      "ward_name_en": "Naniyur",
-      "ward_name_ml": "നണിയൂര്‍"
+      "name_en": "Naniyur",
+      "name_ml": "നണിയൂര്‍"
     },
     {
-      "ward_id": "4008f07b-e8a8-47a6-9ff4-4e802bb8e372",
+      "id": "4008f07b-e8a8-47a6-9ff4-4e802bb8e372",
       "ward_no": "5",
-      "ward_name_en": "Kolachery",
-      "ward_name_ml": "കൊളച്ചേരി"
+      "name_en": "Kolachery",
+      "name_ml": "കൊളച്ചേരി"
     },
     {
-      "ward_id": "152988dd-8912-4cd2-872b-aaa19ed9e2b5",
+      "id": "152988dd-8912-4cd2-872b-aaa19ed9e2b5",
       "ward_no": "6",
-      "ward_name_en": "Perumachery",
-      "ward_name_ml": "പെരുമാച്ചേരി"
+      "name_en": "Perumachery",
+      "name_ml": "പെരുമാച്ചേരി"
     },
     {
-      "ward_id": "0b2ea104-47d5-487c-838c-c85f6a136441",
+      "id": "0b2ea104-47d5-487c-838c-c85f6a136441",
       "ward_no": "7",
-      "ward_name_en": "Kodipoyil",
-      "ward_name_ml": "കോടിപൊയില്‍"
+      "name_en": "Kodipoyil",
+      "name_ml": "കോടിപൊയില്‍"
     },
     {
-      "ward_id": "024dad12-74b7-4208-85dd-9907c2019d48",
+      "id": "024dad12-74b7-4208-85dd-9907c2019d48",
       "ward_no": "8",
-      "ward_name_en": "Palliparamba",
-      "ward_name_ml": "പള്ളിപറമ്പ്"
+      "name_en": "Palliparamba",
+      "name_ml": "പള്ളിപറമ്പ്"
     },
     {
-      "ward_id": "7afe3394-e2ef-41ff-97fc-f84b48466a13",
+      "id": "7afe3394-e2ef-41ff-97fc-f84b48466a13",
       "ward_no": "9",
-      "ward_name_en": "Kayachira",
-      "ward_name_ml": "കായച്ചിറ"
+      "name_en": "Kayachira",
+      "name_ml": "കായച്ചിറ"
     },
     {
-      "ward_id": "62fa6369-9f84-402d-9825-c29a8d382b59",
+      "id": "62fa6369-9f84-402d-9825-c29a8d382b59",
       "ward_no": "10",
-      "ward_name_en": "Cheleri",
-      "ward_name_ml": "ചേലേരി"
+      "name_en": "Cheleri",
+      "name_ml": "ചേലേരി"
     },
     {
-      "ward_id": "765e33e5-dead-4157-8ee6-71561497db73",
+      "id": "765e33e5-dead-4157-8ee6-71561497db73",
       "ward_no": "11",
-      "ward_name_en": "Noonheri",
-      "ward_name_ml": "നൂഞ്ഞേരി"
+      "name_en": "Noonheri",
+      "name_ml": "നൂഞ്ഞേരി"
     },
     {
-      "ward_id": "eb25d45d-d348-4faf-980f-d2537434863f",
+      "id": "eb25d45d-d348-4faf-980f-d2537434863f",
       "ward_no": "12",
-      "ward_name_en": "Karayappu",
-      "ward_name_ml": "കാരയാപ്പ്"
+      "name_en": "Karayappu",
+      "name_ml": "കാരയാപ്പ്"
     },
     {
-      "ward_id": "c859309f-ee6f-425b-abd2-74f306d6028e",
+      "id": "c859309f-ee6f-425b-abd2-74f306d6028e",
       "ward_no": "13",
-      "ward_name_en": "Cheleri Central",
-      "ward_name_ml": "ചേലേരി സെന്‍ട്രല്‍"
+      "name_en": "Cheleri Central",
+      "name_ml": "ചേലേരി സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "0314424c-0a56-4afe-96f8-33a5c57a0181",
+      "id": "0314424c-0a56-4afe-96f8-33a5c57a0181",
       "ward_no": "14",
-      "ward_name_en": "Valavil Cheleri",
-      "ward_name_ml": "വളവില്‍ ചേലേരി"
+      "name_en": "Valavil Cheleri",
+      "name_ml": "വളവില്‍ ചേലേരി"
     },
     {
-      "ward_id": "f697e52b-f52e-4517-af67-32aec5f2e87b",
+      "id": "f697e52b-f52e-4517-af67-32aec5f2e87b",
       "ward_no": "15",
-      "ward_name_en": "Edakkai",
-      "ward_name_ml": "എടക്കൈ"
+      "name_en": "Edakkai",
+      "name_ml": "എടക്കൈ"
     },
     {
-      "ward_id": "dc918578-b571-404c-bd9f-cb7f18d95521",
+      "id": "dc918578-b571-404c-bd9f-cb7f18d95521",
       "ward_no": "16",
-      "ward_name_en": "Kolacheri Paramba",
-      "ward_name_ml": "കൊളച്ചേരിപറമ്പ്"
+      "name_en": "Kolacheri Paramba",
+      "name_ml": "കൊളച്ചേരിപറമ്പ്"
     },
     {
-      "ward_id": "83ba2af4-9e67-4786-92c7-22d48b12c527",
+      "id": "83ba2af4-9e67-4786-92c7-22d48b12c527",
       "ward_no": "17",
-      "ward_name_en": "Pattayam",
-      "ward_name_ml": "പാട്ടയം"
+      "name_en": "Pattayam",
+      "name_ml": "പാട്ടയം"
     }
   ],
   "towns": [],

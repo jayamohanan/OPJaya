@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G120402",
-  "local_body_name_en": "Vengappally",
-  "local_body_name_ml": "വേങ്ങപ്പള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "19",
-    "assembly_name_en": "Kalpetta",
-    "assembly_name_ml": "കല്‍പ്പറ്റ",
+  "id": "G120402",
+  "name_en": "Vengappally",
+  "name_ml": "വേങ്ങപ്പള്ളി",
+  "assembly_id": "19",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "19",
+    "name_en": "Kalpetta",
+    "name_ml": "കല്‍പ്പറ്റ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "39a3fd4f-4ca1-45eb-8262-6735aeb06591",
+      "id": "39a3fd4f-4ca1-45eb-8262-6735aeb06591",
       "ward_no": "1",
-      "ward_name_en": "Oruvummal",
-      "ward_name_ml": "ഒരുവുമ്മല്‍"
+      "name_en": "Oruvummal",
+      "name_ml": "ഒരുവുമ്മല്‍"
     },
     {
-      "ward_id": "1ed8a0b2-5565-436d-bc83-1ade6fced7ac",
+      "id": "1ed8a0b2-5565-436d-bc83-1ade6fced7ac",
       "ward_no": "2",
-      "ward_name_en": "Thekkumthara",
-      "ward_name_ml": "തെക്കുംതറ"
+      "name_en": "Thekkumthara",
+      "name_ml": "തെക്കുംതറ"
     },
     {
-      "ward_id": "7c8a0e4b-b815-4df0-91d1-5da195a1f3c4",
+      "id": "7c8a0e4b-b815-4df0-91d1-5da195a1f3c4",
       "ward_no": "3",
-      "ward_name_en": "Kokkuzhi",
-      "ward_name_ml": "കോക്കുഴി"
+      "name_en": "Kokkuzhi",
+      "name_ml": "കോക്കുഴി"
     },
     {
-      "ward_id": "df30557e-1336-423f-8f61-2650b583f889",
+      "id": "df30557e-1336-423f-8f61-2650b583f889",
       "ward_no": "4",
-      "ward_name_en": "Puthukkudi",
-      "ward_name_ml": "പുതുക്കുടി"
+      "name_en": "Puthukkudi",
+      "name_ml": "പുതുക്കുടി"
     },
     {
-      "ward_id": "b79b1c90-8b1d-46a7-8801-16b15b09711d",
+      "id": "b79b1c90-8b1d-46a7-8801-16b15b09711d",
       "ward_no": "5",
-      "ward_name_en": "Murikkappu",
-      "ward_name_ml": "മൂരിക്കാപ്പ്"
+      "name_en": "Murikkappu",
+      "name_ml": "മൂരിക്കാപ്പ്"
     },
     {
-      "ward_id": "e4fb9c60-9f17-469d-9237-623e76645443",
+      "id": "e4fb9c60-9f17-469d-9237-623e76645443",
       "ward_no": "6",
-      "ward_name_en": "Vavady",
-      "ward_name_ml": "വാവാടി"
+      "name_en": "Vavady",
+      "name_ml": "വാവാടി"
     },
     {
-      "ward_id": "e99d965b-9335-40f2-86d6-71f7881fac3a",
+      "id": "e99d965b-9335-40f2-86d6-71f7881fac3a",
       "ward_no": "7",
-      "ward_name_en": "Vengappally",
-      "ward_name_ml": "വെങ്ങപ്പള്ളി"
+      "name_en": "Vengappally",
+      "name_ml": "വെങ്ങപ്പള്ളി"
     },
     {
-      "ward_id": "ace3f180-0be7-45d2-937a-a70dc297e08a",
+      "id": "ace3f180-0be7-45d2-937a-a70dc297e08a",
       "ward_no": "8",
-      "ward_name_en": "Puthusserikkunnu",
-      "ward_name_ml": "പുതുശ്ശേരിക്കുന്ന്"
+      "name_en": "Puthusserikkunnu",
+      "name_ml": "പുതുശ്ശേരിക്കുന്ന്"
     },
     {
-      "ward_id": "bcea2d88-8060-4345-81b5-70e38bb100f8",
+      "id": "bcea2d88-8060-4345-81b5-70e38bb100f8",
       "ward_no": "9",
-      "ward_name_en": "Kodancherikkunnu",
-      "ward_name_ml": "കോടഞ്ചേരിക്കുന്ന്"
+      "name_en": "Kodancherikkunnu",
+      "name_ml": "കോടഞ്ചേരിക്കുന്ന്"
     },
     {
-      "ward_id": "40510733-25ae-41d6-aa05-9f4dc34001fa",
+      "id": "40510733-25ae-41d6-aa05-9f4dc34001fa",
       "ward_no": "10",
-      "ward_name_en": "Pinangode",
-      "ward_name_ml": "പിണങ്ങോട്"
+      "name_en": "Pinangode",
+      "name_ml": "പിണങ്ങോട്"
     },
     {
-      "ward_id": "c00e582e-36dd-4744-b63e-2fbe118d1255",
+      "id": "c00e582e-36dd-4744-b63e-2fbe118d1255",
       "ward_no": "11",
-      "ward_name_en": "Mh Nagar",
-      "ward_name_ml": "എംഎച്ച് നഗര്‍"
+      "name_en": "Mh Nagar",
+      "name_ml": "എംഎച്ച് നഗര്‍"
     },
     {
-      "ward_id": "067ff2df-35a7-4bb7-a3e3-345676441a11",
+      "id": "067ff2df-35a7-4bb7-a3e3-345676441a11",
       "ward_no": "12",
-      "ward_name_en": "Highschoolkunnu",
-      "ward_name_ml": "ഹൈസ്കൂള്‍കുന്ന്"
+      "name_en": "Highschoolkunnu",
+      "name_ml": "ഹൈസ്കൂള്‍കുന്ന്"
     },
     {
-      "ward_id": "f2fb930f-25ab-4f51-bdfa-2e9e78568f9f",
+      "id": "f2fb930f-25ab-4f51-bdfa-2e9e78568f9f",
       "ward_no": "13",
-      "ward_name_en": "Cholappuram",
-      "ward_name_ml": "ചോലപ്പുറം"
+      "name_en": "Cholappuram",
+      "name_ml": "ചോലപ്പുറം"
     }
   ],
   "towns": [],

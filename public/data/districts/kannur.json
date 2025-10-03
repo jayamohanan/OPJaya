@@ -1,75 +1,99 @@
 {
-  "district_id": "13",
-  "district_name_en": "Kannur",
-  "district_name_ml": "കണ്ണൂർ",
+  "id": "13",
+  "name_en": "Kannur",
+  "name_ml": "കണ്ണൂർ",
   "is_active": true,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "6",
-      "assembly_name_en": "Payyannur",
-      "assembly_name_ml": "പയ്യന്നൂര്‍",
-      "category": "Normal"
+      "id": "6",
+      "name_en": "Payyannur",
+      "name_ml": "പയ്യന്നൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "7",
-      "assembly_name_en": "Kalliasseri",
-      "assembly_name_ml": "കല്ല്യാശ്ശേരി",
-      "category": "Normal"
+      "id": "7",
+      "name_en": "Kalliasseri",
+      "name_ml": "കല്ല്യാശ്ശേരി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "8",
-      "assembly_name_en": "Taliparamba",
-      "assembly_name_ml": "തളിപ്പറമ്പ്",
-      "category": "Normal"
+      "id": "8",
+      "name_en": "Taliparamba",
+      "name_ml": "തളിപ്പറമ്പ്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "9",
-      "assembly_name_en": "Irikkur",
-      "assembly_name_ml": "ഇരിക്കൂര്‍",
-      "category": "Normal"
+      "id": "9",
+      "name_en": "Irikkur",
+      "name_ml": "ഇരിക്കൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "10",
-      "assembly_name_en": "Azhikode",
-      "assembly_name_ml": "അഴീക്കോട്",
-      "category": "Normal"
+      "id": "10",
+      "name_en": "Azhikode",
+      "name_ml": "അഴീക്കോട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "11",
-      "assembly_name_en": "Kannur",
-      "assembly_name_ml": "കണ്ണൂര്‍",
-      "category": "Normal"
+      "id": "11",
+      "name_en": "Kannur",
+      "name_ml": "കണ്ണൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "12",
-      "assembly_name_en": "Dharmadom",
-      "assembly_name_ml": "ധര്‍മ്മടം",
-      "category": "Normal"
+      "id": "12",
+      "name_en": "Dharmadom",
+      "name_ml": "ധര്‍മ്മടം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "13",
-      "assembly_name_en": "Thalassery",
-      "assembly_name_ml": "തലശ്ശേരി",
-      "category": "Normal"
+      "id": "13",
+      "name_en": "Thalassery",
+      "name_ml": "തലശ്ശേരി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "14",
-      "assembly_name_en": "Kuthuparamba",
-      "assembly_name_ml": "കൂത്തുപറമ്പ്",
-      "category": "Normal"
+      "id": "14",
+      "name_en": "Kuthuparamba",
+      "name_ml": "കൂത്തുപറമ്പ്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "15",
-      "assembly_name_en": "Mattanur",
-      "assembly_name_ml": "മട്ടന്നൂര്‍",
-      "category": "Normal"
+      "id": "15",
+      "name_en": "Mattanur",
+      "name_ml": "മട്ടന്നൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "16",
-      "assembly_name_en": "Peravoor",
-      "assembly_name_ml": "പേരാവൂര്‍",
-      "category": "Normal"
+      "id": "16",
+      "name_en": "Peravoor",
+      "name_ml": "പേരാവൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

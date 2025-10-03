@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G130406",
-  "local_body_name_en": "Mayyil",
-  "local_body_name_ml": "മയ്യില്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "8",
-    "assembly_name_en": "Taliparamba",
-    "assembly_name_ml": "തളിപ്പറമ്പ്",
+  "id": "G130406",
+  "name_en": "Mayyil",
+  "name_ml": "മയ്യില്‍",
+  "assembly_id": "8",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "8",
+    "name_en": "Taliparamba",
+    "name_ml": "തളിപ്പറമ്പ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6329b737-468d-41a0-a183-30bcefc14ba2",
+      "id": "6329b737-468d-41a0-a183-30bcefc14ba2",
       "ward_no": "1",
-      "ward_name_en": "Orappadi",
-      "ward_name_ml": "ഒറപ്പടി"
+      "name_en": "Orappadi",
+      "name_ml": "ഒറപ്പടി"
     },
     {
-      "ward_id": "9d671451-b7cf-42ed-aa4c-12bb5ff2e228",
+      "id": "9d671451-b7cf-42ed-aa4c-12bb5ff2e228",
       "ward_no": "2",
-      "ward_name_en": "Kandakkai",
-      "ward_name_ml": "കണ്ടക്കൈ"
+      "name_en": "Kandakkai",
+      "name_ml": "കണ്ടക്കൈ"
     },
     {
-      "ward_id": "4186becb-d5d7-4dd5-acd9-943bcf8884ec",
+      "id": "4186becb-d5d7-4dd5-acd9-943bcf8884ec",
       "ward_no": "3",
-      "ward_name_en": "Kottayad",
-      "ward_name_ml": "കോട്ടയാട്"
+      "name_en": "Kottayad",
+      "name_ml": "കോട്ടയാട്"
     },
     {
-      "ward_id": "099f1a62-0118-4fb1-a07a-eccdedda36e2",
+      "id": "099f1a62-0118-4fb1-a07a-eccdedda36e2",
       "ward_no": "4",
-      "ward_name_en": "Iruvappuzha Nambram",
-      "ward_name_ml": "ഇരുവാപ്പുഴ നമ്പ്രം"
+      "name_en": "Iruvappuzha Nambram",
+      "name_ml": "ഇരുവാപ്പുഴ നമ്പ്രം"
     },
     {
-      "ward_id": "7786b034-1849-406e-b731-97d28daae826",
+      "id": "7786b034-1849-406e-b731-97d28daae826",
       "ward_no": "5",
-      "ward_name_en": "Peruvanghoor",
-      "ward_name_ml": "പെരുവങ്ങൂര്‍"
+      "name_en": "Peruvanghoor",
+      "name_ml": "പെരുവങ്ങൂര്‍"
     },
     {
-      "ward_id": "46939e1a-db41-4e4b-89dd-93047bc283a3",
+      "id": "46939e1a-db41-4e4b-89dd-93047bc283a3",
       "ward_no": "6",
-      "ward_name_en": "Velam",
-      "ward_name_ml": "വേളം"
+      "name_en": "Velam",
+      "name_ml": "വേളം"
     },
     {
-      "ward_id": "5cdb5fc1-9f0d-4ade-af1d-c8dd366b495c",
+      "id": "5cdb5fc1-9f0d-4ade-af1d-c8dd366b495c",
       "ward_no": "7",
-      "ward_name_en": "Mayyil",
-      "ward_name_ml": "മയ്യില്‍"
+      "name_en": "Mayyil",
+      "name_ml": "മയ്യില്‍"
     },
     {
-      "ward_id": "79686ddf-e6c4-4d94-8dc5-22d86d0aa0fa",
+      "id": "79686ddf-e6c4-4d94-8dc5-22d86d0aa0fa",
       "ward_no": "8",
-      "ward_name_en": "Valliyottu",
-      "ward_name_ml": "വള്ളിയോട്ട്"
+      "name_en": "Valliyottu",
+      "name_ml": "വള്ളിയോട്ട്"
     },
     {
-      "ward_id": "8c93cccb-5a84-4b48-9a18-a538556ac007",
+      "id": "8c93cccb-5a84-4b48-9a18-a538556ac007",
       "ward_no": "9",
-      "ward_name_en": "Thayampoyil",
-      "ward_name_ml": "തായംപൊയില്‍"
+      "name_en": "Thayampoyil",
+      "name_ml": "തായംപൊയില്‍"
     },
     {
-      "ward_id": "02fcafb8-b415-4a3a-80d6-6e6d44330498",
+      "id": "02fcafb8-b415-4a3a-80d6-6e6d44330498",
       "ward_no": "10",
-      "ward_name_en": "Niranthode",
-      "ward_name_ml": "നിരന്തോട്"
+      "name_en": "Niranthode",
+      "name_ml": "നിരന്തോട്"
     },
     {
-      "ward_id": "ef02059e-021d-4ef3-83cb-388cb55a401d",
+      "id": "ef02059e-021d-4ef3-83cb-388cb55a401d",
       "ward_no": "11",
-      "ward_name_en": "Arayidathuchira",
-      "ward_name_ml": "അരയിടത്തുചിറ"
+      "name_en": "Arayidathuchira",
+      "name_ml": "അരയിടത്തുചിറ"
     },
     {
-      "ward_id": "8279cdae-22a8-4c79-b9c3-c988c2b9e6df",
+      "id": "8279cdae-22a8-4c79-b9c3-c988c2b9e6df",
       "ward_no": "12",
-      "ward_name_en": "Cherupazhassi",
-      "ward_name_ml": "ചെറുപഴശ്ശി"
+      "name_en": "Cherupazhassi",
+      "name_ml": "ചെറുപഴശ്ശി"
     },
     {
-      "ward_id": "ec9c9461-8376-4ca1-9cec-940ff0a563dc",
+      "id": "ec9c9461-8376-4ca1-9cec-940ff0a563dc",
       "ward_no": "13",
-      "ward_name_en": "Perumachery",
-      "ward_name_ml": "പെരുമാച്ചേരി"
+      "name_en": "Perumachery",
+      "name_ml": "പെരുമാച്ചേരി"
     },
     {
-      "ward_id": "b96cdb05-e36f-4ab5-bff8-369f7bbc0f4a",
+      "id": "b96cdb05-e36f-4ab5-bff8-369f7bbc0f4a",
       "ward_no": "14",
-      "ward_name_en": "Mecheri",
-      "ward_name_ml": "മേച്ചേരി"
+      "name_en": "Mecheri",
+      "name_ml": "മേച്ചേരി"
     },
     {
-      "ward_id": "67cbedc6-b03e-427f-85d9-8d145aa00c4d",
+      "id": "67cbedc6-b03e-427f-85d9-8d145aa00c4d",
       "ward_no": "15",
-      "ward_name_en": "Kayaralam",
-      "ward_name_ml": "കയരളം"
+      "name_en": "Kayaralam",
+      "name_ml": "കയരളം"
     },
     {
-      "ward_id": "d95b83ff-d6e4-4568-b3fc-5225506b40e2",
+      "id": "d95b83ff-d6e4-4568-b3fc-5225506b40e2",
       "ward_no": "16",
-      "ward_name_en": "Naniyoor Nambram",
-      "ward_name_ml": "നണിയൂര്‍ നമ്പ്രം"
+      "name_en": "Naniyoor Nambram",
+      "name_ml": "നണിയൂര്‍ നമ്പ്രം"
     },
     {
-      "ward_id": "58344512-bc71-43f2-824d-30a8912de986",
+      "id": "58344512-bc71-43f2-824d-30a8912de986",
       "ward_no": "17",
-      "ward_name_en": "Arimbra",
-      "ward_name_ml": "അരിമ്പ്ര"
+      "name_en": "Arimbra",
+      "name_ml": "അരിമ്പ്ര"
     },
     {
-      "ward_id": "069a105d-a39d-4d1b-945f-e39000c49a13",
+      "id": "069a105d-a39d-4d1b-945f-e39000c49a13",
       "ward_no": "18",
-      "ward_name_en": "Mullakkodi",
-      "ward_name_ml": "മുല്ലക്കൊടി"
+      "name_en": "Mullakkodi",
+      "name_ml": "മുല്ലക്കൊടി"
     }
   ],
   "towns": [],

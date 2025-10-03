@@ -1,50 +1,65 @@
 {
-  "assembly_id": "48",
-  "assembly_name_en": "Ponnani",
-  "assembly_name_ml": "പൊന്നാനി",
-  "category": "Normal",
+  "id": "48",
+  "name_en": "Ponnani",
+  "name_ml": "പൊന്നാനി",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G101502",
-      "local_body_name_en": "Maranchery",
-      "local_body_name_ml": "മാറഞ്ചരി",
-      "category": "Good"
+      "id": "G101502",
+      "name_en": "Maranchery",
+      "name_ml": "മാറഞ്ചരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101503",
-      "local_body_name_en": "Nannammukku",
-      "local_body_name_ml": "നന്നംമുക്ക്",
-      "category": "Normal"
+      "id": "G101503",
+      "name_en": "Nannammukku",
+      "name_ml": "നന്നംമുക്ക്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101504",
-      "local_body_name_en": "Perumpadappa",
-      "local_body_name_ml": "പെരുമ്പടപ്പ്",
-      "category": "Good"
+      "id": "G101504",
+      "name_en": "Perumpadappa",
+      "name_ml": "പെരുമ്പടപ്പ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101505",
-      "local_body_name_en": "Veliancode",
-      "local_body_name_ml": "വെളിയങ്കോട്",
-      "category": "Normal"
+      "id": "G101505",
+      "name_en": "Veliancode",
+      "name_ml": "വെളിയങ്കോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101501",
-      "local_body_name_en": "Alamkode",
-      "local_body_name_ml": "ആലംകോട്",
-      "category": "Good"
+      "id": "G101501",
+      "name_en": "Alamkode",
+      "name_ml": "ആലംകോട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M100200",
-      "local_body_name_en": "Ponnani",
-      "local_body_name_ml": "പൊന്നാനി",
-      "category": ""
+      "id": "M100200",
+      "name_en": "Ponnani",
+      "name_ml": "പൊന്നാനി",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

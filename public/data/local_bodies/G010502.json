@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G010502",
-  "local_body_name_en": "Poovachal",
-  "local_body_name_ml": "പൂവച്ചല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010502",
+  "name_en": "Poovachal",
+  "name_ml": "പൂവച്ചല്‍",
+  "assembly_id": "136",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "136",
-    "assembly_name_en": "Aruvikkara",
-    "assembly_name_ml": "അരുവിക്കര",
-    "category": "Normal"
+    "id": "136",
+    "name_en": "Aruvikkara",
+    "name_ml": "അരുവിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9933f7db-b2e5-4582-8868-0cbbe01ff218",
+      "id": "9933f7db-b2e5-4582-8868-0cbbe01ff218",
       "ward_no": "1",
-      "ward_name_en": "Konniyoor",
-      "ward_name_ml": "കൊണ്ണിയൂര്‍‌"
+      "name_en": "Konniyoor",
+      "name_ml": "കൊണ്ണിയൂര്‍‌"
     },
     {
-      "ward_id": "3bd22382-2e99-4f3b-bb79-94167a42467c",
+      "id": "3bd22382-2e99-4f3b-bb79-94167a42467c",
       "ward_no": "2",
-      "ward_name_en": "Undappara",
-      "ward_name_ml": "ഉണ്ടപ്പാറ"
+      "name_en": "Undappara",
+      "name_ml": "ഉണ്ടപ്പാറ"
     },
     {
-      "ward_id": "b1f8d488-d2b6-4ebd-b55a-63be71f6b213",
+      "id": "b1f8d488-d2b6-4ebd-b55a-63be71f6b213",
       "ward_no": "3",
-      "ward_name_en": "Alamukku",
-      "ward_name_ml": "ആലമുക്ക്"
+      "name_en": "Alamukku",
+      "name_ml": "ആലമുക്ക്"
     },
     {
-      "ward_id": "afacc16c-d632-4188-848c-a62ad1ae9145",
+      "id": "afacc16c-d632-4188-848c-a62ad1ae9145",
       "ward_no": "4",
-      "ward_name_en": "Kuzhakkadu",
-      "ward_name_ml": "കുഴയ്ക്കാട്"
+      "name_en": "Kuzhakkadu",
+      "name_ml": "കുഴയ്ക്കാട്"
     },
     {
-      "ward_id": "5d86137d-18ab-495c-9a3b-bea860751f20",
+      "id": "5d86137d-18ab-495c-9a3b-bea860751f20",
       "ward_no": "5",
-      "ward_name_en": "Pulinkodu",
-      "ward_name_ml": "പുളിങ്കോട്"
+      "name_en": "Pulinkodu",
+      "name_ml": "പുളിങ്കോട്"
     },
     {
-      "ward_id": "9a67fb84-7f7e-4ac6-99a2-03186fbf7c82",
+      "id": "9a67fb84-7f7e-4ac6-99a2-03186fbf7c82",
       "ward_no": "6",
-      "ward_name_en": "Kovilvila",
-      "ward_name_ml": "കോവില്‍വിള"
+      "name_en": "Kovilvila",
+      "name_ml": "കോവില്‍വിള"
     },
     {
-      "ward_id": "901ad13c-f666-49b6-8707-3d4d3f5a922e",
+      "id": "901ad13c-f666-49b6-8707-3d4d3f5a922e",
       "ward_no": "7",
-      "ward_name_en": "Elaykodu",
-      "ward_name_ml": "ഇലയ്ക്കോട്"
+      "name_en": "Elaykodu",
+      "name_ml": "ഇലയ്ക്കോട്"
     },
     {
-      "ward_id": "7df114b6-7070-40b5-a287-2c790a434496",
+      "id": "7df114b6-7070-40b5-a287-2c790a434496",
       "ward_no": "8",
-      "ward_name_en": "Panniyode",
-      "ward_name_ml": "പന്നിയോട്"
+      "name_en": "Panniyode",
+      "name_ml": "പന്നിയോട്"
     },
     {
-      "ward_id": "0748a873-9acc-4865-a142-00450837a393",
+      "id": "0748a873-9acc-4865-a142-00450837a393",
       "ward_no": "9",
-      "ward_name_en": "Kallamam",
-      "ward_name_ml": "കല്ലാമം"
+      "name_en": "Kallamam",
+      "name_ml": "കല്ലാമം"
     },
     {
-      "ward_id": "42e8ab8b-88e7-4de0-bfc4-314acb4201be",
+      "id": "42e8ab8b-88e7-4de0-bfc4-314acb4201be",
       "ward_no": "10",
-      "ward_name_en": "Pattakulam",
-      "ward_name_ml": "പട്ടകുളം"
+      "name_en": "Pattakulam",
+      "name_ml": "പട്ടകുളം"
     },
     {
-      "ward_id": "477cf752-3334-4feb-879b-72bd0ca85b9b",
+      "id": "477cf752-3334-4feb-879b-72bd0ca85b9b",
       "ward_no": "11",
-      "ward_name_en": "Veeranakavu",
-      "ward_name_ml": "വീരണകാവ്"
+      "name_en": "Veeranakavu",
+      "name_ml": "വീരണകാവ്"
     },
     {
-      "ward_id": "2d37cfa4-f477-47ec-af56-1e6403b4204a",
+      "id": "2d37cfa4-f477-47ec-af56-1e6403b4204a",
       "ward_no": "12",
-      "ward_name_en": "Chaykulam",
-      "ward_name_ml": "ചായ്ക്കുളം"
+      "name_en": "Chaykulam",
+      "name_ml": "ചായ്ക്കുളം"
     },
     {
-      "ward_id": "f7bd0e0c-fa95-4cc1-8d88-e279a4e9773d",
+      "id": "f7bd0e0c-fa95-4cc1-8d88-e279a4e9773d",
       "ward_no": "13",
-      "ward_name_en": "Mylottumoozhi",
-      "ward_name_ml": "മൈലോട്ടുമൂഴി"
+      "name_en": "Mylottumoozhi",
+      "name_ml": "മൈലോട്ടുമൂഴി"
     },
     {
-      "ward_id": "c98af295-8222-425a-aec4-86712435cafc",
+      "id": "c98af295-8222-425a-aec4-86712435cafc",
       "ward_no": "14",
-      "ward_name_en": "Anakodu",
-      "ward_name_ml": "ആനാകോട്"
+      "name_en": "Anakodu",
+      "name_ml": "ആനാകോട്"
     },
     {
-      "ward_id": "ae92f001-d048-4afd-bef5-d9e94affa802",
+      "id": "ae92f001-d048-4afd-bef5-d9e94affa802",
       "ward_no": "15",
-      "ward_name_en": "Mundukonam",
-      "ward_name_ml": "മുണ്ടുകോണം"
+      "name_en": "Mundukonam",
+      "name_ml": "മുണ്ടുകോണം"
     },
     {
-      "ward_id": "5c3db255-9a0c-4a0b-8e18-40667a1e4b08",
+      "id": "5c3db255-9a0c-4a0b-8e18-40667a1e4b08",
       "ward_no": "16",
-      "ward_name_en": "Muthiyavila",
-      "ward_name_ml": "മുതിയാവിള"
+      "name_en": "Muthiyavila",
+      "name_ml": "മുതിയാവിള"
     },
     {
-      "ward_id": "2de023a1-a41b-4653-a73e-abb9b0abadc9",
+      "id": "2de023a1-a41b-4653-a73e-abb9b0abadc9",
       "ward_no": "17",
-      "ward_name_en": "Thottampara",
-      "ward_name_ml": "തോട്ടമ്പറ"
+      "name_en": "Thottampara",
+      "name_ml": "തോട്ടമ്പറ"
     },
     {
-      "ward_id": "c10dd006-0273-4d17-aae5-a3feaf07adf0",
+      "id": "c10dd006-0273-4d17-aae5-a3feaf07adf0",
       "ward_no": "18",
-      "ward_name_en": "Kattakada Market",
-      "ward_name_ml": "കാട്ടാക്കട മാര്‍ക്കറ്റ്"
+      "name_en": "Kattakada Market",
+      "name_ml": "കാട്ടാക്കട മാര്‍ക്കറ്റ്"
     },
     {
-      "ward_id": "f512f0a8-23b0-4812-8d21-625569194410",
+      "id": "f512f0a8-23b0-4812-8d21-625569194410",
       "ward_no": "19",
-      "ward_name_en": "Chamavila",
-      "ward_name_ml": "ചാമവിള"
+      "name_en": "Chamavila",
+      "name_ml": "ചാമവിള"
     },
     {
-      "ward_id": "755b3cfd-c79c-46fb-aefa-2227053ad220",
+      "id": "755b3cfd-c79c-46fb-aefa-2227053ad220",
       "ward_no": "20",
-      "ward_name_en": "Kariyamkode",
-      "ward_name_ml": "കരിയംകോട്"
+      "name_en": "Kariyamkode",
+      "name_ml": "കരിയംകോട്"
     },
     {
-      "ward_id": "73595e3e-9b12-45ee-b5d1-3d0e161aa03e",
+      "id": "73595e3e-9b12-45ee-b5d1-3d0e161aa03e",
       "ward_no": "21",
-      "ward_name_en": "Ponneduthakuzhi",
-      "ward_name_ml": "പൊന്നെടുത്തകുഴി"
+      "name_en": "Ponneduthakuzhi",
+      "name_ml": "പൊന്നെടുത്തകുഴി"
     },
     {
-      "ward_id": "a15ce674-e05c-4a2c-a858-aca34d621db3",
+      "id": "a15ce674-e05c-4a2c-a858-aca34d621db3",
       "ward_no": "22",
-      "ward_name_en": "Poovachal",
-      "ward_name_ml": "പൂവച്ചല്‍"
+      "name_en": "Poovachal",
+      "name_ml": "പൂവച്ചല്‍"
     },
     {
-      "ward_id": "742a0983-6a8d-43ae-ad43-e205979afda2",
+      "id": "742a0983-6a8d-43ae-ad43-e205979afda2",
       "ward_no": "23",
-      "ward_name_en": "Kappikadu",
-      "ward_name_ml": "കാപ്പിക്കാട്"
+      "name_en": "Kappikadu",
+      "name_ml": "കാപ്പിക്കാട്"
     }
   ],
   "towns": [],

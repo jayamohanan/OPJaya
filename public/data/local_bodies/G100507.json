@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G100507",
-  "local_body_name_en": "Areacode",
-  "local_body_name_ml": "അരീക്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "34",
-    "assembly_name_en": "Eranad",
-    "assembly_name_ml": "ഏറനാട്",
+  "id": "G100507",
+  "name_en": "Areacode",
+  "name_ml": "അരീക്കോട്",
+  "assembly_id": "34",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "34",
+    "name_en": "Eranad",
+    "name_ml": "ഏറനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "eba48077-c581-4a83-8c24-7e9349d89bdf",
+      "id": "eba48077-c581-4a83-8c24-7e9349d89bdf",
       "ward_no": "1",
-      "ward_name_en": "Alukkal",
-      "ward_name_ml": "ആലുക്കല്‍"
+      "name_en": "Alukkal",
+      "name_ml": "ആലുക്കല്‍"
     },
     {
-      "ward_id": "33787340-e131-41d9-9bf9-6c8e0dea034e",
+      "id": "33787340-e131-41d9-9bf9-6c8e0dea034e",
       "ward_no": "2",
-      "ward_name_en": "Ugrappuram",
-      "ward_name_ml": "ഉഗ്രപുരം"
+      "name_en": "Ugrappuram",
+      "name_ml": "ഉഗ്രപുരം"
     },
     {
-      "ward_id": "0751e00b-b4e1-4d44-93c5-b66d56039ebc",
+      "id": "0751e00b-b4e1-4d44-93c5-b66d56039ebc",
       "ward_no": "3",
-      "ward_name_en": "Perumparambu",
-      "ward_name_ml": "പെരുംപറമ്പ്"
+      "name_en": "Perumparambu",
+      "name_ml": "പെരുംപറമ്പ്"
     },
     {
-      "ward_id": "aeaaade3-c496-4ded-83f4-8d3d4d0d9ec9",
+      "id": "aeaaade3-c496-4ded-83f4-8d3d4d0d9ec9",
       "ward_no": "4",
-      "ward_name_en": "North Kozhakkottor",
-      "ward_name_ml": "നോര്‍ത്ത് കൊഴക്കോട്ടൂര്‍"
+      "name_en": "North Kozhakkottor",
+      "name_ml": "നോര്‍ത്ത് കൊഴക്കോട്ടൂര്‍"
     },
     {
-      "ward_id": "3ee5d7e2-a22e-4465-b55b-17b43d39a948",
+      "id": "3ee5d7e2-a22e-4465-b55b-17b43d39a948",
       "ward_no": "5",
-      "ward_name_en": "Thazhathangadi",
-      "ward_name_ml": "താഴത്തങ്ങാടി"
+      "name_en": "Thazhathangadi",
+      "name_ml": "താഴത്തങ്ങാടി"
     },
     {
-      "ward_id": "784eef88-c5a5-497a-a8f6-ae42f3185e21",
+      "id": "784eef88-c5a5-497a-a8f6-ae42f3185e21",
       "ward_no": "6",
-      "ward_name_en": "Areacode West",
-      "ward_name_ml": "അരീക്കോട് വെസ്റ്റ്"
+      "name_en": "Areacode West",
+      "name_ml": "അരീക്കോട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "ed8a96b7-e864-4b54-a74d-ac4aef4ceb97",
+      "id": "ed8a96b7-e864-4b54-a74d-ac4aef4ceb97",
       "ward_no": "7",
-      "ward_name_en": "Areacode East",
-      "ward_name_ml": "അരീക്കോട് ഈസ് റ്റ്"
+      "name_en": "Areacode East",
+      "name_ml": "അരീക്കോട് ഈസ് റ്റ്"
     },
     {
-      "ward_id": "e413d70f-d7c4-4c5e-83b2-9ca5e27dfa4c",
+      "id": "e413d70f-d7c4-4c5e-83b2-9ca5e27dfa4c",
       "ward_no": "8",
-      "ward_name_en": "Puthalam",
-      "ward_name_ml": "പുത്തലം"
+      "name_en": "Puthalam",
+      "name_ml": "പുത്തലം"
     },
     {
-      "ward_id": "e15757de-0058-493a-ba55-278d1199e4ff",
+      "id": "e15757de-0058-493a-ba55-278d1199e4ff",
       "ward_no": "9",
-      "ward_name_en": "South Puthalam",
-      "ward_name_ml": "സൌത്ത് പുത്തലം"
+      "name_en": "South Puthalam",
+      "name_ml": "സൌത്ത് പുത്തലം"
     },
     {
-      "ward_id": "bd86670a-93dd-4288-a3e0-d40327c99fde",
+      "id": "bd86670a-93dd-4288-a3e0-d40327c99fde",
       "ward_no": "10",
-      "ward_name_en": "Kozhakkottor",
-      "ward_name_ml": "കൊഴക്കോട്ടൂര്‍"
+      "name_en": "Kozhakkottor",
+      "name_ml": "കൊഴക്കോട്ടൂര്‍"
     },
     {
-      "ward_id": "c3d889dc-21d1-453f-a5db-6986037f08ab",
+      "id": "c3d889dc-21d1-453f-a5db-6986037f08ab",
       "ward_no": "11",
-      "ward_name_en": "Mathakkode",
-      "ward_name_ml": "മാതക്കോട്"
+      "name_en": "Mathakkode",
+      "name_ml": "മാതക്കോട്"
     },
     {
-      "ward_id": "8c13fcb0-f112-4108-8581-99af7a695b4c",
+      "id": "8c13fcb0-f112-4108-8581-99af7a695b4c",
       "ward_no": "12",
-      "ward_name_en": "Chemrakkattor",
-      "ward_name_ml": "ചെമ്രക്കാട്ടൂര്‍"
+      "name_en": "Chemrakkattor",
+      "name_ml": "ചെമ്രക്കാട്ടൂര്‍"
     },
     {
-      "ward_id": "1807b0af-bc43-485f-8e3d-66faf6241795",
+      "id": "1807b0af-bc43-485f-8e3d-66faf6241795",
       "ward_no": "13",
-      "ward_name_en": "Velleri East",
-      "ward_name_ml": "വെള്ളേരി ഈസ് റ്റ്"
+      "name_en": "Velleri East",
+      "name_ml": "വെള്ളേരി ഈസ് റ്റ്"
     },
     {
-      "ward_id": "0c563e91-23ec-4d85-b01c-f8e3dcd68115",
+      "id": "0c563e91-23ec-4d85-b01c-f8e3dcd68115",
       "ward_no": "14",
-      "ward_name_en": "Velleri West",
-      "ward_name_ml": "വെള്ളേരി വെസ് റ്റ്"
+      "name_en": "Velleri West",
+      "name_ml": "വെള്ളേരി വെസ് റ്റ്"
     },
     {
-      "ward_id": "be87d6be-39e3-437e-9e1f-da71dbe579af",
+      "id": "be87d6be-39e3-437e-9e1f-da71dbe579af",
       "ward_no": "15",
-      "ward_name_en": "Thazhathumuri",
-      "ward_name_ml": "താഴത്തുംമുറി"
+      "name_en": "Thazhathumuri",
+      "name_ml": "താഴത്തുംമുറി"
     },
     {
-      "ward_id": "ff26b93f-318b-440b-9f77-ed4d51255534",
+      "id": "ff26b93f-318b-440b-9f77-ed4d51255534",
       "ward_no": "16",
-      "ward_name_en": "Mundambra",
-      "ward_name_ml": "മുണ്ടമ്പ്ര"
+      "name_en": "Mundambra",
+      "name_ml": "മുണ്ടമ്പ്ര"
     },
     {
-      "ward_id": "835bb7df-fc92-4908-bc29-c571fb5a4194",
+      "id": "835bb7df-fc92-4908-bc29-c571fb5a4194",
       "ward_no": "17",
-      "ward_name_en": "Valiyakallungal",
-      "ward_name_ml": "വലിയകല്ലുങ്ങല്‍"
+      "name_en": "Valiyakallungal",
+      "name_ml": "വലിയകല്ലുങ്ങല്‍"
     },
     {
-      "ward_id": "59a7feee-875a-4fee-a86c-c0de37fc4ec2",
+      "id": "59a7feee-875a-4fee-a86c-c0de37fc4ec2",
       "ward_no": "18",
-      "ward_name_en": "Kariparambu",
-      "ward_name_ml": "കാരിപറമ്പ്"
+      "name_en": "Kariparambu",
+      "name_ml": "കാരിപറമ്പ്"
     }
   ],
   "towns": [],

@@ -1,62 +1,83 @@
 {
-  "assembly_id": "121",
-  "assembly_name_en": "Punalur",
-  "assembly_name_ml": "പുനലൂർ",
-  "category": "Normal",
+  "id": "121",
+  "name_en": "Punalur",
+  "name_ml": "പുനലൂർ",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020508",
-      "local_body_name_en": "Aryankavu",
-      "local_body_name_ml": "ആര്യങ്കാവ്",
-      "category": "Perfect"
+      "id": "G020508",
+      "name_en": "Aryankavu",
+      "name_ml": "ആര്യങ്കാവ്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020505",
-      "local_body_name_en": "Edamulackal",
-      "local_body_name_ml": "ഇടമുളയ്ക്കല്‍",
-      "category": "Normal"
+      "id": "G020505",
+      "name_en": "Edamulackal",
+      "name_ml": "ഇടമുളയ്ക്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020506",
-      "local_body_name_en": "Karavaloor",
-      "local_body_name_ml": "കരവാളൂര്‍",
-      "category": "Normal"
+      "id": "G020506",
+      "name_en": "Karavaloor",
+      "name_ml": "കരവാളൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020501",
-      "local_body_name_en": "Kulathupuzha",
-      "local_body_name_ml": "കുളത്തൂപ്പുഴ",
-      "category": "Normal"
+      "id": "G020501",
+      "name_en": "Kulathupuzha",
+      "name_ml": "കുളത്തൂപ്പുഴ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M020300",
-      "local_body_name_en": "Punalur",
-      "local_body_name_ml": "പുനലൂര്‍",
-      "category": "Good"
+      "id": "M020300",
+      "name_en": "Punalur",
+      "name_ml": "പുനലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020507",
-      "local_body_name_en": "Thenmala",
-      "local_body_name_ml": "തെന്മല",
-      "category": "Perfect"
+      "id": "G020507",
+      "name_en": "Thenmala",
+      "name_ml": "തെന്മല",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020502",
-      "local_body_name_en": "Yeroor",
-      "local_body_name_ml": "ഏരൂര്‍",
-      "category": "Perfect"
+      "id": "G020502",
+      "name_en": "Yeroor",
+      "name_ml": "ഏരൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020504",
-      "local_body_name_en": "Anchal",
-      "local_body_name_ml": "അഞ്ചല്‍",
-      "category": "Normal"
+      "id": "G020504",
+      "name_en": "Anchal",
+      "name_ml": "അഞ്ചല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

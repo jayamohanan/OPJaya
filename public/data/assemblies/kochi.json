@@ -1,26 +1,35 @@
 {
-  "assembly_id": "80",
-  "assembly_name_en": "Kochi",
-  "assembly_name_ml": "കൊച്ചി",
-  "category": "Normal",
+  "id": "80",
+  "name_en": "Kochi",
+  "name_ml": "കൊച്ചി",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070801",
-      "local_body_name_en": "Chellanam",
-      "local_body_name_ml": "ചെല്ലാനം",
-      "category": "Normal"
+      "id": "G070801",
+      "name_en": "Chellanam",
+      "name_ml": "ചെല്ലാനം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070802",
-      "local_body_name_en": "Kumbalanghi",
-      "local_body_name_ml": "കുമ്പളങ്ങി",
-      "category": "Good"
+      "id": "G070802",
+      "name_en": "Kumbalanghi",
+      "name_ml": "കുമ്പളങ്ങി",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

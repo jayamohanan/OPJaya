@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G100703",
-  "local_body_name_en": "Melattur",
-  "local_body_name_ml": "മേലാറ്റൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "38",
-    "assembly_name_en": "Perinthalmanna",
-    "assembly_name_ml": "പെരിന്തല്‍മണ്ണ",
+  "id": "G100703",
+  "name_en": "Melattur",
+  "name_ml": "മേലാറ്റൂര്‍",
+  "assembly_id": "38",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "38",
+    "name_en": "Perinthalmanna",
+    "name_ml": "പെരിന്തല്‍മണ്ണ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9a0690a3-8a92-4a23-9352-4e00bca62ca3",
+      "id": "9a0690a3-8a92-4a23-9352-4e00bca62ca3",
       "ward_no": "1",
-      "ward_name_en": "Edayattur",
-      "ward_name_ml": "എടയാറ്റൂര്‍"
+      "name_en": "Edayattur",
+      "name_ml": "എടയാറ്റൂര്‍"
     },
     {
-      "ward_id": "85b4b51e-9a31-403f-b8e4-ca104fb52413",
+      "id": "85b4b51e-9a31-403f-b8e4-ca104fb52413",
       "ward_no": "2",
-      "ward_name_en": "Manazhi",
-      "ward_name_ml": "മനഴി"
+      "name_en": "Manazhi",
+      "name_ml": "മനഴി"
     },
     {
-      "ward_id": "a4a61c5a-c51e-4b96-83bf-52f0fa0a06e7",
+      "id": "a4a61c5a-c51e-4b96-83bf-52f0fa0a06e7",
       "ward_no": "3",
-      "ward_name_en": "Olippuzha",
-      "ward_name_ml": "ഒലിപ്പുഴ"
+      "name_en": "Olippuzha",
+      "name_ml": "ഒലിപ്പുഴ"
     },
     {
-      "ward_id": "12836947-2165-4b28-ae5d-ec4c8a0e5965",
+      "id": "12836947-2165-4b28-ae5d-ec4c8a0e5965",
       "ward_no": "4",
-      "ward_name_en": "Pullikuth",
-      "ward_name_ml": "പുല്ലിക്കുത്ത്"
+      "name_en": "Pullikuth",
+      "name_ml": "പുല്ലിക്കുത്ത്"
     },
     {
-      "ward_id": "359df36b-8a76-4a82-91c5-047532945700",
+      "id": "359df36b-8a76-4a82-91c5-047532945700",
       "ward_no": "5",
-      "ward_name_en": "Kizhakkumpadam",
-      "ward_name_ml": "കിഴക്കുംപാടം"
+      "name_en": "Kizhakkumpadam",
+      "name_ml": "കിഴക്കുംപാടം"
     },
     {
-      "ward_id": "5943426b-b416-4e57-8a85-4e5d16dd888a",
+      "id": "5943426b-b416-4e57-8a85-4e5d16dd888a",
       "ward_no": "6",
-      "ward_name_en": "Melattur",
-      "ward_name_ml": "മേലാറ്റൂര്‍"
+      "name_en": "Melattur",
+      "name_ml": "മേലാറ്റൂര്‍"
     },
     {
-      "ward_id": "2e31571c-efe7-438f-b866-d16b878d9959",
+      "id": "2e31571c-efe7-438f-b866-d16b878d9959",
       "ward_no": "7",
-      "ward_name_en": "Chanthappadi",
-      "ward_name_ml": "ചന്തപ്പടി"
+      "name_en": "Chanthappadi",
+      "name_ml": "ചന്തപ്പടി"
     },
     {
-      "ward_id": "a0e27f23-a291-4d79-b86e-9c515c9331b4",
+      "id": "a0e27f23-a291-4d79-b86e-9c515c9331b4",
       "ward_no": "8",
-      "ward_name_en": "Ucharakkadavu",
-      "ward_name_ml": "ഉച്ചാരക്കടവ്"
+      "name_en": "Ucharakkadavu",
+      "name_ml": "ഉച്ചാരക്കടവ്"
     },
     {
-      "ward_id": "8e9cf4ca-fc8f-4c2d-9c39-c58c15f162de",
+      "id": "8e9cf4ca-fc8f-4c2d-9c39-c58c15f162de",
       "ward_no": "9",
-      "ward_name_en": "Kanhirampara",
-      "ward_name_ml": "കാഞ്ഞിരംപാറ"
+      "name_en": "Kanhirampara",
+      "name_ml": "കാഞ്ഞിരംപാറ"
     },
     {
-      "ward_id": "c023bfb8-1905-4d44-8f6b-70db628e1a34",
+      "id": "c023bfb8-1905-4d44-8f6b-70db628e1a34",
       "ward_no": "10",
-      "ward_name_en": "Ayilakkara",
-      "ward_name_ml": "ഐലക്കര"
+      "name_en": "Ayilakkara",
+      "name_ml": "ഐലക്കര"
     },
     {
-      "ward_id": "f94c9c2c-1e0e-452d-9768-852b9459b73e",
+      "id": "f94c9c2c-1e0e-452d-9768-852b9459b73e",
       "ward_no": "11",
-      "ward_name_en": "Vengoor",
-      "ward_name_ml": "വേങ്ങൂര്‍"
+      "name_en": "Vengoor",
+      "name_ml": "വേങ്ങൂര്‍"
     },
     {
-      "ward_id": "5ac7b58e-7a9e-4584-8ef4-80ce1fb293a0",
+      "id": "5ac7b58e-7a9e-4584-8ef4-80ce1fb293a0",
       "ward_no": "12",
-      "ward_name_en": "Valayappuram",
-      "ward_name_ml": "വളയപ്പുറം"
+      "name_en": "Valayappuram",
+      "name_ml": "വളയപ്പുറം"
     },
     {
-      "ward_id": "661a4c00-5448-4021-b459-64a2d8204bf2",
+      "id": "661a4c00-5448-4021-b459-64a2d8204bf2",
       "ward_no": "13",
-      "ward_name_en": "Kodakkadanchery",
-      "ward_name_ml": "കൊടക്കാടഞ്ചേരി"
+      "name_en": "Kodakkadanchery",
+      "name_ml": "കൊടക്കാടഞ്ചേരി"
     },
     {
-      "ward_id": "433e790c-630d-4dfe-a482-cb93d542bda2",
+      "id": "433e790c-630d-4dfe-a482-cb93d542bda2",
       "ward_no": "14",
-      "ward_name_en": "Chemmaniyode",
-      "ward_name_ml": "ചെമ്മാണിയോട്"
+      "name_en": "Chemmaniyode",
+      "name_ml": "ചെമ്മാണിയോട്"
     },
     {
-      "ward_id": "ec64ae7d-1b64-4fdd-8e99-3164ced73589",
+      "id": "ec64ae7d-1b64-4fdd-8e99-3164ced73589",
       "ward_no": "15",
-      "ward_name_en": "Pookkunnu",
-      "ward_name_ml": "പൂക്കുന്ന്"
+      "name_en": "Pookkunnu",
+      "name_ml": "പൂക്കുന്ന്"
     },
     {
-      "ward_id": "0d77ed60-b549-497c-ad93-bc4a03127da1",
+      "id": "0d77ed60-b549-497c-ad93-bc4a03127da1",
       "ward_no": "16",
-      "ward_name_en": "Kattuchira",
-      "ward_name_ml": "കാട്ടുചിറ"
+      "name_en": "Kattuchira",
+      "name_ml": "കാട്ടുചിറ"
     }
   ],
   "towns": [],

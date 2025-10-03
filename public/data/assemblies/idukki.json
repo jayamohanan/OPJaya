@@ -1,74 +1,99 @@
 {
-  "assembly_id": "91",
-  "assembly_name_en": "Idukki",
-  "assembly_name_ml": "ഇടുക്കി",
-  "category": "Normal",
+  "id": "91",
+  "name_en": "Idukki",
+  "name_ml": "ഇടുക്കി",
+  "district_id": "6",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "district_category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G060501",
-      "local_body_name_en": "IdukkiKanjikuzhy",
-      "local_body_name_ml": "ഇടുക്കി കഞ്ഞിക്കുഴി",
-      "category": "Normal"
+      "id": "G060501",
+      "name_en": "IdukkiKanjikuzhy",
+      "name_ml": "ഇടുക്കി കഞ്ഞിക്കുഴി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060504",
-      "local_body_name_en": "Kamakshy",
-      "local_body_name_ml": "കാമാക്ഷി",
-      "category": "Good"
+      "id": "G060504",
+      "name_en": "Kamakshy",
+      "name_ml": "കാമാക്ഷി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060604",
-      "local_body_name_en": "Kanchiyar",
-      "local_body_name_ml": "കാഞ്ചിയാര്‍",
-      "category": "Normal"
+      "id": "G060604",
+      "name_en": "Kanchiyar",
+      "name_ml": "കാഞ്ചിയാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M060200",
-      "local_body_name_en": "Kattappana",
-      "local_body_name_ml": "കട്ടപ്പന",
-      "category": "Normal"
+      "id": "M060200",
+      "name_en": "Kattappana",
+      "name_ml": "കട്ടപ്പന",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060102",
-      "local_body_name_en": "Konnathady",
-      "local_body_name_ml": "കൊന്നത്തടി",
-      "category": "Normal"
+      "id": "G060102",
+      "name_en": "Konnathady",
+      "name_ml": "കൊന്നത്തടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060407",
-      "local_body_name_en": "Kudayathoor",
-      "local_body_name_ml": "കുടയത്തൂര്‍",
-      "category": "Normal"
+      "id": "G060407",
+      "name_en": "Kudayathoor",
+      "name_ml": "കുടയത്തൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060506",
-      "local_body_name_en": "Mariyapuram",
-      "local_body_name_ml": "മരിയാപുരം",
-      "category": "Normal"
+      "id": "G060506",
+      "name_en": "Mariyapuram",
+      "name_ml": "മരിയാപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060502",
-      "local_body_name_en": "Vathikudy",
-      "local_body_name_ml": "വാത്തിക്കുടി",
-      "category": "Good"
+      "id": "G060502",
+      "name_en": "Vathikudy",
+      "name_ml": "വാത്തിക്കുടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060505",
-      "local_body_name_en": "Vazhathope",
-      "local_body_name_ml": "വാഴത്തോപ്പ്",
-      "category": "Good"
+      "id": "G060505",
+      "name_en": "Vazhathope",
+      "name_ml": "വാഴത്തോപ്പ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060503",
-      "local_body_name_en": "Arakulam",
-      "local_body_name_ml": "അറക്കുളം",
-      "category": "Normal"
+      "id": "G060503",
+      "name_en": "Arakulam",
+      "name_ml": "അറക്കുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,80 +1,107 @@
 {
-  "assembly_id": "110",
-  "assembly_name_en": "Chengannur",
-  "assembly_name_ml": "ചെങ്ങന്നൂർ",
-  "category": "Normal",
+  "id": "110",
+  "name_en": "Chengannur",
+  "name_ml": "ചെങ്ങന്നൂർ",
+  "district_id": "4",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "district_category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G040806",
-      "local_body_name_en": "Budhanoor",
-      "local_body_name_ml": "ബുധനൂര്‍",
-      "category": "Good"
+      "id": "G040806",
+      "name_en": "Budhanoor",
+      "name_ml": "ബുധനൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M040100",
-      "local_body_name_en": "Chengannur",
-      "local_body_name_ml": "ചെങ്ങന്നൂര്‍",
-      "category": "Good"
+      "id": "M040100",
+      "name_en": "Chengannur",
+      "name_ml": "ചെങ്ങന്നൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G041003",
-      "local_body_name_en": "Chennithala-Thripperumthura",
-      "local_body_name_ml": "ചെന്നിത്തല- തൃപ്പെരുന്തുറ",
-      "category": "Perfect"
+      "id": "G041003",
+      "name_en": "Chennithala-Thripperumthura",
+      "name_ml": "ചെന്നിത്തല- തൃപ്പെരുന്തുറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040803",
-      "local_body_name_en": "Cheriyanad",
-      "local_body_name_ml": "ചെറിയനാട്",
-      "category": "Good"
+      "id": "G040803",
+      "name_en": "Cheriyanad",
+      "name_ml": "ചെറിയനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G041005",
-      "local_body_name_en": "Mannar",
-      "local_body_name_ml": "മാന്നാര്‍",
-      "category": "Normal"
+      "id": "G041005",
+      "name_en": "Mannar",
+      "name_ml": "മാന്നാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040801",
-      "local_body_name_en": "Mulakuzha",
-      "local_body_name_ml": "മുളക്കുഴ",
-      "category": "Good"
+      "id": "G040801",
+      "name_en": "Mulakuzha",
+      "name_ml": "മുളക്കുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040807",
-      "local_body_name_en": "Pandanad",
-      "local_body_name_ml": "പാണ്ടനാട്",
-      "category": "Normal"
+      "id": "G040807",
+      "name_en": "Pandanad",
+      "name_ml": "പാണ്ടനാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040805",
-      "local_body_name_en": "Puliyoor",
-      "local_body_name_ml": "പുലിയൂര്‍",
-      "category": "Normal"
+      "id": "G040805",
+      "name_en": "Puliyoor",
+      "name_ml": "പുലിയൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040808",
-      "local_body_name_en": "Thiruvanvandoor",
-      "local_body_name_ml": "തിരുവന്‍വണ്ടൂര്‍",
-      "category": "Normal"
+      "id": "G040808",
+      "name_en": "Thiruvanvandoor",
+      "name_ml": "തിരുവന്‍വണ്ടൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040804",
-      "local_body_name_en": "Ala",
-      "local_body_name_ml": "ആല",
-      "category": "Perfect"
+      "id": "G040804",
+      "name_en": "Ala",
+      "name_ml": "ആല",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040802",
-      "local_body_name_en": "Venmoney",
-      "local_body_name_ml": "വെണ്മണി",
-      "category": "Normal"
+      "id": "G040802",
+      "name_en": "Venmoney",
+      "name_ml": "വെണ്മണി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,68 +1,91 @@
 {
-  "assembly_id": "68",
-  "assembly_name_en": "Nattika",
-  "assembly_name_ml": "നാട്ടിക",
-  "category": "Good",
+  "id": "68",
+  "name_en": "Nattika",
+  "name_ml": "നാട്ടിക",
+  "district_id": "8",
+  "assembly_category": {
+    "category": "Good"
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "district_category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G081001",
-      "local_body_name_en": "Avinissery",
-      "local_body_name_ml": "ആവിണിശ്ശേരി",
-      "category": "Good"
+      "id": "G081001",
+      "name_en": "Avinissery",
+      "name_ml": "ആവിണിശ്ശേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080903",
-      "local_body_name_en": "Chazhur",
-      "local_body_name_ml": "ചാഴൂര്‍",
-      "category": "Perfect"
+      "id": "G080903",
+      "name_en": "Chazhur",
+      "name_ml": "ചാഴൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G081002",
-      "local_body_name_en": "Cherpu",
-      "local_body_name_ml": "ചേര്‍പ്പ്",
-      "category": "Good"
+      "id": "G081002",
+      "name_en": "Cherpu",
+      "name_ml": "ചേര്‍പ്പ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080804",
-      "local_body_name_en": "Nattika",
-      "local_body_name_ml": "നാട്ടിക",
-      "category": "Good"
+      "id": "G080804",
+      "name_en": "Nattika",
+      "name_ml": "നാട്ടിക",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081003",
-      "local_body_name_en": "Paralam",
-      "local_body_name_ml": "പാറളം",
-      "category": "Perfect"
+      "id": "G081003",
+      "name_en": "Paralam",
+      "name_ml": "പാറളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G080803",
-      "local_body_name_en": "Thalikulam",
-      "local_body_name_ml": "തളിക്കുളം",
-      "category": "Good"
+      "id": "G080803",
+      "name_en": "Thalikulam",
+      "name_ml": "തളിക്കുളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080902",
-      "local_body_name_en": "Thanniyam",
-      "local_body_name_ml": "താന്ന്യം",
-      "category": "Good"
+      "id": "G080902",
+      "name_en": "Thanniyam",
+      "name_ml": "താന്ന്യം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080805",
-      "local_body_name_en": "Valapad",
-      "local_body_name_ml": "വലപ്പാട്",
-      "category": "Perfect"
+      "id": "G080805",
+      "name_en": "Valapad",
+      "name_ml": "വലപ്പാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G080901",
-      "local_body_name_en": "Anthikad",
-      "local_body_name_ml": "അന്തിക്കാട്",
-      "category": "Perfect"
+      "id": "G080901",
+      "name_en": "Anthikad",
+      "name_ml": "അന്തിക്കാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

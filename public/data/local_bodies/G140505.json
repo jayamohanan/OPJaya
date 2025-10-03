@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G140505",
-  "local_body_name_en": "East Eleri",
-  "local_body_name_ml": "ഈസ്റ്റ് എളേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G140505",
+  "name_en": "East Eleri",
+  "name_ml": "ഈസ്റ്റ് എളേരി",
+  "assembly_id": "5",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "5",
-    "assembly_name_en": "Trikaripur",
-    "assembly_name_ml": "തൃക്കരിപ്പൂര്‍",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Trikaripur",
+    "name_ml": "തൃക്കരിപ്പൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "279d4b3f-6254-4111-b9a0-5bd6d99fe89a",
+      "id": "279d4b3f-6254-4111-b9a0-5bd6d99fe89a",
       "ward_no": "1",
-      "ward_name_en": "Mandapam",
-      "ward_name_ml": "മണ്ഡപം"
+      "name_en": "Mandapam",
+      "name_ml": "മണ്ഡപം"
     },
     {
-      "ward_id": "1cca9e25-2220-4d09-8a80-2f0dd6342ce7",
+      "id": "1cca9e25-2220-4d09-8a80-2f0dd6342ce7",
       "ward_no": "2",
-      "ward_name_en": "Chittarikkal",
-      "ward_name_ml": "ചിറ്റാരിക്കാല്‍"
+      "name_en": "Chittarikkal",
+      "name_ml": "ചിറ്റാരിക്കാല്‍"
     },
     {
-      "ward_id": "e72d62f5-040c-49c6-82ea-3e4c9d1f7e6b",
+      "id": "e72d62f5-040c-49c6-82ea-3e4c9d1f7e6b",
       "ward_no": "3",
-      "ward_name_en": "Pallikkunnu",
-      "ward_name_ml": "പള്ളിക്കുന്ന്"
+      "name_en": "Pallikkunnu",
+      "name_ml": "പള്ളിക്കുന്ന്"
     },
     {
-      "ward_id": "30a7d876-d579-49f9-9d54-83b77bcc5d78",
+      "id": "30a7d876-d579-49f9-9d54-83b77bcc5d78",
       "ward_no": "4",
-      "ward_name_en": "Kavunthala",
-      "ward_name_ml": "കാവുന്തല"
+      "name_en": "Kavunthala",
+      "name_ml": "കാവുന്തല"
     },
     {
-      "ward_id": "d09f65f7-b5a7-4ea7-93bd-a1482ec0db7d",
+      "id": "d09f65f7-b5a7-4ea7-93bd-a1482ec0db7d",
       "ward_no": "5",
-      "ward_name_en": "Thayyeni",
-      "ward_name_ml": "തയ്യേനി"
+      "name_en": "Thayyeni",
+      "name_ml": "തയ്യേനി"
     },
     {
-      "ward_id": "778342d9-5ef2-4c44-95d6-bcb2921aceb0",
+      "id": "778342d9-5ef2-4c44-95d6-bcb2921aceb0",
       "ward_no": "6",
-      "ward_name_en": "Malankadavu",
-      "ward_name_ml": "മലാങ്കടവ്"
+      "name_en": "Malankadavu",
+      "name_ml": "മലാങ്കടവ്"
     },
     {
-      "ward_id": "af472136-c946-4e50-b9b3-0c581e14ba99",
+      "id": "af472136-c946-4e50-b9b3-0c581e14ba99",
       "ward_no": "7",
-      "ward_name_en": "Palavayal",
-      "ward_name_ml": "പാലാവയല്‍"
+      "name_en": "Palavayal",
+      "name_ml": "പാലാവയല്‍"
     },
     {
-      "ward_id": "e4c9e8ab-dc02-406f-8647-7a915f73e5e6",
+      "id": "e4c9e8ab-dc02-406f-8647-7a915f73e5e6",
       "ward_no": "8",
-      "ward_name_en": "Eanichal",
-      "ward_name_ml": "ഏണിച്ചാല്‍"
+      "name_en": "Eanichal",
+      "name_ml": "ഏണിച്ചാല്‍"
     },
     {
-      "ward_id": "c4f1b5df-12b5-440f-98e0-437d5916044f",
+      "id": "c4f1b5df-12b5-440f-98e0-437d5916044f",
       "ward_no": "9",
-      "ward_name_en": "Kannivayal",
-      "ward_name_ml": "കണ്ണിവയല്‍"
+      "name_en": "Kannivayal",
+      "name_ml": "കണ്ണിവയല്‍"
     },
     {
-      "ward_id": "ec36e7d0-8dc2-4a83-b50d-213463d8edb5",
+      "id": "ec36e7d0-8dc2-4a83-b50d-213463d8edb5",
       "ward_no": "10",
-      "ward_name_en": "Nallompuzha",
-      "ward_name_ml": "നല്ലോംപുഴ"
+      "name_en": "Nallompuzha",
+      "name_ml": "നല്ലോംപുഴ"
     },
     {
-      "ward_id": "c9dc64a1-dcd3-4a11-8b15-3abd1f03c51f",
+      "id": "c9dc64a1-dcd3-4a11-8b15-3abd1f03c51f",
       "ward_no": "11",
-      "ward_name_en": "Ponkal",
-      "ward_name_ml": "പൊങ്കല്‍"
+      "name_en": "Ponkal",
+      "name_ml": "പൊങ്കല്‍"
     },
     {
-      "ward_id": "f0e1c2eb-eb89-4c15-92da-248d45d8f41a",
+      "id": "f0e1c2eb-eb89-4c15-92da-248d45d8f41a",
       "ward_no": "12",
-      "ward_name_en": "Vellarikundu",
-      "ward_name_ml": "വെള്ളരിക്കുണ്ട്"
+      "name_en": "Vellarikundu",
+      "name_ml": "വെള്ളരിക്കുണ്ട്"
     },
     {
-      "ward_id": "139357f0-5c39-4705-9d03-503c65bfbac2",
+      "id": "139357f0-5c39-4705-9d03-503c65bfbac2",
       "ward_no": "13",
-      "ward_name_en": "Kollada",
-      "ward_name_ml": "കൊല്ലാട"
+      "name_en": "Kollada",
+      "name_ml": "കൊല്ലാട"
     },
     {
-      "ward_id": "52a7aa54-e2f5-4de3-a6f5-c6e9bb07a719",
+      "id": "52a7aa54-e2f5-4de3-a6f5-c6e9bb07a719",
       "ward_no": "14",
-      "ward_name_en": "Kamballur",
-      "ward_name_ml": "കമ്പല്ലൂര്‍"
+      "name_en": "Kamballur",
+      "name_ml": "കമ്പല്ലൂര്‍"
     },
     {
-      "ward_id": "97120756-887f-4885-a735-b32c07a42015",
+      "id": "97120756-887f-4885-a735-b32c07a42015",
       "ward_no": "15",
-      "ward_name_en": "Kadumeni",
-      "ward_name_ml": "കടുമേനി"
+      "name_en": "Kadumeni",
+      "name_ml": "കടുമേനി"
     },
     {
-      "ward_id": "acd56848-aeec-4543-9e1c-a5ace51da45d",
+      "id": "acd56848-aeec-4543-9e1c-a5ace51da45d",
       "ward_no": "16",
-      "ward_name_en": "Kara",
-      "ward_name_ml": "കാര"
+      "name_en": "Kara",
+      "name_ml": "കാര"
     }
   ],
   "towns": [],

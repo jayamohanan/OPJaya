@@ -1,68 +1,91 @@
 {
-  "assembly_id": "122",
-  "assembly_name_en": "Chadayamangalam",
-  "assembly_name_ml": "ചടയമംഗലം",
-  "category": "Normal",
+  "id": "122",
+  "name_en": "Chadayamangalam",
+  "name_ml": "ചടയമംഗലം",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G021103",
-      "local_body_name_en": "Chadayamangalam",
-      "local_body_name_ml": "ചടയമംഗലം",
-      "category": "Perfect"
+      "id": "G021103",
+      "name_en": "Chadayamangalam",
+      "name_ml": "ചടയമംഗലം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021101",
-      "local_body_name_en": "Chithara",
-      "local_body_name_ml": "ചിതറ",
-      "category": "Good"
+      "id": "G021101",
+      "name_en": "Chithara",
+      "name_ml": "ചിതറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G021106",
-      "local_body_name_en": "Elamadu",
-      "local_body_name_ml": "ഇളമാട്",
-      "category": "Perfect"
+      "id": "G021106",
+      "name_en": "Elamadu",
+      "name_ml": "ഇളമാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021104",
-      "local_body_name_en": "Ittiva",
-      "local_body_name_ml": "ഇട്ടിവ",
-      "category": "Perfect"
+      "id": "G021104",
+      "name_en": "Ittiva",
+      "name_ml": "ഇട്ടിവ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021102",
-      "local_body_name_en": "Kadakkal",
-      "local_body_name_ml": "കടയ്ക്കല്‍",
-      "category": "Normal"
+      "id": "G021102",
+      "name_en": "Kadakkal",
+      "name_ml": "കടയ്ക്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G021108",
-      "local_body_name_en": "Kummil",
-      "local_body_name_ml": "കുമ്മിള്‍",
-      "category": "Perfect"
+      "id": "G021108",
+      "name_en": "Kummil",
+      "name_ml": "കുമ്മിള്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021107",
-      "local_body_name_en": "Nilamel",
-      "local_body_name_ml": "നിലമേല്‍",
-      "category": "Perfect"
+      "id": "G021107",
+      "name_en": "Nilamel",
+      "name_ml": "നിലമേല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021105",
-      "local_body_name_en": "Velinalloor",
-      "local_body_name_ml": "വെളിനല്ലൂര്‍",
-      "category": "Good"
+      "id": "G021105",
+      "name_en": "Velinalloor",
+      "name_ml": "വെളിനല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020503",
-      "local_body_name_en": "Alayamon",
-      "local_body_name_ml": "അലയമണ്‍",
-      "category": "Normal"
+      "id": "G020503",
+      "name_en": "Alayamon",
+      "name_ml": "അലയമണ്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

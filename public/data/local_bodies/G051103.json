@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G051103",
-  "local_body_name_en": "Koottickal",
-  "local_body_name_ml": "കൂട്ടിക്കല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G051103",
+  "name_en": "Koottickal",
+  "name_ml": "കൂട്ടിക്കല്‍",
+  "assembly_id": "101",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "101",
-    "assembly_name_en": "Poonjar",
-    "assembly_name_ml": "പൂഞ്ഞാർ",
-    "category": "Normal"
+    "id": "101",
+    "name_en": "Poonjar",
+    "name_ml": "പൂഞ്ഞാർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d48b069d-ffd9-4252-a000-c149f74599e6",
+      "id": "d48b069d-ffd9-4252-a000-c149f74599e6",
       "ward_no": "1",
-      "ward_name_en": "Parathanam",
-      "ward_name_ml": "പറത്താനം"
+      "name_en": "Parathanam",
+      "name_ml": "പറത്താനം"
     },
     {
-      "ward_id": "e858105c-cec3-47e3-a7a7-eac3c03d9d1b",
+      "id": "e858105c-cec3-47e3-a7a7-eac3c03d9d1b",
       "ward_no": "2",
-      "ward_name_en": "Thalumkal",
-      "ward_name_ml": "താളുങ്കല്‍"
+      "name_en": "Thalumkal",
+      "name_ml": "താളുങ്കല്‍"
     },
     {
-      "ward_id": "672cf44d-3c46-482b-a29b-930ecb6cac6d",
+      "id": "672cf44d-3c46-482b-a29b-930ecb6cac6d",
       "ward_no": "3",
-      "ward_name_en": "Plappally",
-      "ward_name_ml": "പ്ലാപ്പള്ളി"
+      "name_en": "Plappally",
+      "name_ml": "പ്ലാപ്പള്ളി"
     },
     {
-      "ward_id": "5b6052f9-312b-4ec0-b1f5-3b9f25c5a98a",
+      "id": "5b6052f9-312b-4ec0-b1f5-3b9f25c5a98a",
       "ward_no": "4",
-      "ward_name_en": "Chathanplappally",
-      "ward_name_ml": "ചാത്തന്‍പ്ലാപ്പള്ളി"
+      "name_en": "Chathanplappally",
+      "name_ml": "ചാത്തന്‍പ്ലാപ്പള്ളി"
     },
     {
-      "ward_id": "f72eaf9f-bd9d-41c1-b880-b4250c3ebfdf",
+      "id": "f72eaf9f-bd9d-41c1-b880-b4250c3ebfdf",
       "ward_no": "5",
-      "ward_name_en": "Elamkadu Town",
-      "ward_name_ml": "ഇളംകാട് ടൌണ്‍"
+      "name_en": "Elamkadu Town",
+      "name_ml": "ഇളംകാട് ടൌണ്‍"
     },
     {
-      "ward_id": "d5d37ea1-eda9-4e36-a180-128e1700586b",
+      "id": "d5d37ea1-eda9-4e36-a180-128e1700586b",
       "ward_no": "6",
-      "ward_name_en": "Kodunga",
-      "ward_name_ml": "കൊടുങ്ങ"
+      "name_en": "Kodunga",
+      "name_ml": "കൊടുങ്ങ"
     },
     {
-      "ward_id": "9b174a45-2fac-4363-98e7-483403c13710",
+      "id": "9b174a45-2fac-4363-98e7-483403c13710",
       "ward_no": "7",
-      "ward_name_en": "Elamkadu Top",
-      "ward_name_ml": "ഇളംകാട് ടോപ്പ്"
+      "name_en": "Elamkadu Top",
+      "name_ml": "ഇളംകാട് ടോപ്പ്"
     },
     {
-      "ward_id": "4c0d73ea-a8f0-42f0-8e99-5c8fdc7c462f",
+      "id": "4c0d73ea-a8f0-42f0-8e99-5c8fdc7c462f",
       "ward_no": "8",
-      "ward_name_en": "Olayanadu",
-      "ward_name_ml": "ഒളയനാട്"
+      "name_en": "Olayanadu",
+      "name_ml": "ഒളയനാട്"
     },
     {
-      "ward_id": "900eea03-4d91-433d-8b5b-41413e4a7c69",
+      "id": "900eea03-4d91-433d-8b5b-41413e4a7c69",
       "ward_no": "9",
-      "ward_name_en": "Yendayar Town",
-      "ward_name_ml": "ഏന്തയാര്‍ ടൌണ്‍"
+      "name_en": "Yendayar Town",
+      "name_ml": "ഏന്തയാര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "6e39ed4e-d0b2-46e5-a853-9ab991a12c55",
+      "id": "6e39ed4e-d0b2-46e5-a853-9ab991a12c55",
       "ward_no": "10",
-      "ward_name_en": "Thenpuzha East",
-      "ward_name_ml": "തേന്‍പുഴ ഈസ്റ്റ്"
+      "name_en": "Thenpuzha East",
+      "name_ml": "തേന്‍പുഴ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "67b546f3-f4ea-4f38-85c6-882c12902cdf",
+      "id": "67b546f3-f4ea-4f38-85c6-882c12902cdf",
       "ward_no": "11",
-      "ward_name_en": "Koottickal Town",
-      "ward_name_ml": "കൂട്ടിക്കല്‍ ടൌണ്‍"
+      "name_en": "Koottickal Town",
+      "name_ml": "കൂട്ടിക്കല്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "d96a6897-d1ed-416f-9dcb-24f80d6d6e93",
+      "id": "d96a6897-d1ed-416f-9dcb-24f80d6d6e93",
       "ward_no": "12",
-      "ward_name_en": "Koottickal Chappathu",
-      "ward_name_ml": "കൂട്ടിക്കല്‍ ചപ്പാത്ത്"
+      "name_en": "Koottickal Chappathu",
+      "name_ml": "കൂട്ടിക്കല്‍ ചപ്പാത്ത്"
     },
     {
-      "ward_id": "f74db32b-53d8-4ff3-9a41-d0f0a2471292",
+      "id": "f74db32b-53d8-4ff3-9a41-d0f0a2471292",
       "ward_no": "13",
-      "ward_name_en": "Valleetta",
-      "ward_name_ml": "വല്ലീറ്റ"
+      "name_en": "Valleetta",
+      "name_ml": "വല്ലീറ്റ"
     }
   ],
   "towns": [],

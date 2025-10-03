@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G010102",
-  "local_body_name_en": "Edava",
-  "local_body_name_ml": "ഇടവ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010102",
+  "name_en": "Edava",
+  "name_ml": "ഇടവ",
+  "assembly_id": "127",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "127",
-    "assembly_name_en": "Varkala",
-    "assembly_name_ml": "വർക്കല",
-    "category": "Normal"
+    "id": "127",
+    "name_en": "Varkala",
+    "name_ml": "വർക്കല",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "20721ea5-a5e0-4a93-a009-ecb25eb9f568",
+      "id": "20721ea5-a5e0-4a93-a009-ecb25eb9f568",
       "ward_no": "13",
-      "ward_name_en": "Manthara",
-      "ward_name_ml": "മാന്തറ"
+      "name_en": "Manthara",
+      "name_ml": "മാന്തറ"
     },
     {
-      "ward_id": "1e772605-5eb6-4947-95be-8d1e2cf1b7cf",
+      "id": "1e772605-5eb6-4947-95be-8d1e2cf1b7cf",
       "ward_no": "1",
-      "ward_name_en": "Kappil",
-      "ward_name_ml": "കാപ്പില്‍"
+      "name_en": "Kappil",
+      "name_ml": "കാപ്പില്‍"
     },
     {
-      "ward_id": "1066cf33-8e84-4b33-a26f-f4e97449b58a",
+      "id": "1066cf33-8e84-4b33-a26f-f4e97449b58a",
       "ward_no": "2",
-      "ward_name_en": "Kappil Hs",
-      "ward_name_ml": "കാപ്പില്‍ എച്ച്.എസ്"
+      "name_en": "Kappil Hs",
+      "name_ml": "കാപ്പില്‍ എച്ച്.എസ്"
     },
     {
-      "ward_id": "635d3a43-ab80-4259-b9de-d7c5069cf6b2",
+      "id": "635d3a43-ab80-4259-b9de-d7c5069cf6b2",
       "ward_no": "3",
-      "ward_name_en": "Ambedkar",
-      "ward_name_ml": "അംബേദ്കര്‍"
+      "name_en": "Ambedkar",
+      "name_ml": "അംബേദ്കര്‍"
     },
     {
-      "ward_id": "cd6464f9-52b9-434a-97d3-dc391b8420be",
+      "id": "cd6464f9-52b9-434a-97d3-dc391b8420be",
       "ward_no": "4",
-      "ward_name_en": "Parayil",
-      "ward_name_ml": "പാറയില്‍"
+      "name_en": "Parayil",
+      "name_ml": "പാറയില്‍"
     },
     {
-      "ward_id": "c71eef4e-f349-4ec9-be70-df74523a82f2",
+      "id": "c71eef4e-f349-4ec9-be70-df74523a82f2",
       "ward_no": "5",
-      "ward_name_en": "Venkulam",
-      "ward_name_ml": "വെണ്‍കുളം"
+      "name_en": "Venkulam",
+      "name_ml": "വെണ്‍കുളം"
     },
     {
-      "ward_id": "17171445-41f4-4e69-b7f5-258996957857",
+      "id": "17171445-41f4-4e69-b7f5-258996957857",
       "ward_no": "6",
-      "ward_name_en": "Pottakulam",
-      "ward_name_ml": "പൊട്ടകുളം"
+      "name_en": "Pottakulam",
+      "name_ml": "പൊട്ടകുളം"
     },
     {
-      "ward_id": "82cd7b84-dbcd-40ad-8be3-dd659078625e",
+      "id": "82cd7b84-dbcd-40ad-8be3-dd659078625e",
       "ward_no": "7",
-      "ward_name_en": "Kattuvila",
-      "ward_name_ml": "കാട്ടുവിള"
+      "name_en": "Kattuvila",
+      "name_ml": "കാട്ടുവിള"
     },
     {
-      "ward_id": "78f349ac-10fb-4d2f-8fb9-618eec18eb1d",
+      "id": "78f349ac-10fb-4d2f-8fb9-618eec18eb1d",
       "ward_no": "8",
-      "ward_name_en": "Kuruvila",
-      "ward_name_ml": "കുരുവിള"
+      "name_en": "Kuruvila",
+      "name_ml": "കുരുവിള"
     },
     {
-      "ward_id": "ac88014c-44b5-4623-9f12-d2ceace86040",
+      "id": "ac88014c-44b5-4623-9f12-d2ceace86040",
       "ward_no": "9",
-      "ward_name_en": "Venkulam Lvups",
-      "ward_name_ml": "വെണ്‍കുളം എല്‍ വി യു പി എസ്"
+      "name_en": "Venkulam Lvups",
+      "name_ml": "വെണ്‍കുളം എല്‍ വി യു പി എസ്"
     },
     {
-      "ward_id": "6c1fd7da-eb03-41d5-9d95-b28aef43b813",
+      "id": "6c1fd7da-eb03-41d5-9d95-b28aef43b813",
       "ward_no": "10",
-      "ward_name_en": "Chembakathinmoodu",
-      "ward_name_ml": "ചെമ്പകത്തിന്‍മൂട്"
+      "name_en": "Chembakathinmoodu",
+      "name_ml": "ചെമ്പകത്തിന്‍മൂട്"
     },
     {
-      "ward_id": "85e6a611-3290-4921-ad63-013ea4967a07",
+      "id": "85e6a611-3290-4921-ad63-013ea4967a07",
       "ward_no": "11",
-      "ward_name_en": "Emhs",
-      "ward_name_ml": "ഇ.എം.എച്ച്.എസ്"
+      "name_en": "Emhs",
+      "name_ml": "ഇ.എം.എച്ച്.എസ്"
     },
     {
-      "ward_id": "2aaa81e8-671b-4786-a7fa-733e61ae7885",
+      "id": "2aaa81e8-671b-4786-a7fa-733e61ae7885",
       "ward_no": "12",
-      "ward_name_en": "Odayam",
-      "ward_name_ml": "ഓടയം"
+      "name_en": "Odayam",
+      "name_ml": "ഓടയം"
     },
     {
-      "ward_id": "dbf17a8c-b3d0-4c1b-a651-e8bf082f042c",
+      "id": "dbf17a8c-b3d0-4c1b-a651-e8bf082f042c",
       "ward_no": "14",
-      "ward_name_en": "Sreeyettu",
-      "ward_name_ml": "ശ്രീയേറ്റ്"
+      "name_en": "Sreeyettu",
+      "name_ml": "ശ്രീയേറ്റ്"
     },
     {
-      "ward_id": "9629a9b3-4dd6-49f3-bfe1-a310c1d837f2",
+      "id": "9629a9b3-4dd6-49f3-bfe1-a310c1d837f2",
       "ward_no": "15",
-      "ward_name_en": "Madrasa",
-      "ward_name_ml": "മദ്രസ്സ"
+      "name_en": "Madrasa",
+      "name_ml": "മദ്രസ്സ"
     },
     {
-      "ward_id": "dd0b2da7-196f-4d26-bda5-8541b25d13fa",
+      "id": "dd0b2da7-196f-4d26-bda5-8541b25d13fa",
       "ward_no": "16",
-      "ward_name_en": "Edava Phc",
-      "ward_name_ml": "ഇടവ പി.എച്ച്.സി"
+      "name_en": "Edava Phc",
+      "name_ml": "ഇടവ പി.എച്ച്.സി"
     },
     {
-      "ward_id": "926e8de9-ffca-4937-a766-31bdfd776973",
+      "id": "926e8de9-ffca-4937-a766-31bdfd776973",
       "ward_no": "17",
-      "ward_name_en": "Vettakada",
-      "ward_name_ml": "വെറ്റക്കട"
+      "name_en": "Vettakada",
+      "name_ml": "വെറ്റക്കട"
     }
   ],
   "towns": [],

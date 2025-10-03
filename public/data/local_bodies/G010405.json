@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G010405",
-  "local_body_name_en": "Pangode",
-  "local_body_name_ml": "പാങ്ങോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010405",
+  "name_en": "Pangode",
+  "name_ml": "പാങ്ങോട്",
+  "assembly_id": "131",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "131",
-    "assembly_name_en": "Vamanapuram",
-    "assembly_name_ml": "വാമനപുരം",
-    "category": "Normal"
+    "id": "131",
+    "name_en": "Vamanapuram",
+    "name_ml": "വാമനപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5c6230b7-aeae-46bb-95a7-975abd6e8a54",
+      "id": "5c6230b7-aeae-46bb-95a7-975abd6e8a54",
       "ward_no": "1",
-      "ward_name_en": "Pulippara",
-      "ward_name_ml": "പുലിപ്പാറ"
+      "name_en": "Pulippara",
+      "name_ml": "പുലിപ്പാറ"
     },
     {
-      "ward_id": "62606068-c63f-4595-9eeb-70950a11b1ae",
+      "id": "62606068-c63f-4595-9eeb-70950a11b1ae",
       "ward_no": "2",
-      "ward_name_en": "Manacode",
-      "ward_name_ml": "മണക്കോട്"
+      "name_en": "Manacode",
+      "name_ml": "മണക്കോട്"
     },
     {
-      "ward_id": "6a4f56fb-301c-44fd-a476-4337e0d24eb7",
+      "id": "6a4f56fb-301c-44fd-a476-4337e0d24eb7",
       "ward_no": "3",
-      "ward_name_en": "Pangode",
-      "ward_name_ml": "പാങ്ങോട്"
+      "name_en": "Pangode",
+      "name_ml": "പാങ്ങോട്"
     },
     {
-      "ward_id": "26c0e3ff-7271-4231-9c92-a9a9cae06388",
+      "id": "26c0e3ff-7271-4231-9c92-a9a9cae06388",
       "ward_no": "4",
-      "ward_name_en": "Maranadu",
-      "ward_name_ml": "മാറനാട്"
+      "name_en": "Maranadu",
+      "name_ml": "മാറനാട്"
     },
     {
-      "ward_id": "a0a73e3e-ffb4-41c1-b276-41de51f04f19",
+      "id": "a0a73e3e-ffb4-41c1-b276-41de51f04f19",
       "ward_no": "5",
-      "ward_name_en": "Thrikkovilvattom",
-      "ward_name_ml": "തൃക്കോവില്‍വട്ടം"
+      "name_en": "Thrikkovilvattom",
+      "name_ml": "തൃക്കോവില്‍വട്ടം"
     },
     {
-      "ward_id": "f862024a-cbe2-4c72-af28-274e3576dbe7",
+      "id": "f862024a-cbe2-4c72-af28-274e3576dbe7",
       "ward_no": "6",
-      "ward_name_en": "Moolappezhu",
-      "ward_name_ml": "മൂലപ്പേഴ്"
+      "name_en": "Moolappezhu",
+      "name_ml": "മൂലപ്പേഴ്"
     },
     {
-      "ward_id": "643fe8cd-6241-40d8-83e0-6b5ff8ca875d",
+      "id": "643fe8cd-6241-40d8-83e0-6b5ff8ca875d",
       "ward_no": "7",
-      "ward_name_en": "Ambedkarcolony",
-      "ward_name_ml": "അംബേദ്കര്‍കോളനി"
+      "name_en": "Ambedkarcolony",
+      "name_ml": "അംബേദ്കര്‍കോളനി"
     },
     {
-      "ward_id": "1024c1a8-0002-4b83-8aa1-62823ddd1282",
+      "id": "1024c1a8-0002-4b83-8aa1-62823ddd1282",
       "ward_no": "8",
-      "ward_name_en": "Bharathannoor",
-      "ward_name_ml": "ഭരതന്നൂര്‍"
+      "name_en": "Bharathannoor",
+      "name_ml": "ഭരതന്നൂര്‍"
     },
     {
-      "ward_id": "8203024c-a2be-4fde-ac3b-9c711c90e101",
+      "id": "8203024c-a2be-4fde-ac3b-9c711c90e101",
       "ward_no": "9",
-      "ward_name_en": "Valiyavayal",
-      "ward_name_ml": "വലിയവയല്‍"
+      "name_en": "Valiyavayal",
+      "name_ml": "വലിയവയല്‍"
     },
     {
-      "ward_id": "96de1b6c-2d6c-42c2-bd96-16d3373ac80b",
+      "id": "96de1b6c-2d6c-42c2-bd96-16d3373ac80b",
       "ward_no": "10",
-      "ward_name_en": "Ex Servicemen Colony",
-      "ward_name_ml": "എക്സ് സര്‍വ്വീസ്മെന്‍ കോളനി"
+      "name_en": "Ex Servicemen Colony",
+      "name_ml": "എക്സ് സര്‍വ്വീസ്മെന്‍ കോളനി"
     },
     {
-      "ward_id": "198fe3d4-8d37-42be-84d8-529e752777eb",
+      "id": "198fe3d4-8d37-42be-84d8-529e752777eb",
       "ward_no": "11",
-      "ward_name_en": "Kakkanikkara",
-      "ward_name_ml": "കാക്കാണിക്കര"
+      "name_en": "Kakkanikkara",
+      "name_ml": "കാക്കാണിക്കര"
     },
     {
-      "ward_id": "7550b1d0-9339-4f0d-9dc9-2d0ebcfe0ae9",
+      "id": "7550b1d0-9339-4f0d-9dc9-2d0ebcfe0ae9",
       "ward_no": "12",
-      "ward_name_en": "Mylamoodu",
-      "ward_name_ml": "മൈലമൂട്"
+      "name_en": "Mylamoodu",
+      "name_ml": "മൈലമൂട്"
     },
     {
-      "ward_id": "9e818c4e-a2b7-4371-b43b-ec1b6aaa1fc0",
+      "id": "9e818c4e-a2b7-4371-b43b-ec1b6aaa1fc0",
       "ward_no": "13",
-      "ward_name_en": "Adappupara",
-      "ward_name_ml": "അടപ്പുപാറ"
+      "name_en": "Adappupara",
+      "name_ml": "അടപ്പുപാറ"
     },
     {
-      "ward_id": "6d4750db-099b-4d23-8e8d-77c8a30ba47f",
+      "id": "6d4750db-099b-4d23-8e8d-77c8a30ba47f",
       "ward_no": "14",
-      "ward_name_en": "Vellayamdesam",
-      "ward_name_ml": "വെള്ളയംദേശം"
+      "name_en": "Vellayamdesam",
+      "name_ml": "വെള്ളയംദേശം"
     },
     {
-      "ward_id": "fb537e02-b953-40bb-bcfd-01716a1e82a2",
+      "id": "fb537e02-b953-40bb-bcfd-01716a1e82a2",
       "ward_no": "15",
-      "ward_name_en": "Pulikkara",
-      "ward_name_ml": "പുളിക്കര"
+      "name_en": "Pulikkara",
+      "name_ml": "പുളിക്കര"
     },
     {
-      "ward_id": "6fa60697-be70-4d09-84ad-ee4d1a1fb023",
+      "id": "6fa60697-be70-4d09-84ad-ee4d1a1fb023",
       "ward_no": "16",
-      "ward_name_en": "Leninkunnu",
-      "ward_name_ml": "ലെനിന്‍കുന്ന്"
+      "name_en": "Leninkunnu",
+      "name_ml": "ലെനിന്‍കുന്ന്"
     },
     {
-      "ward_id": "36501a83-f06e-41dd-860a-930d8d34550c",
+      "id": "36501a83-f06e-41dd-860a-930d8d34550c",
       "ward_no": "17",
-      "ward_name_en": "Kochalummoodu",
-      "ward_name_ml": "കൊച്ചാലുംമൂട്"
+      "name_en": "Kochalummoodu",
+      "name_ml": "കൊച്ചാലുംമൂട്"
     },
     {
-      "ward_id": "75ae90b5-92fd-4b5a-af3e-6a9bdef5a2b3",
+      "id": "75ae90b5-92fd-4b5a-af3e-6a9bdef5a2b3",
       "ward_no": "18",
-      "ward_name_en": "Uliyancode",
-      "ward_name_ml": "ഉളിയന്‍കോട്"
+      "name_en": "Uliyancode",
+      "name_ml": "ഉളിയന്‍കോട്"
     },
     {
-      "ward_id": "c4a387f2-63c1-4a4f-8d79-4f7c5988aaac",
+      "id": "c4a387f2-63c1-4a4f-8d79-4f7c5988aaac",
       "ward_no": "19",
-      "ward_name_en": "Pazhavila",
-      "ward_name_ml": "പഴവിള"
+      "name_en": "Pazhavila",
+      "name_ml": "പഴവിള"
     }
   ],
   "towns": [],

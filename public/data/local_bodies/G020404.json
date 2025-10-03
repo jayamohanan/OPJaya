@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G020404",
-  "local_body_name_en": "Pattazhi Vadakkekara",
-  "local_body_name_ml": "പട്ടാഴി വടക്കേക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G020404",
+  "name_en": "Pattazhi Vadakkekara",
+  "name_ml": "പട്ടാഴി വടക്കേക്കര",
+  "assembly_id": "120",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "120",
-    "assembly_name_en": "Pathanapuram",
-    "assembly_name_ml": "പത്തനാപുരം",
-    "category": "Normal"
+    "id": "120",
+    "name_en": "Pathanapuram",
+    "name_ml": "പത്തനാപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8f8d9b18-435a-4265-8cd9-71a47c10dbb8",
+      "id": "8f8d9b18-435a-4265-8cd9-71a47c10dbb8",
       "ward_no": "1",
-      "ward_name_en": "Thazhathuvadakku",
-      "ward_name_ml": "താഴത്തുവടക്ക്"
+      "name_en": "Thazhathuvadakku",
+      "name_ml": "താഴത്തുവടക്ക്"
     },
     {
-      "ward_id": "7ff69745-cc00-4f4f-b0d9-b6389f03d152",
+      "id": "7ff69745-cc00-4f4f-b0d9-b6389f03d152",
       "ward_no": "2",
-      "ward_name_en": "Govindamadom",
-      "ward_name_ml": "ഗോവിന്ദമഠം"
+      "name_en": "Govindamadom",
+      "name_ml": "ഗോവിന്ദമഠം"
     },
     {
-      "ward_id": "14c4395f-f638-40d4-a1a0-263b70540f39",
+      "id": "14c4395f-f638-40d4-a1a0-263b70540f39",
       "ward_no": "3",
-      "ward_name_en": "Chelikkuzhy",
-      "ward_name_ml": "ചെളിക്കുഴി"
+      "name_en": "Chelikkuzhy",
+      "name_ml": "ചെളിക്കുഴി"
     },
     {
-      "ward_id": "c927c295-f738-4f93-af19-9fb2a89d683f",
+      "id": "c927c295-f738-4f93-af19-9fb2a89d683f",
       "ward_no": "4",
-      "ward_name_en": "Market",
-      "ward_name_ml": "മാര്‍ക്കറ്റ്"
+      "name_en": "Market",
+      "name_ml": "മാര്‍ക്കറ്റ്"
     },
     {
-      "ward_id": "1b035e73-534f-40c5-b67a-f2781998cac1",
+      "id": "1b035e73-534f-40c5-b67a-f2781998cac1",
       "ward_no": "5",
-      "ward_name_en": "Manayara",
-      "ward_name_ml": "മണയറ"
+      "name_en": "Manayara",
+      "name_ml": "മണയറ"
     },
     {
-      "ward_id": "aabb1569-f2b3-4e85-80e8-345762249a8e",
+      "id": "aabb1569-f2b3-4e85-80e8-345762249a8e",
       "ward_no": "6",
-      "ward_name_en": "Maloor",
-      "ward_name_ml": "മാലൂര്‍"
+      "name_en": "Maloor",
+      "name_ml": "മാലൂര്‍"
     },
     {
-      "ward_id": "fcbc1a84-bbc0-4dce-8cce-dbe6668cbb55",
+      "id": "fcbc1a84-bbc0-4dce-8cce-dbe6668cbb55",
       "ward_no": "7",
-      "ward_name_en": "Karimpaloor",
-      "ward_name_ml": "കരിമ്പാലൂര്‍"
+      "name_en": "Karimpaloor",
+      "name_ml": "കരിമ്പാലൂര്‍"
     },
     {
-      "ward_id": "dbc130a5-83eb-473f-9128-ce6c64ca9fab",
+      "id": "dbc130a5-83eb-473f-9128-ce6c64ca9fab",
       "ward_no": "8",
-      "ward_name_en": "Vattakkala",
-      "ward_name_ml": "വട്ടക്കാല"
+      "name_en": "Vattakkala",
+      "name_ml": "വട്ടക്കാല"
     },
     {
-      "ward_id": "31f419a1-c864-4bff-876c-bf7afa27143e",
+      "id": "31f419a1-c864-4bff-876c-bf7afa27143e",
       "ward_no": "9",
-      "ward_name_en": "Meenamvadakkekkara",
-      "ward_name_ml": "മീനം വടക്കേക്കര"
+      "name_en": "Meenamvadakkekkara",
+      "name_ml": "മീനം വടക്കേക്കര"
     },
     {
-      "ward_id": "ea00c26f-722b-45e7-a265-31e73ceac93d",
+      "id": "ea00c26f-722b-45e7-a265-31e73ceac93d",
       "ward_no": "10",
-      "ward_name_en": "Kaduvathodu",
-      "ward_name_ml": "കടുവാത്തോട്"
+      "name_en": "Kaduvathodu",
+      "name_ml": "കടുവാത്തോട്"
     },
     {
-      "ward_id": "cb19fe3a-816d-449b-9b6c-faecb217e157",
+      "id": "cb19fe3a-816d-449b-9b6c-faecb217e157",
       "ward_no": "11",
-      "ward_name_en": "Erathuvadakku",
-      "ward_name_ml": "ഏറത്തുവടക്ക്"
+      "name_en": "Erathuvadakku",
+      "name_ml": "ഏറത്തുവടക്ക്"
     },
     {
-      "ward_id": "01427d06-f346-4817-9260-39eb5fe24487",
+      "id": "01427d06-f346-4817-9260-39eb5fe24487",
       "ward_no": "12",
-      "ward_name_en": "Thengamanmadom",
-      "ward_name_ml": "തെങ്ങമണ്‍മഠം"
+      "name_en": "Thengamanmadom",
+      "name_ml": "തെങ്ങമണ്‍മഠം"
     },
     {
-      "ward_id": "a82c4ff2-1753-461d-9589-ca80c9960664",
+      "id": "a82c4ff2-1753-461d-9589-ca80c9960664",
       "ward_no": "13",
-      "ward_name_en": "Methukummel",
-      "ward_name_ml": "മെതുകുമ്മേല്‍"
+      "name_en": "Methukummel",
+      "name_ml": "മെതുകുമ്മേല്‍"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G051107",
-  "local_body_name_en": "Koruthodu",
-  "local_body_name_ml": "കോരുത്തോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G051107",
+  "name_en": "Koruthodu",
+  "name_ml": "കോരുത്തോട്",
+  "assembly_id": "101",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "101",
-    "assembly_name_en": "Poonjar",
-    "assembly_name_ml": "പൂഞ്ഞാർ",
-    "category": "Normal"
+    "id": "101",
+    "name_en": "Poonjar",
+    "name_ml": "പൂഞ്ഞാർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "503dbef8-fd84-42e5-a5db-aed38d14af67",
+      "id": "503dbef8-fd84-42e5-a5db-aed38d14af67",
       "ward_no": "1",
-      "ward_name_en": "Orekkar Colony",
-      "ward_name_ml": "ഒരേക്കര്‍കോളനി"
+      "name_en": "Orekkar Colony",
+      "name_ml": "ഒരേക്കര്‍കോളനി"
     },
     {
-      "ward_id": "9f2e889d-ef4c-408c-a44c-c571733e3170",
+      "id": "9f2e889d-ef4c-408c-a44c-c571733e3170",
       "ward_no": "2",
-      "ward_name_en": "Mynakkulam",
-      "ward_name_ml": "മൈനാക്കുളം"
+      "name_en": "Mynakkulam",
+      "name_ml": "മൈനാക്കുളം"
     },
     {
-      "ward_id": "e3224c21-c187-43d9-9dcc-e06ecfc21a6c",
+      "id": "e3224c21-c187-43d9-9dcc-e06ecfc21a6c",
       "ward_no": "3",
-      "ward_name_en": "Kombukuthi",
-      "ward_name_ml": "കൊമ്പുകുത്തി"
+      "name_en": "Kombukuthi",
+      "name_ml": "കൊമ്പുകുത്തി"
     },
     {
-      "ward_id": "4a0f970a-e65f-4720-84e5-fa651912a59a",
+      "id": "4a0f970a-e65f-4720-84e5-fa651912a59a",
       "ward_no": "4",
-      "ward_name_en": "Mundakkayam Block",
-      "ward_name_ml": "മുണ്ടക്കയം ബ്ലോക്ക്"
+      "name_en": "Mundakkayam Block",
+      "name_ml": "മുണ്ടക്കയം ബ്ലോക്ക്"
     },
     {
-      "ward_id": "0eb3694b-279b-4598-b59e-bced412e9bde",
+      "id": "0eb3694b-279b-4598-b59e-bced412e9bde",
       "ward_no": "5",
-      "ward_name_en": "Channaplavu",
-      "ward_name_ml": "ചണ്ണപ്ലാവ്"
+      "name_en": "Channaplavu",
+      "name_ml": "ചണ്ണപ്ലാവ്"
     },
     {
-      "ward_id": "9b47b949-1d2f-4b29-b220-fa1d281411d6",
+      "id": "9b47b949-1d2f-4b29-b220-fa1d281411d6",
       "ward_no": "6",
-      "ward_name_en": "Koruthodu",
-      "ward_name_ml": "കോരുത്തോട്"
+      "name_en": "Koruthodu",
+      "name_ml": "കോരുത്തോട്"
     },
     {
-      "ward_id": "402398a8-5853-400c-97b0-2a5c7bdcd69c",
+      "id": "402398a8-5853-400c-97b0-2a5c7bdcd69c",
       "ward_no": "7",
-      "ward_name_en": "Kuzhimavu",
-      "ward_name_ml": "കുഴിമാവ്"
+      "name_en": "Kuzhimavu",
+      "name_ml": "കുഴിമാവ്"
     },
     {
-      "ward_id": "71224dd6-56e9-4808-b4db-f08a0e2db470",
+      "id": "71224dd6-56e9-4808-b4db-f08a0e2db470",
       "ward_no": "8",
-      "ward_name_en": "Pallippadi",
-      "ward_name_ml": "പള്ളിപ്പടി"
+      "name_en": "Pallippadi",
+      "name_ml": "പള്ളിപ്പടി"
     },
     {
-      "ward_id": "71dff4ee-de1a-492d-8836-f85d5d0db660",
+      "id": "71dff4ee-de1a-492d-8836-f85d5d0db660",
       "ward_no": "9",
-      "ward_name_en": "504 I.H.D.P Colony",
-      "ward_name_ml": "504 ഐ.എച്ച്.ഡി.പി കോളനി"
+      "name_en": "504 I.H.D.P Colony",
+      "name_ml": "504 ഐ.എച്ച്.ഡി.പി കോളനി"
     },
     {
-      "ward_id": "5a3ba7c4-31d6-4a16-a29e-e6da7a29643d",
+      "id": "5a3ba7c4-31d6-4a16-a29e-e6da7a29643d",
       "ward_no": "10",
-      "ward_name_en": "Moonnoli I.H.D.P Colony",
-      "ward_name_ml": "മൂന്നോലി 504 ഐ.എച്ച്.ഡി.പി. കോളനി"
+      "name_en": "Moonnoli I.H.D.P Colony",
+      "name_ml": "മൂന്നോലി 504 ഐ.എച്ച്.ഡി.പി. കോളനി"
     },
     {
-      "ward_id": "1c01ea6f-b3cf-4ac3-b5dd-24fb21809928",
+      "id": "1c01ea6f-b3cf-4ac3-b5dd-24fb21809928",
       "ward_no": "11",
-      "ward_name_en": "Kosadi",
-      "ward_name_ml": "കോസടി"
+      "name_en": "Kosadi",
+      "name_ml": "കോസടി"
     },
     {
-      "ward_id": "af82d60c-59fe-476c-bf61-97b863ee8c58",
+      "id": "af82d60c-59fe-476c-bf61-97b863ee8c58",
       "ward_no": "12",
-      "ward_name_en": "Madukka",
-      "ward_name_ml": "മടുക്ക"
+      "name_en": "Madukka",
+      "name_ml": "മടുക്ക"
     },
     {
-      "ward_id": "2fac39d3-798a-45f1-8400-964a25699404",
+      "id": "2fac39d3-798a-45f1-8400-964a25699404",
       "ward_no": "13",
-      "ward_name_en": "Panackachira",
-      "ward_name_ml": "പനയ്ക്കച്ചിറ"
+      "name_en": "Panackachira",
+      "name_ml": "പനയ്ക്കച്ചിറ"
     }
   ],
   "towns": [],

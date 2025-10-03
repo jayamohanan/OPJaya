@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G110304",
-  "local_body_name_en": "Kuttiadi",
-  "local_body_name_ml": "കുറ്റ്യാടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G110304",
+  "name_en": "Kuttiadi",
+  "name_ml": "കുറ്റ്യാടി",
+  "assembly_id": "21",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "21",
-    "assembly_name_en": "Kuttiady",
-    "assembly_name_ml": "കുറ്റ്യാടി",
-    "category": "Normal"
+    "id": "21",
+    "name_en": "Kuttiady",
+    "name_ml": "കുറ്റ്യാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5de79ae8-8df1-48de-94df-5c75ccba8238",
+      "id": "5de79ae8-8df1-48de-94df-5c75ccba8238",
       "ward_no": "1",
-      "ward_name_en": "Meethale Vatayam",
-      "ward_name_ml": "മീത്തലെ വടയം"
+      "name_en": "Meethale Vatayam",
+      "name_ml": "മീത്തലെ വടയം"
     },
     {
-      "ward_id": "d37f73a6-75b9-4610-a301-1f432da17b7d",
+      "id": "d37f73a6-75b9-4610-a301-1f432da17b7d",
       "ward_no": "2",
-      "ward_name_en": "Narikootumchalil",
-      "ward_name_ml": "നരിക്കൂട്ടും ചാലില്‍"
+      "name_en": "Narikootumchalil",
+      "name_ml": "നരിക്കൂട്ടും ചാലില്‍"
     },
     {
-      "ward_id": "63981f23-ccdb-4330-996c-69888fb8c87f",
+      "id": "63981f23-ccdb-4330-996c-69888fb8c87f",
       "ward_no": "3",
-      "ward_name_en": "Koorara",
-      "ward_name_ml": "കൂരാറ"
+      "name_en": "Koorara",
+      "name_ml": "കൂരാറ"
     },
     {
-      "ward_id": "ab409352-829c-4c37-a11b-1b3676e23ae3",
+      "id": "ab409352-829c-4c37-a11b-1b3676e23ae3",
       "ward_no": "4",
-      "ward_name_en": "Poolathara",
-      "ward_name_ml": "പൂളത്തറ"
+      "name_en": "Poolathara",
+      "name_ml": "പൂളത്തറ"
     },
     {
-      "ward_id": "dd598714-198e-4a71-91d9-fefedf2dc35c",
+      "id": "dd598714-198e-4a71-91d9-fefedf2dc35c",
       "ward_no": "5",
-      "ward_name_en": "Kuttiady",
-      "ward_name_ml": "കുറ്റ്യാടി"
+      "name_en": "Kuttiady",
+      "name_ml": "കുറ്റ്യാടി"
     },
     {
-      "ward_id": "893bcb39-9074-4818-8c73-9a2ab546ccb3",
+      "id": "893bcb39-9074-4818-8c73-9a2ab546ccb3",
       "ward_no": "6",
-      "ward_name_en": "Kammanathazha",
-      "ward_name_ml": "കമ്മനത്താഴ"
+      "name_en": "Kammanathazha",
+      "name_ml": "കമ്മനത്താഴ"
     },
     {
-      "ward_id": "0a9fe71e-f422-4c19-998b-a47f70c44855",
+      "id": "0a9fe71e-f422-4c19-998b-a47f70c44855",
       "ward_no": "7",
-      "ward_name_en": "Nottikandy",
-      "ward_name_ml": "നൊട്ടിക്കണ്ടി"
+      "name_en": "Nottikandy",
+      "name_ml": "നൊട്ടിക്കണ്ടി"
     },
     {
-      "ward_id": "2253b9d8-b967-45b3-9d55-e9b3c4354c65",
+      "id": "2253b9d8-b967-45b3-9d55-e9b3c4354c65",
       "ward_no": "8",
-      "ward_name_en": "Urath",
-      "ward_name_ml": "ഊരത്ത്"
+      "name_en": "Urath",
+      "name_ml": "ഊരത്ത്"
     },
     {
-      "ward_id": "dfef0f65-1a3e-4ba4-bbcb-d75f8fa0e3f5",
+      "id": "dfef0f65-1a3e-4ba4-bbcb-d75f8fa0e3f5",
       "ward_no": "9",
-      "ward_name_en": "Mavulla Chalil",
-      "ward_name_ml": "മാവുളള ചാലില്‍"
+      "name_en": "Mavulla Chalil",
+      "name_ml": "മാവുളള ചാലില്‍"
     },
     {
-      "ward_id": "fae14879-fed9-416a-a0e3-ccf25235c1a3",
+      "id": "fae14879-fed9-416a-a0e3-ccf25235c1a3",
       "ward_no": "10",
-      "ward_name_en": "Pannivayal",
-      "ward_name_ml": "പന്നിവയല്‍"
+      "name_en": "Pannivayal",
+      "name_ml": "പന്നിവയല്‍"
     },
     {
-      "ward_id": "fb52552f-861a-4aaa-92fe-a1c2d49e0029",
+      "id": "fb52552f-861a-4aaa-92fe-a1c2d49e0029",
       "ward_no": "11",
-      "ward_name_en": "Palonkara",
-      "ward_name_ml": "പാലോങ്കര"
+      "name_en": "Palonkara",
+      "name_ml": "പാലോങ്കര"
     },
     {
-      "ward_id": "a5128b3d-142b-4cd1-bb42-4798c28d936a",
+      "id": "a5128b3d-142b-4cd1-bb42-4798c28d936a",
       "ward_no": "12",
-      "ward_name_en": "Naduppoyil",
-      "ward_name_ml": "നടുപ്പൊയില്‍"
+      "name_en": "Naduppoyil",
+      "name_ml": "നടുപ്പൊയില്‍"
     },
     {
-      "ward_id": "fe8faa06-41e6-42c9-9ad6-e9f54ba604fa",
+      "id": "fe8faa06-41e6-42c9-9ad6-e9f54ba604fa",
       "ward_no": "13",
-      "ward_name_en": "Nittoor",
-      "ward_name_ml": "നിട്ടൂര്‍"
+      "name_en": "Nittoor",
+      "name_ml": "നിട്ടൂര്‍"
     },
     {
-      "ward_id": "bc5eee53-d68c-4627-9e75-af9aaf90c66e",
+      "id": "bc5eee53-d68c-4627-9e75-af9aaf90c66e",
       "ward_no": "14",
-      "ward_name_en": "Ponnelayi",
-      "ward_name_ml": "പൊന്നേലായി"
+      "name_en": "Ponnelayi",
+      "name_ml": "പൊന്നേലായി"
     }
   ],
   "towns": [],

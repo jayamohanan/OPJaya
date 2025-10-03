@@ -1,62 +1,83 @@
 {
-  "assembly_id": "62",
-  "assembly_name_en": "Kunnamkulam",
-  "assembly_name_ml": "കുന്നംകുളം",
-  "category": "Normal",
+  "id": "62",
+  "name_en": "Kunnamkulam",
+  "name_ml": "കുന്നംകുളം",
+  "district_id": "8",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "district_category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G080202",
-      "local_body_name_en": "Chowannur",
-      "local_body_name_ml": "ചൊവ്വന്നൂര്‍",
-      "category": "Normal"
+      "id": "G080202",
+      "name_en": "Chowannur",
+      "name_ml": "ചൊവ്വന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080302",
-      "local_body_name_en": "Erumapetty",
-      "local_body_name_ml": "എരുമപ്പെട്ടി",
-      "category": "Normal"
+      "id": "G080302",
+      "name_en": "Erumapetty",
+      "name_ml": "എരുമപ്പെട്ടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080207",
-      "local_body_name_en": "Kadangode",
-      "local_body_name_ml": "കടങ്ങോട്",
-      "category": "Normal"
+      "id": "G080207",
+      "name_en": "Kadangode",
+      "name_ml": "കടങ്ങോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G080203",
-      "local_body_name_en": "Kadavallur",
-      "local_body_name_ml": "കടവല്ലൂര്‍",
-      "category": "Good"
+      "id": "G080203",
+      "name_en": "Kadavallur",
+      "name_ml": "കടവല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080205",
-      "local_body_name_en": "Kattakampal",
-      "local_body_name_ml": "കാട്ടകാമ്പാല്‍",
-      "category": "Good"
+      "id": "G080205",
+      "name_en": "Kattakampal",
+      "name_ml": "കാട്ടകാമ്പാല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M080600",
-      "local_body_name_en": "Kunnamkulam",
-      "local_body_name_ml": "കുന്നംകുളം",
-      "category": "Good"
+      "id": "M080600",
+      "name_en": "Kunnamkulam",
+      "name_ml": "കുന്നംകുളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G080206",
-      "local_body_name_en": "Porkulam",
-      "local_body_name_ml": "പോര്‍ക്കുളം",
-      "category": "Perfect"
+      "id": "G080206",
+      "name_en": "Porkulam",
+      "name_ml": "പോര്‍ക്കുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G080208",
-      "local_body_name_en": "Velur",
-      "local_body_name_ml": "വേലൂര്‍",
-      "category": "Good"
+      "id": "G080208",
+      "name_en": "Velur",
+      "name_ml": "വേലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G010304",
-  "local_body_name_en": "Kizhuvilam",
-  "local_body_name_ml": "കിഴുവിലം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G010304",
+  "name_en": "Kizhuvilam",
+  "name_ml": "കിഴുവിലം",
+  "assembly_id": "129",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "129",
-    "assembly_name_en": "Chirayinkeezhu",
-    "assembly_name_ml": "ചിറയിൻകീഴ്",
-    "category": "Normal"
+    "id": "129",
+    "name_en": "Chirayinkeezhu",
+    "name_ml": "ചിറയിൻകീഴ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c517b0f6-22d3-4a26-a977-bfb1e7d06fed",
+      "id": "c517b0f6-22d3-4a26-a977-bfb1e7d06fed",
       "ward_no": "1",
-      "ward_name_en": "Puravoor",
-      "ward_name_ml": "പുരവൂര്‍"
+      "name_en": "Puravoor",
+      "name_ml": "പുരവൂര്‍"
     },
     {
-      "ward_id": "a9ec0584-ae7b-4b1e-bff5-84fc46bd1000",
+      "id": "a9ec0584-ae7b-4b1e-bff5-84fc46bd1000",
       "ward_no": "2",
-      "ward_name_en": "Pavoorkonam",
-      "ward_name_ml": "പാവൂര്‍ക്കോണം"
+      "name_en": "Pavoorkonam",
+      "name_ml": "പാവൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "dc501584-483b-4c3f-b922-4a2feef9a4cb",
+      "id": "dc501584-483b-4c3f-b922-4a2feef9a4cb",
       "ward_no": "3",
-      "ward_name_en": "Kattumpuram",
-      "ward_name_ml": "കാട്ടുംപുറം"
+      "name_en": "Kattumpuram",
+      "name_ml": "കാട്ടുംപുറം"
     },
     {
-      "ward_id": "4f8b5e01-012a-4b7f-b3e6-26b7abd19c55",
+      "id": "4f8b5e01-012a-4b7f-b3e6-26b7abd19c55",
       "ward_no": "4",
-      "ward_name_en": "Velloorkonam",
-      "ward_name_ml": "വെള്ളൂര്‍ക്കോണം"
+      "name_en": "Velloorkonam",
+      "name_ml": "വെള്ളൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "b6fd3c67-3dc2-44aa-861d-95bad6f71adc",
+      "id": "b6fd3c67-3dc2-44aa-861d-95bad6f71adc",
       "ward_no": "5",
-      "ward_name_en": "Puliyoorkonam",
-      "ward_name_ml": "പുലിയൂര്‍ക്കോണം"
+      "name_en": "Puliyoorkonam",
+      "name_ml": "പുലിയൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "4593f0fd-e195-456d-8a02-88097c40be59",
+      "id": "4593f0fd-e195-456d-8a02-88097c40be59",
       "ward_no": "6",
-      "ward_name_en": "Mamamnada",
-      "ward_name_ml": "മാമംനട"
+      "name_en": "Mamamnada",
+      "name_ml": "മാമംനട"
     },
     {
-      "ward_id": "68aca0c4-50a3-4962-aa50-cc0abd245ed8",
+      "id": "68aca0c4-50a3-4962-aa50-cc0abd245ed8",
       "ward_no": "7",
-      "ward_name_en": "Arikathwar",
-      "ward_name_ml": "അരികത്ത് വാര്‍"
+      "name_en": "Arikathwar",
+      "name_ml": "അരികത്ത് വാര്‍"
     },
     {
-      "ward_id": "9a72cc46-bb68-4e04-89d9-68033928ebb5",
+      "id": "9a72cc46-bb68-4e04-89d9-68033928ebb5",
       "ward_no": "8",
-      "ward_name_en": "Kurakkada",
-      "ward_name_ml": "കുറക്കട"
+      "name_en": "Kurakkada",
+      "name_ml": "കുറക്കട"
     },
     {
-      "ward_id": "4878fcb6-503d-409f-a4c6-321643802767",
+      "id": "4878fcb6-503d-409f-a4c6-321643802767",
       "ward_no": "9",
-      "ward_name_en": "Nainamkonam",
-      "ward_name_ml": "നൈനാംകോണം"
+      "name_en": "Nainamkonam",
+      "name_ml": "നൈനാംകോണം"
     },
     {
-      "ward_id": "95c6d57a-8719-47fa-9b49-be918fe78b85",
+      "id": "95c6d57a-8719-47fa-9b49-be918fe78b85",
       "ward_no": "10",
-      "ward_name_en": "Mudapuram",
-      "ward_name_ml": "മുടപുരം"
+      "name_en": "Mudapuram",
+      "name_ml": "മുടപുരം"
     },
     {
-      "ward_id": "c46cb440-2712-455c-88f4-cae5fd54800b",
+      "id": "c46cb440-2712-455c-88f4-cae5fd54800b",
       "ward_no": "11",
-      "ward_name_en": "Thennoorkonam",
-      "ward_name_ml": "തെന്നൂര്‍ക്കോണം"
+      "name_en": "Thennoorkonam",
+      "name_ml": "തെന്നൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "b4e9227a-8f8c-4349-a15d-3825bb891609",
+      "id": "b4e9227a-8f8c-4349-a15d-3825bb891609",
       "ward_no": "12",
-      "ward_name_en": "Kizhuvilam",
-      "ward_name_ml": "കിഴുവിലം"
+      "name_en": "Kizhuvilam",
+      "name_ml": "കിഴുവിലം"
     },
     {
-      "ward_id": "20abe3ee-5196-4ffb-bf29-ce2dac755c93",
+      "id": "20abe3ee-5196-4ffb-bf29-ce2dac755c93",
       "ward_no": "13",
-      "ward_name_en": "Chumaduthangi",
-      "ward_name_ml": "ചുമടുതാങ്ങി"
+      "name_en": "Chumaduthangi",
+      "name_ml": "ചുമടുതാങ്ങി"
     },
     {
-      "ward_id": "23ebc65c-a22c-479c-84f7-4d36145b1c1e",
+      "id": "23ebc65c-a22c-479c-84f7-4d36145b1c1e",
       "ward_no": "14",
-      "ward_name_en": "Kattumurakkal",
-      "ward_name_ml": "കാട്ടുമുറാക്കല്‍"
+      "name_en": "Kattumurakkal",
+      "name_ml": "കാട്ടുമുറാക്കല്‍"
     },
     {
-      "ward_id": "d2aa904a-7ae6-4082-8924-5cbd763596ae",
+      "id": "d2aa904a-7ae6-4082-8924-5cbd763596ae",
       "ward_no": "15",
-      "ward_name_en": "Kunnuvaram",
-      "ward_name_ml": "കുന്നുവാരം"
+      "name_en": "Kunnuvaram",
+      "name_ml": "കുന്നുവാരം"
     },
     {
-      "ward_id": "1eb6ad22-dd41-4d24-b3b4-160e4ac5a759",
+      "id": "1eb6ad22-dd41-4d24-b3b4-160e4ac5a759",
       "ward_no": "16",
-      "ward_name_en": "Pulimoodu",
-      "ward_name_ml": "പുളിമൂട്"
+      "name_en": "Pulimoodu",
+      "name_ml": "പുളിമൂട്"
     },
     {
-      "ward_id": "78e4e861-79a3-4662-8d15-bc8cd9f604d9",
+      "id": "78e4e861-79a3-4662-8d15-bc8cd9f604d9",
       "ward_no": "17",
-      "ward_name_en": "Koonthalloor",
-      "ward_name_ml": "കൂന്തള്ളൂര്‍"
+      "name_en": "Koonthalloor",
+      "name_ml": "കൂന്തള്ളൂര്‍"
     },
     {
-      "ward_id": "0ad86b73-dfaa-4071-acda-3239f63175f9",
+      "id": "0ad86b73-dfaa-4071-acda-3239f63175f9",
       "ward_no": "18",
-      "ward_name_en": "Vaidhyantemukku",
-      "ward_name_ml": "വൈദ്യന്‍െറമുക്ക്"
+      "name_en": "Vaidhyantemukku",
+      "name_ml": "വൈദ്യന്‍െറമുക്ക്"
     },
     {
-      "ward_id": "a6a5700e-64d0-4d13-8421-0c657a1cfbf6",
+      "id": "a6a5700e-64d0-4d13-8421-0c657a1cfbf6",
       "ward_no": "19",
-      "ward_name_en": "Thottavaram",
-      "ward_name_ml": "തോട്ടവാരം"
+      "name_en": "Thottavaram",
+      "name_ml": "തോട്ടവാരം"
     },
     {
-      "ward_id": "8054fa0a-0a3d-461b-a435-a04d9bb1ab7b",
+      "id": "8054fa0a-0a3d-461b-a435-a04d9bb1ab7b",
       "ward_no": "20",
-      "ward_name_en": "Valiya Ela",
-      "ward_name_ml": "വലിയ ഏല"
+      "name_en": "Valiya Ela",
+      "name_ml": "വലിയ ഏല"
     }
   ],
   "towns": [],

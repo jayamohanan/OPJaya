@@ -1,27 +1,35 @@
 {
-  "district_id": "12",
-  "district_name_en": "Wayanad",
-  "district_name_ml": "വയനാട്",
+  "id": "12",
+  "name_en": "Wayanad",
+  "name_ml": "വയനാട്",
   "is_active": true,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "17",
-      "assembly_name_en": "Mananthavady",
-      "assembly_name_ml": "മാനന്തവാടി",
-      "category": "Normal"
+      "id": "17",
+      "name_en": "Mananthavady",
+      "name_ml": "മാനന്തവാടി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "18",
-      "assembly_name_en": "Sulthan Bathery",
-      "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
-      "category": "Normal"
+      "id": "18",
+      "name_en": "Sulthan Bathery",
+      "name_ml": "സുൽത്താൻ ബത്തേരി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "19",
-      "assembly_name_en": "Kalpetta",
-      "assembly_name_ml": "കല്‍പ്പറ്റ",
-      "category": "Normal"
+      "id": "19",
+      "name_en": "Kalpetta",
+      "name_ml": "കല്‍പ്പറ്റ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

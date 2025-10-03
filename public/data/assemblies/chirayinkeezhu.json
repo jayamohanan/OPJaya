@@ -1,62 +1,83 @@
 {
-  "assembly_id": "129",
-  "assembly_name_en": "Chirayinkeezhu",
-  "assembly_name_ml": "ചിറയിൻകീഴ്",
-  "category": "Normal",
+  "id": "129",
+  "name_en": "Chirayinkeezhu",
+  "name_ml": "ചിറയിൻകീഴ്",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010705",
-      "local_body_name_en": "Azhoor",
-      "local_body_name_ml": "അഴൂര്‍",
-      "category": "Normal"
+      "id": "G010705",
+      "name_en": "Azhoor",
+      "name_ml": "അഴൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010303",
-      "local_body_name_en": "Chirayinkeezhu",
-      "local_body_name_ml": "ചിറയിന്‍കീഴ്",
-      "category": "Normal"
+      "id": "G010303",
+      "name_en": "Chirayinkeezhu",
+      "name_ml": "ചിറയിന്‍കീഴ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010306",
-      "local_body_name_en": "Kadakkavoor",
-      "local_body_name_ml": "കടയ്ക്കാവൂര്‍",
-      "category": "Perfect"
+      "id": "G010306",
+      "name_en": "Kadakkavoor",
+      "name_ml": "കടയ്ക്കാവൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010702",
-      "local_body_name_en": "Kadinamkulam",
-      "local_body_name_ml": "കഠിനംകുളം",
-      "category": "Perfect"
+      "id": "G010702",
+      "name_en": "Kadinamkulam",
+      "name_ml": "കഠിനംകുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010304",
-      "local_body_name_en": "Kizhuvilam",
-      "local_body_name_ml": "കിഴുവിലം",
-      "category": "Good"
+      "id": "G010304",
+      "name_en": "Kizhuvilam",
+      "name_ml": "കിഴുവിലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010703",
-      "local_body_name_en": "Mangalapuram",
-      "local_body_name_ml": "മംഗലപുരം",
-      "category": "Normal"
+      "id": "G010703",
+      "name_en": "Mangalapuram",
+      "name_ml": "മംഗലപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010305",
-      "local_body_name_en": "Mudakkal",
-      "local_body_name_ml": "മുദാക്കല്‍",
-      "category": "Good"
+      "id": "G010305",
+      "name_en": "Mudakkal",
+      "name_ml": "മുദാക്കല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010301",
-      "local_body_name_en": "Anchuthengu",
-      "local_body_name_ml": "അഞ്ചുതെങ്ങ്",
-      "category": "Normal"
+      "id": "G010301",
+      "name_en": "Anchuthengu",
+      "name_ml": "അഞ്ചുതെങ്ങ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

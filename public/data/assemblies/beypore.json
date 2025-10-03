@@ -1,32 +1,39 @@
 {
-  "assembly_id": "29",
-  "assembly_name_en": "Beypore",
-  "assembly_name_ml": "ബേപ്പൂർ",
-  "category": "Normal",
+  "id": "29",
+  "name_en": "Beypore",
+  "name_ml": "ബേപ്പൂർ",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M110700",
-      "local_body_name_en": "Feroke",
-      "local_body_name_ml": "ഫറോക്ക്",
-      "category": ""
+      "id": "M110700",
+      "name_en": "Feroke",
+      "name_ml": "ഫറോക്ക്",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G111201",
-      "local_body_name_en": "Kadalundi",
-      "local_body_name_ml": "കടലുണ്ടി",
-      "category": "Good"
+      "id": "G111201",
+      "name_en": "Kadalundi",
+      "name_ml": "കടലുണ്ടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M110600",
-      "local_body_name_en": "Ramanattukara",
-      "local_body_name_ml": "രാമനാട്ടുകര",
-      "category": ""
+      "id": "M110600",
+      "name_en": "Ramanattukara",
+      "name_ml": "രാമനാട്ടുകര",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

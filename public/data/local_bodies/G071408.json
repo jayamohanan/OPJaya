@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G071408",
-  "local_body_name_en": "Marady",
-  "local_body_name_ml": "മാറാടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "86",
-    "assembly_name_en": "Muvattupuzha",
-    "assembly_name_ml": "മൂവാറ്റുപുഴ",
+  "id": "G071408",
+  "name_en": "Marady",
+  "name_ml": "മാറാടി",
+  "assembly_id": "86",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "86",
+    "name_en": "Muvattupuzha",
+    "name_ml": "മൂവാറ്റുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "121c1551-2d67-4bab-8916-e06d6e521295",
+      "id": "121c1551-2d67-4bab-8916-e06d6e521295",
       "ward_no": "1",
-      "ward_name_en": "Kayanad",
-      "ward_name_ml": "കായനാട്"
+      "name_en": "Kayanad",
+      "name_ml": "കായനാട്"
     },
     {
-      "ward_id": "944eefcb-bc68-41f0-bb2f-d196209b225e",
+      "id": "944eefcb-bc68-41f0-bb2f-d196209b225e",
       "ward_no": "2",
-      "ward_name_en": "Melakkunnu",
-      "ward_name_ml": "മേളക്കുന്ന്"
+      "name_en": "Melakkunnu",
+      "name_ml": "മേളക്കുന്ന്"
     },
     {
-      "ward_id": "09f6f462-5a8e-4339-a37a-9c6ffff0722e",
+      "id": "09f6f462-5a8e-4339-a37a-9c6ffff0722e",
       "ward_no": "3",
-      "ward_name_en": "Marady Central",
-      "ward_name_ml": "മാറാടി സെന്‍ട്രല്‍"
+      "name_en": "Marady Central",
+      "name_ml": "മാറാടി സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "1d9bb9e4-855e-4dfa-b721-ae6c6991987c",
+      "id": "1d9bb9e4-855e-4dfa-b721-ae6c6991987c",
       "ward_no": "4",
-      "ward_name_en": "Thaikkavu",
-      "ward_name_ml": "തൈക്കാവ്"
+      "name_en": "Thaikkavu",
+      "name_ml": "തൈക്കാവ്"
     },
     {
-      "ward_id": "adc3f9c5-ba35-4820-9d7e-a577f32a3d2e",
+      "id": "adc3f9c5-ba35-4820-9d7e-a577f32a3d2e",
       "ward_no": "5",
-      "ward_name_en": "Manjirippady",
-      "ward_name_ml": "മഞ്ചിരിപ്പടി"
+      "name_en": "Manjirippady",
+      "name_ml": "മഞ്ചിരിപ്പടി"
     },
     {
-      "ward_id": "f0e6906a-8cde-49c3-bc88-2c5eca3d03a9",
+      "id": "f0e6906a-8cde-49c3-bc88-2c5eca3d03a9",
       "ward_no": "6",
-      "ward_name_en": "North Marady",
-      "ward_name_ml": "നോര്‍ത്ത് മാറാടി"
+      "name_en": "North Marady",
+      "name_ml": "നോര്‍ത്ത് മാറാടി"
     },
     {
-      "ward_id": "8818bcf3-fc7d-49d3-8b14-6265dad8f09b",
+      "id": "8818bcf3-fc7d-49d3-8b14-6265dad8f09b",
       "ward_no": "7",
-      "ward_name_en": "Thevarkad",
-      "ward_name_ml": "തേവര്‍കാട്"
+      "name_en": "Thevarkad",
+      "name_ml": "തേവര്‍കാട്"
     },
     {
-      "ward_id": "e2a11e94-5f33-41dc-99ed-2f968834e35f",
+      "id": "e2a11e94-5f33-41dc-99ed-2f968834e35f",
       "ward_no": "8",
-      "ward_name_en": "Mangambra",
-      "ward_name_ml": "മങ്ങമ്പ്ര"
+      "name_en": "Mangambra",
+      "name_ml": "മങ്ങമ്പ്ര"
     },
     {
-      "ward_id": "7144f3d4-8b4a-4fcd-909f-0c24706fdf49",
+      "id": "7144f3d4-8b4a-4fcd-909f-0c24706fdf49",
       "ward_no": "9",
-      "ward_name_en": "Changalimattom",
-      "ward_name_ml": "ചങ്ങാലിമറ്റം"
+      "name_en": "Changalimattom",
+      "name_ml": "ചങ്ങാലിമറ്റം"
     },
     {
-      "ward_id": "6af4e9e9-f864-441e-a8c7-8c859f591d52",
+      "id": "6af4e9e9-f864-441e-a8c7-8c859f591d52",
       "ward_no": "10",
-      "ward_name_en": "East Marady",
-      "ward_name_ml": "ഈസ്റ്റ് മാറാടി"
+      "name_en": "East Marady",
+      "name_ml": "ഈസ്റ്റ് മാറാടി"
     },
     {
-      "ward_id": "eb4b0072-cfc2-4868-88ec-7330069a38e4",
+      "id": "eb4b0072-cfc2-4868-88ec-7330069a38e4",
       "ward_no": "11",
-      "ward_name_en": "Maniyankallu",
-      "ward_name_ml": "മണിയങ്കല്ല്"
+      "name_en": "Maniyankallu",
+      "name_ml": "മണിയങ്കല്ല്"
     },
     {
-      "ward_id": "cdaec625-3a5e-4e8f-88f5-e61dce3f5072",
+      "id": "cdaec625-3a5e-4e8f-88f5-e61dce3f5072",
       "ward_no": "12",
-      "ward_name_en": "Parathattal",
-      "ward_name_ml": "പാറത്തട്ടാല്‍"
+      "name_en": "Parathattal",
+      "name_ml": "പാറത്തട്ടാല്‍"
     },
     {
-      "ward_id": "4c8bf9c6-a9eb-46ae-90cc-019c0741b9b2",
+      "id": "4c8bf9c6-a9eb-46ae-90cc-019c0741b9b2",
       "ward_no": "13",
-      "ward_name_en": "Kandamchira",
-      "ward_name_ml": "കണ്ടംചിറ"
+      "name_en": "Kandamchira",
+      "name_ml": "കണ്ടംചിറ"
     }
   ],
   "towns": [],

@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G140404",
-  "local_body_name_en": "Pallikere",
-  "local_body_name_ml": "പള്ളിക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G140404",
+  "name_en": "Pallikere",
+  "name_ml": "പള്ളിക്കര",
+  "assembly_id": "3",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "3",
-    "assembly_name_en": "Udma",
-    "assembly_name_ml": "ഉദുമ",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Udma",
+    "name_ml": "ഉദുമ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "97cc5f51-c7a4-4f07-a606-ae8734a745dd",
+      "id": "97cc5f51-c7a4-4f07-a606-ae8734a745dd",
       "ward_no": "1",
-      "ward_name_en": "Bekal",
-      "ward_name_ml": "ബേക്കല്‍"
+      "name_en": "Bekal",
+      "name_ml": "ബേക്കല്‍"
     },
     {
-      "ward_id": "d41127c0-bcf8-424d-86a1-5b8af96b5951",
+      "id": "d41127c0-bcf8-424d-86a1-5b8af96b5951",
       "ward_no": "2",
-      "ward_name_en": "Haddad Nagar",
-      "ward_name_ml": "ഹദ്ദാദ്നഗര്‍"
+      "name_en": "Haddad Nagar",
+      "name_ml": "ഹദ്ദാദ്നഗര്‍"
     },
     {
-      "ward_id": "22dab5d3-598d-4140-a8b0-0e1d36fe8ae9",
+      "id": "22dab5d3-598d-4140-a8b0-0e1d36fe8ae9",
       "ward_no": "3",
-      "ward_name_en": "Mavval",
-      "ward_name_ml": "മൌവ്വല്‍"
+      "name_en": "Mavval",
+      "name_ml": "മൌവ്വല്‍"
     },
     {
-      "ward_id": "9c65c80d-0d1a-4314-984d-4e4983195d56",
+      "id": "9c65c80d-0d1a-4314-984d-4e4983195d56",
       "ward_no": "4",
-      "ward_name_en": "Ambangad",
-      "ward_name_ml": "അമ്പങ്ങാട്"
+      "name_en": "Ambangad",
+      "name_ml": "അമ്പങ്ങാട്"
     },
     {
-      "ward_id": "afe9f745-7bff-48fa-83f8-69a2f5b832c2",
+      "id": "afe9f745-7bff-48fa-83f8-69a2f5b832c2",
       "ward_no": "5",
-      "ward_name_en": "Thachangad",
-      "ward_name_ml": "തച്ചങ്ങാട്"
+      "name_en": "Thachangad",
+      "name_ml": "തച്ചങ്ങാട്"
     },
     {
-      "ward_id": "b0e9c6dd-15c1-4b2a-8e87-bcd20a27cd86",
+      "id": "b0e9c6dd-15c1-4b2a-8e87-bcd20a27cd86",
       "ward_no": "6",
-      "ward_name_en": "Panayal",
-      "ward_name_ml": "പനയാല്‍"
+      "name_en": "Panayal",
+      "name_ml": "പനയാല്‍"
     },
     {
-      "ward_id": "c35de789-82a3-470e-bbb5-d31cae4ad319",
+      "id": "c35de789-82a3-470e-bbb5-d31cae4ad319",
       "ward_no": "7",
-      "ward_name_en": "Perumthatta",
-      "ward_name_ml": "പെരുന്തട്ട"
+      "name_en": "Perumthatta",
+      "name_ml": "പെരുന്തട്ട"
     },
     {
-      "ward_id": "52c81fb9-edea-4f13-9319-df7ccb8d3452",
+      "id": "52c81fb9-edea-4f13-9319-df7ccb8d3452",
       "ward_no": "8",
-      "ward_name_en": "Karichery",
-      "ward_name_ml": "കരിച്ചേരി"
+      "name_en": "Karichery",
+      "name_ml": "കരിച്ചേരി"
     },
     {
-      "ward_id": "edcd701e-d4f2-4145-a1fe-bea774abee25",
+      "id": "edcd701e-d4f2-4145-a1fe-bea774abee25",
       "ward_no": "9",
-      "ward_name_en": "Bangad",
-      "ward_name_ml": "ബംഗാട്"
+      "name_en": "Bangad",
+      "name_ml": "ബംഗാട്"
     },
     {
-      "ward_id": "4dd7944c-b3af-462e-9273-08f09b153e6f",
+      "id": "4dd7944c-b3af-462e-9273-08f09b153e6f",
       "ward_no": "10",
-      "ward_name_en": "Kunnuchi",
-      "ward_name_ml": "കുന്നൂച്ചി"
+      "name_en": "Kunnuchi",
+      "name_ml": "കുന്നൂച്ചി"
     },
     {
-      "ward_id": "f1f4676f-c44b-4337-b2ea-f8e78a8c1b16",
+      "id": "f1f4676f-c44b-4337-b2ea-f8e78a8c1b16",
       "ward_no": "11",
-      "ward_name_en": "Velutholy",
-      "ward_name_ml": "വെളുത്തോളി"
+      "name_en": "Velutholy",
+      "name_ml": "വെളുത്തോളി"
     },
     {
-      "ward_id": "f83c58d6-7599-4cf8-bfdd-9ad8757e442d",
+      "id": "f83c58d6-7599-4cf8-bfdd-9ad8757e442d",
       "ward_no": "12",
-      "ward_name_en": "Alakode",
-      "ward_name_ml": "ആലക്കോട്"
+      "name_en": "Alakode",
+      "name_ml": "ആലക്കോട്"
     },
     {
-      "ward_id": "78dbb9f2-93ac-4240-b968-2e2e63e9a1e7",
+      "id": "78dbb9f2-93ac-4240-b968-2e2e63e9a1e7",
       "ward_no": "13",
-      "ward_name_en": "Pakkam",
-      "ward_name_ml": "പാക്കം"
+      "name_en": "Pakkam",
+      "name_ml": "പാക്കം"
     },
     {
-      "ward_id": "6f325238-67ee-4c37-a1e4-e36a64bdeff4",
+      "id": "6f325238-67ee-4c37-a1e4-e36a64bdeff4",
       "ward_no": "14",
-      "ward_name_en": "Koottakani",
-      "ward_name_ml": "കൂട്ടക്കനി"
+      "name_en": "Koottakani",
+      "name_ml": "കൂട്ടക്കനി"
     },
     {
-      "ward_id": "c3f1745c-7e89-44bb-978b-6dccb2da341c",
+      "id": "c3f1745c-7e89-44bb-978b-6dccb2da341c",
       "ward_no": "15",
-      "ward_name_en": "Keekan",
-      "ward_name_ml": "കീക്കാന്‍"
+      "name_en": "Keekan",
+      "name_ml": "കീക്കാന്‍"
     },
     {
-      "ward_id": "28e13899-23dd-4537-bbcd-7d59facce9f5",
+      "id": "28e13899-23dd-4537-bbcd-7d59facce9f5",
       "ward_no": "16",
-      "ward_name_en": "Chettukundu",
-      "ward_name_ml": "ചേറ്റുകുണ്ട്"
+      "name_en": "Chettukundu",
+      "name_ml": "ചേറ്റുകുണ്ട്"
     },
     {
-      "ward_id": "25ec44f7-98a0-47d6-8042-bd98dc109a1e",
+      "id": "25ec44f7-98a0-47d6-8042-bd98dc109a1e",
       "ward_no": "17",
-      "ward_name_en": "Poochakkad",
-      "ward_name_ml": "പൂച്ചക്കാട്"
+      "name_en": "Poochakkad",
+      "name_ml": "പൂച്ചക്കാട്"
     },
     {
-      "ward_id": "fff49ecc-b8f5-4f41-ae35-533c3f76a35a",
+      "id": "fff49ecc-b8f5-4f41-ae35-533c3f76a35a",
       "ward_no": "18",
-      "ward_name_en": "Kallingal",
-      "ward_name_ml": "കല്ലിങ്കാല്‍"
+      "name_en": "Kallingal",
+      "name_ml": "കല്ലിങ്കാല്‍"
     },
     {
-      "ward_id": "f9d5d9fa-faa1-443e-9a17-5e7884a287da",
+      "id": "f9d5d9fa-faa1-443e-9a17-5e7884a287da",
       "ward_no": "19",
-      "ward_name_en": "Pallipuzha",
-      "ward_name_ml": "പള്ളിപ്പുഴ"
+      "name_en": "Pallipuzha",
+      "name_ml": "പള്ളിപ്പുഴ"
     },
     {
-      "ward_id": "5558cea6-ae9b-4a9c-ac59-f275f6bba323",
+      "id": "5558cea6-ae9b-4a9c-ac59-f275f6bba323",
       "ward_no": "20",
-      "ward_name_en": "Karuvakode",
-      "ward_name_ml": "കരുവാക്കോട്"
+      "name_en": "Karuvakode",
+      "name_ml": "കരുവാക്കോട്"
     },
     {
-      "ward_id": "56892014-46ee-40db-9255-c941677c7cf2",
+      "id": "56892014-46ee-40db-9255-c941677c7cf2",
       "ward_no": "21",
-      "ward_name_en": "Pallikkare",
-      "ward_name_ml": "പള്ളിക്കര"
+      "name_en": "Pallikkare",
+      "name_ml": "പള്ളിക്കര"
     },
     {
-      "ward_id": "dba60fe6-f3fc-49e0-a410-7a4d3a5240e0",
+      "id": "dba60fe6-f3fc-49e0-a410-7a4d3a5240e0",
       "ward_no": "22",
-      "ward_name_en": "Kottakunnu",
-      "ward_name_ml": "കോട്ടക്കുന്ന്"
+      "name_en": "Kottakunnu",
+      "name_ml": "കോട്ടക്കുന്ന്"
     }
   ],
   "towns": [],

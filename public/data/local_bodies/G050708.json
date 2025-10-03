@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G050708",
-  "local_body_name_en": "Manarcadu",
-  "local_body_name_ml": "മണര്‍കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G050708",
+  "name_en": "Manarcadu",
+  "name_ml": "മണര്‍കാട്",
+  "assembly_id": "98",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "98",
-    "assembly_name_en": "Puthuppally",
-    "assembly_name_ml": "പുതുപ്പള്ളി",
-    "category": "Normal"
+    "id": "98",
+    "name_en": "Puthuppally",
+    "name_ml": "പുതുപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "befe57f1-13cb-496f-8e12-08ef593117f6",
+      "id": "befe57f1-13cb-496f-8e12-08ef593117f6",
       "ward_no": "1",
-      "ward_name_en": "Thiruvanchoor",
-      "ward_name_ml": "തിരുവഞ്ചൂര്‍"
+      "name_en": "Thiruvanchoor",
+      "name_ml": "തിരുവഞ്ചൂര്‍"
     },
     {
-      "ward_id": "fff07b19-427e-4592-bc31-7effb9e52d9c",
+      "id": "fff07b19-427e-4592-bc31-7effb9e52d9c",
       "ward_no": "2",
-      "ward_name_en": "Parambukara",
-      "ward_name_ml": "പറമ്പുകര"
+      "name_en": "Parambukara",
+      "name_ml": "പറമ്പുകര"
     },
     {
-      "ward_id": "4ea24c14-ceec-43b3-b993-b86ccf828418",
+      "id": "4ea24c14-ceec-43b3-b993-b86ccf828418",
       "ward_no": "3",
-      "ward_name_en": "Nadackal",
-      "ward_name_ml": "നടയ്ക്കല്‍"
+      "name_en": "Nadackal",
+      "name_ml": "നടയ്ക്കല്‍"
     },
     {
-      "ward_id": "c402c342-5302-4945-8b44-7d65871b039b",
+      "id": "c402c342-5302-4945-8b44-7d65871b039b",
       "ward_no": "4",
-      "ward_name_en": "Malam",
-      "ward_name_ml": "മാലം"
+      "name_en": "Malam",
+      "name_ml": "മാലം"
     },
     {
-      "ward_id": "74c09907-37f3-4b0c-9272-3725cc1ed959",
+      "id": "74c09907-37f3-4b0c-9272-3725cc1ed959",
       "ward_no": "5",
-      "ward_name_en": "Parappallikunnu",
-      "ward_name_ml": "പറപ്പളളിക്കുന്ന്"
+      "name_en": "Parappallikunnu",
+      "name_ml": "പറപ്പളളിക്കുന്ന്"
     },
     {
-      "ward_id": "715116c5-3a55-4cf6-821c-d752987f157d",
+      "id": "715116c5-3a55-4cf6-821c-d752987f157d",
       "ward_no": "6",
-      "ward_name_en": "Areeparambu",
-      "ward_name_ml": "അരീപ്പറമ്പ്"
+      "name_en": "Areeparambu",
+      "name_ml": "അരീപ്പറമ്പ്"
     },
     {
-      "ward_id": "e7c36fba-dfe3-4f61-96be-faf375c34eed",
+      "id": "e7c36fba-dfe3-4f61-96be-faf375c34eed",
       "ward_no": "7",
-      "ward_name_en": "Marottipuzha",
-      "ward_name_ml": "മരോട്ടിപ്പുഴ"
+      "name_en": "Marottipuzha",
+      "name_ml": "മരോട്ടിപ്പുഴ"
     },
     {
-      "ward_id": "c8b17203-f77d-4050-b9ac-fa7d925d2ee8",
+      "id": "c8b17203-f77d-4050-b9ac-fa7d925d2ee8",
       "ward_no": "8",
-      "ward_name_en": "Pandavarkalari",
-      "ward_name_ml": "പാണ്ഡവര്‍കളരി"
+      "name_en": "Pandavarkalari",
+      "name_ml": "പാണ്ഡവര്‍കളരി"
     },
     {
-      "ward_id": "50d94bca-7cf9-46af-a32e-0715a76aff20",
+      "id": "50d94bca-7cf9-46af-a32e-0715a76aff20",
       "ward_no": "9",
-      "ward_name_en": "College Ward",
-      "ward_name_ml": "കോളേജ് വാര്‍ഡ്"
+      "name_en": "College Ward",
+      "name_ml": "കോളേജ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "1eaa0e23-1c95-423c-b1b5-adf45e02aa59",
+      "id": "1eaa0e23-1c95-423c-b1b5-adf45e02aa59",
       "ward_no": "10",
-      "ward_name_en": "I.T.C",
-      "ward_name_ml": "ഐ.റ്റി.സി"
+      "name_en": "I.T.C",
+      "name_ml": "ഐ.റ്റി.സി"
     },
     {
-      "ward_id": "f8a7e777-b25d-4718-9f09-9bd84d6ac749",
+      "id": "f8a7e777-b25d-4718-9f09-9bd84d6ac749",
       "ward_no": "11",
-      "ward_name_en": "Kuttiyakunnu",
-      "ward_name_ml": "കുറ്റിയക്കുന്ന്"
+      "name_en": "Kuttiyakunnu",
+      "name_ml": "കുറ്റിയക്കുന്ന്"
     },
     {
-      "ward_id": "f413845b-df5c-4ce8-84bd-0789efb97a08",
+      "id": "f413845b-df5c-4ce8-84bd-0789efb97a08",
       "ward_no": "12",
-      "ward_name_en": "Sankarassery",
-      "ward_name_ml": "ശങ്കരശ്ശേരി"
+      "name_en": "Sankarassery",
+      "name_ml": "ശങ്കരശ്ശേരി"
     },
     {
-      "ward_id": "33775a9e-fbe9-4242-a2b7-9eee75cd8b4b",
+      "id": "33775a9e-fbe9-4242-a2b7-9eee75cd8b4b",
       "ward_no": "13",
-      "ward_name_en": "Vennassery",
-      "ward_name_ml": "വെണ്ണാശ്ശേരി"
+      "name_en": "Vennassery",
+      "name_ml": "വെണ്ണാശ്ശേരി"
     },
     {
-      "ward_id": "318079d6-1cd6-4a92-ab8d-645948360248",
+      "id": "318079d6-1cd6-4a92-ab8d-645948360248",
       "ward_no": "14",
-      "ward_name_en": "Manarcad",
-      "ward_name_ml": "മണര്‍കാട്"
+      "name_en": "Manarcad",
+      "name_ml": "മണര്‍കാട്"
     },
     {
-      "ward_id": "6b27e7a1-ca25-4084-9234-49ac345c35e4",
+      "id": "6b27e7a1-ca25-4084-9234-49ac345c35e4",
       "ward_no": "15",
-      "ward_name_en": "Irattunada",
-      "ward_name_ml": "ഐരാറ്റുനട"
+      "name_en": "Irattunada",
+      "name_ml": "ഐരാറ്റുനട"
     },
     {
-      "ward_id": "cda8a2fc-120c-43ee-8385-4efde3051c25",
+      "id": "cda8a2fc-120c-43ee-8385-4efde3051c25",
       "ward_no": "16",
-      "ward_name_en": "Kuzhipurayidam",
-      "ward_name_ml": "കുഴിപ്പുരയിടം"
+      "name_en": "Kuzhipurayidam",
+      "name_ml": "കുഴിപ്പുരയിടം"
     },
     {
-      "ward_id": "957e9a39-018c-4bef-867f-a3a7e73f450d",
+      "id": "957e9a39-018c-4bef-867f-a3a7e73f450d",
       "ward_no": "17",
-      "ward_name_en": "Kanniyamkunnu",
-      "ward_name_ml": "കണിയാംക്കുന്ന്"
+      "name_en": "Kanniyamkunnu",
+      "name_ml": "കണിയാംക്കുന്ന്"
     }
   ],
   "towns": [],

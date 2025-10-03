@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G030607",
-  "local_body_name_en": "Malayalapuzha",
-  "local_body_name_ml": "മലയാലപ്പുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "114",
-    "assembly_name_en": "Konni",
-    "assembly_name_ml": "കോന്നി",
+  "id": "G030607",
+  "name_en": "Malayalapuzha",
+  "name_ml": "മലയാലപ്പുഴ",
+  "assembly_id": "114",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "114",
+    "name_en": "Konni",
+    "name_ml": "കോന്നി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4b32fddf-82d0-4b61-8d25-fbd3a5cef170",
+      "id": "4b32fddf-82d0-4b61-8d25-fbd3a5cef170",
       "ward_no": "1",
-      "ward_name_en": "Valliyani",
-      "ward_name_ml": "വള്ളിയാനി"
+      "name_en": "Valliyani",
+      "name_ml": "വള്ളിയാനി"
     },
     {
-      "ward_id": "e42a18ed-1354-4273-ab16-605b4fa78b27",
+      "id": "e42a18ed-1354-4273-ab16-605b4fa78b27",
       "ward_no": "2",
-      "ward_name_en": "Mukkuzhi",
-      "ward_name_ml": "മുക്കുഴി"
+      "name_en": "Mukkuzhi",
+      "name_ml": "മുക്കുഴി"
     },
     {
-      "ward_id": "f9c8a78d-31db-4da2-a1ef-f7a6e30904b3",
+      "id": "f9c8a78d-31db-4da2-a1ef-f7a6e30904b3",
       "ward_no": "3",
-      "ward_name_en": "Potheepadu",
-      "ward_name_ml": "പൊതീപ്പാട്"
+      "name_en": "Potheepadu",
+      "name_ml": "പൊതീപ്പാട്"
     },
     {
-      "ward_id": "2f8f81f7-42d1-4ebd-82b7-a2835f73aa6c",
+      "id": "2f8f81f7-42d1-4ebd-82b7-a2835f73aa6c",
       "ward_no": "4",
-      "ward_name_en": "Puthukkulam",
-      "ward_name_ml": "പുതുക്കുളം"
+      "name_en": "Puthukkulam",
+      "name_ml": "പുതുക്കുളം"
     },
     {
-      "ward_id": "c758a5d4-02da-412c-b728-87bc7d2edfa7",
+      "id": "c758a5d4-02da-412c-b728-87bc7d2edfa7",
       "ward_no": "5",
-      "ward_name_en": "Thottam",
-      "ward_name_ml": "തോട്ടം"
+      "name_en": "Thottam",
+      "name_ml": "തോട്ടം"
     },
     {
-      "ward_id": "ac3426a8-72f2-4ff5-82e1-9a6f86c5e51d",
+      "id": "ac3426a8-72f2-4ff5-82e1-9a6f86c5e51d",
       "ward_no": "6",
-      "ward_name_en": "Elakkulam",
-      "ward_name_ml": "ഇലക്കുളം"
+      "name_en": "Elakkulam",
+      "name_ml": "ഇലക്കുളം"
     },
     {
-      "ward_id": "3a5daa1c-d0c3-4eb0-b7eb-56248b9791a1",
+      "id": "3a5daa1c-d0c3-4eb0-b7eb-56248b9791a1",
       "ward_no": "7",
-      "ward_name_en": "Kizhakkupuram",
-      "ward_name_ml": "കിഴക്കുപുറം"
+      "name_en": "Kizhakkupuram",
+      "name_ml": "കിഴക്കുപുറം"
     },
     {
-      "ward_id": "423acabe-f1a8-45b1-bf26-59d9f2540324",
+      "id": "423acabe-f1a8-45b1-bf26-59d9f2540324",
       "ward_no": "8",
-      "ward_name_en": "Vettoor",
-      "ward_name_ml": "വെട്ടൂര്‍"
+      "name_en": "Vettoor",
+      "name_ml": "വെട്ടൂര്‍"
     },
     {
-      "ward_id": "8932e7e7-7ab0-4417-8b09-8b7ef945d1d5",
+      "id": "8932e7e7-7ab0-4417-8b09-8b7ef945d1d5",
       "ward_no": "9",
-      "ward_name_en": "Vettoor Town",
-      "ward_name_ml": "വെട്ടൂര്‍ ടൌണ്‍"
+      "name_en": "Vettoor Town",
+      "name_ml": "വെട്ടൂര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "6bc2f389-6d61-4f7c-8ccc-b1144ff56030",
+      "id": "6bc2f389-6d61-4f7c-8ccc-b1144ff56030",
       "ward_no": "10",
-      "ward_name_en": "Vadakkupuram",
-      "ward_name_ml": "വടക്കുപുറം"
+      "name_en": "Vadakkupuram",
+      "name_ml": "വടക്കുപുറം"
     },
     {
-      "ward_id": "d4a1058e-f4b7-4143-a41e-41cab0d391db",
+      "id": "d4a1058e-f4b7-4143-a41e-41cab0d391db",
       "ward_no": "11",
-      "ward_name_en": "Malayalapuzha Town",
-      "ward_name_ml": "മലയാലപ്പുഴ ടൌണ്‍"
+      "name_en": "Malayalapuzha Town",
+      "name_ml": "മലയാലപ്പുഴ ടൌണ്‍"
     },
     {
-      "ward_id": "d40aa28f-c65b-47c4-af67-268af0b618c0",
+      "id": "d40aa28f-c65b-47c4-af67-268af0b618c0",
       "ward_no": "12",
-      "ward_name_en": "Malayalapuzha Thazham",
-      "ward_name_ml": "മലയാലപ്പുഴ താഴം"
+      "name_en": "Malayalapuzha Thazham",
+      "name_ml": "മലയാലപ്പുഴ താഴം"
     },
     {
-      "ward_id": "6d0264dd-795a-40b5-849d-6b62eb0c3167",
+      "id": "6d0264dd-795a-40b5-849d-6b62eb0c3167",
       "ward_no": "13",
-      "ward_name_en": "Cheradi",
-      "ward_name_ml": "ചേറാടി"
+      "name_en": "Cheradi",
+      "name_ml": "ചേറാടി"
     },
     {
-      "ward_id": "3b75b121-7332-4449-a7a0-92ae8a3fc667",
+      "id": "3b75b121-7332-4449-a7a0-92ae8a3fc667",
       "ward_no": "14",
-      "ward_name_en": "Kozhikunnam",
-      "ward_name_ml": "കോഴികുന്നം"
+      "name_en": "Kozhikunnam",
+      "name_ml": "കോഴികുന്നം"
     }
   ],
   "towns": [],

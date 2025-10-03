@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G011002",
-  "local_body_name_en": "Kanjiramkulam",
-  "local_body_name_ml": "കാഞ്ഞിരംകുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G011002",
+  "name_en": "Kanjiramkulam",
+  "name_ml": "കാഞ്ഞിരംകുളം",
+  "assembly_id": "139",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "139",
-    "assembly_name_en": "Kovalam",
-    "assembly_name_ml": "കോവളം",
-    "category": "Normal"
+    "id": "139",
+    "name_en": "Kovalam",
+    "name_ml": "കോവളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f0ed07da-2869-481a-ac34-c8722c622016",
+      "id": "f0ed07da-2869-481a-ac34-c8722c622016",
       "ward_no": "1",
-      "ward_name_en": "Kazhivoor",
-      "ward_name_ml": "കഴിവൂര്‍"
+      "name_en": "Kazhivoor",
+      "name_ml": "കഴിവൂര്‍"
     },
     {
-      "ward_id": "7d462a01-19d1-4d01-a631-356fb132501f",
+      "id": "7d462a01-19d1-4d01-a631-356fb132501f",
       "ward_no": "2",
-      "ward_name_en": "Kaivanvila",
-      "ward_name_ml": "കൈവന്‍വിള"
+      "name_en": "Kaivanvila",
+      "name_ml": "കൈവന്‍വിള"
     },
     {
-      "ward_id": "27d2e0de-6f12-451d-8198-99b7449236b8",
+      "id": "27d2e0de-6f12-451d-8198-99b7449236b8",
       "ward_no": "3",
-      "ward_name_en": "Thadathikulam",
-      "ward_name_ml": "തടത്തിക്കുളം"
+      "name_en": "Thadathikulam",
+      "name_ml": "തടത്തിക്കുളം"
     },
     {
-      "ward_id": "bf3be7c1-b445-4f34-9dac-986c7354df9d",
+      "id": "bf3be7c1-b445-4f34-9dac-986c7354df9d",
       "ward_no": "4",
-      "ward_name_en": "Moonumukku",
-      "ward_name_ml": "മൂന്ന്മുക്ക്"
+      "name_en": "Moonumukku",
+      "name_ml": "മൂന്ന്മുക്ക്"
     },
     {
-      "ward_id": "15ec4477-5412-4fe1-a90e-d7a1f38bfac9",
+      "id": "15ec4477-5412-4fe1-a90e-d7a1f38bfac9",
       "ward_no": "5",
-      "ward_name_en": "Kanjiramkulam Town",
-      "ward_name_ml": "കാഞ്ഞിരംകുളം ഠൌണ്‍"
+      "name_en": "Kanjiramkulam Town",
+      "name_ml": "കാഞ്ഞിരംകുളം ഠൌണ്‍"
     },
     {
-      "ward_id": "182a6305-8cd2-4060-8b07-86c2633a7187",
+      "id": "182a6305-8cd2-4060-8b07-86c2633a7187",
       "ward_no": "6",
-      "ward_name_en": "Cheenivila",
-      "ward_name_ml": "ചീനിവിള"
+      "name_en": "Cheenivila",
+      "name_ml": "ചീനിവിള"
     },
     {
-      "ward_id": "cc047125-2743-437a-a725-0d186a3a59d2",
+      "id": "cc047125-2743-437a-a725-0d186a3a59d2",
       "ward_no": "7",
-      "ward_name_en": "Nellikkakuzhi",
-      "ward_name_ml": "നെല്ലിക്കാക്കുഴി"
+      "name_en": "Nellikkakuzhi",
+      "name_ml": "നെല്ലിക്കാക്കുഴി"
     },
     {
-      "ward_id": "1fd042e8-54c1-4672-9a00-14793efd2f3c",
+      "id": "1fd042e8-54c1-4672-9a00-14793efd2f3c",
       "ward_no": "8",
-      "ward_name_en": "Muzhakkolkunnu",
-      "ward_name_ml": "മുഴക്കോല്‍ക്കുന്ന്"
+      "name_en": "Muzhakkolkunnu",
+      "name_ml": "മുഴക്കോല്‍ക്കുന്ന്"
     },
     {
-      "ward_id": "6e923bbb-4b7a-4e2d-b656-056686fd4d0f",
+      "id": "6e923bbb-4b7a-4e2d-b656-056686fd4d0f",
       "ward_no": "9",
-      "ward_name_en": "Chani",
-      "ward_name_ml": ".ചാണി"
+      "name_en": "Chani",
+      "name_ml": ".ചാണി"
     },
     {
-      "ward_id": "ee41e5c3-aba0-467d-a199-fa5cf5c3dd7c",
+      "id": "ee41e5c3-aba0-467d-a199-fa5cf5c3dd7c",
       "ward_no": "10",
-      "ward_name_en": "Lourdepuram",
-      "ward_name_ml": "ലൂര്‍ദിപുരം"
+      "name_en": "Lourdepuram",
+      "name_ml": "ലൂര്‍ദിപുരം"
     },
     {
-      "ward_id": "d4a57865-e77d-43d2-8a32-175891b1ded3",
+      "id": "d4a57865-e77d-43d2-8a32-175891b1ded3",
       "ward_no": "11",
-      "ward_name_en": "Mavila",
-      "ward_name_ml": "മാവിള"
+      "name_en": "Mavila",
+      "name_ml": "മാവിള"
     },
     {
-      "ward_id": "b3148042-f18f-4208-9be8-38b9341c2d93",
+      "id": "b3148042-f18f-4208-9be8-38b9341c2d93",
       "ward_no": "12",
-      "ward_name_en": "Nediyakala",
-      "ward_name_ml": "നെടിയകാല"
+      "name_en": "Nediyakala",
+      "name_ml": "നെടിയകാല"
     },
     {
-      "ward_id": "95a8c61b-1280-41ba-b757-3cfa63a8f17e",
+      "id": "95a8c61b-1280-41ba-b757-3cfa63a8f17e",
       "ward_no": "13",
-      "ward_name_en": "Karichal",
-      "ward_name_ml": "കരിച്ചല്‍"
+      "name_en": "Karichal",
+      "name_ml": "കരിച്ചല്‍"
     },
     {
-      "ward_id": "593a4529-4d79-4ade-a591-a7a7e9562c37",
+      "id": "593a4529-4d79-4ade-a591-a7a7e9562c37",
       "ward_no": "14",
-      "ward_name_en": "Oottara",
-      "ward_name_ml": "ഊറ്ററ"
+      "name_en": "Oottara",
+      "name_ml": "ഊറ്ററ"
     }
   ],
   "towns": [],

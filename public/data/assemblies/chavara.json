@@ -1,44 +1,59 @@
 {
-  "assembly_id": "117",
-  "assembly_name_en": "Chavara",
-  "assembly_name_ml": "ചവറ",
-  "category": "Normal",
+  "id": "117",
+  "name_en": "Chavara",
+  "name_ml": "ചവറ",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020802",
-      "local_body_name_en": "Chavara",
-      "local_body_name_ml": "ചവറ",
-      "category": "Perfect"
+      "id": "G020802",
+      "name_en": "Chavara",
+      "name_ml": "ചവറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020805",
-      "local_body_name_en": "Neendakara",
-      "local_body_name_ml": "നീണ്ടകര",
-      "category": "Perfect"
+      "id": "G020805",
+      "name_en": "Neendakara",
+      "name_ml": "നീണ്ടകര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020804",
-      "local_body_name_en": "Panmana",
-      "local_body_name_ml": "പന്‍മന",
-      "category": "Perfect"
+      "id": "G020804",
+      "name_en": "Panmana",
+      "name_ml": "പന്‍മന",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020801",
-      "local_body_name_en": "Thekkumbhagom",
-      "local_body_name_ml": "തെക്കുംഭാഗം",
-      "category": "Normal"
+      "id": "G020801",
+      "name_en": "Thekkumbhagom",
+      "name_ml": "തെക്കുംഭാഗം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020803",
-      "local_body_name_en": "Thevalakkara",
-      "local_body_name_ml": "തേവലക്കര",
-      "category": "Normal"
+      "id": "G020803",
+      "name_en": "Thevalakkara",
+      "name_ml": "തേവലക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

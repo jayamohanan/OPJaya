@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G101301",
-  "local_body_name_en": "Purathur",
-  "local_body_name_ml": "പുറത്തൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "47",
-    "assembly_name_en": "Tavanur",
-    "assembly_name_ml": "തവനൂര്‍",
+  "id": "G101301",
+  "name_en": "Purathur",
+  "name_ml": "പുറത്തൂര്‍",
+  "assembly_id": "47",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "47",
+    "name_en": "Tavanur",
+    "name_ml": "തവനൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "67812423-e056-4985-924d-70315707d47f",
+      "id": "67812423-e056-4985-924d-70315707d47f",
       "ward_no": "1",
-      "ward_name_en": "Pandazhi",
-      "ward_name_ml": "പണ്ടാഴി"
+      "name_en": "Pandazhi",
+      "name_ml": "പണ്ടാഴി"
     },
     {
-      "ward_id": "6ea60649-838f-44ef-a453-4e0045227ab2",
+      "id": "6ea60649-838f-44ef-a453-4e0045227ab2",
       "ward_no": "2",
-      "ward_name_en": "Muttannur",
-      "ward_name_ml": "മുട്ടന്നൂര്‍"
+      "name_en": "Muttannur",
+      "name_ml": "മുട്ടന്നൂര്‍"
     },
     {
-      "ward_id": "412b971e-17b3-4264-aa24-5dfb0bef7061",
+      "id": "412b971e-17b3-4264-aa24-5dfb0bef7061",
       "ward_no": "3",
-      "ward_name_en": "Muttannur East",
-      "ward_name_ml": "മുട്ടന്നൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Muttannur East",
+      "name_ml": "മുട്ടന്നൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "21578f8a-8d24-489a-b6ae-4fdd4f987830",
+      "id": "21578f8a-8d24-489a-b6ae-4fdd4f987830",
       "ward_no": "4",
-      "ward_name_en": "Chirakkal",
-      "ward_name_ml": "ചിറക്കല്‍"
+      "name_en": "Chirakkal",
+      "name_ml": "ചിറക്കല്‍"
     },
     {
-      "ward_id": "f099cc79-c5f1-4088-bb40-38dc2abaefd9",
+      "id": "f099cc79-c5f1-4088-bb40-38dc2abaefd9",
       "ward_no": "5",
-      "ward_name_en": "Maravantha",
-      "ward_name_ml": "മരവന്ത"
+      "name_en": "Maravantha",
+      "name_ml": "മരവന്ത"
     },
     {
-      "ward_id": "d395c111-e2e3-407b-b19e-0e5ab357cbaf",
+      "id": "d395c111-e2e3-407b-b19e-0e5ab357cbaf",
       "ward_no": "6",
-      "ward_name_en": "Athanippadi",
-      "ward_name_ml": "അത്താണിപ്പടി"
+      "name_en": "Athanippadi",
+      "name_ml": "അത്താണിപ്പടി"
     },
     {
-      "ward_id": "27fcea81-2fa1-42e6-9507-01ae7eda3ba6",
+      "id": "27fcea81-2fa1-42e6-9507-01ae7eda3ba6",
       "ward_no": "7",
-      "ward_name_en": "Puduppalli",
-      "ward_name_ml": "പുതുപ്പള്ളി"
+      "name_en": "Puduppalli",
+      "name_ml": "പുതുപ്പള്ളി"
     },
     {
-      "ward_id": "8d655130-02e5-4312-a12c-210e6217592d",
+      "id": "8d655130-02e5-4312-a12c-210e6217592d",
       "ward_no": "8",
-      "ward_name_en": "Kuttikkad",
-      "ward_name_ml": "കുറ്റിക്കാട്"
+      "name_en": "Kuttikkad",
+      "name_ml": "കുറ്റിക്കാട്"
     },
     {
-      "ward_id": "bc8d3c7d-c9d0-4764-9df9-980512a057a5",
+      "id": "bc8d3c7d-c9d0-4764-9df9-980512a057a5",
       "ward_no": "9",
-      "ward_name_en": "Thrithalloor South",
-      "ward_name_ml": "തൃത്തല്ലൂര്‍ സൌത്ത്"
+      "name_en": "Thrithalloor South",
+      "name_ml": "തൃത്തല്ലൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "47894939-d8c9-4140-974f-62d3607d722c",
+      "id": "47894939-d8c9-4140-974f-62d3607d722c",
       "ward_no": "10",
-      "ward_name_en": "Ezhippadam",
-      "ward_name_ml": "ഏഴിപ്പാടം"
+      "name_en": "Ezhippadam",
+      "name_ml": "ഏഴിപ്പാടം"
     },
     {
-      "ward_id": "d71b6536-d9ba-45e9-9c17-900794911d3d",
+      "id": "d71b6536-d9ba-45e9-9c17-900794911d3d",
       "ward_no": "11",
-      "ward_name_en": "Kaloor",
-      "ward_name_ml": "കളൂര്‍"
+      "name_en": "Kaloor",
+      "name_ml": "കളൂര്‍"
     },
     {
-      "ward_id": "eb7210f7-cff0-4307-87db-48a489043656",
+      "id": "eb7210f7-cff0-4307-87db-48a489043656",
       "ward_no": "12",
-      "ward_name_en": "Munambam",
-      "ward_name_ml": "മുനമ്പം"
+      "name_en": "Munambam",
+      "name_ml": "മുനമ്പം"
     },
     {
-      "ward_id": "e2eadd6d-b3aa-4027-bcf9-f56e3f6920d5",
+      "id": "e2eadd6d-b3aa-4027-bcf9-f56e3f6920d5",
       "ward_no": "13",
-      "ward_name_en": "Purathur",
-      "ward_name_ml": "പുറത്തൂര്‍"
+      "name_en": "Purathur",
+      "name_ml": "പുറത്തൂര്‍"
     },
     {
-      "ward_id": "57c095bc-489a-439e-9d4d-63c9714df4c9",
+      "id": "57c095bc-489a-439e-9d4d-63c9714df4c9",
       "ward_no": "14",
-      "ward_name_en": "Kavilakkad South",
-      "ward_name_ml": "കാവിലക്കാട് സൌത്ത്"
+      "name_en": "Kavilakkad South",
+      "name_ml": "കാവിലക്കാട് സൌത്ത്"
     },
     {
-      "ward_id": "cb559f13-ef11-47e8-a5ac-43525d0acef7",
+      "id": "cb559f13-ef11-47e8-a5ac-43525d0acef7",
       "ward_no": "15",
-      "ward_name_en": "Kavilakkad",
-      "ward_name_ml": "കാവിലക്കാട്"
+      "name_en": "Kavilakkad",
+      "name_ml": "കാവിലക്കാട്"
     },
     {
-      "ward_id": "74114d3a-a114-4cad-b281-5761c3dbf6cd",
+      "id": "74114d3a-a114-4cad-b281-5761c3dbf6cd",
       "ward_no": "16",
-      "ward_name_en": "Thrithalloor",
-      "ward_name_ml": "തൃത്തല്ലൂര്‍"
+      "name_en": "Thrithalloor",
+      "name_ml": "തൃത്തല്ലൂര്‍"
     },
     {
-      "ward_id": "81ead6e4-d678-4102-be77-02dcbe499a94",
+      "id": "81ead6e4-d678-4102-be77-02dcbe499a94",
       "ward_no": "17",
-      "ward_name_en": "Edakkanad",
-      "ward_name_ml": "എടക്കനാട്"
+      "name_en": "Edakkanad",
+      "name_ml": "എടക്കനാട്"
     },
     {
-      "ward_id": "9b5c6fd1-80fd-42bf-bc65-0736a7a76984",
+      "id": "9b5c6fd1-80fd-42bf-bc65-0736a7a76984",
       "ward_no": "18",
-      "ward_name_en": "Azhimugham",
-      "ward_name_ml": "അഴിമുഖം"
+      "name_en": "Azhimugham",
+      "name_ml": "അഴിമുഖം"
     },
     {
-      "ward_id": "f08d7b5e-890f-473f-b522-4247ae8cf791",
+      "id": "f08d7b5e-890f-473f-b522-4247ae8cf791",
       "ward_no": "19",
-      "ward_name_en": "Padinharekkara",
-      "ward_name_ml": "പടിഞ്ഞാറെക്കര"
+      "name_en": "Padinharekkara",
+      "name_ml": "പടിഞ്ഞാറെക്കര"
     }
   ],
   "towns": [],

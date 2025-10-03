@@ -1,62 +1,83 @@
 {
-  "assembly_id": "84",
-  "assembly_name_en": "Kunnathunad",
-  "assembly_name_ml": "കുന്നത്തുനാട്",
-  "category": "Normal",
+  "id": "84",
+  "name_en": "Kunnathunad",
+  "name_ml": "കുന്നത്തുനാട്",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070503",
-      "local_body_name_en": "Kizhakkambalam",
-      "local_body_name_ml": "കിഴക്കമ്പലം",
-      "category": "Perfect"
+      "id": "G070503",
+      "name_en": "Kizhakkambalam",
+      "name_ml": "കിഴക്കമ്പലം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G071006",
-      "local_body_name_en": "Kunnathunad",
-      "local_body_name_ml": "കുന്നത്തുനാട്",
-      "category": "Normal"
+      "id": "G071006",
+      "name_en": "Kunnathunad",
+      "name_ml": "കുന്നത്തുനാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071004",
-      "local_body_name_en": "Mazhuvannoor",
-      "local_body_name_ml": "മഴുവന്നൂര്‍",
-      "category": "Good"
+      "id": "G071004",
+      "name_en": "Mazhuvannoor",
+      "name_ml": "മഴുവന്നൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071001",
-      "local_body_name_en": "Poothrikka",
-      "local_body_name_ml": "പൂത്തൃക്ക",
-      "category": "Good"
+      "id": "G071001",
+      "name_en": "Poothrikka",
+      "name_ml": "പൂത്തൃക്ക",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071002",
-      "local_body_name_en": "Thiruvaniyoor",
-      "local_body_name_ml": "തിരുവാണിയൂര്‍",
-      "category": "Perfect"
+      "id": "G071002",
+      "name_en": "Thiruvaniyoor",
+      "name_ml": "തിരുവാണിയൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G071003",
-      "local_body_name_en": "VadavucodePuthencruz",
-      "local_body_name_ml": "വടവുകോട് പുത്തന്‍കുരിശ്",
-      "category": "Good"
+      "id": "G071003",
+      "name_en": "VadavucodePuthencruz",
+      "name_ml": "വടവുകോട് പുത്തന്‍കുരിശ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071005",
-      "local_body_name_en": "Aikaranad",
-      "local_body_name_ml": "ഐക്കരനാട്",
-      "category": "Perfect"
+      "id": "G071005",
+      "name_en": "Aikaranad",
+      "name_ml": "ഐക്കരനാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G070502",
-      "local_body_name_en": "Vazhakulam",
-      "local_body_name_ml": "വാഴക്കുളം",
-      "category": "Normal"
+      "id": "G070502",
+      "name_en": "Vazhakulam",
+      "name_ml": "വാഴക്കുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

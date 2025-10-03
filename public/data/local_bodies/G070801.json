@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G070801",
-  "local_body_name_en": "Chellanam",
-  "local_body_name_ml": "ചെല്ലാനം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "80",
-    "assembly_name_en": "Kochi",
-    "assembly_name_ml": "കൊച്ചി",
+  "id": "G070801",
+  "name_en": "Chellanam",
+  "name_ml": "ചെല്ലാനം",
+  "assembly_id": "80",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "80",
+    "name_en": "Kochi",
+    "name_ml": "കൊച്ചി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "befef5d7-2492-409f-a6ce-fcdee8df39a2",
+      "id": "befef5d7-2492-409f-a6ce-fcdee8df39a2",
       "ward_no": "1",
-      "ward_name_en": "Kaithaveli",
-      "ward_name_ml": "കൈതവേലി"
+      "name_en": "Kaithaveli",
+      "name_ml": "കൈതവേലി"
     },
     {
-      "ward_id": "94d8c327-e0a3-4299-9b24-d07477363e08",
+      "id": "94d8c327-e0a3-4299-9b24-d07477363e08",
       "ward_no": "2",
-      "ward_name_en": "Kattipparambu",
-      "ward_name_ml": "കാട്ടിപ്പറമ്പ്"
+      "name_en": "Kattipparambu",
+      "name_ml": "കാട്ടിപ്പറമ്പ്"
     },
     {
-      "ward_id": "1a5f787f-d9e7-4b4f-b146-26fbe671e22f",
+      "id": "1a5f787f-d9e7-4b4f-b146-26fbe671e22f",
       "ward_no": "3",
-      "ward_name_en": "C.M.S",
-      "ward_name_ml": "സി.എം.എസ്"
+      "name_en": "C.M.S",
+      "name_ml": "സി.എം.എസ്"
     },
     {
-      "ward_id": "f1949e5f-9c1d-4e36-b0b5-01266c2f2119",
+      "id": "f1949e5f-9c1d-4e36-b0b5-01266c2f2119",
       "ward_no": "4",
-      "ward_name_en": "Chriyakadavu",
-      "ward_name_ml": "ചെറിയകടവ്"
+      "name_en": "Chriyakadavu",
+      "name_ml": "ചെറിയകടവ്"
     },
     {
-      "ward_id": "05396838-c95e-4a92-b34f-813556c91789",
+      "id": "05396838-c95e-4a92-b34f-813556c91789",
       "ward_no": "5",
-      "ward_name_en": "Companyppady",
-      "ward_name_ml": "കമ്പനിപ്പടി"
+      "name_en": "Companyppady",
+      "name_ml": "കമ്പനിപ്പടി"
     },
     {
-      "ward_id": "8fc47409-de96-42b5-9d31-06e3da4d9138",
+      "id": "8fc47409-de96-42b5-9d31-06e3da4d9138",
       "ward_no": "6",
-      "ward_name_en": "Andikkadavu",
-      "ward_name_ml": "അണ്ടിക്കടവ്"
+      "name_en": "Andikkadavu",
+      "name_ml": "അണ്ടിക്കടവ്"
     },
     {
-      "ward_id": "2a79fdc6-4be4-4cd0-a24d-2144c52f19ce",
+      "id": "2a79fdc6-4be4-4cd0-a24d-2144c52f19ce",
       "ward_no": "7",
-      "ward_name_en": "Police Station",
-      "ward_name_ml": "പോലിസ് സ്റ്റേഷന്‍"
+      "name_en": "Police Station",
+      "name_ml": "പോലിസ് സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "bba5abff-c1be-4a96-a7c6-fb5b306a28c9",
+      "id": "bba5abff-c1be-4a96-a7c6-fb5b306a28c9",
       "ward_no": "8",
-      "ward_name_en": "Kannamaly North",
-      "ward_name_ml": "കണ്ണമാലി നോര്‍ത്ത്"
+      "name_en": "Kannamaly North",
+      "name_ml": "കണ്ണമാലി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "1a781070-3f6e-4a2e-beaf-38a2b3ef5e17",
+      "id": "1a781070-3f6e-4a2e-beaf-38a2b3ef5e17",
       "ward_no": "9",
-      "ward_name_en": "Kannamaly",
-      "ward_name_ml": "കണ്ണമാലി"
+      "name_en": "Kannamaly",
+      "name_ml": "കണ്ണമാലി"
     },
     {
-      "ward_id": "bd8283b3-472f-4b48-86d2-3715decdc3b2",
+      "id": "bd8283b3-472f-4b48-86d2-3715decdc3b2",
       "ward_no": "10",
-      "ward_name_en": "Puthenthode",
-      "ward_name_ml": "പുത്തന്‍ തോട്"
+      "name_en": "Puthenthode",
+      "name_ml": "പുത്തന്‍ തോട്"
     },
     {
-      "ward_id": "cc283884-6bd5-46da-8bec-0a0683972136",
+      "id": "cc283884-6bd5-46da-8bec-0a0683972136",
       "ward_no": "11",
-      "ward_name_en": "Kandakkadavu North",
-      "ward_name_ml": "കണ്ടക്കടവ്  നോര്‍ത്ത്"
+      "name_en": "Kandakkadavu North",
+      "name_ml": "കണ്ടക്കടവ്  നോര്‍ത്ത്"
     },
     {
-      "ward_id": "595f46ab-5bbb-4080-931a-8e4f4c89362f",
+      "id": "595f46ab-5bbb-4080-931a-8e4f4c89362f",
       "ward_no": "12",
-      "ward_name_en": "Panchayath Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_en": "Panchayath Office",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
     },
     {
-      "ward_id": "0e70b535-d400-429f-8e00-37a629287aae",
+      "id": "0e70b535-d400-429f-8e00-37a629287aae",
       "ward_no": "13",
-      "ward_name_en": "Maruvakkad",
-      "ward_name_ml": "മറുവക്കാട്"
+      "name_en": "Maruvakkad",
+      "name_ml": "മറുവക്കാട്"
     },
     {
-      "ward_id": "61f8c5e9-acdf-41bf-82ce-39a2965499f8",
+      "id": "61f8c5e9-acdf-41bf-82ce-39a2965499f8",
       "ward_no": "14",
-      "ward_name_en": "Ambedkar Colony",
-      "ward_name_ml": "അംബേദ്കര്‍ കോളനി"
+      "name_en": "Ambedkar Colony",
+      "name_ml": "അംബേദ്കര്‍ കോളനി"
     },
     {
-      "ward_id": "cb0be046-7cfe-406b-8f8e-d3bd376b9268",
+      "id": "cb0be046-7cfe-406b-8f8e-d3bd376b9268",
       "ward_no": "15",
-      "ward_name_en": "Chellanam",
-      "ward_name_ml": "ചെല്ലാനം"
+      "name_en": "Chellanam",
+      "name_ml": "ചെല്ലാനം"
     },
     {
-      "ward_id": "1d4bfa5c-ca1b-4672-bbd2-0d78ef7badcc",
+      "id": "1d4bfa5c-ca1b-4672-bbd2-0d78ef7badcc",
       "ward_no": "16",
-      "ward_name_en": "Malikapparambu",
-      "ward_name_ml": "മാളികപ്പറമ്പ്"
+      "name_en": "Malikapparambu",
+      "name_ml": "മാളികപ്പറമ്പ്"
     },
     {
-      "ward_id": "061e8ac6-7d6e-4709-9c2a-a01bd16d1bc3",
+      "id": "061e8ac6-7d6e-4709-9c2a-a01bd16d1bc3",
       "ward_no": "17",
-      "ward_name_en": "Fishermen Colony",
-      "ward_name_ml": "ഫിഷര്‍മെന്‍ കോളനി"
+      "name_en": "Fishermen Colony",
+      "name_ml": "ഫിഷര്‍മെന്‍ കോളനി"
     },
     {
-      "ward_id": "6e633ebd-bd81-4361-b1e4-6b9744f231c4",
+      "id": "6e633ebd-bd81-4361-b1e4-6b9744f231c4",
       "ward_no": "18",
-      "ward_name_en": "Gonduparambu",
-      "ward_name_ml": "ഗൊണ്ടുപറമ്പ്"
+      "name_en": "Gonduparambu",
+      "name_ml": "ഗൊണ്ടുപറമ്പ്"
     },
     {
-      "ward_id": "de981cc8-d49f-4c7a-8fb2-be9d5193d901",
+      "id": "de981cc8-d49f-4c7a-8fb2-be9d5193d901",
       "ward_no": "19",
-      "ward_name_en": "North Chellanam",
-      "ward_name_ml": "നോര്‍ത്ത് ചെല്ലാനം"
+      "name_en": "North Chellanam",
+      "name_ml": "നോര്‍ത്ത് ചെല്ലാനം"
     },
     {
-      "ward_id": "7c4aae2f-62ed-436c-b2de-6f005cb1cd3f",
+      "id": "7c4aae2f-62ed-436c-b2de-6f005cb1cd3f",
       "ward_no": "20",
-      "ward_name_en": "Chelakkadavu",
-      "ward_name_ml": "ചാളക്കടവ്"
+      "name_en": "Chelakkadavu",
+      "name_ml": "ചാളക്കടവ്"
     },
     {
-      "ward_id": "bb466e23-eff7-453e-841f-50b9b68d2a25",
+      "id": "bb466e23-eff7-453e-841f-50b9b68d2a25",
       "ward_no": "21",
-      "ward_name_en": "Kandakkadavu South",
-      "ward_name_ml": "കണ്ടക്കടവ് സൌത്ത്"
+      "name_en": "Kandakkadavu South",
+      "name_ml": "കണ്ടക്കടവ് സൌത്ത്"
     }
   ],
   "towns": [],

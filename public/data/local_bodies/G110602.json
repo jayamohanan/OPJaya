@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110602",
-  "local_body_name_en": "Nochad",
-  "local_body_name_ml": "നൊച്ചാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "24",
-    "assembly_name_en": "Perambra",
-    "assembly_name_ml": "പേരാംബ്ര",
+  "id": "G110602",
+  "name_en": "Nochad",
+  "name_ml": "നൊച്ചാട്",
+  "assembly_id": "24",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "24",
+    "name_en": "Perambra",
+    "name_ml": "പേരാംബ്ര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "fbbbc60d-5768-411e-a788-0f5511fa583c",
+      "id": "fbbbc60d-5768-411e-a788-0f5511fa583c",
       "ward_no": "1",
-      "ward_name_en": "Aakkooparamb",
-      "ward_name_ml": "ആക്കൂപറന്പ്‍"
+      "name_en": "Aakkooparamb",
+      "name_ml": "ആക്കൂപറന്പ്‍"
     },
     {
-      "ward_id": "3043175a-a83d-4d5b-bd4b-65c3852537ab",
+      "id": "3043175a-a83d-4d5b-bd4b-65c3852537ab",
       "ward_no": "2",
-      "ward_name_en": "Valyakkode",
-      "ward_name_ml": "വാല്യക്കോട്"
+      "name_en": "Valyakkode",
+      "name_ml": "വാല്യക്കോട്"
     },
     {
-      "ward_id": "87d8cbc2-85f3-4dbf-a4c6-0d4054712aa5",
+      "id": "87d8cbc2-85f3-4dbf-a4c6-0d4054712aa5",
       "ward_no": "3",
-      "ward_name_en": "Valyakkode East",
-      "ward_name_ml": "വാല്യക്കോട് ഈസ്റ്റ്"
+      "name_en": "Valyakkode East",
+      "name_ml": "വാല്യക്കോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "c3f120ec-2e97-49e6-96df-a7218c3ef3b2",
+      "id": "c3f120ec-2e97-49e6-96df-a7218c3ef3b2",
       "ward_no": "4",
-      "ward_name_en": "Kalolippoyil",
-      "ward_name_ml": "കളോളിപ്പൊയില്"
+      "name_en": "Kalolippoyil",
+      "name_ml": "കളോളിപ്പൊയില്"
     },
     {
-      "ward_id": "4386dcff-4ea2-4cd1-8dd2-767ebae58761",
+      "id": "4386dcff-4ea2-4cd1-8dd2-767ebae58761",
       "ward_no": "5",
-      "ward_name_en": "Chenoli",
-      "ward_name_ml": "ചേനോളി"
+      "name_en": "Chenoli",
+      "name_ml": "ചേനോളി"
     },
     {
-      "ward_id": "d7c57d97-eec8-4dbc-a237-34c241ce3fa2",
+      "id": "d7c57d97-eec8-4dbc-a237-34c241ce3fa2",
       "ward_no": "6",
-      "ward_name_en": "Puttad",
-      "ward_name_ml": "പുറ്റാട്"
+      "name_en": "Puttad",
+      "name_ml": "പുറ്റാട്"
     },
     {
-      "ward_id": "b09a8ce9-c26e-4a74-8c54-e67a96a28d7a",
+      "id": "b09a8ce9-c26e-4a74-8c54-e67a96a28d7a",
       "ward_no": "7",
-      "ward_name_en": "Nadukkandippara",
-      "ward_name_ml": "നടുക്കണ്ട‍ിപ്പാറ"
+      "name_en": "Nadukkandippara",
+      "name_ml": "നടുക്കണ്ട‍ിപ്പാറ"
     },
     {
-      "ward_id": "6cd92508-0b21-4d47-bf69-2a49f2c9529d",
+      "id": "6cd92508-0b21-4d47-bf69-2a49f2c9529d",
       "ward_no": "8",
-      "ward_name_en": "Kayalmukku",
-      "ward_name_ml": "കായല്‍മുക്ക്"
+      "name_en": "Kayalmukku",
+      "name_ml": "കായല്‍മുക്ക്"
     },
     {
-      "ward_id": "2c7f70ca-bcfe-484a-8bd8-c93b64496a5a",
+      "id": "2c7f70ca-bcfe-484a-8bd8-c93b64496a5a",
       "ward_no": "9",
-      "ward_name_en": "Valoor",
-      "ward_name_ml": "വാളൂര്‍"
+      "name_en": "Valoor",
+      "name_ml": "വാളൂര്‍"
     },
     {
-      "ward_id": "b75e87b4-6fc2-491e-9dc9-8377722b4260",
+      "id": "b75e87b4-6fc2-491e-9dc9-8377722b4260",
       "ward_no": "10",
-      "ward_name_en": "Velliyur",
-      "ward_name_ml": "വെള്ളിയൂര്‍"
+      "name_en": "Velliyur",
+      "name_ml": "വെള്ളിയൂര്‍"
     },
     {
-      "ward_id": "462e9b3e-9d32-4471-8395-be1a3a8bc04c",
+      "id": "462e9b3e-9d32-4471-8395-be1a3a8bc04c",
       "ward_no": "11",
-      "ward_name_en": "Chalikkara",
-      "ward_name_ml": "ചാലിക്കര"
+      "name_en": "Chalikkara",
+      "name_ml": "ചാലിക്കര"
     },
     {
-      "ward_id": "aa06bcc8-c826-4c6f-abf7-0408dcb1b34f",
+      "id": "aa06bcc8-c826-4c6f-abf7-0408dcb1b34f",
       "ward_no": "12",
-      "ward_name_en": "Muliyangal",
-      "ward_name_ml": "മുളിയങ്ങല്‍"
+      "name_en": "Muliyangal",
+      "name_ml": "മുളിയങ്ങല്‍"
     },
     {
-      "ward_id": "c40ad2ad-1471-49b3-889c-04db6796913e",
+      "id": "c40ad2ad-1471-49b3-889c-04db6796913e",
       "ward_no": "13",
-      "ward_name_en": "Nanhoora",
-      "ward_name_ml": "നാഞ്ഞൂറ"
+      "name_en": "Nanhoora",
+      "name_ml": "നാഞ്ഞൂറ"
     },
     {
-      "ward_id": "8f15a8e4-35ea-4492-b157-fd87c6a2b371",
+      "id": "8f15a8e4-35ea-4492-b157-fd87c6a2b371",
       "ward_no": "14",
-      "ward_name_en": "Health Centre",
-      "ward_name_ml": "ഹെല്‍ത്ത് സെന്‍റര്‍"
+      "name_en": "Health Centre",
+      "name_ml": "ഹെല്‍ത്ത് സെന്‍റര്‍"
     },
     {
-      "ward_id": "0236cb5b-2bd0-4bc9-b35e-ce4cdb4302ed",
+      "id": "0236cb5b-2bd0-4bc9-b35e-ce4cdb4302ed",
       "ward_no": "15",
-      "ward_name_en": "Nochad",
-      "ward_name_ml": "നൊച്ചാട്"
+      "name_en": "Nochad",
+      "name_ml": "നൊച്ചാട്"
     },
     {
-      "ward_id": "037f6671-04a3-4162-939b-1c45e79659c7",
+      "id": "037f6671-04a3-4162-939b-1c45e79659c7",
       "ward_no": "16",
-      "ward_name_en": "Ramallur",
-      "ward_name_ml": "രാമല്ലൂര്‍"
+      "name_en": "Ramallur",
+      "name_ml": "രാമല്ലൂര്‍"
     },
     {
-      "ward_id": "9688e30a-1927-41eb-a5b2-7c2f581f9ec9",
+      "id": "9688e30a-1927-41eb-a5b2-7c2f581f9ec9",
       "ward_no": "17",
-      "ward_name_en": "Kalpathur",
-      "ward_name_ml": "കല്‍പ്പത്തൂര്‍"
+      "name_en": "Kalpathur",
+      "name_ml": "കല്‍പ്പത്തൂര്‍"
     }
   ],
   "towns": [],

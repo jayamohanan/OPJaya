@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G131004",
-  "local_body_name_en": "Thillankery",
-  "local_body_name_ml": "തില്ലങ്കേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G131004",
+  "name_en": "Thillankery",
+  "name_ml": "തില്ലങ്കേരി",
+  "assembly_id": "15",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "15",
-    "assembly_name_en": "Mattanur",
-    "assembly_name_ml": "മട്ടന്നൂര്‍",
-    "category": "Normal"
+    "id": "15",
+    "name_en": "Mattanur",
+    "name_ml": "മട്ടന്നൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "cf515eb4-befc-4525-b99d-a4eec0582e4d",
+      "id": "cf515eb4-befc-4525-b99d-a4eec0582e4d",
       "ward_no": "1",
-      "ward_name_en": "Padikkachal",
-      "ward_name_ml": "പടിക്കച്ചാല്‍"
+      "name_en": "Padikkachal",
+      "name_ml": "പടിക്കച്ചാല്‍"
     },
     {
-      "ward_id": "1e1f1960-69a6-4e09-a86c-1a845e5e977f",
+      "id": "1e1f1960-69a6-4e09-a86c-1a845e5e977f",
       "ward_no": "2",
-      "ward_name_en": "Thekkampoyil",
-      "ward_name_ml": "തെക്കംപൊയില്‍"
+      "name_en": "Thekkampoyil",
+      "name_ml": "തെക്കംപൊയില്‍"
     },
     {
-      "ward_id": "186673e6-71b0-4735-a1a9-92833e01b5f8",
+      "id": "186673e6-71b0-4735-a1a9-92833e01b5f8",
       "ward_no": "3",
-      "ward_name_en": "Vattaparamb",
-      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+      "name_en": "Vattaparamb",
+      "name_ml": "വട്ടപ്പറമ്പ്"
     },
     {
-      "ward_id": "ecff15b0-dc6e-4679-a9e2-b85f59a82a1d",
+      "id": "ecff15b0-dc6e-4679-a9e2-b85f59a82a1d",
       "ward_no": "4",
-      "ward_name_en": "Vazhakkal",
-      "ward_name_ml": "വാഴക്കാല്‍"
+      "name_en": "Vazhakkal",
+      "name_ml": "വാഴക്കാല്‍"
     },
     {
-      "ward_id": "9e357b0a-d364-4069-82cf-56ead4e33c01",
+      "id": "9e357b0a-d364-4069-82cf-56ead4e33c01",
       "ward_no": "5",
-      "ward_name_en": "Thillenkery",
-      "ward_name_ml": "തില്ലങ്കേരി"
+      "name_en": "Thillenkery",
+      "name_ml": "തില്ലങ്കേരി"
     },
     {
-      "ward_id": "621d5f56-2d85-406c-94ca-87c3121473dd",
+      "id": "621d5f56-2d85-406c-94ca-87c3121473dd",
       "ward_no": "6",
-      "ward_name_en": "Vanhery",
-      "ward_name_ml": "വഞ്ഞേരി"
+      "name_en": "Vanhery",
+      "name_ml": "വഞ്ഞേരി"
     },
     {
-      "ward_id": "f3505490-a107-4ff9-88da-2f1ab39f1ec4",
+      "id": "f3505490-a107-4ff9-88da-2f1ab39f1ec4",
       "ward_no": "7",
-      "ward_name_en": "Karuvally",
-      "ward_name_ml": "കരുവള്ളി"
+      "name_en": "Karuvally",
+      "name_ml": "കരുവള്ളി"
     },
     {
-      "ward_id": "e77a292a-700b-40b9-b966-a6c706813d30",
+      "id": "e77a292a-700b-40b9-b966-a6c706813d30",
       "ward_no": "8",
-      "ward_name_en": "Kavumpady",
-      "ward_name_ml": "കാവുംപടി"
+      "name_en": "Kavumpady",
+      "name_ml": "കാവുംപടി"
     },
     {
-      "ward_id": "ad743eaf-3109-4fce-8e0a-a42e6865bbe6",
+      "id": "ad743eaf-3109-4fce-8e0a-a42e6865bbe6",
       "ward_no": "9",
-      "ward_name_en": "Peringanam",
-      "ward_name_ml": "പെരിങ്ങാനം"
+      "name_en": "Peringanam",
+      "name_ml": "പെരിങ്ങാനം"
     },
     {
-      "ward_id": "91742cc7-207e-4ac7-a75b-cfeeaf26b3a5",
+      "id": "91742cc7-207e-4ac7-a75b-cfeeaf26b3a5",
       "ward_no": "10",
-      "ward_name_en": "Alayad",
-      "ward_name_ml": "ആലയാട്"
+      "name_en": "Alayad",
+      "name_ml": "ആലയാട്"
     },
     {
-      "ward_id": "dfb4355c-f2e7-409e-a129-5afbfd47831b",
+      "id": "dfb4355c-f2e7-409e-a129-5afbfd47831b",
       "ward_no": "11",
-      "ward_name_en": "Kanhirad",
-      "ward_name_ml": "കാഞ്ഞിരാട്"
+      "name_en": "Kanhirad",
+      "name_ml": "കാഞ്ഞിരാട്"
     },
     {
-      "ward_id": "32aea10f-c874-4ed9-9811-7afec0f0e8b4",
+      "id": "32aea10f-c874-4ed9-9811-7afec0f0e8b4",
       "ward_no": "12",
-      "ward_name_en": "Machoormala",
-      "ward_name_ml": "മച്ചൂര്‍മല"
+      "name_en": "Machoormala",
+      "name_ml": "മച്ചൂര്‍മല"
     },
     {
-      "ward_id": "76ff84b2-fd8e-4efa-bf5d-b0e5e106bb3f",
+      "id": "76ff84b2-fd8e-4efa-bf5d-b0e5e106bb3f",
       "ward_no": "13",
-      "ward_name_en": "Pallyam",
-      "ward_name_ml": "പള്ള്യം"
+      "name_en": "Pallyam",
+      "name_ml": "പള്ള്യം"
     }
   ],
   "towns": [],

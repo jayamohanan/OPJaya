@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G020708",
-  "local_body_name_en": "Thrikkaruva",
-  "local_body_name_ml": "തൃക്കരുവ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
-  "assembly": {
-    "assembly_id": "124",
-    "assembly_name_en": "Kollam",
-    "assembly_name_ml": "കൊല്ലം",
+  "id": "G020708",
+  "name_en": "Thrikkaruva",
+  "name_ml": "തൃക്കരുവ",
+  "assembly_id": "124",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Perfect"
   },
+  "assembly": {
+    "id": "124",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "assembly_category": {
+      "category": "Perfect"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d675505d-dfdf-4da0-bb16-5b2f6fac2c8f",
+      "id": "d675505d-dfdf-4da0-bb16-5b2f6fac2c8f",
       "ward_no": "1",
-      "ward_name_en": "Ashtamudi",
-      "ward_name_ml": "അഷ്ടമുടി"
+      "name_en": "Ashtamudi",
+      "name_ml": "അഷ്ടമുടി"
     },
     {
-      "ward_id": "6d694ae4-3caa-4948-a328-3007cb294ca1",
+      "id": "6d694ae4-3caa-4948-a328-3007cb294ca1",
       "ward_no": "2",
-      "ward_name_en": "Vadakkekkara",
-      "ward_name_ml": "വടക്കേക്കര"
+      "name_en": "Vadakkekkara",
+      "name_ml": "വടക്കേക്കര"
     },
     {
-      "ward_id": "4edec086-2761-4be7-bf34-88966c3171f8",
+      "id": "4edec086-2761-4be7-bf34-88966c3171f8",
       "ward_no": "3",
-      "ward_name_en": "Naduvilacherry",
-      "ward_name_ml": "നടുവിലച്ചേരി"
+      "name_en": "Naduvilacherry",
+      "name_ml": "നടുവിലച്ചേരി"
     },
     {
-      "ward_id": "fbed5051-fd77-4550-b20b-386b47026679",
+      "id": "fbed5051-fd77-4550-b20b-386b47026679",
       "ward_no": "4",
-      "ward_name_en": "Inchavila",
-      "ward_name_ml": "ഇഞ്ചവിള"
+      "name_en": "Inchavila",
+      "name_ml": "ഇഞ്ചവിള"
     },
     {
-      "ward_id": "a474932c-fe46-46ab-ad8c-dbda30f77600",
+      "id": "a474932c-fe46-46ab-ad8c-dbda30f77600",
       "ward_no": "5",
-      "ward_name_en": "Stadium",
-      "ward_name_ml": "സ്റ്റേഡിയം"
+      "name_en": "Stadium",
+      "name_ml": "സ്റ്റേഡിയം"
     },
     {
-      "ward_id": "ebcb1999-794c-4ae1-ae19-a87d6fe88232",
+      "id": "ebcb1999-794c-4ae1-ae19-a87d6fe88232",
       "ward_no": "6",
-      "ward_name_en": "Kanjiramkuzhi",
-      "ward_name_ml": "കാഞ്ഞിരംകുഴി"
+      "name_en": "Kanjiramkuzhi",
+      "name_ml": "കാഞ്ഞിരംകുഴി"
     },
     {
-      "ward_id": "f18407ff-0447-4fd4-9db1-b85ed9896d1d",
+      "id": "f18407ff-0447-4fd4-9db1-b85ed9896d1d",
       "ward_no": "7",
-      "ward_name_en": "Njarackal",
-      "ward_name_ml": "ഞാറയ്ക്കല്‍"
+      "name_en": "Njarackal",
+      "name_ml": "ഞാറയ്ക്കല്‍"
     },
     {
-      "ward_id": "24fd830c-236c-45a3-824f-179b03527af1",
+      "id": "24fd830c-236c-45a3-824f-179b03527af1",
       "ward_no": "8",
-      "ward_name_en": "Vanmala",
-      "ward_name_ml": "വന്മള"
+      "name_en": "Vanmala",
+      "name_ml": "വന്മള"
     },
     {
-      "ward_id": "24f0ef8e-fd8d-4bf1-9314-2bc1b171a1c3",
+      "id": "24f0ef8e-fd8d-4bf1-9314-2bc1b171a1c3",
       "ward_no": "9",
-      "ward_name_en": "Kanjavely",
-      "ward_name_ml": "കാഞ്ഞാവെളി"
+      "name_en": "Kanjavely",
+      "name_ml": "കാഞ്ഞാവെളി"
     },
     {
-      "ward_id": "8ab2c8cc-bc3a-4ff4-9393-b4a1c939af07",
+      "id": "8ab2c8cc-bc3a-4ff4-9393-b4a1c939af07",
       "ward_no": "10",
-      "ward_name_en": "Madurasserril",
-      "ward_name_ml": "മധുരശ്ശേരില്‍"
+      "name_en": "Madurasserril",
+      "name_ml": "മധുരശ്ശേരില്‍"
     },
     {
-      "ward_id": "12e5521f-9987-414e-b401-4e1d709851f0",
+      "id": "12e5521f-9987-414e-b401-4e1d709851f0",
       "ward_no": "11",
-      "ward_name_en": "Sambrannikkodi",
-      "ward_name_ml": "സാമ്പ്രാണിക്കോടി"
+      "name_en": "Sambrannikkodi",
+      "name_ml": "സാമ്പ്രാണിക്കോടി"
     },
     {
-      "ward_id": "84597228-825c-45a9-a632-8b0fd4701f70",
+      "id": "84597228-825c-45a9-a632-8b0fd4701f70",
       "ward_no": "12",
-      "ward_name_en": "Friends",
-      "ward_name_ml": "ഫ്രണ്ട്സ്"
+      "name_en": "Friends",
+      "name_ml": "ഫ്രണ്ട്സ്"
     },
     {
-      "ward_id": "873419fe-bb2e-4f08-ba3b-e2467d4d363f",
+      "id": "873419fe-bb2e-4f08-ba3b-e2467d4d363f",
       "ward_no": "13",
-      "ward_name_en": "Prakkulam",
-      "ward_name_ml": "പ്രാക്കുളം"
+      "name_en": "Prakkulam",
+      "name_ml": "പ്രാക്കുളം"
     },
     {
-      "ward_id": "8aab0809-8159-4bc2-b163-1a8157628a8b",
+      "id": "8aab0809-8159-4bc2-b163-1a8157628a8b",
       "ward_no": "14",
-      "ward_name_en": "Thekkecherry",
-      "ward_name_ml": "തെക്കേച്ചേരി"
+      "name_en": "Thekkecherry",
+      "name_ml": "തെക്കേച്ചേരി"
     },
     {
-      "ward_id": "92a61381-f484-42cc-ac04-5dfbf82cd87e",
+      "id": "92a61381-f484-42cc-ac04-5dfbf82cd87e",
       "ward_no": "15",
-      "ward_name_en": "Manalikkada",
-      "ward_name_ml": "മണലിക്കട"
+      "name_en": "Manalikkada",
+      "name_ml": "മണലിക്കട"
     },
     {
-      "ward_id": "f6e31b98-84a9-405b-bd21-83aa1520cf21",
+      "id": "f6e31b98-84a9-405b-bd21-83aa1520cf21",
       "ward_no": "16",
-      "ward_name_en": "High School",
-      "ward_name_ml": "ഹൈസ്കൂള്‍"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്കൂള്‍"
     }
   ],
   "towns": [],

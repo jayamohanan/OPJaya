@@ -1,81 +1,107 @@
 {
-  "district_id": "8",
-  "district_name_en": "Thrissur",
-  "district_name_ml": "തൃശ്ശൂർ",
+  "id": "8",
+  "name_en": "Thrissur",
+  "name_ml": "തൃശ്ശൂർ",
   "is_active": false,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "61",
-      "assembly_name_en": "Chelakkara",
-      "assembly_name_ml": "ചേലക്കര",
-      "category": "Normal"
+      "id": "61",
+      "name_en": "Chelakkara",
+      "name_ml": "ചേലക്കര",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "62",
-      "assembly_name_en": "Kunnamkulam",
-      "assembly_name_ml": "കുന്നംകുളം",
-      "category": "Normal"
+      "id": "62",
+      "name_en": "Kunnamkulam",
+      "name_ml": "കുന്നംകുളം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "63",
-      "assembly_name_en": "Guruvayur",
-      "assembly_name_ml": "ഗുരുവായൂര്‍",
-      "category": "Normal"
+      "id": "63",
+      "name_en": "Guruvayur",
+      "name_ml": "ഗുരുവായൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "64",
-      "assembly_name_en": "Manalur",
-      "assembly_name_ml": "മണലൂര്‍",
-      "category": "Normal"
+      "id": "64",
+      "name_en": "Manalur",
+      "name_ml": "മണലൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "65",
-      "assembly_name_en": "Wadakkanchery",
-      "assembly_name_ml": "വടക്കാഞ്ചേരി",
-      "category": "Normal"
+      "id": "65",
+      "name_en": "Wadakkanchery",
+      "name_ml": "വടക്കാഞ്ചേരി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "66",
-      "assembly_name_en": "Ollur",
-      "assembly_name_ml": "ഒല്ലൂർ",
-      "category": "Normal"
+      "id": "66",
+      "name_en": "Ollur",
+      "name_ml": "ഒല്ലൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "68",
-      "assembly_name_en": "Nattika",
-      "assembly_name_ml": "നാട്ടിക",
-      "category": "Good"
+      "id": "68",
+      "name_en": "Nattika",
+      "name_ml": "നാട്ടിക",
+      "assembly_category": {
+        "category": "Good"
+      }
     },
     {
-      "assembly_id": "69",
-      "assembly_name_en": "Kaipamangalam",
-      "assembly_name_ml": "കൈപ്പമംഗലം",
-      "category": "Normal"
+      "id": "69",
+      "name_en": "Kaipamangalam",
+      "name_ml": "കൈപ്പമംഗലം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "70",
-      "assembly_name_en": "Irinjalakuda",
-      "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
-      "category": "Normal"
+      "id": "70",
+      "name_en": "Irinjalakuda",
+      "name_ml": "ഇരിങ്ങാലക്കുട",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "71",
-      "assembly_name_en": "Puthukkad",
-      "assembly_name_ml": "പുതുക്കാട്",
-      "category": "Normal"
+      "id": "71",
+      "name_en": "Puthukkad",
+      "name_ml": "പുതുക്കാട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "72",
-      "assembly_name_en": "Chalakudy",
-      "assembly_name_ml": "ചാലക്കുടി",
-      "category": "Normal"
+      "id": "72",
+      "name_en": "Chalakudy",
+      "name_ml": "ചാലക്കുടി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "73",
-      "assembly_name_en": "Kodungallur",
-      "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
-      "category": "Normal"
+      "id": "73",
+      "name_en": "Kodungallur",
+      "name_ml": "കൊടുങ്ങല്ലൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

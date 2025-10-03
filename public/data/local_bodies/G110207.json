@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G110207",
-  "local_body_name_en": "Nadapuram",
-  "local_body_name_ml": "നാദാപുരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "22",
-    "assembly_name_en": "Nadapuram",
-    "assembly_name_ml": "നാദാപുരം",
+  "id": "G110207",
+  "name_en": "Nadapuram",
+  "name_ml": "നാദാപുരം",
+  "assembly_id": "22",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "22",
+    "name_en": "Nadapuram",
+    "name_ml": "നാദാപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a77503be-45dc-4f95-8177-ec8b00d27a9f",
+      "id": "a77503be-45dc-4f95-8177-ec8b00d27a9f",
       "ward_no": "1",
-      "ward_name_en": "Iyyankode West",
-      "ward_name_ml": "ഇയ്യങ്കോട് വെസ്റ്റ്"
+      "name_en": "Iyyankode West",
+      "name_ml": "ഇയ്യങ്കോട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "95512639-4d7d-4cb3-9e24-6ee5d4e66c99",
+      "id": "95512639-4d7d-4cb3-9e24-6ee5d4e66c99",
       "ward_no": "2",
-      "ward_name_en": "Iyyankode East",
-      "ward_name_ml": "ഇയ്യങ്കോട് ഈസ്റ്റ്"
+      "name_en": "Iyyankode East",
+      "name_ml": "ഇയ്യങ്കോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "4f908444-b394-4013-8682-69fd9c8a07e8",
+      "id": "4f908444-b394-4013-8682-69fd9c8a07e8",
       "ward_no": "3",
-      "ward_name_en": "Vishnumangalam",
-      "ward_name_ml": "വിഷ്ണുമംഗലം"
+      "name_en": "Vishnumangalam",
+      "name_ml": "വിഷ്ണുമംഗലം"
     },
     {
-      "ward_id": "09dd4006-933a-471b-927f-12d96710e7e7",
+      "id": "09dd4006-933a-471b-927f-12d96710e7e7",
       "ward_no": "4",
-      "ward_name_en": "Vishnumangalam West",
-      "ward_name_ml": "വിഷ്ണുമംഗലം വെസ്റ്റ്"
+      "name_en": "Vishnumangalam West",
+      "name_ml": "വിഷ്ണുമംഗലം വെസ്റ്റ്"
     },
     {
-      "ward_id": "7c1563cf-e845-42e3-8ca9-dfe478790e2b",
+      "id": "7c1563cf-e845-42e3-8ca9-dfe478790e2b",
       "ward_no": "5",
-      "ward_name_en": "Kuttipram",
-      "ward_name_ml": "കുറ്റിപ്രം"
+      "name_en": "Kuttipram",
+      "name_ml": "കുറ്റിപ്രം"
     },
     {
-      "ward_id": "0fb72840-0386-4b75-99bd-1e0a60eb6e21",
+      "id": "0fb72840-0386-4b75-99bd-1e0a60eb6e21",
       "ward_no": "6",
-      "ward_name_en": "Peruvankara",
-      "ward_name_ml": "പെരുവങ്കര"
+      "name_en": "Peruvankara",
+      "name_ml": "പെരുവങ്കര"
     },
     {
-      "ward_id": "7faddd2a-c23d-4af9-be81-15577b79e205",
+      "id": "7faddd2a-c23d-4af9-be81-15577b79e205",
       "ward_no": "7",
-      "ward_name_en": "Cheeyyoor",
-      "ward_name_ml": "ചീയ്യൂര്‍"
+      "name_en": "Cheeyyoor",
+      "name_ml": "ചീയ്യൂര്‍"
     },
     {
-      "ward_id": "b8570d17-9a90-4690-af9c-d4f219198b3b",
+      "id": "b8570d17-9a90-4690-af9c-d4f219198b3b",
       "ward_no": "8",
-      "ward_name_en": "Chelakkad North",
-      "ward_name_ml": "ചേലക്കാട് നോര്‍ത്ത്"
+      "name_en": "Chelakkad North",
+      "name_ml": "ചേലക്കാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "a92f2fce-29b8-4505-8cac-9087fea3120b",
+      "id": "a92f2fce-29b8-4505-8cac-9087fea3120b",
       "ward_no": "9",
-      "ward_name_en": "Chelakkad South",
-      "ward_name_ml": "ചേലക്കാട് സൌത്ത്"
+      "name_en": "Chelakkad South",
+      "name_ml": "ചേലക്കാട് സൌത്ത്"
     },
     {
-      "ward_id": "cf751105-cc64-489b-88d9-74ddbaaae8e8",
+      "id": "cf751105-cc64-489b-88d9-74ddbaaae8e8",
       "ward_no": "10",
-      "ward_name_en": "Kallachi Town",
-      "ward_name_ml": "കല്ലാച്ചി ടൌണ്‍"
+      "name_en": "Kallachi Town",
+      "name_ml": "കല്ലാച്ചി ടൌണ്‍"
     },
     {
-      "ward_id": "bfdbbf93-6459-46b4-807f-6a9bc3a7c02c",
+      "id": "bfdbbf93-6459-46b4-807f-6a9bc3a7c02c",
       "ward_no": "11",
-      "ward_name_en": "Onpath Kandam",
-      "ward_name_ml": "ഒമ്പത്കണ്ടം"
+      "name_en": "Onpath Kandam",
+      "name_ml": "ഒമ്പത്കണ്ടം"
     },
     {
-      "ward_id": "6ebeef1a-8649-48b1-a664-a263df983301",
+      "id": "6ebeef1a-8649-48b1-a664-a263df983301",
       "ward_no": "12",
-      "ward_name_en": "Narikkatteri",
-      "ward_name_ml": "നരിക്കാട്ടേരി"
+      "name_en": "Narikkatteri",
+      "name_ml": "നരിക്കാട്ടേരി"
     },
     {
-      "ward_id": "05b37f73-e51d-4e96-9610-3a3081561572",
+      "id": "05b37f73-e51d-4e96-9610-3a3081561572",
       "ward_no": "13",
-      "ward_name_en": "Varikkoli",
-      "ward_name_ml": "വരിക്കോളി"
+      "name_en": "Varikkoli",
+      "name_ml": "വരിക്കോളി"
     },
     {
-      "ward_id": "37fd3282-f7be-424e-997f-58d20a8b0c33",
+      "id": "37fd3282-f7be-424e-997f-58d20a8b0c33",
       "ward_no": "14",
-      "ward_name_en": "Kummamkode",
-      "ward_name_ml": "കുമ്മങ്കോട്"
+      "name_en": "Kummamkode",
+      "name_ml": "കുമ്മങ്കോട്"
     },
     {
-      "ward_id": "c2009d5e-7aad-47ba-9755-a3aa9530e6f6",
+      "id": "c2009d5e-7aad-47ba-9755-a3aa9530e6f6",
       "ward_no": "15",
-      "ward_name_en": "Kakkamvelli",
-      "ward_name_ml": "കക്കംവെളളി"
+      "name_en": "Kakkamvelli",
+      "name_ml": "കക്കംവെളളി"
     },
     {
-      "ward_id": "6c755229-72c8-4860-806e-50cff7dcd9a3",
+      "id": "6c755229-72c8-4860-806e-50cff7dcd9a3",
       "ward_no": "16",
-      "ward_name_en": "Kummamkode South",
-      "ward_name_ml": "കുമ്മങ്കോട് സൌത്ത്"
+      "name_en": "Kummamkode South",
+      "name_ml": "കുമ്മങ്കോട് സൌത്ത്"
     },
     {
-      "ward_id": "f03b9ee2-517f-48e6-889d-833cbb614095",
+      "id": "f03b9ee2-517f-48e6-889d-833cbb614095",
       "ward_no": "17",
-      "ward_name_en": "Kummamkode East",
-      "ward_name_ml": "കുമ്മങ്കോട് ഈസ്റ്റ്"
+      "name_en": "Kummamkode East",
+      "name_ml": "കുമ്മങ്കോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "64402744-6507-4cdd-b88d-c3f430b1544c",
+      "id": "64402744-6507-4cdd-b88d-c3f430b1544c",
       "ward_no": "18",
-      "ward_name_en": "Kallachi",
-      "ward_name_ml": "കല്ലാച്ചി"
+      "name_en": "Kallachi",
+      "name_ml": "കല്ലാച്ചി"
     },
     {
-      "ward_id": "db059253-9c8d-4b44-82db-dabb035b6e00",
+      "id": "db059253-9c8d-4b44-82db-dabb035b6e00",
       "ward_no": "19",
-      "ward_name_en": "Nadapuram",
-      "ward_name_ml": "നാദാപുരം"
+      "name_en": "Nadapuram",
+      "name_ml": "നാദാപുരം"
     },
     {
-      "ward_id": "0ebb712d-344e-4cab-b653-d84df537bb79",
+      "id": "0ebb712d-344e-4cab-b653-d84df537bb79",
       "ward_no": "20",
-      "ward_name_en": "Pulikkool",
-      "ward_name_ml": "പുളിക്കൂല്‍"
+      "name_en": "Pulikkool",
+      "name_ml": "പുളിക്കൂല്‍"
     },
     {
-      "ward_id": "7755780b-9104-4e5d-ad28-1bece483214a",
+      "id": "7755780b-9104-4e5d-ad28-1bece483214a",
       "ward_no": "21",
-      "ward_name_en": "Nadapuram Town",
-      "ward_name_ml": "നാദാപുരം ടൌണ്‍"
+      "name_en": "Nadapuram Town",
+      "name_ml": "നാദാപുരം ടൌണ്‍"
     },
     {
-      "ward_id": "00219ad3-8a69-4cfa-9477-171f3640ee36",
+      "id": "00219ad3-8a69-4cfa-9477-171f3640ee36",
       "ward_no": "22",
-      "ward_name_en": "Kakkattil",
-      "ward_name_ml": "കാക്കാറ്റില്‍"
+      "name_en": "Kakkattil",
+      "name_ml": "കാക്കാറ്റില്‍"
     }
   ],
   "towns": [],

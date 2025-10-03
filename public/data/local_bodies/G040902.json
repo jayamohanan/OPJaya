@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G040902",
-  "local_body_name_en": "Thrikkunnappuzha",
-  "local_body_name_ml": "തൃക്കുന്നപ്പുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "107",
-    "assembly_name_en": "Haripad",
-    "assembly_name_ml": "ഹരിപ്പാട്",
+  "id": "G040902",
+  "name_en": "Thrikkunnappuzha",
+  "name_ml": "തൃക്കുന്നപ്പുഴ",
+  "assembly_id": "107",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "107",
+    "name_en": "Haripad",
+    "name_ml": "ഹരിപ്പാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ef6ff922-61ec-4c72-90e7-6e136e91baa5",
+      "id": "ef6ff922-61ec-4c72-90e7-6e136e91baa5",
       "ward_no": "1",
-      "ward_name_en": "Pallana North",
-      "ward_name_ml": "പല്ലന വടക്ക്"
+      "name_en": "Pallana North",
+      "name_ml": "പല്ലന വടക്ക്"
     },
     {
-      "ward_id": "8480a2a4-81dc-4692-9ea8-c25e2a0f4fea",
+      "id": "8480a2a4-81dc-4692-9ea8-c25e2a0f4fea",
       "ward_no": "2",
-      "ward_name_en": "Lekshmithoppu",
-      "ward_name_ml": "ലക്ഷ്മിത്തോപ്പ്"
+      "name_en": "Lekshmithoppu",
+      "name_ml": "ലക്ഷ്മിത്തോപ്പ്"
     },
     {
-      "ward_id": "2bab7283-f04b-477b-a170-fbf9b1ecb47e",
+      "id": "2bab7283-f04b-477b-a170-fbf9b1ecb47e",
       "ward_no": "3",
-      "ward_name_en": "Edapallithoppu",
-      "ward_name_ml": "ഇടപ്പള്ളിത്തോപ്പ്"
+      "name_en": "Edapallithoppu",
+      "name_ml": "ഇടപ്പള്ളിത്തോപ്പ്"
     },
     {
-      "ward_id": "795cc006-fb71-4416-8e91-ccdf402ee1f2",
+      "id": "795cc006-fb71-4416-8e91-ccdf402ee1f2",
       "ward_no": "4",
-      "ward_name_en": "Kakkamadackal",
-      "ward_name_ml": "കക്കാമടയ്ക്കല്‍"
+      "name_en": "Kakkamadackal",
+      "name_ml": "കക്കാമടയ്ക്കല്‍"
     },
     {
-      "ward_id": "7212cf9a-59c8-43f5-926a-cbdd00cc621b",
+      "id": "7212cf9a-59c8-43f5-926a-cbdd00cc621b",
       "ward_no": "5",
-      "ward_name_en": "Valiyaparambu",
-      "ward_name_ml": "വലിയപറമ്പ്"
+      "name_en": "Valiyaparambu",
+      "name_ml": "വലിയപറമ്പ്"
     },
     {
-      "ward_id": "d19c95e8-3186-464d-8910-d47da42a3585",
+      "id": "d19c95e8-3186-464d-8910-d47da42a3585",
       "ward_no": "6",
-      "ward_name_en": "S N Nagar",
-      "ward_name_ml": "എസ്സ്.എന്‍. നഗര്‍"
+      "name_en": "S N Nagar",
+      "name_ml": "എസ്സ്.എന്‍. നഗര്‍"
     },
     {
-      "ward_id": "3e5fe65e-72c4-4b34-98f0-49ba2e910ef9",
+      "id": "3e5fe65e-72c4-4b34-98f0-49ba2e910ef9",
       "ward_no": "7",
-      "ward_name_en": "Pathiyankara South",
-      "ward_name_ml": "പതിയാങ്കര തെക്ക്"
+      "name_en": "Pathiyankara South",
+      "name_ml": "പതിയാങ്കര തെക്ക്"
     },
     {
-      "ward_id": "00784aec-e79f-4723-bd17-4a9a6cf9bab4",
+      "id": "00784aec-e79f-4723-bd17-4a9a6cf9bab4",
       "ward_no": "8",
-      "ward_name_en": "Pathiyankara North",
-      "ward_name_ml": "പതിയാങ്കര വടക്ക്"
+      "name_en": "Pathiyankara North",
+      "name_ml": "പതിയാങ്കര വടക്ക്"
     },
     {
-      "ward_id": "f9fb1af8-b760-44bd-b121-aacbb0ba4937",
+      "id": "f9fb1af8-b760-44bd-b121-aacbb0ba4937",
       "ward_no": "9",
-      "ward_name_en": "Kottemuri",
-      "ward_name_ml": "കോട്ടേമുറി"
+      "name_en": "Kottemuri",
+      "name_ml": "കോട്ടേമുറി"
     },
     {
-      "ward_id": "b5df7d51-9c21-4051-826d-94670c7ac6f3",
+      "id": "b5df7d51-9c21-4051-826d-94670c7ac6f3",
       "ward_no": "10",
-      "ward_name_en": "Mathukkal",
-      "ward_name_ml": "മതുക്കല്‍"
+      "name_en": "Mathukkal",
+      "name_ml": "മതുക്കല്‍"
     },
     {
-      "ward_id": "3699ca25-91f4-4a70-a5e5-f109e5b62a7f",
+      "id": "3699ca25-91f4-4a70-a5e5-f109e5b62a7f",
       "ward_no": "11",
-      "ward_name_en": "Pallippattumuri",
-      "ward_name_ml": "പളളിപ്പാട്ട് മുറി"
+      "name_en": "Pallippattumuri",
+      "name_ml": "പളളിപ്പാട്ട് മുറി"
     },
     {
-      "ward_id": "13c21d7e-1801-4b2f-8b33-f455b180fd27",
+      "id": "13c21d7e-1801-4b2f-8b33-f455b180fd27",
       "ward_no": "12",
-      "ward_name_en": "Chelakkadu",
-      "ward_name_ml": "ചേലക്കാട്"
+      "name_en": "Chelakkadu",
+      "name_ml": "ചേലക്കാട്"
     },
     {
-      "ward_id": "89c76d63-addb-43ce-9b52-de8bdc287f65",
+      "id": "89c76d63-addb-43ce-9b52-de8bdc287f65",
       "ward_no": "13",
-      "ward_name_en": "Panoor South",
-      "ward_name_ml": "പാനൂര്‍ തെക്ക്"
+      "name_en": "Panoor South",
+      "name_ml": "പാനൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "9f78e349-c63e-403e-a63b-df1f1420ae2d",
+      "id": "9f78e349-c63e-403e-a63b-df1f1420ae2d",
       "ward_no": "14",
-      "ward_name_en": "Panoor Central",
-      "ward_name_ml": "പാനൂര്‍ സെന്‍ട്രല്‍"
+      "name_en": "Panoor Central",
+      "name_ml": "പാനൂര്‍ സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "da71d312-4220-4ddd-ad61-5b54b20cf966",
+      "id": "da71d312-4220-4ddd-ad61-5b54b20cf966",
       "ward_no": "15",
-      "ward_name_en": "Panoor North",
-      "ward_name_ml": "പാനൂര്‍ വടക്ക്"
+      "name_en": "Panoor North",
+      "name_ml": "പാനൂര്‍ വടക്ക്"
     },
     {
-      "ward_id": "9aee602b-557a-473a-960b-179bb0c7e37c",
+      "id": "9aee602b-557a-473a-960b-179bb0c7e37c",
       "ward_no": "16",
-      "ward_name_en": "Kuttikkadu",
-      "ward_name_ml": "കുറ്റിക്കാട്"
+      "name_en": "Kuttikkadu",
+      "name_ml": "കുറ്റിക്കാട്"
     },
     {
-      "ward_id": "6e90853b-0d94-4dfb-9fc5-a1f8e1b46f10",
+      "id": "6e90853b-0d94-4dfb-9fc5-a1f8e1b46f10",
       "ward_no": "17",
-      "ward_name_en": "Pallana South",
-      "ward_name_ml": "പല്ലന തെക്ക്"
+      "name_en": "Pallana South",
+      "name_ml": "പല്ലന തെക്ക്"
     }
   ],
   "towns": [],

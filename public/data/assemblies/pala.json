@@ -1,92 +1,123 @@
 {
-  "assembly_id": "93",
-  "assembly_name_en": "Pala",
-  "assembly_name_ml": "പാലാ",
-  "category": "Normal",
+  "id": "93",
+  "name_en": "Pala",
+  "name_ml": "പാലാ",
+  "district_id": "5",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "district_category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G050501",
-      "local_body_name_en": "Bharananganam",
-      "local_body_name_ml": "ഭരണങ്ങാനം",
-      "category": "Normal"
+      "id": "G050501",
+      "name_en": "Bharananganam",
+      "name_ml": "ഭരണങ്ങാനം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050702",
-      "local_body_name_en": "Elikulam",
-      "local_body_name_ml": "എലിക്കുളം",
-      "category": "Normal"
+      "id": "G050702",
+      "name_en": "Elikulam",
+      "name_ml": "എലിക്കുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050504",
-      "local_body_name_en": "Kadanad",
-      "local_body_name_ml": "കടനാട്",
-      "category": "Perfect"
+      "id": "G050504",
+      "name_en": "Kadanad",
+      "name_ml": "കടനാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050502",
-      "local_body_name_en": "Karoor",
-      "local_body_name_ml": "കരൂര്‍",
-      "category": "Perfect"
+      "id": "G050502",
+      "name_en": "Karoor",
+      "name_ml": "കരൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050503",
-      "local_body_name_en": "Kozhuvanal",
-      "local_body_name_ml": "കൊഴുവനാല്‍",
-      "category": "Perfect"
+      "id": "G050503",
+      "name_en": "Kozhuvanal",
+      "name_ml": "കൊഴുവനാല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050505",
-      "local_body_name_en": "Meenachil",
-      "local_body_name_ml": "മീനച്ചില്‍",
-      "category": "Perfect"
+      "id": "G050505",
+      "name_en": "Meenachil",
+      "name_ml": "മീനച്ചില്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050601",
-      "local_body_name_en": "Melukavu",
-      "local_body_name_ml": "മേലുകാവ്",
-      "category": "Good"
+      "id": "G050601",
+      "name_en": "Melukavu",
+      "name_ml": "മേലുകാവ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050602",
-      "local_body_name_en": "Moonnilavu",
-      "local_body_name_ml": "മൂന്നിലവ്",
-      "category": "Normal"
+      "id": "G050602",
+      "name_en": "Moonnilavu",
+      "name_ml": "മൂന്നിലവ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050506",
-      "local_body_name_en": "Mutholy",
-      "local_body_name_ml": "മുത്തോലി",
-      "category": "Normal"
+      "id": "G050506",
+      "name_en": "Mutholy",
+      "name_ml": "മുത്തോലി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050407",
-      "local_body_name_en": "Ramapuram",
-      "local_body_name_ml": "രാമപുരം",
-      "category": "Normal"
+      "id": "G050407",
+      "name_en": "Ramapuram",
+      "name_ml": "രാമപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050608",
-      "local_body_name_en": "Thalanad",
-      "local_body_name_ml": "തലനാട്",
-      "category": "Normal"
+      "id": "G050608",
+      "name_en": "Thalanad",
+      "name_ml": "തലനാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050606",
-      "local_body_name_en": "Thalappalam",
-      "local_body_name_ml": "തലപ്പലം",
-      "category": "Perfect"
+      "id": "G050606",
+      "name_en": "Thalappalam",
+      "name_ml": "തലപ്പലം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M050100",
-      "local_body_name_en": "Pala",
-      "local_body_name_ml": "പാലാ",
-      "category": "Normal"
+      "id": "M050100",
+      "name_en": "Pala",
+      "name_ml": "പാലാ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G020602",
-  "local_body_name_en": "Pooyappally",
-  "local_body_name_ml": "പൂയപ്പള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "126",
-    "assembly_name_en": "Chathannoor",
-    "assembly_name_ml": "ചാത്തന്നൂർ",
+  "id": "G020602",
+  "name_en": "Pooyappally",
+  "name_ml": "പൂയപ്പള്ളി",
+  "assembly_id": "126",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "126",
+    "name_en": "Chathannoor",
+    "name_ml": "ചാത്തന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "3c148404-e910-4e48-95b4-2c6b76305586",
+      "id": "3c148404-e910-4e48-95b4-2c6b76305586",
       "ward_no": "1",
-      "ward_name_en": "Kottara",
-      "ward_name_ml": "കൊട്ടറ"
+      "name_en": "Kottara",
+      "name_ml": "കൊട്ടറ"
     },
     {
-      "ward_id": "f01b155e-0e1e-48d9-b87f-2d787a31fa33",
+      "id": "f01b155e-0e1e-48d9-b87f-2d787a31fa33",
       "ward_no": "2",
-      "ward_name_en": "Kunnumvaram",
-      "ward_name_ml": "കുന്നുംവാരം"
+      "name_en": "Kunnumvaram",
+      "name_ml": "കുന്നുംവാരം"
     },
     {
-      "ward_id": "4af47de2-f0c7-49c2-a359-7edcd05272bb",
+      "id": "4af47de2-f0c7-49c2-a359-7edcd05272bb",
       "ward_no": "3",
-      "ward_name_en": "Thachakode",
-      "ward_name_ml": "തച്ചക്കോട്"
+      "name_en": "Thachakode",
+      "name_ml": "തച്ചക്കോട്"
     },
     {
-      "ward_id": "73a455de-6f7b-42fa-9cce-821de5f6d89f",
+      "id": "73a455de-6f7b-42fa-9cce-821de5f6d89f",
       "ward_no": "4",
-      "ward_name_en": "Pooyappally",
-      "ward_name_ml": "പൂയപ്പള്ളി"
+      "name_en": "Pooyappally",
+      "name_ml": "പൂയപ്പള്ളി"
     },
     {
-      "ward_id": "5064bc8e-e100-4bf5-8cdc-64b864edefe3",
+      "id": "5064bc8e-e100-4bf5-8cdc-64b864edefe3",
       "ward_no": "5",
-      "ward_name_en": "Kanjirampara",
-      "ward_name_ml": "കാഞ്ഞിരംപാറ"
+      "name_en": "Kanjirampara",
+      "name_ml": "കാഞ്ഞിരംപാറ"
     },
     {
-      "ward_id": "ce300838-3696-41a1-8eb3-b342e5926972",
+      "id": "ce300838-3696-41a1-8eb3-b342e5926972",
       "ward_no": "6",
-      "ward_name_en": "Mylode",
-      "ward_name_ml": "മൈലോട്"
+      "name_en": "Mylode",
+      "name_ml": "മൈലോട്"
     },
     {
-      "ward_id": "709ad5eb-dbaf-4f31-998b-2e936bf09972",
+      "id": "709ad5eb-dbaf-4f31-998b-2e936bf09972",
       "ward_no": "7",
-      "ward_name_en": "Nelliparampu",
-      "ward_name_ml": "നെല്ലിപ്പറമ്പ്"
+      "name_en": "Nelliparampu",
+      "name_ml": "നെല്ലിപ്പറമ്പ്"
     },
     {
-      "ward_id": "8e6b86ee-2e3a-457f-85f1-d84d33b03488",
+      "id": "8e6b86ee-2e3a-457f-85f1-d84d33b03488",
       "ward_no": "8",
-      "ward_name_en": "Venkode",
-      "ward_name_ml": "വേങ്കോട്"
+      "name_en": "Venkode",
+      "name_ml": "വേങ്കോട്"
     },
     {
-      "ward_id": "7799dc52-2ff6-41f1-ae85-0c6deb1ca6af",
+      "id": "7799dc52-2ff6-41f1-ae85-0c6deb1ca6af",
       "ward_no": "9",
-      "ward_name_en": "Kozhikode",
-      "ward_name_ml": "കോഴിക്കോട്"
+      "name_en": "Kozhikode",
+      "name_ml": "കോഴിക്കോട്"
     },
     {
-      "ward_id": "56d54465-f9bf-4a23-b8c1-ce58aa25925b",
+      "id": "56d54465-f9bf-4a23-b8c1-ce58aa25925b",
       "ward_no": "10",
-      "ward_name_en": "Kattadi",
-      "ward_name_ml": "കാറ്റാടി"
+      "name_en": "Kattadi",
+      "name_ml": "കാറ്റാടി"
     },
     {
-      "ward_id": "be8589f6-74b3-45a6-b216-a9df6c08056d",
+      "id": "be8589f6-74b3-45a6-b216-a9df6c08056d",
       "ward_no": "11",
-      "ward_name_en": "Payyakode",
-      "ward_name_ml": "പയ്യക്കോട്"
+      "name_en": "Payyakode",
+      "name_ml": "പയ്യക്കോട്"
     },
     {
-      "ward_id": "5fe0fae4-1f75-4b6e-99e6-b2b8dcc07215",
+      "id": "5fe0fae4-1f75-4b6e-99e6-b2b8dcc07215",
       "ward_no": "12",
-      "ward_name_en": "Kurisumoodu",
-      "ward_name_ml": "കുരിശുംമൂട്"
+      "name_en": "Kurisumoodu",
+      "name_ml": "കുരിശുംമൂട്"
     },
     {
-      "ward_id": "319876f6-0541-4b5e-ad24-201dc5ab21f0",
+      "id": "319876f6-0541-4b5e-ad24-201dc5ab21f0",
       "ward_no": "13",
-      "ward_name_en": "Chenkulam",
-      "ward_name_ml": "ചെങ്കുളം"
+      "name_en": "Chenkulam",
+      "name_ml": "ചെങ്കുളം"
     },
     {
-      "ward_id": "cdfd524f-d058-4d95-94a4-83ad557ac1cb",
+      "id": "cdfd524f-d058-4d95-94a4-83ad557ac1cb",
       "ward_no": "14",
-      "ward_name_en": "Maruthamonpally",
-      "ward_name_ml": "മരുതമണ്‍പള്ളി"
+      "name_en": "Maruthamonpally",
+      "name_ml": "മരുതമണ്‍പള്ളി"
     },
     {
-      "ward_id": "db94780e-0bde-4b7a-bdc3-b82a63954e71",
+      "id": "db94780e-0bde-4b7a-bdc3-b82a63954e71",
       "ward_no": "15",
-      "ward_name_en": "Punnakode",
-      "ward_name_ml": "പുന്നക്കോട്"
+      "name_en": "Punnakode",
+      "name_ml": "പുന്നക്കോട്"
     },
     {
-      "ward_id": "8f5717e3-3f86-4b59-8481-5ef3094a6fa3",
+      "id": "8f5717e3-3f86-4b59-8481-5ef3094a6fa3",
       "ward_no": "16",
-      "ward_name_en": "Nalkavala",
-      "ward_name_ml": "നാല്ക്കവല"
+      "name_en": "Nalkavala",
+      "name_ml": "നാല്ക്കവല"
     }
   ],
   "towns": [],

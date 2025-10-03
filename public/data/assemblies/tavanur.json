@@ -1,56 +1,75 @@
 {
-  "assembly_id": "47",
-  "assembly_name_en": "Tavanur",
-  "assembly_name_ml": "തവനൂര്‍",
-  "category": "Normal",
+  "id": "47",
+  "name_en": "Tavanur",
+  "name_ml": "തവനൂര്‍",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G101403",
-      "local_body_name_en": "Edapal",
-      "local_body_name_ml": "എടപ്പാള്‍",
-      "category": "Normal"
+      "id": "G101403",
+      "name_en": "Edapal",
+      "name_ml": "എടപ്പാള്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101404",
-      "local_body_name_en": "Kaladi",
-      "local_body_name_ml": "കാലടി",
-      "category": "Good"
+      "id": "G101404",
+      "name_en": "Kaladi",
+      "name_ml": "കാലടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101306",
-      "local_body_name_en": "Mangalam",
-      "local_body_name_ml": "മംഗലം",
-      "category": "Normal"
+      "id": "G101306",
+      "name_en": "Mangalam",
+      "name_ml": "മംഗലം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101301",
-      "local_body_name_en": "Purathur",
-      "local_body_name_ml": "പുറത്തൂര്‍",
-      "category": "Normal"
+      "id": "G101301",
+      "name_en": "Purathur",
+      "name_ml": "പുറത്തൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101401",
-      "local_body_name_en": "Tavanur",
-      "local_body_name_ml": "തവനൂര്‍",
-      "category": "Good"
+      "id": "G101401",
+      "name_en": "Tavanur",
+      "name_ml": "തവനൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101303",
-      "local_body_name_en": "Triprangode",
-      "local_body_name_ml": "തൃപ്രങ്ങോട്",
-      "category": "Perfect"
+      "id": "G101303",
+      "name_en": "Triprangode",
+      "name_ml": "തൃപ്രങ്ങോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G101402",
-      "local_body_name_en": "Vattamkulam",
-      "local_body_name_ml": "വട്ടംകുളം",
-      "category": "Perfect"
+      "id": "G101402",
+      "name_en": "Vattamkulam",
+      "name_ml": "വട്ടംകുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

@@ -1,74 +1,99 @@
 {
-  "assembly_id": "128",
-  "assembly_name_en": "Attingal",
-  "assembly_name_ml": "ആറ്റിങ്ങൽ",
-  "category": "Normal",
+  "id": "128",
+  "name_en": "Attingal",
+  "name_ml": "ആറ്റിങ്ങൽ",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M010200",
-      "local_body_name_en": "Attingal",
-      "local_body_name_ml": "ആറ്റിങ്ങല്‍",
-      "category": "Good"
+      "id": "M010200",
+      "name_en": "Attingal",
+      "name_ml": "ആറ്റിങ്ങല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010106",
-      "local_body_name_en": "Cherunniyoor",
-      "local_body_name_ml": "ചെറുന്നിയൂര്‍",
-      "category": "Normal"
+      "id": "G010106",
+      "name_en": "Cherunniyoor",
+      "name_ml": "ചെറുന്നിയൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010203",
-      "local_body_name_en": "Karavaram",
-      "local_body_name_ml": "കരവാരം",
-      "category": "Normal"
+      "id": "G010203",
+      "name_en": "Karavaram",
+      "name_ml": "കരവാരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010201",
-      "local_body_name_en": "Kilimanoor",
-      "local_body_name_ml": "കിളിമാനൂര്‍",
-      "category": "Normal"
+      "id": "G010201",
+      "name_en": "Kilimanoor",
+      "name_ml": "കിളിമാനൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010104",
-      "local_body_name_en": "Manamboor",
-      "local_body_name_ml": "മണമ്പൂര്‍",
-      "category": "Perfect"
+      "id": "G010104",
+      "name_en": "Manamboor",
+      "name_ml": "മണമ്പൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010206",
-      "local_body_name_en": "Nagaroor",
-      "local_body_name_ml": "നഗരൂര്‍",
-      "category": "Normal"
+      "id": "G010206",
+      "name_en": "Nagaroor",
+      "name_ml": "നഗരൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010105",
-      "local_body_name_en": "Ottoor",
-      "local_body_name_ml": "ഒറ്റൂര്‍",
-      "category": "Perfect"
+      "id": "G010105",
+      "name_en": "Ottoor",
+      "name_ml": "ഒറ്റൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010202",
-      "local_body_name_en": "Pazhayakunnumel",
-      "local_body_name_ml": "പഴയകുന്നുമ്മേല്‍",
-      "category": "Good"
+      "id": "G010202",
+      "name_en": "Pazhayakunnumel",
+      "name_ml": "പഴയകുന്നുമ്മേല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010208",
-      "local_body_name_en": "Pulimath",
-      "local_body_name_ml": "പുളിമാത്ത്",
-      "category": "Perfect"
+      "id": "G010208",
+      "name_en": "Pulimath",
+      "name_ml": "പുളിമാത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010302",
-      "local_body_name_en": "Vakkom",
-      "local_body_name_ml": "വക്കം",
-      "category": "Perfect"
+      "id": "G010302",
+      "name_en": "Vakkom",
+      "name_ml": "വക്കം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

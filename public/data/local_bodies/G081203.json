@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G081203",
-  "local_body_name_en": "Muriyad",
-  "local_body_name_ml": "മുരിയാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G081203",
+  "name_en": "Muriyad",
+  "name_ml": "മുരിയാട്",
+  "assembly_id": "70",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "70",
-    "assembly_name_en": "Irinjalakuda",
-    "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
-    "category": "Normal"
+    "id": "70",
+    "name_en": "Irinjalakuda",
+    "name_ml": "ഇരിങ്ങാലക്കുട",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6b47c938-629c-48ee-b7e3-06e8f9954813",
+      "id": "6b47c938-629c-48ee-b7e3-06e8f9954813",
       "ward_no": "1",
-      "ward_name_en": "Villerikkara",
-      "ward_name_ml": "വില്ലേരിക്കര"
+      "name_en": "Villerikkara",
+      "name_ml": "വില്ലേരിക്കര"
     },
     {
-      "ward_id": "ce1ad5b2-1d85-45bc-9184-dff3d69e1ea3",
+      "id": "ce1ad5b2-1d85-45bc-9184-dff3d69e1ea3",
       "ward_no": "2",
-      "ward_name_en": "Palakkuzhy",
-      "ward_name_ml": "പാലക്കുഴി"
+      "name_en": "Palakkuzhy",
+      "name_ml": "പാലക്കുഴി"
     },
     {
-      "ward_id": "2d9dcfcb-d961-48b3-bdf6-505fd2aa3c59",
+      "id": "2d9dcfcb-d961-48b3-bdf6-505fd2aa3c59",
       "ward_no": "3",
-      "ward_name_en": "Tharayilakkad",
-      "ward_name_ml": "തറയിലക്കാട്"
+      "name_en": "Tharayilakkad",
+      "name_ml": "തറയിലക്കാട്"
     },
     {
-      "ward_id": "87db0c38-fa51-4206-995b-d542ee96aec6",
+      "id": "87db0c38-fa51-4206-995b-d542ee96aec6",
       "ward_no": "4",
-      "ward_name_en": "Parekkattukara",
-      "ward_name_ml": "പാറെക്കാട്ടുകര"
+      "name_en": "Parekkattukara",
+      "name_ml": "പാറെക്കാട്ടുകര"
     },
     {
-      "ward_id": "9aa1c8b8-ae64-48f9-b286-de00595452d6",
+      "id": "9aa1c8b8-ae64-48f9-b286-de00595452d6",
       "ward_no": "5",
-      "ward_name_en": "Kunnathara",
-      "ward_name_ml": "കുന്നത്തറ"
+      "name_en": "Kunnathara",
+      "name_ml": "കുന്നത്തറ"
     },
     {
-      "ward_id": "8bb6c373-7b7f-4a1d-8ca3-c83b0cd6e655",
+      "id": "8bb6c373-7b7f-4a1d-8ca3-c83b0cd6e655",
       "ward_no": "6",
-      "ward_name_en": "Vattaparambu",
-      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+      "name_en": "Vattaparambu",
+      "name_ml": "വട്ടപ്പറമ്പ്"
     },
     {
-      "ward_id": "b0654bf4-b40d-4e20-97a7-ed4dc18473b2",
+      "id": "b0654bf4-b40d-4e20-97a7-ed4dc18473b2",
       "ward_no": "7",
-      "ward_name_en": "Muriyad Centre",
-      "ward_name_ml": "മുരിയാട് സെന്റര്‍"
+      "name_en": "Muriyad Centre",
+      "name_ml": "മുരിയാട് സെന്റര്‍"
     },
     {
-      "ward_id": "efca2c64-4e91-496f-a4ff-36e5531cad4c",
+      "id": "efca2c64-4e91-496f-a4ff-36e5531cad4c",
       "ward_no": "8",
-      "ward_name_en": "Anuruli",
-      "ward_name_ml": "ആനുരുളി"
+      "name_en": "Anuruli",
+      "name_ml": "ആനുരുളി"
     },
     {
-      "ward_id": "fb230a1b-c287-4120-9928-338f5bfe7ba9",
+      "id": "fb230a1b-c287-4120-9928-338f5bfe7ba9",
       "ward_no": "9",
-      "ward_name_en": "Pullur Andikambani",
-      "ward_name_ml": "പുല്ലൂര്‍ അണ്ടിക്കമ്പനി"
+      "name_en": "Pullur Andikambani",
+      "name_ml": "പുല്ലൂര്‍ അണ്ടിക്കമ്പനി"
     },
     {
-      "ward_id": "ca54fc3c-73b7-4285-a2d4-96a5bf423984",
+      "id": "ca54fc3c-73b7-4285-a2d4-96a5bf423984",
       "ward_no": "10",
-      "ward_name_en": "Urakam East",
-      "ward_name_ml": "ഊരകം ഈസ്റ്റ്‌"
+      "name_en": "Urakam East",
+      "name_ml": "ഊരകം ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "d900a2dd-3f84-4122-99ee-3db76c390f09",
+      "id": "d900a2dd-3f84-4122-99ee-3db76c390f09",
       "ward_no": "11",
-      "ward_name_en": "Urakam West",
-      "ward_name_ml": "ഊരകം വെസ്റ്റ്"
+      "name_en": "Urakam West",
+      "name_ml": "ഊരകം വെസ്റ്റ്"
     },
     {
-      "ward_id": "4f00244a-757a-432b-a9ab-93d0801f25ff",
+      "id": "4f00244a-757a-432b-a9ab-93d0801f25ff",
       "ward_no": "12",
-      "ward_name_en": "Mullakkad",
-      "ward_name_ml": "മുല്ലക്കാട്‌"
+      "name_en": "Mullakkad",
+      "name_ml": "മുല്ലക്കാട്‌"
     },
     {
-      "ward_id": "fe376bad-4a2f-4c24-8d14-05f7293aad77",
+      "id": "fe376bad-4a2f-4c24-8d14-05f7293aad77",
       "ward_no": "13",
-      "ward_name_en": "Thuravankadu",
-      "ward_name_ml": "തുറവന്‍കാട്"
+      "name_en": "Thuravankadu",
+      "name_ml": "തുറവന്‍കാട്"
     },
     {
-      "ward_id": "f0aba80b-9cfc-467c-8ffb-43fd1a2f339e",
+      "id": "f0aba80b-9cfc-467c-8ffb-43fd1a2f339e",
       "ward_no": "14",
-      "ward_name_en": "Mission Hospital",
-      "ward_name_ml": "മിഷന്‍ ഹോസ്പിറ്റല്‍"
+      "name_en": "Mission Hospital",
+      "name_ml": "മിഷന്‍ ഹോസ്പിറ്റല്‍"
     },
     {
-      "ward_id": "f68f7ff7-d8c4-4f98-aabd-0907c4dff816",
+      "id": "f68f7ff7-d8c4-4f98-aabd-0907c4dff816",
       "ward_no": "15",
-      "ward_name_en": "Cherppumkunnu",
-      "ward_name_ml": "ചേര്‍പ്പുംകുന്ന്"
+      "name_en": "Cherppumkunnu",
+      "name_ml": "ചേര്‍പ്പുംകുന്ന്"
     },
     {
-      "ward_id": "8eb286e5-fd9f-4130-b174-b279d2f155a3",
+      "id": "8eb286e5-fd9f-4130-b174-b279d2f155a3",
       "ward_no": "16",
-      "ward_name_en": "Kappara",
-      "ward_name_ml": "കപ്പാറ"
+      "name_en": "Kappara",
+      "name_ml": "കപ്പാറ"
     },
     {
-      "ward_id": "41729a9e-4cc5-4705-a2c0-5ac7376fac5c",
+      "id": "41729a9e-4cc5-4705-a2c0-5ac7376fac5c",
       "ward_no": "17",
-      "ward_name_en": "Anandapuram Centre",
-      "ward_name_ml": "ആനന്ദപുരം സെന്റര്‍"
+      "name_en": "Anandapuram Centre",
+      "name_ml": "ആനന്ദപുരം സെന്റര്‍"
     }
   ],
   "towns": [],

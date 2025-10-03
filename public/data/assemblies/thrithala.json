@@ -1,62 +1,83 @@
 {
-  "assembly_id": "49",
-  "assembly_name_en": "Thrithala",
-  "assembly_name_ml": "തൃത്താല",
-  "category": "Normal",
+  "id": "49",
+  "name_en": "Thrithala",
+  "name_ml": "തൃത്താല",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G090102",
-      "local_body_name_en": "Chalissery",
-      "local_body_name_ml": "ചാലിശ്ശേരി",
-      "category": "Perfect"
+      "id": "G090102",
+      "name_en": "Chalissery",
+      "name_ml": "ചാലിശ്ശേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090103",
-      "local_body_name_en": "Kappur",
-      "local_body_name_ml": "കപ്പൂര്‍",
-      "category": "Normal"
+      "id": "G090103",
+      "name_en": "Kappur",
+      "name_ml": "കപ്പൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090104",
-      "local_body_name_en": "Nagalassery",
-      "local_body_name_ml": "നാഗലശ്ശേരി",
-      "category": "Normal"
+      "id": "G090104",
+      "name_en": "Nagalassery",
+      "name_ml": "നാഗലശ്ശേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090206",
-      "local_body_name_en": "Paruthur",
-      "local_body_name_ml": "പരുതൂര്‍",
-      "category": "Normal"
+      "id": "G090206",
+      "name_en": "Paruthur",
+      "name_ml": "പരുതൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090105",
-      "local_body_name_en": "Pattithara",
-      "local_body_name_ml": "പട്ടിത്തറ",
-      "category": "Perfect"
+      "id": "G090105",
+      "name_en": "Pattithara",
+      "name_ml": "പട്ടിത്തറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090106",
-      "local_body_name_en": "Thirumittacode",
-      "local_body_name_ml": "തിരുമിറ്റക്കോട്",
-      "category": "Perfect"
+      "id": "G090106",
+      "name_en": "Thirumittacode",
+      "name_ml": "തിരുമിറ്റക്കോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090107",
-      "local_body_name_en": "Trithala",
-      "local_body_name_ml": "തൃത്താല",
-      "category": "Normal"
+      "id": "G090107",
+      "name_en": "Trithala",
+      "name_ml": "തൃത്താല",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090101",
-      "local_body_name_en": "Anakkara",
-      "local_body_name_ml": "ആനക്കര",
-      "category": "Normal"
+      "id": "G090101",
+      "name_en": "Anakkara",
+      "name_ml": "ആനക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

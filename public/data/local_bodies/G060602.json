@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G060602",
-  "local_body_name_en": "Upputhara",
-  "local_body_name_ml": "ഉപ്പുതറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "92",
-    "assembly_name_en": "Peerumade",
-    "assembly_name_ml": "പീരുമേട്",
+  "id": "G060602",
+  "name_en": "Upputhara",
+  "name_ml": "ഉപ്പുതറ",
+  "assembly_id": "92",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "92",
+    "name_en": "Peerumade",
+    "name_ml": "പീരുമേട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9fb8df31-cd7e-4218-bfb7-5c00031e6f4c",
+      "id": "9fb8df31-cd7e-4218-bfb7-5c00031e6f4c",
       "ward_no": "1",
-      "ward_name_en": "Pulimkatta",
-      "ward_name_ml": "പുളിങ്കട്ട"
+      "name_en": "Pulimkatta",
+      "name_ml": "പുളിങ്കട്ട"
     },
     {
-      "ward_id": "98087568-b337-480e-8507-72f47b615bfa",
+      "id": "98087568-b337-480e-8507-72f47b615bfa",
       "ward_no": "2",
-      "ward_name_en": "Kothapara",
-      "ward_name_ml": "കോതപാറ"
+      "name_en": "Kothapara",
+      "name_ml": "കോതപാറ"
     },
     {
-      "ward_id": "ab02750b-10b1-49d4-8c1d-0b468391e75b",
+      "id": "ab02750b-10b1-49d4-8c1d-0b468391e75b",
       "ward_no": "3",
-      "ward_name_en": "Kannampady",
-      "ward_name_ml": "കണ്ണംപടി"
+      "name_en": "Kannampady",
+      "name_ml": "കണ്ണംപടി"
     },
     {
-      "ward_id": "ba504228-492b-495b-a612-64f949a79163",
+      "id": "ba504228-492b-495b-a612-64f949a79163",
       "ward_no": "4",
-      "ward_name_en": "Palakavu",
-      "ward_name_ml": "പാലക്കാവ്"
+      "name_en": "Palakavu",
+      "name_ml": "പാലക്കാവ്"
     },
     {
-      "ward_id": "494e6aa5-fe75-4039-947a-619ac01bbd0f",
+      "id": "494e6aa5-fe75-4039-947a-619ac01bbd0f",
       "ward_no": "5",
-      "ward_name_en": "Kakkathodu",
-      "ward_name_ml": "കാക്കത്തോട്"
+      "name_en": "Kakkathodu",
+      "name_ml": "കാക്കത്തോട്"
     },
     {
-      "ward_id": "ceaead66-dcce-4b0c-802e-fc3b02986e1a",
+      "id": "ceaead66-dcce-4b0c-802e-fc3b02986e1a",
       "ward_no": "6",
-      "ward_name_en": "Upputhara",
-      "ward_name_ml": "ഉപ്പുതറ"
+      "name_en": "Upputhara",
+      "name_ml": "ഉപ്പുതറ"
     },
     {
-      "ward_id": "d27c4002-6d98-4f53-8b57-5d6ac7cb2a57",
+      "id": "d27c4002-6d98-4f53-8b57-5d6ac7cb2a57",
       "ward_no": "7",
-      "ward_name_en": "Mattuthavalum",
-      "ward_name_ml": "മാട്ടുത്താവളം"
+      "name_en": "Mattuthavalum",
+      "name_ml": "മാട്ടുത്താവളം"
     },
     {
-      "ward_id": "2712c5fa-baef-4d4b-8b56-3c50737202e0",
+      "id": "2712c5fa-baef-4d4b-8b56-3c50737202e0",
       "ward_no": "8",
-      "ward_name_en": "Valacode",
-      "ward_name_ml": "വളകോട്"
+      "name_en": "Valacode",
+      "name_ml": "വളകോട്"
     },
     {
-      "ward_id": "0ab4cbc8-60c7-4b69-bcf9-7efd953e8a9a",
+      "id": "0ab4cbc8-60c7-4b69-bcf9-7efd953e8a9a",
       "ward_no": "9",
-      "ward_name_en": "Pasupara",
-      "ward_name_ml": "പശുപ്പാറ"
+      "name_en": "Pasupara",
+      "name_ml": "പശുപ്പാറ"
     },
     {
-      "ward_id": "077b03f8-29df-456c-aa89-a797eceea9e5",
+      "id": "077b03f8-29df-456c-aa89-a797eceea9e5",
       "ward_no": "10",
-      "ward_name_en": "Anappalum",
-      "ward_name_ml": "ആനപ്പള്ളം"
+      "name_en": "Anappalum",
+      "name_ml": "ആനപ്പള്ളം"
     },
     {
-      "ward_id": "7aa156fb-5e32-406c-9571-4b67f2c94b54",
+      "id": "7aa156fb-5e32-406c-9571-4b67f2c94b54",
       "ward_no": "11",
-      "ward_name_en": "Puthukada",
-      "ward_name_ml": "പുതുക്കട"
+      "name_en": "Puthukada",
+      "name_ml": "പുതുക്കട"
     },
     {
-      "ward_id": "270eaa9f-b4c6-46b9-8eee-d23b2cd0b6d1",
+      "id": "270eaa9f-b4c6-46b9-8eee-d23b2cd0b6d1",
       "ward_no": "12",
-      "ward_name_en": "Porikanni",
-      "ward_name_ml": "പൊരികണ്ണി"
+      "name_en": "Porikanni",
+      "name_ml": "പൊരികണ്ണി"
     },
     {
-      "ward_id": "5b587db6-e234-4fad-bb33-461f3b92cdc9",
+      "id": "5b587db6-e234-4fad-bb33-461f3b92cdc9",
       "ward_no": "13",
-      "ward_name_en": "Lonetree",
-      "ward_name_ml": "ലോണ്‍ട്രീ"
+      "name_en": "Lonetree",
+      "name_ml": "ലോണ്‍ട്രീ"
     },
     {
-      "ward_id": "82151258-0bfa-40af-96a5-99aec062790b",
+      "id": "82151258-0bfa-40af-96a5-99aec062790b",
       "ward_no": "14",
-      "ward_name_en": "Karintharuvi",
-      "ward_name_ml": "കരിന്തരുവി"
+      "name_en": "Karintharuvi",
+      "name_ml": "കരിന്തരുവി"
     },
     {
-      "ward_id": "8d7b4ff3-01d6-4e70-a1a7-fb9136d4f282",
+      "id": "8d7b4ff3-01d6-4e70-a1a7-fb9136d4f282",
       "ward_no": "15",
-      "ward_name_en": "Kaithapathal",
-      "ward_name_ml": "കൈതപ്പതാല്‍"
+      "name_en": "Kaithapathal",
+      "name_ml": "കൈതപ്പതാല്‍"
     },
     {
-      "ward_id": "de9bd327-a066-4267-b7cc-43246a1c3b95",
+      "id": "de9bd327-a066-4267-b7cc-43246a1c3b95",
       "ward_no": "16",
-      "ward_name_en": "Kattadikavala",
-      "ward_name_ml": "കാറ്റാടിക്കവല"
+      "name_en": "Kattadikavala",
+      "name_ml": "കാറ്റാടിക്കവല"
     },
     {
-      "ward_id": "042ce88a-4cbd-4876-a08e-10d08f63a647",
+      "id": "042ce88a-4cbd-4876-a08e-10d08f63a647",
       "ward_no": "17",
-      "ward_name_en": "Kappipathal",
-      "ward_name_ml": "കാപ്പിപ്പതാല്‍"
+      "name_en": "Kappipathal",
+      "name_ml": "കാപ്പിപ്പതാല്‍"
     },
     {
-      "ward_id": "e516e148-80c2-4514-9c0a-da640f6bc1d5",
+      "id": "e516e148-80c2-4514-9c0a-da640f6bc1d5",
       "ward_no": "18",
-      "ward_name_en": "Pasuparaputhuval",
-      "ward_name_ml": "പശുപ്പാറപുതുവല്‍"
+      "name_en": "Pasuparaputhuval",
+      "name_ml": "പശുപ്പാറപുതുവല്‍"
     }
   ],
   "towns": [],

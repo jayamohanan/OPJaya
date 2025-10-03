@@ -1,50 +1,67 @@
 {
-  "assembly_id": "77",
-  "assembly_name_en": "Kalamassery",
-  "assembly_name_ml": "കളമശ്ശേരി",
-  "category": "Normal",
+  "id": "77",
+  "name_en": "Kalamassery",
+  "name_ml": "കളമശ്ശേരി",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M071000",
-      "local_body_name_en": "Eloor",
-      "local_body_name_ml": "ഏലൂര്‍",
-      "category": "Good"
+      "id": "M071000",
+      "name_en": "Eloor",
+      "name_ml": "ഏലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G070204",
-      "local_body_name_en": "Kadungalloor",
-      "local_body_name_ml": "കടുങ്ങല്ലൂര്‍",
-      "category": "Perfect"
+      "id": "G070204",
+      "name_en": "Kadungalloor",
+      "name_ml": "കടുങ്ങല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M070100",
-      "local_body_name_en": "Kalamassery",
-      "local_body_name_ml": "കളമശ്ശേരി",
-      "category": "Normal"
+      "id": "M070100",
+      "name_en": "Kalamassery",
+      "name_ml": "കളമശ്ശേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070201",
-      "local_body_name_en": "Karumallur",
-      "local_body_name_ml": "കരുമാല്ലൂര്‍",
-      "category": "Good"
+      "id": "G070201",
+      "name_en": "Karumallur",
+      "name_ml": "കരുമാല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G071305",
-      "local_body_name_en": "Kunnukara",
-      "local_body_name_ml": "കുന്നുകര",
-      "category": "Normal"
+      "id": "G071305",
+      "name_en": "Kunnukara",
+      "name_ml": "കുന്നുകര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070203",
-      "local_body_name_en": "Alangad",
-      "local_body_name_ml": "ആലങ്ങാട്",
-      "category": "Normal"
+      "id": "G070203",
+      "name_en": "Alangad",
+      "name_ml": "ആലങ്ങാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

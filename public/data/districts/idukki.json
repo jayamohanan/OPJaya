@@ -1,39 +1,51 @@
 {
-  "district_id": "6",
-  "district_name_en": "Idukki",
-  "district_name_ml": "ഇടുക്കി",
+  "id": "6",
+  "name_en": "Idukki",
+  "name_ml": "ഇടുക്കി",
   "is_active": true,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "88",
-      "assembly_name_en": "Devikulam",
-      "assembly_name_ml": "ദേവികുളം",
-      "category": "Normal"
+      "id": "88",
+      "name_en": "Devikulam",
+      "name_ml": "ദേവികുളം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "89",
-      "assembly_name_en": "Udumbanchola",
-      "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
-      "category": "Normal"
+      "id": "89",
+      "name_en": "Udumbanchola",
+      "name_ml": "ഉടുമ്പന്‍ചോല",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "90",
-      "assembly_name_en": "Thodupuzha",
-      "assembly_name_ml": "തൊടുപുഴ",
-      "category": "Normal"
+      "id": "90",
+      "name_en": "Thodupuzha",
+      "name_ml": "തൊടുപുഴ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "91",
-      "assembly_name_en": "Idukki",
-      "assembly_name_ml": "ഇടുക്കി",
-      "category": "Normal"
+      "id": "91",
+      "name_en": "Idukki",
+      "name_ml": "ഇടുക്കി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "92",
-      "assembly_name_en": "Peerumade",
-      "assembly_name_ml": "പീരുമേട്",
-      "category": "Normal"
+      "id": "92",
+      "name_en": "Peerumade",
+      "name_ml": "പീരുമേട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

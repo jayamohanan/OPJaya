@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G020203",
-  "local_body_name_en": "Sooranad South",
-  "local_body_name_ml": "ശൂരനാട് സൌത്ത്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G020203",
+  "name_en": "Sooranad South",
+  "name_ml": "ശൂരനാട് സൌത്ത്",
+  "assembly_id": "118",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "118",
-    "assembly_name_en": "Kunnathur",
-    "assembly_name_ml": "കുന്നത്തൂർ",
-    "category": "Normal"
+    "id": "118",
+    "name_en": "Kunnathur",
+    "name_ml": "കുന്നത്തൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5468de98-4a19-4bd5-bed3-e8a1969b275a",
+      "id": "5468de98-4a19-4bd5-bed3-e8a1969b275a",
       "ward_no": "1",
-      "ward_name_en": "Eravichira West",
-      "ward_name_ml": "ഇരവിച്ചിറ പടിഞ്ഞാറ്"
+      "name_en": "Eravichira West",
+      "name_ml": "ഇരവിച്ചിറ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "2d22f6ca-6b0b-43e0-9509-9e374e4252f4",
+      "id": "2d22f6ca-6b0b-43e0-9509-9e374e4252f4",
       "ward_no": "2",
-      "ward_name_en": "Eravichira",
-      "ward_name_ml": "ഇരവിച്ചിറ"
+      "name_en": "Eravichira",
+      "name_ml": "ഇരവിച്ചിറ"
     },
     {
-      "ward_id": "a47bc4eb-434f-475d-aa16-4645f3bb9066",
+      "id": "a47bc4eb-434f-475d-aa16-4645f3bb9066",
       "ward_no": "3",
-      "ward_name_en": "Eravichira Naduvil",
-      "ward_name_ml": "ഇരവിച്ചിറ നടുവില്‍"
+      "name_en": "Eravichira Naduvil",
+      "name_ml": "ഇരവിച്ചിറ നടുവില്‍"
     },
     {
-      "ward_id": "a03ca177-6d83-461f-8a13-f588177f8a32",
+      "id": "a03ca177-6d83-461f-8a13-f588177f8a32",
       "ward_no": "4",
-      "ward_name_en": "Thrikkunnapuzha North",
-      "ward_name_ml": "ത്യക്കുന്നപ്പുഴ വടക്ക്"
+      "name_en": "Thrikkunnapuzha North",
+      "name_ml": "ത്യക്കുന്നപ്പുഴ വടക്ക്"
     },
     {
-      "ward_id": "3aaf1cca-296a-4edc-a806-8ad53b9a5705",
+      "id": "3aaf1cca-296a-4edc-a806-8ad53b9a5705",
       "ward_no": "5",
-      "ward_name_en": "Eravichira East",
-      "ward_name_ml": "ഇരവിച്ചിറ കിഴക്ക്"
+      "name_en": "Eravichira East",
+      "name_ml": "ഇരവിച്ചിറ കിഴക്ക്"
     },
     {
-      "ward_id": "1323038a-7b5c-41e9-ad67-b7bb8369f6c4",
+      "id": "1323038a-7b5c-41e9-ad67-b7bb8369f6c4",
       "ward_no": "6",
-      "ward_name_en": "Inchakkadu North",
-      "ward_name_ml": "ഇഞ്ചക്കാട് വടക്ക്"
+      "name_en": "Inchakkadu North",
+      "name_ml": "ഇഞ്ചക്കാട് വടക്ക്"
     },
     {
-      "ward_id": "f16c4ede-1ca1-4500-b0e0-5e29dae29598",
+      "id": "f16c4ede-1ca1-4500-b0e0-5e29dae29598",
       "ward_no": "7",
-      "ward_name_en": "Thrikkunnapuzha",
-      "ward_name_ml": "ത്യക്കുന്നപ്പുഴ"
+      "name_en": "Thrikkunnapuzha",
+      "name_ml": "ത്യക്കുന്നപ്പുഴ"
     },
     {
-      "ward_id": "0e9e3cfe-1e67-42ad-9f58-f038de62cf9b",
+      "id": "0e9e3cfe-1e67-42ad-9f58-f038de62cf9b",
       "ward_no": "8",
-      "ward_name_en": "Inchakkadu",
-      "ward_name_ml": "ഇഞ്ചക്കാട്"
+      "name_en": "Inchakkadu",
+      "name_ml": "ഇഞ്ചക്കാട്"
     },
     {
-      "ward_id": "0938b6a9-1fc1-4439-ae38-95ec1310785f",
+      "id": "0938b6a9-1fc1-4439-ae38-95ec1310785f",
       "ward_no": "9",
-      "ward_name_en": "Ayikkunnam",
-      "ward_name_ml": "ആയിക്കുന്നം"
+      "name_en": "Ayikkunnam",
+      "name_ml": "ആയിക്കുന്നം"
     },
     {
-      "ward_id": "4e3f7e77-0df5-49e0-8d17-4b3a0c12165b",
+      "id": "4e3f7e77-0df5-49e0-8d17-4b3a0c12165b",
       "ward_no": "10",
-      "ward_name_en": "Thrikkunnapuzha South",
-      "ward_name_ml": "ത്യക്കുന്നപ്പുഴ തെക്ക്"
+      "name_en": "Thrikkunnapuzha South",
+      "name_ml": "ത്യക്കുന്നപ്പുഴ തെക്ക്"
     },
     {
-      "ward_id": "a5ce6476-018e-4612-8ff6-2298c4ad7fff",
+      "id": "a5ce6476-018e-4612-8ff6-2298c4ad7fff",
       "ward_no": "11",
-      "ward_name_en": "Eravichira South",
-      "ward_name_ml": "ഇരവിച്ചിറ തെക്ക്"
+      "name_en": "Eravichira South",
+      "name_ml": "ഇരവിച്ചിറ തെക്ക്"
     },
     {
-      "ward_id": "a3320da1-2d90-484c-add8-83c1887abaf5",
+      "id": "a3320da1-2d90-484c-add8-83c1887abaf5",
       "ward_no": "12",
-      "ward_name_en": "Patharam",
-      "ward_name_ml": "പതാരം"
+      "name_en": "Patharam",
+      "name_ml": "പതാരം"
     },
     {
-      "ward_id": "0c4fa4b9-2fc7-4213-bd57-48c56c6c23be",
+      "id": "0c4fa4b9-2fc7-4213-bd57-48c56c6c23be",
       "ward_no": "13",
-      "ward_name_en": "Kumaranchira",
-      "ward_name_ml": "കുമരഞ്ചിറ"
+      "name_en": "Kumaranchira",
+      "name_ml": "കുമരഞ്ചിറ"
     },
     {
-      "ward_id": "93f2e876-3ec1-46bb-80ac-d0b3d01ad54a",
+      "id": "93f2e876-3ec1-46bb-80ac-d0b3d01ad54a",
       "ward_no": "14",
-      "ward_name_en": "Kidangayam Kannimel",
-      "ward_name_ml": "കിടങ്ങയം കന്നിമേല്‍"
+      "name_en": "Kidangayam Kannimel",
+      "name_ml": "കിടങ്ങയം കന്നിമേല്‍"
     },
     {
-      "ward_id": "15d28595-fea2-49a4-827a-d79e58e96fab",
+      "id": "15d28595-fea2-49a4-827a-d79e58e96fab",
       "ward_no": "15",
-      "ward_name_en": "Kidangayam Naduvil",
-      "ward_name_ml": "കിടങ്ങയം നടുവില്‍"
+      "name_en": "Kidangayam Naduvil",
+      "name_ml": "കിടങ്ങയം നടുവില്‍"
     },
     {
-      "ward_id": "da3c7c1a-4069-4f84-8f9b-5259501ac667",
+      "id": "da3c7c1a-4069-4f84-8f9b-5259501ac667",
       "ward_no": "16",
-      "ward_name_en": "Kidangayam North",
-      "ward_name_ml": "കിടങ്ങയം വടക്ക്"
+      "name_en": "Kidangayam North",
+      "name_ml": "കിടങ്ങയം വടക്ക്"
     }
   ],
   "towns": [],

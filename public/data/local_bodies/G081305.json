@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G081305",
-  "local_body_name_en": "Velukara",
-  "local_body_name_ml": "വേളൂക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "70",
-    "assembly_name_en": "Irinjalakuda",
-    "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
+  "id": "G081305",
+  "name_en": "Velukara",
+  "name_ml": "വേളൂക്കര",
+  "assembly_id": "70",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "70",
+    "name_en": "Irinjalakuda",
+    "name_ml": "ഇരിങ്ങാലക്കുട",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "dbab93cd-90de-4213-8714-4112ec0b488a",
+      "id": "dbab93cd-90de-4213-8714-4112ec0b488a",
       "ward_no": "1",
-      "ward_name_en": "Ikkarakunnu",
-      "ward_name_ml": "ഐക്കരക്കുന്ന്"
+      "name_en": "Ikkarakunnu",
+      "name_ml": "ഐക്കരക്കുന്ന്"
     },
     {
-      "ward_id": "2a07d850-9df9-448b-8317-8e46f2e7cc95",
+      "id": "2a07d850-9df9-448b-8317-8e46f2e7cc95",
       "ward_no": "2",
-      "ward_name_en": "Kolothumpadi",
-      "ward_name_ml": "കോലോത്തുംപടി"
+      "name_en": "Kolothumpadi",
+      "name_ml": "കോലോത്തുംപടി"
     },
     {
-      "ward_id": "beef1969-ac70-4b66-bb31-a1fdea13a4c4",
+      "id": "beef1969-ac70-4b66-bb31-a1fdea13a4c4",
       "ward_no": "3",
-      "ward_name_en": "Nadavaramba",
-      "ward_name_ml": "നടവരമ്പ്"
+      "name_en": "Nadavaramba",
+      "name_ml": "നടവരമ്പ്"
     },
     {
-      "ward_id": "31f85b51-40d5-4654-af66-187df263f362",
+      "id": "31f85b51-40d5-4654-af66-187df263f362",
       "ward_no": "4",
-      "ward_name_en": "Kallamkunnu",
-      "ward_name_ml": "കല്ലംകുന്ന്"
+      "name_en": "Kallamkunnu",
+      "name_ml": "കല്ലംകുന്ന്"
     },
     {
-      "ward_id": "64c0ee2c-c3f9-42d2-b215-4b323e688043",
+      "id": "64c0ee2c-c3f9-42d2-b215-4b323e688043",
       "ward_no": "5",
-      "ward_name_en": "Avittathur",
-      "ward_name_ml": "അവിട്ടത്തൂര്‍"
+      "name_en": "Avittathur",
+      "name_ml": "അവിട്ടത്തൂര്‍"
     },
     {
-      "ward_id": "72235205-2c2d-4a01-b9c2-fe46c9f256c3",
+      "id": "72235205-2c2d-4a01-b9c2-fe46c9f256c3",
       "ward_no": "6",
-      "ward_name_en": "Avittathur South",
-      "ward_name_ml": "അവിട്ടത്തൂര്‍ സൗത്ത്"
+      "name_en": "Avittathur South",
+      "name_ml": "അവിട്ടത്തൂര്‍ സൗത്ത്"
     },
     {
-      "ward_id": "a3909431-c557-4081-88fc-ef7397da4197",
+      "id": "a3909431-c557-4081-88fc-ef7397da4197",
       "ward_no": "7",
-      "ward_name_en": "Avittathur North",
-      "ward_name_ml": "അവിട്ടത്തൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Avittathur North",
+      "name_ml": "അവിട്ടത്തൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "2b5f1b1b-541d-4021-aaf5-189aa0bb0335",
+      "id": "2b5f1b1b-541d-4021-aaf5-189aa0bb0335",
       "ward_no": "8",
-      "ward_name_en": "Thommana",
-      "ward_name_ml": "തൊമ്മാന"
+      "name_en": "Thommana",
+      "name_ml": "തൊമ്മാന"
     },
     {
-      "ward_id": "3d62fbf6-8994-42ed-becf-46a304c5eca2",
+      "id": "3d62fbf6-8994-42ed-becf-46a304c5eca2",
       "ward_no": "9",
-      "ward_name_en": "Kaduppassery",
-      "ward_name_ml": "കടുപ്പശ്ശേരി"
+      "name_en": "Kaduppassery",
+      "name_ml": "കടുപ്പശ്ശേരി"
     },
     {
-      "ward_id": "9af2c647-0b23-4dbe-ac36-be066a07ab10",
+      "id": "9af2c647-0b23-4dbe-ac36-be066a07ab10",
       "ward_no": "10",
-      "ward_name_en": "Ayyappankavu",
-      "ward_name_ml": "അയ്യപ്പന്‍കാവ്"
+      "name_en": "Ayyappankavu",
+      "name_ml": "അയ്യപ്പന്‍കാവ്"
     },
     {
-      "ward_id": "afade5ab-ae93-4dde-b544-1f0affdd2af5",
+      "id": "afade5ab-ae93-4dde-b544-1f0affdd2af5",
       "ward_no": "11",
-      "ward_name_en": "Thumboor",
-      "ward_name_ml": "തുമ്പുര്‍"
+      "name_en": "Thumboor",
+      "name_ml": "തുമ്പുര്‍"
     },
     {
-      "ward_id": "1b7c7d35-4e7b-4ac1-ae16-c11f82896e8c",
+      "id": "1b7c7d35-4e7b-4ac1-ae16-c11f82896e8c",
       "ward_no": "12",
-      "ward_name_en": "Thumboor West",
-      "ward_name_ml": "തുമ്പുര്‍ വെസ്റ്റ്‌"
+      "name_en": "Thumboor West",
+      "name_ml": "തുമ്പുര്‍ വെസ്റ്റ്‌"
     },
     {
-      "ward_id": "9bbdee84-dbc7-4a21-a30d-4c4400c7b12c",
+      "id": "9bbdee84-dbc7-4a21-a30d-4c4400c7b12c",
       "ward_no": "13",
-      "ward_name_en": "Pattepadam",
-      "ward_name_ml": "പട്ടേപ്പാടം"
+      "name_en": "Pattepadam",
+      "name_ml": "പട്ടേപ്പാടം"
     },
     {
-      "ward_id": "7466a0fd-409b-4c70-abdc-9c565b9fb368",
+      "id": "7466a0fd-409b-4c70-abdc-9c565b9fb368",
       "ward_no": "14",
-      "ward_name_en": "Poomthope",
-      "ward_name_ml": "പൂന്തോപ്പ്‌"
+      "name_en": "Poomthope",
+      "name_ml": "പൂന്തോപ്പ്‌"
     },
     {
-      "ward_id": "0f5d9c15-abee-4441-a70d-0b8ff722dd79",
+      "id": "0f5d9c15-abee-4441-a70d-0b8ff722dd79",
       "ward_no": "15",
-      "ward_name_en": "Sivagiri",
-      "ward_name_ml": "ശിവഗിരി"
+      "name_en": "Sivagiri",
+      "name_ml": "ശിവഗിരി"
     },
     {
-      "ward_id": "c3c278c4-cbd6-4e74-868d-ef287f566f34",
+      "id": "c3c278c4-cbd6-4e74-868d-ef287f566f34",
       "ward_no": "16",
-      "ward_name_en": "Kottaneloor",
-      "ward_name_ml": "കൊറ്റനെല്ലൂര്‍"
+      "name_en": "Kottaneloor",
+      "name_ml": "കൊറ്റനെല്ലൂര്‍"
     },
     {
-      "ward_id": "2e1b0509-bdf0-4d4e-83dd-c50538d5e811",
+      "id": "2e1b0509-bdf0-4d4e-83dd-c50538d5e811",
       "ward_no": "17",
-      "ward_name_en": "Mukundapuram",
-      "ward_name_ml": "മുകുന്ദപുരം"
+      "name_en": "Mukundapuram",
+      "name_ml": "മുകുന്ദപുരം"
     },
     {
-      "ward_id": "e422f6d6-52fa-420a-9343-99751c9ed46b",
+      "id": "e422f6d6-52fa-420a-9343-99751c9ed46b",
       "ward_no": "18",
-      "ward_name_en": "Vaikkara",
-      "ward_name_ml": "വൈക്കര"
+      "name_en": "Vaikkara",
+      "name_ml": "വൈക്കര"
     }
   ],
   "towns": [],

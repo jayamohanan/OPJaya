@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G070201",
-  "local_body_name_en": "Karumallur",
-  "local_body_name_ml": "കരുമാല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G070201",
+  "name_en": "Karumallur",
+  "name_ml": "കരുമാല്ലൂര്‍",
+  "assembly_id": "77",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "77",
-    "assembly_name_en": "Kalamassery",
-    "assembly_name_ml": "കളമശ്ശേരി",
-    "category": "Normal"
+    "id": "77",
+    "name_en": "Kalamassery",
+    "name_ml": "കളമശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e8a10ef1-6e84-474e-96a9-7707172e8e39",
+      "id": "e8a10ef1-6e84-474e-96a9-7707172e8e39",
       "ward_no": "1",
-      "ward_name_en": "Mattupuram",
-      "ward_name_ml": "മാട്ടുപുറം"
+      "name_en": "Mattupuram",
+      "name_ml": "മാട്ടുപുറം"
     },
     {
-      "ward_id": "b358c94a-6ed6-4ff2-aaa0-b5023419f570",
+      "id": "b358c94a-6ed6-4ff2-aaa0-b5023419f570",
       "ward_no": "2",
-      "ward_name_en": "Manjali",
-      "ward_name_ml": "മാഞ്ഞാലി"
+      "name_en": "Manjali",
+      "name_ml": "മാഞ്ഞാലി"
     },
     {
-      "ward_id": "a5b8d80e-7248-4b62-bbb9-6ef12e3d66e7",
+      "id": "a5b8d80e-7248-4b62-bbb9-6ef12e3d66e7",
       "ward_no": "3",
-      "ward_name_en": "Kallikkuzhi",
-      "ward_name_ml": "കള്ളിക്കുഴി"
+      "name_en": "Kallikkuzhi",
+      "name_ml": "കള്ളിക്കുഴി"
     },
     {
-      "ward_id": "b12ea4f7-44d3-4709-8248-01b754539bbd",
+      "id": "b12ea4f7-44d3-4709-8248-01b754539bbd",
       "ward_no": "4",
-      "ward_name_en": "Manakkapadi North",
-      "ward_name_ml": "മനക്കപ്പടി നോര്‍ത്ത്"
+      "name_en": "Manakkapadi North",
+      "name_ml": "മനക്കപ്പടി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "9d964c99-2a3a-406a-95fe-22fa09012c85",
+      "id": "9d964c99-2a3a-406a-95fe-22fa09012c85",
       "ward_no": "5",
-      "ward_name_en": "Thattampadi North",
-      "ward_name_ml": "തട്ടാംപടി നോര്‍ത്ത്"
+      "name_en": "Thattampadi North",
+      "name_ml": "തട്ടാംപടി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "1619a75f-99a5-4236-a320-f64071a7bbf6",
+      "id": "1619a75f-99a5-4236-a320-f64071a7bbf6",
       "ward_no": "6",
-      "ward_name_en": "Karumallur",
-      "ward_name_ml": "കരുമാല്ലൂര്‍"
+      "name_en": "Karumallur",
+      "name_ml": "കരുമാല്ലൂര്‍"
     },
     {
-      "ward_id": "23ea630e-7674-4ddd-a857-3ecfcaeb9ca9",
+      "id": "23ea630e-7674-4ddd-a857-3ecfcaeb9ca9",
       "ward_no": "7",
-      "ward_name_en": "Aduvathuruth",
-      "ward_name_ml": "അടുവാതുരുത്ത്"
+      "name_en": "Aduvathuruth",
+      "name_ml": "അടുവാതുരുത്ത്"
     },
     {
-      "ward_id": "ccaef3c6-ef36-4120-aec1-335df4a8cdab",
+      "id": "ccaef3c6-ef36-4120-aec1-335df4a8cdab",
       "ward_no": "8",
-      "ward_name_en": "West Veliyathunadu",
-      "ward_name_ml": "വെസ്റ്റ് വെളിയത്ത്നാട്"
+      "name_en": "West Veliyathunadu",
+      "name_ml": "വെസ്റ്റ് വെളിയത്ത്നാട്"
     },
     {
-      "ward_id": "594698d0-7091-482c-98f1-42365cad5d4c",
+      "id": "594698d0-7091-482c-98f1-42365cad5d4c",
       "ward_no": "9",
-      "ward_name_en": "Paruvakkadu",
-      "ward_name_ml": "പരുവക്കാട്"
+      "name_en": "Paruvakkadu",
+      "name_ml": "പരുവക്കാട്"
     },
     {
-      "ward_id": "87616421-4af8-441d-a4ff-57e3f129b58e",
+      "id": "87616421-4af8-441d-a4ff-57e3f129b58e",
       "ward_no": "10",
-      "ward_name_en": "Vayalodam",
-      "ward_name_ml": "വയലോടം"
+      "name_en": "Vayalodam",
+      "name_ml": "വയലോടം"
     },
     {
-      "ward_id": "83bd8368-d782-4438-9f9f-d4dae7320f83",
+      "id": "83bd8368-d782-4438-9f9f-d4dae7320f83",
       "ward_no": "11",
-      "ward_name_en": "East Veliyathunadu",
-      "ward_name_ml": "ഈസ്റ്റ് വെളിയത്ത്നാട്"
+      "name_en": "East Veliyathunadu",
+      "name_ml": "ഈസ്റ്റ് വെളിയത്ത്നാട്"
     },
     {
-      "ward_id": "bb40a04e-a825-48e2-b633-adaf15e5b88c",
+      "id": "bb40a04e-a825-48e2-b633-adaf15e5b88c",
       "ward_no": "12",
-      "ward_name_en": "Kadooppadam",
-      "ward_name_ml": "കടൂപ്പാടം"
+      "name_en": "Kadooppadam",
+      "name_ml": "കടൂപ്പാടം"
     },
     {
-      "ward_id": "641726be-5354-4d66-96f0-df4e1c4cd7a9",
+      "id": "641726be-5354-4d66-96f0-df4e1c4cd7a9",
       "ward_no": "13",
-      "ward_name_en": "U.C.College",
-      "ward_name_ml": "യു.സി.കോളേജ്"
+      "name_en": "U.C.College",
+      "name_ml": "യു.സി.കോളേജ്"
     },
     {
-      "ward_id": "5214ddf0-f755-4cb2-b46c-b2570c70d174",
+      "id": "5214ddf0-f755-4cb2-b46c-b2570c70d174",
       "ward_no": "14",
-      "ward_name_en": "Mariyappadi North",
-      "ward_name_ml": "മറിയപ്പടി നോര്‍ത്ത്"
+      "name_en": "Mariyappadi North",
+      "name_ml": "മറിയപ്പടി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "da11727d-13ae-4b93-947f-7e3bfeb7399c",
+      "id": "da11727d-13ae-4b93-947f-7e3bfeb7399c",
       "ward_no": "15",
-      "ward_name_en": "Mariyappadi South",
-      "ward_name_ml": "മറിയപ്പടി സൌത്ത്"
+      "name_en": "Mariyappadi South",
+      "name_ml": "മറിയപ്പടി സൌത്ത്"
     },
     {
-      "ward_id": "a2379260-4ae8-4500-b3fd-a434733b8fb8",
+      "id": "a2379260-4ae8-4500-b3fd-a434733b8fb8",
       "ward_no": "16",
-      "ward_name_en": "Thattampadi South",
-      "ward_name_ml": "തട്ടാംപടി സൌത്ത്"
+      "name_en": "Thattampadi South",
+      "name_ml": "തട്ടാംപടി സൌത്ത്"
     },
     {
-      "ward_id": "50cf5032-951a-497e-96c6-bdc46bfa38ba",
+      "id": "50cf5032-951a-497e-96c6-bdc46bfa38ba",
       "ward_no": "17",
-      "ward_name_en": "Chettikkad",
-      "ward_name_ml": "ചെട്ടിക്കാട്"
+      "name_en": "Chettikkad",
+      "name_ml": "ചെട്ടിക്കാട്"
     },
     {
-      "ward_id": "046f96eb-ec60-41a5-b87e-532d284db8e9",
+      "id": "046f96eb-ec60-41a5-b87e-532d284db8e9",
       "ward_no": "18",
-      "ward_name_en": "Manakkappadi South(Thoppu)",
-      "ward_name_ml": "മനക്കപ്പടി സൌത്ത്(തോപ്പ്)"
+      "name_en": "Manakkappadi South(Thoppu)",
+      "name_ml": "മനക്കപ്പടി സൌത്ത്(തോപ്പ്)"
     },
     {
-      "ward_id": "532e6898-83c6-4331-adaf-26cfb56631f3",
+      "id": "532e6898-83c6-4331-adaf-26cfb56631f3",
       "ward_no": "19",
-      "ward_name_en": "Manakkapadi",
-      "ward_name_ml": "മനക്കപ്പടി"
+      "name_en": "Manakkapadi",
+      "name_ml": "മനക്കപ്പടി"
     },
     {
-      "ward_id": "6c4385b5-db91-4c34-a9fb-e57cd543da05",
+      "id": "6c4385b5-db91-4c34-a9fb-e57cd543da05",
       "ward_no": "20",
-      "ward_name_en": "Thekkethazham",
-      "ward_name_ml": "തെക്കേത്താഴം"
+      "name_en": "Thekkethazham",
+      "name_ml": "തെക്കേത്താഴം"
     }
   ],
   "towns": [],

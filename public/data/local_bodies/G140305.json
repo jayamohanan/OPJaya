@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G140305",
-  "local_body_name_en": "Badiadka",
-  "local_body_name_ml": "ബദിയഡുക്ക",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G140305",
+  "name_en": "Badiadka",
+  "name_ml": "ബദിയഡുക്ക",
+  "assembly_id": "2",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "2",
-    "assembly_name_en": "Kasaragod",
-    "assembly_name_ml": "കാസര്‍കോഡ്",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍കോഡ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8ef7e2b5-0900-4340-b369-39100e3345c6",
+      "id": "8ef7e2b5-0900-4340-b369-39100e3345c6",
       "ward_no": "1",
-      "ward_name_en": "Kilingar",
-      "ward_name_ml": "കിളിങ്കാര്‍"
+      "name_en": "Kilingar",
+      "name_ml": "കിളിങ്കാര്‍"
     },
     {
-      "ward_id": "c764247d-18fe-4d77-af46-2a34b393dc22",
+      "id": "c764247d-18fe-4d77-af46-2a34b393dc22",
       "ward_no": "2",
-      "ward_name_en": "Neerchal",
-      "ward_name_ml": "നീര്‍ച്ചാല്‍"
+      "name_en": "Neerchal",
+      "name_ml": "നീര്‍ച്ചാല്‍"
     },
     {
-      "ward_id": "2918c770-e08f-4605-b2a7-94c6db8f915c",
+      "id": "2918c770-e08f-4605-b2a7-94c6db8f915c",
       "ward_no": "3",
-      "ward_name_en": "Kuntikana",
-      "ward_name_ml": "കുണ്ടിക്കാന"
+      "name_en": "Kuntikana",
+      "name_ml": "കുണ്ടിക്കാന"
     },
     {
-      "ward_id": "1dcfe946-24c2-49f8-aa51-cec80ea1bc49",
+      "id": "1dcfe946-24c2-49f8-aa51-cec80ea1bc49",
       "ward_no": "4",
-      "ward_name_en": "Kuntalmoola",
-      "ward_name_ml": "കുണ്ടാല്‍മൂല"
+      "name_en": "Kuntalmoola",
+      "name_ml": "കുണ്ടാല്‍മൂല"
     },
     {
-      "ward_id": "f247c79c-bc92-46f8-aa79-0e4f7bf08547",
+      "id": "f247c79c-bc92-46f8-aa79-0e4f7bf08547",
       "ward_no": "5",
-      "ward_name_en": "Pallathadka",
-      "ward_name_ml": "പളളത്തട്ക്ക"
+      "name_en": "Pallathadka",
+      "name_ml": "പളളത്തട്ക്ക"
     },
     {
-      "ward_id": "5526ba53-003e-4ed3-9652-84fd1754dbf9",
+      "id": "5526ba53-003e-4ed3-9652-84fd1754dbf9",
       "ward_no": "6",
-      "ward_name_en": "Kedenji",
-      "ward_name_ml": "കെടഞ്ചി"
+      "name_en": "Kedenji",
+      "name_ml": "കെടഞ്ചി"
     },
     {
-      "ward_id": "05112a0b-35a0-4921-b35e-33de48d6e7f5",
+      "id": "05112a0b-35a0-4921-b35e-33de48d6e7f5",
       "ward_no": "7",
-      "ward_name_en": "Kuduppamkuzhi",
-      "ward_name_ml": "കുടുപ്പംകുഴി"
+      "name_en": "Kuduppamkuzhi",
+      "name_ml": "കുടുപ്പംകുഴി"
     },
     {
-      "ward_id": "0ff312be-2759-4b38-94cc-2f7a94e2b633",
+      "id": "0ff312be-2759-4b38-94cc-2f7a94e2b633",
       "ward_no": "8",
-      "ward_name_en": "Vidyagiri",
-      "ward_name_ml": "വിദ്യാഗിരി"
+      "name_en": "Vidyagiri",
+      "name_ml": "വിദ്യാഗിരി"
     },
     {
-      "ward_id": "e0f48d00-aa9c-4b24-a68f-4d35f473bd51",
+      "id": "e0f48d00-aa9c-4b24-a68f-4d35f473bd51",
       "ward_no": "9",
-      "ward_name_en": "Badiadka",
-      "ward_name_ml": "ബദിയഡുക്ക"
+      "name_en": "Badiadka",
+      "name_ml": "ബദിയഡുക്ക"
     },
     {
-      "ward_id": "cfc879aa-c4af-43a9-80d8-b720d96b49d6",
+      "id": "cfc879aa-c4af-43a9-80d8-b720d96b49d6",
       "ward_no": "10",
-      "ward_name_en": "Beejanthadka",
-      "ward_name_ml": "ബീജന്തട്ക്ക"
+      "name_en": "Beejanthadka",
+      "name_ml": "ബീജന്തട്ക്ക"
     },
     {
-      "ward_id": "0548cc5d-79b6-4335-9fa7-de5ad2784cde",
+      "id": "0548cc5d-79b6-4335-9fa7-de5ad2784cde",
       "ward_no": "11",
-      "ward_name_en": "Chedekal",
-      "ward_name_ml": "ചെടേക്കാല്‍"
+      "name_en": "Chedekal",
+      "name_ml": "ചെടേക്കാല്‍"
     },
     {
-      "ward_id": "b50a8ddc-2e56-4d8d-b7f2-0ecd64560e16",
+      "id": "b50a8ddc-2e56-4d8d-b7f2-0ecd64560e16",
       "ward_no": "12",
-      "ward_name_en": "Perdala",
-      "ward_name_ml": "പെരഡാല"
+      "name_en": "Perdala",
+      "name_ml": "പെരഡാല"
     },
     {
-      "ward_id": "a799bd3d-7bd2-4b57-9020-a20a93dfb392",
+      "id": "a799bd3d-7bd2-4b57-9020-a20a93dfb392",
       "ward_no": "13",
-      "ward_name_en": "Kanyappady",
-      "ward_name_ml": "കന്യപ്പാടി"
+      "name_en": "Kanyappady",
+      "name_ml": "കന്യപ്പാടി"
     },
     {
-      "ward_id": "a1e9ffc5-1e94-4031-90c6-537fca2cf752",
+      "id": "a1e9ffc5-1e94-4031-90c6-537fca2cf752",
       "ward_no": "14",
-      "ward_name_en": "Pattaje",
-      "ward_name_ml": "പട്ടാജെ"
+      "name_en": "Pattaje",
+      "name_ml": "പട്ടാജെ"
     },
     {
-      "ward_id": "775df594-3149-4908-80dd-8f428577e3a1",
+      "id": "775df594-3149-4908-80dd-8f428577e3a1",
       "ward_no": "15",
-      "ward_name_en": "Manya",
-      "ward_name_ml": "മാന്യ"
+      "name_en": "Manya",
+      "name_ml": "മാന്യ"
     },
     {
-      "ward_id": "24c9c0fc-3b76-49b8-80d0-32a79fd86fa3",
+      "id": "24c9c0fc-3b76-49b8-80d0-32a79fd86fa3",
       "ward_no": "16",
-      "ward_name_en": "Birminadka",
-      "ward_name_ml": "ബിര്‍മ്മിനട്ക്ക"
+      "name_en": "Birminadka",
+      "name_ml": "ബിര്‍മ്മിനട്ക്ക"
     },
     {
-      "ward_id": "141ae5ec-c012-4f3c-99e2-ce0dc3bb2809",
+      "id": "141ae5ec-c012-4f3c-99e2-ce0dc3bb2809",
       "ward_no": "17",
-      "ward_name_en": "Malladka",
-      "ward_name_ml": "മല്ലട്ക്ക"
+      "name_en": "Malladka",
+      "name_ml": "മല്ലട്ക്ക"
     },
     {
-      "ward_id": "17b8999b-9a35-4266-94e3-897dac5eb141",
+      "id": "17b8999b-9a35-4266-94e3-897dac5eb141",
       "ward_no": "18",
-      "ward_name_en": "Kunjar",
-      "ward_name_ml": "കുഞ്ചാര്‍"
+      "name_en": "Kunjar",
+      "name_ml": "കുഞ്ചാര്‍"
     },
     {
-      "ward_id": "4a121803-046f-4db4-91f1-f0744c1448c5",
+      "id": "4a121803-046f-4db4-91f1-f0744c1448c5",
       "ward_no": "19",
-      "ward_name_en": "Bela",
-      "ward_name_ml": "ബേള"
+      "name_en": "Bela",
+      "name_ml": "ബേള"
     }
   ],
   "towns": [],

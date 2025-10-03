@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G110102",
-  "local_body_name_en": "Chorode",
-  "local_body_name_ml": "ചോറോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "20",
-    "assembly_name_en": "Vatakara",
-    "assembly_name_ml": "വടകര",
+  "id": "G110102",
+  "name_en": "Chorode",
+  "name_ml": "ചോറോട്",
+  "assembly_id": "20",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "20",
+    "name_en": "Vatakara",
+    "name_ml": "വടകര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "16c2c5b0-5d65-43f7-ab5a-f2f527d7244f",
+      "id": "16c2c5b0-5d65-43f7-ab5a-f2f527d7244f",
       "ward_no": "1",
-      "ward_name_en": "Rayarangoth",
-      "ward_name_ml": "രയരങ്ങോത്ത്"
+      "name_en": "Rayarangoth",
+      "name_ml": "രയരങ്ങോത്ത്"
     },
     {
-      "ward_id": "64e805a2-c058-4211-a446-12d50479f20b",
+      "id": "64e805a2-c058-4211-a446-12d50479f20b",
       "ward_no": "2",
-      "ward_name_en": "K.T Bazar",
-      "ward_name_ml": "കെ.ടി ബസാര്‍"
+      "name_en": "K.T Bazar",
+      "name_ml": "കെ.ടി ബസാര്‍"
     },
     {
-      "ward_id": "866c2a64-4217-4b19-b27f-40f8485f77d0",
+      "id": "866c2a64-4217-4b19-b27f-40f8485f77d0",
       "ward_no": "3",
-      "ward_name_en": "Kolangattu Thazha",
-      "ward_name_ml": "കൊളങ്ങാട്ട് താഴ"
+      "name_en": "Kolangattu Thazha",
+      "name_ml": "കൊളങ്ങാട്ട് താഴ"
     },
     {
-      "ward_id": "2295dd61-2417-4a77-8033-85a42efcb51e",
+      "id": "2295dd61-2417-4a77-8033-85a42efcb51e",
       "ward_no": "4",
-      "ward_name_en": "Vallikkad",
-      "ward_name_ml": "വളളിക്കാട്"
+      "name_en": "Vallikkad",
+      "name_ml": "വളളിക്കാട്"
     },
     {
-      "ward_id": "199537da-4f36-4899-8aef-9faff08bc4ae",
+      "id": "199537da-4f36-4899-8aef-9faff08bc4ae",
       "ward_no": "5",
-      "ward_name_en": "Vaikkilassery Vadakku",
-      "ward_name_ml": "വൈക്കിലശ്ശേരി വടക്ക്"
+      "name_en": "Vaikkilassery Vadakku",
+      "name_ml": "വൈക്കിലശ്ശേരി വടക്ക്"
     },
     {
-      "ward_id": "22f2df6f-2697-41fb-a0e4-826dd92f6f2e",
+      "id": "22f2df6f-2697-41fb-a0e4-826dd92f6f2e",
       "ward_no": "6",
-      "ward_name_en": "Vaikkilassery Thekku",
-      "ward_name_ml": "വൈക്കിലശ്ശേരി തെക്ക്"
+      "name_en": "Vaikkilassery Thekku",
+      "name_ml": "വൈക്കിലശ്ശേരി തെക്ക്"
     },
     {
-      "ward_id": "7733c981-843c-4736-a934-4a40260c5769",
+      "id": "7733c981-843c-4736-a934-4a40260c5769",
       "ward_no": "7",
-      "ward_name_en": "Vaikkilassery",
-      "ward_name_ml": "വൈക്കിലശ്ശേരി"
+      "name_en": "Vaikkilassery",
+      "name_ml": "വൈക്കിലശ്ശേരി"
     },
     {
-      "ward_id": "57221866-9138-4849-85a0-b142e637381f",
+      "id": "57221866-9138-4849-85a0-b142e637381f",
       "ward_no": "8",
-      "ward_name_en": "Puthen Theru",
-      "ward_name_ml": "പുത്തന്‍ തെരു"
+      "name_en": "Puthen Theru",
+      "name_ml": "പുത്തന്‍ തെരു"
     },
     {
-      "ward_id": "819f82e4-25ce-465b-a189-dcf86f269e3b",
+      "id": "819f82e4-25ce-465b-a189-dcf86f269e3b",
       "ward_no": "9",
-      "ward_name_en": "Kurikkilad",
-      "ward_name_ml": "കുരിക്കിലാട്"
+      "name_en": "Kurikkilad",
+      "name_ml": "കുരിക്കിലാട്"
     },
     {
-      "ward_id": "5c211cdd-f68d-4f2e-850e-14b3fa3d345a",
+      "id": "5c211cdd-f68d-4f2e-850e-14b3fa3d345a",
       "ward_no": "10",
-      "ward_name_en": "Chorode East",
-      "ward_name_ml": "ചോറോട് ഈസ്റ്റ്"
+      "name_en": "Chorode East",
+      "name_ml": "ചോറോട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "52b024ad-9054-42d3-905a-601aa1e79490",
+      "id": "52b024ad-9054-42d3-905a-601aa1e79490",
       "ward_no": "11",
-      "ward_name_en": "Vaikkilassery Theru",
-      "ward_name_ml": "വൈക്കിലശ്ശേരി തെരു"
+      "name_en": "Vaikkilassery Theru",
+      "name_ml": "വൈക്കിലശ്ശേരി തെരു"
     },
     {
-      "ward_id": "d0e4e826-e958-4285-b97a-4d7bf0944a3f",
+      "id": "d0e4e826-e958-4285-b97a-4d7bf0944a3f",
       "ward_no": "12",
-      "ward_name_en": "Pancherikkad",
-      "ward_name_ml": "പാഞ്ചേരിക്കാട്"
+      "name_en": "Pancherikkad",
+      "name_ml": "പാഞ്ചേരിക്കാട്"
     },
     {
-      "ward_id": "4238995d-1d3b-488a-98d0-a4e926bae2e8",
+      "id": "4238995d-1d3b-488a-98d0-a4e926bae2e8",
       "ward_no": "13",
-      "ward_name_en": "Vallikkad Balavadi",
-      "ward_name_ml": "വളളിക്കാട് ബാലവാടി"
+      "name_en": "Vallikkad Balavadi",
+      "name_ml": "വളളിക്കാട് ബാലവാടി"
     },
     {
-      "ward_id": "10dd1282-d4a9-4073-ac6a-77b19d61710a",
+      "id": "10dd1282-d4a9-4073-ac6a-77b19d61710a",
       "ward_no": "14",
-      "ward_name_en": "Chendhamangalam",
-      "ward_name_ml": "ചേന്ദമംഗലം"
+      "name_en": "Chendhamangalam",
+      "name_ml": "ചേന്ദമംഗലം"
     },
     {
-      "ward_id": "099cb230-a877-4d73-a6e4-61c61d444a9a",
+      "id": "099cb230-a877-4d73-a6e4-61c61d444a9a",
       "ward_no": "15",
-      "ward_name_en": "Nelliyankara",
-      "ward_name_ml": "നെല്ല്യങ്കര"
+      "name_en": "Nelliyankara",
+      "name_ml": "നെല്ല്യങ്കര"
     },
     {
-      "ward_id": "adbeff11-49df-468f-be2d-68483826d12d",
+      "id": "adbeff11-49df-468f-be2d-68483826d12d",
       "ward_no": "16",
-      "ward_name_en": "Erapuram",
-      "ward_name_ml": "എരപുരം"
+      "name_en": "Erapuram",
+      "name_ml": "എരപുരം"
     },
     {
-      "ward_id": "5e4be7e8-0cbd-4e52-9be3-885f3bb11d4c",
+      "id": "5e4be7e8-0cbd-4e52-9be3-885f3bb11d4c",
       "ward_no": "17",
-      "ward_name_en": "Kuriyadi",
-      "ward_name_ml": "കുരിയാടി"
+      "name_en": "Kuriyadi",
+      "name_ml": "കുരിയാടി"
     },
     {
-      "ward_id": "b5a1e918-b7f3-4c22-a0fd-105b443e93d7",
+      "id": "b5a1e918-b7f3-4c22-a0fd-105b443e93d7",
       "ward_no": "18",
-      "ward_name_en": "Meethalangadi",
-      "ward_name_ml": "മീത്തലങ്ങാടി"
+      "name_en": "Meethalangadi",
+      "name_ml": "മീത്തലങ്ങാടി"
     },
     {
-      "ward_id": "44a76f40-d1f3-41fd-920c-ca2b180d2de7",
+      "id": "44a76f40-d1f3-41fd-920c-ca2b180d2de7",
       "ward_no": "19",
-      "ward_name_en": "Chorode",
-      "ward_name_ml": "ചോറോട്"
+      "name_en": "Chorode",
+      "name_ml": "ചോറോട്"
     },
     {
-      "ward_id": "eac5bc57-a672-45ad-95cc-0fae237baa55",
+      "id": "eac5bc57-a672-45ad-95cc-0fae237baa55",
       "ward_no": "20",
-      "ward_name_en": "Muttungal",
-      "ward_name_ml": "മുട്ടുങ്ങല്‍"
+      "name_en": "Muttungal",
+      "name_ml": "മുട്ടുങ്ങല്‍"
     },
     {
-      "ward_id": "11fa3768-a2d1-4a54-81dc-a73e7ed27fe4",
+      "id": "11fa3768-a2d1-4a54-81dc-a73e7ed27fe4",
       "ward_no": "21",
-      "ward_name_en": "Muttungal Beach",
-      "ward_name_ml": "മുട്ടുങ്ങല്‍ ബീച്ച്"
+      "name_en": "Muttungal Beach",
+      "name_ml": "മുട്ടുങ്ങല്‍ ബീച്ച്"
     }
   ],
   "towns": [],

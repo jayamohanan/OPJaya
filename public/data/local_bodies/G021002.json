@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G021002",
-  "local_body_name_en": "Kalluvathukkal",
-  "local_body_name_ml": "കല്ലുവാതുക്കല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G021002",
+  "name_en": "Kalluvathukkal",
+  "name_ml": "കല്ലുവാതുക്കല്‍",
+  "assembly_id": "126",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "126",
-    "assembly_name_en": "Chathannoor",
-    "assembly_name_ml": "ചാത്തന്നൂർ",
-    "category": "Normal"
+    "id": "126",
+    "name_en": "Chathannoor",
+    "name_ml": "ചാത്തന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e4f98cbe-d32f-4a1e-923f-d07fd9e74104",
+      "id": "e4f98cbe-d32f-4a1e-923f-d07fd9e74104",
       "ward_no": "1",
-      "ward_name_en": "Varinjam",
-      "ward_name_ml": "വരിഞ്ഞം"
+      "name_en": "Varinjam",
+      "name_ml": "വരിഞ്ഞം"
     },
     {
-      "ward_id": "e829500f-531e-4e8f-9a74-4b12d3eb2f07",
+      "id": "e829500f-531e-4e8f-9a74-4b12d3eb2f07",
       "ward_no": "2",
-      "ward_name_en": "Aduthala",
-      "ward_name_ml": "അടുതല"
+      "name_en": "Aduthala",
+      "name_ml": "അടുതല"
     },
     {
-      "ward_id": "2f6e48d1-6484-42d5-a56a-72ca20635c83",
+      "id": "2f6e48d1-6484-42d5-a56a-72ca20635c83",
       "ward_no": "3",
-      "ward_name_en": "Vilavoorkkonam",
-      "ward_name_ml": "വിലവൂര്‍ക്കോണം"
+      "name_en": "Vilavoorkkonam",
+      "name_ml": "വിലവൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "ebaef921-2cff-4546-8f94-9191938f7f6d",
+      "id": "ebaef921-2cff-4546-8f94-9191938f7f6d",
       "ward_no": "4",
-      "ward_name_en": "Vattakkuzhikkal",
-      "ward_name_ml": "വട്ടക്കുഴിക്കല്‍"
+      "name_en": "Vattakkuzhikkal",
+      "name_ml": "വട്ടക്കുഴിക്കല്‍"
     },
     {
-      "ward_id": "9a5b7feb-d8ef-4f4e-9b3e-929f9a6e1879",
+      "id": "9a5b7feb-d8ef-4f4e-9b3e-929f9a6e1879",
       "ward_no": "5",
-      "ward_name_en": "Elamkulam",
-      "ward_name_ml": "ഇളംകുളം"
+      "name_en": "Elamkulam",
+      "name_ml": "ഇളംകുളം"
     },
     {
-      "ward_id": "458a4aba-095c-4349-93da-520200347ccc",
+      "id": "458a4aba-095c-4349-93da-520200347ccc",
       "ward_no": "6",
-      "ward_name_en": "Velamanoor",
-      "ward_name_ml": "വേളമാനൂര്‍"
+      "name_en": "Velamanoor",
+      "name_ml": "വേളമാനൂര്‍"
     },
     {
-      "ward_id": "441eeaae-94a9-43a8-9cba-17eca055057e",
+      "id": "441eeaae-94a9-43a8-9cba-17eca055057e",
       "ward_no": "7",
-      "ward_name_en": "Kizhakkanela",
-      "ward_name_ml": "കിഴക്കനേല"
+      "name_en": "Kizhakkanela",
+      "name_ml": "കിഴക്കനേല"
     },
     {
-      "ward_id": "bcb1db37-ec7a-4350-99b7-2fe48d6f43bf",
+      "id": "bcb1db37-ec7a-4350-99b7-2fe48d6f43bf",
       "ward_no": "8",
-      "ward_name_en": "Kulamada",
-      "ward_name_ml": "കുളമട"
+      "name_en": "Kulamada",
+      "name_ml": "കുളമട"
     },
     {
-      "ward_id": "e28a645c-c256-4ea5-81ff-a6287f7f129a",
+      "id": "e28a645c-c256-4ea5-81ff-a6287f7f129a",
       "ward_no": "9",
-      "ward_name_en": "Puthiyapalam",
-      "ward_name_ml": "പുതിയപാലം"
+      "name_en": "Puthiyapalam",
+      "name_ml": "പുതിയപാലം"
     },
     {
-      "ward_id": "28aed442-fdef-449b-bb51-d7d364e9b390",
+      "id": "28aed442-fdef-449b-bb51-d7d364e9b390",
       "ward_no": "10",
-      "ward_name_en": "Kottakkeram",
-      "ward_name_ml": "കോട്ടയ്ക്കേറം"
+      "name_en": "Kottakkeram",
+      "name_ml": "കോട്ടയ്ക്കേറം"
     },
     {
-      "ward_id": "531cb9aa-907a-4322-a7ed-ffe6a6892fc0",
+      "id": "531cb9aa-907a-4322-a7ed-ffe6a6892fc0",
       "ward_no": "11",
-      "ward_name_en": "Kadampattukonam",
-      "ward_name_ml": "കടമ്പാട്ടുകോണം"
+      "name_en": "Kadampattukonam",
+      "name_ml": "കടമ്പാട്ടുകോണം"
     },
     {
-      "ward_id": "1c835db2-08b5-4716-9903-adf95fd64c49",
+      "id": "1c835db2-08b5-4716-9903-adf95fd64c49",
       "ward_no": "12",
-      "ward_name_en": "Chavarcode",
-      "ward_name_ml": "ചാവർകോട്"
+      "name_en": "Chavarcode",
+      "name_ml": "ചാവർകോട്"
     },
     {
-      "ward_id": "afd99f17-3eaa-4e96-bf70-b3562c2da234",
+      "id": "afd99f17-3eaa-4e96-bf70-b3562c2da234",
       "ward_no": "13",
-      "ward_name_en": "Ezhippuram",
-      "ward_name_ml": "എഴിപ്പുറം"
+      "name_en": "Ezhippuram",
+      "name_ml": "എഴിപ്പുറം"
     },
     {
-      "ward_id": "a7d0b9f5-46f0-4e61-99e2-fe80776112c9",
+      "id": "a7d0b9f5-46f0-4e61-99e2-fe80776112c9",
       "ward_no": "14",
-      "ward_name_en": "Parippally",
-      "ward_name_ml": "പാരിപ്പള്ളി"
+      "name_en": "Parippally",
+      "name_ml": "പാരിപ്പള്ളി"
     },
     {
-      "ward_id": "7ecd7011-555c-4e3d-a560-04f6516cc514",
+      "id": "7ecd7011-555c-4e3d-a560-04f6516cc514",
       "ward_no": "15",
-      "ward_name_en": "Esi",
-      "ward_name_ml": "ഇ.എസ്.ഐ"
+      "name_en": "Esi",
+      "name_ml": "ഇ.എസ്.ഐ"
     },
     {
-      "ward_id": "9624b929-ef0a-41c1-96b9-8e60938ead9f",
+      "id": "9624b929-ef0a-41c1-96b9-8e60938ead9f",
       "ward_no": "16",
-      "ward_name_en": "Meenambalam",
-      "ward_name_ml": "മീനമ്പലം"
+      "name_en": "Meenambalam",
+      "name_ml": "മീനമ്പലം"
     },
     {
-      "ward_id": "d358097f-8f31-48fe-bfc3-0a34ea533d0e",
+      "id": "d358097f-8f31-48fe-bfc3-0a34ea533d0e",
       "ward_no": "17",
-      "ward_name_en": "Karimpaloor",
-      "ward_name_ml": "കരിമ്പാലൂർ"
+      "name_en": "Karimpaloor",
+      "name_ml": "കരിമ്പാലൂർ"
     },
     {
-      "ward_id": "41f1d7f2-6f61-41bc-a67c-8a43c5fdeeda",
+      "id": "41f1d7f2-6f61-41bc-a67c-8a43c5fdeeda",
       "ward_no": "18",
-      "ward_name_en": "Kulathoorkonam",
-      "ward_name_ml": "കുളത്തൂർകോണം"
+      "name_en": "Kulathoorkonam",
+      "name_ml": "കുളത്തൂർകോണം"
     },
     {
-      "ward_id": "d71facc8-e32e-43be-985f-1fd79509f7e8",
+      "id": "d71facc8-e32e-43be-985f-1fd79509f7e8",
       "ward_no": "19",
-      "ward_name_en": "Chirakkara",
-      "ward_name_ml": "ചിറക്കര"
+      "name_en": "Chirakkara",
+      "name_ml": "ചിറക്കര"
     },
     {
-      "ward_id": "d4552041-456d-471f-93a1-45b4292bfdc4",
+      "id": "d4552041-456d-471f-93a1-45b4292bfdc4",
       "ward_no": "20",
-      "ward_name_en": "Pampuram",
-      "ward_name_ml": "പാമ്പുറം"
+      "name_en": "Pampuram",
+      "name_ml": "പാമ്പുറം"
     },
     {
-      "ward_id": "d9ce9a2a-6280-443e-be0a-4b159e2d1b3a",
+      "id": "d9ce9a2a-6280-443e-be0a-4b159e2d1b3a",
       "ward_no": "21",
-      "ward_name_en": "Mevanakonam",
-      "ward_name_ml": "മേവനക്കോണം"
+      "name_en": "Mevanakonam",
+      "name_ml": "മേവനക്കോണം"
     },
     {
-      "ward_id": "edc70165-397e-4060-b583-9aca71abe990",
+      "id": "edc70165-397e-4060-b583-9aca71abe990",
       "ward_no": "22",
-      "ward_name_en": "Nadakkal",
-      "ward_name_ml": "നടയ്ക്കല്‍"
+      "name_en": "Nadakkal",
+      "name_ml": "നടയ്ക്കല്‍"
     },
     {
-      "ward_id": "7c2fabf0-f640-435f-8978-76abfb69a7ab",
+      "id": "7c2fabf0-f640-435f-8978-76abfb69a7ab",
       "ward_no": "23",
-      "ward_name_en": "Kalluvathukkal",
-      "ward_name_ml": "കല്ലുവാതുക്കല്‍"
+      "name_en": "Kalluvathukkal",
+      "name_ml": "കല്ലുവാതുക്കല്‍"
     }
   ],
   "towns": [],

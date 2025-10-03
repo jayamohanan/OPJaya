@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060203",
-  "local_body_name_en": "Kanthalloor",
-  "local_body_name_ml": "കാന്തല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
+  "id": "G060203",
+  "name_en": "Kanthalloor",
+  "name_ml": "കാന്തല്ലൂര്‍",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f1d14d5b-1b13-43ce-9f4d-b40b76229a33",
+      "id": "f1d14d5b-1b13-43ce-9f4d-b40b76229a33",
       "ward_no": "1",
-      "ward_name_en": "Palapetty",
-      "ward_name_ml": "പാളപ്പെട്ടി"
+      "name_en": "Palapetty",
+      "name_ml": "പാളപ്പെട്ടി"
     },
     {
-      "ward_id": "7074bbb8-82c3-4bab-9f48-30ce3399bf9c",
+      "id": "7074bbb8-82c3-4bab-9f48-30ce3399bf9c",
       "ward_no": "2",
-      "ward_name_en": "Peradipallam",
-      "ward_name_ml": "പെരടിപള്ളം"
+      "name_en": "Peradipallam",
+      "name_ml": "പെരടിപള്ളം"
     },
     {
-      "ward_id": "cf3c255b-c21d-4bbc-8106-a23bd482a0e9",
+      "id": "cf3c255b-c21d-4bbc-8106-a23bd482a0e9",
       "ward_no": "3",
-      "ward_name_en": "Keezhanthoor",
-      "ward_name_ml": "കീഴാന്തൂര്‍"
+      "name_en": "Keezhanthoor",
+      "name_ml": "കീഴാന്തൂര്‍"
     },
     {
-      "ward_id": "235526c1-cfa1-4457-b0ab-39c76672ae3e",
+      "id": "235526c1-cfa1-4457-b0ab-39c76672ae3e",
       "ward_no": "4",
-      "ward_name_en": "Chenkalar",
-      "ward_name_ml": "ചെങ്കലാര്‍"
+      "name_en": "Chenkalar",
+      "name_ml": "ചെങ്കലാര്‍"
     },
     {
-      "ward_id": "7ea10ac8-818c-4aae-ad2f-4dc794a70a28",
+      "id": "7ea10ac8-818c-4aae-ad2f-4dc794a70a28",
       "ward_no": "5",
-      "ward_name_en": "Kanthalloor",
-      "ward_name_ml": "കാന്തല്ലൂര്‍"
+      "name_en": "Kanthalloor",
+      "name_ml": "കാന്തല്ലൂര്‍"
     },
     {
-      "ward_id": "74ca4a3c-b772-49bd-a850-51881337c731",
+      "id": "74ca4a3c-b772-49bd-a850-51881337c731",
       "ward_no": "6",
-      "ward_name_en": "Puthoor",
-      "ward_name_ml": "പുത്തൂര്‍"
+      "name_en": "Puthoor",
+      "name_ml": "പുത്തൂര്‍"
     },
     {
-      "ward_id": "705aec84-2ad8-45ea-ada3-4bf271670975",
+      "id": "705aec84-2ad8-45ea-ada3-4bf271670975",
       "ward_no": "7",
-      "ward_name_en": "Perumala",
-      "ward_name_ml": "പെരുമല"
+      "name_en": "Perumala",
+      "name_ml": "പെരുമല"
     },
     {
-      "ward_id": "81675d4d-cc8c-4d77-81a2-1c0a39f44325",
+      "id": "81675d4d-cc8c-4d77-81a2-1c0a39f44325",
       "ward_no": "8",
-      "ward_name_en": "Karsanadu",
-      "ward_name_ml": "കര്‍ശനാട്"
+      "name_en": "Karsanadu",
+      "name_ml": "കര്‍ശനാട്"
     },
     {
-      "ward_id": "43486778-d970-44c3-8691-63737d4237d8",
+      "id": "43486778-d970-44c3-8691-63737d4237d8",
       "ward_no": "9",
-      "ward_name_en": "Missionvayal",
-      "ward_name_ml": "മിഷന്‍വയല്‍"
+      "name_en": "Missionvayal",
+      "name_ml": "മിഷന്‍വയല്‍"
     },
     {
-      "ward_id": "48b6e26b-b40b-4e2c-9ca9-40f1b715880e",
+      "id": "48b6e26b-b40b-4e2c-9ca9-40f1b715880e",
       "ward_no": "10",
-      "ward_name_en": "Dendukombu",
-      "ward_name_ml": "ദിണ്ടുകൊമ്പ്"
+      "name_en": "Dendukombu",
+      "name_ml": "ദിണ്ടുകൊമ്പ്"
     },
     {
-      "ward_id": "362ee44f-4af5-48c5-9867-448c28503f9f",
+      "id": "362ee44f-4af5-48c5-9867-448c28503f9f",
       "ward_no": "11",
-      "ward_name_en": "Kovilkadavu",
-      "ward_name_ml": "കോവില്‍ക്കടവ്"
+      "name_en": "Kovilkadavu",
+      "name_ml": "കോവില്‍ക്കടവ്"
     },
     {
-      "ward_id": "d5089ba7-2836-4b21-ac78-b7e16bbd990d",
+      "id": "d5089ba7-2836-4b21-ac78-b7e16bbd990d",
       "ward_no": "12",
-      "ward_name_en": "Piusnagar",
-      "ward_name_ml": "പയസ്നഗര്‍"
+      "name_en": "Piusnagar",
+      "name_ml": "പയസ്നഗര്‍"
     },
     {
-      "ward_id": "45b06331-360b-4bfc-89ea-0e358da5070f",
+      "id": "45b06331-360b-4bfc-89ea-0e358da5070f",
       "ward_no": "13",
-      "ward_name_en": "Churakulam",
-      "ward_name_ml": "ചുരക്കുളം"
+      "name_en": "Churakulam",
+      "name_ml": "ചുരക്കുളം"
     }
   ],
   "towns": [],

@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G020503",
-  "local_body_name_en": "Alayamon",
-  "local_body_name_ml": "അലയമണ്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "122",
-    "assembly_name_en": "Chadayamangalam",
-    "assembly_name_ml": "ചടയമംഗലം",
+  "id": "G020503",
+  "name_en": "Alayamon",
+  "name_ml": "അലയമണ്‍",
+  "assembly_id": "122",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "122",
+    "name_en": "Chadayamangalam",
+    "name_ml": "ചടയമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "55863cb3-cd17-49cb-80c7-1269903944e8",
+      "id": "55863cb3-cd17-49cb-80c7-1269903944e8",
       "ward_no": "1",
-      "ward_name_en": "Kaithadi",
-      "ward_name_ml": "കൈതാടി"
+      "name_en": "Kaithadi",
+      "name_ml": "കൈതാടി"
     },
     {
-      "ward_id": "fa07ef43-a923-4c7b-8c6a-63bd38f8b578",
+      "id": "fa07ef43-a923-4c7b-8c6a-63bd38f8b578",
       "ward_no": "2",
-      "ward_name_en": "Kannamkodu",
-      "ward_name_ml": "കണ്ണംങ്കോട്"
+      "name_en": "Kannamkodu",
+      "name_ml": "കണ്ണംങ്കോട്"
     },
     {
-      "ward_id": "3b428dd4-7544-4622-b815-deabd6e18861",
+      "id": "3b428dd4-7544-4622-b815-deabd6e18861",
       "ward_no": "3",
-      "ward_name_en": "Thekkebhagam",
-      "ward_name_ml": "തെക്കേഭാഗം"
+      "name_en": "Thekkebhagam",
+      "name_ml": "തെക്കേഭാഗം"
     },
     {
-      "ward_id": "d1b6d021-8928-4bf7-ae3a-0578299207f7",
+      "id": "d1b6d021-8928-4bf7-ae3a-0578299207f7",
       "ward_no": "4",
-      "ward_name_en": "Kadavaram",
-      "ward_name_ml": "കടവറം"
+      "name_en": "Kadavaram",
+      "name_ml": "കടവറം"
     },
     {
-      "ward_id": "97e2d41d-8a37-4611-acd5-0a054d66b3c9",
+      "id": "97e2d41d-8a37-4611-acd5-0a054d66b3c9",
       "ward_no": "5",
-      "ward_name_en": "Kuttinadu",
-      "ward_name_ml": "കുട്ടിനാട്"
+      "name_en": "Kuttinadu",
+      "name_ml": "കുട്ടിനാട്"
     },
     {
-      "ward_id": "eca0180c-decc-46e8-95d6-27d896817af1",
+      "id": "eca0180c-decc-46e8-95d6-27d896817af1",
       "ward_no": "6",
-      "ward_name_en": "Moongodu",
-      "ward_name_ml": "മൂങ്ങോട്"
+      "name_en": "Moongodu",
+      "name_ml": "മൂങ്ങോട്"
     },
     {
-      "ward_id": "e79d4d2e-0832-4dc1-a7b2-db4bf2491d5e",
+      "id": "e79d4d2e-0832-4dc1-a7b2-db4bf2491d5e",
       "ward_no": "7",
-      "ward_name_en": "Anakkulam",
-      "ward_name_ml": "ആനക്കുളം"
+      "name_en": "Anakkulam",
+      "name_ml": "ആനക്കുളം"
     },
     {
-      "ward_id": "a5f44a70-575c-456b-886d-080e7dbfe687",
+      "id": "a5f44a70-575c-456b-886d-080e7dbfe687",
       "ward_no": "8",
-      "ward_name_en": "Channapetta",
-      "ward_name_ml": "ചണ്ണപ്പേട്ട"
+      "name_en": "Channapetta",
+      "name_ml": "ചണ്ണപ്പേട്ട"
     },
     {
-      "ward_id": "3c950c88-2c21-42c0-83f9-4d0f64f456d3",
+      "id": "3c950c88-2c21-42c0-83f9-4d0f64f456d3",
       "ward_no": "9",
-      "ward_name_en": "Manakkodu",
-      "ward_name_ml": "മണക്കോട്"
+      "name_en": "Manakkodu",
+      "name_ml": "മണക്കോട്"
     },
     {
-      "ward_id": "0c732639-a30c-4c00-9047-9cbd57929cad",
+      "id": "0c732639-a30c-4c00-9047-9cbd57929cad",
       "ward_no": "10",
-      "ward_name_en": "Meenkulam",
-      "ward_name_ml": "മീന്‍കുളം"
+      "name_en": "Meenkulam",
+      "name_ml": "മീന്‍കുളം"
     },
     {
-      "ward_id": "f517a557-ee14-478f-8647-530f05217e72",
+      "id": "f517a557-ee14-478f-8647-530f05217e72",
       "ward_no": "11",
-      "ward_name_en": "Karukone",
-      "ward_name_ml": "കരുകോണ്‍"
+      "name_en": "Karukone",
+      "name_ml": "കരുകോണ്‍"
     },
     {
-      "ward_id": "82f6dbb0-4dc6-4bf5-af4f-ce51dcece877",
+      "id": "82f6dbb0-4dc6-4bf5-af4f-ce51dcece877",
       "ward_no": "12",
-      "ward_name_en": "Pullanjiyodu",
-      "ward_name_ml": "പുല്ലാഞ്ഞിയോട്"
+      "name_en": "Pullanjiyodu",
+      "name_ml": "പുല്ലാഞ്ഞിയോട്"
     },
     {
-      "ward_id": "a04bf9e8-2b00-4b5d-84ac-6cf62f6ff2bb",
+      "id": "a04bf9e8-2b00-4b5d-84ac-6cf62f6ff2bb",
       "ward_no": "13",
-      "ward_name_en": "Puthayam",
-      "ward_name_ml": "പുത്തയം"
+      "name_en": "Puthayam",
+      "name_ml": "പുത്തയം"
     },
     {
-      "ward_id": "83d67fe8-6008-4a55-b007-1730a412d891",
+      "id": "83d67fe8-6008-4a55-b007-1730a412d891",
       "ward_no": "14",
-      "ward_name_en": "Alayamon",
-      "ward_name_ml": "അലയമണ്‍"
+      "name_en": "Alayamon",
+      "name_ml": "അലയമണ്‍"
     }
   ],
   "towns": [],

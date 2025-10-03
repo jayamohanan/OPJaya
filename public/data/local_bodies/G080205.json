@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G080205",
-  "local_body_name_en": "Kattakampal",
-  "local_body_name_ml": "കാട്ടകാമ്പാല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G080205",
+  "name_en": "Kattakampal",
+  "name_ml": "കാട്ടകാമ്പാല്‍",
+  "assembly_id": "62",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "62",
-    "assembly_name_en": "Kunnamkulam",
-    "assembly_name_ml": "കുന്നംകുളം",
-    "category": "Normal"
+    "id": "62",
+    "name_en": "Kunnamkulam",
+    "name_ml": "കുന്നംകുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a09fef5c-feef-49f4-8d24-90c7b0221f4e",
+      "id": "a09fef5c-feef-49f4-8d24-90c7b0221f4e",
       "ward_no": "1",
-      "ward_name_en": "Srayil",
-      "ward_name_ml": "സ്രായില്‍"
+      "name_en": "Srayil",
+      "name_ml": "സ്രായില്‍"
     },
     {
-      "ward_id": "a5f86e9d-db94-43a5-90ba-71a54b853169",
+      "id": "a5f86e9d-db94-43a5-90ba-71a54b853169",
       "ward_no": "2",
-      "ward_name_en": "Ramapuram",
-      "ward_name_ml": "രാമപുരം"
+      "name_en": "Ramapuram",
+      "name_ml": "രാമപുരം"
     },
     {
-      "ward_id": "9b900885-ce74-4da5-959d-5282288dfaf8",
+      "id": "9b900885-ce74-4da5-959d-5282288dfaf8",
       "ward_no": "3",
-      "ward_name_en": "Kariyambra",
-      "ward_name_ml": "കരിയാമ്പ്ര"
+      "name_en": "Kariyambra",
+      "name_ml": "കരിയാമ്പ്ര"
     },
     {
-      "ward_id": "58d95d1a-9d26-4d2e-8ab1-8ad838348c58",
+      "id": "58d95d1a-9d26-4d2e-8ab1-8ad838348c58",
       "ward_no": "4",
-      "ward_name_en": "Perunthuruthy",
-      "ward_name_ml": "പെരുന്തുരുത്തി"
+      "name_en": "Perunthuruthy",
+      "name_ml": "പെരുന്തുരുത്തി"
     },
     {
-      "ward_id": "4ba3b9d1-95a2-41ab-8ca5-fba4a746d580",
+      "id": "4ba3b9d1-95a2-41ab-8ca5-fba4a746d580",
       "ward_no": "5",
-      "ward_name_en": "Cheruthuruthy",
-      "ward_name_ml": "ചെറുതുരുത്തി"
+      "name_en": "Cheruthuruthy",
+      "name_ml": "ചെറുതുരുത്തി"
     },
     {
-      "ward_id": "31f9574f-5787-4487-b702-2a8e1e8bb2a4",
+      "id": "31f9574f-5787-4487-b702-2a8e1e8bb2a4",
       "ward_no": "6",
-      "ward_name_en": "Ayinoor West",
-      "ward_name_ml": "അയിനൂര്‍ വെസ്റ്റ്"
+      "name_en": "Ayinoor West",
+      "name_ml": "അയിനൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "0439b515-38d8-4626-abb1-abae7a573b19",
+      "id": "0439b515-38d8-4626-abb1-abae7a573b19",
       "ward_no": "7",
-      "ward_name_en": "Ayinoor East",
-      "ward_name_ml": "അയിനൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Ayinoor East",
+      "name_ml": "അയിനൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "e9905daf-11ac-4809-8c8f-e963413bb555",
+      "id": "e9905daf-11ac-4809-8c8f-e963413bb555",
       "ward_no": "8",
-      "ward_name_en": "Kottol",
-      "ward_name_ml": "കോട്ടോല്‍"
+      "name_en": "Kottol",
+      "name_ml": "കോട്ടോല്‍"
     },
     {
-      "ward_id": "49733383-b400-4f5e-804e-38e4bc137f50",
+      "id": "49733383-b400-4f5e-804e-38e4bc137f50",
       "ward_no": "9",
-      "ward_name_en": "Pazhanji",
-      "ward_name_ml": "പഴഞ്ഞി"
+      "name_en": "Pazhanji",
+      "name_ml": "പഴഞ്ഞി"
     },
     {
-      "ward_id": "7e446657-fcf8-4030-9435-76ec3c33e5d1",
+      "id": "7e446657-fcf8-4030-9435-76ec3c33e5d1",
       "ward_no": "10",
-      "ward_name_en": "Jerusalem",
-      "ward_name_ml": "ജെറുശലേം"
+      "name_en": "Jerusalem",
+      "name_ml": "ജെറുശലേം"
     },
     {
-      "ward_id": "90edd900-b126-4a3d-8488-380fd2b37d75",
+      "id": "90edd900-b126-4a3d-8488-380fd2b37d75",
       "ward_no": "11",
-      "ward_name_en": "Pattithadam",
-      "ward_name_ml": "പട്ടിത്തടം"
+      "name_en": "Pattithadam",
+      "name_ml": "പട്ടിത്തടം"
     },
     {
-      "ward_id": "4f1d9721-69d3-47e5-a88a-0ee05c2495e9",
+      "id": "4f1d9721-69d3-47e5-a88a-0ee05c2495e9",
       "ward_no": "12",
-      "ward_name_en": "Mooleppatt",
-      "ward_name_ml": "മൂലേപ്പാട്"
+      "name_en": "Mooleppatt",
+      "name_ml": "മൂലേപ്പാട്"
     },
     {
-      "ward_id": "8fd1c5ec-aaff-4b4c-9637-a08bce0e8a9b",
+      "id": "8fd1c5ec-aaff-4b4c-9637-a08bce0e8a9b",
       "ward_no": "13",
-      "ward_name_en": "Pengamuck",
-      "ward_name_ml": "പെങ്ങാമുക്ക്"
+      "name_en": "Pengamuck",
+      "name_ml": "പെങ്ങാമുക്ക്"
     },
     {
-      "ward_id": "98f4f702-4211-472b-9242-a9ab9426fdd6",
+      "id": "98f4f702-4211-472b-9242-a9ab9426fdd6",
       "ward_no": "14",
-      "ward_name_en": "Kanjirathingal",
-      "ward_name_ml": "കാഞ്ഞിരത്തിങ്കല്‍"
+      "name_en": "Kanjirathingal",
+      "name_ml": "കാഞ്ഞിരത്തിങ്കല്‍"
     },
     {
-      "ward_id": "e1578a94-1bc6-4929-b6ff-e3dd5dd4766d",
+      "id": "e1578a94-1bc6-4929-b6ff-e3dd5dd4766d",
       "ward_no": "15",
-      "ward_name_en": "Chirakkal",
-      "ward_name_ml": "ചിറക്കല്‍"
+      "name_en": "Chirakkal",
+      "name_ml": "ചിറക്കല്‍"
     },
     {
-      "ward_id": "4122630c-c11f-4ec1-b6fb-3ec97c0398cf",
+      "id": "4122630c-c11f-4ec1-b6fb-3ec97c0398cf",
       "ward_no": "16",
-      "ward_name_en": "Palattumury",
-      "ward_name_ml": "പലാട്ടുമുറി"
+      "name_en": "Palattumury",
+      "name_ml": "പലാട്ടുമുറി"
     }
   ],
   "towns": [],

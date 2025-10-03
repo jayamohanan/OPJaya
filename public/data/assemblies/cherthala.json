@@ -1,62 +1,83 @@
 {
-  "assembly_id": "103",
-  "assembly_name_en": "Cherthala",
-  "assembly_name_ml": "ചേർത്തല",
-  "category": "Normal",
+  "id": "103",
+  "name_en": "Cherthala",
+  "name_ml": "ചേർത്തല",
+  "district_id": "4",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "district_category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M040300",
-      "local_body_name_en": "Cherthala",
-      "local_body_name_ml": "ചേര്‍ത്തല",
-      "category": "Good"
+      "id": "M040300",
+      "name_en": "Cherthala",
+      "name_ml": "ചേര്‍ത്തല",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040304",
-      "local_body_name_en": "Cherthala South",
-      "local_body_name_ml": "ചേര്‍ത്തല തെക്ക്",
-      "category": "Perfect"
+      "id": "G040304",
+      "name_en": "Cherthala South",
+      "name_ml": "ചേര്‍ത്തല തെക്ക്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040305",
-      "local_body_name_en": "Kadakkarappally",
-      "local_body_name_ml": "കടക്കരപ്പള്ളി",
-      "category": "Normal"
+      "id": "G040305",
+      "name_en": "Kadakkarappally",
+      "name_ml": "കടക്കരപ്പള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040302",
-      "local_body_name_en": "Kanjikuzhy",
-      "local_body_name_ml": "കഞ്ഞിക്കുഴി",
-      "category": "Normal"
+      "id": "G040302",
+      "name_en": "Kanjikuzhy",
+      "name_ml": "കഞ്ഞിക്കുഴി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040404",
-      "local_body_name_en": "Muhamma",
-      "local_body_name_ml": "മുഹമ്മ",
-      "category": "Normal"
+      "id": "G040404",
+      "name_en": "Muhamma",
+      "name_ml": "മുഹമ്മ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040202",
-      "local_body_name_en": "Pattanakkad",
-      "local_body_name_ml": "പട്ടണക്കാട്",
-      "category": "Perfect"
+      "id": "G040202",
+      "name_en": "Pattanakkad",
+      "name_ml": "പട്ടണക്കാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040303",
-      "local_body_name_en": "Thanneermukkom",
-      "local_body_name_ml": "തണ്ണീര്‍മുക്കം",
-      "category": "Normal"
+      "id": "G040303",
+      "name_en": "Thanneermukkom",
+      "name_ml": "തണ്ണീര്‍മുക്കം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040201",
-      "local_body_name_en": "Vayalar",
-      "local_body_name_ml": "വയലാര്‍",
-      "category": "Normal"
+      "id": "G040201",
+      "name_en": "Vayalar",
+      "name_ml": "വയലാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

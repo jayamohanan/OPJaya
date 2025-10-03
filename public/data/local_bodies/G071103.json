@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G071103",
-  "local_body_name_en": "Pindimana",
-  "local_body_name_ml": "പിണ്ടിമന",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "87",
-    "assembly_name_en": "Kothamangalam",
-    "assembly_name_ml": "കോതമംഗലം",
+  "id": "G071103",
+  "name_en": "Pindimana",
+  "name_ml": "പിണ്ടിമന",
+  "assembly_id": "87",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "87",
+    "name_en": "Kothamangalam",
+    "name_ml": "കോതമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4887e300-7571-4fac-8959-a37d9d4c41a8",
+      "id": "4887e300-7571-4fac-8959-a37d9d4c41a8",
       "ward_no": "1",
-      "ward_name_en": "Vettampara",
-      "ward_name_ml": "വേട്ടാമ്പാറ"
+      "name_en": "Vettampara",
+      "name_ml": "വേട്ടാമ്പാറ"
     },
     {
-      "ward_id": "10275abd-f5d5-4706-9e2b-167c15a46e51",
+      "id": "10275abd-f5d5-4706-9e2b-167c15a46e51",
       "ward_no": "2",
-      "ward_name_en": "Bhoothathankettu",
-      "ward_name_ml": "ഭൂതത്താന്‍കെട്ട്"
+      "name_en": "Bhoothathankettu",
+      "name_ml": "ഭൂതത്താന്‍കെട്ട്"
     },
     {
-      "ward_id": "6c69b35f-fb71-4087-83aa-953e118acd66",
+      "id": "6c69b35f-fb71-4087-83aa-953e118acd66",
       "ward_no": "3",
-      "ward_name_en": "Nadodi",
-      "ward_name_ml": "നാടോടി"
+      "name_en": "Nadodi",
+      "name_ml": "നാടോടി"
     },
     {
-      "ward_id": "ddf6d3e7-f94e-4da7-b77b-c28b9e0ece5e",
+      "id": "ddf6d3e7-f94e-4da7-b77b-c28b9e0ece5e",
       "ward_no": "4",
-      "ward_name_en": "Chelad",
-      "ward_name_ml": "ചേലാട്"
+      "name_en": "Chelad",
+      "name_ml": "ചേലാട്"
     },
     {
-      "ward_id": "5ccf7bf3-e96e-416a-8063-68dac76b2f96",
+      "id": "5ccf7bf3-e96e-416a-8063-68dac76b2f96",
       "ward_no": "5",
-      "ward_name_en": "Pazhangara",
-      "ward_name_ml": "പഴങ്ങര"
+      "name_en": "Pazhangara",
+      "name_ml": "പഴങ്ങര"
     },
     {
-      "ward_id": "393a88ba-3d33-49b2-a124-aa62a0623f82",
+      "id": "393a88ba-3d33-49b2-a124-aa62a0623f82",
       "ward_no": "6",
-      "ward_name_en": "Padammali",
-      "ward_name_ml": "പാടംമാലി"
+      "name_en": "Padammali",
+      "name_ml": "പാടംമാലി"
     },
     {
-      "ward_id": "51dc6042-e36f-4a12-befc-32ab21533483",
+      "id": "51dc6042-e36f-4a12-befc-32ab21533483",
       "ward_no": "7",
-      "ward_name_en": "Pindimana",
-      "ward_name_ml": "പിണ്ടിമന"
+      "name_en": "Pindimana",
+      "name_ml": "പിണ്ടിമന"
     },
     {
-      "ward_id": "4d3d7c9b-375e-4776-ad57-67ea94951962",
+      "id": "4d3d7c9b-375e-4776-ad57-67ea94951962",
       "ward_no": "8",
-      "ward_name_en": "Ayakkad",
-      "ward_name_ml": "ആയക്കാട്"
+      "name_en": "Ayakkad",
+      "name_ml": "ആയക്കാട്"
     },
     {
-      "ward_id": "10ee8047-e0fa-49d0-9a64-54074b99f2c0",
+      "id": "10ee8047-e0fa-49d0-9a64-54074b99f2c0",
       "ward_no": "9",
-      "ward_name_en": "Pulimala",
-      "ward_name_ml": "പുലിമല"
+      "name_en": "Pulimala",
+      "name_ml": "പുലിമല"
     },
     {
-      "ward_id": "77c24f7e-1a9a-4a39-87db-a9e6318c8dd1",
+      "id": "77c24f7e-1a9a-4a39-87db-a9e6318c8dd1",
       "ward_no": "10",
-      "ward_name_en": "Ayroorpadam",
-      "ward_name_ml": "അയിരൂര്‍പ്പാടം"
+      "name_en": "Ayroorpadam",
+      "name_ml": "അയിരൂര്‍പ്പാടം"
     },
     {
-      "ward_id": "8ffafb51-3b24-481a-9459-010402fea30e",
+      "id": "8ffafb51-3b24-481a-9459-010402fea30e",
       "ward_no": "11",
-      "ward_name_en": "Muthamkuzhy",
-      "ward_name_ml": "മുത്തംകുഴി"
+      "name_en": "Muthamkuzhy",
+      "name_ml": "മുത്തംകുഴി"
     },
     {
-      "ward_id": "e684b776-508a-409a-9b45-c22f149257f0",
+      "id": "e684b776-508a-409a-9b45-c22f149257f0",
       "ward_no": "12",
-      "ward_name_en": "Vettilappara",
-      "ward_name_ml": "വെറ്റിലപ്പാറ"
+      "name_en": "Vettilappara",
+      "name_ml": "വെറ്റിലപ്പാറ"
     },
     {
-      "ward_id": "d549fc1e-2f54-4734-bc7a-074b89370070",
+      "id": "d549fc1e-2f54-4734-bc7a-074b89370070",
       "ward_no": "13",
-      "ward_name_en": "Malippara",
-      "ward_name_ml": "മാലിപ്പാറ"
+      "name_en": "Malippara",
+      "name_ml": "മാലിപ്പാറ"
     }
   ],
   "towns": [],

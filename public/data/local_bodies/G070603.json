@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G070603",
-  "local_body_name_en": "Mulavukad",
-  "local_body_name_ml": "മുളവുകാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G070603",
+  "name_en": "Mulavukad",
+  "name_ml": "മുളവുകാട്",
+  "assembly_id": "79",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "79",
-    "assembly_name_en": "Vypin",
-    "assembly_name_ml": "വൈപ്പിൻ",
-    "category": "Normal"
+    "id": "79",
+    "name_en": "Vypin",
+    "name_ml": "വൈപ്പിൻ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f892252c-d9eb-4b45-b51e-f8813dfe7237",
+      "id": "f892252c-d9eb-4b45-b51e-f8813dfe7237",
       "ward_no": "1",
-      "ward_name_en": "Panambukad North",
-      "ward_name_ml": "പനമ്പുകാട് വടക്ക്"
+      "name_en": "Panambukad North",
+      "name_ml": "പനമ്പുകാട് വടക്ക്"
     },
     {
-      "ward_id": "570631c3-bd53-46f8-be67-ec7e3864ed7f",
+      "id": "570631c3-bd53-46f8-be67-ec7e3864ed7f",
       "ward_no": "2",
-      "ward_name_en": "Mulavukad North",
-      "ward_name_ml": "മുളവുകാട് വടക്ക്"
+      "name_en": "Mulavukad North",
+      "name_ml": "മുളവുകാട് വടക്ക്"
     },
     {
-      "ward_id": "dbba44e8-3a40-47b4-9dd3-31909a810833",
+      "id": "dbba44e8-3a40-47b4-9dd3-31909a810833",
       "ward_no": "3",
-      "ward_name_en": "Tower Line",
-      "ward_name_ml": "ടവര്‍ ലൈന്‍"
+      "name_en": "Tower Line",
+      "name_ml": "ടവര്‍ ലൈന്‍"
     },
     {
-      "ward_id": "83464ab4-a21b-4b03-b37f-c054553dd336",
+      "id": "83464ab4-a21b-4b03-b37f-c054553dd336",
       "ward_no": "4",
-      "ward_name_en": "Keraleswarapuram",
-      "ward_name_ml": "കേരളേശ്വരപുരം"
+      "name_en": "Keraleswarapuram",
+      "name_ml": "കേരളേശ്വരപുരം"
     },
     {
-      "ward_id": "f71089a6-d245-407f-919d-1d0cbc28b8d9",
+      "id": "f71089a6-d245-407f-919d-1d0cbc28b8d9",
       "ward_no": "5",
-      "ward_name_en": "Vattekkatt",
-      "ward_name_ml": "വട്ടേക്കാട്ട്"
+      "name_en": "Vattekkatt",
+      "name_ml": "വട്ടേക്കാട്ട്"
     },
     {
-      "ward_id": "ec96db19-e2f6-402f-92f0-d0714758c773",
+      "id": "ec96db19-e2f6-402f-92f0-d0714758c773",
       "ward_no": "6",
-      "ward_name_en": "St. Mary'S",
-      "ward_name_ml": "സെന്‍റ് മേരീസ്"
+      "name_en": "St. Mary'S",
+      "name_ml": "സെന്‍റ് മേരീസ്"
     },
     {
-      "ward_id": "c13d3ab3-bd3c-4e57-8596-716ad32c36ff",
+      "id": "c13d3ab3-bd3c-4e57-8596-716ad32c36ff",
       "ward_no": "7",
-      "ward_name_en": "Hospital",
-      "ward_name_ml": "ഹോസ്പിറ്റല്‍"
+      "name_en": "Hospital",
+      "name_ml": "ഹോസ്പിറ്റല്‍"
     },
     {
-      "ward_id": "03ecac6c-72f9-49dd-b65b-22cda07953e7",
+      "id": "03ecac6c-72f9-49dd-b65b-22cda07953e7",
       "ward_no": "8",
-      "ward_name_en": "Thandassery",
-      "ward_name_ml": "തണ്ടാശ്ശേരി"
+      "name_en": "Thandassery",
+      "name_ml": "തണ്ടാശ്ശേരി"
     },
     {
-      "ward_id": "887d2041-f792-4e63-9d3c-7f4d7fca48a1",
+      "id": "887d2041-f792-4e63-9d3c-7f4d7fca48a1",
       "ward_no": "9",
-      "ward_name_en": "Water Tank",
-      "ward_name_ml": "വാട്ടര്‍ ടാങ്ക്"
+      "name_en": "Water Tank",
+      "name_ml": "വാട്ടര്‍ ടാങ്ക്"
     },
     {
-      "ward_id": "36fd948d-ea3b-40d6-b40e-6e560f3f62d7",
+      "id": "36fd948d-ea3b-40d6-b40e-6e560f3f62d7",
       "ward_no": "10",
-      "ward_name_en": "Ponnarimangalam",
-      "ward_name_ml": "പൊന്നാരിമംഗലം"
+      "name_en": "Ponnarimangalam",
+      "name_ml": "പൊന്നാരിമംഗലം"
     },
     {
-      "ward_id": "fbb68f92-ce78-4e43-a957-602e09e9c80f",
+      "id": "fbb68f92-ce78-4e43-a957-602e09e9c80f",
       "ward_no": "11",
-      "ward_name_en": "Ponjikkara",
-      "ward_name_ml": "പോഞ്ഞിക്കര"
+      "name_en": "Ponjikkara",
+      "name_ml": "പോഞ്ഞിക്കര"
     },
     {
-      "ward_id": "48401d23-a140-4a42-b07f-f2c44d66674e",
+      "id": "48401d23-a140-4a42-b07f-f2c44d66674e",
       "ward_no": "12",
-      "ward_name_en": "Bolghatty",
-      "ward_name_ml": "ബോള്‍ഗാട്ടി"
+      "name_en": "Bolghatty",
+      "name_ml": "ബോള്‍ഗാട്ടി"
     },
     {
-      "ward_id": "deaafe67-47bf-4e95-860c-25eba17945b8",
+      "id": "deaafe67-47bf-4e95-860c-25eba17945b8",
       "ward_no": "13",
-      "ward_name_en": "Vallarpadam",
-      "ward_name_ml": "വല്ലാര്‍പാടം"
+      "name_en": "Vallarpadam",
+      "name_ml": "വല്ലാര്‍പാടം"
     },
     {
-      "ward_id": "b2a65e73-d81c-4bcb-b7b5-8d4cc80e4ccd",
+      "id": "b2a65e73-d81c-4bcb-b7b5-8d4cc80e4ccd",
       "ward_no": "14",
-      "ward_name_en": "T. V. Centre",
-      "ward_name_ml": "ടി. വി. സെന്‍റര്‍"
+      "name_en": "T. V. Centre",
+      "name_ml": "ടി. വി. സെന്‍റര്‍"
     },
     {
-      "ward_id": "9fa3eeb2-1944-4223-9f93-ad41cb208337",
+      "id": "9fa3eeb2-1944-4223-9f93-ad41cb208337",
       "ward_no": "15",
-      "ward_name_en": "Adikkandam",
-      "ward_name_ml": "അടിക്കണ്ടം"
+      "name_en": "Adikkandam",
+      "name_ml": "അടിക്കണ്ടം"
     },
     {
-      "ward_id": "9a480492-d6c3-4b90-afd7-091d15231ac8",
+      "id": "9a480492-d6c3-4b90-afd7-091d15231ac8",
       "ward_no": "16",
-      "ward_name_en": "Ambedkar Gramam",
-      "ward_name_ml": "അംബേദ്കര്‍ ഗ്രാമം"
+      "name_en": "Ambedkar Gramam",
+      "name_ml": "അംബേദ്കര്‍ ഗ്രാമം"
     }
   ],
   "towns": [],

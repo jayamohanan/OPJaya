@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G130409",
-  "local_body_name_en": "Ulikkal",
-  "local_body_name_ml": "ഉളിക്കല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G130409",
+  "name_en": "Ulikkal",
+  "name_ml": "ഉളിക്കല്‍",
+  "assembly_id": "9",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "9",
-    "assembly_name_en": "Irikkur",
-    "assembly_name_ml": "ഇരിക്കൂര്‍",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Irikkur",
+    "name_ml": "ഇരിക്കൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "da08aaab-3dc6-4bc0-8781-7d9b2e8e230f",
+      "id": "da08aaab-3dc6-4bc0-8781-7d9b2e8e230f",
       "ward_no": "1",
-      "ward_name_en": "Manikkadavu North",
-      "ward_name_ml": "മണിക്കടവ് നോര്‍ത്ത്"
+      "name_en": "Manikkadavu North",
+      "name_ml": "മണിക്കടവ് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "a31bb9bd-5d22-482b-bc1f-e0853c84db1c",
+      "id": "a31bb9bd-5d22-482b-bc1f-e0853c84db1c",
       "ward_no": "2",
-      "ward_name_en": "Mattara",
-      "ward_name_ml": "മാട്ടറ"
+      "name_en": "Mattara",
+      "name_ml": "മാട്ടറ"
     },
     {
-      "ward_id": "4a645d47-7c18-47a7-ae5e-94149976a3d2",
+      "id": "4a645d47-7c18-47a7-ae5e-94149976a3d2",
       "ward_no": "3",
-      "ward_name_en": "Kalanki",
-      "ward_name_ml": "കാലാങ്കി"
+      "name_en": "Kalanki",
+      "name_ml": "കാലാങ്കി"
     },
     {
-      "ward_id": "c00331f6-cd35-4307-8d10-bebf30e7e945",
+      "id": "c00331f6-cd35-4307-8d10-bebf30e7e945",
       "ward_no": "4",
-      "ward_name_en": "Kolithattu",
-      "ward_name_ml": "കോളിത്തട്ട്"
+      "name_en": "Kolithattu",
+      "name_ml": "കോളിത്തട്ട്"
     },
     {
-      "ward_id": "83856238-6279-4a33-b181-bb76d1a8a040",
+      "id": "83856238-6279-4a33-b181-bb76d1a8a040",
       "ward_no": "5",
-      "ward_name_en": "Thottippalam",
-      "ward_name_ml": "തൊട്ടിപ്പാലം"
+      "name_en": "Thottippalam",
+      "name_ml": "തൊട്ടിപ്പാലം"
     },
     {
-      "ward_id": "9dc18715-fa91-46e7-897d-6416d5407f2a",
+      "id": "9dc18715-fa91-46e7-897d-6416d5407f2a",
       "ward_no": "6",
-      "ward_name_en": "Peratta",
-      "ward_name_ml": "പേരട്ട"
+      "name_en": "Peratta",
+      "name_ml": "പേരട്ട"
     },
     {
-      "ward_id": "15e88846-0563-44b5-ae9a-20d6970f3a87",
+      "id": "15e88846-0563-44b5-ae9a-20d6970f3a87",
       "ward_no": "7",
-      "ward_name_en": "Arabi",
-      "ward_name_ml": "അറബി"
+      "name_en": "Arabi",
+      "name_ml": "അറബി"
     },
     {
-      "ward_id": "4428b554-d881-43f3-a4ab-217c243e73d7",
+      "id": "4428b554-d881-43f3-a4ab-217c243e73d7",
       "ward_no": "8",
-      "ward_name_en": "Vattiyamthode",
-      "ward_name_ml": "വട്ട്യാംതോട്"
+      "name_en": "Vattiyamthode",
+      "name_ml": "വട്ട്യാംതോട്"
     },
     {
-      "ward_id": "108d274d-1d18-4497-be9d-82115913f79c",
+      "id": "108d274d-1d18-4497-be9d-82115913f79c",
       "ward_no": "9",
-      "ward_name_en": "Kathuvaparamba",
-      "ward_name_ml": "കതുവാപറമ്പ്"
+      "name_en": "Kathuvaparamba",
+      "name_ml": "കതുവാപറമ്പ്"
     },
     {
-      "ward_id": "4e40ace6-4b4e-46ea-aa30-cafbc1acd4d6",
+      "id": "4e40ace6-4b4e-46ea-aa30-cafbc1acd4d6",
       "ward_no": "10",
-      "ward_name_en": "Vayathur",
-      "ward_name_ml": "വയത്തൂര്‍"
+      "name_en": "Vayathur",
+      "name_ml": "വയത്തൂര്‍"
     },
     {
-      "ward_id": "b11f1daf-041b-4f7c-84b0-caaf6da601f2",
+      "id": "b11f1daf-041b-4f7c-84b0-caaf6da601f2",
       "ward_no": "11",
-      "ward_name_en": "Ulikkal West",
-      "ward_name_ml": "ഉളിക്കല്‍ വെസ്റ്റ്"
+      "name_en": "Ulikkal West",
+      "name_ml": "ഉളിക്കല്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "6cf36e35-8f1e-42ea-8b39-4f59f940996e",
+      "id": "6cf36e35-8f1e-42ea-8b39-4f59f940996e",
       "ward_no": "12",
-      "ward_name_en": "Ulikkal East",
-      "ward_name_ml": "ഉളിക്കല്‍ ഈസ്റ്റ്"
+      "name_en": "Ulikkal East",
+      "name_ml": "ഉളിക്കല്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "ae055932-318d-4fcd-9c0b-6cf7d8307660",
+      "id": "ae055932-318d-4fcd-9c0b-6cf7d8307660",
       "ward_no": "13",
-      "ward_name_en": "Nellicampoyil",
-      "ward_name_ml": "നെല്ലിക്കാംപോയില്‍"
+      "name_en": "Nellicampoyil",
+      "name_ml": "നെല്ലിക്കാംപോയില്‍"
     },
     {
-      "ward_id": "fe59c740-59b0-4ab4-92dc-81739a14a2ca",
+      "id": "fe59c740-59b0-4ab4-92dc-81739a14a2ca",
       "ward_no": "14",
-      "ward_name_en": "Ezhoor",
-      "ward_name_ml": "ഏഴുര്‍"
+      "name_en": "Ezhoor",
+      "name_ml": "ഏഴുര്‍"
     },
     {
-      "ward_id": "0c598a06-6f2f-4efd-aefe-95a7ca7862d2",
+      "id": "0c598a06-6f2f-4efd-aefe-95a7ca7862d2",
       "ward_no": "15",
-      "ward_name_en": "Thermala",
-      "ward_name_ml": "തേര്‍മല"
+      "name_en": "Thermala",
+      "name_ml": "തേര്‍മല"
     },
     {
-      "ward_id": "6f6d8048-2ed4-4de2-9c6a-9d6804a5dc16",
+      "id": "6f6d8048-2ed4-4de2-9c6a-9d6804a5dc16",
       "ward_no": "16",
-      "ward_name_en": "Mundanoor",
-      "ward_name_ml": "മുണ്ടാനൂര്‍"
+      "name_en": "Mundanoor",
+      "name_ml": "മുണ്ടാനൂര്‍"
     },
     {
-      "ward_id": "f3264a8e-6083-43f6-bd82-1093bb5b49dc",
+      "id": "f3264a8e-6083-43f6-bd82-1093bb5b49dc",
       "ward_no": "17",
-      "ward_name_en": "Nuchiyad",
-      "ward_name_ml": "നുച്ച്യാട്"
+      "name_en": "Nuchiyad",
+      "name_ml": "നുച്ച്യാട്"
     },
     {
-      "ward_id": "f0754d49-2300-4b18-9bb1-8c0a4224c784",
+      "id": "f0754d49-2300-4b18-9bb1-8c0a4224c784",
       "ward_no": "18",
-      "ward_name_en": "Manipara",
-      "ward_name_ml": "മണിപ്പാറ"
+      "name_en": "Manipara",
+      "name_ml": "മണിപ്പാറ"
     },
     {
-      "ward_id": "76212e55-e8eb-44b8-9721-700c4f61053e",
+      "id": "76212e55-e8eb-44b8-9721-700c4f61053e",
       "ward_no": "19",
-      "ward_name_en": "Perumpally",
-      "ward_name_ml": "പെരുമ്പള്ളി"
+      "name_en": "Perumpally",
+      "name_ml": "പെരുമ്പള്ളി"
     },
     {
-      "ward_id": "04e79daa-f9c9-4625-9479-2bd5ec4070b6",
+      "id": "04e79daa-f9c9-4625-9479-2bd5ec4070b6",
       "ward_no": "20",
-      "ward_name_en": "Manikkadavu South",
-      "ward_name_ml": "മണിക്കടവ് സൌത്ത്"
+      "name_en": "Manikkadavu South",
+      "name_ml": "മണിക്കടവ് സൌത്ത്"
     }
   ],
   "towns": [],

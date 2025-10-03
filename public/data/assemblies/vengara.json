@@ -1,50 +1,67 @@
 {
-  "assembly_id": "41",
-  "assembly_name_en": "Vengara",
-  "assembly_name_ml": "വേങ്ങര",
-  "category": "Normal",
+  "id": "41",
+  "name_en": "Vengara",
+  "name_ml": "വേങ്ങര",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G101001",
-      "local_body_name_en": "ARNagar",
-      "local_body_name_ml": "അബ്ദുറഹിമാന്‍-നഗര്‍",
-      "category": "Normal"
+      "id": "G101001",
+      "name_en": "ARNagar",
+      "name_ml": "അബ്ദുറഹിമാന്‍-നഗര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101006",
-      "local_body_name_en": "Kannamangalam",
-      "local_body_name_ml": "കണ്ണമംഗലം",
-      "category": "Good"
+      "id": "G101006",
+      "name_en": "Kannamangalam",
+      "name_ml": "കണ്ണമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101007",
-      "local_body_name_en": "Oorakam",
-      "local_body_name_ml": "ഊരകം",
-      "category": "Good"
+      "id": "G101007",
+      "name_en": "Oorakam",
+      "name_ml": "ഊരകം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100606",
-      "local_body_name_en": "Othukkungal",
-      "local_body_name_ml": "ഒതുക്കുങ്ങല്‍",
-      "category": "Good"
+      "id": "G100606",
+      "name_en": "Othukkungal",
+      "name_ml": "ഒതുക്കുങ്ങല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101003",
-      "local_body_name_en": "Parappur",
-      "local_body_name_ml": "പറപ്പൂര്‍",
-      "category": "Perfect"
+      "id": "G101003",
+      "name_en": "Parappur",
+      "name_ml": "പറപ്പൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G101005",
-      "local_body_name_en": "Vengara",
-      "local_body_name_ml": "വേങ്ങര",
-      "category": "Normal"
+      "id": "G101005",
+      "name_en": "Vengara",
+      "name_ml": "വേങ്ങര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

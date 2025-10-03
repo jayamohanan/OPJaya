@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G120104",
-  "local_body_name_en": "Thondernad",
-  "local_body_name_ml": "തൊണ്ടര്‍നാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "17",
-    "assembly_name_en": "Mananthavady",
-    "assembly_name_ml": "മാനന്തവാടി",
+  "id": "G120104",
+  "name_en": "Thondernad",
+  "name_ml": "തൊണ്ടര്‍നാട്",
+  "assembly_id": "17",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "17",
+    "name_en": "Mananthavady",
+    "name_ml": "മാനന്തവാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f650e1d6-152f-4e5f-b3d2-232f1d822ccd",
+      "id": "f650e1d6-152f-4e5f-b3d2-232f1d822ccd",
       "ward_no": "1",
-      "ward_name_en": "Kunhome",
-      "ward_name_ml": "കുഞ്ഞോം"
+      "name_en": "Kunhome",
+      "name_ml": "കുഞ്ഞോം"
     },
     {
-      "ward_id": "7cf0ca0f-d68b-4624-b88c-7612a87ca0d9",
+      "id": "7cf0ca0f-d68b-4624-b88c-7612a87ca0d9",
       "ward_no": "2",
-      "ward_name_en": "Porlome",
-      "ward_name_ml": "പോര്‍ളോം"
+      "name_en": "Porlome",
+      "name_ml": "പോര്‍ളോം"
     },
     {
-      "ward_id": "ee38aff2-c51d-4990-95a0-f22418869f48",
+      "id": "ee38aff2-c51d-4990-95a0-f22418869f48",
       "ward_no": "3",
-      "ward_name_en": "Karimbil",
-      "ward_name_ml": "കരിമ്പില്‍"
+      "name_en": "Karimbil",
+      "name_ml": "കരിമ്പില്‍"
     },
     {
-      "ward_id": "654bac7c-7da6-4372-9976-caca912de75f",
+      "id": "654bac7c-7da6-4372-9976-caca912de75f",
       "ward_no": "4",
-      "ward_name_en": "Palery",
-      "ward_name_ml": "പാലേരി"
+      "name_en": "Palery",
+      "name_ml": "പാലേരി"
     },
     {
-      "ward_id": "ea6e10f5-b727-4b1b-95ac-b702a0c70c90",
+      "id": "ea6e10f5-b727-4b1b-95ac-b702a0c70c90",
       "ward_no": "5",
-      "ward_name_en": "Vanhode",
-      "ward_name_ml": "വഞ്ഞോട്"
+      "name_en": "Vanhode",
+      "name_ml": "വഞ്ഞോട്"
     },
     {
-      "ward_id": "f3271dfa-6a38-4766-b827-7c2f445b34df",
+      "id": "f3271dfa-6a38-4766-b827-7c2f445b34df",
       "ward_no": "6",
-      "ward_name_en": "Puthussery",
-      "ward_name_ml": "പുതുശ്ശേരി"
+      "name_en": "Puthussery",
+      "name_ml": "പുതുശ്ശേരി"
     },
     {
-      "ward_id": "94b6f2e5-7e9a-41d8-b10c-4a966d405b37",
+      "id": "94b6f2e5-7e9a-41d8-b10c-4a966d405b37",
       "ward_no": "7",
-      "ward_name_en": "Thettamala",
-      "ward_name_ml": "തേറ്റമല"
+      "name_en": "Thettamala",
+      "name_ml": "തേറ്റമല"
     },
     {
-      "ward_id": "2a7e7b28-1640-4093-94eb-dfc1d878c011",
+      "id": "2a7e7b28-1640-4093-94eb-dfc1d878c011",
       "ward_no": "8",
-      "ward_name_en": "Pallikkunnu",
-      "ward_name_ml": "പളളിക്കുന്ന്"
+      "name_en": "Pallikkunnu",
+      "name_ml": "പളളിക്കുന്ന്"
     },
     {
-      "ward_id": "9397fdeb-c4eb-4faa-a2c6-369abf1670e5",
+      "id": "9397fdeb-c4eb-4faa-a2c6-369abf1670e5",
       "ward_no": "9",
-      "ward_name_en": "Velliladi",
-      "ward_name_ml": "വെളളിലാടി"
+      "name_en": "Velliladi",
+      "name_ml": "വെളളിലാടി"
     },
     {
-      "ward_id": "8a585538-16ea-4964-a453-281819453b1e",
+      "id": "8a585538-16ea-4964-a453-281819453b1e",
       "ward_no": "10",
-      "ward_name_en": "Kanhirangade",
-      "ward_name_ml": "കാഞ്ഞിരങ്ങാട്"
+      "name_en": "Kanhirangade",
+      "name_ml": "കാഞ്ഞിരങ്ങാട്"
     },
     {
-      "ward_id": "ec44555a-3290-4350-af1d-d20d72c905ed",
+      "id": "ec44555a-3290-4350-af1d-d20d72c905ed",
       "ward_no": "11",
-      "ward_name_en": "Makkiyad",
-      "ward_name_ml": "മക്കിയാട്"
+      "name_en": "Makkiyad",
+      "name_ml": "മക്കിയാട്"
     },
     {
-      "ward_id": "e192724c-5d4e-4e7b-8fcd-848bb3e51522",
+      "id": "e192724c-5d4e-4e7b-8fcd-848bb3e51522",
       "ward_no": "12",
-      "ward_name_en": "Korome",
-      "ward_name_ml": "കോറോം"
+      "name_en": "Korome",
+      "name_ml": "കോറോം"
     },
     {
-      "ward_id": "1f068649-433c-4cda-85f8-72a8346c5ffb",
+      "id": "1f068649-433c-4cda-85f8-72a8346c5ffb",
       "ward_no": "13",
-      "ward_name_en": "Koottappara",
-      "ward_name_ml": "കൂട്ടപ്പാറ"
+      "name_en": "Koottappara",
+      "name_ml": "കൂട്ടപ്പാറ"
     },
     {
-      "ward_id": "347770ae-5b52-480b-bf0d-24aa2208bd83",
+      "id": "347770ae-5b52-480b-bf0d-24aa2208bd83",
       "ward_no": "14",
-      "ward_name_en": "Mattilayam",
-      "ward_name_ml": "മട്ടിലയം"
+      "name_en": "Mattilayam",
+      "name_ml": "മട്ടിലയം"
     },
     {
-      "ward_id": "68a11bdb-e2b1-4e79-9e89-7a52ccd5267c",
+      "id": "68a11bdb-e2b1-4e79-9e89-7a52ccd5267c",
       "ward_no": "15",
-      "ward_name_en": "Niravilpuzha",
-      "ward_name_ml": "നിരവില്‍പ്പുഴ"
+      "name_en": "Niravilpuzha",
+      "name_ml": "നിരവില്‍പ്പുഴ"
     }
   ],
   "towns": [],

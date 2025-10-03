@@ -1,56 +1,73 @@
 {
-  "assembly_id": "45",
-  "assembly_name_en": "Tirur",
-  "assembly_name_ml": "തിരൂര്‍",
-  "category": "Normal",
+  "id": "45",
+  "name_en": "Tirur",
+  "name_ml": "തിരൂര്‍",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G100901",
-      "local_body_name_en": "Athavanad",
-      "local_body_name_ml": "ആതവനാട്",
-      "category": "Perfect"
+      "id": "G100901",
+      "name_en": "Athavanad",
+      "name_ml": "ആതവനാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G100907",
-      "local_body_name_en": "Kalpakanchery",
-      "local_body_name_ml": "കല്‍പകഞ്ചരി",
-      "category": "Normal"
+      "id": "G100907",
+      "name_en": "Kalpakanchery",
+      "name_ml": "കല്‍പകഞ്ചരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101302",
-      "local_body_name_en": "Thalakkad",
-      "local_body_name_ml": "തലക്കാട്",
-      "category": "Normal"
+      "id": "G101302",
+      "name_en": "Thalakkad",
+      "name_ml": "തലക്കാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G101305",
-      "local_body_name_en": "Thirunavaya",
-      "local_body_name_ml": "തിരുനാവായ",
-      "category": "Good"
+      "id": "G101305",
+      "name_en": "Thirunavaya",
+      "name_ml": "തിരുനാവായ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M100400",
-      "local_body_name_en": "Tirur",
-      "local_body_name_ml": "തിരൂര്‍",
-      "category": ""
+      "id": "M100400",
+      "name_en": "Tirur",
+      "name_ml": "തിരൂര്‍",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G101204",
-      "local_body_name_en": "Valavannur",
-      "local_body_name_ml": "വളവന്നൂര്‍",
-      "category": "Perfect"
+      "id": "G101204",
+      "name_en": "Valavannur",
+      "name_ml": "വളവന്നൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G101304",
-      "local_body_name_en": "Vettom",
-      "local_body_name_ml": "വെട്ടം",
-      "category": "Normal"
+      "id": "G101304",
+      "name_en": "Vettom",
+      "name_ml": "വെട്ടം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

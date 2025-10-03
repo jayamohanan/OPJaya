@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040104",
-  "local_body_name_en": "Perumpalam",
-  "local_body_name_ml": "പെരുമ്പളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "102",
-    "assembly_name_en": "Aroor",
-    "assembly_name_ml": "അരൂർ",
+  "id": "G040104",
+  "name_en": "Perumpalam",
+  "name_ml": "പെരുമ്പളം",
+  "assembly_id": "102",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "102",
+    "name_en": "Aroor",
+    "name_ml": "അരൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0e44e210-9d59-40b9-a9ba-73697157b4eb",
+      "id": "0e44e210-9d59-40b9-a9ba-73697157b4eb",
       "ward_no": "1",
-      "ward_name_en": "Pattekad",
-      "ward_name_ml": "പട്ടേക്കാട്"
+      "name_en": "Pattekad",
+      "name_ml": "പട്ടേക്കാട്"
     },
     {
-      "ward_id": "266f3720-891f-4c69-bdc1-3af402595545",
+      "id": "266f3720-891f-4c69-bdc1-3af402595545",
       "ward_no": "2",
-      "ward_name_en": "Panabukadu",
-      "ward_name_ml": "പന്പുക്കാട്"
+      "name_en": "Panabukadu",
+      "name_ml": "പന്പുക്കാട്"
     },
     {
-      "ward_id": "8775e29e-4588-452b-b3d9-e73bb2ebbb2a",
+      "id": "8775e29e-4588-452b-b3d9-e73bb2ebbb2a",
       "ward_no": "3",
-      "ward_name_en": "Irappuzha",
-      "ward_name_ml": "ഇറപ്പുഴ"
+      "name_en": "Irappuzha",
+      "name_ml": "ഇറപ്പുഴ"
     },
     {
-      "ward_id": "2d09c39a-ccfe-45b5-b1f8-3b69c94c692f",
+      "id": "2d09c39a-ccfe-45b5-b1f8-3b69c94c692f",
       "ward_no": "4",
-      "ward_name_en": "High School",
-      "ward_name_ml": "ഹൈസ്ക്കൂള്"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്ക്കൂള്"
     },
     {
-      "ward_id": "8a8be0d8-b1af-41f4-bce8-92c35d93ceba",
+      "id": "8a8be0d8-b1af-41f4-bce8-92c35d93ceba",
       "ward_no": "5",
-      "ward_name_en": "Koyickal",
-      "ward_name_ml": "കോയിക്കല്"
+      "name_en": "Koyickal",
+      "name_ml": "കോയിക്കല്"
     },
     {
-      "ward_id": "67ab3de3-9cc8-4508-8557-1f023e8a5e08",
+      "id": "67ab3de3-9cc8-4508-8557-1f023e8a5e08",
       "ward_no": "6",
-      "ward_name_en": "Sasthankal",
-      "ward_name_ml": "ശാസ്താങ്കല്"
+      "name_en": "Sasthankal",
+      "name_ml": "ശാസ്താങ്കല്"
     },
     {
-      "ward_id": "417214c4-aa5d-4459-a3bb-3d79d2d47f32",
+      "id": "417214c4-aa5d-4459-a3bb-3d79d2d47f32",
       "ward_no": "7",
-      "ward_name_en": "Mukkam",
-      "ward_name_ml": "മുക്കം"
+      "name_en": "Mukkam",
+      "name_ml": "മുക്കം"
     },
     {
-      "ward_id": "48026426-04b0-463e-b25a-86d1ad40b746",
+      "id": "48026426-04b0-463e-b25a-86d1ad40b746",
       "ward_no": "8",
-      "ward_name_en": "Aruveli",
-      "ward_name_ml": "അരുവേലി"
+      "name_en": "Aruveli",
+      "name_ml": "അരുവേലി"
     },
     {
-      "ward_id": "ef7a6476-2d62-45da-bd0e-3e3713911071",
+      "id": "ef7a6476-2d62-45da-bd0e-3e3713911071",
       "ward_no": "9",
-      "ward_name_en": "S.K.V.Vayanasala",
-      "ward_name_ml": "എസ്.കെ.വി വായനശാല"
+      "name_en": "S.K.V.Vayanasala",
+      "name_ml": "എസ്.കെ.വി വായനശാല"
     },
     {
-      "ward_id": "c940206a-504e-4bdb-9d26-52ac296f3ed5",
+      "id": "c940206a-504e-4bdb-9d26-52ac296f3ed5",
       "ward_no": "10",
-      "ward_name_en": "Puthukkad",
-      "ward_name_ml": "പുതുക്കാട്"
+      "name_en": "Puthukkad",
+      "name_ml": "പുതുക്കാട്"
     },
     {
-      "ward_id": "f4806266-a59d-4422-b0ee-1d6318ad4e16",
+      "id": "f4806266-a59d-4422-b0ee-1d6318ad4e16",
       "ward_no": "11",
-      "ward_name_en": "Market",
-      "ward_name_ml": "മാര്ക്കറ്റ്"
+      "name_en": "Market",
+      "name_ml": "മാര്ക്കറ്റ്"
     },
     {
-      "ward_id": "db7de331-5b09-489c-9219-0750f933a15b",
+      "id": "db7de331-5b09-489c-9219-0750f933a15b",
       "ward_no": "12",
-      "ward_name_en": "Kunnath",
-      "ward_name_ml": "കുന്നത്ത്"
+      "name_en": "Kunnath",
+      "name_ml": "കുന്നത്ത്"
     },
     {
-      "ward_id": "71cf248b-d4dd-42a2-8e72-e33a908e91f1",
+      "id": "71cf248b-d4dd-42a2-8e72-e33a908e91f1",
       "ward_no": "13",
-      "ward_name_en": "Hospital",
-      "ward_name_ml": "ആശുപത്രി"
+      "name_en": "Hospital",
+      "name_ml": "ആശുപത്രി"
     }
   ],
   "towns": [],

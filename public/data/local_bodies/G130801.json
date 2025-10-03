@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G130801",
-  "local_body_name_en": "Kadirur",
-  "local_body_name_ml": "കതിരൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "13",
-    "assembly_name_en": "Thalassery",
-    "assembly_name_ml": "തലശ്ശേരി",
+  "id": "G130801",
+  "name_en": "Kadirur",
+  "name_ml": "കതിരൂര്‍",
+  "assembly_id": "13",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "13",
+    "name_en": "Thalassery",
+    "name_ml": "തലശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f95d5f3a-a433-49b8-8f79-a196ac4b5c7c",
+      "id": "f95d5f3a-a433-49b8-8f79-a196ac4b5c7c",
       "ward_no": "1",
-      "ward_name_en": "Pullyodu",
-      "ward_name_ml": "പുല്ല്യോട്"
+      "name_en": "Pullyodu",
+      "name_ml": "പുല്ല്യോട്"
     },
     {
-      "ward_id": "f829c68a-65f0-4142-bb34-4d7a036bd597",
+      "id": "f829c68a-65f0-4142-bb34-4d7a036bd597",
       "ward_no": "2",
-      "ward_name_en": "Pullyodu C.H  Nagar",
-      "ward_name_ml": "പുല്ല്യോട്  സി.എച്ച് നഗര്‍"
+      "name_en": "Pullyodu C.H  Nagar",
+      "name_ml": "പുല്ല്യോട്  സി.എച്ച് നഗര്‍"
     },
     {
-      "ward_id": "cb9d4469-f6a3-4335-b1d4-3325f677fc52",
+      "id": "cb9d4469-f6a3-4335-b1d4-3325f677fc52",
       "ward_no": "3",
-      "ward_name_en": "Kadirur Town",
-      "ward_name_ml": "കതിരൂര്‍ ടൌണ്‍"
+      "name_en": "Kadirur Town",
+      "name_ml": "കതിരൂര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "56ee3a36-6b10-4907-98fd-0357b5d338f1",
+      "id": "56ee3a36-6b10-4907-98fd-0357b5d338f1",
       "ward_no": "4",
-      "ward_name_en": "Kadirur Theru",
-      "ward_name_ml": "കതിരൂര്‍ തെരു"
+      "name_en": "Kadirur Theru",
+      "name_ml": "കതിരൂര്‍ തെരു"
     },
     {
-      "ward_id": "75dd07f5-3bc7-4483-9b46-59359087e1a7",
+      "id": "75dd07f5-3bc7-4483-9b46-59359087e1a7",
       "ward_no": "5",
-      "ward_name_en": "Aanikkampoyil",
-      "ward_name_ml": "ആണിക്കാംപൊയില്‍"
+      "name_en": "Aanikkampoyil",
+      "name_ml": "ആണിക്കാംപൊയില്‍"
     },
     {
-      "ward_id": "a03998e6-72a7-47cc-bc89-7bfa40454a62",
+      "id": "a03998e6-72a7-47cc-bc89-7bfa40454a62",
       "ward_no": "6",
-      "ward_name_en": "Chundangappoyil",
-      "ward_name_ml": "ചുണ്ടങ്ങാപ്പൊയില്‍"
+      "name_en": "Chundangappoyil",
+      "name_ml": "ചുണ്ടങ്ങാപ്പൊയില്‍"
     },
     {
-      "ward_id": "15366658-0c8e-4d6c-8b27-218a48dab3e2",
+      "id": "15366658-0c8e-4d6c-8b27-218a48dab3e2",
       "ward_no": "7",
-      "ward_name_en": "Kakkara",
-      "ward_name_ml": "കക്കറ"
+      "name_en": "Kakkara",
+      "name_ml": "കക്കറ"
     },
     {
-      "ward_id": "4bd158a5-dc4d-4536-aced-dda28e52c136",
+      "id": "4bd158a5-dc4d-4536-aced-dda28e52c136",
       "ward_no": "8",
-      "ward_name_en": "Ponnyam Palam",
-      "ward_name_ml": "പൊന്ന്യം പാലം"
+      "name_en": "Ponnyam Palam",
+      "name_ml": "പൊന്ന്യം പാലം"
     },
     {
-      "ward_id": "45b2d8b3-d63a-45bd-82f1-0cf3a4812588",
+      "id": "45b2d8b3-d63a-45bd-82f1-0cf3a4812588",
       "ward_no": "9",
-      "ward_name_en": "Ponnyam South",
-      "ward_name_ml": "പൊന്ന്യം സൌത്ത്"
+      "name_en": "Ponnyam South",
+      "name_ml": "പൊന്ന്യം സൌത്ത്"
     },
     {
-      "ward_id": "7ddfd51a-89e3-4955-8f95-fbabe503df50",
+      "id": "7ddfd51a-89e3-4955-8f95-fbabe503df50",
       "ward_no": "10",
-      "ward_name_en": "Kunduchira",
-      "ward_name_ml": "കുണ്ടുചിറ"
+      "name_en": "Kunduchira",
+      "name_ml": "കുണ്ടുചിറ"
     },
     {
-      "ward_id": "8e866540-b183-4985-8bbd-69160d771a47",
+      "id": "8e866540-b183-4985-8bbd-69160d771a47",
       "ward_no": "11",
-      "ward_name_en": "Paramkunnu",
-      "ward_name_ml": "പറാം കുന്ന്"
+      "name_en": "Paramkunnu",
+      "name_ml": "പറാം കുന്ന്"
     },
     {
-      "ward_id": "d4c8d8a3-f7c8-4106-8287-facf21f26b88",
+      "id": "d4c8d8a3-f7c8-4106-8287-facf21f26b88",
       "ward_no": "12",
-      "ward_name_en": "Ponnyam Srambi",
-      "ward_name_ml": "പൊന്ന്യം സ്രാമ്പി"
+      "name_en": "Ponnyam Srambi",
+      "name_ml": "പൊന്ന്യം സ്രാമ്പി"
     },
     {
-      "ward_id": "e930c92a-2ed6-4867-9b0c-5f1c60d3325f",
+      "id": "e930c92a-2ed6-4867-9b0c-5f1c60d3325f",
       "ward_no": "13",
-      "ward_name_en": "Pullodi",
-      "ward_name_ml": "പുല്ല്യോടി"
+      "name_en": "Pullodi",
+      "name_ml": "പുല്ല്യോടി"
     },
     {
-      "ward_id": "5d55f9cc-3ec4-4720-9c7b-27e4a8cdf58a",
+      "id": "5d55f9cc-3ec4-4720-9c7b-27e4a8cdf58a",
       "ward_no": "14",
-      "ward_name_en": "Choyyadam",
-      "ward_name_ml": "ചോയ്യാടം"
+      "name_en": "Choyyadam",
+      "name_ml": "ചോയ്യാടം"
     },
     {
-      "ward_id": "a4cd7185-5aae-4117-a3ff-09151bfe7d05",
+      "id": "a4cd7185-5aae-4117-a3ff-09151bfe7d05",
       "ward_no": "15",
-      "ward_name_en": "Kadirur  Temple",
-      "ward_name_ml": "കതിരൂര്‍ ടെമ്പിള്‍"
+      "name_en": "Kadirur  Temple",
+      "name_ml": "കതിരൂര്‍ ടെമ്പിള്‍"
     },
     {
-      "ward_id": "401ca460-3ce3-4eff-8a64-42f21cc5f83a",
+      "id": "401ca460-3ce3-4eff-8a64-42f21cc5f83a",
       "ward_no": "16",
-      "ward_name_en": "Kuttyerichal",
-      "ward_name_ml": "കുറ്റ്യേരിച്ചാല്‍"
+      "name_en": "Kuttyerichal",
+      "name_ml": "കുറ്റ്യേരിച്ചാല്‍"
     },
     {
-      "ward_id": "809789dd-d661-4263-863c-59b9d41461e3",
+      "id": "809789dd-d661-4263-863c-59b9d41461e3",
       "ward_no": "17",
-      "ward_name_en": "4 Th - Mile",
-      "ward_name_ml": "നാലാം മൈല്‍"
+      "name_en": "4 Th - Mile",
+      "name_ml": "നാലാം മൈല്‍"
     },
     {
-      "ward_id": "9e6aeaf1-8aca-49f9-ae7f-d24c8a011ed0",
+      "id": "9e6aeaf1-8aca-49f9-ae7f-d24c8a011ed0",
       "ward_no": "18",
-      "ward_name_en": "Pullyod East",
-      "ward_name_ml": "പുല്ല്യോട് ഈസ്റ്റ്"
+      "name_en": "Pullyod East",
+      "name_ml": "പുല്ല്യോട് ഈസ്റ്റ്"
     }
   ],
   "towns": [],

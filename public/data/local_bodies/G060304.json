@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060304",
-  "local_body_name_en": "Rajakkad",
-  "local_body_name_ml": "രാജക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "89",
-    "assembly_name_en": "Udumbanchola",
-    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+  "id": "G060304",
+  "name_en": "Rajakkad",
+  "name_ml": "രാജക്കാട്",
+  "assembly_id": "89",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "89",
+    "name_en": "Udumbanchola",
+    "name_ml": "ഉടുമ്പന്‍ചോല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "67c61a6d-bc57-4198-875d-8e5d8963de2e",
+      "id": "67c61a6d-bc57-4198-875d-8e5d8963de2e",
       "ward_no": "1",
-      "ward_name_en": "Kochumullakkanam",
-      "ward_name_ml": "കൊച്ചുമുല്ലക്കാനം"
+      "name_en": "Kochumullakkanam",
+      "name_ml": "കൊച്ചുമുല്ലക്കാനം"
     },
     {
-      "ward_id": "a3b5a60f-f70d-4354-ae0a-dc14fbbe99dc",
+      "id": "a3b5a60f-f70d-4354-ae0a-dc14fbbe99dc",
       "ward_no": "2",
-      "ward_name_en": "Mullakkanam",
-      "ward_name_ml": "മുല്ലക്കാനം"
+      "name_en": "Mullakkanam",
+      "name_ml": "മുല്ലക്കാനം"
     },
     {
-      "ward_id": "013c07a6-2323-4f7d-a91e-9b0677cd5336",
+      "id": "013c07a6-2323-4f7d-a91e-9b0677cd5336",
       "ward_no": "3",
-      "ward_name_en": "Punnacity",
-      "ward_name_ml": "പുന്നസിറ്റി"
+      "name_en": "Punnacity",
+      "name_ml": "പുന്നസിറ്റി"
     },
     {
-      "ward_id": "1a87708c-76c9-4393-9407-2fc88403a26e",
+      "id": "1a87708c-76c9-4393-9407-2fc88403a26e",
       "ward_no": "4",
-      "ward_name_en": "Rajakkad",
-      "ward_name_ml": "രാജാക്കാട്"
+      "name_en": "Rajakkad",
+      "name_ml": "രാജാക്കാട്"
     },
     {
-      "ward_id": "dda29208-d38b-4d4c-8845-270d933666d3",
+      "id": "dda29208-d38b-4d4c-8845-270d933666d3",
       "ward_no": "5",
-      "ward_name_en": "Nr City",
-      "ward_name_ml": "എന്‍.ആര്‍.സിറ്റി"
+      "name_en": "Nr City",
+      "name_ml": "എന്‍.ആര്‍.സിറ്റി"
     },
     {
-      "ward_id": "db4521a8-0445-4767-a7b4-3ec08d89af77",
+      "id": "db4521a8-0445-4767-a7b4-3ec08d89af77",
       "ward_no": "6",
-      "ward_name_en": "Vackacity",
-      "ward_name_ml": "വാക്കാസിറ്റി"
+      "name_en": "Vackacity",
+      "name_ml": "വാക്കാസിറ്റി"
     },
     {
-      "ward_id": "76978442-74e4-4223-9441-f150d6e9340e",
+      "id": "76978442-74e4-4223-9441-f150d6e9340e",
       "ward_no": "7",
-      "ward_name_en": "Adivaram",
-      "ward_name_ml": "അടിവാരം"
+      "name_en": "Adivaram",
+      "name_ml": "അടിവാരം"
     },
     {
-      "ward_id": "5615bfa4-1d27-485f-a482-9a349c7537bb",
+      "id": "5615bfa4-1d27-485f-a482-9a349c7537bb",
       "ward_no": "8",
-      "ward_name_en": "Pazhayaviduthy",
-      "ward_name_ml": "പഴയവിടുതി"
+      "name_en": "Pazhayaviduthy",
+      "name_ml": "പഴയവിടുതി"
     },
     {
-      "ward_id": "91c1ae94-6ad4-4d48-8708-fea0150bad6f",
+      "id": "91c1ae94-6ad4-4d48-8708-fea0150bad6f",
       "ward_no": "9",
-      "ward_name_en": "Kurisumpady",
-      "ward_name_ml": "കുരിശുംപടി"
+      "name_en": "Kurisumpady",
+      "name_ml": "കുരിശുംപടി"
     },
     {
-      "ward_id": "30c2b4a5-16da-4134-93b3-862f810b3d2c",
+      "id": "30c2b4a5-16da-4134-93b3-862f810b3d2c",
       "ward_no": "10",
-      "ward_name_en": "Cherupuram",
-      "ward_name_ml": "ചെറുപുറം"
+      "name_en": "Cherupuram",
+      "name_ml": "ചെറുപുറം"
     },
     {
-      "ward_id": "e9cd10f4-c044-40d1-b5ed-313daa120950",
+      "id": "e9cd10f4-c044-40d1-b5ed-313daa120950",
       "ward_no": "11",
-      "ward_name_en": "Kallimaly",
-      "ward_name_ml": "കള്ളിമാലി"
+      "name_en": "Kallimaly",
+      "name_ml": "കള്ളിമാലി"
     },
     {
-      "ward_id": "d56dc9ec-a677-4b76-ad7d-761691da2fc6",
+      "id": "d56dc9ec-a677-4b76-ad7d-761691da2fc6",
       "ward_no": "12",
-      "ward_name_en": "Anappara",
-      "ward_name_ml": "ആനപ്പാറ"
+      "name_en": "Anappara",
+      "name_ml": "ആനപ്പാറ"
     },
     {
-      "ward_id": "40a74e16-356c-45b3-8dad-a86466cc08a9",
+      "id": "40a74e16-356c-45b3-8dad-a86466cc08a9",
       "ward_no": "13",
-      "ward_name_en": "Panniyarkutty",
-      "ward_name_ml": "പന്നിയാര്‍കുട്ടി"
+      "name_en": "Panniyarkutty",
+      "name_ml": "പന്നിയാര്‍കുട്ടി"
     }
   ],
   "towns": [],

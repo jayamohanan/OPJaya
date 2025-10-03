@@ -1,62 +1,83 @@
 {
-  "assembly_id": "127",
-  "assembly_name_en": "Varkala",
-  "assembly_name_ml": "വർക്കല",
-  "category": "Normal",
+  "id": "127",
+  "name_en": "Varkala",
+  "name_ml": "വർക്കല",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010101",
-      "local_body_name_en": "Chemmaruthy",
-      "local_body_name_ml": "ചെമ്മരുതി",
-      "category": "Perfect"
+      "id": "G010101",
+      "name_en": "Chemmaruthy",
+      "name_ml": "ചെമ്മരുതി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010102",
-      "local_body_name_en": "Edava",
-      "local_body_name_ml": "ഇടവ",
-      "category": "Perfect"
+      "id": "G010102",
+      "name_en": "Edava",
+      "name_ml": "ഇടവ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010103",
-      "local_body_name_en": "Elakamon",
-      "local_body_name_ml": "ഇലകമണ്‍",
-      "category": "Perfect"
+      "id": "G010103",
+      "name_en": "Elakamon",
+      "name_ml": "ഇലകമണ്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010204",
-      "local_body_name_en": "Madavoor",
-      "local_body_name_ml": "മടവൂര്‍",
-      "category": "Good"
+      "id": "G010204",
+      "name_en": "Madavoor",
+      "name_ml": "മടവൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010207",
-      "local_body_name_en": "Navaikulam",
-      "local_body_name_ml": "നാവായിക്കുളം",
-      "category": "Normal"
+      "id": "G010207",
+      "name_en": "Navaikulam",
+      "name_ml": "നാവായിക്കുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010205",
-      "local_body_name_en": "Pallickal",
-      "local_body_name_ml": "പള്ളിക്കല്‍",
-      "category": "Good"
+      "id": "G010205",
+      "name_en": "Pallickal",
+      "name_ml": "പള്ളിക്കല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M010100",
-      "local_body_name_en": "Varkala",
-      "local_body_name_ml": "വര്‍ക്കല",
-      "category": "Perfect"
+      "id": "M010100",
+      "name_en": "Varkala",
+      "name_ml": "വര്‍ക്കല",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010107",
-      "local_body_name_en": "Vettoor",
-      "local_body_name_ml": "വെട്ടൂര്‍",
-      "category": "Normal"
+      "id": "G010107",
+      "name_en": "Vettoor",
+      "name_ml": "വെട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G090905",
-  "local_body_name_en": "Vadakarapathy",
-  "local_body_name_ml": "വടകരപ്പതി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G090905",
+  "name_en": "Vadakarapathy",
+  "name_ml": "വടകരപ്പതി",
+  "assembly_id": "58",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "58",
-    "assembly_name_en": "Chittur",
-    "assembly_name_ml": "ചിറ്റൂര്‍",
-    "category": "Normal"
+    "id": "58",
+    "name_en": "Chittur",
+    "name_ml": "ചിറ്റൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e47acd34-e29f-46d4-b767-dc517d16ff12",
+      "id": "e47acd34-e29f-46d4-b767-dc517d16ff12",
       "ward_no": "1",
-      "ward_name_en": "Neelipara",
-      "ward_name_ml": "നീളിപ്പാറ"
+      "name_en": "Neelipara",
+      "name_ml": "നീളിപ്പാറ"
     },
     {
-      "ward_id": "d634cb69-5de9-4ac6-b58c-d08c58cccc1c",
+      "id": "d634cb69-5de9-4ac6-b58c-d08c58cccc1c",
       "ward_no": "2",
-      "ward_name_en": "Sorappara",
-      "ward_name_ml": "ശൊരപ്പാറ"
+      "name_en": "Sorappara",
+      "name_ml": "ശൊരപ്പാറ"
     },
     {
-      "ward_id": "b766dfe0-c87a-437a-bd7c-2483354dd734",
+      "id": "b766dfe0-c87a-437a-bd7c-2483354dd734",
       "ward_no": "3",
-      "ward_name_en": "Velanthavalam",
-      "ward_name_ml": "വേലന്താവളം"
+      "name_en": "Velanthavalam",
+      "name_ml": "വേലന്താവളം"
     },
     {
-      "ward_id": "ce6c967e-4d31-4e9b-b294-e0baff62e775",
+      "id": "ce6c967e-4d31-4e9b-b294-e0baff62e775",
       "ward_no": "4",
-      "ward_name_en": "Munsiffchalla",
-      "ward_name_ml": "മുന്സിഫ്ചളള"
+      "name_en": "Munsiffchalla",
+      "name_ml": "മുന്സിഫ്ചളള"
     },
     {
-      "ward_id": "d456e24a-95a8-4cfb-ae80-6de76112e5cb",
+      "id": "d456e24a-95a8-4cfb-ae80-6de76112e5cb",
       "ward_no": "5",
-      "ward_name_en": "Attayampathy",
-      "ward_name_ml": "ആട്ടയാംപതി"
+      "name_en": "Attayampathy",
+      "name_ml": "ആട്ടയാംപതി"
     },
     {
-      "ward_id": "20ec4a27-a7fe-4d5c-91d4-f1bfa816c429",
+      "id": "20ec4a27-a7fe-4d5c-91d4-f1bfa816c429",
       "ward_no": "6",
-      "ward_name_en": "Ozhalapathy",
-      "ward_name_ml": "ഒഴലപ്പതി"
+      "name_en": "Ozhalapathy",
+      "name_ml": "ഒഴലപ്പതി"
     },
     {
-      "ward_id": "731a75e5-5e68-41dc-8c1b-d4f15cf90bca",
+      "id": "731a75e5-5e68-41dc-8c1b-d4f15cf90bca",
       "ward_no": "7",
-      "ward_name_en": "Kuppandakoundanoor",
-      "ward_name_ml": "കുപ്പാണ്ടകൌണ്ടനൂര്"
+      "name_en": "Kuppandakoundanoor",
+      "name_ml": "കുപ്പാണ്ടകൌണ്ടനൂര്"
     },
     {
-      "ward_id": "efe81b0f-cc6d-488c-8f9a-d1c566c82ceb",
+      "id": "efe81b0f-cc6d-488c-8f9a-d1c566c82ceb",
       "ward_no": "8",
-      "ward_name_en": "Kerampara",
-      "ward_name_ml": "കെരാംപാറ"
+      "name_en": "Kerampara",
+      "name_ml": "കെരാംപാറ"
     },
     {
-      "ward_id": "1b920d4f-5492-47ac-b7a8-29e860af705c",
+      "id": "1b920d4f-5492-47ac-b7a8-29e860af705c",
       "ward_no": "9",
-      "ward_name_en": "Kinarpallam",
-      "ward_name_ml": "കിണര്പ്പളളം"
+      "name_en": "Kinarpallam",
+      "name_ml": "കിണര്പ്പളളം"
     },
     {
-      "ward_id": "83fdf686-382c-43ef-bcda-e56f1d373e0f",
+      "id": "83fdf686-382c-43ef-bcda-e56f1d373e0f",
       "ward_no": "10",
-      "ward_name_en": "Valiyakalliyampara",
-      "ward_name_ml": "വലിയകളളിയപാറ"
+      "name_en": "Valiyakalliyampara",
+      "name_ml": "വലിയകളളിയപാറ"
     },
     {
-      "ward_id": "07d286a6-bf3c-49b0-a733-f0ddba60a7e7",
+      "id": "07d286a6-bf3c-49b0-a733-f0ddba60a7e7",
       "ward_no": "11",
-      "ward_name_en": "Sathram",
-      "ward_name_ml": "സത്രം"
+      "name_en": "Sathram",
+      "name_ml": "സത്രം"
     },
     {
-      "ward_id": "e736e3a5-7c6c-4c4b-bd59-a3882ad41ea2",
+      "id": "e736e3a5-7c6c-4c4b-bd59-a3882ad41ea2",
       "ward_no": "12",
-      "ward_name_en": "Maniyakaranchalla",
-      "ward_name_ml": "മണിയക്കാരന്ചളള"
+      "name_en": "Maniyakaranchalla",
+      "name_ml": "മണിയക്കാരന്ചളള"
     },
     {
-      "ward_id": "7912b5b1-fa9d-47e2-b29d-2967473783f4",
+      "id": "7912b5b1-fa9d-47e2-b29d-2967473783f4",
       "ward_no": "13",
-      "ward_name_en": "Menonpara",
-      "ward_name_ml": "മേനോന്പാറ"
+      "name_en": "Menonpara",
+      "name_ml": "മേനോന്പാറ"
     },
     {
-      "ward_id": "267f32fa-d2a8-42ab-bf64-94a6d579371a",
+      "id": "267f32fa-d2a8-42ab-bf64-94a6d579371a",
       "ward_no": "14",
-      "ward_name_en": "Bagavathipara",
-      "ward_name_ml": "ഭഗവതിപ്പാറ"
+      "name_en": "Bagavathipara",
+      "name_ml": "ഭഗവതിപ്പാറ"
     },
     {
-      "ward_id": "fecca56c-450e-47e5-8bd4-4826301aca4d",
+      "id": "fecca56c-450e-47e5-8bd4-4826301aca4d",
       "ward_no": "15",
-      "ward_name_en": "Kanakkankalam",
-      "ward_name_ml": "കണക്കന്കളം"
+      "name_en": "Kanakkankalam",
+      "name_ml": "കണക്കന്കളം"
     },
     {
-      "ward_id": "0ef35d86-195d-4582-95b4-41f19fb84f82",
+      "id": "0ef35d86-195d-4582-95b4-41f19fb84f82",
       "ward_no": "16",
-      "ward_name_en": "Kozhippara",
-      "ward_name_ml": "കോഴിപ്പാറ"
+      "name_en": "Kozhippara",
+      "name_ml": "കോഴിപ്പാറ"
     },
     {
-      "ward_id": "72e9e486-69c5-4e24-98d5-8075f796b977",
+      "id": "72e9e486-69c5-4e24-98d5-8075f796b977",
       "ward_no": "17",
-      "ward_name_en": "Erumakaranoor",
-      "ward_name_ml": "എരുമക്കാരനൂര്"
+      "name_en": "Erumakaranoor",
+      "name_ml": "എരുമക്കാരനൂര്"
     }
   ],
   "towns": [],

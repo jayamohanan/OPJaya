@@ -1,196 +1,207 @@
 {
-  "local_body_id": "M040600",
-  "local_body_name_en": "Haripad",
-  "local_body_name_ml": "ഹരിപ്പാട്",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "107",
-    "assembly_name_en": "Haripad",
-    "assembly_name_ml": "ഹരിപ്പാട്",
+  "id": "M040600",
+  "name_en": "Haripad",
+  "name_ml": "ഹരിപ്പാട്",
+  "assembly_id": "107",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "107",
+    "name_en": "Haripad",
+    "name_ml": "ഹരിപ്പാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c2f43ffe-75e5-409b-a522-5e29c6ad95ab",
+      "id": "c2f43ffe-75e5-409b-a522-5e29c6ad95ab",
       "ward_no": "1",
-      "ward_name_en": "Homoeo Dispensary",
-      "ward_name_ml": "ഹോമിയോ ഡിസ്പെന്‍സറി"
+      "name_en": "Homoeo Dispensary",
+      "name_ml": "ഹോമിയോ ഡിസ്പെന്‍സറി"
     },
     {
-      "ward_id": "23711370-77be-47e2-a1c1-85830267e0e7",
+      "id": "23711370-77be-47e2-a1c1-85830267e0e7",
       "ward_no": "2",
-      "ward_name_en": "Thulamparampu North",
-      "ward_name_ml": "തുലാംപറമ്പ് വടക്ക്"
+      "name_en": "Thulamparampu North",
+      "name_ml": "തുലാംപറമ്പ് വടക്ക്"
     },
     {
-      "ward_id": "ef7cab3d-83db-43b1-b96c-1e870db5b101",
+      "id": "ef7cab3d-83db-43b1-b96c-1e870db5b101",
       "ward_no": "3",
-      "ward_name_en": "Kilikkakulangara",
-      "ward_name_ml": "കിളിക്കാക്കുളങ്ങര"
+      "name_en": "Kilikkakulangara",
+      "name_ml": "കിളിക്കാക്കുളങ്ങര"
     },
     {
-      "ward_id": "0dffe6f4-ac3d-48f5-8b56-c45f904145da",
+      "id": "0dffe6f4-ac3d-48f5-8b56-c45f904145da",
       "ward_no": "4",
-      "ward_name_en": "Thrippakkudam",
-      "ward_name_ml": "തൃപ്പക്കുടം"
+      "name_en": "Thrippakkudam",
+      "name_ml": "തൃപ്പക്കുടം"
     },
     {
-      "ward_id": "29e77263-d0be-4682-a8a0-512c9a0c21bd",
+      "id": "29e77263-d0be-4682-a8a0-512c9a0c21bd",
       "ward_no": "5",
-      "ward_name_en": "Thulamparampu Naduvathu",
-      "ward_name_ml": "തുലാംപറമ്പ് നടുവത്ത്"
+      "name_en": "Thulamparampu Naduvathu",
+      "name_ml": "തുലാംപറമ്പ് നടുവത്ത്"
     },
     {
-      "ward_id": "9838c5dd-8625-44b2-bc95-4a3989e7ff0a",
+      "id": "9838c5dd-8625-44b2-bc95-4a3989e7ff0a",
       "ward_no": "6",
-      "ward_name_en": "Nagari",
-      "ward_name_ml": "നഗരി"
+      "name_en": "Nagari",
+      "name_ml": "നഗരി"
     },
     {
-      "ward_id": "9219266a-9d7c-4184-b4da-fe8bb8d75efc",
+      "id": "9219266a-9d7c-4184-b4da-fe8bb8d75efc",
       "ward_no": "7",
-      "ward_name_en": "Aroor L.P.S",
-      "ward_name_ml": "അരൂര്‍ എ‍ല്‍ .പി. എസ്സ്"
+      "name_en": "Aroor L.P.S",
+      "name_ml": "അരൂര്‍ എ‍ല്‍ .പി. എസ്സ്"
     },
     {
-      "ward_id": "ab8e8ae8-1947-4b8d-88a4-cc17797ec984",
+      "id": "ab8e8ae8-1947-4b8d-88a4-cc17797ec984",
       "ward_no": "8",
-      "ward_name_en": "Vathukulangara",
-      "ward_name_ml": "വാത്തുക്കുളങ്ങര"
+      "name_en": "Vathukulangara",
+      "name_ml": "വാത്തുക്കുളങ്ങര"
     },
     {
-      "ward_id": "af7e39aa-77b9-47e2-936e-296c414d7e11",
+      "id": "af7e39aa-77b9-47e2-936e-296c414d7e11",
       "ward_no": "9",
-      "ward_name_en": "P.H.C",
-      "ward_name_ml": "പി. എച്ച്. സി"
+      "name_en": "P.H.C",
+      "name_ml": "പി. എച്ച്. സി"
     },
     {
-      "ward_id": "ff0bf76d-037e-4f78-9353-9d94cbbcf2a4",
+      "id": "ff0bf76d-037e-4f78-9353-9d94cbbcf2a4",
       "ward_no": "10",
-      "ward_name_en": "Mangamkulangara",
-      "ward_name_ml": "മാങ്കാംകുളങ്ങര"
+      "name_en": "Mangamkulangara",
+      "name_ml": "മാങ്കാംകുളങ്ങര"
     },
     {
-      "ward_id": "3f676f62-55b2-43c4-8526-3c1ba157db7c",
+      "id": "3f676f62-55b2-43c4-8526-3c1ba157db7c",
       "ward_no": "11",
-      "ward_name_en": "Pilappuzha South",
-      "ward_name_ml": "പിലാപ്പുഴ തെക്ക്"
+      "name_en": "Pilappuzha South",
+      "name_ml": "പിലാപ്പുഴ തെക്ക്"
     },
     {
-      "ward_id": "39274edd-b3d5-4ed1-b002-0b78b35a4ba6",
+      "id": "39274edd-b3d5-4ed1-b002-0b78b35a4ba6",
       "ward_no": "12",
-      "ward_name_en": "Nedunthara",
-      "ward_name_ml": "നെടുന്തറ"
+      "name_en": "Nedunthara",
+      "name_ml": "നെടുന്തറ"
     },
     {
-      "ward_id": "18059147-4c2e-4629-8840-f47e4890a220",
+      "id": "18059147-4c2e-4629-8840-f47e4890a220",
       "ward_no": "13",
-      "ward_name_en": "Triveni",
-      "ward_name_ml": "ത്രിവേണി"
+      "name_en": "Triveni",
+      "name_ml": "ത്രിവേണി"
     },
     {
-      "ward_id": "44ccbbf5-6e9f-47de-acd0-ad7d45578a1d",
+      "id": "44ccbbf5-6e9f-47de-acd0-ad7d45578a1d",
       "ward_no": "14",
-      "ward_name_en": "Eerickal",
-      "ward_name_ml": "ഈരിക്കല്‍"
+      "name_en": "Eerickal",
+      "name_ml": "ഈരിക്കല്‍"
     },
     {
-      "ward_id": "4f63773f-0adf-4463-9b68-662123208e49",
+      "id": "4f63773f-0adf-4463-9b68-662123208e49",
       "ward_no": "15",
-      "ward_name_en": "Manimangalam",
-      "ward_name_ml": "മണിമംഗലം"
+      "name_en": "Manimangalam",
+      "name_ml": "മണിമംഗലം"
     },
     {
-      "ward_id": "b6a32817-2c4e-4853-abc8-ea3a07c58486",
+      "id": "b6a32817-2c4e-4853-abc8-ea3a07c58486",
       "ward_no": "16",
-      "ward_name_en": "Hospital",
-      "ward_name_ml": "ആശുപത്രി"
+      "name_en": "Hospital",
+      "name_ml": "ആശുപത്രി"
     },
     {
-      "ward_id": "9d8d9de0-ac4c-43d9-885c-87b66270b0d8",
+      "id": "9d8d9de0-ac4c-43d9-885c-87b66270b0d8",
       "ward_no": "17",
-      "ward_name_en": "R K Junction",
-      "ward_name_ml": "ആര്‍ . കെ. ജംഗ്ഷന്‍"
+      "name_en": "R K Junction",
+      "name_ml": "ആര്‍ . കെ. ജംഗ്ഷന്‍"
     },
     {
-      "ward_id": "48de1c52-9fa4-475d-bb7b-ced85f1ef047",
+      "id": "48de1c52-9fa4-475d-bb7b-ced85f1ef047",
       "ward_no": "18",
-      "ward_name_en": "Nangiarkulangara",
-      "ward_name_ml": "നങ്ങ്യാര്‍കുളങ്ങര"
+      "name_en": "Nangiarkulangara",
+      "name_ml": "നങ്ങ്യാര്‍കുളങ്ങര"
     },
     {
-      "ward_id": "f03740d3-549b-47d8-9bd8-c827c7de8f61",
+      "id": "f03740d3-549b-47d8-9bd8-c827c7de8f61",
       "ward_no": "19",
-      "ward_name_en": "Mampara",
-      "ward_name_ml": "മാമ്പറ"
+      "name_en": "Mampara",
+      "name_ml": "മാമ്പറ"
     },
     {
-      "ward_id": "473ba330-99a4-41a6-80de-3d981ff95cbb",
+      "id": "473ba330-99a4-41a6-80de-3d981ff95cbb",
       "ward_no": "20",
-      "ward_name_en": "Veterinary Hospital",
-      "ward_name_ml": "മൃഗാശുപത്രി"
+      "name_en": "Veterinary Hospital",
+      "name_ml": "മൃഗാശുപത്രി"
     },
     {
-      "ward_id": "7dbfa85b-6581-4e7b-8e0f-2ece40fa3940",
+      "id": "7dbfa85b-6581-4e7b-8e0f-2ece40fa3940",
       "ward_no": "21",
-      "ward_name_en": "Thaikootam Laksham Veedu",
-      "ward_name_ml": "തൈക്കൂട്ടം ലക്ഷംവീട്"
+      "name_en": "Thaikootam Laksham Veedu",
+      "name_ml": "തൈക്കൂട്ടം ലക്ഷംവീട്"
     },
     {
-      "ward_id": "66e8d573-ad60-4f8a-bc3b-e4359ea29e26",
+      "id": "66e8d573-ad60-4f8a-bc3b-e4359ea29e26",
       "ward_no": "22",
-      "ward_name_en": "Suresh Market",
-      "ward_name_ml": "സുരേഷ് മാര്‍ക്കറ്റ്"
+      "name_en": "Suresh Market",
+      "name_ml": "സുരേഷ് മാര്‍ക്കറ്റ്"
     },
     {
-      "ward_id": "2dbe0cf6-7b95-4107-a580-6d0924c6ff0e",
+      "id": "2dbe0cf6-7b95-4107-a580-6d0924c6ff0e",
       "ward_no": "23",
-      "ward_name_en": "Vettuveni",
-      "ward_name_ml": "വെട്ടുവേനി"
+      "name_en": "Vettuveni",
+      "name_ml": "വെട്ടുവേനി"
     },
     {
-      "ward_id": "c560c3d8-ef52-4652-815a-b6e582309e4a",
+      "id": "c560c3d8-ef52-4652-815a-b6e582309e4a",
       "ward_no": "24",
-      "ward_name_en": "D.K.N.M L.P School",
-      "ward_name_ml": "ഡി.കെ.എന്‍ .എം. എല്‍ .പി.സ്കൂള്‍"
+      "name_en": "D.K.N.M L.P School",
+      "name_ml": "ഡി.കെ.എന്‍ .എം. എല്‍ .പി.സ്കൂള്‍"
     },
     {
-      "ward_id": "e65f4279-cd89-4048-b6e4-96276403c14b",
+      "id": "e65f4279-cd89-4048-b6e4-96276403c14b",
       "ward_no": "25",
-      "ward_name_en": "K.S.R.T.C",
-      "ward_name_ml": "കെ. എസ്സ്. ആര്‍ .ടി. സി"
+      "name_en": "K.S.R.T.C",
+      "name_ml": "കെ. എസ്സ്. ആര്‍ .ടി. സി"
     },
     {
-      "ward_id": "1b747135-5b67-4a50-9111-d5b44cede1c1",
+      "id": "1b747135-5b67-4a50-9111-d5b44cede1c1",
       "ward_no": "26",
-      "ward_name_en": "Town",
-      "ward_name_ml": "ടൌണ്‍"
+      "name_en": "Town",
+      "name_ml": "ടൌണ്‍"
     },
     {
-      "ward_id": "8264190f-16bf-4828-a0a4-89c5a5677220",
+      "id": "8264190f-16bf-4828-a0a4-89c5a5677220",
       "ward_no": "27",
-      "ward_name_en": "Thulamparampu South",
-      "ward_name_ml": "തുലാംപറമ്പ് തെക്ക്"
+      "name_en": "Thulamparampu South",
+      "name_ml": "തുലാംപറമ്പ് തെക്ക്"
     },
     {
-      "ward_id": "0b5babf9-25ad-4117-a69b-fdaf454dd839",
+      "id": "0b5babf9-25ad-4117-a69b-fdaf454dd839",
       "ward_no": "28",
-      "ward_name_en": "Danapady",
-      "ward_name_ml": "ഡാണാപ്പടി"
+      "name_en": "Danapady",
+      "name_ml": "ഡാണാപ്പടി"
     },
     {
-      "ward_id": "daea3b17-9541-4c4a-b96c-73bcef7f8396",
+      "id": "daea3b17-9541-4c4a-b96c-73bcef7f8396",
       "ward_no": "29",
-      "ward_name_en": "Mannarasala",
-      "ward_name_ml": "മണ്ണാറശ്ശാല"
+      "name_en": "Mannarasala",
+      "name_ml": "മണ്ണാറശ്ശാല"
     }
   ],
   "towns": [],

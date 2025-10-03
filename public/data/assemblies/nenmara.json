@@ -1,74 +1,99 @@
 {
-  "assembly_id": "59",
-  "assembly_name_en": "Nenmara",
-  "assembly_name_ml": "നെന്മാറ",
-  "category": "Normal",
+  "id": "59",
+  "name_en": "Nenmara",
+  "name_ml": "നെന്മാറ",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G091101",
-      "local_body_name_en": "Ayiloor",
-      "local_body_name_ml": "അയിലൂര്‍",
-      "category": "Perfect"
+      "id": "G091101",
+      "name_en": "Ayiloor",
+      "name_ml": "അയിലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G091103",
-      "local_body_name_en": "Elavancherry",
-      "local_body_name_ml": "എലവഞ്ചരി",
-      "category": "Normal"
+      "id": "G091103",
+      "name_en": "Elavancherry",
+      "name_ml": "എലവഞ്ചരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G091002",
-      "local_body_name_en": "Koduvayur",
-      "local_body_name_ml": "കൊടുവായൂര്‍",
-      "category": "Good"
+      "id": "G091002",
+      "name_en": "Koduvayur",
+      "name_ml": "കൊടുവായൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091001",
-      "local_body_name_en": "Kollengode",
-      "local_body_name_ml": "കൊല്ലങ്കോട്",
-      "category": "Perfect"
+      "id": "G091001",
+      "name_en": "Kollengode",
+      "name_ml": "കൊല്ലങ്കോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G091003",
-      "local_body_name_en": "Muthalamada",
-      "local_body_name_ml": "മുതലമട",
-      "category": "Good"
+      "id": "G091003",
+      "name_en": "Muthalamada",
+      "name_ml": "മുതലമട",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091102",
-      "local_body_name_en": "Nelliyampathy",
-      "local_body_name_ml": "നെല്ലിയാമ്പതി",
-      "category": "Good"
+      "id": "G091102",
+      "name_en": "Nelliyampathy",
+      "name_ml": "നെല്ലിയാമ്പതി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091106",
-      "local_body_name_en": "Nenmara",
-      "local_body_name_ml": "നെന്മാറ",
-      "category": "Good"
+      "id": "G091106",
+      "name_en": "Nenmara",
+      "name_ml": "നെന്മാറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091104",
-      "local_body_name_en": "Pallassana",
-      "local_body_name_ml": "പല്ലശ്ശന",
-      "category": "Good"
+      "id": "G091104",
+      "name_en": "Pallassana",
+      "name_ml": "പല്ലശ്ശന",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091004",
-      "local_body_name_en": "Pudunagaram",
-      "local_body_name_ml": "പുതുനഗരം",
-      "category": "Perfect"
+      "id": "G091004",
+      "name_en": "Pudunagaram",
+      "name_ml": "പുതുനഗരം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G091005",
-      "local_body_name_en": "Vadavannur",
-      "local_body_name_ml": "വടവന്നൂര്‍",
-      "category": "Normal"
+      "id": "G091005",
+      "name_en": "Vadavannur",
+      "name_ml": "വടവന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

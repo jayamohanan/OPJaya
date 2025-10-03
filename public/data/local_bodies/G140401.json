@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G140401",
-  "local_body_name_en": "Udma",
-  "local_body_name_ml": "ഉദുമ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G140401",
+  "name_en": "Udma",
+  "name_ml": "ഉദുമ",
+  "assembly_id": "3",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "3",
-    "assembly_name_en": "Udma",
-    "assembly_name_ml": "ഉദുമ",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Udma",
+    "name_ml": "ഉദുമ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ffe22c10-4ed0-40b7-92c9-eff14eef21f2",
+      "id": "ffe22c10-4ed0-40b7-92c9-eff14eef21f2",
       "ward_no": "1",
-      "ward_name_en": "Bevoori",
-      "ward_name_ml": "ബേവൂരി"
+      "name_en": "Bevoori",
+      "name_ml": "ബേവൂരി"
     },
     {
-      "ward_id": "359f1046-e7dc-455e-8253-0edabff22774",
+      "id": "359f1046-e7dc-455e-8253-0edabff22774",
       "ward_no": "2",
-      "ward_name_en": "Udma",
-      "ward_name_ml": "ഉദുമ"
+      "name_en": "Udma",
+      "name_ml": "ഉദുമ"
     },
     {
-      "ward_id": "7eff0fa9-7885-4236-83c1-f54df2ad7138",
+      "id": "7eff0fa9-7885-4236-83c1-f54df2ad7138",
       "ward_no": "3",
-      "ward_name_en": "Mangad",
-      "ward_name_ml": "മാങ്ങാട്"
+      "name_en": "Mangad",
+      "name_ml": "മാങ്ങാട്"
     },
     {
-      "ward_id": "edd6b530-0246-4da6-aa92-524f72801bc5",
+      "id": "edd6b530-0246-4da6-aa92-524f72801bc5",
       "ward_no": "4",
-      "ward_name_en": "Aramanganam",
-      "ward_name_ml": "അരമങ്ങാനം"
+      "name_en": "Aramanganam",
+      "name_ml": "അരമങ്ങാനം"
     },
     {
-      "ward_id": "33550244-ffa0-4395-b8ae-98513c4e75cb",
+      "id": "33550244-ffa0-4395-b8ae-98513c4e75cb",
       "ward_no": "5",
-      "ward_name_en": "Bare",
-      "ward_name_ml": "ബാര"
+      "name_en": "Bare",
+      "name_ml": "ബാര"
     },
     {
-      "ward_id": "accbf8e8-2232-4e5c-8785-c46d39206786",
+      "id": "accbf8e8-2232-4e5c-8785-c46d39206786",
       "ward_no": "6",
-      "ward_name_en": "Vedikunnu",
-      "ward_name_ml": "വെടിക്കുന്ന്"
+      "name_en": "Vedikunnu",
+      "name_ml": "വെടിക്കുന്ന്"
     },
     {
-      "ward_id": "4c0377d9-7d8a-4637-b91f-3c74b4f5c265",
+      "id": "4c0377d9-7d8a-4637-b91f-3c74b4f5c265",
       "ward_no": "7",
-      "ward_name_en": "Nalamvathukkal",
-      "ward_name_ml": "നാലാംവാതുക്കല്‍"
+      "name_en": "Nalamvathukkal",
+      "name_ml": "നാലാംവാതുക്കല്‍"
     },
     {
-      "ward_id": "7109e486-06e3-47a9-847f-b51d3335ee13",
+      "id": "7109e486-06e3-47a9-847f-b51d3335ee13",
       "ward_no": "8",
-      "ward_name_en": "Erole",
-      "ward_name_ml": "എരോല്‍"
+      "name_en": "Erole",
+      "name_ml": "എരോല്‍"
     },
     {
-      "ward_id": "817fa8ba-273c-496f-af01-3f1b3a615a2e",
+      "id": "817fa8ba-273c-496f-af01-3f1b3a615a2e",
       "ward_no": "9",
-      "ward_name_en": "Pakyara",
-      "ward_name_ml": "പാക്യാര"
+      "name_en": "Pakyara",
+      "name_ml": "പാക്യാര"
     },
     {
-      "ward_id": "66853ebf-226a-4554-9f73-d95946d3563c",
+      "id": "66853ebf-226a-4554-9f73-d95946d3563c",
       "ward_no": "10",
-      "ward_name_en": "Arattukadav",
-      "ward_name_ml": "ആറാട്ട്കടവ്"
+      "name_en": "Arattukadav",
+      "name_ml": "ആറാട്ട്കടവ്"
     },
     {
-      "ward_id": "c1b7fcdf-8432-483d-9593-7f4d488afa6b",
+      "id": "c1b7fcdf-8432-483d-9593-7f4d488afa6b",
       "ward_no": "11",
-      "ward_name_en": "Muthiyakkal",
-      "ward_name_ml": "മുതിയക്കാല്‍"
+      "name_en": "Muthiyakkal",
+      "name_ml": "മുതിയക്കാല്‍"
     },
     {
-      "ward_id": "328e80e1-b9ed-479d-93d3-79e78280ba6e",
+      "id": "328e80e1-b9ed-479d-93d3-79e78280ba6e",
       "ward_no": "12",
-      "ward_name_en": "Thiruvakkoli",
-      "ward_name_ml": "തിരുവക്കോളി"
+      "name_en": "Thiruvakkoli",
+      "name_ml": "തിരുവക്കോളി"
     },
     {
-      "ward_id": "47991489-0088-460a-bfd1-64101186767e",
+      "id": "47991489-0088-460a-bfd1-64101186767e",
       "ward_no": "13",
-      "ward_name_en": "Angakkalari",
-      "ward_name_ml": "അങ്കക്കളരി"
+      "name_en": "Angakkalari",
+      "name_ml": "അങ്കക്കളരി"
     },
     {
-      "ward_id": "3fe76415-cd7f-40fe-aac4-ab9add54ec46",
+      "id": "3fe76415-cd7f-40fe-aac4-ab9add54ec46",
       "ward_no": "14",
-      "ward_name_en": "Malamkunnu",
-      "ward_name_ml": "മലാംകുന്ന്"
+      "name_en": "Malamkunnu",
+      "name_ml": "മലാംകുന്ന്"
     },
     {
-      "ward_id": "42f3f9ac-6844-4f8f-b060-8a7287d50ecb",
+      "id": "42f3f9ac-6844-4f8f-b060-8a7287d50ecb",
       "ward_no": "15",
-      "ward_name_en": "Bekal",
-      "ward_name_ml": "ബേക്കല്‍"
+      "name_en": "Bekal",
+      "name_ml": "ബേക്കല്‍"
     },
     {
-      "ward_id": "e5eda7fb-fedf-44f0-9257-e778dea548f9",
+      "id": "e5eda7fb-fedf-44f0-9257-e778dea548f9",
       "ward_no": "16",
-      "ward_name_en": "Kottikulam",
-      "ward_name_ml": "കോട്ടിക്കുളം"
+      "name_en": "Kottikulam",
+      "name_ml": "കോട്ടിക്കുളം"
     },
     {
-      "ward_id": "29cc8c83-ad52-4d3f-9581-06a816ed6d67",
+      "id": "29cc8c83-ad52-4d3f-9581-06a816ed6d67",
       "ward_no": "17",
-      "ward_name_en": "Palakkunnu",
-      "ward_name_ml": "പാലക്കുന്ന്"
+      "name_en": "Palakkunnu",
+      "name_ml": "പാലക്കുന്ന്"
     },
     {
-      "ward_id": "be25ad45-718b-4bec-9139-4aee701533c1",
+      "id": "be25ad45-718b-4bec-9139-4aee701533c1",
       "ward_no": "18",
-      "ward_name_en": "Karippody",
-      "ward_name_ml": "കരിപ്പോടി"
+      "name_en": "Karippody",
+      "name_ml": "കരിപ്പോടി"
     },
     {
-      "ward_id": "ed2144b4-617b-49ac-b76e-d944bde25366",
+      "id": "ed2144b4-617b-49ac-b76e-d944bde25366",
       "ward_no": "19",
-      "ward_name_en": "Pallam  Thekkekkara",
-      "ward_name_ml": "പളളം തെക്കേക്കര"
+      "name_en": "Pallam  Thekkekkara",
+      "name_ml": "പളളം തെക്കേക്കര"
     },
     {
-      "ward_id": "d3e61bbf-8a3d-4f67-8afb-d812816bde77",
+      "id": "d3e61bbf-8a3d-4f67-8afb-d812816bde77",
       "ward_no": "20",
-      "ward_name_en": "Koppal",
-      "ward_name_ml": "കൊപ്പല്‍"
+      "name_en": "Koppal",
+      "name_ml": "കൊപ്പല്‍"
     },
     {
-      "ward_id": "db347886-a5c2-4625-aef4-ff0f6d8321d3",
+      "id": "db347886-a5c2-4625-aef4-ff0f6d8321d3",
       "ward_no": "21",
-      "ward_name_en": "Ambika Nagar",
-      "ward_name_ml": "അംബികാ നഗര്‍"
+      "name_en": "Ambika Nagar",
+      "name_ml": "അംബികാ നഗര്‍"
     }
   ],
   "towns": [],

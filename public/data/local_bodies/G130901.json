@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G130901",
-  "local_body_name_en": "Triprangottoor",
-  "local_body_name_ml": "തൃപ്രങ്ങോട്ടൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G130901",
+  "name_en": "Triprangottoor",
+  "name_ml": "തൃപ്രങ്ങോട്ടൂര്‍",
+  "assembly_id": "14",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "14",
-    "assembly_name_en": "Kuthuparamba",
-    "assembly_name_ml": "കൂത്തുപറമ്പ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kuthuparamba",
+    "name_ml": "കൂത്തുപറമ്പ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f14d2dc6-84df-40ed-ad06-960f82830bf4",
+      "id": "f14d2dc6-84df-40ed-ad06-960f82830bf4",
       "ward_no": "1",
-      "ward_name_en": "Vadakke Poyiloor",
-      "ward_name_ml": "വടക്കെ പൊയിലൂര്‍"
+      "name_en": "Vadakke Poyiloor",
+      "name_ml": "വടക്കെ പൊയിലൂര്‍"
     },
     {
-      "ward_id": "93f844ae-5bbc-4af7-8cef-f7eca4e0497e",
+      "id": "93f844ae-5bbc-4af7-8cef-f7eca4e0497e",
       "ward_no": "2",
-      "ward_name_en": "Parayulla Paramba",
-      "ward_name_ml": "പാറയുള്ള പറമ്പ്"
+      "name_en": "Parayulla Paramba",
+      "name_ml": "പാറയുള്ള പറമ്പ്"
     },
     {
-      "ward_id": "a6045c37-aaa9-4cac-9f70-04661ecb24f7",
+      "id": "a6045c37-aaa9-4cac-9f70-04661ecb24f7",
       "ward_no": "3",
-      "ward_name_en": "Pullayithode",
-      "ward_name_ml": "പുല്ലായിത്തോട്"
+      "name_en": "Pullayithode",
+      "name_ml": "പുല്ലായിത്തോട്"
     },
     {
-      "ward_id": "9cffcb78-89a1-4611-b21f-8c5ff9a8e3e5",
+      "id": "9cffcb78-89a1-4611-b21f-8c5ff9a8e3e5",
       "ward_no": "4",
-      "ward_name_en": "Chamathakkad",
-      "ward_name_ml": "ചമതക്കാട്"
+      "name_en": "Chamathakkad",
+      "name_ml": "ചമതക്കാട്"
     },
     {
-      "ward_id": "12028c3f-04d5-4993-82c4-be0c8d115a34",
+      "id": "12028c3f-04d5-4993-82c4-be0c8d115a34",
       "ward_no": "5",
-      "ward_name_en": "Vilakkottoor East",
-      "ward_name_ml": "വിളക്കോട്ടൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Vilakkottoor East",
+      "name_ml": "വിളക്കോട്ടൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "10490774-1c44-49ac-8e39-021bffa15441",
+      "id": "10490774-1c44-49ac-8e39-021bffa15441",
       "ward_no": "6",
-      "ward_name_en": "Central Poyiloor",
-      "ward_name_ml": "സെന്‍ട്രല്‍ പൊയിലൂര്‍"
+      "name_en": "Central Poyiloor",
+      "name_ml": "സെന്‍ട്രല്‍ പൊയിലൂര്‍"
     },
     {
-      "ward_id": "363cf165-df83-4360-9378-91fbcc88773f",
+      "id": "363cf165-df83-4360-9378-91fbcc88773f",
       "ward_no": "7",
-      "ward_name_en": "Vattapoyilummal",
-      "ward_name_ml": "വട്ടപൊയിലുമ്മല്‍"
+      "name_en": "Vattapoyilummal",
+      "name_ml": "വട്ടപൊയിലുമ്മല്‍"
     },
     {
-      "ward_id": "183569f9-0cd0-4e0c-bb73-479a06c83413",
+      "id": "183569f9-0cd0-4e0c-bb73-479a06c83413",
       "ward_no": "8",
-      "ward_name_en": "Thekkumuri",
-      "ward_name_ml": "തെക്കുംമുറി"
+      "name_en": "Thekkumuri",
+      "name_ml": "തെക്കുംമുറി"
     },
     {
-      "ward_id": "056386f6-072e-4f90-aa31-1d49435ef5c4",
+      "id": "056386f6-072e-4f90-aa31-1d49435ef5c4",
       "ward_no": "9",
-      "ward_name_en": "Vilakkottor West",
-      "ward_name_ml": "വിളക്കോട്ടൂര്‍ വെസ്റ്റ്"
+      "name_en": "Vilakkottor West",
+      "name_ml": "വിളക്കോട്ടൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "a1312a6d-67e0-4244-9175-5fc8816c0b71",
+      "id": "a1312a6d-67e0-4244-9175-5fc8816c0b71",
       "ward_no": "10",
-      "ward_name_en": "Chettakkandy",
-      "ward_name_ml": "ചെറ്റക്കണ്ടി"
+      "name_en": "Chettakkandy",
+      "name_ml": "ചെറ്റക്കണ്ടി"
     },
     {
-      "ward_id": "be048f1a-0a2b-46bc-8bea-a32c5d6d1e86",
+      "id": "be048f1a-0a2b-46bc-8bea-a32c5d6d1e86",
       "ward_no": "11",
-      "ward_name_en": "Kallikkandy",
-      "ward_name_ml": "കല്ലിക്കണ്ടി"
+      "name_en": "Kallikkandy",
+      "name_ml": "കല്ലിക്കണ്ടി"
     },
     {
-      "ward_id": "982bc147-4a66-46b3-bb73-d91beb94a519",
+      "id": "982bc147-4a66-46b3-bb73-d91beb94a519",
       "ward_no": "12",
-      "ward_name_en": "Uthukkummal",
-      "ward_name_ml": "ഉതുക്കുമ്മല്‍"
+      "name_en": "Uthukkummal",
+      "name_ml": "ഉതുക്കുമ്മല്‍"
     },
     {
-      "ward_id": "3e1597e1-22c5-4e19-946f-b37df7631324",
+      "id": "3e1597e1-22c5-4e19-946f-b37df7631324",
       "ward_no": "13",
-      "ward_name_en": "Mundathode",
-      "ward_name_ml": "മുണ്ടത്തോട്"
+      "name_en": "Mundathode",
+      "name_ml": "മുണ്ടത്തോട്"
     },
     {
-      "ward_id": "a7a4f842-c600-42a9-860a-133ef4026062",
+      "id": "a7a4f842-c600-42a9-860a-133ef4026062",
       "ward_no": "14",
-      "ward_name_en": "Eranjeenkeezil",
-      "ward_name_ml": "ഇരഞ്ഞീന്‍കീഴില്‍"
+      "name_en": "Eranjeenkeezil",
+      "name_ml": "ഇരഞ്ഞീന്‍കീഴില്‍"
     },
     {
-      "ward_id": "c1383884-e3ed-4d0b-8541-e557ff5b4ce6",
+      "id": "c1383884-e3ed-4d0b-8541-e557ff5b4ce6",
       "ward_no": "15",
-      "ward_name_en": "Kurungad",
-      "ward_name_ml": "കുറുങ്ങാട്"
+      "name_en": "Kurungad",
+      "name_ml": "കുറുങ്ങാട്"
     },
     {
-      "ward_id": "dafadb80-695d-4b90-a1f5-ff73564fc287",
+      "id": "dafadb80-695d-4b90-a1f5-ff73564fc287",
       "ward_no": "16",
-      "ward_name_en": "Kadavthur Town",
-      "ward_name_ml": "കടവത്തൂര്‍ ടൌണ്‍"
+      "name_en": "Kadavthur Town",
+      "name_ml": "കടവത്തൂര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "6d548545-5f76-4351-872e-166d1b03f5c1",
+      "id": "6d548545-5f76-4351-872e-166d1b03f5c1",
       "ward_no": "17",
-      "ward_name_en": "High School",
-      "ward_name_ml": "ഹൈസ്കൂള്‍"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്കൂള്‍"
     },
     {
-      "ward_id": "fa97c6b7-b103-401a-b35d-887c3b31188f",
+      "id": "fa97c6b7-b103-401a-b35d-887c3b31188f",
       "ward_no": "18",
-      "ward_name_en": "Keeriyav",
-      "ward_name_ml": "കീരിയാവ്"
+      "name_en": "Keeriyav",
+      "name_ml": "കീരിയാവ്"
     }
   ],
   "towns": [],

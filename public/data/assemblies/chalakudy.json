@@ -1,62 +1,83 @@
 {
-  "assembly_id": "72",
-  "assembly_name_en": "Chalakudy",
-  "assembly_name_ml": "ചാലക്കുടി",
-  "category": "Normal",
+  "id": "72",
+  "name_en": "Chalakudy",
+  "name_ml": "ചാലക്കുടി",
+  "district_id": "8",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "district_category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G081606",
-      "local_body_name_en": "Athirappilly",
-      "local_body_name_ml": "അതിരപ്പിള്ളി",
-      "category": "Good"
+      "id": "G081606",
+      "name_en": "Athirappilly",
+      "name_ml": "അതിരപ്പിള്ളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M080400",
-      "local_body_name_en": "Chalakudy",
-      "local_body_name_ml": "ചാലക്കുടി",
-      "category": "Good"
+      "id": "M080400",
+      "name_en": "Chalakudy",
+      "name_ml": "ചാലക്കുടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081601",
-      "local_body_name_en": "Kadukutty",
-      "local_body_name_ml": "കാടുകുറ്റി",
-      "category": "Normal"
+      "id": "G081601",
+      "name_en": "Kadukutty",
+      "name_ml": "കാടുകുറ്റി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G081102",
-      "local_body_name_en": "Kodakara",
-      "local_body_name_ml": "കൊടകര",
-      "category": "Perfect"
+      "id": "G081102",
+      "name_en": "Kodakara",
+      "name_ml": "കൊടകര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G081602",
-      "local_body_name_en": "Kodassery",
-      "local_body_name_ml": "കോടശ്ശേരി",
-      "category": "Perfect"
+      "id": "G081602",
+      "name_en": "Kodassery",
+      "name_ml": "കോടശ്ശേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G081603",
-      "local_body_name_en": "Koratty",
-      "local_body_name_ml": "കൊരട്ടി",
-      "category": "Normal"
+      "id": "G081603",
+      "name_en": "Koratty",
+      "name_ml": "കൊരട്ടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G081604",
-      "local_body_name_en": "Meloor",
-      "local_body_name_ml": "മേലൂര്‍",
-      "category": "Perfect"
+      "id": "G081604",
+      "name_en": "Meloor",
+      "name_ml": "മേലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G081605",
-      "local_body_name_en": "Pariyaram",
-      "local_body_name_ml": "പരിയാരം",
-      "category": "Normal"
+      "id": "G081605",
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G140603",
-  "local_body_name_en": "Pilicode",
-  "local_body_name_ml": "പിലിക്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G140603",
+  "name_en": "Pilicode",
+  "name_ml": "പിലിക്കോട്",
+  "assembly_id": "5",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "5",
-    "assembly_name_en": "Trikaripur",
-    "assembly_name_ml": "തൃക്കരിപ്പൂര്‍",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Trikaripur",
+    "name_ml": "തൃക്കരിപ്പൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4c3f563e-3a6e-49e7-be13-2af8a8111f00",
+      "id": "4c3f563e-3a6e-49e7-be13-2af8a8111f00",
       "ward_no": "1",
-      "ward_name_en": "Kannankai",
-      "ward_name_ml": "കണ്ണങ്കൈ"
+      "name_en": "Kannankai",
+      "name_ml": "കണ്ണങ്കൈ"
     },
     {
-      "ward_id": "ec34feff-ede3-44fa-ad94-94ed905fbb08",
+      "id": "ec34feff-ede3-44fa-ad94-94ed905fbb08",
       "ward_no": "2",
-      "ward_name_en": "Pilicode",
-      "ward_name_ml": "പിലിക്കോട്"
+      "name_en": "Pilicode",
+      "name_ml": "പിലിക്കോട്"
     },
     {
-      "ward_id": "fec70ec8-032b-41bc-95bd-534cda99d836",
+      "id": "fec70ec8-032b-41bc-95bd-534cda99d836",
       "ward_no": "3",
-      "ward_name_en": "Puthilot",
-      "ward_name_ml": "പുത്തിലോട്ട്"
+      "name_en": "Puthilot",
+      "name_ml": "പുത്തിലോട്ട്"
     },
     {
-      "ward_id": "05170ed4-2a77-49d5-b923-aacebecdf444",
+      "id": "05170ed4-2a77-49d5-b923-aacebecdf444",
       "ward_no": "4",
-      "ward_name_en": "Anikkadi",
-      "ward_name_ml": "ആനിക്കാടി"
+      "name_en": "Anikkadi",
+      "name_ml": "ആനിക്കാടി"
     },
     {
-      "ward_id": "9e9dd8b3-effc-4692-a9a3-0b1a536c2121",
+      "id": "9e9dd8b3-effc-4692-a9a3-0b1a536c2121",
       "ward_no": "5",
-      "ward_name_en": "Pollapoyil",
-      "ward_name_ml": "പൊള്ളപ്പൊയില്‍"
+      "name_en": "Pollapoyil",
+      "name_ml": "പൊള്ളപ്പൊയില്‍"
     },
     {
-      "ward_id": "ef2fb589-1b9b-4e63-8a69-afeff923c396",
+      "id": "ef2fb589-1b9b-4e63-8a69-afeff923c396",
       "ward_no": "6",
-      "ward_name_en": "Padikkeel",
-      "ward_name_ml": "പാടിക്കീല്‍"
+      "name_en": "Padikkeel",
+      "name_ml": "പാടിക്കീല്‍"
     },
     {
-      "ward_id": "588a820d-4763-48b0-8d6d-0bc9521c0fb2",
+      "id": "588a820d-4763-48b0-8d6d-0bc9521c0fb2",
       "ward_no": "7",
-      "ward_name_en": "Olat",
-      "ward_name_ml": "ഓലാട്ട്"
+      "name_en": "Olat",
+      "name_ml": "ഓലാട്ട്"
     },
     {
-      "ward_id": "5df5a8a7-1817-4438-8a6f-13a5f00c324d",
+      "id": "5df5a8a7-1817-4438-8a6f-13a5f00c324d",
       "ward_no": "8",
-      "ward_name_en": "Kodakkad",
-      "ward_name_ml": "കൊടക്കാട്"
+      "name_en": "Kodakkad",
+      "name_ml": "കൊടക്കാട്"
     },
     {
-      "ward_id": "60f6cec6-a139-4467-a64d-e2a441b510cb",
+      "id": "60f6cec6-a139-4467-a64d-e2a441b510cb",
       "ward_no": "9",
-      "ward_name_en": "Vellachal",
-      "ward_name_ml": "വെള്ളച്ചാല്‍"
+      "name_en": "Vellachal",
+      "name_ml": "വെള്ളച്ചാല്‍"
     },
     {
-      "ward_id": "ce998dc4-9b0a-4218-bfee-2ea82382ac8d",
+      "id": "ce998dc4-9b0a-4218-bfee-2ea82382ac8d",
       "ward_no": "10",
-      "ward_name_en": "Eachikovval",
-      "ward_name_ml": "ഏച്ചിക്കൊവ്വല്‍"
+      "name_en": "Eachikovval",
+      "name_ml": "ഏച്ചിക്കൊവ്വല്‍"
     },
     {
-      "ward_id": "ad5f571f-a5e9-40f9-86b2-a2ae06cc18c1",
+      "id": "ad5f571f-a5e9-40f9-86b2-a2ae06cc18c1",
       "ward_no": "11",
-      "ward_name_en": "Kalikkadavu",
-      "ward_name_ml": "കാലിക്കടവ്"
+      "name_en": "Kalikkadavu",
+      "name_ml": "കാലിക്കടവ്"
     },
     {
-      "ward_id": "261db7f5-f4d2-41a0-b48d-96aa60b40c34",
+      "id": "261db7f5-f4d2-41a0-b48d-96aa60b40c34",
       "ward_no": "12",
-      "ward_name_en": "Chandera",
-      "ward_name_ml": "ചന്തേര"
+      "name_en": "Chandera",
+      "name_ml": "ചന്തേര"
     },
     {
-      "ward_id": "74a1f0ae-3b45-42d7-9c11-1ca004d747d3",
+      "id": "74a1f0ae-3b45-42d7-9c11-1ca004d747d3",
       "ward_no": "13",
-      "ward_name_en": "Maniyat",
-      "ward_name_ml": "മാണിയാട്ട്"
+      "name_en": "Maniyat",
+      "name_ml": "മാണിയാട്ട്"
     },
     {
-      "ward_id": "3c3b3471-49a7-4682-9b24-803f237343c3",
+      "id": "3c3b3471-49a7-4682-9b24-803f237343c3",
       "ward_no": "14",
-      "ward_name_en": "Thirunelli",
-      "ward_name_ml": "തിരുനെല്ലി"
+      "name_en": "Thirunelli",
+      "name_ml": "തിരുനെല്ലി"
     },
     {
-      "ward_id": "216d44d0-fb3f-4765-ba52-1109d4dec7ee",
+      "id": "216d44d0-fb3f-4765-ba52-1109d4dec7ee",
       "ward_no": "15",
-      "ward_name_en": "Vayal",
-      "ward_name_ml": "വയല്‍"
+      "name_en": "Vayal",
+      "name_ml": "വയല്‍"
     },
     {
-      "ward_id": "1a499f78-0467-4e1b-bdcc-49d463db3859",
+      "id": "1a499f78-0467-4e1b-bdcc-49d463db3859",
       "ward_no": "16",
-      "ward_name_en": "Karappath",
-      "ward_name_ml": "കരപ്പാത്ത്"
+      "name_en": "Karappath",
+      "name_ml": "കരപ്പാത്ത്"
     }
   ],
   "towns": [],

@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G130506",
-  "local_body_name_en": "Pappinisseri",
-  "local_body_name_ml": "പാപ്പിനിശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G130506",
+  "name_en": "Pappinisseri",
+  "name_ml": "പാപ്പിനിശ്ശേരി",
+  "assembly_id": "10",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "10",
-    "assembly_name_en": "Azhikode",
-    "assembly_name_ml": "അഴീക്കോട്",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Azhikode",
+    "name_ml": "അഴീക്കോട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2d86e617-2208-41d9-8b18-00519983f51d",
+      "id": "2d86e617-2208-41d9-8b18-00519983f51d",
       "ward_no": "1",
-      "ward_name_en": "Kottapalam",
-      "ward_name_ml": "കൊട്ടപ്പാലം"
+      "name_en": "Kottapalam",
+      "name_ml": "കൊട്ടപ്പാലം"
     },
     {
-      "ward_id": "e8f49fb5-9fc0-4945-b2a7-bb7eb3bb0a13",
+      "id": "e8f49fb5-9fc0-4945-b2a7-bb7eb3bb0a13",
       "ward_no": "2",
-      "ward_name_en": "Karikkankulam",
-      "ward_name_ml": "കരിക്കന്‍കുളം"
+      "name_en": "Karikkankulam",
+      "name_ml": "കരിക്കന്‍കുളം"
     },
     {
-      "ward_id": "ce4d74e6-2e15-40c8-aee0-3f9b18a9c945",
+      "id": "ce4d74e6-2e15-40c8-aee0-3f9b18a9c945",
       "ward_no": "3",
-      "ward_name_en": "Dharmakinar",
-      "ward_name_ml": "ധര്‍മ്മക്കിണര്‍"
+      "name_en": "Dharmakinar",
+      "name_ml": "ധര്‍മ്മക്കിണര്‍"
     },
     {
-      "ward_id": "48654d47-9fa0-42c6-8f0e-36620d2171a3",
+      "id": "48654d47-9fa0-42c6-8f0e-36620d2171a3",
       "ward_no": "4",
-      "ward_name_en": "Pazhanchira",
-      "ward_name_ml": "പഴഞ്ചിറ"
+      "name_en": "Pazhanchira",
+      "name_ml": "പഴഞ്ചിറ"
     },
     {
-      "ward_id": "a1f5e836-d959-48de-bebe-d12ca6f2050f",
+      "id": "a1f5e836-d959-48de-bebe-d12ca6f2050f",
       "ward_no": "5",
-      "ward_name_en": "Manhakulam",
-      "ward_name_ml": "മഞ്ഞക്കുളം"
+      "name_en": "Manhakulam",
+      "name_ml": "മഞ്ഞക്കുളം"
     },
     {
-      "ward_id": "2b8072ce-ccea-4223-ac6a-ce09bb4cdfee",
+      "id": "2b8072ce-ccea-4223-ac6a-ce09bb4cdfee",
       "ward_no": "6",
-      "ward_name_en": "Aroli High School",
-      "ward_name_ml": "അരോളി ഹൈസ്ക്കൂള്‍"
+      "name_en": "Aroli High School",
+      "name_ml": "അരോളി ഹൈസ്ക്കൂള്‍"
     },
     {
-      "ward_id": "e66d1c9a-7fc0-483c-9769-b0e7e6197f16",
+      "id": "e66d1c9a-7fc0-483c-9769-b0e7e6197f16",
       "ward_no": "7",
-      "ward_name_en": "Keecherikunnu",
-      "ward_name_ml": "കീച്ചേരിക്കുന്ന്"
+      "name_en": "Keecherikunnu",
+      "name_ml": "കീച്ചേരിക്കുന്ന്"
     },
     {
-      "ward_id": "4be084ca-67d5-4118-b2d1-6381b1da8f92",
+      "id": "4be084ca-67d5-4118-b2d1-6381b1da8f92",
       "ward_no": "8",
-      "ward_name_en": "Kalloori",
-      "ward_name_ml": "കല്ലൂരി"
+      "name_en": "Kalloori",
+      "name_ml": "കല്ലൂരി"
     },
     {
-      "ward_id": "8c6e1fd6-28c6-4113-8067-f6f4a2ee91d0",
+      "id": "8c6e1fd6-28c6-4113-8067-f6f4a2ee91d0",
       "ward_no": "9",
-      "ward_name_en": "Kattyam",
-      "ward_name_ml": "കാട്ട്യം"
+      "name_en": "Kattyam",
+      "name_ml": "കാട്ട്യം"
     },
     {
-      "ward_id": "1cf967c2-a593-45a5-923f-9d487f7c18ae",
+      "id": "1cf967c2-a593-45a5-923f-9d487f7c18ae",
       "ward_no": "10",
-      "ward_name_en": "Mangadavu",
-      "ward_name_ml": "മാങ്കടവ്"
+      "name_en": "Mangadavu",
+      "name_ml": "മാങ്കടവ്"
     },
     {
-      "ward_id": "fa351fe7-221b-4f5e-b063-68a4e7d534b5",
+      "id": "fa351fe7-221b-4f5e-b063-68a4e7d534b5",
       "ward_no": "11",
-      "ward_name_en": "Aroli",
-      "ward_name_ml": "അരോളി"
+      "name_en": "Aroli",
+      "name_ml": "അരോളി"
     },
     {
-      "ward_id": "57d1ad53-7b76-4d1a-8303-7e515238f465",
+      "id": "57d1ad53-7b76-4d1a-8303-7e515238f465",
       "ward_no": "12",
-      "ward_name_en": "Thuruthi",
-      "ward_name_ml": "തുരുത്തി"
+      "name_en": "Thuruthi",
+      "name_ml": "തുരുത്തി"
     },
     {
-      "ward_id": "c8a8aa91-370e-4bc4-ac57-ca5a697a6adf",
+      "id": "c8a8aa91-370e-4bc4-ac57-ca5a697a6adf",
       "ward_no": "13",
-      "ward_name_en": "Moronnummal",
-      "ward_name_ml": "മോറോന്നുമ്മല്‍"
+      "name_en": "Moronnummal",
+      "name_ml": "മോറോന്നുമ്മല്‍"
     },
     {
-      "ward_id": "a3e9230c-ceb8-460e-ba4e-96dfc1d71de9",
+      "id": "a3e9230c-ceb8-460e-ba4e-96dfc1d71de9",
       "ward_no": "14",
-      "ward_name_en": "Pappinisseri Central",
-      "ward_name_ml": "പാപ്പിനിശ്ശേരി സെന്‍ട്രല്‍"
+      "name_en": "Pappinisseri Central",
+      "name_ml": "പാപ്പിനിശ്ശേരി സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "5874703c-9d89-4be5-9bdd-3841d64f044d",
+      "id": "5874703c-9d89-4be5-9bdd-3841d64f044d",
       "ward_no": "15",
-      "ward_name_en": "Vilakandam",
-      "ward_name_ml": "വിളക്കണ്ടം"
+      "name_en": "Vilakandam",
+      "name_ml": "വിളക്കണ്ടം"
     },
     {
-      "ward_id": "ac4aeddb-b562-43a2-af7f-986439ddb9c4",
+      "id": "ac4aeddb-b562-43a2-af7f-986439ddb9c4",
       "ward_no": "16",
-      "ward_name_en": "Arathil",
-      "ward_name_ml": "അറത്തില്‍"
+      "name_en": "Arathil",
+      "name_ml": "അറത്തില്‍"
     },
     {
-      "ward_id": "bac85028-a4c6-42b9-bb26-9b4225dfd17f",
+      "id": "bac85028-a4c6-42b9-bb26-9b4225dfd17f",
       "ward_no": "17",
-      "ward_name_en": "Bappikan Thode",
-      "ward_name_ml": "ബാപ്പിക്കാന്‍ തോട്"
+      "name_en": "Bappikan Thode",
+      "name_ml": "ബാപ്പിക്കാന്‍ തോട്"
     },
     {
-      "ward_id": "d33583d5-6215-4a7b-8977-e8f4e45d4829",
+      "id": "d33583d5-6215-4a7b-8977-e8f4e45d4829",
       "ward_no": "18",
-      "ward_name_en": "Podikkalam",
-      "ward_name_ml": "പൊടിക്കളം"
+      "name_en": "Podikkalam",
+      "name_ml": "പൊടിക്കളം"
     },
     {
-      "ward_id": "58b84692-95ba-401d-835b-af72fe34921e",
+      "id": "58b84692-95ba-401d-835b-af72fe34921e",
       "ward_no": "19",
-      "ward_name_en": "Illipuram",
-      "ward_name_ml": "ഇല്ലിപ്പുറം"
+      "name_en": "Illipuram",
+      "name_ml": "ഇല്ലിപ്പുറം"
     },
     {
-      "ward_id": "bd9042dd-dd13-4c67-aee8-a8de2cd1f7de",
+      "id": "bd9042dd-dd13-4c67-aee8-a8de2cd1f7de",
       "ward_no": "20",
-      "ward_name_en": "Puthiyakavu",
-      "ward_name_ml": "പുതിയകാവ്"
+      "name_en": "Puthiyakavu",
+      "name_ml": "പുതിയകാവ്"
     }
   ],
   "towns": [],

@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G060503",
-  "local_body_name_en": "Arakulam",
-  "local_body_name_ml": "അറക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "91",
-    "assembly_name_en": "Idukki",
-    "assembly_name_ml": "ഇടുക്കി",
+  "id": "G060503",
+  "name_en": "Arakulam",
+  "name_ml": "അറക്കുളം",
+  "assembly_id": "91",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "91",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "880ebea9-b025-46e4-8fb2-62d73a066be4",
+      "id": "880ebea9-b025-46e4-8fb2-62d73a066be4",
       "ward_no": "1",
-      "ward_name_en": "Arakulam",
-      "ward_name_ml": "അറക്കുളം"
+      "name_en": "Arakulam",
+      "name_ml": "അറക്കുളം"
     },
     {
-      "ward_id": "f7b6a6c5-8e2c-4c18-9ea3-295cb57b2a80",
+      "id": "f7b6a6c5-8e2c-4c18-9ea3-295cb57b2a80",
       "ward_no": "2",
-      "ward_name_en": "Kavumpady",
-      "ward_name_ml": "കാവുംപടി"
+      "name_en": "Kavumpady",
+      "name_ml": "കാവുംപടി"
     },
     {
-      "ward_id": "5526ba9b-439a-4552-b1a5-05e73fbfd515",
+      "id": "5526ba9b-439a-4552-b1a5-05e73fbfd515",
       "ward_no": "3",
-      "ward_name_en": "Karippalangadu",
-      "ward_name_ml": "കരിപ്പലങ്ങാട്"
+      "name_en": "Karippalangadu",
+      "name_ml": "കരിപ്പലങ്ങാട്"
     },
     {
-      "ward_id": "aa3dbcf9-3a18-41ea-997f-835bb78a3e0d",
+      "id": "aa3dbcf9-3a18-41ea-997f-835bb78a3e0d",
       "ward_no": "4",
-      "ward_name_en": "Kulamavu",
-      "ward_name_ml": "കുളമാവ്"
+      "name_en": "Kulamavu",
+      "name_ml": "കുളമാവ്"
     },
     {
-      "ward_id": "bfa80228-3bd4-4066-9d3f-06fc6a871035",
+      "id": "bfa80228-3bd4-4066-9d3f-06fc6a871035",
       "ward_no": "5",
-      "ward_name_en": "Urumbullu",
-      "ward_name_ml": "ഉറുമ്പുള്ള്"
+      "name_en": "Urumbullu",
+      "name_ml": "ഉറുമ്പുള്ള്"
     },
     {
-      "ward_id": "a1e5777d-dd89-4127-8892-b8c3d9780f2a",
+      "id": "a1e5777d-dd89-4127-8892-b8c3d9780f2a",
       "ward_no": "6",
-      "ward_name_en": "Jalandhar",
-      "ward_name_ml": "ജലന്ധര്‍"
+      "name_en": "Jalandhar",
+      "name_ml": "ജലന്ധര്‍"
     },
     {
-      "ward_id": "7dbc245b-70bd-4278-8386-be19ec8c80bd",
+      "id": "7dbc245b-70bd-4278-8386-be19ec8c80bd",
       "ward_no": "7",
-      "ward_name_en": "Pathippally",
-      "ward_name_ml": "പതിപ്പള്ളി"
+      "name_en": "Pathippally",
+      "name_ml": "പതിപ്പള്ളി"
     },
     {
-      "ward_id": "93dfc6f0-e52a-4106-b13e-31c037f82386",
+      "id": "93dfc6f0-e52a-4106-b13e-31c037f82386",
       "ward_no": "8",
-      "ward_name_en": "Edadu",
-      "ward_name_ml": "എടാട്"
+      "name_en": "Edadu",
+      "name_ml": "എടാട്"
     },
     {
-      "ward_id": "8b52c1da-7cf0-40c1-acd3-95a982d4e2f7",
+      "id": "8b52c1da-7cf0-40c1-acd3-95a982d4e2f7",
       "ward_no": "9",
-      "ward_name_en": "Elappally",
-      "ward_name_ml": "ഇലപ്പിള്ളി"
+      "name_en": "Elappally",
+      "name_ml": "ഇലപ്പിള്ളി"
     },
     {
-      "ward_id": "c142c144-6796-442c-baf2-a08b612437e2",
+      "id": "c142c144-6796-442c-baf2-a08b612437e2",
       "ward_no": "10",
-      "ward_name_en": "Kannickal",
-      "ward_name_ml": "കണ്ണിക്കല്‍"
+      "name_en": "Kannickal",
+      "name_ml": "കണ്ണിക്കല്‍"
     },
     {
-      "ward_id": "5ca02315-59af-430a-9782-4ca31df78d70",
+      "id": "5ca02315-59af-430a-9782-4ca31df78d70",
       "ward_no": "11",
-      "ward_name_en": "K.S.E.B Colony",
-      "ward_name_ml": "കെ.എസ്.ഇ.ബി കോളനി"
+      "name_en": "K.S.E.B Colony",
+      "name_ml": "കെ.എസ്.ഇ.ബി കോളനി"
     },
     {
-      "ward_id": "141d6dfc-ea46-4e61-9058-adc4e1c19f14",
+      "id": "141d6dfc-ea46-4e61-9058-adc4e1c19f14",
       "ward_no": "12",
-      "ward_name_en": "Moolamattom",
-      "ward_name_ml": "മൂലമറ്റം"
+      "name_en": "Moolamattom",
+      "name_ml": "മൂലമറ്റം"
     },
     {
-      "ward_id": "48a39667-2310-45d4-8215-032ef9d6c902",
+      "id": "48a39667-2310-45d4-8215-032ef9d6c902",
       "ward_no": "13",
-      "ward_name_en": "A.K.G Nagar",
-      "ward_name_ml": "എ.കെ.ജി നഗര്‍"
+      "name_en": "A.K.G Nagar",
+      "name_ml": "എ.കെ.ജി നഗര്‍"
     },
     {
-      "ward_id": "575daa03-3319-4e5c-b1b8-a43011487fe7",
+      "id": "575daa03-3319-4e5c-b1b8-a43011487fe7",
       "ward_no": "14",
-      "ward_name_en": "12th Mile",
-      "ward_name_ml": "12-ാം മൈല്‍"
+      "name_en": "12th Mile",
+      "name_ml": "12-ാം മൈല്‍"
     },
     {
-      "ward_id": "23a516a2-71a5-40e6-9757-e84912d24dd9",
+      "id": "23a516a2-71a5-40e6-9757-e84912d24dd9",
       "ward_no": "15",
-      "ward_name_en": "Moonnukavayal",
-      "ward_name_ml": "മൂന്നുങ്കവയല്‍"
+      "name_en": "Moonnukavayal",
+      "name_ml": "മൂന്നുങ്കവയല്‍"
     }
   ],
   "towns": [],

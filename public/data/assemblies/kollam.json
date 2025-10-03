@@ -1,26 +1,35 @@
 {
-  "assembly_id": "124",
-  "assembly_name_en": "Kollam",
-  "assembly_name_ml": "കൊല്ലം",
-  "category": "Perfect",
+  "id": "124",
+  "name_en": "Kollam",
+  "name_ml": "കൊല്ലം",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Perfect"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020706",
-      "local_body_name_en": "Panayam",
-      "local_body_name_ml": "പനയം",
-      "category": "Perfect"
+      "id": "G020706",
+      "name_en": "Panayam",
+      "name_ml": "പനയം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020708",
-      "local_body_name_en": "Thrikkaruva",
-      "local_body_name_ml": "തൃക്കരുവ",
-      "category": "Perfect"
+      "id": "G020708",
+      "name_en": "Thrikkaruva",
+      "name_ml": "തൃക്കരുവ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

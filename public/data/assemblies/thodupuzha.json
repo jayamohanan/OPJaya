@@ -1,92 +1,123 @@
 {
-  "assembly_id": "90",
-  "assembly_name_en": "Thodupuzha",
-  "assembly_name_ml": "തൊടുപുഴ",
-  "category": "Normal",
+  "id": "90",
+  "name_en": "Thodupuzha",
+  "name_ml": "തൊടുപുഴ",
+  "district_id": "6",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "district_category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G060703",
-      "local_body_name_en": "Edavetty",
-      "local_body_name_ml": "ഇടവെട്ടി",
-      "category": "Normal"
+      "id": "G060703",
+      "name_en": "Edavetty",
+      "name_ml": "ഇടവെട്ടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060406",
-      "local_body_name_en": "Karimannoor",
-      "local_body_name_ml": "കരിമണ്ണൂര്‍",
-      "category": "Normal"
+      "id": "G060406",
+      "name_en": "Karimannoor",
+      "name_ml": "കരിമണ്ണൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060704",
-      "local_body_name_en": "Karimkunnam",
-      "local_body_name_ml": "കരിങ്കുന്നം",
-      "category": "Normal"
+      "id": "G060704",
+      "name_en": "Karimkunnam",
+      "name_ml": "കരിങ്കുന്നം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060403",
-      "local_body_name_en": "Kodikulam",
-      "local_body_name_ml": "കോടിക്കുളം",
-      "category": "Good"
+      "id": "G060403",
+      "name_en": "Kodikulam",
+      "name_ml": "കോടിക്കുളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060702",
-      "local_body_name_en": "Kumaramangalam",
-      "local_body_name_ml": "കുമാരമംഗലം",
-      "category": "Good"
+      "id": "G060702",
+      "name_en": "Kumaramangalam",
+      "name_ml": "കുമാരമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060705",
-      "local_body_name_en": "Manakkad",
-      "local_body_name_ml": "മണക്കാട്",
-      "category": "Good"
+      "id": "G060705",
+      "name_en": "Manakkad",
+      "name_ml": "മണക്കാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060701",
-      "local_body_name_en": "Muttom",
-      "local_body_name_ml": "മുട്ടം",
-      "category": "Normal"
+      "id": "G060701",
+      "name_en": "Muttom",
+      "name_ml": "മുട്ടം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060706",
-      "local_body_name_en": "Purapuzha",
-      "local_body_name_ml": "പുറപ്പുഴ",
-      "category": "Good"
+      "id": "G060706",
+      "name_en": "Purapuzha",
+      "name_ml": "പുറപ്പുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M060100",
-      "local_body_name_en": "Thodupuzha",
-      "local_body_name_ml": "തൊടുപുഴ",
-      "category": "Good"
+      "id": "M060100",
+      "name_en": "Thodupuzha",
+      "name_ml": "തൊടുപുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060402",
-      "local_body_name_en": "Udumbanoor",
-      "local_body_name_ml": "ഉടുമ്പന്നൂര്‍",
-      "category": "Normal"
+      "id": "G060402",
+      "name_en": "Udumbanoor",
+      "name_ml": "ഉടുമ്പന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060401",
-      "local_body_name_en": "Vannappuram",
-      "local_body_name_ml": "വണ്ണപ്പുറം",
-      "category": "Normal"
+      "id": "G060401",
+      "name_en": "Vannappuram",
+      "name_ml": "വണ്ണപ്പുറം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060404",
-      "local_body_name_en": "Alakode",
-      "local_body_name_ml": "ആലക്കോട്",
-      "category": "Normal"
+      "id": "G060404",
+      "name_en": "Alakode",
+      "name_ml": "ആലക്കോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060405",
-      "local_body_name_en": "Velliyamattom",
-      "local_body_name_ml": "വെളളിയാമറ്റം",
-      "category": "Good"
+      "id": "G060405",
+      "name_en": "Velliyamattom",
+      "name_ml": "വെളളിയാമറ്റം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030404",
-  "local_body_name_en": "Cherukole",
-  "local_body_name_ml": "ചെറുകോല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G030404",
+  "name_en": "Cherukole",
+  "name_ml": "ചെറുകോല്‍",
+  "assembly_id": "112",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "112",
-    "assembly_name_en": "Ranni",
-    "assembly_name_ml": "റാന്നി",
-    "category": "Normal"
+    "id": "112",
+    "name_en": "Ranni",
+    "name_ml": "റാന്നി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c9e46aae-01bf-4bbe-8265-33a2c825bbe4",
+      "id": "c9e46aae-01bf-4bbe-8265-33a2c825bbe4",
       "ward_no": "1",
-      "ward_name_en": "Kacheripadi",
-      "ward_name_ml": "കച്ചേരിപ്പടി"
+      "name_en": "Kacheripadi",
+      "name_ml": "കച്ചേരിപ്പടി"
     },
     {
-      "ward_id": "f6130c7a-08d8-48da-8f95-5470319565c5",
+      "id": "f6130c7a-08d8-48da-8f95-5470319565c5",
       "ward_no": "2",
-      "ward_name_en": "Vazhakkunnam",
-      "ward_name_ml": "വാഴക്കുന്നം"
+      "name_en": "Vazhakkunnam",
+      "name_ml": "വാഴക്കുന്നം"
     },
     {
-      "ward_id": "e6b5f3ce-0c57-4b35-b8eb-1f43ddab3b00",
+      "id": "e6b5f3ce-0c57-4b35-b8eb-1f43ddab3b00",
       "ward_no": "3",
-      "ward_name_en": "Kattoor",
-      "ward_name_ml": "കാട്ടൂര്‍"
+      "name_en": "Kattoor",
+      "name_ml": "കാട്ടൂര്‍"
     },
     {
-      "ward_id": "2980d991-735d-41eb-a731-cb190a777f11",
+      "id": "2980d991-735d-41eb-a731-cb190a777f11",
       "ward_no": "4",
-      "ward_name_en": "Puthamon",
-      "ward_name_ml": "പുതമണ്‍"
+      "name_en": "Puthamon",
+      "name_ml": "പുതമണ്‍"
     },
     {
-      "ward_id": "0c5b730d-e70d-4e30-b7b1-0f92b4e3e9c9",
+      "id": "0c5b730d-e70d-4e30-b7b1-0f92b4e3e9c9",
       "ward_no": "5",
-      "ward_name_en": "Chackappalam",
-      "ward_name_ml": "ചാക്കപ്പാലം"
+      "name_en": "Chackappalam",
+      "name_ml": "ചാക്കപ്പാലം"
     },
     {
-      "ward_id": "72944dc0-6553-43f2-9168-68d121c4190f",
+      "id": "72944dc0-6553-43f2-9168-68d121c4190f",
       "ward_no": "6",
-      "ward_name_en": "Keekozhoor",
-      "ward_name_ml": "കീക്കൊഴൂര്‍"
+      "name_en": "Keekozhoor",
+      "name_ml": "കീക്കൊഴൂര്‍"
     },
     {
-      "ward_id": "1583ab16-a71f-4e01-9e5b-b43d2ca69da4",
+      "id": "1583ab16-a71f-4e01-9e5b-b43d2ca69da4",
       "ward_no": "7",
-      "ward_name_en": "Manjapramala",
-      "ward_name_ml": "മഞ്ഞപ്രമല"
+      "name_en": "Manjapramala",
+      "name_ml": "മഞ്ഞപ്രമല"
     },
     {
-      "ward_id": "2681d093-8e0e-4ac6-9562-d0ed23f028a9",
+      "id": "2681d093-8e0e-4ac6-9562-d0ed23f028a9",
       "ward_no": "8",
-      "ward_name_en": "Charalel",
-      "ward_name_ml": "ചരളേല്‍"
+      "name_en": "Charalel",
+      "name_ml": "ചരളേല്‍"
     },
     {
-      "ward_id": "f6791116-5c8f-4cc1-b02a-acc1244ccf23",
+      "id": "f6791116-5c8f-4cc1-b02a-acc1244ccf23",
       "ward_no": "9",
-      "ward_name_en": "Kudilumukku",
-      "ward_name_ml": "കുടിലുമുക്ക്"
+      "name_en": "Kudilumukku",
+      "name_ml": "കുടിലുമുക്ക്"
     },
     {
-      "ward_id": "2e8e35a6-7d3f-4fab-8168-13c41ce97521",
+      "id": "2e8e35a6-7d3f-4fab-8168-13c41ce97521",
       "ward_no": "10",
-      "ward_name_en": "Anthyalamkavu",
-      "ward_name_ml": "അന്ത്യാളംകാവ്"
+      "name_en": "Anthyalamkavu",
+      "name_ml": "അന്ത്യാളംകാവ്"
     },
     {
-      "ward_id": "808c4b89-060e-4c0e-99d7-21248d2195cd",
+      "id": "808c4b89-060e-4c0e-99d7-21248d2195cd",
       "ward_no": "11",
-      "ward_name_en": "Kattoor Petta",
-      "ward_name_ml": "കാട്ടൂര്‍പേട്ട"
+      "name_en": "Kattoor Petta",
+      "name_ml": "കാട്ടൂര്‍പേട്ട"
     },
     {
-      "ward_id": "c44acc84-e0d7-4bd0-b8f8-a448bdacebcd",
+      "id": "c44acc84-e0d7-4bd0-b8f8-a448bdacebcd",
       "ward_no": "12",
-      "ward_name_en": "Kottanalloor",
-      "ward_name_ml": "കൊറ്റനല്ലൂര്‍"
+      "name_en": "Kottanalloor",
+      "name_ml": "കൊറ്റനല്ലൂര്‍"
     },
     {
-      "ward_id": "10ed014f-7d6f-429a-b791-36e3b56e9b0c",
+      "id": "10ed014f-7d6f-429a-b791-36e3b56e9b0c",
       "ward_no": "13",
-      "ward_name_en": "Channamankal",
-      "ward_name_ml": "ചണ്ണമാങ്കല്‍"
+      "name_en": "Channamankal",
+      "name_ml": "ചണ്ണമാങ്കല്‍"
     }
   ],
   "towns": [],

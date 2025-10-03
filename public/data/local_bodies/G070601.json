@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G070601",
-  "local_body_name_en": "Kadamakudy",
-  "local_body_name_ml": "കടമക്കുടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "79",
-    "assembly_name_en": "Vypin",
-    "assembly_name_ml": "വൈപ്പിൻ",
+  "id": "G070601",
+  "name_en": "Kadamakudy",
+  "name_ml": "കടമക്കുടി",
+  "assembly_id": "79",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "79",
+    "name_en": "Vypin",
+    "name_ml": "വൈപ്പിൻ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2d588050-5df4-4a11-92d5-3bde6eb322d4",
+      "id": "2d588050-5df4-4a11-92d5-3bde6eb322d4",
       "ward_no": "1",
-      "ward_name_en": "Valiya Kadamakudy",
-      "ward_name_ml": "വലിയ കടമക്കുടി"
+      "name_en": "Valiya Kadamakudy",
+      "name_ml": "വലിയ കടമക്കുടി"
     },
     {
-      "ward_id": "fe1d2eb6-9da2-4c12-a664-ce591dab7875",
+      "id": "fe1d2eb6-9da2-4c12-a664-ce591dab7875",
       "ward_no": "2",
-      "ward_name_en": "Chariyamthuruth",
-      "ward_name_ml": "ചരിയംതുരുത്ത്"
+      "name_en": "Chariyamthuruth",
+      "name_ml": "ചരിയംതുരുത്ത്"
     },
     {
-      "ward_id": "b29418bd-a946-4314-95d0-158120c61c97",
+      "id": "b29418bd-a946-4314-95d0-158120c61c97",
       "ward_no": "3",
-      "ward_name_en": "Chennur",
-      "ward_name_ml": "ചേന്നൂര്‍"
+      "name_en": "Chennur",
+      "name_ml": "ചേന്നൂര്‍"
     },
     {
-      "ward_id": "f77f989b-2d24-48ae-affd-47d838eca538",
+      "id": "f77f989b-2d24-48ae-affd-47d838eca538",
       "ward_no": "4",
-      "ward_name_en": "Karikkattuthuruth",
-      "ward_name_ml": "കാരിക്കാട്ടുതുരുത്ത്"
+      "name_en": "Karikkattuthuruth",
+      "name_ml": "കാരിക്കാട്ടുതുരുത്ത്"
     },
     {
-      "ward_id": "750d5570-1fe9-47e2-ad1c-113d3cd20846",
+      "id": "750d5570-1fe9-47e2-ad1c-113d3cd20846",
       "ward_no": "5",
-      "ward_name_en": "Kandanad",
-      "ward_name_ml": "കണ്ടനാട്"
+      "name_en": "Kandanad",
+      "name_ml": "കണ്ടനാട്"
     },
     {
-      "ward_id": "f28130f8-d9b0-4298-9d80-1d267610ec2e",
+      "id": "f28130f8-d9b0-4298-9d80-1d267610ec2e",
       "ward_no": "6",
-      "ward_name_en": "Korampadam",
-      "ward_name_ml": "കോരാമ്പാടം"
+      "name_en": "Korampadam",
+      "name_ml": "കോരാമ്പാടം"
     },
     {
-      "ward_id": "dc20b275-7075-465b-9087-84d8d302c9d1",
+      "id": "dc20b275-7075-465b-9087-84d8d302c9d1",
       "ward_no": "7",
-      "ward_name_en": "Kothad",
-      "ward_name_ml": "കോതാട്"
+      "name_en": "Kothad",
+      "name_ml": "കോതാട്"
     },
     {
-      "ward_id": "ba65e241-49ed-4867-8890-4e01535cc7ed",
+      "id": "ba65e241-49ed-4867-8890-4e01535cc7ed",
       "ward_no": "8",
-      "ward_name_en": "Moolampilly East",
-      "ward_name_ml": "മൂലമ്പിള്ളി ഈസ്റ്റ്"
+      "name_en": "Moolampilly East",
+      "name_ml": "മൂലമ്പിള്ളി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "afc8ab61-2286-4e5c-a7d6-fdf26789d6ea",
+      "id": "afc8ab61-2286-4e5c-a7d6-fdf26789d6ea",
       "ward_no": "9",
-      "ward_name_en": "Moolampilly West",
-      "ward_name_ml": "മൂലമ്പിള്ളി വെസ്റ്റ്"
+      "name_en": "Moolampilly West",
+      "name_ml": "മൂലമ്പിള്ളി വെസ്റ്റ്"
     },
     {
-      "ward_id": "73707589-c4fd-4ffb-9dd1-0d65d7e9ca09",
+      "id": "73707589-c4fd-4ffb-9dd1-0d65d7e9ca09",
       "ward_no": "10",
-      "ward_name_en": "Pizhala South",
-      "ward_name_ml": "പിഴല സൌത്ത്"
+      "name_en": "Pizhala South",
+      "name_ml": "പിഴല സൌത്ത്"
     },
     {
-      "ward_id": "ea9a8169-9f87-47c8-985b-904de53694cb",
+      "id": "ea9a8169-9f87-47c8-985b-904de53694cb",
       "ward_no": "11",
-      "ward_name_en": "Pizhala North",
-      "ward_name_ml": "പിഴല  നോര്‍ത്ത്"
+      "name_en": "Pizhala North",
+      "name_ml": "പിഴല  നോര്‍ത്ത്"
     },
     {
-      "ward_id": "061a8bb3-5a71-433f-9a7d-f709524ad095",
+      "id": "061a8bb3-5a71-433f-9a7d-f709524ad095",
       "ward_no": "12",
-      "ward_name_en": "Paliyamthuruth",
-      "ward_name_ml": "പാലിയംതുരുത്ത്"
+      "name_en": "Paliyamthuruth",
+      "name_ml": "പാലിയംതുരുത്ത്"
     },
     {
-      "ward_id": "b8ab0d9c-a030-400e-9f9d-4dae6a92e9aa",
+      "id": "b8ab0d9c-a030-400e-9f9d-4dae6a92e9aa",
       "ward_no": "13",
-      "ward_name_en": "Kadamakudy Murikkal",
-      "ward_name_ml": "കടമക്കുടി മുറിക്കല്‍"
+      "name_en": "Kadamakudy Murikkal",
+      "name_ml": "കടമക്കുടി മുറിക്കല്‍"
     }
   ],
   "towns": [],

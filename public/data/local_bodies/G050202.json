@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G050202",
-  "local_body_name_en": "Kallara",
-  "local_body_name_ml": "കല്ലറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G050202",
+  "name_en": "Kallara",
+  "name_ml": "കല്ലറ",
+  "assembly_id": "95",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "95",
-    "assembly_name_en": "Vaikom",
-    "assembly_name_ml": "വൈക്കം",
-    "category": "Normal"
+    "id": "95",
+    "name_en": "Vaikom",
+    "name_ml": "വൈക്കം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c8ca15ca-cd74-46ea-835b-5d1f83cb3fcf",
+      "id": "c8ca15ca-cd74-46ea-835b-5d1f83cb3fcf",
       "ward_no": "1",
-      "ward_name_en": "Mundar",
-      "ward_name_ml": "മുണ്ടാര്‍"
+      "name_en": "Mundar",
+      "name_ml": "മുണ്ടാര്‍"
     },
     {
-      "ward_id": "6bb9569c-82a1-42b3-8830-53a2a8756016",
+      "id": "6bb9569c-82a1-42b3-8830-53a2a8756016",
       "ward_no": "2",
-      "ward_name_en": "Manikkavilasam Higher Secondary School",
-      "ward_name_ml": "മാണിക്യവിലാസം ഹയര്‍ സെക്കണ്ടറി സ്കൂള്‍"
+      "name_en": "Manikkavilasam Higher Secondary School",
+      "name_ml": "മാണിക്യവിലാസം ഹയര്‍ സെക്കണ്ടറി സ്കൂള്‍"
     },
     {
-      "ward_id": "d5ac62d4-3994-4c65-a73b-973173b618b9",
+      "id": "d5ac62d4-3994-4c65-a73b-973173b618b9",
       "ward_no": "3",
-      "ward_name_en": "Puthenpally Bhagam",
-      "ward_name_ml": "പുത്തന്‍പള്ളി ഭാഗം"
+      "name_en": "Puthenpally Bhagam",
+      "name_ml": "പുത്തന്‍പള്ളി ഭാഗം"
     },
     {
-      "ward_id": "cd6018bb-ee93-46dd-a6d9-d525cbfad863",
+      "id": "cd6018bb-ee93-46dd-a6d9-d525cbfad863",
       "ward_no": "4",
-      "ward_name_en": "Gramapanchayat Bhagam",
-      "ward_name_ml": "ഗ്രാമപഞ്ചായത്ത് ഭാഗം"
+      "name_en": "Gramapanchayat Bhagam",
+      "name_ml": "ഗ്രാമപഞ്ചായത്ത് ഭാഗം"
     },
     {
-      "ward_id": "39b210ac-a0f3-40a3-be07-956d49f7a6a1",
+      "id": "39b210ac-a0f3-40a3-be07-956d49f7a6a1",
       "ward_no": "5",
-      "ward_name_en": "Sarada Kshethram Bhagam",
-      "ward_name_ml": "ശാരദാ ക്ഷേത്രം ഭാഗം"
+      "name_en": "Sarada Kshethram Bhagam",
+      "name_ml": "ശാരദാ ക്ഷേത്രം ഭാഗം"
     },
     {
-      "ward_id": "3eb92f54-926b-44b5-812b-ff701819ecb1",
+      "id": "3eb92f54-926b-44b5-812b-ff701819ecb1",
       "ward_no": "6",
-      "ward_name_en": "Mullamangalam Bhagam",
-      "ward_name_ml": "മുല്ലമംഗലം ഭാഗം"
+      "name_en": "Mullamangalam Bhagam",
+      "name_ml": "മുല്ലമംഗലം ഭാഗം"
     },
     {
-      "ward_id": "77ef22f6-5cf5-44af-b8c3-37005fb09bac",
+      "id": "77ef22f6-5cf5-44af-b8c3-37005fb09bac",
       "ward_no": "7",
-      "ward_name_en": "Kavimattam",
-      "ward_name_ml": "കാവിമറ്റം"
+      "name_en": "Kavimattam",
+      "name_ml": "കാവിമറ്റം"
     },
     {
-      "ward_id": "464c4039-5632-4791-91c6-296c7b0f096f",
+      "id": "464c4039-5632-4791-91c6-296c7b0f096f",
       "ward_no": "8",
-      "ward_name_en": "Kurishupalli Bhagam",
-      "ward_name_ml": "കുരിശുപള്ളി ഭാഗം"
+      "name_en": "Kurishupalli Bhagam",
+      "name_ml": "കുരിശുപള്ളി ഭാഗം"
     },
     {
-      "ward_id": "d5a5ccd8-090e-4a2d-9b7a-1e89eeb8d2f2",
+      "id": "d5a5ccd8-090e-4a2d-9b7a-1e89eeb8d2f2",
       "ward_no": "9",
-      "ward_name_en": "Kallara Chantha Bhagam",
-      "ward_name_ml": "കല്ലറ ചന്ത ഭാഗം"
+      "name_en": "Kallara Chantha Bhagam",
+      "name_ml": "കല്ലറ ചന്ത ഭാഗം"
     },
     {
-      "ward_id": "2863adcf-9ce0-4fd5-afa7-dd684650a8d9",
+      "id": "2863adcf-9ce0-4fd5-afa7-dd684650a8d9",
       "ward_no": "10",
-      "ward_name_en": "Perumthuruthu Sreekrishna Swami Kshethram",
-      "ward_name_ml": "പെരുന്തുരുത്ത് ശ്രീകൃഷ്ണ സ്വാമി ക്ഷേത്രം"
+      "name_en": "Perumthuruthu Sreekrishna Swami Kshethram",
+      "name_ml": "പെരുന്തുരുത്ത് ശ്രീകൃഷ്ണ സ്വാമി ക്ഷേത്രം"
     },
     {
-      "ward_id": "7622429f-176f-4b2a-b253-ce685dfca227",
+      "id": "7622429f-176f-4b2a-b253-ce685dfca227",
       "ward_no": "11",
-      "ward_name_en": "Prabhath Library Ward",
-      "ward_name_ml": "പ്രഭാത് ലൈബ്രറി വാര്‍ഡ്"
+      "name_en": "Prabhath Library Ward",
+      "name_ml": "പ്രഭാത് ലൈബ്രറി വാര്‍ഡ്"
     },
     {
-      "ward_id": "2363fd34-1e1b-4cb6-a319-53239505e6eb",
+      "id": "2363fd34-1e1b-4cb6-a319-53239505e6eb",
       "ward_no": "12",
-      "ward_name_en": "Kallara Pazhayapalli Ward",
-      "ward_name_ml": "കല്ലറ പഴയപള്ളി വാര്‍ഡ്"
+      "name_en": "Kallara Pazhayapalli Ward",
+      "name_ml": "കല്ലറ പഴയപള്ളി വാര്‍ഡ്"
     },
     {
-      "ward_id": "0c9d5045-6fac-476c-a98f-278f66a9a3d6",
+      "id": "0c9d5045-6fac-476c-a98f-278f66a9a3d6",
       "ward_no": "13",
-      "ward_name_en": "Welfare School",
-      "ward_name_ml": "വെല്‍ഫയര്‍ സ്കൂള്‍"
+      "name_en": "Welfare School",
+      "name_ml": "വെല്‍ഫയര്‍ സ്കൂള്‍"
     }
   ],
   "towns": [],

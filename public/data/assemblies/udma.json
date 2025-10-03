@@ -1,62 +1,83 @@
 {
-  "assembly_id": "3",
-  "assembly_name_en": "Udma",
-  "assembly_name_ml": "ഉദുമ",
-  "category": "Normal",
+  "id": "3",
+  "name_en": "Udma",
+  "name_ml": "ഉദുമ",
+  "district_id": "14",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "district_category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G140206",
-      "local_body_name_en": "Bedadka",
-      "local_body_name_ml": "ബേഡഡുക്ക",
-      "category": "Normal"
+      "id": "G140206",
+      "name_en": "Bedadka",
+      "name_ml": "ബേഡഡുക്ക",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G140302",
-      "local_body_name_en": "Chemnad",
-      "local_body_name_ml": "ചെമ്മനാട്",
-      "category": "Normal"
+      "id": "G140302",
+      "name_en": "Chemnad",
+      "name_ml": "ചെമ്മനാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G140205",
-      "local_body_name_en": "Delampady",
-      "local_body_name_ml": "ദേലംപാടി",
-      "category": "Good"
+      "id": "G140205",
+      "name_en": "Delampady",
+      "name_ml": "ദേലംപാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140207",
-      "local_body_name_en": "Kuttikol",
-      "local_body_name_ml": "കുറ്റിക്കോല്‍",
-      "category": "Good"
+      "id": "G140207",
+      "name_en": "Kuttikol",
+      "name_ml": "കുറ്റിക്കോല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140203",
-      "local_body_name_en": "Muliyar",
-      "local_body_name_ml": "മുളിയാര്‍",
-      "category": "Perfect"
+      "id": "G140203",
+      "name_en": "Muliyar",
+      "name_ml": "മുളിയാര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G140404",
-      "local_body_name_en": "Pallikere",
-      "local_body_name_ml": "പള്ളിക്കര",
-      "category": "Good"
+      "id": "G140404",
+      "name_en": "Pallikere",
+      "name_ml": "പള്ളിക്കര",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140405",
-      "local_body_name_en": "PullurPeriya",
-      "local_body_name_ml": "പുല്ലൂര്‍ പെരിയ",
-      "category": "Perfect"
+      "id": "G140405",
+      "name_en": "PullurPeriya",
+      "name_ml": "പുല്ലൂര്‍ പെരിയ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G140401",
-      "local_body_name_en": "Udma",
-      "local_body_name_ml": "ഉദുമ",
-      "category": "Good"
+      "id": "G140401",
+      "name_en": "Udma",
+      "name_ml": "ഉദുമ",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

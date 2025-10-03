@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G060402",
-  "local_body_name_en": "Udumbanoor",
-  "local_body_name_ml": "ഉടുമ്പന്നൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "90",
-    "assembly_name_en": "Thodupuzha",
-    "assembly_name_ml": "തൊടുപുഴ",
+  "id": "G060402",
+  "name_en": "Udumbanoor",
+  "name_ml": "ഉടുമ്പന്നൂര്‍",
+  "assembly_id": "90",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "90",
+    "name_en": "Thodupuzha",
+    "name_ml": "തൊടുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1d86d3f6-0b1e-4fa9-aaa1-2c5a49be4d8f",
+      "id": "1d86d3f6-0b1e-4fa9-aaa1-2c5a49be4d8f",
       "ward_no": "1",
-      "ward_name_en": "Amayapra",
-      "ward_name_ml": "അമയപ്ര"
+      "name_en": "Amayapra",
+      "name_ml": "അമയപ്ര"
     },
     {
-      "ward_id": "e67cb7fc-a4e0-485a-aba1-808ef48b70ec",
+      "id": "e67cb7fc-a4e0-485a-aba1-808ef48b70ec",
       "ward_no": "2",
-      "ward_name_en": "Mankuzhy",
-      "ward_name_ml": "മങ്കുഴി"
+      "name_en": "Mankuzhy",
+      "name_ml": "മങ്കുഴി"
     },
     {
-      "ward_id": "88b1045e-8b05-4caf-a65a-2f75ede0d97a",
+      "id": "88b1045e-8b05-4caf-a65a-2f75ede0d97a",
       "ward_no": "3",
-      "ward_name_en": "Pariyaram",
-      "ward_name_ml": "പരിയാരം"
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം"
     },
     {
-      "ward_id": "230c3e1e-0d38-4540-8c7a-6895669a23c2",
+      "id": "230c3e1e-0d38-4540-8c7a-6895669a23c2",
       "ward_no": "4",
-      "ward_name_en": "Parekkavala",
-      "ward_name_ml": "പാറേക്കവല"
+      "name_en": "Parekkavala",
+      "name_ml": "പാറേക്കവല"
     },
     {
-      "ward_id": "26cac81c-9bad-44c8-ab07-0d29d3096cc1",
+      "id": "26cac81c-9bad-44c8-ab07-0d29d3096cc1",
       "ward_no": "5",
-      "ward_name_en": "Cheenikuzhy",
-      "ward_name_ml": "ചീനിക്കുഴി"
+      "name_en": "Cheenikuzhy",
+      "name_ml": "ചീനിക്കുഴി"
     },
     {
-      "ward_id": "e8fc9097-faeb-4222-8809-a03821c7c699",
+      "id": "e8fc9097-faeb-4222-8809-a03821c7c699",
       "ward_no": "6",
-      "ward_name_en": "Malayinchi",
-      "ward_name_ml": "മലയിഞ്ചി"
+      "name_en": "Malayinchi",
+      "name_ml": "മലയിഞ്ചി"
     },
     {
-      "ward_id": "ae283402-e5cd-410b-a6f2-5eff819b573b",
+      "id": "ae283402-e5cd-410b-a6f2-5eff819b573b",
       "ward_no": "7",
-      "ward_name_en": "Kattikkayam",
-      "ward_name_ml": "കട്ടിക്കയം"
+      "name_en": "Kattikkayam",
+      "name_ml": "കട്ടിക്കയം"
     },
     {
-      "ward_id": "eb8bb8ba-a7e2-4c12-a291-e79bfc5cfc82",
+      "id": "eb8bb8ba-a7e2-4c12-a291-e79bfc5cfc82",
       "ward_no": "8",
-      "ward_name_en": "Uppukunnu",
-      "ward_name_ml": "ഉപ്പുകുന്ന്"
+      "name_en": "Uppukunnu",
+      "name_ml": "ഉപ്പുകുന്ന്"
     },
     {
-      "ward_id": "e2b2533b-1cb8-470c-99d0-2de47383ecb6",
+      "id": "e2b2533b-1cb8-470c-99d0-2de47383ecb6",
       "ward_no": "9",
-      "ward_name_en": "Peringassery",
-      "ward_name_ml": "പെരിങ്ങാശേരി"
+      "name_en": "Peringassery",
+      "name_ml": "പെരിങ്ങാശേരി"
     },
     {
-      "ward_id": "51bd0378-1cec-4ba1-afe3-6f9712dec798",
+      "id": "51bd0378-1cec-4ba1-afe3-6f9712dec798",
       "ward_no": "10",
-      "ward_name_en": "Manchikallu",
-      "ward_name_ml": "മഞ്ചിക്കല്ല്"
+      "name_en": "Manchikallu",
+      "name_ml": "മഞ്ചിക്കല്ല്"
     },
     {
-      "ward_id": "2804c814-c885-42ae-8c17-4c3fcc515f56",
+      "id": "2804c814-c885-42ae-8c17-4c3fcc515f56",
       "ward_no": "11",
-      "ward_name_en": "Cheppukulam",
-      "ward_name_ml": "ചെപ്പുകുളം"
+      "name_en": "Cheppukulam",
+      "name_ml": "ചെപ്പുകുളം"
     },
     {
-      "ward_id": "8057a2a2-bc11-48fe-8693-eebfe4d8e955",
+      "id": "8057a2a2-bc11-48fe-8693-eebfe4d8e955",
       "ward_no": "12",
-      "ward_name_en": "Vellanthanam",
-      "ward_name_ml": "വെള്ളാന്താനം"
+      "name_en": "Vellanthanam",
+      "name_ml": "വെള്ളാന്താനം"
     },
     {
-      "ward_id": "118c215d-20c5-49a2-bce9-21d9cbb26509",
+      "id": "118c215d-20c5-49a2-bce9-21d9cbb26509",
       "ward_no": "13",
-      "ward_name_en": "Kulappara",
-      "ward_name_ml": "കുളപ്പാറ"
+      "name_en": "Kulappara",
+      "name_ml": "കുളപ്പാറ"
     },
     {
-      "ward_id": "1cc01009-4c86-4166-9655-7a5b2ecffc81",
+      "id": "1cc01009-4c86-4166-9655-7a5b2ecffc81",
       "ward_no": "14",
-      "ward_name_en": "Edamaruk",
-      "ward_name_ml": "ഇടമറുക്"
+      "name_en": "Edamaruk",
+      "name_ml": "ഇടമറുക്"
     },
     {
-      "ward_id": "2326246a-0108-4fe3-8c59-b24eafc56e1c",
+      "id": "2326246a-0108-4fe3-8c59-b24eafc56e1c",
       "ward_no": "15",
-      "ward_name_en": "Thattakuzha",
-      "ward_name_ml": "തട്ടക്കുഴ"
+      "name_en": "Thattakuzha",
+      "name_ml": "തട്ടക്കുഴ"
     },
     {
-      "ward_id": "1c36913e-3b0b-47bb-a106-1d19efda5ee6",
+      "id": "1c36913e-3b0b-47bb-a106-1d19efda5ee6",
       "ward_no": "16",
-      "ward_name_en": "Udumbannoor",
-      "ward_name_ml": "ഉടുമ്പന്നൂര്‍"
+      "name_en": "Udumbannoor",
+      "name_ml": "ഉടുമ്പന്നൂര്‍"
     }
   ],
   "towns": [],

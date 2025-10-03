@@ -1,50 +1,67 @@
 {
-  "assembly_id": "26",
-  "assembly_name_en": "Elathur",
-  "assembly_name_ml": "ഏലത്തൂർ",
-  "category": "Good",
+  "id": "26",
+  "name_en": "Elathur",
+  "name_ml": "ഏലത്തൂർ",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Good"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110902",
-      "local_body_name_en": "Chelannur",
-      "local_body_name_ml": "ചേളന്നൂര്‍",
-      "category": "Good"
+      "id": "G110902",
+      "name_en": "Chelannur",
+      "name_ml": "ചേളന്നൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110901",
-      "local_body_name_en": "Kakkodi",
-      "local_body_name_ml": "കക്കോടി",
-      "category": "Perfect"
+      "id": "G110901",
+      "name_en": "Kakkodi",
+      "name_ml": "കക്കോടി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110903",
-      "local_body_name_en": "Kakkur",
-      "local_body_name_ml": "കാക്കൂര്‍",
-      "category": "Perfect"
+      "id": "G110903",
+      "name_en": "Kakkur",
+      "name_ml": "കാക്കൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G111102",
-      "local_body_name_en": "Kuruvattoor",
-      "local_body_name_ml": "കുരുവട്ടൂര്‍",
-      "category": "Good"
+      "id": "G111102",
+      "name_en": "Kuruvattoor",
+      "name_ml": "കുരുവട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110904",
-      "local_body_name_en": "Nanminda",
-      "local_body_name_ml": "നന്മണ്ട",
-      "category": "Perfect"
+      "id": "G110904",
+      "name_en": "Nanminda",
+      "name_ml": "നന്മണ്ട",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110906",
-      "local_body_name_en": "Thalakulathur",
-      "local_body_name_ml": "തലക്കുളത്തൂര്‍",
-      "category": "Good"
+      "id": "G110906",
+      "name_en": "Thalakulathur",
+      "name_ml": "തലക്കുളത്തൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

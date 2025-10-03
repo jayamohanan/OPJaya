@@ -1,50 +1,120 @@
 {
-  "state_id": "kl",
-  "state_name_en": "Kerala",
-  "state_name_ml": "കേരളം",
+  "id": "kl",
+  "name_en": "Kerala",
+  "name_ml": "കേരളം",
   "category": "normal",
   "districts": [
     {
-      "category": ""
+      "id": "3",
+      "name_en": "Pathanamthitta",
+      "name_ml": "പത്തനംതിട്ട",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "4",
+      "name_en": "Alappuzha",
+      "name_ml": "ആലപ്പുഴ",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "5",
+      "name_en": "Kottayam",
+      "name_ml": "കോട്ടയം",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "6",
+      "name_en": "Idukki",
+      "name_ml": "ഇടുക്കി",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "9",
+      "name_en": "Palakkad",
+      "name_ml": "പാലക്കാട്",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "10",
+      "name_en": "Malappuram",
+      "name_ml": "മലപ്പുറം",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "11",
+      "name_en": "Kozhikode",
+      "name_ml": "കോഴിക്കോട്",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "12",
+      "name_en": "Wayanad",
+      "name_ml": "വയനാട്",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "13",
+      "name_en": "Kannur",
+      "name_ml": "കണ്ണൂർ",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "14",
+      "name_en": "Kasaragod",
+      "name_ml": "കാസര്‍ഗോഡ്",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "1",
+      "name_en": "Thiruvananthapuram",
+      "name_ml": "തിരുവനന്തപുരം",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "2",
+      "name_en": "Kollam",
+      "name_ml": "കൊല്ലം",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "7",
+      "name_en": "Ernakulam",
+      "name_ml": "എറണാകുളം",
+      "district_category": {
+        "category": "Normal"
+      }
     },
     {
-      "category": ""
+      "id": "8",
+      "name_en": "Thrissur",
+      "name_ml": "തൃശ്ശൂർ",
+      "district_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

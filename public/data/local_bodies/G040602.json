@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G040602",
-  "local_body_name_en": "Edathua",
-  "local_body_name_ml": "എടത്വാ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "106",
-    "assembly_name_en": "Kuttanad",
-    "assembly_name_ml": "കുട്ടനാട്",
+  "id": "G040602",
+  "name_en": "Edathua",
+  "name_ml": "എടത്വാ",
+  "assembly_id": "106",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "106",
+    "name_en": "Kuttanad",
+    "name_ml": "കുട്ടനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "82caf959-05a0-4249-ae64-4c5361a72d71",
+      "id": "82caf959-05a0-4249-ae64-4c5361a72d71",
       "ward_no": "1",
-      "ward_name_en": "Kodupunna",
-      "ward_name_ml": "കൊടുപ്പുന്ന"
+      "name_en": "Kodupunna",
+      "name_ml": "കൊടുപ്പുന്ന"
     },
     {
-      "ward_id": "427e2570-b8f3-4749-9b1d-2375edf747bf",
+      "id": "427e2570-b8f3-4749-9b1d-2375edf747bf",
       "ward_no": "2",
-      "ward_name_en": "Thayankary East",
-      "ward_name_ml": "തായങ്കരി കിഴക്ക്"
+      "name_en": "Thayankary East",
+      "name_ml": "തായങ്കരി കിഴക്ക്"
     },
     {
-      "ward_id": "30014aea-ede7-4d66-adff-a2226bcfc062",
+      "id": "30014aea-ede7-4d66-adff-a2226bcfc062",
       "ward_no": "3",
-      "ward_name_en": "Changanakri",
-      "ward_name_ml": "ചങ്ങങ്കരി"
+      "name_en": "Changanakri",
+      "name_ml": "ചങ്ങങ്കരി"
     },
     {
-      "ward_id": "ed7896bc-60d4-43bc-8767-3f779f55829e",
+      "id": "ed7896bc-60d4-43bc-8767-3f779f55829e",
       "ward_no": "4",
-      "ward_name_en": "Edathua North",
-      "ward_name_ml": "എടത്വ നോര്‍ത്ത്"
+      "name_en": "Edathua North",
+      "name_ml": "എടത്വ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "3fb206d9-7b89-4eef-a07b-f46cc13f89df",
+      "id": "3fb206d9-7b89-4eef-a07b-f46cc13f89df",
       "ward_no": "5",
-      "ward_name_en": "Edathua Center",
-      "ward_name_ml": "എടത്വ സെന്‍റര്‍"
+      "name_en": "Edathua Center",
+      "name_ml": "എടത്വ സെന്‍റര്‍"
     },
     {
-      "ward_id": "b8e3afa2-2548-41fa-ba91-ac8e2d132370",
+      "id": "b8e3afa2-2548-41fa-ba91-ac8e2d132370",
       "ward_no": "6",
-      "ward_name_en": "Edathua East",
-      "ward_name_ml": "എടത്വ ഈസ്റ്റ്"
+      "name_en": "Edathua East",
+      "name_ml": "എടത്വ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "475fe3fd-47e5-4227-a25f-f1a8f5cc08f9",
+      "id": "475fe3fd-47e5-4227-a25f-f1a8f5cc08f9",
       "ward_no": "7",
-      "ward_name_en": "Edathua South",
-      "ward_name_ml": "എടത്വ സൌത്ത്"
+      "name_en": "Edathua South",
+      "name_ml": "എടത്വ സൌത്ത്"
     },
     {
-      "ward_id": "d47cba6e-9325-43e0-9299-765baeb6a9b4",
+      "id": "d47cba6e-9325-43e0-9299-765baeb6a9b4",
       "ward_no": "8",
-      "ward_name_en": "Pandankary South",
-      "ward_name_ml": "പാണ്ടങ്കരി സൌത്ത്"
+      "name_en": "Pandankary South",
+      "name_ml": "പാണ്ടങ്കരി സൌത്ത്"
     },
     {
-      "ward_id": "2bb1fa72-5d7f-4931-9b5b-23e1aa080caa",
+      "id": "2bb1fa72-5d7f-4931-9b5b-23e1aa080caa",
       "ward_no": "9",
-      "ward_name_en": "Pandankary West",
-      "ward_name_ml": "പാണ്ടങ്കരി വെസ്റ്റ്"
+      "name_en": "Pandankary West",
+      "name_ml": "പാണ്ടങ്കരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "74bb952c-f675-4c57-a7b4-a71af8306120",
+      "id": "74bb952c-f675-4c57-a7b4-a71af8306120",
       "ward_no": "10",
-      "ward_name_en": "Koyilmuck South",
-      "ward_name_ml": "കോയില്‍മുക്ക് തെക്ക്"
+      "name_en": "Koyilmuck South",
+      "name_ml": "കോയില്‍മുക്ക് തെക്ക്"
     },
     {
-      "ward_id": "b17bfd18-bf0f-406d-ac12-96b1ba6ad5f7",
+      "id": "b17bfd18-bf0f-406d-ac12-96b1ba6ad5f7",
       "ward_no": "11",
-      "ward_name_en": "Koyilmuck North",
-      "ward_name_ml": "കോയില്‍മുക്ക് നോര്‍ത്ത്"
+      "name_en": "Koyilmuck North",
+      "name_ml": "കോയില്‍മുക്ക് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "c41a50ae-6f11-4204-80ba-954511c5059e",
+      "id": "c41a50ae-6f11-4204-80ba-954511c5059e",
       "ward_no": "12",
-      "ward_name_en": "Pacha East",
-      "ward_name_ml": "പച്ച ഈസ്റ്റ്"
+      "name_en": "Pacha East",
+      "name_ml": "പച്ച ഈസ്റ്റ്"
     },
     {
-      "ward_id": "75bc3bc2-aecb-4a7f-aca5-730375b5ce12",
+      "id": "75bc3bc2-aecb-4a7f-aca5-730375b5ce12",
       "ward_no": "13",
-      "ward_name_en": "Changankary South",
-      "ward_name_ml": "ചങ്ങങ്കരി സൌത്ത്"
+      "name_en": "Changankary South",
+      "name_ml": "ചങ്ങങ്കരി സൌത്ത്"
     },
     {
-      "ward_id": "dec9b5bc-fe95-45de-bdce-c5ed37ec3cbe",
+      "id": "dec9b5bc-fe95-45de-bdce-c5ed37ec3cbe",
       "ward_no": "14",
-      "ward_name_en": "Pacha West",
-      "ward_name_ml": "പച്ച വെസ്റ്റ്"
+      "name_en": "Pacha West",
+      "name_ml": "പച്ച വെസ്റ്റ്"
     },
     {
-      "ward_id": "9529f245-f279-47ab-8a66-2e4bd1160703",
+      "id": "9529f245-f279-47ab-8a66-2e4bd1160703",
       "ward_no": "15",
-      "ward_name_en": "Thayankary West",
-      "ward_name_ml": "തായങ്കരി വെസ്റ്റ്"
+      "name_en": "Thayankary West",
+      "name_ml": "തായങ്കരി വെസ്റ്റ്"
     }
   ],
   "towns": [],

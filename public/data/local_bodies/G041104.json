@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G041104",
-  "local_body_name_en": "Mavelikara Thamarakulam",
-  "local_body_name_ml": "മാവേലിക്കര താമരക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "109",
-    "assembly_name_en": "Mavelikara",
-    "assembly_name_ml": "മാവേലിക്കര",
+  "id": "G041104",
+  "name_en": "Mavelikara Thamarakulam",
+  "name_ml": "മാവേലിക്കര താമരക്കുളം",
+  "assembly_id": "109",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "109",
+    "name_en": "Mavelikara",
+    "name_ml": "മാവേലിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "161296d9-5756-4d87-bcdd-7b2e8c38b8b9",
+      "id": "161296d9-5756-4d87-bcdd-7b2e8c38b8b9",
       "ward_no": "1",
-      "ward_name_en": "Kannanakuzhy West",
-      "ward_name_ml": "കണ്ണനാകുഴി പടിഞ്ഞാറ്"
+      "name_en": "Kannanakuzhy West",
+      "name_ml": "കണ്ണനാകുഴി പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "a6771732-ff2b-4b84-b86a-071f3ccb7588",
+      "id": "a6771732-ff2b-4b84-b86a-071f3ccb7588",
       "ward_no": "2",
-      "ward_name_en": "Kannanakuzhy",
-      "ward_name_ml": "കണ്ണനാകുഴി"
+      "name_en": "Kannanakuzhy",
+      "name_ml": "കണ്ണനാകുഴി"
     },
     {
-      "ward_id": "dae1c277-504d-48d9-b3ec-1a8e10eef4df",
+      "id": "dae1c277-504d-48d9-b3ec-1a8e10eef4df",
       "ward_no": "3",
-      "ward_name_en": "Kannanakuzhy East",
-      "ward_name_ml": "കണ്ണനാകുഴി കിഴക്ക്"
+      "name_en": "Kannanakuzhy East",
+      "name_ml": "കണ്ണനാകുഴി കിഴക്ക്"
     },
     {
-      "ward_id": "8796b442-c2dc-4da9-a80c-b22e524569a5",
+      "id": "8796b442-c2dc-4da9-a80c-b22e524569a5",
       "ward_no": "4",
-      "ward_name_en": "Charummoodu",
-      "ward_name_ml": "ചാരുംമൂട്"
+      "name_en": "Charummoodu",
+      "name_ml": "ചാരുംമൂട്"
     },
     {
-      "ward_id": "3dd46e82-2547-4838-a1c2-a2d45a3c3e09",
+      "id": "3dd46e82-2547-4838-a1c2-a2d45a3c3e09",
       "ward_no": "5",
-      "ward_name_en": "Peroorkaranma",
-      "ward_name_ml": "പേരൂര്‍കാരാണ്മ"
+      "name_en": "Peroorkaranma",
+      "name_ml": "പേരൂര്‍കാരാണ്മ"
     },
     {
-      "ward_id": "bb3ebf1d-d47a-4b79-9b5a-9ea707f5659f",
+      "id": "bb3ebf1d-d47a-4b79-9b5a-9ea707f5659f",
       "ward_no": "6",
-      "ward_name_en": "Kottakattuserry North",
-      "ward_name_ml": "കൊട്ടയ്ക്കാട്ടുശേരി വടക്ക്"
+      "name_en": "Kottakattuserry North",
+      "name_ml": "കൊട്ടയ്ക്കാട്ടുശേരി വടക്ക്"
     },
     {
-      "ward_id": "dcd07415-fe65-4507-ad27-b6725c871efb",
+      "id": "dcd07415-fe65-4507-ad27-b6725c871efb",
       "ward_no": "7",
-      "ward_name_en": "Kottakattuserry",
-      "ward_name_ml": "കൊട്ടയ്ക്കാട്ടുശേരി"
+      "name_en": "Kottakattuserry",
+      "name_ml": "കൊട്ടയ്ക്കാട്ടുശേരി"
     },
     {
-      "ward_id": "6c41f805-feb4-492d-ac5b-74ef18d831db",
+      "id": "6c41f805-feb4-492d-ac5b-74ef18d831db",
       "ward_no": "8",
-      "ward_name_en": "Gurunadhankulangara",
-      "ward_name_ml": "ഗുരുനാഥന്‍കുളങ്ങര"
+      "name_en": "Gurunadhankulangara",
+      "name_ml": "ഗുരുനാഥന്‍കുളങ്ങര"
     },
     {
-      "ward_id": "40976228-54f4-418e-ac14-7b54c403a8d9",
+      "id": "40976228-54f4-418e-ac14-7b54c403a8d9",
       "ward_no": "9",
-      "ward_name_en": "Puthanchantha",
-      "ward_name_ml": "പുത്തന്‍ചന്ത"
+      "name_en": "Puthanchantha",
+      "name_ml": "പുത്തന്‍ചന്ത"
     },
     {
-      "ward_id": "a77359e1-f666-457b-a59c-96a7bc9d79ba",
+      "id": "a77359e1-f666-457b-a59c-96a7bc9d79ba",
       "ward_no": "10",
-      "ward_name_en": "Kizhakkemuri",
-      "ward_name_ml": "കിഴക്കേമുറി"
+      "name_en": "Kizhakkemuri",
+      "name_ml": "കിഴക്കേമുറി"
     },
     {
-      "ward_id": "68268b4a-fc14-4520-ac89-fafda56a82e3",
+      "id": "68268b4a-fc14-4520-ac89-fafda56a82e3",
       "ward_no": "11",
-      "ward_name_en": "Thekkemuri",
-      "ward_name_ml": "തെക്കേമുറി"
+      "name_en": "Thekkemuri",
+      "name_ml": "തെക്കേമുറി"
     },
     {
-      "ward_id": "d63c72a2-593f-4342-93d6-15fca79ae81a",
+      "id": "d63c72a2-593f-4342-93d6-15fca79ae81a",
       "ward_no": "12",
-      "ward_name_en": "Irappanpara",
-      "ward_name_ml": "ഇരപ്പന്‍പാറ"
+      "name_en": "Irappanpara",
+      "name_ml": "ഇരപ്പന്‍പാറ"
     },
     {
-      "ward_id": "946cddc8-550a-4cbd-a7ba-abd87894aeeb",
+      "id": "946cddc8-550a-4cbd-a7ba-abd87894aeeb",
       "ward_no": "13",
-      "ward_name_en": "Thamarakulam Town",
-      "ward_name_ml": "താമരക്കുളംടൌണ്‍"
+      "name_en": "Thamarakulam Town",
+      "name_ml": "താമരക്കുളംടൌണ്‍"
     },
     {
-      "ward_id": "167c480f-3ef3-4220-85ce-7d19755b4ee6",
+      "id": "167c480f-3ef3-4220-85ce-7d19755b4ee6",
       "ward_no": "14",
-      "ward_name_en": "Chathiyara South",
-      "ward_name_ml": "ചത്തിയറ തെക്ക്"
+      "name_en": "Chathiyara South",
+      "name_ml": "ചത്തിയറ തെക്ക്"
     },
     {
-      "ward_id": "28f281e4-f22b-4c6f-aef7-0b98ce58658c",
+      "id": "28f281e4-f22b-4c6f-aef7-0b98ce58658c",
       "ward_no": "15",
-      "ward_name_en": "Chathiyara North",
-      "ward_name_ml": "ചത്തിയറ വടക്ക്"
+      "name_en": "Chathiyara North",
+      "name_ml": "ചത്തിയറ വടക്ക്"
     },
     {
-      "ward_id": "c9d092e3-a91b-49cc-a77c-efd0d23d4726",
+      "id": "c9d092e3-a91b-49cc-a77c-efd0d23d4726",
       "ward_no": "16",
-      "ward_name_en": "Vedaraplavu",
-      "ward_name_ml": "വേടരപ്ലാവ്"
+      "name_en": "Vedaraplavu",
+      "name_ml": "വേടരപ്ലാവ്"
     },
     {
-      "ward_id": "18c36c10-8c0d-4a66-8928-99f8bd277a29",
+      "id": "18c36c10-8c0d-4a66-8928-99f8bd277a29",
       "ward_no": "17",
-      "ward_name_en": "Chettarikkal",
-      "ward_name_ml": "ചെറ്റാരിക്കല്‍"
+      "name_en": "Chettarikkal",
+      "name_ml": "ചെറ്റാരിക്കല്‍"
     }
   ],
   "towns": [],

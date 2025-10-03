@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G050403",
-  "local_body_name_en": "Kanakkary",
-  "local_body_name_ml": "കാണക്കാരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "94",
-    "assembly_name_en": "Kaduthuruthy",
-    "assembly_name_ml": "കടുത്തുരുത്തി",
+  "id": "G050403",
+  "name_en": "Kanakkary",
+  "name_ml": "കാണക്കാരി",
+  "assembly_id": "94",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "94",
+    "name_en": "Kaduthuruthy",
+    "name_ml": "കടുത്തുരുത്തി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "fbd0c72b-a0d3-423f-ab85-3ef1c64dcfb8",
+      "id": "fbd0c72b-a0d3-423f-ab85-3ef1c64dcfb8",
       "ward_no": "1",
-      "ward_name_en": "Kalathoor",
-      "ward_name_ml": "കളത്തൂര്‍"
+      "name_en": "Kalathoor",
+      "name_ml": "കളത്തൂര്‍"
     },
     {
-      "ward_id": "ce7f4701-8cc3-4461-8b96-5d8dd9118c1a",
+      "id": "ce7f4701-8cc3-4461-8b96-5d8dd9118c1a",
       "ward_no": "2",
-      "ward_name_en": "Vempally",
-      "ward_name_ml": "വെമ്പളളി"
+      "name_en": "Vempally",
+      "name_ml": "വെമ്പളളി"
     },
     {
-      "ward_id": "0d9285ca-d370-4275-bc4b-8c5300160356",
+      "id": "0d9285ca-d370-4275-bc4b-8c5300160356",
       "ward_no": "3",
-      "ward_name_en": "Karimpumkala",
-      "ward_name_ml": "കരിമ്പുംകാല"
+      "name_en": "Karimpumkala",
+      "name_ml": "കരിമ്പുംകാല"
     },
     {
-      "ward_id": "5b97f9d2-0f9d-450f-a0df-34abc6637830",
+      "id": "5b97f9d2-0f9d-450f-a0df-34abc6637830",
       "ward_no": "4",
-      "ward_name_en": "Vattukulam",
-      "ward_name_ml": "വട്ടുകുളം"
+      "name_en": "Vattukulam",
+      "name_ml": "വട്ടുകുളം"
     },
     {
-      "ward_id": "fcbcf77c-9cc2-440c-aecd-6014426dbd30",
+      "id": "fcbcf77c-9cc2-440c-aecd-6014426dbd30",
       "ward_no": "5",
-      "ward_name_en": "Kadappoor",
-      "ward_name_ml": "കടപ്പൂര്"
+      "name_en": "Kadappoor",
+      "name_ml": "കടപ്പൂര്"
     },
     {
-      "ward_id": "0cc74fd2-fd72-4ebb-a70e-62d6c068d39b",
+      "id": "0cc74fd2-fd72-4ebb-a70e-62d6c068d39b",
       "ward_no": "6",
-      "ward_name_en": "Muthirakkala",
-      "ward_name_ml": "മുതിരക്കാല"
+      "name_en": "Muthirakkala",
+      "name_ml": "മുതിരക്കാല"
     },
     {
-      "ward_id": "e47944e3-41f1-4219-9a30-e31afa6a09fa",
+      "id": "e47944e3-41f1-4219-9a30-e31afa6a09fa",
       "ward_no": "7",
-      "ward_name_en": "Retnagiri",
-      "ward_name_ml": "രത്നഗിരി"
+      "name_en": "Retnagiri",
+      "name_ml": "രത്നഗിരി"
     },
     {
-      "ward_id": "c621f5bf-1212-4e68-9291-c93d867872fa",
+      "id": "c621f5bf-1212-4e68-9291-c93d867872fa",
       "ward_no": "8",
-      "ward_name_en": "Pattithanam",
-      "ward_name_ml": "പട്ടിത്താനം"
+      "name_en": "Pattithanam",
+      "name_ml": "പട്ടിത്താനം"
     },
     {
-      "ward_id": "6cf7f8b7-5245-4b72-a5e4-ed5b0ec1224d",
+      "id": "6cf7f8b7-5245-4b72-a5e4-ed5b0ec1224d",
       "ward_no": "9",
-      "ward_name_en": "Kalarippadi",
-      "ward_name_ml": "കളരിപ്പടി"
+      "name_en": "Kalarippadi",
+      "name_ml": "കളരിപ്പടി"
     },
     {
-      "ward_id": "3be4f9d0-5437-4887-af24-9a6483fdb9ce",
+      "id": "3be4f9d0-5437-4887-af24-9a6483fdb9ce",
       "ward_no": "10",
-      "ward_name_en": "Kanakkary",
-      "ward_name_ml": "കാണക്കാരി"
+      "name_en": "Kanakkary",
+      "name_ml": "കാണക്കാരി"
     },
     {
-      "ward_id": "3a7f50c7-3910-4f1a-bf2f-9a2af3424111",
+      "id": "3a7f50c7-3910-4f1a-bf2f-9a2af3424111",
       "ward_no": "11",
-      "ward_name_en": "Chathamala",
-      "ward_name_ml": "ചാത്തമല"
+      "name_en": "Chathamala",
+      "name_ml": "ചാത്തമല"
     },
     {
-      "ward_id": "29717337-3ffb-4704-8c6a-50aa7782f8a9",
+      "id": "29717337-3ffb-4704-8c6a-50aa7782f8a9",
       "ward_no": "12",
-      "ward_name_en": "Vedagiri",
-      "ward_name_ml": "വേദഗിരി"
+      "name_en": "Vedagiri",
+      "name_ml": "വേദഗിരി"
     },
     {
-      "ward_id": "c82974ff-6ae2-4f18-9621-32c0c3a7dc87",
+      "id": "c82974ff-6ae2-4f18-9621-32c0c3a7dc87",
       "ward_no": "13",
-      "ward_name_en": "Kurumulloor",
-      "ward_name_ml": "കുറുമുളളൂര്‍"
+      "name_en": "Kurumulloor",
+      "name_ml": "കുറുമുളളൂര്‍"
     },
     {
-      "ward_id": "68e7822a-dcec-4552-8b83-3bb713509c6b",
+      "id": "68e7822a-dcec-4552-8b83-3bb713509c6b",
       "ward_no": "14",
-      "ward_name_en": "Kallampara",
-      "ward_name_ml": "കല്ലംമ്പാറ"
+      "name_en": "Kallampara",
+      "name_ml": "കല്ലംമ്പാറ"
     },
     {
-      "ward_id": "41d125eb-7116-408c-9e01-c43ec377c54a",
+      "id": "41d125eb-7116-408c-9e01-c43ec377c54a",
       "ward_no": "15",
-      "ward_name_en": "Nambiakulam",
-      "ward_name_ml": "നമ്പ്യാകുളം"
+      "name_en": "Nambiakulam",
+      "name_ml": "നമ്പ്യാകുളം"
     }
   ],
   "towns": [],

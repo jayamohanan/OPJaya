@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G040206",
-  "local_body_name_en": "Ezhupunna",
-  "local_body_name_ml": "എഴുപുന്ന",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G040206",
+  "name_en": "Ezhupunna",
+  "name_ml": "എഴുപുന്ന",
+  "assembly_id": "102",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "102",
-    "assembly_name_en": "Aroor",
-    "assembly_name_ml": "അരൂർ",
-    "category": "Normal"
+    "id": "102",
+    "name_en": "Aroor",
+    "name_ml": "അരൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6a98f0bd-1e19-4c98-91bc-ce08805d1e8a",
+      "id": "6a98f0bd-1e19-4c98-91bc-ce08805d1e8a",
       "ward_no": "1",
-      "ward_name_en": "Kallupurackal",
-      "ward_name_ml": "കല്ലുപുരയ്ക്കല്‍"
+      "name_en": "Kallupurackal",
+      "name_ml": "കല്ലുപുരയ്ക്കല്‍"
     },
     {
-      "ward_id": "cbd4e4dc-c91b-4e93-bb0d-118e66a68cc8",
+      "id": "cbd4e4dc-c91b-4e93-bb0d-118e66a68cc8",
       "ward_no": "2",
-      "ward_name_en": "Vadakkakath",
-      "ward_name_ml": "വാടയ്ക്കകത്ത്"
+      "name_en": "Vadakkakath",
+      "name_ml": "വാടയ്ക്കകത്ത്"
     },
     {
-      "ward_id": "f4fd589d-949e-4765-bd9a-66b3f524afb5",
+      "id": "f4fd589d-949e-4765-bd9a-66b3f524afb5",
       "ward_no": "3",
-      "ward_name_en": "Sreenarayanapuram",
-      "ward_name_ml": "ശ്രീനാരായണപുരം"
+      "name_en": "Sreenarayanapuram",
+      "name_ml": "ശ്രീനാരായണപുരം"
     },
     {
-      "ward_id": "c05eaa2e-9c15-4e40-804c-512c9677346c",
+      "id": "c05eaa2e-9c15-4e40-804c-512c9677346c",
       "ward_no": "4",
-      "ward_name_en": "Vathara",
-      "ward_name_ml": "വാത്തറ"
+      "name_en": "Vathara",
+      "name_ml": "വാത്തറ"
     },
     {
-      "ward_id": "8611e2ca-818d-4a67-93d0-08fd217dbce6",
+      "id": "8611e2ca-818d-4a67-93d0-08fd217dbce6",
       "ward_no": "5",
-      "ward_name_en": "Kanjirathunkal",
-      "ward_name_ml": "കാഞ്ഞിരത്തുങ്കല്‍"
+      "name_en": "Kanjirathunkal",
+      "name_ml": "കാഞ്ഞിരത്തുങ്കല്‍"
     },
     {
-      "ward_id": "183df079-3ccc-448d-bb4c-330586c07f9c",
+      "id": "183df079-3ccc-448d-bb4c-330586c07f9c",
       "ward_no": "6",
-      "ward_name_en": "Konnanattu",
-      "ward_name_ml": "കോന്നനാട്ട്"
+      "name_en": "Konnanattu",
+      "name_ml": "കോന്നനാട്ട്"
     },
     {
-      "ward_id": "cd2557fd-2cd7-4223-bbd2-cc8286d0f2bd",
+      "id": "cd2557fd-2cd7-4223-bbd2-cc8286d0f2bd",
       "ward_no": "7",
-      "ward_name_en": "Eramalloor",
-      "ward_name_ml": "എരമല്ലൂര്‍"
+      "name_en": "Eramalloor",
+      "name_ml": "എരമല്ലൂര്‍"
     },
     {
-      "ward_id": "d349faa7-bbc9-47c9-923b-b5866e6c1f28",
+      "id": "d349faa7-bbc9-47c9-923b-b5866e6c1f28",
       "ward_no": "8",
-      "ward_name_en": "Thottappally",
-      "ward_name_ml": "തോട്ടപ്പള്ളി"
+      "name_en": "Thottappally",
+      "name_ml": "തോട്ടപ്പള്ളി"
     },
     {
-      "ward_id": "aba1a557-74ab-44fb-9186-5e6845cd7e02",
+      "id": "aba1a557-74ab-44fb-9186-5e6845cd7e02",
       "ward_no": "9",
-      "ward_name_en": "Kovilakam",
-      "ward_name_ml": "കോവിലകം"
+      "name_en": "Kovilakam",
+      "name_ml": "കോവിലകം"
     },
     {
-      "ward_id": "2311cd2d-7c4f-4820-b0f0-bbba3313c9f8",
+      "id": "2311cd2d-7c4f-4820-b0f0-bbba3313c9f8",
       "ward_no": "10",
-      "ward_name_en": "Panchayat Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ആഫീസ്"
+      "name_en": "Panchayat Office",
+      "name_ml": "പഞ്ചായത്ത് ആഫീസ്"
     },
     {
-      "ward_id": "624e7257-0133-4e4b-a832-8b6e9e2ca4cf",
+      "id": "624e7257-0133-4e4b-a832-8b6e9e2ca4cf",
       "ward_no": "11",
-      "ward_name_en": "Kannukulangara",
-      "ward_name_ml": "കണ്ണുകുളങ്ങര"
+      "name_en": "Kannukulangara",
+      "name_ml": "കണ്ണുകുളങ്ങര"
     },
     {
-      "ward_id": "a85ea560-f5a1-40e6-9774-4c9ad05a2304",
+      "id": "a85ea560-f5a1-40e6-9774-4c9ad05a2304",
       "ward_no": "12",
-      "ward_name_en": "Market",
-      "ward_name_ml": "മാര്‍ക്കറ്റ്"
+      "name_en": "Market",
+      "name_ml": "മാര്‍ക്കറ്റ്"
     },
     {
-      "ward_id": "db9ff6c8-ab16-4d8a-b8d8-f55d8b136431",
+      "id": "db9ff6c8-ab16-4d8a-b8d8-f55d8b136431",
       "ward_no": "13",
-      "ward_name_en": "Konkeril",
-      "ward_name_ml": "കോങ്കേരില്‍"
+      "name_en": "Konkeril",
+      "name_ml": "കോങ്കേരില്‍"
     },
     {
-      "ward_id": "fd03b423-4dac-4ff1-b619-5fe11c1861a1",
+      "id": "fd03b423-4dac-4ff1-b619-5fe11c1861a1",
       "ward_no": "14",
-      "ward_name_en": "St. Raphaels",
-      "ward_name_ml": "സെന്റ് റാഫേല്‍സ്"
+      "name_en": "St. Raphaels",
+      "name_ml": "സെന്റ് റാഫേല്‍സ്"
     },
     {
-      "ward_id": "943ecfef-35d6-447c-b877-fa8c76522265",
+      "id": "943ecfef-35d6-447c-b877-fa8c76522265",
       "ward_no": "15",
-      "ward_name_en": "Neendakara",
-      "ward_name_ml": "നീണ്ടകര"
+      "name_en": "Neendakara",
+      "name_ml": "നീണ്ടകര"
     },
     {
-      "ward_id": "b1c65934-46e5-48ea-84ed-457380e8f8e6",
+      "id": "b1c65934-46e5-48ea-84ed-457380e8f8e6",
       "ward_no": "16",
-      "ward_name_en": "Kumarapuram",
-      "ward_name_ml": "കുമാരപുരം"
+      "name_en": "Kumarapuram",
+      "name_ml": "കുമാരപുരം"
     }
   ],
   "towns": [],

@@ -1,44 +1,59 @@
 {
-  "assembly_id": "105",
-  "assembly_name_en": "Ambalappuzha",
-  "assembly_name_ml": "അമ്പലപ്പുഴ",
-  "category": "Normal",
+  "id": "105",
+  "name_en": "Ambalappuzha",
+  "name_ml": "അമ്പലപ്പുഴ",
+  "district_id": "4",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "district_category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G040505",
-      "local_body_name_en": "Punnapra North",
-      "local_body_name_ml": "പുന്നപ്ര വടക്ക്",
-      "category": "Perfect"
+      "id": "G040505",
+      "name_en": "Punnapra North",
+      "name_ml": "പുന്നപ്ര വടക്ക്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040504",
-      "local_body_name_en": "Punnapra South",
-      "local_body_name_ml": "പുന്നപ്ര തെക്ക്",
-      "category": "Perfect"
+      "id": "G040504",
+      "name_en": "Punnapra South",
+      "name_ml": "പുന്നപ്ര തെക്ക്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040501",
-      "local_body_name_en": "Purakkad",
-      "local_body_name_ml": "പുറക്കാട്",
-      "category": "Good"
+      "id": "G040501",
+      "name_en": "Purakkad",
+      "name_ml": "പുറക്കാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040503",
-      "local_body_name_en": "Ambalapuzha North",
-      "local_body_name_ml": "അമ്പലപ്പുഴ വടക്ക്",
-      "category": "Normal"
+      "id": "G040503",
+      "name_en": "Ambalapuzha North",
+      "name_ml": "അമ്പലപ്പുഴ വടക്ക്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040502",
-      "local_body_name_en": "Ambalapuzha South",
-      "local_body_name_ml": "അമ്പലപ്പുഴ തെക്ക്",
-      "category": "Normal"
+      "id": "G040502",
+      "name_en": "Ambalapuzha South",
+      "name_ml": "അമ്പലപ്പുഴ തെക്ക്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

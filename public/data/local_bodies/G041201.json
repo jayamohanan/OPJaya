@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G041201",
-  "local_body_name_en": "Pathiyoor",
-  "local_body_name_ml": "പത്തിയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G041201",
+  "name_en": "Pathiyoor",
+  "name_ml": "പത്തിയൂര്‍",
+  "assembly_id": "108",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "108",
-    "assembly_name_en": "Kayamkulam",
-    "assembly_name_ml": "കായംകുളം",
-    "category": "Normal"
+    "id": "108",
+    "name_en": "Kayamkulam",
+    "name_ml": "കായംകുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a84efba3-767d-4824-86bf-f88de9c38427",
+      "id": "a84efba3-767d-4824-86bf-f88de9c38427",
       "ward_no": "1",
-      "ward_name_en": "Ramapuram North",
-      "ward_name_ml": "രാമപുരം വടക്ക്"
+      "name_en": "Ramapuram North",
+      "name_ml": "രാമപുരം വടക്ക്"
     },
     {
-      "ward_id": "4c52c1b4-beb1-4a82-963f-c7edbcac775e",
+      "id": "4c52c1b4-beb1-4a82-963f-c7edbcac775e",
       "ward_no": "2",
-      "ward_name_en": "Evoor South",
-      "ward_name_ml": "ഏവൂര്‍ തെക്ക്"
+      "name_en": "Evoor South",
+      "name_ml": "ഏവൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "ba282e0c-4111-4392-8cbd-f41a94cb6208",
+      "id": "ba282e0c-4111-4392-8cbd-f41a94cb6208",
       "ward_no": "3",
-      "ward_name_en": "S R K V L P S Ward",
-      "ward_name_ml": "എസ് ആര്‍ കെ വി എല്‍ പി എസ് വാര്‍ഡ്"
+      "name_en": "S R K V L P S Ward",
+      "name_ml": "എസ് ആര്‍ കെ വി എല്‍ പി എസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "b3d55fde-a5ed-4393-b431-fc0d73214b54",
+      "id": "b3d55fde-a5ed-4393-b431-fc0d73214b54",
       "ward_no": "4",
-      "ward_name_en": "Pathiyoorkala",
-      "ward_name_ml": "പത്തിയൂര്‍ക്കാല"
+      "name_en": "Pathiyoorkala",
+      "name_ml": "പത്തിയൂര്‍ക്കാല"
     },
     {
-      "ward_id": "8d8273ec-1bd3-499c-8032-edb2358728dc",
+      "id": "8d8273ec-1bd3-499c-8032-edb2358728dc",
       "ward_no": "5",
-      "ward_name_en": "Pathiyoor Temple",
-      "ward_name_ml": "പത്തിയൂര്‍ ക്ഷേത്രം"
+      "name_en": "Pathiyoor Temple",
+      "name_ml": "പത്തിയൂര്‍ ക്ഷേത്രം"
     },
     {
-      "ward_id": "b050a78a-d0bf-479a-94c4-f1e0c7736ad6",
+      "id": "b050a78a-d0bf-479a-94c4-f1e0c7736ad6",
       "ward_no": "6",
-      "ward_name_en": "P H C Ward",
-      "ward_name_ml": "പി എച്ച് സി വാര്‍ഡ്"
+      "name_en": "P H C Ward",
+      "name_ml": "പി എച്ച് സി വാര്‍ഡ്"
     },
     {
-      "ward_id": "4ef4d52e-592f-4c7a-bb56-4e9d529b8d19",
+      "id": "4ef4d52e-592f-4c7a-bb56-4e9d529b8d19",
       "ward_no": "7",
-      "ward_name_en": "Arattukulangara",
-      "ward_name_ml": "ആറാട്ടുകുളങ്ങര"
+      "name_en": "Arattukulangara",
+      "name_ml": "ആറാട്ടുകുളങ്ങര"
     },
     {
-      "ward_id": "7bdaaf4a-124a-4ab0-bc77-71469b448dd1",
+      "id": "7bdaaf4a-124a-4ab0-bc77-71469b448dd1",
       "ward_no": "8",
-      "ward_name_en": "Pathiyoorthottam",
-      "ward_name_ml": "പത്തിയൂര്‍ തോട്ടം"
+      "name_en": "Pathiyoorthottam",
+      "name_ml": "പത്തിയൂര്‍ തോട്ടം"
     },
     {
-      "ward_id": "3c4ecce8-24f8-42a7-8dc7-b8bea28a68f9",
+      "id": "3c4ecce8-24f8-42a7-8dc7-b8bea28a68f9",
       "ward_no": "9",
-      "ward_name_en": "Bhagavathippady",
-      "ward_name_ml": "ഭഗവതിപ്പടി"
+      "name_en": "Bhagavathippady",
+      "name_ml": "ഭഗവതിപ്പടി"
     },
     {
-      "ward_id": "c08fcde2-f737-486f-98b6-e8690bcae272",
+      "id": "c08fcde2-f737-486f-98b6-e8690bcae272",
       "ward_no": "10",
-      "ward_name_en": "Eruva East",
-      "ward_name_ml": "എരുവ കിഴക്ക്"
+      "name_en": "Eruva East",
+      "name_ml": "എരുവ കിഴക്ക്"
     },
     {
-      "ward_id": "0589d1ea-f4f0-4402-8816-c5658ec38042",
+      "id": "0589d1ea-f4f0-4402-8816-c5658ec38042",
       "ward_no": "11",
-      "ward_name_en": "Kuttikulangara",
-      "ward_name_ml": "കുറ്റികുളങ്ങര"
+      "name_en": "Kuttikulangara",
+      "name_ml": "കുറ്റികുളങ്ങര"
     },
     {
-      "ward_id": "f9e2f301-c17f-47b4-af2a-df91f47b749d",
+      "id": "f9e2f301-c17f-47b4-af2a-df91f47b749d",
       "ward_no": "12",
-      "ward_name_en": "Eruva",
-      "ward_name_ml": "എരുവ"
+      "name_en": "Eruva",
+      "name_ml": "എരുവ"
     },
     {
-      "ward_id": "48533874-efc3-4fb3-b844-798aee02ee8e",
+      "id": "48533874-efc3-4fb3-b844-798aee02ee8e",
       "ward_no": "13",
-      "ward_name_en": "Pathiyoor West",
-      "ward_name_ml": "പത്തിയൂര്‍ പടിഞ്ഞാറ്"
+      "name_en": "Pathiyoor West",
+      "name_ml": "പത്തിയൂര്‍ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "e367967b-e26a-4cee-9987-d9df7ba21444",
+      "id": "e367967b-e26a-4cee-9987-d9df7ba21444",
       "ward_no": "14",
-      "ward_name_en": "Spinning Mill",
-      "ward_name_ml": "സ്പിന്നിംഗ് മില്‍"
+      "name_en": "Spinning Mill",
+      "name_ml": "സ്പിന്നിംഗ് മില്‍"
     },
     {
-      "ward_id": "b3bee494-cf60-4179-a7bd-bfce12b2d403",
+      "id": "b3bee494-cf60-4179-a7bd-bfce12b2d403",
       "ward_no": "15",
-      "ward_name_en": "Veruvally Bhagam",
-      "ward_name_ml": "വേരുവള്ളി ഭാഗം"
+      "name_en": "Veruvally Bhagam",
+      "name_ml": "വേരുവള്ളി ഭാഗം"
     },
     {
-      "ward_id": "c6af4977-2b95-49fd-8030-daf33ce075c0",
+      "id": "c6af4977-2b95-49fd-8030-daf33ce075c0",
       "ward_no": "16",
-      "ward_name_en": "Malamelbhagam",
-      "ward_name_ml": "മലമേല്‍ഭാഗം"
+      "name_en": "Malamelbhagam",
+      "name_ml": "മലമേല്‍ഭാഗം"
     },
     {
-      "ward_id": "9367aec6-fdb0-4d8a-b0c1-ab720f1a9987",
+      "id": "9367aec6-fdb0-4d8a-b0c1-ab720f1a9987",
       "ward_no": "17",
-      "ward_name_en": "Karuvattumkuzhy",
-      "ward_name_ml": "കരുവറ്റുംകുഴി"
+      "name_en": "Karuvattumkuzhy",
+      "name_ml": "കരുവറ്റുംകുഴി"
     },
     {
-      "ward_id": "614ef2f7-a4fb-42fc-9c71-61edc119d801",
+      "id": "614ef2f7-a4fb-42fc-9c71-61edc119d801",
       "ward_no": "18",
-      "ward_name_en": "Kalarikkal",
-      "ward_name_ml": "കളരിക്കല്‍"
+      "name_en": "Kalarikkal",
+      "name_ml": "കളരിക്കല്‍"
     },
     {
-      "ward_id": "330a44b8-7b83-4fd4-8c59-1c87a50efdee",
+      "id": "330a44b8-7b83-4fd4-8c59-1c87a50efdee",
       "ward_no": "19",
-      "ward_name_en": "Ramapuram South",
-      "ward_name_ml": "രാമപുരം തെക്ക്"
+      "name_en": "Ramapuram South",
+      "name_ml": "രാമപുരം തെക്ക്"
     }
   ],
   "towns": [],

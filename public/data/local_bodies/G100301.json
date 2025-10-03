@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G100301",
-  "local_body_name_en": "Mampad",
-  "local_body_name_ml": "മമ്പാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "36",
-    "assembly_name_en": "Wandoor",
-    "assembly_name_ml": "വണ്ടൂര്‍",
+  "id": "G100301",
+  "name_en": "Mampad",
+  "name_ml": "മമ്പാട്",
+  "assembly_id": "36",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "36",
+    "name_en": "Wandoor",
+    "name_ml": "വണ്ടൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2d397a17-a205-42c1-b4a2-ffeb17a3b622",
+      "id": "2d397a17-a205-42c1-b4a2-ffeb17a3b622",
       "ward_no": "1",
-      "ward_name_en": "Karikkattumanna",
-      "ward_name_ml": "കരിക്കാട്ടുമണ്ണ"
+      "name_en": "Karikkattumanna",
+      "name_ml": "കരിക്കാട്ടുമണ്ണ"
     },
     {
-      "ward_id": "7d16f585-b940-4135-8ea3-4bb0fa752b83",
+      "id": "7d16f585-b940-4135-8ea3-4bb0fa752b83",
       "ward_no": "2",
-      "ward_name_en": "Thalippoyil",
-      "ward_name_ml": "താളിപ്പൊയില്‍"
+      "name_en": "Thalippoyil",
+      "name_ml": "താളിപ്പൊയില്‍"
     },
     {
-      "ward_id": "c93c9811-8461-4948-8b61-ba3057a004af",
+      "id": "c93c9811-8461-4948-8b61-ba3057a004af",
       "ward_no": "3",
-      "ward_name_en": "Vadapuram",
-      "ward_name_ml": "വടപുറം"
+      "name_en": "Vadapuram",
+      "name_ml": "വടപുറം"
     },
     {
-      "ward_id": "bc35efc2-e123-4fac-aa23-11d5ed4527e9",
+      "id": "bc35efc2-e123-4fac-aa23-11d5ed4527e9",
       "ward_no": "4",
-      "ward_name_en": "Palaparambu",
-      "ward_name_ml": "പാലപറമ്പ്"
+      "name_en": "Palaparambu",
+      "name_ml": "പാലപറമ്പ്"
     },
     {
-      "ward_id": "bee4c6f6-27c7-42b5-a2e1-3e0e9bea94aa",
+      "id": "bee4c6f6-27c7-42b5-a2e1-3e0e9bea94aa",
       "ward_no": "5",
-      "ward_name_en": "Vallikkettu",
-      "ward_name_ml": "വളളിക്കെട്ട്"
+      "name_en": "Vallikkettu",
+      "name_ml": "വളളിക്കെട്ട്"
     },
     {
-      "ward_id": "314a69a3-b120-42f1-a212-b02af9017ce4",
+      "id": "314a69a3-b120-42f1-a212-b02af9017ce4",
       "ward_no": "6",
-      "ward_name_en": "Thrikkaikuth",
-      "ward_name_ml": "തൃക്കെകുത്ത്"
+      "name_en": "Thrikkaikuth",
+      "name_ml": "തൃക്കെകുത്ത്"
     },
     {
-      "ward_id": "0f5c91a4-f047-4e95-8bf9-c967c80fe300",
+      "id": "0f5c91a4-f047-4e95-8bf9-c967c80fe300",
       "ward_no": "7",
-      "ward_name_en": "Kattumunda",
-      "ward_name_ml": "കാട്ടുമുണ്ട"
+      "name_en": "Kattumunda",
+      "name_ml": "കാട്ടുമുണ്ട"
     },
     {
-      "ward_id": "f6ba3595-6e9c-454c-a240-d6bc9925e66f",
+      "id": "f6ba3595-6e9c-454c-a240-d6bc9925e66f",
       "ward_no": "8",
-      "ward_name_en": "Pulikkalodi",
-      "ward_name_ml": "പുളിക്കലോടി"
+      "name_en": "Pulikkalodi",
+      "name_ml": "പുളിക്കലോടി"
     },
     {
-      "ward_id": "89ce7c05-21b3-4143-a8c3-5d0deea1e760",
+      "id": "89ce7c05-21b3-4143-a8c3-5d0deea1e760",
       "ward_no": "9",
-      "ward_name_en": "Naduvakkad",
-      "ward_name_ml": "നടുവക്കാട്"
+      "name_en": "Naduvakkad",
+      "name_ml": "നടുവക്കാട്"
     },
     {
-      "ward_id": "c6e3c194-e367-4179-b501-95ed48ac2e28",
+      "id": "c6e3c194-e367-4179-b501-95ed48ac2e28",
       "ward_no": "10",
-      "ward_name_en": "Tana",
-      "ward_name_ml": "ടാണ"
+      "name_en": "Tana",
+      "name_ml": "ടാണ"
     },
     {
-      "ward_id": "0fb6951a-95af-45ba-a659-bd63c0b26e9c",
+      "id": "0fb6951a-95af-45ba-a659-bd63c0b26e9c",
       "ward_no": "11",
-      "ward_name_en": "Ippottingal",
-      "ward_name_ml": "ഇപ്പൂട്ടിങ്ങല്‍"
+      "name_en": "Ippottingal",
+      "name_ml": "ഇപ്പൂട്ടിങ്ങല്‍"
     },
     {
-      "ward_id": "e778a6c8-d0a4-4b74-9c0e-c0d78ed59c94",
+      "id": "e778a6c8-d0a4-4b74-9c0e-c0d78ed59c94",
       "ward_no": "12",
-      "ward_name_en": "Mampad North",
-      "ward_name_ml": "മമ്പാട് നോര്‍ത്ത്"
+      "name_en": "Mampad North",
+      "name_ml": "മമ്പാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "a3d555b2-67b1-4053-b1af-49a898bad373",
+      "id": "a3d555b2-67b1-4053-b1af-49a898bad373",
       "ward_no": "13",
-      "ward_name_en": "Mampad South",
-      "ward_name_ml": "മമ്പാട് സൌത്ത്"
+      "name_en": "Mampad South",
+      "name_ml": "മമ്പാട് സൌത്ത്"
     },
     {
-      "ward_id": "41ee987f-d96f-4182-88b4-ee8b3b033439",
+      "id": "41ee987f-d96f-4182-88b4-ee8b3b033439",
       "ward_no": "14",
-      "ward_name_en": "Kattupoyil",
-      "ward_name_ml": "കാട്ടുപൊയില്‍"
+      "name_en": "Kattupoyil",
+      "name_ml": "കാട്ടുപൊയില്‍"
     },
     {
-      "ward_id": "79e0ec6d-83dd-4d1d-a242-f61eaebb3969",
+      "id": "79e0ec6d-83dd-4d1d-a242-f61eaebb3969",
       "ward_no": "15",
-      "ward_name_en": "Panthalingal",
-      "ward_name_ml": "പന്തലിങ്ങല്‍"
+      "name_en": "Panthalingal",
+      "name_ml": "പന്തലിങ്ങല്‍"
     },
     {
-      "ward_id": "4e5161f6-d9d7-40f3-80a0-b29e12a4fa39",
+      "id": "4e5161f6-d9d7-40f3-80a0-b29e12a4fa39",
       "ward_no": "16",
-      "ward_name_en": "Meppadam",
-      "ward_name_ml": "മേപ്പാടം"
+      "name_en": "Meppadam",
+      "name_ml": "മേപ്പാടം"
     },
     {
-      "ward_id": "926e33d7-37e0-4565-b106-c04c6f14935e",
+      "id": "926e33d7-37e0-4565-b106-c04c6f14935e",
       "ward_no": "17",
-      "ward_name_en": "Pongalloor",
-      "ward_name_ml": "പൊങ്ങല്ലൂര്‍"
+      "name_en": "Pongalloor",
+      "name_ml": "പൊങ്ങല്ലൂര്‍"
     },
     {
-      "ward_id": "a19d2f77-e2b0-4750-84c4-54d1e59f8215",
+      "id": "a19d2f77-e2b0-4750-84c4-54d1e59f8215",
       "ward_no": "18",
-      "ward_name_en": "Pullippadam",
-      "ward_name_ml": "പുളളിപ്പാടം"
+      "name_en": "Pullippadam",
+      "name_ml": "പുളളിപ്പാടം"
     },
     {
-      "ward_id": "fd2c0001-f90c-4ff6-aeae-f18f8df8ef4a",
+      "id": "fd2c0001-f90c-4ff6-aeae-f18f8df8ef4a",
       "ward_no": "19",
-      "ward_name_en": "Karachal",
-      "ward_name_ml": "കാരച്ചാല്‍"
+      "name_en": "Karachal",
+      "name_ml": "കാരച്ചാല്‍"
     }
   ],
   "towns": [],

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G080302",
-  "local_body_name_en": "Erumapetty",
-  "local_body_name_ml": "എരുമപ്പെട്ടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "62",
-    "assembly_name_en": "Kunnamkulam",
-    "assembly_name_ml": "കുന്നംകുളം",
+  "id": "G080302",
+  "name_en": "Erumapetty",
+  "name_ml": "എരുമപ്പെട്ടി",
+  "assembly_id": "62",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "62",
+    "name_en": "Kunnamkulam",
+    "name_ml": "കുന്നംകുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e0541125-bde7-4e41-bed1-ba45ec9e5cbb",
+      "id": "e0541125-bde7-4e41-bed1-ba45ec9e5cbb",
       "ward_no": "1",
-      "ward_name_en": "Erumapetty",
-      "ward_name_ml": "എരുമപ്പെട്ടി"
+      "name_en": "Erumapetty",
+      "name_ml": "എരുമപ്പെട്ടി"
     },
     {
-      "ward_id": "e865b477-5227-49a2-82b6-db0f04752ddc",
+      "id": "e865b477-5227-49a2-82b6-db0f04752ddc",
       "ward_no": "2",
-      "ward_name_en": "Pathiyaram",
-      "ward_name_ml": "പതിയാരം"
+      "name_en": "Pathiyaram",
+      "name_ml": "പതിയാരം"
     },
     {
-      "ward_id": "9a3cf5fe-f85d-4e28-8fb7-e540386daccf",
+      "id": "9a3cf5fe-f85d-4e28-8fb7-e540386daccf",
       "ward_no": "3",
-      "ward_name_en": "Nelluvai North",
-      "ward_name_ml": "നെല്ലുവായ് നോര്‍ത്ത്"
+      "name_en": "Nelluvai North",
+      "name_ml": "നെല്ലുവായ് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "16147e5d-a7d4-4211-bbd0-e5eee4bbf98d",
+      "id": "16147e5d-a7d4-4211-bbd0-e5eee4bbf98d",
       "ward_no": "4",
-      "ward_name_en": "Kuttanchery",
-      "ward_name_ml": "കുട്ടഞ്ചേരി"
+      "name_en": "Kuttanchery",
+      "name_ml": "കുട്ടഞ്ചേരി"
     },
     {
-      "ward_id": "67e240ae-7128-47dd-aea0-d0028f2691f9",
+      "id": "67e240ae-7128-47dd-aea0-d0028f2691f9",
       "ward_no": "5",
-      "ward_name_en": "Murigatheri",
-      "ward_name_ml": "മുരിങ്ങത്തേരി"
+      "name_en": "Murigatheri",
+      "name_ml": "മുരിങ്ങത്തേരി"
     },
     {
-      "ward_id": "e0c3def0-448a-4040-91ba-46b6d622b4bc",
+      "id": "e0c3def0-448a-4040-91ba-46b6d622b4bc",
       "ward_no": "6",
-      "ward_name_en": "Mangad",
-      "ward_name_ml": "മങ്ങാട്"
+      "name_en": "Mangad",
+      "name_ml": "മങ്ങാട്"
     },
     {
-      "ward_id": "96c8d406-be7a-4cc0-a072-9b5effd44501",
+      "id": "96c8d406-be7a-4cc0-a072-9b5effd44501",
       "ward_no": "7",
-      "ward_name_en": "Edakkad",
-      "ward_name_ml": "എടക്കാട്"
+      "name_en": "Edakkad",
+      "name_ml": "എടക്കാട്"
     },
     {
-      "ward_id": "fb6894ad-b2f8-4a29-9165-cfa202781ec3",
+      "id": "fb6894ad-b2f8-4a29-9165-cfa202781ec3",
       "ward_no": "8",
-      "ward_name_en": "Muttikkal",
-      "ward_name_ml": "മുട്ടിക്കല്‍"
+      "name_en": "Muttikkal",
+      "name_ml": "മുട്ടിക്കല്‍"
     },
     {
-      "ward_id": "abc573b4-9a1d-4111-b9fe-af41448eb6e1",
+      "id": "abc573b4-9a1d-4111-b9fe-af41448eb6e1",
       "ward_no": "9",
-      "ward_name_en": "Chittanda",
-      "ward_name_ml": "ചിറ്റണ്ട"
+      "name_en": "Chittanda",
+      "name_ml": "ചിറ്റണ്ട"
     },
     {
-      "ward_id": "729e0302-2f4f-4bf0-8d6a-cfb95b61cd57",
+      "id": "729e0302-2f4f-4bf0-8d6a-cfb95b61cd57",
       "ward_no": "10",
-      "ward_name_en": "Thrikkanapathiyaram",
-      "ward_name_ml": "തൃക്കണപതിയാരം"
+      "name_en": "Thrikkanapathiyaram",
+      "name_ml": "തൃക്കണപതിയാരം"
     },
     {
-      "ward_id": "2b978ed1-76f9-41e8-9a1a-57dbac161476",
+      "id": "2b978ed1-76f9-41e8-9a1a-57dbac161476",
       "ward_no": "11",
-      "ward_name_en": "Kundannur Chungam",
-      "ward_name_ml": "കുണ്ടന്നൂര്‍ ചുങ്കം"
+      "name_en": "Kundannur Chungam",
+      "name_ml": "കുണ്ടന്നൂര്‍ ചുങ്കം"
     },
     {
-      "ward_id": "005a25a0-fe7c-4221-b62f-7187e95d185f",
+      "id": "005a25a0-fe7c-4221-b62f-7187e95d185f",
       "ward_no": "12",
-      "ward_name_en": "Kodumbu",
-      "ward_name_ml": "കൊടുമ്പ്"
+      "name_en": "Kodumbu",
+      "name_ml": "കൊടുമ്പ്"
     },
     {
-      "ward_id": "64aaf750-4b7d-4a06-bf8e-6e56953a10b7",
+      "id": "64aaf750-4b7d-4a06-bf8e-6e56953a10b7",
       "ward_no": "13",
-      "ward_name_en": "Kanjiracode",
-      "ward_name_ml": "കാഞ്ഞിരക്കോട്"
+      "name_en": "Kanjiracode",
+      "name_ml": "കാഞ്ഞിരക്കോട്"
     },
     {
-      "ward_id": "958f6327-c4e4-486c-bd71-196c971c5b0e",
+      "id": "958f6327-c4e4-486c-bd71-196c971c5b0e",
       "ward_no": "14",
-      "ward_name_en": "Kundannur South",
-      "ward_name_ml": "കുണ്ടന്നൂര്‍ സൌത്ത്"
+      "name_en": "Kundannur South",
+      "name_ml": "കുണ്ടന്നൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "479dc839-e066-4e3c-91d8-b9986650bb17",
+      "id": "479dc839-e066-4e3c-91d8-b9986650bb17",
       "ward_no": "15",
-      "ward_name_en": "Kottappuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottappuram",
+      "name_ml": "കോട്ടപ്പുറം"
     },
     {
-      "ward_id": "3ace3a61-8168-4174-b8c6-e80c7f486c92",
+      "id": "3ace3a61-8168-4174-b8c6-e80c7f486c92",
       "ward_no": "16",
-      "ward_name_en": "Mangad South",
-      "ward_name_ml": "മങ്ങാട് സൌത്ത്"
+      "name_en": "Mangad South",
+      "name_ml": "മങ്ങാട് സൌത്ത്"
     },
     {
-      "ward_id": "74c46034-db33-4ac8-be49-7746f5d93bb5",
+      "id": "74c46034-db33-4ac8-be49-7746f5d93bb5",
       "ward_no": "17",
-      "ward_name_en": "Nelluvai South",
-      "ward_name_ml": "നെല്ലുവായ് സൌത്ത്"
+      "name_en": "Nelluvai South",
+      "name_ml": "നെല്ലുവായ് സൌത്ത്"
     },
     {
-      "ward_id": "1f09aa97-bfed-4c60-af80-91880ece6424",
+      "id": "1f09aa97-bfed-4c60-af80-91880ece6424",
       "ward_no": "18",
-      "ward_name_en": "Kariyannur",
-      "ward_name_ml": "കരിയന്നൂര്‍"
+      "name_en": "Kariyannur",
+      "name_ml": "കരിയന്നൂര്‍"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G071201",
-  "local_body_name_en": "Elanji",
-  "local_body_name_ml": "ഇലഞ്ഞി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "85",
-    "assembly_name_en": "Piravom",
-    "assembly_name_ml": "പിറവം",
+  "id": "G071201",
+  "name_en": "Elanji",
+  "name_ml": "ഇലഞ്ഞി",
+  "assembly_id": "85",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "85",
+    "name_en": "Piravom",
+    "name_ml": "പിറവം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6f765145-aeb4-43e6-8c4a-aa223f618222",
+      "id": "6f765145-aeb4-43e6-8c4a-aa223f618222",
       "ward_no": "1",
-      "ward_name_en": "Anthyal",
-      "ward_name_ml": "അന്ത്യാല്‍"
+      "name_en": "Anthyal",
+      "name_ml": "അന്ത്യാല്‍"
     },
     {
-      "ward_id": "fa6aec2e-8c3c-4edf-9da7-995f2e7ec138",
+      "id": "fa6aec2e-8c3c-4edf-9da7-995f2e7ec138",
       "ward_no": "2",
-      "ward_name_en": "Kooru",
-      "ward_name_ml": "കൂര്"
+      "name_en": "Kooru",
+      "name_ml": "കൂര്"
     },
     {
-      "ward_id": "bafd2f75-30ec-452f-a31a-cd3edaab8ff2",
+      "id": "bafd2f75-30ec-452f-a31a-cd3edaab8ff2",
       "ward_no": "3",
-      "ward_name_en": "Nelloorupara",
-      "ward_name_ml": "നെല്ലൂരുപാറ"
+      "name_en": "Nelloorupara",
+      "name_ml": "നെല്ലൂരുപാറ"
     },
     {
-      "ward_id": "fc0c8a87-df3a-493d-b329-88305b39511a",
+      "id": "fc0c8a87-df3a-493d-b329-88305b39511a",
       "ward_no": "4",
-      "ward_name_en": "Josegiri",
-      "ward_name_ml": "ജോസ്ഗിരി"
+      "name_en": "Josegiri",
+      "name_ml": "ജോസ്ഗിരി"
     },
     {
-      "ward_id": "3dbce375-f409-4cb8-9b39-06ee68bf854d",
+      "id": "3dbce375-f409-4cb8-9b39-06ee68bf854d",
       "ward_no": "5",
-      "ward_name_en": "Mutholapuram",
-      "ward_name_ml": "മുത്തോലപുരം"
+      "name_en": "Mutholapuram",
+      "name_ml": "മുത്തോലപുരം"
     },
     {
-      "ward_id": "b02c0e7f-fa65-4fd5-9696-e23ad13007fb",
+      "id": "b02c0e7f-fa65-4fd5-9696-e23ad13007fb",
       "ward_no": "6",
-      "ward_name_en": "Alapuram",
-      "ward_name_ml": "ആലപുരം"
+      "name_en": "Alapuram",
+      "name_ml": "ആലപുരം"
     },
     {
-      "ward_id": "0aac8d2f-e1b0-4e4d-9309-8cc43dfc1dc2",
+      "id": "0aac8d2f-e1b0-4e4d-9309-8cc43dfc1dc2",
       "ward_no": "7",
-      "ward_name_en": "Madukka",
-      "ward_name_ml": "മടുക്ക"
+      "name_en": "Madukka",
+      "name_ml": "മടുക്ക"
     },
     {
-      "ward_id": "311da315-ef70-4f4a-a8a0-3b96302eef44",
+      "id": "311da315-ef70-4f4a-a8a0-3b96302eef44",
       "ward_no": "8",
-      "ward_name_en": "Elanji South",
-      "ward_name_ml": "ഇലഞ്ഞി സൌത്ത്"
+      "name_en": "Elanji South",
+      "name_ml": "ഇലഞ്ഞി സൌത്ത്"
     },
     {
-      "ward_id": "360bc0cc-a39e-49c0-9ac6-2c2ab7d83947",
+      "id": "360bc0cc-a39e-49c0-9ac6-2c2ab7d83947",
       "ward_no": "9",
-      "ward_name_en": "Chelackal",
-      "ward_name_ml": "ചേലയ്ക്കല്‍"
+      "name_en": "Chelackal",
+      "name_ml": "ചേലയ്ക്കല്‍"
     },
     {
-      "ward_id": "4eb693ee-8a09-4e9e-892a-7cf977e98a63",
+      "id": "4eb693ee-8a09-4e9e-892a-7cf977e98a63",
       "ward_no": "10",
-      "ward_name_en": "Elanji",
-      "ward_name_ml": "ഇലഞ്ഞി"
+      "name_en": "Elanji",
+      "name_ml": "ഇലഞ്ഞി"
     },
     {
-      "ward_id": "b6b01438-1aa3-474d-ac48-5a0229eda8b2",
+      "id": "b6b01438-1aa3-474d-ac48-5a0229eda8b2",
       "ward_no": "11",
-      "ward_name_en": "Muthamkunnu",
-      "ward_name_ml": "മുത്തംകുന്ന്"
+      "name_en": "Muthamkunnu",
+      "name_ml": "മുത്തംകുന്ന്"
     },
     {
-      "ward_id": "f5e3b850-8a2e-4134-97ba-1e07d873272b",
+      "id": "f5e3b850-8a2e-4134-97ba-1e07d873272b",
       "ward_no": "12",
-      "ward_name_en": "Perumpadavom",
-      "ward_name_ml": "പെരുമ്പടവം"
+      "name_en": "Perumpadavom",
+      "name_ml": "പെരുമ്പടവം"
     },
     {
-      "ward_id": "0e208703-99ea-4f6d-9cab-3a93160c2e21",
+      "id": "0e208703-99ea-4f6d-9cab-3a93160c2e21",
       "ward_no": "13",
-      "ward_name_en": "Pulickakkunnu",
-      "ward_name_ml": "പുളിയ്ക്കക്കുന്ന്"
+      "name_en": "Pulickakkunnu",
+      "name_ml": "പുളിയ്ക്കക്കുന്ന്"
     }
   ],
   "towns": [],

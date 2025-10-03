@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G110501",
-  "local_body_name_en": "Thurayur",
-  "local_body_name_ml": "തുറയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "24",
-    "assembly_name_en": "Perambra",
-    "assembly_name_ml": "പേരാംബ്ര",
+  "id": "G110501",
+  "name_en": "Thurayur",
+  "name_ml": "തുറയൂര്‍",
+  "assembly_id": "24",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "24",
+    "name_en": "Perambra",
+    "name_ml": "പേരാംബ്ര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4af0a36e-0190-4fb7-8d1a-57db568ce018",
+      "id": "4af0a36e-0190-4fb7-8d1a-57db568ce018",
       "ward_no": "1",
-      "ward_name_en": "Chirakkara",
-      "ward_name_ml": "ചിറക്കര"
+      "name_en": "Chirakkara",
+      "name_ml": "ചിറക്കര"
     },
     {
-      "ward_id": "1c418d6e-0dbc-4177-9290-00bdac0bac48",
+      "id": "1c418d6e-0dbc-4177-9290-00bdac0bac48",
       "ward_no": "2",
-      "ward_name_en": "Payyoli Angadi",
-      "ward_name_ml": "പയ്യോളി അങ്ങാടി"
+      "name_en": "Payyoli Angadi",
+      "name_ml": "പയ്യോളി അങ്ങാടി"
     },
     {
-      "ward_id": "0f8a838b-4ad3-43df-888b-543fcb36b964",
+      "id": "0f8a838b-4ad3-43df-888b-543fcb36b964",
       "ward_no": "3",
-      "ward_name_en": "Tholeri",
-      "ward_name_ml": "തോലേരി"
+      "name_en": "Tholeri",
+      "name_ml": "തോലേരി"
     },
     {
-      "ward_id": "765dbfd5-c489-4fca-9556-ab1cfe515922",
+      "id": "765dbfd5-c489-4fca-9556-ab1cfe515922",
       "ward_no": "4",
-      "ward_name_en": "Kuluppa",
-      "ward_name_ml": "കുലുപ്പ"
+      "name_en": "Kuluppa",
+      "name_ml": "കുലുപ്പ"
     },
     {
-      "ward_id": "ec4d232a-f4a3-4185-b016-ec24be3a6518",
+      "id": "ec4d232a-f4a3-4185-b016-ec24be3a6518",
       "ward_no": "5",
-      "ward_name_en": "Iringath North",
-      "ward_name_ml": "ഇരിങ്ങത്ത് നോര്‍ത്ത്"
+      "name_en": "Iringath North",
+      "name_ml": "ഇരിങ്ങത്ത് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "fe9d14dd-e386-4f6a-b464-9db22eb852d7",
+      "id": "fe9d14dd-e386-4f6a-b464-9db22eb852d7",
       "ward_no": "6",
-      "ward_name_en": "Iringath Kulangara",
-      "ward_name_ml": "ഇരിങ്ങത്ത് കുളങ്ങര"
+      "name_en": "Iringath Kulangara",
+      "name_ml": "ഇരിങ്ങത്ത് കുളങ്ങര"
     },
     {
-      "ward_id": "1f6d408a-e4aa-405f-b183-b2bcfdf9329b",
+      "id": "1f6d408a-e4aa-405f-b183-b2bcfdf9329b",
       "ward_no": "7",
-      "ward_name_en": "Iringath Town",
-      "ward_name_ml": "ഇരിങ്ങത്ത് ടൌണ്‍"
+      "name_en": "Iringath Town",
+      "name_ml": "ഇരിങ്ങത്ത് ടൌണ്‍"
     },
     {
-      "ward_id": "cd454dec-f6cf-4ad6-9e4a-6d0c9e54690a",
+      "id": "cd454dec-f6cf-4ad6-9e4a-6d0c9e54690a",
       "ward_no": "8",
-      "ward_name_en": "Mukappur",
-      "ward_name_ml": "മുകപ്പൂര്‍"
+      "name_en": "Mukappur",
+      "name_ml": "മുകപ്പൂര്‍"
     },
     {
-      "ward_id": "f47b9061-494d-4766-9bd8-bd1c861da0de",
+      "id": "f47b9061-494d-4766-9bd8-bd1c861da0de",
       "ward_no": "9",
-      "ward_name_en": "Choorakkad",
-      "ward_name_ml": "ചൂരക്കാട്"
+      "name_en": "Choorakkad",
+      "name_ml": "ചൂരക്കാട്"
     },
     {
-      "ward_id": "e213713f-6836-4440-b23c-d873c7975917",
+      "id": "e213713f-6836-4440-b23c-d873c7975917",
       "ward_no": "10",
-      "ward_name_en": "Akkool",
-      "ward_name_ml": "ആക്കൂല്‍"
+      "name_en": "Akkool",
+      "name_ml": "ആക്കൂല്‍"
     },
     {
-      "ward_id": "0f2fff61-e95e-42e4-b8b2-084b70af7efc",
+      "id": "0f2fff61-e95e-42e4-b8b2-084b70af7efc",
       "ward_no": "11",
-      "ward_name_en": "Kunnam Vayal",
-      "ward_name_ml": "കുന്നം വയല്‍"
+      "name_en": "Kunnam Vayal",
+      "name_ml": "കുന്നം വയല്‍"
     },
     {
-      "ward_id": "c438e988-8184-41fb-a8db-73cde395b6b2",
+      "id": "c438e988-8184-41fb-a8db-73cde395b6b2",
       "ward_no": "12",
-      "ward_name_en": "Malol Thazha",
-      "ward_name_ml": "മലോല്‍ താഴ"
+      "name_en": "Malol Thazha",
+      "name_ml": "മലോല്‍ താഴ"
     },
     {
-      "ward_id": "c3beb8a2-f47e-438d-8962-712678a44d5f",
+      "id": "c3beb8a2-f47e-438d-8962-712678a44d5f",
       "ward_no": "13",
-      "ward_name_en": "Keeran Kai",
-      "ward_name_ml": "കീരന്‍കൈ"
+      "name_en": "Keeran Kai",
+      "name_ml": "കീരന്‍കൈ"
     }
   ],
   "towns": [],

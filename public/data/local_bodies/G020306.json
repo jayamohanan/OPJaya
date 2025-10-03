@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G020306",
-  "local_body_name_en": "Pavithreswaram",
-  "local_body_name_ml": "പവിത്രേശ്വരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "118",
-    "assembly_name_en": "Kunnathur",
-    "assembly_name_ml": "കുന്നത്തൂർ",
+  "id": "G020306",
+  "name_en": "Pavithreswaram",
+  "name_ml": "പവിത്രേശ്വരം",
+  "assembly_id": "118",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "118",
+    "name_en": "Kunnathur",
+    "name_ml": "കുന്നത്തൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f6163388-a865-4eb7-b059-88226b9f1649",
+      "id": "f6163388-a865-4eb7-b059-88226b9f1649",
       "ward_no": "11",
-      "ward_name_en": "Kaithakkodu",
-      "ward_name_ml": "കൈതക്കോട്"
+      "name_en": "Kaithakkodu",
+      "name_ml": "കൈതക്കോട്"
     },
     {
-      "ward_id": "bef97230-1eff-4c4a-902b-505bbe441930",
+      "id": "bef97230-1eff-4c4a-902b-505bbe441930",
       "ward_no": "1",
-      "ward_name_en": "Karimbinpuzha",
-      "ward_name_ml": "കരിമ്പിന്‍ പുഴ"
+      "name_en": "Karimbinpuzha",
+      "name_ml": "കരിമ്പിന്‍ പുഴ"
     },
     {
-      "ward_id": "31a0f11a-ebd9-4a41-9279-9c06d3902318",
+      "id": "31a0f11a-ebd9-4a41-9279-9c06d3902318",
       "ward_no": "2",
-      "ward_name_en": "Thekkumcheri",
-      "ward_name_ml": "തെക്കും ചേരി"
+      "name_en": "Thekkumcheri",
+      "name_ml": "തെക്കും ചേരി"
     },
     {
-      "ward_id": "f9a49bd6-d8f5-4aff-9b5f-a0ec5257ae36",
+      "id": "f9a49bd6-d8f5-4aff-9b5f-a0ec5257ae36",
       "ward_no": "3",
-      "ward_name_en": "Cherumangadu",
-      "ward_name_ml": "ചെറുമങ്ങാട്"
+      "name_en": "Cherumangadu",
+      "name_ml": "ചെറുമങ്ങാട്"
     },
     {
-      "ward_id": "18ba99ec-d2c3-41a3-982d-bf01cf1bd4ef",
+      "id": "18ba99ec-d2c3-41a3-982d-bf01cf1bd4ef",
       "ward_no": "4",
-      "ward_name_en": "Malanada",
-      "ward_name_ml": "മലനട"
+      "name_en": "Malanada",
+      "name_ml": "മലനട"
     },
     {
-      "ward_id": "21d5269a-3648-4c66-b3c8-8e12932e5908",
+      "id": "21d5269a-3648-4c66-b3c8-8e12932e5908",
       "ward_no": "5",
-      "ward_name_en": "Pavithreswaram",
-      "ward_name_ml": "പവിത്രേശ്വരം"
+      "name_en": "Pavithreswaram",
+      "name_ml": "പവിത്രേശ്വരം"
     },
     {
-      "ward_id": "77f49659-1991-4119-9008-ad3d9b9318f1",
+      "id": "77f49659-1991-4119-9008-ad3d9b9318f1",
       "ward_no": "6",
-      "ward_name_en": "East Maranadu",
-      "ward_name_ml": "മാറനാട് കിഴക്ക്"
+      "name_en": "East Maranadu",
+      "name_ml": "മാറനാട് കിഴക്ക്"
     },
     {
-      "ward_id": "4851d76c-cf90-4061-8a63-5aad0aab59cc",
+      "id": "4851d76c-cf90-4061-8a63-5aad0aab59cc",
       "ward_no": "7",
-      "ward_name_en": "Maranadu South",
-      "ward_name_ml": "മാറനാട് തെക്ക്"
+      "name_en": "Maranadu South",
+      "name_ml": "മാറനാട് തെക്ക്"
     },
     {
-      "ward_id": "9acb8a0a-f545-4c31-94ac-583d55fe1292",
+      "id": "9acb8a0a-f545-4c31-94ac-583d55fe1292",
       "ward_no": "8",
-      "ward_name_en": "Maranadu West",
-      "ward_name_ml": "മാറനാട് പടിഞ്ഞാറ്"
+      "name_en": "Maranadu West",
+      "name_ml": "മാറനാട് പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "5af5ff6d-5c93-46dd-8298-7e0b016b266d",
+      "id": "5af5ff6d-5c93-46dd-8298-7e0b016b266d",
       "ward_no": "9",
-      "ward_name_en": "Edavettam",
-      "ward_name_ml": "ഇടവെട്ടം"
+      "name_en": "Edavettam",
+      "name_ml": "ഇടവെട്ടം"
     },
     {
-      "ward_id": "f95abce9-130e-4d55-a99c-8ce5ca8a562a",
+      "id": "f95abce9-130e-4d55-a99c-8ce5ca8a562a",
       "ward_no": "10",
-      "ward_name_en": "Kaaruvelil",
-      "ward_name_ml": "കാരുവേലില്‍"
+      "name_en": "Kaaruvelil",
+      "name_ml": "കാരുവേലില്‍"
     },
     {
-      "ward_id": "3b54c0f4-82fc-484b-a6c4-34c6bbc967a8",
+      "id": "3b54c0f4-82fc-484b-a6c4-34c6bbc967a8",
       "ward_no": "12",
-      "ward_name_en": "Kaithakkodu West",
-      "ward_name_ml": "കൈതക്കോട് പടിഞ്ഞാറ്"
+      "name_en": "Kaithakkodu West",
+      "name_ml": "കൈതക്കോട് പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "49e2a93d-4fdb-4c25-b60f-a65089ae3b4e",
+      "id": "49e2a93d-4fdb-4c25-b60f-a65089ae3b4e",
       "ward_no": "13",
-      "ward_name_en": "Kaithakkodu South",
-      "ward_name_ml": "കൈതക്കോട് വടക്ക്"
+      "name_en": "Kaithakkodu South",
+      "name_ml": "കൈതക്കോട് വടക്ക്"
     },
     {
-      "ward_id": "dbecba51-8f4f-444c-beb5-733b3cc184f5",
+      "id": "dbecba51-8f4f-444c-beb5-733b3cc184f5",
       "ward_no": "14",
-      "ward_name_en": "Cherupoika South",
-      "ward_name_ml": "ചെറുപൊയ്ക  തെക്ക്"
+      "name_en": "Cherupoika South",
+      "name_ml": "ചെറുപൊയ്ക  തെക്ക്"
     },
     {
-      "ward_id": "e15d9a46-e1a2-4b4e-8a0d-62067b6635d7",
+      "id": "e15d9a46-e1a2-4b4e-8a0d-62067b6635d7",
       "ward_no": "15",
-      "ward_name_en": "Bhajanamadam",
-      "ward_name_ml": "ഭജന മഠം"
+      "name_en": "Bhajanamadam",
+      "name_ml": "ഭജന മഠം"
     },
     {
-      "ward_id": "8eec6960-3ae3-4ec8-8f43-7b27a062825b",
+      "id": "8eec6960-3ae3-4ec8-8f43-7b27a062825b",
       "ward_no": "16",
-      "ward_name_en": "Cherupoika",
-      "ward_name_ml": "ചെറുപൊയ്ക"
+      "name_en": "Cherupoika",
+      "name_ml": "ചെറുപൊയ്ക"
     },
     {
-      "ward_id": "4a0a1beb-a6ca-4161-890d-f6b4d1cde6cb",
+      "id": "4a0a1beb-a6ca-4161-890d-f6b4d1cde6cb",
       "ward_no": "17",
-      "ward_name_en": "Sreenarayana Puram",
-      "ward_name_ml": "ശ്രീനാരായണ പുരം"
+      "name_en": "Sreenarayana Puram",
+      "name_ml": "ശ്രീനാരായണ പുരം"
     },
     {
-      "ward_id": "b2e0c9c0-42f9-4abf-aaa0-37924290639a",
+      "id": "b2e0c9c0-42f9-4abf-aaa0-37924290639a",
       "ward_no": "18",
-      "ward_name_en": "Kaarikkal",
-      "ward_name_ml": "കാരിക്കല്‍"
+      "name_en": "Kaarikkal",
+      "name_ml": "കാരിക്കല്‍"
     },
     {
-      "ward_id": "3d0b106a-4c3f-41bf-9ff1-d74cdd961c3b",
+      "id": "3d0b106a-4c3f-41bf-9ff1-d74cdd961c3b",
       "ward_no": "19",
-      "ward_name_en": "Kaarikal Cherupoika",
-      "ward_name_ml": "കാരിക്കല്‍ ചെറുപൊയ്ക"
+      "name_en": "Kaarikal Cherupoika",
+      "name_ml": "കാരിക്കല്‍ ചെറുപൊയ്ക"
     }
   ],
   "towns": [],

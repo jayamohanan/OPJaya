@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060606",
-  "local_body_name_en": "AyyappanCoil",
-  "local_body_name_ml": "അയ്യപ്പന്‍കോവില്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "92",
-    "assembly_name_en": "Peerumade",
-    "assembly_name_ml": "പീരുമേട്",
+  "id": "G060606",
+  "name_en": "AyyappanCoil",
+  "name_ml": "അയ്യപ്പന്‍കോവില്‍",
+  "assembly_id": "92",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "92",
+    "name_en": "Peerumade",
+    "name_ml": "പീരുമേട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "3b82ff34-3377-4653-aa84-85ea678623a7",
+      "id": "3b82ff34-3377-4653-aa84-85ea678623a7",
       "ward_no": "1",
-      "ward_name_en": "Ayyappancoil",
-      "ward_name_ml": "അയ്യപ്പന്‍കോവില്‍"
+      "name_en": "Ayyappancoil",
+      "name_ml": "അയ്യപ്പന്‍കോവില്‍"
     },
     {
-      "ward_id": "915ab7c3-5b3a-4785-954f-8d44b89bc4cb",
+      "id": "915ab7c3-5b3a-4785-954f-8d44b89bc4cb",
       "ward_no": "2",
-      "ward_name_en": "Anakuzhy",
-      "ward_name_ml": "ആനക്കുഴി"
+      "name_en": "Anakuzhy",
+      "name_ml": "ആനക്കുഴി"
     },
     {
-      "ward_id": "4f0cbb94-88c2-4f3d-8608-4fb1b9087d50",
+      "id": "4f0cbb94-88c2-4f3d-8608-4fb1b9087d50",
       "ward_no": "3",
-      "ward_name_en": "Mattukkatta",
-      "ward_name_ml": "മാട്ടുക്കട്ട"
+      "name_en": "Mattukkatta",
+      "name_ml": "മാട്ടുക്കട്ട"
     },
     {
-      "ward_id": "66579223-6b42-46c0-a6a0-cad211f119fe",
+      "id": "66579223-6b42-46c0-a6a0-cad211f119fe",
       "ward_no": "4",
-      "ward_name_en": "Chembalam",
-      "ward_name_ml": "ചേമ്പളം"
+      "name_en": "Chembalam",
+      "name_ml": "ചേമ്പളം"
     },
     {
-      "ward_id": "ce7de648-a0fc-4af8-957f-30fea025dca3",
+      "id": "ce7de648-a0fc-4af8-957f-30fea025dca3",
       "ward_no": "5",
-      "ward_name_en": "Dorland",
-      "ward_name_ml": "ഡോര്‍ലാന്‍റ്"
+      "name_en": "Dorland",
+      "name_ml": "ഡോര്‍ലാന്‍റ്"
     },
     {
-      "ward_id": "264b9b49-d971-4cfb-943b-8e548a22515c",
+      "id": "264b9b49-d971-4cfb-943b-8e548a22515c",
       "ward_no": "6",
-      "ward_name_en": "Palanikavu",
-      "ward_name_ml": "പളനിക്കാവ്"
+      "name_en": "Palanikavu",
+      "name_ml": "പളനിക്കാവ്"
     },
     {
-      "ward_id": "547db4a4-6514-44fc-9d69-cf44a26abb28",
+      "id": "547db4a4-6514-44fc-9d69-cf44a26abb28",
       "ward_no": "7",
-      "ward_name_en": "Sulthaniya",
-      "ward_name_ml": "സുല്‍ത്താനിയ"
+      "name_en": "Sulthaniya",
+      "name_ml": "സുല്‍ത്താനിയ"
     },
     {
-      "ward_id": "a8416183-b5d9-4bef-911b-501a33b63cdd",
+      "id": "a8416183-b5d9-4bef-911b-501a33b63cdd",
       "ward_no": "8",
-      "ward_name_en": "Pachakkadu",
-      "ward_name_ml": "പച്ചക്കാട്"
+      "name_en": "Pachakkadu",
+      "name_ml": "പച്ചക്കാട്"
     },
     {
-      "ward_id": "0d3aacc1-8e8f-4de3-b2c3-614d35acb086",
+      "id": "0d3aacc1-8e8f-4de3-b2c3-614d35acb086",
       "ward_no": "9",
-      "ward_name_en": "Heavenvally",
-      "ward_name_ml": "ഹെവന്‍വാലി"
+      "name_en": "Heavenvally",
+      "name_ml": "ഹെവന്‍വാലി"
     },
     {
-      "ward_id": "2ae3e155-a63d-4993-b602-cf3fa708e4da",
+      "id": "2ae3e155-a63d-4993-b602-cf3fa708e4da",
       "ward_no": "10",
-      "ward_name_en": "Chappath",
-      "ward_name_ml": "ചപ്പാത്ത്"
+      "name_en": "Chappath",
+      "name_ml": "ചപ്പാത്ത്"
     },
     {
-      "ward_id": "bef656ec-a9b8-499b-8c10-c61e2d42f162",
+      "id": "bef656ec-a9b8-499b-8c10-c61e2d42f162",
       "ward_no": "11",
-      "ward_name_en": "Alady",
-      "ward_name_ml": "ആലടി"
+      "name_en": "Alady",
+      "name_ml": "ആലടി"
     },
     {
-      "ward_id": "10e969af-8696-49f8-9e7d-aa7326847595",
+      "id": "10e969af-8696-49f8-9e7d-aa7326847595",
       "ward_no": "12",
-      "ward_name_en": "Poovanthikudy",
-      "ward_name_ml": "പൂവന്തിക്കുടി"
+      "name_en": "Poovanthikudy",
+      "name_ml": "പൂവന്തിക്കുടി"
     },
     {
-      "ward_id": "2cba3228-87c9-43a3-9efa-d6523bb09eb9",
+      "id": "2cba3228-87c9-43a3-9efa-d6523bb09eb9",
       "ward_no": "13",
-      "ward_name_en": "Marykulam",
-      "ward_name_ml": "മേരികുളം"
+      "name_en": "Marykulam",
+      "name_ml": "മേരികുളം"
     }
   ],
   "towns": [],

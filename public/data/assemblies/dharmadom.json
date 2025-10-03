@@ -1,62 +1,83 @@
 {
-  "assembly_id": "12",
-  "assembly_name_en": "Dharmadom",
-  "assembly_name_ml": "ധര്‍മ്മടം",
-  "category": "Normal",
+  "id": "12",
+  "name_en": "Dharmadom",
+  "name_ml": "ധര്‍മ്മടം",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130605",
-      "local_body_name_en": "Chembilode",
-      "local_body_name_ml": "ചെമ്പിലോട്",
-      "category": "Normal"
+      "id": "G130605",
+      "name_en": "Chembilode",
+      "name_ml": "ചെമ്പിലോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130701",
-      "local_body_name_en": "Dharmadam",
-      "local_body_name_ml": "ധര്‍മ്മടം",
-      "category": "Normal"
+      "id": "G130701",
+      "name_en": "Dharmadam",
+      "name_ml": "ധര്‍മ്മടം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130603",
-      "local_body_name_en": "Kadambur",
-      "local_body_name_ml": "കടമ്പൂര്‍",
-      "category": "Perfect"
+      "id": "G130603",
+      "name_en": "Kadambur",
+      "name_ml": "കടമ്പൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130705",
-      "local_body_name_en": "Muzhappilangad",
-      "local_body_name_ml": "മുഴപ്പിലങ്ങാട്",
-      "category": "Good"
+      "id": "G130705",
+      "name_en": "Muzhappilangad",
+      "name_ml": "മുഴപ്പിലങ്ങാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G130607",
-      "local_body_name_en": "Peralassery",
-      "local_body_name_ml": "പെരളശ്ശേരി",
-      "category": "Good"
+      "id": "G130607",
+      "name_en": "Peralassery",
+      "name_ml": "പെരളശ്ശേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G130707",
-      "local_body_name_en": "Vengad",
-      "local_body_name_ml": "വേങ്ങാട്",
-      "category": "Normal"
+      "id": "G130707",
+      "name_en": "Vengad",
+      "name_ml": "വേങ്ങാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130703",
-      "local_body_name_en": "Pinarayi",
-      "local_body_name_ml": "പിണറായി",
-      "category": "Perfect"
+      "id": "G130703",
+      "name_en": "Pinarayi",
+      "name_ml": "പിണറായി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130706",
-      "local_body_name_en": "Anjarakandy",
-      "local_body_name_ml": "അഞ്ചരക്കണ്ടി",
-      "category": "Normal"
+      "id": "G130706",
+      "name_en": "Anjarakandy",
+      "name_ml": "അഞ്ചരക്കണ്ടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

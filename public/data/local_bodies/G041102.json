@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G041102",
-  "local_body_name_en": "Vallikunnam",
-  "local_body_name_ml": "വള്ളികുന്നം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G041102",
+  "name_en": "Vallikunnam",
+  "name_ml": "വള്ളികുന്നം",
+  "assembly_id": "109",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "109",
-    "assembly_name_en": "Mavelikara",
-    "assembly_name_ml": "മാവേലിക്കര",
-    "category": "Normal"
+    "id": "109",
+    "name_en": "Mavelikara",
+    "name_ml": "മാവേലിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ae5c0887-9b1d-472c-a0e1-2e85e91f11f3",
+      "id": "ae5c0887-9b1d-472c-a0e1-2e85e91f11f3",
       "ward_no": "1",
-      "ward_name_en": "Choonad",
-      "ward_name_ml": "ചൂനാട്"
+      "name_en": "Choonad",
+      "name_ml": "ചൂനാട്"
     },
     {
-      "ward_id": "9afe7c16-4b08-4c54-a9f9-a45c102bc541",
+      "id": "9afe7c16-4b08-4c54-a9f9-a45c102bc541",
       "ward_no": "2",
-      "ward_name_en": "Elippakkulam",
-      "ward_name_ml": "ഇലിപ്പക്കുളം"
+      "name_en": "Elippakkulam",
+      "name_ml": "ഇലിപ്പക്കുളം"
     },
     {
-      "ward_id": "06934959-bbea-4ff4-9c24-290476f6f1eb",
+      "id": "06934959-bbea-4ff4-9c24-290476f6f1eb",
       "ward_no": "3",
-      "ward_name_en": "Vallikunnam",
-      "ward_name_ml": "വള്ളികുന്നം"
+      "name_en": "Vallikunnam",
+      "name_ml": "വള്ളികുന്നം"
     },
     {
-      "ward_id": "4da5cc81-a55f-488a-b56d-30d5c9ccb278",
+      "id": "4da5cc81-a55f-488a-b56d-30d5c9ccb278",
       "ward_no": "4",
-      "ward_name_en": "Puthenchantha",
-      "ward_name_ml": "പുത്തന്‍ചന്ത"
+      "name_en": "Puthenchantha",
+      "name_ml": "പുത്തന്‍ചന്ത"
     },
     {
-      "ward_id": "e2038dbd-506c-4040-a85a-1438aeb00f28",
+      "id": "e2038dbd-506c-4040-a85a-1438aeb00f28",
       "ward_no": "5",
-      "ward_name_en": "Padayanivettam",
-      "ward_name_ml": "പടയണിവെട്ടം"
+      "name_en": "Padayanivettam",
+      "name_ml": "പടയണിവെട്ടം"
     },
     {
-      "ward_id": "92816b66-1704-416f-8aa1-5885f98f6b20",
+      "id": "92816b66-1704-416f-8aa1-5885f98f6b20",
       "ward_no": "6",
-      "ward_name_en": "Pariyarathkulangara",
-      "ward_name_ml": "പരിയാരത്ത്കുളങ്ങര"
+      "name_en": "Pariyarathkulangara",
+      "name_ml": "പരിയാരത്ത്കുളങ്ങര"
     },
     {
-      "ward_id": "6dd19c41-733e-4218-a685-5e208ea2d337",
+      "id": "6dd19c41-733e-4218-a685-5e208ea2d337",
       "ward_no": "7",
-      "ward_name_en": "Malamelchantha",
-      "ward_name_ml": "മലമേല്‍ചന്ത"
+      "name_en": "Malamelchantha",
+      "name_ml": "മലമേല്‍ചന്ത"
     },
     {
-      "ward_id": "96d57a40-dc9d-4b03-9e2a-d54252c62868",
+      "id": "96d57a40-dc9d-4b03-9e2a-d54252c62868",
       "ward_no": "8",
-      "ward_name_en": "Kaduvinal",
-      "ward_name_ml": "കടുവിനാല്‍"
+      "name_en": "Kaduvinal",
+      "name_ml": "കടുവിനാല്‍"
     },
     {
-      "ward_id": "365100fb-c8fe-4107-810f-101f6f67f83f",
+      "id": "365100fb-c8fe-4107-810f-101f6f67f83f",
       "ward_no": "9",
-      "ward_name_en": "Kanjirathinmoodu",
-      "ward_name_ml": "കാഞ്ഞിരത്തിന്‍മൂട്"
+      "name_en": "Kanjirathinmoodu",
+      "name_ml": "കാഞ്ഞിരത്തിന്‍മൂട്"
     },
     {
-      "ward_id": "284f53d1-a914-4292-b021-68d4a0ab23dd",
+      "id": "284f53d1-a914-4292-b021-68d4a0ab23dd",
       "ward_no": "10",
-      "ward_name_en": "Thaliradi",
-      "ward_name_ml": "താളിരാടി"
+      "name_en": "Thaliradi",
+      "name_ml": "താളിരാടി"
     },
     {
-      "ward_id": "5140e359-cdea-4de7-90d6-603f786e2e82",
+      "id": "5140e359-cdea-4de7-90d6-603f786e2e82",
       "ward_no": "11",
-      "ward_name_en": "Kondodimukal",
-      "ward_name_ml": "കൊണ്ടോടിമുകള്‍"
+      "name_en": "Kondodimukal",
+      "name_ml": "കൊണ്ടോടിമുകള്‍"
     },
     {
-      "ward_id": "6bdf7981-4184-409f-8c12-4f566fd2953f",
+      "id": "6bdf7981-4184-409f-8c12-4f566fd2953f",
       "ward_no": "12",
-      "ward_name_en": "Kambissery",
-      "ward_name_ml": "കാമ്പിശേരി"
+      "name_en": "Kambissery",
+      "name_ml": "കാമ്പിശേരി"
     },
     {
-      "ward_id": "7c4040f9-d0cc-473e-bd92-f9da31a16be0",
+      "id": "7c4040f9-d0cc-473e-bd92-f9da31a16be0",
       "ward_no": "13",
-      "ward_name_en": "Thekkemuri",
-      "ward_name_ml": "തെക്കേമുറി"
+      "name_en": "Thekkemuri",
+      "name_ml": "തെക്കേമുറി"
     },
     {
-      "ward_id": "6e5a9674-0c37-4075-8aa7-98cbde80b1e3",
+      "id": "6e5a9674-0c37-4075-8aa7-98cbde80b1e3",
       "ward_no": "14",
-      "ward_name_en": "Kannimel",
-      "ward_name_ml": "കന്നിമേല്‍"
+      "name_en": "Kannimel",
+      "name_ml": "കന്നിമേല്‍"
     },
     {
-      "ward_id": "450def60-853e-413e-a4af-0e5304f0c993",
+      "id": "450def60-853e-413e-a4af-0e5304f0c993",
       "ward_no": "15",
-      "ward_name_en": "Valachal",
-      "ward_name_ml": "വാളാച്ചാല്‍"
+      "name_en": "Valachal",
+      "name_ml": "വാളാച്ചാല്‍"
     },
     {
-      "ward_id": "1ca04b39-5fe2-4e2f-bd3a-b2c87f76efb9",
+      "id": "1ca04b39-5fe2-4e2f-bd3a-b2c87f76efb9",
       "ward_no": "16",
-      "ward_name_en": "Kaduvumkal",
-      "ward_name_ml": "കടുവുംങ്കല്‍"
+      "name_en": "Kaduvumkal",
+      "name_ml": "കടുവുംങ്കല്‍"
     },
     {
-      "ward_id": "03eaa9e6-2807-4191-af51-dba29a27eb9f",
+      "id": "03eaa9e6-2807-4191-af51-dba29a27eb9f",
       "ward_no": "17",
-      "ward_name_en": "Karazhma",
-      "ward_name_ml": "കാരാഴ്മ"
+      "name_en": "Karazhma",
+      "name_ml": "കാരാഴ്മ"
     },
     {
-      "ward_id": "1931f48e-b92b-4a68-9088-f8d8c5366a2e",
+      "id": "1931f48e-b92b-4a68-9088-f8d8c5366a2e",
       "ward_no": "18",
-      "ward_name_en": "Vattakkad",
-      "ward_name_ml": "വട്ടയ്ക്കാട്"
+      "name_en": "Vattakkad",
+      "name_ml": "വട്ടയ്ക്കാട്"
     }
   ],
   "towns": [],

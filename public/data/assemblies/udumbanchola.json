@@ -1,74 +1,99 @@
 {
-  "assembly_id": "89",
-  "assembly_name_en": "Udumbanchola",
-  "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
-  "category": "Normal",
+  "id": "89",
+  "name_en": "Udumbanchola",
+  "name_ml": "ഉടുമ്പന്‍ചോല",
+  "district_id": "6",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "district_category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G060605",
-      "local_body_name_en": "Erattayar",
-      "local_body_name_ml": "ഇരട്ടയാര്‍",
-      "category": "Normal"
+      "id": "G060605",
+      "name_en": "Erattayar",
+      "name_ml": "ഇരട്ടയാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060303",
-      "local_body_name_en": "Karunapuram",
-      "local_body_name_ml": "കരുണാപുരം",
-      "category": "Good"
+      "id": "G060303",
+      "name_en": "Karunapuram",
+      "name_ml": "കരുണാപുരം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060305",
-      "local_body_name_en": "Nedumkandam",
-      "local_body_name_ml": "നെടുങ്കണ്ടം",
-      "category": "Good"
+      "id": "G060305",
+      "name_en": "Nedumkandam",
+      "name_ml": "നെടുങ്കണ്ടം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060301",
-      "local_body_name_en": "Pampadumpara",
-      "local_body_name_ml": "പാമ്പാടുംപാറ",
-      "category": "Good"
+      "id": "G060301",
+      "name_en": "Pampadumpara",
+      "name_ml": "പാമ്പാടുംപാറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060304",
-      "local_body_name_en": "Rajakkad",
-      "local_body_name_ml": "രാജക്കാട്",
-      "category": "Normal"
+      "id": "G060304",
+      "name_en": "Rajakkad",
+      "name_ml": "രാജക്കാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060307",
-      "local_body_name_en": "Rajakumary",
-      "local_body_name_ml": "രാജകുമാരി",
-      "category": "Perfect"
+      "id": "G060307",
+      "name_en": "Rajakumary",
+      "name_ml": "രാജകുമാരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G060205",
-      "local_body_name_en": "Santhanpara",
-      "local_body_name_ml": "ശാന്തന്‍പാറ",
-      "category": "Normal"
+      "id": "G060205",
+      "name_en": "Santhanpara",
+      "name_ml": "ശാന്തന്‍പാറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060302",
-      "local_body_name_en": "Senapathy",
-      "local_body_name_ml": "സേനാപതി",
-      "category": "Good"
+      "id": "G060302",
+      "name_en": "Senapathy",
+      "name_ml": "സേനാപതി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G060306",
-      "local_body_name_en": "Udumbanchola",
-      "local_body_name_ml": "ഉടുമ്പന്‍ചോല",
-      "category": "Normal"
+      "id": "G060306",
+      "name_en": "Udumbanchola",
+      "name_ml": "ഉടുമ്പന്‍ചോല",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G060603",
-      "local_body_name_en": "Vandanmedu",
-      "local_body_name_ml": "വണ്ടന്‍മേട്",
-      "category": "Normal"
+      "id": "G060603",
+      "name_en": "Vandanmedu",
+      "name_ml": "വണ്ടന്‍മേട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

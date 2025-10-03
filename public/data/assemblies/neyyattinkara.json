@@ -1,50 +1,67 @@
 {
-  "assembly_id": "140",
-  "assembly_name_en": "Neyyattinkara",
-  "assembly_name_ml": "നെയ്യാറ്റിൻകര",
-  "category": "Normal",
+  "id": "140",
+  "name_en": "Neyyattinkara",
+  "name_ml": "നെയ്യാറ്റിൻകര",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G011001",
-      "local_body_name_en": "Athiyannoor",
-      "local_body_name_ml": "അതിയന്നൂര്‍",
-      "category": "Normal"
+      "id": "G011001",
+      "name_en": "Athiyannoor",
+      "name_ml": "അതിയന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G011101",
-      "local_body_name_en": "Chenkal",
-      "local_body_name_ml": "ചെങ്കല്‍",
-      "category": "Normal"
+      "id": "G011101",
+      "name_en": "Chenkal",
+      "name_ml": "ചെങ്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G011102",
-      "local_body_name_en": "Karode",
-      "local_body_name_ml": "കാരോട്",
-      "category": "Normal"
+      "id": "G011102",
+      "name_en": "Karode",
+      "name_ml": "കാരോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G011103",
-      "local_body_name_en": "Kulathoor",
-      "local_body_name_ml": "കുളത്തൂര്‍",
-      "category": "Normal"
+      "id": "G011103",
+      "name_en": "Kulathoor",
+      "name_ml": "കുളത്തൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M010400",
-      "local_body_name_en": "Neyyattinkara",
-      "local_body_name_ml": "നെയ്യാറ്റിന്‍കര",
-      "category": "Good"
+      "id": "M010400",
+      "name_en": "Neyyattinkara",
+      "name_ml": "നെയ്യാറ്റിന്‍കര",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G011105",
-      "local_body_name_en": "Thirupuram",
-      "local_body_name_ml": "തിരുപുറം",
-      "category": "Good"
+      "id": "G011105",
+      "name_en": "Thirupuram",
+      "name_ml": "തിരുപുറം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

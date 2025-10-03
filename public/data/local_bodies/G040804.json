@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040804",
-  "local_body_name_en": "Ala",
-  "local_body_name_ml": "ആല",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G040804",
+  "name_en": "Ala",
+  "name_ml": "ആല",
+  "assembly_id": "110",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "110",
-    "assembly_name_en": "Chengannur",
-    "assembly_name_ml": "ചെങ്ങന്നൂർ",
-    "category": "Normal"
+    "id": "110",
+    "name_en": "Chengannur",
+    "name_ml": "ചെങ്ങന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e7ab5fcc-c860-44a0-b051-753cea0fb406",
+      "id": "e7ab5fcc-c860-44a0-b051-753cea0fb406",
       "ward_no": "1",
-      "ward_name_en": "Ala",
-      "ward_name_ml": "ആലാ"
+      "name_en": "Ala",
+      "name_ml": "ആലാ"
     },
     {
-      "ward_id": "e4362256-638a-434b-b418-343a246a4b64",
+      "id": "e4362256-638a-434b-b418-343a246a4b64",
       "ward_no": "2",
-      "ward_name_en": "Ummath",
-      "ward_name_ml": "ഉമ്മാത്ത്"
+      "name_en": "Ummath",
+      "name_ml": "ഉമ്മാത്ത്"
     },
     {
-      "ward_id": "59d7ee28-3e7b-436d-a0ee-9eaad2f074ea",
+      "id": "59d7ee28-3e7b-436d-a0ee-9eaad2f074ea",
       "ward_no": "3",
-      "ward_name_en": "Poomala",
-      "ward_name_ml": "പൂമല"
+      "name_en": "Poomala",
+      "name_ml": "പൂമല"
     },
     {
-      "ward_id": "0da32fd0-d0f4-417d-b2eb-a952587329e5",
+      "id": "0da32fd0-d0f4-417d-b2eb-a952587329e5",
       "ward_no": "4",
-      "ward_name_en": "Malamodi",
-      "ward_name_ml": "മലമോടി"
+      "name_en": "Malamodi",
+      "name_ml": "മലമോടി"
     },
     {
-      "ward_id": "76d70f20-1f62-48e8-9396-e75f162aaefd",
+      "id": "76d70f20-1f62-48e8-9396-e75f162aaefd",
       "ward_no": "5",
-      "ward_name_en": "Kinaruvila",
-      "ward_name_ml": "കിണറുവിള"
+      "name_en": "Kinaruvila",
+      "name_ml": "കിണറുവിള"
     },
     {
-      "ward_id": "38e548e1-708f-4bcb-ade7-d93c2ae6d9d5",
+      "id": "38e548e1-708f-4bcb-ade7-d93c2ae6d9d5",
       "ward_no": "6",
-      "ward_name_en": "Valappuzha",
-      "ward_name_ml": "വാളാപ്പുഴ"
+      "name_en": "Valappuzha",
+      "name_ml": "വാളാപ്പുഴ"
     },
     {
-      "ward_id": "ac1750d5-fab2-480d-a4f4-9b5cf9a17620",
+      "id": "ac1750d5-fab2-480d-a4f4-9b5cf9a17620",
       "ward_no": "7",
-      "ward_name_en": "Thevaracode",
-      "ward_name_ml": "തേവരകോട്"
+      "name_en": "Thevaracode",
+      "name_ml": "തേവരകോട്"
     },
     {
-      "ward_id": "4933feec-69f0-4633-91ba-b60a72f439f8",
+      "id": "4933feec-69f0-4633-91ba-b60a72f439f8",
       "ward_no": "8",
-      "ward_name_en": "Kodukulanji",
-      "ward_name_ml": "കോടുകുളഞ്ഞി"
+      "name_en": "Kodukulanji",
+      "name_ml": "കോടുകുളഞ്ഞി"
     },
     {
-      "ward_id": "c1f40c2c-9cf6-41bd-9101-256bdb2a3ba5",
+      "id": "c1f40c2c-9cf6-41bd-9101-256bdb2a3ba5",
       "ward_no": "9",
-      "ward_name_en": "Chammath",
-      "ward_name_ml": "ചമ്മത്ത്"
+      "name_en": "Chammath",
+      "name_ml": "ചമ്മത്ത്"
     },
     {
-      "ward_id": "1cffa7d9-4fe0-4ef5-ad2a-b61799d5285c",
+      "id": "1cffa7d9-4fe0-4ef5-ad2a-b61799d5285c",
       "ward_no": "10",
-      "ward_name_en": "Pennukkara",
-      "ward_name_ml": "പെണ്ണുക്കര"
+      "name_en": "Pennukkara",
+      "name_ml": "പെണ്ണുക്കര"
     },
     {
-      "ward_id": "a2846379-955d-473f-918e-ba70c309cde4",
+      "id": "a2846379-955d-473f-918e-ba70c309cde4",
       "ward_no": "11",
-      "ward_name_en": "Pullamthazham",
-      "ward_name_ml": "പുല്ലാംതാഴം"
+      "name_en": "Pullamthazham",
+      "name_ml": "പുല്ലാംതാഴം"
     },
     {
-      "ward_id": "2694e84f-2497-4e41-b455-900c41fd1ea7",
+      "id": "2694e84f-2497-4e41-b455-900c41fd1ea7",
       "ward_no": "12",
-      "ward_name_en": "Utharapally",
-      "ward_name_ml": "ഉത്തരപ്പളളി"
+      "name_en": "Utharapally",
+      "name_ml": "ഉത്തരപ്പളളി"
     },
     {
-      "ward_id": "7b406360-5418-429c-bd64-19c1c51e3b94",
+      "id": "7b406360-5418-429c-bd64-19c1c51e3b94",
       "ward_no": "13",
-      "ward_name_en": "Neduvaramcode",
-      "ward_name_ml": "നെടുവരംകോട്"
+      "name_en": "Neduvaramcode",
+      "name_ml": "നെടുവരംകോട്"
     }
   ],
   "towns": [],

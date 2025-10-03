@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G030706",
-  "local_body_name_en": "Kulanada",
-  "local_body_name_ml": "കുളനട",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G030706",
+  "name_en": "Kulanada",
+  "name_ml": "കുളനട",
+  "assembly_id": "113",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "113",
-    "assembly_name_en": "Aranmula",
-    "assembly_name_ml": "ആറന്മുള",
-    "category": "Normal"
+    "id": "113",
+    "name_en": "Aranmula",
+    "name_ml": "ആറന്മുള",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6a19a3dd-219b-4adb-9139-1f7ad10f2bd7",
+      "id": "6a19a3dd-219b-4adb-9139-1f7ad10f2bd7",
       "ward_no": "1",
-      "ward_name_en": "Manthuka",
-      "ward_name_ml": "മാന്തുക"
+      "name_en": "Manthuka",
+      "name_ml": "മാന്തുക"
     },
     {
-      "ward_id": "7f568f6e-cec3-4bee-8563-7aeee895c984",
+      "id": "7f568f6e-cec3-4bee-8563-7aeee895c984",
       "ward_no": "2",
-      "ward_name_en": "Manthuka East",
-      "ward_name_ml": "മാന്തുക കിഴക്ക്"
+      "name_en": "Manthuka East",
+      "name_ml": "മാന്തുക കിഴക്ക്"
     },
     {
-      "ward_id": "8e0fe959-e5b1-4b2b-b7f8-21713c087f15",
+      "id": "8e0fe959-e5b1-4b2b-b7f8-21713c087f15",
       "ward_no": "3",
-      "ward_name_en": "Ullannoor",
-      "ward_name_ml": "ഉളളന്നൂര്‍"
+      "name_en": "Ullannoor",
+      "name_ml": "ഉളളന്നൂര്‍"
     },
     {
-      "ward_id": "2af739d1-1785-46f8-a4c4-f36b1694e6d0",
+      "id": "2af739d1-1785-46f8-a4c4-f36b1694e6d0",
       "ward_no": "4",
-      "ward_name_en": "Ullannoor East",
-      "ward_name_ml": "ഉളളന്നൂര്‍ കിഴക്ക്"
+      "name_en": "Ullannoor East",
+      "name_ml": "ഉളളന്നൂര്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "cb1055c2-c46e-4aa4-afb4-6e5d8bccbdd2",
+      "id": "cb1055c2-c46e-4aa4-afb4-6e5d8bccbdd2",
       "ward_no": "5",
-      "ward_name_en": "Kadalikkunnu",
-      "ward_name_ml": "കടലിക്കുന്ന്"
+      "name_en": "Kadalikkunnu",
+      "name_ml": "കടലിക്കുന്ന്"
     },
     {
-      "ward_id": "96d3d103-521e-4a97-9146-f6b7cab89d77",
+      "id": "96d3d103-521e-4a97-9146-f6b7cab89d77",
       "ward_no": "6",
-      "ward_name_en": "Puthuvakkal",
-      "ward_name_ml": "പുതുവാക്കല്‍"
+      "name_en": "Puthuvakkal",
+      "name_ml": "പുതുവാക്കല്‍"
     },
     {
-      "ward_id": "a6f10df9-2fd5-4d6a-b39f-5caf25f45a42",
+      "id": "a6f10df9-2fd5-4d6a-b39f-5caf25f45a42",
       "ward_no": "7",
-      "ward_name_en": "Panil",
-      "ward_name_ml": "പാണില്‍"
+      "name_en": "Panil",
+      "name_ml": "പാണില്‍"
     },
     {
-      "ward_id": "6e8d4125-6857-49db-9594-660cf15ad8f3",
+      "id": "6e8d4125-6857-49db-9594-660cf15ad8f3",
       "ward_no": "8",
-      "ward_name_en": "Punnakkunnu",
-      "ward_name_ml": "പുന്നക്കുന്ന്"
+      "name_en": "Punnakkunnu",
+      "name_ml": "പുന്നക്കുന്ന്"
     },
     {
-      "ward_id": "58528cbb-01c4-4557-ad98-9e1b59ba3cd2",
+      "id": "58528cbb-01c4-4557-ad98-9e1b59ba3cd2",
       "ward_no": "9",
-      "ward_name_en": "Thumpamon North",
-      "ward_name_ml": "തുമ്പമണ്‍ വടക്ക്"
+      "name_en": "Thumpamon North",
+      "name_ml": "തുമ്പമണ്‍ വടക്ക്"
     },
     {
-      "ward_id": "df45b1ee-9815-42e4-a348-063ddf27a865",
+      "id": "df45b1ee-9815-42e4-a348-063ddf27a865",
       "ward_no": "10",
-      "ward_name_en": "Thumpamon Thazham",
-      "ward_name_ml": "തുമ്പമണ്‍താഴം"
+      "name_en": "Thumpamon Thazham",
+      "name_ml": "തുമ്പമണ്‍താഴം"
     },
     {
-      "ward_id": "d62697f8-cc9f-4d0d-a659-0ba29f5a2ea4",
+      "id": "d62697f8-cc9f-4d0d-a659-0ba29f5a2ea4",
       "ward_no": "11",
-      "ward_name_en": "Ulanadu",
-      "ward_name_ml": "ഉളനാട്"
+      "name_en": "Ulanadu",
+      "name_ml": "ഉളനാട്"
     },
     {
-      "ward_id": "021d795e-cb56-4a84-b79e-d0619b7de54c",
+      "id": "021d795e-cb56-4a84-b79e-d0619b7de54c",
       "ward_no": "12",
-      "ward_name_en": "Panangadu",
-      "ward_name_ml": "പനങ്ങാട്"
+      "name_en": "Panangadu",
+      "name_ml": "പനങ്ങാട്"
     },
     {
-      "ward_id": "c9bddf5c-99c0-4a1d-a739-d1da2a6dee7b",
+      "id": "c9bddf5c-99c0-4a1d-a739-d1da2a6dee7b",
       "ward_no": "13",
-      "ward_name_en": "Kaipuzha",
-      "ward_name_ml": "കൈപ്പുഴ"
+      "name_en": "Kaipuzha",
+      "name_ml": "കൈപ്പുഴ"
     },
     {
-      "ward_id": "64f6e942-ea56-45f1-b6ee-2428253b87df",
+      "id": "64f6e942-ea56-45f1-b6ee-2428253b87df",
       "ward_no": "14",
-      "ward_name_en": "Kulanada",
-      "ward_name_ml": "കുളനട"
+      "name_en": "Kulanada",
+      "name_ml": "കുളനട"
     },
     {
-      "ward_id": "ef6a0a5e-2dea-4618-9981-9992f3d49e52",
+      "id": "ef6a0a5e-2dea-4618-9981-9992f3d49e52",
       "ward_no": "15",
-      "ward_name_en": "Kulanada North",
-      "ward_name_ml": "കുളനട വടക്ക്"
+      "name_en": "Kulanada North",
+      "name_ml": "കുളനട വടക്ക്"
     },
     {
-      "ward_id": "f2ef5d2d-e66e-4e51-9b05-5e0dee339c7e",
+      "id": "f2ef5d2d-e66e-4e51-9b05-5e0dee339c7e",
       "ward_no": "16",
-      "ward_name_en": "Njettoor",
-      "ward_name_ml": "ഞെട്ടൂര്‍"
+      "name_en": "Njettoor",
+      "name_ml": "ഞെട്ടൂര്‍"
     }
   ],
   "towns": [],

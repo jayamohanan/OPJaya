@@ -1,75 +1,99 @@
 {
-  "district_id": "2",
-  "district_name_en": "Kollam",
-  "district_name_ml": "കൊല്ലം",
+  "id": "2",
+  "name_en": "Kollam",
+  "name_ml": "കൊല്ലം",
   "is_active": false,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "116",
-      "assembly_name_en": "Karunagapally",
-      "assembly_name_ml": "കരുനാഗപ്പള്ളി",
-      "category": "Normal"
+      "id": "116",
+      "name_en": "Karunagapally",
+      "name_ml": "കരുനാഗപ്പള്ളി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "117",
-      "assembly_name_en": "Chavara",
-      "assembly_name_ml": "ചവറ",
-      "category": "Normal"
+      "id": "117",
+      "name_en": "Chavara",
+      "name_ml": "ചവറ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "118",
-      "assembly_name_en": "Kunnathur",
-      "assembly_name_ml": "കുന്നത്തൂർ",
-      "category": "Normal"
+      "id": "118",
+      "name_en": "Kunnathur",
+      "name_ml": "കുന്നത്തൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "119",
-      "assembly_name_en": "Kottarakkara",
-      "assembly_name_ml": "കൊട്ടാരക്കര",
-      "category": "Normal"
+      "id": "119",
+      "name_en": "Kottarakkara",
+      "name_ml": "കൊട്ടാരക്കര",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "120",
-      "assembly_name_en": "Pathanapuram",
-      "assembly_name_ml": "പത്തനാപുരം",
-      "category": "Normal"
+      "id": "120",
+      "name_en": "Pathanapuram",
+      "name_ml": "പത്തനാപുരം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "121",
-      "assembly_name_en": "Punalur",
-      "assembly_name_ml": "പുനലൂർ",
-      "category": "Normal"
+      "id": "121",
+      "name_en": "Punalur",
+      "name_ml": "പുനലൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "122",
-      "assembly_name_en": "Chadayamangalam",
-      "assembly_name_ml": "ചടയമംഗലം",
-      "category": "Normal"
+      "id": "122",
+      "name_en": "Chadayamangalam",
+      "name_ml": "ചടയമംഗലം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "123",
-      "assembly_name_en": "Kundara",
-      "assembly_name_ml": "കുണ്ടറ",
-      "category": "Normal"
+      "id": "123",
+      "name_en": "Kundara",
+      "name_ml": "കുണ്ടറ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "124",
-      "assembly_name_en": "Kollam",
-      "assembly_name_ml": "കൊല്ലം",
-      "category": "Perfect"
+      "id": "124",
+      "name_en": "Kollam",
+      "name_ml": "കൊല്ലം",
+      "assembly_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "assembly_id": "125",
-      "assembly_name_en": "Eravipuram",
-      "assembly_name_ml": "ഇരവിപുരം",
-      "category": "Normal"
+      "id": "125",
+      "name_en": "Eravipuram",
+      "name_ml": "ഇരവിപുരം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "126",
-      "assembly_name_en": "Chathannoor",
-      "assembly_name_ml": "ചാത്തന്നൂർ",
-      "category": "Normal"
+      "id": "126",
+      "name_en": "Chathannoor",
+      "name_ml": "ചാത്തന്നൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

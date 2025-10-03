@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040906",
-  "local_body_name_en": "Pallippad",
-  "local_body_name_ml": "പള്ളിപ്പാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "107",
-    "assembly_name_en": "Haripad",
-    "assembly_name_ml": "ഹരിപ്പാട്",
+  "id": "G040906",
+  "name_en": "Pallippad",
+  "name_ml": "പള്ളിപ്പാട്",
+  "assembly_id": "107",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "107",
+    "name_en": "Haripad",
+    "name_ml": "ഹരിപ്പാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f0332b4e-0d13-4f4e-857a-7b71c24e6ce8",
+      "id": "f0332b4e-0d13-4f4e-857a-7b71c24e6ce8",
       "ward_no": "1",
-      "ward_name_en": "Vazhuthanam",
-      "ward_name_ml": "വഴുതാനം"
+      "name_en": "Vazhuthanam",
+      "name_ml": "വഴുതാനം"
     },
     {
-      "ward_id": "0ae61dc4-89dc-4cfa-a59a-bf60fa8046b7",
+      "id": "0ae61dc4-89dc-4cfa-a59a-bf60fa8046b7",
       "ward_no": "2",
-      "ward_name_en": "Pullampada",
-      "ward_name_ml": "പുല്ലമ്പട"
+      "name_en": "Pullampada",
+      "name_ml": "പുല്ലമ്പട"
     },
     {
-      "ward_id": "375f1df1-3e3e-4801-8a0a-5ad176d9d61b",
+      "id": "375f1df1-3e3e-4801-8a0a-5ad176d9d61b",
       "ward_no": "3",
-      "ward_name_en": "Kodumthar",
-      "ward_name_ml": "കൊടുന്താര്‍"
+      "name_en": "Kodumthar",
+      "name_ml": "കൊടുന്താര്‍"
     },
     {
-      "ward_id": "6869263f-1edf-455a-be25-f3c90e69014c",
+      "id": "6869263f-1edf-455a-be25-f3c90e69014c",
       "ward_no": "4",
-      "ward_name_en": "Kureethara",
-      "ward_name_ml": "കുരീത്തറ"
+      "name_en": "Kureethara",
+      "name_ml": "കുരീത്തറ"
     },
     {
-      "ward_id": "ab054f3c-8e51-4512-8c3e-e8a825588c63",
+      "id": "ab054f3c-8e51-4512-8c3e-e8a825588c63",
       "ward_no": "5",
-      "ward_name_en": "Thekkekkara Kizhakku",
-      "ward_name_ml": "തെക്കേക്കര കിഴക്ക്"
+      "name_en": "Thekkekkara Kizhakku",
+      "name_ml": "തെക്കേക്കര കിഴക്ക്"
     },
     {
-      "ward_id": "9679091b-3a51-470c-9da3-383b8e679535",
+      "id": "9679091b-3a51-470c-9da3-383b8e679535",
       "ward_no": "6",
-      "ward_name_en": "Konumadam",
-      "ward_name_ml": "കോനുമഠം"
+      "name_en": "Konumadam",
+      "name_ml": "കോനുമഠം"
     },
     {
-      "ward_id": "9bfb2d29-e149-4086-ac2a-6716f5224f56",
+      "id": "9bfb2d29-e149-4086-ac2a-6716f5224f56",
       "ward_no": "7",
-      "ward_name_en": "Kottakkakam",
-      "ward_name_ml": "കോട്ടക്കകം"
+      "name_en": "Kottakkakam",
+      "name_ml": "കോട്ടക്കകം"
     },
     {
-      "ward_id": "b39e1df6-71bf-46f4-8086-3b43bd2d52f0",
+      "id": "b39e1df6-71bf-46f4-8086-3b43bd2d52f0",
       "ward_no": "8",
-      "ward_name_en": "Thekkum Muri",
-      "ward_name_ml": "തെക്കുംമുറി"
+      "name_en": "Thekkum Muri",
+      "name_ml": "തെക്കുംമുറി"
     },
     {
-      "ward_id": "e6cfd069-75ce-439e-8d35-94992ef08e68",
+      "id": "e6cfd069-75ce-439e-8d35-94992ef08e68",
       "ward_no": "9",
-      "ward_name_en": "Kottakkakam West",
-      "ward_name_ml": "കോട്ടക്കകം പടിഞ്ഞാറു"
+      "name_en": "Kottakkakam West",
+      "name_ml": "കോട്ടക്കകം പടിഞ്ഞാറു"
     },
     {
-      "ward_id": "602e39d3-0a61-400d-a187-4aee3367722e",
+      "id": "602e39d3-0a61-400d-a187-4aee3367722e",
       "ward_no": "10",
-      "ward_name_en": "Naduvattam",
-      "ward_name_ml": "നടുവട്ടം"
+      "name_en": "Naduvattam",
+      "name_ml": "നടുവട്ടം"
     },
     {
-      "ward_id": "82a565dc-d7ce-466b-8298-7ddc99fdcb2e",
+      "id": "82a565dc-d7ce-466b-8298-7ddc99fdcb2e",
       "ward_no": "11",
-      "ward_name_en": "Marangattuvila",
-      "ward_name_ml": "മരങ്ങാട്ടുവിള"
+      "name_en": "Marangattuvila",
+      "name_ml": "മരങ്ങാട്ടുവിള"
     },
     {
-      "ward_id": "aa917c79-4e6a-4d0e-a71e-c78100a064f6",
+      "id": "aa917c79-4e6a-4d0e-a71e-c78100a064f6",
       "ward_no": "12",
-      "ward_name_en": "Perkad",
-      "ward_name_ml": "പേര്‍കാട്"
+      "name_en": "Perkad",
+      "name_ml": "പേര്‍കാട്"
     },
     {
-      "ward_id": "70299b08-32ad-4a5b-bfd1-e0efdcb4d90c",
+      "id": "70299b08-32ad-4a5b-bfd1-e0efdcb4d90c",
       "ward_no": "13",
-      "ward_name_en": "Neendoor",
-      "ward_name_ml": "നീണ്ടൂര്‍"
+      "name_en": "Neendoor",
+      "name_ml": "നീണ്ടൂര്‍"
     }
   ],
   "towns": [],

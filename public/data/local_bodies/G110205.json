@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G110205",
-  "local_body_name_en": "Valayam",
-  "local_body_name_ml": "വളയം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G110205",
+  "name_en": "Valayam",
+  "name_ml": "വളയം",
+  "assembly_id": "22",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "22",
-    "assembly_name_en": "Nadapuram",
-    "assembly_name_ml": "നാദാപുരം",
-    "category": "Normal"
+    "id": "22",
+    "name_en": "Nadapuram",
+    "name_ml": "നാദാപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "49f66e75-e2b0-4038-b7f1-4a37826f3457",
+      "id": "49f66e75-e2b0-4038-b7f1-4a37826f3457",
       "ward_no": "1",
-      "ward_name_en": "Vannarkandi",
-      "ward_name_ml": "വണ്ണാര്‍കണ്ടി"
+      "name_en": "Vannarkandi",
+      "name_ml": "വണ്ണാര്‍കണ്ടി"
     },
     {
-      "ward_id": "412279a7-7e51-48fc-a26d-06d0fee3fb92",
+      "id": "412279a7-7e51-48fc-a26d-06d0fee3fb92",
       "ward_no": "2",
-      "ward_name_en": "Varayal",
-      "ward_name_ml": "വരയാല്‍"
+      "name_en": "Varayal",
+      "name_ml": "വരയാല്‍"
     },
     {
-      "ward_id": "4c9fe57c-9138-492b-874e-4c29def7b705",
+      "id": "4c9fe57c-9138-492b-874e-4c29def7b705",
       "ward_no": "3",
-      "ward_name_en": "Kallunira",
-      "ward_name_ml": "കല്ലുനിര"
+      "name_en": "Kallunira",
+      "name_ml": "കല്ലുനിര"
     },
     {
-      "ward_id": "22403cd7-9980-419f-9d86-8892ad00926a",
+      "id": "22403cd7-9980-419f-9d86-8892ad00926a",
       "ward_no": "4",
-      "ward_name_en": "Puncha",
-      "ward_name_ml": "പുഞ്ച"
+      "name_en": "Puncha",
+      "name_ml": "പുഞ്ച"
     },
     {
-      "ward_id": "b552e1aa-1e55-42c2-ac16-597c32015b4d",
+      "id": "b552e1aa-1e55-42c2-ac16-597c32015b4d",
       "ward_no": "5",
-      "ward_name_en": "Chuzhali",
-      "ward_name_ml": "ചുഴലി"
+      "name_en": "Chuzhali",
+      "name_ml": "ചുഴലി"
     },
     {
-      "ward_id": "f838c4ea-6d47-4f8a-9eb9-03929cdb8342",
+      "id": "f838c4ea-6d47-4f8a-9eb9-03929cdb8342",
       "ward_no": "6",
-      "ward_name_en": "Neeland",
-      "ward_name_ml": "നീലാണ്ട്"
+      "name_en": "Neeland",
+      "name_ml": "നീലാണ്ട്"
     },
     {
-      "ward_id": "49b6f203-7767-4d75-afc9-2b9eb831bdc2",
+      "id": "49b6f203-7767-4d75-afc9-2b9eb831bdc2",
       "ward_no": "7",
-      "ward_name_en": "Chaliyattu Poyil",
-      "ward_name_ml": "ചാലിയാട്ട് പൊയില്‍"
+      "name_en": "Chaliyattu Poyil",
+      "name_ml": "ചാലിയാട്ട് പൊയില്‍"
     },
     {
-      "ward_id": "94d8f345-2977-44a0-b0ee-cfbcb4de4c53",
+      "id": "94d8f345-2977-44a0-b0ee-cfbcb4de4c53",
       "ward_no": "8",
-      "ward_name_en": "Nirav",
-      "ward_name_ml": "നിരവ്"
+      "name_en": "Nirav",
+      "name_ml": "നിരവ്"
     },
     {
-      "ward_id": "c81773b4-904b-4b76-a100-136e7b31c987",
+      "id": "c81773b4-904b-4b76-a100-136e7b31c987",
       "ward_no": "9",
-      "ward_name_en": "Kuttikkadu",
-      "ward_name_ml": "കുറ്റിക്കാട്"
+      "name_en": "Kuttikkadu",
+      "name_ml": "കുറ്റിക്കാട്"
     },
     {
-      "ward_id": "4efe6d70-1773-4595-92c8-64038ab51e42",
+      "id": "4efe6d70-1773-4595-92c8-64038ab51e42",
       "ward_no": "10",
-      "ward_name_en": "Theekkuni",
-      "ward_name_ml": "തീക്കുനി"
+      "name_en": "Theekkuni",
+      "name_ml": "തീക്കുനി"
     },
     {
-      "ward_id": "478ba1c7-4379-4d34-b0d4-0d23e7900c00",
+      "id": "478ba1c7-4379-4d34-b0d4-0d23e7900c00",
       "ward_no": "11",
-      "ward_name_en": "Onaparamb",
-      "ward_name_ml": "ഓണപ്പറമ്പ്"
+      "name_en": "Onaparamb",
+      "name_ml": "ഓണപ്പറമ്പ്"
     },
     {
-      "ward_id": "dad389e2-4795-41f6-b4e1-8a062d414adf",
+      "id": "dad389e2-4795-41f6-b4e1-8a062d414adf",
       "ward_no": "12",
-      "ward_name_en": "Cherumoth",
-      "ward_name_ml": "ചെറുമോത്ത്"
+      "name_en": "Cherumoth",
+      "name_ml": "ചെറുമോത്ത്"
     },
     {
-      "ward_id": "14a90141-0f02-4dca-aac6-f90128533a81",
+      "id": "14a90141-0f02-4dca-aac6-f90128533a81",
       "ward_no": "13",
-      "ward_name_en": "Maniyala",
-      "ward_name_ml": "മണിയാല"
+      "name_en": "Maniyala",
+      "name_ml": "മണിയാല"
     },
     {
-      "ward_id": "4354369f-6c2b-48b3-b7d6-76f9fdc60518",
+      "id": "4354369f-6c2b-48b3-b7d6-76f9fdc60518",
       "ward_no": "14",
-      "ward_name_en": "Chekkotta",
-      "ward_name_ml": "ചെക്കോറ്റ"
+      "name_en": "Chekkotta",
+      "name_ml": "ചെക്കോറ്റ"
     }
   ],
   "towns": [],

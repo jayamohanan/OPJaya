@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G100401",
-  "local_body_name_en": "Chelembra",
-  "local_body_name_ml": "ചേലേമ്പ്ര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "42",
-    "assembly_name_en": "Vallikkunnu",
-    "assembly_name_ml": "വള്ളിക്കുന്ന്",
+  "id": "G100401",
+  "name_en": "Chelembra",
+  "name_ml": "ചേലേമ്പ്ര",
+  "assembly_id": "42",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "42",
+    "name_en": "Vallikkunnu",
+    "name_ml": "വള്ളിക്കുന്ന്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "43e32337-88dd-42c9-8d58-7fb770174635",
+      "id": "43e32337-88dd-42c9-8d58-7fb770174635",
       "ward_no": "1",
-      "ward_name_en": "Perunthodippadam",
-      "ward_name_ml": "പെരുന്തൊടിപ്പാടം"
+      "name_en": "Perunthodippadam",
+      "name_ml": "പെരുന്തൊടിപ്പാടം"
     },
     {
-      "ward_id": "a6a37b92-2320-43a9-82bc-ccc64cbb79cc",
+      "id": "a6a37b92-2320-43a9-82bc-ccc64cbb79cc",
       "ward_no": "2",
-      "ward_name_en": "Chelembrapadam",
-      "ward_name_ml": "ചേലേമ്പ്രപ്പാടം"
+      "name_en": "Chelembrapadam",
+      "name_ml": "ചേലേമ്പ്രപ്പാടം"
     },
     {
-      "ward_id": "b8383d3f-e3f3-4a64-9de5-c2e6cb0d90e0",
+      "id": "b8383d3f-e3f3-4a64-9de5-c2e6cb0d90e0",
       "ward_no": "3",
-      "ward_name_en": "Idimuzhikkal",
-      "ward_name_ml": "ഇടിമൂഴിക്കല്‍"
+      "name_en": "Idimuzhikkal",
+      "name_ml": "ഇടിമൂഴിക്കല്‍"
     },
     {
-      "ward_id": "66ceb2e9-83df-46ff-8452-1bcef0ff476c",
+      "id": "66ceb2e9-83df-46ff-8452-1bcef0ff476c",
       "ward_no": "4",
-      "ward_name_en": "Edandappadam",
-      "ward_name_ml": "എടണ്ടപ്പാടം"
+      "name_en": "Edandappadam",
+      "name_ml": "എടണ്ടപ്പാടം"
     },
     {
-      "ward_id": "195fd2dc-8292-497b-a726-76a6c3a29cab",
+      "id": "195fd2dc-8292-497b-a726-76a6c3a29cab",
       "ward_no": "5",
-      "ward_name_en": "Padinjattin Pai",
-      "ward_name_ml": "പടിഞ്ഞാറ്റിന്‍ പൈ"
+      "name_en": "Padinjattin Pai",
+      "name_ml": "പടിഞ്ഞാറ്റിന്‍ പൈ"
     },
     {
-      "ward_id": "9cf49082-4820-4aff-9e25-55e3828de344",
+      "id": "9cf49082-4820-4aff-9e25-55e3828de344",
       "ward_no": "6",
-      "ward_name_en": "Pullumkunnu",
-      "ward_name_ml": "പുല്ലുംകുന്ന്"
+      "name_en": "Pullumkunnu",
+      "name_ml": "പുല്ലുംകുന്ന്"
     },
     {
-      "ward_id": "19ca0b11-8fa7-41ec-8407-4b929ab8f7b3",
+      "id": "19ca0b11-8fa7-41ec-8407-4b929ab8f7b3",
       "ward_no": "7",
-      "ward_name_en": "Chakkammadkunnu",
-      "ward_name_ml": "ചക്കമ്മാട്കുന്ന്"
+      "name_en": "Chakkammadkunnu",
+      "name_ml": "ചക്കമ്മാട്കുന്ന്"
     },
     {
-      "ward_id": "10de59fc-41b7-4124-a71f-c8d4d02b71c2",
+      "id": "10de59fc-41b7-4124-a71f-c8d4d02b71c2",
       "ward_no": "8",
-      "ward_name_en": "Kakkancheri",
-      "ward_name_ml": "കാക്കഞ്ചേരി"
+      "name_en": "Kakkancheri",
+      "name_ml": "കാക്കഞ്ചേരി"
     },
     {
-      "ward_id": "8d7a9f89-9d0b-4dd2-8a1a-f86677a90f92",
+      "id": "8d7a9f89-9d0b-4dd2-8a1a-f86677a90f92",
       "ward_no": "9",
-      "ward_name_en": "Paingottoor",
-      "ward_name_ml": "പൈങ്ങോട്ടൂര്‍"
+      "name_en": "Paingottoor",
+      "name_ml": "പൈങ്ങോട്ടൂര്‍"
     },
     {
-      "ward_id": "c9b6efc8-c132-43ef-806a-c66573383330",
+      "id": "c9b6efc8-c132-43ef-806a-c66573383330",
       "ward_no": "10",
-      "ward_name_en": "Cheenadam",
-      "ward_name_ml": "ചീനാടം"
+      "name_en": "Cheenadam",
+      "name_ml": "ചീനാടം"
     },
     {
-      "ward_id": "ab42148e-038c-4df0-a6a7-4b2d5af6a971",
+      "id": "ab42148e-038c-4df0-a6a7-4b2d5af6a971",
       "ward_no": "11",
-      "ward_name_en": "Chelooppadam",
-      "ward_name_ml": "ചേലൂപ്പാടം"
+      "name_en": "Chelooppadam",
+      "name_ml": "ചേലൂപ്പാടം"
     },
     {
-      "ward_id": "b39f02f4-149e-4202-ace0-f20312678f32",
+      "id": "b39f02f4-149e-4202-ace0-f20312678f32",
       "ward_no": "12",
-      "ward_name_en": "Panayappuram",
-      "ward_name_ml": "പനയപ്പുറം"
+      "name_en": "Panayappuram",
+      "name_ml": "പനയപ്പുറം"
     },
     {
-      "ward_id": "ef67fd85-70b0-42d1-b381-8e590b4f8985",
+      "id": "ef67fd85-70b0-42d1-b381-8e590b4f8985",
       "ward_no": "13",
-      "ward_name_en": "Kutteelipparamb",
-      "ward_name_ml": "കുറ്റീലിപ്പറമ്പ്"
+      "name_en": "Kutteelipparamb",
+      "name_ml": "കുറ്റീലിപ്പറമ്പ്"
     },
     {
-      "ward_id": "4d95e1ee-712c-40c6-b6d6-6971132c264e",
+      "id": "4d95e1ee-712c-40c6-b6d6-6971132c264e",
       "ward_no": "14",
-      "ward_name_en": "Kandayippadam",
-      "ward_name_ml": "കണ്ടായിപ്പാടം"
+      "name_en": "Kandayippadam",
+      "name_ml": "കണ്ടായിപ്പാടം"
     },
     {
-      "ward_id": "7deea8fb-0e2b-4758-a846-f3ec2d5227b0",
+      "id": "7deea8fb-0e2b-4758-a846-f3ec2d5227b0",
       "ward_no": "15",
-      "ward_name_en": "Thenerippara",
-      "ward_name_ml": "തേനേരിപ്പാറ"
+      "name_en": "Thenerippara",
+      "name_ml": "തേനേരിപ്പാറ"
     },
     {
-      "ward_id": "d567e0ff-6ccf-40b3-8dc0-b8eb6441d6d4",
+      "id": "d567e0ff-6ccf-40b3-8dc0-b8eb6441d6d4",
       "ward_no": "16",
-      "ward_name_en": "Pullipparamb",
-      "ward_name_ml": "പുല്ലിപ്പറമ്പ്"
+      "name_en": "Pullipparamb",
+      "name_ml": "പുല്ലിപ്പറമ്പ്"
     },
     {
-      "ward_id": "a191ecab-022b-4e45-86de-042191c747a5",
+      "id": "a191ecab-022b-4e45-86de-042191c747a5",
       "ward_no": "17",
-      "ward_name_en": "Perunneeri",
-      "ward_name_ml": "പെരുണ്ണീരി"
+      "name_en": "Perunneeri",
+      "name_ml": "പെരുണ്ണീരി"
     },
     {
-      "ward_id": "112e9094-9989-4670-9389-e95882cded6e",
+      "id": "112e9094-9989-4670-9389-e95882cded6e",
       "ward_no": "18",
-      "ward_name_en": "Kutteeriyil",
-      "ward_name_ml": "കുറ്റീരിയില്‍"
+      "name_en": "Kutteeriyil",
+      "name_ml": "കുറ്റീരിയില്‍"
     }
   ],
   "towns": [],

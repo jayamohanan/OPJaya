@@ -1,20 +1,27 @@
 {
-  "assembly_id": "125",
-  "assembly_name_en": "Eravipuram",
-  "assembly_name_ml": "ഇരവിപുരം",
-  "category": "Normal",
+  "id": "125",
+  "name_en": "Eravipuram",
+  "name_ml": "ഇരവിപുരം",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020901",
-      "local_body_name_en": "Mayyanad",
-      "local_body_name_ml": "മയ്യനാട്",
-      "category": "Normal"
+      "id": "G020901",
+      "name_en": "Mayyanad",
+      "name_ml": "മയ്യനാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

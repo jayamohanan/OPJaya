@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G010306",
-  "local_body_name_en": "Kadakkavoor",
-  "local_body_name_ml": "കടയ്ക്കാവൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010306",
+  "name_en": "Kadakkavoor",
+  "name_ml": "കടയ്ക്കാവൂര്‍",
+  "assembly_id": "129",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "129",
-    "assembly_name_en": "Chirayinkeezhu",
-    "assembly_name_ml": "ചിറയിൻകീഴ്",
-    "category": "Normal"
+    "id": "129",
+    "name_en": "Chirayinkeezhu",
+    "name_ml": "ചിറയിൻകീഴ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1923e17e-97c7-40fd-96bd-67f641b6b517",
+      "id": "1923e17e-97c7-40fd-96bd-67f641b6b517",
       "ward_no": "1",
-      "ward_name_en": "Melattingal",
-      "ward_name_ml": "മേലാറ്റിങ്ങല്‍"
+      "name_en": "Melattingal",
+      "name_ml": "മേലാറ്റിങ്ങല്‍"
     },
     {
-      "ward_id": "b279fa69-4783-4531-b59b-b71b4eb13d18",
+      "id": "b279fa69-4783-4531-b59b-b71b4eb13d18",
       "ward_no": "2",
-      "ward_name_en": "Sankaramangalam",
-      "ward_name_ml": "ശങ്കരമംഗലം"
+      "name_en": "Sankaramangalam",
+      "name_ml": "ശങ്കരമംഗലം"
     },
     {
-      "ward_id": "8954ae09-5346-491f-b94f-c86bfcb0ef8f",
+      "id": "8954ae09-5346-491f-b94f-c86bfcb0ef8f",
       "ward_no": "3",
-      "ward_name_en": "Keezhattingal",
-      "ward_name_ml": "കീഴാറ്റിങ്ങല്‍"
+      "name_en": "Keezhattingal",
+      "name_ml": "കീഴാറ്റിങ്ങല്‍"
     },
     {
-      "ward_id": "4cdf2484-198c-4b6a-a237-8f830a239414",
+      "id": "4cdf2484-198c-4b6a-a237-8f830a239414",
       "ward_no": "4",
-      "ward_name_en": "Vilayilmoola",
-      "ward_name_ml": "വിളയില്‍മൂല"
+      "name_en": "Vilayilmoola",
+      "name_ml": "വിളയില്‍മൂല"
     },
     {
-      "ward_id": "c93943d8-bff1-45ed-adfd-02209c788939",
+      "id": "c93943d8-bff1-45ed-adfd-02209c788939",
       "ward_no": "5",
-      "ward_name_en": "Sasthamnada",
-      "ward_name_ml": "ശാസ്താംനട"
+      "name_en": "Sasthamnada",
+      "name_ml": "ശാസ്താംനട"
     },
     {
-      "ward_id": "124740dc-4a5b-47aa-988b-7020ffc7564f",
+      "id": "124740dc-4a5b-47aa-988b-7020ffc7564f",
       "ward_no": "6",
-      "ward_name_en": "Thinavila",
-      "ward_name_ml": "തിനവിള"
+      "name_en": "Thinavila",
+      "name_ml": "തിനവിള"
     },
     {
-      "ward_id": "763fc84b-05f9-4a05-8a56-e336cf82bbee",
+      "id": "763fc84b-05f9-4a05-8a56-e336cf82bbee",
       "ward_no": "7",
-      "ward_name_en": "Ayikkudi",
-      "ward_name_ml": "ആയിക്കുടി"
+      "name_en": "Ayikkudi",
+      "name_ml": "ആയിക്കുടി"
     },
     {
-      "ward_id": "fda9578a-1114-46d2-aef7-c3fbf3a67917",
+      "id": "fda9578a-1114-46d2-aef7-c3fbf3a67917",
       "ward_no": "8",
-      "ward_name_en": "Thekkumbhagam",
-      "ward_name_ml": "തെക്കുംഭാഗം"
+      "name_en": "Thekkumbhagam",
+      "name_ml": "തെക്കുംഭാഗം"
     },
     {
-      "ward_id": "5caac303-8273-476a-84a4-3282ef8fe662",
+      "id": "5caac303-8273-476a-84a4-3282ef8fe662",
       "ward_no": "9",
-      "ward_name_en": "Oottuparambu",
-      "ward_name_ml": "ഊട്ടുപറമ്പ്"
+      "name_en": "Oottuparambu",
+      "name_ml": "ഊട്ടുപറമ്പ്"
     },
     {
-      "ward_id": "a2ec8422-68ea-46e7-bdd3-07f5837694f8",
+      "id": "a2ec8422-68ea-46e7-bdd3-07f5837694f8",
       "ward_no": "10",
-      "ward_name_en": "Railway Station",
-      "ward_name_ml": "റെയില്‍വേ സ്റ്റേഷന്‍"
+      "name_en": "Railway Station",
+      "name_ml": "റെയില്‍വേ സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "46efc5f5-8d23-4344-8baf-e2f2e21c8114",
+      "id": "46efc5f5-8d23-4344-8baf-e2f2e21c8114",
       "ward_no": "11",
-      "ward_name_en": "Kadakkavur",
-      "ward_name_ml": "കടയ്ക്കാവൂര്‍"
+      "name_en": "Kadakkavur",
+      "name_ml": "കടയ്ക്കാവൂര്‍"
     },
     {
-      "ward_id": "71195127-b557-4762-9683-4ca537ac33f1",
+      "id": "71195127-b557-4762-9683-4ca537ac33f1",
       "ward_no": "12",
-      "ward_name_en": "Nilakkamukku",
-      "ward_name_ml": "നിലയ്ക്കാമുക്ക്"
+      "name_en": "Nilakkamukku",
+      "name_ml": "നിലയ്ക്കാമുക്ക്"
     },
     {
-      "ward_id": "9cad4b6d-2ae7-40dc-875a-d279653100dd",
+      "id": "9cad4b6d-2ae7-40dc-875a-d279653100dd",
       "ward_no": "13",
-      "ward_name_en": "Bhajanamadam",
-      "ward_name_ml": "ഭജനമഠം"
+      "name_en": "Bhajanamadam",
+      "name_ml": "ഭജനമഠം"
     },
     {
-      "ward_id": "26973839-07e6-42dd-95a4-01b59b2bc3df",
+      "id": "26973839-07e6-42dd-95a4-01b59b2bc3df",
       "ward_no": "14",
-      "ward_name_en": "Mananakku",
-      "ward_name_ml": "മണനാക്ക്"
+      "name_en": "Mananakku",
+      "name_ml": "മണനാക്ക്"
     },
     {
-      "ward_id": "7c1c4416-503b-4b58-a3c7-a386ab4c6025",
+      "id": "7c1c4416-503b-4b58-a3c7-a386ab4c6025",
       "ward_no": "15",
-      "ward_name_en": "Perumkulam",
-      "ward_name_ml": "പെരുംകുളം"
+      "name_en": "Perumkulam",
+      "name_ml": "പെരുംകുളം"
     },
     {
-      "ward_id": "0ad80f86-52bb-43fe-bc0f-3cd537bb953f",
+      "id": "0ad80f86-52bb-43fe-bc0f-3cd537bb953f",
       "ward_no": "16",
-      "ward_name_en": "Kalloorkonam",
-      "ward_name_ml": "കല്ലൂര്‍ക്കോണം"
+      "name_en": "Kalloorkonam",
+      "name_ml": "കല്ലൂര്‍ക്കോണം"
     }
   ],
   "towns": [],

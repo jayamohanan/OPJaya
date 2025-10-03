@@ -83,8 +83,8 @@ function toFilename(name) {
     const assemblyCategoryMap = Object.fromEntries((assemblyCategories || []).map(ac => [ac.assembly_id, ac.category]));
 
     // Helper maps for fast lookup
-    const districtMap = Object.fromEntries(districts.map(d => [d.district_id, d]));
-    const assemblyMap = Object.fromEntries(assemblies.map(a => [a.assembly_id, a]));
+    const districtMap = Object.fromEntries(districts.map(d => [d.id, d]));
+    const assemblyMap = Object.fromEntries(assemblies.map(a => [a.id, a]));
 
   // Remove all test/demo limits: use all districts, assemblies, and local bodies
   const allDistricts = districts;
@@ -113,15 +113,15 @@ function toFilename(name) {
     // --- 1. State JSON (ALL) ---
     console.log('🏗️  Generating state JSON...');
     const stateJSON = {
-      state_id: 'kl',
-      state_name_en: 'Kerala',
-      state_name_ml: 'കേരളം',
+      id: 'kl',
+      name_en: 'Kerala',
+      name_ml: 'കേരളം',
       category: 'normal',
       districts: allDistricts.map(d => ({
-        district_id: d.district_id,
-        district_name_en: d.district_name_en,
-        district_name_ml: d.district_name_ml,
-        category: districtCategoryMap[d.district_id] || ''
+        id: d.id,
+        name_en: d.name_en,
+        name_ml: d.name_ml,
+        district_category: districtCategoryMap[d.id] ? { category: districtCategoryMap[d.id] } : null
       })),
       geojson_links: {
         outline: 'geojson/states/outlines/kerala.geojson',
@@ -133,55 +133,56 @@ function toFilename(name) {
     // --- 2. District JSONs (ALL) ---
     console.log('🏗️  Generating district JSON files...');
     for (const d of allDistricts) {
-      const districtAssemblies = allAssemblies.filter(a => a.district_id === d.district_id);
+      const districtAssemblies = allAssemblies.filter(a => a.district_id === d.id);
       const districtJSON = {
-        district_id: d.district_id,
-        district_name_en: d.district_name_en,
-        district_name_ml: d.district_name_ml,
+        id: d.id,
+        name_en: d.name_en,
+        name_ml: d.name_ml,
         is_active: d.is_active !== false,
-        category: districtCategoryMap[d.district_id] || '',
+        district_category: districtCategoryMap[d.id] ? { category: districtCategoryMap[d.id] } : null,
         assemblies: districtAssemblies.map(a => ({
-          assembly_id: a.assembly_id,
-          assembly_name_en: a.assembly_name_en,
-          assembly_name_ml: a.assembly_name_ml,
-          category: assemblyCategoryMap[a.assembly_id] || ''
+          id: a.id,
+          name_en: a.name_en,
+          name_ml: a.name_ml,
+          assembly_category: assemblyCategoryMap[a.id] ? { category: assemblyCategoryMap[a.id] } : null
         })),
         geojson_links: {
-          outline: `geojson/districts/outlines/${toFilename(d.district_name_en)}.geojson`,
-          assemblies: `geojson/districts/with-assemblies/${toFilename(d.district_name_en)}.geojson`
+          outline: `geojson/districts/outlines/${toFilename(d.name_en)}.geojson`,
+          assemblies: `geojson/districts/with-assemblies/${toFilename(d.name_en)}.geojson`
         }
       };
-      await writeJSON(path.join(DISTRICTS_DIR, `${toFilename(d.district_name_en)}.json`), districtJSON);
+      await writeJSON(path.join(DISTRICTS_DIR, `${toFilename(d.name_en)}.json`), districtJSON);
     }
 
     // --- 3. Assembly JSONs (ALL) ---
     console.log('🏗️  Generating assembly JSON files...');
     for (const a of allAssemblies) {
       const district = districtMap[a.district_id] || {};
-      const assemblyLocalBodies = allLocalBodies.filter(l => l.assembly_id === a.assembly_id);
+      const assemblyLocalBodies = allLocalBodies.filter(l => l.assembly_id === a.id);
       const assemblyJSON = {
-        assembly_id: a.assembly_id,
-        assembly_name_en: a.assembly_name_en,
-        assembly_name_ml: a.assembly_name_ml,
-        category: assemblyCategoryMap[a.assembly_id] || '',
+        id: a.id,
+        name_en: a.name_en,
+        name_ml: a.name_ml,
+        district_id: a.district_id,
+        assembly_category: assemblyCategoryMap[a.id] ? { category: assemblyCategoryMap[a.id] } : null,
         district: {
-          district_id: district.district_id,
-          district_name_en: district.district_name_en,
-          district_name_ml: district.district_name_ml,
-          district_category: districtCategoryMap[district.district_id] || ''
+          id: district.id,
+          name_en: district.name_en,
+          name_ml: district.name_ml,
+          district_category: districtCategoryMap[district.id] ? { category: districtCategoryMap[district.id] } : null
         },
         local_bodies: assemblyLocalBodies.map(l => ({
-          local_body_id: l.local_body_id,
-          local_body_name_en: l.local_body_name_en,
-          local_body_name_ml: l.local_body_name_ml,
-          category: localBodyCategoryMap[l.local_body_id] || ''
+          id: l.id,
+          name_en: l.name_en,
+          name_ml: l.name_ml,
+          local_body_category: localBodyCategoryMap[l.id] ? { category: localBodyCategoryMap[l.id] } : null
         })),
         geojson_links: {
-          outline: `geojson/assemblies/outlines/${toFilename(a.assembly_name_en)}.geojson`,
-          local_bodies: `geojson/assemblies/with-local-bodies/${toFilename(a.assembly_name_en)}.geojson`
+          outline: `geojson/assemblies/outlines/${toFilename(a.name_en)}.geojson`,
+          local_bodies: `geojson/assemblies/with-local-bodies/${toFilename(a.name_en)}.geojson`
         }
       };
-      await writeJSON(path.join(ASSEMBLIES_DIR, `${toFilename(a.assembly_name_en)}.json`), assemblyJSON);
+      await writeJSON(path.join(ASSEMBLIES_DIR, `${toFilename(a.name_en)}.json`), assemblyJSON);
     }
 
     // --- 4. Local Body JSONs (ALL) ---
@@ -209,26 +210,26 @@ function toFilename(name) {
     const { data: issues } = await supabase.from('issues').select('*');
     const { data: wardCollections } = await supabase.from('ward_collection').select('*');
     
-    const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t.type_id, t]));
+    const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t.id, t]));
 
     for (const l of allLocalBodies) {
-      const type = localBodyTypeMap[l.type_id] || {};
+      const type = localBodyTypeMap[l.local_body_type_id] || {};
       const assembly = assemblyMap[l.assembly_id] || {};
       const district = districtMap[assembly.district_id] || {};
       const lbWardsWithBasicInfo = wards
-        .filter(w => w.local_body_id === l.local_body_id)
+        .filter(w => w.local_body_id === l.id)
         .map(w => ({
-          ward_id: w.ward_id,
+          id: w.id,
           ward_no: w.ward_no || '',
-          ward_name_en: w.ward_name_en || '',
-          ward_name_ml: w.ward_name_ml || ''
+          name_en: w.name_en || '',
+          name_ml: w.name_ml || ''
         }));
-      const lbTowns = towns.filter(t => t.local_body_id === l.local_body_id);
+      const lbTowns = towns.filter(t => t.local_body_id === l.id);
       const lbTownsArr = lbTowns.map(t => ({
-        town_name_en: t.town_name_en,
-        town_name_ml: t.town_name_ml
+        name_en: t.name_en,
+        name_ml: t.name_ml
       }));
-      const lbIssues = issues.filter(i => i.local_body_id === l.local_body_id);
+      const lbIssues = issues.filter(i => i.local_body_id === l.id);
       const issuesByType = {};
       for (const issueType of ['town', 'bus_stop', 'water_body']) {
         const filtered = lbIssues.filter(i => i.type === issueType);
@@ -238,9 +239,9 @@ function toFilename(name) {
           for (const issue of filtered) {
             const townId = issue.town_id || 'unknown';
             // Find town name from towns array
-            const townObj = towns.find(t => t.town_id === townId);
-            const townNameEn = townObj ? townObj.town_name_en : 'Unknown';
-            const townNameMl = townObj ? townObj.town_name_ml : 'അജ്ഞാതം';
+            const townObj = towns.find(t => t.id === townId);
+            const townNameEn = townObj ? townObj.name_en : 'Unknown';
+            const townNameMl = townObj ? townObj.name_ml : 'അജ്ഞാതം';
             // Add town name fields to each issue
             const issueWithTownName = {
               ...issue,
@@ -256,32 +257,37 @@ function toFilename(name) {
         }
       }
       const localBodyJSON = {
-        local_body_id: l.local_body_id,
-        local_body_name_en: l.local_body_name_en,
-        local_body_name_ml: l.local_body_name_ml,
-        local_body_type_en: type.type_name_en || '',
-        local_body_type_ml: type.type_name_ml || '',
-        category: localBodyCategoryMap[l.local_body_id] || '',
+        id: l.id,
+        name_en: l.name_en,
+        name_ml: l.name_ml,
+        assembly_id: l.assembly_id,
+        local_body_type_id: l.local_body_type_id,
+        local_body_type: {
+          id: type.id,
+          name_en: type.name_en || '',
+          name_ml: type.name_ml || ''
+        },
+        local_body_category: localBodyCategoryMap[l.id] ? { category: localBodyCategoryMap[l.id] } : null,
         assembly: {
-          assembly_id: assembly.assembly_id,
-          assembly_name_en: assembly.assembly_name_en,
-          assembly_name_ml: assembly.assembly_name_ml,
-          category: assemblyCategoryMap[assembly.assembly_id] || ''
+          id: assembly.id,
+          name_en: assembly.name_en,
+          name_ml: assembly.name_ml,
+          assembly_category: assemblyCategoryMap[assembly.id] ? { category: assemblyCategoryMap[assembly.id] } : null
         },
         district: {
-          district_id: district.district_id,
-          district_name_en: district.district_name_en,
-          district_name_ml: district.district_name_ml,
-          category: districtCategoryMap[district.district_id] || ''
+          id: district.id,
+          name_en: district.name_en,
+          name_ml: district.name_ml,
+          district_category: districtCategoryMap[district.id] ? { category: districtCategoryMap[district.id] } : null
         },
         wards: lbWardsWithBasicInfo,
         towns: lbTownsArr,
         issues: issuesByType,
         geojson_links: {
-          outline: `geojson/local-bodies/outlines/${toFilename(l.local_body_name_en)}.geojson`
+          outline: `geojson/local-bodies/outlines/${toFilename(l.name_en)}.geojson`
         }
       };
-      await writeJSON(path.join(LOCAL_BODIES_DIR, `${l.local_body_id}.json`), localBodyJSON);
+      await writeJSON(path.join(LOCAL_BODIES_DIR, `${l.id}.json`), localBodyJSON);
     }
 
     // --- COMMENTED OUT: Index JSON ---

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G040503",
-  "local_body_name_en": "Ambalapuzha North",
-  "local_body_name_ml": "അമ്പലപ്പുഴ വടക്ക്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "105",
-    "assembly_name_en": "Ambalappuzha",
-    "assembly_name_ml": "അമ്പലപ്പുഴ",
+  "id": "G040503",
+  "name_en": "Ambalapuzha North",
+  "name_ml": "അമ്പലപ്പുഴ വടക്ക്",
+  "assembly_id": "105",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "105",
+    "name_en": "Ambalappuzha",
+    "name_ml": "അമ്പലപ്പുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a8cda300-52a3-429d-8bf2-8991788be498",
+      "id": "a8cda300-52a3-429d-8bf2-8991788be498",
       "ward_no": "1",
-      "ward_name_en": "Vandanam Coastal Area",
-      "ward_name_ml": "വണ്ടാനം തീരദേശം"
+      "name_en": "Vandanam Coastal Area",
+      "name_ml": "വണ്ടാനം തീരദേശം"
     },
     {
-      "ward_id": "70daeac3-0156-4864-bf2c-111cd6e4ee2f",
+      "id": "70daeac3-0156-4864-bf2c-111cd6e4ee2f",
       "ward_no": "2",
-      "ward_name_en": "T.D.M.C Ward",
-      "ward_name_ml": "റ്റി.ഡി.എം.സി വാര്‍ഡ്"
+      "name_en": "T.D.M.C Ward",
+      "name_ml": "റ്റി.ഡി.എം.സി വാര്‍ഡ്"
     },
     {
-      "ward_id": "6144c9bc-28f3-4911-b7ff-3f00f7e8f34f",
+      "id": "6144c9bc-28f3-4911-b7ff-3f00f7e8f34f",
       "ward_no": "3",
-      "ward_name_en": "Kuravanthodu East",
-      "ward_name_ml": "കുറവന്‍തോട് കിഴക്ക്"
+      "name_en": "Kuravanthodu East",
+      "name_ml": "കുറവന്‍തോട് കിഴക്ക്"
     },
     {
-      "ward_id": "7556e730-14c1-45cb-bde8-6d0bc5f67125",
+      "id": "7556e730-14c1-45cb-bde8-6d0bc5f67125",
       "ward_no": "4",
-      "ward_name_en": "Vandanam East",
-      "ward_name_ml": "വണ്ടാനം കിഴക്ക്"
+      "name_en": "Vandanam East",
+      "name_ml": "വണ്ടാനം കിഴക്ക്"
     },
     {
-      "ward_id": "51d10d28-3381-4a78-9c50-40127c9bf492",
+      "id": "51d10d28-3381-4a78-9c50-40127c9bf492",
       "ward_no": "5",
-      "ward_name_en": "Vandanam South",
-      "ward_name_ml": "വണ്ടാനം തെക്ക്"
+      "name_en": "Vandanam South",
+      "name_ml": "വണ്ടാനം തെക്ക്"
     },
     {
-      "ward_id": "89352eea-21c3-4548-9dbe-8488ecb55ff4",
+      "id": "89352eea-21c3-4548-9dbe-8488ecb55ff4",
       "ward_no": "6",
-      "ward_name_en": "Panchayat Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
+      "name_en": "Panchayat Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "3c228856-0fb1-4907-a652-bd025a7c13e4",
+      "id": "3c228856-0fb1-4907-a652-bd025a7c13e4",
       "ward_no": "7",
-      "ward_name_en": "Neerkunnam East",
-      "ward_name_ml": "നീര്‍ക്കുന്നം കിഴക്ക്"
+      "name_en": "Neerkunnam East",
+      "name_ml": "നീര്‍ക്കുന്നം കിഴക്ക്"
     },
     {
-      "ward_id": "fa8c29a9-5c4f-4334-8dde-2a2f8d0c79b0",
+      "id": "fa8c29a9-5c4f-4334-8dde-2a2f8d0c79b0",
       "ward_no": "8",
-      "ward_name_en": "Kanjippadam North",
-      "ward_name_ml": "കഞ്ഞിപ്പാടം വടക്ക്"
+      "name_en": "Kanjippadam North",
+      "name_ml": "കഞ്ഞിപ്പാടം വടക്ക്"
     },
     {
-      "ward_id": "e2aca87a-b06e-4630-9753-13b72662c345",
+      "id": "e2aca87a-b06e-4630-9753-13b72662c345",
       "ward_no": "9",
-      "ward_name_en": "Kanjippadam South",
-      "ward_name_ml": "കഞ്ഞിപ്പാടം തെക്ക്"
+      "name_en": "Kanjippadam South",
+      "name_ml": "കഞ്ഞിപ്പാടം തെക്ക്"
     },
     {
-      "ward_id": "c3bbabd8-65cb-4d7c-8146-7cc054b650e6",
+      "id": "c3bbabd8-65cb-4d7c-8146-7cc054b650e6",
       "ward_no": "10",
-      "ward_name_en": "Valanjavazhy East",
-      "ward_name_ml": "വളഞ്ഞവഴി കിഴക്ക്"
+      "name_en": "Valanjavazhy East",
+      "name_ml": "വളഞ്ഞവഴി കിഴക്ക്"
     },
     {
-      "ward_id": "baf5c66b-4ac5-42eb-a7f9-22101761301c",
+      "id": "baf5c66b-4ac5-42eb-a7f9-22101761301c",
       "ward_no": "11",
-      "ward_name_en": "Kakkazhom H S Ward",
-      "ward_name_ml": "കാക്കാഴം എച്ച് എസ് വാര്‍ഡ്"
+      "name_en": "Kakkazhom H S Ward",
+      "name_ml": "കാക്കാഴം എച്ച് എസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "d26252c4-8503-46cf-8146-5d5ed9511652",
+      "id": "d26252c4-8503-46cf-8146-5d5ed9511652",
       "ward_no": "12",
-      "ward_name_en": "Kambivalappu Ward",
-      "ward_name_ml": "കമ്പിവളപ്പ് വാര്‍ഡ്"
+      "name_en": "Kambivalappu Ward",
+      "name_ml": "കമ്പിവളപ്പ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "cace8e9a-3b18-4e71-b911-d6b718b1e232",
+      "id": "cace8e9a-3b18-4e71-b911-d6b718b1e232",
       "ward_no": "13",
-      "ward_name_en": "Kakkazhom West Ward",
-      "ward_name_ml": "കാക്കാഴം പടിഞ്ഞാറ് വാര്‍ഡ്"
+      "name_en": "Kakkazhom West Ward",
+      "name_ml": "കാക്കാഴം പടിഞ്ഞാറ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "4015aa67-05e1-4624-a9a3-2926c970be32",
+      "id": "4015aa67-05e1-4624-a9a3-2926c970be32",
       "ward_no": "14",
-      "ward_name_en": "Beach Ward",
-      "ward_name_ml": "ബീച്ച് വാര്‍ഡ്"
+      "name_en": "Beach Ward",
+      "name_ml": "ബീച്ച് വാര്‍ഡ്"
     },
     {
-      "ward_id": "4a22b074-c56e-4bc2-a3ce-763b3557259d",
+      "id": "4a22b074-c56e-4bc2-a3ce-763b3557259d",
       "ward_no": "15",
-      "ward_name_en": "Valanjavazhy West",
-      "ward_name_ml": "വളഞ്ഞവഴി പടിഞ്ഞാറ്"
+      "name_en": "Valanjavazhy West",
+      "name_ml": "വളഞ്ഞവഴി പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "e9235ed6-6c73-423a-ba3d-fa6f564012be",
+      "id": "e9235ed6-6c73-423a-ba3d-fa6f564012be",
       "ward_no": "16",
-      "ward_name_en": "Neerkunnam West",
-      "ward_name_ml": "നീര്‍ക്കുന്നം പടിഞ്ഞാറ്"
+      "name_en": "Neerkunnam West",
+      "name_ml": "നീര്‍ക്കുന്നം പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "a77afa52-4149-4f5c-b974-68769253e95a",
+      "id": "a77afa52-4149-4f5c-b974-68769253e95a",
       "ward_no": "17",
-      "ward_name_en": "M C H Ward",
-      "ward_name_ml": "എം സി എച്ച് വാര്‍ഡ്"
+      "name_en": "M C H Ward",
+      "name_ml": "എം സി എച്ച് വാര്‍ഡ്"
     },
     {
-      "ward_id": "755438f9-44b9-4790-a313-255de4c1c106",
+      "id": "755438f9-44b9-4790-a313-255de4c1c106",
       "ward_no": "18",
-      "ward_name_en": "Sisuvihar",
-      "ward_name_ml": "ശിശുവിഹാര്‍"
+      "name_en": "Sisuvihar",
+      "name_ml": "ശിശുവിഹാര്‍"
     }
   ],
   "towns": [],

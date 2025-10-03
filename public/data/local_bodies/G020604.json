@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G020604",
-  "local_body_name_en": "Ezhukone",
-  "local_body_name_ml": "എഴുകോണ്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G020604",
+  "name_en": "Ezhukone",
+  "name_ml": "എഴുകോണ്‍",
+  "assembly_id": "119",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "119",
-    "assembly_name_en": "Kottarakkara",
-    "assembly_name_ml": "കൊട്ടാരക്കര",
-    "category": "Normal"
+    "id": "119",
+    "name_en": "Kottarakkara",
+    "name_ml": "കൊട്ടാരക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e9d9a199-952a-4aa8-869f-1828e28cf8d7",
+      "id": "e9d9a199-952a-4aa8-869f-1828e28cf8d7",
       "ward_no": "1",
-      "ward_name_en": "Karuvelil",
-      "ward_name_ml": "കാരുവേലില്‍"
+      "name_en": "Karuvelil",
+      "name_ml": "കാരുവേലില്‍"
     },
     {
-      "ward_id": "cfc6c3a6-98d1-43ba-b02b-6346f2a4657a",
+      "id": "cfc6c3a6-98d1-43ba-b02b-6346f2a4657a",
       "ward_no": "2",
-      "ward_name_en": "Chittacode",
-      "ward_name_ml": "ചിറ്റാകോട്"
+      "name_en": "Chittacode",
+      "name_ml": "ചിറ്റാകോട്"
     },
     {
-      "ward_id": "17c1934c-4d1e-4b91-adc3-d06152327bdc",
+      "id": "17c1934c-4d1e-4b91-adc3-d06152327bdc",
       "ward_no": "3",
-      "ward_name_en": "Irumpanangadu",
-      "ward_name_ml": "ഇരുമ്പനങ്ങാട്"
+      "name_en": "Irumpanangadu",
+      "name_ml": "ഇരുമ്പനങ്ങാട്"
     },
     {
-      "ward_id": "23185ad1-feaa-46bd-a5dc-7405f5c05834",
+      "id": "23185ad1-feaa-46bd-a5dc-7405f5c05834",
       "ward_no": "4",
-      "ward_name_en": "Ambalathumkala",
-      "ward_name_ml": "അമ്പലത്തുംകാല"
+      "name_en": "Ambalathumkala",
+      "name_ml": "അമ്പലത്തുംകാല"
     },
     {
-      "ward_id": "0ebccc1a-c497-4349-8a5d-24a74154751f",
+      "id": "0ebccc1a-c497-4349-8a5d-24a74154751f",
       "ward_no": "5",
-      "ward_name_en": "Kakkakottoor",
-      "ward_name_ml": "കാക്കകോട്ടൂര്‍"
+      "name_en": "Kakkakottoor",
+      "name_ml": "കാക്കകോട്ടൂര്‍"
     },
     {
-      "ward_id": "4f5bbdf8-551a-47da-ad06-dfeddb85e5f8",
+      "id": "4f5bbdf8-551a-47da-ad06-dfeddb85e5f8",
       "ward_no": "6",
-      "ward_name_en": "Valayicode",
-      "ward_name_ml": "വാളായിക്കോട്"
+      "name_en": "Valayicode",
+      "name_ml": "വാളായിക്കോട്"
     },
     {
-      "ward_id": "dad401a4-7e68-4775-8c2d-3f7992a79a13",
+      "id": "dad401a4-7e68-4775-8c2d-3f7992a79a13",
       "ward_no": "7",
-      "ward_name_en": "Pochamkonam",
-      "ward_name_ml": "പോച്ചംകോണം"
+      "name_en": "Pochamkonam",
+      "name_ml": "പോച്ചംകോണം"
     },
     {
-      "ward_id": "712eebad-2e4a-4507-a169-4d5bb94b1ee8",
+      "id": "712eebad-2e4a-4507-a169-4d5bb94b1ee8",
       "ward_no": "8",
-      "ward_name_en": "Panchayath Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
+      "name_en": "Panchayath Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "93dbb1da-e325-4681-bd16-76fd970e725c",
+      "id": "93dbb1da-e325-4681-bd16-76fd970e725c",
       "ward_no": "9",
-      "ward_name_en": "Kochanjilimoodu",
-      "ward_name_ml": "കൊച്ചാഞ്ഞിലിമൂട്"
+      "name_en": "Kochanjilimoodu",
+      "name_ml": "കൊച്ചാഞ്ഞിലിമൂട്"
     },
     {
-      "ward_id": "3991e224-be22-4ba1-9cfb-082127e44561",
+      "id": "3991e224-be22-4ba1-9cfb-082127e44561",
       "ward_no": "10",
-      "ward_name_en": "Edakkode",
-      "ward_name_ml": "ഇടയ്ക്കോട്"
+      "name_en": "Edakkode",
+      "name_ml": "ഇടയ്ക്കോട്"
     },
     {
-      "ward_id": "f611e4ca-a60c-44f3-96dd-d4efeba502c4",
+      "id": "f611e4ca-a60c-44f3-96dd-d4efeba502c4",
       "ward_no": "11",
-      "ward_name_en": "Nedumpaikulam",
-      "ward_name_ml": "നെടുമ്പായികുളം"
+      "name_en": "Nedumpaikulam",
+      "name_ml": "നെടുമ്പായികുളം"
     },
     {
-      "ward_id": "00bf5fa5-3cf4-4763-8723-45a1ce5ab7a7",
+      "id": "00bf5fa5-3cf4-4763-8723-45a1ce5ab7a7",
       "ward_no": "12",
-      "ward_name_en": "E S I Ward",
-      "ward_name_ml": "ഇ.എസ്.ഐ.വാര്‍ഡ്"
+      "name_en": "E S I Ward",
+      "name_ml": "ഇ.എസ്.ഐ.വാര്‍ഡ്"
     },
     {
-      "ward_id": "58db21c7-457e-46d1-a479-c26f95432368",
+      "id": "58db21c7-457e-46d1-a479-c26f95432368",
       "ward_no": "13",
-      "ward_name_en": "Irumpanangadu H S",
-      "ward_name_ml": "ഇരുമ്പനങ്ങാട് എച്ച്.എസ്"
+      "name_en": "Irumpanangadu H S",
+      "name_ml": "ഇരുമ്പനങ്ങാട് എച്ച്.എസ്"
     },
     {
-      "ward_id": "d5d3cb45-63bc-4f13-831b-b107ba6a9cba",
+      "id": "d5d3cb45-63bc-4f13-831b-b107ba6a9cba",
       "ward_no": "14",
-      "ward_name_en": "Ezhukone H S",
-      "ward_name_ml": "എഴുകോണ്‍ എച്ച് എസ്"
+      "name_en": "Ezhukone H S",
+      "name_ml": "എഴുകോണ്‍ എച്ച് എസ്"
     },
     {
-      "ward_id": "4c892adc-7dae-4d64-9503-3d43463b3103",
+      "id": "4c892adc-7dae-4d64-9503-3d43463b3103",
       "ward_no": "15",
-      "ward_name_en": "Cheerankavu",
-      "ward_name_ml": "ചീരങ്കാവ്"
+      "name_en": "Cheerankavu",
+      "name_ml": "ചീരങ്കാവ്"
     },
     {
-      "ward_id": "5d4dd799-c885-45cf-a240-7d7979b3974c",
+      "id": "5d4dd799-c885-45cf-a240-7d7979b3974c",
       "ward_no": "16",
-      "ward_name_en": "Paruthumpara",
-      "ward_name_ml": "പരുത്തുംപാറ"
+      "name_en": "Paruthumpara",
+      "name_ml": "പരുത്തുംപാറ"
     }
   ],
   "towns": [],

@@ -1,74 +1,99 @@
 {
-  "assembly_id": "101",
-  "assembly_name_en": "Poonjar",
-  "assembly_name_ml": "പൂഞ്ഞാർ",
-  "category": "Normal",
+  "id": "101",
+  "name_en": "Poonjar",
+  "name_ml": "പൂഞ്ഞാർ",
+  "district_id": "5",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "district_category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M050600",
-      "local_body_name_en": "Erattupetta",
-      "local_body_name_ml": "ഈരാറ്റുപേട്ട",
-      "category": "Normal"
+      "id": "M050600",
+      "name_en": "Erattupetta",
+      "name_ml": "ഈരാറ്റുപേട്ട",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G051101",
-      "local_body_name_en": "Erumely",
-      "local_body_name_ml": "എരുമേലി",
-      "category": "Good"
+      "id": "G051101",
+      "name_en": "Erumely",
+      "name_ml": "എരുമേലി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G051103",
-      "local_body_name_en": "Koottickal",
-      "local_body_name_ml": "കൂട്ടിക്കല്‍",
-      "category": "Perfect"
+      "id": "G051103",
+      "name_en": "Koottickal",
+      "name_ml": "കൂട്ടിക്കല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G051107",
-      "local_body_name_en": "Koruthodu",
-      "local_body_name_ml": "കോരുത്തോട്",
-      "category": "Perfect"
+      "id": "G051107",
+      "name_en": "Koruthodu",
+      "name_ml": "കോരുത്തോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G051105",
-      "local_body_name_en": "Mundakayam",
-      "local_body_name_ml": "മുണ്ടക്കയം",
-      "category": "Normal"
+      "id": "G051105",
+      "name_en": "Mundakayam",
+      "name_ml": "മുണ്ടക്കയം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G051106",
-      "local_body_name_en": "Parathodu",
-      "local_body_name_ml": "പാറത്തോട്",
-      "category": "Good"
+      "id": "G051106",
+      "name_en": "Parathodu",
+      "name_ml": "പാറത്തോട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050603",
-      "local_body_name_en": "Poonjar",
-      "local_body_name_ml": "പൂഞ്ഞാര്‍",
-      "category": "Normal"
+      "id": "G050603",
+      "name_en": "Poonjar",
+      "name_ml": "പൂഞ്ഞാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050605",
-      "local_body_name_en": "Poonjar Thekkekara",
-      "local_body_name_ml": "പൂഞ്ഞാര്‍ തെക്കേക്കര",
-      "category": "Normal"
+      "id": "G050605",
+      "name_en": "Poonjar Thekkekara",
+      "name_ml": "പൂഞ്ഞാര്‍ തെക്കേക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050607",
-      "local_body_name_en": "Teekoy",
-      "local_body_name_ml": "തീക്കോയി",
-      "category": "Good"
+      "id": "G050607",
+      "name_en": "Teekoy",
+      "name_ml": "തീക്കോയി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050609",
-      "local_body_name_en": "Thidanad",
-      "local_body_name_ml": "തിടനാട്",
-      "category": "Normal"
+      "id": "G050609",
+      "name_en": "Thidanad",
+      "name_ml": "തിടനാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

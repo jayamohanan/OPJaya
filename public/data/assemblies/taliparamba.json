@@ -1,68 +1,87 @@
 {
-  "assembly_id": "8",
-  "assembly_name_en": "Taliparamba",
-  "assembly_name_ml": "തളിപ്പറമ്പ്",
-  "category": "Normal",
+  "id": "8",
+  "name_en": "Taliparamba",
+  "name_ml": "തളിപ്പറമ്പ്",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130305",
-      "local_body_name_en": "Chapparapadava",
-      "local_body_name_ml": "ചപ്പാരപ്പടവ്",
-      "category": "Perfect"
+      "id": "G130305",
+      "name_en": "Chapparapadava",
+      "name_ml": "ചപ്പാരപ്പടവ്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130608",
-      "local_body_name_en": "Kolachery",
-      "local_body_name_ml": "കൊളച്ചേരി",
-      "category": "Perfect"
+      "id": "G130608",
+      "name_en": "Kolachery",
+      "name_ml": "കൊളച്ചേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130303",
-      "local_body_name_en": "Kurumathur",
-      "local_body_name_ml": "കുറുമാത്തൂര്‍",
-      "category": "Good"
+      "id": "G130303",
+      "name_en": "Kurumathur",
+      "name_ml": "കുറുമാത്തൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G130405",
-      "local_body_name_en": "Kuttiattoor",
-      "local_body_name_ml": "കുറ്റ്യാട്ടൂര്‍",
-      "category": "Perfect"
+      "id": "G130405",
+      "name_en": "Kuttiattoor",
+      "name_ml": "കുറ്റ്യാട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130403",
-      "local_body_name_en": "Malappattam",
-      "local_body_name_ml": "മലപ്പട്ടം",
-      "category": "Perfect"
+      "id": "G130403",
+      "name_en": "Malappattam",
+      "name_ml": "മലപ്പട്ടം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130406",
-      "local_body_name_en": "Mayyil",
-      "local_body_name_ml": "മയ്യില്‍",
-      "category": "Normal"
+      "id": "G130406",
+      "name_en": "Mayyil",
+      "name_ml": "മയ്യില്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130304",
-      "local_body_name_en": "Pariyaram",
-      "local_body_name_ml": "പരിയാരം",
-      "category": "Good"
+      "id": "G130304",
+      "name_en": "Pariyaram",
+      "name_ml": "പരിയാരം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M130200",
-      "local_body_name_en": "Thalipparamba",
-      "local_body_name_ml": "തളിപ്പറമ്പ്",
-      "category": ""
+      "id": "M130200",
+      "name_en": "Thalipparamba",
+      "name_ml": "തളിപ്പറമ്പ്",
+      "local_body_category": null
     },
     {
-      "local_body_id": "M130900",
-      "local_body_name_en": "Anthoor",
-      "local_body_name_ml": "ആന്തൂര്‍",
-      "category": ""
+      "id": "M130900",
+      "name_en": "Anthoor",
+      "name_ml": "ആന്തൂര്‍",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

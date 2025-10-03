@@ -1,86 +1,115 @@
 {
-  "assembly_id": "112",
-  "assembly_name_en": "Ranni",
-  "assembly_name_ml": "റാന്നി",
-  "category": "Normal",
+  "id": "112",
+  "name_en": "Ranni",
+  "name_ml": "റാന്നി",
+  "district_id": "3",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "district_category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G030301",
-      "local_body_name_en": "Ayroor",
-      "local_body_name_ml": "അയിരൂര്‍",
-      "category": "Normal"
+      "id": "G030301",
+      "name_en": "Ayroor",
+      "name_ml": "അയിരൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030404",
-      "local_body_name_en": "Cherukole",
-      "local_body_name_ml": "ചെറുകോല്‍",
-      "category": "Perfect"
+      "id": "G030404",
+      "name_en": "Cherukole",
+      "name_ml": "ചെറുകോല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030305",
-      "local_body_name_en": "Ezhumattoor",
-      "local_body_name_ml": "എഴുമറ്റൂര്‍",
-      "category": "Normal"
+      "id": "G030305",
+      "name_en": "Ezhumattoor",
+      "name_ml": "എഴുമറ്റൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030103",
-      "local_body_name_en": "Kottanad",
-      "local_body_name_ml": "കൊറ്റനാട്",
-      "category": "Good"
+      "id": "G030103",
+      "name_en": "Kottanad",
+      "name_ml": "കൊറ്റനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030104",
-      "local_body_name_en": "Kottangal",
-      "local_body_name_ml": "കോട്ടാങ്ങല്‍",
-      "category": "Normal"
+      "id": "G030104",
+      "name_en": "Kottangal",
+      "name_ml": "കോട്ടാങ്ങല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030508",
-      "local_body_name_en": "Naranammoozhy",
-      "local_body_name_ml": "നാറാണംമൂഴി",
-      "category": "Good"
+      "id": "G030508",
+      "name_en": "Naranammoozhy",
+      "name_ml": "നാറാണംമൂഴി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030503",
-      "local_body_name_en": "Ranni Angadi",
-      "local_body_name_ml": "റാന്നി അങ്ങാടി",
-      "category": "Perfect"
+      "id": "G030503",
+      "name_en": "Ranni Angadi",
+      "name_ml": "റാന്നി അങ്ങാടി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030502",
-      "local_body_name_en": "Ranni",
-      "local_body_name_ml": "റാന്നി",
-      "category": "Normal"
+      "id": "G030502",
+      "name_en": "Ranni",
+      "name_ml": "റാന്നി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030501",
-      "local_body_name_en": "Ranni Pazhavangadi",
-      "local_body_name_ml": "റാന്നി പഴവങ്ങാടി",
-      "category": "Perfect"
+      "id": "G030501",
+      "name_en": "Ranni Pazhavangadi",
+      "name_ml": "റാന്നി പഴവങ്ങാടി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G030504",
-      "local_body_name_en": "Ranni Perunadu",
-      "local_body_name_ml": "റാന്നി പെരുനാട്",
-      "category": "Good"
+      "id": "G030504",
+      "name_en": "Ranni Perunadu",
+      "name_ml": "റാന്നി പെരുനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G030505",
-      "local_body_name_en": "Vadaserikara",
-      "local_body_name_ml": "വടശ്ശേരിക്കര",
-      "category": "Normal"
+      "id": "G030505",
+      "name_en": "Vadaserikara",
+      "name_ml": "വടശ്ശേരിക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G030509",
-      "local_body_name_en": "Vechoochira",
-      "local_body_name_ml": "വെച്ചൂച്ചിറ",
-      "category": "Normal"
+      "id": "G030509",
+      "name_en": "Vechoochira",
+      "name_ml": "വെച്ചൂച്ചിറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

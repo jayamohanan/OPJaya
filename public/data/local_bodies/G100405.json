@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G100405",
-  "local_body_name_en": "Pallikkal",
-  "local_body_name_ml": "പള്ളിക്കല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G100405",
+  "name_en": "Pallikkal",
+  "name_ml": "പള്ളിക്കല്‍",
+  "assembly_id": "42",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "42",
-    "assembly_name_en": "Vallikkunnu",
-    "assembly_name_ml": "വള്ളിക്കുന്ന്",
-    "category": "Normal"
+    "id": "42",
+    "name_en": "Vallikkunnu",
+    "name_ml": "വള്ളിക്കുന്ന്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "02f1ee39-b4e1-4235-89c6-586f9bde2a5f",
+      "id": "02f1ee39-b4e1-4235-89c6-586f9bde2a5f",
       "ward_no": "1",
-      "ward_name_en": "Kozhippuram",
-      "ward_name_ml": "കോഴിപ്പുുറം"
+      "name_en": "Kozhippuram",
+      "name_ml": "കോഴിപ്പുുറം"
     },
     {
-      "ward_id": "5084b125-84f2-4c4b-88c7-d1ad699f450c",
+      "id": "5084b125-84f2-4c4b-88c7-d1ad699f450c",
       "ward_no": "2",
-      "ward_name_en": "Ottupara",
-      "ward_name_ml": "ഒാട്ടുുപാറ"
+      "name_en": "Ottupara",
+      "name_ml": "ഒാട്ടുുപാറ"
     },
     {
-      "ward_id": "b9242e8f-9845-479f-a49a-fe8dc0ab1e65",
+      "id": "b9242e8f-9845-479f-a49a-fe8dc0ab1e65",
       "ward_no": "3",
-      "ward_name_en": "Pallikkal",
-      "ward_name_ml": "പളളിക്കല്‍"
+      "name_en": "Pallikkal",
+      "name_ml": "പളളിക്കല്‍"
     },
     {
-      "ward_id": "e01a9d62-a8fa-4d8f-992e-26c4ac0d974a",
+      "id": "e01a9d62-a8fa-4d8f-992e-26c4ac0d974a",
       "ward_no": "4",
-      "ward_name_en": "Koottakallungal",
-      "ward_name_ml": "കൂട്ടക്കല്ലുുങ്ങല്‍"
+      "name_en": "Koottakallungal",
+      "name_ml": "കൂട്ടക്കല്ലുുങ്ങല്‍"
     },
     {
-      "ward_id": "d0255bfc-7bf3-492b-80a5-19e051132958",
+      "id": "d0255bfc-7bf3-492b-80a5-19e051132958",
       "ward_no": "5",
-      "ward_name_en": "Karippur",
-      "ward_name_ml": "കരിപ്പൂൂര്‍"
+      "name_en": "Karippur",
+      "name_ml": "കരിപ്പൂൂര്‍"
     },
     {
-      "ward_id": "bddb5882-2618-41b4-b2ee-3e8d9c8ed16e",
+      "id": "bddb5882-2618-41b4-b2ee-3e8d9c8ed16e",
       "ward_no": "6",
-      "ward_name_en": "Airport",
-      "ward_name_ml": "എയര്‍പോര്‍ട്ട്"
+      "name_en": "Airport",
+      "name_ml": "എയര്‍പോര്‍ട്ട്"
     },
     {
-      "ward_id": "03e79165-af45-429d-a9d4-0eb9754e144d",
+      "id": "03e79165-af45-429d-a9d4-0eb9754e144d",
       "ward_no": "7",
-      "ward_name_en": "Kumminipparamb",
-      "ward_name_ml": "കുമ്മിണിപ്പറമ്പ്"
+      "name_en": "Kumminipparamb",
+      "name_ml": "കുമ്മിണിപ്പറമ്പ്"
     },
     {
-      "ward_id": "49f26bcd-9a2f-452a-8845-81f19aed92d5",
+      "id": "49f26bcd-9a2f-452a-8845-81f19aed92d5",
       "ward_no": "8",
-      "ward_name_en": "Kodiyamparamb",
-      "ward_name_ml": "കൊടിയംപറമ്പ്"
+      "name_en": "Kodiyamparamb",
+      "name_ml": "കൊടിയംപറമ്പ്"
     },
     {
-      "ward_id": "e84b591c-a77a-4121-958c-e15a4f86f67a",
+      "id": "e84b591c-a77a-4121-958c-e15a4f86f67a",
       "ward_no": "9",
-      "ward_name_en": "Tharayittal",
-      "ward_name_ml": "തറയിട്ടാല്‍"
+      "name_en": "Tharayittal",
+      "name_ml": "തറയിട്ടാല്‍"
     },
     {
-      "ward_id": "6d0593e0-bb0b-4295-b33e-2f9d2e69dbaa",
+      "id": "6d0593e0-bb0b-4295-b33e-2f9d2e69dbaa",
       "ward_no": "10",
-      "ward_name_en": "Koottalungal",
-      "ward_name_ml": "കൂട്ടാലുങ്ങല്‍"
+      "name_en": "Koottalungal",
+      "name_ml": "കൂട്ടാലുങ്ങല്‍"
     },
     {
-      "ward_id": "42b43a3a-7432-4878-8ec1-51d89eb51c39",
+      "id": "42b43a3a-7432-4878-8ec1-51d89eb51c39",
       "ward_no": "11",
-      "ward_name_en": "Puliyamparambu",
-      "ward_name_ml": "പുളിയംപറമ്പ്"
+      "name_en": "Puliyamparambu",
+      "name_ml": "പുളിയംപറമ്പ്"
     },
     {
-      "ward_id": "fa41bee1-6ef3-4380-83ad-e9463b96ced8",
+      "id": "fa41bee1-6ef3-4380-83ad-e9463b96ced8",
       "ward_no": "12",
-      "ward_name_en": "Karakkattuparamb",
-      "ward_name_ml": "കാരക്കാട്ടുുപറമ്പ്"
+      "name_en": "Karakkattuparamb",
+      "name_ml": "കാരക്കാട്ടുുപറമ്പ്"
     },
     {
-      "ward_id": "cf55461d-17a6-41d5-b7c3-334e1839c819",
+      "id": "cf55461d-17a6-41d5-b7c3-334e1839c819",
       "ward_no": "13",
-      "ward_name_en": "Palappetti",
-      "ward_name_ml": "പാലപ്പെട്ടി"
+      "name_en": "Palappetti",
+      "name_ml": "പാലപ്പെട്ടി"
     },
     {
-      "ward_id": "ee393df8-7a4c-4b0c-965d-7b10cd4eb995",
+      "id": "ee393df8-7a4c-4b0c-965d-7b10cd4eb995",
       "ward_no": "14",
-      "ward_name_en": "Koonulmadu",
-      "ward_name_ml": "കൂനൂള്‍മാട്"
+      "name_en": "Koonulmadu",
+      "name_ml": "കൂനൂള്‍മാട്"
     },
     {
-      "ward_id": "50c97678-4053-4c8d-b307-a51142551cdc",
+      "id": "50c97678-4053-4c8d-b307-a51142551cdc",
       "ward_no": "15",
-      "ward_name_en": "Srambyabazar",
-      "ward_name_ml": "സ്രാബ്യാബസാര്‍"
+      "name_en": "Srambyabazar",
+      "name_ml": "സ്രാബ്യാബസാര്‍"
     },
     {
-      "ward_id": "f946dd95-3384-42e7-94fe-2296dbe58d89",
+      "id": "f946dd95-3384-42e7-94fe-2296dbe58d89",
       "ward_no": "16",
-      "ward_name_en": "Paruthikkodu",
-      "ward_name_ml": "പരുത്തിക്കോട്"
+      "name_en": "Paruthikkodu",
+      "name_ml": "പരുത്തിക്കോട്"
     },
     {
-      "ward_id": "4cb7000d-9038-4695-87c1-8b4e8a318658",
+      "id": "4cb7000d-9038-4695-87c1-8b4e8a318658",
       "ward_no": "17",
-      "ward_name_en": "Puthurpallikkal",
-      "ward_name_ml": "പുത്തൂര്‍പളളിക്കല്‍"
+      "name_en": "Puthurpallikkal",
+      "name_ml": "പുത്തൂര്‍പളളിക്കല്‍"
     },
     {
-      "ward_id": "bd4c7b3b-3bb8-4b74-b315-00c73f75038d",
+      "id": "bd4c7b3b-3bb8-4b74-b315-00c73f75038d",
       "ward_no": "18",
-      "ward_name_en": "Ankapparambu",
-      "ward_name_ml": "അങ്കപ്പറമ്പ്"
+      "name_en": "Ankapparambu",
+      "name_ml": "അങ്കപ്പറമ്പ്"
     },
     {
-      "ward_id": "a304ff62-92fc-4c2c-b851-bb9dfd8c9435",
+      "id": "a304ff62-92fc-4c2c-b851-bb9dfd8c9435",
       "ward_no": "19",
-      "ward_name_en": "Chenakkal",
-      "ward_name_ml": "ചെനക്കല്‍"
+      "name_en": "Chenakkal",
+      "name_ml": "ചെനക്കല്‍"
     },
     {
-      "ward_id": "ebb379ee-de8b-4a56-aff5-785887c4e52f",
+      "id": "ebb379ee-de8b-4a56-aff5-785887c4e52f",
       "ward_no": "20",
-      "ward_name_en": "Nedungottumadu",
-      "ward_name_ml": "നെടുംങ്ങോട്ട്മാട്"
+      "name_en": "Nedungottumadu",
+      "name_ml": "നെടുംങ്ങോട്ട്മാട്"
     },
     {
-      "ward_id": "6e05885c-b69b-4e1e-b25f-b8fc97d1e82b",
+      "id": "6e05885c-b69b-4e1e-b25f-b8fc97d1e82b",
       "ward_no": "21",
-      "ward_name_en": "Kurunthala",
-      "ward_name_ml": "കുറുന്തല"
+      "name_en": "Kurunthala",
+      "name_ml": "കുറുന്തല"
     },
     {
-      "ward_id": "b29ccd7e-9426-42be-8b47-563c3ee3bc19",
+      "id": "b29ccd7e-9426-42be-8b47-563c3ee3bc19",
       "ward_no": "22",
-      "ward_name_en": "Chettiyarmadu",
-      "ward_name_ml": "ചെട്ട്യാര്‍മാട്"
+      "name_en": "Chettiyarmadu",
+      "name_ml": "ചെട്ട്യാര്‍മാട്"
     }
   ],
   "towns": [],

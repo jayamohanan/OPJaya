@@ -1,62 +1,83 @@
 {
-  "assembly_id": "120",
-  "assembly_name_en": "Pathanapuram",
-  "assembly_name_ml": "പത്തനാപുരം",
-  "category": "Normal",
+  "id": "120",
+  "name_en": "Pathanapuram",
+  "name_ml": "പത്തനാപുരം",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G020303",
-      "local_body_name_en": "Melila",
-      "local_body_name_ml": "മേലില",
-      "category": "Good"
+      "id": "G020303",
+      "name_en": "Melila",
+      "name_ml": "മേലില",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G020406",
-      "local_body_name_en": "Pathanapuram",
-      "local_body_name_ml": "പത്തനാപുരം",
-      "category": "Perfect"
+      "id": "G020406",
+      "name_en": "Pathanapuram",
+      "name_ml": "പത്തനാപുരം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020405",
-      "local_body_name_en": "Pattazhi",
-      "local_body_name_ml": "പട്ടാഴി",
-      "category": "Normal"
+      "id": "G020405",
+      "name_en": "Pattazhi",
+      "name_ml": "പട്ടാഴി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020404",
-      "local_body_name_en": "Pattazhi Vadakkekara",
-      "local_body_name_ml": "പട്ടാഴി വടക്കേക്കര",
-      "category": "Perfect"
+      "id": "G020404",
+      "name_en": "Pattazhi Vadakkekara",
+      "name_ml": "പട്ടാഴി വടക്കേക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020403",
-      "local_body_name_en": "Piravanthoor",
-      "local_body_name_ml": "പിറവന്തൂര്‍",
-      "category": "Normal"
+      "id": "G020403",
+      "name_en": "Piravanthoor",
+      "name_ml": "പിറവന്തൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020402",
-      "local_body_name_en": "Thalavoor",
-      "local_body_name_ml": "തലവൂര്‍",
-      "category": "Normal"
+      "id": "G020402",
+      "name_en": "Thalavoor",
+      "name_ml": "തലവൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020302",
-      "local_body_name_en": "Vettikavala",
-      "local_body_name_ml": "വെട്ടിക്കവല",
-      "category": "Perfect"
+      "id": "G020302",
+      "name_en": "Vettikavala",
+      "name_ml": "വെട്ടിക്കവല",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G020401",
-      "local_body_name_en": "Vilakkudy",
-      "local_body_name_ml": "വിളക്കുടി",
-      "category": "Normal"
+      "id": "G020401",
+      "name_en": "Vilakkudy",
+      "name_ml": "വിളക്കുടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

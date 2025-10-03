@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G080602",
-  "local_body_name_en": "Avanur",
-  "local_body_name_ml": "അവണൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G080602",
+  "name_en": "Avanur",
+  "name_ml": "അവണൂര്‍",
+  "assembly_id": "65",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "65",
-    "assembly_name_en": "Wadakkanchery",
-    "assembly_name_ml": "വടക്കാഞ്ചേരി",
-    "category": "Normal"
+    "id": "65",
+    "name_en": "Wadakkanchery",
+    "name_ml": "വടക്കാഞ്ചേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "54b2b8c1-258c-4efa-9789-5361c4d436ae",
+      "id": "54b2b8c1-258c-4efa-9789-5361c4d436ae",
       "ward_no": "1",
-      "ward_name_en": "Thangaloor",
-      "ward_name_ml": "തങ്ങാലൂര്‍"
+      "name_en": "Thangaloor",
+      "name_ml": "തങ്ങാലൂര്‍"
     },
     {
-      "ward_id": "9fa48615-cc2c-42d6-a54b-127918718d30",
+      "id": "9fa48615-cc2c-42d6-a54b-127918718d30",
       "ward_no": "2",
-      "ward_name_en": "Edakulam",
-      "ward_name_ml": "എടക്കുളം"
+      "name_en": "Edakulam",
+      "name_ml": "എടക്കുളം"
     },
     {
-      "ward_id": "85a48f87-5598-43a6-ac43-bcbb8ceb9596",
+      "id": "85a48f87-5598-43a6-ac43-bcbb8ceb9596",
       "ward_no": "3",
-      "ward_name_en": "Velappaya",
-      "ward_name_ml": "വെളപ്പായ"
+      "name_en": "Velappaya",
+      "name_ml": "വെളപ്പായ"
     },
     {
-      "ward_id": "d3187f60-ebc0-45c0-b573-d74efece7f64",
+      "id": "d3187f60-ebc0-45c0-b573-d74efece7f64",
       "ward_no": "4",
-      "ward_name_en": "Medical College",
-      "ward_name_ml": "മെഡിക്കല്‍ കോളേജ്"
+      "name_en": "Medical College",
+      "name_ml": "മെഡിക്കല്‍ കോളേജ്"
     },
     {
-      "ward_id": "a3e34d7d-a681-411c-b2df-617b83062d3c",
+      "id": "a3e34d7d-a681-411c-b2df-617b83062d3c",
       "ward_no": "5",
-      "ward_name_en": "Velappaya South",
-      "ward_name_ml": "വെളപ്പായ സൗത്ത്‌"
+      "name_en": "Velappaya South",
+      "name_ml": "വെളപ്പായ സൗത്ത്‌"
     },
     {
-      "ward_id": "4ed04e8c-8ded-4eef-b072-727653966482",
+      "id": "4ed04e8c-8ded-4eef-b072-727653966482",
       "ward_no": "6",
-      "ward_name_en": "Manithara",
-      "ward_name_ml": "മണിത്തറ"
+      "name_en": "Manithara",
+      "name_ml": "മണിത്തറ"
     },
     {
-      "ward_id": "81b12dd7-3ba8-4019-9962-a28c61649349",
+      "id": "81b12dd7-3ba8-4019-9962-a28c61649349",
       "ward_no": "7",
-      "ward_name_en": "Choolissery",
-      "ward_name_ml": "ചൂലിശ്ശേരി"
+      "name_en": "Choolissery",
+      "name_ml": "ചൂലിശ്ശേരി"
     },
     {
-      "ward_id": "1d9d7be8-33e9-44a8-ae1b-b7ca1541cb8b",
+      "id": "1d9d7be8-33e9-44a8-ae1b-b7ca1541cb8b",
       "ward_no": "8",
-      "ward_name_en": "Narayanathara",
-      "ward_name_ml": "നാരായണത്തറ"
+      "name_en": "Narayanathara",
+      "name_ml": "നാരായണത്തറ"
     },
     {
-      "ward_id": "8bdc1772-3517-4fad-a7c9-ca1dcb6c886c",
+      "id": "8bdc1772-3517-4fad-a7c9-ca1dcb6c886c",
       "ward_no": "9",
-      "ward_name_en": "Kolangattukara",
-      "ward_name_ml": "കോളങ്ങാട്ടുകര"
+      "name_en": "Kolangattukara",
+      "name_ml": "കോളങ്ങാട്ടുകര"
     },
     {
-      "ward_id": "b075544e-dbcf-4a60-8403-b884d462f354",
+      "id": "b075544e-dbcf-4a60-8403-b884d462f354",
       "ward_no": "10",
-      "ward_name_en": "Varadiyam East",
-      "ward_name_ml": "വരടിയം ഈസ്റ്റ്‌"
+      "name_en": "Varadiyam East",
+      "name_ml": "വരടിയം ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "5e0d9781-5da9-4802-8552-d70514ec5f03",
+      "id": "5e0d9781-5da9-4802-8552-d70514ec5f03",
       "ward_no": "11",
-      "ward_name_en": "Varadiyam South",
-      "ward_name_ml": "വരടിയം സൗത്ത്"
+      "name_en": "Varadiyam South",
+      "name_ml": "വരടിയം സൗത്ത്"
     },
     {
-      "ward_id": "53e5ae68-093e-4531-95ab-3d85571ccd51",
+      "id": "53e5ae68-093e-4531-95ab-3d85571ccd51",
       "ward_no": "12",
-      "ward_name_en": "Ambethkar Gramam",
-      "ward_name_ml": "അംബേദ്ക്കര്‍ ഗ്രാമം"
+      "name_en": "Ambethkar Gramam",
+      "name_ml": "അംബേദ്ക്കര്‍ ഗ്രാമം"
     },
     {
-      "ward_id": "a1eb0055-28b9-4c4b-8771-a815581a73ac",
+      "id": "a1eb0055-28b9-4c4b-8771-a815581a73ac",
       "ward_no": "13",
-      "ward_name_en": "Varadiyam North",
-      "ward_name_ml": "വരടിയം നോര്‍ത്ത്"
+      "name_en": "Varadiyam North",
+      "name_ml": "വരടിയം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "e9118824-54e7-48ee-84e4-5341aee27011",
+      "id": "e9118824-54e7-48ee-84e4-5341aee27011",
       "ward_no": "14",
-      "ward_name_en": "Avanur",
-      "ward_name_ml": "അവണൂര്‍"
+      "name_en": "Avanur",
+      "name_ml": "അവണൂര്‍"
     },
     {
-      "ward_id": "4f4e692e-6260-43ab-bf5f-731e162261b2",
+      "id": "4f4e692e-6260-43ab-bf5f-731e162261b2",
       "ward_no": "15",
-      "ward_name_en": "Karore",
-      "ward_name_ml": "കാരോര്‍"
+      "name_en": "Karore",
+      "name_ml": "കാരോര്‍"
     }
   ],
   "towns": [],

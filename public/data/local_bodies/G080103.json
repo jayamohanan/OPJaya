@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G080103",
-  "local_body_name_en": "Punnayur",
-  "local_body_name_ml": "പുന്നയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G080103",
+  "name_en": "Punnayur",
+  "name_ml": "പുന്നയൂര്‍",
+  "assembly_id": "63",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "63",
-    "assembly_name_en": "Guruvayur",
-    "assembly_name_ml": "ഗുരുവായൂര്‍",
-    "category": "Normal"
+    "id": "63",
+    "name_en": "Guruvayur",
+    "name_ml": "ഗുരുവായൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a4072e8b-3f7c-468b-8390-27d21a004fad",
+      "id": "a4072e8b-3f7c-468b-8390-27d21a004fad",
       "ward_no": "1",
-      "ward_name_en": "Mannalamkunnu",
-      "ward_name_ml": "മന്ദലാംകുന്ന്"
+      "name_en": "Mannalamkunnu",
+      "name_ml": "മന്ദലാംകുന്ന്"
     },
     {
-      "ward_id": "738ee8d4-fa72-4005-9086-8b5b421dcc39",
+      "id": "738ee8d4-fa72-4005-9086-8b5b421dcc39",
       "ward_no": "2",
-      "ward_name_en": "Edakkara West",
-      "ward_name_ml": "എടക്കര വെസ്റ്റ്"
+      "name_en": "Edakkara West",
+      "name_ml": "എടക്കര വെസ്റ്റ്"
     },
     {
-      "ward_id": "a2f203b2-e273-4742-9e79-cd07ea997062",
+      "id": "a2f203b2-e273-4742-9e79-cd07ea997062",
       "ward_no": "3",
-      "ward_name_en": "Edakkara East",
-      "ward_name_ml": "എടക്കര ഈസ്റ്റ്"
+      "name_en": "Edakkara East",
+      "name_ml": "എടക്കര ഈസ്റ്റ്"
     },
     {
-      "ward_id": "006e864a-1583-4a0f-8f51-a5e33a9f986a",
+      "id": "006e864a-1583-4a0f-8f51-a5e33a9f986a",
       "ward_no": "4",
-      "ward_name_en": "Vadakke Punnayur",
-      "ward_name_ml": "വടക്കേ പുന്നയൂര്‍"
+      "name_en": "Vadakke Punnayur",
+      "name_ml": "വടക്കേ പുന്നയൂര്‍"
     },
     {
-      "ward_id": "729fdee7-39dc-4209-9317-b31c46373014",
+      "id": "729fdee7-39dc-4209-9317-b31c46373014",
       "ward_no": "5",
-      "ward_name_en": "Kadampulli",
-      "ward_name_ml": "കടാംപുള്ളി"
+      "name_en": "Kadampulli",
+      "name_ml": "കടാംപുള്ളി"
     },
     {
-      "ward_id": "df423a7d-2026-4058-88b5-b7ff6ac54c73",
+      "id": "df423a7d-2026-4058-88b5-b7ff6ac54c73",
       "ward_no": "6",
-      "ward_name_en": "Thekke Punnayur",
-      "ward_name_ml": "തെക്കേ പുന്നയൂര്‍"
+      "name_en": "Thekke Punnayur",
+      "name_ml": "തെക്കേ പുന്നയൂര്‍"
     },
     {
-      "ward_id": "0889a113-900f-43ae-9ed5-bde7ded89036",
+      "id": "0889a113-900f-43ae-9ed5-bde7ded89036",
       "ward_no": "7",
-      "ward_name_en": "Aviyur",
-      "ward_name_ml": "അവിയൂര്‍"
+      "name_en": "Aviyur",
+      "name_ml": "അവിയൂര്‍"
     },
     {
-      "ward_id": "f71b6764-711e-4760-b51e-76a2083dd1c5",
+      "id": "f71b6764-711e-4760-b51e-76a2083dd1c5",
       "ward_no": "8",
-      "ward_name_en": "Kuranjiyur",
-      "ward_name_ml": "കുരഞ്ഞിയൂര്‍"
+      "name_en": "Kuranjiyur",
+      "name_ml": "കുരഞ്ഞിയൂര്‍"
     },
     {
-      "ward_id": "0753b43a-19ec-4b91-bb72-37fd1191d6c4",
+      "id": "0753b43a-19ec-4b91-bb72-37fd1191d6c4",
       "ward_no": "9",
-      "ward_name_en": "Edakkazhiyur North",
-      "ward_name_ml": "എടക്കഴിയൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Edakkazhiyur North",
+      "name_ml": "എടക്കഴിയൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "68222099-1cc1-440b-9f71-223967d9d69a",
+      "id": "68222099-1cc1-440b-9f71-223967d9d69a",
       "ward_no": "10",
-      "ward_name_en": "Edakkazhiyur West",
-      "ward_name_ml": "എടക്കഴിയൂര്‍ വെസ്റ്റ്"
+      "name_en": "Edakkazhiyur West",
+      "name_ml": "എടക്കഴിയൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "666ea0e6-919c-40ce-8fc9-e2cf0b99b326",
+      "id": "666ea0e6-919c-40ce-8fc9-e2cf0b99b326",
       "ward_no": "11",
-      "ward_name_en": "Kajah Company Edakkazhiyur West",
-      "ward_name_ml": "കാജാ കമ്പനി എടക്കഴിയൂര്‍ വെസ്റ്റ്"
+      "name_en": "Kajah Company Edakkazhiyur West",
+      "name_ml": "കാജാ കമ്പനി എടക്കഴിയൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "bb9533fd-33fb-48b0-aaf5-c69a4112234e",
+      "id": "bb9533fd-33fb-48b0-aaf5-c69a4112234e",
       "ward_no": "12",
-      "ward_name_en": "Edakkazhiyur East",
-      "ward_name_ml": "എടക്കഴിയൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Edakkazhiyur East",
+      "name_ml": "എടക്കഴിയൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "77aafa61-d92d-448a-b26c-7fc3ed5858d8",
+      "id": "77aafa61-d92d-448a-b26c-7fc3ed5858d8",
       "ward_no": "13",
-      "ward_name_en": "Panchavadi South",
-      "ward_name_ml": "പഞ്ചവടി സൌത്ത്"
+      "name_en": "Panchavadi South",
+      "name_ml": "പഞ്ചവടി സൌത്ത്"
     },
     {
-      "ward_id": "a814c6e9-e7ec-4a26-b1ee-4808046c2fcd",
+      "id": "a814c6e9-e7ec-4a26-b1ee-4808046c2fcd",
       "ward_no": "14",
-      "ward_name_en": "Edakkazhiyur Beach",
-      "ward_name_ml": "എടക്കഴിയൂര്‍ ബീച്ച്"
+      "name_en": "Edakkazhiyur Beach",
+      "name_ml": "എടക്കഴിയൂര്‍ ബീച്ച്"
     },
     {
-      "ward_id": "11a12058-9b41-4afd-a0d1-4de5ca216c88",
+      "id": "11a12058-9b41-4afd-a0d1-4de5ca216c88",
       "ward_no": "15",
-      "ward_name_en": "Panchavadi North",
-      "ward_name_ml": "പഞ്ചവടി നോര‍്‍‍‍ത്ത്"
+      "name_en": "Panchavadi North",
+      "name_ml": "പഞ്ചവടി നോര‍്‍‍‍ത്ത്"
     },
     {
-      "ward_id": "b0504de9-6099-4780-a592-3b72f79c19ab",
+      "id": "b0504de9-6099-4780-a592-3b72f79c19ab",
       "ward_no": "16",
-      "ward_name_en": "Ottayini",
-      "ward_name_ml": "ഒറ്റയിനി"
+      "name_en": "Ottayini",
+      "name_ml": "ഒറ്റയിനി"
     },
     {
-      "ward_id": "4501d77e-d1ee-4e61-8e15-73e734c86e0c",
+      "id": "4501d77e-d1ee-4e61-8e15-73e734c86e0c",
       "ward_no": "17",
-      "ward_name_en": "Akalad South",
-      "ward_name_ml": "അകലാട് സൌത്ത്"
+      "name_en": "Akalad South",
+      "name_ml": "അകലാട് സൌത്ത്"
     },
     {
-      "ward_id": "5652d12d-38c0-4f6c-8496-04425cb5fdcd",
+      "id": "5652d12d-38c0-4f6c-8496-04425cb5fdcd",
       "ward_no": "18",
-      "ward_name_en": "Moonayini",
-      "ward_name_ml": "മൂന്നയിനി"
+      "name_en": "Moonayini",
+      "name_ml": "മൂന്നയിനി"
     },
     {
-      "ward_id": "424efc1c-73c2-4b08-99d3-868a039dcf23",
+      "id": "424efc1c-73c2-4b08-99d3-868a039dcf23",
       "ward_no": "19",
-      "ward_name_en": "Baderpalli",
-      "ward_name_ml": "ബദര്‍പള്ളി"
+      "name_en": "Baderpalli",
+      "name_ml": "ബദര്‍പള്ളി"
     },
     {
-      "ward_id": "df1c1a19-c17b-4d9b-a633-a0c283ca1ad1",
+      "id": "df1c1a19-c17b-4d9b-a633-a0c283ca1ad1",
       "ward_no": "20",
-      "ward_name_en": "Moonayini East",
-      "ward_name_ml": "മൂന്നയിനി ഈസ്റ്റ്"
+      "name_en": "Moonayini East",
+      "name_ml": "മൂന്നയിനി ഈസ്റ്റ്"
     }
   ],
   "towns": [],

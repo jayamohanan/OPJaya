@@ -1,56 +1,73 @@
 {
-  "assembly_id": "6",
-  "assembly_name_en": "Payyannur",
-  "assembly_name_ml": "പയ്യന്നൂര്‍",
-  "category": "Normal",
+  "id": "6",
+  "name_en": "Payyannur",
+  "name_ml": "പയ്യന്നൂര്‍",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130107",
-      "local_body_name_en": "Cherupuzha",
-      "local_body_name_ml": "ചെറുപുഴ",
-      "category": "Perfect"
+      "id": "G130107",
+      "name_en": "Cherupuzha",
+      "name_ml": "ചെറുപുഴ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130105",
-      "local_body_name_en": "Eramam Kuttur",
-      "local_body_name_ml": "എരമം കുറ്റൂര്‍",
-      "category": "Perfect"
+      "id": "G130105",
+      "name_en": "Eramam Kuttur",
+      "name_ml": "എരമം കുറ്റൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130104",
-      "local_body_name_en": "Kankol - Alappadamba",
-      "local_body_name_ml": "കാങ്കോല്‍ - ആലപ്പടമ്പ",
-      "category": "Good"
+      "id": "G130104",
+      "name_en": "Kankol - Alappadamba",
+      "name_ml": "കാങ്കോല്‍ - ആലപ്പടമ്പ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G130103",
-      "local_body_name_en": "Karivellur Peralam",
-      "local_body_name_ml": "കരിവെള്ളൂര്‍ പെരളം",
-      "category": "Normal"
+      "id": "G130103",
+      "name_en": "Karivellur Peralam",
+      "name_ml": "കരിവെള്ളൂര്‍ പെരളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M130400",
-      "local_body_name_en": "Payyannur",
-      "local_body_name_ml": "പയ്യന്നൂര്‍",
-      "category": ""
+      "id": "M130400",
+      "name_en": "Payyannur",
+      "name_ml": "പയ്യന്നൂര്‍",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G130106",
-      "local_body_name_en": "Peringome Vayakkara",
-      "local_body_name_ml": "പെരിങ്ങോം വയക്കര",
-      "category": "Normal"
+      "id": "G130106",
+      "name_en": "Peringome Vayakkara",
+      "name_ml": "പെരിങ്ങോം വയക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130102",
-      "local_body_name_en": "Ramanthali",
-      "local_body_name_ml": "രാമന്തളി",
-      "category": "Normal"
+      "id": "G130102",
+      "name_en": "Ramanthali",
+      "name_ml": "രാമന്തളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

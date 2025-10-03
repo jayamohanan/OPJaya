@@ -1,184 +1,195 @@
 {
-  "local_body_id": "M040100",
-  "local_body_name_en": "Chengannur",
-  "local_body_name_ml": "ചെങ്ങന്നൂര്‍",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Good",
+  "id": "M040100",
+  "name_en": "Chengannur",
+  "name_ml": "ചെങ്ങന്നൂര്‍",
+  "assembly_id": "110",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "110",
-    "assembly_name_en": "Chengannur",
-    "assembly_name_ml": "ചെങ്ങന്നൂർ",
-    "category": "Normal"
+    "id": "110",
+    "name_en": "Chengannur",
+    "name_ml": "ചെങ്ങന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0ada7582-b353-413e-9e77-3d06dd738132",
+      "id": "0ada7582-b353-413e-9e77-3d06dd738132",
       "ward_no": "1",
-      "ward_name_en": "Mundencavu",
-      "ward_name_ml": "മുണ്ടന്‍കാവ്"
+      "name_en": "Mundencavu",
+      "name_ml": "മുണ്ടന്‍കാവ്"
     },
     {
-      "ward_id": "515e6551-d83d-4e2c-87f0-0539c52a0d68",
+      "id": "515e6551-d83d-4e2c-87f0-0539c52a0d68",
       "ward_no": "2",
-      "ward_name_en": "Kodiyattukara",
-      "ward_name_ml": "കോടിയാട്ടുകര"
+      "name_en": "Kodiyattukara",
+      "name_ml": "കോടിയാട്ടുകര"
     },
     {
-      "ward_id": "68eaca72-58cf-481d-8a03-bb9368ce499b",
+      "id": "68eaca72-58cf-481d-8a03-bb9368ce499b",
       "ward_no": "3",
-      "ward_name_en": "Temple",
-      "ward_name_ml": "ടെന്പിള്‍"
+      "name_en": "Temple",
+      "name_ml": "ടെന്പിള്‍"
     },
     {
-      "ward_id": "c333b732-e565-49bb-a83c-63d17513e32c",
+      "id": "c333b732-e565-49bb-a83c-63d17513e32c",
       "ward_no": "4",
-      "ward_name_en": "Mithrappuzha",
-      "ward_name_ml": "മിത്രപ്പുഴ"
+      "name_en": "Mithrappuzha",
+      "name_ml": "മിത്രപ്പുഴ"
     },
     {
-      "ward_id": "ea4e14a3-f089-4780-98ff-99ab7763ce74",
+      "id": "ea4e14a3-f089-4780-98ff-99ab7763ce74",
       "ward_no": "5",
-      "ward_name_en": "Vazharmangalam",
-      "ward_name_ml": "വാഴാര്‍മംഗലം"
+      "name_en": "Vazharmangalam",
+      "name_ml": "വാഴാര്‍മംഗലം"
     },
     {
-      "ward_id": "108d557b-b1b0-429b-a960-7f84340e3a4c",
+      "id": "108d557b-b1b0-429b-a960-7f84340e3a4c",
       "ward_no": "6",
-      "ward_name_en": "Mangalam South",
-      "ward_name_ml": "മംഗലം സൌത്ത്"
+      "name_en": "Mangalam South",
+      "name_ml": "മംഗലം സൌത്ത്"
     },
     {
-      "ward_id": "3d442fa9-7d7f-4896-906b-a9d02ef1651e",
+      "id": "3d442fa9-7d7f-4896-906b-a9d02ef1651e",
       "ward_no": "7",
-      "ward_name_en": "Mangalam North",
-      "ward_name_ml": "മംഗലം നോര്‍ത്ത്"
+      "name_en": "Mangalam North",
+      "name_ml": "മംഗലം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "efb8f4b4-3aa4-4986-b675-a7ae07c6ac73",
+      "id": "efb8f4b4-3aa4-4986-b675-a7ae07c6ac73",
       "ward_no": "8",
-      "ward_name_en": "Edanad West",
-      "ward_name_ml": "ഇടനാട് വെസ്റ്റ്"
+      "name_en": "Edanad West",
+      "name_ml": "ഇടനാട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "709672a6-e2a6-44be-bd1b-2558d9ec5ba8",
+      "id": "709672a6-e2a6-44be-bd1b-2558d9ec5ba8",
       "ward_no": "9",
-      "ward_name_en": "Edanad East",
-      "ward_name_ml": "ഇടനാട് ഈസ്റ്റ്"
+      "name_en": "Edanad East",
+      "name_ml": "ഇടനാട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "b4608a98-96d7-4437-8d44-588d473bd2fe",
+      "id": "b4608a98-96d7-4437-8d44-588d473bd2fe",
       "ward_no": "10",
-      "ward_name_en": "Puthencavu  East",
-      "ward_name_ml": "പുത്തന്‍കാവ് ഈസ്റ്റ്"
+      "name_en": "Puthencavu  East",
+      "name_ml": "പുത്തന്‍കാവ് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "71780822-488f-419b-a23f-7be385f09bce",
+      "id": "71780822-488f-419b-a23f-7be385f09bce",
       "ward_no": "11",
-      "ward_name_en": "Arattukadavu",
-      "ward_name_ml": "ആറാട്ടുകടവ്"
+      "name_en": "Arattukadavu",
+      "name_ml": "ആറാട്ടുകടവ്"
     },
     {
-      "ward_id": "ab16b67a-d0bc-452c-8824-c00ce279e593",
+      "id": "ab16b67a-d0bc-452c-8824-c00ce279e593",
       "ward_no": "12",
-      "ward_name_en": "Puthencavu  West",
-      "ward_name_ml": "പുത്തന്‍കാവ് വെസ്റ്റ്"
+      "name_en": "Puthencavu  West",
+      "name_ml": "പുത്തന്‍കാവ് വെസ്റ്റ്"
     },
     {
-      "ward_id": "891054bc-2bfa-40ef-b4f9-dcf3180af35d",
+      "id": "891054bc-2bfa-40ef-b4f9-dcf3180af35d",
       "ward_no": "13",
-      "ward_name_en": "Sasthamkulangara",
-      "ward_name_ml": "ശാസ്താംകുളങ്ങര"
+      "name_en": "Sasthamkulangara",
+      "name_ml": "ശാസ്താംകുളങ്ങര"
     },
     {
-      "ward_id": "8a7619d9-1961-4a87-844b-91b869f73aa0",
+      "id": "8a7619d9-1961-4a87-844b-91b869f73aa0",
       "ward_no": "14",
-      "ward_name_en": "Angadickal",
-      "ward_name_ml": "അങ്ങാടിക്കല്‍"
+      "name_en": "Angadickal",
+      "name_ml": "അങ്ങാടിക്കല്‍"
     },
     {
-      "ward_id": "613cd4b5-d18e-4f52-b9c4-dbb49ea95267",
+      "id": "613cd4b5-d18e-4f52-b9c4-dbb49ea95267",
       "ward_no": "15",
-      "ward_name_en": "Malayil",
-      "ward_name_ml": "മലയില്‍"
+      "name_en": "Malayil",
+      "name_ml": "മലയില്‍"
     },
     {
-      "ward_id": "30d2033d-543a-456b-8532-b6ffd59abeed",
+      "id": "30d2033d-543a-456b-8532-b6ffd59abeed",
       "ward_no": "16",
-      "ward_name_en": "I T I",
-      "ward_name_ml": "ഐ ടി ഐ"
+      "name_en": "I T I",
+      "name_ml": "ഐ ടി ഐ"
     },
     {
-      "ward_id": "5167212a-7114-4749-b02a-aa4b3acb4458",
+      "id": "5167212a-7114-4749-b02a-aa4b3acb4458",
       "ward_no": "17",
-      "ward_name_en": "College",
-      "ward_name_ml": "കോളേജ്"
+      "name_en": "College",
+      "name_ml": "കോളേജ്"
     },
     {
-      "ward_id": "0d2893fa-74c7-4402-8d39-01945fac8c72",
+      "id": "0d2893fa-74c7-4402-8d39-01945fac8c72",
       "ward_no": "18",
-      "ward_name_en": "Angadickal South",
-      "ward_name_ml": "അങ്ങാടിക്കല്‍ സൌത്ത്"
+      "name_en": "Angadickal South",
+      "name_ml": "അങ്ങാടിക്കല്‍ സൌത്ത്"
     },
     {
-      "ward_id": "340ef153-b2ca-4bc8-9e17-aa774d837782",
+      "id": "340ef153-b2ca-4bc8-9e17-aa774d837782",
       "ward_no": "19",
-      "ward_name_en": "Hatchery",
-      "ward_name_ml": "ഹാച്ചറി"
+      "name_en": "Hatchery",
+      "name_ml": "ഹാച്ചറി"
     },
     {
-      "ward_id": "134e3341-96aa-45c5-b5d2-0c21944b6bdb",
+      "id": "134e3341-96aa-45c5-b5d2-0c21944b6bdb",
       "ward_no": "20",
-      "ward_name_en": "Moolappadavu",
-      "ward_name_ml": "മൂലപ്പടവ്"
+      "name_en": "Moolappadavu",
+      "name_ml": "മൂലപ്പടവ്"
     },
     {
-      "ward_id": "72b88489-b76b-4951-bdf4-14c4d5b6e455",
+      "id": "72b88489-b76b-4951-bdf4-14c4d5b6e455",
       "ward_no": "21",
-      "ward_name_en": "Thittamel",
-      "ward_name_ml": "തിട്ടമേല്‍"
+      "name_en": "Thittamel",
+      "name_ml": "തിട്ടമേല്‍"
     },
     {
-      "ward_id": "35f4fe77-ec3a-49bd-a771-4e579e368fb4",
+      "id": "35f4fe77-ec3a-49bd-a771-4e579e368fb4",
       "ward_no": "22",
-      "ward_name_en": "Pandavanpara",
-      "ward_name_ml": "പാണ്ഡവന്‍പാറ"
+      "name_en": "Pandavanpara",
+      "name_ml": "പാണ്ഡവന്‍പാറ"
     },
     {
-      "ward_id": "8b273a92-c962-459f-899c-bc57da10b66d",
+      "id": "8b273a92-c962-459f-899c-bc57da10b66d",
       "ward_no": "23",
-      "ward_name_en": "Bethel",
-      "ward_name_ml": "ബഥേല്‍"
+      "name_en": "Bethel",
+      "name_ml": "ബഥേല്‍"
     },
     {
-      "ward_id": "45ea8bfb-5ee2-4aa2-bccd-2e74bdf03a8b",
+      "id": "45ea8bfb-5ee2-4aa2-bccd-2e74bdf03a8b",
       "ward_no": "24",
-      "ward_name_en": "Town",
-      "ward_name_ml": "ടൌണ്‍"
+      "name_en": "Town",
+      "name_ml": "ടൌണ്‍"
     },
     {
-      "ward_id": "805f4793-c63d-4e74-b3d9-f0bc7bb0b5b6",
+      "id": "805f4793-c63d-4e74-b3d9-f0bc7bb0b5b6",
       "ward_no": "25",
-      "ward_name_en": "Railway Station",
-      "ward_name_ml": "റയില്‍വേ സ്റ്റേഷന്‍"
+      "name_en": "Railway Station",
+      "name_ml": "റയില്‍വേ സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "2332be41-a9ff-4f57-951f-dd113ffe3b3e",
+      "id": "2332be41-a9ff-4f57-951f-dd113ffe3b3e",
       "ward_no": "26",
-      "ward_name_en": "Vandimala",
-      "ward_name_ml": "വണ്ടിമല"
+      "name_en": "Vandimala",
+      "name_ml": "വണ്ടിമല"
     },
     {
-      "ward_id": "7f1f4234-aecb-482a-be3e-00485ed7ff2c",
+      "id": "7f1f4234-aecb-482a-be3e-00485ed7ff2c",
       "ward_no": "27",
-      "ward_name_en": "Valiyapalli",
-      "ward_name_ml": "വലിയപള്ളി"
+      "name_en": "Valiyapalli",
+      "name_ml": "വലിയപള്ളി"
     }
   ],
   "towns": [],

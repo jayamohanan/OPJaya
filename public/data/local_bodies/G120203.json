@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G120203",
-  "local_body_name_en": "Mullankolly",
-  "local_body_name_ml": "മുള്ളന്‍കൊല്ലി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G120203",
+  "name_en": "Mullankolly",
+  "name_ml": "മുള്ളന്‍കൊല്ലി",
+  "assembly_id": "18",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "18",
-    "assembly_name_en": "Sulthan Bathery",
-    "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
-    "category": "Normal"
+    "id": "18",
+    "name_en": "Sulthan Bathery",
+    "name_ml": "സുൽത്താൻ ബത്തേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f95457ce-7902-4b47-9cc8-e3f541a842fb",
+      "id": "f95457ce-7902-4b47-9cc8-e3f541a842fb",
       "ward_no": "1",
-      "ward_name_en": "Perikaloor Kadavu",
-      "ward_name_ml": "പെരിക്കല്ലൂര്കടവ്"
+      "name_en": "Perikaloor Kadavu",
+      "name_ml": "പെരിക്കല്ലൂര്കടവ്"
     },
     {
-      "ward_id": "78030f0b-3fe0-4a29-8367-f1b7ba8daee1",
+      "id": "78030f0b-3fe0-4a29-8367-f1b7ba8daee1",
       "ward_no": "2",
-      "ward_name_en": "Bhoothanamkunnu",
-      "ward_name_ml": "ഭൂതാനംകുന്ന്"
+      "name_en": "Bhoothanamkunnu",
+      "name_ml": "ഭൂതാനംകുന്ന്"
     },
     {
-      "ward_id": "31a676ad-c19c-4e84-9b0b-0467a8559ea5",
+      "id": "31a676ad-c19c-4e84-9b0b-0467a8559ea5",
       "ward_no": "3",
-      "ward_name_en": "Cheloor",
-      "ward_name_ml": "ചേലൂര്"
+      "name_en": "Cheloor",
+      "name_ml": "ചേലൂര്"
     },
     {
-      "ward_id": "32f7cdd6-7e02-43a5-9165-793af7bbe398",
+      "id": "32f7cdd6-7e02-43a5-9165-793af7bbe398",
       "ward_no": "4",
-      "ward_name_en": "Marakkadavu",
-      "ward_name_ml": "മരക്കടവ്"
+      "name_en": "Marakkadavu",
+      "name_ml": "മരക്കടവ്"
     },
     {
-      "ward_id": "f3c7c865-2eaf-4906-b46c-fcfde620501c",
+      "id": "f3c7c865-2eaf-4906-b46c-fcfde620501c",
       "ward_no": "5",
-      "ward_name_en": "Kabanigiri",
-      "ward_name_ml": "കബനിഗിരി"
+      "name_en": "Kabanigiri",
+      "name_ml": "കബനിഗിരി"
     },
     {
-      "ward_id": "2673aa24-10f2-4962-a6ef-a72f0152fa07",
+      "id": "2673aa24-10f2-4962-a6ef-a72f0152fa07",
       "ward_no": "6",
-      "ward_name_en": "Padichira",
-      "ward_name_ml": "പാടിച്ചിറ"
+      "name_en": "Padichira",
+      "name_ml": "പാടിച്ചിറ"
     },
     {
-      "ward_id": "594ca376-3b59-432e-b405-7af0d2551e88",
+      "id": "594ca376-3b59-432e-b405-7af0d2551e88",
       "ward_no": "7",
-      "ward_name_en": "Parakkavala",
-      "ward_name_ml": "പാറക്കവല"
+      "name_en": "Parakkavala",
+      "name_ml": "പാറക്കവല"
     },
     {
-      "ward_id": "eedc69d9-8cde-489a-bb7a-31488c8b3710",
+      "id": "eedc69d9-8cde-489a-bb7a-31488c8b3710",
       "ward_no": "8",
-      "ward_name_en": "Seethamount",
-      "ward_name_ml": "സീതാമൌണ്ട്"
+      "name_en": "Seethamount",
+      "name_ml": "സീതാമൌണ്ട്"
     },
     {
-      "ward_id": "729dab35-bf29-4a7d-8abc-26eee01a5943",
+      "id": "729dab35-bf29-4a7d-8abc-26eee01a5943",
       "ward_no": "9",
-      "ward_name_en": "Channothukolly",
-      "ward_name_ml": "ചണ്ണോത്തുകൊല്ലി"
+      "name_en": "Channothukolly",
+      "name_ml": "ചണ്ണോത്തുകൊല്ലി"
     },
     {
-      "ward_id": "e170fa7f-bdfb-469e-81ab-556c13ad93ea",
+      "id": "e170fa7f-bdfb-469e-81ab-556c13ad93ea",
       "ward_no": "10",
-      "ward_name_en": "Parakadavu",
-      "ward_name_ml": "പാറക്കടവ്"
+      "name_en": "Parakadavu",
+      "name_ml": "പാറക്കടവ്"
     },
     {
-      "ward_id": "fb42762d-330c-4cbd-81ba-feb5c1428fc1",
+      "id": "fb42762d-330c-4cbd-81ba-feb5c1428fc1",
       "ward_no": "11",
-      "ward_name_en": "Chettapalam",
-      "ward_name_ml": "ചെറ്റപ്പാലം"
+      "name_en": "Chettapalam",
+      "name_ml": "ചെറ്റപ്പാലം"
     },
     {
-      "ward_id": "6ad7a1a6-d846-4275-b4ee-a5c174ba2c2d",
+      "id": "6ad7a1a6-d846-4275-b4ee-a5c174ba2c2d",
       "ward_no": "12",
-      "ward_name_en": "Alathur",
-      "ward_name_ml": "ആലത്തൂര്"
+      "name_en": "Alathur",
+      "name_ml": "ആലത്തൂര്"
     },
     {
-      "ward_id": "eb29903c-2fc9-41a6-afb4-a40da9dd2041",
+      "id": "eb29903c-2fc9-41a6-afb4-a40da9dd2041",
       "ward_no": "13",
-      "ward_name_en": "Sasimala",
-      "ward_name_ml": "ശശിമല"
+      "name_en": "Sasimala",
+      "name_ml": "ശശിമല"
     },
     {
-      "ward_id": "c1c59a0f-a806-4598-aa51-d99affe6a0da",
+      "id": "c1c59a0f-a806-4598-aa51-d99affe6a0da",
       "ward_no": "14",
-      "ward_name_en": "Irippode",
-      "ward_name_ml": "ഇരിപ്പൂട്"
+      "name_en": "Irippode",
+      "name_ml": "ഇരിപ്പൂട്"
     },
     {
-      "ward_id": "db7532ff-da95-4efb-8e4d-7758b10b2fed",
+      "id": "db7532ff-da95-4efb-8e4d-7758b10b2fed",
       "ward_no": "15",
-      "ward_name_en": "Mullankolly",
-      "ward_name_ml": "മുള്ളന്കൊല്ലി"
+      "name_en": "Mullankolly",
+      "name_ml": "മുള്ളന്കൊല്ലി"
     },
     {
-      "ward_id": "ef12f507-8cea-4107-ac49-791331b1d602",
+      "id": "ef12f507-8cea-4107-ac49-791331b1d602",
       "ward_no": "16",
-      "ward_name_en": "Palakolly",
-      "ward_name_ml": "പാളക്കൊല്ലി"
+      "name_en": "Palakolly",
+      "name_ml": "പാളക്കൊല്ലി"
     },
     {
-      "ward_id": "fe61d0e2-53bc-4797-86c1-327a57012352",
+      "id": "fe61d0e2-53bc-4797-86c1-327a57012352",
       "ward_no": "17",
-      "ward_name_en": "Pathiri",
-      "ward_name_ml": "പാതിരി"
+      "name_en": "Pathiri",
+      "name_ml": "പാതിരി"
     },
     {
-      "ward_id": "6046d8be-70a5-494a-b2bd-08e4ea00c51b",
+      "id": "6046d8be-70a5-494a-b2bd-08e4ea00c51b",
       "ward_no": "18",
-      "ward_name_en": "Pattanikoop",
-      "ward_name_ml": "പട്ടാണിക്കൂപ്പ്"
+      "name_en": "Pattanikoop",
+      "name_ml": "പട്ടാണിക്കൂപ്പ്"
     }
   ],
   "towns": [],

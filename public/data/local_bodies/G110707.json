@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G110707",
-  "local_body_name_en": "Koorachundu",
-  "local_body_name_ml": "കൂരാച്ചുണ്ട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G110707",
+  "name_en": "Koorachundu",
+  "name_ml": "കൂരാച്ചുണ്ട്",
+  "assembly_id": "25",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "25",
-    "assembly_name_en": "Balussery",
-    "assembly_name_ml": "ബാലുശ്ശേരി",
-    "category": "Normal"
+    "id": "25",
+    "name_en": "Balussery",
+    "name_ml": "ബാലുശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b19cd604-0e11-44f7-8c46-2a6bc2e13612",
+      "id": "b19cd604-0e11-44f7-8c46-2a6bc2e13612",
       "ward_no": "1",
-      "ward_name_en": "Sankaravayal",
-      "ward_name_ml": "ശങ്കരവയല്‍"
+      "name_en": "Sankaravayal",
+      "name_ml": "ശങ്കരവയല്‍"
     },
     {
-      "ward_id": "d9b78c80-40ac-40f0-a148-5895277c21df",
+      "id": "d9b78c80-40ac-40f0-a148-5895277c21df",
       "ward_no": "2",
-      "ward_name_en": "Kalangali",
-      "ward_name_ml": "കാളങ്ങാലി"
+      "name_en": "Kalangali",
+      "name_ml": "കാളങ്ങാലി"
     },
     {
-      "ward_id": "a7ef0904-b705-4655-9afa-e54a83582eb1",
+      "id": "a7ef0904-b705-4655-9afa-e54a83582eb1",
       "ward_no": "3",
-      "ward_name_en": "Ottapalam",
-      "ward_name_ml": "ഓട്ടപ്പാലം"
+      "name_en": "Ottapalam",
+      "name_ml": "ഓട്ടപ്പാലം"
     },
     {
-      "ward_id": "a119fa2f-820e-4616-bb7a-ecc17f2d3912",
+      "id": "a119fa2f-820e-4616-bb7a-ecc17f2d3912",
       "ward_no": "4",
-      "ward_name_en": "Kakkayam",
-      "ward_name_ml": "കക്കയം"
+      "name_en": "Kakkayam",
+      "name_ml": "കക്കയം"
     },
     {
-      "ward_id": "2a232ad6-d2f7-4124-ad51-bf04c23ee656",
+      "id": "2a232ad6-d2f7-4124-ad51-bf04c23ee656",
       "ward_no": "5",
-      "ward_name_en": "Kariyathumpara",
-      "ward_name_ml": "കരിയാത്തുംപാറ"
+      "name_en": "Kariyathumpara",
+      "name_ml": "കരിയാത്തുംപാറ"
     },
     {
-      "ward_id": "24ce6588-6148-4955-b24e-e88428a85e45",
+      "id": "24ce6588-6148-4955-b24e-e88428a85e45",
       "ward_no": "6",
-      "ward_name_en": "Thonikkadav",
-      "ward_name_ml": "തോണിക്കടവ്"
+      "name_en": "Thonikkadav",
+      "name_ml": "തോണിക്കടവ്"
     },
     {
-      "ward_id": "7406cdee-a872-4c49-b730-78af3e1297c6",
+      "id": "7406cdee-a872-4c49-b730-78af3e1297c6",
       "ward_no": "7",
-      "ward_name_en": "Kallanode",
-      "ward_name_ml": "കല്ലാനോട്"
+      "name_en": "Kallanode",
+      "name_ml": "കല്ലാനോട്"
     },
     {
-      "ward_id": "425c093d-595c-4814-b6a5-0a2f8b55a93a",
+      "id": "425c093d-595c-4814-b6a5-0a2f8b55a93a",
       "ward_no": "8",
-      "ward_name_en": "Chalidam",
-      "ward_name_ml": "ചാലിടം"
+      "name_en": "Chalidam",
+      "name_ml": "ചാലിടം"
     },
     {
-      "ward_id": "79f811cd-d373-476d-95ff-a9c9cc6f310d",
+      "id": "79f811cd-d373-476d-95ff-a9c9cc6f310d",
       "ward_no": "9",
-      "ward_name_en": "Poovathumchola",
-      "ward_name_ml": "പൂവത്തും ചോല"
+      "name_en": "Poovathumchola",
+      "name_ml": "പൂവത്തും ചോല"
     },
     {
-      "ward_id": "1e43e643-8ea5-4fa8-aad8-69af98f5f550",
+      "id": "1e43e643-8ea5-4fa8-aad8-69af98f5f550",
       "ward_no": "10",
-      "ward_name_en": "Vattachira",
-      "ward_name_ml": "വട്ടച്ചിറ"
+      "name_en": "Vattachira",
+      "name_ml": "വട്ടച്ചിറ"
     },
     {
-      "ward_id": "57472f7d-04d3-4d3e-9a2a-bbb7927df9c5",
+      "id": "57472f7d-04d3-4d3e-9a2a-bbb7927df9c5",
       "ward_no": "11",
-      "ward_name_en": "Kattullamala",
-      "ward_name_ml": "കാറ്റുള്ള മല"
+      "name_en": "Kattullamala",
+      "name_ml": "കാറ്റുള്ള മല"
     },
     {
-      "ward_id": "e649692c-7fe3-456a-bc66-dfebddb744b8",
+      "id": "e649692c-7fe3-456a-bc66-dfebddb744b8",
       "ward_no": "12",
-      "ward_name_en": "Koorachundu",
-      "ward_name_ml": "കൂരാചുണ്ട്"
+      "name_en": "Koorachundu",
+      "name_ml": "കൂരാചുണ്ട്"
     },
     {
-      "ward_id": "3257df86-027b-4a88-8ef3-7eb5e93376f5",
+      "id": "3257df86-027b-4a88-8ef3-7eb5e93376f5",
       "ward_no": "13",
-      "ward_name_en": "Onjil",
-      "ward_name_ml": "ഓഞ്ഞില്‍"
+      "name_en": "Onjil",
+      "name_ml": "ഓഞ്ഞില്‍"
     }
   ],
   "towns": [],

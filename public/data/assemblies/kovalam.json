@@ -1,56 +1,75 @@
 {
-  "assembly_id": "139",
-  "assembly_name_en": "Kovalam",
-  "assembly_name_ml": "കോവളം",
-  "category": "Normal",
+  "id": "139",
+  "name_en": "Kovalam",
+  "name_ml": "കോവളം",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010801",
-      "local_body_name_en": "Balaramapuram",
-      "local_body_name_ml": "ബാലരാമപുരം",
-      "category": "Normal"
+      "id": "G010801",
+      "name_en": "Balaramapuram",
+      "name_ml": "ബാലരാമപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010807",
-      "local_body_name_en": "Kalliyoor",
-      "local_body_name_ml": "കല്ലിയൂര്‍",
-      "category": "Good"
+      "id": "G010807",
+      "name_en": "Kalliyoor",
+      "name_ml": "കല്ലിയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G011002",
-      "local_body_name_en": "Kanjiramkulam",
-      "local_body_name_ml": "കാഞ്ഞിരംകുളം",
-      "category": "Perfect"
+      "id": "G011002",
+      "name_en": "Kanjiramkulam",
+      "name_ml": "കാഞ്ഞിരംകുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G011003",
-      "local_body_name_en": "Karumkulam",
-      "local_body_name_ml": "കരുംകുളം",
-      "category": "Normal"
+      "id": "G011003",
+      "name_en": "Karumkulam",
+      "name_ml": "കരുംകുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G011004",
-      "local_body_name_en": "Kottukal",
-      "local_body_name_ml": "കോട്ടുകാല്‍",
-      "category": "Perfect"
+      "id": "G011004",
+      "name_en": "Kottukal",
+      "name_ml": "കോട്ടുകാല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G011106",
-      "local_body_name_en": "Poovar",
-      "local_body_name_ml": "പൂവാര്‍",
-      "category": "Normal"
+      "id": "G011106",
+      "name_en": "Poovar",
+      "name_ml": "പൂവാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G011005",
-      "local_body_name_en": "Venganoor",
-      "local_body_name_ml": "വെങ്ങാനൂര്‍",
-      "category": "Perfect"
+      "id": "G011005",
+      "name_en": "Venganoor",
+      "name_ml": "വെങ്ങാനൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G101002",
-  "local_body_name_en": "Edarikode",
-  "local_body_name_ml": "എടരിക്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G101002",
+  "name_en": "Edarikode",
+  "name_ml": "എടരിക്കോട്",
+  "assembly_id": "43",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "43",
-    "assembly_name_en": "Tirurangadi",
-    "assembly_name_ml": "തിരൂരങ്ങാടി",
-    "category": "Normal"
+    "id": "43",
+    "name_en": "Tirurangadi",
+    "name_ml": "തിരൂരങ്ങാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5a2f9141-4a0c-4f7d-8839-1dff94a41ddd",
+      "id": "5a2f9141-4a0c-4f7d-8839-1dff94a41ddd",
       "ward_no": "1",
-      "ward_name_en": "Puthupparamba",
-      "ward_name_ml": "പുതുപ്പറമ്പ്"
+      "name_en": "Puthupparamba",
+      "name_ml": "പുതുപ്പറമ്പ്"
     },
     {
-      "ward_id": "e595adbe-2e16-4912-a657-621ae521c4ac",
+      "id": "e595adbe-2e16-4912-a657-621ae521c4ac",
       "ward_no": "2",
-      "ward_name_en": "Karattangadi",
-      "ward_name_ml": "കാരാട്ടങ്ങാടി"
+      "name_en": "Karattangadi",
+      "name_ml": "കാരാട്ടങ്ങാടി"
     },
     {
-      "ward_id": "e2e34335-cfde-4a1d-a5f1-3087b9a5c913",
+      "id": "e2e34335-cfde-4a1d-a5f1-3087b9a5c913",
       "ward_no": "3",
-      "ward_name_en": "Ottathengu",
-      "ward_name_ml": "ഒറ്റത്തെങ്ങ്"
+      "name_en": "Ottathengu",
+      "name_ml": "ഒറ്റത്തെങ്ങ്"
     },
     {
-      "ward_id": "7056e8b8-53f0-4785-a56f-a5b832a99196",
+      "id": "7056e8b8-53f0-4785-a56f-a5b832a99196",
       "ward_no": "4",
-      "ward_name_en": "Njarathadam",
-      "ward_name_ml": "ഞാറത്തടം"
+      "name_en": "Njarathadam",
+      "name_ml": "ഞാറത്തടം"
     },
     {
-      "ward_id": "c7a5b3e5-bf5b-4968-ac55-910d24f41e01",
+      "id": "c7a5b3e5-bf5b-4968-ac55-910d24f41e01",
       "ward_no": "5",
-      "ward_name_en": "Pottippara",
-      "ward_name_ml": "പൊട്ടിപ്പാറ"
+      "name_en": "Pottippara",
+      "name_ml": "പൊട്ടിപ്പാറ"
     },
     {
-      "ward_id": "dd9894d0-d6b2-4aa7-a12d-381b0404c3a6",
+      "id": "dd9894d0-d6b2-4aa7-a12d-381b0404c3a6",
       "ward_no": "6",
-      "ward_name_en": "Areekal City",
-      "ward_name_ml": "അരീക്കല്‍ സിറ്റി"
+      "name_en": "Areekal City",
+      "name_ml": "അരീക്കല്‍ സിറ്റി"
     },
     {
-      "ward_id": "ede50d8d-a557-48cb-b0b6-18cefda17db3",
+      "id": "ede50d8d-a557-48cb-b0b6-18cefda17db3",
       "ward_no": "7",
-      "ward_name_en": "Vailikulambu",
-      "ward_name_ml": "വൈലിക്കുളമ്പ്"
+      "name_en": "Vailikulambu",
+      "name_ml": "വൈലിക്കുളമ്പ്"
     },
     {
-      "ward_id": "0ba1730f-07d4-4c37-84e3-d1c99824d110",
+      "id": "0ba1730f-07d4-4c37-84e3-d1c99824d110",
       "ward_no": "8",
-      "ward_name_en": "Ambalavattom",
-      "ward_name_ml": "അമ്പലവട്ടം"
+      "name_en": "Ambalavattom",
+      "name_ml": "അമ്പലവട്ടം"
     },
     {
-      "ward_id": "23e598c0-ab9b-4b12-b733-8a296dbfa416",
+      "id": "23e598c0-ab9b-4b12-b733-8a296dbfa416",
       "ward_no": "9",
-      "ward_name_en": "Kunnummal",
-      "ward_name_ml": "കുന്നുമ്മല്‍"
+      "name_en": "Kunnummal",
+      "name_ml": "കുന്നുമ്മല്‍"
     },
     {
-      "ward_id": "274404ab-071d-428e-b1c9-6ac6b2009f0e",
+      "id": "274404ab-071d-428e-b1c9-6ac6b2009f0e",
       "ward_no": "10",
-      "ward_name_en": "Swagathamadu",
-      "ward_name_ml": "സ്വാഗതമാട്"
+      "name_en": "Swagathamadu",
+      "name_ml": "സ്വാഗതമാട്"
     },
     {
-      "ward_id": "8e61b207-3ad2-47f2-b220-056f9b07bbc6",
+      "id": "8e61b207-3ad2-47f2-b220-056f9b07bbc6",
       "ward_no": "11",
-      "ward_name_en": "Cherushola",
-      "ward_name_ml": "ചെറുശ്ശോല"
+      "name_en": "Cherushola",
+      "name_ml": "ചെറുശ്ശോല"
     },
     {
-      "ward_id": "68665873-fba1-429c-867f-0aa4e7415dc4",
+      "id": "68665873-fba1-429c-867f-0aa4e7415dc4",
       "ward_no": "12",
-      "ward_name_en": "Clari South",
-      "ward_name_ml": "ക്ലാരി സൌത്ത്"
+      "name_en": "Clari South",
+      "name_ml": "ക്ലാരി സൌത്ത്"
     },
     {
-      "ward_id": "a8647c20-02e8-4fc7-80fc-bacd5c3f8320",
+      "id": "a8647c20-02e8-4fc7-80fc-bacd5c3f8320",
       "ward_no": "13",
-      "ward_name_en": "Edarikode South",
-      "ward_name_ml": "എടരിക്കോട് സൌത്ത്"
+      "name_en": "Edarikode South",
+      "name_ml": "എടരിക്കോട് സൌത്ത്"
     },
     {
-      "ward_id": "9d3679c7-54fc-4ae6-bc7b-93997efac7e9",
+      "id": "9d3679c7-54fc-4ae6-bc7b-93997efac7e9",
       "ward_no": "14",
-      "ward_name_en": "Edarikode North",
-      "ward_name_ml": "എടരിക്കോട് നോര്‍ത്ത്"
+      "name_en": "Edarikode North",
+      "name_ml": "എടരിക്കോട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "6f2dc310-623b-42bb-9d95-df4c18117825",
+      "id": "6f2dc310-623b-42bb-9d95-df4c18117825",
       "ward_no": "15",
-      "ward_name_en": "Chudalappara",
-      "ward_name_ml": "ചുടലപ്പാറ"
+      "name_en": "Chudalappara",
+      "name_ml": "ചുടലപ്പാറ"
     },
     {
-      "ward_id": "2529fd49-2caf-4af8-9a11-58ae95d142ba",
+      "id": "2529fd49-2caf-4af8-9a11-58ae95d142ba",
       "ward_no": "16",
-      "ward_name_en": "Arayakulam",
-      "ward_name_ml": "അരയകുളം"
+      "name_en": "Arayakulam",
+      "name_ml": "അരയകുളം"
     }
   ],
   "towns": [],

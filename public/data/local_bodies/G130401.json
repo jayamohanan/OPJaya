@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G130401",
-  "local_body_name_en": "Eruvessy",
-  "local_body_name_ml": "എരുവേശ്ശി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "9",
-    "assembly_name_en": "Irikkur",
-    "assembly_name_ml": "ഇരിക്കൂര്‍",
+  "id": "G130401",
+  "name_en": "Eruvessy",
+  "name_ml": "എരുവേശ്ശി",
+  "assembly_id": "9",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "9",
+    "name_en": "Irikkur",
+    "name_ml": "ഇരിക്കൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7a8accb6-6ea1-4f60-8584-080aa0164723",
+      "id": "7a8accb6-6ea1-4f60-8584-080aa0164723",
       "ward_no": "1",
-      "ward_name_en": "Kudiyanmala",
-      "ward_name_ml": "കുടിയാന്മല"
+      "name_en": "Kudiyanmala",
+      "name_ml": "കുടിയാന്മല"
     },
     {
-      "ward_id": "0ad0e521-ab0f-4f6e-9b2f-4fefe2fb099a",
+      "id": "0ad0e521-ab0f-4f6e-9b2f-4fefe2fb099a",
       "ward_no": "2",
-      "ward_name_en": "Areekamala",
-      "ward_name_ml": "അരീക്കമല"
+      "name_en": "Areekamala",
+      "name_ml": "അരീക്കമല"
     },
     {
-      "ward_id": "a3dbfe34-2913-416a-9d87-c7c6b66ccd88",
+      "id": "a3dbfe34-2913-416a-9d87-c7c6b66ccd88",
       "ward_no": "3",
-      "ward_name_en": "Cheriya Areekamala",
-      "ward_name_ml": "ചെറിയ അരീക്കമല"
+      "name_en": "Cheriya Areekamala",
+      "name_ml": "ചെറിയ അരീക്കമല"
     },
     {
-      "ward_id": "a04ee939-4100-4b40-a125-d7dae8f02323",
+      "id": "a04ee939-4100-4b40-a125-d7dae8f02323",
       "ward_no": "4",
-      "ward_name_en": "Nellikutty",
-      "ward_name_ml": "നെല്ലിക്കുറ്റി"
+      "name_en": "Nellikutty",
+      "name_ml": "നെല്ലിക്കുറ്റി"
     },
     {
-      "ward_id": "0b325e01-23ff-47ba-9b82-ceafbff74508",
+      "id": "0b325e01-23ff-47ba-9b82-ceafbff74508",
       "ward_no": "5",
-      "ward_name_en": "Vembuva",
-      "ward_name_ml": "വെമ്പുവ"
+      "name_en": "Vembuva",
+      "name_ml": "വെമ്പുവ"
     },
     {
-      "ward_id": "c0068664-d802-48e7-9046-f8a5b2ac5182",
+      "id": "c0068664-d802-48e7-9046-f8a5b2ac5182",
       "ward_no": "6",
-      "ward_name_en": "Pooparamba",
-      "ward_name_ml": "പൂപ്പറമ്പ്"
+      "name_en": "Pooparamba",
+      "name_ml": "പൂപ്പറമ്പ്"
     },
     {
-      "ward_id": "c44296a6-9899-4193-9a19-b8e7d8713698",
+      "id": "c44296a6-9899-4193-9a19-b8e7d8713698",
       "ward_no": "7",
-      "ward_name_en": "Muyipra",
-      "ward_name_ml": "മുയിപ്ര"
+      "name_en": "Muyipra",
+      "name_ml": "മുയിപ്ര"
     },
     {
-      "ward_id": "49ee8ef2-982e-456b-a4e2-e55b8ec8e5c6",
+      "id": "49ee8ef2-982e-456b-a4e2-e55b8ec8e5c6",
       "ward_no": "8",
-      "ward_name_en": "Eruvessy",
-      "ward_name_ml": "ഏരുവേശ്ശി"
+      "name_en": "Eruvessy",
+      "name_ml": "ഏരുവേശ്ശി"
     },
     {
-      "ward_id": "349a25ab-035d-4523-9db2-f997e61e5503",
+      "id": "349a25ab-035d-4523-9db2-f997e61e5503",
       "ward_no": "9",
-      "ward_name_en": "Chemperi",
-      "ward_name_ml": "ചെമ്പേരി"
+      "name_en": "Chemperi",
+      "name_ml": "ചെമ്പേരി"
     },
     {
-      "ward_id": "b2b3cffa-f3b1-46ed-abf9-83514d9c5329",
+      "id": "b2b3cffa-f3b1-46ed-abf9-83514d9c5329",
       "ward_no": "10",
-      "ward_name_en": "Edamana",
-      "ward_name_ml": "ഇടമന"
+      "name_en": "Edamana",
+      "name_ml": "ഇടമന"
     },
     {
-      "ward_id": "39e3f7bb-600e-4be1-9464-28ee5bced3d9",
+      "id": "39e3f7bb-600e-4be1-9464-28ee5bced3d9",
       "ward_no": "11",
-      "ward_name_en": "Chelimparamba",
-      "ward_name_ml": "ചെളിംപറമ്പ"
+      "name_en": "Chelimparamba",
+      "name_ml": "ചെളിംപറമ്പ"
     },
     {
-      "ward_id": "cee82bbe-2aed-44c8-b49b-534440b097f8",
+      "id": "cee82bbe-2aed-44c8-b49b-534440b097f8",
       "ward_no": "12",
-      "ward_name_en": "Tharacheetha",
-      "ward_name_ml": "താരച്ചീത്ത"
+      "name_en": "Tharacheetha",
+      "name_ml": "താരച്ചീത്ത"
     },
     {
-      "ward_id": "03b77bb7-2c67-4c2e-aeef-ae1c73a2391f",
+      "id": "03b77bb7-2c67-4c2e-aeef-ae1c73a2391f",
       "ward_no": "13",
-      "ward_name_en": "Rathnagiri",
-      "ward_name_ml": "രത്നഗിരി"
+      "name_en": "Rathnagiri",
+      "name_ml": "രത്നഗിരി"
     },
     {
-      "ward_id": "b01fd13a-8e15-435a-bd12-e7c7dc033fbe",
+      "id": "b01fd13a-8e15-435a-bd12-e7c7dc033fbe",
       "ward_no": "14",
-      "ward_name_en": "Kokkamullu",
-      "ward_name_ml": "കൊക്കമുള്ള്"
+      "name_en": "Kokkamullu",
+      "name_ml": "കൊക്കമുള്ള്"
     }
   ],
   "towns": [],

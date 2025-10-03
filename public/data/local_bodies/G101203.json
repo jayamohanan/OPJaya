@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G101203",
-  "local_body_name_en": "Tanalur",
-  "local_body_name_ml": "താനാളൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "44",
-    "assembly_name_en": "Tanur",
-    "assembly_name_ml": "താനൂര്‍",
+  "id": "G101203",
+  "name_en": "Tanalur",
+  "name_ml": "താനാളൂര്‍",
+  "assembly_id": "44",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "44",
+    "name_en": "Tanur",
+    "name_ml": "താനൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e7b62e39-f299-4dd4-993c-3e64bb62967e",
+      "id": "e7b62e39-f299-4dd4-993c-3e64bb62967e",
       "ward_no": "1",
-      "ward_name_en": "Moolakkal",
-      "ward_name_ml": "മുലക്കല്‍"
+      "name_en": "Moolakkal",
+      "name_ml": "മുലക്കല്‍"
     },
     {
-      "ward_id": "17415554-9c46-483f-97e2-ba1afcb79f26",
+      "id": "17415554-9c46-483f-97e2-ba1afcb79f26",
       "ward_no": "2",
-      "ward_name_en": "Devadar",
-      "ward_name_ml": "ദേവധാര്‍"
+      "name_en": "Devadar",
+      "name_ml": "ദേവധാര്‍"
     },
     {
-      "ward_id": "b40667d4-3c93-475b-bd92-106e9394d6ef",
+      "id": "b40667d4-3c93-475b-bd92-106e9394d6ef",
       "ward_no": "3",
-      "ward_name_en": "Puthantheru",
-      "ward_name_ml": "പുത്തന്‍തെരു"
+      "name_en": "Puthantheru",
+      "name_ml": "പുത്തന്‍തെരു"
     },
     {
-      "ward_id": "493fdc6a-ca4c-4fb8-9bd1-1eb15b8dc57f",
+      "id": "493fdc6a-ca4c-4fb8-9bd1-1eb15b8dc57f",
       "ward_no": "4",
-      "ward_name_en": "Pandiyatt",
-      "ward_name_ml": "പാണ്ടിയാട്ട്"
+      "name_en": "Pandiyatt",
+      "name_ml": "പാണ്ടിയാട്ട്"
     },
     {
-      "ward_id": "286968f2-f608-4d64-a53c-db86816e9a52",
+      "id": "286968f2-f608-4d64-a53c-db86816e9a52",
       "ward_no": "5",
-      "ward_name_en": "Parengath",
-      "ward_name_ml": "പരേങ്ങത്ത്"
+      "name_en": "Parengath",
+      "name_ml": "പരേങ്ങത്ത്"
     },
     {
-      "ward_id": "1822a11e-55f7-47f7-8833-f99934867b44",
+      "id": "1822a11e-55f7-47f7-8833-f99934867b44",
       "ward_no": "6",
-      "ward_name_en": "Tharayil",
-      "ward_name_ml": "തറയില്‍"
+      "name_en": "Tharayil",
+      "name_ml": "തറയില്‍"
     },
     {
-      "ward_id": "2975fed4-3fbb-4ab0-a106-3cab1135ad96",
+      "id": "2975fed4-3fbb-4ab0-a106-3cab1135ad96",
       "ward_no": "7",
-      "ward_name_en": "Theendappara",
-      "ward_name_ml": "തീണ്ടാപ്പാറ"
+      "name_en": "Theendappara",
+      "name_ml": "തീണ്ടാപ്പാറ"
     },
     {
-      "ward_id": "b409c812-b347-4cf8-9efe-a2a47d01b074",
+      "id": "b409c812-b347-4cf8-9efe-a2a47d01b074",
       "ward_no": "8",
-      "ward_name_en": "Pakara North",
-      "ward_name_ml": "പകര നോര്‍ത്ത്"
+      "name_en": "Pakara North",
+      "name_ml": "പകര നോര്‍ത്ത്"
     },
     {
-      "ward_id": "d5ec0454-2e1d-4e40-b0fb-70cfeaa48c0f",
+      "id": "d5ec0454-2e1d-4e40-b0fb-70cfeaa48c0f",
       "ward_no": "9",
-      "ward_name_en": "Thavalam Kunnu",
-      "ward_name_ml": "തവളാംകുന്ന്"
+      "name_en": "Thavalam Kunnu",
+      "name_ml": "തവളാംകുന്ന്"
     },
     {
-      "ward_id": "6726e7b9-ae4b-4609-8b2f-b7d9285b1997",
+      "id": "6726e7b9-ae4b-4609-8b2f-b7d9285b1997",
       "ward_no": "10",
-      "ward_name_en": "Areekkad",
-      "ward_name_ml": "അരീക്കാട്"
+      "name_en": "Areekkad",
+      "name_ml": "അരീക്കാട്"
     },
     {
-      "ward_id": "77edda41-6523-4dbd-bfec-a0d518a391f1",
+      "id": "77edda41-6523-4dbd-bfec-a0d518a391f1",
       "ward_no": "11",
-      "ward_name_en": "Areekkad Nirappu",
-      "ward_name_ml": "അരീക്കാട് നിരപ്പ്"
+      "name_en": "Areekkad Nirappu",
+      "name_ml": "അരീക്കാട് നിരപ്പ്"
     },
     {
-      "ward_id": "11e07edb-acb4-490a-b510-defe0ceac463",
+      "id": "11e07edb-acb4-490a-b510-defe0ceac463",
       "ward_no": "12",
-      "ward_name_en": "Pakara South",
-      "ward_name_ml": "പകര സൌത്ത്"
+      "name_en": "Pakara South",
+      "name_ml": "പകര സൌത്ത്"
     },
     {
-      "ward_id": "a20788b7-fc43-45a0-a45b-e33cdcc75764",
+      "id": "a20788b7-fc43-45a0-a45b-e33cdcc75764",
       "ward_no": "13",
-      "ward_name_en": "Meenadathur East",
-      "ward_name_ml": "മീനടത്തൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Meenadathur East",
+      "name_ml": "മീനടത്തൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "b3e0117e-c900-4ee4-91fa-9868ed3dec3a",
+      "id": "b3e0117e-c900-4ee4-91fa-9868ed3dec3a",
       "ward_no": "14",
-      "ward_name_en": "Meenadathur West",
-      "ward_name_ml": "മീനടത്തൂര്‍ വെസ്റ്റ്"
+      "name_en": "Meenadathur West",
+      "name_ml": "മീനടത്തൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "7bb04c9d-53b5-427d-8840-69e77bca8796",
+      "id": "7bb04c9d-53b5-427d-8840-69e77bca8796",
       "ward_no": "15",
-      "ward_name_en": "Moochikkal",
-      "ward_name_ml": "മൂച്ചിക്കല്‍"
+      "name_en": "Moochikkal",
+      "name_ml": "മൂച്ചിക്കല്‍"
     },
     {
-      "ward_id": "baf471c4-7a7e-458b-8d46-1662a26f47ef",
+      "id": "baf471c4-7a7e-458b-8d46-1662a26f47ef",
       "ward_no": "16",
-      "ward_name_en": "Valiyapadam",
-      "ward_name_ml": "വലിയപാടം"
+      "name_en": "Valiyapadam",
+      "name_ml": "വലിയപാടം"
     },
     {
-      "ward_id": "e0bc4c9c-0ba6-4575-bb84-eccd57c0b863",
+      "id": "e0bc4c9c-0ba6-4575-bb84-eccd57c0b863",
       "ward_no": "17",
-      "ward_name_en": "Tanalur",
-      "ward_name_ml": "താനാളൂര്‍"
+      "name_en": "Tanalur",
+      "name_ml": "താനാളൂര്‍"
     },
     {
-      "ward_id": "3b8140ab-bd4e-4865-80e4-b397174b0985",
+      "id": "3b8140ab-bd4e-4865-80e4-b397174b0985",
       "ward_no": "18",
-      "ward_name_en": "Vattathani",
-      "ward_name_ml": "വട്ടത്താണി"
+      "name_en": "Vattathani",
+      "name_ml": "വട്ടത്താണി"
     },
     {
-      "ward_id": "512cefe0-e672-49c9-aafe-8baa096f537e",
+      "id": "512cefe0-e672-49c9-aafe-8baa096f537e",
       "ward_no": "19",
-      "ward_name_en": "Kainippadam",
-      "ward_name_ml": "കൈനിപ്പാടം"
+      "name_en": "Kainippadam",
+      "name_ml": "കൈനിപ്പാടം"
     },
     {
-      "ward_id": "10e09791-7e8e-472e-b1c6-20dc5c5766fa",
+      "id": "10e09791-7e8e-472e-b1c6-20dc5c5766fa",
       "ward_no": "20",
-      "ward_name_en": "Puthukulangara",
-      "ward_name_ml": "പുത്തുകുളങ്ങര"
+      "name_en": "Puthukulangara",
+      "name_ml": "പുത്തുകുളങ്ങര"
     },
     {
-      "ward_id": "2e6cc2c8-bd4b-4d27-8e88-a80e49b2e53f",
+      "id": "2e6cc2c8-bd4b-4d27-8e88-a80e49b2e53f",
       "ward_no": "21",
-      "ward_name_en": "Pattaruparambu",
-      "ward_name_ml": "പട്ടരുപറമ്പ്"
+      "name_en": "Pattaruparambu",
+      "name_ml": "പട്ടരുപറമ്പ്"
     },
     {
-      "ward_id": "cb07fb94-f08c-4b0f-9d17-9f838c57b38c",
+      "id": "cb07fb94-f08c-4b0f-9d17-9f838c57b38c",
       "ward_no": "22",
-      "ward_name_en": "Kundungal",
-      "ward_name_ml": "കുണ്ടുങ്ങല്‍"
+      "name_en": "Kundungal",
+      "name_ml": "കുണ്ടുങ്ങല്‍"
     },
     {
-      "ward_id": "4847ccf9-55d5-4aab-a475-1818d60b5c53",
+      "id": "4847ccf9-55d5-4aab-a475-1818d60b5c53",
       "ward_no": "23",
-      "ward_name_en": "Keraladeeswarapuram",
-      "ward_name_ml": "കേരളാധീശ്വരപുരം"
+      "name_en": "Keraladeeswarapuram",
+      "name_ml": "കേരളാധീശ്വരപുരം"
     }
   ],
   "towns": [],

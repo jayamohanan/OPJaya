@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G140206",
-  "local_body_name_en": "Bedadka",
-  "local_body_name_ml": "ബേഡഡുക്ക",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "3",
-    "assembly_name_en": "Udma",
-    "assembly_name_ml": "ഉദുമ",
+  "id": "G140206",
+  "name_en": "Bedadka",
+  "name_ml": "ബേഡഡുക്ക",
+  "assembly_id": "3",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "3",
+    "name_en": "Udma",
+    "name_ml": "ഉദുമ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "38e5a135-ea2e-452e-be24-957d39c1d706",
+      "id": "38e5a135-ea2e-452e-be24-957d39c1d706",
       "ward_no": "1",
-      "ward_name_en": "Kallali",
-      "ward_name_ml": "കല്ലളി"
+      "name_en": "Kallali",
+      "name_ml": "കല്ലളി"
     },
     {
-      "ward_id": "0d10b5a1-3efc-44e2-8a83-160e91dfd8dd",
+      "id": "0d10b5a1-3efc-44e2-8a83-160e91dfd8dd",
       "ward_no": "2",
-      "ward_name_en": "Varikkulam",
-      "ward_name_ml": "വരിക്കുളം"
+      "name_en": "Varikkulam",
+      "name_ml": "വരിക്കുളം"
     },
     {
-      "ward_id": "2b4fa5bc-8beb-4bad-af7f-3f61bc6f72e6",
+      "id": "2b4fa5bc-8beb-4bad-af7f-3f61bc6f72e6",
       "ward_no": "3",
-      "ward_name_en": "Maruthadukkam",
-      "ward_name_ml": "മരുതടുക്കം"
+      "name_en": "Maruthadukkam",
+      "name_ml": "മരുതടുക്കം"
     },
     {
-      "ward_id": "3f783212-a873-4e95-96e8-37bed61594f2",
+      "id": "3f783212-a873-4e95-96e8-37bed61594f2",
       "ward_no": "4",
-      "ward_name_en": "Karakkad",
-      "ward_name_ml": "കാരക്കാട്"
+      "name_en": "Karakkad",
+      "name_ml": "കാരക്കാട്"
     },
     {
-      "ward_id": "9d0a9acd-3b2b-4944-97fc-abca05b6d198",
+      "id": "9d0a9acd-3b2b-4944-97fc-abca05b6d198",
       "ward_no": "5",
-      "ward_name_en": "Beembumgal",
-      "ward_name_ml": "ബീംബുങ്കാല്‍"
+      "name_en": "Beembumgal",
+      "name_ml": "ബീംബുങ്കാല്‍"
     },
     {
-      "ward_id": "7e690e7b-7124-45e5-ba90-55938c38fb20",
+      "id": "7e690e7b-7124-45e5-ba90-55938c38fb20",
       "ward_no": "6",
-      "ward_name_en": "Chembakkad",
-      "ward_name_ml": "ചെമ്പക്കാട്"
+      "name_en": "Chembakkad",
+      "name_ml": "ചെമ്പക്കാട്"
     },
     {
-      "ward_id": "ad7258aa-f368-4a47-ac25-2eb4c75f4d9a",
+      "id": "ad7258aa-f368-4a47-ac25-2eb4c75f4d9a",
       "ward_no": "7",
-      "ward_name_en": "Kundoochi",
-      "ward_name_ml": "കുണ്ടൂച്ചി"
+      "name_en": "Kundoochi",
+      "name_ml": "കുണ്ടൂച്ചി"
     },
     {
-      "ward_id": "8fbb8afc-490e-447f-8acd-fbc665cf9563",
+      "id": "8fbb8afc-490e-447f-8acd-fbc665cf9563",
       "ward_no": "8",
-      "ward_name_en": "Bedakam",
-      "ward_name_ml": "ബേഡകം"
+      "name_en": "Bedakam",
+      "name_ml": "ബേഡകം"
     },
     {
-      "ward_id": "05ced23d-4301-486d-b121-0b41afa1e687",
+      "id": "05ced23d-4301-486d-b121-0b41afa1e687",
       "ward_no": "9",
-      "ward_name_en": "Peringanam",
-      "ward_name_ml": "പെരിങ്ങാനം"
+      "name_en": "Peringanam",
+      "name_ml": "പെരിങ്ങാനം"
     },
     {
-      "ward_id": "f2845f8f-9d8f-40db-830a-34762163c8d1",
+      "id": "f2845f8f-9d8f-40db-830a-34762163c8d1",
       "ward_no": "10",
-      "ward_name_en": "Pulikkod",
-      "ward_name_ml": "പുലിക്കോട്"
+      "name_en": "Pulikkod",
+      "name_ml": "പുലിക്കോട്"
     },
     {
-      "ward_id": "c1ed3425-e540-4f98-bc1a-310e8fee8e11",
+      "id": "c1ed3425-e540-4f98-bc1a-310e8fee8e11",
       "ward_no": "11",
-      "ward_name_en": "Vavadukkam",
-      "ward_name_ml": "വാവടുക്കം"
+      "name_en": "Vavadukkam",
+      "name_ml": "വാവടുക്കം"
     },
     {
-      "ward_id": "88ed7479-87e9-4e26-aa37-abdf41bc9d58",
+      "id": "88ed7479-87e9-4e26-aa37-abdf41bc9d58",
       "ward_no": "12",
-      "ward_name_en": "Munnad",
-      "ward_name_ml": "മുന്നാട്"
+      "name_en": "Munnad",
+      "name_ml": "മുന്നാട്"
     },
     {
-      "ward_id": "9c037aa5-46f2-4e82-bba5-272733d34866",
+      "id": "9c037aa5-46f2-4e82-bba5-272733d34866",
       "ward_no": "13",
-      "ward_name_en": "Ambilady",
-      "ward_name_ml": "അമ്പിലാടി"
+      "name_en": "Ambilady",
+      "name_ml": "അമ്പിലാടി"
     },
     {
-      "ward_id": "4af7dcaf-4827-4649-85af-5321150da2fc",
+      "id": "4af7dcaf-4827-4649-85af-5321150da2fc",
       "ward_no": "14",
-      "ward_name_en": "Tharamthatta",
-      "ward_name_ml": "താരംതട്ട"
+      "name_en": "Tharamthatta",
+      "name_ml": "താരംതട്ട"
     },
     {
-      "ward_id": "ae71a4e2-8a04-4cf6-a6c6-237eb48f2b4b",
+      "id": "ae71a4e2-8a04-4cf6-a6c6-237eb48f2b4b",
       "ward_no": "15",
-      "ward_name_en": "Bedira",
-      "ward_name_ml": "ബെദിര"
+      "name_en": "Bedira",
+      "name_ml": "ബെദിര"
     },
     {
-      "ward_id": "f24bbc60-ab24-4a31-b79a-915b20662950",
+      "id": "f24bbc60-ab24-4a31-b79a-915b20662950",
       "ward_no": "16",
-      "ward_name_en": "Kundamkuzhy",
-      "ward_name_ml": "കുണ്ടംകുഴി"
+      "name_en": "Kundamkuzhy",
+      "name_ml": "കുണ്ടംകുഴി"
     },
     {
-      "ward_id": "4ab0d4d5-1f51-4209-b278-cac1da2ff514",
+      "id": "4ab0d4d5-1f51-4209-b278-cac1da2ff514",
       "ward_no": "17",
-      "ward_name_en": "Perladukkam",
-      "ward_name_ml": "പെര്‍ളടുക്കം"
+      "name_en": "Perladukkam",
+      "name_ml": "പെര്‍ളടുക്കം"
     }
   ],
   "towns": [],

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G080501",
-  "local_body_name_en": "Madakkathara",
-  "local_body_name_ml": "മാടക്കത്തറ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "66",
-    "assembly_name_en": "Ollur",
-    "assembly_name_ml": "ഒല്ലൂർ",
+  "id": "G080501",
+  "name_en": "Madakkathara",
+  "name_ml": "മാടക്കത്തറ",
+  "assembly_id": "66",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "66",
+    "name_en": "Ollur",
+    "name_ml": "ഒല്ലൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5b768366-217f-46a5-8c94-41da970c4476",
+      "id": "5b768366-217f-46a5-8c94-41da970c4476",
       "ward_no": "1",
-      "ward_name_en": "Mattampuram",
-      "ward_name_ml": "മാറ്റാംപ്പുറം"
+      "name_en": "Mattampuram",
+      "name_ml": "മാറ്റാംപ്പുറം"
     },
     {
-      "ward_id": "f87faf88-c408-45cc-804a-ebe6d758541e",
+      "id": "f87faf88-c408-45cc-804a-ebe6d758541e",
       "ward_no": "2",
-      "ward_name_en": "Karuvankad",
-      "ward_name_ml": "കരുവാന്‍കാട്"
+      "name_en": "Karuvankad",
+      "name_ml": "കരുവാന്‍കാട്"
     },
     {
-      "ward_id": "cd710a3b-fd27-4c6c-8dc4-fd4e6223c6c8",
+      "id": "cd710a3b-fd27-4c6c-8dc4-fd4e6223c6c8",
       "ward_no": "3",
-      "ward_name_en": "Muttikkal",
-      "ward_name_ml": "മുട്ടിക്കല്‍"
+      "name_en": "Muttikkal",
+      "name_ml": "മുട്ടിക്കല്‍"
     },
     {
-      "ward_id": "db324134-1421-4c4c-89b5-b76cbb203a2f",
+      "id": "db324134-1421-4c4c-89b5-b76cbb203a2f",
       "ward_no": "4",
-      "ward_name_en": "Kattilapoovam",
-      "ward_name_ml": "കട്ടിലപ്പൂവ്വം"
+      "name_en": "Kattilapoovam",
+      "name_ml": "കട്ടിലപ്പൂവ്വം"
     },
     {
-      "ward_id": "88ed8c7d-868c-4252-95c5-929ae7bd920f",
+      "id": "88ed8c7d-868c-4252-95c5-929ae7bd920f",
       "ward_no": "5",
-      "ward_name_en": "Chirakkakode",
-      "ward_name_ml": "ചിറയ്ക്കാക്കോട്"
+      "name_en": "Chirakkakode",
+      "name_ml": "ചിറയ്ക്കാക്കോട്"
     },
     {
-      "ward_id": "0025067a-548d-4718-9837-3031a6992b97",
+      "id": "0025067a-548d-4718-9837-3031a6992b97",
       "ward_no": "6",
-      "ward_name_en": "400 K V Sub Station",
-      "ward_name_ml": "400കെ വി സബ്സ്റ്റേഷന്‍"
+      "name_en": "400 K V Sub Station",
+      "name_ml": "400കെ വി സബ്സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "fbdaa718-c391-4428-9ee5-4c1548afd85e",
+      "id": "fbdaa718-c391-4428-9ee5-4c1548afd85e",
       "ward_no": "7",
-      "ward_name_en": "Pandiparambu",
-      "ward_name_ml": "പാണ്ടിപറമ്പ്"
+      "name_en": "Pandiparambu",
+      "name_ml": "പാണ്ടിപറമ്പ്"
     },
     {
-      "ward_id": "f382a754-8c46-4a6c-b57f-a338793a8e0d",
+      "id": "f382a754-8c46-4a6c-b57f-a338793a8e0d",
       "ward_no": "8",
-      "ward_name_en": "Pullanikkad",
-      "ward_name_ml": "പുല്ലാനിക്കാട്"
+      "name_en": "Pullanikkad",
+      "name_ml": "പുല്ലാനിക്കാട്"
     },
     {
-      "ward_id": "4c8d46a3-c370-4fc8-8961-9acd3000f654",
+      "id": "4c8d46a3-c370-4fc8-8961-9acd3000f654",
       "ward_no": "9",
-      "ward_name_en": "Kizhakke Vellanikkara",
-      "ward_name_ml": "കിഴക്കേ വെള്ളാനിക്കര"
+      "name_en": "Kizhakke Vellanikkara",
+      "name_ml": "കിഴക്കേ വെള്ളാനിക്കര"
     },
     {
-      "ward_id": "0547205c-4715-46d3-9b9b-9e3f0c4df01a",
+      "id": "0547205c-4715-46d3-9b9b-9e3f0c4df01a",
       "ward_no": "10",
-      "ward_name_en": "Kottepadam",
-      "ward_name_ml": "കോട്ടേപ്പാടം"
+      "name_en": "Kottepadam",
+      "name_ml": "കോട്ടേപ്പാടം"
     },
     {
-      "ward_id": "589cdce8-636f-4842-ad45-6d3c6b81b191",
+      "id": "589cdce8-636f-4842-ad45-6d3c6b81b191",
       "ward_no": "11",
-      "ward_name_en": "Pananjakam",
-      "ward_name_ml": "പനഞ്ചകം"
+      "name_en": "Pananjakam",
+      "name_ml": "പനഞ്ചകം"
     },
     {
-      "ward_id": "15353cfb-14bd-465a-8f18-686068aa9ef7",
+      "id": "15353cfb-14bd-465a-8f18-686068aa9ef7",
       "ward_no": "12",
-      "ward_name_en": "Padinjare Vellanikkara",
-      "ward_name_ml": "പടിഞ്ഞാറെ വെള്ളാനിക്കര"
+      "name_en": "Padinjare Vellanikkara",
+      "name_ml": "പടിഞ്ഞാറെ വെള്ളാനിക്കര"
     },
     {
-      "ward_id": "24b2186f-ab10-4d32-8426-2d764fffe5cb",
+      "id": "24b2186f-ab10-4d32-8426-2d764fffe5cb",
       "ward_no": "13",
-      "ward_name_en": "Madakkathara",
-      "ward_name_ml": "മാടക്കത്തറ"
+      "name_en": "Madakkathara",
+      "name_ml": "മാടക്കത്തറ"
     },
     {
-      "ward_id": "f25c2156-6da8-4fd8-a358-551bd304a56f",
+      "id": "f25c2156-6da8-4fd8-a358-551bd304a56f",
       "ward_no": "14",
-      "ward_name_en": "Vellanissery",
-      "ward_name_ml": "വെള്ളാനിശ്ശേരി"
+      "name_en": "Vellanissery",
+      "name_ml": "വെള്ളാനിശ്ശേരി"
     },
     {
-      "ward_id": "3eed1552-d227-4c68-8974-807c416c0f72",
+      "id": "3eed1552-d227-4c68-8974-807c416c0f72",
       "ward_no": "15",
-      "ward_name_en": "Thanikudam",
-      "ward_name_ml": "താണിക്കുടം"
+      "name_en": "Thanikudam",
+      "name_ml": "താണിക്കുടം"
     },
     {
-      "ward_id": "33032969-d35a-4c80-b8bb-df2e27dbe2e4",
+      "id": "33032969-d35a-4c80-b8bb-df2e27dbe2e4",
       "ward_no": "16",
-      "ward_name_en": "Ponganamkad",
-      "ward_name_ml": "പൊങ്ങണംകാട്"
+      "name_en": "Ponganamkad",
+      "name_ml": "പൊങ്ങണംകാട്"
     }
   ],
   "towns": [],

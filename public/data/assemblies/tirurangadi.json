@@ -1,50 +1,63 @@
 {
-  "assembly_id": "43",
-  "assembly_name_en": "Tirurangadi",
-  "assembly_name_ml": "തിരൂരങ്ങാടി",
-  "category": "Normal",
+  "id": "43",
+  "name_en": "Tirurangadi",
+  "name_ml": "തിരൂരങ്ങാടി",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G101002",
-      "local_body_name_en": "Edarikode",
-      "local_body_name_ml": "എടരിക്കോട്",
-      "category": "Perfect"
+      "id": "G101002",
+      "name_en": "Edarikode",
+      "name_ml": "എടരിക്കോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G101106",
-      "local_body_name_en": "Nannambra",
-      "local_body_name_ml": "നന്നമ്പ്ര",
-      "category": "Normal"
+      "id": "G101106",
+      "name_en": "Nannambra",
+      "name_ml": "നന്നമ്പ്ര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M101100",
-      "local_body_name_en": "Parappanangadi",
-      "local_body_name_ml": "പരപ്പനങ്ങാടി",
-      "category": ""
+      "id": "M101100",
+      "name_en": "Parappanangadi",
+      "name_ml": "പരപ്പനങ്ങാടി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G101208",
-      "local_body_name_en": "Perumanna Klari",
-      "local_body_name_ml": "പെരുമണ്ണ ക്ളാരി",
-      "category": "Good"
+      "id": "G101208",
+      "name_en": "Perumanna Klari",
+      "name_ml": "പെരുമണ്ണ ക്ളാരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G101004",
-      "local_body_name_en": "Thennala",
-      "local_body_name_ml": "തെന്നല",
-      "category": "Good"
+      "id": "G101004",
+      "name_en": "Thennala",
+      "name_ml": "തെന്നല",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M101000",
-      "local_body_name_en": "Tirurangadi",
-      "local_body_name_ml": "തിരൂരങ്ങാടി",
-      "category": ""
+      "id": "M101000",
+      "name_en": "Tirurangadi",
+      "name_ml": "തിരൂരങ്ങാടി",
+      "local_body_category": null
     }
   ],
   "geojson_links": {

@@ -1,184 +1,195 @@
 {
-  "local_body_id": "M071300",
-  "local_body_name_en": "Piravom",
-  "local_body_name_ml": "പിറവം",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Perfect",
+  "id": "M071300",
+  "name_en": "Piravom",
+  "name_ml": "പിറവം",
+  "assembly_id": "85",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "85",
-    "assembly_name_en": "Piravom",
-    "assembly_name_ml": "പിറവം",
-    "category": "Normal"
+    "id": "85",
+    "name_en": "Piravom",
+    "name_ml": "പിറവം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9d99595c-a7c6-41df-afd1-bf07efad7a84",
+      "id": "9d99595c-a7c6-41df-afd1-bf07efad7a84",
       "ward_no": "1",
-      "ward_name_en": "Kakkad West",
-      "ward_name_ml": "കക്കാട് വെസ്റ്റ്‌"
+      "name_en": "Kakkad West",
+      "name_ml": "കക്കാട് വെസ്റ്റ്‌"
     },
     {
-      "ward_id": "db4a8111-47a4-4a93-94e3-bd5b0b067712",
+      "id": "db4a8111-47a4-4a93-94e3-bd5b0b067712",
       "ward_no": "2",
-      "ward_name_en": "Kakkad Central",
-      "ward_name_ml": "കക്കാട് സെന്‍ട്രല്‍"
+      "name_en": "Kakkad Central",
+      "name_ml": "കക്കാട് സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "f98cf5ee-f6ed-40b0-8d65-5eb4536f7836",
+      "id": "f98cf5ee-f6ed-40b0-8d65-5eb4536f7836",
       "ward_no": "3",
-      "ward_name_en": "Kakkad East",
-      "ward_name_ml": "കക്കാട് ഈസ്റ്റ്‌"
+      "name_en": "Kakkad East",
+      "name_ml": "കക്കാട് ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "601841da-94ef-4ed8-a1d5-f146aad5c5a2",
+      "id": "601841da-94ef-4ed8-a1d5-f146aad5c5a2",
       "ward_no": "4",
-      "ward_name_en": "Kakkad South",
-      "ward_name_ml": "കക്കാട് സൗത്ത്"
+      "name_en": "Kakkad South",
+      "name_ml": "കക്കാട് സൗത്ത്"
     },
     {
-      "ward_id": "16d3493a-9f8f-4cd4-b4d9-b42fe1ec54a9",
+      "id": "16d3493a-9f8f-4cd4-b4d9-b42fe1ec54a9",
       "ward_no": "5",
-      "ward_name_en": "Karakode",
-      "ward_name_ml": "കരക്കോട്"
+      "name_en": "Karakode",
+      "name_ml": "കരക്കോട്"
     },
     {
-      "ward_id": "b403ca4b-9c32-4575-985b-f992455fbaa9",
+      "id": "b403ca4b-9c32-4575-985b-f992455fbaa9",
       "ward_no": "6",
-      "ward_name_en": "Kollickal",
-      "ward_name_ml": "കൊള്ളിക്കല്‍"
+      "name_en": "Kollickal",
+      "name_ml": "കൊള്ളിക്കല്‍"
     },
     {
-      "ward_id": "720763bf-6f80-45e0-9687-fb317ea98729",
+      "id": "720763bf-6f80-45e0-9687-fb317ea98729",
       "ward_no": "7",
-      "ward_name_en": "Piravom Town",
-      "ward_name_ml": "പിറവം ടൌണ്‍"
+      "name_en": "Piravom Town",
+      "name_ml": "പിറവം ടൌണ്‍"
     },
     {
-      "ward_id": "0626cc9a-e2d0-447f-9ab2-9f21adbd3685",
+      "id": "0626cc9a-e2d0-447f-9ab2-9f21adbd3685",
       "ward_no": "8",
-      "ward_name_en": "Thottabhagam North",
-      "ward_name_ml": "തോട്ടഭാഗം നോര്‍ത്ത്"
+      "name_en": "Thottabhagam North",
+      "name_ml": "തോട്ടഭാഗം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "9e1f529d-3129-48d9-9b20-017343782343",
+      "id": "9e1f529d-3129-48d9-9b20-017343782343",
       "ward_no": "9",
-      "ward_name_en": "Piravom North",
-      "ward_name_ml": "പിറവം നോര്‍ത്ത്"
+      "name_en": "Piravom North",
+      "name_ml": "പിറവം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "4b3d2626-4bea-40fd-ba9c-01b5bec04407",
+      "id": "4b3d2626-4bea-40fd-ba9c-01b5bec04407",
       "ward_no": "10",
-      "ward_name_en": "Piravom South",
-      "ward_name_ml": "പിറവം സൗത്ത്"
+      "name_en": "Piravom South",
+      "name_ml": "പിറവം സൗത്ത്"
     },
     {
-      "ward_id": "ba103274-88f2-4903-8ef4-697ddec9f77f",
+      "id": "ba103274-88f2-4903-8ef4-697ddec9f77f",
       "ward_no": "11",
-      "ward_name_en": "Piravom East",
-      "ward_name_ml": "പിറവം ഈസ്റ്റ്‌"
+      "name_en": "Piravom East",
+      "name_ml": "പിറവം ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "14f3c273-e7a8-43e4-8143-348120c18fc9",
+      "id": "14f3c273-e7a8-43e4-8143-348120c18fc9",
       "ward_no": "12",
-      "ward_name_en": "Kombanamala",
-      "ward_name_ml": "കൊമ്പനാമല"
+      "name_en": "Kombanamala",
+      "name_ml": "കൊമ്പനാമല"
     },
     {
-      "ward_id": "2354c8c0-eee8-4411-babf-71ec9006d9a5",
+      "id": "2354c8c0-eee8-4411-babf-71ec9006d9a5",
       "ward_no": "13",
-      "ward_name_en": "Palachuvade North",
-      "ward_name_ml": "പാലച്ചുവട്‌ നോര്‍ത്ത്"
+      "name_en": "Palachuvade North",
+      "name_ml": "പാലച്ചുവട്‌ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "ce676645-86ff-4f74-a18c-b0cea387c23c",
+      "id": "ce676645-86ff-4f74-a18c-b0cea387c23c",
       "ward_no": "14",
-      "ward_name_en": "Edappallichira",
-      "ward_name_ml": "ഇടപ്പള്ളിച്ചിറ"
+      "name_en": "Edappallichira",
+      "name_ml": "ഇടപ്പള്ളിച്ചിറ"
     },
     {
-      "ward_id": "372b5bb4-c2d7-4446-a03d-3c862de08145",
+      "id": "372b5bb4-c2d7-4446-a03d-3c862de08145",
       "ward_no": "15",
-      "ward_name_en": "Illickamukkada",
-      "ward_name_ml": "ഇല്ലിക്കമുക്കട"
+      "name_en": "Illickamukkada",
+      "name_ml": "ഇല്ലിക്കമുക്കട"
     },
     {
-      "ward_id": "7336993f-21e2-4cc9-9389-df1a55e13793",
+      "id": "7336993f-21e2-4cc9-9389-df1a55e13793",
       "ward_no": "16",
-      "ward_name_en": "Namakuzhy",
-      "ward_name_ml": "നാമക്കുഴി"
+      "name_en": "Namakuzhy",
+      "name_ml": "നാമക്കുഴി"
     },
     {
-      "ward_id": "2105d41b-2485-440c-8a8d-3ad2ba88e079",
+      "id": "2105d41b-2485-440c-8a8d-3ad2ba88e079",
       "ward_no": "17",
-      "ward_name_en": "Kallumada",
-      "ward_name_ml": "കല്ലുമട"
+      "name_en": "Kallumada",
+      "name_ml": "കല്ലുമട"
     },
     {
-      "ward_id": "12544329-e673-4e9b-93d8-914e18fb4b7f",
+      "id": "12544329-e673-4e9b-93d8-914e18fb4b7f",
       "ward_no": "18",
-      "ward_name_en": "Mulakkulam",
-      "ward_name_ml": "മുളക്കുളം"
+      "name_en": "Mulakkulam",
+      "name_ml": "മുളക്കുളം"
     },
     {
-      "ward_id": "8c95a1b7-a24c-49ac-9904-f23454bb024a",
+      "id": "8c95a1b7-a24c-49ac-9904-f23454bb024a",
       "ward_no": "19",
-      "ward_name_en": "Thottabhagam South",
-      "ward_name_ml": "തോട്ടഭാഗം  സൗത്ത്"
+      "name_en": "Thottabhagam South",
+      "name_ml": "തോട്ടഭാഗം  സൗത്ത്"
     },
     {
-      "ward_id": "d2ab28c1-526f-4a32-adbc-fa127792547c",
+      "id": "d2ab28c1-526f-4a32-adbc-fa127792547c",
       "ward_no": "20",
-      "ward_name_en": "Kalampoor Ittiyarmala",
-      "ward_name_ml": "കളംമ്പൂര്‍ ഇട്ട്യാര്‍മല"
+      "name_en": "Kalampoor Ittiyarmala",
+      "name_ml": "കളംമ്പൂര്‍ ഇട്ട്യാര്‍മല"
     },
     {
-      "ward_id": "2312747e-cf8c-4813-bee6-56e82a12db37",
+      "id": "2312747e-cf8c-4813-bee6-56e82a12db37",
       "ward_no": "21",
-      "ward_name_en": "Kalampoor South",
-      "ward_name_ml": "കളംമ്പൂര്‍  സൗത്ത്"
+      "name_en": "Kalampoor South",
+      "name_ml": "കളംമ്പൂര്‍  സൗത്ത്"
     },
     {
-      "ward_id": "4d99e257-7c65-4f4e-bc42-541664dd7a29",
+      "id": "4d99e257-7c65-4f4e-bc42-541664dd7a29",
       "ward_no": "22",
-      "ward_name_en": "Kalampoor West",
-      "ward_name_ml": "കളംമ്പൂര്‍ വെസ്റ്റ്"
+      "name_en": "Kalampoor West",
+      "name_ml": "കളംമ്പൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "d7188bc5-c27b-40fd-8ae0-324be8f25104",
+      "id": "d7188bc5-c27b-40fd-8ae0-324be8f25104",
       "ward_no": "23",
-      "ward_name_en": "Pazhoor South",
-      "ward_name_ml": "പാഴൂര്‍ സൗത്ത്"
+      "name_en": "Pazhoor South",
+      "name_ml": "പാഴൂര്‍ സൗത്ത്"
     },
     {
-      "ward_id": "79b0baff-4ad7-47d3-adad-b6f1459b9b2f",
+      "id": "79b0baff-4ad7-47d3-adad-b6f1459b9b2f",
       "ward_no": "24",
-      "ward_name_en": "Pazhoor West",
-      "ward_name_ml": "പാഴൂര്‍ വെസ്റ്റ്"
+      "name_en": "Pazhoor West",
+      "name_ml": "പാഴൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "11b58610-f7b5-4b38-840c-ee0336cca54d",
+      "id": "11b58610-f7b5-4b38-840c-ee0336cca54d",
       "ward_no": "25",
-      "ward_name_en": "Pazhoor East",
-      "ward_name_ml": "പാഴൂര്‍ ഈസ്റ്റ്‌"
+      "name_en": "Pazhoor East",
+      "name_ml": "പാഴൂര്‍ ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "47fa9bc7-bc94-4bfb-beb0-624ede8249d1",
+      "id": "47fa9bc7-bc94-4bfb-beb0-624ede8249d1",
       "ward_no": "26",
-      "ward_name_en": "Pazhoor Central",
-      "ward_name_ml": "പാഴൂര്‍ സെന്‍ട്രല്‍"
+      "name_en": "Pazhoor Central",
+      "name_ml": "പാഴൂര്‍ സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "77d20488-c1c6-42d4-851c-b1a149884572",
+      "id": "77d20488-c1c6-42d4-851c-b1a149884572",
       "ward_no": "27",
-      "ward_name_en": "Pazhoor North",
-      "ward_name_ml": "പാഴൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Pazhoor North",
+      "name_ml": "പാഴൂര്‍ നോര്‍ത്ത്"
     }
   ],
   "towns": [],

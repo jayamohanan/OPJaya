@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G070103",
-  "local_body_name_en": "Ezhikkara",
-  "local_body_name_ml": "ഏഴിക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G070103",
+  "name_en": "Ezhikkara",
+  "name_ml": "ഏഴിക്കര",
+  "assembly_id": "78",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "78",
-    "assembly_name_en": "Paravur",
-    "assembly_name_ml": "പരവൂര്‍",
-    "category": "Normal"
+    "id": "78",
+    "name_en": "Paravur",
+    "name_ml": "പരവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5b001082-9153-4d79-b63d-0254aae0603f",
+      "id": "5b001082-9153-4d79-b63d-0254aae0603f",
       "ward_no": "1",
-      "ward_name_en": "Perumpadanna",
-      "ward_name_ml": "പെരുമ്പടന്ന"
+      "name_en": "Perumpadanna",
+      "name_ml": "പെരുമ്പടന്ന"
     },
     {
-      "ward_id": "c34a7e63-b50c-43b2-823b-90fa8efe8a1d",
+      "id": "c34a7e63-b50c-43b2-823b-90fa8efe8a1d",
       "ward_no": "2",
-      "ward_name_en": "Parayattuparambu",
-      "ward_name_ml": "പറയാട്ടുപറമ്പ്"
+      "name_en": "Parayattuparambu",
+      "name_ml": "പറയാട്ടുപറമ്പ്"
     },
     {
-      "ward_id": "b68e9f0a-8f3e-4f7d-b4ae-9d9cb5a6089a",
+      "id": "b68e9f0a-8f3e-4f7d-b4ae-9d9cb5a6089a",
       "ward_no": "3",
-      "ward_name_en": "Vadakkupuram",
-      "ward_name_ml": "വാടക്കുപുറം"
+      "name_en": "Vadakkupuram",
+      "name_ml": "വാടക്കുപുറം"
     },
     {
-      "ward_id": "13a67671-8d34-488d-b74f-bb3eb9cc061a",
+      "id": "13a67671-8d34-488d-b74f-bb3eb9cc061a",
       "ward_no": "4",
-      "ward_name_en": "Kalikulangara",
-      "ward_name_ml": "കാളികുളങ്ങര"
+      "name_en": "Kalikulangara",
+      "name_ml": "കാളികുളങ്ങര"
     },
     {
-      "ward_id": "57146c9b-6ce2-4964-a9ec-d31925549fd2",
+      "id": "57146c9b-6ce2-4964-a9ec-d31925549fd2",
       "ward_no": "5",
-      "ward_name_en": "Nathiattukunnam",
-      "ward_name_ml": "നന്ത്യാട്ടുകുന്നം"
+      "name_en": "Nathiattukunnam",
+      "name_ml": "നന്ത്യാട്ടുകുന്നം"
     },
     {
-      "ward_id": "53285b6f-3762-497b-9a38-ad9bbabdb362",
+      "id": "53285b6f-3762-497b-9a38-ad9bbabdb362",
       "ward_no": "6",
-      "ward_name_en": "Kundekkavu",
-      "ward_name_ml": "കുണ്ടേക്കാവ്"
+      "name_en": "Kundekkavu",
+      "name_ml": "കുണ്ടേക്കാവ്"
     },
     {
-      "ward_id": "b8a03cab-01a1-4139-b4c3-94645bc5db97",
+      "id": "b8a03cab-01a1-4139-b4c3-94645bc5db97",
       "ward_no": "7",
-      "ward_name_en": "Ayappilly",
-      "ward_name_ml": "ആയപ്പിള്ളി"
+      "name_en": "Ayappilly",
+      "name_ml": "ആയപ്പിള്ളി"
     },
     {
-      "ward_id": "803f4791-d6de-4a85-8d6e-0e0bbdaa0737",
+      "id": "803f4791-d6de-4a85-8d6e-0e0bbdaa0737",
       "ward_no": "8",
-      "ward_name_en": "Palliyakkal",
-      "ward_name_ml": "പള്ളിയാക്കല്‍"
+      "name_en": "Palliyakkal",
+      "name_ml": "പള്ളിയാക്കല്‍"
     },
     {
-      "ward_id": "572e6620-3528-4650-984d-eb3ef5eb9392",
+      "id": "572e6620-3528-4650-984d-eb3ef5eb9392",
       "ward_no": "9",
-      "ward_name_en": "Chathanad",
-      "ward_name_ml": "ചാത്തനാട്"
+      "name_en": "Chathanad",
+      "name_ml": "ചാത്തനാട്"
     },
     {
-      "ward_id": "caa5b49e-2797-4012-93e9-9bde695b0e69",
+      "id": "caa5b49e-2797-4012-93e9-9bde695b0e69",
       "ward_no": "10",
-      "ward_name_en": "Pulinganad",
-      "ward_name_ml": "പുളിങ്ങനാട്"
+      "name_en": "Pulinganad",
+      "name_ml": "പുളിങ്ങനാട്"
     },
     {
-      "ward_id": "e9e3f1ef-ba04-4fbe-a8fd-d0ea449fb14f",
+      "id": "e9e3f1ef-ba04-4fbe-a8fd-d0ea449fb14f",
       "ward_no": "11",
-      "ward_name_en": "Kadakkara",
-      "ward_name_ml": "കടക്കര"
+      "name_en": "Kadakkara",
+      "name_ml": "കടക്കര"
     },
     {
-      "ward_id": "30657b02-4ccb-4e7c-abdf-b481cf1c5de2",
+      "id": "30657b02-4ccb-4e7c-abdf-b481cf1c5de2",
       "ward_no": "12",
-      "ward_name_en": "Ezhikkara",
-      "ward_name_ml": "ഏഴിക്കര"
+      "name_en": "Ezhikkara",
+      "name_ml": "ഏഴിക്കര"
     },
     {
-      "ward_id": "7cb11948-56c0-4a74-9b20-03d6aa5d3bdd",
+      "id": "7cb11948-56c0-4a74-9b20-03d6aa5d3bdd",
       "ward_no": "13",
-      "ward_name_en": "Kedamangalam",
-      "ward_name_ml": "കെടാമംഗലം"
+      "name_en": "Kedamangalam",
+      "name_ml": "കെടാമംഗലം"
     },
     {
-      "ward_id": "2ce4a4a1-9740-493a-8f07-fc7cdabb0d06",
+      "id": "2ce4a4a1-9740-493a-8f07-fc7cdabb0d06",
       "ward_no": "14",
-      "ward_name_en": "Cheethukkalam-Chakkathara",
-      "ward_name_ml": "ചീതുക്കളം-ചാക്കാത്തറ"
+      "name_en": "Cheethukkalam-Chakkathara",
+      "name_ml": "ചീതുക്കളം-ചാക്കാത്തറ"
     }
   ],
   "towns": [],

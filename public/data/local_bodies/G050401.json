@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G050401",
-  "local_body_name_en": "Kadaplamattom",
-  "local_body_name_ml": "കടപ്ളാമറ്റം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "94",
-    "assembly_name_en": "Kaduthuruthy",
-    "assembly_name_ml": "കടുത്തുരുത്തി",
+  "id": "G050401",
+  "name_en": "Kadaplamattom",
+  "name_ml": "കടപ്ളാമറ്റം",
+  "assembly_id": "94",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "94",
+    "name_en": "Kaduthuruthy",
+    "name_ml": "കടുത്തുരുത്തി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a595d421-ab12-4304-b0c2-6c54ccea5b0c",
+      "id": "a595d421-ab12-4304-b0c2-6c54ccea5b0c",
       "ward_no": "1",
-      "ward_name_en": "Nechimattom",
-      "ward_name_ml": "നെച്ചിമറ്റം"
+      "name_en": "Nechimattom",
+      "name_ml": "നെച്ചിമറ്റം"
     },
     {
-      "ward_id": "04e4a020-33f3-47da-a7c0-4dc24a6f517a",
+      "id": "04e4a020-33f3-47da-a7c0-4dc24a6f517a",
       "ward_no": "2",
-      "ward_name_en": "Elackad",
-      "ward_name_ml": "ഇലയ്ക്കാട്"
+      "name_en": "Elackad",
+      "name_ml": "ഇലയ്ക്കാട്"
     },
     {
-      "ward_id": "8c7dbe94-1ec4-4157-bde2-2108c7d7680e",
+      "id": "8c7dbe94-1ec4-4157-bde2-2108c7d7680e",
       "ward_no": "3",
-      "ward_name_en": "Myladumpara",
-      "ward_name_ml": "മൈലാടുംപാറ"
+      "name_en": "Myladumpara",
+      "name_ml": "മൈലാടുംപാറ"
     },
     {
-      "ward_id": "43484e12-2f8e-4ea6-9ff1-dfb4499c3177",
+      "id": "43484e12-2f8e-4ea6-9ff1-dfb4499c3177",
       "ward_no": "4",
-      "ward_name_en": "Kadaplamattom",
-      "ward_name_ml": "കടപ്ലാമറ്റം"
+      "name_en": "Kadaplamattom",
+      "name_ml": "കടപ്ലാമറ്റം"
     },
     {
-      "ward_id": "9d68e596-8024-414b-bc00-68725ae32ee4",
+      "id": "9d68e596-8024-414b-bc00-68725ae32ee4",
       "ward_no": "5",
-      "ward_name_en": "Ittiyappara",
-      "ward_name_ml": "ഇട്ടിയപ്പാറ"
+      "name_en": "Ittiyappara",
+      "name_ml": "ഇട്ടിയപ്പാറ"
     },
     {
-      "ward_id": "22f8a1d3-4494-4bc2-9a01-9ecb270327bb",
+      "id": "22f8a1d3-4494-4bc2-9a01-9ecb270327bb",
       "ward_no": "6",
-      "ward_name_en": "Kizhakkemariyidom",
-      "ward_name_ml": "കിഴക്കേമാറിയിടം"
+      "name_en": "Kizhakkemariyidom",
+      "name_ml": "കിഴക്കേമാറിയിടം"
     },
     {
-      "ward_id": "f94b0f89-3384-4d2b-a792-83051baeefbb",
+      "id": "f94b0f89-3384-4d2b-a792-83051baeefbb",
       "ward_no": "7",
-      "ward_name_en": "Mariyidom",
-      "ward_name_ml": "മാറിയിടം"
+      "name_en": "Mariyidom",
+      "name_ml": "മാറിയിടം"
     },
     {
-      "ward_id": "ecda54dc-94c5-4004-a1e4-f796517545e0",
+      "id": "ecda54dc-94c5-4004-a1e4-f796517545e0",
       "ward_no": "8",
-      "ward_name_en": "Moonnuthodu",
-      "ward_name_ml": "മൂന്നുതോട്"
+      "name_en": "Moonnuthodu",
+      "name_ml": "മൂന്നുതോട്"
     },
     {
-      "ward_id": "7c7b6790-b02f-4c8d-9050-8a57b55758c6",
+      "id": "7c7b6790-b02f-4c8d-9050-8a57b55758c6",
       "ward_no": "9",
-      "ward_name_en": "Njaralappuzha",
-      "ward_name_ml": "ഞരളപ്പുഴ"
+      "name_en": "Njaralappuzha",
+      "name_ml": "ഞരളപ്പുഴ"
     },
     {
-      "ward_id": "e685ed92-24d6-42d3-9915-b6803fad6d73",
+      "id": "e685ed92-24d6-42d3-9915-b6803fad6d73",
       "ward_no": "10",
-      "ward_name_en": "L.P. School Ward",
-      "ward_name_ml": "എല്‍.പി. സ്കൂള്‍ വാര്‍ഡ്"
+      "name_en": "L.P. School Ward",
+      "name_ml": "എല്‍.പി. സ്കൂള്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "670856f4-ecf2-4101-9577-c8cd829a48a4",
+      "id": "670856f4-ecf2-4101-9577-c8cd829a48a4",
       "ward_no": "11",
-      "ward_name_en": "Vayala",
-      "ward_name_ml": "വയലാ"
+      "name_en": "Vayala",
+      "name_ml": "വയലാ"
     },
     {
-      "ward_id": "000e60a4-ef4f-4f35-a739-de4824d7efd7",
+      "id": "000e60a4-ef4f-4f35-a739-de4824d7efd7",
       "ward_no": "12",
-      "ward_name_en": "Vayala Town",
-      "ward_name_ml": "വയലാ ടൌണ്‍"
+      "name_en": "Vayala Town",
+      "name_ml": "വയലാ ടൌണ്‍"
     },
     {
-      "ward_id": "2da22e1c-4a53-4a83-a1ca-517df343f9ee",
+      "id": "2da22e1c-4a53-4a83-a1ca-517df343f9ee",
       "ward_no": "13",
-      "ward_name_en": "Nellikkunnu",
-      "ward_name_ml": "നെല്ലിക്കുന്ന്"
+      "name_en": "Nellikkunnu",
+      "name_ml": "നെല്ലിക്കുന്ന്"
     }
   ],
   "towns": [],

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G050702",
-  "local_body_name_en": "Elikulam",
-  "local_body_name_ml": "എലിക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "93",
-    "assembly_name_en": "Pala",
-    "assembly_name_ml": "പാലാ",
+  "id": "G050702",
+  "name_en": "Elikulam",
+  "name_ml": "എലിക്കുളം",
+  "assembly_id": "93",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "93",
+    "name_en": "Pala",
+    "name_ml": "പാലാ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9a5faca6-619b-4f27-bc05-b27de83f174f",
+      "id": "9a5faca6-619b-4f27-bc05-b27de83f174f",
       "ward_no": "1",
-      "ward_name_en": "Urulikunnam",
-      "ward_name_ml": "ഉരുളികുന്നം"
+      "name_en": "Urulikunnam",
+      "name_ml": "ഉരുളികുന്നം"
     },
     {
-      "ward_id": "243b93a7-3cbc-4f7f-8834-84f8ed257754",
+      "id": "243b93a7-3cbc-4f7f-8834-84f8ed257754",
       "ward_no": "2",
-      "ward_name_en": "Vattanthanam",
-      "ward_name_ml": "വട്ടന്താനം"
+      "name_en": "Vattanthanam",
+      "name_ml": "വട്ടന്താനം"
     },
     {
-      "ward_id": "5e37024f-a7f7-4e4d-8c7e-32ad019ea2d1",
+      "id": "5e37024f-a7f7-4e4d-8c7e-32ad019ea2d1",
       "ward_no": "3",
-      "ward_name_en": "Mallikassery",
-      "ward_name_ml": "മല്ലികശ്ശേരി"
+      "name_en": "Mallikassery",
+      "name_ml": "മല്ലികശ്ശേരി"
     },
     {
-      "ward_id": "e6c7d815-889a-461a-99ab-3b5f36f1c9f4",
+      "id": "e6c7d815-889a-461a-99ab-3b5f36f1c9f4",
       "ward_no": "4",
-      "ward_name_en": "Karakkulam",
-      "ward_name_ml": "കാരക്കുളം"
+      "name_en": "Karakkulam",
+      "name_ml": "കാരക്കുളം"
     },
     {
-      "ward_id": "5edf91c6-0012-4e5c-998e-0c558cceeb33",
+      "id": "5edf91c6-0012-4e5c-998e-0c558cceeb33",
       "ward_no": "5",
-      "ward_name_en": "Manchakuzhi",
-      "ward_name_ml": "മഞ്ചക്കുഴി"
+      "name_en": "Manchakuzhi",
+      "name_ml": "മഞ്ചക്കുഴി"
     },
     {
-      "ward_id": "57403420-d86d-448e-8121-557343e78f1b",
+      "id": "57403420-d86d-448e-8121-557343e78f1b",
       "ward_no": "6",
-      "ward_name_en": "Pothukam",
-      "ward_name_ml": "പൊതുകം"
+      "name_en": "Pothukam",
+      "name_ml": "പൊതുകം"
     },
     {
-      "ward_id": "cc6bf6d5-5ed1-4225-a27a-94d59cbb0349",
+      "id": "cc6bf6d5-5ed1-4225-a27a-94d59cbb0349",
       "ward_no": "7",
-      "ward_name_en": "Vanchimala",
-      "ward_name_ml": "വഞ്ചിമല"
+      "name_en": "Vanchimala",
+      "name_ml": "വഞ്ചിമല"
     },
     {
-      "ward_id": "1ddc33c8-08be-4c7f-842f-c3eb7b115e96",
+      "id": "1ddc33c8-08be-4c7f-842f-c3eb7b115e96",
       "ward_no": "8",
-      "ward_name_en": "Panamattom",
-      "ward_name_ml": "പനമറ്റം"
+      "name_en": "Panamattom",
+      "name_ml": "പനമറ്റം"
     },
     {
-      "ward_id": "f289e60a-83fc-4a1d-ab35-571753a83689",
+      "id": "f289e60a-83fc-4a1d-ab35-571753a83689",
       "ward_no": "9",
-      "ward_name_en": "Veliyannoor",
-      "ward_name_ml": "വെളിയന്നൂര്‍"
+      "name_en": "Veliyannoor",
+      "name_ml": "വെളിയന്നൂര്‍"
     },
     {
-      "ward_id": "d2dd93b2-85f4-40e5-94ea-e59e0297f654",
+      "id": "d2dd93b2-85f4-40e5-94ea-e59e0297f654",
       "ward_no": "10",
-      "ward_name_en": "Thachapuzha",
-      "ward_name_ml": "തച്ചപ്പുഴ"
+      "name_en": "Thachapuzha",
+      "name_ml": "തച്ചപ്പുഴ"
     },
     {
-      "ward_id": "946322be-09e7-4adf-a502-4741ac246abd",
+      "id": "946322be-09e7-4adf-a502-4741ac246abd",
       "ward_no": "11",
-      "ward_name_en": "Randammile",
-      "ward_name_ml": "രണ്ടാംമൈല്‍"
+      "name_en": "Randammile",
+      "name_ml": "രണ്ടാംമൈല്‍"
     },
     {
-      "ward_id": "cf7bd5a9-3d1e-4278-9b75-aac3961a6745",
+      "id": "cf7bd5a9-3d1e-4278-9b75-aac3961a6745",
       "ward_no": "12",
-      "ward_name_en": "Elamgulam Temple",
-      "ward_name_ml": "ഇളങ്ങുളം അമ്പലം"
+      "name_en": "Elamgulam Temple",
+      "name_ml": "ഇളങ്ങുളം അമ്പലം"
     },
     {
-      "ward_id": "094b690d-aa1c-4144-aee7-bbb0ac449b47",
+      "id": "094b690d-aa1c-4144-aee7-bbb0ac449b47",
       "ward_no": "13",
-      "ward_name_en": "Koorali",
-      "ward_name_ml": "കൂരാലി"
+      "name_en": "Koorali",
+      "name_ml": "കൂരാലി"
     },
     {
-      "ward_id": "0e36fec4-6d8c-47be-bbd6-bb6385e0f838",
+      "id": "0e36fec4-6d8c-47be-bbd6-bb6385e0f838",
       "ward_no": "14",
-      "ward_name_en": "Elamgulam",
-      "ward_name_ml": "ഇളങ്ങുളം"
+      "name_en": "Elamgulam",
+      "name_ml": "ഇളങ്ങുളം"
     },
     {
-      "ward_id": "7c5c7051-b666-45e8-bd5d-e747375cd3c6",
+      "id": "7c5c7051-b666-45e8-bd5d-e747375cd3c6",
       "ward_no": "15",
-      "ward_name_en": "Madukkakunnu",
-      "ward_name_ml": "മടുക്കക്കുന്ന്"
+      "name_en": "Madukkakunnu",
+      "name_ml": "മടുക്കക്കുന്ന്"
     },
     {
-      "ward_id": "8591cb91-48de-4e2c-8c00-6ef6056981b8",
+      "id": "8591cb91-48de-4e2c-8c00-6ef6056981b8",
       "ward_no": "16",
-      "ward_name_en": "Njandupara",
-      "ward_name_ml": "ഞണ്ടുപാറ"
+      "name_en": "Njandupara",
+      "name_ml": "ഞണ്ടുപാറ"
     }
   ],
   "towns": [],

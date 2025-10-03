@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G091102",
-  "local_body_name_en": "Nelliyampathy",
-  "local_body_name_ml": "നെല്ലിയാമ്പതി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G091102",
+  "name_en": "Nelliyampathy",
+  "name_ml": "നെല്ലിയാമ്പതി",
+  "assembly_id": "59",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "59",
-    "assembly_name_en": "Nenmara",
-    "assembly_name_ml": "നെന്മാറ",
-    "category": "Normal"
+    "id": "59",
+    "name_en": "Nenmara",
+    "name_ml": "നെന്മാറ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "661d3dc2-fba1-43f5-98d2-f45fb4016099",
+      "id": "661d3dc2-fba1-43f5-98d2-f45fb4016099",
       "ward_no": "1",
-      "ward_name_en": "Pulayampara",
-      "ward_name_ml": "പുലയംമ്പാറ"
+      "name_en": "Pulayampara",
+      "name_ml": "പുലയംമ്പാറ"
     },
     {
-      "ward_id": "b306cb00-7229-45a8-8315-7ece25696408",
+      "id": "b306cb00-7229-45a8-8315-7ece25696408",
       "ward_no": "2",
-      "ward_name_en": "Seethargundu",
-      "ward_name_ml": "സീതാര്‍കുണ്ട്"
+      "name_en": "Seethargundu",
+      "name_ml": "സീതാര്‍കുണ്ട്"
     },
     {
-      "ward_id": "a5ed528c-92fc-4cbe-be4f-36e91bbfd33a",
+      "id": "a5ed528c-92fc-4cbe-be4f-36e91bbfd33a",
       "ward_no": "3",
-      "ward_name_en": "Anamada",
-      "ward_name_ml": "ആനമട"
+      "name_en": "Anamada",
+      "name_ml": "ആനമട"
     },
     {
-      "ward_id": "9b39da5c-0de2-4d2b-9ef7-71046e2ec7ce",
+      "id": "9b39da5c-0de2-4d2b-9ef7-71046e2ec7ce",
       "ward_no": "4",
-      "ward_name_en": "Kottayangady",
-      "ward_name_ml": "കൊട്ടയങ്ങാടി"
+      "name_en": "Kottayangady",
+      "name_ml": "കൊട്ടയങ്ങാടി"
     },
     {
-      "ward_id": "d52fd122-c28a-459a-9483-9ad3bf5da63e",
+      "id": "d52fd122-c28a-459a-9483-9ad3bf5da63e",
       "ward_no": "5",
-      "ward_name_en": "Chandramala",
-      "ward_name_ml": "ചന്ദ്രാമല"
+      "name_en": "Chandramala",
+      "name_ml": "ചന്ദ്രാമല"
     },
     {
-      "ward_id": "0ab4204a-9093-4217-b536-822378c412f6",
+      "id": "0ab4204a-9093-4217-b536-822378c412f6",
       "ward_no": "6",
-      "ward_name_en": "Meeraflores",
-      "ward_name_ml": "മീരാഫ്ലോറസ്"
+      "name_en": "Meeraflores",
+      "name_ml": "മീരാഫ്ലോറസ്"
     },
     {
-      "ward_id": "cfd02402-8e8a-4455-a3de-398dff104724",
+      "id": "cfd02402-8e8a-4455-a3de-398dff104724",
       "ward_no": "7",
-      "ward_name_en": "Victoria",
-      "ward_name_ml": "വിക്ടോറിയ"
+      "name_en": "Victoria",
+      "name_ml": "വിക്ടോറിയ"
     },
     {
-      "ward_id": "4feda075-bb5f-40a7-8676-478e25662924",
+      "id": "4feda075-bb5f-40a7-8676-478e25662924",
       "ward_no": "8",
-      "ward_name_en": "Oriental",
-      "ward_name_ml": "ഓറിയന്‍റല്‍"
+      "name_en": "Oriental",
+      "name_ml": "ഓറിയന്‍റല്‍"
     },
     {
-      "ward_id": "862bbfc0-bf33-4276-9525-6204bba2adae",
+      "id": "862bbfc0-bf33-4276-9525-6204bba2adae",
       "ward_no": "9",
-      "ward_name_en": "Karappara",
-      "ward_name_ml": "കാരപ്പാറ"
+      "name_en": "Karappara",
+      "name_ml": "കാരപ്പാറ"
     },
     {
-      "ward_id": "0dd6808b-ee7d-498c-9855-45a67ff65e17",
+      "id": "0dd6808b-ee7d-498c-9855-45a67ff65e17",
       "ward_no": "10",
-      "ward_name_en": "Lilly",
-      "ward_name_ml": "ലില്ലി"
+      "name_en": "Lilly",
+      "name_ml": "ലില്ലി"
     },
     {
-      "ward_id": "4fbd912d-a307-471e-afce-c123efa1ab6c",
+      "id": "4fbd912d-a307-471e-afce-c123efa1ab6c",
       "ward_no": "11",
-      "ward_name_en": "Noorady",
-      "ward_name_ml": "നൂറടി"
+      "name_en": "Noorady",
+      "name_ml": "നൂറടി"
     },
     {
-      "ward_id": "ac69a5a7-2d9a-46e5-b112-4e3b789ed845",
+      "id": "ac69a5a7-2d9a-46e5-b112-4e3b789ed845",
       "ward_no": "12",
-      "ward_name_en": "Koonampalam",
-      "ward_name_ml": "കൂനംപ്പാലം"
+      "name_en": "Koonampalam",
+      "name_ml": "കൂനംപ്പാലം"
     },
     {
-      "ward_id": "2bc79685-dde8-4af3-83c1-174e750ca93a",
+      "id": "2bc79685-dde8-4af3-83c1-174e750ca93a",
       "ward_no": "13",
-      "ward_name_en": "Manalaroo",
-      "ward_name_ml": "മണലാരു"
+      "name_en": "Manalaroo",
+      "name_ml": "മണലാരു"
     }
   ],
   "towns": [],

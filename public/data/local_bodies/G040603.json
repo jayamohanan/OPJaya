@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G040603",
-  "local_body_name_en": "Thakazhy",
-  "local_body_name_ml": "തകഴി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "106",
-    "assembly_name_en": "Kuttanad",
-    "assembly_name_ml": "കുട്ടനാട്",
+  "id": "G040603",
+  "name_en": "Thakazhy",
+  "name_ml": "തകഴി",
+  "assembly_id": "106",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "106",
+    "name_en": "Kuttanad",
+    "name_ml": "കുട്ടനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d20a639e-3d19-40ad-be45-3c03c079352c",
+      "id": "d20a639e-3d19-40ad-be45-3c03c079352c",
       "ward_no": "1",
-      "ward_name_en": "Karumady",
-      "ward_name_ml": "കരുമാടി"
+      "name_en": "Karumady",
+      "name_ml": "കരുമാടി"
     },
     {
-      "ward_id": "ed0724d3-a5d3-4255-8f49-e490d31172c2",
+      "id": "ed0724d3-a5d3-4255-8f49-e490d31172c2",
       "ward_no": "2",
-      "ward_name_en": "Padaharam",
-      "ward_name_ml": "പടഹാരം"
+      "name_en": "Padaharam",
+      "name_ml": "പടഹാരം"
     },
     {
-      "ward_id": "c8311d64-522f-406d-9da7-aec08a8e286c",
+      "id": "c8311d64-522f-406d-9da7-aec08a8e286c",
       "ward_no": "3",
-      "ward_name_en": "Chirayakom",
-      "ward_name_ml": "ചിറയകം"
+      "name_en": "Chirayakom",
+      "name_ml": "ചിറയകം"
     },
     {
-      "ward_id": "922c18e6-de05-4938-96d4-1591975ff2e8",
+      "id": "922c18e6-de05-4938-96d4-1591975ff2e8",
       "ward_no": "4",
-      "ward_name_en": "Thennady",
-      "ward_name_ml": "തെന്നടി"
+      "name_en": "Thennady",
+      "name_ml": "തെന്നടി"
     },
     {
-      "ward_id": "468c6d24-0545-42bf-8b6b-2ddbb8092395",
+      "id": "468c6d24-0545-42bf-8b6b-2ddbb8092395",
       "ward_no": "5",
-      "ward_name_en": "Vezhapram",
-      "ward_name_ml": "വേഴപ്രം"
+      "name_en": "Vezhapram",
+      "name_ml": "വേഴപ്രം"
     },
     {
-      "ward_id": "c52bf3f9-99dd-41a8-830b-836d739f489d",
+      "id": "c52bf3f9-99dd-41a8-830b-836d739f489d",
       "ward_no": "6",
-      "ward_name_en": "Thakazhy",
-      "ward_name_ml": "തകഴി"
+      "name_en": "Thakazhy",
+      "name_ml": "തകഴി"
     },
     {
-      "ward_id": "6a582d0c-3c8f-43b6-85c4-904a60c1a110",
+      "id": "6a582d0c-3c8f-43b6-85c4-904a60c1a110",
       "ward_no": "7",
-      "ward_name_en": "Kelamangalam",
-      "ward_name_ml": "കേളമംഗലം"
+      "name_en": "Kelamangalam",
+      "name_ml": "കേളമംഗലം"
     },
     {
-      "ward_id": "ca9b8ef8-7178-411b-9698-7813e3d280f4",
+      "id": "ca9b8ef8-7178-411b-9698-7813e3d280f4",
       "ward_no": "8",
-      "ward_name_en": "Chekkidikkadu",
-      "ward_name_ml": "ചെക്കിടിക്കാട്"
+      "name_en": "Chekkidikkadu",
+      "name_ml": "ചെക്കിടിക്കാട്"
     },
     {
-      "ward_id": "8c096bb4-2dd5-4646-8026-5c0f73bff95f",
+      "id": "8c096bb4-2dd5-4646-8026-5c0f73bff95f",
       "ward_no": "9",
-      "ward_name_en": "Chekkidikkadu East",
-      "ward_name_ml": "ചെക്കിടിക്കാട് കിഴക്ക്"
+      "name_en": "Chekkidikkadu East",
+      "name_ml": "ചെക്കിടിക്കാട് കിഴക്ക്"
     },
     {
-      "ward_id": "0003096a-41e7-4318-9cf3-28c55102f5ac",
+      "id": "0003096a-41e7-4318-9cf3-28c55102f5ac",
       "ward_no": "10",
-      "ward_name_en": "Kunnumma South",
-      "ward_name_ml": "കുന്നുമ്മ തെക്ക്"
+      "name_en": "Kunnumma South",
+      "name_ml": "കുന്നുമ്മ തെക്ക്"
     },
     {
-      "ward_id": "9c0264eb-5767-45c4-9a88-2594e0f92ace",
+      "id": "9c0264eb-5767-45c4-9a88-2594e0f92ace",
       "ward_no": "11",
-      "ward_name_en": "Kunnumma",
-      "ward_name_ml": "കുന്നുമ്മ"
+      "name_en": "Kunnumma",
+      "name_ml": "കുന്നുമ്മ"
     },
     {
-      "ward_id": "c3d3b977-d610-4aad-bcc8-d7dfb70cc29d",
+      "id": "c3d3b977-d610-4aad-bcc8-d7dfb70cc29d",
       "ward_no": "12",
-      "ward_name_en": "Kunnumma North",
-      "ward_name_ml": "കുന്നുമ്മ വടക്ക്"
+      "name_en": "Kunnumma North",
+      "name_ml": "കുന്നുമ്മ വടക്ക്"
     },
     {
-      "ward_id": "41e4007d-18ad-4491-868b-e8e79c61c580",
+      "id": "41e4007d-18ad-4491-868b-e8e79c61c580",
       "ward_no": "13",
-      "ward_name_en": "Thakazhy North",
-      "ward_name_ml": "തകഴി വടക്ക്"
+      "name_en": "Thakazhy North",
+      "name_ml": "തകഴി വടക്ക്"
     },
     {
-      "ward_id": "a86af05c-6ab9-420e-8866-37b20f1aaedc",
+      "id": "a86af05c-6ab9-420e-8866-37b20f1aaedc",
       "ward_no": "14",
-      "ward_name_en": "Kalathipalam",
-      "ward_name_ml": "കളത്തിപ്പാലം"
+      "name_en": "Kalathipalam",
+      "name_ml": "കളത്തിപ്പാലം"
     }
   ],
   "towns": [],

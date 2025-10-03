@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060204",
-  "local_body_name_en": "Vattavada",
-  "local_body_name_ml": "വട്ടവട",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
+  "id": "G060204",
+  "name_en": "Vattavada",
+  "name_ml": "വട്ടവട",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "64e004b7-e7e4-4e05-8c1a-7b0fa6c4078a",
+      "id": "64e004b7-e7e4-4e05-8c1a-7b0fa6c4078a",
       "ward_no": "1",
-      "ward_name_en": "Koodallarkudy",
-      "ward_name_ml": "കൂടല്ലാര്‍കുടി"
+      "name_en": "Koodallarkudy",
+      "name_ml": "കൂടല്ലാര്‍കുടി"
     },
     {
-      "ward_id": "363858a4-747b-4f1c-818d-abed69953bfe",
+      "id": "363858a4-747b-4f1c-818d-abed69953bfe",
       "ward_no": "2",
-      "ward_name_en": "Kottakomboor East",
-      "ward_name_ml": "കൊട്ടാക്കൊമ്പൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Kottakomboor East",
+      "name_ml": "കൊട്ടാക്കൊമ്പൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "74ccf3ed-6548-4ce2-9c8f-b7f82ca51dc3",
+      "id": "74ccf3ed-6548-4ce2-9c8f-b7f82ca51dc3",
       "ward_no": "3",
-      "ward_name_en": "Kadavari",
-      "ward_name_ml": "കടവരി"
+      "name_en": "Kadavari",
+      "name_ml": "കടവരി"
     },
     {
-      "ward_id": "ea99ebef-f110-48e2-8ea9-3aa22e68e45a",
+      "id": "ea99ebef-f110-48e2-8ea9-3aa22e68e45a",
       "ward_no": "4",
-      "ward_name_en": "Kottakomboor West",
-      "ward_name_ml": "കൊട്ടാക്കൊമ്പൂര്‍ വെസ്റ്റ്"
+      "name_en": "Kottakomboor West",
+      "name_ml": "കൊട്ടാക്കൊമ്പൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "6c632e37-21b7-4d42-a410-43b8cbf8b341",
+      "id": "6c632e37-21b7-4d42-a410-43b8cbf8b341",
       "ward_no": "5",
-      "ward_name_en": "Koviloor North",
-      "ward_name_ml": "കോവിലൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Koviloor North",
+      "name_ml": "കോവിലൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "9e8770db-f408-4905-ae9d-ed4c984025ac",
+      "id": "9e8770db-f408-4905-ae9d-ed4c984025ac",
       "ward_no": "6",
-      "ward_name_en": "Koviloor West",
-      "ward_name_ml": "കോവിലൂര്‍ വെസ്റ്റ്"
+      "name_en": "Koviloor West",
+      "name_ml": "കോവിലൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "49d67dc2-9896-4379-894c-91e457e791a5",
+      "id": "49d67dc2-9896-4379-894c-91e457e791a5",
       "ward_no": "7",
-      "ward_name_en": "Koviloor East",
-      "ward_name_ml": "കോവിലൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Koviloor East",
+      "name_ml": "കോവിലൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "60fb28dd-1db3-4bbd-87c1-19fd5a1c1d1b",
+      "id": "60fb28dd-1db3-4bbd-87c1-19fd5a1c1d1b",
       "ward_no": "8",
-      "ward_name_en": "Koviloor South",
-      "ward_name_ml": "കോവിലൂര്‍ സൌത്ത്"
+      "name_en": "Koviloor South",
+      "name_ml": "കോവിലൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "b98c9b4e-ac11-462f-9e4d-8788a254373f",
+      "id": "b98c9b4e-ac11-462f-9e4d-8788a254373f",
       "ward_no": "9",
-      "ward_name_en": "Vattavada South",
-      "ward_name_ml": "വട്ടവട സൌത്ത്"
+      "name_en": "Vattavada South",
+      "name_ml": "വട്ടവട സൌത്ത്"
     },
     {
-      "ward_id": "143b1575-b1a3-4227-b2a7-94e7e10cf2db",
+      "id": "143b1575-b1a3-4227-b2a7-94e7e10cf2db",
       "ward_no": "10",
-      "ward_name_en": "Vattavada North",
-      "ward_name_ml": "വട്ടവട നോര്‍ത്ത്"
+      "name_en": "Vattavada North",
+      "name_ml": "വട്ടവട നോര്‍ത്ത്"
     },
     {
-      "ward_id": "f53826ef-ec7b-4dbd-b1dd-dcc6da2d6c46",
+      "id": "f53826ef-ec7b-4dbd-b1dd-dcc6da2d6c46",
       "ward_no": "11",
-      "ward_name_en": "Pazhathottam",
-      "ward_name_ml": "പഴത്തോട്ടം"
+      "name_en": "Pazhathottam",
+      "name_ml": "പഴത്തോട്ടം"
     },
     {
-      "ward_id": "a401b365-257c-4103-9cd7-9e24a271ffdc",
+      "id": "a401b365-257c-4103-9cd7-9e24a271ffdc",
       "ward_no": "12",
-      "ward_name_en": "Chilanthiyar",
-      "ward_name_ml": "ചിലന്തിയാര്‍"
+      "name_en": "Chilanthiyar",
+      "name_ml": "ചിലന്തിയാര്‍"
     },
     {
-      "ward_id": "5591354d-78b4-4658-83e1-a250ca4ab537",
+      "id": "5591354d-78b4-4658-83e1-a250ca4ab537",
       "ward_no": "13",
-      "ward_name_en": "Swamiyaralakkudi",
-      "ward_name_ml": "സ്വാമിയാറാളക്കുടി"
+      "name_en": "Swamiyaralakkudi",
+      "name_ml": "സ്വാമിയാറാളക്കുടി"
     }
   ],
   "towns": [],

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G131005",
-  "local_body_name_en": "Koodali",
-  "local_body_name_ml": "കൂടാളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G131005",
+  "name_en": "Koodali",
+  "name_ml": "കൂടാളി",
+  "assembly_id": "15",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "15",
-    "assembly_name_en": "Mattanur",
-    "assembly_name_ml": "മട്ടന്നൂര്‍",
-    "category": "Normal"
+    "id": "15",
+    "name_en": "Mattanur",
+    "name_ml": "മട്ടന്നൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8c1edde7-ea4f-42ba-b8fa-07ea598f4d14",
+      "id": "8c1edde7-ea4f-42ba-b8fa-07ea598f4d14",
       "ward_no": "1",
-      "ward_name_en": "Kovoor",
-      "ward_name_ml": "കോവൂര്‍"
+      "name_en": "Kovoor",
+      "name_ml": "കോവൂര്‍"
     },
     {
-      "ward_id": "9b4d6488-9ae3-41ef-b0e3-0df56f507d21",
+      "id": "9b4d6488-9ae3-41ef-b0e3-0df56f507d21",
       "ward_no": "2",
-      "ward_name_en": "Pattannur",
-      "ward_name_ml": "പട്ടാന്നൂര്‍"
+      "name_en": "Pattannur",
+      "name_ml": "പട്ടാന്നൂര്‍"
     },
     {
-      "ward_id": "cbd5feac-96e9-466a-934a-c3f2b626c740",
+      "id": "cbd5feac-96e9-466a-934a-c3f2b626c740",
       "ward_no": "3",
-      "ward_name_en": "Koorari",
-      "ward_name_ml": "കൂരാരി"
+      "name_en": "Koorari",
+      "name_ml": "കൂരാരി"
     },
     {
-      "ward_id": "e7f8b6ee-d56c-42ba-919e-26b97504db1d",
+      "id": "e7f8b6ee-d56c-42ba-919e-26b97504db1d",
       "ward_no": "4",
-      "ward_name_en": "Ayippuzha",
-      "ward_name_ml": "ആയിപ്പുഴ"
+      "name_en": "Ayippuzha",
+      "name_ml": "ആയിപ്പുഴ"
     },
     {
-      "ward_id": "11adf87d-324b-4867-a553-e82f3f18e751",
+      "id": "11adf87d-324b-4867-a553-e82f3f18e751",
       "ward_no": "5",
-      "ward_name_en": "Kolappa",
-      "ward_name_ml": "കൊളപ്പ"
+      "name_en": "Kolappa",
+      "name_ml": "കൊളപ്പ"
     },
     {
-      "ward_id": "27ff4153-bc4b-495b-bd5d-79405e8dd345",
+      "id": "27ff4153-bc4b-495b-bd5d-79405e8dd345",
       "ward_no": "6",
-      "ward_name_en": "Panalad",
-      "ward_name_ml": "പാണലാട്"
+      "name_en": "Panalad",
+      "name_ml": "പാണലാട്"
     },
     {
-      "ward_id": "0a9df189-d257-425a-af78-65070cb73c98",
+      "id": "0a9df189-d257-425a-af78-65070cb73c98",
       "ward_no": "7",
-      "ward_name_en": "Kodolipram",
-      "ward_name_ml": "കൊടോളിപ്രം"
+      "name_en": "Kodolipram",
+      "name_ml": "കൊടോളിപ്രം"
     },
     {
-      "ward_id": "def2eca1-6c19-4148-b8c4-dfca3648c391",
+      "id": "def2eca1-6c19-4148-b8c4-dfca3648c391",
       "ward_no": "8",
-      "ward_name_en": "Kunnoth",
-      "ward_name_ml": "കുന്നോത്ത്"
+      "name_en": "Kunnoth",
+      "name_ml": "കുന്നോത്ത്"
     },
     {
-      "ward_id": "a032a69f-ab02-4969-a858-ca9a67ff4790",
+      "id": "a032a69f-ab02-4969-a858-ca9a67ff4790",
       "ward_no": "9",
-      "ward_name_en": "Nayattupara",
-      "ward_name_ml": "നായാട്ടുപാറ"
+      "name_en": "Nayattupara",
+      "name_ml": "നായാട്ടുപാറ"
     },
     {
-      "ward_id": "7154c433-632a-4dda-86c8-1cc0f97a2043",
+      "id": "7154c433-632a-4dda-86c8-1cc0f97a2043",
       "ward_no": "10",
-      "ward_name_en": "Muttannur",
-      "ward_name_ml": "മുട്ടന്നൂർ"
+      "name_en": "Muttannur",
+      "name_ml": "മുട്ടന്നൂർ"
     },
     {
-      "ward_id": "7a74d6de-6a66-4135-84b8-99bb593f7984",
+      "id": "7a74d6de-6a66-4135-84b8-99bb593f7984",
       "ward_no": "11",
-      "ward_name_en": "Moolakkari",
-      "ward_name_ml": "മൂലക്കരി"
+      "name_en": "Moolakkari",
+      "name_ml": "മൂലക്കരി"
     },
     {
-      "ward_id": "8cf7ffcd-8fdc-4367-8997-46deb8716aee",
+      "id": "8cf7ffcd-8fdc-4367-8997-46deb8716aee",
       "ward_no": "12",
-      "ward_name_en": "Kumbham",
-      "ward_name_ml": "കുംഭം"
+      "name_en": "Kumbham",
+      "name_ml": "കുംഭം"
     },
     {
-      "ward_id": "c031f7e2-7347-4265-ba7f-e44771860d69",
+      "id": "c031f7e2-7347-4265-ba7f-e44771860d69",
       "ward_no": "13",
-      "ward_name_en": "Thattyode",
-      "ward_name_ml": "താറ്റ്യോട്"
+      "name_en": "Thattyode",
+      "name_ml": "താറ്റ്യോട്"
     },
     {
-      "ward_id": "7020074d-44cd-4587-a02e-961a2c1690e4",
+      "id": "7020074d-44cd-4587-a02e-961a2c1690e4",
       "ward_no": "14",
-      "ward_name_en": "Koodali",
-      "ward_name_ml": "കൂടാളി"
+      "name_en": "Koodali",
+      "name_ml": "കൂടാളി"
     },
     {
-      "ward_id": "1118c20f-4696-4974-a1c7-c903e6545069",
+      "id": "1118c20f-4696-4974-a1c7-c903e6545069",
       "ward_no": "15",
-      "ward_name_en": "Kavunthazha",
-      "ward_name_ml": "കാവുന്താഴ"
+      "name_en": "Kavunthazha",
+      "name_ml": "കാവുന്താഴ"
     },
     {
-      "ward_id": "c3ea5f47-f52f-42bb-a164-2ed236dabf9c",
+      "id": "c3ea5f47-f52f-42bb-a164-2ed236dabf9c",
       "ward_no": "16",
-      "ward_name_en": "Banganapparamba",
-      "ward_name_ml": "ബങ്കണപ്പറമ്പ"
+      "name_en": "Banganapparamba",
+      "name_ml": "ബങ്കണപ്പറമ്പ"
     },
     {
-      "ward_id": "4da6dd67-e113-4739-90ec-4b22856f9830",
+      "id": "4da6dd67-e113-4739-90ec-4b22856f9830",
       "ward_no": "17",
-      "ward_name_en": "Poovathur",
-      "ward_name_ml": "പൂവത്തൂർ"
+      "name_en": "Poovathur",
+      "name_ml": "പൂവത്തൂർ"
     },
     {
-      "ward_id": "3f57bfd9-c275-498e-a8e0-b137e89c7025",
+      "id": "3f57bfd9-c275-498e-a8e0-b137e89c7025",
       "ward_no": "18",
-      "ward_name_en": "Kololam",
-      "ward_name_ml": "കൊളോളം"
+      "name_en": "Kololam",
+      "name_ml": "കൊളോളം"
     }
   ],
   "towns": [],

@@ -1,122 +1,133 @@
 {
-  "local_body_id": "G071405",
-  "local_body_name_en": "Kalloorkad",
-  "local_body_name_ml": "കല്ലൂര്‍ക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G071405",
+  "name_en": "Kalloorkad",
+  "name_ml": "കല്ലൂര്‍ക്കാട്",
+  "assembly_id": "86",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "86",
-    "assembly_name_en": "Muvattupuzha",
-    "assembly_name_ml": "മൂവാറ്റുപുഴ",
-    "category": "Normal"
+    "id": "86",
+    "name_en": "Muvattupuzha",
+    "name_ml": "മൂവാറ്റുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9c99b556-8096-45ee-9c37-4c2a16bbf51d",
+      "id": "9c99b556-8096-45ee-9c37-4c2a16bbf51d",
       "ward_no": "1",
-      "ward_name_en": "Maruthoor",
-      "ward_name_ml": "മരുതൂര്‍"
+      "name_en": "Maruthoor",
+      "name_ml": "മരുതൂര്‍"
     },
     {
-      "ward_id": "ebc70d13-b5bd-4293-b499-2ebfbe6a9cef",
+      "id": "ebc70d13-b5bd-4293-b499-2ebfbe6a9cef",
       "ward_no": "2",
-      "ward_name_en": "Malanirappu",
-      "ward_name_ml": "മലനിരപ്പ്"
+      "name_en": "Malanirappu",
+      "name_ml": "മലനിരപ്പ്"
     },
     {
-      "ward_id": "c0cad0bc-19b4-481f-b785-e8b87b7af8ba",
+      "id": "c0cad0bc-19b4-481f-b785-e8b87b7af8ba",
       "ward_no": "3",
-      "ward_name_en": "Vellaramkallu",
-      "ward_name_ml": "വെള്ളാരംകല്ല്"
+      "name_en": "Vellaramkallu",
+      "name_ml": "വെള്ളാരംകല്ല്"
     },
     {
-      "ward_id": "bdd0a65c-e853-4159-b094-293674ce64a4",
+      "id": "bdd0a65c-e853-4159-b094-293674ce64a4",
       "ward_no": "4",
-      "ward_name_en": "Kaloor",
-      "ward_name_ml": "കലൂര്‍"
+      "name_en": "Kaloor",
+      "name_ml": "കലൂര്‍"
     },
     {
-      "ward_id": "164273e3-4c62-477e-a042-cafd5440ee07",
+      "id": "164273e3-4c62-477e-a042-cafd5440ee07",
       "ward_no": "5",
-      "ward_name_en": "Perumamkandam",
-      "ward_name_ml": "പെരുമാംങ്കണ്ടം"
+      "name_en": "Perumamkandam",
+      "name_ml": "പെരുമാംങ്കണ്ടം"
     },
     {
-      "ward_id": "0263d05a-75de-4dd7-9f0f-56980fd03a56",
+      "id": "0263d05a-75de-4dd7-9f0f-56980fd03a56",
       "ward_no": "6",
-      "ward_name_en": "Thazhuvamkunnu",
-      "ward_name_ml": "തഴുവംകുന്ന്"
+      "name_en": "Thazhuvamkunnu",
+      "name_ml": "തഴുവംകുന്ന്"
     },
     {
-      "ward_id": "f74a3763-7985-4fff-ad4e-8d72e6ab49cd",
+      "id": "f74a3763-7985-4fff-ad4e-8d72e6ab49cd",
       "ward_no": "7",
-      "ward_name_en": "Pathakuthi",
-      "ward_name_ml": "പത്തകുത്തി"
+      "name_en": "Pathakuthi",
+      "name_ml": "പത്തകുത്തി"
     },
     {
-      "ward_id": "343cc6ff-745d-4ff9-b6fe-e885a5b207bf",
+      "id": "343cc6ff-745d-4ff9-b6fe-e885a5b207bf",
       "ward_no": "8",
-      "ward_name_en": "Nagapuzha",
-      "ward_name_ml": "നാഗപ്പുഴ"
+      "name_en": "Nagapuzha",
+      "name_ml": "നാഗപ്പുഴ"
     },
     {
-      "ward_id": "db6f2124-0328-44f5-840f-08a8d92b2e3f",
+      "id": "db6f2124-0328-44f5-840f-08a8d92b2e3f",
       "ward_no": "9",
-      "ward_name_en": "Chattupara",
-      "ward_name_ml": "ചാറ്റുപാറ"
+      "name_en": "Chattupara",
+      "name_ml": "ചാറ്റുപാറ"
     },
     {
-      "ward_id": "d2eda90f-5e9a-4224-81bc-f9b1c2a07e5a",
+      "id": "d2eda90f-5e9a-4224-81bc-f9b1c2a07e5a",
       "ward_no": "10",
-      "ward_name_en": "Maniyanthram",
-      "ward_name_ml": "മണിയന്ത്രം"
+      "name_en": "Maniyanthram",
+      "name_ml": "മണിയന്ത്രം"
     },
     {
-      "ward_id": "8a715577-8818-4498-af2d-a6f02108880e",
+      "id": "8a715577-8818-4498-af2d-a6f02108880e",
       "ward_no": "11",
-      "ward_name_en": "Vazhiyanchira",
-      "ward_name_ml": "വഴിയാന്‍ചിറ"
+      "name_en": "Vazhiyanchira",
+      "name_ml": "വഴിയാന്‍ചിറ"
     },
     {
-      "ward_id": "6cb536c8-805a-4217-961a-92805d254e37",
+      "id": "6cb536c8-805a-4217-961a-92805d254e37",
       "ward_no": "12",
-      "ward_name_en": "Kalloorkad",
-      "ward_name_ml": "കല്ലൂര്‍ക്കാട്"
+      "name_en": "Kalloorkad",
+      "name_ml": "കല്ലൂര്‍ക്കാട്"
     },
     {
-      "ward_id": "70987854-7cf4-4f04-a5dc-f97afd063188",
+      "id": "70987854-7cf4-4f04-a5dc-f97afd063188",
       "ward_no": "13",
-      "ward_name_en": "Neerampuzha",
-      "ward_name_ml": "നീറംമ്പുഴ"
+      "name_en": "Neerampuzha",
+      "name_ml": "നീറംമ്പുഴ"
     }
   ],
   "towns": [
     {
-      "town_name_en": "Kalloorkad",
-      "town_name_ml": "കല്ലൂർക്കാട്"
+      "name_en": "Kalloorkad",
+      "name_ml": "കല്ലൂർക്കാട്"
     },
     {
-      "town_name_en": "Perumamkandam",
-      "town_name_ml": "പെരുമാംങ്കണ്ടം"
+      "name_en": "Perumamkandam",
+      "name_ml": "പെരുമാംങ്കണ്ടം"
     },
     {
-      "town_name_en": "Kaloor",
-      "town_name_ml": "കലൂർ"
+      "name_en": "Kaloor",
+      "name_ml": "കലൂർ"
     },
     {
-      "town_name_en": "Nakappuzha",
-      "town_name_ml": "നാകപ്പുഴ"
+      "name_en": "Nakappuzha",
+      "name_ml": "നാകപ്പുഴ"
     },
     {
-      "town_name_en": "Pathakuthi",
-      "town_name_ml": "പത്തകുത്തി"
+      "name_en": "Pathakuthi",
+      "name_ml": "പത്തകുത്തി"
     }
   ],
   "issues": {

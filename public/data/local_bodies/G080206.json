@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G080206",
-  "local_body_name_en": "Porkulam",
-  "local_body_name_ml": "പോര്‍ക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G080206",
+  "name_en": "Porkulam",
+  "name_ml": "പോര്‍ക്കുളം",
+  "assembly_id": "62",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "62",
-    "assembly_name_en": "Kunnamkulam",
-    "assembly_name_ml": "കുന്നംകുളം",
-    "category": "Normal"
+    "id": "62",
+    "name_en": "Kunnamkulam",
+    "name_ml": "കുന്നംകുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "84a3b822-a8be-47c3-a058-3a23c9c934e9",
+      "id": "84a3b822-a8be-47c3-a058-3a23c9c934e9",
       "ward_no": "1",
-      "ward_name_en": "Malorkkadavu",
-      "ward_name_ml": "മാളോര്‍ക്കടവ്"
+      "name_en": "Malorkkadavu",
+      "name_ml": "മാളോര്‍ക്കടവ്"
     },
     {
-      "ward_id": "815b9ce5-a2e4-493d-a458-c67a422970a3",
+      "id": "815b9ce5-a2e4-493d-a458-c67a422970a3",
       "ward_no": "2",
-      "ward_name_en": "Ponnam",
-      "ward_name_ml": "പൊന്നം"
+      "name_en": "Ponnam",
+      "name_ml": "പൊന്നം"
     },
     {
-      "ward_id": "8bf4f520-0b67-431d-bb25-312bf36302f3",
+      "id": "8bf4f520-0b67-431d-bb25-312bf36302f3",
       "ward_no": "3",
-      "ward_name_en": "Porkulam Centre",
-      "ward_name_ml": "പോര്‍ക്കുളം സെന്‍റര്‍"
+      "name_en": "Porkulam Centre",
+      "name_ml": "പോര്‍ക്കുളം സെന്‍റര്‍"
     },
     {
-      "ward_id": "2c9db1a1-02fe-4224-9fe5-c513eb52d61f",
+      "id": "2c9db1a1-02fe-4224-9fe5-c513eb52d61f",
       "ward_no": "4",
-      "ward_name_en": "Porkulam North",
-      "ward_name_ml": "പോര്‍ക്കുളം നോര്‍ത്ത്"
+      "name_en": "Porkulam North",
+      "name_ml": "പോര്‍ക്കുളം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "072f8f9e-97bb-41a9-a7e1-3b1c3e461125",
+      "id": "072f8f9e-97bb-41a9-a7e1-3b1c3e461125",
       "ward_no": "5",
-      "ward_name_en": "Konganoor",
-      "ward_name_ml": "കൊങ്ങണൂര്‍"
+      "name_en": "Konganoor",
+      "name_ml": "കൊങ്ങണൂര്‍"
     },
     {
-      "ward_id": "4066a0d8-ec7d-45f1-bfd2-871444ca2dd1",
+      "id": "4066a0d8-ec7d-45f1-bfd2-871444ca2dd1",
       "ward_no": "6",
-      "ward_name_en": "Akkikavu West",
-      "ward_name_ml": "അക്കിക്കാവ് വെസ്റ്റ്"
+      "name_en": "Akkikavu West",
+      "name_ml": "അക്കിക്കാവ് വെസ്റ്റ്"
     },
     {
-      "ward_id": "91aee1a6-894b-4b0f-9503-ae73c4874668",
+      "id": "91aee1a6-894b-4b0f-9503-ae73c4874668",
       "ward_no": "7",
-      "ward_name_en": "Akkikavu East",
-      "ward_name_ml": "അക്കിക്കാവ് ഈസ്റ്റ്"
+      "name_en": "Akkikavu East",
+      "name_ml": "അക്കിക്കാവ് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "f6117f43-3c10-49d6-9500-770501d9f82f",
+      "id": "f6117f43-3c10-49d6-9500-770501d9f82f",
       "ward_no": "8",
-      "ward_name_en": "Akathiyoor North",
-      "ward_name_ml": "അകതിയൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Akathiyoor North",
+      "name_ml": "അകതിയൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "3d63eb77-70e0-4713-a716-35f81d11a8af",
+      "id": "3d63eb77-70e0-4713-a716-35f81d11a8af",
       "ward_no": "9",
-      "ward_name_en": "Akathiyoor Centre",
-      "ward_name_ml": "അകതിയൂര്‍ സെന്‍റര്‍"
+      "name_en": "Akathiyoor Centre",
+      "name_ml": "അകതിയൂര്‍ സെന്‍റര്‍"
     },
     {
-      "ward_id": "cc1bfc42-d053-454d-9cc0-d33b2d7ca9ee",
+      "id": "cc1bfc42-d053-454d-9cc0-d33b2d7ca9ee",
       "ward_no": "10",
-      "ward_name_en": "Kallazhikunnu",
-      "ward_name_ml": "കല്ലഴിക്കുന്ന്"
+      "name_en": "Kallazhikunnu",
+      "name_ml": "കല്ലഴിക്കുന്ന്"
     },
     {
-      "ward_id": "57b81b2a-298e-47a8-880a-dbdab5924c54",
+      "id": "57b81b2a-298e-47a8-880a-dbdab5924c54",
       "ward_no": "11",
-      "ward_name_en": "Vedhakkad",
-      "ward_name_ml": "വേദക്കാട്"
+      "name_en": "Vedhakkad",
+      "name_ml": "വേദക്കാട്"
     },
     {
-      "ward_id": "41e1f132-77bf-455e-a68b-e10a3599a7b9",
+      "id": "41e1f132-77bf-455e-a68b-e10a3599a7b9",
       "ward_no": "12",
-      "ward_name_en": "Porkulam Post Office",
-      "ward_name_ml": "പോര്‍ക്കുളം പോസ്റ്റ്ഓഫീസ്"
+      "name_en": "Porkulam Post Office",
+      "name_ml": "പോര്‍ക്കുളം പോസ്റ്റ്ഓഫീസ്"
     },
     {
-      "ward_id": "d1a1f73f-4b50-471c-911d-f5e7825849fe",
+      "id": "d1a1f73f-4b50-471c-911d-f5e7825849fe",
       "ward_no": "13",
-      "ward_name_en": "Vettikkadavu",
-      "ward_name_ml": "വെട്ടിക്കടവ്"
+      "name_en": "Vettikkadavu",
+      "name_ml": "വെട്ടിക്കടവ്"
     }
   ],
   "towns": [],

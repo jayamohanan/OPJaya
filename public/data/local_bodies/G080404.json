@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G080404",
-  "local_body_name_en": "Panjal",
-  "local_body_name_ml": "പാഞ്ഞാള്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G080404",
+  "name_en": "Panjal",
+  "name_ml": "പാഞ്ഞാള്‍",
+  "assembly_id": "61",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "61",
-    "assembly_name_en": "Chelakkara",
-    "assembly_name_ml": "ചേലക്കര",
-    "category": "Normal"
+    "id": "61",
+    "name_en": "Chelakkara",
+    "name_ml": "ചേലക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "6796bad3-d27d-47e9-90f4-4e7c6ae86bf6",
+      "id": "6796bad3-d27d-47e9-90f4-4e7c6ae86bf6",
       "ward_no": "1",
-      "ward_name_en": "Painkulam Vadakkumuri",
-      "ward_name_ml": "പൈങ്കുളം വടക്കുമുറി"
+      "name_en": "Painkulam Vadakkumuri",
+      "name_ml": "പൈങ്കുളം വടക്കുമുറി"
     },
     {
-      "ward_id": "f92eed38-98b5-4d2f-ad2e-dad6857a4058",
+      "id": "f92eed38-98b5-4d2f-ad2e-dad6857a4058",
       "ward_no": "2",
-      "ward_name_en": "Painkulam Centre",
-      "ward_name_ml": "പൈങ്കുളം സെന്റര്‍"
+      "name_en": "Painkulam Centre",
+      "name_ml": "പൈങ്കുളം സെന്റര്‍"
     },
     {
-      "ward_id": "26561ac2-a777-4ab1-a088-6eb160d50bb4",
+      "id": "26561ac2-a777-4ab1-a088-6eb160d50bb4",
       "ward_no": "3",
-      "ward_name_en": "Painkulam Kizhakkumuri",
-      "ward_name_ml": "പൈങ്കുളം കിഴക്കുമുറി"
+      "name_en": "Painkulam Kizhakkumuri",
+      "name_ml": "പൈങ്കുളം കിഴക്കുമുറി"
     },
     {
-      "ward_id": "12f47615-dcfb-458f-8d44-4083ac4610f9",
+      "id": "12f47615-dcfb-458f-8d44-4083ac4610f9",
       "ward_no": "4",
-      "ward_name_en": "Thozhupadam Centre",
-      "ward_name_ml": "തൊഴുപ്പാടം സെന്റര്‍"
+      "name_en": "Thozhupadam Centre",
+      "name_ml": "തൊഴുപ്പാടം സെന്റര്‍"
     },
     {
-      "ward_id": "369f6e3d-3e0e-45cf-8868-2533487cdca4",
+      "id": "369f6e3d-3e0e-45cf-8868-2533487cdca4",
       "ward_no": "5",
-      "ward_name_en": "Thozhupadam Thekkumuri",
-      "ward_name_ml": "തൊഴുപ്പാടം തെക്കുമുറി"
+      "name_en": "Thozhupadam Thekkumuri",
+      "name_ml": "തൊഴുപ്പാടം തെക്കുമുറി"
     },
     {
-      "ward_id": "7e59da01-0ec6-49e8-b5c8-02f882aff167",
+      "id": "7e59da01-0ec6-49e8-b5c8-02f882aff167",
       "ward_no": "6",
-      "ward_name_en": "Keezhillam",
-      "ward_name_ml": "കീഴില്ലം"
+      "name_en": "Keezhillam",
+      "name_ml": "കീഴില്ലം"
     },
     {
-      "ward_id": "bcf2d756-4724-408e-9b68-d4646d9d655d",
+      "id": "bcf2d756-4724-408e-9b68-d4646d9d655d",
       "ward_no": "7",
-      "ward_name_en": "Kulambu",
-      "ward_name_ml": "കുളമ്പ്"
+      "name_en": "Kulambu",
+      "name_ml": "കുളമ്പ്"
     },
     {
-      "ward_id": "49a7ac88-6330-4e65-b2fe-34454f1befff",
+      "id": "49a7ac88-6330-4e65-b2fe-34454f1befff",
       "ward_no": "8",
-      "ward_name_en": "Killimangalam Padinjattumuri",
-      "ward_name_ml": "കിള്ളിമംഗലം പടിഞ്ഞാറ്റുമുറി"
+      "name_en": "Killimangalam Padinjattumuri",
+      "name_ml": "കിള്ളിമംഗലം പടിഞ്ഞാറ്റുമുറി"
     },
     {
-      "ward_id": "7693ec79-5030-4133-8123-e0c1dfa30db7",
+      "id": "7693ec79-5030-4133-8123-e0c1dfa30db7",
       "ward_no": "9",
-      "ward_name_en": "Killimangalam Centre",
-      "ward_name_ml": "കിള്ളിമംഗലം സെന്റര്‍"
+      "name_en": "Killimangalam Centre",
+      "name_ml": "കിള്ളിമംഗലം സെന്റര്‍"
     },
     {
-      "ward_id": "1f78b79c-cfd2-48c6-9253-2f343a2a5201",
+      "id": "1f78b79c-cfd2-48c6-9253-2f343a2a5201",
       "ward_no": "10",
-      "ward_name_en": "Uduvady",
-      "ward_name_ml": "ഉദുവടി"
+      "name_en": "Uduvady",
+      "name_ml": "ഉദുവടി"
     },
     {
-      "ward_id": "1353bbba-a7a1-4b23-b52f-2f3ad4324b2d",
+      "id": "1353bbba-a7a1-4b23-b52f-2f3ad4324b2d",
       "ward_no": "11",
-      "ward_name_en": "Cherankonam",
-      "ward_name_ml": "ചെറങ്കോണം"
+      "name_en": "Cherankonam",
+      "name_ml": "ചെറങ്കോണം"
     },
     {
-      "ward_id": "348af2c7-2c1e-4420-adc7-8f97ad6bc835",
+      "id": "348af2c7-2c1e-4420-adc7-8f97ad6bc835",
       "ward_no": "12",
-      "ward_name_en": "Parappuram",
-      "ward_name_ml": "പാറപ്പുറം"
+      "name_en": "Parappuram",
+      "name_ml": "പാറപ്പുറം"
     },
     {
-      "ward_id": "612ca253-c828-4bc6-a842-5e285baa5572",
+      "id": "612ca253-c828-4bc6-a842-5e285baa5572",
       "ward_no": "13",
-      "ward_name_en": "Sreepushkaram",
-      "ward_name_ml": "ശ്രീപുഷ്കരം"
+      "name_en": "Sreepushkaram",
+      "name_ml": "ശ്രീപുഷ്കരം"
     },
     {
-      "ward_id": "378d0ce3-e5ee-427d-96eb-ed8d74ca9b7e",
+      "id": "378d0ce3-e5ee-427d-96eb-ed8d74ca9b7e",
       "ward_no": "14",
-      "ward_name_en": "Panjal",
-      "ward_name_ml": "പാഞ്ഞാള്‍"
+      "name_en": "Panjal",
+      "name_ml": "പാഞ്ഞാള്‍"
     },
     {
-      "ward_id": "0d65a17f-148d-4f45-9d4d-62722669fed9",
+      "id": "0d65a17f-148d-4f45-9d4d-62722669fed9",
       "ward_no": "15",
-      "ward_name_en": "Dalapathy",
-      "ward_name_ml": "ദളപതി"
+      "name_en": "Dalapathy",
+      "name_ml": "ദളപതി"
     },
     {
-      "ward_id": "c6a44e64-b75b-4460-adf4-442b4842c100",
+      "id": "c6a44e64-b75b-4460-adf4-442b4842c100",
       "ward_no": "16",
-      "ward_name_en": "Painkulam Thekkumuri",
-      "ward_name_ml": "പൈങ്കുളം തെക്കുമുറി"
+      "name_en": "Painkulam Thekkumuri",
+      "name_ml": "പൈങ്കുളം തെക്കുമുറി"
     }
   ],
   "towns": [],

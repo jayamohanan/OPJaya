@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G020301",
-  "local_body_name_en": "Ummannoor",
-  "local_body_name_ml": "ഉമ്മന്നൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G020301",
+  "name_en": "Ummannoor",
+  "name_ml": "ഉമ്മന്നൂര്‍",
+  "assembly_id": "119",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "119",
-    "assembly_name_en": "Kottarakkara",
-    "assembly_name_ml": "കൊട്ടാരക്കര",
-    "category": "Normal"
+    "id": "119",
+    "name_en": "Kottarakkara",
+    "name_ml": "കൊട്ടാരക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4950e7ca-4943-4321-b0eb-fdfc0ec2f05e",
+      "id": "4950e7ca-4943-4321-b0eb-fdfc0ec2f05e",
       "ward_no": "1",
-      "ward_name_en": "Nellikkunnam",
-      "ward_name_ml": "നെല്ലിക്കുന്നം"
+      "name_en": "Nellikkunnam",
+      "name_ml": "നെല്ലിക്കുന്നം"
     },
     {
-      "ward_id": "b3ee3e60-f391-4b84-941f-d21e6d191699",
+      "id": "b3ee3e60-f391-4b84-941f-d21e6d191699",
       "ward_no": "2",
-      "ward_name_en": "Plappally",
-      "ward_name_ml": "പ്ലാപ്പള്ളി"
+      "name_en": "Plappally",
+      "name_ml": "പ്ലാപ്പള്ളി"
     },
     {
-      "ward_id": "834f8390-c971-4326-a33b-af793e2afb33",
+      "id": "834f8390-c971-4326-a33b-af793e2afb33",
       "ward_no": "3",
-      "ward_name_en": "Nedumankavu",
-      "ward_name_ml": "നെടുമൺകാവ്"
+      "name_en": "Nedumankavu",
+      "name_ml": "നെടുമൺകാവ്"
     },
     {
-      "ward_id": "dc29198f-044d-4d15-857e-860dab07bbf2",
+      "id": "dc29198f-044d-4d15-857e-860dab07bbf2",
       "ward_no": "4",
-      "ward_name_en": "Panayara",
-      "ward_name_ml": "പനയറ"
+      "name_en": "Panayara",
+      "name_ml": "പനയറ"
     },
     {
-      "ward_id": "0c89faed-8590-4d12-a061-58d21ddc244f",
+      "id": "0c89faed-8590-4d12-a061-58d21ddc244f",
       "ward_no": "5",
-      "ward_name_en": "Ampalakkara West",
-      "ward_name_ml": "അമ്പലക്കര വെസ്റ്റ്"
+      "name_en": "Ampalakkara West",
+      "name_ml": "അമ്പലക്കര വെസ്റ്റ്"
     },
     {
-      "ward_id": "ba7dd09c-40d7-4d49-aecb-e03066331ca7",
+      "id": "ba7dd09c-40d7-4d49-aecb-e03066331ca7",
       "ward_no": "6",
-      "ward_name_en": "Ampalakkara",
-      "ward_name_ml": "അമ്പലക്കര"
+      "name_en": "Ampalakkara",
+      "name_ml": "അമ്പലക്കര"
     },
     {
-      "ward_id": "b730fd05-4aad-434c-840c-3dd90eca2e39",
+      "id": "b730fd05-4aad-434c-840c-3dd90eca2e39",
       "ward_no": "7",
-      "ward_name_en": "Valakom North",
-      "ward_name_ml": "വാളകം നോർത്ത്"
+      "name_en": "Valakom North",
+      "name_ml": "വാളകം നോർത്ത്"
     },
     {
-      "ward_id": "dda75b5c-f26a-4478-8005-b256a0e4b6ed",
+      "id": "dda75b5c-f26a-4478-8005-b256a0e4b6ed",
       "ward_no": "8",
-      "ward_name_en": "Valakom South",
-      "ward_name_ml": "വാളകം സൗത്ത്"
+      "name_en": "Valakom South",
+      "name_ml": "വാളകം സൗത്ത്"
     },
     {
-      "ward_id": "a8f25dc2-e020-4d8b-992b-497f3f031c8c",
+      "id": "a8f25dc2-e020-4d8b-992b-497f3f031c8c",
       "ward_no": "9",
-      "ward_name_en": "Polikkodu",
-      "ward_name_ml": "പൊലിക്കോട്"
+      "name_en": "Polikkodu",
+      "name_ml": "പൊലിക്കോട്"
     },
     {
-      "ward_id": "e8f8955c-8838-4c7a-a3cf-0950a8c95dac",
+      "id": "e8f8955c-8838-4c7a-a3cf-0950a8c95dac",
       "ward_no": "10",
-      "ward_name_en": "Vayakkal",
-      "ward_name_ml": "വയയ്ക്കൽ"
+      "name_en": "Vayakkal",
+      "name_ml": "വയയ്ക്കൽ"
     },
     {
-      "ward_id": "59333990-4177-48a8-9fdd-4ed8a1c4af15",
+      "id": "59333990-4177-48a8-9fdd-4ed8a1c4af15",
       "ward_no": "11",
-      "ward_name_en": "Kampamkodu",
-      "ward_name_ml": "കമ്പംകോട്"
+      "name_en": "Kampamkodu",
+      "name_ml": "കമ്പംകോട്"
     },
     {
-      "ward_id": "e2fb055f-89cd-4fd5-8e9e-c07c8108799f",
+      "id": "e2fb055f-89cd-4fd5-8e9e-c07c8108799f",
       "ward_no": "12",
-      "ward_name_en": "Thevannoor",
-      "ward_name_ml": "തേവന്നൂർ"
+      "name_en": "Thevannoor",
+      "name_ml": "തേവന്നൂർ"
     },
     {
-      "ward_id": "d71a9995-9e67-44a8-9fcf-ada82a4f5ca7",
+      "id": "d71a9995-9e67-44a8-9fcf-ada82a4f5ca7",
       "ward_no": "13",
-      "ward_name_en": "Melkkulangara",
-      "ward_name_ml": "മേൽക്കുളങ്ങര"
+      "name_en": "Melkkulangara",
+      "name_ml": "മേൽക്കുളങ്ങര"
     },
     {
-      "ward_id": "45638edb-db99-460c-ad71-eac04abf99b8",
+      "id": "45638edb-db99-460c-ad71-eac04abf99b8",
       "ward_no": "14",
-      "ward_name_en": "Andoor",
-      "ward_name_ml": "അണ്ടൂർ"
+      "name_en": "Andoor",
+      "name_ml": "അണ്ടൂർ"
     },
     {
-      "ward_id": "dae0d3b1-8d36-4eed-9a12-afe2aea408b7",
+      "id": "dae0d3b1-8d36-4eed-9a12-afe2aea408b7",
       "ward_no": "15",
-      "ward_name_en": "Ummannoor",
-      "ward_name_ml": "ഉമ്മന്നൂർ"
+      "name_en": "Ummannoor",
+      "name_ml": "ഉമ്മന്നൂർ"
     },
     {
-      "ward_id": "c964257b-73f3-452e-83a1-07f65cc04650",
+      "id": "c964257b-73f3-452e-83a1-07f65cc04650",
       "ward_no": "16",
-      "ward_name_en": "Pazhinjam",
-      "ward_name_ml": "പഴിഞ്ഞം"
+      "name_en": "Pazhinjam",
+      "name_ml": "പഴിഞ്ഞം"
     },
     {
-      "ward_id": "1267f82b-d779-40d7-9611-6c74c701f7c6",
+      "id": "1267f82b-d779-40d7-9611-6c74c701f7c6",
       "ward_no": "17",
-      "ward_name_en": "Vadakodu",
-      "ward_name_ml": "വടകോട്"
+      "name_en": "Vadakodu",
+      "name_ml": "വടകോട്"
     },
     {
-      "ward_id": "16b07c46-8e2e-4ab6-b9a6-7dc83949f901",
+      "id": "16b07c46-8e2e-4ab6-b9a6-7dc83949f901",
       "ward_no": "18",
-      "ward_name_en": "Pinattinmukal",
-      "ward_name_ml": "പിണറ്റിൻമുകൾ"
+      "name_en": "Pinattinmukal",
+      "name_ml": "പിണറ്റിൻമുകൾ"
     },
     {
-      "ward_id": "24a6a225-ca65-41ba-a34d-87effc8d897a",
+      "id": "24a6a225-ca65-41ba-a34d-87effc8d897a",
       "ward_no": "19",
-      "ward_name_en": "Vilayanthoor",
-      "ward_name_ml": "വിലയന്തൂർ"
+      "name_en": "Vilayanthoor",
+      "name_ml": "വിലയന്തൂർ"
     },
     {
-      "ward_id": "47a719d2-fd70-4391-b2f1-c59f94c02a51",
+      "id": "47a719d2-fd70-4391-b2f1-c59f94c02a51",
       "ward_no": "20",
-      "ward_name_en": "Vilangara",
-      "ward_name_ml": "വിലങ്ങറ"
+      "name_en": "Vilangara",
+      "name_ml": "വിലങ്ങറ"
     }
   ],
   "towns": [],

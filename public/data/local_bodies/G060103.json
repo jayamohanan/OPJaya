@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060103",
-  "local_body_name_en": "BysonValley",
-  "local_body_name_ml": "ബൈസണ്‍ വാലി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G060103",
+  "name_en": "BysonValley",
+  "name_ml": "ബൈസണ്‍ വാലി",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
-    "category": "Normal"
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f905a6a2-102a-45d8-9c86-ab80fa3852ed",
+      "id": "f905a6a2-102a-45d8-9c86-ab80fa3852ed",
       "ward_no": "1",
-      "ward_name_en": "Deseeyam",
-      "ward_name_ml": "ദേശീയം"
+      "name_en": "Deseeyam",
+      "name_ml": "ദേശീയം"
     },
     {
-      "ward_id": "aca652f0-1cc9-4e72-9085-21e1d883ac8e",
+      "id": "aca652f0-1cc9-4e72-9085-21e1d883ac8e",
       "ward_no": "2",
-      "ward_name_en": "Iruttala",
-      "ward_name_ml": "ഇരുട്ടള"
+      "name_en": "Iruttala",
+      "name_ml": "ഇരുട്ടള"
     },
     {
-      "ward_id": "ccedd034-a4d1-40ac-8dd9-1c889ab99178",
+      "id": "ccedd034-a4d1-40ac-8dd9-1c889ab99178",
       "ward_no": "3",
-      "ward_name_en": "Pottankadu",
-      "ward_name_ml": "പൊട്ടന്‍കാട്"
+      "name_en": "Pottankadu",
+      "name_ml": "പൊട്ടന്‍കാട്"
     },
     {
-      "ward_id": "beacd78f-dc10-4709-8f28-15a481d3f69a",
+      "id": "beacd78f-dc10-4709-8f28-15a481d3f69a",
       "ward_no": "4",
-      "ward_name_en": "Bisonvalley",
-      "ward_name_ml": "ബൈസണ്‍വാലി"
+      "name_en": "Bisonvalley",
+      "name_ml": "ബൈസണ്‍വാലി"
     },
     {
-      "ward_id": "a0067037-cd3d-4cc7-89a8-e970c844852b",
+      "id": "a0067037-cd3d-4cc7-89a8-e970c844852b",
       "ward_no": "5",
-      "ward_name_en": "Chokramudy",
-      "ward_name_ml": "ചൊക്രമുടി"
+      "name_en": "Chokramudy",
+      "name_ml": "ചൊക്രമുടി"
     },
     {
-      "ward_id": "53423f73-3919-4a86-8297-0ac97d0e7952",
+      "id": "53423f73-3919-4a86-8297-0ac97d0e7952",
       "ward_no": "6",
-      "ward_name_en": "Muttukadu",
-      "ward_name_ml": "മുട്ടുകാട്"
+      "name_en": "Muttukadu",
+      "name_ml": "മുട്ടുകാട്"
     },
     {
-      "ward_id": "449920f9-180a-43d4-b6d3-2a7f705c76a6",
+      "id": "449920f9-180a-43d4-b6d3-2a7f705c76a6",
       "ward_no": "7",
-      "ward_name_en": "High School Ward",
-      "ward_name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്‌"
+      "name_en": "High School Ward",
+      "name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്‌"
     },
     {
-      "ward_id": "7dae2c2a-a07f-4a0d-bf78-d3c201aa09e3",
+      "id": "7dae2c2a-a07f-4a0d-bf78-d3c201aa09e3",
       "ward_no": "8",
-      "ward_name_en": "Tea Company",
-      "ward_name_ml": "ടീ കമ്പനി"
+      "name_en": "Tea Company",
+      "name_ml": "ടീ കമ്പനി"
     },
     {
-      "ward_id": "13f46836-9f50-411e-bfa8-4f612c6073c0",
+      "id": "13f46836-9f50-411e-bfa8-4f612c6073c0",
       "ward_no": "9",
-      "ward_name_en": "Kochuppu",
-      "ward_name_ml": "കൊച്ചുപ്പ്"
+      "name_en": "Kochuppu",
+      "name_ml": "കൊച്ചുപ്പ്"
     },
     {
-      "ward_id": "132f07bc-8b4f-4fdf-b8c1-dbc0b260223d",
+      "id": "132f07bc-8b4f-4fdf-b8c1-dbc0b260223d",
       "ward_no": "10",
-      "ward_name_en": "Josegiri",
-      "ward_name_ml": "ജോസ്ഗിരി"
+      "name_en": "Josegiri",
+      "name_ml": "ജോസ്ഗിരി"
     },
     {
-      "ward_id": "0439f036-3db9-4c6d-add8-04f0fc59d1d0",
+      "id": "0439f036-3db9-4c6d-add8-04f0fc59d1d0",
       "ward_no": "11",
-      "ward_name_en": "Thekkinkanam",
-      "ward_name_ml": "തേക്കിന്‍കാനം"
+      "name_en": "Thekkinkanam",
+      "name_ml": "തേക്കിന്‍കാനം"
     },
     {
-      "ward_id": "e41dab29-29b6-4965-ac1b-be3d93475eca",
+      "id": "e41dab29-29b6-4965-ac1b-be3d93475eca",
       "ward_no": "12",
-      "ward_name_en": "Uppar",
-      "ward_name_ml": "ഉപ്പാര്‍"
+      "name_en": "Uppar",
+      "name_ml": "ഉപ്പാര്‍"
     },
     {
-      "ward_id": "68d5fc55-0a0b-42dd-b41c-eeaa07ad58d2",
+      "id": "68d5fc55-0a0b-42dd-b41c-eeaa07ad58d2",
       "ward_no": "13",
-      "ward_name_en": "20 Acre",
-      "ward_name_ml": "ഇരുപതേക്കര്‍"
+      "name_en": "20 Acre",
+      "name_ml": "ഇരുപതേക്കര്‍"
     }
   ],
   "towns": [],

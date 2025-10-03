@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G050407",
-  "local_body_name_en": "Ramapuram",
-  "local_body_name_ml": "രാമപുരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "93",
-    "assembly_name_en": "Pala",
-    "assembly_name_ml": "പാലാ",
+  "id": "G050407",
+  "name_en": "Ramapuram",
+  "name_ml": "രാമപുരം",
+  "assembly_id": "93",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "93",
+    "name_en": "Pala",
+    "name_ml": "പാലാ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "092a1f27-e08b-456a-8e95-0da32de3e0de",
+      "id": "092a1f27-e08b-456a-8e95-0da32de3e0de",
       "ward_no": "1",
-      "ward_name_en": "Methiri",
-      "ward_name_ml": "മേതിരി"
+      "name_en": "Methiri",
+      "name_ml": "മേതിരി"
     },
     {
-      "ward_id": "8a2db8db-edd0-421c-8fb2-21ccc1c385cd",
+      "id": "8a2db8db-edd0-421c-8fb2-21ccc1c385cd",
       "ward_no": "2",
-      "ward_name_en": "Kurinji",
-      "ward_name_ml": "കുറിഞ്ഞി"
+      "name_en": "Kurinji",
+      "name_ml": "കുറിഞ്ഞി"
     },
     {
-      "ward_id": "60f70652-3fab-49bb-a2c4-7a7b66c54fa9",
+      "id": "60f70652-3fab-49bb-a2c4-7a7b66c54fa9",
       "ward_no": "3",
-      "ward_name_en": "Kizhathiri",
-      "ward_name_ml": "കിഴതിരി"
+      "name_en": "Kizhathiri",
+      "name_ml": "കിഴതിരി"
     },
     {
-      "ward_id": "141b4568-a0dd-4e6c-8d95-3b70be1b1569",
+      "id": "141b4568-a0dd-4e6c-8d95-3b70be1b1569",
       "ward_no": "4",
-      "ward_name_en": "Mullamattom",
-      "ward_name_ml": "മുല്ലമറ്റം"
+      "name_en": "Mullamattom",
+      "name_ml": "മുല്ലമറ്റം"
     },
     {
-      "ward_id": "5c003165-1d9b-4eaa-aeee-8f0b12302a65",
+      "id": "5c003165-1d9b-4eaa-aeee-8f0b12302a65",
       "ward_no": "5",
-      "ward_name_en": "Ramapuram Bazar",
-      "ward_name_ml": "രാമപുരം ബസാര്‍"
+      "name_en": "Ramapuram Bazar",
+      "name_ml": "രാമപുരം ബസാര്‍"
     },
     {
-      "ward_id": "8fd38d8d-2a11-4770-bb1c-8b897a28dd6e",
+      "id": "8fd38d8d-2a11-4770-bb1c-8b897a28dd6e",
       "ward_no": "6",
-      "ward_name_en": "Marangadu",
-      "ward_name_ml": "മരങ്ങാട്"
+      "name_en": "Marangadu",
+      "name_ml": "മരങ്ങാട്"
     },
     {
-      "ward_id": "d45c55ff-7280-4c22-b73d-05ad17a06e52",
+      "id": "d45c55ff-7280-4c22-b73d-05ad17a06e52",
       "ward_no": "7",
-      "ward_name_en": "G V School",
-      "ward_name_ml": "ജി.വി.സ്കൂള്‍"
+      "name_en": "G V School",
+      "name_ml": "ജി.വി.സ്കൂള്‍"
     },
     {
-      "ward_id": "0c87afff-76d4-43b5-ae99-506b4b3fc9c4",
+      "id": "0c87afff-76d4-43b5-ae99-506b4b3fc9c4",
       "ward_no": "8",
-      "ward_name_en": "Ezhacherry",
-      "ward_name_ml": "ഏഴാച്ചേരി"
+      "name_en": "Ezhacherry",
+      "name_ml": "ഏഴാച്ചേരി"
     },
     {
-      "ward_id": "48d17768-3233-4654-b5a6-1297859910d9",
+      "id": "48d17768-3233-4654-b5a6-1297859910d9",
       "ward_no": "9",
-      "ward_name_en": "Gandhipuram",
-      "ward_name_ml": "ഗാന്ധിപുരം"
+      "name_en": "Gandhipuram",
+      "name_ml": "ഗാന്ധിപുരം"
     },
     {
-      "ward_id": "d8945f18-d2ce-4f2a-9a7f-380a8718cefb",
+      "id": "d8945f18-d2ce-4f2a-9a7f-380a8718cefb",
       "ward_no": "10",
-      "ward_name_en": "Chirakandom",
-      "ward_name_ml": "ചിറക്കണ്ടം"
+      "name_en": "Chirakandom",
+      "name_ml": "ചിറക്കണ്ടം"
     },
     {
-      "ward_id": "37e0d9c3-8ca0-44de-bc55-3081ebb93db8",
+      "id": "37e0d9c3-8ca0-44de-bc55-3081ebb93db8",
       "ward_no": "11",
-      "ward_name_en": "Chakkampuzha",
-      "ward_name_ml": "ചക്കാമ്പുഴ"
+      "name_en": "Chakkampuzha",
+      "name_ml": "ചക്കാമ്പുഴ"
     },
     {
-      "ward_id": "991b8b2f-4c02-4a7d-9a43-000c8ce85b1c",
+      "id": "991b8b2f-4c02-4a7d-9a43-000c8ce85b1c",
       "ward_no": "12",
-      "ward_name_en": "Kondadu",
-      "ward_name_ml": "കൊണ്ടാട്"
+      "name_en": "Kondadu",
+      "name_ml": "കൊണ്ടാട്"
     },
     {
-      "ward_id": "8938927a-3c88-4cb3-b231-bc9f18c23598",
+      "id": "8938927a-3c88-4cb3-b231-bc9f18c23598",
       "ward_no": "13",
-      "ward_name_en": "Vellilapilly",
-      "ward_name_ml": "വെള്ളിലാപ്പിള്ളി"
+      "name_en": "Vellilapilly",
+      "name_ml": "വെള്ളിലാപ്പിള്ളി"
     },
     {
-      "ward_id": "2a428bf8-ed9f-45f9-b7f0-00e028e77b3a",
+      "id": "2a428bf8-ed9f-45f9-b7f0-00e028e77b3a",
       "ward_no": "14",
-      "ward_name_en": "Palaveli",
-      "ward_name_ml": "പാലവേലി"
+      "name_en": "Palaveli",
+      "name_ml": "പാലവേലി"
     },
     {
-      "ward_id": "e6aae873-060c-4bb5-89d5-beb22f356e52",
+      "id": "e6aae873-060c-4bb5-89d5-beb22f356e52",
       "ward_no": "15",
-      "ward_name_en": "Koodappulam",
-      "ward_name_ml": "കൂടപ്പുലം"
+      "name_en": "Koodappulam",
+      "name_ml": "കൂടപ്പുലം"
     },
     {
-      "ward_id": "b393c7d3-0b65-4347-a3e3-5643587b23f0",
+      "id": "b393c7d3-0b65-4347-a3e3-5643587b23f0",
       "ward_no": "16",
-      "ward_name_en": "Chettukulam",
-      "ward_name_ml": "ചേറ്റുകുളം"
+      "name_en": "Chettukulam",
+      "name_ml": "ചേറ്റുകുളം"
     },
     {
-      "ward_id": "467b3030-0540-4ade-9a40-713355cd32bd",
+      "id": "467b3030-0540-4ade-9a40-713355cd32bd",
       "ward_no": "17",
-      "ward_name_en": "Pazhamala",
-      "ward_name_ml": "പഴമല"
+      "name_en": "Pazhamala",
+      "name_ml": "പഴമല"
     },
     {
-      "ward_id": "31ca17e5-a4fe-4960-bc62-64f57c575f85",
+      "id": "31ca17e5-a4fe-4960-bc62-64f57c575f85",
       "ward_no": "18",
-      "ward_name_en": "Amanakara",
-      "ward_name_ml": "അമനകര"
+      "name_en": "Amanakara",
+      "name_ml": "അമനകര"
     }
   ],
   "towns": [],

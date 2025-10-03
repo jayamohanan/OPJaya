@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G040601",
-  "local_body_name_en": "Thalavady",
-  "local_body_name_ml": "തലവടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G040601",
+  "name_en": "Thalavady",
+  "name_ml": "തലവടി",
+  "assembly_id": "106",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "106",
-    "assembly_name_en": "Kuttanad",
-    "assembly_name_ml": "കുട്ടനാട്",
-    "category": "Normal"
+    "id": "106",
+    "name_en": "Kuttanad",
+    "name_ml": "കുട്ടനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e5337621-4224-4a41-bf68-001a9c3021c1",
+      "id": "e5337621-4224-4a41-bf68-001a9c3021c1",
       "ward_no": "1",
-      "ward_name_en": "Kalangara",
-      "ward_name_ml": "കളങ്ങര"
+      "name_en": "Kalangara",
+      "name_ml": "കളങ്ങര"
     },
     {
-      "ward_id": "de625e10-d563-4f08-8178-cbe119d6ff0a",
+      "id": "de625e10-d563-4f08-8178-cbe119d6ff0a",
       "ward_no": "2",
-      "ward_name_en": "Karikuzhy",
-      "ward_name_ml": "കാരിക്കുഴി"
+      "name_en": "Karikuzhy",
+      "name_ml": "കാരിക്കുഴി"
     },
     {
-      "ward_id": "41f7cc98-609e-4ed1-a677-f5e79b871272",
+      "id": "41f7cc98-609e-4ed1-a677-f5e79b871272",
       "ward_no": "3",
-      "ward_name_en": "Thiruvirukari",
-      "ward_name_ml": "തിരുവിരുക്കരി"
+      "name_en": "Thiruvirukari",
+      "name_ml": "തിരുവിരുക്കരി"
     },
     {
-      "ward_id": "0df773e2-86e1-4354-9d99-504eae381781",
+      "id": "0df773e2-86e1-4354-9d99-504eae381781",
       "ward_no": "4",
-      "ward_name_en": "Naduvilemuri",
-      "ward_name_ml": "നടുവിലേമുറി"
+      "name_en": "Naduvilemuri",
+      "name_ml": "നടുവിലേമുറി"
     },
     {
-      "ward_id": "b5107aad-abf7-4ff2-8ae6-38ec9fe2e482",
+      "id": "b5107aad-abf7-4ff2-8ae6-38ec9fe2e482",
       "ward_no": "5",
-      "ward_name_en": "Vellakkinar",
-      "ward_name_ml": "വെള്ളക്കിണര്‍"
+      "name_en": "Vellakkinar",
+      "name_ml": "വെള്ളക്കിണര്‍"
     },
     {
-      "ward_id": "b0306ca8-fed3-4b17-8aad-08044823675e",
+      "id": "b0306ca8-fed3-4b17-8aad-08044823675e",
       "ward_no": "6",
-      "ward_name_en": "Narakathramutt",
-      "ward_name_ml": "നാരകത്രമുട്ട്"
+      "name_en": "Narakathramutt",
+      "name_ml": "നാരകത്രമുട്ട്"
     },
     {
-      "ward_id": "3857eb98-df3f-4605-92bb-9c63b08fb3bf",
+      "id": "3857eb98-df3f-4605-92bb-9c63b08fb3bf",
       "ward_no": "7",
-      "ward_name_en": "Neerettupuram",
-      "ward_name_ml": "നീരേറ്റുപുറം"
+      "name_en": "Neerettupuram",
+      "name_ml": "നീരേറ്റുപുറം"
     },
     {
-      "ward_id": "7a7efdcb-818b-40cf-a47d-724b0022eb15",
+      "id": "7a7efdcb-818b-40cf-a47d-724b0022eb15",
       "ward_no": "8",
-      "ward_name_en": "Manathara",
-      "ward_name_ml": "മാണത്താറ"
+      "name_en": "Manathara",
+      "name_ml": "മാണത്താറ"
     },
     {
-      "ward_id": "0cd510db-360b-4d8f-acda-4f8b92a0a07d",
+      "id": "0cd510db-360b-4d8f-acda-4f8b92a0a07d",
       "ward_no": "9",
-      "ward_name_en": "Chakkulam",
-      "ward_name_ml": "ചക്കുളം"
+      "name_en": "Chakkulam",
+      "name_ml": "ചക്കുളം"
     },
     {
-      "ward_id": "aef486a0-b6b5-45f0-ac0b-244ab951a537",
+      "id": "aef486a0-b6b5-45f0-ac0b-244ab951a537",
       "ward_no": "10",
-      "ward_name_en": "Manalel",
-      "ward_name_ml": "മണലേല്‍"
+      "name_en": "Manalel",
+      "name_ml": "മണലേല്‍"
     },
     {
-      "ward_id": "e20b3ce3-0fc0-480b-ba61-cd5a8e932278",
+      "id": "e20b3ce3-0fc0-480b-ba61-cd5a8e932278",
       "ward_no": "11",
-      "ward_name_en": "Thalavady",
-      "ward_name_ml": "തലവടി"
+      "name_en": "Thalavady",
+      "name_ml": "തലവടി"
     },
     {
-      "ward_id": "397e0534-4e8b-4066-94f5-c66778258276",
+      "id": "397e0534-4e8b-4066-94f5-c66778258276",
       "ward_no": "12",
-      "ward_name_en": "Choottumali",
-      "ward_name_ml": "ചൂട്ടുമാലി"
+      "name_en": "Choottumali",
+      "name_ml": "ചൂട്ടുമാലി"
     },
     {
-      "ward_id": "ba67428f-2ad1-48d4-845b-5cd9ca376a05",
+      "id": "ba67428f-2ad1-48d4-845b-5cd9ca376a05",
       "ward_no": "13",
-      "ward_name_en": "Kodambanadi",
-      "ward_name_ml": "കോടമ്പനാടി"
+      "name_en": "Kodambanadi",
+      "name_ml": "കോടമ്പനാടി"
     },
     {
-      "ward_id": "87d04bf3-e8aa-47d5-9d08-525932edcb95",
+      "id": "87d04bf3-e8aa-47d5-9d08-525932edcb95",
       "ward_no": "14",
-      "ward_name_en": "Kochammanam",
-      "ward_name_ml": "കൊച്ചമ്മനം"
+      "name_en": "Kochammanam",
+      "name_ml": "കൊച്ചമ്മനം"
     },
     {
-      "ward_id": "8c64da9c-1380-4755-a2dd-2b83994f5bc9",
+      "id": "8c64da9c-1380-4755-a2dd-2b83994f5bc9",
       "ward_no": "15",
-      "ward_name_en": "Anaprambal",
-      "ward_name_ml": "ആനപ്രമ്പാല്‍"
+      "name_en": "Anaprambal",
+      "name_ml": "ആനപ്രമ്പാല്‍"
     }
   ],
   "towns": [],

@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G120409",
-  "local_body_name_en": "Muppainad",
-  "local_body_name_ml": "മൂപ്പൈനാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G120409",
+  "name_en": "Muppainad",
+  "name_ml": "മൂപ്പൈനാട്",
+  "assembly_id": "19",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "19",
-    "assembly_name_en": "Kalpetta",
-    "assembly_name_ml": "കല്‍പ്പറ്റ",
-    "category": "Normal"
+    "id": "19",
+    "name_en": "Kalpetta",
+    "name_ml": "കല്‍പ്പറ്റ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b030fe6b-c184-42f4-baaa-ef2300471fd9",
+      "id": "b030fe6b-c184-42f4-baaa-ef2300471fd9",
       "ward_no": "1",
-      "ward_name_en": "Jaihind",
-      "ward_name_ml": "ജയ്ഹിന്ദ്"
+      "name_en": "Jaihind",
+      "name_ml": "ജയ്ഹിന്ദ്"
     },
     {
-      "ward_id": "40978ea0-3de8-4fc9-bc38-880ccfa1fc0c",
+      "id": "40978ea0-3de8-4fc9-bc38-880ccfa1fc0c",
       "ward_no": "2",
-      "ward_name_en": "Arapetta N C",
-      "ward_name_ml": "അരപ്പറ്റ എന്‍  സി"
+      "name_en": "Arapetta N C",
+      "name_ml": "അരപ്പറ്റ എന്‍  സി"
     },
     {
-      "ward_id": "304cbb3b-9c68-4e5f-a730-5a67b0fa62bc",
+      "id": "304cbb3b-9c68-4e5f-a730-5a67b0fa62bc",
       "ward_no": "3",
-      "ward_name_en": "Thinapuram",
-      "ward_name_ml": "തിനപുരം"
+      "name_en": "Thinapuram",
+      "name_ml": "തിനപുരം"
     },
     {
-      "ward_id": "7b57204b-85b2-495c-bcfe-3e1eb78a06c2",
+      "id": "7b57204b-85b2-495c-bcfe-3e1eb78a06c2",
       "ward_no": "4",
-      "ward_name_en": "Pulloorkunnu",
-      "ward_name_ml": "പുല്ലൂര്‍ക്കുന്ന്"
+      "name_en": "Pulloorkunnu",
+      "name_ml": "പുല്ലൂര്‍ക്കുന്ന്"
     },
     {
-      "ward_id": "f6e1ffe8-1cd9-4da1-9478-b02d2db074ac",
+      "id": "f6e1ffe8-1cd9-4da1-9478-b02d2db074ac",
       "ward_no": "5",
-      "ward_name_en": "Nedumkarana",
-      "ward_name_ml": "നെടുംങ്കരണ"
+      "name_en": "Nedumkarana",
+      "name_ml": "നെടുംങ്കരണ"
     },
     {
-      "ward_id": "03075522-5cf2-4d12-8ce5-18d9e9cdde56",
+      "id": "03075522-5cf2-4d12-8ce5-18d9e9cdde56",
       "ward_no": "6",
-      "ward_name_en": "Kallikkeni",
-      "ward_name_ml": "കല്ലിക്കെണി"
+      "name_en": "Kallikkeni",
+      "name_ml": "കല്ലിക്കെണി"
     },
     {
-      "ward_id": "e345fe29-54a8-4dfb-9a5a-ead573137888",
+      "id": "e345fe29-54a8-4dfb-9a5a-ead573137888",
       "ward_no": "7",
-      "ward_name_en": "Chellamgode",
-      "ward_name_ml": "ചെല്ലങ്കോട്"
+      "name_en": "Chellamgode",
+      "name_ml": "ചെല്ലങ്കോട്"
     },
     {
-      "ward_id": "ea084d44-c30d-4396-8daf-d1cd9f591945",
+      "id": "ea084d44-c30d-4396-8daf-d1cd9f591945",
       "ward_no": "8",
-      "ward_name_en": "Vaduvanchal",
-      "ward_name_ml": "വടുവന്‍ചാല്‍"
+      "name_en": "Vaduvanchal",
+      "name_ml": "വടുവന്‍ചാല്‍"
     },
     {
-      "ward_id": "3f777372-3d51-4627-8eec-ee8ae380a544",
+      "id": "3f777372-3d51-4627-8eec-ee8ae380a544",
       "ward_no": "9",
-      "ward_name_en": "Kadachikkunnu",
-      "ward_name_ml": "കടച്ചിക്കുന്ന്"
+      "name_en": "Kadachikkunnu",
+      "name_ml": "കടച്ചിക്കുന്ന്"
     },
     {
-      "ward_id": "0a869e8c-5205-4624-9344-c181ecaa0718",
+      "id": "0a869e8c-5205-4624-9344-c181ecaa0718",
       "ward_no": "10",
-      "ward_name_en": "Rippon",
-      "ward_name_ml": "റിപ്പണ്‍"
+      "name_en": "Rippon",
+      "name_ml": "റിപ്പണ്‍"
     },
     {
-      "ward_id": "1110e1e8-2986-4fdb-9d4e-afec7e655a3d",
+      "id": "1110e1e8-2986-4fdb-9d4e-afec7e655a3d",
       "ward_no": "11",
-      "ward_name_en": "Puthukkad",
-      "ward_name_ml": "പുതുക്കാട്"
+      "name_en": "Puthukkad",
+      "name_ml": "പുതുക്കാട്"
     },
     {
-      "ward_id": "ee99a29e-e170-4059-adc0-8859a824dc13",
+      "id": "ee99a29e-e170-4059-adc0-8859a824dc13",
       "ward_no": "12",
-      "ward_name_en": "Vallathoor",
-      "ward_name_ml": "വാളത്തൂര്‍"
+      "name_en": "Vallathoor",
+      "name_ml": "വാളത്തൂര്‍"
     },
     {
-      "ward_id": "89b68028-83cf-447a-90d9-be2cddd611e3",
+      "id": "89b68028-83cf-447a-90d9-be2cddd611e3",
       "ward_no": "13",
-      "ward_name_en": "Aramangalamchal",
-      "ward_name_ml": "അരമംഗലംചാല്‍"
+      "name_en": "Aramangalamchal",
+      "name_ml": "അരമംഗലംചാല്‍"
     },
     {
-      "ward_id": "505b1b8b-7b2c-43da-9e4e-dd00b160308e",
+      "id": "505b1b8b-7b2c-43da-9e4e-dd00b160308e",
       "ward_no": "14",
-      "ward_name_en": "Arapetta F D",
-      "ward_name_ml": "അരപ്പറ്റ എഫ് ഡി"
+      "name_en": "Arapetta F D",
+      "name_ml": "അരപ്പറ്റ എഫ് ഡി"
     },
     {
-      "ward_id": "87766b5b-57f6-4ae7-bbb4-1fba530d4056",
+      "id": "87766b5b-57f6-4ae7-bbb4-1fba530d4056",
       "ward_no": "15",
-      "ward_name_en": "Mankunnu",
-      "ward_name_ml": "മാന്‍കുന്ന്"
+      "name_en": "Mankunnu",
+      "name_ml": "മാന്‍കുന്ന്"
     },
     {
-      "ward_id": "a4fb5118-c590-4b9c-a45f-8cff4364ae39",
+      "id": "a4fb5118-c590-4b9c-a45f-8cff4364ae39",
       "ward_no": "16",
-      "ward_name_en": "Mukkilpeedika",
-      "ward_name_ml": "മുക്കില്‍പീടിക"
+      "name_en": "Mukkilpeedika",
+      "name_ml": "മുക്കില്‍പീടിക"
     }
   ],
   "towns": [],

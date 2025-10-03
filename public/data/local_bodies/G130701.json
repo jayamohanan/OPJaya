@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G130701",
-  "local_body_name_en": "Dharmadam",
-  "local_body_name_ml": "ധര്‍മ്മടം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "12",
-    "assembly_name_en": "Dharmadom",
-    "assembly_name_ml": "ധര്‍മ്മടം",
+  "id": "G130701",
+  "name_en": "Dharmadam",
+  "name_ml": "ധര്‍മ്മടം",
+  "assembly_id": "12",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "12",
+    "name_en": "Dharmadom",
+    "name_ml": "ധര്‍മ്മടം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e9d485a5-6c44-4a98-8e34-bb54a81af174",
+      "id": "e9d485a5-6c44-4a98-8e34-bb54a81af174",
       "ward_no": "1",
-      "ward_name_en": "Melur Padinjaru",
-      "ward_name_ml": "മേലൂര്‍ പടിഞ്ഞാറ്"
+      "name_en": "Melur Padinjaru",
+      "name_ml": "മേലൂര്‍ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "7c43ea6e-1d7c-4948-b83e-aa1bb35d0604",
+      "id": "7c43ea6e-1d7c-4948-b83e-aa1bb35d0604",
       "ward_no": "2",
-      "ward_name_en": "Melur Kizhakku",
-      "ward_name_ml": "മേലൂര്‍ കിഴക്ക്‌"
+      "name_en": "Melur Kizhakku",
+      "name_ml": "മേലൂര്‍ കിഴക്ക്‌"
     },
     {
-      "ward_id": "7a26489b-576a-4100-963e-a87e5382b72b",
+      "id": "7a26489b-576a-4100-963e-a87e5382b72b",
       "ward_no": "3",
-      "ward_name_en": "Gumttimukku",
-      "ward_name_ml": "ഗുംട്ടിമുക്ക്"
+      "name_en": "Gumttimukku",
+      "name_ml": "ഗുംട്ടിമുക്ക്"
     },
     {
-      "ward_id": "0bdbc7d7-51d2-42c1-ab56-48173127530d",
+      "id": "0bdbc7d7-51d2-42c1-ab56-48173127530d",
       "ward_no": "4",
-      "ward_name_en": "Industrial Estate",
-      "ward_name_ml": "ഇന്‍ഡസ്ട്രിഅല്‍ എസ്റ്റേറ്റ്‌"
+      "name_en": "Industrial Estate",
+      "name_ml": "ഇന്‍ഡസ്ട്രിഅല്‍ എസ്റ്റേറ്റ്‌"
     },
     {
-      "ward_id": "aced0f94-3045-4f08-a0e7-ee5b25b36a59",
+      "id": "aced0f94-3045-4f08-a0e7-ee5b25b36a59",
       "ward_no": "5",
-      "ward_name_en": "Karadiyil",
-      "ward_name_ml": "കാറാടിയില്‍"
+      "name_en": "Karadiyil",
+      "name_ml": "കാറാടിയില്‍"
     },
     {
-      "ward_id": "8ebc93b6-c88e-4621-bccb-0f3c9380d073",
+      "id": "8ebc93b6-c88e-4621-bccb-0f3c9380d073",
       "ward_no": "6",
-      "ward_name_en": "Andaloor",
-      "ward_name_ml": "അണ്ടലൂര്‍"
+      "name_en": "Andaloor",
+      "name_ml": "അണ്ടലൂര്‍"
     },
     {
-      "ward_id": "3ee68911-74a9-4221-9b87-267f33aa78c5",
+      "id": "3ee68911-74a9-4221-9b87-267f33aa78c5",
       "ward_no": "7",
-      "ward_name_en": "Chirakkuni Kizhakku",
-      "ward_name_ml": "ചിറക്കുനി കിഴക്ക്‌"
+      "name_en": "Chirakkuni Kizhakku",
+      "name_ml": "ചിറക്കുനി കിഴക്ക്‌"
     },
     {
-      "ward_id": "bb58bf50-edd7-4028-a036-4a58f3f8d124",
+      "id": "bb58bf50-edd7-4028-a036-4a58f3f8d124",
       "ward_no": "8",
-      "ward_name_en": "Kairali",
-      "ward_name_ml": "കൈരളി"
+      "name_en": "Kairali",
+      "name_ml": "കൈരളി"
     },
     {
-      "ward_id": "5b05cb9f-bdd6-48c3-9fee-fc0f7502e4d6",
+      "id": "5b05cb9f-bdd6-48c3-9fee-fc0f7502e4d6",
       "ward_no": "9",
-      "ward_name_en": "Colony Kizhakke Palayad",
-      "ward_name_ml": "കോളനി കിഴക്കെപാലയാട്"
+      "name_en": "Colony Kizhakke Palayad",
+      "name_ml": "കോളനി കിഴക്കെപാലയാട്"
     },
     {
-      "ward_id": "c9f9f74e-5843-4c3a-be8f-37eddc0becee",
+      "id": "c9f9f74e-5843-4c3a-be8f-37eddc0becee",
       "ward_no": "10",
-      "ward_name_en": "Ozhayil Bhagam",
-      "ward_name_ml": "ഒഴയില്‍ ഭാഗം"
+      "name_en": "Ozhayil Bhagam",
+      "name_ml": "ഒഴയില്‍ ഭാഗം"
     },
     {
-      "ward_id": "afd3df60-d030-4672-b9ed-0f60dedeab64",
+      "id": "afd3df60-d030-4672-b9ed-0f60dedeab64",
       "ward_no": "11",
-      "ward_name_en": "Pareekadavu",
-      "ward_name_ml": "പരീക്കടവ്"
+      "name_en": "Pareekadavu",
+      "name_ml": "പരീക്കടവ്"
     },
     {
-      "ward_id": "a1c6fa2d-bb0b-4d8f-afde-2556bf1e8245",
+      "id": "a1c6fa2d-bb0b-4d8f-afde-2556bf1e8245",
       "ward_no": "12",
-      "ward_name_en": "Swamikkunnu",
-      "ward_name_ml": "സ്വാമിക്കുന്ന്"
+      "name_en": "Swamikkunnu",
+      "name_ml": "സ്വാമിക്കുന്ന്"
     },
     {
-      "ward_id": "46cce93a-bd68-43b7-9b96-fa50839371f1",
+      "id": "46cce93a-bd68-43b7-9b96-fa50839371f1",
       "ward_no": "13",
-      "ward_name_en": "Chathodam",
-      "ward_name_ml": "ചാത്തോടം"
+      "name_en": "Chathodam",
+      "name_ml": "ചാത്തോടം"
     },
     {
-      "ward_id": "321244f8-e535-4d79-aae7-c7db2d36dbb2",
+      "id": "321244f8-e535-4d79-aae7-c7db2d36dbb2",
       "ward_no": "14",
-      "ward_name_en": "Cheeroth",
-      "ward_name_ml": "ചീരോത്ത്‌"
+      "name_en": "Cheeroth",
+      "name_ml": "ചീരോത്ത്‌"
     },
     {
-      "ward_id": "fbbf7283-3a91-4e09-98be-4d0d26ddc9f6",
+      "id": "fbbf7283-3a91-4e09-98be-4d0d26ddc9f6",
       "ward_no": "15",
-      "ward_name_en": "Eathamani",
-      "ward_name_ml": "ഈത്താമണി"
+      "name_en": "Eathamani",
+      "name_ml": "ഈത്താമണി"
     },
     {
-      "ward_id": "91bda217-b8d8-4f87-bc43-1076920e4bd5",
+      "id": "91bda217-b8d8-4f87-bc43-1076920e4bd5",
       "ward_no": "16",
-      "ward_name_en": "Vellozhukku",
-      "ward_name_ml": "വെള്ളൊഴുക്ക്"
+      "name_en": "Vellozhukku",
+      "name_ml": "വെള്ളൊഴുക്ക്"
     },
     {
-      "ward_id": "a5c62ca1-20e7-4e4d-8414-e30f922835d2",
+      "id": "a5c62ca1-20e7-4e4d-8414-e30f922835d2",
       "ward_no": "17",
-      "ward_name_en": "Narivayal",
-      "ward_name_ml": "നരിവയല്‍"
+      "name_en": "Narivayal",
+      "name_ml": "നരിവയല്‍"
     },
     {
-      "ward_id": "5386592f-030d-4843-a3af-f5696c224c51",
+      "id": "5386592f-030d-4843-a3af-f5696c224c51",
       "ward_no": "18",
-      "ward_name_en": "Adivayal",
-      "ward_name_ml": "അടിവയല്‍"
+      "name_en": "Adivayal",
+      "name_ml": "അടിവയല്‍"
     }
   ],
   "towns": [],

@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G090203",
-  "local_body_name_en": "Muthuthala",
-  "local_body_name_ml": "മുതുതല",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "50",
-    "assembly_name_en": "Pattambi",
-    "assembly_name_ml": "പട്ടാമ്പി",
+  "id": "G090203",
+  "name_en": "Muthuthala",
+  "name_ml": "മുതുതല",
+  "assembly_id": "50",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "50",
+    "name_en": "Pattambi",
+    "name_ml": "പട്ടാമ്പി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b341ba1b-bb4a-4b15-88c2-84a433308496",
+      "id": "b341ba1b-bb4a-4b15-88c2-84a433308496",
       "ward_no": "1",
-      "ward_name_en": "Karakuth",
-      "ward_name_ml": "കാരക്കുത്ത്"
+      "name_en": "Karakuth",
+      "name_ml": "കാരക്കുത്ത്"
     },
     {
-      "ward_id": "c518b9d1-6786-4a6f-a12f-a37763594748",
+      "id": "c518b9d1-6786-4a6f-a12f-a37763594748",
       "ward_no": "2",
-      "ward_name_en": "Muthuthala Padinjarru",
-      "ward_name_ml": "മുതുതല പടിഞ്ഞാറ്"
+      "name_en": "Muthuthala Padinjarru",
+      "name_ml": "മുതുതല പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "025b6f5b-be7c-4db8-a301-9e13da718af3",
+      "id": "025b6f5b-be7c-4db8-a301-9e13da718af3",
       "ward_no": "3",
-      "ward_name_en": "Muthuthala Kizhakku",
-      "ward_name_ml": "മുതുതല കിഴക്ക്"
+      "name_en": "Muthuthala Kizhakku",
+      "name_ml": "മുതുതല കിഴക്ക്"
     },
     {
-      "ward_id": "35306808-d987-4108-8e51-2aefeb1f3c8c",
+      "id": "35306808-d987-4108-8e51-2aefeb1f3c8c",
       "ward_no": "4",
-      "ward_name_en": "Parakkad",
-      "ward_name_ml": "പറക്കാട്"
+      "name_en": "Parakkad",
+      "name_ml": "പറക്കാട്"
     },
     {
-      "ward_id": "c253fc73-68df-457f-9e57-950baa3e04a5",
+      "id": "c253fc73-68df-457f-9e57-950baa3e04a5",
       "ward_no": "5",
-      "ward_name_en": "Kozhikkottiri",
-      "ward_name_ml": "കൊഴിക്കോട്ടിരി"
+      "name_en": "Kozhikkottiri",
+      "name_ml": "കൊഴിക്കോട്ടിരി"
     },
     {
-      "ward_id": "620f6923-dfc6-4c04-9883-19bce34956d1",
+      "id": "620f6923-dfc6-4c04-9883-19bce34956d1",
       "ward_no": "6",
-      "ward_name_en": "Alikkaparambu",
-      "ward_name_ml": "ആലിക്കപറമ്പ്"
+      "name_en": "Alikkaparambu",
+      "name_ml": "ആലിക്കപറമ്പ്"
     },
     {
-      "ward_id": "2caef7fa-ee5e-442a-8867-b5b6ff93941d",
+      "id": "2caef7fa-ee5e-442a-8867-b5b6ff93941d",
       "ward_no": "7",
-      "ward_name_en": "Perumudiyur",
-      "ward_name_ml": "പെരുമുടിയൂര്‍"
+      "name_en": "Perumudiyur",
+      "name_ml": "പെരുമുടിയൂര്‍"
     },
     {
-      "ward_id": "cba981a7-68b2-4b43-8d28-359362856960",
+      "id": "cba981a7-68b2-4b43-8d28-359362856960",
       "ward_no": "8",
-      "ward_name_en": "Nabram",
-      "ward_name_ml": "നമ്പ്രം"
+      "name_en": "Nabram",
+      "name_ml": "നമ്പ്രം"
     },
     {
-      "ward_id": "6a936a3e-a432-4a25-92ba-b3b8d172ef80",
+      "id": "6a936a3e-a432-4a25-92ba-b3b8d172ef80",
       "ward_no": "9",
-      "ward_name_en": "Cherussery",
-      "ward_name_ml": "ചെറുശ്ശേരി"
+      "name_en": "Cherussery",
+      "name_ml": "ചെറുശ്ശേരി"
     },
     {
-      "ward_id": "e1e047a0-0b67-4795-afc7-bb153b4f33d3",
+      "id": "e1e047a0-0b67-4795-afc7-bb153b4f33d3",
       "ward_no": "10",
-      "ward_name_en": "Thara",
-      "ward_name_ml": "തറ"
+      "name_en": "Thara",
+      "name_ml": "തറ"
     },
     {
-      "ward_id": "8582c369-dfdb-4289-aa7d-ea7d9ec62ead",
+      "id": "8582c369-dfdb-4289-aa7d-ea7d9ec62ead",
       "ward_no": "11",
-      "ward_name_en": "Kodumunda East",
-      "ward_name_ml": "കൊടുമുണ്ട ഈസ്റ്റ്"
+      "name_en": "Kodumunda East",
+      "name_ml": "കൊടുമുണ്ട ഈസ്റ്റ്"
     },
     {
-      "ward_id": "67ecd7d1-183c-48e2-ab38-59786aaa6d7d",
+      "id": "67ecd7d1-183c-48e2-ab38-59786aaa6d7d",
       "ward_no": "12",
-      "ward_name_en": "Kodumunda West",
-      "ward_name_ml": "കൊടുമുണ്ട വെസ്റ്റ്"
+      "name_en": "Kodumunda West",
+      "name_ml": "കൊടുമുണ്ട വെസ്റ്റ്"
     },
     {
-      "ward_id": "57750776-ebde-4356-b027-36e4c6be4146",
+      "id": "57750776-ebde-4356-b027-36e4c6be4146",
       "ward_no": "13",
-      "ward_name_en": "Thottinkara",
-      "ward_name_ml": "തോട്ടിന്‍കര"
+      "name_en": "Thottinkara",
+      "name_ml": "തോട്ടിന്‍കര"
     },
     {
-      "ward_id": "f6a6645f-2670-425f-b5dd-e7232bbed204",
+      "id": "f6a6645f-2670-425f-b5dd-e7232bbed204",
       "ward_no": "14",
-      "ward_name_en": "Kozhikkottiri West",
-      "ward_name_ml": "കൊഴിക്കോട്ടിരി വെസ്റ്റ്"
+      "name_en": "Kozhikkottiri West",
+      "name_ml": "കൊഴിക്കോട്ടിരി വെസ്റ്റ്"
     },
     {
-      "ward_id": "b3665c2b-c8a5-4035-8970-a48a648555df",
+      "id": "b3665c2b-c8a5-4035-8970-a48a648555df",
       "ward_no": "15",
-      "ward_name_en": "Nalangadi",
-      "ward_name_ml": "നാലങ്ങാടി"
+      "name_en": "Nalangadi",
+      "name_ml": "നാലങ്ങാടി"
     }
   ],
   "towns": [],

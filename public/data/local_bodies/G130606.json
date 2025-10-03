@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G130606",
-  "local_body_name_en": "Munderi",
-  "local_body_name_ml": "മുണ്ടേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "11",
-    "assembly_name_en": "Kannur",
-    "assembly_name_ml": "കണ്ണൂര്‍",
+  "id": "G130606",
+  "name_en": "Munderi",
+  "name_ml": "മുണ്ടേരി",
+  "assembly_id": "11",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "11",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bd1393b4-572d-459c-af11-50bc36c00b01",
+      "id": "bd1393b4-572d-459c-af11-50bc36c00b01",
       "ward_no": "1",
-      "ward_name_en": "Munderi",
-      "ward_name_ml": "മുണ്ടേരി"
+      "name_en": "Munderi",
+      "name_ml": "മുണ്ടേരി"
     },
     {
-      "ward_id": "89437392-6c4d-41b0-a155-51b55fb1a7e1",
+      "id": "89437392-6c4d-41b0-a155-51b55fb1a7e1",
       "ward_no": "2",
-      "ward_name_en": "Iruvankai",
-      "ward_name_ml": "ഇരുവങ്കൈ"
+      "name_en": "Iruvankai",
+      "name_ml": "ഇരുവങ്കൈ"
     },
     {
-      "ward_id": "0748026b-f72b-413d-a8a0-391294a90443",
+      "id": "0748026b-f72b-413d-a8a0-391294a90443",
       "ward_no": "3",
-      "ward_name_en": "Kacheriparamb",
-      "ward_name_ml": "കച്ചേരിപ്പറമ്പ്"
+      "name_en": "Kacheriparamb",
+      "name_ml": "കച്ചേരിപ്പറമ്പ്"
     },
     {
-      "ward_id": "afae00ea-69d5-455a-9e9a-ee39d9f40cb3",
+      "id": "afae00ea-69d5-455a-9e9a-ee39d9f40cb3",
       "ward_no": "4",
-      "ward_name_en": "Padannot",
-      "ward_name_ml": "പടന്നോട്ട്"
+      "name_en": "Padannot",
+      "name_ml": "പടന്നോട്ട്"
     },
     {
-      "ward_id": "4f9c9676-3a59-45e5-bd01-1de0b8c956b5",
+      "id": "4f9c9676-3a59-45e5-bd01-1de0b8c956b5",
       "ward_no": "5",
-      "ward_name_en": "Eachur Kottam",
-      "ward_name_ml": "ഏച്ചൂര്‍  കോട്ടം"
+      "name_en": "Eachur Kottam",
+      "name_ml": "ഏച്ചൂര്‍  കോട്ടം"
     },
     {
-      "ward_id": "d941f182-582a-4bb1-a55b-ff155216350c",
+      "id": "d941f182-582a-4bb1-a55b-ff155216350c",
       "ward_no": "6",
-      "ward_name_en": "Kudukkimotta",
-      "ward_name_ml": "കുടുക്കിമൊട്ട"
+      "name_en": "Kudukkimotta",
+      "name_ml": "കുടുക്കിമൊട്ട"
     },
     {
-      "ward_id": "b3fd219d-f5ce-446d-a6a0-92c39d2fa91d",
+      "id": "b3fd219d-f5ce-446d-a6a0-92c39d2fa91d",
       "ward_no": "7",
-      "ward_name_en": "Kanhirode",
-      "ward_name_ml": "കാഞ്ഞിരോട്"
+      "name_en": "Kanhirode",
+      "name_ml": "കാഞ്ഞിരോട്"
     },
     {
-      "ward_id": "afbb56d6-f066-40ba-9453-549edeb34a65",
+      "id": "afbb56d6-f066-40ba-9453-549edeb34a65",
       "ward_no": "8",
-      "ward_name_en": "Parothumchal",
-      "ward_name_ml": "പാറോത്തുംചാല്‍"
+      "name_en": "Parothumchal",
+      "name_ml": "പാറോത്തുംചാല്‍"
     },
     {
-      "ward_id": "2927b30a-a5c4-49a0-84a5-83d12df787b3",
+      "id": "2927b30a-a5c4-49a0-84a5-83d12df787b3",
       "ward_no": "9",
-      "ward_name_en": "Thalamunda",
-      "ward_name_ml": "തലമുണ്ട"
+      "name_en": "Thalamunda",
+      "name_ml": "തലമുണ്ട"
     },
     {
-      "ward_id": "2a335438-182f-4922-ae49-ca649b9fddce",
+      "id": "2a335438-182f-4922-ae49-ca649b9fddce",
       "ward_no": "10",
-      "ward_name_en": "Thattyode",
-      "ward_name_ml": "താറ്റിയോട്"
+      "name_en": "Thattyode",
+      "name_ml": "താറ്റിയോട്"
     },
     {
-      "ward_id": "cf0b96be-5db2-4c7a-adfc-0d504b325071",
+      "id": "cf0b96be-5db2-4c7a-adfc-0d504b325071",
       "ward_no": "11",
-      "ward_name_en": "Mowanchery",
-      "ward_name_ml": "മൌവ്വഞ്ചേരി"
+      "name_en": "Mowanchery",
+      "name_ml": "മൌവ്വഞ്ചേരി"
     },
     {
-      "ward_id": "f82672b5-e6b9-48da-ab72-ccfc27224632",
+      "id": "f82672b5-e6b9-48da-ab72-ccfc27224632",
       "ward_no": "12",
-      "ward_name_en": "Kulathuvayal",
-      "ward_name_ml": "കുളത്തുവയല്‍"
+      "name_en": "Kulathuvayal",
+      "name_ml": "കുളത്തുവയല്‍"
     },
     {
-      "ward_id": "ec17795f-9ed1-4560-ba33-64a468167ac3",
+      "id": "ec17795f-9ed1-4560-ba33-64a468167ac3",
       "ward_no": "13",
-      "ward_name_en": "Kanhirode Theru",
-      "ward_name_ml": "കാഞ്ഞിരോട് തെരു"
+      "name_en": "Kanhirode Theru",
+      "name_ml": "കാഞ്ഞിരോട് തെരു"
     },
     {
-      "ward_id": "e5304fe4-ef27-4d44-a66d-353e3b848f1c",
+      "id": "e5304fe4-ef27-4d44-a66d-353e3b848f1c",
       "ward_no": "14",
-      "ward_name_en": "Ayyappanmala",
-      "ward_name_ml": "അയ്യപ്പന്‍മല"
+      "name_en": "Ayyappanmala",
+      "name_ml": "അയ്യപ്പന്‍മല"
     },
     {
-      "ward_id": "a03885a4-adc3-4d6d-a941-89b9e6827d54",
+      "id": "a03885a4-adc3-4d6d-a941-89b9e6827d54",
       "ward_no": "15",
-      "ward_name_en": "Nallanchi",
-      "ward_name_ml": "നല്ലാഞ്ചി"
+      "name_en": "Nallanchi",
+      "name_ml": "നല്ലാഞ്ചി"
     },
     {
-      "ward_id": "d0ce05a4-397d-4436-8676-6e13cfc9003a",
+      "id": "d0ce05a4-397d-4436-8676-6e13cfc9003a",
       "ward_no": "16",
-      "ward_name_en": "Eachur",
-      "ward_name_ml": "ഏച്ചൂര്‍"
+      "name_en": "Eachur",
+      "name_ml": "ഏച്ചൂര്‍"
     },
     {
-      "ward_id": "2fb178c4-e6f8-49b0-9630-57f1a3cf1f9f",
+      "id": "2fb178c4-e6f8-49b0-9630-57f1a3cf1f9f",
       "ward_no": "17",
-      "ward_name_en": "Pannyottu",
-      "ward_name_ml": "പന്ന്യോട്ട്"
+      "name_en": "Pannyottu",
+      "name_ml": "പന്ന്യോട്ട്"
     },
     {
-      "ward_id": "9427b953-8c2d-4d1b-a95d-2869fe5f6969",
+      "id": "9427b953-8c2d-4d1b-a95d-2869fe5f6969",
       "ward_no": "18",
-      "ward_name_en": "Mavilachal",
-      "ward_name_ml": "മാവിലാച്ചാല്‍"
+      "name_en": "Mavilachal",
+      "name_ml": "മാവിലാച്ചാല്‍"
     },
     {
-      "ward_id": "dc61e638-a5bd-4270-a06c-1d44b245acb0",
+      "id": "dc61e638-a5bd-4270-a06c-1d44b245acb0",
       "ward_no": "19",
-      "ward_name_en": "Kanachery",
-      "ward_name_ml": "കാനച്ചേരി"
+      "name_en": "Kanachery",
+      "name_ml": "കാനച്ചേരി"
     },
     {
-      "ward_id": "fd4bdb4b-19e4-4309-a04d-19d3d7fae10f",
+      "id": "fd4bdb4b-19e4-4309-a04d-19d3d7fae10f",
       "ward_no": "20",
-      "ward_name_en": "Edayil Peedika",
-      "ward_name_ml": "ഇടയില്‍ പീടിക"
+      "name_en": "Edayil Peedika",
+      "name_ml": "ഇടയില്‍ പീടിക"
     }
   ],
   "towns": [],

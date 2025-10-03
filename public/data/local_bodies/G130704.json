@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G130704",
-  "local_body_name_en": "New Mahe",
-  "local_body_name_ml": "ന്യൂ മാഹി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "13",
-    "assembly_name_en": "Thalassery",
-    "assembly_name_ml": "തലശ്ശേരി",
+  "id": "G130704",
+  "name_en": "New Mahe",
+  "name_ml": "ന്യൂ മാഹി",
+  "assembly_id": "13",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "13",
+    "name_en": "Thalassery",
+    "name_ml": "തലശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5ad0a63e-c4e6-489c-8bda-27fe6db2de99",
+      "id": "5ad0a63e-c4e6-489c-8bda-27fe6db2de99",
       "ward_no": "1",
-      "ward_name_en": "Kurichiyil",
-      "ward_name_ml": "കുറിച്ചിയില്‍"
+      "name_en": "Kurichiyil",
+      "name_ml": "കുറിച്ചിയില്‍"
     },
     {
-      "ward_id": "31b872d8-ec86-42eb-9130-49016c4408e5",
+      "id": "31b872d8-ec86-42eb-9130-49016c4408e5",
       "ward_no": "2",
-      "ward_name_en": "Kareekunnu",
-      "ward_name_ml": "കരീക്കുന്ന്"
+      "name_en": "Kareekunnu",
+      "name_ml": "കരീക്കുന്ന്"
     },
     {
-      "ward_id": "4f435f5e-a541-4808-9b8d-9f295174107b",
+      "id": "4f435f5e-a541-4808-9b8d-9f295174107b",
       "ward_no": "3",
-      "ward_name_en": "Eyyathumkadu",
-      "ward_name_ml": "ഈയ്യത്തുംകാട്"
+      "name_en": "Eyyathumkadu",
+      "name_ml": "ഈയ്യത്തുംകാട്"
     },
     {
-      "ward_id": "8afa490f-c2c5-4022-8930-606e531bb8a9",
+      "id": "8afa490f-c2c5-4022-8930-606e531bb8a9",
       "ward_no": "4",
-      "ward_name_en": "Edannoor",
-      "ward_name_ml": "ഏടന്നുര്‍"
+      "name_en": "Edannoor",
+      "name_ml": "ഏടന്നുര്‍"
     },
     {
-      "ward_id": "8d0b70b3-254e-4da4-8d31-92cdca664fdc",
+      "id": "8d0b70b3-254e-4da4-8d31-92cdca664fdc",
       "ward_no": "5",
-      "ward_name_en": "Perumundery",
-      "ward_name_ml": "പെരുമുണ്ടേരി"
+      "name_en": "Perumundery",
+      "name_ml": "പെരുമുണ്ടേരി"
     },
     {
-      "ward_id": "c0d377a2-0c96-4917-8f20-32dabb647224",
+      "id": "c0d377a2-0c96-4917-8f20-32dabb647224",
       "ward_no": "6",
-      "ward_name_en": "Mangotuvayal",
-      "ward_name_ml": "മങ്ങോട്ട് വയല്‍"
+      "name_en": "Mangotuvayal",
+      "name_ml": "മങ്ങോട്ട് വയല്‍"
     },
     {
-      "ward_id": "39d67c29-bcbc-4ded-a3ec-d758588965a3",
+      "id": "39d67c29-bcbc-4ded-a3ec-d758588965a3",
       "ward_no": "7",
-      "ward_name_en": "Mangad",
-      "ward_name_ml": "മങ്ങാട്‌"
+      "name_en": "Mangad",
+      "name_ml": "മങ്ങാട്‌"
     },
     {
-      "ward_id": "a4e3328b-1810-4acb-b150-13fab35cd436",
+      "id": "a4e3328b-1810-4acb-b150-13fab35cd436",
       "ward_no": "8",
-      "ward_name_en": "Pallipram",
-      "ward_name_ml": "പള്ളിപ്രം"
+      "name_en": "Pallipram",
+      "name_ml": "പള്ളിപ്രം"
     },
     {
-      "ward_id": "3409b294-f2cb-4337-bb83-6f2ff36e0f46",
+      "id": "3409b294-f2cb-4337-bb83-6f2ff36e0f46",
       "ward_no": "9",
-      "ward_name_en": "Peringadi",
-      "ward_name_ml": "പെരിങ്ങാടി"
+      "name_en": "Peringadi",
+      "name_ml": "പെരിങ്ങാടി"
     },
     {
-      "ward_id": "10412636-5db8-4fdd-a864-bae5b532ffbc",
+      "id": "10412636-5db8-4fdd-a864-bae5b532ffbc",
       "ward_no": "10",
-      "ward_name_en": "Newmahe Town",
-      "ward_name_ml": "ന്യൂമാഹി ടൌണ്‍"
+      "name_en": "Newmahe Town",
+      "name_ml": "ന്യൂമാഹി ടൌണ്‍"
     },
     {
-      "ward_id": "54d261ee-407b-4c21-bbc2-22ddf4650e1e",
+      "id": "54d261ee-407b-4c21-bbc2-22ddf4650e1e",
       "ward_no": "11",
-      "ward_name_en": "Azheekkal",
-      "ward_name_ml": "അഴീക്കല്‍"
+      "name_en": "Azheekkal",
+      "name_ml": "അഴീക്കല്‍"
     },
     {
-      "ward_id": "b9bb878e-0ef8-4cfe-978f-49f2f099b89a",
+      "id": "b9bb878e-0ef8-4cfe-978f-49f2f099b89a",
       "ward_no": "12",
-      "ward_name_en": "Chavokunu",
-      "ward_name_ml": "ചവോകുന്ന്"
+      "name_en": "Chavokunu",
+      "name_ml": "ചവോകുന്ന്"
     },
     {
-      "ward_id": "83b313e9-eaf2-45c8-b564-f893f46112f9",
+      "id": "83b313e9-eaf2-45c8-b564-f893f46112f9",
       "ward_no": "13",
-      "ward_name_en": "Kurichiyil Beach",
-      "ward_name_ml": "കുറിച്ചിയില്‍ കടപ്പുറം"
+      "name_en": "Kurichiyil Beach",
+      "name_ml": "കുറിച്ചിയില്‍ കടപ്പുറം"
     }
   ],
   "towns": [],

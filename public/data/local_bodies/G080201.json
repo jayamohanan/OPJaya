@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G080201",
-  "local_body_name_en": "Choondal",
-  "local_body_name_ml": "ചൂണ്ടല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G080201",
+  "name_en": "Choondal",
+  "name_ml": "ചൂണ്ടല്‍",
+  "assembly_id": "64",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "64",
-    "assembly_name_en": "Manalur",
-    "assembly_name_ml": "മണലൂര്‍",
-    "category": "Normal"
+    "id": "64",
+    "name_en": "Manalur",
+    "name_ml": "മണലൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bc0f7023-48b1-47a6-a75d-cfa98c7eca58",
+      "id": "bc0f7023-48b1-47a6-a75d-cfa98c7eca58",
       "ward_no": "1",
-      "ward_name_en": "Pelakkattupayyur",
-      "ward_name_ml": "പെലക്കാട്ടുപയ്യൂര്‍"
+      "name_en": "Pelakkattupayyur",
+      "name_ml": "പെലക്കാട്ടുപയ്യൂര്‍"
     },
     {
-      "ward_id": "5180b4e8-ad65-454b-b8f0-94c3e492c272",
+      "id": "5180b4e8-ad65-454b-b8f0-94c3e492c272",
       "ward_no": "2",
-      "ward_name_en": "Choondal",
-      "ward_name_ml": "ചൂണ്ടല്‍"
+      "name_en": "Choondal",
+      "name_ml": "ചൂണ്ടല്‍"
     },
     {
-      "ward_id": "27c54bae-0923-4b0b-836e-9bb35db3bcc1",
+      "id": "27c54bae-0923-4b0b-836e-9bb35db3bcc1",
       "ward_no": "3",
-      "ward_name_en": "Parannur",
-      "ward_name_ml": "പാറന്നൂര്‍"
+      "name_en": "Parannur",
+      "name_ml": "പാറന്നൂര്‍"
     },
     {
-      "ward_id": "94bc7cba-473d-4096-bb94-0fa4a8078842",
+      "id": "94bc7cba-473d-4096-bb94-0fa4a8078842",
       "ward_no": "4",
-      "ward_name_en": "Parappur",
-      "ward_name_ml": "പറപ്പൂര്‍"
+      "name_en": "Parappur",
+      "name_ml": "പറപ്പൂര്‍"
     },
     {
-      "ward_id": "99c046a6-851f-4075-af24-972690181b8c",
+      "id": "99c046a6-851f-4075-af24-972690181b8c",
       "ward_no": "5",
-      "ward_name_en": "Pattikkara",
-      "ward_name_ml": "പട്ടിക്കര"
+      "name_en": "Pattikkara",
+      "name_ml": "പട്ടിക്കര"
     },
     {
-      "ward_id": "c7ef24fa-06ef-4435-ab85-c8785eb85f3e",
+      "id": "c7ef24fa-06ef-4435-ab85-c8785eb85f3e",
       "ward_no": "6",
-      "ward_name_en": "Chiranellur",
-      "ward_name_ml": "ചിറനെല്ലൂര്‍"
+      "name_en": "Chiranellur",
+      "name_ml": "ചിറനെല്ലൂര്‍"
     },
     {
-      "ward_id": "8c2dc5ab-b899-40a6-ba45-83fbb45f99ba",
+      "id": "8c2dc5ab-b899-40a6-ba45-83fbb45f99ba",
       "ward_no": "7",
-      "ward_name_en": "Ayammuk",
-      "ward_name_ml": "ആയമുക്ക്"
+      "name_en": "Ayammuk",
+      "name_ml": "ആയമുക്ക്"
     },
     {
-      "ward_id": "968eed8d-3738-45a4-b56e-39aad0834a5f",
+      "id": "968eed8d-3738-45a4-b56e-39aad0834a5f",
       "ward_no": "8",
-      "ward_name_en": "Manali",
-      "ward_name_ml": "മണലി"
+      "name_en": "Manali",
+      "name_ml": "മണലി"
     },
     {
-      "ward_id": "788c0276-7352-4300-8d35-40736201c02e",
+      "id": "788c0276-7352-4300-8d35-40736201c02e",
       "ward_no": "9",
-      "ward_name_en": "Thalakkotukara",
-      "ward_name_ml": "തലക്കോട്ടുകര"
+      "name_en": "Thalakkotukara",
+      "name_ml": "തലക്കോട്ടുകര"
     },
     {
-      "ward_id": "e2c03891-3549-4f8a-889f-8245c7013c40",
+      "id": "e2c03891-3549-4f8a-889f-8245c7013c40",
       "ward_no": "10",
-      "ward_name_en": "Mazhuvanchery Center",
-      "ward_name_ml": "മഴുവഞ്ചേരി സെന്റര്‍"
+      "name_en": "Mazhuvanchery Center",
+      "name_ml": "മഴുവഞ്ചേരി സെന്റര്‍"
     },
     {
-      "ward_id": "e15e774a-34f2-4cb1-aa11-28284c6b5ba8",
+      "id": "e15e774a-34f2-4cb1-aa11-28284c6b5ba8",
       "ward_no": "11",
-      "ward_name_en": "Mazhuvanchery",
-      "ward_name_ml": "മഴുവഞ്ചേരി"
+      "name_en": "Mazhuvanchery",
+      "name_ml": "മഴുവഞ്ചേരി"
     },
     {
-      "ward_id": "5f852273-fd0d-4a56-81c5-823d934156e0",
+      "id": "5f852273-fd0d-4a56-81c5-823d934156e0",
       "ward_no": "12",
-      "ward_name_en": "Eranellur",
-      "ward_name_ml": "എരനെല്ലൂര്‍"
+      "name_en": "Eranellur",
+      "name_ml": "എരനെല്ലൂര്‍"
     },
     {
-      "ward_id": "d510467c-973c-4c29-b3d7-ea700db8e891",
+      "id": "d510467c-973c-4c29-b3d7-ea700db8e891",
       "ward_no": "13",
-      "ward_name_en": "Perumannu",
-      "ward_name_ml": "പെരുമണ്ണ്"
+      "name_en": "Perumannu",
+      "name_ml": "പെരുമണ്ണ്"
     },
     {
-      "ward_id": "48e4ae07-b273-4d76-ae8c-a146d567f1ff",
+      "id": "48e4ae07-b273-4d76-ae8c-a146d567f1ff",
       "ward_no": "14",
-      "ward_name_en": "Kechery",
-      "ward_name_ml": "കേച്ചേരി"
+      "name_en": "Kechery",
+      "name_ml": "കേച്ചേരി"
     },
     {
-      "ward_id": "d0663e0e-7e80-47ec-8226-3ac359165c38",
+      "id": "d0663e0e-7e80-47ec-8226-3ac359165c38",
       "ward_no": "15",
-      "ward_name_en": "Thuvanoor",
-      "ward_name_ml": "തൂവാനൂര്‍"
+      "name_en": "Thuvanoor",
+      "name_ml": "തൂവാനൂര്‍"
     },
     {
-      "ward_id": "b0b65b77-7aed-438c-967c-116b677f611e",
+      "id": "b0b65b77-7aed-438c-967c-116b677f611e",
       "ward_no": "16",
-      "ward_name_en": "Vettukad",
-      "ward_name_ml": "വെട്ടുക്കാട്"
+      "name_en": "Vettukad",
+      "name_ml": "വെട്ടുക്കാട്"
     },
     {
-      "ward_id": "c34ccc06-fd80-4867-a880-610c5e68f451",
+      "id": "c34ccc06-fd80-4867-a880-610c5e68f451",
       "ward_no": "17",
-      "ward_name_en": "Thayankavu",
-      "ward_name_ml": "തായങ്കാവ്"
+      "name_en": "Thayankavu",
+      "name_ml": "തായങ്കാവ്"
     },
     {
-      "ward_id": "3b098627-6ec6-45ca-a24d-9dc7a94d62da",
+      "id": "3b098627-6ec6-45ca-a24d-9dc7a94d62da",
       "ward_no": "18",
-      "ward_name_en": "Payyoor",
-      "ward_name_ml": "പയ്യൂര്‍"
+      "name_en": "Payyoor",
+      "name_ml": "പയ്യൂര്‍"
     }
   ],
   "towns": [],

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G060104",
-  "local_body_name_en": "Vellathooval",
-  "local_body_name_ml": "വെള്ളത്തൂവല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G060104",
+  "name_en": "Vellathooval",
+  "name_ml": "വെള്ളത്തൂവല്‍",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
-    "category": "Normal"
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5e74085c-a1a3-464f-a88f-5998f57fb05c",
+      "id": "5e74085c-a1a3-464f-a88f-5998f57fb05c",
       "ward_no": "1",
-      "ward_name_en": "Koompanpara",
-      "ward_name_ml": "കൂമ്പന്‍പാറ"
+      "name_en": "Koompanpara",
+      "name_ml": "കൂമ്പന്‍പാറ"
     },
     {
-      "ward_id": "c80591c6-a4df-40f7-9a1e-087ab42eb023",
+      "id": "c80591c6-a4df-40f7-9a1e-087ab42eb023",
       "ward_no": "2",
-      "ward_name_en": "Anaviratty",
-      "ward_name_ml": "ആനവിരട്ടി"
+      "name_en": "Anaviratty",
+      "name_ml": "ആനവിരട്ടി"
     },
     {
-      "ward_id": "bc5094cd-501f-46ed-a433-9a34d50c6726",
+      "id": "bc5094cd-501f-46ed-a433-9a34d50c6726",
       "ward_no": "3",
-      "ward_name_en": "Sengulam",
-      "ward_name_ml": "ശെങ്കുളം"
+      "name_en": "Sengulam",
+      "name_ml": "ശെങ്കുളം"
     },
     {
-      "ward_id": "bd3739c5-3a0a-43e6-ba36-9bc2deadb8b1",
+      "id": "bd3739c5-3a0a-43e6-ba36-9bc2deadb8b1",
       "ward_no": "4",
-      "ward_name_en": "Thokkupara",
-      "ward_name_ml": "തോക്കുപാറ"
+      "name_en": "Thokkupara",
+      "name_ml": "തോക്കുപാറ"
     },
     {
-      "ward_id": "64ccb519-ecab-49b5-a0d4-f6e8c2181f8e",
+      "id": "64ccb519-ecab-49b5-a0d4-f6e8c2181f8e",
       "ward_no": "5",
-      "ward_name_en": "Anachal",
-      "ward_name_ml": "ആനച്ചാല്‍"
+      "name_en": "Anachal",
+      "name_ml": "ആനച്ചാല്‍"
     },
     {
-      "ward_id": "e5558a5c-316a-47cb-9aaa-a6182872a559",
+      "id": "e5558a5c-316a-47cb-9aaa-a6182872a559",
       "ward_no": "6",
-      "ward_name_en": "Eetticity",
-      "ward_name_ml": "ഈട്ടിസിറ്റി"
+      "name_en": "Eetticity",
+      "name_ml": "ഈട്ടിസിറ്റി"
     },
     {
-      "ward_id": "22be2b5b-9adc-4dae-969b-6db2b161120c",
+      "id": "22be2b5b-9adc-4dae-969b-6db2b161120c",
       "ward_no": "7",
-      "ward_name_en": "Kunjithanny",
-      "ward_name_ml": "കുഞ്ചിത്തണ്ണി"
+      "name_en": "Kunjithanny",
+      "name_ml": "കുഞ്ചിത്തണ്ണി"
     },
     {
-      "ward_id": "599f2897-4887-416b-b455-ab41316a8a21",
+      "id": "599f2897-4887-416b-b455-ab41316a8a21",
       "ward_no": "8",
-      "ward_name_en": "Pothupara",
-      "ward_name_ml": "പോത്തുപാറ"
+      "name_en": "Pothupara",
+      "name_ml": "പോത്തുപാറ"
     },
     {
-      "ward_id": "e51033a7-92cf-46c4-8469-cab1397e545c",
+      "id": "e51033a7-92cf-46c4-8469-cab1397e545c",
       "ward_no": "9",
-      "ward_name_en": "Muthuvankudy",
-      "ward_name_ml": "മുതുവാന്‍കുടി"
+      "name_en": "Muthuvankudy",
+      "name_ml": "മുതുവാന്‍കുടി"
     },
     {
-      "ward_id": "72f70f09-2026-4e36-af25-8ff7c03f17ea",
+      "id": "72f70f09-2026-4e36-af25-8ff7c03f17ea",
       "ward_no": "10",
-      "ward_name_en": "Kuthupara",
-      "ward_name_ml": "കുത്തുപാറ"
+      "name_en": "Kuthupara",
+      "name_ml": "കുത്തുപാറ"
     },
     {
-      "ward_id": "bff69c6b-2914-42f1-9b0b-7fd5900c7060",
+      "id": "bff69c6b-2914-42f1-9b0b-7fd5900c7060",
       "ward_no": "11",
-      "ward_name_en": "Vellathooval",
-      "ward_name_ml": "വെള്ളത്തൂവല്‍"
+      "name_en": "Vellathooval",
+      "name_ml": "വെള്ളത്തൂവല്‍"
     },
     {
-      "ward_id": "c4462f56-2e3d-4ab4-9c55-3081005ca962",
+      "id": "c4462f56-2e3d-4ab4-9c55-3081005ca962",
       "ward_no": "12",
-      "ward_name_en": "Vellathooval West",
-      "ward_name_ml": "വെള്ളത്തൂവല്‍ വെസ്ററ്"
+      "name_en": "Vellathooval West",
+      "name_ml": "വെള്ളത്തൂവല്‍ വെസ്ററ്"
     },
     {
-      "ward_id": "9cc23d62-f76b-4418-aca8-24b9714b6e89",
+      "id": "9cc23d62-f76b-4418-aca8-24b9714b6e89",
       "ward_no": "13",
-      "ward_name_en": "Selliampara",
-      "ward_name_ml": "ശെല്ല്യാംപാറ"
+      "name_en": "Selliampara",
+      "name_ml": "ശെല്ല്യാംപാറ"
     },
     {
-      "ward_id": "9f063a0b-ac57-47bf-9e33-c05ab6099159",
+      "id": "9f063a0b-ac57-47bf-9e33-c05ab6099159",
       "ward_no": "14",
-      "ward_name_en": "Mankadavu",
-      "ward_name_ml": "മാന്‍കടവ്"
+      "name_en": "Mankadavu",
+      "name_ml": "മാന്‍കടവ്"
     },
     {
-      "ward_id": "07eceb30-9c01-4298-bf21-41c6f6b5b6c4",
+      "id": "07eceb30-9c01-4298-bf21-41c6f6b5b6c4",
       "ward_no": "15",
-      "ward_name_en": "Kallarkutty",
-      "ward_name_ml": "കല്ലാര്‍കുട്ടി"
+      "name_en": "Kallarkutty",
+      "name_ml": "കല്ലാര്‍കുട്ടി"
     },
     {
-      "ward_id": "1ed0ef0e-cf8b-449f-abc3-6c26293682d9",
+      "id": "1ed0ef0e-cf8b-449f-abc3-6c26293682d9",
       "ward_no": "16",
-      "ward_name_en": "South Kathipara",
-      "ward_name_ml": "സൌത്ത് കത്തിപ്പാറ"
+      "name_en": "South Kathipara",
+      "name_ml": "സൌത്ത് കത്തിപ്പാറ"
     },
     {
-      "ward_id": "9fb0893d-1c41-4bc1-aa5e-c572a0ea3e9f",
+      "id": "9fb0893d-1c41-4bc1-aa5e-c572a0ea3e9f",
       "ward_no": "17",
-      "ward_name_en": "1000 Acre",
-      "ward_name_ml": "1000 ഏക്കര്‍"
+      "name_en": "1000 Acre",
+      "name_ml": "1000 ഏക്കര്‍"
     }
   ],
   "towns": [],

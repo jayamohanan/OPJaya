@@ -1,62 +1,83 @@
 {
-  "assembly_id": "50",
-  "assembly_name_en": "Pattambi",
-  "assembly_name_ml": "പട്ടാമ്പി",
-  "category": "Normal",
+  "id": "50",
+  "name_en": "Pattambi",
+  "name_ml": "പട്ടാമ്പി",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G090201",
-      "local_body_name_en": "Koppam",
-      "local_body_name_ml": "കൊപ്പം",
-      "category": "Perfect"
+      "id": "G090201",
+      "name_en": "Koppam",
+      "name_ml": "കൊപ്പം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090202",
-      "local_body_name_en": "Kulukkallur",
-      "local_body_name_ml": "കുലുക്കല്ലൂര്‍",
-      "category": "Perfect"
+      "id": "G090202",
+      "name_en": "Kulukkallur",
+      "name_ml": "കുലുക്കല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090203",
-      "local_body_name_en": "Muthuthala",
-      "local_body_name_ml": "മുതുതല",
-      "category": "Normal"
+      "id": "G090203",
+      "name_en": "Muthuthala",
+      "name_ml": "മുതുതല",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090204",
-      "local_body_name_en": "Ongallur",
-      "local_body_name_ml": "ഓങ്ങല്ലൂര്‍",
-      "category": "Perfect"
+      "id": "G090204",
+      "name_en": "Ongallur",
+      "name_ml": "ഓങ്ങല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M090500",
-      "local_body_name_en": "Pattambi",
-      "local_body_name_ml": "പട്ടാമ്പി",
-      "category": "Good"
+      "id": "M090500",
+      "name_en": "Pattambi",
+      "name_ml": "പട്ടാമ്പി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G090207",
-      "local_body_name_en": "Thiruvegappura",
-      "local_body_name_ml": "തിരുവേഗപ്പുറ",
-      "category": "Perfect"
+      "id": "G090207",
+      "name_en": "Thiruvegappura",
+      "name_ml": "തിരുവേഗപ്പുറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090307",
-      "local_body_name_en": "Vallapuzha",
-      "local_body_name_ml": "വല്ലപ്പുഴ",
-      "category": "Perfect"
+      "id": "G090307",
+      "name_en": "Vallapuzha",
+      "name_ml": "വല്ലപ്പുഴ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G090208",
-      "local_body_name_en": "Vilayur",
-      "local_body_name_ml": "വിളയൂര്‍",
-      "category": "Good"
+      "id": "G090208",
+      "name_en": "Vilayur",
+      "name_ml": "വിളയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

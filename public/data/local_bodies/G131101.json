@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G131101",
-  "local_body_name_en": "Kanichar",
-  "local_body_name_ml": "കണിച്ചാര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G131101",
+  "name_en": "Kanichar",
+  "name_ml": "കണിച്ചാര്‍",
+  "assembly_id": "16",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "16",
-    "assembly_name_en": "Peravoor",
-    "assembly_name_ml": "പേരാവൂര്‍",
-    "category": "Normal"
+    "id": "16",
+    "name_en": "Peravoor",
+    "name_ml": "പേരാവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a9dc4227-7756-4a4a-a3fb-cab49b587cf7",
+      "id": "a9dc4227-7756-4a4a-a3fb-cab49b587cf7",
       "ward_no": "1",
-      "ward_name_en": "Odanthode",
-      "ward_name_ml": "ഓടംതോട്"
+      "name_en": "Odanthode",
+      "name_ml": "ഓടംതോട്"
     },
     {
-      "ward_id": "5d628867-ab66-437d-8840-93a97117796f",
+      "id": "5d628867-ab66-437d-8840-93a97117796f",
       "ward_no": "2",
-      "ward_name_en": "Anungode",
-      "ward_name_ml": "അണുങ്ങോട്"
+      "name_en": "Anungode",
+      "name_ml": "അണുങ്ങോട്"
     },
     {
-      "ward_id": "334a91df-53e2-453a-9838-16ef3f5ad663",
+      "id": "334a91df-53e2-453a-9838-16ef3f5ad663",
       "ward_no": "3",
-      "ward_name_en": "Kanichar",
-      "ward_name_ml": "കണിച്ചാര്‍"
+      "name_en": "Kanichar",
+      "name_ml": "കണിച്ചാര്‍"
     },
     {
-      "ward_id": "fa5d77e0-cc36-4cdb-809c-e90019e58013",
+      "id": "fa5d77e0-cc36-4cdb-809c-e90019e58013",
       "ward_no": "4",
-      "ward_name_en": "Velloonni",
-      "ward_name_ml": "വെള്ളൂന്നി"
+      "name_en": "Velloonni",
+      "name_ml": "വെള്ളൂന്നി"
     },
     {
-      "ward_id": "eb5fa514-3350-43b5-8930-98461afb1b12",
+      "id": "eb5fa514-3350-43b5-8930-98461afb1b12",
       "ward_no": "5",
-      "ward_name_en": "Nellikkunnu",
-      "ward_name_ml": "നെല്ലിക്കുന്ന്"
+      "name_en": "Nellikkunnu",
+      "name_ml": "നെല്ലിക്കുന്ന്"
     },
     {
-      "ward_id": "d7d6f8de-10ab-409d-835e-85d977b05925",
+      "id": "d7d6f8de-10ab-409d-835e-85d977b05925",
       "ward_no": "6",
-      "ward_name_en": "Chengom",
-      "ward_name_ml": "ചെങ്ങോം"
+      "name_en": "Chengom",
+      "name_ml": "ചെങ്ങോം"
     },
     {
-      "ward_id": "14b2f6c2-2d5c-4337-ac46-97669ce33a1d",
+      "id": "14b2f6c2-2d5c-4337-ac46-97669ce33a1d",
       "ward_no": "7",
-      "ward_name_en": "Elappeedika",
-      "ward_name_ml": "ഏലപ്പീടിക"
+      "name_en": "Elappeedika",
+      "name_ml": "ഏലപ്പീടിക"
     },
     {
-      "ward_id": "734ab965-6e5d-4d56-8e0b-df9d1898bd77",
+      "id": "734ab965-6e5d-4d56-8e0b-df9d1898bd77",
       "ward_no": "8",
-      "ward_name_en": "Poolakkutty",
-      "ward_name_ml": "പൂളക്കുറ്റി"
+      "name_en": "Poolakkutty",
+      "name_ml": "പൂളക്കുറ്റി"
     },
     {
-      "ward_id": "027182a3-a7fc-455c-81a7-e8ca126313da",
+      "id": "027182a3-a7fc-455c-81a7-e8ca126313da",
       "ward_no": "9",
-      "ward_name_en": "Nedumpuramcha",
-      "ward_name_ml": "നെടുംപുറംചാല്‍"
+      "name_en": "Nedumpuramcha",
+      "name_ml": "നെടുംപുറംചാല്‍"
     },
     {
-      "ward_id": "87607786-ab5c-4b09-b85d-897921468b79",
+      "id": "87607786-ab5c-4b09-b85d-897921468b79",
       "ward_no": "10",
-      "ward_name_en": "Odappuzha",
-      "ward_name_ml": "ഓടപ്പുഴ"
+      "name_en": "Odappuzha",
+      "name_ml": "ഓടപ്പുഴ"
     },
     {
-      "ward_id": "1068491f-1786-4ace-ad36-d3d2380d122b",
+      "id": "1068491f-1786-4ace-ad36-d3d2380d122b",
       "ward_no": "11",
-      "ward_name_en": "Kolakkad",
-      "ward_name_ml": "കൊളക്കാട്"
+      "name_en": "Kolakkad",
+      "name_ml": "കൊളക്കാട്"
     },
     {
-      "ward_id": "00710bd4-37dd-487a-8e0a-27ab13bb4986",
+      "id": "00710bd4-37dd-487a-8e0a-27ab13bb4986",
       "ward_no": "12",
-      "ward_name_en": "Mavadi",
-      "ward_name_ml": "മാവടി"
+      "name_en": "Mavadi",
+      "name_ml": "മാവടി"
     },
     {
-      "ward_id": "133c8cd7-a7ff-4f51-82c5-c613196602e0",
+      "id": "133c8cd7-a7ff-4f51-82c5-c613196602e0",
       "ward_no": "13",
-      "ward_name_en": "Chanappara",
-      "ward_name_ml": "ചാണപ്പാറ"
+      "name_en": "Chanappara",
+      "name_ml": "ചാണപ്പാറ"
     }
   ],
   "towns": [],

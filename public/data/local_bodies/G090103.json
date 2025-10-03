@@ -1,188 +1,199 @@
 {
-  "local_body_id": "G090103",
-  "local_body_name_en": "Kappur",
-  "local_body_name_ml": "കപ്പൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "49",
-    "assembly_name_en": "Thrithala",
-    "assembly_name_ml": "തൃത്താല",
+  "id": "G090103",
+  "name_en": "Kappur",
+  "name_ml": "കപ്പൂര്‍",
+  "assembly_id": "49",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "49",
+    "name_en": "Thrithala",
+    "name_ml": "തൃത്താല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "21658954-999e-47a1-b226-b48536062bac",
+      "id": "21658954-999e-47a1-b226-b48536062bac",
       "ward_no": "1",
-      "ward_name_en": "Chekkode",
-      "ward_name_ml": "ചേക്കോട്"
+      "name_en": "Chekkode",
+      "name_ml": "ചേക്കോട്"
     },
     {
-      "ward_id": "b31327de-4474-43ab-a078-d6420e7d6c75",
+      "id": "b31327de-4474-43ab-a078-d6420e7d6c75",
       "ward_no": "2",
-      "ward_name_en": "Parakkulam",
-      "ward_name_ml": "പറക്കുളം"
+      "name_en": "Parakkulam",
+      "name_ml": "പറക്കുളം"
     },
     {
-      "ward_id": "108ebee6-9184-459e-ade2-06e5b8bfff1d",
+      "id": "108ebee6-9184-459e-ade2-06e5b8bfff1d",
       "ward_no": "3",
-      "ward_name_en": "Kalladathoor",
-      "ward_name_ml": "കല്ലടത്തൂര്‍"
+      "name_en": "Kalladathoor",
+      "name_ml": "കല്ലടത്തൂര്‍"
     },
     {
-      "ward_id": "a937bfd9-1608-484a-9b34-590eddff9a3d",
+      "id": "a937bfd9-1608-484a-9b34-590eddff9a3d",
       "ward_no": "4",
-      "ward_name_en": "Mavara",
-      "ward_name_ml": "മാവറ"
+      "name_en": "Mavara",
+      "name_ml": "മാവറ"
     },
     {
-      "ward_id": "5b1806b8-1221-42ed-bf6a-9aa3addbcc81",
+      "id": "5b1806b8-1221-42ed-bf6a-9aa3addbcc81",
       "ward_no": "5",
-      "ward_name_en": "Kappur",
-      "ward_name_ml": "കപ്പൂര്‍"
+      "name_en": "Kappur",
+      "name_ml": "കപ്പൂര്‍"
     },
     {
-      "ward_id": "f5f5e7a7-8cda-4ef9-a335-d0ac53a8aee6",
+      "id": "f5f5e7a7-8cda-4ef9-a335-d0ac53a8aee6",
       "ward_no": "6",
-      "ward_name_en": "Pallangattuchira",
-      "ward_name_ml": "പള്ളങ്ങാട്ടുചിറ"
+      "name_en": "Pallangattuchira",
+      "name_ml": "പള്ളങ്ങാട്ടുചിറ"
     },
     {
-      "ward_id": "91dcfa16-37ff-497f-b750-f7d0900fb374",
+      "id": "91dcfa16-37ff-497f-b750-f7d0900fb374",
       "ward_no": "7",
-      "ward_name_en": "Mannaraparambu",
-      "ward_name_ml": "മണ്ണാരപ്പറമ്പ്"
+      "name_en": "Mannaraparambu",
+      "name_ml": "മണ്ണാരപ്പറമ്പ്"
     },
     {
-      "ward_id": "25b8b297-ac6a-4daf-b307-756804541260",
+      "id": "25b8b297-ac6a-4daf-b307-756804541260",
       "ward_no": "8",
-      "ward_name_en": "Mullamkunnu",
-      "ward_name_ml": "മുള്ളംകുന്ന്"
+      "name_en": "Mullamkunnu",
+      "name_ml": "മുള്ളംകുന്ന്"
     },
     {
-      "ward_id": "c62a7719-eadc-40e6-8be9-8026021457a3",
+      "id": "c62a7719-eadc-40e6-8be9-8026021457a3",
       "ward_no": "9",
-      "ward_name_en": "Kozhikkara",
-      "ward_name_ml": "കൊഴിക്കര"
+      "name_en": "Kozhikkara",
+      "name_ml": "കൊഴിക്കര"
     },
     {
-      "ward_id": "6488ec01-3cc7-40ec-825a-e6c16dc39d11",
+      "id": "6488ec01-3cc7-40ec-825a-e6c16dc39d11",
       "ward_no": "10",
-      "ward_name_en": "Kollannur",
-      "ward_name_ml": "കൊള്ളന്നൂര്‍"
+      "name_en": "Kollannur",
+      "name_ml": "കൊള്ളന്നൂര്‍"
     },
     {
-      "ward_id": "f78f45f1-a812-49d7-9a4f-ee9b33b31eff",
+      "id": "f78f45f1-a812-49d7-9a4f-ee9b33b31eff",
       "ward_no": "11",
-      "ward_name_en": "Kanjirathani",
-      "ward_name_ml": "കാഞ്ഞിരത്താണി"
+      "name_en": "Kanjirathani",
+      "name_ml": "കാഞ്ഞിരത്താണി"
     },
     {
-      "ward_id": "f94e8d95-95d6-4cb6-adb1-82686d9faebe",
+      "id": "f94e8d95-95d6-4cb6-adb1-82686d9faebe",
       "ward_no": "12",
-      "ward_name_en": "Eravakkad",
-      "ward_name_ml": "എറവക്കാട്"
+      "name_en": "Eravakkad",
+      "name_ml": "എറവക്കാട്"
     },
     {
-      "ward_id": "af3b898d-1ca4-4767-93bb-2f6343b857af",
+      "id": "af3b898d-1ca4-4767-93bb-2f6343b857af",
       "ward_no": "13",
-      "ward_name_en": "Amettikkara",
-      "ward_name_ml": "അമേറ്റിക്കര"
+      "name_en": "Amettikkara",
+      "name_ml": "അമേറ്റിക്കര"
     },
     {
-      "ward_id": "8fa7b08d-e443-4394-9733-f892c0cf6af4",
+      "id": "8fa7b08d-e443-4394-9733-f892c0cf6af4",
       "ward_no": "14",
-      "ward_name_en": "Marayamkunnu",
-      "ward_name_ml": "മാരായംകുന്ന്"
+      "name_en": "Marayamkunnu",
+      "name_ml": "മാരായംകുന്ന്"
     },
     {
-      "ward_id": "84b105d6-bb7a-41ab-94f6-35da856645a0",
+      "id": "84b105d6-bb7a-41ab-94f6-35da856645a0",
       "ward_no": "15",
-      "ward_name_en": "Kumaranellur",
-      "ward_name_ml": "കുമരനെല്ലൂര്‍"
+      "name_en": "Kumaranellur",
+      "name_ml": "കുമരനെല്ലൂര്‍"
     },
     {
-      "ward_id": "16bf304b-cfcf-4d37-baf8-24a8628b86dc",
+      "id": "16bf304b-cfcf-4d37-baf8-24a8628b86dc",
       "ward_no": "16",
-      "ward_name_en": "Kallikkunnu",
-      "ward_name_ml": "കള്ളിക്കുന്ന്"
+      "name_en": "Kallikkunnu",
+      "name_ml": "കള്ളിക്കുന്ന്"
     },
     {
-      "ward_id": "af681ae6-c665-4ccb-99d5-ca8d029ebedc",
+      "id": "af681ae6-c665-4ccb-99d5-ca8d029ebedc",
       "ward_no": "17",
-      "ward_name_en": "Kannamthali",
-      "ward_name_ml": "കണ്ണാന്തളി"
+      "name_en": "Kannamthali",
+      "name_ml": "കണ്ണാന്തളി"
     },
     {
-      "ward_id": "15599716-80bd-4162-8404-0efbc50fce6f",
+      "id": "15599716-80bd-4162-8404-0efbc50fce6f",
       "ward_no": "18",
-      "ward_name_en": "Vellaloor",
-      "ward_name_ml": "വെള്ളാളൂര്‍"
+      "name_en": "Vellaloor",
+      "name_ml": "വെള്ളാളൂര്‍"
     }
   ],
   "towns": [
     {
-      "town_name_en": "Padinjarangadi",
-      "town_name_ml": "പടിഞ്ഞാറങ്ങാടി"
+      "name_en": "Padinjarangadi",
+      "name_ml": "പടിഞ്ഞാറങ്ങാടി"
     },
     {
-      "town_name_en": "Kumaranelloor",
-      "town_name_ml": "കുമരനെല്ലൂർ"
+      "name_en": "Kumaranelloor",
+      "name_ml": "കുമരനെല്ലൂർ"
     },
     {
-      "town_name_en": "Koonamoochi",
-      "town_name_ml": "കൂനംമൂച്ചി"
+      "name_en": "Koonamoochi",
+      "name_ml": "കൂനംമൂച്ചി"
     },
     {
-      "town_name_en": "Kozhikkara",
-      "town_name_ml": "കൊഴിക്കര"
+      "name_en": "Kozhikkara",
+      "name_ml": "കൊഴിക്കര"
     },
     {
-      "town_name_en": "Engineer road",
-      "town_name_ml": "എഞ്ചിനീയർ റോഡ്"
+      "name_en": "Engineer road",
+      "name_ml": "എഞ്ചിനീയർ റോഡ്"
     },
     {
-      "town_name_en": "Anakkara Skylab",
-      "town_name_ml": "ആനക്കര സ്കൈലാബ്"
+      "name_en": "Anakkara Skylab",
+      "name_ml": "ആനക്കര സ്കൈലാബ്"
     },
     {
-      "town_name_en": "Kalladathoor",
-      "town_name_ml": "കല്ലടത്തൂർ"
+      "name_en": "Kalladathoor",
+      "name_ml": "കല്ലടത്തൂർ"
     },
     {
-      "town_name_en": "Kollanoor",
-      "town_name_ml": "കൊള്ളനൂർ"
+      "name_en": "Kollanoor",
+      "name_ml": "കൊള്ളനൂർ"
     },
     {
-      "town_name_en": "Maarayamkunnu",
-      "town_name_ml": "മാരായംകുന്ന്"
+      "name_en": "Maarayamkunnu",
+      "name_ml": "മാരായംകുന്ന്"
     },
     {
-      "town_name_en": "Kanjirathani",
-      "town_name_ml": "കാഞ്ഞിരത്താണി"
+      "name_en": "Kanjirathani",
+      "name_ml": "കാഞ്ഞിരത്താണി"
     },
     {
-      "town_name_en": "Kappur city",
-      "town_name_ml": "കപ്പൂർ സിറ്റി"
+      "name_en": "Kappur city",
+      "name_ml": "കപ്പൂർ സിറ്റി"
     },
     {
-      "town_name_en": "Eravakkad",
-      "town_name_ml": "എറവക്കാട്"
+      "name_en": "Eravakkad",
+      "name_ml": "എറവക്കാട്"
     },
     {
-      "town_name_en": "Pallangattuchira",
-      "town_name_ml": "പള്ളങ്ങാട്ടുചിറ"
+      "name_en": "Pallangattuchira",
+      "name_ml": "പള്ളങ്ങാട്ടുചിറ"
     },
     {
-      "town_name_en": "Parakkulam",
-      "town_name_ml": "പറക്കുളം"
+      "name_en": "Parakkulam",
+      "name_ml": "പറക്കുളം"
     }
   ],
   "issues": {

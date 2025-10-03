@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G080406",
-  "local_body_name_en": "Thiruvilwamala",
-  "local_body_name_ml": "തിരുവില്വാമല",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "61",
-    "assembly_name_en": "Chelakkara",
-    "assembly_name_ml": "ചേലക്കര",
+  "id": "G080406",
+  "name_en": "Thiruvilwamala",
+  "name_ml": "തിരുവില്വാമല",
+  "assembly_id": "61",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "61",
+    "name_en": "Chelakkara",
+    "name_ml": "ചേലക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ab8d3df0-7c63-4d88-b042-14841fb2bce3",
+      "id": "ab8d3df0-7c63-4d88-b042-14841fb2bce3",
       "ward_no": "1",
-      "ward_name_en": "Kuthampully",
-      "ward_name_ml": "കുത്താമ്പുള്ളി"
+      "name_en": "Kuthampully",
+      "name_ml": "കുത്താമ്പുള്ളി"
     },
     {
-      "ward_id": "48b634c8-b045-4618-9a2f-0d8c1057e53f",
+      "id": "48b634c8-b045-4618-9a2f-0d8c1057e53f",
       "ward_no": "2",
-      "ward_name_en": "Parakkotupadam",
-      "ward_name_ml": "പരക്കോട്ടുപാടം"
+      "name_en": "Parakkotupadam",
+      "name_ml": "പരക്കോട്ടുപാടം"
     },
     {
-      "ward_id": "ae95cfb0-1d48-48dc-baa1-0b5a9d60843d",
+      "id": "ae95cfb0-1d48-48dc-baa1-0b5a9d60843d",
       "ward_no": "3",
-      "ward_name_en": "Kayarampara",
-      "ward_name_ml": "കയറമ്പാറ"
+      "name_en": "Kayarampara",
+      "name_ml": "കയറമ്പാറ"
     },
     {
-      "ward_id": "357822c4-39d7-45a9-a251-ba398c0b3c8e",
+      "id": "357822c4-39d7-45a9-a251-ba398c0b3c8e",
       "ward_no": "4",
-      "ward_name_en": "Koodaramkunnu",
-      "ward_name_ml": "കൂടാരംകുന്ന്"
+      "name_en": "Koodaramkunnu",
+      "name_ml": "കൂടാരംകുന്ന്"
     },
     {
-      "ward_id": "0d2dbf66-8b4c-4e1f-95c5-65266be7e7b5",
+      "id": "0d2dbf66-8b4c-4e1f-95c5-65266be7e7b5",
       "ward_no": "5",
-      "ward_name_en": "Pampadi",
-      "ward_name_ml": "പാമ്പാടി"
+      "name_en": "Pampadi",
+      "name_ml": "പാമ്പാടി"
     },
     {
-      "ward_id": "5f7ca65a-1370-4a4f-87cb-1bdbdf36ff06",
+      "id": "5f7ca65a-1370-4a4f-87cb-1bdbdf36ff06",
       "ward_no": "6",
-      "ward_name_en": "Kollaikkal",
-      "ward_name_ml": "കൊല്ലായ്ക്കല്‍"
+      "name_en": "Kollaikkal",
+      "name_ml": "കൊല്ലായ്ക്കല്‍"
     },
     {
-      "ward_id": "66fe5c7e-e09f-4383-a524-fb35cf498caf",
+      "id": "66fe5c7e-e09f-4383-a524-fb35cf498caf",
       "ward_no": "7",
-      "ward_name_en": "Maleshamangalam",
-      "ward_name_ml": "മലേശമംഗലം"
+      "name_en": "Maleshamangalam",
+      "name_ml": "മലേശമംഗലം"
     },
     {
-      "ward_id": "980d2d99-b67d-4168-b90b-370e91513b22",
+      "id": "980d2d99-b67d-4168-b90b-370e91513b22",
       "ward_no": "8",
-      "ward_name_en": "Kizhakkumury",
-      "ward_name_ml": "കിഴക്കുമുറി"
+      "name_en": "Kizhakkumury",
+      "name_ml": "കിഴക്കുമുറി"
     },
     {
-      "ward_id": "087bc8cb-4eb2-4fe3-b6a4-64c801d83f99",
+      "id": "087bc8cb-4eb2-4fe3-b6a4-64c801d83f99",
       "ward_no": "9",
-      "ward_name_en": "Pattiparambu",
-      "ward_name_ml": "പട്ടിപറമ്പ്"
+      "name_en": "Pattiparambu",
+      "name_ml": "പട്ടിപറമ്പ്"
     },
     {
-      "ward_id": "92c0bda6-5955-4954-b746-1629cd0db5c1",
+      "id": "92c0bda6-5955-4954-b746-1629cd0db5c1",
       "ward_no": "10",
-      "ward_name_en": "Oralassery",
-      "ward_name_ml": "ഒരലാശ്ശേരി"
+      "name_en": "Oralassery",
+      "name_ml": "ഒരലാശ്ശേരി"
     },
     {
-      "ward_id": "8f8c9e27-38b5-42bf-8255-36528f54c2b8",
+      "id": "8f8c9e27-38b5-42bf-8255-36528f54c2b8",
       "ward_no": "11",
-      "ward_name_en": "Palakkaparambu",
-      "ward_name_ml": "പാലയ്ക്കപറമ്പ്"
+      "name_en": "Palakkaparambu",
+      "name_ml": "പാലയ്ക്കപറമ്പ്"
     },
     {
-      "ward_id": "95457849-f7a5-4c2a-b3c4-d661cb0fb20c",
+      "id": "95457849-f7a5-4c2a-b3c4-d661cb0fb20c",
       "ward_no": "12",
-      "ward_name_en": "Eravathody",
-      "ward_name_ml": "എരവത്തൊടി"
+      "name_en": "Eravathody",
+      "name_ml": "എരവത്തൊടി"
     },
     {
-      "ward_id": "9d4b96d9-1362-479a-883d-68942ad0c955",
+      "id": "9d4b96d9-1362-479a-883d-68942ad0c955",
       "ward_no": "13",
-      "ward_name_en": "Thiruvilwamala",
-      "ward_name_ml": "തിരുവില്വാമല"
+      "name_en": "Thiruvilwamala",
+      "name_ml": "തിരുവില്വാമല"
     },
     {
-      "ward_id": "90d1757a-8c71-4ebb-8a84-78993e10649b",
+      "id": "90d1757a-8c71-4ebb-8a84-78993e10649b",
       "ward_no": "14",
-      "ward_name_en": "Malavattom",
-      "ward_name_ml": "മലവട്ടം"
+      "name_en": "Malavattom",
+      "name_ml": "മലവട്ടം"
     },
     {
-      "ward_id": "0e621483-e38c-4666-b2f3-870c11f36bf2",
+      "id": "0e621483-e38c-4666-b2f3-870c11f36bf2",
       "ward_no": "15",
-      "ward_name_en": "Poothanakkara",
-      "ward_name_ml": "പൂതനക്കര"
+      "name_en": "Poothanakkara",
+      "name_ml": "പൂതനക്കര"
     },
     {
-      "ward_id": "daca2d92-a67e-4a10-9cb2-16e648b0fc5f",
+      "id": "daca2d92-a67e-4a10-9cb2-16e648b0fc5f",
       "ward_no": "16",
-      "ward_name_en": "Akkaarambu",
-      "ward_name_ml": "ആക്കപറമ്പ്"
+      "name_en": "Akkaarambu",
+      "name_ml": "ആക്കപറമ്പ്"
     },
     {
-      "ward_id": "97128ed9-7380-4d94-9d83-7d9213028c76",
+      "id": "97128ed9-7380-4d94-9d83-7d9213028c76",
       "ward_no": "17",
-      "ward_name_en": "Kundukad",
-      "ward_name_ml": "കുണ്ടുകാട്"
+      "name_en": "Kundukad",
+      "name_ml": "കുണ്ടുകാട്"
     }
   ],
   "towns": [],

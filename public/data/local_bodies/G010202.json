@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G010202",
-  "local_body_name_en": "Pazhayakunnumel",
-  "local_body_name_ml": "പഴയകുന്നുമ്മേല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G010202",
+  "name_en": "Pazhayakunnumel",
+  "name_ml": "പഴയകുന്നുമ്മേല്‍",
+  "assembly_id": "128",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "128",
-    "assembly_name_en": "Attingal",
-    "assembly_name_ml": "ആറ്റിങ്ങൽ",
-    "category": "Normal"
+    "id": "128",
+    "name_en": "Attingal",
+    "name_ml": "ആറ്റിങ്ങൽ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f71da076-c33d-482c-9813-72ef10827d7f",
+      "id": "f71da076-c33d-482c-9813-72ef10827d7f",
       "ward_no": "1",
-      "ward_name_en": "Thattathumala",
-      "ward_name_ml": "തട്ടത്തുമല"
+      "name_en": "Thattathumala",
+      "name_ml": "തട്ടത്തുമല"
     },
     {
-      "ward_id": "c6d590bd-7bb7-4e04-9ded-2a2592a65e2e",
+      "id": "c6d590bd-7bb7-4e04-9ded-2a2592a65e2e",
       "ward_no": "2",
-      "ward_name_en": "Parandakuzhy",
-      "ward_name_ml": "പറണ്ടക്കുഴി"
+      "name_en": "Parandakuzhy",
+      "name_ml": "പറണ്ടക്കുഴി"
     },
     {
-      "ward_id": "8f7637bf-062d-427b-b4d3-3005e4a4eb95",
+      "id": "8f7637bf-062d-427b-b4d3-3005e4a4eb95",
       "ward_no": "3",
-      "ward_name_en": "Chempakasseri",
-      "ward_name_ml": "ചെമ്പകശ്ശേരി"
+      "name_en": "Chempakasseri",
+      "name_ml": "ചെമ്പകശ്ശേരി"
     },
     {
-      "ward_id": "18811d3d-ac41-4ef2-b6c4-7ace11265d92",
+      "id": "18811d3d-ac41-4ef2-b6c4-7ace11265d92",
       "ward_no": "4",
-      "ward_name_en": "Kulappara",
-      "ward_name_ml": "കുളപ്പാറ"
+      "name_en": "Kulappara",
+      "name_ml": "കുളപ്പാറ"
     },
     {
-      "ward_id": "8fb6cc04-fe3a-4830-b6f2-5806264a3127",
+      "id": "8fb6cc04-fe3a-4830-b6f2-5806264a3127",
       "ward_no": "5",
-      "ward_name_en": "Sheddilkkada",
-      "ward_name_ml": "ഷെഡില്‍ക്കട"
+      "name_en": "Sheddilkkada",
+      "name_ml": "ഷെഡില്‍ക്കട"
     },
     {
-      "ward_id": "25c9dfc1-8a55-4448-8fef-c56d085663d5",
+      "id": "25c9dfc1-8a55-4448-8fef-c56d085663d5",
       "ward_no": "6",
-      "ward_name_en": "Cherunarakamcodu",
-      "ward_name_ml": "ചെറുനാരകംകോട്"
+      "name_en": "Cherunarakamcodu",
+      "name_ml": "ചെറുനാരകംകോട്"
     },
     {
-      "ward_id": "6749a76a-345b-4ca6-ab17-e6af3e340fda",
+      "id": "6749a76a-345b-4ca6-ab17-e6af3e340fda",
       "ward_no": "7",
-      "ward_name_en": "Tholikkuzhi",
-      "ward_name_ml": "തൊളിക്കുഴി"
+      "name_en": "Tholikkuzhi",
+      "name_ml": "തൊളിക്കുഴി"
     },
     {
-      "ward_id": "bb1a298f-a362-47dc-93d5-5ce9428e2f78",
+      "id": "bb1a298f-a362-47dc-93d5-5ce9428e2f78",
       "ward_no": "8",
-      "ward_name_en": "Adayamon",
-      "ward_name_ml": "അടയമന്‍"
+      "name_en": "Adayamon",
+      "name_ml": "അടയമന്‍"
     },
     {
-      "ward_id": "87b460cf-6119-43d8-a9c8-bcc3e82afbf0",
+      "id": "87b460cf-6119-43d8-a9c8-bcc3e82afbf0",
       "ward_no": "9",
-      "ward_name_en": "Vandanoor",
-      "ward_name_ml": "വണ്ടന്നൂര്‍"
+      "name_en": "Vandanoor",
+      "name_ml": "വണ്ടന്നൂര്‍"
     },
     {
-      "ward_id": "c2a9e844-4d06-4962-afa2-87a793ebd4b0",
+      "id": "c2a9e844-4d06-4962-afa2-87a793ebd4b0",
       "ward_no": "10",
-      "ward_name_en": "Kanara",
-      "ward_name_ml": "കാനാറ"
+      "name_en": "Kanara",
+      "name_ml": "കാനാറ"
     },
     {
-      "ward_id": "b97f3c1e-f7de-4696-9d2b-c812e817564f",
+      "id": "b97f3c1e-f7de-4696-9d2b-c812e817564f",
       "ward_no": "11",
-      "ward_name_en": "Mahadeveswaram",
-      "ward_name_ml": "മഹാദേവേശ്വരം"
+      "name_en": "Mahadeveswaram",
+      "name_ml": "മഹാദേവേശ്വരം"
     },
     {
-      "ward_id": "e0c31361-292d-406d-be5d-ed51defb642d",
+      "id": "e0c31361-292d-406d-be5d-ed51defb642d",
       "ward_no": "12",
-      "ward_name_en": "Manjappara",
-      "ward_name_ml": "മഞ്ഞപ്പാറ"
+      "name_en": "Manjappara",
+      "name_ml": "മഞ്ഞപ്പാറ"
     },
     {
-      "ward_id": "fe365638-3acc-45d7-a19f-a65fde5cfb0d",
+      "id": "fe365638-3acc-45d7-a19f-a65fde5cfb0d",
       "ward_no": "13",
-      "ward_name_en": "Kunnummel",
-      "ward_name_ml": "കുന്നുമ്മേല്‍"
+      "name_en": "Kunnummel",
+      "name_ml": "കുന്നുമ്മേല്‍"
     },
     {
-      "ward_id": "015bea15-2ec7-4939-a964-f63cd2c950b8",
+      "id": "015bea15-2ec7-4939-a964-f63cd2c950b8",
       "ward_no": "14",
-      "ward_name_en": "Puthiyakavu",
-      "ward_name_ml": "പുതിയകാവ്"
+      "name_en": "Puthiyakavu",
+      "name_ml": "പുതിയകാവ്"
     },
     {
-      "ward_id": "6893dbb3-0de2-4d9f-9d7c-9942e931c909",
+      "id": "6893dbb3-0de2-4d9f-9d7c-9942e931c909",
       "ward_no": "15",
-      "ward_name_en": "Pazhayakunnummel",
-      "ward_name_ml": "പഴയകുന്നുമ്മേല്‍"
+      "name_en": "Pazhayakunnummel",
+      "name_ml": "പഴയകുന്നുമ്മേല്‍"
     },
     {
-      "ward_id": "a574c260-955a-42a4-960b-371a65c02ae7",
+      "id": "a574c260-955a-42a4-960b-371a65c02ae7",
       "ward_no": "16",
-      "ward_name_en": "Pappala",
-      "ward_name_ml": "പാപ്പാല"
+      "name_en": "Pappala",
+      "name_ml": "പാപ്പാല"
     },
     {
-      "ward_id": "1cf05e26-4f61-4239-b3e6-c68a493cba7b",
+      "id": "1cf05e26-4f61-4239-b3e6-c68a493cba7b",
       "ward_no": "17",
-      "ward_name_en": "Manalethupacha",
-      "ward_name_ml": "മണലേത്തുപച്ച"
+      "name_en": "Manalethupacha",
+      "name_ml": "മണലേത്തുപച്ച"
     }
   ],
   "towns": [],

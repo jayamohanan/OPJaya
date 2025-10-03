@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G010807",
-  "local_body_name_en": "Kalliyoor",
-  "local_body_name_ml": "കല്ലിയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G010807",
+  "name_en": "Kalliyoor",
+  "name_ml": "കല്ലിയൂര്‍",
+  "assembly_id": "139",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "139",
-    "assembly_name_en": "Kovalam",
-    "assembly_name_ml": "കോവളം",
-    "category": "Normal"
+    "id": "139",
+    "name_en": "Kovalam",
+    "name_ml": "കോവളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c81ebd34-2aae-4d8d-b5e7-883a908a5fde",
+      "id": "c81ebd34-2aae-4d8d-b5e7-883a908a5fde",
       "ward_no": "1",
-      "ward_name_en": "Pappanchani",
-      "ward_name_ml": "പാപ്പാന്‍ചാണി"
+      "name_en": "Pappanchani",
+      "name_ml": "പാപ്പാന്‍ചാണി"
     },
     {
-      "ward_id": "e0daf76a-10ab-42d5-aa8e-877939b6ca3c",
+      "id": "e0daf76a-10ab-42d5-aa8e-877939b6ca3c",
       "ward_no": "2",
-      "ward_name_en": "Vellayani",
-      "ward_name_ml": "വെളളായണി"
+      "name_en": "Vellayani",
+      "name_ml": "വെളളായണി"
     },
     {
-      "ward_id": "4d579494-093e-41b2-a5ab-4cb5a37b5f8a",
+      "id": "4d579494-093e-41b2-a5ab-4cb5a37b5f8a",
       "ward_no": "3",
-      "ward_name_en": "Mukaloormoola",
-      "ward_name_ml": "മുകളൂര്‍മൂല"
+      "name_en": "Mukaloormoola",
+      "name_ml": "മുകളൂര്‍മൂല"
     },
     {
-      "ward_id": "f6a1cd86-37aa-4399-b126-e2213539e2d4",
+      "id": "f6a1cd86-37aa-4399-b126-e2213539e2d4",
       "ward_no": "4",
-      "ward_name_en": "Sarvodhayam",
-      "ward_name_ml": "സര്‍വ്വോദയം"
+      "name_en": "Sarvodhayam",
+      "name_ml": "സര്‍വ്വോദയം"
     },
     {
-      "ward_id": "b58a5d5e-bc04-4b28-b230-43ddefc8608d",
+      "id": "b58a5d5e-bc04-4b28-b230-43ddefc8608d",
       "ward_no": "5",
-      "ward_name_en": "Santhivila",
-      "ward_name_ml": "ശാന്തിവിള"
+      "name_en": "Santhivila",
+      "name_ml": "ശാന്തിവിള"
     },
     {
-      "ward_id": "6f76c040-2c80-43c3-84a5-de35b280acb3",
+      "id": "6f76c040-2c80-43c3-84a5-de35b280acb3",
       "ward_no": "6",
-      "ward_name_en": "Kulakudiyoorkonam",
-      "ward_name_ml": "കുളക്കുടിയൂര്‍ക്കോണം"
+      "name_en": "Kulakudiyoorkonam",
+      "name_ml": "കുളക്കുടിയൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "2291d77b-7b4f-4f08-849a-c0dd06a62212",
+      "id": "2291d77b-7b4f-4f08-849a-c0dd06a62212",
       "ward_no": "7",
-      "ward_name_en": "Upaniyoor",
-      "ward_name_ml": "ഉപനിയൂര്‍"
+      "name_en": "Upaniyoor",
+      "name_ml": "ഉപനിയൂര്‍"
     },
     {
-      "ward_id": "b8e7de45-c973-41bd-b2a5-ac034656de1f",
+      "id": "b8e7de45-c973-41bd-b2a5-ac034656de1f",
       "ward_no": "8",
-      "ward_name_en": "Ookode",
-      "ward_name_ml": "ഊക്കോട്"
+      "name_en": "Ookode",
+      "name_ml": "ഊക്കോട്"
     },
     {
-      "ward_id": "0b0707ff-c17e-44fd-a8c8-36f64bbc37d2",
+      "id": "0b0707ff-c17e-44fd-a8c8-36f64bbc37d2",
       "ward_no": "9",
-      "ward_name_en": "Chenkode",
-      "ward_name_ml": "ചെങ്കോട്"
+      "name_en": "Chenkode",
+      "name_ml": "ചെങ്കോട്"
     },
     {
-      "ward_id": "85a934d8-1f62-4a4f-9006-17f777bc1018",
+      "id": "85a934d8-1f62-4a4f-9006-17f777bc1018",
       "ward_no": "10",
-      "ward_name_en": "Vallamcode",
-      "ward_name_ml": "വളളംകോട്"
+      "name_en": "Vallamcode",
+      "name_ml": "വളളംകോട്"
     },
     {
-      "ward_id": "3d0cab3d-ffa0-4411-8009-7890e1e92f35",
+      "id": "3d0cab3d-ffa0-4411-8009-7890e1e92f35",
       "ward_no": "11",
-      "ward_name_en": "Pakaloor",
-      "ward_name_ml": "പകലൂര്‍"
+      "name_en": "Pakaloor",
+      "name_ml": "പകലൂര്‍"
     },
     {
-      "ward_id": "0470716c-0dbe-4258-a0e3-386cabe4f596",
+      "id": "0470716c-0dbe-4258-a0e3-386cabe4f596",
       "ward_no": "12",
-      "ward_name_en": "Punnamoodu",
-      "ward_name_ml": "പുന്നമൂട്"
+      "name_en": "Punnamoodu",
+      "name_ml": "പുന്നമൂട്"
     },
     {
-      "ward_id": "39e59d15-46c6-4470-a2c3-de1a48891844",
+      "id": "39e59d15-46c6-4470-a2c3-de1a48891844",
       "ward_no": "13",
-      "ward_name_en": "Office",
-      "ward_name_ml": "ഓഫീസ്"
+      "name_en": "Office",
+      "name_ml": "ഓഫീസ്"
     },
     {
-      "ward_id": "b1de8e27-e591-4aa9-9f59-039b82eb0f25",
+      "id": "b1de8e27-e591-4aa9-9f59-039b82eb0f25",
       "ward_no": "14",
-      "ward_name_en": "Peringamala",
-      "ward_name_ml": "പെരിങ്ങമ്മല"
+      "name_en": "Peringamala",
+      "name_ml": "പെരിങ്ങമ്മല"
     },
     {
-      "ward_id": "314e6daa-7140-4e5d-874e-cb64492d4563",
+      "id": "314e6daa-7140-4e5d-874e-cb64492d4563",
       "ward_no": "15",
-      "ward_name_en": "Kuzhithalachal",
-      "ward_name_ml": "കുഴിതാലച്ചല്‍"
+      "name_en": "Kuzhithalachal",
+      "name_ml": "കുഴിതാലച്ചല്‍"
     },
     {
-      "ward_id": "6fefd7f2-5bcf-48c6-af73-51b7463f36d2",
+      "id": "6fefd7f2-5bcf-48c6-af73-51b7463f36d2",
       "ward_no": "16",
-      "ward_name_en": "Hospital Ward",
-      "ward_name_ml": "ആശുപത്രി വാര്‍ഡ്"
+      "name_en": "Hospital Ward",
+      "name_ml": "ആശുപത്രി വാര്‍ഡ്"
     },
     {
-      "ward_id": "4a91d61f-60de-43fe-b79a-fad40556603b",
+      "id": "4a91d61f-60de-43fe-b79a-fad40556603b",
       "ward_no": "17",
-      "ward_name_en": "Kannankuzhi",
-      "ward_name_ml": "കണ്ണന്‍കുഴി"
+      "name_en": "Kannankuzhi",
+      "name_ml": "കണ്ണന്‍കുഴി"
     },
     {
-      "ward_id": "c53e9bb7-fe69-4e92-ac03-6214046f7ec4",
+      "id": "c53e9bb7-fe69-4e92-ac03-6214046f7ec4",
       "ward_no": "18",
-      "ward_name_en": "Kakkamoola",
-      "ward_name_ml": "കാക്കാമൂല"
+      "name_en": "Kakkamoola",
+      "name_ml": "കാക്കാമൂല"
     },
     {
-      "ward_id": "1f5e88be-d851-42f7-9150-49f1d7a18187",
+      "id": "1f5e88be-d851-42f7-9150-49f1d7a18187",
       "ward_no": "19",
-      "ward_name_en": "Poonkulam",
-      "ward_name_ml": "പൂങ്കുളം"
+      "name_en": "Poonkulam",
+      "name_ml": "പൂങ്കുളം"
     },
     {
-      "ward_id": "2078647a-c7f0-4cc9-a784-599881f3f8ce",
+      "id": "2078647a-c7f0-4cc9-a784-599881f3f8ce",
       "ward_no": "20",
-      "ward_name_en": "Signal Station",
-      "ward_name_ml": "സിഗ്നല്‍ സ്റ്റേഷന്‍"
+      "name_en": "Signal Station",
+      "name_ml": "സിഗ്നല്‍ സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "4cf03768-45b5-48f3-85a4-741a69aa3953",
+      "id": "4cf03768-45b5-48f3-85a4-741a69aa3953",
       "ward_no": "21",
-      "ward_name_en": "A G C (Agriculture College )",
-      "ward_name_ml": "എ.ജി.സി (കാര്‍ഷിക കോളേജ്)"
+      "name_en": "A G C (Agriculture College )",
+      "name_ml": "എ.ജി.സി (കാര്‍ഷിക കോളേജ്)"
     }
   ],
   "towns": [],

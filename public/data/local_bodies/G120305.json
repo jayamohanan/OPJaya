@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G120305",
-  "local_body_name_en": "Noolpuzha",
-  "local_body_name_ml": "നൂല്‍പ്പുഴ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G120305",
+  "name_en": "Noolpuzha",
+  "name_ml": "നൂല്‍പ്പുഴ",
+  "assembly_id": "18",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "18",
-    "assembly_name_en": "Sulthan Bathery",
-    "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
-    "category": "Normal"
+    "id": "18",
+    "name_en": "Sulthan Bathery",
+    "name_ml": "സുൽത്താൻ ബത്തേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bc769fa7-d402-4e7c-b2b2-ad2e72ddf08b",
+      "id": "bc769fa7-d402-4e7c-b2b2-ad2e72ddf08b",
       "ward_no": "1",
-      "ward_name_en": "Vadakkanad",
-      "ward_name_ml": "വടക്കനാട്"
+      "name_en": "Vadakkanad",
+      "name_ml": "വടക്കനാട്"
     },
     {
-      "ward_id": "3a9a6778-14a5-4868-afc3-7b927957addb",
+      "id": "3a9a6778-14a5-4868-afc3-7b927957addb",
       "ward_no": "2",
-      "ward_name_en": "Karippoor",
-      "ward_name_ml": "കരിപ്പൂര്"
+      "name_en": "Karippoor",
+      "name_ml": "കരിപ്പൂര്"
     },
     {
-      "ward_id": "b8f82b8b-fe08-449d-a217-b20dc0a1649d",
+      "id": "b8f82b8b-fe08-449d-a217-b20dc0a1649d",
       "ward_no": "3",
-      "ward_name_en": "Valluvady",
-      "ward_name_ml": "വള്ളുവാടി"
+      "name_en": "Valluvady",
+      "name_ml": "വള്ളുവാടി"
     },
     {
-      "ward_id": "ac69efd5-59b1-4a08-b2ed-9b1f5db8c762",
+      "id": "ac69efd5-59b1-4a08-b2ed-9b1f5db8c762",
       "ward_no": "4",
-      "ward_name_en": "Kottanode",
-      "ward_name_ml": "കൊട്ടനോട്"
+      "name_en": "Kottanode",
+      "name_ml": "കൊട്ടനോട്"
     },
     {
-      "ward_id": "a7121f13-f813-4b28-8910-7e7460af4818",
+      "id": "a7121f13-f813-4b28-8910-7e7460af4818",
       "ward_no": "5",
-      "ward_name_en": "Pilakkave",
-      "ward_name_ml": "പിലാക്കാവ്"
+      "name_en": "Pilakkave",
+      "name_ml": "പിലാക്കാവ്"
     },
     {
-      "ward_id": "9e3e8beb-75e2-4477-ae63-21fe833dfa03",
+      "id": "9e3e8beb-75e2-4477-ae63-21fe833dfa03",
       "ward_no": "6",
-      "ward_name_en": "Kalloor",
-      "ward_name_ml": "കല്ലൂര്‍"
+      "name_en": "Kalloor",
+      "name_ml": "കല്ലൂര്‍"
     },
     {
-      "ward_id": "81ad5531-997b-4eaf-a1f7-4c3d70682e7f",
+      "id": "81ad5531-997b-4eaf-a1f7-4c3d70682e7f",
       "ward_no": "7",
-      "ward_name_en": "Kallumukku",
-      "ward_name_ml": "കല്ലുമുക്ക്"
+      "name_en": "Kallumukku",
+      "name_ml": "കല്ലുമുക്ക്"
     },
     {
-      "ward_id": "12c54ef3-ea52-47f8-9c66-5d95145781c5",
+      "id": "12c54ef3-ea52-47f8-9c66-5d95145781c5",
       "ward_no": "8",
-      "ward_name_en": "Muthanga",
-      "ward_name_ml": "മുത്തങ്ങ"
+      "name_en": "Muthanga",
+      "name_ml": "മുത്തങ്ങ"
     },
     {
-      "ward_id": "afbec17c-a73f-4670-8e3b-bd7dabfe7240",
+      "id": "afbec17c-a73f-4670-8e3b-bd7dabfe7240",
       "ward_no": "9",
-      "ward_name_en": "Ponkuzhi",
-      "ward_name_ml": "പൊന്‍കുഴി"
+      "name_en": "Ponkuzhi",
+      "name_ml": "പൊന്‍കുഴി"
     },
     {
-      "ward_id": "901aa886-af44-44cf-985e-f0a61d2b08ba",
+      "id": "901aa886-af44-44cf-985e-f0a61d2b08ba",
       "ward_no": "10",
-      "ward_name_en": "Nenmenikkunnu",
-      "ward_name_ml": "നെന്മേനിക്കുന്ന്"
+      "name_en": "Nenmenikkunnu",
+      "name_ml": "നെന്മേനിക്കുന്ന്"
     },
     {
-      "ward_id": "19411017-43b7-49fd-a27b-60d6ecc27ce9",
+      "id": "19411017-43b7-49fd-a27b-60d6ecc27ce9",
       "ward_no": "11",
-      "ward_name_en": "Thiruvannoor",
-      "ward_name_ml": "തിരുവണ്ണൂര്‍"
+      "name_en": "Thiruvannoor",
+      "name_ml": "തിരുവണ്ണൂര്‍"
     },
     {
-      "ward_id": "0b363161-c5dc-4ed1-9d99-a056877ca7d6",
+      "id": "0b363161-c5dc-4ed1-9d99-a056877ca7d6",
       "ward_no": "12",
-      "ward_name_en": "Chettyalathoor",
-      "ward_name_ml": "ചെട്ട്യാലത്തൂര്‍"
+      "name_en": "Chettyalathoor",
+      "name_ml": "ചെട്ട്യാലത്തൂര്‍"
     },
     {
-      "ward_id": "b363f836-9a77-4a73-a384-ee22a948e418",
+      "id": "b363f836-9a77-4a73-a384-ee22a948e418",
       "ward_no": "13",
-      "ward_name_en": "Nambikolly",
-      "ward_name_ml": "നമ്പിക്കൊല്ലി"
+      "name_en": "Nambikolly",
+      "name_ml": "നമ്പിക്കൊല്ലി"
     },
     {
-      "ward_id": "42ef966a-71d9-4bc9-a1a4-732bf192ce5c",
+      "id": "42ef966a-71d9-4bc9-a1a4-732bf192ce5c",
       "ward_no": "14",
-      "ward_name_en": "Nagaramkunnu",
-      "ward_name_ml": "നാഗരംകുന്ന്"
+      "name_en": "Nagaramkunnu",
+      "name_ml": "നാഗരംകുന്ന്"
     },
     {
-      "ward_id": "25f6e176-3c31-4178-bee4-12a4b5482cbd",
+      "id": "25f6e176-3c31-4178-bee4-12a4b5482cbd",
       "ward_no": "15",
-      "ward_name_en": "Thelampatta",
-      "ward_name_ml": "തേലംപറ്റ"
+      "name_en": "Thelampatta",
+      "name_ml": "തേലംപറ്റ"
     },
     {
-      "ward_id": "0370be6b-e6a8-497f-8f6d-f4609e616894",
+      "id": "0370be6b-e6a8-497f-8f6d-f4609e616894",
       "ward_no": "16",
-      "ward_name_en": "Naiketty",
-      "ward_name_ml": "നായ്ക്കെട്ടി"
+      "name_en": "Naiketty",
+      "name_ml": "നായ്ക്കെട്ടി"
     },
     {
-      "ward_id": "d60dbe8c-e54c-4d73-8261-c94d10f4b00e",
+      "id": "d60dbe8c-e54c-4d73-8261-c94d10f4b00e",
       "ward_no": "17",
-      "ward_name_en": "Moolankave",
-      "ward_name_ml": "മൂലങ്കാവ്"
+      "name_en": "Moolankave",
+      "name_ml": "മൂലങ്കാവ്"
     }
   ],
   "towns": [],

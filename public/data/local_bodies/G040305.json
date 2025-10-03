@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G040305",
-  "local_body_name_en": "Kadakkarappally",
-  "local_body_name_ml": "കടക്കരപ്പള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "103",
-    "assembly_name_en": "Cherthala",
-    "assembly_name_ml": "ചേർത്തല",
+  "id": "G040305",
+  "name_en": "Kadakkarappally",
+  "name_ml": "കടക്കരപ്പള്ളി",
+  "assembly_id": "103",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "103",
+    "name_en": "Cherthala",
+    "name_ml": "ചേർത്തല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7fd0bd64-cc63-4172-8030-81799885f76a",
+      "id": "7fd0bd64-cc63-4172-8030-81799885f76a",
       "ward_no": "1",
-      "ward_name_en": "Ottamasseri North",
-      "ward_name_ml": "ഒറ്റമശ്ശേരി വടക്ക്"
+      "name_en": "Ottamasseri North",
+      "name_ml": "ഒറ്റമശ്ശേരി വടക്ക്"
     },
     {
-      "ward_id": "91a104a5-e1fa-4b53-9869-5d6695722101",
+      "id": "91a104a5-e1fa-4b53-9869-5d6695722101",
       "ward_no": "2",
-      "ward_name_en": "Illikkal",
-      "ward_name_ml": "ഇല്ലിക്കല്‍"
+      "name_en": "Illikkal",
+      "name_ml": "ഇല്ലിക്കല്‍"
     },
     {
-      "ward_id": "42c03a87-ff01-45e7-a342-4c0c7c3fb9d6",
+      "id": "42c03a87-ff01-45e7-a342-4c0c7c3fb9d6",
       "ward_no": "3",
-      "ward_name_en": "Pandarathai",
-      "ward_name_ml": "പണ്ടാരതൈ"
+      "name_en": "Pandarathai",
+      "name_ml": "പണ്ടാരതൈ"
     },
     {
-      "ward_id": "1f627424-cbe9-43ad-87f0-f4d8ac9a18fd",
+      "id": "1f627424-cbe9-43ad-87f0-f4d8ac9a18fd",
       "ward_no": "4",
-      "ward_name_en": "Thanki",
-      "ward_name_ml": "തങ്കി"
+      "name_en": "Thanki",
+      "name_ml": "തങ്കി"
     },
     {
-      "ward_id": "e552b01f-bfb1-4df8-9fc6-01b67bf2cdf7",
+      "id": "e552b01f-bfb1-4df8-9fc6-01b67bf2cdf7",
       "ward_no": "5",
-      "ward_name_en": "Kadakkarappally",
-      "ward_name_ml": "കടക്കരപ്പള്ളി"
+      "name_en": "Kadakkarappally",
+      "name_ml": "കടക്കരപ്പള്ളി"
     },
     {
-      "ward_id": "ecba0223-9351-4c23-ba0d-33b1ac3f797d",
+      "id": "ecba0223-9351-4c23-ba0d-33b1ac3f797d",
       "ward_no": "6",
-      "ward_name_en": "Panchayat Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_en": "Panchayat Office",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
     },
     {
-      "ward_id": "a1550d30-e24b-4728-a766-74a14a703353",
+      "id": "a1550d30-e24b-4728-a766-74a14a703353",
       "ward_no": "7",
-      "ward_name_en": "Kottaram",
-      "ward_name_ml": "കൊട്ടാരം"
+      "name_en": "Kottaram",
+      "name_ml": "കൊട്ടാരം"
     },
     {
-      "ward_id": "f793bc40-e7bf-43fb-82f9-393da55d86e1",
+      "id": "f793bc40-e7bf-43fb-82f9-393da55d86e1",
       "ward_no": "8",
-      "ward_name_en": "Kandamangalam",
-      "ward_name_ml": "കണ്ടമംഗലം"
+      "name_en": "Kandamangalam",
+      "name_ml": "കണ്ടമംഗലം"
     },
     {
-      "ward_id": "d1d15f49-c0b7-4f57-9193-3f0c66ef8379",
+      "id": "d1d15f49-c0b7-4f57-9193-3f0c66ef8379",
       "ward_no": "9",
-      "ward_name_en": "Power House",
-      "ward_name_ml": "പവര്‍ഹൌസ്"
+      "name_en": "Power House",
+      "name_ml": "പവര്‍ഹൌസ്"
     },
     {
-      "ward_id": "086096ef-73ce-48f3-a7bd-996b5c4942fc",
+      "id": "086096ef-73ce-48f3-a7bd-996b5c4942fc",
       "ward_no": "10",
-      "ward_name_en": "Manjadikkal",
-      "ward_name_ml": "മഞ്ചാടിക്കല്‍"
+      "name_en": "Manjadikkal",
+      "name_ml": "മഞ്ചാടിക്കല്‍"
     },
     {
-      "ward_id": "6beddfc5-5ede-4a3f-abdf-13ffa6f6f6ec",
+      "id": "6beddfc5-5ede-4a3f-abdf-13ffa6f6f6ec",
       "ward_no": "11",
-      "ward_name_en": "Kunjithai",
-      "ward_name_ml": "കുഞ്ഞിതൈ"
+      "name_en": "Kunjithai",
+      "name_ml": "കുഞ്ഞിതൈ"
     },
     {
-      "ward_id": "44ad4c0e-cfc2-42f5-8d29-3989ac3e2c59",
+      "id": "44ad4c0e-cfc2-42f5-8d29-3989ac3e2c59",
       "ward_no": "12",
-      "ward_name_en": "Thaikkal Beach",
-      "ward_name_ml": "തൈക്കല്‍ബീച്ച്"
+      "name_en": "Thaikkal Beach",
+      "name_ml": "തൈക്കല്‍ബീച്ച്"
     },
     {
-      "ward_id": "1f3e229a-8ce9-4682-ae00-a4e29e1d8bf0",
+      "id": "1f3e229a-8ce9-4682-ae00-a4e29e1d8bf0",
       "ward_no": "13",
-      "ward_name_en": "Vattakkara",
-      "ward_name_ml": "വട്ടക്കര"
+      "name_en": "Vattakkara",
+      "name_ml": "വട്ടക്കര"
     },
     {
-      "ward_id": "c9a13d38-5bdb-4aa3-bf49-364b754a91e5",
+      "id": "c9a13d38-5bdb-4aa3-bf49-364b754a91e5",
       "ward_no": "14",
-      "ward_name_en": "Ottamasseri South",
-      "ward_name_ml": "ഒറ്റമശ്ശേരി തെക്ക്"
+      "name_en": "Ottamasseri South",
+      "name_ml": "ഒറ്റമശ്ശേരി തെക്ക്"
     }
   ],
   "towns": [],

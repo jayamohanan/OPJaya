@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G100206",
-  "local_body_name_en": "Tuvvur",
-  "local_body_name_ml": "തുവ്വൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G100206",
+  "name_en": "Tuvvur",
+  "name_ml": "തുവ്വൂര്‍",
+  "assembly_id": "36",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "36",
-    "assembly_name_en": "Wandoor",
-    "assembly_name_ml": "വണ്ടൂര്‍",
-    "category": "Normal"
+    "id": "36",
+    "name_en": "Wandoor",
+    "name_ml": "വണ്ടൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4a20e515-e4cb-439d-a7f6-ad442c19c64d",
+      "id": "4a20e515-e4cb-439d-a7f6-ad442c19c64d",
       "ward_no": "1",
-      "ward_name_en": "Arikuzhi",
-      "ward_name_ml": "അരിക്കുഴി"
+      "name_en": "Arikuzhi",
+      "name_ml": "അരിക്കുഴി"
     },
     {
-      "ward_id": "9e1c9160-d48c-4db9-9bdd-8ec6fc00e188",
+      "id": "9e1c9160-d48c-4db9-9bdd-8ec6fc00e188",
       "ward_no": "2",
-      "ward_name_en": "Palakkalvetta",
-      "ward_name_ml": "പാലക്കല്‍വെട്ട"
+      "name_en": "Palakkalvetta",
+      "name_ml": "പാലക്കല്‍വെട്ട"
     },
     {
-      "ward_id": "a75ddfcb-48f6-44d7-869e-e2dec9729f4d",
+      "id": "a75ddfcb-48f6-44d7-869e-e2dec9729f4d",
       "ward_no": "3",
-      "ward_name_en": "Amapoyil",
-      "ward_name_ml": "ആമപൊയില്‍"
+      "name_en": "Amapoyil",
+      "name_ml": "ആമപൊയില്‍"
     },
     {
-      "ward_id": "7963c764-b9aa-4b4c-9199-7812bdf9be1d",
+      "id": "7963c764-b9aa-4b4c-9199-7812bdf9be1d",
       "ward_no": "4",
-      "ward_name_en": "Nariyakkampoyil",
-      "ward_name_ml": "നരിയക്കംപൊയില്‍"
+      "name_en": "Nariyakkampoyil",
+      "name_ml": "നരിയക്കംപൊയില്‍"
     },
     {
-      "ward_id": "bf7669ae-4de9-49ae-ab47-2e48973626b3",
+      "id": "bf7669ae-4de9-49ae-ab47-2e48973626b3",
       "ward_no": "5",
-      "ward_name_en": "Neelanchery",
-      "ward_name_ml": "നീലാഞ്ചേരി"
+      "name_en": "Neelanchery",
+      "name_ml": "നീലാഞ്ചേരി"
     },
     {
-      "ward_id": "6492ad80-2ea3-4d1b-afb4-106ac7b53817",
+      "id": "6492ad80-2ea3-4d1b-afb4-106ac7b53817",
       "ward_no": "6",
-      "ward_name_en": "Oothalakkunnu",
-      "ward_name_ml": "ഊത്താലക്കുന്ന്"
+      "name_en": "Oothalakkunnu",
+      "name_ml": "ഊത്താലക്കുന്ന്"
     },
     {
-      "ward_id": "d988f8e0-60f1-40b9-ba57-37e12b176181",
+      "id": "d988f8e0-60f1-40b9-ba57-37e12b176181",
       "ward_no": "7",
-      "ward_name_en": "Kilikkunnu",
-      "ward_name_ml": "കിളിക്കുന്ന്"
+      "name_en": "Kilikkunnu",
+      "name_ml": "കിളിക്കുന്ന്"
     },
     {
-      "ward_id": "8ccc1fa4-3f08-4527-bf7d-2620024adc32",
+      "id": "8ccc1fa4-3f08-4527-bf7d-2620024adc32",
       "ward_no": "8",
-      "ward_name_en": "Kakkara",
-      "ward_name_ml": "കക്കറ"
+      "name_en": "Kakkara",
+      "name_ml": "കക്കറ"
     },
     {
-      "ward_id": "b60aa449-7a88-4330-9b68-9c6438aeff36",
+      "id": "b60aa449-7a88-4330-9b68-9c6438aeff36",
       "ward_no": "9",
-      "ward_name_en": "Tharipramunda",
-      "ward_name_ml": "തരിപ്രമുണ്ട"
+      "name_en": "Tharipramunda",
+      "name_ml": "തരിപ്രമുണ്ട"
     },
     {
-      "ward_id": "c971074c-b76a-4976-8286-1313895a5ebc",
+      "id": "c971074c-b76a-4976-8286-1313895a5ebc",
       "ward_no": "10",
-      "ward_name_en": "Mempuzha",
-      "ward_name_ml": "മാമ്പുഴ"
+      "name_en": "Mempuzha",
+      "name_ml": "മാമ്പുഴ"
     },
     {
-      "ward_id": "0ab2c508-528b-4860-b6e2-e91ba07df0d0",
+      "id": "0ab2c508-528b-4860-b6e2-e91ba07df0d0",
       "ward_no": "11",
-      "ward_name_en": "Akkarappuram",
-      "ward_name_ml": "അക്കരപ്പുറം"
+      "name_en": "Akkarappuram",
+      "name_ml": "അക്കരപ്പുറം"
     },
     {
-      "ward_id": "459f5cd0-b5a4-4837-b1b8-e4a583ac1956",
+      "id": "459f5cd0-b5a4-4837-b1b8-e4a583ac1956",
       "ward_no": "12",
-      "ward_name_en": "Mathoth",
-      "ward_name_ml": "മാതോത്ത്"
+      "name_en": "Mathoth",
+      "name_ml": "മാതോത്ത്"
     },
     {
-      "ward_id": "4e2cf3b9-a416-46f5-b29f-05ac6c2774fa",
+      "id": "4e2cf3b9-a416-46f5-b29f-05ac6c2774fa",
       "ward_no": "13",
-      "ward_name_en": "Thekkumpuram",
-      "ward_name_ml": "തെക്കുംപുറം"
+      "name_en": "Thekkumpuram",
+      "name_ml": "തെക്കുംപുറം"
     },
     {
-      "ward_id": "b9247430-c9e0-4442-ac03-b22868db893c",
+      "id": "b9247430-c9e0-4442-ac03-b22868db893c",
       "ward_no": "14",
-      "ward_name_en": "Maruthath",
-      "ward_name_ml": "മരുതത്ത്"
+      "name_en": "Maruthath",
+      "name_ml": "മരുതത്ത്"
     },
     {
-      "ward_id": "671da484-6c11-404b-bd94-8cee8c97b930",
+      "id": "671da484-6c11-404b-bd94-8cee8c97b930",
       "ward_no": "15",
-      "ward_name_en": "Thuvvur",
-      "ward_name_ml": "തുവ്വൂര്‍"
+      "name_en": "Thuvvur",
+      "name_ml": "തുവ്വൂര്‍"
     },
     {
-      "ward_id": "6c46b24c-f786-4ae6-8021-3f145cd2e19a",
+      "id": "6c46b24c-f786-4ae6-8021-3f145cd2e19a",
       "ward_no": "16",
-      "ward_name_en": "Payippull",
-      "ward_name_ml": "പായിപ്പുല്ല്"
+      "name_en": "Payippull",
+      "name_ml": "പായിപ്പുല്ല്"
     },
     {
-      "ward_id": "8ba4c666-3936-423b-9eff-2f4fd9616665",
+      "id": "8ba4c666-3936-423b-9eff-2f4fd9616665",
       "ward_no": "17",
-      "ward_name_en": "Akkarakkulam",
-      "ward_name_ml": "അക്കരക്കുളം"
+      "name_en": "Akkarakkulam",
+      "name_ml": "അക്കരക്കുളം"
     }
   ],
   "towns": [],

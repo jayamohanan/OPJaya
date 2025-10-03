@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060701",
-  "local_body_name_en": "Muttom",
-  "local_body_name_ml": "മുട്ടം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "90",
-    "assembly_name_en": "Thodupuzha",
-    "assembly_name_ml": "തൊടുപുഴ",
+  "id": "G060701",
+  "name_en": "Muttom",
+  "name_ml": "മുട്ടം",
+  "assembly_id": "90",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "90",
+    "name_en": "Thodupuzha",
+    "name_ml": "തൊടുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "90e2d990-a112-499f-9f38-0f9573f6a4a0",
+      "id": "90e2d990-a112-499f-9f38-0f9573f6a4a0",
       "ward_no": "1",
-      "ward_name_en": "Kodathi",
-      "ward_name_ml": "കോടതി"
+      "name_en": "Kodathi",
+      "name_ml": "കോടതി"
     },
     {
-      "ward_id": "c24a6a8e-d8d9-4929-b627-120fbb58833f",
+      "id": "c24a6a8e-d8d9-4929-b627-120fbb58833f",
       "ward_no": "2",
-      "ward_name_en": "Mathappara",
-      "ward_name_ml": "മാത്തപ്പാറ"
+      "name_en": "Mathappara",
+      "name_ml": "മാത്തപ്പാറ"
     },
     {
-      "ward_id": "1e0863d7-5204-49fc-bad0-bf555770acc2",
+      "id": "1e0863d7-5204-49fc-bad0-bf555770acc2",
       "ward_no": "3",
-      "ward_name_en": "Munjanattukunnu",
-      "ward_name_ml": "മുഞ്ഞനാട്ട്കുന്ന്"
+      "name_en": "Munjanattukunnu",
+      "name_ml": "മുഞ്ഞനാട്ട്കുന്ന്"
     },
     {
-      "ward_id": "1972b7f7-df04-4bda-a74a-296e51c2ba2a",
+      "id": "1972b7f7-df04-4bda-a74a-296e51c2ba2a",
       "ward_no": "4",
-      "ward_name_en": "Sankarappilly",
-      "ward_name_ml": "ശങ്കരപ്പിളളി"
+      "name_en": "Sankarappilly",
+      "name_ml": "ശങ്കരപ്പിളളി"
     },
     {
-      "ward_id": "ac5e74ff-06ea-4320-85ca-a5c87385c8b9",
+      "id": "ac5e74ff-06ea-4320-85ca-a5c87385c8b9",
       "ward_no": "5",
-      "ward_name_en": "Muttom",
-      "ward_name_ml": "മുട്ടം"
+      "name_en": "Muttom",
+      "name_ml": "മുട്ടം"
     },
     {
-      "ward_id": "85ab0a19-e395-42b5-9eff-ae9e1531b087",
+      "id": "85ab0a19-e395-42b5-9eff-ae9e1531b087",
       "ward_no": "6",
-      "ward_name_en": "Kakkombu",
-      "ward_name_ml": "കാക്കൊമ്പ്"
+      "name_en": "Kakkombu",
+      "name_ml": "കാക്കൊമ്പ്"
     },
     {
-      "ward_id": "1ca6ea7e-73c4-4bd8-94c4-18994928803c",
+      "id": "1ca6ea7e-73c4-4bd8-94c4-18994928803c",
       "ward_no": "7",
-      "ward_name_en": "I.T.C",
-      "ward_name_ml": "ഐ.റ്റി.സി"
+      "name_en": "I.T.C",
+      "name_ml": "ഐ.റ്റി.സി"
     },
     {
-      "ward_id": "40e6611a-f026-41d1-9a7c-980e0abe39a7",
+      "id": "40e6611a-f026-41d1-9a7c-980e0abe39a7",
       "ward_no": "8",
-      "ward_name_en": "Ellumpuram",
-      "ward_name_ml": "എളളുംപുറം"
+      "name_en": "Ellumpuram",
+      "name_ml": "എളളുംപുറം"
     },
     {
-      "ward_id": "207e8fda-869e-4b46-8fe8-cb296f153b0e",
+      "id": "207e8fda-869e-4b46-8fe8-cb296f153b0e",
       "ward_no": "9",
-      "ward_name_en": "Thudanganadu",
-      "ward_name_ml": "തുടങ്ങനാട്"
+      "name_en": "Thudanganadu",
+      "name_ml": "തുടങ്ങനാട്"
     },
     {
-      "ward_id": "bbeb5264-e4ef-4156-b6fd-82b1f518cc69",
+      "id": "bbeb5264-e4ef-4156-b6fd-82b1f518cc69",
       "ward_no": "10",
-      "ward_name_en": "Pazhayamattom",
-      "ward_name_ml": "പഴയമറ്റം"
+      "name_en": "Pazhayamattom",
+      "name_ml": "പഴയമറ്റം"
     },
     {
-      "ward_id": "65993eb2-f2ea-453c-abfa-af81f6a9af8e",
+      "id": "65993eb2-f2ea-453c-abfa-af81f6a9af8e",
       "ward_no": "11",
-      "ward_name_en": "Kannyamala",
-      "ward_name_ml": "കന്യാമല"
+      "name_en": "Kannyamala",
+      "name_ml": "കന്യാമല"
     },
     {
-      "ward_id": "8c0d465e-6ff5-43cf-8d24-dbca539ffd23",
+      "id": "8c0d465e-6ff5-43cf-8d24-dbca539ffd23",
       "ward_no": "12",
-      "ward_name_en": "Thottumkara",
-      "ward_name_ml": "തോട്ടുുങ്കര"
+      "name_en": "Thottumkara",
+      "name_ml": "തോട്ടുുങ്കര"
     },
     {
-      "ward_id": "ebe32530-4a57-41c0-a2d1-d4ac93cadfc4",
+      "id": "ebe32530-4a57-41c0-a2d1-d4ac93cadfc4",
       "ward_no": "13",
-      "ward_name_en": "Muttom Govt. High School",
-      "ward_name_ml": "മുട്ടം ഗവ.ഹൈസ്കൂള്‍"
+      "name_en": "Muttom Govt. High School",
+      "name_ml": "മുട്ടം ഗവ.ഹൈസ്കൂള്‍"
     }
   ],
   "towns": [],

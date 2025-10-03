@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110203",
-  "local_body_name_en": "Purameri",
-  "local_body_name_ml": "പുറമേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "21",
-    "assembly_name_en": "Kuttiady",
-    "assembly_name_ml": "കുറ്റ്യാടി",
+  "id": "G110203",
+  "name_en": "Purameri",
+  "name_ml": "പുറമേരി",
+  "assembly_id": "21",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "21",
+    "name_en": "Kuttiady",
+    "name_ml": "കുറ്റ്യാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8a043719-be3a-4d8d-afff-4dd23428aa4e",
+      "id": "8a043719-be3a-4d8d-afff-4dd23428aa4e",
       "ward_no": "1",
-      "ward_name_en": "Highschool",
-      "ward_name_ml": "ഹൈസ്കൂള്‍"
+      "name_en": "Highschool",
+      "name_ml": "ഹൈസ്കൂള്‍"
     },
     {
-      "ward_id": "fdac3405-1f78-4627-bd5b-123d84b52919",
+      "id": "fdac3405-1f78-4627-bd5b-123d84b52919",
       "ward_no": "2",
-      "ward_name_en": "Purameri",
-      "ward_name_ml": "പുറമേരി"
+      "name_en": "Purameri",
+      "name_ml": "പുറമേരി"
     },
     {
-      "ward_id": "3c21a3ab-bf72-4dff-807e-20f4c9a31cdb",
+      "id": "3c21a3ab-bf72-4dff-807e-20f4c9a31cdb",
       "ward_no": "3",
-      "ward_name_en": "Purameri Theru",
-      "ward_name_ml": "പുറമേരി തെരു"
+      "name_en": "Purameri Theru",
+      "name_ml": "പുറമേരി തെരു"
     },
     {
-      "ward_id": "7ec9f417-d771-451e-a240-7ef51186e002",
+      "id": "7ec9f417-d771-451e-a240-7ef51186e002",
       "ward_no": "4",
-      "ward_name_en": "Vilathapuram",
-      "ward_name_ml": "വിലാതപുരം"
+      "name_en": "Vilathapuram",
+      "name_ml": "വിലാതപുരം"
     },
     {
-      "ward_id": "b7b7dfcd-c6c4-47a8-b0c2-9c83e35f7516",
+      "id": "b7b7dfcd-c6c4-47a8-b0c2-9c83e35f7516",
       "ward_no": "5",
-      "ward_name_en": "Elayidam",
-      "ward_name_ml": "എളയിടം"
+      "name_en": "Elayidam",
+      "name_ml": "എളയിടം"
     },
     {
-      "ward_id": "44f641de-f8c4-4a52-a425-987a46461df0",
+      "id": "44f641de-f8c4-4a52-a425-987a46461df0",
       "ward_no": "6",
-      "ward_name_en": "Vattapoyil",
-      "ward_name_ml": "വട്ടപ്പൊയില്‍"
+      "name_en": "Vattapoyil",
+      "name_ml": "വട്ടപ്പൊയില്‍"
     },
     {
-      "ward_id": "286dd467-e90d-40de-a9b6-c045291ce8c1",
+      "id": "286dd467-e90d-40de-a9b6-c045291ce8c1",
       "ward_no": "7",
-      "ward_name_en": "Nademmal",
-      "ward_name_ml": "നടേമ്മല്‍"
+      "name_en": "Nademmal",
+      "name_ml": "നടേമ്മല്‍"
     },
     {
-      "ward_id": "82026aee-766b-4ce2-84a8-c6893d4ae2b0",
+      "id": "82026aee-766b-4ce2-84a8-c6893d4ae2b0",
       "ward_no": "8",
-      "ward_name_en": "Nadakkumeethal",
-      "ward_name_ml": "നടക്കുമീത്തല്‍"
+      "name_en": "Nadakkumeethal",
+      "name_ml": "നടക്കുമീത്തല്‍"
     },
     {
-      "ward_id": "95da34b0-8858-45a1-b6ed-910c7a781fe4",
+      "id": "95da34b0-8858-45a1-b6ed-910c7a781fe4",
       "ward_no": "9",
-      "ward_name_en": "Aroor",
-      "ward_name_ml": "അരൂര്‍"
+      "name_en": "Aroor",
+      "name_ml": "അരൂര്‍"
     },
     {
-      "ward_id": "a0d62ff5-d7ed-44d1-8bde-ef7b011948a3",
+      "id": "a0d62ff5-d7ed-44d1-8bde-ef7b011948a3",
       "ward_no": "10",
-      "ward_name_en": "Kallumpuram",
-      "ward_name_ml": "കല്ലുപുരം"
+      "name_en": "Kallumpuram",
+      "name_ml": "കല്ലുപുരം"
     },
     {
-      "ward_id": "8090d9c1-98ac-46d3-9ed7-a6303b4882b5",
+      "id": "8090d9c1-98ac-46d3-9ed7-a6303b4882b5",
       "ward_no": "11",
-      "ward_name_en": "Pirakin Kad",
-      "ward_name_ml": "പിരകിന്‍കാട്"
+      "name_en": "Pirakin Kad",
+      "name_ml": "പിരകിന്‍കാട്"
     },
     {
-      "ward_id": "e634ccd5-e3da-4740-9ce2-74e0115681f2",
+      "id": "e634ccd5-e3da-4740-9ce2-74e0115681f2",
       "ward_no": "12",
-      "ward_name_en": "Perumundasseri",
-      "ward_name_ml": "പെരുമുണ്ടശ്ശേരി"
+      "name_en": "Perumundasseri",
+      "name_ml": "പെരുമുണ്ടശ്ശേരി"
     },
     {
-      "ward_id": "b1e93a23-383f-4cda-8242-bd4a7d9a7590",
+      "id": "b1e93a23-383f-4cda-8242-bd4a7d9a7590",
       "ward_no": "13",
-      "ward_name_en": "Kuningad",
-      "ward_name_ml": "കുനിങ്ങാട്"
+      "name_en": "Kuningad",
+      "name_ml": "കുനിങ്ങാട്"
     },
     {
-      "ward_id": "0ee06ebc-015b-45d4-8e56-92cee89811b0",
+      "id": "0ee06ebc-015b-45d4-8e56-92cee89811b0",
       "ward_no": "14",
-      "ward_name_en": "Kunhallur",
-      "ward_name_ml": "കുഞ്ഞല്ലൂര്‍"
+      "name_en": "Kunhallur",
+      "name_ml": "കുഞ്ഞല്ലൂര്‍"
     },
     {
-      "ward_id": "877269e2-0683-4979-803c-8f8c58563f51",
+      "id": "877269e2-0683-4979-803c-8f8c58563f51",
       "ward_no": "15",
-      "ward_name_en": "Aramvally",
-      "ward_name_ml": "ആറാംവെള്ളി"
+      "name_en": "Aramvally",
+      "name_ml": "ആറാംവെള്ളി"
     },
     {
-      "ward_id": "f56f9850-0d6c-4601-b989-5af1b4ceca61",
+      "id": "f56f9850-0d6c-4601-b989-5af1b4ceca61",
       "ward_no": "16",
-      "ward_name_en": "Muthuvadathur",
-      "ward_name_ml": "മുതുവടത്തൂര്‍"
+      "name_en": "Muthuvadathur",
+      "name_ml": "മുതുവടത്തൂര്‍"
     },
     {
-      "ward_id": "6ea07c09-b241-42a5-b887-4f26f4306a76",
+      "id": "6ea07c09-b241-42a5-b887-4f26f4306a76",
       "ward_no": "17",
-      "ward_name_en": "Kovilakam",
-      "ward_name_ml": "കോവിലകം"
+      "name_en": "Kovilakam",
+      "name_ml": "കോവിലകം"
     }
   ],
   "towns": [],

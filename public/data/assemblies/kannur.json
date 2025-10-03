@@ -1,20 +1,27 @@
 {
-  "assembly_id": "11",
-  "assembly_name_en": "Kannur",
-  "assembly_name_ml": "കണ്ണൂര്‍",
-  "category": "Normal",
+  "id": "11",
+  "name_en": "Kannur",
+  "name_ml": "കണ്ണൂര്‍",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130606",
-      "local_body_name_en": "Munderi",
-      "local_body_name_ml": "മുണ്ടേരി",
-      "category": "Normal"
+      "id": "G130606",
+      "name_en": "Munderi",
+      "name_ml": "മുണ്ടേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

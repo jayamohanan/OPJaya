@@ -1,50 +1,67 @@
 {
-  "assembly_id": "138",
-  "assembly_name_en": "Kattakkada",
-  "assembly_name_ml": "കാട്ടാക്കട",
-  "category": "Good",
+  "id": "138",
+  "name_en": "Kattakkada",
+  "name_ml": "കാട്ടാക്കട",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Good"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010508",
-      "local_body_name_en": "Kattakada",
-      "local_body_name_ml": "കാട്ടാക്കട",
-      "category": "Good"
+      "id": "G010508",
+      "name_en": "Kattakada",
+      "name_ml": "കാട്ടാക്കട",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010804",
-      "local_body_name_en": "Malayinkeezh",
-      "local_body_name_ml": "മലയിന്‍കീഴ്",
-      "category": "Good"
+      "id": "G010804",
+      "name_en": "Malayinkeezh",
+      "name_ml": "മലയിന്‍കീഴ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010803",
-      "local_body_name_en": "Maranalloor",
-      "local_body_name_ml": "മാറനല്ലൂര്‍",
-      "category": "Good"
+      "id": "G010803",
+      "name_en": "Maranalloor",
+      "name_ml": "മാറനല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010802",
-      "local_body_name_en": "Pallichal",
-      "local_body_name_ml": "പള്ളിച്ചല്‍",
-      "category": "Good"
+      "id": "G010802",
+      "name_en": "Pallichal",
+      "name_ml": "പള്ളിച്ചല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010805",
-      "local_body_name_en": "Vilappil",
-      "local_body_name_ml": "വിളപ്പില്‍",
-      "category": "Good"
+      "id": "G010805",
+      "name_en": "Vilappil",
+      "name_ml": "വിളപ്പില്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010806",
-      "local_body_name_en": "Vilavoorkal",
-      "local_body_name_ml": "വിളവൂര്‍ക്കല്‍",
-      "category": "Good"
+      "id": "G010806",
+      "name_en": "Vilavoorkal",
+      "name_ml": "വിളവൂര്‍ക്കല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

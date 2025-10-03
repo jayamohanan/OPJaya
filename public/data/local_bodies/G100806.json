@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G100806",
-  "local_body_name_en": "Puzhakkattiri",
-  "local_body_name_ml": "പുഴക്കാട്ടിരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "39",
-    "assembly_name_en": "Mankada",
-    "assembly_name_ml": "മങ്കട",
+  "id": "G100806",
+  "name_en": "Puzhakkattiri",
+  "name_ml": "പുഴക്കാട്ടിരി",
+  "assembly_id": "39",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "39",
+    "name_en": "Mankada",
+    "name_ml": "മങ്കട",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "51982753-ff40-40fb-9e87-cd4a1443413c",
+      "id": "51982753-ff40-40fb-9e87-cd4a1443413c",
       "ward_no": "1",
-      "ward_name_en": "Ramapuram North",
-      "ward_name_ml": "രാമപുരം വടക്ക്"
+      "name_en": "Ramapuram North",
+      "name_ml": "രാമപുരം വടക്ക്"
     },
     {
-      "ward_id": "68991d44-1467-4b74-96b8-81e6512dc65d",
+      "id": "68991d44-1467-4b74-96b8-81e6512dc65d",
       "ward_no": "2",
-      "ward_name_en": "Ramapuram",
-      "ward_name_ml": "രാമപുരം"
+      "name_en": "Ramapuram",
+      "name_ml": "രാമപുരം"
     },
     {
-      "ward_id": "7456a43a-c4cc-4e08-896b-d3a611d8ace1",
+      "id": "7456a43a-c4cc-4e08-896b-d3a611d8ace1",
       "ward_no": "3",
-      "ward_name_en": "Panangagara 38",
-      "ward_name_ml": "പനങ്ങാങ്ങര 38"
+      "name_en": "Panangagara 38",
+      "name_ml": "പനങ്ങാങ്ങര 38"
     },
     {
-      "ward_id": "6a91b620-c3ea-4005-ae11-eb62c66f5556",
+      "id": "6a91b620-c3ea-4005-ae11-eb62c66f5556",
       "ward_no": "4",
-      "ward_name_en": "Panangagara",
-      "ward_name_ml": "പനങ്ങാങ്ങര"
+      "name_en": "Panangagara",
+      "name_ml": "പനങ്ങാങ്ങര"
     },
     {
-      "ward_id": "421c9e1e-e48a-4dca-9067-52397d368fd6",
+      "id": "421c9e1e-e48a-4dca-9067-52397d368fd6",
       "ward_no": "5",
-      "ward_name_en": "Ramapuram Udumbanasseri",
-      "ward_name_ml": "രാമപുരം ഉടുമ്പനാശ്ശേരി"
+      "name_en": "Ramapuram Udumbanasseri",
+      "name_ml": "രാമപുരം ഉടുമ്പനാശ്ശേരി"
     },
     {
-      "ward_id": "d92602d2-05cc-4069-89eb-e16e92f55f4c",
+      "id": "d92602d2-05cc-4069-89eb-e16e92f55f4c",
       "ward_no": "6",
-      "ward_name_en": "Pathiramanna West",
-      "ward_name_ml": "പാതിരമണ്ണ പടിഞ്ഞാറ്"
+      "name_en": "Pathiramanna West",
+      "name_ml": "പാതിരമണ്ണ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "e50dd763-3409-41aa-b925-1bc573ba49a5",
+      "id": "e50dd763-3409-41aa-b925-1bc573ba49a5",
       "ward_no": "7",
-      "ward_name_en": "Pathiramanna East",
-      "ward_name_ml": "പാതിരമണ്ണ കിഴക്ക്"
+      "name_en": "Pathiramanna East",
+      "name_ml": "പാതിരമണ്ണ കിഴക്ക്"
     },
     {
-      "ward_id": "7d1f1499-c6ca-41ae-965b-761dd2d15abb",
+      "id": "7d1f1499-c6ca-41ae-965b-761dd2d15abb",
       "ward_no": "8",
-      "ward_name_en": "Mannumkulam",
-      "ward_name_ml": "മണ്ണുംക്കുളം"
+      "name_en": "Mannumkulam",
+      "name_ml": "മണ്ണുംക്കുളം"
     },
     {
-      "ward_id": "543c5d79-deae-423d-bc0f-11433ae887f6",
+      "id": "543c5d79-deae-423d-bc0f-11433ae887f6",
       "ward_no": "9",
-      "ward_name_en": "Kottuvadu West Palliyaal",
-      "ward_name_ml": "കോട്ടുവാട് പടിഞ്ഞാറേ പളളിയാല്‍"
+      "name_en": "Kottuvadu West Palliyaal",
+      "name_ml": "കോട്ടുവാട് പടിഞ്ഞാറേ പളളിയാല്‍"
     },
     {
-      "ward_id": "a6432854-80a7-4035-bb50-69bc3aed0a26",
+      "id": "a6432854-80a7-4035-bb50-69bc3aed0a26",
       "ward_no": "10",
-      "ward_name_en": "Puzhakkattiri",
-      "ward_name_ml": "പുഴക്കാട്ടിരി"
+      "name_en": "Puzhakkattiri",
+      "name_ml": "പുഴക്കാട്ടിരി"
     },
     {
-      "ward_id": "bf9fd5f1-0a7a-41f0-bfab-27ebc3a45fab",
+      "id": "bf9fd5f1-0a7a-41f0-bfab-27ebc3a45fab",
       "ward_no": "11",
-      "ward_name_en": "Kadungapuram East",
-      "ward_name_ml": "കടുങ്ങപുരം"
+      "name_en": "Kadungapuram East",
+      "name_ml": "കടുങ്ങപുരം"
     },
     {
-      "ward_id": "67d7fc92-f94a-4887-830b-5cc5b5a47e26",
+      "id": "67d7fc92-f94a-4887-830b-5cc5b5a47e26",
       "ward_no": "12",
-      "ward_name_en": "Kadungapuram West",
-      "ward_name_ml": "കടുങ്ങപുരം പടിഞ്ഞാറ്"
+      "name_en": "Kadungapuram West",
+      "name_ml": "കടുങ്ങപുരം പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "6bf67c17-9d61-4a1c-be3b-5a7677409b80",
+      "id": "6bf67c17-9d61-4a1c-be3b-5a7677409b80",
       "ward_no": "13",
-      "ward_name_en": "Pottippara",
-      "ward_name_ml": "പൊട്ടിപ്പാറ"
+      "name_en": "Pottippara",
+      "name_ml": "പൊട്ടിപ്പാറ"
     },
     {
-      "ward_id": "af64b6a8-a8b4-4695-ba82-35f592e3e3c8",
+      "id": "af64b6a8-a8b4-4695-ba82-35f592e3e3c8",
       "ward_no": "14",
-      "ward_name_en": "Paravakkal",
-      "ward_name_ml": "പരവക്കല്‍"
+      "name_en": "Paravakkal",
+      "name_ml": "പരവക്കല്‍"
     },
     {
-      "ward_id": "420df173-6e08-409c-b3ef-3836c80ff832",
+      "id": "420df173-6e08-409c-b3ef-3836c80ff832",
       "ward_no": "15",
-      "ward_name_en": "Padapparambu",
-      "ward_name_ml": "പടപ്പറമ്പ്"
+      "name_en": "Padapparambu",
+      "name_ml": "പടപ്പറമ്പ്"
     },
     {
-      "ward_id": "90a933e8-f710-474a-95e9-4a0d613efc7d",
+      "id": "90a933e8-f710-474a-95e9-4a0d613efc7d",
       "ward_no": "16",
-      "ward_name_en": "Kattilasseri",
-      "ward_name_ml": "കട്ടുിലശ്ശേരി"
+      "name_en": "Kattilasseri",
+      "name_ml": "കട്ടുിലശ്ശേരി"
     },
     {
-      "ward_id": "d0dab654-36e9-44ad-b9e1-95b7d03d9eb4",
+      "id": "d0dab654-36e9-44ad-b9e1-95b7d03d9eb4",
       "ward_no": "17",
-      "ward_name_en": "Ramapuram South",
-      "ward_name_ml": "രാമപുരം തെക്ക്"
+      "name_en": "Ramapuram South",
+      "name_ml": "രാമപുരം തെക്ക്"
     }
   ],
   "towns": [],

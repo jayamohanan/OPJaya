@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G140503",
-  "local_body_name_en": "Panathady",
-  "local_body_name_ml": "പനത്തടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G140503",
+  "name_en": "Panathady",
+  "name_ml": "പനത്തടി",
+  "assembly_id": "4",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "4",
-    "assembly_name_en": "Kanhangad",
-    "assembly_name_ml": "കാഞ്ഞങ്ങാട്",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Kanhangad",
+    "name_ml": "കാഞ്ഞങ്ങാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1fe81c76-3bf1-431d-a916-96df66648b7c",
+      "id": "1fe81c76-3bf1-431d-a916-96df66648b7c",
       "ward_no": "1",
-      "ward_name_en": "Manadukkam",
-      "ward_name_ml": "മാനടുക്കം"
+      "name_en": "Manadukkam",
+      "name_ml": "മാനടുക്കം"
     },
     {
-      "ward_id": "3f4dcfa5-81c8-4095-a5f4-662d2313d9b8",
+      "id": "3f4dcfa5-81c8-4095-a5f4-662d2313d9b8",
       "ward_no": "2",
-      "ward_name_en": "Pulikkadavu",
-      "ward_name_ml": "പുലിക്കടവ്"
+      "name_en": "Pulikkadavu",
+      "name_ml": "പുലിക്കടവ്"
     },
     {
-      "ward_id": "f8f733f7-263d-4874-bbf9-1c2757dd0341",
+      "id": "f8f733f7-263d-4874-bbf9-1c2757dd0341",
       "ward_no": "3",
-      "ward_name_en": "Chammundikkunnu",
-      "ward_name_ml": "ചാമുണ്ഡിക്കുന്ന്"
+      "name_en": "Chammundikkunnu",
+      "name_ml": "ചാമുണ്ഡിക്കുന്ന്"
     },
     {
-      "ward_id": "fcbceff8-75ab-4d2d-b982-a4b1273a2ffa",
+      "id": "fcbceff8-75ab-4d2d-b982-a4b1273a2ffa",
       "ward_no": "4",
-      "ward_name_en": "Ottamala",
-      "ward_name_ml": "ഓട്ടമല"
+      "name_en": "Ottamala",
+      "name_ml": "ഓട്ടമല"
     },
     {
-      "ward_id": "c9e66ff7-f606-4661-8492-f26a4de17f78",
+      "id": "c9e66ff7-f606-4661-8492-f26a4de17f78",
       "ward_no": "5",
-      "ward_name_en": "Pattuvam",
-      "ward_name_ml": "പട്ടുവം"
+      "name_en": "Pattuvam",
+      "name_ml": "പട്ടുവം"
     },
     {
-      "ward_id": "29c08750-5fd9-4212-b625-38ffe50d9800",
+      "id": "29c08750-5fd9-4212-b625-38ffe50d9800",
       "ward_no": "6",
-      "ward_name_en": "Kallapalli",
-      "ward_name_ml": "കല്ലപ്പള്ളി"
+      "name_en": "Kallapalli",
+      "name_ml": "കല്ലപ്പള്ളി"
     },
     {
-      "ward_id": "97f5b3c0-8df0-40d5-be38-40b026d619a1",
+      "id": "97f5b3c0-8df0-40d5-be38-40b026d619a1",
       "ward_no": "7",
-      "ward_name_en": "Nellikkunnu",
-      "ward_name_ml": "നെല്ലിക്കുന്ന്"
+      "name_en": "Nellikkunnu",
+      "name_ml": "നെല്ലിക്കുന്ന്"
     },
     {
-      "ward_id": "42b5b307-d013-491c-8580-f354ac7dad57",
+      "id": "42b5b307-d013-491c-8580-f354ac7dad57",
       "ward_no": "8",
-      "ward_name_en": "Ranipuram",
-      "ward_name_ml": "റാണിപുരം"
+      "name_en": "Ranipuram",
+      "name_ml": "റാണിപുരം"
     },
     {
-      "ward_id": "b29efa72-834d-4e29-9fda-277650af6bb7",
+      "id": "b29efa72-834d-4e29-9fda-277650af6bb7",
       "ward_no": "9",
-      "ward_name_en": "Panathur",
-      "ward_name_ml": "പാണത്തൂര്‍"
+      "name_en": "Panathur",
+      "name_ml": "പാണത്തൂര്‍"
     },
     {
-      "ward_id": "d9b29fad-7830-4778-8a21-36eddaaa8803",
+      "id": "d9b29fad-7830-4778-8a21-36eddaaa8803",
       "ward_no": "10",
-      "ward_name_en": "Ariprode",
-      "ward_name_ml": "അരിപ്രാഡ്"
+      "name_en": "Ariprode",
+      "name_ml": "അരിപ്രാഡ്"
     },
     {
-      "ward_id": "793c14a2-a695-4eca-86db-443778037afd",
+      "id": "793c14a2-a695-4eca-86db-443778037afd",
       "ward_no": "11",
-      "ward_name_en": "Kurunchi",
-      "ward_name_ml": "കുറുഞ്ഞി"
+      "name_en": "Kurunchi",
+      "name_ml": "കുറുഞ്ഞി"
     },
     {
-      "ward_id": "9ea94872-7e26-4c35-8646-d7e5fb954522",
+      "id": "9ea94872-7e26-4c35-8646-d7e5fb954522",
       "ward_no": "12",
-      "ward_name_en": "Panathady",
-      "ward_name_ml": "പനത്തടി"
+      "name_en": "Panathady",
+      "name_ml": "പനത്തടി"
     },
     {
-      "ward_id": "8e3640d3-bcc7-4195-ace6-ed35a583db5b",
+      "id": "8e3640d3-bcc7-4195-ace6-ed35a583db5b",
       "ward_no": "13",
-      "ward_name_en": "Cherupanathady",
-      "ward_name_ml": "ചെറുപനത്തടി"
+      "name_en": "Cherupanathady",
+      "name_ml": "ചെറുപനത്തടി"
     },
     {
-      "ward_id": "7f8f6a39-8bd9-4e75-b994-a5a7bb7da7e7",
+      "id": "7f8f6a39-8bd9-4e75-b994-a5a7bb7da7e7",
       "ward_no": "14",
-      "ward_name_en": "Prantherkavu",
-      "ward_name_ml": "പ്രാന്തര്‍ക്കാവ്"
+      "name_en": "Prantherkavu",
+      "name_ml": "പ്രാന്തര്‍ക്കാവ്"
     },
     {
-      "ward_id": "5537b9ce-3df4-4413-af65-ee08d07607da",
+      "id": "5537b9ce-3df4-4413-af65-ee08d07607da",
       "ward_no": "15",
-      "ward_name_en": "Erinchilamkodu",
-      "ward_name_ml": "എരിഞ്ഞിലംകോട്"
+      "name_en": "Erinchilamkodu",
+      "name_ml": "എരിഞ്ഞിലംകോട്"
     }
   ],
   "towns": [],

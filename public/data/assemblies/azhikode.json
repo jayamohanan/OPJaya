@@ -1,44 +1,59 @@
 {
-  "assembly_id": "10",
-  "assembly_name_en": "Azhikode",
-  "assembly_name_ml": "അഴീക്കോട്",
-  "category": "Normal",
+  "id": "10",
+  "name_en": "Azhikode",
+  "name_ml": "അഴീക്കോട്",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130505",
-      "local_body_name_en": "Azhikode",
-      "local_body_name_ml": "അഴീക്കോട്",
-      "category": "Normal"
+      "id": "G130505",
+      "name_en": "Azhikode",
+      "name_ml": "അഴീക്കോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130501",
-      "local_body_name_en": "Chirakkal",
-      "local_body_name_ml": "ചിറക്കല്‍",
-      "category": "Normal"
+      "id": "G130501",
+      "name_en": "Chirakkal",
+      "name_ml": "ചിറക്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130208",
-      "local_body_name_en": "Narath",
-      "local_body_name_ml": "നാറാത്ത്",
-      "category": "Perfect"
+      "id": "G130208",
+      "name_en": "Narath",
+      "name_ml": "നാറാത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130506",
-      "local_body_name_en": "Pappinisseri",
-      "local_body_name_ml": "പാപ്പിനിശ്ശേരി",
-      "category": "Good"
+      "id": "G130506",
+      "name_en": "Pappinisseri",
+      "name_ml": "പാപ്പിനിശ്ശേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G130504",
-      "local_body_name_en": "Valapattanam",
-      "local_body_name_ml": "വളപട്ടണം",
-      "category": "Perfect"
+      "id": "G130504",
+      "name_en": "Valapattanam",
+      "name_ml": "വളപട്ടണം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

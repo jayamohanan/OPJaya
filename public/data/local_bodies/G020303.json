@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G020303",
-  "local_body_name_en": "Melila",
-  "local_body_name_ml": "മേലില",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G020303",
+  "name_en": "Melila",
+  "name_ml": "മേലില",
+  "assembly_id": "120",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "120",
-    "assembly_name_en": "Pathanapuram",
-    "assembly_name_ml": "പത്തനാപുരം",
-    "category": "Normal"
+    "id": "120",
+    "name_en": "Pathanapuram",
+    "name_ml": "പത്തനാപുരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "422eea8b-ad5d-4c40-9e3d-9efce459af5e",
+      "id": "422eea8b-ad5d-4c40-9e3d-9efce459af5e",
       "ward_no": "1",
-      "ward_name_en": "Irungoor",
-      "ward_name_ml": "ഇരുങ്ങൂര്‍"
+      "name_en": "Irungoor",
+      "name_ml": "ഇരുങ്ങൂര്‍"
     },
     {
-      "ward_id": "c0d28ced-b33a-49b5-ad0d-5fb861de6f4a",
+      "id": "c0d28ced-b33a-49b5-ad0d-5fb861de6f4a",
       "ward_no": "2",
-      "ward_name_en": "Chengamanadu North",
-      "ward_name_ml": "ചെങ്ങമനാട് നോര്‍ത്ത്"
+      "name_en": "Chengamanadu North",
+      "name_ml": "ചെങ്ങമനാട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "225354c8-8acc-4c48-845f-01cfc5502fdc",
+      "id": "225354c8-8acc-4c48-845f-01cfc5502fdc",
       "ward_no": "3",
-      "ward_name_en": "Chethady",
-      "ward_name_ml": "ചേത്തടി"
+      "name_en": "Chethady",
+      "name_ml": "ചേത്തടി"
     },
     {
-      "ward_id": "e3270eac-8dfb-4f33-88f8-7ff36c0bbd52",
+      "id": "e3270eac-8dfb-4f33-88f8-7ff36c0bbd52",
       "ward_no": "4",
-      "ward_name_en": "Myladumpara",
-      "ward_name_ml": "മൈലാടുംപാറ"
+      "name_en": "Myladumpara",
+      "name_ml": "മൈലാടുംപാറ"
     },
     {
-      "ward_id": "82aa8d23-1f20-4e51-b0f0-20ed8e15b3f8",
+      "id": "82aa8d23-1f20-4e51-b0f0-20ed8e15b3f8",
       "ward_no": "5",
-      "ward_name_en": "Melila West",
-      "ward_name_ml": "മേലില പടിഞ്ഞാറ്"
+      "name_en": "Melila West",
+      "name_ml": "മേലില പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "da542040-2444-4e9c-bd1d-f55b8fc3f872",
+      "id": "da542040-2444-4e9c-bd1d-f55b8fc3f872",
       "ward_no": "6",
-      "ward_name_en": "Melila North",
-      "ward_name_ml": "മേലില നോര്‍ത്ത്"
+      "name_en": "Melila North",
+      "name_ml": "മേലില നോര്‍ത്ത്"
     },
     {
-      "ward_id": "23e3beaf-1d0e-44c7-927e-c5cbd0f87142",
+      "id": "23e3beaf-1d0e-44c7-927e-c5cbd0f87142",
       "ward_no": "7",
-      "ward_name_en": "Melila East",
-      "ward_name_ml": "മേലില കിഴക്ക്"
+      "name_en": "Melila East",
+      "name_ml": "മേലില കിഴക്ക്"
     },
     {
-      "ward_id": "63fa789d-d696-4ec7-b943-c29843ec142c",
+      "id": "63fa789d-d696-4ec7-b943-c29843ec142c",
       "ward_no": "8",
-      "ward_name_en": "Melila South",
-      "ward_name_ml": "മേലില തെക്ക്"
+      "name_en": "Melila South",
+      "name_ml": "മേലില തെക്ക്"
     },
     {
-      "ward_id": "abd13899-9ee8-42d3-aa79-7d8f8ba56cbe",
+      "id": "abd13899-9ee8-42d3-aa79-7d8f8ba56cbe",
       "ward_no": "9",
-      "ward_name_en": "Villoor",
-      "ward_name_ml": "വില്ലൂര്‍"
+      "name_en": "Villoor",
+      "name_ml": "വില്ലൂര്‍"
     },
     {
-      "ward_id": "83ab0222-ccb4-4917-ba00-5f5104e8faaf",
+      "id": "83ab0222-ccb4-4917-ba00-5f5104e8faaf",
       "ward_no": "10",
-      "ward_name_en": "Nadukkunnu East",
-      "ward_name_ml": "നടുക്കുന്ന് കിഴക്ക്"
+      "name_en": "Nadukkunnu East",
+      "name_ml": "നടുക്കുന്ന് കിഴക്ക്"
     },
     {
-      "ward_id": "ce4029e1-457e-4a0c-afec-9257b7c637a1",
+      "id": "ce4029e1-457e-4a0c-afec-9257b7c637a1",
       "ward_no": "11",
-      "ward_name_en": "Chengamanadu South",
-      "ward_name_ml": "ചെങ്ങമനാട് തെക്ക്"
+      "name_en": "Chengamanadu South",
+      "name_ml": "ചെങ്ങമനാട് തെക്ക്"
     },
     {
-      "ward_id": "767fbe1e-ee8c-44ea-bbf1-6099b0c4b38a",
+      "id": "767fbe1e-ee8c-44ea-bbf1-6099b0c4b38a",
       "ward_no": "12",
-      "ward_name_en": "Nadukkunnu West",
-      "ward_name_ml": "നടുക്കുന്ന് പടിഞ്ഞാറ്"
+      "name_en": "Nadukkunnu West",
+      "name_ml": "നടുക്കുന്ന് പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "13ebc3c1-308c-4528-9213-cf93228bb329",
+      "id": "13ebc3c1-308c-4528-9213-cf93228bb329",
       "ward_no": "13",
-      "ward_name_en": "Pattamala",
-      "ward_name_ml": "പട്ടമല"
+      "name_en": "Pattamala",
+      "name_ml": "പട്ടമല"
     },
     {
-      "ward_id": "ffb3a420-1fa4-4679-b7f5-d799f115eb1c",
+      "id": "ffb3a420-1fa4-4679-b7f5-d799f115eb1c",
       "ward_no": "14",
-      "ward_name_en": "Iyppalloor",
-      "ward_name_ml": "ഐപ്പള്ളൂര്‍"
+      "name_en": "Iyppalloor",
+      "name_ml": "ഐപ്പള്ളൂര്‍"
     },
     {
-      "ward_id": "439b1445-748a-48a6-9be4-4ffd72de48bc",
+      "id": "439b1445-748a-48a6-9be4-4ffd72de48bc",
       "ward_no": "15",
-      "ward_name_en": "Kizhakketheruvu",
-      "ward_name_ml": "കിഴക്കേത്തെരുവ്"
+      "name_en": "Kizhakketheruvu",
+      "name_ml": "കിഴക്കേത്തെരുവ്"
     }
   ],
   "towns": [],

@@ -1,68 +1,89 @@
 {
-  "assembly_id": "9",
-  "assembly_name_en": "Irikkur",
-  "assembly_name_ml": "ഇരിക്കൂര്‍",
-  "category": "Normal",
+  "id": "9",
+  "name_en": "Irikkur",
+  "name_ml": "ഇരിക്കൂര്‍",
+  "district_id": "13",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "district_category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G130302",
-      "local_body_name_en": "Chengalayi",
-      "local_body_name_ml": "ചെങ്ങളായി",
-      "category": "Perfect"
+      "id": "G130302",
+      "name_en": "Chengalayi",
+      "name_ml": "ചെങ്ങളായി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130401",
-      "local_body_name_en": "Eruvessy",
-      "local_body_name_ml": "എരുവേശ്ശി",
-      "category": "Normal"
+      "id": "G130401",
+      "name_en": "Eruvessy",
+      "name_ml": "എരുവേശ്ശി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130402",
-      "local_body_name_en": "Irikkur",
-      "local_body_name_ml": "ഇരിക്കൂര്‍",
-      "category": "Normal"
+      "id": "G130402",
+      "name_en": "Irikkur",
+      "name_ml": "ഇരിക്കൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130306",
-      "local_body_name_en": "Naduvil",
-      "local_body_name_ml": "നടുവില്‍",
-      "category": "Normal"
+      "id": "G130306",
+      "name_en": "Naduvil",
+      "name_ml": "നടുവില്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G130404",
-      "local_body_name_en": "Payyavoor",
-      "local_body_name_ml": "പയ്യാവൂര്‍",
-      "category": "Normal"
+      "id": "G130404",
+      "name_en": "Payyavoor",
+      "name_ml": "പയ്യാവൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M130600",
-      "local_body_name_en": "Sreekandapuram",
-      "local_body_name_ml": "ശ്രീകണ്ഠാപുരം",
-      "category": ""
+      "id": "M130600",
+      "name_en": "Sreekandapuram",
+      "name_ml": "ശ്രീകണ്ഠാപുരം",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G130307",
-      "local_body_name_en": "Udayagiri",
-      "local_body_name_ml": "ഉദയഗിരി",
-      "category": "Perfect"
+      "id": "G130307",
+      "name_en": "Udayagiri",
+      "name_ml": "ഉദയഗിരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130409",
-      "local_body_name_en": "Ulikkal",
-      "local_body_name_ml": "ഉളിക്കല്‍",
-      "category": "Perfect"
+      "id": "G130409",
+      "name_en": "Ulikkal",
+      "name_ml": "ഉളിക്കല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G130308",
-      "local_body_name_en": "Alakode",
-      "local_body_name_ml": "ആലക്കോട്",
-      "category": "Normal"
+      "id": "G130308",
+      "name_en": "Alakode",
+      "name_ml": "ആലക്കോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

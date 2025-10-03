@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G140204",
-  "local_body_name_en": "Karadka",
-  "local_body_name_ml": "കാറഡുക്ക",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G140204",
+  "name_en": "Karadka",
+  "name_ml": "കാറഡുക്ക",
+  "assembly_id": "2",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "2",
-    "assembly_name_en": "Kasaragod",
-    "assembly_name_ml": "കാസര്‍കോഡ്",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍കോഡ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f3af5e57-77d5-4e10-bc4f-4d8d400524f3",
+      "id": "f3af5e57-77d5-4e10-bc4f-4d8d400524f3",
       "ward_no": "1",
-      "ward_name_en": "Paniya",
-      "ward_name_ml": "പണിയ"
+      "name_en": "Paniya",
+      "name_ml": "പണിയ"
     },
     {
-      "ward_id": "9d03357f-b2a3-46df-a4a3-151f75d487b3",
+      "id": "9d03357f-b2a3-46df-a4a3-151f75d487b3",
       "ward_no": "2",
-      "ward_name_en": "Mundol",
-      "ward_name_ml": "മുണ്ടോൾ"
+      "name_en": "Mundol",
+      "name_ml": "മുണ്ടോൾ"
     },
     {
-      "ward_id": "51c74748-fe42-42b6-9549-017513e26a10",
+      "id": "51c74748-fe42-42b6-9549-017513e26a10",
       "ward_no": "3",
-      "ward_name_en": "Mulleria",
-      "ward_name_ml": "മുള്ളെരിയ"
+      "name_en": "Mulleria",
+      "name_ml": "മുള്ളെരിയ"
     },
     {
-      "ward_id": "7dcfd7e6-b6e2-4cb1-8906-8ec723481952",
+      "id": "7dcfd7e6-b6e2-4cb1-8906-8ec723481952",
       "ward_no": "4",
-      "ward_name_en": "Alanthadka",
-      "ward_name_ml": "ആലന്തടുക്ക"
+      "name_en": "Alanthadka",
+      "name_ml": "ആലന്തടുക്ക"
     },
     {
-      "ward_id": "f3711576-959f-4bf7-8f4a-22ab02adbe71",
+      "id": "f3711576-959f-4bf7-8f4a-22ab02adbe71",
       "ward_no": "5",
-      "ward_name_en": "Muchilot",
-      "ward_name_ml": "മുച്ചിലോട്ട്"
+      "name_en": "Muchilot",
+      "name_ml": "മുച്ചിലോട്ട്"
     },
     {
-      "ward_id": "ce57a321-c0d3-4b49-af9f-4fdd77b2ef70",
+      "id": "ce57a321-c0d3-4b49-af9f-4fdd77b2ef70",
       "ward_no": "6",
-      "ward_name_en": "Mallavara",
-      "ward_name_ml": "മല്ലാവര"
+      "name_en": "Mallavara",
+      "name_ml": "മല്ലാവര"
     },
     {
-      "ward_id": "cdec5ec0-fbd6-444f-a6c8-86a6acc8f338",
+      "id": "cdec5ec0-fbd6-444f-a6c8-86a6acc8f338",
       "ward_no": "7",
-      "ward_name_en": "Minchipadavu",
-      "ward_name_ml": "മിഞ്ചിപദവു"
+      "name_en": "Minchipadavu",
+      "name_ml": "മിഞ്ചിപദവു"
     },
     {
-      "ward_id": "7125cee5-4775-4d9f-ae91-37efbb608046",
+      "id": "7125cee5-4775-4d9f-ae91-37efbb608046",
       "ward_no": "8",
-      "ward_name_en": "Kuntar",
-      "ward_name_ml": "കുണ്ടാർ"
+      "name_en": "Kuntar",
+      "name_ml": "കുണ്ടാർ"
     },
     {
-      "ward_id": "70e65e3c-c074-47db-96d2-974199a3490d",
+      "id": "70e65e3c-c074-47db-96d2-974199a3490d",
       "ward_no": "9",
-      "ward_name_en": "Manhampara",
-      "ward_name_ml": "മഞ്ഞംപാറ"
+      "name_en": "Manhampara",
+      "name_ml": "മഞ്ഞംപാറ"
     },
     {
-      "ward_id": "b075ce3d-f975-4c37-8c5c-851322f1838c",
+      "id": "b075ce3d-f975-4c37-8c5c-851322f1838c",
       "ward_no": "10",
-      "ward_name_en": "Adhur",
-      "ward_name_ml": "ആദൂർ"
+      "name_en": "Adhur",
+      "name_ml": "ആദൂർ"
     },
     {
-      "ward_id": "73c8810c-26d8-4120-8fd5-746a46c6299d",
+      "id": "73c8810c-26d8-4120-8fd5-746a46c6299d",
       "ward_no": "11",
-      "ward_name_en": "Balakka",
-      "ward_name_ml": "ബളക്ക"
+      "name_en": "Balakka",
+      "name_ml": "ബളക്ക"
     },
     {
-      "ward_id": "5a11ca50-2f8d-4359-8bf9-3059173e74b4",
+      "id": "5a11ca50-2f8d-4359-8bf9-3059173e74b4",
       "ward_no": "12",
-      "ward_name_en": "Moodamkulam",
-      "ward_name_ml": "മൂടാംകുളം"
+      "name_en": "Moodamkulam",
+      "name_ml": "മൂടാംകുളം"
     },
     {
-      "ward_id": "e288e3fb-dc47-4fc7-8068-2f4cb4b2ef0a",
+      "id": "e288e3fb-dc47-4fc7-8068-2f4cb4b2ef0a",
       "ward_no": "13",
-      "ward_name_en": "Kottamkuzhy",
-      "ward_name_ml": "കൊട്ടംകുഴി"
+      "name_en": "Kottamkuzhy",
+      "name_ml": "കൊട്ടംകുഴി"
     },
     {
-      "ward_id": "afe2d6bb-c1f8-4a46-a6f6-ae9752d02504",
+      "id": "afe2d6bb-c1f8-4a46-a6f6-ae9752d02504",
       "ward_no": "14",
-      "ward_name_en": "Karadka",
-      "ward_name_ml": "കാറഡുക്ക"
+      "name_en": "Karadka",
+      "name_ml": "കാറഡുക്ക"
     },
     {
-      "ward_id": "34cea4c1-58d2-49ab-86e8-801490c6004c",
+      "id": "34cea4c1-58d2-49ab-86e8-801490c6004c",
       "ward_no": "15",
-      "ward_name_en": "Berlam",
-      "ward_name_ml": "ബെർലം"
+      "name_en": "Berlam",
+      "name_ml": "ബെർലം"
     }
   ],
   "towns": [],

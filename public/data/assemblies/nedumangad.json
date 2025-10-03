@@ -1,50 +1,67 @@
 {
-  "assembly_id": "130",
-  "assembly_name_en": "Nedumangad",
-  "assembly_name_ml": "നെടുമങ്ങാട്",
-  "category": "Normal",
+  "id": "130",
+  "name_en": "Nedumangad",
+  "name_ml": "നെടുമങ്ങാട്",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010604",
-      "local_body_name_en": "Karakulam",
-      "local_body_name_ml": "കരകുളം",
-      "category": "Good"
+      "id": "G010604",
+      "name_en": "Karakulam",
+      "name_ml": "കരകുളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010408",
-      "local_body_name_en": "Manickal",
-      "local_body_name_ml": "മാണിക്കല്‍",
-      "category": "Perfect"
+      "id": "G010408",
+      "name_en": "Manickal",
+      "name_ml": "മാണിക്കല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M010300",
-      "local_body_name_en": "Nedumangad",
-      "local_body_name_ml": "നെടുമങ്ങാട്",
-      "category": "Normal"
+      "id": "M010300",
+      "name_en": "Nedumangad",
+      "name_ml": "നെടുമങ്ങാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010704",
-      "local_body_name_en": "Pothencode",
-      "local_body_name_ml": "പോത്തന്‍കോട്",
-      "category": "Perfect"
+      "id": "G010704",
+      "name_en": "Pothencode",
+      "name_ml": "പോത്തന്‍കോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010605",
-      "local_body_name_en": "Vembayam",
-      "local_body_name_ml": "വെമ്പായം",
-      "category": "Normal"
+      "id": "G010605",
+      "name_en": "Vembayam",
+      "name_ml": "വെമ്പായം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010701",
-      "local_body_name_en": "Andoorkonam",
-      "local_body_name_ml": "അണ്ടൂര്‍ക്കോണം",
-      "category": "Good"
+      "id": "G010701",
+      "name_en": "Andoorkonam",
+      "name_ml": "അണ്ടൂര്‍ക്കോണം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

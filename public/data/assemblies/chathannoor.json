@@ -1,56 +1,75 @@
 {
-  "assembly_id": "126",
-  "assembly_name_en": "Chathannoor",
-  "assembly_name_ml": "ചാത്തന്നൂർ",
-  "category": "Normal",
+  "id": "126",
+  "name_en": "Chathannoor",
+  "name_ml": "ചാത്തന്നൂർ",
+  "district_id": "2",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "district_category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G021003",
-      "local_body_name_en": "Chathannoor",
-      "local_body_name_ml": "ചാത്തന്നൂര്‍",
-      "category": "Good"
+      "id": "G021003",
+      "name_en": "Chathannoor",
+      "name_ml": "ചാത്തന്നൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G021005",
-      "local_body_name_en": "Chirakkara",
-      "local_body_name_ml": "ചിറക്കര",
-      "category": "Perfect"
+      "id": "G021005",
+      "name_en": "Chirakkara",
+      "name_ml": "ചിറക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021002",
-      "local_body_name_en": "Kalluvathukkal",
-      "local_body_name_ml": "കല്ലുവാതുക്കല്‍",
-      "category": "Perfect"
+      "id": "G021002",
+      "name_en": "Kalluvathukkal",
+      "name_ml": "കല്ലുവാതുക്കല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G021004",
-      "local_body_name_en": "Adichanalloor",
-      "local_body_name_ml": "ആദിച്ചനല്ലൂര്‍",
-      "category": "Good"
+      "id": "G021004",
+      "name_en": "Adichanalloor",
+      "name_ml": "ആദിച്ചനല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M020200",
-      "local_body_name_en": "Paravur",
-      "local_body_name_ml": "പരവൂര്‍",
-      "category": "Normal"
+      "id": "M020200",
+      "name_en": "Paravur",
+      "name_ml": "പരവൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G021001",
-      "local_body_name_en": "Poothakulam",
-      "local_body_name_ml": "പൂതക്കുളം",
-      "category": "Normal"
+      "id": "G021001",
+      "name_en": "Poothakulam",
+      "name_ml": "പൂതക്കുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G020602",
-      "local_body_name_en": "Pooyappally",
-      "local_body_name_ml": "പൂയപ്പള്ളി",
-      "category": "Normal"
+      "id": "G020602",
+      "name_en": "Pooyappally",
+      "name_ml": "പൂയപ്പള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G070404",
-  "local_body_name_en": "Rayamangalam",
-  "local_body_name_ml": "രായമംഗലം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G070404",
+  "name_en": "Rayamangalam",
+  "name_ml": "രായമംഗലം",
+  "assembly_id": "74",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "74",
-    "assembly_name_en": "Perumbavoor",
-    "assembly_name_ml": "പെരുമ്പാവൂര്‍",
-    "category": "Normal"
+    "id": "74",
+    "name_en": "Perumbavoor",
+    "name_ml": "പെരുമ്പാവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ee168d95-8975-43ed-8785-b1161a8f4f51",
+      "id": "ee168d95-8975-43ed-8785-b1161a8f4f51",
       "ward_no": "1",
-      "ward_name_en": "Iringole South",
-      "ward_name_ml": "ഇരിങ്ങോള്‍ സൌത്ത്"
+      "name_en": "Iringole South",
+      "name_ml": "ഇരിങ്ങോള്‍ സൌത്ത്"
     },
     {
-      "ward_id": "5fb909c6-913c-4a27-bf62-f4364c6cf12b",
+      "id": "5fb909c6-913c-4a27-bf62-f4364c6cf12b",
       "ward_no": "2",
-      "ward_name_en": "Iringole North",
-      "ward_name_ml": "ഇരിങ്ങോള്‍ നോര്‍ത്ത്"
+      "name_en": "Iringole North",
+      "name_ml": "ഇരിങ്ങോള്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "aa93fed8-168a-4b65-b2e3-91ca0cf8dc56",
+      "id": "aa93fed8-168a-4b65-b2e3-91ca0cf8dc56",
       "ward_no": "3",
-      "ward_name_en": "Mudakkirai",
-      "ward_name_ml": "മുടക്കിരായി"
+      "name_en": "Mudakkirai",
+      "name_ml": "മുടക്കിരായി"
     },
     {
-      "ward_id": "a1183197-a93b-4288-b7a4-23229db0af89",
+      "id": "a1183197-a93b-4288-b7a4-23229db0af89",
       "ward_no": "4",
-      "ward_name_en": "Rayamangalam North",
-      "ward_name_ml": "രായമംഗലം നോര്‍ത്ത്"
+      "name_en": "Rayamangalam North",
+      "name_ml": "രായമംഗലം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "ad0fb002-382f-413c-aaf1-2147786e1984",
+      "id": "ad0fb002-382f-413c-aaf1-2147786e1984",
       "ward_no": "5",
-      "ward_name_en": "Vaikkara",
-      "ward_name_ml": "വായ്ക്കര"
+      "name_en": "Vaikkara",
+      "name_ml": "വായ്ക്കര"
     },
     {
-      "ward_id": "18b73fd2-fe10-495f-a42c-9a62209fca7a",
+      "id": "18b73fd2-fe10-495f-a42c-9a62209fca7a",
       "ward_no": "6",
-      "ward_name_en": "Attupadi",
-      "ward_name_ml": "ആട്ടുപടി"
+      "name_en": "Attupadi",
+      "name_ml": "ആട്ടുപടി"
     },
     {
-      "ward_id": "74d3d7fb-bc2c-4447-9f5d-3f83f4ce62bf",
+      "id": "74d3d7fb-bc2c-4447-9f5d-3f83f4ce62bf",
       "ward_no": "7",
-      "ward_name_en": "Arunnotty Aaru",
-      "ward_name_ml": "അറനൂറ്റിയാര്‍"
+      "name_en": "Arunnotty Aaru",
+      "name_ml": "അറനൂറ്റിയാര്‍"
     },
     {
-      "ward_id": "9f5ac79a-3924-4a8c-965a-4e5e27bf39f1",
+      "id": "9f5ac79a-3924-4a8c-965a-4e5e27bf39f1",
       "ward_no": "8",
-      "ward_name_en": "Keezhillam East",
-      "ward_name_ml": "കീഴില്ലം ഈസ്റ്റ്"
+      "name_en": "Keezhillam East",
+      "name_ml": "കീഴില്ലം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "3b5f6c4a-149a-4297-b6c8-14ce2c6cac12",
+      "id": "3b5f6c4a-149a-4297-b6c8-14ce2c6cac12",
       "ward_no": "9",
-      "ward_name_en": "Keezhillam West",
-      "ward_name_ml": "കീഴില്ലം വെസ്റ്റ്"
+      "name_en": "Keezhillam West",
+      "name_ml": "കീഴില്ലം വെസ്റ്റ്"
     },
     {
-      "ward_id": "567c861b-ffcc-48e0-aa0d-694253ec20d9",
+      "id": "567c861b-ffcc-48e0-aa0d-694253ec20d9",
       "ward_no": "10",
-      "ward_name_en": "Keezhillam North",
-      "ward_name_ml": "കീഴില്ലം നോര്‍ത്ത്"
+      "name_en": "Keezhillam North",
+      "name_ml": "കീഴില്ലം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "91c785b1-61e6-4970-910b-6b59779fd4ee",
+      "id": "91c785b1-61e6-4970-910b-6b59779fd4ee",
       "ward_no": "11",
-      "ward_name_en": "Nellimolam",
-      "ward_name_ml": "നെല്ലിമോളം"
+      "name_en": "Nellimolam",
+      "name_ml": "നെല്ലിമോളം"
     },
     {
-      "ward_id": "31d977cd-86d2-458a-b248-65d275bb9076",
+      "id": "31d977cd-86d2-458a-b248-65d275bb9076",
       "ward_no": "12",
-      "ward_name_en": "Pulluvazhi South",
-      "ward_name_ml": "പുല്ലുവഴി സൌത്ത്"
+      "name_en": "Pulluvazhi South",
+      "name_ml": "പുല്ലുവഴി സൌത്ത്"
     },
     {
-      "ward_id": "8d89d898-2a85-4844-9f6e-36c19d5c38f0",
+      "id": "8d89d898-2a85-4844-9f6e-36c19d5c38f0",
       "ward_no": "13",
-      "ward_name_en": "Valayanchirangara",
-      "ward_name_ml": "വളയന്‍ചിറങ്ങര"
+      "name_en": "Valayanchirangara",
+      "name_ml": "വളയന്‍ചിറങ്ങര"
     },
     {
-      "ward_id": "8fa2c6b0-15e0-4e3a-a4f4-56ecac6cfaaf",
+      "id": "8fa2c6b0-15e0-4e3a-a4f4-56ecac6cfaaf",
       "ward_no": "14",
-      "ward_name_en": "Pulluvazhi West",
-      "ward_name_ml": "പുല്ലുവഴി വെസ്റ്റ്"
+      "name_en": "Pulluvazhi West",
+      "name_ml": "പുല്ലുവഴി വെസ്റ്റ്"
     },
     {
-      "ward_id": "414be595-6ee6-46d0-bba0-ca8ebc18316e",
+      "id": "414be595-6ee6-46d0-bba0-ca8ebc18316e",
       "ward_no": "15",
-      "ward_name_en": "Malamuri",
-      "ward_name_ml": "മലമുറി"
+      "name_en": "Malamuri",
+      "name_ml": "മലമുറി"
     },
     {
-      "ward_id": "3a7a0897-5a4b-41a6-b896-037ba9858cc3",
+      "id": "3a7a0897-5a4b-41a6-b896-037ba9858cc3",
       "ward_no": "16",
-      "ward_name_en": "Pulluvazhi North",
-      "ward_name_ml": "പുല്ലുവഴി നോര്‍ത്ത്"
+      "name_en": "Pulluvazhi North",
+      "name_ml": "പുല്ലുവഴി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "d5b9c76c-f875-4b94-b01e-cd37ee8c0547",
+      "id": "d5b9c76c-f875-4b94-b01e-cd37ee8c0547",
       "ward_no": "17",
-      "ward_name_en": "Peechanammukal",
-      "ward_name_ml": "പീച്ചനാംമുകള്‍"
+      "name_en": "Peechanammukal",
+      "name_ml": "പീച്ചനാംമുകള്‍"
     },
     {
-      "ward_id": "be9978b8-2c7e-4e3a-b15a-2e62cd491124",
+      "id": "be9978b8-2c7e-4e3a-b15a-2e62cd491124",
       "ward_no": "18",
-      "ward_name_en": "Kuruppampady East",
-      "ward_name_ml": "കുറുപ്പംപടി ഈസ്റ്റ്"
+      "name_en": "Kuruppampady East",
+      "name_ml": "കുറുപ്പംപടി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "7d1c207d-ff0f-4fcb-8367-218913f0d9bc",
+      "id": "7d1c207d-ff0f-4fcb-8367-218913f0d9bc",
       "ward_no": "19",
-      "ward_name_en": "Vattackattupadi",
-      "ward_name_ml": "വട്ടയ്ക്കാട്ടുപടി"
+      "name_en": "Vattackattupadi",
+      "name_ml": "വട്ടയ്ക്കാട്ടുപടി"
     },
     {
-      "ward_id": "a5844b4c-0691-4e38-ba8d-62fb3d091f1f",
+      "id": "a5844b4c-0691-4e38-ba8d-62fb3d091f1f",
       "ward_no": "20",
-      "ward_name_en": "Pattaserimanapadi",
-      "ward_name_ml": "പട്ടശ്ശേരിമനപ്പടി"
+      "name_en": "Pattaserimanapadi",
+      "name_ml": "പട്ടശ്ശേരിമനപ്പടി"
     }
   ],
   "towns": [],

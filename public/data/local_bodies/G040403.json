@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G040403",
-  "local_body_name_en": "Mararikulam South",
-  "local_body_name_ml": "മാരാരിക്കുളം തെക്ക്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G040403",
+  "name_en": "Mararikulam South",
+  "name_ml": "മാരാരിക്കുളം തെക്ക്",
+  "assembly_id": "104",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "104",
-    "assembly_name_en": "Alappuzha",
-    "assembly_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "104",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b2790f3a-bcbd-46c2-a243-555cdc56edc9",
+      "id": "b2790f3a-bcbd-46c2-a243-555cdc56edc9",
       "ward_no": "1",
-      "ward_name_en": "Pollethai West",
-      "ward_name_ml": "പൊള്ളേത്തൈ പടിഞ്ഞാറ്"
+      "name_en": "Pollethai West",
+      "name_ml": "പൊള്ളേത്തൈ പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "51b0012e-b8c4-4eb5-bc2c-231a83508115",
+      "id": "51b0012e-b8c4-4eb5-bc2c-231a83508115",
       "ward_no": "2",
-      "ward_name_en": "Pollethai East",
-      "ward_name_ml": "പൊള്ളേത്തൈ കിഴക്ക്"
+      "name_en": "Pollethai East",
+      "name_ml": "പൊള്ളേത്തൈ കിഴക്ക്"
     },
     {
-      "ward_id": "05feaaac-4b52-40ca-8c36-e619d91fed3d",
+      "id": "05feaaac-4b52-40ca-8c36-e619d91fed3d",
       "ward_no": "3",
-      "ward_name_en": "Valavanadu",
-      "ward_name_ml": "വളവനാട്"
+      "name_en": "Valavanadu",
+      "name_ml": "വളവനാട്"
     },
     {
-      "ward_id": "e8b05d97-dba0-4676-bb52-4abda8d57d9c",
+      "id": "e8b05d97-dba0-4676-bb52-4abda8d57d9c",
       "ward_no": "4",
-      "ward_name_en": "Preethikulangara",
-      "ward_name_ml": "പ്രീതികുളങ്ങര"
+      "name_en": "Preethikulangara",
+      "name_ml": "പ്രീതികുളങ്ങര"
     },
     {
-      "ward_id": "56e3bea8-1f5f-4292-bb01-fe829ae523a6",
+      "id": "56e3bea8-1f5f-4292-bb01-fe829ae523a6",
       "ward_no": "5",
-      "ward_name_en": "Kalavoor",
-      "ward_name_ml": "കലവൂര്‍"
+      "name_en": "Kalavoor",
+      "name_ml": "കലവൂര്‍"
     },
     {
-      "ward_id": "90e24f16-ece9-44af-a8b8-9554711f740b",
+      "id": "90e24f16-ece9-44af-a8b8-9554711f740b",
       "ward_no": "6",
-      "ward_name_en": "South Kalavoor",
-      "ward_name_ml": "കലവൂര്‍ തെക്ക്"
+      "name_en": "South Kalavoor",
+      "name_ml": "കലവൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "fd4411ac-770e-4f7d-b436-abbbf3c98cda",
+      "id": "fd4411ac-770e-4f7d-b436-abbbf3c98cda",
       "ward_no": "7",
-      "ward_name_en": "Valiya Kalavoor",
-      "ward_name_ml": "വലിയ കലവൂര്‍"
+      "name_en": "Valiya Kalavoor",
+      "name_ml": "വലിയ കലവൂര്‍"
     },
     {
-      "ward_id": "838f5cb1-8234-402e-8be3-d895b52211a2",
+      "id": "838f5cb1-8234-402e-8be3-d895b52211a2",
       "ward_no": "8",
-      "ward_name_en": "Pazhayakadu",
-      "ward_name_ml": "പഴയകാട്"
+      "name_en": "Pazhayakadu",
+      "name_ml": "പഴയകാട്"
     },
     {
-      "ward_id": "ed08048d-4757-4ec1-bf78-ee57558376c6",
+      "id": "ed08048d-4757-4ec1-bf78-ee57558376c6",
       "ward_no": "9",
-      "ward_name_en": "Pathirappally",
-      "ward_name_ml": "പാതിരപ്പള്ളി"
+      "name_en": "Pathirappally",
+      "name_ml": "പാതിരപ്പള്ളി"
     },
     {
-      "ward_id": "cb09a3e2-a0aa-4ed8-be98-41cd63ca3169",
+      "id": "cb09a3e2-a0aa-4ed8-be98-41cd63ca3169",
       "ward_no": "10",
-      "ward_name_en": "Pathirappally South",
-      "ward_name_ml": "പാതിരപ്പള്ളി തെക്ക്"
+      "name_en": "Pathirappally South",
+      "name_ml": "പാതിരപ്പള്ളി തെക്ക്"
     },
     {
-      "ward_id": "c1fe7afc-b57b-4ab7-8e1e-fad2e870cd8a",
+      "id": "c1fe7afc-b57b-4ab7-8e1e-fad2e870cd8a",
       "ward_no": "11",
-      "ward_name_en": "Poomkavu East",
-      "ward_name_ml": "പൂങ്കാവ് കിഴക്ക്"
+      "name_en": "Poomkavu East",
+      "name_ml": "പൂങ്കാവ് കിഴക്ക്"
     },
     {
-      "ward_id": "6a8a98b6-b9ab-4a6f-8a6b-ef45d237e7a9",
+      "id": "6a8a98b6-b9ab-4a6f-8a6b-ef45d237e7a9",
       "ward_no": "12",
-      "ward_name_en": "Poomkavu West",
-      "ward_name_ml": "പൂങ്കാവ് പടിഞ്ഞാറ്"
+      "name_en": "Poomkavu West",
+      "name_ml": "പൂങ്കാവ് പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "234efb32-4826-4612-b972-0da3e390d4d1",
+      "id": "234efb32-4826-4612-b972-0da3e390d4d1",
       "ward_no": "13",
-      "ward_name_en": "Chettikadu",
-      "ward_name_ml": "ചെട്ടികാട്"
+      "name_en": "Chettikadu",
+      "name_ml": "ചെട്ടികാട്"
     },
     {
-      "ward_id": "ada61939-5680-4b8c-8f83-d82404f387d8",
+      "id": "ada61939-5680-4b8c-8f83-d82404f387d8",
       "ward_no": "14",
-      "ward_name_en": "Pattukalam",
-      "ward_name_ml": "പാട്ടുകളം"
+      "name_en": "Pattukalam",
+      "name_ml": "പാട്ടുകളം"
     },
     {
-      "ward_id": "01abb4be-8fee-4f07-af96-9a1167455957",
+      "id": "01abb4be-8fee-4f07-af96-9a1167455957",
       "ward_no": "15",
-      "ward_name_en": "Omanappuzha",
-      "ward_name_ml": "ഓമനപ്പുഴ"
+      "name_en": "Omanappuzha",
+      "name_ml": "ഓമനപ്പുഴ"
     },
     {
-      "ward_id": "65ce944f-1cbe-4cb3-a238-60bd100f4eec",
+      "id": "65ce944f-1cbe-4cb3-a238-60bd100f4eec",
       "ward_no": "16",
-      "ward_name_en": "Cheriyapozhi",
-      "ward_name_ml": "ചെറിയപൊഴി"
+      "name_en": "Cheriyapozhi",
+      "name_ml": "ചെറിയപൊഴി"
     },
     {
-      "ward_id": "93c3c1c3-8fa5-413b-9e26-0ee61ae030c8",
+      "id": "93c3c1c3-8fa5-413b-9e26-0ee61ae030c8",
       "ward_no": "17",
-      "ward_name_en": "Sarvodayapuram",
-      "ward_name_ml": "സര്‍വ്വോദയപുരം"
+      "name_en": "Sarvodayapuram",
+      "name_ml": "സര്‍വ്വോദയപുരം"
     },
     {
-      "ward_id": "5a4c435a-4212-46cf-8e29-07824e04ac41",
+      "id": "5a4c435a-4212-46cf-8e29-07824e04ac41",
       "ward_no": "18",
-      "ward_name_en": "Kattoor East",
-      "ward_name_ml": "കാട്ടൂര്‍ കിഴക്ക്"
+      "name_en": "Kattoor East",
+      "name_ml": "കാട്ടൂര്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "1c24292a-343b-464b-bd96-4e3b9d8b1779",
+      "id": "1c24292a-343b-464b-bd96-4e3b9d8b1779",
       "ward_no": "19",
-      "ward_name_en": "Panchayat Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_en": "Panchayat Office",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
     },
     {
-      "ward_id": "be32e13d-c696-42a6-813e-44b4aa53eaf3",
+      "id": "be32e13d-c696-42a6-813e-44b4aa53eaf3",
       "ward_no": "20",
-      "ward_name_en": "Mangadakkadu",
-      "ward_name_ml": "മങ്കടക്കാട്"
+      "name_en": "Mangadakkadu",
+      "name_ml": "മങ്കടക്കാട്"
     },
     {
-      "ward_id": "6aa52f71-d1a2-41a1-9e88-79734e351ac1",
+      "id": "6aa52f71-d1a2-41a1-9e88-79734e351ac1",
       "ward_no": "21",
-      "ward_name_en": "Korthusseri",
-      "ward_name_ml": "കോര്‍ത്തുശ്ശേരി"
+      "name_en": "Korthusseri",
+      "name_ml": "കോര്‍ത്തുശ്ശേരി"
     },
     {
-      "ward_id": "4a0bda10-0c1f-4d1c-82b2-f984550ea1a5",
+      "id": "4a0bda10-0c1f-4d1c-82b2-f984550ea1a5",
       "ward_no": "22",
-      "ward_name_en": "Vazhakoottam Pozhi",
-      "ward_name_ml": "വാഴക്കൂട്ടം പൊഴി"
+      "name_en": "Vazhakoottam Pozhi",
+      "name_ml": "വാഴക്കൂട്ടം പൊഴി"
     },
     {
-      "ward_id": "e57ab5e4-45da-4f2d-8b11-d4cc5655c0cd",
+      "id": "e57ab5e4-45da-4f2d-8b11-d4cc5655c0cd",
       "ward_no": "23",
-      "ward_name_en": "Sasthri Bhagam",
-      "ward_name_ml": "ശാസ്ത്രി ഭാഗം"
+      "name_en": "Sasthri Bhagam",
+      "name_ml": "ശാസ്ത്രി ഭാഗം"
     }
   ],
   "towns": [],

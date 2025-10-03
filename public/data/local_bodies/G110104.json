@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110104",
-  "local_body_name_en": "Onchiyam",
-  "local_body_name_ml": "ഒഞ്ചിയം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "20",
-    "assembly_name_en": "Vatakara",
-    "assembly_name_ml": "വടകര",
+  "id": "G110104",
+  "name_en": "Onchiyam",
+  "name_ml": "ഒഞ്ചിയം",
+  "assembly_id": "20",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "20",
+    "name_en": "Vatakara",
+    "name_ml": "വടകര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "33d94658-645b-4a61-bb77-27ae4f2c72da",
+      "id": "33d94658-645b-4a61-bb77-27ae4f2c72da",
       "ward_no": "1",
-      "ward_name_en": "Madakkara",
-      "ward_name_ml": "മാടാക്കര"
+      "name_en": "Madakkara",
+      "name_ml": "മാടാക്കര"
     },
     {
-      "ward_id": "6620b319-5877-4885-8d4e-545bac0a0f27",
+      "id": "6620b319-5877-4885-8d4e-545bac0a0f27",
       "ward_no": "2",
-      "ward_name_en": "K.P.R Nagar",
-      "ward_name_ml": "കെ.പി.ആര്‍ നഗര്‍"
+      "name_en": "K.P.R Nagar",
+      "name_ml": "കെ.പി.ആര്‍ നഗര്‍"
     },
     {
-      "ward_id": "7900e089-854d-4ca5-bef2-05334ad23a21",
+      "id": "7900e089-854d-4ca5-bef2-05334ad23a21",
       "ward_no": "3",
-      "ward_name_en": "Malolkunnu",
-      "ward_name_ml": "മലോല്‍കുന്ന്"
+      "name_en": "Malolkunnu",
+      "name_ml": "മലോല്‍കുന്ന്"
     },
     {
-      "ward_id": "b9963a7f-8a98-4c63-8bfa-59302c315313",
+      "id": "b9963a7f-8a98-4c63-8bfa-59302c315313",
       "ward_no": "4",
-      "ward_name_en": "Chamakkunnu",
-      "ward_name_ml": "ചാമക്കുന്ന്"
+      "name_en": "Chamakkunnu",
+      "name_ml": "ചാമക്കുന്ന്"
     },
     {
-      "ward_id": "eaeffaa9-9a00-4347-a7d7-bebf8de5c4b1",
+      "id": "eaeffaa9-9a00-4347-a7d7-bebf8de5c4b1",
       "ward_no": "5",
-      "ward_name_en": "Puthiyottumkandy",
-      "ward_name_ml": "പുതിയോട്ടുംകണ്ടി"
+      "name_en": "Puthiyottumkandy",
+      "name_ml": "പുതിയോട്ടുംകണ്ടി"
     },
     {
-      "ward_id": "b113f70a-c5a9-42cd-941b-3e56eea0a1bc",
+      "id": "b113f70a-c5a9-42cd-941b-3e56eea0a1bc",
       "ward_no": "6",
-      "ward_name_en": "Onchiyam",
-      "ward_name_ml": "ഒഞ്ചിയം"
+      "name_en": "Onchiyam",
+      "name_ml": "ഒഞ്ചിയം"
     },
     {
-      "ward_id": "70c74695-ad98-403d-a307-4260b14b5db7",
+      "id": "70c74695-ad98-403d-a307-4260b14b5db7",
       "ward_no": "7",
-      "ward_name_en": "Thayyil",
-      "ward_name_ml": "തയ്യില്‍"
+      "name_en": "Thayyil",
+      "name_ml": "തയ്യില്‍"
     },
     {
-      "ward_id": "dd7dbd2e-8e6b-4ce6-be06-73ff359c1e12",
+      "id": "dd7dbd2e-8e6b-4ce6-be06-73ff359c1e12",
       "ward_no": "8",
-      "ward_name_en": "Vellikulangara",
-      "ward_name_ml": "വെള്ളികുളങ്ങര"
+      "name_en": "Vellikulangara",
+      "name_ml": "വെള്ളികുളങ്ങര"
     },
     {
-      "ward_id": "e1a2d931-c7eb-4591-b50f-ce5d8b651f48",
+      "id": "e1a2d931-c7eb-4591-b50f-ce5d8b651f48",
       "ward_no": "9",
-      "ward_name_en": "Vallathukunnu",
-      "ward_name_ml": "വല്ലത്ത്കുന്ന്"
+      "name_en": "Vallathukunnu",
+      "name_ml": "വല്ലത്ത്കുന്ന്"
     },
     {
-      "ward_id": "fc3701a7-5144-44c6-b7e3-22a7ef1fbdd2",
+      "id": "fc3701a7-5144-44c6-b7e3-22a7ef1fbdd2",
       "ward_no": "10",
-      "ward_name_en": "Nadapuramroad",
-      "ward_name_ml": "നാദാപുരം റോഡ്"
+      "name_en": "Nadapuramroad",
+      "name_ml": "നാദാപുരം റോഡ്"
     },
     {
-      "ward_id": "519f96df-5ae8-41a7-9504-f433ad52c397",
+      "id": "519f96df-5ae8-41a7-9504-f433ad52c397",
       "ward_no": "11",
-      "ward_name_en": "Arakkal",
-      "ward_name_ml": "അറക്കല്‍"
+      "name_en": "Arakkal",
+      "name_ml": "അറക്കല്‍"
     },
     {
-      "ward_id": "6922b407-c5cb-4f0a-a4bc-3f75568d9d0a",
+      "id": "6922b407-c5cb-4f0a-a4bc-3f75568d9d0a",
       "ward_no": "12",
-      "ward_name_en": "Arakkal East",
-      "ward_name_ml": "അറക്കല്‍ കിഴക്ക്"
+      "name_en": "Arakkal East",
+      "name_ml": "അറക്കല്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "b6d2dd93-e42b-45df-85f4-e462857b96a0",
+      "id": "b6d2dd93-e42b-45df-85f4-e462857b96a0",
       "ward_no": "13",
-      "ward_name_en": "Dispensary",
-      "ward_name_ml": "ഡിസ്പെന്‍സറി"
+      "name_en": "Dispensary",
+      "name_ml": "ഡിസ്പെന്‍സറി"
     },
     {
-      "ward_id": "c88712d0-5606-4dda-abb6-26be812e6517",
+      "id": "c88712d0-5606-4dda-abb6-26be812e6517",
       "ward_no": "14",
-      "ward_name_en": "Madappally College",
-      "ward_name_ml": "മടപ്പള്ളി കോളേജ്"
+      "name_en": "Madappally College",
+      "name_ml": "മടപ്പള്ളി കോളേജ്"
     },
     {
-      "ward_id": "e666c5f6-e1ab-48d0-9804-5f5be90da1e0",
+      "id": "e666c5f6-e1ab-48d0-9804-5f5be90da1e0",
       "ward_no": "15",
-      "ward_name_en": "Kannuvayal",
-      "ward_name_ml": "കണ്ണുവയല്‍"
+      "name_en": "Kannuvayal",
+      "name_ml": "കണ്ണുവയല്‍"
     },
     {
-      "ward_id": "0159f52a-4aa1-4c71-9ccc-224583064e7e",
+      "id": "0159f52a-4aa1-4c71-9ccc-224583064e7e",
       "ward_no": "16",
-      "ward_name_en": "Kelubazar Beach",
-      "ward_name_ml": "കേളുബസാര്‍ ബീച്ച്"
+      "name_en": "Kelubazar Beach",
+      "name_ml": "കേളുബസാര്‍ ബീച്ച്"
     },
     {
-      "ward_id": "5c398a11-f334-4421-815f-b0ad1921ceca",
+      "id": "5c398a11-f334-4421-815f-b0ad1921ceca",
       "ward_no": "17",
-      "ward_name_en": "Valiya Madakkara",
-      "ward_name_ml": "വലിയ മാടാക്കര"
+      "name_en": "Valiya Madakkara",
+      "name_ml": "വലിയ മാടാക്കര"
     }
   ],
   "towns": [],

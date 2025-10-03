@@ -1,56 +1,75 @@
 {
-  "assembly_id": "73",
-  "assembly_name_en": "Kodungallur",
-  "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
-  "category": "Normal",
+  "id": "73",
+  "name_en": "Kodungallur",
+  "name_ml": "കൊടുങ്ങല്ലൂര്‍",
+  "district_id": "8",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "district_category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M080300",
-      "local_body_name_en": "Kodungallur",
-      "local_body_name_ml": "കൊടുങ്ങല്ലൂര്‍",
-      "category": "Good"
+      "id": "M080300",
+      "name_en": "Kodungallur",
+      "name_ml": "കൊടുങ്ങല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081503",
-      "local_body_name_en": "Kuzhur",
-      "local_body_name_ml": "കുഴൂര്‍",
-      "category": "Good"
+      "id": "G081503",
+      "name_en": "Kuzhur",
+      "name_ml": "കുഴൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081504",
-      "local_body_name_en": "Mala",
-      "local_body_name_ml": "മാള",
-      "category": "Normal"
+      "id": "G081504",
+      "name_en": "Mala",
+      "name_ml": "മാള",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G081505",
-      "local_body_name_en": "Poyya",
-      "local_body_name_ml": "പൊയ്യ",
-      "category": "Normal"
+      "id": "G081505",
+      "name_en": "Poyya",
+      "name_ml": "പൊയ്യ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G081303",
-      "local_body_name_en": "Puthenchira",
-      "local_body_name_ml": "പുത്തന്‍ചിറ",
-      "category": "Normal"
+      "id": "G081303",
+      "name_en": "Puthenchira",
+      "name_ml": "പുത്തന്‍ചിറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G081502",
-      "local_body_name_en": "Annamanada",
-      "local_body_name_ml": "അന്നമനട",
-      "category": "Perfect"
+      "id": "G081502",
+      "name_en": "Annamanada",
+      "name_ml": "അന്നമനട",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G081304",
-      "local_body_name_en": "Vellangallur",
-      "local_body_name_ml": "വെള്ളാങ്ങല്ലൂര്‍",
-      "category": "Good"
+      "id": "G081304",
+      "name_en": "Vellangallur",
+      "name_ml": "വെള്ളാങ്ങല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G050203",
-  "local_body_name_en": "Mulakulam",
-  "local_body_name_ml": "മുളക്കുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050203",
+  "name_en": "Mulakulam",
+  "name_ml": "മുളക്കുളം",
+  "assembly_id": "94",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "94",
-    "assembly_name_en": "Kaduthuruthy",
-    "assembly_name_ml": "കടുത്തുരുത്തി",
-    "category": "Normal"
+    "id": "94",
+    "name_en": "Kaduthuruthy",
+    "name_ml": "കടുത്തുരുത്തി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "9af5d351-7a74-478d-af01-c64861e7c5b0",
+      "id": "9af5d351-7a74-478d-af01-c64861e7c5b0",
       "ward_no": "1",
-      "ward_name_en": "Mulakulam",
-      "ward_name_ml": "മുളക്കുളം"
+      "name_en": "Mulakulam",
+      "name_ml": "മുളക്കുളം"
     },
     {
-      "ward_id": "5c1f947c-4639-4168-ade7-e6235811c863",
+      "id": "5c1f947c-4639-4168-ade7-e6235811c863",
       "ward_no": "2",
-      "ward_name_en": "Vadukunnappuzha",
-      "ward_name_ml": "വടുകുന്നപ്പുഴ"
+      "name_en": "Vadukunnappuzha",
+      "name_ml": "വടുകുന്നപ്പുഴ"
     },
     {
-      "ward_id": "128cff34-5b03-4fc7-a488-7f20380013e3",
+      "id": "128cff34-5b03-4fc7-a488-7f20380013e3",
       "ward_no": "3",
-      "ward_name_en": "Mannukkunnu",
-      "ward_name_ml": "മണ്ണുക്കുന്ന്"
+      "name_en": "Mannukkunnu",
+      "name_ml": "മണ്ണുക്കുന്ന്"
     },
     {
-      "ward_id": "b9dd0294-7399-455b-b65d-3bfa5eefe819",
+      "id": "b9dd0294-7399-455b-b65d-3bfa5eefe819",
       "ward_no": "4",
-      "ward_name_en": "Avarmma",
-      "ward_name_ml": "അവര്‍മ്മ"
+      "name_en": "Avarmma",
+      "name_ml": "അവര്‍മ്മ"
     },
     {
-      "ward_id": "8f125140-3cc2-4c3a-adae-d1b857448022",
+      "id": "8f125140-3cc2-4c3a-adae-d1b857448022",
       "ward_no": "5",
-      "ward_name_en": "Peruva Town",
-      "ward_name_ml": "പെരുവ ടൌണ്‍"
+      "name_en": "Peruva Town",
+      "name_ml": "പെരുവ ടൌണ്‍"
     },
     {
-      "ward_id": "7c53512d-5813-4ad9-ac02-95d483b08dcb",
+      "id": "7c53512d-5813-4ad9-ac02-95d483b08dcb",
       "ward_no": "6",
-      "ward_name_en": "Peruva East",
-      "ward_name_ml": "പെരുവ ഈസ്റ്റ്"
+      "name_en": "Peruva East",
+      "name_ml": "പെരുവ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "93ab6e57-e7bd-44bd-8f97-49f89638282a",
+      "id": "93ab6e57-e7bd-44bd-8f97-49f89638282a",
       "ward_no": "7",
-      "ward_name_en": "Kunnappilli",
-      "ward_name_ml": "കുന്നപ്പള്ളി"
+      "name_en": "Kunnappilli",
+      "name_ml": "കുന്നപ്പള്ളി"
     },
     {
-      "ward_id": "5492fe0d-8799-448d-99c5-166a10330f76",
+      "id": "5492fe0d-8799-448d-99c5-166a10330f76",
       "ward_no": "8",
-      "ward_name_en": "Alumchuvadu",
-      "ward_name_ml": "ആലുംചുവട്"
+      "name_en": "Alumchuvadu",
+      "name_ml": "ആലുംചുവട്"
     },
     {
-      "ward_id": "62b217be-f033-4876-88ea-74d2ce085e46",
+      "id": "62b217be-f033-4876-88ea-74d2ce085e46",
       "ward_no": "9",
-      "ward_name_en": "Arunnoottimangalam",
-      "ward_name_ml": "അറുന്നൂറ്റിമംഗലം"
+      "name_en": "Arunnoottimangalam",
+      "name_ml": "അറുന്നൂറ്റിമംഗലം"
     },
     {
-      "ward_id": "05cda386-0c2e-4971-9b4e-c6ac2a938c38",
+      "id": "05cda386-0c2e-4971-9b4e-c6ac2a938c38",
       "ward_no": "10",
-      "ward_name_en": "Keezhoor South",
-      "ward_name_ml": "കീഴൂര്‍ സൌത്ത്"
+      "name_en": "Keezhoor South",
+      "name_ml": "കീഴൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "41ca7702-80c1-4ed1-b247-9cd93321389f",
+      "id": "41ca7702-80c1-4ed1-b247-9cd93321389f",
       "ward_no": "11",
-      "ward_name_en": "Appanchira",
-      "ward_name_ml": "ആപ്പാഞ്ചിറ"
+      "name_en": "Appanchira",
+      "name_ml": "ആപ്പാഞ്ചിറ"
     },
     {
-      "ward_id": "e0bc62a5-4352-44a4-8069-19163ca12340",
+      "id": "e0bc62a5-4352-44a4-8069-19163ca12340",
       "ward_no": "12",
-      "ward_name_en": "Poozhikol South",
-      "ward_name_ml": "പൂഴിക്കോല്‍ സൌത്ത്"
+      "name_en": "Poozhikol South",
+      "name_ml": "പൂഴിക്കോല്‍ സൌത്ത്"
     },
     {
-      "ward_id": "2611d9ac-c3c0-4c1d-971f-632ebca358e4",
+      "id": "2611d9ac-c3c0-4c1d-971f-632ebca358e4",
       "ward_no": "13",
-      "ward_name_en": "Poozhikol North",
-      "ward_name_ml": "പൂഴിക്കോല്‍ നോര്‍ത്ത്"
+      "name_en": "Poozhikol North",
+      "name_ml": "പൂഴിക്കോല്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "0886c840-7323-44a8-934c-cfed08796914",
+      "id": "0886c840-7323-44a8-934c-cfed08796914",
       "ward_no": "14",
-      "ward_name_en": "Keezhoor North",
-      "ward_name_ml": "കീഴൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Keezhoor North",
+      "name_ml": "കീഴൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "e9e27675-b14f-45f9-8a43-4b6510597241",
+      "id": "e9e27675-b14f-45f9-8a43-4b6510597241",
       "ward_no": "15",
-      "ward_name_en": "Moorkattupadi",
-      "ward_name_ml": "മൂര്‍ക്കാട്ടുപടി"
+      "name_en": "Moorkattupadi",
+      "name_ml": "മൂര്‍ക്കാട്ടുപടി"
     },
     {
-      "ward_id": "5b7e97f5-0f86-4b73-adf5-d99092ead68f",
+      "id": "5b7e97f5-0f86-4b73-adf5-d99092ead68f",
       "ward_no": "16",
-      "ward_name_en": "Karikode South",
-      "ward_name_ml": "കാരിക്കോട് സൌത്ത്"
+      "name_en": "Karikode South",
+      "name_ml": "കാരിക്കോട് സൌത്ത്"
     },
     {
-      "ward_id": "b07c8832-3e07-47b4-a875-a1f21948c667",
+      "id": "b07c8832-3e07-47b4-a875-a1f21948c667",
       "ward_no": "17",
-      "ward_name_en": "Karikode",
-      "ward_name_ml": "കാരിക്കോട്"
+      "name_en": "Karikode",
+      "name_ml": "കാരിക്കോട്"
     }
   ],
   "towns": [],

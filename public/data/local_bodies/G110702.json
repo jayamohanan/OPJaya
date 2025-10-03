@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G110702",
-  "local_body_name_en": "Naduvannur",
-  "local_body_name_ml": "നടുവണ്ണൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "25",
-    "assembly_name_en": "Balussery",
-    "assembly_name_ml": "ബാലുശ്ശേരി",
+  "id": "G110702",
+  "name_en": "Naduvannur",
+  "name_ml": "നടുവണ്ണൂര്‍",
+  "assembly_id": "25",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "25",
+    "name_en": "Balussery",
+    "name_ml": "ബാലുശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2a4b7871-99e1-46bf-8645-c78911a678d7",
+      "id": "2a4b7871-99e1-46bf-8645-c78911a678d7",
       "ward_no": "1",
-      "ward_name_en": "Kavil West",
-      "ward_name_ml": "കാവില്‍ വെസ്റ്റ്"
+      "name_en": "Kavil West",
+      "name_ml": "കാവില്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "d46477f3-7e5e-4e3a-9cad-e748d035c189",
+      "id": "d46477f3-7e5e-4e3a-9cad-e748d035c189",
       "ward_no": "2",
-      "ward_name_en": "Kavil",
-      "ward_name_ml": "കാവില്‍"
+      "name_en": "Kavil",
+      "name_ml": "കാവില്‍"
     },
     {
-      "ward_id": "3bc70823-9e7c-465c-8ec0-e2e0cca9db60",
+      "id": "3bc70823-9e7c-465c-8ec0-e2e0cca9db60",
       "ward_no": "3",
-      "ward_name_en": "Kavumthara",
-      "ward_name_ml": "കാവുന്തറ"
+      "name_en": "Kavumthara",
+      "name_ml": "കാവുന്തറ"
     },
     {
-      "ward_id": "afd19cef-c345-47b5-bfde-dc87e8bdc035",
+      "id": "afd19cef-c345-47b5-bfde-dc87e8bdc035",
       "ward_no": "4",
-      "ward_name_en": "Karuvannur South",
-      "ward_name_ml": "കരുവണ്ണൂര്‍ സൌത്ത്"
+      "name_en": "Karuvannur South",
+      "name_ml": "കരുവണ്ണൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "8aff78fd-fd64-4625-9692-4a548cde63e5",
+      "id": "8aff78fd-fd64-4625-9692-4a548cde63e5",
       "ward_no": "5",
-      "ward_name_en": "Karuvannur",
-      "ward_name_ml": "കരുവണ്ണൂര്‍"
+      "name_en": "Karuvannur",
+      "name_ml": "കരുവണ്ണൂര്‍"
     },
     {
-      "ward_id": "f64bd608-c4a2-46a5-a137-6203614c7128",
+      "id": "f64bd608-c4a2-46a5-a137-6203614c7128",
       "ward_no": "6",
-      "ward_name_en": "Vallora Mala",
-      "ward_name_ml": "വല്ലോറ മല"
+      "name_en": "Vallora Mala",
+      "name_ml": "വല്ലോറ മല"
     },
     {
-      "ward_id": "8f175877-7921-443e-95e0-cdb0e0dbd927",
+      "id": "8f175877-7921-443e-95e0-cdb0e0dbd927",
       "ward_no": "7",
-      "ward_name_en": "Naduvannur",
-      "ward_name_ml": "നടുവണ്ണൂര്‍"
+      "name_en": "Naduvannur",
+      "name_ml": "നടുവണ്ണൂര്‍"
     },
     {
-      "ward_id": "95b0bacb-0f0c-4b61-91cb-615f3ca6d5c0",
+      "id": "95b0bacb-0f0c-4b61-91cb-615f3ca6d5c0",
       "ward_no": "8",
-      "ward_name_en": "Kavumthara East",
-      "ward_name_ml": "കാവുന്തറ ഈസ്റ്റ്"
+      "name_en": "Kavumthara East",
+      "name_ml": "കാവുന്തറ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "62c91aba-2a50-42d1-848d-d479926e17da",
+      "id": "62c91aba-2a50-42d1-848d-d479926e17da",
       "ward_no": "9",
-      "ward_name_en": "Naduvannur South",
-      "ward_name_ml": "നടുവണ്ണൂര്‍ സൌത്ത്"
+      "name_en": "Naduvannur South",
+      "name_ml": "നടുവണ്ണൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "f98c2519-9b79-46a3-a36c-7990f9162d0d",
+      "id": "f98c2519-9b79-46a3-a36c-7990f9162d0d",
       "ward_no": "10",
-      "ward_name_en": "Naduvannur East",
-      "ward_name_ml": "നടുവണ്ണൂര്‍ ഈസ്റ്റ്"
+      "name_en": "Naduvannur East",
+      "name_ml": "നടുവണ്ണൂര്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "62214b0e-b930-4fd7-bef5-da96c4066c83",
+      "id": "62214b0e-b930-4fd7-bef5-da96c4066c83",
       "ward_no": "11",
-      "ward_name_en": "Ankakalari",
-      "ward_name_ml": "അങ്കക്കളരി"
+      "name_en": "Ankakalari",
+      "name_ml": "അങ്കക്കളരി"
     },
     {
-      "ward_id": "109b5d54-a5eb-4e00-b130-b4c0eacebd49",
+      "id": "109b5d54-a5eb-4e00-b130-b4c0eacebd49",
       "ward_no": "12",
-      "ward_name_en": "Karumbapoyil",
-      "ward_name_ml": "കരുമ്പാപൊയില്‍"
+      "name_en": "Karumbapoyil",
+      "name_ml": "കരുമ്പാപൊയില്‍"
     },
     {
-      "ward_id": "d0e2a9bb-28da-406e-918a-4b50aca71e3c",
+      "id": "d0e2a9bb-28da-406e-918a-4b50aca71e3c",
       "ward_no": "13",
-      "ward_name_en": "Mandhankavu",
-      "ward_name_ml": "മന്ദന്‍കാവ്"
+      "name_en": "Mandhankavu",
+      "name_ml": "മന്ദന്‍കാവ്"
     },
     {
-      "ward_id": "c6b6cf94-ad3d-4879-9dfe-f5c5aa72c0cd",
+      "id": "c6b6cf94-ad3d-4879-9dfe-f5c5aa72c0cd",
       "ward_no": "14",
-      "ward_name_en": "Thuruthimukk",
-      "ward_name_ml": "തുരുത്തിമുക്ക്"
+      "name_en": "Thuruthimukk",
+      "name_ml": "തുരുത്തിമുക്ക്"
     },
     {
-      "ward_id": "a0f8b667-2514-48a9-af70-66a74cbc1f03",
+      "id": "a0f8b667-2514-48a9-af70-66a74cbc1f03",
       "ward_no": "15",
-      "ward_name_en": "Kavumthara South",
-      "ward_name_ml": "കാവുന്തറ സൌത്ത്"
+      "name_en": "Kavumthara South",
+      "name_ml": "കാവുന്തറ സൌത്ത്"
     },
     {
-      "ward_id": "1e3d6585-f47b-4b1b-815b-2ab48e248897",
+      "id": "1e3d6585-f47b-4b1b-815b-2ab48e248897",
       "ward_no": "16",
-      "ward_name_en": "Elangamal",
-      "ward_name_ml": "എലങ്കമല്‍"
+      "name_en": "Elangamal",
+      "name_ml": "എലങ്കമല്‍"
     }
   ],
   "towns": [],

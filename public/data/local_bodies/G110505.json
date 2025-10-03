@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G110505",
-  "local_body_name_en": "Meppayur",
-  "local_body_name_ml": "മേപ്പയൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G110505",
+  "name_en": "Meppayur",
+  "name_ml": "മേപ്പയൂര്‍",
+  "assembly_id": "24",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "24",
-    "assembly_name_en": "Perambra",
-    "assembly_name_ml": "പേരാംബ്ര",
-    "category": "Normal"
+    "id": "24",
+    "name_en": "Perambra",
+    "name_ml": "പേരാംബ്ര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0f14c318-43b5-4027-8189-84a25cf93481",
+      "id": "0f14c318-43b5-4027-8189-84a25cf93481",
       "ward_no": "1",
-      "ward_name_en": "Keezhppayur",
-      "ward_name_ml": "കീഴ്പ്പയ്യൂര്‍"
+      "name_en": "Keezhppayur",
+      "name_ml": "കീഴ്പ്പയ്യൂര്‍"
     },
     {
-      "ward_id": "2a7a2b8a-9af5-447b-991a-5ffc9e193650",
+      "id": "2a7a2b8a-9af5-447b-991a-5ffc9e193650",
       "ward_no": "2",
-      "ward_name_en": "Janakeeyamukku",
-      "ward_name_ml": "ജനകീയമുക്ക്"
+      "name_en": "Janakeeyamukku",
+      "name_ml": "ജനകീയമുക്ക്"
     },
     {
-      "ward_id": "861dbfe5-8ed5-4e9f-a24f-3347eeddf780",
+      "id": "861dbfe5-8ed5-4e9f-a24f-3347eeddf780",
       "ward_no": "3",
-      "ward_name_en": "Meppayyur",
-      "ward_name_ml": "മേപ്പയ്യൂര്‍"
+      "name_en": "Meppayyur",
+      "name_ml": "മേപ്പയ്യൂര്‍"
     },
     {
-      "ward_id": "c7448695-7705-4a77-96d1-11e223b82f59",
+      "id": "c7448695-7705-4a77-96d1-11e223b82f59",
       "ward_no": "4",
-      "ward_name_en": "Edathilmukku",
-      "ward_name_ml": "എടത്തില്‍മുക്ക്"
+      "name_en": "Edathilmukku",
+      "name_ml": "എടത്തില്‍മുക്ക്"
     },
     {
-      "ward_id": "8f494798-9f9b-4bbd-a76c-bf11691a482a",
+      "id": "8f494798-9f9b-4bbd-a76c-bf11691a482a",
       "ward_no": "5",
-      "ward_name_en": "Madathumbhagam",
-      "ward_name_ml": "മഠത്തുംഭാഗം"
+      "name_en": "Madathumbhagam",
+      "name_ml": "മഠത്തുംഭാഗം"
     },
     {
-      "ward_id": "45a5425e-44e5-431e-8090-476888fe394a",
+      "id": "45a5425e-44e5-431e-8090-476888fe394a",
       "ward_no": "6",
-      "ward_name_en": "Changaramvelli",
-      "ward_name_ml": "ചങ്ങരംവെള്ളി"
+      "name_en": "Changaramvelli",
+      "name_ml": "ചങ്ങരംവെള്ളി"
     },
     {
-      "ward_id": "a6bb1f1d-efa3-484b-8795-4abc98b2f0c7",
+      "id": "a6bb1f1d-efa3-484b-8795-4abc98b2f0c7",
       "ward_no": "7",
-      "ward_name_en": "Kayalad",
-      "ward_name_ml": "കായലാട്"
+      "name_en": "Kayalad",
+      "name_ml": "കായലാട്"
     },
     {
-      "ward_id": "9e4a4db9-ed7e-48be-9c5e-d9da3c4c25e1",
+      "id": "9e4a4db9-ed7e-48be-9c5e-d9da3c4c25e1",
       "ward_no": "8",
-      "ward_name_en": "Meppayur Town",
-      "ward_name_ml": "മേപ്പയ്യൂര്‍ ടൌണ്‍"
+      "name_en": "Meppayur Town",
+      "name_ml": "മേപ്പയ്യൂര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "01266aba-21f3-4ac8-8acc-7dbc55c3c872",
+      "id": "01266aba-21f3-4ac8-8acc-7dbc55c3c872",
       "ward_no": "9",
-      "ward_name_en": "Kozhukkallur",
-      "ward_name_ml": "കൊഴുക്കല്ലൂര്‍"
+      "name_en": "Kozhukkallur",
+      "name_ml": "കൊഴുക്കല്ലൂര്‍"
     },
     {
-      "ward_id": "6e9cc286-d34a-4f47-bf02-9390aecb302a",
+      "id": "6e9cc286-d34a-4f47-bf02-9390aecb302a",
       "ward_no": "10",
-      "ward_name_en": "Chavattu",
-      "ward_name_ml": "ചാവട്ട്"
+      "name_en": "Chavattu",
+      "name_ml": "ചാവട്ട്"
     },
     {
-      "ward_id": "e9ff9bdd-b562-4cdd-8304-e75cea066de4",
+      "id": "e9ff9bdd-b562-4cdd-8304-e75cea066de4",
       "ward_no": "11",
-      "ward_name_en": "Nidumboyil",
-      "ward_name_ml": "നിടുംമ്പൊയില്‍"
+      "name_en": "Nidumboyil",
+      "name_ml": "നിടുംമ്പൊയില്‍"
     },
     {
-      "ward_id": "ee44e9aa-f6c1-4c9d-96e3-31d4bf4b7c38",
+      "id": "ee44e9aa-f6c1-4c9d-96e3-31d4bf4b7c38",
       "ward_no": "12",
-      "ward_name_en": "Narakkode",
-      "ward_name_ml": "നരക്കോട്"
+      "name_en": "Narakkode",
+      "name_ml": "നരക്കോട്"
     },
     {
-      "ward_id": "7ee990fb-d342-4ee3-b818-8fe050ee2989",
+      "id": "7ee990fb-d342-4ee3-b818-8fe050ee2989",
       "ward_no": "13",
-      "ward_name_en": "Marutheriparamb",
-      "ward_name_ml": "മരുതേരിപറമ്പ്"
+      "name_en": "Marutheriparamb",
+      "name_ml": "മരുതേരിപറമ്പ്"
     },
     {
-      "ward_id": "5d22a248-7cfb-4f12-a9f5-02a3b37ee2d0",
+      "id": "5d22a248-7cfb-4f12-a9f5-02a3b37ee2d0",
       "ward_no": "14",
-      "ward_name_en": "Manhakulam",
-      "ward_name_ml": "മഞ്ഞക്കുളം"
+      "name_en": "Manhakulam",
+      "name_ml": "മഞ്ഞക്കുളം"
     },
     {
-      "ward_id": "383cc141-f97a-4131-8135-53b3bbd711eb",
+      "id": "383cc141-f97a-4131-8135-53b3bbd711eb",
       "ward_no": "15",
-      "ward_name_en": "Pavattukandymukku",
-      "ward_name_ml": "പാവട്ട്കണ്ടിമുക്ക്"
+      "name_en": "Pavattukandymukku",
+      "name_ml": "പാവട്ട്കണ്ടിമുക്ക്"
     },
     {
-      "ward_id": "0675fb40-e3b4-4d9f-af98-897f0c8c628b",
+      "id": "0675fb40-e3b4-4d9f-af98-897f0c8c628b",
       "ward_no": "16",
-      "ward_name_en": "Vilayattoor",
-      "ward_name_ml": "വിളയാട്ടൂര്‍"
+      "name_en": "Vilayattoor",
+      "name_ml": "വിളയാട്ടൂര്‍"
     },
     {
-      "ward_id": "7b3aae35-bcb6-4cf0-9f54-cbb2db6e275e",
+      "id": "7b3aae35-bcb6-4cf0-9f54-cbb2db6e275e",
       "ward_no": "17",
-      "ward_name_en": "Narikkuni",
-      "ward_name_ml": "നരിക്കുനി"
+      "name_en": "Narikkuni",
+      "name_ml": "നരിക്കുനി"
     }
   ],
   "towns": [],

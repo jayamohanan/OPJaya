@@ -1,74 +1,99 @@
 {
-  "assembly_id": "24",
-  "assembly_name_en": "Perambra",
-  "assembly_name_ml": "പേരാംബ്ര",
-  "category": "Normal",
+  "id": "24",
+  "name_en": "Perambra",
+  "name_ml": "പേരാംബ്ര",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110607",
-      "local_body_name_en": "Chakkittapara",
-      "local_body_name_ml": "ചക്കിട്ടപ്പാറ",
-      "category": "Perfect"
+      "id": "G110607",
+      "name_en": "Chakkittapara",
+      "name_ml": "ചക്കിട്ടപ്പാറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110603",
-      "local_body_name_en": "Changaroth",
-      "local_body_name_ml": "ചങ്ങരോത്ത്",
-      "category": "Good"
+      "id": "G110603",
+      "name_en": "Changaroth",
+      "name_ml": "ചങ്ങരോത്ത്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110601",
-      "local_body_name_en": "Cheruvannur",
-      "local_body_name_ml": "ചെറുവണ്ണൂര്‍",
-      "category": "Normal"
+      "id": "G110601",
+      "name_en": "Cheruvannur",
+      "name_ml": "ചെറുവണ്ണൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110502",
-      "local_body_name_en": "Keezhariyur",
-      "local_body_name_ml": "കീഴരിയൂര്‍",
-      "category": "Good"
+      "id": "G110502",
+      "name_en": "Keezhariyur",
+      "name_ml": "കീഴരിയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110605",
-      "local_body_name_en": "Koothali",
-      "local_body_name_ml": "കൂത്താളി",
-      "category": "Normal"
+      "id": "G110605",
+      "name_en": "Koothali",
+      "name_ml": "കൂത്താളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110505",
-      "local_body_name_en": "Meppayur",
-      "local_body_name_ml": "മേപ്പയൂര്‍",
-      "category": "Good"
+      "id": "G110505",
+      "name_en": "Meppayur",
+      "name_ml": "മേപ്പയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110602",
-      "local_body_name_en": "Nochad",
-      "local_body_name_ml": "നൊച്ചാട്",
-      "category": "Normal"
+      "id": "G110602",
+      "name_en": "Nochad",
+      "name_ml": "നൊച്ചാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110606",
-      "local_body_name_en": "Perambra",
-      "local_body_name_ml": "പേരാമ്പ്ര",
-      "category": "Normal"
+      "id": "G110606",
+      "name_en": "Perambra",
+      "name_ml": "പേരാമ്പ്ര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110501",
-      "local_body_name_en": "Thurayur",
-      "local_body_name_ml": "തുറയൂര്‍",
-      "category": "Normal"
+      "id": "G110501",
+      "name_en": "Thurayur",
+      "name_ml": "തുറയൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110802",
-      "local_body_name_en": "Arikkulam",
-      "local_body_name_ml": "അരിക്കുളം",
-      "category": "Perfect"
+      "id": "G110802",
+      "name_en": "Arikkulam",
+      "name_ml": "അരിക്കുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

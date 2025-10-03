@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G040103",
-  "local_body_name_en": "Panavally",
-  "local_body_name_ml": "പാണാവള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G040103",
+  "name_en": "Panavally",
+  "name_ml": "പാണാവള്ളി",
+  "assembly_id": "102",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "102",
-    "assembly_name_en": "Aroor",
-    "assembly_name_ml": "അരൂർ",
-    "category": "Normal"
+    "id": "102",
+    "name_en": "Aroor",
+    "name_ml": "അരൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "19662b6e-414c-4c1b-80f1-81186b460a31",
+      "id": "19662b6e-414c-4c1b-80f1-81186b460a31",
       "ward_no": "1",
-      "ward_name_en": "Thrichattukulam",
-      "ward_name_ml": "തൃച്ചാറ്റുകുളം"
+      "name_en": "Thrichattukulam",
+      "name_ml": "തൃച്ചാറ്റുകുളം"
     },
     {
-      "ward_id": "310f02a6-be25-4ced-b360-575609cea312",
+      "id": "310f02a6-be25-4ced-b360-575609cea312",
       "ward_no": "2",
-      "ward_name_en": "Chelattubhagam West",
-      "ward_name_ml": "ചേലാട്ടുഭാഗം പടിഞ്ഞാറ്"
+      "name_en": "Chelattubhagam West",
+      "name_ml": "ചേലാട്ടുഭാഗം പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "06f8e2a6-fb71-4fbb-84c9-b04ab7fe1862",
+      "id": "06f8e2a6-fb71-4fbb-84c9-b04ab7fe1862",
       "ward_no": "3",
-      "ward_name_en": "Chelattubhagam East",
-      "ward_name_ml": "ചേലാട്ടുഭാഗം കിഴക്ക്"
+      "name_en": "Chelattubhagam East",
+      "name_ml": "ചേലാട്ടുഭാഗം കിഴക്ക്"
     },
     {
-      "ward_id": "7fb0ad0e-7447-43bf-a93b-6b876ae5a21f",
+      "id": "7fb0ad0e-7447-43bf-a93b-6b876ae5a21f",
       "ward_no": "4",
-      "ward_name_en": "Thrichattukulam H S Ward",
-      "ward_name_ml": "തൃച്ചാറ്റുകുളം എച്ച്.എസ് വാര്‍ഡ്"
+      "name_en": "Thrichattukulam H S Ward",
+      "name_ml": "തൃച്ചാറ്റുകുളം എച്ച്.എസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "f675c794-f884-4390-9c05-a402a48cc474",
+      "id": "f675c794-f884-4390-9c05-a402a48cc474",
       "ward_no": "5",
-      "ward_name_en": "Vazhathara Veli",
-      "ward_name_ml": "വാഴത്തറവെളി"
+      "name_en": "Vazhathara Veli",
+      "name_ml": "വാഴത്തറവെളി"
     },
     {
-      "ward_id": "2b7569ab-13ba-4a57-84d2-ab882b3161a3",
+      "id": "2b7569ab-13ba-4a57-84d2-ab882b3161a3",
       "ward_no": "6",
-      "ward_name_en": "Mannam",
-      "ward_name_ml": "മന്നം"
+      "name_en": "Mannam",
+      "name_ml": "മന്നം"
     },
     {
-      "ward_id": "cd8fc66e-2fa2-48d5-a055-0a8c7a1e86c5",
+      "id": "cd8fc66e-2fa2-48d5-a055-0a8c7a1e86c5",
       "ward_no": "7",
-      "ward_name_en": "Odampally",
-      "ward_name_ml": "ഓടംപള്ളി"
+      "name_en": "Odampally",
+      "name_ml": "ഓടംപള്ളി"
     },
     {
-      "ward_id": "d2bee561-bce8-45b4-8061-d309ed6c62ef",
+      "id": "d2bee561-bce8-45b4-8061-d309ed6c62ef",
       "ward_no": "8",
-      "ward_name_en": "Panchayath Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
+      "name_en": "Panchayath Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "00db454a-8765-4417-84c4-a10b0f1c0bbe",
+      "id": "00db454a-8765-4417-84c4-a10b0f1c0bbe",
       "ward_no": "9",
-      "ward_name_en": "Geethananda Puram",
-      "ward_name_ml": "ഗീതാന്ദപുരം"
+      "name_en": "Geethananda Puram",
+      "name_ml": "ഗീതാന്ദപുരം"
     },
     {
-      "ward_id": "bc6e8494-a49f-4836-96fe-6eb595bb5842",
+      "id": "bc6e8494-a49f-4836-96fe-6eb595bb5842",
       "ward_no": "10",
-      "ward_name_en": "Police Station Ward",
-      "ward_name_ml": "പോലീസ് സ്റ്റേഷന്‍ വാര്‍ഡ്"
+      "name_en": "Police Station Ward",
+      "name_ml": "പോലീസ് സ്റ്റേഷന്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "0e0917cc-beb5-4257-95f8-e4eb96f044c4",
+      "id": "0e0917cc-beb5-4257-95f8-e4eb96f044c4",
       "ward_no": "11",
-      "ward_name_en": "Sreekandeswaram",
-      "ward_name_ml": "ശ്രീ കണ്ഠേശ്വരം"
+      "name_en": "Sreekandeswaram",
+      "name_ml": "ശ്രീ കണ്ഠേശ്വരം"
     },
     {
-      "ward_id": "ff06a8b6-f0ed-45f9-aedb-016743f924f4",
+      "id": "ff06a8b6-f0ed-45f9-aedb-016743f924f4",
       "ward_no": "12",
-      "ward_name_en": "Community Hall Ward",
-      "ward_name_ml": "കമ്മ്യൂണിറ്റി ഹാള്‍ വാര്‍ഡ്"
+      "name_en": "Community Hall Ward",
+      "name_ml": "കമ്മ്യൂണിറ്റി ഹാള്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "99331b8f-cee2-4279-a435-98d4cfb83b87",
+      "id": "99331b8f-cee2-4279-a435-98d4cfb83b87",
       "ward_no": "13",
-      "ward_name_en": "Palliveli",
-      "ward_name_ml": "പള്ളിവെളി"
+      "name_en": "Palliveli",
+      "name_ml": "പള്ളിവെളി"
     },
     {
-      "ward_id": "e8c98335-110e-4346-a963-d38229d86b86",
+      "id": "e8c98335-110e-4346-a963-d38229d86b86",
       "ward_no": "14",
-      "ward_name_en": "Thaliyaparambu",
-      "ward_name_ml": "തളിയാപറന്പ്"
+      "name_en": "Thaliyaparambu",
+      "name_ml": "തളിയാപറന്പ്"
     },
     {
-      "ward_id": "e59a52ef-8301-4789-92fe-d0167d2bd192",
+      "id": "e59a52ef-8301-4789-92fe-d0167d2bd192",
       "ward_no": "15",
-      "ward_name_en": "Edapangazhi",
-      "ward_name_ml": "ഇടപ്പങ്ങഴി"
+      "name_en": "Edapangazhi",
+      "name_ml": "ഇടപ്പങ്ങഴി"
     },
     {
-      "ward_id": "d77df7e3-42f3-462b-ae1a-9838ab63fffb",
+      "id": "d77df7e3-42f3-462b-ae1a-9838ab63fffb",
       "ward_no": "16",
-      "ward_name_en": "Muttathukadavu",
-      "ward_name_ml": "മുട്ടത്ത് കടവ്"
+      "name_en": "Muttathukadavu",
+      "name_ml": "മുട്ടത്ത് കടവ്"
     },
     {
-      "ward_id": "75824431-05f6-445e-9da0-91270ba50148",
+      "id": "75824431-05f6-445e-9da0-91270ba50148",
       "ward_no": "17",
-      "ward_name_en": "Nalppatheneswaram",
-      "ward_name_ml": "നാല്‍പ്പത്തെണീശ്വരം"
+      "name_en": "Nalppatheneswaram",
+      "name_ml": "നാല്‍പ്പത്തെണീശ്വരം"
     },
     {
-      "ward_id": "cece37d6-171e-40e7-93fc-51fce9a0ff9c",
+      "id": "cece37d6-171e-40e7-93fc-51fce9a0ff9c",
       "ward_no": "18",
-      "ward_name_en": "Annalathodu",
-      "ward_name_ml": "ആന്നലത്തോട്"
+      "name_en": "Annalathodu",
+      "name_ml": "ആന്നലത്തോട്"
     }
   ],
   "towns": [],

@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G060101",
-  "local_body_name_en": "Adimaly",
-  "local_body_name_ml": "അടിമാലി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
+  "id": "G060101",
+  "name_en": "Adimaly",
+  "name_ml": "അടിമാലി",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d0419fd7-3d60-428d-82da-338499890782",
+      "id": "d0419fd7-3d60-428d-82da-338499890782",
       "ward_no": "1",
-      "ward_name_en": "Pazhampillichal",
-      "ward_name_ml": "പഴംമ്പിള്ളിച്ചാല്‍"
+      "name_en": "Pazhampillichal",
+      "name_ml": "പഴംമ്പിള്ളിച്ചാല്‍"
     },
     {
-      "ward_id": "11b343f1-829c-4097-b1b7-568b250e290d",
+      "id": "11b343f1-829c-4097-b1b7-568b250e290d",
       "ward_no": "2",
-      "ward_name_en": "Parisakallu",
-      "ward_name_ml": "പരിശക്കല്ല്"
+      "name_en": "Parisakallu",
+      "name_ml": "പരിശക്കല്ല്"
     },
     {
-      "ward_id": "357fa276-a79f-43c9-92d5-25ff992bc0aa",
+      "id": "357fa276-a79f-43c9-92d5-25ff992bc0aa",
       "ward_no": "3",
-      "ward_name_en": "Irumpupalam",
-      "ward_name_ml": "ഇരുമ്പുപാലം"
+      "name_en": "Irumpupalam",
+      "name_ml": "ഇരുമ്പുപാലം"
     },
     {
-      "ward_id": "74051ed3-3743-49fd-a426-00bf9de95eeb",
+      "id": "74051ed3-3743-49fd-a426-00bf9de95eeb",
       "ward_no": "4",
-      "ward_name_en": "Plakkayam",
-      "ward_name_ml": "പ്ലാക്കയം"
+      "name_en": "Plakkayam",
+      "name_ml": "പ്ലാക്കയം"
     },
     {
-      "ward_id": "ac3bfd7f-6c51-43fb-a9de-6b7ab580de6f",
+      "id": "ac3bfd7f-6c51-43fb-a9de-6b7ab580de6f",
       "ward_no": "5",
-      "ward_name_en": "14th Mile",
-      "ward_name_ml": "പതിനാലാംമൈല്‍"
+      "name_en": "14th Mile",
+      "name_ml": "പതിനാലാംമൈല്‍"
     },
     {
-      "ward_id": "8f583258-b5f2-47b6-bc85-f1804b0d94b0",
+      "id": "8f583258-b5f2-47b6-bc85-f1804b0d94b0",
       "ward_no": "6",
-      "ward_name_en": "Machiplavu",
-      "ward_name_ml": "മച്ചിപ്ലാവ്"
+      "name_en": "Machiplavu",
+      "name_ml": "മച്ചിപ്ലാവ്"
     },
     {
-      "ward_id": "38697aad-38ce-4380-9e47-3c3dbe520125",
+      "id": "38697aad-38ce-4380-9e47-3c3dbe520125",
       "ward_no": "7",
-      "ward_name_en": "Chattupara",
-      "ward_name_ml": "ചാറ്റുപാറ"
+      "name_en": "Chattupara",
+      "name_ml": "ചാറ്റുപാറ"
     },
     {
-      "ward_id": "3ac74262-8efe-4402-95ee-f3025f98d5b9",
+      "id": "3ac74262-8efe-4402-95ee-f3025f98d5b9",
       "ward_no": "8",
-      "ward_name_en": "Adimali North",
-      "ward_name_ml": "അടിമാലി നോര്‍ത്ത്"
+      "name_en": "Adimali North",
+      "name_ml": "അടിമാലി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "a779cf57-86b9-4ecd-9d6b-e59621fe89f9",
+      "id": "a779cf57-86b9-4ecd-9d6b-e59621fe89f9",
       "ward_no": "9",
-      "ward_name_en": "Thalamali",
-      "ward_name_ml": "തലമാലി"
+      "name_en": "Thalamali",
+      "name_ml": "തലമാലി"
     },
     {
-      "ward_id": "1141dfed-6918-458e-b425-256de1d734e6",
+      "id": "1141dfed-6918-458e-b425-256de1d734e6",
       "ward_no": "10",
-      "ward_name_en": "Karimkulam",
-      "ward_name_ml": "കരിങ്കുളം"
+      "name_en": "Karimkulam",
+      "name_ml": "കരിങ്കുളം"
     },
     {
-      "ward_id": "b2fefeef-345e-4ff1-a8f1-dba96100ff13",
+      "id": "b2fefeef-345e-4ff1-a8f1-dba96100ff13",
       "ward_no": "11",
-      "ward_name_en": "Poonjarkandam",
-      "ward_name_ml": "പൂഞ്ഞാര്‍കണ്ടം"
+      "name_en": "Poonjarkandam",
+      "name_ml": "പൂഞ്ഞാര്‍കണ്ടം"
     },
     {
-      "ward_id": "74556279-9e4e-4aa5-83f1-77d29f75ce52",
+      "id": "74556279-9e4e-4aa5-83f1-77d29f75ce52",
       "ward_no": "12",
-      "ward_name_en": "Koompanpara",
-      "ward_name_ml": "കൂമ്പന്‍പാറ"
+      "name_en": "Koompanpara",
+      "name_ml": "കൂമ്പന്‍പാറ"
     },
     {
-      "ward_id": "a5b9ba20-023c-4d29-8670-6db4dddfc978",
+      "id": "a5b9ba20-023c-4d29-8670-6db4dddfc978",
       "ward_no": "13",
-      "ward_name_en": "200 Acre",
-      "ward_name_ml": "ഇരുന്നൂറേക്കര്‍"
+      "name_en": "200 Acre",
+      "name_ml": "ഇരുന്നൂറേക്കര്‍"
     },
     {
-      "ward_id": "ea691b28-a6c3-4349-92c7-423567fd03b3",
+      "id": "ea691b28-a6c3-4349-92c7-423567fd03b3",
       "ward_no": "14",
-      "ward_name_en": "Mannamkala",
-      "ward_name_ml": "മന്നാംകാല"
+      "name_en": "Mannamkala",
+      "name_ml": "മന്നാംകാല"
     },
     {
-      "ward_id": "b3a77cdf-abf4-43e0-bbe9-2fd8d1f2bd58",
+      "id": "b3a77cdf-abf4-43e0-bbe9-2fd8d1f2bd58",
       "ward_no": "15",
-      "ward_name_en": "Adimali",
-      "ward_name_ml": "അടിമാലി"
+      "name_en": "Adimali",
+      "name_ml": "അടിമാലി"
     },
     {
-      "ward_id": "50fb9d28-e71a-492b-92ce-ada68014c268",
+      "id": "50fb9d28-e71a-492b-92ce-ada68014c268",
       "ward_no": "16",
-      "ward_name_en": "Chinnapparakkudy",
-      "ward_name_ml": "ചിന്നപ്പാറക്കുടി"
+      "name_en": "Chinnapparakkudy",
+      "name_ml": "ചിന്നപ്പാറക്കുടി"
     },
     {
-      "ward_id": "c3440728-3dd7-4b1e-90ad-4c274433de16",
+      "id": "c3440728-3dd7-4b1e-90ad-4c274433de16",
       "ward_no": "17",
-      "ward_name_en": "Machiplavu West",
-      "ward_name_ml": "മച്ചിപ്ലാവ് വെസ്റ്റ്"
+      "name_en": "Machiplavu West",
+      "name_ml": "മച്ചിപ്ലാവ് വെസ്റ്റ്"
     },
     {
-      "ward_id": "f8868fa7-ee77-4fdf-88b9-7622ee1f4328",
+      "id": "f8868fa7-ee77-4fdf-88b9-7622ee1f4328",
       "ward_no": "18",
-      "ward_name_en": "Mezhukumchal",
-      "ward_name_ml": "മെഴുകുംചാല്‍"
+      "name_en": "Mezhukumchal",
+      "name_ml": "മെഴുകുംചാല്‍"
     },
     {
-      "ward_id": "02cf9457-facd-4186-af17-1ac8d37352df",
+      "id": "02cf9457-facd-4186-af17-1ac8d37352df",
       "ward_no": "19",
-      "ward_name_en": "Deviyar",
-      "ward_name_ml": "ദേവിയാര്‍"
+      "name_en": "Deviyar",
+      "name_ml": "ദേവിയാര്‍"
     },
     {
-      "ward_id": "67920fa3-5d91-4da5-8a3a-be6ada181135",
+      "id": "67920fa3-5d91-4da5-8a3a-be6ada181135",
       "ward_no": "20",
-      "ward_name_en": "Kanjiraveli",
-      "ward_name_ml": "കാഞ്ഞിരവേലി"
+      "name_en": "Kanjiraveli",
+      "name_ml": "കാഞ്ഞിരവേലി"
     },
     {
-      "ward_id": "a34ff1a9-ff02-407c-a3cc-f5d99c5a5299",
+      "id": "a34ff1a9-ff02-407c-a3cc-f5d99c5a5299",
       "ward_no": "21",
-      "ward_name_en": "Valara",
-      "ward_name_ml": "വാളറ"
+      "name_en": "Valara",
+      "name_ml": "വാളറ"
     }
   ],
   "towns": [],

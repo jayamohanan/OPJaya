@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G021106",
-  "local_body_name_en": "Elamadu",
-  "local_body_name_ml": "ഇളമാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G021106",
+  "name_en": "Elamadu",
+  "name_ml": "ഇളമാട്",
+  "assembly_id": "122",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "122",
-    "assembly_name_en": "Chadayamangalam",
-    "assembly_name_ml": "ചടയമംഗലം",
-    "category": "Normal"
+    "id": "122",
+    "name_en": "Chadayamangalam",
+    "name_ml": "ചടയമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bc9228f5-7cf5-4e13-b36b-5d44879fc320",
+      "id": "bc9228f5-7cf5-4e13-b36b-5d44879fc320",
       "ward_no": "1",
-      "ward_name_en": "Valiyodu",
-      "ward_name_ml": "വാളിയോട്"
+      "name_en": "Valiyodu",
+      "name_ml": "വാളിയോട്"
     },
     {
-      "ward_id": "aa20cb24-4c80-489f-8d52-6d6b2be38547",
+      "id": "aa20cb24-4c80-489f-8d52-6d6b2be38547",
       "ward_no": "2",
-      "ward_name_en": "Paramkodu",
-      "ward_name_ml": "പാറങ്കോട്"
+      "name_en": "Paramkodu",
+      "name_ml": "പാറങ്കോട്"
     },
     {
-      "ward_id": "d527dcc3-f318-4853-b558-4eb7dbf5e3ac",
+      "id": "d527dcc3-f318-4853-b558-4eb7dbf5e3ac",
       "ward_no": "3",
-      "ward_name_en": "Pulikkuzhi",
-      "ward_name_ml": "പുലിക്കുഴി"
+      "name_en": "Pulikkuzhi",
+      "name_ml": "പുലിക്കുഴി"
     },
     {
-      "ward_id": "a3e0ac32-8b3b-4c74-8db5-2acfe38800a3",
+      "id": "a3e0ac32-8b3b-4c74-8db5-2acfe38800a3",
       "ward_no": "4",
-      "ward_name_en": "Vengoor",
-      "ward_name_ml": "വേങ്ങൂര്‍"
+      "name_en": "Vengoor",
+      "name_ml": "വേങ്ങൂര്‍"
     },
     {
-      "ward_id": "9e74d309-0176-4174-90ea-fcf65b10050c",
+      "id": "9e74d309-0176-4174-90ea-fcf65b10050c",
       "ward_no": "5",
-      "ward_name_en": "Thevannoor",
-      "ward_name_ml": "തേവന്നൂര്‍"
+      "name_en": "Thevannoor",
+      "name_ml": "തേവന്നൂര്‍"
     },
     {
-      "ward_id": "0f6c9102-6c82-4ab1-985d-ad8e5d3f699c",
+      "id": "0f6c9102-6c82-4ab1-985d-ad8e5d3f699c",
       "ward_no": "6",
-      "ward_name_en": "Kulanjiyil",
-      "ward_name_ml": "കുളഞ്ഞിയില്‍"
+      "name_en": "Kulanjiyil",
+      "name_ml": "കുളഞ്ഞിയില്‍"
     },
     {
-      "ward_id": "ade5b2cf-5cb6-44d7-98cb-5225b607e10a",
+      "id": "ade5b2cf-5cb6-44d7-98cb-5225b607e10a",
       "ward_no": "7",
-      "ward_name_en": "Elamadu",
-      "ward_name_ml": "ഇളമാട്"
+      "name_en": "Elamadu",
+      "name_ml": "ഇളമാട്"
     },
     {
-      "ward_id": "9e7f7136-7181-4097-a506-aff2569095a8",
+      "id": "9e7f7136-7181-4097-a506-aff2569095a8",
       "ward_no": "8",
-      "ward_name_en": "Ambalammukku",
-      "ward_name_ml": "അമ്പലംമുക്ക്"
+      "name_en": "Ambalammukku",
+      "name_ml": "അമ്പലംമുക്ക്"
     },
     {
-      "ward_id": "46c10a32-ff4b-4c94-a2bc-e9159a19d650",
+      "id": "46c10a32-ff4b-4c94-a2bc-e9159a19d650",
       "ward_no": "9",
-      "ward_name_en": "Thottathara",
-      "ward_name_ml": "തോട്ടത്തറ"
+      "name_en": "Thottathara",
+      "name_ml": "തോട്ടത്തറ"
     },
     {
-      "ward_id": "9a9fd4f8-48b3-4ee6-8058-e5aa66750b6b",
+      "id": "9a9fd4f8-48b3-4ee6-8058-e5aa66750b6b",
       "ward_no": "10",
-      "ward_name_en": "Arkkannoor",
-      "ward_name_ml": "അര്‍ക്കന്നൂര്‍"
+      "name_en": "Arkkannoor",
+      "name_ml": "അര്‍ക്കന്നൂര്‍"
     },
     {
-      "ward_id": "da555f22-1af0-4894-8fa4-499629e4ddd2",
+      "id": "da555f22-1af0-4894-8fa4-499629e4ddd2",
       "ward_no": "11",
-      "ward_name_en": "Kannamkodu",
-      "ward_name_ml": "കണ്ണങ്കോട്"
+      "name_en": "Kannamkodu",
+      "name_ml": "കണ്ണങ്കോട്"
     },
     {
-      "ward_id": "15a95e5c-118a-427b-b0db-5d2999ca411b",
+      "id": "15a95e5c-118a-427b-b0db-5d2999ca411b",
       "ward_no": "12",
-      "ward_name_en": "Karalikonam",
-      "ward_name_ml": "കാരാളികോണം"
+      "name_en": "Karalikonam",
+      "name_ml": "കാരാളികോണം"
     },
     {
-      "ward_id": "16533b60-ba60-4ee2-a7f8-595f6d39e069",
+      "id": "16533b60-ba60-4ee2-a7f8-595f6d39e069",
       "ward_no": "13",
-      "ward_name_en": "Poothoor",
-      "ward_name_ml": "പൂതൂര്‍"
+      "name_en": "Poothoor",
+      "name_ml": "പൂതൂര്‍"
     },
     {
-      "ward_id": "01403fc7-bd76-4e33-af61-26ce26fbce41",
+      "id": "01403fc7-bd76-4e33-af61-26ce26fbce41",
       "ward_no": "14",
-      "ward_name_en": "Edatharappana",
-      "ward_name_ml": "ഇടത്തറപ്പണ"
+      "name_en": "Edatharappana",
+      "name_ml": "ഇടത്തറപ്പണ"
     },
     {
-      "ward_id": "bb4a7f91-eb9f-40e7-9765-b379da96f3b1",
+      "id": "bb4a7f91-eb9f-40e7-9765-b379da96f3b1",
       "ward_no": "15",
-      "ward_name_en": "Kottakkavila",
-      "ward_name_ml": "കോട്ടയ്ക്കവിള"
+      "name_en": "Kottakkavila",
+      "name_ml": "കോട്ടയ്ക്കവിള"
     },
     {
-      "ward_id": "e6c1b904-d88d-49b7-a307-0220667e00f6",
+      "id": "e6c1b904-d88d-49b7-a307-0220667e00f6",
       "ward_no": "16",
-      "ward_name_en": "Cheruvakkal",
-      "ward_name_ml": "ചെറുവക്കല്‍"
+      "name_en": "Cheruvakkal",
+      "name_ml": "ചെറുവക്കല്‍"
     },
     {
-      "ward_id": "e0b337b6-d5a5-435d-9cef-1314185798c7",
+      "id": "e0b337b6-d5a5-435d-9cef-1314185798c7",
       "ward_no": "17",
-      "ward_name_en": "Nettayam",
-      "ward_name_ml": "നെട്ടയം"
+      "name_en": "Nettayam",
+      "name_ml": "നെട്ടയം"
     }
   ],
   "towns": [],

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G080902",
-  "local_body_name_en": "Thanniyam",
-  "local_body_name_ml": "താന്ന്യം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
-  "assembly": {
-    "assembly_id": "68",
-    "assembly_name_en": "Nattika",
-    "assembly_name_ml": "നാട്ടിക",
+  "id": "G080902",
+  "name_en": "Thanniyam",
+  "name_ml": "താന്ന്യം",
+  "assembly_id": "68",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Good"
   },
+  "assembly": {
+    "id": "68",
+    "name_en": "Nattika",
+    "name_ml": "നാട്ടിക",
+    "assembly_category": {
+      "category": "Good"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7d0f0924-c41f-4606-a770-3b8577e0a494",
+      "id": "7d0f0924-c41f-4606-a770-3b8577e0a494",
       "ward_no": "1",
-      "ward_name_en": "Chemmappilly North",
-      "ward_name_ml": "ചെമ്മാപ്പിള്ളി നോര്‍ത്ത്"
+      "name_en": "Chemmappilly North",
+      "name_ml": "ചെമ്മാപ്പിള്ളി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "0f986322-4679-434c-be78-4b7007f7372b",
+      "id": "0f986322-4679-434c-be78-4b7007f7372b",
       "ward_no": "2",
-      "ward_name_en": "Vadakkumury",
-      "ward_name_ml": "വടക്കുമുറി"
+      "name_en": "Vadakkumury",
+      "name_ml": "വടക്കുമുറി"
     },
     {
-      "ward_id": "0164f96f-a505-4477-8de7-9432e47b33da",
+      "id": "0164f96f-a505-4477-8de7-9432e47b33da",
       "ward_no": "3",
-      "ward_name_en": "Vadakkumury North",
-      "ward_name_ml": "വടക്കുമുറി നോര്‍ത്ത്"
+      "name_en": "Vadakkumury North",
+      "name_ml": "വടക്കുമുറി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "32881ec7-9c1f-4bd8-a7b0-e984f0bee9d9",
+      "id": "32881ec7-9c1f-4bd8-a7b0-e984f0bee9d9",
       "ward_no": "4",
-      "ward_name_en": "Vadakkumury South",
-      "ward_name_ml": "വടക്കുമുറി സൌത്ത്"
+      "name_en": "Vadakkumury South",
+      "name_ml": "വടക്കുമുറി സൌത്ത്"
     },
     {
-      "ward_id": "16190a5d-5890-4fc1-a26b-875e5126443a",
+      "id": "16190a5d-5890-4fc1-a26b-875e5126443a",
       "ward_no": "5",
-      "ward_name_en": "Kizhakkumury",
-      "ward_name_ml": "കിഴക്കുമുറി"
+      "name_en": "Kizhakkumury",
+      "name_ml": "കിഴക്കുമുറി"
     },
     {
-      "ward_id": "d65101d6-fddf-473e-929e-959f3bc61246",
+      "id": "d65101d6-fddf-473e-929e-959f3bc61246",
       "ward_no": "6",
-      "ward_name_en": "Kizhakkumury South",
-      "ward_name_ml": "കിഴക്കുമുറി സൌത്ത്"
+      "name_en": "Kizhakkumury South",
+      "name_ml": "കിഴക്കുമുറി സൌത്ത്"
     },
     {
-      "ward_id": "58e6aba3-3981-4c4c-8a76-3e1870ed2526",
+      "id": "58e6aba3-3981-4c4c-8a76-3e1870ed2526",
       "ward_no": "7",
-      "ward_name_en": "Somasekhara Nagar",
-      "ward_name_ml": "സോമശേഖര നഗര്‍"
+      "name_en": "Somasekhara Nagar",
+      "name_ml": "സോമശേഖര നഗര്‍"
     },
     {
-      "ward_id": "9814c63c-885d-4349-ad6e-d6d36c692e8d",
+      "id": "9814c63c-885d-4349-ad6e-d6d36c692e8d",
       "ward_no": "8",
-      "ward_name_en": "Karuvamkulam",
-      "ward_name_ml": "കരുവാംകുളം"
+      "name_en": "Karuvamkulam",
+      "name_ml": "കരുവാംകുളം"
     },
     {
-      "ward_id": "8ea82829-5a72-4fec-91f1-06e12f2f571f",
+      "id": "8ea82829-5a72-4fec-91f1-06e12f2f571f",
       "ward_no": "9",
-      "ward_name_en": "Kizhuppillikkara",
-      "ward_name_ml": "കിഴുപ്പിള്ളിക്കര"
+      "name_en": "Kizhuppillikkara",
+      "name_ml": "കിഴുപ്പിള്ളിക്കര"
     },
     {
-      "ward_id": "036ff9a2-148b-4b99-a9ec-2d72561b282e",
+      "id": "036ff9a2-148b-4b99-a9ec-2d72561b282e",
       "ward_no": "10",
-      "ward_name_en": "Azhimavu",
-      "ward_name_ml": "അഴിമാവ്"
+      "name_en": "Azhimavu",
+      "name_ml": "അഴിമാവ്"
     },
     {
-      "ward_id": "d8deeff0-d40d-4b21-bb0c-b202690ea55d",
+      "id": "d8deeff0-d40d-4b21-bb0c-b202690ea55d",
       "ward_no": "11",
-      "ward_name_en": "Thanniyam South",
-      "ward_name_ml": "താന്ന്യം സൌത്ത്"
+      "name_en": "Thanniyam South",
+      "name_ml": "താന്ന്യം സൌത്ത്"
     },
     {
-      "ward_id": "3af54298-63a2-40f5-8f5a-818e70f006d0",
+      "id": "3af54298-63a2-40f5-8f5a-818e70f006d0",
       "ward_no": "12",
-      "ward_name_en": "Vendara",
-      "ward_name_ml": "വെണ്ടര"
+      "name_en": "Vendara",
+      "name_ml": "വെണ്ടര"
     },
     {
-      "ward_id": "b1c1220d-c0cd-4d7d-8385-f38e207c5134",
+      "id": "b1c1220d-c0cd-4d7d-8385-f38e207c5134",
       "ward_no": "13",
-      "ward_name_en": "Kizhakkumuri West",
-      "ward_name_ml": "കിഴക്കുമുറി വെസ്റ്റ്"
+      "name_en": "Kizhakkumuri West",
+      "name_ml": "കിഴക്കുമുറി വെസ്റ്റ്"
     },
     {
-      "ward_id": "fa8329bf-4a9f-4ede-b0a4-3d8b80cffa85",
+      "id": "fa8329bf-4a9f-4ede-b0a4-3d8b80cffa85",
       "ward_no": "14",
-      "ward_name_en": "Thanniyam",
-      "ward_name_ml": "താന്ന്യം"
+      "name_en": "Thanniyam",
+      "name_ml": "താന്ന്യം"
     },
     {
-      "ward_id": "bfc3119e-442c-4a58-8cdb-13d0f9378fef",
+      "id": "bfc3119e-442c-4a58-8cdb-13d0f9378fef",
       "ward_no": "15",
-      "ward_name_en": "Thanniyam North",
-      "ward_name_ml": "താന്ന്യം നോര്‍ത്ത്"
+      "name_en": "Thanniyam North",
+      "name_ml": "താന്ന്യം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "24e7cd79-3a52-4181-ad71-ba254b96a388",
+      "id": "24e7cd79-3a52-4181-ad71-ba254b96a388",
       "ward_no": "16",
-      "ward_name_en": "Peringottukarapadam",
-      "ward_name_ml": "പെരിങ്ങോട്ടുകരപാടം"
+      "name_en": "Peringottukarapadam",
+      "name_ml": "പെരിങ്ങോട്ടുകരപാടം"
     },
     {
-      "ward_id": "fddfe9c8-7fae-472f-ac83-a41285ea86bb",
+      "id": "fddfe9c8-7fae-472f-ac83-a41285ea86bb",
       "ward_no": "17",
-      "ward_name_en": "Painoor",
-      "ward_name_ml": "പൈനൂര്‍"
+      "name_en": "Painoor",
+      "name_ml": "പൈനൂര്‍"
     },
     {
-      "ward_id": "38104c37-4882-4452-b312-35a49122816f",
+      "id": "38104c37-4882-4452-b312-35a49122816f",
       "ward_no": "18",
-      "ward_name_en": "Boat Kadavu",
-      "ward_name_ml": "ബോട്ടുകടവ്"
+      "name_en": "Boat Kadavu",
+      "name_ml": "ബോട്ടുകടവ്"
     }
   ],
   "towns": [],

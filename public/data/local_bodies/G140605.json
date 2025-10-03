@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G140605",
-  "local_body_name_en": "Valiyaparamba",
-  "local_body_name_ml": "വലിയപറമ്പ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "5",
-    "assembly_name_en": "Trikaripur",
-    "assembly_name_ml": "തൃക്കരിപ്പൂര്‍",
+  "id": "G140605",
+  "name_en": "Valiyaparamba",
+  "name_ml": "വലിയപറമ്പ",
+  "assembly_id": "5",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "5",
+    "name_en": "Trikaripur",
+    "name_ml": "തൃക്കരിപ്പൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f0cbd723-85c2-44db-96cb-ac29e7982aa5",
+      "id": "f0cbd723-85c2-44db-96cb-ac29e7982aa5",
       "ward_no": "1",
-      "ward_name_en": "Oriyara",
-      "ward_name_ml": "ഒരിയര"
+      "name_en": "Oriyara",
+      "name_ml": "ഒരിയര"
     },
     {
-      "ward_id": "4dd73fe4-1d72-475a-a3bc-aeea5518f0cb",
+      "id": "4dd73fe4-1d72-475a-a3bc-aeea5518f0cb",
       "ward_no": "2",
-      "ward_name_en": "Edayilekkad",
-      "ward_name_ml": "ഇടയിലെക്കാട്"
+      "name_en": "Edayilekkad",
+      "name_ml": "ഇടയിലെക്കാട്"
     },
     {
-      "ward_id": "7bcfebf3-2ecb-4de3-8568-714bd0780d29",
+      "id": "7bcfebf3-2ecb-4de3-8568-714bd0780d29",
       "ward_no": "3",
-      "ward_name_en": "Madakkal",
-      "ward_name_ml": "മാടക്കാല്‍"
+      "name_en": "Madakkal",
+      "name_ml": "മാടക്കാല്‍"
     },
     {
-      "ward_id": "e74ea853-7d1b-41e1-a58c-89682618af66",
+      "id": "e74ea853-7d1b-41e1-a58c-89682618af66",
       "ward_no": "4",
-      "ward_name_en": "Thayyil Kadapuram",
-      "ward_name_ml": "തയ്യില്‍ കടപ്പുറം"
+      "name_en": "Thayyil Kadapuram",
+      "name_ml": "തയ്യില്‍ കടപ്പുറം"
     },
     {
-      "ward_id": "7b0b4746-d956-4ce2-bee5-8de2fdca0ba9",
+      "id": "7b0b4746-d956-4ce2-bee5-8de2fdca0ba9",
       "ward_no": "5",
-      "ward_name_en": "Kannuveedu Kadapuram",
-      "ward_name_ml": "കന്നുവീട് കടപ്പുറം"
+      "name_en": "Kannuveedu Kadapuram",
+      "name_ml": "കന്നുവീട് കടപ്പുറം"
     },
     {
-      "ward_id": "3b1ca9bf-3b8c-4016-a7bf-6afe9378ee6a",
+      "id": "3b1ca9bf-3b8c-4016-a7bf-6afe9378ee6a",
       "ward_no": "6",
-      "ward_name_en": "Udinur Kadapuram",
-      "ward_name_ml": "ഉദിനൂര്‍ കടപ്പുറം"
+      "name_en": "Udinur Kadapuram",
+      "name_ml": "ഉദിനൂര്‍ കടപ്പുറം"
     },
     {
-      "ward_id": "88fc76ed-8f88-4db4-8f79-44cc44308979",
+      "id": "88fc76ed-8f88-4db4-8f79-44cc44308979",
       "ward_no": "7",
-      "ward_name_en": "Valiyaparamba",
-      "ward_name_ml": "വലിയപറമ്പ"
+      "name_en": "Valiyaparamba",
+      "name_ml": "വലിയപറമ്പ"
     },
     {
-      "ward_id": "2e5e80e1-f5ef-42d3-8106-9c921f401e4e",
+      "id": "2e5e80e1-f5ef-42d3-8106-9c921f401e4e",
       "ward_no": "8",
-      "ward_name_en": "Patel Kadapuram",
-      "ward_name_ml": "പട്ടേല്‍ കടപ്പുറം"
+      "name_en": "Patel Kadapuram",
+      "name_ml": "പട്ടേല്‍ കടപ്പുറം"
     },
     {
-      "ward_id": "7c39c467-0926-4a2d-a964-176d17c0cc0c",
+      "id": "7c39c467-0926-4a2d-a964-176d17c0cc0c",
       "ward_no": "9",
-      "ward_name_en": "Padanna Kadapuram",
-      "ward_name_ml": "പടന്ന കടപ്പുറം"
+      "name_en": "Padanna Kadapuram",
+      "name_ml": "പടന്ന കടപ്പുറം"
     },
     {
-      "ward_id": "99301565-ed29-4189-a1d0-6efb07974592",
+      "id": "99301565-ed29-4189-a1d0-6efb07974592",
       "ward_no": "10",
-      "ward_name_en": "Beechara Kadapuram",
-      "ward_name_ml": "ബീച്ചാരകടപ്പുറം"
+      "name_en": "Beechara Kadapuram",
+      "name_ml": "ബീച്ചാരകടപ്പുറം"
     },
     {
-      "ward_id": "cef0df88-5a02-487d-b559-eb92f9caeabc",
+      "id": "cef0df88-5a02-487d-b559-eb92f9caeabc",
       "ward_no": "11",
-      "ward_name_en": "Pandrandil",
-      "ward_name_ml": "പന്ത്രണ്ടില്‍"
+      "name_en": "Pandrandil",
+      "name_ml": "പന്ത്രണ്ടില്‍"
     },
     {
-      "ward_id": "458d7f1f-8255-4271-96c8-b3bc2f3db006",
+      "id": "458d7f1f-8255-4271-96c8-b3bc2f3db006",
       "ward_no": "12",
-      "ward_name_en": "Veluthapoyya",
-      "ward_name_ml": "വെളുത്തപൊയ്യ"
+      "name_en": "Veluthapoyya",
+      "name_ml": "വെളുത്തപൊയ്യ"
     },
     {
-      "ward_id": "2b7e4831-0059-4b51-8286-b4f764470e65",
+      "id": "2b7e4831-0059-4b51-8286-b4f764470e65",
       "ward_no": "13",
-      "ward_name_en": "Mavila Kadapuram",
-      "ward_name_ml": "മാവിലാകടപ്പുറം"
+      "name_en": "Mavila Kadapuram",
+      "name_ml": "മാവിലാകടപ്പുറം"
     }
   ],
   "towns": [],

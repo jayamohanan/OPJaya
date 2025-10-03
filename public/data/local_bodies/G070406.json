@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G070406",
-  "local_body_name_en": "Okkal",
-  "local_body_name_ml": "ഒക്കല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "74",
-    "assembly_name_en": "Perumbavoor",
-    "assembly_name_ml": "പെരുമ്പാവൂര്‍",
+  "id": "G070406",
+  "name_en": "Okkal",
+  "name_ml": "ഒക്കല്‍",
+  "assembly_id": "74",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "74",
+    "name_en": "Perumbavoor",
+    "name_ml": "പെരുമ്പാവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "72f37875-e453-4e6e-ac35-948716b90d4e",
+      "id": "72f37875-e453-4e6e-ac35-948716b90d4e",
       "ward_no": "1",
-      "ward_name_en": "Thannippuzha",
-      "ward_name_ml": "താന്നിപ്പുഴ"
+      "name_en": "Thannippuzha",
+      "name_ml": "താന്നിപ്പുഴ"
     },
     {
-      "ward_id": "13780d1f-144d-4bdb-93d5-84db04ac5517",
+      "id": "13780d1f-144d-4bdb-93d5-84db04ac5517",
       "ward_no": "2",
-      "ward_name_en": "Okkal North",
-      "ward_name_ml": "ഒക്കല്‍ നോര്‍ത്ത്"
+      "name_en": "Okkal North",
+      "name_ml": "ഒക്കല്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "ad10dd58-c096-47f1-9e75-6e2832823f52",
+      "id": "ad10dd58-c096-47f1-9e75-6e2832823f52",
       "ward_no": "3",
-      "ward_name_en": "Onampilly",
-      "ward_name_ml": "ഓണംപിള്ളി"
+      "name_en": "Onampilly",
+      "name_ml": "ഓണംപിള്ളി"
     },
     {
-      "ward_id": "78b461ce-212f-4146-a6e1-0695036320fe",
+      "id": "78b461ce-212f-4146-a6e1-0695036320fe",
       "ward_no": "4",
-      "ward_name_en": "Naduppillithodu",
-      "ward_name_ml": "നടുപ്പിള്ളിത്തോട്"
+      "name_en": "Naduppillithodu",
+      "name_ml": "നടുപ്പിള്ളിത്തോട്"
     },
     {
-      "ward_id": "b26ad6a4-f7fa-4203-a654-bf7c6a5aec5b",
+      "id": "b26ad6a4-f7fa-4203-a654-bf7c6a5aec5b",
       "ward_no": "5",
-      "ward_name_en": "Edavoor",
-      "ward_name_ml": "ഇടവൂര്‍"
+      "name_en": "Edavoor",
+      "name_ml": "ഇടവൂര്‍"
     },
     {
-      "ward_id": "603f7484-3e1c-4b02-9d28-15adb380ccc9",
+      "id": "603f7484-3e1c-4b02-9d28-15adb380ccc9",
       "ward_no": "6",
-      "ward_name_en": "Koodalappadu East",
-      "ward_name_ml": "കൂടാലപ്പാട് ഈസ്റ്റ്"
+      "name_en": "Koodalappadu East",
+      "name_ml": "കൂടാലപ്പാട് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "85446226-9aa3-4af2-9fbb-3b4e0408ea55",
+      "id": "85446226-9aa3-4af2-9fbb-3b4e0408ea55",
       "ward_no": "7",
-      "ward_name_en": "Koduvelippady",
-      "ward_name_ml": "കൊടുവേലിപ്പടി"
+      "name_en": "Koduvelippady",
+      "name_ml": "കൊടുവേലിപ്പടി"
     },
     {
-      "ward_id": "e3460340-291b-4134-bcfa-24b0be361acd",
+      "id": "e3460340-291b-4134-bcfa-24b0be361acd",
       "ward_no": "8",
-      "ward_name_en": "Koduvelippady East",
-      "ward_name_ml": "കൊടുവേലിപ്പടി ഈസ്റ്റ്"
+      "name_en": "Koduvelippady East",
+      "name_ml": "കൊടുവേലിപ്പടി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "73c99391-cf1f-4713-9dae-830c0d181ef4",
+      "id": "73c99391-cf1f-4713-9dae-830c0d181ef4",
       "ward_no": "9",
-      "ward_name_en": "Okkal",
-      "ward_name_ml": "ഒക്കല്‍"
+      "name_en": "Okkal",
+      "name_ml": "ഒക്കല്‍"
     },
     {
-      "ward_id": "0ab99af6-fa05-4946-b34b-6f31a47c0e57",
+      "id": "0ab99af6-fa05-4946-b34b-6f31a47c0e57",
       "ward_no": "10",
-      "ward_name_en": "Karikkodu",
-      "ward_name_ml": "കാരിക്കോട്"
+      "name_en": "Karikkodu",
+      "name_ml": "കാരിക്കോട്"
     },
     {
-      "ward_id": "ded92f8a-efc1-45f0-b64e-5aba3dadf17c",
+      "id": "ded92f8a-efc1-45f0-b64e-5aba3dadf17c",
       "ward_no": "11",
-      "ward_name_en": "Kunnekkattumala",
-      "ward_name_ml": "കുന്നേക്കാട്ടുമല"
+      "name_en": "Kunnekkattumala",
+      "name_ml": "കുന്നേക്കാട്ടുമല"
     },
     {
-      "ward_id": "c42aaed5-1312-4ee4-953d-e3b180c1446d",
+      "id": "c42aaed5-1312-4ee4-953d-e3b180c1446d",
       "ward_no": "12",
-      "ward_name_en": "Vallam North",
-      "ward_name_ml": "വല്ലം നോര്‍ത്ത്"
+      "name_en": "Vallam North",
+      "name_ml": "വല്ലം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "8535c47d-0117-4eea-945b-5a93cf44412e",
+      "id": "8535c47d-0117-4eea-945b-5a93cf44412e",
       "ward_no": "13",
-      "ward_name_en": "Vallam",
-      "ward_name_ml": "വല്ലം"
+      "name_en": "Vallam",
+      "name_ml": "വല്ലം"
     },
     {
-      "ward_id": "6b6a1cf3-b887-4a78-9104-62031c6285aa",
+      "id": "6b6a1cf3-b887-4a78-9104-62031c6285aa",
       "ward_no": "14",
-      "ward_name_en": "Chelamattam",
-      "ward_name_ml": "ചേലാമറ്റം"
+      "name_en": "Chelamattam",
+      "name_ml": "ചേലാമറ്റം"
     },
     {
-      "ward_id": "d0dfacbb-5137-4fc1-92fc-9a49ebd56210",
+      "id": "d0dfacbb-5137-4fc1-92fc-9a49ebd56210",
       "ward_no": "15",
-      "ward_name_en": "Okkal Thuruthu",
-      "ward_name_ml": "ഒക്കല്‍ തുരുത്ത്"
+      "name_en": "Okkal Thuruthu",
+      "name_ml": "ഒക്കല്‍ തുരുത്ത്"
     },
     {
-      "ward_id": "b8298b35-72f6-4a60-9c2b-cf315fd45814",
+      "id": "b8298b35-72f6-4a60-9c2b-cf315fd45814",
       "ward_no": "16",
-      "ward_name_en": "Perumattam",
-      "ward_name_ml": "പെരുമറ്റം"
+      "name_en": "Perumattam",
+      "name_ml": "പെരുമറ്റം"
     }
   ],
   "towns": [],

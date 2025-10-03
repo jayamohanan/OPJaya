@@ -1,62 +1,83 @@
 {
-  "assembly_id": "21",
-  "assembly_name_en": "Kuttiady",
-  "assembly_name_ml": "കുറ്റ്യാടി",
-  "category": "Normal",
+  "id": "21",
+  "name_en": "Kuttiady",
+  "name_ml": "കുറ്റ്യാടി",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110401",
-      "local_body_name_en": "Ayancheri",
-      "local_body_name_ml": "ആയഞ്ചരി",
-      "category": "Good"
+      "id": "G110401",
+      "name_en": "Ayancheri",
+      "name_ml": "ആയഞ്ചരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110301",
-      "local_body_name_en": "Kunnummal",
-      "local_body_name_ml": "കുന്നുമ്മല്‍",
-      "category": "Good"
+      "id": "G110301",
+      "name_en": "Kunnummal",
+      "name_ml": "കുന്നുമ്മല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110304",
-      "local_body_name_en": "Kuttiadi",
-      "local_body_name_ml": "കുറ്റ്യാടി",
-      "category": "Good"
+      "id": "G110304",
+      "name_en": "Kuttiadi",
+      "name_ml": "കുറ്റ്യാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110403",
-      "local_body_name_en": "Maniyur",
-      "local_body_name_ml": "മണിയൂര്‍",
-      "category": "Perfect"
+      "id": "G110403",
+      "name_en": "Maniyur",
+      "name_ml": "മണിയൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110203",
-      "local_body_name_en": "Purameri",
-      "local_body_name_ml": "പുറമേരി",
-      "category": "Normal"
+      "id": "G110203",
+      "name_en": "Purameri",
+      "name_ml": "പുറമേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110404",
-      "local_body_name_en": "Thiruvallur",
-      "local_body_name_ml": "തിരുവള്ളൂര്‍",
-      "category": "Normal"
+      "id": "G110404",
+      "name_en": "Thiruvallur",
+      "name_ml": "തിരുവള്ളൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110402",
-      "local_body_name_en": "Villiappally",
-      "local_body_name_ml": "വില്യാപ്പള്ളി",
-      "category": "Normal"
+      "id": "G110402",
+      "name_en": "Villiappally",
+      "name_ml": "വില്യാപ്പള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110306",
-      "local_body_name_en": "Velom",
-      "local_body_name_ml": "വേളം",
-      "category": "Good"
+      "id": "G110306",
+      "name_en": "Velom",
+      "name_ml": "വേളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

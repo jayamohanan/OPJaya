@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G040505",
-  "local_body_name_en": "Punnapra North",
-  "local_body_name_ml": "പുന്നപ്ര വടക്ക്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G040505",
+  "name_en": "Punnapra North",
+  "name_ml": "പുന്നപ്ര വടക്ക്",
+  "assembly_id": "105",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "105",
-    "assembly_name_en": "Ambalappuzha",
-    "assembly_name_ml": "അമ്പലപ്പുഴ",
-    "category": "Normal"
+    "id": "105",
+    "name_en": "Ambalappuzha",
+    "name_ml": "അമ്പലപ്പുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e45abebd-30d1-4784-a7c6-146f6b75d92c",
+      "id": "e45abebd-30d1-4784-a7c6-146f6b75d92c",
       "ward_no": "1",
-      "ward_name_en": "Lourd Matha Pally Ward",
-      "ward_name_ml": "ലൂര്‍ദ്മാതാ പള്ളി വാര്‍ഡ്"
+      "name_en": "Lourd Matha Pally Ward",
+      "name_ml": "ലൂര്‍ദ്മാതാ പള്ളി വാര്‍ഡ്"
     },
     {
-      "ward_id": "bb246771-67a3-46a9-ab7c-be23cc7ef23e",
+      "id": "bb246771-67a3-46a9-ab7c-be23cc7ef23e",
       "ward_no": "2",
-      "ward_name_en": "I T C Ward",
-      "ward_name_ml": "ഐ റ്റി സി വാര്‍ഡ്"
+      "name_en": "I T C Ward",
+      "name_ml": "ഐ റ്റി സി വാര്‍ഡ്"
     },
     {
-      "ward_id": "0090fadb-c557-4481-ae1e-ed2dbe280330",
+      "id": "0090fadb-c557-4481-ae1e-ed2dbe280330",
       "ward_no": "3",
-      "ward_name_en": "Block Office Ward",
-      "ward_name_ml": "ബ്ലോക്ക് ഓഫീസ് വാര്‍ഡ്"
+      "name_en": "Block Office Ward",
+      "name_ml": "ബ്ലോക്ക് ഓഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "1e7fc7cf-4bef-4dc9-84ba-e243de72fabe",
+      "id": "1e7fc7cf-4bef-4dc9-84ba-e243de72fabe",
       "ward_no": "4",
-      "ward_name_en": "Navatharangini Vayanasala",
-      "ward_name_ml": "നവതരംഗിണി വായനശാല"
+      "name_en": "Navatharangini Vayanasala",
+      "name_ml": "നവതരംഗിണി വായനശാല"
     },
     {
-      "ward_id": "03daf360-c055-4984-a941-8d27c44588d9",
+      "id": "03daf360-c055-4984-a941-8d27c44588d9",
       "ward_no": "5",
-      "ward_name_en": "Govt. High School Ward",
-      "ward_name_ml": "ഗവ. ഹൈസ്കൂള്‍ വാര്‍ഡ്"
+      "name_en": "Govt. High School Ward",
+      "name_ml": "ഗവ. ഹൈസ്കൂള്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "23b353f1-e4b0-4c16-929f-e4cb7a69102c",
+      "id": "23b353f1-e4b0-4c16-929f-e4cb7a69102c",
       "ward_no": "6",
-      "ward_name_en": "Thookkukulam Ward",
-      "ward_name_ml": "തൂക്കുകുളം വാര്‍ഡ്"
+      "name_en": "Thookkukulam Ward",
+      "name_ml": "തൂക്കുകുളം വാര്‍ഡ്"
     },
     {
-      "ward_id": "07916523-5840-42c8-a844-aa12cc00e83c",
+      "id": "07916523-5840-42c8-a844-aa12cc00e83c",
       "ward_no": "7",
-      "ward_name_en": "Panchayath Office Ward",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
+      "name_en": "Panchayath Office Ward",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "3188ff72-f9e5-4698-866f-68d373b5a5ce",
+      "id": "3188ff72-f9e5-4698-866f-68d373b5a5ce",
       "ward_no": "8",
-      "ward_name_en": "Assambly Ward",
-      "ward_name_ml": "അസംബ്ലി വാര്‍ഡ്"
+      "name_en": "Assambly Ward",
+      "name_ml": "അസംബ്ലി വാര്‍ഡ്"
     },
     {
-      "ward_id": "0a829048-2876-4ab1-9699-443e93181ca5",
+      "id": "0a829048-2876-4ab1-9699-443e93181ca5",
       "ward_no": "9",
-      "ward_name_en": "Eerathode Ward",
-      "ward_name_ml": "ഈരേത്തോട് വാര്‍ഡ്"
+      "name_en": "Eerathode Ward",
+      "name_ml": "ഈരേത്തോട് വാര്‍ഡ്"
     },
     {
-      "ward_id": "139d4189-7419-4bcc-9ae2-7590e290e0f0",
+      "id": "139d4189-7419-4bcc-9ae2-7590e290e0f0",
       "ward_no": "10",
-      "ward_name_en": "Aspinwall Ward",
-      "ward_name_ml": "ആസ്പിന്‍വാള്‍ വാര്‍ഡ്"
+      "name_en": "Aspinwall Ward",
+      "name_ml": "ആസ്പിന്‍വാള്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "70f85f2a-a9b3-49f2-a077-325a2bd29f4b",
+      "id": "70f85f2a-a9b3-49f2-a077-325a2bd29f4b",
       "ward_no": "11",
-      "ward_name_en": "Poonthottam Ward",
-      "ward_name_ml": "പൂന്തോട്ടം വാര്‍ഡ്"
+      "name_en": "Poonthottam Ward",
+      "name_ml": "പൂന്തോട്ടം വാര്‍ഡ്"
     },
     {
-      "ward_id": "e855f2c3-a32d-4f47-bcfd-84fb26749d54",
+      "id": "e855f2c3-a32d-4f47-bcfd-84fb26749d54",
       "ward_no": "12",
-      "ward_name_en": "Kurishupura Ward",
-      "ward_name_ml": "കുരിശുപുര വാര്‍ഡ്"
+      "name_en": "Kurishupura Ward",
+      "name_ml": "കുരിശുപുര വാര്‍ഡ്"
     },
     {
-      "ward_id": "3d819cbe-90f3-44e0-8639-6af40d8d1448",
+      "id": "3d819cbe-90f3-44e0-8639-6af40d8d1448",
       "ward_no": "13",
-      "ward_name_en": "P H Center Ward",
-      "ward_name_ml": "പി എച്ച് സെന്‍റര്‍ വാര്‍ഡ്"
+      "name_en": "P H Center Ward",
+      "name_ml": "പി എച്ച് സെന്‍റര്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "67ed21b3-7a61-40d2-ad09-675b091ba82b",
+      "id": "67ed21b3-7a61-40d2-ad09-675b091ba82b",
       "ward_no": "14",
-      "ward_name_en": "St Joseph H S Ward",
-      "ward_name_ml": "സെന്‍റ് ജോസഫ് എച്ച് എസ് വാര്‍ഡ്"
+      "name_en": "St Joseph H S Ward",
+      "name_ml": "സെന്‍റ് ജോസഫ് എച്ച് എസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "9bc78b3d-f76b-4d47-8155-d832865deaf2",
+      "id": "9bc78b3d-f76b-4d47-8155-d832865deaf2",
       "ward_no": "15",
-      "ward_name_en": "Vadackal Ward",
-      "ward_name_ml": "വാടയ്ക്കല്‍ വാര്‍ഡ്"
+      "name_en": "Vadackal Ward",
+      "name_ml": "വാടയ്ക്കല്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "f4574bfb-5bbe-4034-ac53-e98e4e7212be",
+      "id": "f4574bfb-5bbe-4034-ac53-e98e4e7212be",
       "ward_no": "16",
-      "ward_name_en": "I D Plot Ward",
-      "ward_name_ml": "ഐ ഡി പ്ലോട്ട് വാര്‍ഡ്"
+      "name_en": "I D Plot Ward",
+      "name_ml": "ഐ ഡി പ്ലോട്ട് വാര്‍ഡ്"
     },
     {
-      "ward_id": "bf2da4a4-6f72-4b4d-8615-de37ef0078c2",
+      "id": "bf2da4a4-6f72-4b4d-8615-de37ef0078c2",
       "ward_no": "17",
-      "ward_name_en": "Ambedkar School Ward",
-      "ward_name_ml": "അംബേദ്ക്കര്‍ സ്കൂള്‍ വാര്‍ഡ്"
+      "name_en": "Ambedkar School Ward",
+      "name_ml": "അംബേദ്ക്കര്‍ സ്കൂള്‍ വാര്‍ഡ്"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G050503",
-  "local_body_name_en": "Kozhuvanal",
-  "local_body_name_ml": "കൊഴുവനാല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050503",
+  "name_en": "Kozhuvanal",
+  "name_ml": "കൊഴുവനാല്‍",
+  "assembly_id": "93",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "93",
-    "assembly_name_en": "Pala",
-    "assembly_name_ml": "പാലാ",
-    "category": "Normal"
+    "id": "93",
+    "name_en": "Pala",
+    "name_ml": "പാലാ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "cefe2235-6c4f-40f2-8831-cbe13f575b94",
+      "id": "cefe2235-6c4f-40f2-8831-cbe13f575b94",
       "ward_no": "1",
-      "ward_name_en": "Cherpunkal",
-      "ward_name_ml": "ചേര്‍പ്പുങ്കല്‍"
+      "name_en": "Cherpunkal",
+      "name_ml": "ചേര്‍പ്പുങ്കല്‍"
     },
     {
-      "ward_id": "25f0f777-5377-4f83-ad9a-d848b7bf7188",
+      "id": "25f0f777-5377-4f83-ad9a-d848b7bf7188",
       "ward_no": "2",
-      "ward_name_en": "Kezhuvamkulam East",
-      "ward_name_ml": "കെഴുവംകുളം ഈസ്റ്റ്"
+      "name_en": "Kezhuvamkulam East",
+      "name_ml": "കെഴുവംകുളം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "741b65c1-bf57-4267-927b-dce356d6c39f",
+      "id": "741b65c1-bf57-4267-927b-dce356d6c39f",
       "ward_no": "3",
-      "ward_name_en": "Mevida East",
-      "ward_name_ml": "മേവിട ഈസ്റ്റ്"
+      "name_en": "Mevida East",
+      "name_ml": "മേവിട ഈസ്റ്റ്"
     },
     {
-      "ward_id": "e52b1bd5-772a-4ffc-91d1-bbedcea17ae4",
+      "id": "e52b1bd5-772a-4ffc-91d1-bbedcea17ae4",
       "ward_no": "4",
-      "ward_name_en": "Mevida West",
-      "ward_name_ml": "മേവിട വെസ്റ്റ്"
+      "name_en": "Mevida West",
+      "name_ml": "മേവിട വെസ്റ്റ്"
     },
     {
-      "ward_id": "5b383fa3-256c-4401-89c0-323b342e7839",
+      "id": "5b383fa3-256c-4401-89c0-323b342e7839",
       "ward_no": "5",
-      "ward_name_en": "Mevida",
-      "ward_name_ml": "മേവിട"
+      "name_en": "Mevida",
+      "name_ml": "മേവിട"
     },
     {
-      "ward_id": "77ab509c-0df2-4456-aa7f-7121fc81d523",
+      "id": "77ab509c-0df2-4456-aa7f-7121fc81d523",
       "ward_no": "6",
-      "ward_name_en": "Moolethundi",
-      "ward_name_ml": "മൂലേത്തുണ്ടി"
+      "name_en": "Moolethundi",
+      "name_ml": "മൂലേത്തുണ്ടി"
     },
     {
-      "ward_id": "c007aec3-343d-47d2-9ec2-deb0dd569fb8",
+      "id": "c007aec3-343d-47d2-9ec2-deb0dd569fb8",
       "ward_no": "7",
-      "ward_name_en": "Thodanal East",
-      "ward_name_ml": "തോടനാല്‍ ഈസ്റ്റ്"
+      "name_en": "Thodanal East",
+      "name_ml": "തോടനാല്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "493644d4-f9fe-4d88-b9ac-7805e4a99347",
+      "id": "493644d4-f9fe-4d88-b9ac-7805e4a99347",
       "ward_no": "8",
-      "ward_name_en": "Thodanal West",
-      "ward_name_ml": "തോടനാല്‍ വെസ്റ്റ്"
+      "name_en": "Thodanal West",
+      "name_ml": "തോടനാല്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "ccee2f98-7bad-4908-96de-578f69080b6c",
+      "id": "ccee2f98-7bad-4908-96de-578f69080b6c",
       "ward_no": "9",
-      "ward_name_en": "Manakkunnu",
-      "ward_name_ml": "മനക്കുന്ന്"
+      "name_en": "Manakkunnu",
+      "name_ml": "മനക്കുന്ന്"
     },
     {
-      "ward_id": "8f46d87a-774a-4140-82bc-59c6b5fe5b6a",
+      "id": "8f46d87a-774a-4140-82bc-59c6b5fe5b6a",
       "ward_no": "10",
-      "ward_name_en": "Thokkadu",
-      "ward_name_ml": "തോക്കാട്"
+      "name_en": "Thokkadu",
+      "name_ml": "തോക്കാട്"
     },
     {
-      "ward_id": "d1f3d54f-3f48-4bfd-aecf-d351503fe559",
+      "id": "d1f3d54f-3f48-4bfd-aecf-d351503fe559",
       "ward_no": "11",
-      "ward_name_en": "Kozhuvanal Town",
-      "ward_name_ml": "കൊഴുവനാല്‍ ടൌണ്‍"
+      "name_en": "Kozhuvanal Town",
+      "name_ml": "കൊഴുവനാല്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "1c84c74f-ed5f-4238-b6a7-0728279d5e84",
+      "id": "1c84c74f-ed5f-4238-b6a7-0728279d5e84",
       "ward_no": "12",
-      "ward_name_en": "Kozhuvanal North",
-      "ward_name_ml": "കൊഴുവനാല്‍ നോര്‍ത്ത്"
+      "name_en": "Kozhuvanal North",
+      "name_ml": "കൊഴുവനാല്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "7d2f4fa9-d634-4f49-8c23-99c35cc82f01",
+      "id": "7d2f4fa9-d634-4f49-8c23-99c35cc82f01",
       "ward_no": "13",
-      "ward_name_en": "Kezhuvamkulam West",
-      "ward_name_ml": "കെഴുവംകുളം വെസ്റ്റ്"
+      "name_en": "Kezhuvamkulam West",
+      "name_ml": "കെഴുവംകുളം വെസ്റ്റ്"
     }
   ],
   "towns": [],

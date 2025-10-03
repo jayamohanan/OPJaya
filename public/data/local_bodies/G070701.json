@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G070701",
-  "local_body_name_en": "Narakal",
-  "local_body_name_ml": "ഞാറക്കല്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "79",
-    "assembly_name_en": "Vypin",
-    "assembly_name_ml": "വൈപ്പിൻ",
+  "id": "G070701",
+  "name_en": "Narakal",
+  "name_ml": "ഞാറക്കല്‍",
+  "assembly_id": "79",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "79",
+    "name_en": "Vypin",
+    "name_ml": "വൈപ്പിൻ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "08c13bd3-2074-4235-9f64-4ad7bc51e030",
+      "id": "08c13bd3-2074-4235-9f64-4ad7bc51e030",
       "ward_no": "1",
-      "ward_name_en": "Kadappuram",
-      "ward_name_ml": "കടപ്പുറം"
+      "name_en": "Kadappuram",
+      "name_ml": "കടപ്പുറം"
     },
     {
-      "ward_id": "8f078953-f699-4bf0-b80e-850d15da500e",
+      "id": "8f078953-f699-4bf0-b80e-850d15da500e",
       "ward_no": "2",
-      "ward_name_en": "Jaihind",
-      "ward_name_ml": "ജയ്ഹിന്ദ്"
+      "name_en": "Jaihind",
+      "name_ml": "ജയ്ഹിന്ദ്"
     },
     {
-      "ward_id": "3e0f57c5-3997-4ca0-bd41-37686e92fa51",
+      "id": "3e0f57c5-3997-4ca0-bd41-37686e92fa51",
       "ward_no": "3",
-      "ward_name_en": "High School",
-      "ward_name_ml": "ഹൈസ്കൂള്‍"
+      "name_en": "High School",
+      "name_ml": "ഹൈസ്കൂള്‍"
     },
     {
-      "ward_id": "25e7f702-e7c3-4119-bfa0-67f95082af52",
+      "id": "25e7f702-e7c3-4119-bfa0-67f95082af52",
       "ward_no": "4",
-      "ward_name_en": "Palli",
-      "ward_name_ml": "പള്ളി"
+      "name_en": "Palli",
+      "name_ml": "പള്ളി"
     },
     {
-      "ward_id": "ab30e2cc-4d9f-476b-8bf2-89b941d77cd9",
+      "id": "ab30e2cc-4d9f-476b-8bf2-89b941d77cd9",
       "ward_no": "5",
-      "ward_name_en": "Convent",
-      "ward_name_ml": "കോണ്‍വെന്‍റ്"
+      "name_en": "Convent",
+      "name_ml": "കോണ്‍വെന്‍റ്"
     },
     {
-      "ward_id": "00fce578-d4fa-44f6-9f3b-f03349421a0c",
+      "id": "00fce578-d4fa-44f6-9f3b-f03349421a0c",
       "ward_no": "6",
-      "ward_name_en": "Oodarakkal",
-      "ward_name_ml": "ഊടാറക്കല്‍"
+      "name_en": "Oodarakkal",
+      "name_ml": "ഊടാറക്കല്‍"
     },
     {
-      "ward_id": "d3ba9d06-529b-45ea-bf74-8dcc90e8dbf1",
+      "id": "d3ba9d06-529b-45ea-bf74-8dcc90e8dbf1",
       "ward_no": "7",
-      "ward_name_en": "Kallumadam-Valiyavattom",
-      "ward_name_ml": "കല്ലുമഠം-വലിയവട്ടം"
+      "name_en": "Kallumadam-Valiyavattom",
+      "name_ml": "കല്ലുമഠം-വലിയവട്ടം"
     },
     {
-      "ward_id": "9f033da7-05e9-4053-8236-2828af4aac01",
+      "id": "9f033da7-05e9-4053-8236-2828af4aac01",
       "ward_no": "8",
-      "ward_name_en": "Manjanakkad",
-      "ward_name_ml": "മഞ്ഞനക്കാട്"
+      "name_en": "Manjanakkad",
+      "name_ml": "മഞ്ഞനക്കാട്"
     },
     {
-      "ward_id": "b5ed39fc-6261-485a-a9e6-e06bb35ce8bf",
+      "id": "b5ed39fc-6261-485a-a9e6-e06bb35ce8bf",
       "ward_no": "9",
-      "ward_name_en": "Appangad North",
-      "ward_name_ml": "അപ്പങ്ങാട് വടക്ക്"
+      "name_en": "Appangad North",
+      "name_ml": "അപ്പങ്ങാട് വടക്ക്"
     },
     {
-      "ward_id": "fbef5f76-45de-410a-ae90-b7d1b728347e",
+      "id": "fbef5f76-45de-410a-ae90-b7d1b728347e",
       "ward_no": "10",
-      "ward_name_en": "Appangad South",
-      "ward_name_ml": "അപ്പങ്ങാട് തെക്ക്"
+      "name_en": "Appangad South",
+      "name_ml": "അപ്പങ്ങാട് തെക്ക്"
     },
     {
-      "ward_id": "17ce2e0a-15cb-4567-b6ae-f0c1ec27c699",
+      "id": "17ce2e0a-15cb-4567-b6ae-f0c1ec27c699",
       "ward_no": "11",
-      "ward_name_en": "Perumpilly",
-      "ward_name_ml": "പെരുമ്പിള്ളി"
+      "name_en": "Perumpilly",
+      "name_ml": "പെരുമ്പിള്ളി"
     },
     {
-      "ward_id": "2c855ec8-662e-4b82-b5e2-b6cb60530d41",
+      "id": "2c855ec8-662e-4b82-b5e2-b6cb60530d41",
       "ward_no": "12",
-      "ward_name_en": "Tharishu",
-      "ward_name_ml": "തരിശ്"
+      "name_en": "Tharishu",
+      "name_ml": "തരിശ്"
     },
     {
-      "ward_id": "20d80005-44e7-47f7-9a59-fee2e7f1a664",
+      "id": "20d80005-44e7-47f7-9a59-fee2e7f1a664",
       "ward_no": "13",
-      "ward_name_en": "Pozheel",
-      "ward_name_ml": "പൊഴീല്‍"
+      "name_en": "Pozheel",
+      "name_ml": "പൊഴീല്‍"
     },
     {
-      "ward_id": "2fd29a9f-1353-4914-b146-f1cbadf01367",
+      "id": "2fd29a9f-1353-4914-b146-f1cbadf01367",
       "ward_no": "14",
-      "ward_name_en": "Light House",
-      "ward_name_ml": "ലൈറ്റ് ഹൌസ്"
+      "name_en": "Light House",
+      "name_ml": "ലൈറ്റ് ഹൌസ്"
     },
     {
-      "ward_id": "a5c5cc68-ebdf-4263-b4ff-3220ab05e45c",
+      "id": "a5c5cc68-ebdf-4263-b4ff-3220ab05e45c",
       "ward_no": "15",
-      "ward_name_en": "Panchayath",
-      "ward_name_ml": "പഞ്ചായത്ത്"
+      "name_en": "Panchayath",
+      "name_ml": "പഞ്ചായത്ത്"
     },
     {
-      "ward_id": "de4f0a68-477c-497e-906a-00cb71dddae8",
+      "id": "de4f0a68-477c-497e-906a-00cb71dddae8",
       "ward_no": "16",
-      "ward_name_en": "Arattuvazhi",
-      "ward_name_ml": "ആറാട്ടുവഴി"
+      "name_en": "Arattuvazhi",
+      "name_ml": "ആറാട്ടുവഴി"
     }
   ],
   "towns": [],

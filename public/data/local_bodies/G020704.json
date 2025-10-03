@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G020704",
-  "local_body_name_en": "Perayam",
-  "local_body_name_ml": "പേരയം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G020704",
+  "name_en": "Perayam",
+  "name_ml": "പേരയം",
+  "assembly_id": "123",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "123",
-    "assembly_name_en": "Kundara",
-    "assembly_name_ml": "കുണ്ടറ",
-    "category": "Normal"
+    "id": "123",
+    "name_en": "Kundara",
+    "name_ml": "കുണ്ടറ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b7e6b1b1-1f66-4fbd-8bb4-7a6ce554c725",
+      "id": "b7e6b1b1-1f66-4fbd-8bb4-7a6ce554c725",
       "ward_no": "1",
-      "ward_name_en": "Kuthiramunmbu",
-      "ward_name_ml": "കുതിരമുനമ്പ്"
+      "name_en": "Kuthiramunmbu",
+      "name_ml": "കുതിരമുനമ്പ്"
     },
     {
-      "ward_id": "f3203f0f-6683-4e00-8f60-1f006d18b216",
+      "id": "f3203f0f-6683-4e00-8f60-1f006d18b216",
       "ward_no": "2",
-      "ward_name_en": "Padappakara",
-      "ward_name_ml": "പടപ്പക്കര"
+      "name_en": "Padappakara",
+      "name_ml": "പടപ്പക്കര"
     },
     {
-      "ward_id": "75934c8c-de3b-447a-a4da-c0d5c0319509",
+      "id": "75934c8c-de3b-447a-a4da-c0d5c0319509",
       "ward_no": "3",
-      "ward_name_en": "Karikuzhi",
-      "ward_name_ml": "കരിക്കുഴി"
+      "name_en": "Karikuzhi",
+      "name_ml": "കരിക്കുഴി"
     },
     {
-      "ward_id": "77b7bf2e-0a36-45e6-8eb8-9ec345268ada",
+      "id": "77b7bf2e-0a36-45e6-8eb8-9ec345268ada",
       "ward_no": "4",
-      "ward_name_en": "Kumbalam",
-      "ward_name_ml": "കുമ്പളം"
+      "name_en": "Kumbalam",
+      "name_ml": "കുമ്പളം"
     },
     {
-      "ward_id": "34b1562b-6513-4c3b-8b76-a7c3e5412370",
+      "id": "34b1562b-6513-4c3b-8b76-a7c3e5412370",
       "ward_no": "5",
-      "ward_name_en": "Kumbalam Phc",
-      "ward_name_ml": "കുമ്പളം പി.എച്ച്.സി"
+      "name_en": "Kumbalam Phc",
+      "name_ml": "കുമ്പളം പി.എച്ച്.സി"
     },
     {
-      "ward_id": "6e69326e-76aa-44fe-9e86-05412d147be0",
+      "id": "6e69326e-76aa-44fe-9e86-05412d147be0",
       "ward_no": "6",
-      "ward_name_en": "Perayam A",
-      "ward_name_ml": "പേരയം എ"
+      "name_en": "Perayam A",
+      "name_ml": "പേരയം എ"
     },
     {
-      "ward_id": "a840319c-3859-4775-950b-bc8af31db613",
+      "id": "a840319c-3859-4775-950b-bc8af31db613",
       "ward_no": "7",
-      "ward_name_en": "Palliyara",
-      "ward_name_ml": "പളളിയറ"
+      "name_en": "Palliyara",
+      "name_ml": "പളളിയറ"
     },
     {
-      "ward_id": "1538a599-cc00-40a0-95e4-70c91fd2474d",
+      "id": "1538a599-cc00-40a0-95e4-70c91fd2474d",
       "ward_no": "8",
-      "ward_name_en": "Kottapuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottapuram",
+      "name_ml": "കോട്ടപ്പുറം"
     },
     {
-      "ward_id": "fb20dc8f-9e1f-49db-a894-3ed3ecfa3c82",
+      "id": "fb20dc8f-9e1f-49db-a894-3ed3ecfa3c82",
       "ward_no": "9",
-      "ward_name_en": "Mulavana",
-      "ward_name_ml": "മുളവന"
+      "name_en": "Mulavana",
+      "name_ml": "മുളവന"
     },
     {
-      "ward_id": "6e76e623-7341-46a9-9368-d952d20597d1",
+      "id": "6e76e623-7341-46a9-9368-d952d20597d1",
       "ward_no": "10",
-      "ward_name_en": "Perayam B",
-      "ward_name_ml": "പേരയം ബി"
+      "name_en": "Perayam B",
+      "name_ml": "പേരയം ബി"
     },
     {
-      "ward_id": "61af7a3d-4567-4837-8e85-8116725c5c81",
+      "id": "61af7a3d-4567-4837-8e85-8116725c5c81",
       "ward_no": "11",
-      "ward_name_en": "Kanjiracode",
-      "ward_name_ml": "കാഞ്ഞിരകോട്"
+      "name_en": "Kanjiracode",
+      "name_ml": "കാഞ്ഞിരകോട്"
     },
     {
-      "ward_id": "50139de0-7817-4284-b822-9972cfed8bb2",
+      "id": "50139de0-7817-4284-b822-9972cfed8bb2",
       "ward_no": "12",
-      "ward_name_en": "Neerozhikkil",
-      "ward_name_ml": "നീരൊഴിക്കില്‍"
+      "name_en": "Neerozhikkil",
+      "name_ml": "നീരൊഴിക്കില്‍"
     },
     {
-      "ward_id": "0bd8cb2d-936d-4766-94fc-1403be719b8a",
+      "id": "0bd8cb2d-936d-4766-94fc-1403be719b8a",
       "ward_no": "13",
-      "ward_name_en": "S.J. Library",
-      "ward_name_ml": "എസ്.ജെ.ലൈബ്രറി"
+      "name_en": "S.J. Library",
+      "name_ml": "എസ്.ജെ.ലൈബ്രറി"
     },
     {
-      "ward_id": "f247e6d5-a4a9-4f67-a3ff-429f77840c43",
+      "id": "f247e6d5-a4a9-4f67-a3ff-429f77840c43",
       "ward_no": "14",
-      "ward_name_en": "Fatima Junction",
-      "ward_name_ml": "ഫാത്തിമ ജംഗ്ഷന്‍"
+      "name_en": "Fatima Junction",
+      "name_ml": "ഫാത്തിമ ജംഗ്ഷന്‍"
     }
   ],
   "towns": [],

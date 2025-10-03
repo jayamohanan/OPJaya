@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G100802",
-  "local_body_name_en": "Mankada",
-  "local_body_name_ml": "മങ്കട",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G100802",
+  "name_en": "Mankada",
+  "name_ml": "മങ്കട",
+  "assembly_id": "39",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "39",
-    "assembly_name_en": "Mankada",
-    "assembly_name_ml": "മങ്കട",
-    "category": "Normal"
+    "id": "39",
+    "name_en": "Mankada",
+    "name_ml": "മങ്കട",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "55177dc6-67b6-4986-bda2-a5b44ee78f08",
+      "id": "55177dc6-67b6-4986-bda2-a5b44ee78f08",
       "ward_no": "1",
-      "ward_name_en": "Vellila Uk Padi",
-      "ward_name_ml": "വെള്ളില യു.കെ പടി"
+      "name_en": "Vellila Uk Padi",
+      "name_ml": "വെള്ളില യു.കെ പടി"
     },
     {
-      "ward_id": "16b8d4ec-77bd-4ddf-97ac-6357876511ee",
+      "id": "16b8d4ec-77bd-4ddf-97ac-6357876511ee",
       "ward_no": "2",
-      "ward_name_en": "Vellila Niravu",
-      "ward_name_ml": "വെള്ളില നിരവ്"
+      "name_en": "Vellila Niravu",
+      "name_ml": "വെള്ളില നിരവ്"
     },
     {
-      "ward_id": "43a9f17c-f2f0-43a2-be0f-c19800d1f485",
+      "id": "43a9f17c-f2f0-43a2-be0f-c19800d1f485",
       "ward_no": "3",
-      "ward_name_en": "Kozhikkottuparamb",
-      "ward_name_ml": "കോഴിക്കോട്ടുപറമ്പ്"
+      "name_en": "Kozhikkottuparamb",
+      "name_ml": "കോഴിക്കോട്ടുപറമ്പ്"
     },
     {
-      "ward_id": "459035e8-ef88-4c48-a94a-06f19cbc1856",
+      "id": "459035e8-ef88-4c48-a94a-06f19cbc1856",
       "ward_no": "4",
-      "ward_name_en": "Kadannamanna",
-      "ward_name_ml": "കടന്നമണ്ണ"
+      "name_en": "Kadannamanna",
+      "name_ml": "കടന്നമണ്ണ"
     },
     {
-      "ward_id": "65a250f5-11f0-4d60-8e0a-22239da93292",
+      "id": "65a250f5-11f0-4d60-8e0a-22239da93292",
       "ward_no": "5",
-      "ward_name_en": "Verumpulakkal",
-      "ward_name_ml": "വേരുംപുലാക്കല്‍"
+      "name_en": "Verumpulakkal",
+      "name_ml": "വേരുംപുലാക്കല്‍"
     },
     {
-      "ward_id": "fb1f1462-b7a7-482c-b360-be94f908a995",
+      "id": "fb1f1462-b7a7-482c-b360-be94f908a995",
       "ward_no": "6",
-      "ward_name_en": "Cheriyam West",
-      "ward_name_ml": "ചേരിയം വെസ്റ്റ്"
+      "name_en": "Cheriyam West",
+      "name_ml": "ചേരിയം വെസ്റ്റ്"
     },
     {
-      "ward_id": "6eae43e6-a4e4-4f3b-8e99-7c754a7a4b1b",
+      "id": "6eae43e6-a4e4-4f3b-8e99-7c754a7a4b1b",
       "ward_no": "7",
-      "ward_name_en": "Cheriyam East",
-      "ward_name_ml": "ചേരിയം ഈസ്റ്റ്"
+      "name_en": "Cheriyam East",
+      "name_ml": "ചേരിയം ഈസ്റ്റ്"
     },
     {
-      "ward_id": "c52c310e-9771-4fae-83df-ebad680bf236",
+      "id": "c52c310e-9771-4fae-83df-ebad680bf236",
       "ward_no": "8",
-      "ward_name_en": "Koottil West",
-      "ward_name_ml": "കൂട്ടില്‍ വെസ്റ്റ്"
+      "name_en": "Koottil West",
+      "name_ml": "കൂട്ടില്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "d8c7d956-6380-4830-abdc-146731ea6b52",
+      "id": "d8c7d956-6380-4830-abdc-146731ea6b52",
       "ward_no": "9",
-      "ward_name_en": "Koottil East",
-      "ward_name_ml": "കൂട്ടില്‍ ഈസ്റ്റ്"
+      "name_en": "Koottil East",
+      "name_ml": "കൂട്ടില്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "6cccdd51-bc66-400d-b879-f8f9e2cafb94",
+      "id": "6cccdd51-bc66-400d-b879-f8f9e2cafb94",
       "ward_no": "10",
-      "ward_name_en": "Pulikkalparamba",
-      "ward_name_ml": "പുളിക്കല്‍പറമ്പ"
+      "name_en": "Pulikkalparamba",
+      "name_ml": "പുളിക്കല്‍പറമ്പ"
     },
     {
-      "ward_id": "b0e73170-b9f8-40a2-a28e-aed85a054c60",
+      "id": "b0e73170-b9f8-40a2-a28e-aed85a054c60",
       "ward_no": "11",
-      "ward_name_en": "Njarakkad",
-      "ward_name_ml": "ഞാറക്കാട്"
+      "name_en": "Njarakkad",
+      "name_ml": "ഞാറക്കാട്"
     },
     {
-      "ward_id": "26891ae6-789a-45ea-a73e-bfbe9df34587",
+      "id": "26891ae6-789a-45ea-a73e-bfbe9df34587",
       "ward_no": "12",
-      "ward_name_en": "Mankada Town",
-      "ward_name_ml": "മങ്കട ടൌണ്‍"
+      "name_en": "Mankada Town",
+      "name_ml": "മങ്കട ടൌണ്‍"
     },
     {
-      "ward_id": "93da6cab-f0a3-49dc-9387-121f4780f1cd",
+      "id": "93da6cab-f0a3-49dc-9387-121f4780f1cd",
       "ward_no": "13",
-      "ward_name_en": "Mankada",
-      "ward_name_ml": "മങ്കട"
+      "name_en": "Mankada",
+      "name_ml": "മങ്കട"
     },
     {
-      "ward_id": "9d24cf4b-ffc4-40ca-96ec-457b2992d8bf",
+      "id": "9d24cf4b-ffc4-40ca-96ec-457b2992d8bf",
       "ward_no": "14",
-      "ward_name_en": "Karkkidakam",
-      "ward_name_ml": "കര്‍ക്കിടകം"
+      "name_en": "Karkkidakam",
+      "name_ml": "കര്‍ക്കിടകം"
     },
     {
-      "ward_id": "49cfdae2-6688-4767-b8d2-69ff0ce45ba2",
+      "id": "49cfdae2-6688-4767-b8d2-69ff0ce45ba2",
       "ward_no": "15",
-      "ward_name_en": "Karimbanakkund",
-      "ward_name_ml": "കരിമ്പനക്കുണ്ട്"
+      "name_en": "Karimbanakkund",
+      "name_ml": "കരിമ്പനക്കുണ്ട്"
     },
     {
-      "ward_id": "3b73eb46-c6ad-4d70-acb9-b9d82a4d59b2",
+      "id": "3b73eb46-c6ad-4d70-acb9-b9d82a4d59b2",
       "ward_no": "16",
-      "ward_name_en": "Manjerithode",
-      "ward_name_ml": "മഞ്ചേരിത്തോട്"
+      "name_en": "Manjerithode",
+      "name_ml": "മഞ്ചേരിത്തോട്"
     },
     {
-      "ward_id": "402e89e8-82ea-4d63-9361-8d6f8b6c9788",
+      "id": "402e89e8-82ea-4d63-9361-8d6f8b6c9788",
       "ward_no": "17",
-      "ward_name_en": "Vellila Puthanveedu",
-      "ward_name_ml": "വെള്ളില പുത്തന്‍വീട്"
+      "name_en": "Vellila Puthanveedu",
+      "name_ml": "വെള്ളില പുത്തന്‍വീട്"
     },
     {
-      "ward_id": "25f6778d-04e0-43a8-aea1-c817f5be6350",
+      "id": "25f6778d-04e0-43a8-aea1-c817f5be6350",
       "ward_no": "18",
-      "ward_name_en": "Vellila Thachoth",
-      "ward_name_ml": "വെള്ളില തച്ചോത്ത്"
+      "name_en": "Vellila Thachoth",
+      "name_ml": "വെള്ളില തച്ചോത്ത്"
     }
   ],
   "towns": [],

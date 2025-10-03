@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G130405",
-  "local_body_name_en": "Kuttiattoor",
-  "local_body_name_ml": "കുറ്റ്യാട്ടൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G130405",
+  "name_en": "Kuttiattoor",
+  "name_ml": "കുറ്റ്യാട്ടൂര്‍",
+  "assembly_id": "8",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "8",
-    "assembly_name_en": "Taliparamba",
-    "assembly_name_ml": "തളിപ്പറമ്പ്",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Taliparamba",
+    "name_ml": "തളിപ്പറമ്പ്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ebf22cb4-a18e-46fa-82c6-a9a35d58fe47",
+      "id": "ebf22cb4-a18e-46fa-82c6-a9a35d58fe47",
       "ward_no": "1",
-      "ward_name_en": "Pazhassi",
-      "ward_name_ml": "പഴശ്ശി"
+      "name_en": "Pazhassi",
+      "name_ml": "പഴശ്ശി"
     },
     {
-      "ward_id": "79c0117f-82ab-456d-b787-3b5aa8d3443e",
+      "id": "79c0117f-82ab-456d-b787-3b5aa8d3443e",
       "ward_no": "2",
-      "ward_name_en": "Koyotumoola",
-      "ward_name_ml": "കോയ്യോട്ടുമുല"
+      "name_en": "Koyotumoola",
+      "name_ml": "കോയ്യോട്ടുമുല"
     },
     {
-      "ward_id": "e020f632-c018-4dc7-8f49-39375a5ce8c1",
+      "id": "e020f632-c018-4dc7-8f49-39375a5ce8c1",
       "ward_no": "3",
-      "ward_name_en": "Pavannoor",
-      "ward_name_ml": "പാവന്നൂര്‍"
+      "name_en": "Pavannoor",
+      "name_ml": "പാവന്നൂര്‍"
     },
     {
-      "ward_id": "348266cb-4583-4786-8d12-e87070f962d9",
+      "id": "348266cb-4583-4786-8d12-e87070f962d9",
       "ward_no": "4",
-      "ward_name_en": "Nidukulam",
-      "ward_name_ml": "നിടുകുളം"
+      "name_en": "Nidukulam",
+      "name_ml": "നിടുകുളം"
     },
     {
-      "ward_id": "13330676-8f81-4e0f-be10-9b5bb139e61f",
+      "id": "13330676-8f81-4e0f-be10-9b5bb139e61f",
       "ward_no": "5",
-      "ward_name_en": "Kuttiattoor",
-      "ward_name_ml": "കുറ്റ്യാട്ടൂര്‍"
+      "name_en": "Kuttiattoor",
+      "name_ml": "കുറ്റ്യാട്ടൂര്‍"
     },
     {
-      "ward_id": "f73ee284-d8d1-457f-8f4f-6192dc02f1a8",
+      "id": "f73ee284-d8d1-457f-8f4f-6192dc02f1a8",
       "ward_no": "6",
-      "ward_name_en": "Vaduvankulam",
-      "ward_name_ml": "വടുവന്‍കുളം"
+      "name_en": "Vaduvankulam",
+      "name_ml": "വടുവന്‍കുളം"
     },
     {
-      "ward_id": "d7d86154-e6fa-4271-bd66-bd4bd5035576",
+      "id": "d7d86154-e6fa-4271-bd66-bd4bd5035576",
       "ward_no": "7",
-      "ward_name_en": "Kuruvottumoola",
-      "ward_name_ml": "കുറുവോട്ടുമുല"
+      "name_en": "Kuruvottumoola",
+      "name_ml": "കുറുവോട്ടുമുല"
     },
     {
-      "ward_id": "49ce9478-52c0-4b29-b2a3-95ae76115e33",
+      "id": "49ce9478-52c0-4b29-b2a3-95ae76115e33",
       "ward_no": "8",
-      "ward_name_en": "Komakkari",
-      "ward_name_ml": "കോമക്കരി"
+      "name_en": "Komakkari",
+      "name_ml": "കോമക്കരി"
     },
     {
-      "ward_id": "9d249990-33e3-4d86-a932-7fa5cf19d8fa",
+      "id": "9d249990-33e3-4d86-a932-7fa5cf19d8fa",
       "ward_no": "9",
-      "ward_name_en": "Vesala",
-      "ward_name_ml": "വേശാല"
+      "name_en": "Vesala",
+      "name_ml": "വേശാല"
     },
     {
-      "ward_id": "91e10693-4c17-4cc8-82a3-c18118bd43af",
+      "id": "91e10693-4c17-4cc8-82a3-c18118bd43af",
       "ward_no": "10",
-      "ward_name_en": "Kattoli",
-      "ward_name_ml": "കട്ടോളി"
+      "name_en": "Kattoli",
+      "name_ml": "കട്ടോളി"
     },
     {
-      "ward_id": "061e8dd0-732e-4c25-ae4c-21bc39a6f357",
+      "id": "061e8dd0-732e-4c25-ae4c-21bc39a6f357",
       "ward_no": "11",
-      "ward_name_en": "Thandapuram",
-      "ward_name_ml": "തണ്ടപ്പുറം"
+      "name_en": "Thandapuram",
+      "name_ml": "തണ്ടപ്പുറം"
     },
     {
-      "ward_id": "acca463e-1160-4ac6-82e5-eaff43151320",
+      "id": "acca463e-1160-4ac6-82e5-eaff43151320",
       "ward_no": "12",
-      "ward_name_en": "Chemmadam",
-      "ward_name_ml": "ചെമ്മാടം"
+      "name_en": "Chemmadam",
+      "name_ml": "ചെമ്മാടം"
     },
     {
-      "ward_id": "8532b39a-a619-464a-b4c0-0a9695d717ce",
+      "id": "8532b39a-a619-464a-b4c0-0a9695d717ce",
       "ward_no": "13",
-      "ward_name_en": "Chekkikulam",
-      "ward_name_ml": "ചെക്കിക്കുളം"
+      "name_en": "Chekkikulam",
+      "name_ml": "ചെക്കിക്കുളം"
     },
     {
-      "ward_id": "e69fef42-bcba-403a-96e8-a1de714fa770",
+      "id": "e69fef42-bcba-403a-96e8-a1de714fa770",
       "ward_no": "14",
-      "ward_name_en": "Maniyoor Central",
-      "ward_name_ml": "മാണിയൂര്‍സെന്‍ട്രല്‍"
+      "name_en": "Maniyoor Central",
+      "name_ml": "മാണിയൂര്‍സെന്‍ട്രല്‍"
     },
     {
-      "ward_id": "8b375f36-48c9-4476-b1ff-44643dff1349",
+      "id": "8b375f36-48c9-4476-b1ff-44643dff1349",
       "ward_no": "15",
-      "ward_name_en": "Chatukappara",
-      "ward_name_ml": "ചട്ടുകപ്പാറ"
+      "name_en": "Chatukappara",
+      "name_ml": "ചട്ടുകപ്പാറ"
     },
     {
-      "ward_id": "39fb416a-a3a6-442d-9d14-cc9d7c142420",
+      "id": "39fb416a-a3a6-442d-9d14-cc9d7c142420",
       "ward_no": "16",
-      "ward_name_en": "Porolam",
-      "ward_name_ml": "പൊറോളം"
+      "name_en": "Porolam",
+      "name_ml": "പൊറോളം"
     }
   ],
   "towns": [],

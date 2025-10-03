@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G060603",
-  "local_body_name_en": "Vandanmedu",
-  "local_body_name_ml": "വണ്ടന്‍മേട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "89",
-    "assembly_name_en": "Udumbanchola",
-    "assembly_name_ml": "ഉടുമ്പന്‍ചോല",
+  "id": "G060603",
+  "name_en": "Vandanmedu",
+  "name_ml": "വണ്ടന്‍മേട്",
+  "assembly_id": "89",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "89",
+    "name_en": "Udumbanchola",
+    "name_ml": "ഉടുമ്പന്‍ചോല",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "104a39a1-05be-4d45-bfa5-7529d98435c1",
+      "id": "104a39a1-05be-4d45-bfa5-7529d98435c1",
       "ward_no": "1",
-      "ward_name_en": "Mali",
-      "ward_name_ml": "മാലി"
+      "name_en": "Mali",
+      "name_ml": "മാലി"
     },
     {
-      "ward_id": "5ffc0c3a-6851-4339-a6dc-d7428e9347b6",
+      "id": "5ffc0c3a-6851-4339-a6dc-d7428e9347b6",
       "ward_no": "2",
-      "ward_name_en": "Hemakkadavu",
-      "ward_name_ml": "ഹേമക്കടവ്"
+      "name_en": "Hemakkadavu",
+      "name_ml": "ഹേമക്കടവ്"
     },
     {
-      "ward_id": "f0420753-f959-4143-be1a-fd06831d2e62",
+      "id": "f0420753-f959-4143-be1a-fd06831d2e62",
       "ward_no": "3",
-      "ward_name_en": "Puliyanmala",
-      "ward_name_ml": "പുളിയന്‍മല"
+      "name_en": "Puliyanmala",
+      "name_ml": "പുളിയന്‍മല"
     },
     {
-      "ward_id": "fbfd67ca-3562-4beb-934d-b25a3b5f5ccf",
+      "id": "fbfd67ca-3562-4beb-934d-b25a3b5f5ccf",
       "ward_no": "4",
-      "ward_name_en": "Amayar",
-      "ward_name_ml": "ആമയാര്‍"
+      "name_en": "Amayar",
+      "name_ml": "ആമയാര്‍"
     },
     {
-      "ward_id": "f60f8e52-ab6c-4b3d-a83d-724ec0dda891",
+      "id": "f60f8e52-ab6c-4b3d-a83d-724ec0dda891",
       "ward_no": "5",
-      "ward_name_en": "Vellimala",
-      "ward_name_ml": "വെള്ളിമല"
+      "name_en": "Vellimala",
+      "name_ml": "വെള്ളിമല"
     },
     {
-      "ward_id": "9444a8bb-635e-4df1-8325-9bb54d51f39b",
+      "id": "9444a8bb-635e-4df1-8325-9bb54d51f39b",
       "ward_no": "6",
-      "ward_name_en": "Chettukuzhi",
-      "ward_name_ml": "ചേറ്റുകുഴി"
+      "name_en": "Chettukuzhi",
+      "name_ml": "ചേറ്റുകുഴി"
     },
     {
-      "ward_id": "a36e1f08-0e09-4b60-bd2d-206640146c49",
+      "id": "a36e1f08-0e09-4b60-bd2d-206640146c49",
       "ward_no": "7",
-      "ward_name_en": "Kochara",
-      "ward_name_ml": "കൊച്ചറ"
+      "name_en": "Kochara",
+      "name_ml": "കൊച്ചറ"
     },
     {
-      "ward_id": "fbe54f3c-f991-482c-b535-0a9cb908d4a1",
+      "id": "fbe54f3c-f991-482c-b535-0a9cb908d4a1",
       "ward_no": "8",
-      "ward_name_en": "Rajakandom",
-      "ward_name_ml": "രാജാക്കണ്ടം"
+      "name_en": "Rajakandom",
+      "name_ml": "രാജാക്കണ്ടം"
     },
     {
-      "ward_id": "ba5caa6b-5e88-46c5-bde9-b494de345440",
+      "id": "ba5caa6b-5e88-46c5-bde9-b494de345440",
       "ward_no": "9",
-      "ward_name_en": "Nettithozhu",
-      "ward_name_ml": "നെറ്റിത്തൊഴു"
+      "name_en": "Nettithozhu",
+      "name_ml": "നെറ്റിത്തൊഴു"
     },
     {
-      "ward_id": "e9840904-fe09-42e9-855b-0f7837b192c8",
+      "id": "e9840904-fe09-42e9-855b-0f7837b192c8",
       "ward_no": "10",
-      "ward_name_en": "Myladumpara",
-      "ward_name_ml": "മൈലാടുംപാറ"
+      "name_en": "Myladumpara",
+      "name_ml": "മൈലാടുംപാറ"
     },
     {
-      "ward_id": "5ad86980-f655-4ea4-b24c-4e2a08d60de5",
+      "id": "5ad86980-f655-4ea4-b24c-4e2a08d60de5",
       "ward_no": "11",
-      "ward_name_en": "Achankanam",
-      "ward_name_ml": "അച്ചന്‍കാനം"
+      "name_en": "Achankanam",
+      "name_ml": "അച്ചന്‍കാനം"
     },
     {
-      "ward_id": "1e9dab41-a3ac-48cd-9e37-d7ca04d8e23b",
+      "id": "1e9dab41-a3ac-48cd-9e37-d7ca04d8e23b",
       "ward_no": "12",
-      "ward_name_en": "Puttady",
-      "ward_name_ml": "പുറ്റടി"
+      "name_en": "Puttady",
+      "name_ml": "പുറ്റടി"
     },
     {
-      "ward_id": "01cae660-3a64-42bc-b41e-fb756bcaf042",
+      "id": "01cae660-3a64-42bc-b41e-fb756bcaf042",
       "ward_no": "13",
-      "ward_name_en": "Anakkara",
-      "ward_name_ml": "അണക്കര"
+      "name_en": "Anakkara",
+      "name_ml": "അണക്കര"
     },
     {
-      "ward_id": "3d95e3fc-4b4b-4997-8c36-245b10967437",
+      "id": "3d95e3fc-4b4b-4997-8c36-245b10967437",
       "ward_no": "14",
-      "ward_name_en": "Kadassikkadavu",
-      "ward_name_ml": "കടശ്ശിക്കടവ്"
+      "name_en": "Kadassikkadavu",
+      "name_ml": "കടശ്ശിക്കടവ്"
     },
     {
-      "ward_id": "872bcf4b-49ef-46c1-b977-5a0307edcda7",
+      "id": "872bcf4b-49ef-46c1-b977-5a0307edcda7",
       "ward_no": "15",
-      "ward_name_en": "Inchappadappu",
-      "ward_name_ml": "ഇഞ്ചപ്പടപ്പ്"
+      "name_en": "Inchappadappu",
+      "name_ml": "ഇഞ്ചപ്പടപ്പ്"
     },
     {
-      "ward_id": "bd647c10-59a0-4b1c-a280-c4d4b3541924",
+      "id": "bd647c10-59a0-4b1c-a280-c4d4b3541924",
       "ward_no": "16",
-      "ward_name_en": "Sasthanada",
-      "ward_name_ml": "ശാസ്താനട"
+      "name_en": "Sasthanada",
+      "name_ml": "ശാസ്താനട"
     },
     {
-      "ward_id": "6967ee6a-479e-4d44-bb78-512731229f08",
+      "id": "6967ee6a-479e-4d44-bb78-512731229f08",
       "ward_no": "17",
-      "ward_name_en": "Karuvakulam",
-      "ward_name_ml": "കറുവാക്കുളം"
+      "name_en": "Karuvakulam",
+      "name_ml": "കറുവാക്കുളം"
     },
     {
-      "ward_id": "81926171-82d4-4703-9a51-c3c127163347",
+      "id": "81926171-82d4-4703-9a51-c3c127163347",
       "ward_no": "18",
-      "ward_name_en": "Vandanmedu",
-      "ward_name_ml": "വണ്ടന്‍മേട്"
+      "name_en": "Vandanmedu",
+      "name_ml": "വണ്ടന്‍മേട്"
     }
   ],
   "towns": [],

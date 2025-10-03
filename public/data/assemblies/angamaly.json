@@ -1,68 +1,91 @@
 {
-  "assembly_id": "75",
-  "assembly_name_en": "Angamaly",
-  "assembly_name_ml": "അങ്കമാലി",
-  "category": "Normal",
+  "id": "75",
+  "name_en": "Angamaly",
+  "name_ml": "അങ്കമാലി",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070305",
-      "local_body_name_en": "Ayyampuzha",
-      "local_body_name_ml": "അയ്യമ്പുഴ",
-      "category": "Normal"
+      "id": "G070305",
+      "name_en": "Ayyampuzha",
+      "name_ml": "അയ്യമ്പുഴ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070307",
-      "local_body_name_en": "Kalady",
-      "local_body_name_ml": "കാലടി",
-      "category": "Good"
+      "id": "G070307",
+      "name_en": "Kalady",
+      "name_ml": "കാലടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G070304",
-      "local_body_name_en": "Karukutty",
-      "local_body_name_ml": "കറുകുറ്റി",
-      "category": "Normal"
+      "id": "G070304",
+      "name_en": "Karukutty",
+      "name_ml": "കറുകുറ്റി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070308",
-      "local_body_name_en": "MalayattoorNeeleswaram",
-      "local_body_name_ml": "മലയാറ്റൂര്‍ നീലേശ്വരം",
-      "category": "Perfect"
+      "id": "G070308",
+      "name_en": "MalayattoorNeeleswaram",
+      "name_ml": "മലയാറ്റൂര്‍ നീലേശ്വരം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G070303",
-      "local_body_name_en": "Manjapra",
-      "local_body_name_ml": "മഞ്ഞപ്ര",
-      "category": "Perfect"
+      "id": "G070303",
+      "name_en": "Manjapra",
+      "name_ml": "മഞ്ഞപ്ര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G070301",
-      "local_body_name_en": "Mookkannur",
-      "local_body_name_ml": "മൂക്കന്നൂര്‍",
-      "category": "Normal"
+      "id": "G070301",
+      "name_en": "Mookkannur",
+      "name_ml": "മൂക്കന്നൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071304",
-      "local_body_name_en": "Parakkadavu",
-      "local_body_name_ml": "പാറക്കടവ്",
-      "category": "Normal"
+      "id": "G071304",
+      "name_en": "Parakkadavu",
+      "name_ml": "പാറക്കടവ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070302",
-      "local_body_name_en": "Thuravoor",
-      "local_body_name_ml": "തുറവൂര്‍",
-      "category": "Perfect"
+      "id": "G070302",
+      "name_en": "Thuravoor",
+      "name_ml": "തുറവൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M070300",
-      "local_body_name_en": "Angamaly",
-      "local_body_name_ml": "അങ്കമാലി",
-      "category": "Normal"
+      "id": "M070300",
+      "name_en": "Angamaly",
+      "name_ml": "അങ്കമാലി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G100106",
-  "local_body_name_en": "Pothukallu",
-  "local_body_name_ml": "പോത്തുകല്ല്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "35",
-    "assembly_name_en": "Nilambur",
-    "assembly_name_ml": "നിലമ്പൂര്‍",
+  "id": "G100106",
+  "name_en": "Pothukallu",
+  "name_ml": "പോത്തുകല്ല്",
+  "assembly_id": "35",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "35",
+    "name_en": "Nilambur",
+    "name_ml": "നിലമ്പൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4c519703-7957-411d-96e9-bfde3b371483",
+      "id": "4c519703-7957-411d-96e9-bfde3b371483",
       "ward_no": "1",
-      "ward_name_en": "Santhigram",
-      "ward_name_ml": "ശാന്തിഗ്രാം"
+      "name_en": "Santhigram",
+      "name_ml": "ശാന്തിഗ്രാം"
     },
     {
-      "ward_id": "7b5c06b7-15b0-4ecc-8dc2-a6fb39ee1661",
+      "id": "7b5c06b7-15b0-4ecc-8dc2-a6fb39ee1661",
       "ward_no": "2",
-      "ward_name_en": "Thamburattikkallu",
-      "ward_name_ml": "തമ്പുരാട്ടിക്കല്ല്"
+      "name_en": "Thamburattikkallu",
+      "name_ml": "തമ്പുരാട്ടിക്കല്ല്"
     },
     {
-      "ward_id": "6f7645c4-a190-4020-bc6b-09c53035154f",
+      "id": "6f7645c4-a190-4020-bc6b-09c53035154f",
       "ward_no": "3",
-      "ward_name_en": "Munderi",
-      "ward_name_ml": "മുണ്ടേരി"
+      "name_en": "Munderi",
+      "name_ml": "മുണ്ടേരി"
     },
     {
-      "ward_id": "24318a3a-250a-4839-b853-13c19cb90375",
+      "id": "24318a3a-250a-4839-b853-13c19cb90375",
       "ward_no": "4",
-      "ward_name_en": "Muramthookki",
-      "ward_name_ml": "മുറംതൂക്കി"
+      "name_en": "Muramthookki",
+      "name_ml": "മുറംതൂക്കി"
     },
     {
-      "ward_id": "c6eb7dff-7eb3-4b3a-bfe4-d992728eb8c0",
+      "id": "c6eb7dff-7eb3-4b3a-bfe4-d992728eb8c0",
       "ward_no": "5",
-      "ward_name_en": "Velumbiyampadam",
-      "ward_name_ml": "വെളുമ്പിയംപാടം"
+      "name_en": "Velumbiyampadam",
+      "name_ml": "വെളുമ്പിയംപാടം"
     },
     {
-      "ward_id": "79e79d47-4a3e-44ad-a12c-415b310494be",
+      "id": "79e79d47-4a3e-44ad-a12c-415b310494be",
       "ward_no": "6",
-      "ward_name_en": "Ambittampotty",
-      "ward_name_ml": "അമ്പിട്ടാന്‍പൊട്ടി"
+      "name_en": "Ambittampotty",
+      "name_ml": "അമ്പിട്ടാന്‍പൊട്ടി"
     },
     {
-      "ward_id": "1f38f5a7-3aaf-422b-9c0c-914d28d6c723",
+      "id": "1f38f5a7-3aaf-422b-9c0c-914d28d6c723",
       "ward_no": "7",
-      "ward_name_en": "Pothukallu",
-      "ward_name_ml": "പോത്തുകല്ല്"
+      "name_en": "Pothukallu",
+      "name_ml": "പോത്തുകല്ല്"
     },
     {
-      "ward_id": "baab4fb3-b342-4b25-b28c-778e02ca3391",
+      "id": "baab4fb3-b342-4b25-b28c-778e02ca3391",
       "ward_no": "8",
-      "ward_name_en": "Muthukulam",
-      "ward_name_ml": "മുതുകുളം"
+      "name_en": "Muthukulam",
+      "name_ml": "മുതുകുളം"
     },
     {
-      "ward_id": "578abf88-7a73-4add-bc26-6936b9bff75f",
+      "id": "578abf88-7a73-4add-bc26-6936b9bff75f",
       "ward_no": "9",
-      "ward_name_en": "Kodalipoyil",
-      "ward_name_ml": "കോടാലിപൊയില്‍"
+      "name_en": "Kodalipoyil",
+      "name_ml": "കോടാലിപൊയില്‍"
     },
     {
-      "ward_id": "bc37ad68-dd60-4968-9f3c-c47b34cd3f33",
+      "id": "bc37ad68-dd60-4968-9f3c-c47b34cd3f33",
       "ward_no": "10",
-      "ward_name_en": "Anakkallu",
-      "ward_name_ml": "ആനക്കല്ല്"
+      "name_en": "Anakkallu",
+      "name_ml": "ആനക്കല്ല്"
     },
     {
-      "ward_id": "33d88eff-1b65-4b35-9bcf-d57f7707582c",
+      "id": "33d88eff-1b65-4b35-9bcf-d57f7707582c",
       "ward_no": "11",
-      "ward_name_en": "Nettikulam",
-      "ward_name_ml": "നെട്ടിക്കുളം"
+      "name_en": "Nettikulam",
+      "name_ml": "നെട്ടിക്കുളം"
     },
     {
-      "ward_id": "85cb6d10-637a-4f9a-8597-3efa3e0d5cc1",
+      "id": "85cb6d10-637a-4f9a-8597-3efa3e0d5cc1",
       "ward_no": "12",
-      "ward_name_en": "Uppada",
-      "ward_name_ml": "ഉപ്പട"
+      "name_en": "Uppada",
+      "name_ml": "ഉപ്പട"
     },
     {
-      "ward_id": "435643fa-7949-42c5-9797-02fe3417b784",
+      "id": "435643fa-7949-42c5-9797-02fe3417b784",
       "ward_no": "13",
-      "ward_name_en": "Vellimuttam",
-      "ward_name_ml": "വെളളിമുറ്റം"
+      "name_en": "Vellimuttam",
+      "name_ml": "വെളളിമുറ്റം"
     },
     {
-      "ward_id": "9e803ba5-230e-4dda-8398-2cd24d7bfb19",
+      "id": "9e803ba5-230e-4dda-8398-2cd24d7bfb19",
       "ward_no": "14",
-      "ward_name_en": "Pathar",
-      "ward_name_ml": "പാതാര്‍"
+      "name_en": "Pathar",
+      "name_ml": "പാതാര്‍"
     },
     {
-      "ward_id": "76a3c7fe-4e95-472a-8cb3-5e061e4def8a",
+      "id": "76a3c7fe-4e95-472a-8cb3-5e061e4def8a",
       "ward_no": "15",
-      "ward_name_en": "Poolappadam",
-      "ward_name_ml": "പൂളപ്പാടം"
+      "name_en": "Poolappadam",
+      "name_ml": "പൂളപ്പാടം"
     },
     {
-      "ward_id": "c9bdb2cc-664d-4603-9220-c01ec0537831",
+      "id": "c9bdb2cc-664d-4603-9220-c01ec0537831",
       "ward_no": "16",
-      "ward_name_en": "Panamkayam",
-      "ward_name_ml": "പനങ്കയം"
+      "name_en": "Panamkayam",
+      "name_ml": "പനങ്കയം"
     },
     {
-      "ward_id": "f16c56ae-aed6-4d90-b512-12c458bb1aa4",
+      "id": "f16c56ae-aed6-4d90-b512-12c458bb1aa4",
       "ward_no": "17",
-      "ward_name_en": "Bhoodanam",
-      "ward_name_ml": "ഭൂദാനം"
+      "name_en": "Bhoodanam",
+      "name_ml": "ഭൂദാനം"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G050505",
-  "local_body_name_en": "Meenachil",
-  "local_body_name_ml": "മീനച്ചില്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G050505",
+  "name_en": "Meenachil",
+  "name_ml": "മീനച്ചില്‍",
+  "assembly_id": "93",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "93",
-    "assembly_name_en": "Pala",
-    "assembly_name_ml": "പാലാ",
-    "category": "Normal"
+    "id": "93",
+    "name_en": "Pala",
+    "name_ml": "പാലാ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "088a633d-b36b-4182-9c39-6964c5eb324a",
+      "id": "088a633d-b36b-4182-9c39-6964c5eb324a",
       "ward_no": "1",
-      "ward_name_en": "Parappally",
-      "ward_name_ml": "പാറപ്പള്ളി"
+      "name_en": "Parappally",
+      "name_ml": "പാറപ്പള്ളി"
     },
     {
-      "ward_id": "60f8e416-4661-47dc-b259-7d03879d362e",
+      "id": "60f8e416-4661-47dc-b259-7d03879d362e",
       "ward_no": "2",
-      "ward_name_en": "Kizhaparayar",
-      "ward_name_ml": "കിഴപറയാര്‍"
+      "name_en": "Kizhaparayar",
+      "name_ml": "കിഴപറയാര്‍"
     },
     {
-      "ward_id": "84255c74-0f54-4441-9bab-f7d172d366fa",
+      "id": "84255c74-0f54-4441-9bab-f7d172d366fa",
       "ward_no": "3",
-      "ward_name_en": "Edamattom",
-      "ward_name_ml": "ഇടമറ്റം"
+      "name_en": "Edamattom",
+      "name_ml": "ഇടമറ്റം"
     },
     {
-      "ward_id": "cb31499e-1757-49ee-9741-99214081ac94",
+      "id": "cb31499e-1757-49ee-9741-99214081ac94",
       "ward_no": "4",
-      "ward_name_en": "Poovathodu",
-      "ward_name_ml": "പൂവത്തോട്"
+      "name_en": "Poovathodu",
+      "name_ml": "പൂവത്തോട്"
     },
     {
-      "ward_id": "98ee83f2-9160-49fe-9e06-449d8afd5e73",
+      "id": "98ee83f2-9160-49fe-9e06-449d8afd5e73",
       "ward_no": "5",
-      "ward_name_en": "Chathamkulam",
-      "ward_name_ml": "ചാത്തംകുളം"
+      "name_en": "Chathamkulam",
+      "name_ml": "ചാത്തംകുളം"
     },
     {
-      "ward_id": "897f57c1-af31-4d49-a83d-53d14b2b72c1",
+      "id": "897f57c1-af31-4d49-a83d-53d14b2b72c1",
       "ward_no": "6",
-      "ward_name_en": "Vilakkumadom",
-      "ward_name_ml": "വിളക്കുമാടം"
+      "name_en": "Vilakkumadom",
+      "name_ml": "വിളക്കുമാടം"
     },
     {
-      "ward_id": "2a5c77d9-3099-49bb-bc95-5270b8801ed9",
+      "id": "2a5c77d9-3099-49bb-bc95-5270b8801ed9",
       "ward_no": "7",
-      "ward_name_en": "Paika",
-      "ward_name_ml": "പൈക"
+      "name_en": "Paika",
+      "name_ml": "പൈക"
     },
     {
-      "ward_id": "c0bf702b-9927-44e5-8a74-9e9f29434bcd",
+      "id": "c0bf702b-9927-44e5-8a74-9e9f29434bcd",
       "ward_no": "8",
-      "ward_name_en": "Poovarani",
-      "ward_name_ml": "പൂവരണി"
+      "name_en": "Poovarani",
+      "name_ml": "പൂവരണി"
     },
     {
-      "ward_id": "bac63e1c-a362-497a-beb6-839deef3f8a4",
+      "id": "bac63e1c-a362-497a-beb6-839deef3f8a4",
       "ward_no": "9",
-      "ward_name_en": "Mukalel Peedika",
-      "ward_name_ml": "മുകളേല്‍ പീടിക"
+      "name_en": "Mukalel Peedika",
+      "name_ml": "മുകളേല്‍ പീടിക"
     },
     {
-      "ward_id": "1baf4c65-2e69-464d-98ed-4b2cc8613fe3",
+      "id": "1baf4c65-2e69-464d-98ed-4b2cc8613fe3",
       "ward_no": "10",
-      "ward_name_en": "Kochukottaram",
-      "ward_name_ml": "കൊച്ചുകൊട്ടാരം"
+      "name_en": "Kochukottaram",
+      "name_ml": "കൊച്ചുകൊട്ടാരം"
     },
     {
-      "ward_id": "bd5b4d7f-18f9-49b1-b8ed-044f9e78981f",
+      "id": "bd5b4d7f-18f9-49b1-b8ed-044f9e78981f",
       "ward_no": "11",
-      "ward_name_en": "Palaakkadu",
-      "ward_name_ml": "പാലാക്കാട്"
+      "name_en": "Palaakkadu",
+      "name_ml": "പാലാക്കാട്"
     },
     {
-      "ward_id": "610d9312-b60c-4e1f-a971-a05c1c29575a",
+      "id": "610d9312-b60c-4e1f-a971-a05c1c29575a",
       "ward_no": "12",
-      "ward_name_en": "Vilakkummaruthu",
-      "ward_name_ml": "വിളക്കുംമരുത്"
+      "name_en": "Vilakkummaruthu",
+      "name_ml": "വിളക്കുംമരുത്"
     },
     {
-      "ward_id": "4647e001-cfeb-443c-9e9b-774835be1d41",
+      "id": "4647e001-cfeb-443c-9e9b-774835be1d41",
       "ward_no": "13",
-      "ward_name_en": "Meenachil",
-      "ward_name_ml": "മീനച്ചില്‍"
+      "name_en": "Meenachil",
+      "name_ml": "മീനച്ചില്‍"
     }
   ],
   "towns": [],

@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G021004",
-  "local_body_name_en": "Adichanalloor",
-  "local_body_name_ml": "ആദിച്ചനല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G021004",
+  "name_en": "Adichanalloor",
+  "name_ml": "ആദിച്ചനല്ലൂര്‍",
+  "assembly_id": "126",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "126",
-    "assembly_name_en": "Chathannoor",
-    "assembly_name_ml": "ചാത്തന്നൂർ",
-    "category": "Normal"
+    "id": "126",
+    "name_en": "Chathannoor",
+    "name_ml": "ചാത്തന്നൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "dfe47305-8c77-431d-8aa2-790fe2f55164",
+      "id": "dfe47305-8c77-431d-8aa2-790fe2f55164",
       "ward_no": "13",
-      "ward_name_en": "Ithikkara",
-      "ward_name_ml": "ഇത്തിക്കര"
+      "name_en": "Ithikkara",
+      "name_ml": "ഇത്തിക്കര"
     },
     {
-      "ward_id": "adf8cb53-411b-408d-bca5-9d14a502d95f",
+      "id": "adf8cb53-411b-408d-bca5-9d14a502d95f",
       "ward_no": "1",
-      "ward_name_en": "Thazhuthala",
-      "ward_name_ml": "തഴുത്തല"
+      "name_en": "Thazhuthala",
+      "name_ml": "തഴുത്തല"
     },
     {
-      "ward_id": "4fb3d1cb-33ea-4d7c-9ed3-9a37002deb7c",
+      "id": "4fb3d1cb-33ea-4d7c-9ed3-9a37002deb7c",
       "ward_no": "2",
-      "ward_name_en": "Punchirichira",
-      "ward_name_ml": "പുഞ്ചിരിച്ചിറ"
+      "name_en": "Punchirichira",
+      "name_ml": "പുഞ്ചിരിച്ചിറ"
     },
     {
-      "ward_id": "9f249514-d398-4831-a987-7f3c49e31a28",
+      "id": "9f249514-d398-4831-a987-7f3c49e31a28",
       "ward_no": "3",
-      "ward_name_en": "Alumkadavu",
-      "ward_name_ml": "ആലുംകടവ്"
+      "name_en": "Alumkadavu",
+      "name_ml": "ആലുംകടവ്"
     },
     {
-      "ward_id": "4f6f6fa3-8f43-46a5-9694-26a45e82a415",
+      "id": "4f6f6fa3-8f43-46a5-9694-26a45e82a415",
       "ward_no": "4",
-      "ward_name_en": "Plakkadu",
-      "ward_name_ml": "പ്ലാക്കാട്"
+      "name_en": "Plakkadu",
+      "name_ml": "പ്ലാക്കാട്"
     },
     {
-      "ward_id": "cdb2dd47-285e-4b0e-b8f8-cbe6d65792fa",
+      "id": "cdb2dd47-285e-4b0e-b8f8-cbe6d65792fa",
       "ward_no": "5",
-      "ward_name_en": "Farmers Bank",
-      "ward_name_ml": "ഫാര്‍മേഴ്സ് ബാങ്ക്"
+      "name_en": "Farmers Bank",
+      "name_ml": "ഫാര്‍മേഴ്സ് ബാങ്ക്"
     },
     {
-      "ward_id": "3459e469-2db4-4b6f-8ebb-ac172ae7962b",
+      "id": "3459e469-2db4-4b6f-8ebb-ac172ae7962b",
       "ward_no": "6",
-      "ward_name_en": "Kundumon",
-      "ward_name_ml": "കുണ്ടുമണ്‍"
+      "name_en": "Kundumon",
+      "name_ml": "കുണ്ടുമണ്‍"
     },
     {
-      "ward_id": "321c5979-363f-4526-8843-080b8d9b2532",
+      "id": "321c5979-363f-4526-8843-080b8d9b2532",
       "ward_no": "7",
-      "ward_name_en": "Adichanalloor",
-      "ward_name_ml": "ആദിച്ചനല്ലൂര്‍"
+      "name_en": "Adichanalloor",
+      "name_ml": "ആദിച്ചനല്ലൂര്‍"
     },
     {
-      "ward_id": "800edfc0-4984-4a39-b4d8-109a812288bf",
+      "id": "800edfc0-4984-4a39-b4d8-109a812288bf",
       "ward_no": "8",
-      "ward_name_en": "Velichikkala",
-      "ward_name_ml": "വെളിച്ചിക്കാല"
+      "name_en": "Velichikkala",
+      "name_ml": "വെളിച്ചിക്കാല"
     },
     {
-      "ward_id": "012d676e-532a-4a0c-ab11-cfa37bfa35d6",
+      "id": "012d676e-532a-4a0c-ab11-cfa37bfa35d6",
       "ward_no": "9",
-      "ward_name_en": "Kummalloor",
-      "ward_name_ml": "കുമ്മല്ലൂര്‍"
+      "name_en": "Kummalloor",
+      "name_ml": "കുമ്മല്ലൂര്‍"
     },
     {
-      "ward_id": "efd1e59c-f1d4-46bd-8a30-e6ed8f38c71a",
+      "id": "efd1e59c-f1d4-46bd-8a30-e6ed8f38c71a",
       "ward_no": "10",
-      "ward_name_en": "Kattachal",
-      "ward_name_ml": "കട്ടച്ചല്‍"
+      "name_en": "Kattachal",
+      "name_ml": "കട്ടച്ചല്‍"
     },
     {
-      "ward_id": "0bbaa7ca-90ba-40de-9c6b-b9fe7f071890",
+      "id": "0bbaa7ca-90ba-40de-9c6b-b9fe7f071890",
       "ward_no": "11",
-      "ward_name_en": "Kaithkuzhy",
-      "ward_name_ml": "കൈതക്കുഴി"
+      "name_en": "Kaithkuzhy",
+      "name_ml": "കൈതക്കുഴി"
     },
     {
-      "ward_id": "ab04e904-9766-47a1-a2af-df93f7a8a81d",
+      "id": "ab04e904-9766-47a1-a2af-df93f7a8a81d",
       "ward_no": "12",
-      "ward_name_en": "Mylakkadu",
-      "ward_name_ml": "മൈലക്കാട്"
+      "name_en": "Mylakkadu",
+      "name_ml": "മൈലക്കാട്"
     },
     {
-      "ward_id": "776a6c74-5148-486f-8dc5-3f6475f9d232",
+      "id": "776a6c74-5148-486f-8dc5-3f6475f9d232",
       "ward_no": "14",
-      "ward_name_en": "Ottaplamoodu",
-      "ward_name_ml": "ഒറ്റപ്ലാമൂട്"
+      "name_en": "Ottaplamoodu",
+      "name_ml": "ഒറ്റപ്ലാമൂട്"
     },
     {
-      "ward_id": "a441c840-3538-410c-83b6-35f44bc76b92",
+      "id": "a441c840-3538-410c-83b6-35f44bc76b92",
       "ward_no": "15",
-      "ward_name_en": "Anakuzhi",
-      "ward_name_ml": "ആനക്കുഴി"
+      "name_en": "Anakuzhi",
+      "name_ml": "ആനക്കുഴി"
     },
     {
-      "ward_id": "b48e354c-3880-4979-84d0-5049d03eab1c",
+      "id": "b48e354c-3880-4979-84d0-5049d03eab1c",
       "ward_no": "16",
-      "ward_name_en": "Mylakkadu West",
-      "ward_name_ml": "പടിഞ്ഞാറേ മൈലക്കാട്"
+      "name_en": "Mylakkadu West",
+      "name_ml": "പടിഞ്ഞാറേ മൈലക്കാട്"
     },
     {
-      "ward_id": "927ea484-398c-4445-9dff-0d184ec29cc7",
+      "id": "927ea484-398c-4445-9dff-0d184ec29cc7",
       "ward_no": "17",
-      "ward_name_en": "Kottiyam East",
-      "ward_name_ml": "കൊട്ടിയം കിഴക്ക്"
+      "name_en": "Kottiyam East",
+      "name_ml": "കൊട്ടിയം കിഴക്ക്"
     },
     {
-      "ward_id": "75bec6c7-cd3e-43fc-8bb8-4fa4e3744ff7",
+      "id": "75bec6c7-cd3e-43fc-8bb8-4fa4e3744ff7",
       "ward_no": "18",
-      "ward_name_en": "Venmanichira",
-      "ward_name_ml": "വെണ്‍മണിച്ചിറ"
+      "name_en": "Venmanichira",
+      "name_ml": "വെണ്‍മണിച്ചിറ"
     },
     {
-      "ward_id": "63cbecd6-4805-45d8-a671-016b388672bf",
+      "id": "63cbecd6-4805-45d8-a671-016b388672bf",
       "ward_no": "19",
-      "ward_name_en": "Kottiyam",
-      "ward_name_ml": "കൊട്ടിയം"
+      "name_en": "Kottiyam",
+      "name_ml": "കൊട്ടിയം"
     },
     {
-      "ward_id": "26857dd9-c0c9-4342-b6fc-0ca4aed1e897",
+      "id": "26857dd9-c0c9-4342-b6fc-0ca4aed1e897",
       "ward_no": "20",
-      "ward_name_en": "Thazhuthala South",
-      "ward_name_ml": "തഴുത്തല തെക്ക്"
+      "name_en": "Thazhuthala South",
+      "name_ml": "തഴുത്തല തെക്ക്"
     }
   ],
   "towns": [],

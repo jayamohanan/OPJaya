@@ -1,62 +1,83 @@
 {
-  "assembly_id": "70",
-  "assembly_name_en": "Irinjalakuda",
-  "assembly_name_ml": "ഇരിങ്ങാലക്കുട",
-  "category": "Normal",
+  "id": "70",
+  "name_en": "Irinjalakuda",
+  "name_ml": "ഇരിങ്ങാലക്കുട",
+  "district_id": "8",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "district_category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M080500",
-      "local_body_name_en": "Irinjalakuda",
-      "local_body_name_ml": "ഇരിങ്ങാലക്കുട",
-      "category": "Good"
+      "id": "M080500",
+      "name_en": "Irinjalakuda",
+      "name_ml": "ഇരിങ്ങാലക്കുട",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081201",
-      "local_body_name_en": "Karalam",
-      "local_body_name_ml": "കാറളം",
-      "category": "Normal"
+      "id": "G081201",
+      "name_en": "Karalam",
+      "name_ml": "കാറളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G081202",
-      "local_body_name_en": "Kattoor",
-      "local_body_name_ml": "കാട്ടൂര്‍",
-      "category": "Good"
+      "id": "G081202",
+      "name_en": "Kattoor",
+      "name_ml": "കാട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081203",
-      "local_body_name_en": "Muriyad",
-      "local_body_name_ml": "മുരിയാട്",
-      "category": "Perfect"
+      "id": "G081203",
+      "name_en": "Muriyad",
+      "name_ml": "മുരിയാട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G081301",
-      "local_body_name_en": "Padiyur",
-      "local_body_name_ml": "പടിയൂര്‍",
-      "category": "Good"
+      "id": "G081301",
+      "name_en": "Padiyur",
+      "name_ml": "പടിയൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081302",
-      "local_body_name_en": "Poomangalam",
-      "local_body_name_ml": "പൂമംഗലം",
-      "category": "Good"
+      "id": "G081302",
+      "name_en": "Poomangalam",
+      "name_ml": "പൂമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081501",
-      "local_body_name_en": "Aloor",
-      "local_body_name_ml": "ആളൂര്‍",
-      "category": "Good"
+      "id": "G081501",
+      "name_en": "Aloor",
+      "name_ml": "ആളൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G081305",
-      "local_body_name_en": "Velukara",
-      "local_body_name_ml": "വേളൂക്കര",
-      "category": "Normal"
+      "id": "G081305",
+      "name_en": "Velukara",
+      "name_ml": "വേളൂക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

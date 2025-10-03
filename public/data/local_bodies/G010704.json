@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G010704",
-  "local_body_name_en": "Pothencode",
-  "local_body_name_ml": "പോത്തന്‍കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G010704",
+  "name_en": "Pothencode",
+  "name_ml": "പോത്തന്‍കോട്",
+  "assembly_id": "130",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "130",
-    "assembly_name_en": "Nedumangad",
-    "assembly_name_ml": "നെടുമങ്ങാട്",
-    "category": "Normal"
+    "id": "130",
+    "name_en": "Nedumangad",
+    "name_ml": "നെടുമങ്ങാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "db95781c-e01e-4086-bead-89b7c8bb545e",
+      "id": "db95781c-e01e-4086-bead-89b7c8bb545e",
       "ward_no": "1",
-      "ward_name_en": "Manalakam",
-      "ward_name_ml": "മണലകം"
+      "name_en": "Manalakam",
+      "name_ml": "മണലകം"
     },
     {
-      "ward_id": "64ce6813-1fc9-4781-9d49-9ac0d2295987",
+      "id": "64ce6813-1fc9-4781-9d49-9ac0d2295987",
       "ward_no": "2",
-      "ward_name_en": "Nethajipuram",
-      "ward_name_ml": "നേതാജിപുരം"
+      "name_en": "Nethajipuram",
+      "name_ml": "നേതാജിപുരം"
     },
     {
-      "ward_id": "ee2f3762-b539-4b86-b9a9-c90700f5923b",
+      "id": "ee2f3762-b539-4b86-b9a9-c90700f5923b",
       "ward_no": "3",
-      "ward_name_en": "Thachappally",
-      "ward_name_ml": "തച്ചപ്പള്ളി"
+      "name_en": "Thachappally",
+      "name_ml": "തച്ചപ്പള്ളി"
     },
     {
-      "ward_id": "8514451d-f75d-445d-8a73-6e939eb7da1b",
+      "id": "8514451d-f75d-445d-8a73-6e939eb7da1b",
       "ward_no": "4",
-      "ward_name_en": "Vavara Ambalam",
-      "ward_name_ml": "വാവറ അമ്പലം"
+      "name_en": "Vavara Ambalam",
+      "name_ml": "വാവറ അമ്പലം"
     },
     {
-      "ward_id": "25fe3199-2a46-447c-8368-850d828a16be",
+      "id": "25fe3199-2a46-447c-8368-850d828a16be",
       "ward_no": "5",
-      "ward_name_en": "Puliveedu",
-      "ward_name_ml": "പുലിവീട്"
+      "name_en": "Puliveedu",
+      "name_ml": "പുലിവീട്"
     },
     {
-      "ward_id": "f4e353ab-7f94-4a33-9a94-895758edd5b8",
+      "id": "f4e353ab-7f94-4a33-9a94-895758edd5b8",
       "ward_no": "6",
-      "ward_name_en": "Pothencode Town",
-      "ward_name_ml": "പോത്തന്‍കോട് ഠൌണ്‍"
+      "name_en": "Pothencode Town",
+      "name_ml": "പോത്തന്‍കോട് ഠൌണ്‍"
     },
     {
-      "ward_id": "e829b4b7-d2d8-4d37-88c0-a25ab6a3e6f6",
+      "id": "e829b4b7-d2d8-4d37-88c0-a25ab6a3e6f6",
       "ward_no": "7",
-      "ward_name_en": "Plamoodu",
-      "ward_name_ml": "പ്ലാമൂട്"
+      "name_en": "Plamoodu",
+      "name_ml": "പ്ലാമൂട്"
     },
     {
-      "ward_id": "067493e6-7179-4db9-a546-c17939855410",
+      "id": "067493e6-7179-4db9-a546-c17939855410",
       "ward_no": "8",
-      "ward_name_en": "Ayiroopara",
-      "ward_name_ml": "അയിരൂപ്പാറ"
+      "name_en": "Ayiroopara",
+      "name_ml": "അയിരൂപ്പാറ"
     },
     {
-      "ward_id": "9a57b1f4-aa90-4136-9578-a906723b7695",
+      "id": "9a57b1f4-aa90-4136-9578-a906723b7695",
       "ward_no": "9",
-      "ward_name_en": "Melevila",
-      "ward_name_ml": "മേലേവിള"
+      "name_en": "Melevila",
+      "name_ml": "മേലേവിള"
     },
     {
-      "ward_id": "7a5829b1-6c35-4c0b-b163-dfe1bab75cfa",
+      "id": "7a5829b1-6c35-4c0b-b163-dfe1bab75cfa",
       "ward_no": "10",
-      "ward_name_en": "Kattayikkonam",
-      "ward_name_ml": "കാട്ടായിക്കോണം"
+      "name_en": "Kattayikkonam",
+      "name_ml": "കാട്ടായിക്കോണം"
     },
     {
-      "ward_id": "f328310f-fef4-45b9-92d2-e14e85bd9e13",
+      "id": "f328310f-fef4-45b9-92d2-e14e85bd9e13",
       "ward_no": "11",
-      "ward_name_en": "Edathara",
-      "ward_name_ml": "ഇടത്തറ"
+      "name_en": "Edathara",
+      "name_ml": "ഇടത്തറ"
     },
     {
-      "ward_id": "fcfa3352-1069-4220-9fcc-f60722744b86",
+      "id": "fcfa3352-1069-4220-9fcc-f60722744b86",
       "ward_no": "12",
-      "ward_name_en": "Karoor",
-      "ward_name_ml": "കരൂര്‍"
+      "name_en": "Karoor",
+      "name_ml": "കരൂര്‍"
     },
     {
-      "ward_id": "a4942e62-d6d0-4589-9ad9-860c464131fb",
+      "id": "a4942e62-d6d0-4589-9ad9-860c464131fb",
       "ward_no": "13",
-      "ward_name_en": "Panimoola",
-      "ward_name_ml": "പണിമൂല"
+      "name_en": "Panimoola",
+      "name_ml": "പണിമൂല"
     },
     {
-      "ward_id": "9c95af8e-4687-4659-9d09-219ba1f30ca6",
+      "id": "9c95af8e-4687-4659-9d09-219ba1f30ca6",
       "ward_no": "14",
-      "ward_name_en": "Mannara",
-      "ward_name_ml": "മണ്ണറ"
+      "name_en": "Mannara",
+      "name_ml": "മണ്ണറ"
     },
     {
-      "ward_id": "807e0932-9844-4c12-9920-7d82c826b7ac",
+      "id": "807e0932-9844-4c12-9920-7d82c826b7ac",
       "ward_no": "15",
-      "ward_name_en": "Manjamala",
-      "ward_name_ml": "മഞ്ഞമല"
+      "name_en": "Manjamala",
+      "name_ml": "മഞ്ഞമല"
     },
     {
-      "ward_id": "e16d126a-cd8b-45b8-a49e-9328693905d0",
+      "id": "e16d126a-cd8b-45b8-a49e-9328693905d0",
       "ward_no": "16",
-      "ward_name_en": "Kalloor",
-      "ward_name_ml": "കല്ലൂര്‍"
+      "name_en": "Kalloor",
+      "name_ml": "കല്ലൂര്‍"
     },
     {
-      "ward_id": "2988c57a-5a0a-4c21-893e-aa41597336d0",
+      "id": "2988c57a-5a0a-4c21-893e-aa41597336d0",
       "ward_no": "17",
-      "ward_name_en": "Kalluvetty",
-      "ward_name_ml": "കല്ലുവെട്ടി"
+      "name_en": "Kalluvetty",
+      "name_ml": "കല്ലുവെട്ടി"
     },
     {
-      "ward_id": "ca473460-0cb9-4057-9416-da4b01e26cda",
+      "id": "ca473460-0cb9-4057-9416-da4b01e26cda",
       "ward_no": "18",
-      "ward_name_en": "Vengode",
-      "ward_name_ml": "വേങ്ങോട്"
+      "name_en": "Vengode",
+      "name_ml": "വേങ്ങോട്"
     }
   ],
   "towns": [],

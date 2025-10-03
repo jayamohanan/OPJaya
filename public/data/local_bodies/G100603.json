@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G100603",
-  "local_body_name_en": "Ponmala",
-  "local_body_name_ml": "പൊന്‍മള",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G100603",
+  "name_en": "Ponmala",
+  "name_ml": "പൊന്‍മള",
+  "assembly_id": "46",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "46",
-    "assembly_name_en": "Kottakkal",
-    "assembly_name_ml": "കോട്ടക്കല്‍",
-    "category": "Normal"
+    "id": "46",
+    "name_en": "Kottakkal",
+    "name_ml": "കോട്ടക്കല്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "47ccbadb-a2ef-4f4c-9f0f-d0d168678831",
+      "id": "47ccbadb-a2ef-4f4c-9f0f-d0d168678831",
       "ward_no": "1",
-      "ward_name_en": "Poovad",
-      "ward_name_ml": "പൂവാട്"
+      "name_en": "Poovad",
+      "name_ml": "പൂവാട്"
     },
     {
-      "ward_id": "2dd3d20a-0214-4a17-baf4-2623c1a3715e",
+      "id": "2dd3d20a-0214-4a17-baf4-2623c1a3715e",
       "ward_no": "2",
-      "ward_name_en": "Ponmala",
-      "ward_name_ml": "പൊന്മള"
+      "name_en": "Ponmala",
+      "name_ml": "പൊന്മള"
     },
     {
-      "ward_id": "afbdc1b7-efb5-481f-ac73-a7cdb5d7110c",
+      "id": "afbdc1b7-efb5-481f-ac73-a7cdb5d7110c",
       "ward_no": "3",
-      "ward_name_en": "Palliyalil",
-      "ward_name_ml": "പള്ളിയാലില്‍"
+      "name_en": "Palliyalil",
+      "name_ml": "പള്ളിയാലില്‍"
     },
     {
-      "ward_id": "ba155c32-5939-4bee-8056-54164f6f38de",
+      "id": "ba155c32-5939-4bee-8056-54164f6f38de",
       "ward_no": "4",
-      "ward_name_en": "Melmuri",
-      "ward_name_ml": "മേല്‍മുറി"
+      "name_en": "Melmuri",
+      "name_ml": "മേല്‍മുറി"
     },
     {
-      "ward_id": "d645facd-42d2-43d5-8019-92605d0c9c6a",
+      "id": "d645facd-42d2-43d5-8019-92605d0c9c6a",
       "ward_no": "5",
-      "ward_name_en": "Chappanangadi",
-      "ward_name_ml": "ചാപ്പനങ്ങാടി"
+      "name_en": "Chappanangadi",
+      "name_ml": "ചാപ്പനങ്ങാടി"
     },
     {
-      "ward_id": "0d8eb993-31b9-4484-9f11-14bdae3d33d6",
+      "id": "0d8eb993-31b9-4484-9f11-14bdae3d33d6",
       "ward_no": "6",
-      "ward_name_en": "Vattapparamba",
-      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+      "name_en": "Vattapparamba",
+      "name_ml": "വട്ടപ്പറമ്പ്"
     },
     {
-      "ward_id": "9f78fa22-fc27-440e-aeae-67d8a82d93c3",
+      "id": "9f78fa22-fc27-440e-aeae-67d8a82d93c3",
       "ward_no": "7",
-      "ward_name_en": "Mannazhi",
-      "ward_name_ml": "മണ്ണഴി"
+      "name_en": "Mannazhi",
+      "name_ml": "മണ്ണഴി"
     },
     {
-      "ward_id": "4a48faca-5a06-4d05-b04c-1b54c364bcc7",
+      "id": "4a48faca-5a06-4d05-b04c-1b54c364bcc7",
       "ward_no": "8",
-      "ward_name_en": "Chengottur",
-      "ward_name_ml": "ചേങ്ങോട്ടൂര്‍"
+      "name_en": "Chengottur",
+      "name_ml": "ചേങ്ങോട്ടൂര്‍"
     },
     {
-      "ward_id": "b130d708-31c2-4c91-8ef5-85eb06b08cd8",
+      "id": "b130d708-31c2-4c91-8ef5-85eb06b08cd8",
       "ward_no": "9",
-      "ward_name_en": "Akkapparamba",
-      "ward_name_ml": "ആക്കപ്പറമ്പ്"
+      "name_en": "Akkapparamba",
+      "name_ml": "ആക്കപ്പറമ്പ്"
     },
     {
-      "ward_id": "fe4ad11d-d6ee-41da-8cc3-e343d1743bbf",
+      "id": "fe4ad11d-d6ee-41da-8cc3-e343d1743bbf",
       "ward_no": "10",
-      "ward_name_en": "Kolkkalam",
-      "ward_name_ml": "കോല്‍ക്കളം"
+      "name_en": "Kolkkalam",
+      "name_ml": "കോല്‍ക്കളം"
     },
     {
-      "ward_id": "f219ff37-59d3-4466-a374-b43d2a22fbac",
+      "id": "f219ff37-59d3-4466-a374-b43d2a22fbac",
       "ward_no": "11",
-      "ward_name_en": "Choonur",
-      "ward_name_ml": "ചൂനൂര്‍"
+      "name_en": "Choonur",
+      "name_ml": "ചൂനൂര്‍"
     },
     {
-      "ward_id": "c34fcd9b-b66d-4107-bbd3-d6a1a68cdc48",
+      "id": "c34fcd9b-b66d-4107-bbd3-d6a1a68cdc48",
       "ward_no": "12",
-      "ward_name_en": "Thalakappu",
-      "ward_name_ml": "തലകാപ്പ്"
+      "name_en": "Thalakappu",
+      "name_ml": "തലകാപ്പ്"
     },
     {
-      "ward_id": "f92c3fbc-c165-4d74-a2ae-60a079210c68",
+      "id": "f92c3fbc-c165-4d74-a2ae-60a079210c68",
       "ward_no": "13",
-      "ward_name_en": "Kooriyadu",
-      "ward_name_ml": "കൂരിയാട്"
+      "name_en": "Kooriyadu",
+      "name_ml": "കൂരിയാട്"
     },
     {
-      "ward_id": "c70037a9-5bed-48f0-b819-1f3e5a5ceaea",
+      "id": "c70037a9-5bed-48f0-b819-1f3e5a5ceaea",
       "ward_no": "14",
-      "ward_name_en": "Parankimoochikkal",
-      "ward_name_ml": "പറങ്കിമൂച്ചിക്കല്‍"
+      "name_en": "Parankimoochikkal",
+      "name_ml": "പറങ്കിമൂച്ചിക്കല്‍"
     },
     {
-      "ward_id": "d7530b0d-8884-4566-a8f7-e7a09a625a37",
+      "id": "d7530b0d-8884-4566-a8f7-e7a09a625a37",
       "ward_no": "15",
-      "ward_name_en": "Parammal",
-      "ward_name_ml": "പാറമ്മല്‍"
+      "name_en": "Parammal",
+      "name_ml": "പാറമ്മല്‍"
     },
     {
-      "ward_id": "d4a9491b-72b5-465a-a75f-a481e6f93be4",
+      "id": "d4a9491b-72b5-465a-a75f-a481e6f93be4",
       "ward_no": "16",
-      "ward_name_en": "Vadakkekulamba",
-      "ward_name_ml": "വടക്കേകുളമ്പ്"
+      "name_en": "Vadakkekulamba",
+      "name_ml": "വടക്കേകുളമ്പ്"
     },
     {
-      "ward_id": "7766fab6-d47e-49cf-ba79-54287b7eb4cc",
+      "id": "7766fab6-d47e-49cf-ba79-54287b7eb4cc",
       "ward_no": "17",
-      "ward_name_en": "Pookkunnu",
-      "ward_name_ml": "പൂക്കുന്ന്"
+      "name_en": "Pookkunnu",
+      "name_ml": "പൂക്കുന്ന്"
     },
     {
-      "ward_id": "f5c7ea91-bccf-4779-938a-e1ceb4493460",
+      "id": "f5c7ea91-bccf-4779-938a-e1ceb4493460",
       "ward_no": "18",
-      "ward_name_en": "Manoor",
-      "ward_name_ml": "മാണൂര്‍"
+      "name_en": "Manoor",
+      "name_ml": "മാണൂര്‍"
     }
   ],
   "towns": [],

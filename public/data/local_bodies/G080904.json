@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G080904",
-  "local_body_name_en": "Manalur",
-  "local_body_name_ml": "മണലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "64",
-    "assembly_name_en": "Manalur",
-    "assembly_name_ml": "മണലൂര്‍",
+  "id": "G080904",
+  "name_en": "Manalur",
+  "name_ml": "മണലൂര്‍",
+  "assembly_id": "64",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "64",
+    "name_en": "Manalur",
+    "name_ml": "മണലൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7d64e508-6119-402d-9b8d-06b65579c1fe",
+      "id": "7d64e508-6119-402d-9b8d-06b65579c1fe",
       "ward_no": "1",
-      "ward_name_en": "Palazhy",
-      "ward_name_ml": "പാലാഴി"
+      "name_en": "Palazhy",
+      "name_ml": "പാലാഴി"
     },
     {
-      "ward_id": "7ff5eae5-10f9-41ea-b3aa-2b5ad0405c59",
+      "id": "7ff5eae5-10f9-41ea-b3aa-2b5ad0405c59",
       "ward_no": "2",
-      "ward_name_en": "Manalur Vadakkumuri",
-      "ward_name_ml": "മണലൂര്‍ വടക്കുമുറി"
+      "name_en": "Manalur Vadakkumuri",
+      "name_ml": "മണലൂര്‍ വടക്കുമുറി"
     },
     {
-      "ward_id": "b2212588-ff18-4d38-bbb2-f5d551bc5b0a",
+      "id": "b2212588-ff18-4d38-bbb2-f5d551bc5b0a",
       "ward_no": "3",
-      "ward_name_en": "Manalur Kizhakkumuri",
-      "ward_name_ml": "മണലൂര്‍ കിഴക്കുമുറി"
+      "name_en": "Manalur Kizhakkumuri",
+      "name_ml": "മണലൂര്‍ കിഴക്കുമുറി"
     },
     {
-      "ward_id": "ff251a75-00a7-4695-9da5-1190f7790938",
+      "id": "ff251a75-00a7-4695-9da5-1190f7790938",
       "ward_no": "4",
-      "ward_name_en": "Anakkadu Vadakku",
-      "ward_name_ml": "ആനക്കാട് വടക്ക്"
+      "name_en": "Anakkadu Vadakku",
+      "name_ml": "ആനക്കാട് വടക്ക്"
     },
     {
-      "ward_id": "4355a576-1a08-46ec-bffe-9cd844fa528c",
+      "id": "4355a576-1a08-46ec-bffe-9cd844fa528c",
       "ward_no": "5",
-      "ward_name_en": "Anakkadu",
-      "ward_name_ml": "ആനക്കാട്"
+      "name_en": "Anakkadu",
+      "name_ml": "ആനക്കാട്"
     },
     {
-      "ward_id": "f02498e8-4266-4aca-8027-31e729acd50c",
+      "id": "f02498e8-4266-4aca-8027-31e729acd50c",
       "ward_no": "6",
-      "ward_name_en": "Ambalakkadu",
-      "ward_name_ml": "അമ്പലക്കാട്"
+      "name_en": "Ambalakkadu",
+      "name_ml": "അമ്പലക്കാട്"
     },
     {
-      "ward_id": "df707fc9-7a65-4e1b-80d2-f6b918591bd0",
+      "id": "df707fc9-7a65-4e1b-80d2-f6b918591bd0",
       "ward_no": "7",
-      "ward_name_en": "Kanjany",
-      "ward_name_ml": "കാഞ്ഞാണി"
+      "name_en": "Kanjany",
+      "name_ml": "കാഞ്ഞാണി"
     },
     {
-      "ward_id": "63335510-d9ed-4455-8b76-828618b2e155",
+      "id": "63335510-d9ed-4455-8b76-828618b2e155",
       "ward_no": "8",
-      "ward_name_en": "Thrikkunnu",
-      "ward_name_ml": "തൃക്കുന്ന്"
+      "name_en": "Thrikkunnu",
+      "name_ml": "തൃക്കുന്ന്"
     },
     {
-      "ward_id": "cee39540-90c3-4495-818f-5dfa2cc0f958",
+      "id": "cee39540-90c3-4495-818f-5dfa2cc0f958",
       "ward_no": "9",
-      "ward_name_en": "Puthenkulam",
-      "ward_name_ml": "പുത്തന്‍കുളം"
+      "name_en": "Puthenkulam",
+      "name_ml": "പുത്തന്‍കുളം"
     },
     {
-      "ward_id": "13e1f0fa-f713-47c8-bfbb-756908412239",
+      "id": "13e1f0fa-f713-47c8-bfbb-756908412239",
       "ward_no": "10",
-      "ward_name_en": "Manalur Nadumuri",
-      "ward_name_ml": "മണലൂര്‍ നടുമുറി"
+      "name_en": "Manalur Nadumuri",
+      "name_ml": "മണലൂര്‍ നടുമുറി"
     },
     {
-      "ward_id": "b0d26cf1-7b07-4a8f-a90c-dce0c5a0d89f",
+      "id": "b0d26cf1-7b07-4a8f-a90c-dce0c5a0d89f",
       "ward_no": "11",
-      "ward_name_en": "Manalur Padinjattumuri",
-      "ward_name_ml": "മണലൂര്‍ പടിഞ്ഞാറ്റുമുറി"
+      "name_en": "Manalur Padinjattumuri",
+      "name_ml": "മണലൂര്‍ പടിഞ്ഞാറ്റുമുറി"
     },
     {
-      "ward_id": "205006ef-5209-4baa-9167-dbc2227e1f59",
+      "id": "205006ef-5209-4baa-9167-dbc2227e1f59",
       "ward_no": "12",
-      "ward_name_en": "Puthenkulam West",
-      "ward_name_ml": "പുത്തന്‍കുളം പടിഞ്ഞാറ്"
+      "name_en": "Puthenkulam West",
+      "name_ml": "പുത്തന്‍കുളം പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "6acca413-f6ad-4c4e-a1e0-5c14ef476a70",
+      "id": "6acca413-f6ad-4c4e-a1e0-5c14ef476a70",
       "ward_no": "13",
-      "ward_name_en": "South Karamuck",
-      "ward_name_ml": "തെക്കേ കാരമുക്ക്"
+      "name_en": "South Karamuck",
+      "name_ml": "തെക്കേ കാരമുക്ക്"
     },
     {
-      "ward_id": "d6e78494-05df-432b-b49a-aeadf64af61b",
+      "id": "d6e78494-05df-432b-b49a-aeadf64af61b",
       "ward_no": "14",
-      "ward_name_en": "Kanjany West",
-      "ward_name_ml": "കാഞ്ഞാണി പടിഞ്ഞാറ്"
+      "name_en": "Kanjany West",
+      "name_ml": "കാഞ്ഞാണി പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "cc83012b-957b-4c64-a1eb-609bfb1ad030",
+      "id": "cc83012b-957b-4c64-a1eb-609bfb1ad030",
       "ward_no": "15",
-      "ward_name_en": "Mangattukara",
-      "ward_name_ml": "മാങ്ങാട്ടുകര"
+      "name_en": "Mangattukara",
+      "name_ml": "മാങ്ങാട്ടുകര"
     },
     {
-      "ward_id": "2a82de74-4746-4062-9383-cea7e70b26b9",
+      "id": "2a82de74-4746-4062-9383-cea7e70b26b9",
       "ward_no": "16",
-      "ward_name_en": "Karikkody",
-      "ward_name_ml": "കരിക്കൊടി"
+      "name_en": "Karikkody",
+      "name_ml": "കരിക്കൊടി"
     },
     {
-      "ward_id": "f3c07440-5e34-4608-b0e5-a7a785eb8106",
+      "id": "f3c07440-5e34-4608-b0e5-a7a785eb8106",
       "ward_no": "17",
-      "ward_name_en": "Kandassankadavu",
-      "ward_name_ml": "കണ്ടശ്ശാംകടവ്"
+      "name_en": "Kandassankadavu",
+      "name_ml": "കണ്ടശ്ശാംകടവ്"
     },
     {
-      "ward_id": "950b9e6c-b237-4ecd-8148-6a81b714ddae",
+      "id": "950b9e6c-b237-4ecd-8148-6a81b714ddae",
       "ward_no": "18",
-      "ward_name_en": "Karamuck North",
-      "ward_name_ml": "വടക്കേ കാരമുക്ക്"
+      "name_en": "Karamuck North",
+      "name_ml": "വടക്കേ കാരമുക്ക്"
     },
     {
-      "ward_id": "33fd8ede-c918-4a06-a8d4-e4b25c375e0e",
+      "id": "33fd8ede-c918-4a06-a8d4-e4b25c375e0e",
       "ward_no": "19",
-      "ward_name_en": "Mambilly",
-      "ward_name_ml": "മാമ്പിള്ളി"
+      "name_en": "Mambilly",
+      "name_ml": "മാമ്പിള്ളി"
     }
   ],
   "towns": [],

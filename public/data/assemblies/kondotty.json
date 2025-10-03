@@ -1,56 +1,73 @@
 {
-  "assembly_id": "33",
-  "assembly_name_en": "Kondotty",
-  "assembly_name_ml": "കൊണ്ടോട്ടി",
-  "category": "Normal",
+  "id": "33",
+  "name_en": "Kondotty",
+  "name_ml": "കൊണ്ടോട്ടി",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G100505",
-      "local_body_name_en": "Cheacode",
-      "local_body_name_ml": "ചീക്കോട്",
-      "category": "Good"
+      "id": "G100505",
+      "name_en": "Cheacode",
+      "name_ml": "ചീക്കോട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100402",
-      "local_body_name_en": "Cherukavu",
-      "local_body_name_ml": "ചെറുകാവ്",
-      "category": "Perfect"
+      "id": "G100402",
+      "name_en": "Cherukavu",
+      "name_ml": "ചെറുകാവ്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M100800",
-      "local_body_name_en": "Kondotty",
-      "local_body_name_ml": "കൊണ്ടോട്ടി",
-      "category": ""
+      "id": "M100800",
+      "name_en": "Kondotty",
+      "name_ml": "കൊണ്ടോട്ടി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G100409",
-      "local_body_name_en": "Muthuvalloor",
-      "local_body_name_ml": "മുതുവല്ലൂര്‍",
-      "category": "Perfect"
+      "id": "G100409",
+      "name_en": "Muthuvalloor",
+      "name_ml": "മുതുവല്ലൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G100408",
-      "local_body_name_en": "Pulikkal",
-      "local_body_name_ml": "പുളിക്കല്‍",
-      "category": "Normal"
+      "id": "G100408",
+      "name_en": "Pulikkal",
+      "name_ml": "പുളിക്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100406",
-      "local_body_name_en": "Vazhayur",
-      "local_body_name_ml": "വാഴയൂര്‍",
-      "category": "Perfect"
+      "id": "G100406",
+      "name_en": "Vazhayur",
+      "name_ml": "വാഴയൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G100407",
-      "local_body_name_en": "Vazhakkad",
-      "local_body_name_ml": "വാഴക്കാട്",
-      "category": "Normal"
+      "id": "G100407",
+      "name_en": "Vazhakkad",
+      "name_ml": "വാഴക്കാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

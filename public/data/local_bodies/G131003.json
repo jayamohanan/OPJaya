@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G131003",
-  "local_body_name_en": "Keezhallur",
-  "local_body_name_ml": "കീഴല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G131003",
+  "name_en": "Keezhallur",
+  "name_ml": "കീഴല്ലൂര്‍",
+  "assembly_id": "15",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "15",
-    "assembly_name_en": "Mattanur",
-    "assembly_name_ml": "മട്ടന്നൂര്‍",
-    "category": "Normal"
+    "id": "15",
+    "name_en": "Mattanur",
+    "name_ml": "മട്ടന്നൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a24adf57-3df1-447f-9666-47eab7a4ad54",
+      "id": "a24adf57-3df1-447f-9666-47eab7a4ad54",
       "ward_no": "8",
-      "ward_name_en": "Kotheri",
-      "ward_name_ml": "കൊതേരി"
+      "name_en": "Kotheri",
+      "name_ml": "കൊതേരി"
     },
     {
-      "ward_id": "07bed749-9f5e-4256-9b87-18d194666b25",
+      "id": "07bed749-9f5e-4256-9b87-18d194666b25",
       "ward_no": "1",
-      "ward_name_en": "Chalode",
-      "ward_name_ml": "ചാലോട്"
+      "name_en": "Chalode",
+      "name_ml": "ചാലോട്"
     },
     {
-      "ward_id": "06a2c22e-18f0-4862-8042-22da8a5161cb",
+      "id": "06a2c22e-18f0-4862-8042-22da8a5161cb",
       "ward_no": "2",
-      "ward_name_en": "Edayannur",
-      "ward_name_ml": "എടയന്നൂര്‍"
+      "name_en": "Edayannur",
+      "name_ml": "എടയന്നൂര്‍"
     },
     {
-      "ward_id": "64d7f82f-90c5-4d08-86a8-5aced66f4556",
+      "id": "64d7f82f-90c5-4d08-86a8-5aced66f4556",
       "ward_no": "3",
-      "ward_name_en": "Therur",
-      "ward_name_ml": "തെരൂര്‍"
+      "name_en": "Therur",
+      "name_ml": "തെരൂര്‍"
     },
     {
-      "ward_id": "5dde187f-6dba-43c8-a1ce-d8ea7c928ec5",
+      "id": "5dde187f-6dba-43c8-a1ce-d8ea7c928ec5",
       "ward_no": "4",
-      "ward_name_en": "Therur-Palayode",
-      "ward_name_ml": "തെരൂര്‍-പാലയോട്"
+      "name_en": "Therur-Palayode",
+      "name_ml": "തെരൂര്‍-പാലയോട്"
     },
     {
-      "ward_id": "81fcc7ec-6b07-46d2-9874-06d8e6e2b439",
+      "id": "81fcc7ec-6b07-46d2-9874-06d8e6e2b439",
       "ward_no": "5",
-      "ward_name_en": "Elampara",
-      "ward_name_ml": "എളമ്പാറ"
+      "name_en": "Elampara",
+      "name_ml": "എളമ്പാറ"
     },
     {
-      "ward_id": "6075e2ca-f9ca-45ae-96fb-576664a96669",
+      "id": "6075e2ca-f9ca-45ae-96fb-576664a96669",
       "ward_no": "6",
-      "ward_name_en": "Velliyamparamba",
-      "ward_name_ml": "വെളളിയാംപറമ്പ്"
+      "name_en": "Velliyamparamba",
+      "name_ml": "വെളളിയാംപറമ്പ്"
     },
     {
-      "ward_id": "dcfb1952-0177-468f-a473-f3644b94cad8",
+      "id": "dcfb1952-0177-468f-a473-f3644b94cad8",
       "ward_no": "7",
-      "ward_name_en": "Vayamthode",
-      "ward_name_ml": "വായന്തോട്"
+      "name_en": "Vayamthode",
+      "name_ml": "വായന്തോട്"
     },
     {
-      "ward_id": "b136806b-dfef-41f4-a889-1f0be9fcc63a",
+      "id": "b136806b-dfef-41f4-a889-1f0be9fcc63a",
       "ward_no": "9",
-      "ward_name_en": "Peravoor",
-      "ward_name_ml": "പേരാവൂര്‍"
+      "name_en": "Peravoor",
+      "name_ml": "പേരാവൂര്‍"
     },
     {
-      "ward_id": "f86797ae-03fd-4d70-bed0-096c2540b37a",
+      "id": "f86797ae-03fd-4d70-bed0-096c2540b37a",
       "ward_no": "10",
-      "ward_name_en": "Palayode",
-      "ward_name_ml": "പാലയോട്"
+      "name_en": "Palayode",
+      "name_ml": "പാലയോട്"
     },
     {
-      "ward_id": "1ea805b6-1378-4fed-8772-b4f650426b50",
+      "id": "1ea805b6-1378-4fed-8772-b4f650426b50",
       "ward_no": "11",
-      "ward_name_en": "Keezhallur",
-      "ward_name_ml": "കീഴല്ലൂര്‍"
+      "name_en": "Keezhallur",
+      "name_ml": "കീഴല്ലൂര്‍"
     },
     {
-      "ward_id": "b3d5e81a-90c0-4d14-8d38-f5dd87dc2ef9",
+      "id": "b3d5e81a-90c0-4d14-8d38-f5dd87dc2ef9",
       "ward_no": "12",
-      "ward_name_en": "Keezhallur North",
-      "ward_name_ml": "കീഴല്ലൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Keezhallur North",
+      "name_ml": "കീഴല്ലൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "a2b7b2d0-8415-4bf7-8931-947fca549015",
+      "id": "a2b7b2d0-8415-4bf7-8931-947fca549015",
       "ward_no": "13",
-      "ward_name_en": "Kanad",
-      "ward_name_ml": "കാനാട്"
+      "name_en": "Kanad",
+      "name_ml": "കാനാട്"
     },
     {
-      "ward_id": "6e09bf55-e89b-4c73-8c46-096d4284c12b",
+      "id": "6e09bf55-e89b-4c73-8c46-096d4284c12b",
       "ward_no": "14",
-      "ward_name_en": "Panayatham Paramba",
-      "ward_name_ml": "പനയത്താംപറമ്പ്"
+      "name_en": "Panayatham Paramba",
+      "name_ml": "പനയത്താംപറമ്പ്"
     }
   ],
   "towns": [],

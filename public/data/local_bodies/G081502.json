@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G081502",
-  "local_body_name_en": "Annamanada",
-  "local_body_name_ml": "അന്നമനട",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G081502",
+  "name_en": "Annamanada",
+  "name_ml": "അന്നമനട",
+  "assembly_id": "73",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "73",
-    "assembly_name_en": "Kodungallur",
-    "assembly_name_ml": "കൊടുങ്ങല്ലൂര്‍",
-    "category": "Normal"
+    "id": "73",
+    "name_en": "Kodungallur",
+    "name_ml": "കൊടുങ്ങല്ലൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "31a6b157-014a-498a-a19c-7b1f4a32b7cd",
+      "id": "31a6b157-014a-498a-a19c-7b1f4a32b7cd",
       "ward_no": "1",
-      "ward_name_en": "Alathur",
-      "ward_name_ml": "ആലത്തൂര്"
+      "name_en": "Alathur",
+      "name_ml": "ആലത്തൂര്"
     },
     {
-      "ward_id": "9ee59955-7608-495c-83c9-f02a4a1d8afa",
+      "id": "9ee59955-7608-495c-83c9-f02a4a1d8afa",
       "ward_no": "2",
-      "ward_name_en": "Vennoor North",
-      "ward_name_ml": "വെണ്ണൂര് നോര്ത്ത്"
+      "name_en": "Vennoor North",
+      "name_ml": "വെണ്ണൂര് നോര്ത്ത്"
     },
     {
-      "ward_id": "7045454e-e332-4333-84d8-b50c559c748d",
+      "id": "7045454e-e332-4333-84d8-b50c559c748d",
       "ward_no": "3",
-      "ward_name_en": "Vennoor South",
-      "ward_name_ml": "വെണ്ണൂര് സൌത്ത്"
+      "name_en": "Vennoor South",
+      "name_ml": "വെണ്ണൂര് സൌത്ത്"
     },
     {
-      "ward_id": "58c3c8fb-5879-4bd9-9653-67b791a4919c",
+      "id": "58c3c8fb-5879-4bd9-9653-67b791a4919c",
       "ward_no": "4",
-      "ward_name_en": "Annamanada West",
-      "ward_name_ml": "അന്നമനട വെസ്റ്റ്"
+      "name_en": "Annamanada West",
+      "name_ml": "അന്നമനട വെസ്റ്റ്"
     },
     {
-      "ward_id": "8cafbf64-d84e-4eca-b6cd-d1545f798701",
+      "id": "8cafbf64-d84e-4eca-b6cd-d1545f798701",
       "ward_no": "5",
-      "ward_name_en": "Annamanada Town",
-      "ward_name_ml": "അന്നമനട ടൌണ്"
+      "name_en": "Annamanada Town",
+      "name_ml": "അന്നമനട ടൌണ്"
     },
     {
-      "ward_id": "9d415959-69ce-4989-8ad2-18dc395aa61a",
+      "id": "9d415959-69ce-4989-8ad2-18dc395aa61a",
       "ward_no": "6",
-      "ward_name_en": "Valloor",
-      "ward_name_ml": "വാളൂര്"
+      "name_en": "Valloor",
+      "name_ml": "വാളൂര്"
     },
     {
-      "ward_id": "5165b635-51df-4f8e-b966-d23beb9ce7ac",
+      "id": "5165b635-51df-4f8e-b966-d23beb9ce7ac",
       "ward_no": "7",
-      "ward_name_en": "West Koratty",
-      "ward_name_ml": "വെസ്റ്റ് കൊരട്ടി"
+      "name_en": "West Koratty",
+      "name_ml": "വെസ്റ്റ് കൊരട്ടി"
     },
     {
-      "ward_id": "bd415f09-639a-479d-80cd-2f771de9bc56",
+      "id": "bd415f09-639a-479d-80cd-2f771de9bc56",
       "ward_no": "8",
-      "ward_name_en": "Vaparamb",
-      "ward_name_ml": "വാപ്പറന്പ്"
+      "name_en": "Vaparamb",
+      "name_ml": "വാപ്പറന്പ്"
     },
     {
-      "ward_id": "050bf2ec-d215-424a-8dad-7ce45d3b8e45",
+      "id": "050bf2ec-d215-424a-8dad-7ce45d3b8e45",
       "ward_no": "9",
-      "ward_name_en": "Mambra",
-      "ward_name_ml": "മാന്പ്ര"
+      "name_en": "Mambra",
+      "name_ml": "മാന്പ്ര"
     },
     {
-      "ward_id": "c6f691f2-b5e5-4efe-99f7-ee2fb51943f8",
+      "id": "c6f691f2-b5e5-4efe-99f7-ee2fb51943f8",
       "ward_no": "10",
-      "ward_name_en": "Erayamkudy",
-      "ward_name_ml": "എരയാംകുടി"
+      "name_en": "Erayamkudy",
+      "name_ml": "എരയാംകുടി"
     },
     {
-      "ward_id": "a09fa6c0-c4e4-41a8-8c24-b0b76cf486d6",
+      "id": "a09fa6c0-c4e4-41a8-8c24-b0b76cf486d6",
       "ward_no": "11",
-      "ward_name_en": "Pallissery North",
-      "ward_name_ml": "പാലിശ്ശേരി നോര്ത്ത്"
+      "name_en": "Pallissery North",
+      "name_ml": "പാലിശ്ശേരി നോര്ത്ത്"
     },
     {
-      "ward_id": "a6eff9e6-436a-4c9c-b09e-51ac0d538cbe",
+      "id": "a6eff9e6-436a-4c9c-b09e-51ac0d538cbe",
       "ward_no": "12",
-      "ward_name_en": "Pallissery South",
-      "ward_name_ml": "പാലിശ്ശേരി സൌത്ത്"
+      "name_en": "Pallissery South",
+      "name_ml": "പാലിശ്ശേരി സൌത്ത്"
     },
     {
-      "ward_id": "75ac939d-bfcc-4174-ae94-ebb5aadcfd71",
+      "id": "75ac939d-bfcc-4174-ae94-ebb5aadcfd71",
       "ward_no": "13",
-      "ward_name_en": "Poovathussery",
-      "ward_name_ml": "പൂവ്വത്തുശ്ശേരി"
+      "name_en": "Poovathussery",
+      "name_ml": "പൂവ്വത്തുശ്ശേരി"
     },
     {
-      "ward_id": "0b4daa69-b6de-4601-9968-6efaac4ae062",
+      "id": "0b4daa69-b6de-4601-9968-6efaac4ae062",
       "ward_no": "14",
-      "ward_name_en": "Kumbidy",
-      "ward_name_ml": "കുന്പിടി"
+      "name_en": "Kumbidy",
+      "name_ml": "കുന്പിടി"
     },
     {
-      "ward_id": "8a4e8622-3e6f-48aa-8799-b58048cd6968",
+      "id": "8a4e8622-3e6f-48aa-8799-b58048cd6968",
       "ward_no": "15",
-      "ward_name_en": "Edayattoor",
-      "ward_name_ml": "എടയാറ്റൂര്"
+      "name_en": "Edayattoor",
+      "name_ml": "എടയാറ്റൂര്"
     },
     {
-      "ward_id": "6864a15c-2a53-4c31-8f84-b5abe2bcf6e4",
+      "id": "6864a15c-2a53-4c31-8f84-b5abe2bcf6e4",
       "ward_no": "16",
-      "ward_name_en": "Keezhadoor",
-      "ward_name_ml": "കീഴഡൂര്"
+      "name_en": "Keezhadoor",
+      "name_ml": "കീഴഡൂര്"
     },
     {
-      "ward_id": "4b002ad8-e577-47fa-93b3-e6a25f2c5b6f",
+      "id": "4b002ad8-e577-47fa-93b3-e6a25f2c5b6f",
       "ward_no": "17",
-      "ward_name_en": "Meladoor",
-      "ward_name_ml": "മേലഡൂര്"
+      "name_en": "Meladoor",
+      "name_ml": "മേലഡൂര്"
     },
     {
-      "ward_id": "b8670b26-64e9-4166-be53-3e31f66fceec",
+      "id": "b8670b26-64e9-4166-be53-3e31f66fceec",
       "ward_no": "18",
-      "ward_name_en": "Malayamkunnu",
-      "ward_name_ml": "മലയാംകുന്ന്"
+      "name_en": "Malayamkunnu",
+      "name_ml": "മലയാംകുന്ന്"
     }
   ],
   "towns": [],

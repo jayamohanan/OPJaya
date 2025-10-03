@@ -1,80 +1,107 @@
 {
-  "assembly_id": "107",
-  "assembly_name_en": "Haripad",
-  "assembly_name_ml": "ഹരിപ്പാട്",
-  "category": "Normal",
+  "id": "107",
+  "name_en": "Haripad",
+  "name_ml": "ഹരിപ്പാട്",
+  "district_id": "4",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "district_category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G041205",
-      "local_body_name_en": "Arattupuzha",
-      "local_body_name_ml": "ആറാട്ടുപുഴ",
-      "category": "Normal"
+      "id": "G041205",
+      "name_en": "Arattupuzha",
+      "name_ml": "ആറാട്ടുപുഴ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G041203",
-      "local_body_name_en": "Cheppad",
-      "local_body_name_ml": "ചേപ്പാട്",
-      "category": "Good"
+      "id": "G041203",
+      "name_en": "Cheppad",
+      "name_ml": "ചേപ്പാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040907",
-      "local_body_name_en": "Cheruthana",
-      "local_body_name_ml": "ചെറുതന",
-      "category": "Good"
+      "id": "G040907",
+      "name_en": "Cheruthana",
+      "name_ml": "ചെറുതന",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G041208",
-      "local_body_name_en": "Chingoli",
-      "local_body_name_ml": "ചിങ്ങോലി",
-      "category": "Perfect"
+      "id": "G041208",
+      "name_en": "Chingoli",
+      "name_ml": "ചിങ്ങോലി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M040600",
-      "local_body_name_en": "Haripad",
-      "local_body_name_ml": "ഹരിപ്പാട്",
-      "category": "Normal"
+      "id": "M040600",
+      "name_en": "Haripad",
+      "name_ml": "ഹരിപ്പാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040901",
-      "local_body_name_en": "Karthikappally",
-      "local_body_name_ml": "കാര്‍ത്തികപ്പള്ളി",
-      "category": "Good"
+      "id": "G040901",
+      "name_en": "Karthikappally",
+      "name_ml": "കാര്‍ത്തികപ്പള്ളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040904",
-      "local_body_name_en": "Karuvatta",
-      "local_body_name_ml": "കരുവാറ്റ",
-      "category": "Good"
+      "id": "G040904",
+      "name_en": "Karuvatta",
+      "name_ml": "കരുവാറ്റ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040903",
-      "local_body_name_en": "Kumarapuram",
-      "local_body_name_ml": "കുമാരപുരം",
-      "category": "Normal"
+      "id": "G040903",
+      "name_en": "Kumarapuram",
+      "name_ml": "കുമാരപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G041204",
-      "local_body_name_en": "Muthukulam",
-      "local_body_name_ml": "മുതുകുളം",
-      "category": "Perfect"
+      "id": "G041204",
+      "name_en": "Muthukulam",
+      "name_ml": "മുതുകുളം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040906",
-      "local_body_name_en": "Pallippad",
-      "local_body_name_ml": "പള്ളിപ്പാട്",
-      "category": "Normal"
+      "id": "G040906",
+      "name_en": "Pallippad",
+      "name_ml": "പള്ളിപ്പാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040902",
-      "local_body_name_en": "Thrikkunnappuzha",
-      "local_body_name_ml": "തൃക്കുന്നപ്പുഴ",
-      "category": "Normal"
+      "id": "G040902",
+      "name_en": "Thrikkunnappuzha",
+      "name_ml": "തൃക്കുന്നപ്പുഴ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

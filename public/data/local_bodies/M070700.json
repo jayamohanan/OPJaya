@@ -1,184 +1,195 @@
 {
-  "local_body_id": "M070700",
-  "local_body_name_en": "Perumbavoor",
-  "local_body_name_ml": "പെരുമ്പാവൂര്‍",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Perfect",
+  "id": "M070700",
+  "name_en": "Perumbavoor",
+  "name_ml": "പെരുമ്പാവൂര്‍",
+  "assembly_id": "74",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "74",
-    "assembly_name_en": "Perumbavoor",
-    "assembly_name_ml": "പെരുമ്പാവൂര്‍",
-    "category": "Normal"
+    "id": "74",
+    "name_en": "Perumbavoor",
+    "name_ml": "പെരുമ്പാവൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b2b8e2b9-e45f-41e9-aa19-a358b650da58",
+      "id": "b2b8e2b9-e45f-41e9-aa19-a358b650da58",
       "ward_no": "1",
-      "ward_name_en": "Vallam North",
-      "ward_name_ml": "വല്ലം നോര്‍ത്ത്"
+      "name_en": "Vallam North",
+      "name_ml": "വല്ലം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "ccc9075a-a281-4eea-b9d8-3f948e23c985",
+      "id": "ccc9075a-a281-4eea-b9d8-3f948e23c985",
       "ward_no": "2",
-      "ward_name_en": "Thrikkaparambu",
-      "ward_name_ml": "ത്യക്കാപറമ്പ്"
+      "name_en": "Thrikkaparambu",
+      "name_ml": "ത്യക്കാപറമ്പ്"
     },
     {
-      "ward_id": "dccfa778-8b57-4817-b380-aee1514d8e2b",
+      "id": "dccfa778-8b57-4817-b380-aee1514d8e2b",
       "ward_no": "3",
-      "ward_name_en": "Masjid",
-      "ward_name_ml": "മസ്ജിദ്"
+      "name_en": "Masjid",
+      "name_ml": "മസ്ജിദ്"
     },
     {
-      "ward_id": "8570cc40-fed4-46ea-9b2a-29a8daa4fbb0",
+      "id": "8570cc40-fed4-46ea-9b2a-29a8daa4fbb0",
       "ward_no": "4",
-      "ward_name_en": "Chakkarakattu",
-      "ward_name_ml": "ചക്കരക്കാട്ട്"
+      "name_en": "Chakkarakattu",
+      "name_ml": "ചക്കരക്കാട്ട്"
     },
     {
-      "ward_id": "466db819-7bb6-4295-b6b4-a54defc0daff",
+      "id": "466db819-7bb6-4295-b6b4-a54defc0daff",
       "ward_no": "5",
-      "ward_name_en": "Sasthamangalam",
-      "ward_name_ml": "ശാസ്തമംഗലം"
+      "name_en": "Sasthamangalam",
+      "name_ml": "ശാസ്തമംഗലം"
     },
     {
-      "ward_id": "57426a86-28c0-462b-aa05-6e1ee584d1d6",
+      "id": "57426a86-28c0-462b-aa05-6e1ee584d1d6",
       "ward_no": "6",
-      "ward_name_en": "Thuruthiparambu",
-      "ward_name_ml": "തുരുത്തിപ്പറമ്പ്"
+      "name_en": "Thuruthiparambu",
+      "name_ml": "തുരുത്തിപ്പറമ്പ്"
     },
     {
-      "ward_id": "dcccfc1a-cd6e-4fc4-a5d2-a3e6fcbcc9ef",
+      "id": "dcccfc1a-cd6e-4fc4-a5d2-a3e6fcbcc9ef",
       "ward_no": "7",
-      "ward_name_en": "Temple Ward",
-      "ward_name_ml": "ടെമ്പിള്‍ വാര്‍ഡ്"
+      "name_en": "Temple Ward",
+      "name_ml": "ടെമ്പിള്‍ വാര്‍ഡ്"
     },
     {
-      "ward_id": "d50f0212-68da-4ad4-a709-2698ebb09b9e",
+      "id": "d50f0212-68da-4ad4-a709-2698ebb09b9e",
       "ward_no": "8",
-      "ward_name_en": "Taluk Hospital",
-      "ward_name_ml": "താലൂക്ക് ആശുപത്രി"
+      "name_en": "Taluk Hospital",
+      "name_ml": "താലൂക്ക് ആശുപത്രി"
     },
     {
-      "ward_id": "e7573464-c28c-4dd6-b230-a51ee50db836",
+      "id": "e7573464-c28c-4dd6-b230-a51ee50db836",
       "ward_no": "9",
-      "ward_name_en": "Pooppany",
-      "ward_name_ml": "പൂപ്പാനി"
+      "name_en": "Pooppany",
+      "name_ml": "പൂപ്പാനി"
     },
     {
-      "ward_id": "a023090f-de10-4c8c-b414-a456ba2f5a82",
+      "id": "a023090f-de10-4c8c-b414-a456ba2f5a82",
       "ward_no": "10",
-      "ward_name_en": "Karattupallikkara",
-      "ward_name_ml": "കാരാട്ടുപള്ളിക്കര"
+      "name_en": "Karattupallikkara",
+      "name_ml": "കാരാട്ടുപള്ളിക്കര"
     },
     {
-      "ward_id": "b869acca-bd9b-4d44-b313-965e36442119",
+      "id": "b869acca-bd9b-4d44-b313-965e36442119",
       "ward_no": "11",
-      "ward_name_en": "Asramam",
-      "ward_name_ml": "ആശ്രമം"
+      "name_en": "Asramam",
+      "name_ml": "ആശ്രമം"
     },
     {
-      "ward_id": "adfb5bcc-87bd-4072-821d-93a28072f5cd",
+      "id": "adfb5bcc-87bd-4072-821d-93a28072f5cd",
       "ward_no": "12",
-      "ward_name_en": "Konnankudy",
-      "ward_name_ml": "കോന്നന്‍കുടി"
+      "name_en": "Konnankudy",
+      "name_ml": "കോന്നന്‍കുടി"
     },
     {
-      "ward_id": "ae6cfb9f-8aaa-4b4b-ad73-581b187e7145",
+      "id": "ae6cfb9f-8aaa-4b4b-ad73-581b187e7145",
       "ward_no": "13",
-      "ward_name_en": "Kunnampilly Chira",
-      "ward_name_ml": "കുന്നംപിള്ളിച്ചിറ"
+      "name_en": "Kunnampilly Chira",
+      "name_ml": "കുന്നംപിള്ളിച്ചിറ"
     },
     {
-      "ward_id": "cba81f54-1c06-4e64-93ef-7eb013820267",
+      "id": "cba81f54-1c06-4e64-93ef-7eb013820267",
       "ward_no": "14",
-      "ward_name_en": "Neelamkulangara",
-      "ward_name_ml": "നീലംകുളങ്ങര"
+      "name_en": "Neelamkulangara",
+      "name_ml": "നീലംകുളങ്ങര"
     },
     {
-      "ward_id": "31196c3f-d048-4bcc-927f-40e0658bfc79",
+      "id": "31196c3f-d048-4bcc-927f-40e0658bfc79",
       "ward_no": "15",
-      "ward_name_en": "Naganchery Mana",
-      "ward_name_ml": "നാഗഞ്ചേരി മന"
+      "name_en": "Naganchery Mana",
+      "name_ml": "നാഗഞ്ചേരി മന"
     },
     {
-      "ward_id": "a29ae57c-885f-4a35-b72f-5c8a1d002067",
+      "id": "a29ae57c-885f-4a35-b72f-5c8a1d002067",
       "ward_no": "16",
-      "ward_name_en": "Pankulam",
-      "ward_name_ml": "പാങ്കുളം"
+      "name_en": "Pankulam",
+      "name_ml": "പാങ്കുളം"
     },
     {
-      "ward_id": "6611fe8a-672a-4adc-9600-a38e3ecb97ef",
+      "id": "6611fe8a-672a-4adc-9600-a38e3ecb97ef",
       "ward_no": "17",
-      "ward_name_en": "Periyarvallie Club",
-      "ward_name_ml": "പെരിയാര്‍വാലി ക്ലബ്"
+      "name_en": "Periyarvallie Club",
+      "name_ml": "പെരിയാര്‍വാലി ക്ലബ്"
     },
     {
-      "ward_id": "9ef89054-c1c1-461b-b55f-f1d64ac8f758",
+      "id": "9ef89054-c1c1-461b-b55f-f1d64ac8f758",
       "ward_no": "18",
-      "ward_name_en": "Maruth Kavala",
-      "ward_name_ml": "മരുത് കവല"
+      "name_en": "Maruth Kavala",
+      "name_ml": "മരുത് കവല"
     },
     {
-      "ward_id": "fbaa1b77-34de-4ecd-96a5-1da6d098a0f3",
+      "id": "fbaa1b77-34de-4ecd-96a5-1da6d098a0f3",
       "ward_no": "19",
-      "ward_name_en": "K S R T C",
-      "ward_name_ml": "കെ എസ് ആര്‍ റ്റി സി"
+      "name_en": "K S R T C",
+      "name_ml": "കെ എസ് ആര്‍ റ്റി സി"
     },
     {
-      "ward_id": "45514410-0b01-4d45-8805-4ae46a9adb57",
+      "id": "45514410-0b01-4d45-8805-4ae46a9adb57",
       "ward_no": "20",
-      "ward_name_en": "Church",
-      "ward_name_ml": "ചര്‍ച്ച്"
+      "name_en": "Church",
+      "name_ml": "ചര്‍ച്ച്"
     },
     {
-      "ward_id": "24a6e9a4-aae5-48c0-afb8-12cc27a37d69",
+      "id": "24a6e9a4-aae5-48c0-afb8-12cc27a37d69",
       "ward_no": "21",
-      "ward_name_en": "Municipal Office",
-      "ward_name_ml": "മുനിസിപ്പല്‍ ഓഫീസ്"
+      "name_en": "Municipal Office",
+      "name_ml": "മുനിസിപ്പല്‍ ഓഫീസ്"
     },
     {
-      "ward_id": "f3771627-4c5a-4f24-823e-c43b2aa1cac8",
+      "id": "f3771627-4c5a-4f24-823e-c43b2aa1cac8",
       "ward_no": "22",
-      "ward_name_en": "Library",
-      "ward_name_ml": "ലൈബ്രറി"
+      "name_en": "Library",
+      "name_ml": "ലൈബ്രറി"
     },
     {
-      "ward_id": "29a37128-892f-466e-b060-5cae11142d2c",
+      "id": "29a37128-892f-466e-b060-5cae11142d2c",
       "ward_no": "23",
-      "ward_name_en": "Kaduval",
-      "ward_name_ml": "കടുവാള്‍"
+      "name_en": "Kaduval",
+      "name_ml": "കടുവാള്‍"
     },
     {
-      "ward_id": "6c683b20-4842-498b-83e1-11b6e575a388",
+      "id": "6c683b20-4842-498b-83e1-11b6e575a388",
       "ward_no": "24",
-      "ward_name_en": "Vallam Thodu",
-      "ward_name_ml": "വല്ലം തോട്"
+      "name_en": "Vallam Thodu",
+      "name_ml": "വല്ലം തോട്"
     },
     {
-      "ward_id": "4ac3016c-ab56-47c4-8eaf-0ab1a3e05246",
+      "id": "4ac3016c-ab56-47c4-8eaf-0ab1a3e05246",
       "ward_no": "25",
-      "ward_name_en": "Parappuram",
-      "ward_name_ml": "പാറപ്പുറം"
+      "name_en": "Parappuram",
+      "name_ml": "പാറപ്പുറം"
     },
     {
-      "ward_id": "e16a4229-0b8e-446b-845f-f0dadcbb17ad",
+      "id": "e16a4229-0b8e-446b-845f-f0dadcbb17ad",
       "ward_no": "26",
-      "ward_name_en": "South Vallam",
-      "ward_name_ml": "സൌത്ത് വല്ലം"
+      "name_en": "South Vallam",
+      "name_ml": "സൌത്ത് വല്ലം"
     },
     {
-      "ward_id": "8307edcb-9ada-48c6-96b6-5e28118f864c",
+      "id": "8307edcb-9ada-48c6-96b6-5e28118f864c",
       "ward_no": "27",
-      "ward_name_en": "Rayonpuram",
-      "ward_name_ml": "റയോണ്‍പുരം"
+      "name_en": "Rayonpuram",
+      "name_ml": "റയോണ്‍പുരം"
     }
   ],
   "towns": [],

@@ -1,105 +1,139 @@
 {
-  "district_id": "10",
-  "district_name_en": "Malappuram",
-  "district_name_ml": "മലപ്പുറം",
+  "id": "10",
+  "name_en": "Malappuram",
+  "name_ml": "മലപ്പുറം",
   "is_active": true,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "33",
-      "assembly_name_en": "Kondotty",
-      "assembly_name_ml": "കൊണ്ടോട്ടി",
-      "category": "Normal"
+      "id": "33",
+      "name_en": "Kondotty",
+      "name_ml": "കൊണ്ടോട്ടി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "34",
-      "assembly_name_en": "Eranad",
-      "assembly_name_ml": "ഏറനാട്",
-      "category": "Normal"
+      "id": "34",
+      "name_en": "Eranad",
+      "name_ml": "ഏറനാട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "35",
-      "assembly_name_en": "Nilambur",
-      "assembly_name_ml": "നിലമ്പൂര്‍",
-      "category": "Normal"
+      "id": "35",
+      "name_en": "Nilambur",
+      "name_ml": "നിലമ്പൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "36",
-      "assembly_name_en": "Wandoor",
-      "assembly_name_ml": "വണ്ടൂര്‍",
-      "category": "Normal"
+      "id": "36",
+      "name_en": "Wandoor",
+      "name_ml": "വണ്ടൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "37",
-      "assembly_name_en": "Manjeri",
-      "assembly_name_ml": "മഞ്ചേരി",
-      "category": "Normal"
+      "id": "37",
+      "name_en": "Manjeri",
+      "name_ml": "മഞ്ചേരി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "38",
-      "assembly_name_en": "Perinthalmanna",
-      "assembly_name_ml": "പെരിന്തല്‍മണ്ണ",
-      "category": "Normal"
+      "id": "38",
+      "name_en": "Perinthalmanna",
+      "name_ml": "പെരിന്തല്‍മണ്ണ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "39",
-      "assembly_name_en": "Mankada",
-      "assembly_name_ml": "മങ്കട",
-      "category": "Normal"
+      "id": "39",
+      "name_en": "Mankada",
+      "name_ml": "മങ്കട",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "40",
-      "assembly_name_en": "Malappuram",
-      "assembly_name_ml": "മലപ്പുറം",
-      "category": "Normal"
+      "id": "40",
+      "name_en": "Malappuram",
+      "name_ml": "മലപ്പുറം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "41",
-      "assembly_name_en": "Vengara",
-      "assembly_name_ml": "വേങ്ങര",
-      "category": "Normal"
+      "id": "41",
+      "name_en": "Vengara",
+      "name_ml": "വേങ്ങര",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "42",
-      "assembly_name_en": "Vallikkunnu",
-      "assembly_name_ml": "വള്ളിക്കുന്ന്",
-      "category": "Normal"
+      "id": "42",
+      "name_en": "Vallikkunnu",
+      "name_ml": "വള്ളിക്കുന്ന്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "43",
-      "assembly_name_en": "Tirurangadi",
-      "assembly_name_ml": "തിരൂരങ്ങാടി",
-      "category": "Normal"
+      "id": "43",
+      "name_en": "Tirurangadi",
+      "name_ml": "തിരൂരങ്ങാടി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "44",
-      "assembly_name_en": "Tanur",
-      "assembly_name_ml": "താനൂര്‍",
-      "category": "Normal"
+      "id": "44",
+      "name_en": "Tanur",
+      "name_ml": "താനൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "45",
-      "assembly_name_en": "Tirur",
-      "assembly_name_ml": "തിരൂര്‍",
-      "category": "Normal"
+      "id": "45",
+      "name_en": "Tirur",
+      "name_ml": "തിരൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "46",
-      "assembly_name_en": "Kottakkal",
-      "assembly_name_ml": "കോട്ടക്കല്‍",
-      "category": "Normal"
+      "id": "46",
+      "name_en": "Kottakkal",
+      "name_ml": "കോട്ടക്കല്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "47",
-      "assembly_name_en": "Tavanur",
-      "assembly_name_ml": "തവനൂര്‍",
-      "category": "Normal"
+      "id": "47",
+      "name_en": "Tavanur",
+      "name_ml": "തവനൂര്‍",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "48",
-      "assembly_name_en": "Ponnani",
-      "assembly_name_ml": "പൊന്നാനി",
-      "category": "Normal"
+      "id": "48",
+      "name_en": "Ponnani",
+      "name_ml": "പൊന്നാനി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

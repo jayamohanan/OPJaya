@@ -1,32 +1,43 @@
 {
-  "assembly_id": "81",
-  "assembly_name_en": "Thrippunithura",
-  "assembly_name_ml": "തൃപ്പൂണിത്തുറ",
-  "category": "Normal",
+  "id": "81",
+  "name_en": "Thrippunithura",
+  "name_ml": "തൃപ്പൂണിത്തുറ",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070803",
-      "local_body_name_en": "Kumbalam",
-      "local_body_name_ml": "കുമ്പളം",
-      "category": "Good"
+      "id": "G070803",
+      "name_en": "Kumbalam",
+      "name_ml": "കുമ്പളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "M071100",
-      "local_body_name_en": "Maradu",
-      "local_body_name_ml": "മരട്",
-      "category": "Normal"
+      "id": "M071100",
+      "name_en": "Maradu",
+      "name_ml": "മരട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070901",
-      "local_body_name_en": "Udayamperoor",
-      "local_body_name_ml": "ഉദയംപേരൂര്‍",
-      "category": "Perfect"
+      "id": "G070901",
+      "name_en": "Udayamperoor",
+      "name_ml": "ഉദയംപേരൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

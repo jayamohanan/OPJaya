@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G131105",
-  "local_body_name_en": "Kolayad",
-  "local_body_name_ml": "കോളയാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "15",
-    "assembly_name_en": "Mattanur",
-    "assembly_name_ml": "മട്ടന്നൂര്‍",
+  "id": "G131105",
+  "name_en": "Kolayad",
+  "name_ml": "കോളയാട്",
+  "assembly_id": "15",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "15",
+    "name_en": "Mattanur",
+    "name_ml": "മട്ടന്നൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "05adb1a4-681e-4a78-911b-e26822023918",
+      "id": "05adb1a4-681e-4a78-911b-e26822023918",
       "ward_no": "1",
-      "ward_name_en": "Alachery",
-      "ward_name_ml": "ആലച്ചേരി"
+      "name_en": "Alachery",
+      "name_ml": "ആലച്ചേരി"
     },
     {
-      "ward_id": "2e8e5af1-e27a-482b-ae57-34539ad82127",
+      "id": "2e8e5af1-e27a-482b-ae57-34539ad82127",
       "ward_no": "2",
-      "ward_name_en": "Menachodi",
-      "ward_name_ml": "മേനച്ചോടി"
+      "name_en": "Menachodi",
+      "name_ml": "മേനച്ചോടി"
     },
     {
-      "ward_id": "8a6ca464-8b80-4e2e-a040-e6de508d62e9",
+      "id": "8a6ca464-8b80-4e2e-a040-e6de508d62e9",
       "ward_no": "3",
-      "ward_name_en": "Aryaparamba",
-      "ward_name_ml": "ആര്യപ്പറമ്പ്"
+      "name_en": "Aryaparamba",
+      "name_ml": "ആര്യപ്പറമ്പ്"
     },
     {
-      "ward_id": "d8a05d7b-7d68-4072-affd-f874153ce280",
+      "id": "d8a05d7b-7d68-4072-affd-f874153ce280",
       "ward_no": "4",
-      "ward_name_en": "Vayannur",
-      "ward_name_ml": "വായന്നൂര്‍"
+      "name_en": "Vayannur",
+      "name_ml": "വായന്നൂര്‍"
     },
     {
-      "ward_id": "8947edfc-187d-4b65-8f29-ff3857d6444a",
+      "id": "8947edfc-187d-4b65-8f29-ff3857d6444a",
       "ward_no": "5",
-      "ward_name_en": "Vekkalam",
-      "ward_name_ml": "വേക്കളം"
+      "name_en": "Vekkalam",
+      "name_ml": "വേക്കളം"
     },
     {
-      "ward_id": "b18b5096-24bb-4861-9925-1fdc6ce83ece",
+      "id": "b18b5096-24bb-4861-9925-1fdc6ce83ece",
       "ward_no": "6",
-      "ward_name_en": "Erayikkolly",
-      "ward_name_ml": "ഈരായിക്കൊല്ലി"
+      "name_en": "Erayikkolly",
+      "name_ml": "ഈരായിക്കൊല്ലി"
     },
     {
-      "ward_id": "8e85aebf-4db5-45e3-b284-3a33839cfeba",
+      "id": "8e85aebf-4db5-45e3-b284-3a33839cfeba",
       "ward_no": "7",
-      "ward_name_en": "Nidumpuramchal",
-      "ward_name_ml": "നെടുംപറംചാല്‍"
+      "name_en": "Nidumpuramchal",
+      "name_ml": "നെടുംപറംചാല്‍"
     },
     {
-      "ward_id": "408ccac6-288d-4a0e-b129-db8d1b892c2b",
+      "id": "408ccac6-288d-4a0e-b129-db8d1b892c2b",
       "ward_no": "8",
-      "ward_name_en": "Kommeri",
-      "ward_name_ml": "കൊമ്മേരി"
+      "name_en": "Kommeri",
+      "name_ml": "കൊമ്മേരി"
     },
     {
-      "ward_id": "416d2d74-1285-4cbc-8b7b-bab536d6bcbe",
+      "id": "416d2d74-1285-4cbc-8b7b-bab536d6bcbe",
       "ward_no": "9",
-      "ward_name_en": "Puthalam",
-      "ward_name_ml": "പുത്തലം"
+      "name_en": "Puthalam",
+      "name_ml": "പുത്തലം"
     },
     {
-      "ward_id": "6d1e4ed1-33b3-499a-89ea-23e7701b47c7",
+      "id": "6d1e4ed1-33b3-499a-89ea-23e7701b47c7",
       "ward_no": "10",
-      "ward_name_en": "Kakkamthodu",
-      "ward_name_ml": "കക്കംതോട്"
+      "name_en": "Kakkamthodu",
+      "name_ml": "കക്കംതോട്"
     },
     {
-      "ward_id": "97cdd941-2ec3-4b17-86eb-30374256b0cd",
+      "id": "97cdd941-2ec3-4b17-86eb-30374256b0cd",
       "ward_no": "11",
-      "ward_name_en": "Kolayad",
-      "ward_name_ml": "കോളയാട്"
+      "name_en": "Kolayad",
+      "name_ml": "കോളയാട്"
     },
     {
-      "ward_id": "f9219a4b-796d-4d0b-9316-4326e311825b",
+      "id": "f9219a4b-796d-4d0b-9316-4326e311825b",
       "ward_no": "12",
-      "ward_name_en": "Padiparambu",
-      "ward_name_ml": "പാടിപ്പറമ്പ്"
+      "name_en": "Padiparambu",
+      "name_ml": "പാടിപ്പറമ്പ്"
     },
     {
-      "ward_id": "cabee276-53d8-4253-b983-bc43930cfb7c",
+      "id": "cabee276-53d8-4253-b983-bc43930cfb7c",
       "ward_no": "13",
-      "ward_name_en": "Peruva",
-      "ward_name_ml": "പെരുവ"
+      "name_en": "Peruva",
+      "name_ml": "പെരുവ"
     },
     {
-      "ward_id": "f962dd70-7e8c-41ae-a3cd-a1922961ed2e",
+      "id": "f962dd70-7e8c-41ae-a3cd-a1922961ed2e",
       "ward_no": "14",
-      "ward_name_en": "Edayar",
-      "ward_name_ml": "എടയാര്‍"
+      "name_en": "Edayar",
+      "name_ml": "എടയാര്‍"
     }
   ],
   "towns": [],

@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G060208",
-  "local_body_name_en": "Devikulam",
-  "local_body_name_ml": "ദേവികുളം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G060208",
+  "name_en": "Devikulam",
+  "name_ml": "ദേവികുളം",
+  "assembly_id": "88",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "88",
-    "assembly_name_en": "Devikulam",
-    "assembly_name_ml": "ദേവികുളം",
-    "category": "Normal"
+    "id": "88",
+    "name_en": "Devikulam",
+    "name_ml": "ദേവികുളം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "bf8c1d93-73e7-4267-ab61-af318619a0b4",
+      "id": "bf8c1d93-73e7-4267-ab61-af318619a0b4",
       "ward_no": "1",
-      "ward_name_en": "Benmore",
-      "ward_name_ml": "ബെന്‍മൂര്‍"
+      "name_en": "Benmore",
+      "name_ml": "ബെന്‍മൂര്‍"
     },
     {
-      "ward_id": "6ffd57b5-f548-4a12-822a-f3c4a069f566",
+      "id": "6ffd57b5-f548-4a12-822a-f3c4a069f566",
       "ward_no": "2",
-      "ward_name_en": "Kundala",
-      "ward_name_ml": "കുണ്ടള"
+      "name_en": "Kundala",
+      "name_ml": "കുണ്ടള"
     },
     {
-      "ward_id": "332b142f-bdbd-42d8-a8bb-d4731f274954",
+      "id": "332b142f-bdbd-42d8-a8bb-d4731f274954",
       "ward_no": "3",
-      "ward_name_en": "Chenduvara",
-      "ward_name_ml": "ചെണ്ടുവാര"
+      "name_en": "Chenduvara",
+      "name_ml": "ചെണ്ടുവാര"
     },
     {
-      "ward_id": "7c1b6104-edb4-473b-b7be-9f1b336dedce",
+      "id": "7c1b6104-edb4-473b-b7be-9f1b336dedce",
       "ward_no": "4",
-      "ward_name_en": "Chittivara",
-      "ward_name_ml": "ചിറ്റിവാര"
+      "name_en": "Chittivara",
+      "name_ml": "ചിറ്റിവാര"
     },
     {
-      "ward_id": "969fec84-cb6d-4293-9add-d4fd4129787d",
+      "id": "969fec84-cb6d-4293-9add-d4fd4129787d",
       "ward_no": "5",
-      "ward_name_en": "Theerthamala",
-      "ward_name_ml": "തീര്‍ത്ഥമല"
+      "name_en": "Theerthamala",
+      "name_ml": "തീര്‍ത്ഥമല"
     },
     {
-      "ward_id": "63c9998f-57fe-41c5-aa55-6ce868b7a5e9",
+      "id": "63c9998f-57fe-41c5-aa55-6ce868b7a5e9",
       "ward_no": "6",
-      "ward_name_en": "Yellappatty",
-      "ward_name_ml": "എല്ലപ്പെട്ടി"
+      "name_en": "Yellappatty",
+      "name_ml": "എല്ലപ്പെട്ടി"
     },
     {
-      "ward_id": "033c32a0-a230-4a52-bf6e-10f835018a02",
+      "id": "033c32a0-a230-4a52-bf6e-10f835018a02",
       "ward_no": "7",
-      "ward_name_en": "Arivikkad",
-      "ward_name_ml": "അരിവിക്കാട്"
+      "name_en": "Arivikkad",
+      "name_ml": "അരിവിക്കാട്"
     },
     {
-      "ward_id": "65226312-5025-41e3-8161-58da6dfc023e",
+      "id": "65226312-5025-41e3-8161-58da6dfc023e",
       "ward_no": "8",
-      "ward_name_en": "Silentvalley",
-      "ward_name_ml": "സൈലന്‍റ് വാലി"
+      "name_en": "Silentvalley",
+      "name_ml": "സൈലന്‍റ് വാലി"
     },
     {
-      "ward_id": "de552b49-c8ba-46d3-99a4-b97abed64da5",
+      "id": "de552b49-c8ba-46d3-99a4-b97abed64da5",
       "ward_no": "9",
-      "ward_name_en": "Gudarvila",
-      "ward_name_ml": "ഗൂഡാര്‍വിള"
+      "name_en": "Gudarvila",
+      "name_ml": "ഗൂഡാര്‍വിള"
     },
     {
-      "ward_id": "2cd4fea7-9297-462f-baf3-9394b6cd6eb5",
+      "id": "2cd4fea7-9297-462f-baf3-9394b6cd6eb5",
       "ward_no": "10",
-      "ward_name_en": "Manila",
-      "ward_name_ml": "മാനില"
+      "name_en": "Manila",
+      "name_ml": "മാനില"
     },
     {
-      "ward_id": "f869a997-792c-4365-b0fb-0f0c471d762d",
+      "id": "f869a997-792c-4365-b0fb-0f0c471d762d",
       "ward_no": "11",
-      "ward_name_en": "Lockhart",
-      "ward_name_ml": "ലാക്കാര്‍ഡ്"
+      "name_en": "Lockhart",
+      "name_ml": "ലാക്കാര്‍ഡ്"
     },
     {
-      "ward_id": "c1487d98-da63-46d2-8d14-c27d8ed0171a",
+      "id": "c1487d98-da63-46d2-8d14-c27d8ed0171a",
       "ward_no": "12",
-      "ward_name_en": "Devikulam",
-      "ward_name_ml": "ദേവികുളം"
+      "name_en": "Devikulam",
+      "name_ml": "ദേവികുളം"
     },
     {
-      "ward_id": "18be743a-f529-4b32-9f86-f22fa2a3633d",
+      "id": "18be743a-f529-4b32-9f86-f22fa2a3633d",
       "ward_no": "13",
-      "ward_name_en": "Chokkanad",
-      "ward_name_ml": "ചൊക്കനാട്"
+      "name_en": "Chokkanad",
+      "name_ml": "ചൊക്കനാട്"
     },
     {
-      "ward_id": "5db67c60-e6e9-49ae-bad2-f58461b10ece",
+      "id": "5db67c60-e6e9-49ae-bad2-f58461b10ece",
       "ward_no": "14",
-      "ward_name_en": "Nettikkudy",
-      "ward_name_ml": "നെറ്റിക്കുടി"
+      "name_en": "Nettikkudy",
+      "name_ml": "നെറ്റിക്കുടി"
     },
     {
-      "ward_id": "6147eafd-b749-4ab6-83cb-a15f7e2d4185",
+      "id": "6147eafd-b749-4ab6-83cb-a15f7e2d4185",
       "ward_no": "15",
-      "ward_name_en": "Grahamsland",
-      "ward_name_ml": "ഗ്രഹാംസ് ലാന്‍റ്"
+      "name_en": "Grahamsland",
+      "name_ml": "ഗ്രഹാംസ് ലാന്‍റ്"
     },
     {
-      "ward_id": "d0f50ce3-54dd-4b45-94b3-350844bda47c",
+      "id": "d0f50ce3-54dd-4b45-94b3-350844bda47c",
       "ward_no": "16",
-      "ward_name_en": "Mattuppetty",
-      "ward_name_ml": "മാട്ടുപ്പെട്ടി"
+      "name_en": "Mattuppetty",
+      "name_ml": "മാട്ടുപ്പെട്ടി"
     },
     {
-      "ward_id": "4ca2d9a5-f3eb-4aa7-9f22-77d4d4074724",
+      "id": "4ca2d9a5-f3eb-4aa7-9f22-77d4d4074724",
       "ward_no": "17",
-      "ward_name_en": "Thenmala",
-      "ward_name_ml": "തെന്മല"
+      "name_en": "Thenmala",
+      "name_ml": "തെന്മല"
     },
     {
-      "ward_id": "91eee6a8-b54d-4369-b0c3-5ca0f32e5005",
+      "id": "91eee6a8-b54d-4369-b0c3-5ca0f32e5005",
       "ward_no": "18",
-      "ward_name_en": "Gundumala",
-      "ward_name_ml": "ഗുണ്ടുമല"
+      "name_en": "Gundumala",
+      "name_ml": "ഗുണ്ടുമല"
     }
   ],
   "towns": [],

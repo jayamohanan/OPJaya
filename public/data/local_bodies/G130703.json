@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G130703",
-  "local_body_name_en": "Pinarayi",
-  "local_body_name_ml": "പിണറായി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G130703",
+  "name_en": "Pinarayi",
+  "name_ml": "പിണറായി",
+  "assembly_id": "12",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "12",
-    "assembly_name_en": "Dharmadom",
-    "assembly_name_ml": "ധര്‍മ്മടം",
-    "category": "Normal"
+    "id": "12",
+    "name_en": "Dharmadom",
+    "name_ml": "ധര്‍മ്മടം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "3dfefa48-69a0-4140-8620-69a7679efead",
+      "id": "3dfefa48-69a0-4140-8620-69a7679efead",
       "ward_no": "1",
-      "ward_name_en": "Parapram",
-      "ward_name_ml": "പാറപ്രം"
+      "name_en": "Parapram",
+      "name_ml": "പാറപ്രം"
     },
     {
-      "ward_id": "e239587f-6410-446f-badc-0835a59f3d67",
+      "id": "e239587f-6410-446f-badc-0835a59f3d67",
       "ward_no": "2",
-      "ward_name_en": "Edakkadav",
-      "ward_name_ml": "ഇടക്കടവ്"
+      "name_en": "Edakkadav",
+      "name_ml": "ഇടക്കടവ്"
     },
     {
-      "ward_id": "ebe2738e-a0f6-478a-bff0-b0fcf655c3d7",
+      "id": "ebe2738e-a0f6-478a-bff0-b0fcf655c3d7",
       "ward_no": "3",
-      "ward_name_en": "Cherikkal",
-      "ward_name_ml": "ചേരിക്കല്‍"
+      "name_en": "Cherikkal",
+      "name_ml": "ചേരിക്കല്‍"
     },
     {
-      "ward_id": "7c267a95-aba4-4598-99ac-839617d9942a",
+      "id": "7c267a95-aba4-4598-99ac-839617d9942a",
       "ward_no": "4",
-      "ward_name_en": "Pinarayi North",
-      "ward_name_ml": "പിണറായി നോര്‍ത്ത്"
+      "name_en": "Pinarayi North",
+      "name_ml": "പിണറായി നോര്‍ത്ത്"
     },
     {
-      "ward_id": "8c3b7750-93c9-4770-b76f-db594e379b84",
+      "id": "8c3b7750-93c9-4770-b76f-db594e379b84",
       "ward_no": "5",
-      "ward_name_en": "Olayambalam",
-      "ward_name_ml": "ഓലയമ്പലം"
+      "name_en": "Olayambalam",
+      "name_ml": "ഓലയമ്പലം"
     },
     {
-      "ward_id": "a8fe65b4-b14a-4bdc-bea7-4828c715b94d",
+      "id": "a8fe65b4-b14a-4bdc-bea7-4828c715b94d",
       "ward_no": "6",
-      "ward_name_en": "Venduttayi",
-      "ward_name_ml": "വെണ്ടുട്ടായി"
+      "name_en": "Venduttayi",
+      "name_ml": "വെണ്ടുട്ടായി"
     },
     {
-      "ward_id": "989f9670-54b5-45c8-908c-f6fb5005a1d1",
+      "id": "989f9670-54b5-45c8-908c-f6fb5005a1d1",
       "ward_no": "7",
-      "ward_name_en": "Kozhur",
-      "ward_name_ml": "കോഴൂര്‍"
+      "name_en": "Kozhur",
+      "name_ml": "കോഴൂര്‍"
     },
     {
-      "ward_id": "4e4573c0-3c41-4e18-bc2a-a82543624be8",
+      "id": "4e4573c0-3c41-4e18-bc2a-a82543624be8",
       "ward_no": "8",
-      "ward_name_en": "Panunda",
-      "ward_name_ml": "പാനുണ്ട"
+      "name_en": "Panunda",
+      "name_ml": "പാനുണ്ട"
     },
     {
-      "ward_id": "04717652-9953-42da-a744-9b55f8fe796c",
+      "id": "04717652-9953-42da-a744-9b55f8fe796c",
       "ward_no": "9",
-      "ward_name_en": "Olayikkara",
-      "ward_name_ml": "ഓലായിക്കര"
+      "name_en": "Olayikkara",
+      "name_ml": "ഓലായിക്കര"
     },
     {
-      "ward_id": "d3cff017-4b81-49c7-a3a3-3ac28ad5dda2",
+      "id": "d3cff017-4b81-49c7-a3a3-3ac28ad5dda2",
       "ward_no": "11",
-      "ward_name_en": "Kappummal",
-      "ward_name_ml": "കാപ്പുമ്മല്‍"
+      "name_en": "Kappummal",
+      "name_ml": "കാപ്പുമ്മല്‍"
     },
     {
-      "ward_id": "bd06322c-2a20-42a5-b0a5-3d16e0294911",
+      "id": "bd06322c-2a20-42a5-b0a5-3d16e0294911",
       "ward_no": "12",
-      "ward_name_en": "Penankimetta",
-      "ward_name_ml": "പെനാങ്കിമെട്ട"
+      "name_en": "Penankimetta",
+      "name_ml": "പെനാങ്കിമെട്ട"
     },
     {
-      "ward_id": "beacebd2-122c-42a0-a899-2479bdc32f52",
+      "id": "beacebd2-122c-42a0-a899-2479bdc32f52",
       "ward_no": "13",
-      "ward_name_en": "Panthakkappara",
-      "ward_name_ml": "പന്തക്കപ്പാറ"
+      "name_en": "Panthakkappara",
+      "name_ml": "പന്തക്കപ്പാറ"
     },
     {
-      "ward_id": "1dccfa59-3e6c-4976-89dc-1b10f9f5af2e",
+      "id": "1dccfa59-3e6c-4976-89dc-1b10f9f5af2e",
       "ward_no": "14",
-      "ward_name_en": "Ummenchira",
-      "ward_name_ml": "ഉമ്മന്‍ചിറ"
+      "name_en": "Ummenchira",
+      "name_ml": "ഉമ്മന്‍ചിറ"
     },
     {
-      "ward_id": "c7eb6b42-e332-4283-9200-02178a6ccdf7",
+      "id": "c7eb6b42-e332-4283-9200-02178a6ccdf7",
       "ward_no": "15",
-      "ward_name_en": "Kizhakkumbhagam",
-      "ward_name_ml": "കിഴക്കുംഭാഗം"
+      "name_en": "Kizhakkumbhagam",
+      "name_ml": "കിഴക്കുംഭാഗം"
     },
     {
-      "ward_id": "f45d610e-9730-40c3-aaea-8f392a009141",
+      "id": "f45d610e-9730-40c3-aaea-8f392a009141",
       "ward_no": "16",
-      "ward_name_en": "Padannakkara",
-      "ward_name_ml": "പടന്നക്കര"
+      "name_en": "Padannakkara",
+      "name_ml": "പടന്നക്കര"
     },
     {
-      "ward_id": "778ff400-791b-4156-bdf7-d3425c4a5d1f",
+      "id": "778ff400-791b-4156-bdf7-d3425c4a5d1f",
       "ward_no": "17",
-      "ward_name_en": "Pinarayi Theru",
-      "ward_name_ml": "പിണറായി തെരു"
+      "name_en": "Pinarayi Theru",
+      "name_ml": "പിണറായി തെരു"
     },
     {
-      "ward_id": "a6e55e50-28ff-40fb-af90-b194392bc47d",
+      "id": "a6e55e50-28ff-40fb-af90-b194392bc47d",
       "ward_no": "18",
-      "ward_name_en": "Kolad",
-      "ward_name_ml": "കോളാട്"
+      "name_en": "Kolad",
+      "name_ml": "കോളാട്"
     },
     {
-      "ward_id": "970d746b-eeac-487f-a16d-31780adac4e3",
+      "id": "970d746b-eeac-487f-a16d-31780adac4e3",
       "ward_no": "19",
-      "ward_name_en": "Pinarayi West",
-      "ward_name_ml": "പിണറായി വെസ്റ്റ്"
+      "name_en": "Pinarayi West",
+      "name_ml": "പിണറായി വെസ്റ്റ്"
     }
   ],
   "towns": [],

@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G081606",
-  "local_body_name_en": "Athirappilly",
-  "local_body_name_ml": "അതിരപ്പിള്ളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G081606",
+  "name_en": "Athirappilly",
+  "name_ml": "അതിരപ്പിള്ളി",
+  "assembly_id": "72",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "72",
-    "assembly_name_en": "Chalakudy",
-    "assembly_name_ml": "ചാലക്കുടി",
-    "category": "Normal"
+    "id": "72",
+    "name_en": "Chalakudy",
+    "name_ml": "ചാലക്കുടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0e02bb28-a74c-46ae-a9e5-93db0214bb47",
+      "id": "0e02bb28-a74c-46ae-a9e5-93db0214bb47",
       "ward_no": "1",
-      "ward_name_en": "Vettikkuzhi",
-      "ward_name_ml": "വെട്ടിക്കുഴി"
+      "name_en": "Vettikkuzhi",
+      "name_ml": "വെട്ടിക്കുഴി"
     },
     {
-      "ward_id": "425898af-f6ec-457a-b737-388d9d466c23",
+      "id": "425898af-f6ec-457a-b737-388d9d466c23",
       "ward_no": "2",
-      "ward_name_en": "Chiklai",
-      "ward_name_ml": "ചിക്ലായ്"
+      "name_en": "Chiklai",
+      "name_ml": "ചിക്ലായ്"
     },
     {
-      "ward_id": "19fc242e-84eb-4442-a945-c1ee44f8752d",
+      "id": "19fc242e-84eb-4442-a945-c1ee44f8752d",
       "ward_no": "3",
-      "ward_name_en": "Vyssery",
-      "ward_name_ml": "വൈശ്ശേരി"
+      "name_en": "Vyssery",
+      "name_ml": "വൈശ്ശേരി"
     },
     {
-      "ward_id": "bf1b85e3-bc10-4f30-9e1e-8c2a6c4b5c56",
+      "id": "bf1b85e3-bc10-4f30-9e1e-8c2a6c4b5c56",
       "ward_no": "4",
-      "ward_name_en": "Aroormuzhi",
-      "ward_name_ml": "അരൂര്‍മുഴി"
+      "name_en": "Aroormuzhi",
+      "name_ml": "അരൂര്‍മുഴി"
     },
     {
-      "ward_id": "765a8721-89dc-410e-82a6-29dcd9e4dcd6",
+      "id": "765a8721-89dc-410e-82a6-29dcd9e4dcd6",
       "ward_no": "5",
-      "ward_name_en": "Vettilappara",
-      "ward_name_ml": "വെറ്റിലപ്പാറ"
+      "name_en": "Vettilappara",
+      "name_ml": "വെറ്റിലപ്പാറ"
     },
     {
-      "ward_id": "e37fc9d9-4311-4de9-99b3-ebc2adff0ad4",
+      "id": "e37fc9d9-4311-4de9-99b3-ebc2adff0ad4",
       "ward_no": "6",
-      "ward_name_en": "Pillappara",
-      "ward_name_ml": "പിള്ളപ്പാറ"
+      "name_en": "Pillappara",
+      "name_ml": "പിള്ളപ്പാറ"
     },
     {
-      "ward_id": "d18eccdf-ec14-4f1b-b6fa-ccda4e4d0d6d",
+      "id": "d18eccdf-ec14-4f1b-b6fa-ccda4e4d0d6d",
       "ward_no": "7",
-      "ward_name_en": "Athirappilly",
-      "ward_name_ml": "അതിരപ്പിള്ളി"
+      "name_en": "Athirappilly",
+      "name_ml": "അതിരപ്പിള്ളി"
     },
     {
-      "ward_id": "2748890b-707e-40df-8ba9-4674ddcee5ca",
+      "id": "2748890b-707e-40df-8ba9-4674ddcee5ca",
       "ward_no": "8",
-      "ward_name_en": "Peringalkuth",
-      "ward_name_ml": "പെരിങ്ങല്‍ക്കുത്ത്"
+      "name_en": "Peringalkuth",
+      "name_ml": "പെരിങ്ങല്‍ക്കുത്ത്"
     },
     {
-      "ward_id": "b4ddf332-fe39-4ea9-aa5f-b209d07da079",
+      "id": "b4ddf332-fe39-4ea9-aa5f-b209d07da079",
       "ward_no": "9",
-      "ward_name_en": "Perumpara",
-      "ward_name_ml": "പെരുമ്പാറ"
+      "name_en": "Perumpara",
+      "name_ml": "പെരുമ്പാറ"
     },
     {
-      "ward_id": "e1b2c85a-4531-478c-aab5-ca6b0f33061c",
+      "id": "e1b2c85a-4531-478c-aab5-ca6b0f33061c",
       "ward_no": "10",
-      "ward_name_en": "Puthukkad",
-      "ward_name_ml": "പുതുക്കാട്"
+      "name_en": "Puthukkad",
+      "name_ml": "പുതുക്കാട്"
     },
     {
-      "ward_id": "e442ed1b-bc04-494d-b6a0-374f8c245125",
+      "id": "e442ed1b-bc04-494d-b6a0-374f8c245125",
       "ward_no": "11",
-      "ward_name_en": "Factory Division",
-      "ward_name_ml": "ഫാക്ടറി ഡിവിഷന്‍"
+      "name_en": "Factory Division",
+      "name_ml": "ഫാക്ടറി ഡിവിഷന്‍"
     },
     {
-      "ward_id": "115cb03e-edc8-4b29-9a22-00b71ffd2e1b",
+      "id": "115cb03e-edc8-4b29-9a22-00b71ffd2e1b",
       "ward_no": "12",
-      "ward_name_en": "Naduperatt",
-      "ward_name_ml": "നടുപെരട്ട്"
+      "name_en": "Naduperatt",
+      "name_ml": "നടുപെരട്ട്"
     },
     {
-      "ward_id": "cd6d5cef-b0ea-4b23-857d-0d96cef70867",
+      "id": "cd6d5cef-b0ea-4b23-857d-0d96cef70867",
       "ward_no": "13",
-      "ward_name_en": "Myladumpara",
-      "ward_name_ml": "മയിലാടുംപാറ"
+      "name_en": "Myladumpara",
+      "name_ml": "മയിലാടുംപാറ"
     }
   ],
   "towns": [],

@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G050605",
-  "local_body_name_en": "Poonjar Thekkekara",
-  "local_body_name_ml": "പൂഞ്ഞാര്‍ തെക്കേക്കര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "101",
-    "assembly_name_en": "Poonjar",
-    "assembly_name_ml": "പൂഞ്ഞാർ",
+  "id": "G050605",
+  "name_en": "Poonjar Thekkekara",
+  "name_ml": "പൂഞ്ഞാര്‍ തെക്കേക്കര",
+  "assembly_id": "101",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "101",
+    "name_en": "Poonjar",
+    "name_ml": "പൂഞ്ഞാർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "a57bb71a-1acc-40e9-9988-99a85adeb822",
+      "id": "a57bb71a-1acc-40e9-9988-99a85adeb822",
       "ward_no": "1",
-      "ward_name_en": "Poonjar Town",
-      "ward_name_ml": "പൂഞ്ഞാര്‍ ടൌണ്‍"
+      "name_en": "Poonjar Town",
+      "name_ml": "പൂഞ്ഞാര്‍ ടൌണ്‍"
     },
     {
-      "ward_id": "27a7d722-6a84-45aa-b04a-0624416e65aa",
+      "id": "27a7d722-6a84-45aa-b04a-0624416e65aa",
       "ward_no": "2",
-      "ward_name_en": "Kallekkulam",
-      "ward_name_ml": "കല്ലേക്കുളം"
+      "name_en": "Kallekkulam",
+      "name_ml": "കല്ലേക്കുളം"
     },
     {
-      "ward_id": "ed292393-0e11-40b3-bb08-aa6d2d4ba55e",
+      "id": "ed292393-0e11-40b3-bb08-aa6d2d4ba55e",
       "ward_no": "3",
-      "ward_name_en": "Peringulam",
-      "ward_name_ml": "പെരിങ്ങുളം"
+      "name_en": "Peringulam",
+      "name_ml": "പെരിങ്ങുളം"
     },
     {
-      "ward_id": "285920e7-31a9-4fdb-9b44-87c2ece3655c",
+      "id": "285920e7-31a9-4fdb-9b44-87c2ece3655c",
       "ward_no": "4",
-      "ward_name_en": "Adivaram",
-      "ward_name_ml": "അടിവാരം"
+      "name_en": "Adivaram",
+      "name_ml": "അടിവാരം"
     },
     {
-      "ward_id": "980e6853-0ed1-4db4-b2ed-ad2483cf1fc2",
+      "id": "980e6853-0ed1-4db4-b2ed-ad2483cf1fc2",
       "ward_no": "5",
-      "ward_name_en": "Kaippally",
-      "ward_name_ml": "കൈപ്പള്ളി"
+      "name_en": "Kaippally",
+      "name_ml": "കൈപ്പള്ളി"
     },
     {
-      "ward_id": "9da30ce7-069e-46aa-b85f-8ae56947cd96",
+      "id": "9da30ce7-069e-46aa-b85f-8ae56947cd96",
       "ward_no": "6",
-      "ward_name_en": "Attinal",
-      "ward_name_ml": "ആറ്റിനാല്‍"
+      "name_en": "Attinal",
+      "name_ml": "ആറ്റിനാല്‍"
     },
     {
-      "ward_id": "ba024dbd-168a-4d7a-970b-1c3e3ca02d64",
+      "id": "ba024dbd-168a-4d7a-970b-1c3e3ca02d64",
       "ward_no": "7",
-      "ward_name_en": "Edamala",
-      "ward_name_ml": "ഇടമല"
+      "name_en": "Edamala",
+      "name_ml": "ഇടമല"
     },
     {
-      "ward_id": "31a03ecc-6e72-4455-a77c-15a7b1354bdf",
+      "id": "31a03ecc-6e72-4455-a77c-15a7b1354bdf",
       "ward_no": "8",
-      "ward_name_en": "Kunnonni",
-      "ward_name_ml": "കുന്നോന്നി"
+      "name_en": "Kunnonni",
+      "name_ml": "കുന്നോന്നി"
     },
     {
-      "ward_id": "03e6aa7f-212b-46f7-9999-85749af2ee36",
+      "id": "03e6aa7f-212b-46f7-9999-85749af2ee36",
       "ward_no": "9",
-      "ward_name_en": "Pathampuzha",
-      "ward_name_ml": "പാതാമ്പുഴ"
+      "name_en": "Pathampuzha",
+      "name_ml": "പാതാമ്പുഴ"
     },
     {
-      "ward_id": "e2006975-c7d0-4d3a-b76a-88a431dd4d95",
+      "id": "e2006975-c7d0-4d3a-b76a-88a431dd4d95",
       "ward_no": "10",
-      "ward_name_en": "Cholathadam",
-      "ward_name_ml": "ചോലത്തടം"
+      "name_en": "Cholathadam",
+      "name_ml": "ചോലത്തടം"
     },
     {
-      "ward_id": "efd32333-66ce-4bcd-b8a7-ca8f28dc48ff",
+      "id": "efd32333-66ce-4bcd-b8a7-ca8f28dc48ff",
       "ward_no": "11",
-      "ward_name_en": "Muringappuram",
-      "ward_name_ml": "മുരിങ്ങപ്പുറം"
+      "name_en": "Muringappuram",
+      "name_ml": "മുരിങ്ങപ്പുറം"
     },
     {
-      "ward_id": "1069302f-0e90-4782-95bc-01403371212e",
+      "id": "1069302f-0e90-4782-95bc-01403371212e",
       "ward_no": "12",
-      "ward_name_en": "Kadaladimattam",
-      "ward_name_ml": "കടലാടിമറ്റം"
+      "name_en": "Kadaladimattam",
+      "name_ml": "കടലാടിമറ്റം"
     },
     {
-      "ward_id": "c93a3fab-d0f7-4d2c-8921-51f1ddab7d89",
+      "id": "c93a3fab-d0f7-4d2c-8921-51f1ddab7d89",
       "ward_no": "13",
-      "ward_name_en": "Payyanithottam",
-      "ward_name_ml": "പയ്യാനിത്തോട്ടം"
+      "name_en": "Payyanithottam",
+      "name_ml": "പയ്യാനിത്തോട്ടം"
     },
     {
-      "ward_id": "e5d372cf-0ec0-4b4b-a2a8-ce9669b94184",
+      "id": "e5d372cf-0ec0-4b4b-a2a8-ce9669b94184",
       "ward_no": "14",
-      "ward_name_en": "Kadooppara",
-      "ward_name_ml": "കടൂപ്പാറ"
+      "name_en": "Kadooppara",
+      "name_ml": "കടൂപ്പാറ"
     }
   ],
   "towns": [],

@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G101502",
-  "local_body_name_en": "Maranchery",
-  "local_body_name_ml": "മാറഞ്ചരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G101502",
+  "name_en": "Maranchery",
+  "name_ml": "മാറഞ്ചരി",
+  "assembly_id": "48",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "48",
-    "assembly_name_en": "Ponnani",
-    "assembly_name_ml": "പൊന്നാനി",
-    "category": "Normal"
+    "id": "48",
+    "name_en": "Ponnani",
+    "name_ml": "പൊന്നാനി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e12df37d-f6b5-4335-85a2-9647b0e5f115",
+      "id": "e12df37d-f6b5-4335-85a2-9647b0e5f115",
       "ward_no": "1",
-      "ward_name_en": "Kanjiramukku West",
-      "ward_name_ml": "കാഞ്ഞിരമുക്ക് വെസ്റ്റ്"
+      "name_en": "Kanjiramukku West",
+      "name_ml": "കാഞ്ഞിരമുക്ക് വെസ്റ്റ്"
     },
     {
-      "ward_id": "45da3450-24e9-4197-982c-de9fba3c2320",
+      "id": "45da3450-24e9-4197-982c-de9fba3c2320",
       "ward_no": "2",
-      "ward_name_en": "Kanjiramukku East",
-      "ward_name_ml": "കാഞ്ഞിരമുക്ക് ഈസ്റ്റ്"
+      "name_en": "Kanjiramukku East",
+      "name_ml": "കാഞ്ഞിരമുക്ക് ഈസ്റ്റ്"
     },
     {
-      "ward_id": "e2ab9481-4ba7-4350-a043-0748f1b0afd3",
+      "id": "e2ab9481-4ba7-4350-a043-0748f1b0afd3",
       "ward_no": "3",
-      "ward_name_en": "Karingallathani",
-      "ward_name_ml": "കരിങ്കല്ലത്താണി"
+      "name_en": "Karingallathani",
+      "name_ml": "കരിങ്കല്ലത്താണി"
     },
     {
-      "ward_id": "7dd56c30-a065-40dd-942c-602a72f31250",
+      "id": "7dd56c30-a065-40dd-942c-602a72f31250",
       "ward_no": "4",
-      "ward_name_en": "Karakkad",
-      "ward_name_ml": "കാരക്കാട്"
+      "name_en": "Karakkad",
+      "name_ml": "കാരക്കാട്"
     },
     {
-      "ward_id": "5b5546ac-8eb8-4f7d-a106-0a9d7e372119",
+      "id": "5b5546ac-8eb8-4f7d-a106-0a9d7e372119",
       "ward_no": "5",
-      "ward_name_en": "Panampad",
-      "ward_name_ml": "പനമ്പാട്"
+      "name_en": "Panampad",
+      "name_ml": "പനമ്പാട്"
     },
     {
-      "ward_id": "eb14ddd3-006c-4c9a-b014-d36c7499c905",
+      "id": "eb14ddd3-006c-4c9a-b014-d36c7499c905",
       "ward_no": "6",
-      "ward_name_en": "Vadamukku",
-      "ward_name_ml": "വടമുക്ക്"
+      "name_en": "Vadamukku",
+      "name_ml": "വടമുക്ക്"
     },
     {
-      "ward_id": "bbd0bf9e-7f37-4edb-964d-c4e3dfa308eb",
+      "id": "bbd0bf9e-7f37-4edb-964d-c4e3dfa308eb",
       "ward_no": "7",
-      "ward_name_en": "Adhikarippadi",
-      "ward_name_ml": "അധികാരിപ്പടി"
+      "name_en": "Adhikarippadi",
+      "name_ml": "അധികാരിപ്പടി"
     },
     {
-      "ward_id": "94ed1b70-6d0b-413b-87d7-8bc1af609dcd",
+      "id": "94ed1b70-6d0b-413b-87d7-8bc1af609dcd",
       "ward_no": "8",
-      "ward_name_en": "Thuruvanam",
-      "ward_name_ml": "തുറുവാണം"
+      "name_en": "Thuruvanam",
+      "name_ml": "തുറുവാണം"
     },
     {
-      "ward_id": "b22a0cf9-d56f-4b2e-9d35-ac30ea99aac2",
+      "id": "b22a0cf9-d56f-4b2e-9d35-ac30ea99aac2",
       "ward_no": "9",
-      "ward_name_en": "Thamalassery",
-      "ward_name_ml": "താമലശ്ശേരി"
+      "name_en": "Thamalassery",
+      "name_ml": "താമലശ്ശേരി"
     },
     {
-      "ward_id": "d2ee116c-2e42-40e2-a05f-0f899fb2f8da",
+      "id": "d2ee116c-2e42-40e2-a05f-0f899fb2f8da",
       "ward_no": "10",
-      "ward_name_en": "Maranchery Center",
-      "ward_name_ml": "മാറഞ്ചേരി സെന്‍റര്‍‌"
+      "name_en": "Maranchery Center",
+      "name_ml": "മാറഞ്ചേരി സെന്‍റര്‍‌"
     },
     {
-      "ward_id": "97f50224-c273-4628-934d-7395dd1f58be",
+      "id": "97f50224-c273-4628-934d-7395dd1f58be",
       "ward_no": "11",
-      "ward_name_en": "Parichakam South",
-      "ward_name_ml": "പരിച്ചകം സൌത്ത്"
+      "name_en": "Parichakam South",
+      "name_ml": "പരിച്ചകം സൌത്ത്"
     },
     {
-      "ward_id": "aba3a61e-051d-4fa8-89f7-2297b13cb493",
+      "id": "aba3a61e-051d-4fa8-89f7-2297b13cb493",
       "ward_no": "12",
-      "ward_name_en": "Parichakam North",
-      "ward_name_ml": "പരിച്ചകം നോര്‍ത്ത്"
+      "name_en": "Parichakam North",
+      "name_ml": "പരിച്ചകം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "135aaf0f-f4ed-4d8b-8c19-00576be743fc",
+      "id": "135aaf0f-f4ed-4d8b-8c19-00576be743fc",
       "ward_no": "13",
-      "ward_name_en": "Mukkala",
-      "ward_name_ml": "മുക്കാല"
+      "name_en": "Mukkala",
+      "name_ml": "മുക്കാല"
     },
     {
-      "ward_id": "c689578b-999c-48f5-bc1d-97391c859e5f",
+      "id": "c689578b-999c-48f5-bc1d-97391c859e5f",
       "ward_no": "14",
-      "ward_name_en": "Panampad West",
-      "ward_name_ml": "പനമ്പാട് വെസ്റ്റ്"
+      "name_en": "Panampad West",
+      "name_ml": "പനമ്പാട് വെസ്റ്റ്"
     },
     {
-      "ward_id": "0001aeeb-d8e3-4da6-abe6-cf43def32038",
+      "id": "0001aeeb-d8e3-4da6-abe6-cf43def32038",
       "ward_no": "15",
-      "ward_name_en": "Avundithara",
-      "ward_name_ml": "അവുണ്ടിത്തറ"
+      "name_en": "Avundithara",
+      "name_ml": "അവുണ്ടിത്തറ"
     },
     {
-      "ward_id": "7b28abe5-a633-45e9-ada7-f9f0de21ae7a",
+      "id": "7b28abe5-a633-45e9-ada7-f9f0de21ae7a",
       "ward_no": "16",
-      "ward_name_en": "Purangu",
-      "ward_name_ml": "പുറങ്ങ്"
+      "name_en": "Purangu",
+      "name_ml": "പുറങ്ങ്"
     },
     {
-      "ward_id": "dd912977-a074-47e4-8061-1c70eff90c20",
+      "id": "dd912977-a074-47e4-8061-1c70eff90c20",
       "ward_no": "17",
-      "ward_name_en": "Padinjattumuri",
-      "ward_name_ml": "പടിഞ്ഞാറ്റുമുറി"
+      "name_en": "Padinjattumuri",
+      "name_ml": "പടിഞ്ഞാറ്റുമുറി"
     },
     {
-      "ward_id": "82883b94-233f-46bb-8ddd-ae51a91d620e",
+      "id": "82883b94-233f-46bb-8ddd-ae51a91d620e",
       "ward_no": "18",
-      "ward_name_en": "Avenkotta",
-      "ward_name_ml": "ആവേന്‍കോട്ട"
+      "name_en": "Avenkotta",
+      "name_ml": "ആവേന്‍കോട്ട"
     },
     {
-      "ward_id": "9a34197d-6a8f-4041-a733-6b5cbcdd9503",
+      "id": "9a34197d-6a8f-4041-a733-6b5cbcdd9503",
       "ward_no": "19",
-      "ward_name_en": "Kundukadavu",
-      "ward_name_ml": "കുണ്ടുകടവ്"
+      "name_en": "Kundukadavu",
+      "name_ml": "കുണ്ടുകടവ്"
     }
   ],
   "towns": [],

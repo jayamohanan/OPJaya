@@ -1,190 +1,201 @@
 {
-  "local_body_id": "M090500",
-  "local_body_name_en": "Pattambi",
-  "local_body_name_ml": "പട്ടാമ്പി",
-  "local_body_type_en": "Municipality",
-  "local_body_type_ml": "മുനിസിപ്പാലിറ്റി",
-  "category": "Good",
+  "id": "M090500",
+  "name_en": "Pattambi",
+  "name_ml": "പട്ടാമ്പി",
+  "assembly_id": "50",
+  "local_body_type_id": "MUN",
+  "local_body_type": {
+    "id": "MUN",
+    "name_en": "Municipality",
+    "name_ml": "മുനിസിപ്പാലിറ്റി"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "50",
-    "assembly_name_en": "Pattambi",
-    "assembly_name_ml": "പട്ടാമ്പി",
-    "category": "Normal"
+    "id": "50",
+    "name_en": "Pattambi",
+    "name_ml": "പട്ടാമ്പി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "54bf33af-c120-4e82-b783-d8e66e01a3e4",
+      "id": "54bf33af-c120-4e82-b783-d8e66e01a3e4",
       "ward_no": "1",
-      "ward_name_en": "Vallur North",
-      "ward_name_ml": "വള്ളൂർ നോർത്ത്"
+      "name_en": "Vallur North",
+      "name_ml": "വള്ളൂർ നോർത്ത്"
     },
     {
-      "ward_id": "47e6360a-d758-4617-bf0d-db53029d5c2c",
+      "id": "47e6360a-d758-4617-bf0d-db53029d5c2c",
       "ward_no": "2",
-      "ward_name_en": "Vallur East",
-      "ward_name_ml": "വള്ളൂർ ഈസ്റ്റ്"
+      "name_en": "Vallur East",
+      "name_ml": "വള്ളൂർ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "532ad252-bf4d-4979-a831-794b9c028afe",
+      "id": "532ad252-bf4d-4979-a831-794b9c028afe",
       "ward_no": "3",
-      "ward_name_en": "Second Mile",
-      "ward_name_ml": "രണ്ടാം മൈൽ"
+      "name_en": "Second Mile",
+      "name_ml": "രണ്ടാം മൈൽ"
     },
     {
-      "ward_id": "18ee993f-b2d9-4c37-9697-675ac78ea37b",
+      "id": "18ee993f-b2d9-4c37-9697-675ac78ea37b",
       "ward_no": "4",
-      "ward_name_en": "Kalappara",
-      "ward_name_ml": "കളപ്പാറ"
+      "name_en": "Kalappara",
+      "name_ml": "കളപ്പാറ"
     },
     {
-      "ward_id": "19ec5e8b-9ef0-4992-bc9d-4b2433bc39f9",
+      "id": "19ec5e8b-9ef0-4992-bc9d-4b2433bc39f9",
       "ward_no": "5",
-      "ward_name_en": "Kodalur Centre",
-      "ward_name_ml": "കൊടലൂർ സെ ൻറർ"
+      "name_en": "Kodalur Centre",
+      "name_ml": "കൊടലൂർ സെ ൻറർ"
     },
     {
-      "ward_id": "7da27a16-e5f5-4a68-b19f-d8c814713842",
+      "id": "7da27a16-e5f5-4a68-b19f-d8c814713842",
       "ward_no": "6",
-      "ward_name_en": "Nediyamkunnu",
-      "ward_name_ml": "നെടിയംകുന്ന്"
+      "name_en": "Nediyamkunnu",
+      "name_ml": "നെടിയംകുന്ന്"
     },
     {
-      "ward_id": "48ff5c14-9ca2-42db-877f-a8604168c48d",
+      "id": "48ff5c14-9ca2-42db-877f-a8604168c48d",
       "ward_no": "7",
-      "ward_name_en": "Sankaramangalam",
-      "ward_name_ml": "ശങ്കരമംഗലം"
+      "name_en": "Sankaramangalam",
+      "name_ml": "ശങ്കരമംഗലം"
     },
     {
-      "ward_id": "d17ea477-7f08-43ab-8dc3-2e025b0e1243",
+      "id": "d17ea477-7f08-43ab-8dc3-2e025b0e1243",
       "ward_no": "8",
-      "ward_name_en": "Thekkumuri",
-      "ward_name_ml": "തെക്കുമുറി"
+      "name_en": "Thekkumuri",
+      "name_ml": "തെക്കുമുറി"
     },
     {
-      "ward_id": "d94998e9-0868-47cf-8452-26378dcded19",
+      "id": "d94998e9-0868-47cf-8452-26378dcded19",
       "ward_no": "9",
-      "ward_name_en": "Chorakkunnu",
-      "ward_name_ml": "ചോരക്കുന്ന്"
+      "name_en": "Chorakkunnu",
+      "name_ml": "ചോരക്കുന്ന്"
     },
     {
-      "ward_id": "f387e85d-80d6-4a6b-bd9a-cb279a4c9edc",
+      "id": "f387e85d-80d6-4a6b-bd9a-cb279a4c9edc",
       "ward_no": "10",
-      "ward_name_en": "College",
-      "ward_name_ml": "കോളേജ്"
+      "name_en": "College",
+      "name_ml": "കോളേജ്"
     },
     {
-      "ward_id": "ef0ad409-3634-4cfa-8cfb-f265700a43f2",
+      "id": "ef0ad409-3634-4cfa-8cfb-f265700a43f2",
       "ward_no": "11",
-      "ward_name_en": "Kizhakke Angadi",
-      "ward_name_ml": "കിഴക്കേ അങ്ങാടി"
+      "name_en": "Kizhakke Angadi",
+      "name_ml": "കിഴക്കേ അങ്ങാടി"
     },
     {
-      "ward_id": "686c1412-f888-415d-a849-f2c1d0657a7c",
+      "id": "686c1412-f888-415d-a849-f2c1d0657a7c",
       "ward_no": "12",
-      "ward_name_en": "Hidayath Nagar",
-      "ward_name_ml": "ഹിദായത്ത് നഗർ"
+      "name_en": "Hidayath Nagar",
+      "name_ml": "ഹിദായത്ത് നഗർ"
     },
     {
-      "ward_id": "48634fdf-43ea-4db5-8574-e4cdc8462005",
+      "id": "48634fdf-43ea-4db5-8574-e4cdc8462005",
       "ward_no": "13",
-      "ward_name_en": "Cheruliparambu",
-      "ward_name_ml": "ചെറുളിപ്പറന്പ്"
+      "name_en": "Cheruliparambu",
+      "name_ml": "ചെറുളിപ്പറന്പ്"
     },
     {
-      "ward_id": "7b7e3635-0f10-48ee-a51c-293ccef16bf4",
+      "id": "7b7e3635-0f10-48ee-a51c-293ccef16bf4",
       "ward_no": "14",
-      "ward_name_en": "Kizhayur",
-      "ward_name_ml": "കീഴായൂർ"
+      "name_en": "Kizhayur",
+      "name_ml": "കീഴായൂർ"
     },
     {
-      "ward_id": "fbc1149a-f32a-4132-814c-fc6a8688f4a9",
+      "id": "fbc1149a-f32a-4132-814c-fc6a8688f4a9",
       "ward_no": "15",
-      "ward_name_en": "Lovely",
-      "ward_name_ml": "ലവ്‌ലി"
+      "name_en": "Lovely",
+      "name_ml": "ലവ്‌ലി"
     },
     {
-      "ward_id": "170baecf-1dbd-49e7-bd25-3047b8938411",
+      "id": "170baecf-1dbd-49e7-bd25-3047b8938411",
       "ward_no": "16",
-      "ward_name_en": "Kolorkunnu",
-      "ward_name_ml": "കോളോർകുന്ന്"
+      "name_en": "Kolorkunnu",
+      "name_ml": "കോളോർകുന്ന്"
     },
     {
-      "ward_id": "e56d88c7-331a-4a9c-bf25-7bcd74424bd1",
+      "id": "e56d88c7-331a-4a9c-bf25-7bcd74424bd1",
       "ward_no": "17",
-      "ward_name_en": "Mele Pattambi",
-      "ward_name_ml": "മേലേ പട്ടാമ്പി"
+      "name_en": "Mele Pattambi",
+      "name_ml": "മേലേ പട്ടാമ്പി"
     },
     {
-      "ward_id": "712a5fa9-d570-4d98-bcb2-08e48de59b5c",
+      "id": "712a5fa9-d570-4d98-bcb2-08e48de59b5c",
       "ward_no": "18",
-      "ward_name_en": "Umikkunnu",
-      "ward_name_ml": "ഉമിക്കുന്ന്"
+      "name_en": "Umikkunnu",
+      "name_ml": "ഉമിക്കുന്ന്"
     },
     {
-      "ward_id": "b3fbb83a-68d4-492b-a4ca-eabec72fea84",
+      "id": "b3fbb83a-68d4-492b-a4ca-eabec72fea84",
       "ward_no": "19",
-      "ward_name_en": "Nambram",
-      "ward_name_ml": "നമ്പ്രം"
+      "name_en": "Nambram",
+      "name_ml": "നമ്പ്രം"
     },
     {
-      "ward_id": "adb20a95-ee7d-4c73-b310-fba35744ce6f",
+      "id": "adb20a95-ee7d-4c73-b310-fba35744ce6f",
       "ward_no": "20",
-      "ward_name_en": "Pattambi Town",
-      "ward_name_ml": "പട്ടാമ്പി ടൌണ്‍"
+      "name_en": "Pattambi Town",
+      "name_ml": "പട്ടാമ്പി ടൌണ്‍"
     },
     {
-      "ward_id": "73983651-1eab-4102-9bb5-1877e47a08a4",
+      "id": "73983651-1eab-4102-9bb5-1877e47a08a4",
       "ward_no": "21",
-      "ward_name_en": "Kaithali",
-      "ward_name_ml": "കൈത്തളി"
+      "name_en": "Kaithali",
+      "name_ml": "കൈത്തളി"
     },
     {
-      "ward_id": "dc5d1d0b-4ed7-4560-afaa-2d2ee5f30a66",
+      "id": "dc5d1d0b-4ed7-4560-afaa-2d2ee5f30a66",
       "ward_no": "22",
-      "ward_name_en": "Nethirimangalam",
-      "ward_name_ml": "നേതിരിമംഗലം"
+      "name_en": "Nethirimangalam",
+      "name_ml": "നേതിരിമംഗലം"
     },
     {
-      "ward_id": "2836209d-fe67-4a25-9626-b678a77e9448",
+      "id": "2836209d-fe67-4a25-9626-b678a77e9448",
       "ward_no": "23",
-      "ward_name_en": "Civil Station",
-      "ward_name_ml": "സിവിൽ സ്റ്റേഷൻ"
+      "name_en": "Civil Station",
+      "name_ml": "സിവിൽ സ്റ്റേഷൻ"
     },
     {
-      "ward_id": "a72e5fea-ae93-4b00-b57b-7f5fabc36d71",
+      "id": "a72e5fea-ae93-4b00-b57b-7f5fabc36d71",
       "ward_no": "24",
-      "ward_name_en": "Paruvakkadavu",
-      "ward_name_ml": "പരുവക്കടവ്"
+      "name_en": "Paruvakkadavu",
+      "name_ml": "പരുവക്കടവ്"
     },
     {
-      "ward_id": "4b3521cc-e692-4916-95a6-a5805f4be2c8",
+      "id": "4b3521cc-e692-4916-95a6-a5805f4be2c8",
       "ward_no": "25",
-      "ward_name_en": "Kozhikunnu",
-      "ward_name_ml": "കോഴിക്കുന്ന്"
+      "name_en": "Kozhikunnu",
+      "name_ml": "കോഴിക്കുന്ന്"
     },
     {
-      "ward_id": "da9c5b7f-66db-408b-8d1e-9d0b6ff71bab",
+      "id": "da9c5b7f-66db-408b-8d1e-9d0b6ff71bab",
       "ward_no": "26",
-      "ward_name_en": "Vadakkumuri",
-      "ward_name_ml": "വടക്കുമുറി"
+      "name_en": "Vadakkumuri",
+      "name_ml": "വടക്കുമുറി"
     },
     {
-      "ward_id": "a032a909-9be1-4d93-82e7-ed51711cd307",
+      "id": "a032a909-9be1-4d93-82e7-ed51711cd307",
       "ward_no": "27",
-      "ward_name_en": "Thottungal City",
-      "ward_name_ml": "തോട്ടുങ്ങൽ  സിറ്റി"
+      "name_en": "Thottungal City",
+      "name_ml": "തോട്ടുങ്ങൽ  സിറ്റി"
     },
     {
-      "ward_id": "62fb2d62-9bad-42e1-8c21-c1d15c4aee30",
+      "id": "62fb2d62-9bad-42e1-8c21-c1d15c4aee30",
       "ward_no": "28",
-      "ward_name_en": "Vallur Centre",
-      "ward_name_ml": "വള്ളൂർ സെന്റർ"
+      "name_en": "Vallur Centre",
+      "name_ml": "വള്ളൂർ സെന്റർ"
     }
   ],
   "towns": [],

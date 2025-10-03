@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G020601",
-  "local_body_name_en": "Veliyam",
-  "local_body_name_ml": "വെളിയം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "119",
-    "assembly_name_en": "Kottarakkara",
-    "assembly_name_ml": "കൊട്ടാരക്കര",
+  "id": "G020601",
+  "name_en": "Veliyam",
+  "name_ml": "വെളിയം",
+  "assembly_id": "119",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "119",
+    "name_en": "Kottarakkara",
+    "name_ml": "കൊട്ടാരക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4a8647f9-50b1-4c0a-911e-8eb1d3da0437",
+      "id": "4a8647f9-50b1-4c0a-911e-8eb1d3da0437",
       "ward_no": "1",
-      "ward_name_en": "Muttara",
-      "ward_name_ml": "മുട്ടറ"
+      "name_en": "Muttara",
+      "name_ml": "മുട്ടറ"
     },
     {
-      "ward_id": "edf6bed0-c530-425c-8ff7-21b7cedf83c6",
+      "id": "edf6bed0-c530-425c-8ff7-21b7cedf83c6",
       "ward_no": "2",
-      "ward_name_en": "Manikandeswaram",
-      "ward_name_ml": "മണികണ്ഠേശ്വരം"
+      "name_en": "Manikandeswaram",
+      "name_ml": "മണികണ്ഠേശ്വരം"
     },
     {
-      "ward_id": "e8d41dea-8d1a-405d-882d-7bac25c375dc",
+      "id": "e8d41dea-8d1a-405d-882d-7bac25c375dc",
       "ward_no": "3",
-      "ward_name_en": "Odanavattom",
-      "ward_name_ml": "ഓടനാവട്ടം"
+      "name_en": "Odanavattom",
+      "name_ml": "ഓടനാവട്ടം"
     },
     {
-      "ward_id": "faa73cc7-fde4-48e7-9e54-2517c9d3f1dc",
+      "id": "faa73cc7-fde4-48e7-9e54-2517c9d3f1dc",
       "ward_no": "4",
-      "ward_name_en": "Vappala",
-      "ward_name_ml": "വാപ്പാല"
+      "name_en": "Vappala",
+      "name_ml": "വാപ്പാല"
     },
     {
-      "ward_id": "8e597745-7ea0-4611-8d78-e67e35f7e898",
+      "id": "8e597745-7ea0-4611-8d78-e67e35f7e898",
       "ward_no": "5",
-      "ward_name_en": "Chepra",
-      "ward_name_ml": "ചെപ്ര"
+      "name_en": "Chepra",
+      "name_ml": "ചെപ്ര"
     },
     {
-      "ward_id": "2a9cd091-e632-48dd-9450-88cd161c2efc",
+      "id": "2a9cd091-e632-48dd-9450-88cd161c2efc",
       "ward_no": "6",
-      "ward_name_en": "Kalappila",
-      "ward_name_ml": "കളപ്പില"
+      "name_en": "Kalappila",
+      "name_ml": "കളപ്പില"
     },
     {
-      "ward_id": "3c1e02fb-f94e-4ab9-8a62-d9a398290bce",
+      "id": "3c1e02fb-f94e-4ab9-8a62-d9a398290bce",
       "ward_no": "7",
-      "ward_name_en": "Malayil",
-      "ward_name_ml": "മാലയില്‍"
+      "name_en": "Malayil",
+      "name_ml": "മാലയില്‍"
     },
     {
-      "ward_id": "d6312f64-7329-402e-a713-e60a0f3281c6",
+      "id": "d6312f64-7329-402e-a713-e60a0f3281c6",
       "ward_no": "8",
-      "ward_name_en": "Kayila",
-      "ward_name_ml": "കായില"
+      "name_en": "Kayila",
+      "name_ml": "കായില"
     },
     {
-      "ward_id": "8d59ea63-4364-4a92-95ec-43fc8f56b3e2",
+      "id": "8d59ea63-4364-4a92-95ec-43fc8f56b3e2",
       "ward_no": "9",
-      "ward_name_en": "Veliyam Town",
-      "ward_name_ml": "വെളിയം ഠൌണ്‍"
+      "name_en": "Veliyam Town",
+      "name_ml": "വെളിയം ഠൌണ്‍"
     },
     {
-      "ward_id": "f49cfafd-f6ce-4475-8df0-399b22b97526",
+      "id": "f49cfafd-f6ce-4475-8df0-399b22b97526",
       "ward_no": "10",
-      "ward_name_en": "Veliyam Colony",
-      "ward_name_ml": "വെളിയം കോളനി"
+      "name_en": "Veliyam Colony",
+      "name_ml": "വെളിയം കോളനി"
     },
     {
-      "ward_id": "e8e4a361-5e6f-4172-a648-2d89b2401a44",
+      "id": "e8e4a361-5e6f-4172-a648-2d89b2401a44",
       "ward_no": "11",
-      "ward_name_en": "Aroorkonam",
-      "ward_name_ml": "ആരൂര്‍ക്കോണം"
+      "name_en": "Aroorkonam",
+      "name_ml": "ആരൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "0e9e7773-b789-41f0-80d7-a3ac00603b17",
+      "id": "0e9e7773-b789-41f0-80d7-a3ac00603b17",
       "ward_no": "12",
-      "ward_name_en": "Padijattinkara",
-      "ward_name_ml": "പടിഞ്ഞാറ്റിന്‍കര"
+      "name_en": "Padijattinkara",
+      "name_ml": "പടിഞ്ഞാറ്റിന്‍കര"
     },
     {
-      "ward_id": "fc0b6311-114f-4d73-8c7d-380f0aa3f392",
+      "id": "fc0b6311-114f-4d73-8c7d-380f0aa3f392",
       "ward_no": "13",
-      "ward_name_en": "Kottara",
-      "ward_name_ml": "കൊട്ടറ"
+      "name_en": "Kottara",
+      "name_ml": "കൊട്ടറ"
     },
     {
-      "ward_id": "5ce1fd9c-9e13-42b7-95ab-86454f57e038",
+      "id": "5ce1fd9c-9e13-42b7-95ab-86454f57e038",
       "ward_no": "14",
-      "ward_name_en": "Kalayacodu",
-      "ward_name_ml": "കലയക്കോട്"
+      "name_en": "Kalayacodu",
+      "name_ml": "കലയക്കോട്"
     },
     {
-      "ward_id": "3db48aa0-1283-4e4b-b503-c3fe73840b57",
+      "id": "3db48aa0-1283-4e4b-b503-c3fe73840b57",
       "ward_no": "15",
-      "ward_name_en": "Paruthiyara",
-      "ward_name_ml": "പരുത്തിയറ"
+      "name_en": "Paruthiyara",
+      "name_ml": "പരുത്തിയറ"
     },
     {
-      "ward_id": "debaa30d-ef50-4d48-8c5f-fa5c7124bbb9",
+      "id": "debaa30d-ef50-4d48-8c5f-fa5c7124bbb9",
       "ward_no": "16",
-      "ward_name_en": "Kattayil",
-      "ward_name_ml": "കട്ടയില്‍"
+      "name_en": "Kattayil",
+      "name_ml": "കട്ടയില്‍"
     },
     {
-      "ward_id": "37d9e40e-d196-4c82-80d2-fddc704ea87a",
+      "id": "37d9e40e-d196-4c82-80d2-fddc704ea87a",
       "ward_no": "17",
-      "ward_name_en": "Kudavattoor",
-      "ward_name_ml": "കുടവട്ടൂര്‍"
+      "name_en": "Kudavattoor",
+      "name_ml": "കുടവട്ടൂര്‍"
     },
     {
-      "ward_id": "215a2624-c1f7-4368-8c65-4685530e2777",
+      "id": "215a2624-c1f7-4368-8c65-4685530e2777",
       "ward_no": "18",
-      "ward_name_en": "Ambalathumkala",
-      "ward_name_ml": "അമ്പലത്തുംകാല"
+      "name_en": "Ambalathumkala",
+      "name_ml": "അമ്പലത്തുംകാല"
     },
     {
-      "ward_id": "b03ccfc5-4d15-4e05-ac5b-623b2fe08f26",
+      "id": "b03ccfc5-4d15-4e05-ac5b-623b2fe08f26",
       "ward_no": "19",
-      "ward_name_en": "Maroor",
-      "ward_name_ml": "മാരൂര്‍"
+      "name_en": "Maroor",
+      "name_ml": "മാരൂര്‍"
     }
   ],
   "towns": [],

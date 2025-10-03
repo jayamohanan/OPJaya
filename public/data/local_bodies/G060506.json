@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060506",
-  "local_body_name_en": "Mariyapuram",
-  "local_body_name_ml": "മരിയാപുരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "91",
-    "assembly_name_en": "Idukki",
-    "assembly_name_ml": "ഇടുക്കി",
+  "id": "G060506",
+  "name_en": "Mariyapuram",
+  "name_ml": "മരിയാപുരം",
+  "assembly_id": "91",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "91",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "8dda5319-472a-4966-9490-153e7e0489ea",
+      "id": "8dda5319-472a-4966-9490-153e7e0489ea",
       "ward_no": "1",
-      "ward_name_en": "Karimpan",
-      "ward_name_ml": "കരിമ്പന്‍"
+      "name_en": "Karimpan",
+      "name_ml": "കരിമ്പന്‍"
     },
     {
-      "ward_id": "409c8891-7b5f-4c13-8d1b-7f0498f458de",
+      "id": "409c8891-7b5f-4c13-8d1b-7f0498f458de",
       "ward_no": "2",
-      "ward_name_en": "Udayacity",
-      "ward_name_ml": "ഉദയാസിറ്റി"
+      "name_en": "Udayacity",
+      "name_ml": "ഉദയാസിറ്റി"
     },
     {
-      "ward_id": "64ddf111-8059-4314-ad1c-f1bbc626998e",
+      "id": "64ddf111-8059-4314-ad1c-f1bbc626998e",
       "ward_no": "3",
-      "ward_name_en": "Upputhodu",
-      "ward_name_ml": "ഉപ്പുതോട്"
+      "name_en": "Upputhodu",
+      "name_ml": "ഉപ്പുതോട്"
     },
     {
-      "ward_id": "fa221441-1c94-4730-80c6-e2a92ab26011",
+      "id": "fa221441-1c94-4730-80c6-e2a92ab26011",
       "ward_no": "4",
-      "ward_name_en": "Chittadikkavala",
-      "ward_name_ml": "ചിറ്റടിക്കവല"
+      "name_en": "Chittadikkavala",
+      "name_ml": "ചിറ്റടിക്കവല"
     },
     {
-      "ward_id": "d2ae1530-46a5-41e7-8495-75d3d6184213",
+      "id": "d2ae1530-46a5-41e7-8495-75d3d6184213",
       "ward_no": "5",
-      "ward_name_en": "Chattikkuzhy",
-      "ward_name_ml": "ചട്ടിക്കുഴി"
+      "name_en": "Chattikkuzhy",
+      "name_ml": "ചട്ടിക്കുഴി"
     },
     {
-      "ward_id": "78d8fb51-b105-4089-9a3e-ab961102c253",
+      "id": "78d8fb51-b105-4089-9a3e-ab961102c253",
       "ward_no": "6",
-      "ward_name_en": "Doublecutting",
-      "ward_name_ml": "ഡബിള്‍കട്ടിംഗ്"
+      "name_en": "Doublecutting",
+      "name_ml": "ഡബിള്‍കട്ടിംഗ്"
     },
     {
-      "ward_id": "74655f78-3273-499b-9b46-f717f40d72c7",
+      "id": "74655f78-3273-499b-9b46-f717f40d72c7",
       "ward_no": "7",
-      "ward_name_en": "Narakakkanam",
-      "ward_name_ml": "നാരകക്കാനം"
+      "name_en": "Narakakkanam",
+      "name_ml": "നാരകക്കാനം"
     },
     {
-      "ward_id": "52e4edd0-42e5-4804-b66e-ef355edb261b",
+      "id": "52e4edd0-42e5-4804-b66e-ef355edb261b",
       "ward_no": "8",
-      "ward_name_en": "Minidam",
-      "ward_name_ml": "മിനിഡാം"
+      "name_en": "Minidam",
+      "name_ml": "മിനിഡാം"
     },
     {
-      "ward_id": "12499c07-fbaa-469e-aff5-747d04dcf9fa",
+      "id": "12499c07-fbaa-469e-aff5-747d04dcf9fa",
       "ward_no": "9",
-      "ward_name_en": "Idukki",
-      "ward_name_ml": "ഇടുക്കി"
+      "name_en": "Idukki",
+      "name_ml": "ഇടുക്കി"
     },
     {
-      "ward_id": "888f9204-9e6d-4516-a6ea-84b8e5c4e3b6",
+      "id": "888f9204-9e6d-4516-a6ea-84b8e5c4e3b6",
       "ward_no": "10",
-      "ward_name_en": "Mariyapuram",
-      "ward_name_ml": "മരിയാപുരം"
+      "name_en": "Mariyapuram",
+      "name_ml": "മരിയാപുരം"
     },
     {
-      "ward_id": "0003c974-be28-413e-8fa3-b9425c84705a",
+      "id": "0003c974-be28-413e-8fa3-b9425c84705a",
       "ward_no": "11",
-      "ward_name_en": "Kuthirakkallu",
-      "ward_name_ml": "കുതിരക്കല്ല്"
+      "name_en": "Kuthirakkallu",
+      "name_ml": "കുതിരക്കല്ല്"
     },
     {
-      "ward_id": "a0563c9f-7f23-48a3-b6a2-b880f76955e9",
+      "id": "a0563c9f-7f23-48a3-b6a2-b880f76955e9",
       "ward_no": "12",
-      "ward_name_en": "Karikkintholam",
-      "ward_name_ml": "കരിക്കിന്‍തോളം"
+      "name_en": "Karikkintholam",
+      "name_ml": "കരിക്കിന്‍തോളം"
     },
     {
-      "ward_id": "073c3212-9487-4eda-9bc3-69cb0eaddabb",
+      "id": "073c3212-9487-4eda-9bc3-69cb0eaddabb",
       "ward_no": "13",
-      "ward_name_en": "Vimalagiri",
-      "ward_name_ml": "വിമലഗിരി"
+      "name_en": "Vimalagiri",
+      "name_ml": "വിമലഗിരി"
     }
   ],
   "towns": [],

@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G071305",
-  "local_body_name_en": "Kunnukara",
-  "local_body_name_ml": "കുന്നുകര",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "77",
-    "assembly_name_en": "Kalamassery",
-    "assembly_name_ml": "കളമശ്ശേരി",
+  "id": "G071305",
+  "name_en": "Kunnukara",
+  "name_ml": "കുന്നുകര",
+  "assembly_id": "77",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "77",
+    "name_en": "Kalamassery",
+    "name_ml": "കളമശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b493546a-a034-4623-ac1b-9ed45c1670e8",
+      "id": "b493546a-a034-4623-ac1b-9ed45c1670e8",
       "ward_no": "1",
-      "ward_name_en": "Kuthiyathode North",
-      "ward_name_ml": "കുത്തിയത്തോട് നോര്‍ത്ത്"
+      "name_en": "Kuthiyathode North",
+      "name_ml": "കുത്തിയത്തോട് നോര്‍ത്ത്"
     },
     {
-      "ward_id": "f1b875f4-4e03-4271-8e34-3e2e27147a66",
+      "id": "f1b875f4-4e03-4271-8e34-3e2e27147a66",
       "ward_no": "2",
-      "ward_name_en": "Attupuram",
-      "ward_name_ml": "ആറ്റുപുറം"
+      "name_en": "Attupuram",
+      "name_ml": "ആറ്റുപുറം"
     },
     {
-      "ward_id": "aa829230-1137-4fbd-b2c7-9d60eab6f351",
+      "id": "aa829230-1137-4fbd-b2c7-9d60eab6f351",
       "ward_no": "3",
-      "ward_name_en": "Ayiroor",
-      "ward_name_ml": "അയിരൂര്‍"
+      "name_en": "Ayiroor",
+      "name_ml": "അയിരൂര്‍"
     },
     {
-      "ward_id": "ddf3d7fd-93c9-4bc7-a770-cf08a9745d17",
+      "id": "ddf3d7fd-93c9-4bc7-a770-cf08a9745d17",
       "ward_no": "4",
-      "ward_name_en": "Vadakke Aduvassery",
-      "ward_name_ml": "വടക്കേ അടുവാശ്ശേരി"
+      "name_en": "Vadakke Aduvassery",
+      "name_ml": "വടക്കേ അടുവാശ്ശേരി"
     },
     {
-      "ward_id": "dfaea6dc-5202-4d29-be52-5a573e63efd7",
+      "id": "dfaea6dc-5202-4d29-be52-5a573e63efd7",
       "ward_no": "5",
-      "ward_name_en": "Malayikunnu",
-      "ward_name_ml": "മലായിക്കുന്ന്"
+      "name_en": "Malayikunnu",
+      "name_ml": "മലായിക്കുന്ന്"
     },
     {
-      "ward_id": "a58c4458-7e1e-4e9d-9966-78bc66b3316a",
+      "id": "a58c4458-7e1e-4e9d-9966-78bc66b3316a",
       "ward_no": "6",
-      "ward_name_en": "South Aduvassery",
-      "ward_name_ml": "സൌത്ത് അടുവാശ്ശേരി"
+      "name_en": "South Aduvassery",
+      "name_ml": "സൌത്ത് അടുവാശ്ശേരി"
     },
     {
-      "ward_id": "368a8b91-e4e2-4a0e-8aae-ff6108980e7d",
+      "id": "368a8b91-e4e2-4a0e-8aae-ff6108980e7d",
       "ward_no": "7",
-      "ward_name_en": "Kuttipuzha",
-      "ward_name_ml": "കുറ്റിപ്പുഴ"
+      "name_en": "Kuttipuzha",
+      "name_ml": "കുറ്റിപ്പുഴ"
     },
     {
-      "ward_id": "17d66047-e2b2-4ab8-95c9-fc19600d9ec8",
+      "id": "17d66047-e2b2-4ab8-95c9-fc19600d9ec8",
       "ward_no": "8",
-      "ward_name_en": "Kunnukara South",
-      "ward_name_ml": "കുന്നുകര സൌത്ത്"
+      "name_en": "Kunnukara South",
+      "name_ml": "കുന്നുകര സൌത്ത്"
     },
     {
-      "ward_id": "bb52b8b2-93eb-4118-bf58-a507c0487d2c",
+      "id": "bb52b8b2-93eb-4118-bf58-a507c0487d2c",
       "ward_no": "9",
-      "ward_name_en": "Kunnukara East",
-      "ward_name_ml": "കുന്നുകര ഈസ്ററ്"
+      "name_en": "Kunnukara East",
+      "name_ml": "കുന്നുകര ഈസ്ററ്"
     },
     {
-      "ward_id": "f0cb6750-63d5-4b8c-af2d-d395c1e0dd88",
+      "id": "f0cb6750-63d5-4b8c-af2d-d395c1e0dd88",
       "ward_no": "10",
-      "ward_name_en": "Kunnukara West",
-      "ward_name_ml": "കുന്നുകര വെസ്ററ്"
+      "name_en": "Kunnukara West",
+      "name_ml": "കുന്നുകര വെസ്ററ്"
     },
     {
-      "ward_id": "e0144bd4-757b-4ba4-84a0-13999d2558b7",
+      "id": "e0144bd4-757b-4ba4-84a0-13999d2558b7",
       "ward_no": "11",
-      "ward_name_en": "Vayalkara East",
-      "ward_name_ml": "വയല്‍ക്കര ഈസ്ററ്"
+      "name_en": "Vayalkara East",
+      "name_ml": "വയല്‍ക്കര ഈസ്ററ്"
     },
     {
-      "ward_id": "e14f4001-4c35-4a1d-a9f1-70b61515ca80",
+      "id": "e14f4001-4c35-4a1d-a9f1-70b61515ca80",
       "ward_no": "12",
-      "ward_name_en": "Vayalkara West",
-      "ward_name_ml": "വയല്‍ക്കര വെസ്ററ്"
+      "name_en": "Vayalkara West",
+      "name_ml": "വയല്‍ക്കര വെസ്ററ്"
     },
     {
-      "ward_id": "f3685c58-1c78-42bd-94d0-f645df7f1bed",
+      "id": "f3685c58-1c78-42bd-94d0-f645df7f1bed",
       "ward_no": "13",
-      "ward_name_en": "Cheriyatheykkanam",
-      "ward_name_ml": "ചെറിയത്തേയ്ക്കാനം"
+      "name_en": "Cheriyatheykkanam",
+      "name_ml": "ചെറിയത്തേയ്ക്കാനം"
     },
     {
-      "ward_id": "1eb318e0-c4f7-48f7-a1df-be09a59f05ed",
+      "id": "1eb318e0-c4f7-48f7-a1df-be09a59f05ed",
       "ward_no": "14",
-      "ward_name_en": "Chalakka",
-      "ward_name_ml": "ചാലാക്ക"
+      "name_en": "Chalakka",
+      "name_ml": "ചാലാക്ക"
     },
     {
-      "ward_id": "3dd3750c-d107-461e-8ec8-7515c025c6d7",
+      "id": "3dd3750c-d107-461e-8ec8-7515c025c6d7",
       "ward_no": "15",
-      "ward_name_en": "Kuthiyathode South",
-      "ward_name_ml": "കുത്തിയത്തോട് സൌത്ത്"
+      "name_en": "Kuthiyathode South",
+      "name_ml": "കുത്തിയത്തോട് സൌത്ത്"
     }
   ],
   "towns": [],

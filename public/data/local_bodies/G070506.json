@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G070506",
-  "local_body_name_en": "Keezhmad",
-  "local_body_name_ml": "കീഴ്മാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "76",
-    "assembly_name_en": "Aluva",
-    "assembly_name_ml": "ആലുവ",
+  "id": "G070506",
+  "name_en": "Keezhmad",
+  "name_ml": "കീഴ്മാട്",
+  "assembly_id": "76",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "76",
+    "name_en": "Aluva",
+    "name_ml": "ആലുവ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "717fa89d-ccd4-4583-a64f-510098ad2ec1",
+      "id": "717fa89d-ccd4-4583-a64f-510098ad2ec1",
       "ward_no": "1",
-      "ward_name_en": "Thottumugham West",
-      "ward_name_ml": "തോട്ടുമുഖം വെസ്റ്റ്"
+      "name_en": "Thottumugham West",
+      "name_ml": "തോട്ടുമുഖം വെസ്റ്റ്"
     },
     {
-      "ward_id": "37c593e4-e675-4d2b-8395-6339977d8112",
+      "id": "37c593e4-e675-4d2b-8395-6339977d8112",
       "ward_no": "2",
-      "ward_name_en": "Thottumugham",
-      "ward_name_ml": "തോട്ടുമുഖം"
+      "name_en": "Thottumugham",
+      "name_ml": "തോട്ടുമുഖം"
     },
     {
-      "ward_id": "ae07e587-1cec-4b70-8cee-d0a0b4069722",
+      "id": "ae07e587-1cec-4b70-8cee-d0a0b4069722",
       "ward_no": "3",
-      "ward_name_en": "Keeramkunnu",
-      "ward_name_ml": "കീരംകുന്ന്"
+      "name_en": "Keeramkunnu",
+      "name_ml": "കീരംകുന്ന്"
     },
     {
-      "ward_id": "313d0ace-140c-455f-bdda-fe2bb9822ff5",
+      "id": "313d0ace-140c-455f-bdda-fe2bb9822ff5",
       "ward_no": "4",
-      "ward_name_en": "Kuttamassery",
-      "ward_name_ml": "കുട്ടമശ്ശേരി"
+      "name_en": "Kuttamassery",
+      "name_ml": "കുട്ടമശ്ശേരി"
     },
     {
-      "ward_id": "5746b163-d38f-4919-9024-a0cead4388d5",
+      "id": "5746b163-d38f-4919-9024-a0cead4388d5",
       "ward_no": "5",
-      "ward_name_en": "Kuttamassery East",
-      "ward_name_ml": "കുട്ടമശ്ശേരി ഈസ്റ്റ്"
+      "name_en": "Kuttamassery East",
+      "name_ml": "കുട്ടമശ്ശേരി ഈസ്റ്റ്"
     },
     {
-      "ward_id": "670688a3-046a-4384-afd6-ff05caa94028",
+      "id": "670688a3-046a-4384-afd6-ff05caa94028",
       "ward_no": "6",
-      "ward_name_en": "Chalackal",
-      "ward_name_ml": "ചാലയ്ക്കല്‍"
+      "name_en": "Chalackal",
+      "name_ml": "ചാലയ്ക്കല്‍"
     },
     {
-      "ward_id": "ea52e47a-5842-4772-a0f8-a286928e34fe",
+      "id": "ea52e47a-5842-4772-a0f8-a286928e34fe",
       "ward_no": "7",
-      "ward_name_en": "Chalackal East",
-      "ward_name_ml": "ചാലയ്ക്കല്‍ ഈസ്റ്റ്"
+      "name_en": "Chalackal East",
+      "name_ml": "ചാലയ്ക്കല്‍ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "ef6b6fb5-63a1-414a-be1b-958ffbbca64b",
+      "id": "ef6b6fb5-63a1-414a-be1b-958ffbbca64b",
       "ward_no": "8",
-      "ward_name_en": "Nalammile",
-      "ward_name_ml": "നാലാംമൈല്‍"
+      "name_en": "Nalammile",
+      "name_ml": "നാലാംമൈല്‍"
     },
     {
-      "ward_id": "c1801956-27b9-41bf-9fdd-8e6e95a93c1e",
+      "id": "c1801956-27b9-41bf-9fdd-8e6e95a93c1e",
       "ward_no": "9",
-      "ward_name_en": "Chakkankulangara",
-      "ward_name_ml": "ചക്കന്‍കുളങ്ങര"
+      "name_en": "Chakkankulangara",
+      "name_ml": "ചക്കന്‍കുളങ്ങര"
     },
     {
-      "ward_id": "f7c85290-39b5-4485-8084-4219343de407",
+      "id": "f7c85290-39b5-4485-8084-4219343de407",
       "ward_no": "10",
-      "ward_name_en": "Keezhmad",
-      "ward_name_ml": "കീഴ്മാട്"
+      "name_en": "Keezhmad",
+      "name_ml": "കീഴ്മാട്"
     },
     {
-      "ward_id": "c01fa621-184a-4feb-b6bc-12cf6b0dcf07",
+      "id": "c01fa621-184a-4feb-b6bc-12cf6b0dcf07",
       "ward_no": "11",
-      "ward_name_en": "Kunnumpuram",
-      "ward_name_ml": "കുന്നുംപുറം"
+      "name_en": "Kunnumpuram",
+      "name_ml": "കുന്നുംപുറം"
     },
     {
-      "ward_id": "6da61898-00ba-4bbf-8916-90ddb19868d9",
+      "id": "6da61898-00ba-4bbf-8916-90ddb19868d9",
       "ward_no": "12",
-      "ward_name_en": "Keezhmad Centre",
-      "ward_name_ml": "കീഴ്മാട് സെന്റര്‍"
+      "name_en": "Keezhmad Centre",
+      "name_ml": "കീഴ്മാട് സെന്റര്‍"
     },
     {
-      "ward_id": "2c7e2fb2-5f41-460a-8076-05685373c097",
+      "id": "2c7e2fb2-5f41-460a-8076-05685373c097",
       "ward_no": "13",
-      "ward_name_en": "Chunangamvely",
-      "ward_name_ml": "ചുണങ്ങംവേലി"
+      "name_en": "Chunangamvely",
+      "name_ml": "ചുണങ്ങംവേലി"
     },
     {
-      "ward_id": "99a393b3-9c47-4d35-90f7-8db83b77e164",
+      "id": "99a393b3-9c47-4d35-90f7-8db83b77e164",
       "ward_no": "14",
-      "ward_name_en": "Chunangamvely Center",
-      "ward_name_ml": "ചുണങ്ങംവേലി സെന്റര്‍"
+      "name_en": "Chunangamvely Center",
+      "name_ml": "ചുണങ്ങംവേലി സെന്റര്‍"
     },
     {
-      "ward_id": "ca9ab7b7-33bd-463e-bfbe-ecc7fd4f1967",
+      "id": "ca9ab7b7-33bd-463e-bfbe-ecc7fd4f1967",
       "ward_no": "15",
-      "ward_name_en": "Chunangamvely West",
-      "ward_name_ml": "ചുണങ്ങംവേലി വെസ്റ്റ്"
+      "name_en": "Chunangamvely West",
+      "name_ml": "ചുണങ്ങംവേലി വെസ്റ്റ്"
     },
     {
-      "ward_id": "117ea80e-bfcd-4b5d-84b7-45dcd83706dc",
+      "id": "117ea80e-bfcd-4b5d-84b7-45dcd83706dc",
       "ward_no": "16",
-      "ward_name_en": "Asokapuram North",
-      "ward_name_ml": "അശോകപുരം നോര്‍ത്ത്"
+      "name_en": "Asokapuram North",
+      "name_ml": "അശോകപുരം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "c18baef8-6b24-4cad-8da7-fbf390ac714a",
+      "id": "c18baef8-6b24-4cad-8da7-fbf390ac714a",
       "ward_no": "17",
-      "ward_name_en": "Erumathala",
-      "ward_name_ml": "എരുമത്തല"
+      "name_en": "Erumathala",
+      "name_ml": "എരുമത്തല"
     },
     {
-      "ward_id": "105d0d5f-5648-4a6e-b565-5b5aa7588599",
+      "id": "105d0d5f-5648-4a6e-b565-5b5aa7588599",
       "ward_no": "18",
-      "ward_name_en": "Edayappuram",
-      "ward_name_ml": "എടയപ്പുറം"
+      "name_en": "Edayappuram",
+      "name_ml": "എടയപ്പുറം"
     },
     {
-      "ward_id": "51963c6e-1439-4602-9e47-99024863801c",
+      "id": "51963c6e-1439-4602-9e47-99024863801c",
       "ward_no": "19",
-      "ward_name_en": "Edayappuram West",
-      "ward_name_ml": "എടയപ്പുറം വെസ്റ്റ്"
+      "name_en": "Edayappuram West",
+      "name_ml": "എടയപ്പുറം വെസ്റ്റ്"
     }
   ],
   "towns": [],

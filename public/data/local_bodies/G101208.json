@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G101208",
-  "local_body_name_en": "Perumanna Klari",
-  "local_body_name_ml": "പെരുമണ്ണ ക്ളാരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G101208",
+  "name_en": "Perumanna Klari",
+  "name_ml": "പെരുമണ്ണ ക്ളാരി",
+  "assembly_id": "43",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "43",
-    "assembly_name_en": "Tirurangadi",
-    "assembly_name_ml": "തിരൂരങ്ങാടി",
-    "category": "Normal"
+    "id": "43",
+    "name_en": "Tirurangadi",
+    "name_ml": "തിരൂരങ്ങാടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "7e956a63-56b3-4d28-971d-bbeca7c117f8",
+      "id": "7e956a63-56b3-4d28-971d-bbeca7c117f8",
       "ward_no": "1",
-      "ward_name_en": "Perumanna North",
-      "ward_name_ml": "പെരുമണ്ണ നോര്‍ത്ത്"
+      "name_en": "Perumanna North",
+      "name_ml": "പെരുമണ്ണ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "06c03d01-e11b-470c-a34f-76cc7d5f135f",
+      "id": "06c03d01-e11b-470c-a34f-76cc7d5f135f",
       "ward_no": "2",
-      "ward_name_en": "Kozhichena",
-      "ward_name_ml": "കോഴിച്ചെന"
+      "name_en": "Kozhichena",
+      "name_ml": "കോഴിച്ചെന"
     },
     {
-      "ward_id": "2a88ea3f-5232-4b4e-98a4-64a0e3dc8233",
+      "id": "2a88ea3f-5232-4b4e-98a4-64a0e3dc8233",
       "ward_no": "3",
-      "ward_name_en": "Chenappuram",
-      "ward_name_ml": "ചെനപ്പുറം"
+      "name_en": "Chenappuram",
+      "name_ml": "ചെനപ്പുറം"
     },
     {
-      "ward_id": "31f18a81-a721-4a9e-9e3f-9a72b4fb4f78",
+      "id": "31f18a81-a721-4a9e-9e3f-9a72b4fb4f78",
       "ward_no": "4",
-      "ward_name_en": "Palachiramadu",
-      "ward_name_ml": "പാലച്ചിറമാട്"
+      "name_en": "Palachiramadu",
+      "name_ml": "പാലച്ചിറമാട്"
     },
     {
-      "ward_id": "de04c081-9690-427d-9694-384df5f4dfcc",
+      "id": "de04c081-9690-427d-9694-384df5f4dfcc",
       "ward_no": "5",
-      "ward_name_en": "Kanhikuzhingara",
-      "ward_name_ml": "കഞ്ഞിക്കുഴിങ്ങര"
+      "name_en": "Kanhikuzhingara",
+      "name_ml": "കഞ്ഞിക്കുഴിങ്ങര"
     },
     {
-      "ward_id": "0ab6349f-3b5e-4b7d-b1ea-b1faf62230a0",
+      "id": "0ab6349f-3b5e-4b7d-b1ea-b1faf62230a0",
       "ward_no": "6",
-      "ward_name_en": "Klari South",
-      "ward_name_ml": "ക്ളാരി സൌത്ത്"
+      "name_en": "Klari South",
+      "name_ml": "ക്ളാരി സൌത്ത്"
     },
     {
-      "ward_id": "efeeaa43-48f4-4af5-86c2-b4c56ac87ee9",
+      "id": "efeeaa43-48f4-4af5-86c2-b4c56ac87ee9",
       "ward_no": "7",
-      "ward_name_en": "Moochikkal",
-      "ward_name_ml": "മൂച്ചിക്കല്‍"
+      "name_en": "Moochikkal",
+      "name_ml": "മൂച്ചിക്കല്‍"
     },
     {
-      "ward_id": "5ee5cffa-701b-4f52-b377-8c596762c984",
+      "id": "5ee5cffa-701b-4f52-b377-8c596762c984",
       "ward_no": "8",
-      "ward_name_en": "Kurukathani",
-      "ward_name_ml": "കുറുകത്താണി"
+      "name_en": "Kurukathani",
+      "name_ml": "കുറുകത്താണി"
     },
     {
-      "ward_id": "e38851dd-bb19-4808-a81a-92cfa27a6c76",
+      "id": "e38851dd-bb19-4808-a81a-92cfa27a6c76",
       "ward_no": "9",
-      "ward_name_en": "Kazhungilappadi",
-      "ward_name_ml": "കഴുങ്ങിലപ്പടി"
+      "name_en": "Kazhungilappadi",
+      "name_ml": "കഴുങ്ങിലപ്പടി"
     },
     {
-      "ward_id": "83946e40-b41c-46ee-8e8e-bdfbf30b156c",
+      "id": "83946e40-b41c-46ee-8e8e-bdfbf30b156c",
       "ward_no": "10",
-      "ward_name_en": "Puthur",
-      "ward_name_ml": "പുത്തുര്‍"
+      "name_en": "Puthur",
+      "name_ml": "പുത്തുര്‍"
     },
     {
-      "ward_id": "013c5986-0dfa-48f8-8036-e30b4eed16c8",
+      "id": "013c5986-0dfa-48f8-8036-e30b4eed16c8",
       "ward_no": "11",
-      "ward_name_en": "Kunnathiyil",
-      "ward_name_ml": "കുന്നത്തിയില്‍"
+      "name_en": "Kunnathiyil",
+      "name_ml": "കുന്നത്തിയില്‍"
     },
     {
-      "ward_id": "d424ffa0-f01b-489e-b82f-8c6a9dab6f40",
+      "id": "d424ffa0-f01b-489e-b82f-8c6a9dab6f40",
       "ward_no": "12",
-      "ward_name_en": "Klari Ottuparappuram",
-      "ward_name_ml": "ക്ളാരി ഓട്ടുപാറപ്പുറം"
+      "name_en": "Klari Ottuparappuram",
+      "name_ml": "ക്ളാരി ഓട്ടുപാറപ്പുറം"
     },
     {
-      "ward_id": "7b897b14-2684-4f65-8bc1-dfafe4ccf9e3",
+      "id": "7b897b14-2684-4f65-8bc1-dfafe4ccf9e3",
       "ward_no": "13",
-      "ward_name_en": "Cholamattuppuram",
-      "ward_name_ml": "ചോലമാട്ടുപ്പുറം"
+      "name_en": "Cholamattuppuram",
+      "name_ml": "ചോലമാട്ടുപ്പുറം"
     },
     {
-      "ward_id": "ab2d7b71-720d-4df9-b70d-a12b6daf8adc",
+      "id": "ab2d7b71-720d-4df9-b70d-a12b6daf8adc",
       "ward_no": "14",
-      "ward_name_en": "Chettiyamkinar",
-      "ward_name_ml": "ചെട്ടിയാംകിണര്‍"
+      "name_en": "Chettiyamkinar",
+      "name_ml": "ചെട്ടിയാംകിണര്‍"
     },
     {
-      "ward_id": "850afbf9-2586-436f-bbf8-fb8c87b31050",
+      "id": "850afbf9-2586-436f-bbf8-fb8c87b31050",
       "ward_no": "15",
-      "ward_name_en": "Kizhakkinithara",
-      "ward_name_ml": "കിഴക്കിനിത്തറ"
+      "name_en": "Kizhakkinithara",
+      "name_ml": "കിഴക്കിനിത്തറ"
     },
     {
-      "ward_id": "43b5079e-870a-4aa1-8791-0cd13c093952",
+      "id": "43b5079e-870a-4aa1-8791-0cd13c093952",
       "ward_no": "16",
-      "ward_name_en": "Perumanna South",
-      "ward_name_ml": "പെരുമണ്ണ സൌത്ത്"
+      "name_en": "Perumanna South",
+      "name_ml": "പെരുമണ്ണ സൌത്ത്"
     }
   ],
   "towns": [],

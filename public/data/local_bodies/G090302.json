@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G090302",
-  "local_body_name_en": "Ananganadi",
-  "local_body_name_ml": "അനങ്ങനടി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "51",
-    "assembly_name_en": "Shoranur",
-    "assembly_name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+  "id": "G090302",
+  "name_en": "Ananganadi",
+  "name_ml": "അനങ്ങനടി",
+  "assembly_id": "51",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "51",
+    "name_en": "Shoranur",
+    "name_ml": "ഷൊര്‍ണ്ണൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b66d2525-b0d5-4fc0-9889-f9ec6e833e58",
+      "id": "b66d2525-b0d5-4fc0-9889-f9ec6e833e58",
       "ward_no": "1",
-      "ward_name_en": "Tharuvakkonam",
-      "ward_name_ml": "തരുവക്കോണം"
+      "name_en": "Tharuvakkonam",
+      "name_ml": "തരുവക്കോണം"
     },
     {
-      "ward_id": "f32dccf8-0347-46b0-9a14-bc4b332ad301",
+      "id": "f32dccf8-0347-46b0-9a14-bc4b332ad301",
       "ward_no": "2",
-      "ward_name_en": "Ananganadi",
-      "ward_name_ml": "അനങ്ങനടി"
+      "name_en": "Ananganadi",
+      "name_ml": "അനങ്ങനടി"
     },
     {
-      "ward_id": "d6554137-7852-4755-abf6-db7b6165302c",
+      "id": "d6554137-7852-4755-abf6-db7b6165302c",
       "ward_no": "3",
-      "ward_name_en": "Palakkode",
-      "ward_name_ml": "പാലക്കോട്"
+      "name_en": "Palakkode",
+      "name_ml": "പാലക്കോട്"
     },
     {
-      "ward_id": "4cc53319-5fd5-40b7-8a01-e3c7abe6cf03",
+      "id": "4cc53319-5fd5-40b7-8a01-e3c7abe6cf03",
       "ward_no": "4",
-      "ward_name_en": "Kothakurssi",
-      "ward_name_ml": "കോതകുര്‍ശ്ശി"
+      "name_en": "Kothakurssi",
+      "name_ml": "കോതകുര്‍ശ്ശി"
     },
     {
-      "ward_id": "0d3f4a2e-fc34-4ea4-a900-02e0bd6fc5b5",
+      "id": "0d3f4a2e-fc34-4ea4-a900-02e0bd6fc5b5",
       "ward_no": "5",
-      "ward_name_en": "Panamanna",
-      "ward_name_ml": "പനമണ്ണ"
+      "name_en": "Panamanna",
+      "name_ml": "പനമണ്ണ"
     },
     {
-      "ward_id": "87246cd1-fffa-484d-a104-02217cc7bf91",
+      "id": "87246cd1-fffa-484d-a104-02217cc7bf91",
       "ward_no": "6",
-      "ward_name_en": "Vattapparambu",
-      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+      "name_en": "Vattapparambu",
+      "name_ml": "വട്ടപ്പറമ്പ്"
     },
     {
-      "ward_id": "0ef8f5ff-4978-4ec8-8b5c-0a7b850fbc84",
+      "id": "0ef8f5ff-4978-4ec8-8b5c-0a7b850fbc84",
       "ward_no": "7",
-      "ward_name_en": "Ambalavattom",
-      "ward_name_ml": "അമ്പലവട്ടം"
+      "name_en": "Ambalavattom",
+      "name_ml": "അമ്പലവട്ടം"
     },
     {
-      "ward_id": "2e2240e5-90b4-4419-8e9a-c528477f2f7d",
+      "id": "2e2240e5-90b4-4419-8e9a-c528477f2f7d",
       "ward_no": "8",
-      "ward_name_en": "V K Padi Vellinamkunnu",
-      "ward_name_ml": "വി കെ പടി വെള്ളിനാംകുന്ന്"
+      "name_en": "V K Padi Vellinamkunnu",
+      "name_ml": "വി കെ പടി വെള്ളിനാംകുന്ന്"
     },
     {
-      "ward_id": "deb55c05-4608-41a8-875b-6091daebd22e",
+      "id": "deb55c05-4608-41a8-875b-6091daebd22e",
       "ward_no": "9",
-      "ward_name_en": "Pathamkulam",
-      "ward_name_ml": "പത്തംകുളം"
+      "name_en": "Pathamkulam",
+      "name_ml": "പത്തംകുളം"
     },
     {
-      "ward_id": "78118829-a02e-4b27-bfa8-c19a5e58e3ea",
+      "id": "78118829-a02e-4b27-bfa8-c19a5e58e3ea",
       "ward_no": "10",
-      "ward_name_en": "Pathamkulam Seed Farm",
-      "ward_name_ml": "പത്തംകുളം സീഡ് ഫാം"
+      "name_en": "Pathamkulam Seed Farm",
+      "name_ml": "പത്തംകുളം സീഡ് ഫാം"
     },
     {
-      "ward_id": "d5fc3d9f-4675-4709-b3f8-6fef53aa30e4",
+      "id": "d5fc3d9f-4675-4709-b3f8-6fef53aa30e4",
       "ward_no": "11",
-      "ward_name_en": "Pavukkonam",
-      "ward_name_ml": "പാവുക്കോണം"
+      "name_en": "Pavukkonam",
+      "name_ml": "പാവുക്കോണം"
     },
     {
-      "ward_id": "4c208c61-7173-40a6-8c25-c1cf6cacfcb4",
+      "id": "4c208c61-7173-40a6-8c25-c1cf6cacfcb4",
       "ward_no": "12",
-      "ward_name_en": "Kottakkulam",
-      "ward_name_ml": "കോട്ടക്കുളം"
+      "name_en": "Kottakkulam",
+      "name_ml": "കോട്ടക്കുളം"
     },
     {
-      "ward_id": "a633ba74-3adb-40a1-9996-d9464c10a25d",
+      "id": "a633ba74-3adb-40a1-9996-d9464c10a25d",
       "ward_no": "13",
-      "ward_name_en": "Anthurparambu",
-      "ward_name_ml": "ആന്തൂര്‍പറമ്പ്"
+      "name_en": "Anthurparambu",
+      "name_ml": "ആന്തൂര്‍പറമ്പ്"
     },
     {
-      "ward_id": "f8df66cb-cb0b-415a-bfe0-6ac5005d0125",
+      "id": "f8df66cb-cb0b-415a-bfe0-6ac5005d0125",
       "ward_no": "14",
-      "ward_name_en": "Ganapathippara",
-      "ward_name_ml": "ഗണപതിപ്പാറ"
+      "name_en": "Ganapathippara",
+      "name_ml": "ഗണപതിപ്പാറ"
     },
     {
-      "ward_id": "539b9dee-0c76-435a-9c77-cae119026d4a",
+      "id": "539b9dee-0c76-435a-9c77-cae119026d4a",
       "ward_no": "15",
-      "ward_name_en": "Palakkottangadi",
-      "ward_name_ml": "പാലക്കോട്ടങ്ങാടി"
+      "name_en": "Palakkottangadi",
+      "name_ml": "പാലക്കോട്ടങ്ങാടി"
     }
   ],
   "towns": [],

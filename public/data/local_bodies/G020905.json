@@ -1,160 +1,171 @@
 {
-  "local_body_id": "G020905",
-  "local_body_name_en": "Nedumpana",
-  "local_body_name_ml": "നെടുമ്പന",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G020905",
+  "name_en": "Nedumpana",
+  "name_ml": "നെടുമ്പന",
+  "assembly_id": "123",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "123",
-    "assembly_name_en": "Kundara",
-    "assembly_name_ml": "കുണ്ടറ",
-    "category": "Normal"
+    "id": "123",
+    "name_en": "Kundara",
+    "name_ml": "കുണ്ടറ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "f9dca7fc-de56-447a-9630-7c658d25481b",
+      "id": "f9dca7fc-de56-447a-9630-7c658d25481b",
       "ward_no": "1",
-      "ward_name_en": "Pazhangalam North",
-      "ward_name_ml": "പഴങ്ങാലം നോർത്ത്"
+      "name_en": "Pazhangalam North",
+      "name_ml": "പഴങ്ങാലം നോർത്ത്"
     },
     {
-      "ward_id": "c82348ab-af54-4ceb-bb1c-adc50c9efe2c",
+      "id": "c82348ab-af54-4ceb-bb1c-adc50c9efe2c",
       "ward_no": "2",
-      "ward_name_en": "Nallila",
-      "ward_name_ml": "നല്ലില"
+      "name_en": "Nallila",
+      "name_ml": "നല്ലില"
     },
     {
-      "ward_id": "ea13c4cc-8639-4c33-bd3b-90beb914730b",
+      "id": "ea13c4cc-8639-4c33-bd3b-90beb914730b",
       "ward_no": "3",
-      "ward_name_en": "Nallila East",
-      "ward_name_ml": "നല്ലില ഈസ്റ്റ്"
+      "name_en": "Nallila East",
+      "name_ml": "നല്ലില ഈസ്റ്റ്"
     },
     {
-      "ward_id": "67cd48a4-6ef8-4ece-99cc-c9dbd8148c9b",
+      "id": "67cd48a4-6ef8-4ece-99cc-c9dbd8148c9b",
       "ward_no": "4",
-      "ward_name_en": "Puliyila North",
-      "ward_name_ml": "പുലിയില നോർത്ത്"
+      "name_en": "Puliyila North",
+      "name_ml": "പുലിയില നോർത്ത്"
     },
     {
-      "ward_id": "2e5ce7dd-b7c9-47fc-881a-3445b6390473",
+      "id": "2e5ce7dd-b7c9-47fc-881a-3445b6390473",
       "ward_no": "5",
-      "ward_name_en": "Puliyila",
-      "ward_name_ml": "പുലിയില"
+      "name_en": "Puliyila",
+      "name_ml": "പുലിയില"
     },
     {
-      "ward_id": "32de9250-c654-4282-a3b8-508689d99262",
+      "id": "32de9250-c654-4282-a3b8-508689d99262",
       "ward_no": "6",
-      "ward_name_en": "Elavoor",
-      "ward_name_ml": "ഇളവൂർ"
+      "name_en": "Elavoor",
+      "name_ml": "ഇളവൂർ"
     },
     {
-      "ward_id": "2d79e024-9348-4363-9847-6b0d05b401d6",
+      "id": "2d79e024-9348-4363-9847-6b0d05b401d6",
       "ward_no": "7",
-      "ward_name_en": "Pallimon North",
-      "ward_name_ml": "പള്ളിമൺ നോർത്ത്"
+      "name_en": "Pallimon North",
+      "name_ml": "പള്ളിമൺ നോർത്ത്"
     },
     {
-      "ward_id": "8ac4fdea-09df-4576-b691-e3dd9be1bd66",
+      "id": "8ac4fdea-09df-4576-b691-e3dd9be1bd66",
       "ward_no": "8",
-      "ward_name_en": "Malevayal",
-      "ward_name_ml": "മലേവയൽ"
+      "name_en": "Malevayal",
+      "name_ml": "മലേവയൽ"
     },
     {
-      "ward_id": "332d48d1-3b44-414f-9a78-cc03f966cc11",
+      "id": "332d48d1-3b44-414f-9a78-cc03f966cc11",
       "ward_no": "9",
-      "ward_name_en": "Meeyannoor",
-      "ward_name_ml": "മിയ്യണ്ണൂർ"
+      "name_en": "Meeyannoor",
+      "name_ml": "മിയ്യണ്ണൂർ"
     },
     {
-      "ward_id": "d412e07b-6ce6-411c-aceb-32137b63d96e",
+      "id": "d412e07b-6ce6-411c-aceb-32137b63d96e",
       "ward_no": "10",
-      "ward_name_en": "Velichikkala",
-      "ward_name_ml": "വെളിച്ചിക്കാല"
+      "name_en": "Velichikkala",
+      "name_ml": "വെളിച്ചിക്കാല"
     },
     {
-      "ward_id": "283c9fe4-9b30-4ee0-ab5b-7947e609ce03",
+      "id": "283c9fe4-9b30-4ee0-ab5b-7947e609ce03",
       "ward_no": "11",
-      "ward_name_en": "Kundumon",
-      "ward_name_ml": "കുണ്ടുമൺ"
+      "name_en": "Kundumon",
+      "name_ml": "കുണ്ടുമൺ"
     },
     {
-      "ward_id": "0081bd52-8845-4adc-91c7-3fe5d0831b7d",
+      "id": "0081bd52-8845-4adc-91c7-3fe5d0831b7d",
       "ward_no": "12",
-      "ward_name_en": "Pallimon",
-      "ward_name_ml": "പള്ളിമൺ"
+      "name_en": "Pallimon",
+      "name_ml": "പള്ളിമൺ"
     },
     {
-      "ward_id": "39b3ba70-c683-4ad2-b82c-b7a1fc94c498",
+      "id": "39b3ba70-c683-4ad2-b82c-b7a1fc94c498",
       "ward_no": "13",
-      "ward_name_en": "Kulappadom South",
-      "ward_name_ml": "കുളപ്പാടം സൌത്ത്"
+      "name_en": "Kulappadom South",
+      "name_ml": "കുളപ്പാടം സൌത്ത്"
     },
     {
-      "ward_id": "8b0c93d1-38ad-4843-9d08-080cecef1650",
+      "id": "8b0c93d1-38ad-4843-9d08-080cecef1650",
       "ward_no": "14",
-      "ward_name_en": "Muttakkavu North",
-      "ward_name_ml": "മുട്ടയ്ക്കാവ് നോർത്ത്"
+      "name_en": "Muttakkavu North",
+      "name_ml": "മുട്ടയ്ക്കാവ് നോർത്ത്"
     },
     {
-      "ward_id": "4ada52f4-a721-4a07-8660-32bd0fc63731",
+      "id": "4ada52f4-a721-4a07-8660-32bd0fc63731",
       "ward_no": "15",
-      "ward_name_en": "Muttakkavu South",
-      "ward_name_ml": "മുട്ടയ്ക്കാവ് സൌത്ത്"
+      "name_en": "Muttakkavu South",
+      "name_ml": "മുട്ടയ്ക്കാവ് സൌത്ത്"
     },
     {
-      "ward_id": "21fe7a90-abc2-4fce-ba4a-2ba23c0db918",
+      "id": "21fe7a90-abc2-4fce-ba4a-2ba23c0db918",
       "ward_no": "16",
-      "ward_name_en": "Muttakkavu West",
-      "ward_name_ml": "മുട്ടയ്ക്കാവ് വെസ്റ്റ്"
+      "name_en": "Muttakkavu West",
+      "name_ml": "മുട്ടയ്ക്കാവ് വെസ്റ്റ്"
     },
     {
-      "ward_id": "73ee460e-c41d-4a86-9647-116e6c747fe9",
+      "id": "73ee460e-c41d-4a86-9647-116e6c747fe9",
       "ward_no": "17",
-      "ward_name_en": "Nedumpana South",
-      "ward_name_ml": "നെടുമ്പന സൌത്ത്"
+      "name_en": "Nedumpana South",
+      "name_ml": "നെടുമ്പന സൌത്ത്"
     },
     {
-      "ward_id": "aa3f22ec-57f8-4f29-9e9a-349f16b153ef",
+      "id": "aa3f22ec-57f8-4f29-9e9a-349f16b153ef",
       "ward_no": "18",
-      "ward_name_en": "Kulappadom North",
-      "ward_name_ml": "കുളപ്പാടം നോർത്ത്"
+      "name_en": "Kulappadom North",
+      "name_ml": "കുളപ്പാടം നോർത്ത്"
     },
     {
-      "ward_id": "0244bd0b-074a-47dc-aa56-6575a28039c5",
+      "id": "0244bd0b-074a-47dc-aa56-6575a28039c5",
       "ward_no": "19",
-      "ward_name_en": "Nedumpana",
-      "ward_name_ml": "നെടുമ്പന"
+      "name_en": "Nedumpana",
+      "name_ml": "നെടുമ്പന"
     },
     {
-      "ward_id": "3dd96fd6-695c-4eb7-a73c-b3c0c35d6973",
+      "id": "3dd96fd6-695c-4eb7-a73c-b3c0c35d6973",
       "ward_no": "20",
-      "ward_name_en": "Kalakkal",
-      "ward_name_ml": "കളയ്ക്കൽ"
+      "name_en": "Kalakkal",
+      "name_ml": "കളയ്ക്കൽ"
     },
     {
-      "ward_id": "75e783df-4d6a-4333-b24a-55b2ea851cf0",
+      "id": "75e783df-4d6a-4333-b24a-55b2ea851cf0",
       "ward_no": "21",
-      "ward_name_en": "Nedumpana North",
-      "ward_name_ml": "നെടുമ്പന നോർത്ത്"
+      "name_en": "Nedumpana North",
+      "name_ml": "നെടുമ്പന നോർത്ത്"
     },
     {
-      "ward_id": "d5e2af7b-689a-4bc6-8e17-d99a1c5b2f27",
+      "id": "d5e2af7b-689a-4bc6-8e17-d99a1c5b2f27",
       "ward_no": "22",
-      "ward_name_en": "Pazhangalam South",
-      "ward_name_ml": "പഴങ്ങാലം സൗത്ത്"
+      "name_en": "Pazhangalam South",
+      "name_ml": "പഴങ്ങാലം സൗത്ത്"
     },
     {
-      "ward_id": "9245706c-0583-4a10-8b05-534dc1705124",
+      "id": "9245706c-0583-4a10-8b05-534dc1705124",
       "ward_no": "23",
-      "ward_name_en": "Pazhangalam",
-      "ward_name_ml": "പഴങ്ങാലം"
+      "name_en": "Pazhangalam",
+      "name_ml": "പഴങ്ങാലം"
     }
   ],
   "towns": [],

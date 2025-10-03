@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G091205",
-  "local_body_name_en": "Puducode",
-  "local_body_name_ml": "പുതുക്കോട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "57",
-    "assembly_name_en": "Tarur",
-    "assembly_name_ml": "തരൂര്‍",
+  "id": "G091205",
+  "name_en": "Puducode",
+  "name_ml": "പുതുക്കോട്",
+  "assembly_id": "57",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "57",
+    "name_en": "Tarur",
+    "name_ml": "തരൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b1b0178e-2b27-46a1-9aa8-9263e34a5d3b",
+      "id": "b1b0178e-2b27-46a1-9aa8-9263e34a5d3b",
       "ward_no": "1",
-      "ward_name_en": "Thiruvadi",
-      "ward_name_ml": "തിരുവടി"
+      "name_en": "Thiruvadi",
+      "name_ml": "തിരുവടി"
     },
     {
-      "ward_id": "81d728c9-3b99-4dbd-8c83-d5a11095201d",
+      "id": "81d728c9-3b99-4dbd-8c83-d5a11095201d",
       "ward_no": "2",
-      "ward_name_en": "Kanakkannur",
-      "ward_name_ml": "കണക്കന്നൂര്‍"
+      "name_en": "Kanakkannur",
+      "name_ml": "കണക്കന്നൂര്‍"
     },
     {
-      "ward_id": "30267eaf-e162-4da2-910f-047af0f77366",
+      "id": "30267eaf-e162-4da2-910f-047af0f77366",
       "ward_no": "3",
-      "ward_name_en": "Pattola",
-      "ward_name_ml": "പാട്ടോല"
+      "name_en": "Pattola",
+      "name_ml": "പാട്ടോല"
     },
     {
-      "ward_id": "6610539a-6c36-4a40-9d09-c6bc58e22a3a",
+      "id": "6610539a-6c36-4a40-9d09-c6bc58e22a3a",
       "ward_no": "4",
-      "ward_name_en": "Chandhappura",
-      "ward_name_ml": "ചന്തപ്പുര"
+      "name_en": "Chandhappura",
+      "name_ml": "ചന്തപ്പുര"
     },
     {
-      "ward_id": "113d4116-8a3c-4d87-959c-c1c5b962c1c6",
+      "id": "113d4116-8a3c-4d87-959c-c1c5b962c1c6",
       "ward_no": "5",
-      "ward_name_en": "Manappadam",
-      "ward_name_ml": "മണപ്പാടം"
+      "name_en": "Manappadam",
+      "name_ml": "മണപ്പാടം"
     },
     {
-      "ward_id": "150f8976-cf16-4a4d-b9c5-962c5aa768f2",
+      "id": "150f8976-cf16-4a4d-b9c5-962c5aa768f2",
       "ward_no": "6",
-      "ward_name_en": "Theruvu",
-      "ward_name_ml": "തെരുവ്"
+      "name_en": "Theruvu",
+      "name_ml": "തെരുവ്"
     },
     {
-      "ward_id": "56e07f41-ef0d-49f2-af67-6359f562ec72",
+      "id": "56e07f41-ef0d-49f2-af67-6359f562ec72",
       "ward_no": "7",
-      "ward_name_en": "Thachanadi",
-      "ward_name_ml": "തച്ചനടി"
+      "name_en": "Thachanadi",
+      "name_ml": "തച്ചനടി"
     },
     {
-      "ward_id": "f7e30d78-fcec-4396-a4f6-35fe6a9dfee6",
+      "id": "f7e30d78-fcec-4396-a4f6-35fe6a9dfee6",
       "ward_no": "8",
-      "ward_name_en": "Anjumuri",
-      "ward_name_ml": "അഞ്ചുമുറി"
+      "name_en": "Anjumuri",
+      "name_ml": "അഞ്ചുമുറി"
     },
     {
-      "ward_id": "5850ca3c-a834-41fd-8f3e-eedecde66e25",
+      "id": "5850ca3c-a834-41fd-8f3e-eedecde66e25",
       "ward_no": "9",
-      "ward_name_en": "Gramam",
-      "ward_name_ml": "ഗ്രാമം"
+      "name_en": "Gramam",
+      "name_ml": "ഗ്രാമം"
     },
     {
-      "ward_id": "9c9fff20-232a-4b88-921c-ad54c2e75b02",
+      "id": "9c9fff20-232a-4b88-921c-ad54c2e75b02",
       "ward_no": "10",
-      "ward_name_en": "Appakkad",
-      "ward_name_ml": "അപ്പക്കാട്"
+      "name_en": "Appakkad",
+      "name_ml": "അപ്പക്കാട്"
     },
     {
-      "ward_id": "b965bad9-8685-44d1-a40a-74fcee80ac82",
+      "id": "b965bad9-8685-44d1-a40a-74fcee80ac82",
       "ward_no": "11",
-      "ward_name_en": "Keezha",
-      "ward_name_ml": "കീഴ"
+      "name_en": "Keezha",
+      "name_ml": "കീഴ"
     },
     {
-      "ward_id": "13db6b59-5a04-4ab3-8255-237556d4533e",
+      "id": "13db6b59-5a04-4ab3-8255-237556d4533e",
       "ward_no": "12",
-      "ward_name_en": "Valamcode",
-      "ward_name_ml": "വാളംകോട്"
+      "name_en": "Valamcode",
+      "name_ml": "വാളംകോട്"
     },
     {
-      "ward_id": "78c20cde-2232-4f2a-8c12-8e4fb0df8881",
+      "id": "78c20cde-2232-4f2a-8c12-8e4fb0df8881",
       "ward_no": "13",
-      "ward_name_en": "Kottarassery",
-      "ward_name_ml": "കൊട്ടാരശ്ശേരി"
+      "name_en": "Kottarassery",
+      "name_ml": "കൊട്ടാരശ്ശേരി"
     },
     {
-      "ward_id": "de8fb083-e572-4771-a442-9a29fc7b956b",
+      "id": "de8fb083-e572-4771-a442-9a29fc7b956b",
       "ward_no": "14",
-      "ward_name_en": "Thekkeppotta",
-      "ward_name_ml": "തെക്കേപ്പൊറ്റ"
+      "name_en": "Thekkeppotta",
+      "name_ml": "തെക്കേപ്പൊറ്റ"
     },
     {
-      "ward_id": "a78d3ca9-c9a6-4129-a385-c8c1994380d0",
+      "id": "a78d3ca9-c9a6-4129-a385-c8c1994380d0",
       "ward_no": "15",
-      "ward_name_en": "Ayyappankunnu",
-      "ward_name_ml": "അയ്യപ്പന്‍കുന്ന്"
+      "name_en": "Ayyappankunnu",
+      "name_ml": "അയ്യപ്പന്‍കുന്ന്"
     }
   ],
   "towns": [],

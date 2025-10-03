@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G030603",
-  "local_body_name_en": "Pramadom",
-  "local_body_name_ml": "പ്രമാടം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G030603",
+  "name_en": "Pramadom",
+  "name_ml": "പ്രമാടം",
+  "assembly_id": "114",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "114",
-    "assembly_name_en": "Konni",
-    "assembly_name_ml": "കോന്നി",
-    "category": "Normal"
+    "id": "114",
+    "name_en": "Konni",
+    "name_ml": "കോന്നി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "72b7f702-e8ac-4963-a876-881eac3572b6",
+      "id": "72b7f702-e8ac-4963-a876-881eac3572b6",
       "ward_no": "1",
-      "ward_name_en": "Maroor",
-      "ward_name_ml": "മറൂര്‍"
+      "name_en": "Maroor",
+      "name_ml": "മറൂര്‍"
     },
     {
-      "ward_id": "f3279a84-e54d-4f5f-94ab-83652be2bb78",
+      "id": "f3279a84-e54d-4f5f-94ab-83652be2bb78",
       "ward_no": "2",
-      "ward_name_en": "Palamaroor",
-      "ward_name_ml": "പാലമറൂര്‍"
+      "name_en": "Palamaroor",
+      "name_ml": "പാലമറൂര്‍"
     },
     {
-      "ward_id": "709be242-af89-41f9-a7bb-7c0a0c401dfb",
+      "id": "709be242-af89-41f9-a7bb-7c0a0c401dfb",
       "ward_no": "3",
-      "ward_name_en": "Pulimukku",
-      "ward_name_ml": "പുളിമുക്ക്"
+      "name_en": "Pulimukku",
+      "name_ml": "പുളിമുക്ക്"
     },
     {
-      "ward_id": "652ed3cd-1d99-44b8-937c-9bbc72b6005f",
+      "id": "652ed3cd-1d99-44b8-937c-9bbc72b6005f",
       "ward_no": "4",
-      "ward_name_en": "Vettoor",
-      "ward_name_ml": "വെട്ടൂര്‍"
+      "name_en": "Vettoor",
+      "name_ml": "വെട്ടൂര്‍"
     },
     {
-      "ward_id": "e90fdc65-84ce-45e7-8398-87cab8f47324",
+      "id": "e90fdc65-84ce-45e7-8398-87cab8f47324",
       "ward_no": "5",
-      "ward_name_en": "Elakolloor",
-      "ward_name_ml": "ഇളകൊള്ളൂര്‍"
+      "name_en": "Elakolloor",
+      "name_ml": "ഇളകൊള്ളൂര്‍"
     },
     {
-      "ward_id": "f17fdca6-3851-4915-92de-b9b5ce603630",
+      "id": "f17fdca6-3851-4915-92de-b9b5ce603630",
       "ward_no": "6",
-      "ward_name_en": "Thengumkavu",
-      "ward_name_ml": "തെങ്ങുംകാവ്"
+      "name_en": "Thengumkavu",
+      "name_ml": "തെങ്ങുംകാവ്"
     },
     {
-      "ward_id": "5277d9c0-8956-450b-99fe-2e4180d6983b",
+      "id": "5277d9c0-8956-450b-99fe-2e4180d6983b",
       "ward_no": "7",
-      "ward_name_en": "Vattakkavu",
-      "ward_name_ml": "വട്ടക്കാവ്"
+      "name_en": "Vattakkavu",
+      "name_ml": "വട്ടക്കാവ്"
     },
     {
-      "ward_id": "4339a0c7-921a-4f51-b032-d8a77acdd0c7",
+      "id": "4339a0c7-921a-4f51-b032-d8a77acdd0c7",
       "ward_no": "8",
-      "ward_name_en": "Vellappara",
-      "ward_name_ml": "വെള്ളപ്പാറ"
+      "name_en": "Vellappara",
+      "name_ml": "വെള്ളപ്പാറ"
     },
     {
-      "ward_id": "29bb9f0b-b64f-4ec0-aea3-46709d26fbf6",
+      "id": "29bb9f0b-b64f-4ec0-aea3-46709d26fbf6",
       "ward_no": "9",
-      "ward_name_en": "Povanpara",
-      "ward_name_ml": "പൂവന്‍പാറ"
+      "name_en": "Povanpara",
+      "name_ml": "പൂവന്‍പാറ"
     },
     {
-      "ward_id": "03b291e1-6acd-4fc4-935c-c938b55f5354",
+      "id": "03b291e1-6acd-4fc4-935c-c938b55f5354",
       "ward_no": "10",
-      "ward_name_en": "Elappupara",
-      "ward_name_ml": "ഇളപ്പുപാറ"
+      "name_en": "Elappupara",
+      "name_ml": "ഇളപ്പുപാറ"
     },
     {
-      "ward_id": "ad7711e6-9b96-404b-9d20-2c3048b2d362",
+      "id": "ad7711e6-9b96-404b-9d20-2c3048b2d362",
       "ward_no": "11",
-      "ward_name_en": "Kaithakkara",
-      "ward_name_ml": "കൈതക്കര"
+      "name_en": "Kaithakkara",
+      "name_ml": "കൈതക്കര"
     },
     {
-      "ward_id": "928efcbd-20e3-4ac9-b4e6-efeba08866ca",
+      "id": "928efcbd-20e3-4ac9-b4e6-efeba08866ca",
       "ward_no": "12",
-      "ward_name_en": "Vakayar",
-      "ward_name_ml": "വകയാര്‍"
+      "name_en": "Vakayar",
+      "name_ml": "വകയാര്‍"
     },
     {
-      "ward_id": "daddc1fe-854b-4f92-9e86-dc22a292c427",
+      "id": "daddc1fe-854b-4f92-9e86-dc22a292c427",
       "ward_no": "13",
-      "ward_name_en": "Ezhumon",
-      "ward_name_ml": "എഴുമണ്‍"
+      "name_en": "Ezhumon",
+      "name_ml": "എഴുമണ്‍"
     },
     {
-      "ward_id": "46c78a59-9302-45c1-b5ed-264f859beb8b",
+      "id": "46c78a59-9302-45c1-b5ed-264f859beb8b",
       "ward_no": "14",
-      "ward_name_en": "Andichanda",
-      "ward_name_ml": "അന്തിച്ചന്ത"
+      "name_en": "Andichanda",
+      "name_ml": "അന്തിച്ചന്ത"
     },
     {
-      "ward_id": "958c8aa9-83a1-44d0-a857-e7b11b7e9dc2",
+      "id": "958c8aa9-83a1-44d0-a857-e7b11b7e9dc2",
       "ward_no": "15",
-      "ward_name_en": "V Kottayam",
-      "ward_name_ml": "വി കോട്ടയം"
+      "name_en": "V Kottayam",
+      "name_ml": "വി കോട്ടയം"
     },
     {
-      "ward_id": "2c14ca21-a8ec-4fca-84a0-685c4f8e21e6",
+      "id": "2c14ca21-a8ec-4fca-84a0-685c4f8e21e6",
       "ward_no": "16",
-      "ward_name_en": "Nedumpara",
-      "ward_name_ml": "നെടുംപാറ"
+      "name_en": "Nedumpara",
+      "name_ml": "നെടുംപാറ"
     },
     {
-      "ward_id": "22be65df-cd71-4482-ba0d-5ef2e99a334f",
+      "id": "22be65df-cd71-4482-ba0d-5ef2e99a334f",
       "ward_no": "17",
-      "ward_name_en": "Lakkoor",
-      "ward_name_ml": "ളാക്കൂര്‍"
+      "name_en": "Lakkoor",
+      "name_ml": "ളാക്കൂര്‍"
     },
     {
-      "ward_id": "c845cfef-28a6-4429-8354-56f9b53d8989",
+      "id": "c845cfef-28a6-4429-8354-56f9b53d8989",
       "ward_no": "18",
-      "ward_name_en": "Poonkavu",
-      "ward_name_ml": "പൂങ്കാവ്"
+      "name_en": "Poonkavu",
+      "name_ml": "പൂങ്കാവ്"
     },
     {
-      "ward_id": "6006f019-efd4-48b7-8caa-53b3178c4f5e",
+      "id": "6006f019-efd4-48b7-8caa-53b3178c4f5e",
       "ward_no": "19",
-      "ward_name_en": "Pramadom",
-      "ward_name_ml": "പ്രമാടം"
+      "name_en": "Pramadom",
+      "name_ml": "പ്രമാടം"
     }
   ],
   "towns": [],

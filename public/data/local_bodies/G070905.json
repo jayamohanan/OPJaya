@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G070905",
-  "local_body_name_en": "Amballoor",
-  "local_body_name_ml": "ആമ്പല്ലൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G070905",
+  "name_en": "Amballoor",
+  "name_ml": "ആമ്പല്ലൂര്‍",
+  "assembly_id": "85",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "85",
-    "assembly_name_en": "Piravom",
-    "assembly_name_ml": "പിറവം",
-    "category": "Normal"
+    "id": "85",
+    "name_en": "Piravom",
+    "name_ml": "പിറവം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ce9eb5f5-bc0f-4f6e-a339-45e3ac5388ec",
+      "id": "ce9eb5f5-bc0f-4f6e-a339-45e3ac5388ec",
       "ward_no": "1",
-      "ward_name_en": "Amballoor West",
-      "ward_name_ml": "ആമ്പല്ലൂര്‍ വെസ്റ്റ്"
+      "name_en": "Amballoor West",
+      "name_ml": "ആമ്പല്ലൂര്‍ വെസ്റ്റ്"
     },
     {
-      "ward_id": "a91b0c67-f0a1-499a-a307-e3a3cbdeca47",
+      "id": "a91b0c67-f0a1-499a-a307-e3a3cbdeca47",
       "ward_no": "2",
-      "ward_name_en": "Aakkappanam",
-      "ward_name_ml": "ആക്കാപ്പനം"
+      "name_en": "Aakkappanam",
+      "name_ml": "ആക്കാപ്പനം"
     },
     {
-      "ward_id": "88dd2bdc-1cd9-4e37-b13e-dba520297132",
+      "id": "88dd2bdc-1cd9-4e37-b13e-dba520297132",
       "ward_no": "3",
-      "ward_name_en": "Amballoor East",
-      "ward_name_ml": "ആമ്പല്ലൂര്‍ ഈസ്റ്റ്‌"
+      "name_en": "Amballoor East",
+      "name_ml": "ആമ്പല്ലൂര്‍ ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "1e94d22b-c370-4581-b8f1-8be9d5c57de9",
+      "id": "1e94d22b-c370-4581-b8f1-8be9d5c57de9",
       "ward_no": "4",
-      "ward_name_en": "Amballoor",
-      "ward_name_ml": "ആമ്പല്ലൂര്‍"
+      "name_en": "Amballoor",
+      "name_ml": "ആമ്പല്ലൂര്‍"
     },
     {
-      "ward_id": "cd17ca59-f388-4fae-af05-a8ebdabf2ccb",
+      "id": "cd17ca59-f388-4fae-af05-a8ebdabf2ccb",
       "ward_no": "5",
-      "ward_name_en": "Kanjiramattom Centre",
-      "ward_name_ml": "കാഞ്ഞിരമറ്റം സെന്‍റര്‍"
+      "name_en": "Kanjiramattom Centre",
+      "name_ml": "കാഞ്ഞിരമറ്റം സെന്‍റര്‍"
     },
     {
-      "ward_id": "492c4126-dcb2-4428-9533-82a1801e5a2c",
+      "id": "492c4126-dcb2-4428-9533-82a1801e5a2c",
       "ward_no": "6",
-      "ward_name_en": "Kulayattikkara North",
-      "ward_name_ml": "കുലയറ്റിക്കര നോര്‍ത്ത്"
+      "name_en": "Kulayattikkara North",
+      "name_ml": "കുലയറ്റിക്കര നോര്‍ത്ത്"
     },
     {
-      "ward_id": "9f48d895-189c-4c1e-8d96-efa225794da7",
+      "id": "9f48d895-189c-4c1e-8d96-efa225794da7",
       "ward_no": "7",
-      "ward_name_en": "Kulayattikkara",
-      "ward_name_ml": "കുലയറ്റിക്കര"
+      "name_en": "Kulayattikkara",
+      "name_ml": "കുലയറ്റിക്കര"
     },
     {
-      "ward_id": "ee186ddc-ad88-48ed-b70a-516167a52ac8",
+      "id": "ee186ddc-ad88-48ed-b70a-516167a52ac8",
       "ward_no": "8",
-      "ward_name_en": "Thottara",
-      "ward_name_ml": "തോട്ടറ"
+      "name_en": "Thottara",
+      "name_ml": "തോട്ടറ"
     },
     {
-      "ward_id": "e474a7ed-9eee-4b34-abf8-a5170f6ec6e3",
+      "id": "e474a7ed-9eee-4b34-abf8-a5170f6ec6e3",
       "ward_no": "9",
-      "ward_name_en": "Thottara East",
-      "ward_name_ml": "തോട്ടറ ഈസ്റ്റ്‌"
+      "name_en": "Thottara East",
+      "name_ml": "തോട്ടറ ഈസ്റ്റ്‌"
     },
     {
-      "ward_id": "e1fb14e8-a5ac-4a32-a217-da7cf1930980",
+      "id": "e1fb14e8-a5ac-4a32-a217-da7cf1930980",
       "ward_no": "10",
-      "ward_name_en": "Arayankavu",
-      "ward_name_ml": "അരയന്‍കാവ്"
+      "name_en": "Arayankavu",
+      "name_ml": "അരയന്‍കാവ്"
     },
     {
-      "ward_id": "0fda13a8-bf98-4875-8df4-93087bf4e8ee",
+      "id": "0fda13a8-bf98-4875-8df4-93087bf4e8ee",
       "ward_no": "11",
-      "ward_name_en": "Keechery",
-      "ward_name_ml": "കീച്ചേരി"
+      "name_en": "Keechery",
+      "name_ml": "കീച്ചേരി"
     },
     {
-      "ward_id": "dda0ef6e-7afb-4872-9920-761a3b54869c",
+      "id": "dda0ef6e-7afb-4872-9920-761a3b54869c",
       "ward_no": "12",
-      "ward_name_en": "Plappilly",
-      "ward_name_ml": "പ്ലാപ്പിള്ളി"
+      "name_en": "Plappilly",
+      "name_ml": "പ്ലാപ്പിള്ളി"
     },
     {
-      "ward_id": "4e90d5f0-e448-40a4-bf61-2366bc4af1a1",
+      "id": "4e90d5f0-e448-40a4-bf61-2366bc4af1a1",
       "ward_no": "13",
-      "ward_name_en": "Mambuzha",
-      "ward_name_ml": "മാമ്പുഴ"
+      "name_en": "Mambuzha",
+      "name_ml": "മാമ്പുഴ"
     },
     {
-      "ward_id": "c380c07c-dd41-45ae-99a3-1fbb2d0ae016",
+      "id": "c380c07c-dd41-45ae-99a3-1fbb2d0ae016",
       "ward_no": "14",
-      "ward_name_en": "Puthuvassery",
-      "ward_name_ml": "പുതുവാശ്ശേരി"
+      "name_en": "Puthuvassery",
+      "name_ml": "പുതുവാശ്ശേരി"
     },
     {
-      "ward_id": "496c6569-dd8e-4df1-8b0c-5be5d0ee599c",
+      "id": "496c6569-dd8e-4df1-8b0c-5be5d0ee599c",
       "ward_no": "15",
-      "ward_name_en": "Kanjiramattom",
-      "ward_name_ml": "കാഞ്ഞിരമറ്റം"
+      "name_en": "Kanjiramattom",
+      "name_ml": "കാഞ്ഞിരമറ്റം"
     },
     {
-      "ward_id": "6f91ddde-4459-4a4e-9ba3-d707496a8107",
+      "id": "6f91ddde-4459-4a4e-9ba3-d707496a8107",
       "ward_no": "16",
-      "ward_name_en": "Kanjiramattom West",
-      "ward_name_ml": "കാഞ്ഞിരമറ്റം വെസ്റ്റ്"
+      "name_en": "Kanjiramattom West",
+      "name_ml": "കാഞ്ഞിരമറ്റം വെസ്റ്റ്"
     }
   ],
   "towns": [],

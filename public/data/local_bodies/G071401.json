@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G071401",
-  "local_body_name_en": "Avoly",
-  "local_body_name_ml": "ആവോലി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G071401",
+  "name_en": "Avoly",
+  "name_ml": "ആവോലി",
+  "assembly_id": "86",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "86",
-    "assembly_name_en": "Muvattupuzha",
-    "assembly_name_ml": "മൂവാറ്റുപുഴ",
-    "category": "Normal"
+    "id": "86",
+    "name_en": "Muvattupuzha",
+    "name_ml": "മൂവാറ്റുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "568856b9-c4f9-4e45-a397-bc3716fbbd9d",
+      "id": "568856b9-c4f9-4e45-a397-bc3716fbbd9d",
       "ward_no": "1",
-      "ward_name_en": "Kizhakkekkara",
-      "ward_name_ml": "കിഴക്കേക്കര"
+      "name_en": "Kizhakkekkara",
+      "name_ml": "കിഴക്കേക്കര"
     },
     {
-      "ward_id": "c57643de-7851-4796-9758-7d16e8aa5643",
+      "id": "c57643de-7851-4796-9758-7d16e8aa5643",
       "ward_no": "2",
-      "ward_name_en": "Randar",
-      "ward_name_ml": "രണ്ടാര്‍"
+      "name_en": "Randar",
+      "name_ml": "രണ്ടാര്‍"
     },
     {
-      "ward_id": "2ae4236e-6b08-46ae-82d6-b937ea9d32e6",
+      "id": "2ae4236e-6b08-46ae-82d6-b937ea9d32e6",
       "ward_no": "3",
-      "ward_name_en": "Kottappuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottappuram",
+      "name_ml": "കോട്ടപ്പുറം"
     },
     {
-      "ward_id": "3f9f14d5-1789-4438-86e4-875a22505b1e",
+      "id": "3f9f14d5-1789-4438-86e4-875a22505b1e",
       "ward_no": "4",
-      "ward_name_en": "Thiruvumplavu Temple",
-      "ward_name_ml": "തിരുവുംപ്ലവ് ക്ഷേത്രം"
+      "name_en": "Thiruvumplavu Temple",
+      "name_ml": "തിരുവുംപ്ലവ് ക്ഷേത്രം"
     },
     {
-      "ward_id": "052ca69d-a988-464d-a36e-223049373ada",
+      "id": "052ca69d-a988-464d-a36e-223049373ada",
       "ward_no": "5",
-      "ward_name_en": "St. Sebastians Anicadu",
-      "ward_name_ml": "സെന്‍റെ്. സെബാസ്റ്റ്യന്‍സ്"
+      "name_en": "St. Sebastians Anicadu",
+      "name_ml": "സെന്‍റെ്. സെബാസ്റ്റ്യന്‍സ്"
     },
     {
-      "ward_id": "c4a406a3-2879-42fd-b882-c68045e7b64d",
+      "id": "c4a406a3-2879-42fd-b882-c68045e7b64d",
       "ward_no": "6",
-      "ward_name_en": "Pareekkapeedika",
-      "ward_name_ml": "പരീക്കപീടിക"
+      "name_en": "Pareekkapeedika",
+      "name_ml": "പരീക്കപീടിക"
     },
     {
-      "ward_id": "c3cff5aa-13c0-4111-9af7-920e0b807a7f",
+      "id": "c3cff5aa-13c0-4111-9af7-920e0b807a7f",
       "ward_no": "7",
-      "ward_name_en": "Kavana",
-      "ward_name_ml": "കാവന"
+      "name_en": "Kavana",
+      "name_ml": "കാവന"
     },
     {
-      "ward_id": "584fab6b-0c14-4861-bf54-98dfc7fc4b38",
+      "id": "584fab6b-0c14-4861-bf54-98dfc7fc4b38",
       "ward_no": "8",
-      "ward_name_en": "Kavana Gov. Lps",
-      "ward_name_ml": "കാവന ഗവ.എല്‍ .പി .എസ്"
+      "name_en": "Kavana Gov. Lps",
+      "name_ml": "കാവന ഗവ.എല്‍ .പി .എസ്"
     },
     {
-      "ward_id": "9ea974d8-2690-49e7-a79e-77c16b1d8753",
+      "id": "9ea974d8-2690-49e7-a79e-77c16b1d8753",
       "ward_no": "9",
-      "ward_name_en": "Nadukkara",
-      "ward_name_ml": "നടുക്കര"
+      "name_en": "Nadukkara",
+      "name_ml": "നടുക്കര"
     },
     {
-      "ward_id": "630a26fd-805a-43f1-a2fc-142561822ccc",
+      "id": "630a26fd-805a-43f1-a2fc-142561822ccc",
       "ward_no": "10",
-      "ward_name_en": "Panchayath Office",
-      "ward_name_ml": "പഞ്ചായത്ത്‌ ഓഫീസ്"
+      "name_en": "Panchayath Office",
+      "name_ml": "പഞ്ചായത്ത്‌ ഓഫീസ്"
     },
     {
-      "ward_id": "fa04102c-bc57-4b4a-ba12-6eb773921ce0",
+      "id": "fa04102c-bc57-4b4a-ba12-6eb773921ce0",
       "ward_no": "11",
-      "ward_name_en": "Anicadu",
-      "ward_name_ml": "ആനിക്കാട്"
+      "name_en": "Anicadu",
+      "name_ml": "ആനിക്കാട്"
     },
     {
-      "ward_id": "b281d769-e9b0-4623-ae8c-a5d768c9c47f",
+      "id": "b281d769-e9b0-4623-ae8c-a5d768c9c47f",
       "ward_no": "12",
-      "ward_name_en": "P . H .C",
-      "ward_name_ml": "പി.എച്ച് .സി"
+      "name_en": "P . H .C",
+      "name_ml": "പി.എച്ച് .സി"
     },
     {
-      "ward_id": "2e46bea5-336f-4395-91b3-126034370a2e",
+      "id": "2e46bea5-336f-4395-91b3-126034370a2e",
       "ward_no": "13",
-      "ward_name_en": "Companypady",
-      "ward_name_ml": "കമ്പനിപടി"
+      "name_en": "Companypady",
+      "name_ml": "കമ്പനിപടി"
     },
     {
-      "ward_id": "abeed168-5e3c-4a21-9d01-405ec81818f2",
+      "id": "abeed168-5e3c-4a21-9d01-405ec81818f2",
       "ward_no": "14",
-      "ward_name_en": "Nirmalacollege",
-      "ward_name_ml": "നിര്‍മ്മലകോളേജ്"
+      "name_en": "Nirmalacollege",
+      "name_ml": "നിര്‍മ്മലകോളേജ്"
     }
   ],
   "towns": [],

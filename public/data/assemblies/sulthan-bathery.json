@@ -1,62 +1,81 @@
 {
-  "assembly_id": "18",
-  "assembly_name_en": "Sulthan Bathery",
-  "assembly_name_ml": "സുൽത്താൻ ബത്തേരി",
-  "category": "Normal",
+  "id": "18",
+  "name_en": "Sulthan Bathery",
+  "name_ml": "സുൽത്താൻ ബത്തേരി",
+  "district_id": "12",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "district_category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G120301",
-      "local_body_name_en": "Meenangadi",
-      "local_body_name_ml": "മീനങ്ങാടി",
-      "category": "Normal"
+      "id": "G120301",
+      "name_en": "Meenangadi",
+      "name_ml": "മീനങ്ങാടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G120203",
-      "local_body_name_en": "Mullankolly",
-      "local_body_name_ml": "മുള്ളന്‍കൊല്ലി",
-      "category": "Good"
+      "id": "G120203",
+      "name_en": "Mullankolly",
+      "name_ml": "മുള്ളന്‍കൊല്ലി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120302",
-      "local_body_name_en": "Nenmeni",
-      "local_body_name_ml": "നെന്മേനി",
-      "category": "Perfect"
+      "id": "G120302",
+      "name_en": "Nenmeni",
+      "name_ml": "നെന്മേനി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G120305",
-      "local_body_name_en": "Noolpuzha",
-      "local_body_name_ml": "നൂല്‍പ്പുഴ",
-      "category": "Perfect"
+      "id": "G120305",
+      "name_en": "Noolpuzha",
+      "name_ml": "നൂല്‍പ്പുഴ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G120202",
-      "local_body_name_en": "Poothadi",
-      "local_body_name_ml": "പൂതാടി",
-      "category": "Good"
+      "id": "G120202",
+      "name_en": "Poothadi",
+      "name_ml": "പൂതാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120204",
-      "local_body_name_en": "Pulpally",
-      "local_body_name_ml": "പുല്‍പ്പള്ളി",
-      "category": "Perfect"
+      "id": "G120204",
+      "name_en": "Pulpally",
+      "name_ml": "പുല്‍പ്പള്ളി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "M120300",
-      "local_body_name_en": "Sulthan Bathery",
-      "local_body_name_ml": "സുല്‍ത്താന്‍ ബത്തേരി",
-      "category": ""
+      "id": "M120300",
+      "name_en": "Sulthan Bathery",
+      "name_ml": "സുല്‍ത്താന്‍ ബത്തേരി",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G120303",
-      "local_body_name_en": "Ambalavayal",
-      "local_body_name_ml": "അമ്പലവയല്‍",
-      "category": "Normal"
+      "id": "G120303",
+      "name_en": "Ambalavayal",
+      "name_ml": "അമ്പലവയല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

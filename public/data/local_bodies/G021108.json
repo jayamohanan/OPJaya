@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G021108",
-  "local_body_name_en": "Kummil",
-  "local_body_name_ml": "കുമ്മിള്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G021108",
+  "name_en": "Kummil",
+  "name_ml": "കുമ്മിള്‍",
+  "assembly_id": "122",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "122",
-    "assembly_name_en": "Chadayamangalam",
-    "assembly_name_ml": "ചടയമംഗലം",
-    "category": "Normal"
+    "id": "122",
+    "name_en": "Chadayamangalam",
+    "name_ml": "ചടയമംഗലം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "69df8667-a842-4af8-b6a6-d74896678788",
+      "id": "69df8667-a842-4af8-b6a6-d74896678788",
       "ward_no": "1",
-      "ward_name_en": "Eyyakkodu",
-      "ward_name_ml": "ഈയ്യക്കോട്"
+      "name_en": "Eyyakkodu",
+      "name_ml": "ഈയ്യക്കോട്"
     },
     {
-      "ward_id": "3759390c-7932-4b4e-a6cf-254ea5852a05",
+      "id": "3759390c-7932-4b4e-a6cf-254ea5852a05",
       "ward_no": "2",
-      "ward_name_en": "Mukkunnam",
-      "ward_name_ml": "മുക്കുന്നം"
+      "name_en": "Mukkunnam",
+      "name_ml": "മുക്കുന്നം"
     },
     {
-      "ward_id": "059e340e-969e-4701-bd52-1840a99853ef",
+      "id": "059e340e-969e-4701-bd52-1840a99853ef",
       "ward_no": "3",
-      "ward_name_en": "Anappara",
-      "ward_name_ml": "ആനപ്പാറ"
+      "name_en": "Anappara",
+      "name_ml": "ആനപ്പാറ"
     },
     {
-      "ward_id": "f1613765-a946-4f48-9cbf-1cebf69f5d33",
+      "id": "f1613765-a946-4f48-9cbf-1cebf69f5d33",
       "ward_no": "4",
-      "ward_name_en": "Pangalukadu",
-      "ward_name_ml": "പാങ്ങലുകാട്‌"
+      "name_en": "Pangalukadu",
+      "name_ml": "പാങ്ങലുകാട്‌"
     },
     {
-      "ward_id": "f3ca15b8-d584-4e55-814b-4f8255bc8bc6",
+      "id": "f3ca15b8-d584-4e55-814b-4f8255bc8bc6",
       "ward_no": "5",
-      "ward_name_en": "Darppakkadu",
-      "ward_name_ml": "ദര്‍പ്പക്കാട്‌"
+      "name_en": "Darppakkadu",
+      "name_ml": "ദര്‍പ്പക്കാട്‌"
     },
     {
-      "ward_id": "fe15edc1-3408-4355-be6e-b2aacf8edf36",
+      "id": "fe15edc1-3408-4355-be6e-b2aacf8edf36",
       "ward_no": "6",
-      "ward_name_en": "Kondodi",
-      "ward_name_ml": "കൊണ്ടോടി"
+      "name_en": "Kondodi",
+      "name_ml": "കൊണ്ടോടി"
     },
     {
-      "ward_id": "eccb7735-7b63-4a1c-bf9a-934117f44cf5",
+      "id": "eccb7735-7b63-4a1c-bf9a-934117f44cf5",
       "ward_no": "7",
-      "ward_name_en": "Mankadu",
-      "ward_name_ml": "മങ്കാട്"
+      "name_en": "Mankadu",
+      "name_ml": "മങ്കാട്"
     },
     {
-      "ward_id": "65d8b2c6-d8b0-479f-a7d8-ae6dba061ff1",
+      "id": "65d8b2c6-d8b0-479f-a7d8-ae6dba061ff1",
       "ward_no": "8",
-      "ward_name_en": "Kummil North",
-      "ward_name_ml": "കുമ്മിള്‍ നോര്‍ത്ത്"
+      "name_en": "Kummil North",
+      "name_ml": "കുമ്മിള്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "46598168-c60e-4307-ac09-c082742f75b2",
+      "id": "46598168-c60e-4307-ac09-c082742f75b2",
       "ward_no": "9",
-      "ward_name_en": "Kummil",
-      "ward_name_ml": "കുമ്മിള്‍"
+      "name_en": "Kummil",
+      "name_ml": "കുമ്മിള്‍"
     },
     {
-      "ward_id": "e9768512-3de3-46f6-9e74-e30ab830d9ab",
+      "id": "e9768512-3de3-46f6-9e74-e30ab830d9ab",
       "ward_no": "10",
-      "ward_name_en": "Thachonam",
-      "ward_name_ml": "തച്ചോണം"
+      "name_en": "Thachonam",
+      "name_ml": "തച്ചോണം"
     },
     {
-      "ward_id": "5d7d39b0-a2b9-47ad-8c94-25d9437fb54c",
+      "id": "5d7d39b0-a2b9-47ad-8c94-25d9437fb54c",
       "ward_no": "11",
-      "ward_name_en": "Mullakkara",
-      "ward_name_ml": "മുല്ലക്കര"
+      "name_en": "Mullakkara",
+      "name_ml": "മുല്ലക്കര"
     },
     {
-      "ward_id": "41dbdeb5-817e-407f-a8b8-b1bec44fe18b",
+      "id": "41dbdeb5-817e-407f-a8b8-b1bec44fe18b",
       "ward_no": "12",
-      "ward_name_en": "Vattathamara",
-      "ward_name_ml": "വട്ടത്താമര"
+      "name_en": "Vattathamara",
+      "name_ml": "വട്ടത്താമര"
     },
     {
-      "ward_id": "bb5b9ba6-b218-4dd2-a3b7-3320b1428af8",
+      "id": "bb5b9ba6-b218-4dd2-a3b7-3320b1428af8",
       "ward_no": "13",
-      "ward_name_en": "Sambramam",
-      "ward_name_ml": "സംബ്രമം"
+      "name_en": "Sambramam",
+      "name_ml": "സംബ്രമം"
     },
     {
-      "ward_id": "542f640d-79e9-43c9-9ede-4864db2641cc",
+      "id": "542f640d-79e9-43c9-9ede-4864db2641cc",
       "ward_no": "14",
-      "ward_name_en": "Puthukkodu",
-      "ward_name_ml": "പുതുക്കോട്"
+      "name_en": "Puthukkodu",
+      "name_ml": "പുതുക്കോട്"
     }
   ],
   "towns": [],

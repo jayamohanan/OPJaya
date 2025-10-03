@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G130203",
-  "local_body_name_en": "Madayi",
-  "local_body_name_ml": "മാടായി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "7",
-    "assembly_name_en": "Kalliasseri",
-    "assembly_name_ml": "കല്ല്യാശ്ശേരി",
+  "id": "G130203",
+  "name_en": "Madayi",
+  "name_ml": "മാടായി",
+  "assembly_id": "7",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "7",
+    "name_en": "Kalliasseri",
+    "name_ml": "കല്ല്യാശ്ശേരി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "13",
-    "district_name_en": "Kannur",
-    "district_name_ml": "കണ്ണൂർ",
-    "category": "Normal"
+    "id": "13",
+    "name_en": "Kannur",
+    "name_ml": "കണ്ണൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "eb9e3927-af5b-444e-9a35-9385917076a0",
+      "id": "eb9e3927-af5b-444e-9a35-9385917076a0",
       "ward_no": "1",
-      "ward_name_en": "Moolakkeel",
-      "ward_name_ml": "മൂലക്കീല്‍"
+      "name_en": "Moolakkeel",
+      "name_ml": "മൂലക്കീല്‍"
     },
     {
-      "ward_id": "c945d009-a889-4331-bb45-a1b81b3cb326",
+      "id": "c945d009-a889-4331-bb45-a1b81b3cb326",
       "ward_no": "2",
-      "ward_name_en": "Vengara West",
-      "ward_name_ml": "വെങ്ങര വെസ്റ്റ്"
+      "name_en": "Vengara West",
+      "name_ml": "വെങ്ങര വെസ്റ്റ്"
     },
     {
-      "ward_id": "cc82860a-8b0a-4098-b6db-169c06fbb64a",
+      "id": "cc82860a-8b0a-4098-b6db-169c06fbb64a",
       "ward_no": "3",
-      "ward_name_en": "Vengara North",
-      "ward_name_ml": "വെങ്ങര നോര്‍ത്ത്"
+      "name_en": "Vengara North",
+      "name_ml": "വെങ്ങര നോര്‍ത്ത്"
     },
     {
-      "ward_id": "52f230d2-84b5-455a-99c1-daa00b6a5614",
+      "id": "52f230d2-84b5-455a-99c1-daa00b6a5614",
       "ward_no": "4",
-      "ward_name_en": "Vengara East",
-      "ward_name_ml": "വെങ്ങര ഈസ്റ്റ്"
+      "name_en": "Vengara East",
+      "name_ml": "വെങ്ങര ഈസ്റ്റ്"
     },
     {
-      "ward_id": "ff867cb0-9d2f-4b30-8a20-400232deca31",
+      "id": "ff867cb0-9d2f-4b30-8a20-400232deca31",
       "ward_no": "5",
-      "ward_name_en": "Aduthila",
-      "ward_name_ml": "അടുത്തില"
+      "name_en": "Aduthila",
+      "name_ml": "അടുത്തില"
     },
     {
-      "ward_id": "d2641b5e-b2fa-4752-84e5-bd3d73165492",
+      "id": "d2641b5e-b2fa-4752-84e5-bd3d73165492",
       "ward_no": "6",
-      "ward_name_en": "Madayi",
-      "ward_name_ml": "മാടായി"
+      "name_en": "Madayi",
+      "name_ml": "മാടായി"
     },
     {
-      "ward_id": "4b288ac3-5026-4e0c-b69f-eee42fc619f6",
+      "id": "4b288ac3-5026-4e0c-b69f-eee42fc619f6",
       "ward_no": "7",
-      "ward_name_en": "Payangadi Town",
-      "ward_name_ml": "പഴയങ്ങാടി ടൌണ്‍"
+      "name_en": "Payangadi Town",
+      "name_ml": "പഴയങ്ങാടി ടൌണ്‍"
     },
     {
-      "ward_id": "a910d4c7-feb8-4285-91cd-3bf66c889f16",
+      "id": "a910d4c7-feb8-4285-91cd-3bf66c889f16",
       "ward_no": "8",
-      "ward_name_en": "Payangadi. R.S",
-      "ward_name_ml": "പഴയങ്ങാടി. ആര്‍.എസ്"
+      "name_en": "Payangadi. R.S",
+      "name_ml": "പഴയങ്ങാടി. ആര്‍.എസ്"
     },
     {
-      "ward_id": "c8846046-110c-4557-8692-38a798c6cefe",
+      "id": "c8846046-110c-4557-8692-38a798c6cefe",
       "ward_no": "9",
-      "ward_name_en": "Payangadi South",
-      "ward_name_ml": "പഴയങ്ങാടി സൌത്ത്"
+      "name_en": "Payangadi South",
+      "name_ml": "പഴയങ്ങാടി സൌത്ത്"
     },
     {
-      "ward_id": "9991f903-7ef4-4a68-8108-4a87bd8b6aa0",
+      "id": "9991f903-7ef4-4a68-8108-4a87bd8b6aa0",
       "ward_no": "10",
-      "ward_name_en": "Vadikkal Kadavu",
-      "ward_name_ml": "വാടിക്കല്‍കടവ്"
+      "name_en": "Vadikkal Kadavu",
+      "name_ml": "വാടിക്കല്‍കടവ്"
     },
     {
-      "ward_id": "b5e4ff60-77d6-4032-aeef-31eb5a0521a3",
+      "id": "b5e4ff60-77d6-4032-aeef-31eb5a0521a3",
       "ward_no": "11",
-      "ward_name_en": "Madayi Vadikkal",
-      "ward_name_ml": "മാടായി വാടിക്കല്‍"
+      "name_en": "Madayi Vadikkal",
+      "name_ml": "മാടായി വാടിക്കല്‍"
     },
     {
-      "ward_id": "68a56ef6-079b-4c07-9225-1a69a12d061d",
+      "id": "68a56ef6-079b-4c07-9225-1a69a12d061d",
       "ward_no": "12",
-      "ward_name_en": "Puthiyangadi Neerozhukkumchal",
-      "ward_name_ml": "പുതിയങ്ങാടി നീരൊഴുക്കുംചാല്‍"
+      "name_en": "Puthiyangadi Neerozhukkumchal",
+      "name_ml": "പുതിയങ്ങാടി നീരൊഴുക്കുംചാല്‍"
     },
     {
-      "ward_id": "07b9e505-eb8c-400d-a0b9-eaa9f30fe9a4",
+      "id": "07b9e505-eb8c-400d-a0b9-eaa9f30fe9a4",
       "ward_no": "13",
-      "ward_name_en": "Puthiyangadi Manheravalappu",
-      "ward_name_ml": "പുതിയങ്ങാടി മഞ്ഞേരവളപ്പ്"
+      "name_en": "Puthiyangadi Manheravalappu",
+      "name_ml": "പുതിയങ്ങാടി മഞ്ഞേരവളപ്പ്"
     },
     {
-      "ward_id": "5d3feb49-c7ba-46a8-b1ab-6769b1bf1880",
+      "id": "5d3feb49-c7ba-46a8-b1ab-6769b1bf1880",
       "ward_no": "14",
-      "ward_name_en": "Puthiyangadi Kadavath",
-      "ward_name_ml": "പുതിയങ്ങാടി കടവത്ത്"
+      "name_en": "Puthiyangadi Kadavath",
+      "name_ml": "പുതിയങ്ങാടി കടവത്ത്"
     },
     {
-      "ward_id": "7e13c992-2926-46a3-bae7-da0c82405a3d",
+      "id": "7e13c992-2926-46a3-bae7-da0c82405a3d",
       "ward_no": "15",
-      "ward_name_en": "Puthiyangadi Centre",
-      "ward_name_ml": "പുതിയങ്ങാടി സെന്‍റര്‍"
+      "name_en": "Puthiyangadi Centre",
+      "name_ml": "പുതിയങ്ങാടി സെന്‍റര്‍"
     },
     {
-      "ward_id": "a462b847-c703-4602-a8fa-da26b91ebb55",
+      "id": "a462b847-c703-4602-a8fa-da26b91ebb55",
       "ward_no": "16",
-      "ward_name_en": "Puthiyangadi Ettammal",
-      "ward_name_ml": "പുതിയങ്ങാടി ഇട്ടമ്മല്‍"
+      "name_en": "Puthiyangadi Ettammal",
+      "name_ml": "പുതിയങ്ങാടി ഇട്ടമ്മല്‍"
     },
     {
-      "ward_id": "a74a50b0-ee9b-47e2-8711-beb74b6e9f8e",
+      "id": "a74a50b0-ee9b-47e2-8711-beb74b6e9f8e",
       "ward_no": "17",
-      "ward_name_en": "Puthiyavalappu Eripram",
-      "ward_name_ml": "പുതിയവളപ്പ് ഏരിപ്രം"
+      "name_en": "Puthiyavalappu Eripram",
+      "name_ml": "പുതിയവളപ്പ് ഏരിപ്രം"
     },
     {
-      "ward_id": "15a94d77-6d7e-45c0-a9da-acc88a305a48",
+      "id": "15a94d77-6d7e-45c0-a9da-acc88a305a48",
       "ward_no": "18",
-      "ward_name_en": "Muttam Kakkadapram",
-      "ward_name_ml": "മുട്ടം കക്കാടപ്രം"
+      "name_en": "Muttam Kakkadapram",
+      "name_ml": "മുട്ടം കക്കാടപ്രം"
     },
     {
-      "ward_id": "36c41445-947b-4987-8e83-b75459acfd70",
+      "id": "36c41445-947b-4987-8e83-b75459acfd70",
       "ward_no": "19",
-      "ward_name_en": "Muttam North",
-      "ward_name_ml": "മുട്ടം നോര്‍ത്ത്"
+      "name_en": "Muttam North",
+      "name_ml": "മുട്ടം നോര്‍ത്ത്"
     },
     {
-      "ward_id": "292ed53a-e780-44c1-9965-bd97f4d1aac7",
+      "id": "292ed53a-e780-44c1-9965-bd97f4d1aac7",
       "ward_no": "20",
-      "ward_name_en": "Muttam Ettapram",
-      "ward_name_ml": "മുട്ടം ഇട്ടപ്രം"
+      "name_en": "Muttam Ettapram",
+      "name_ml": "മുട്ടം ഇട്ടപ്രം"
     }
   ],
   "towns": [],

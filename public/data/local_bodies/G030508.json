@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G030508",
-  "local_body_name_en": "Naranammoozhy",
-  "local_body_name_ml": "നാറാണംമൂഴി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G030508",
+  "name_en": "Naranammoozhy",
+  "name_ml": "നാറാണംമൂഴി",
+  "assembly_id": "112",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "112",
-    "assembly_name_en": "Ranni",
-    "assembly_name_ml": "റാന്നി",
-    "category": "Normal"
+    "id": "112",
+    "name_en": "Ranni",
+    "name_ml": "റാന്നി",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "3",
-    "district_name_en": "Pathanamthitta",
-    "district_name_ml": "പത്തനംതിട്ട",
-    "category": "Normal"
+    "id": "3",
+    "name_en": "Pathanamthitta",
+    "name_ml": "പത്തനംതിട്ട",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "674c4d6b-ebc2-4cab-90ba-72da3e36b1e9",
+      "id": "674c4d6b-ebc2-4cab-90ba-72da3e36b1e9",
       "ward_no": "1",
-      "ward_name_en": "Edamuri",
-      "ward_name_ml": "ഇടമുറി"
+      "name_en": "Edamuri",
+      "name_ml": "ഇടമുറി"
     },
     {
-      "ward_id": "bdeb35e9-bb29-483b-98de-f631790158df",
+      "id": "bdeb35e9-bb29-483b-98de-f631790158df",
       "ward_no": "2",
-      "ward_name_en": "Thompikandam",
-      "ward_name_ml": "തോമ്പിക്കണ്ടം"
+      "name_en": "Thompikandam",
+      "name_ml": "തോമ്പിക്കണ്ടം"
     },
     {
-      "ward_id": "59e443df-af4c-4a09-a645-79a4a25c43fe",
+      "id": "59e443df-af4c-4a09-a645-79a4a25c43fe",
       "ward_no": "3",
-      "ward_name_en": "Chempanoli",
-      "ward_name_ml": "ചെമ്പനോലി"
+      "name_en": "Chempanoli",
+      "name_ml": "ചെമ്പനോലി"
     },
     {
-      "ward_id": "b57dd45e-da9c-4e5a-a5cb-6c7b6d641eea",
+      "id": "b57dd45e-da9c-4e5a-a5cb-6c7b6d641eea",
       "ward_no": "4",
-      "ward_name_en": "Kadumeenchira",
-      "ward_name_ml": "കടുമീന്‍ചിറ"
+      "name_en": "Kadumeenchira",
+      "name_ml": "കടുമീന്‍ചിറ"
     },
     {
-      "ward_id": "ee0ad258-e06a-4503-bc75-8b0f7f845df8",
+      "id": "ee0ad258-e06a-4503-bc75-8b0f7f845df8",
       "ward_no": "5",
-      "ward_name_en": "Kurumpanmoozhy",
-      "ward_name_ml": "കുരുമ്പന്‍മൂഴി"
+      "name_en": "Kurumpanmoozhy",
+      "name_ml": "കുരുമ്പന്‍മൂഴി"
     },
     {
-      "ward_id": "f9e2df60-a288-4a13-aeef-4f4889b6262f",
+      "id": "f9e2df60-a288-4a13-aeef-4f4889b6262f",
       "ward_no": "6",
-      "ward_name_en": "Kudamurutty",
-      "ward_name_ml": "കുടമുരുട്ടി"
+      "name_en": "Kudamurutty",
+      "name_ml": "കുടമുരുട്ടി"
     },
     {
-      "ward_id": "5296f7cb-31a2-4ecc-9217-b958610df1bd",
+      "id": "5296f7cb-31a2-4ecc-9217-b958610df1bd",
       "ward_no": "7",
-      "ward_name_en": "Poopally",
-      "ward_name_ml": "പൂപ്പള്ളി"
+      "name_en": "Poopally",
+      "name_ml": "പൂപ്പള്ളി"
     },
     {
-      "ward_id": "8babc949-aefe-48cc-bc6c-9373ee1da655",
+      "id": "8babc949-aefe-48cc-bc6c-9373ee1da655",
       "ward_no": "8",
-      "ward_name_en": "Athikkayam",
-      "ward_name_ml": "അത്തിക്കയം"
+      "name_en": "Athikkayam",
+      "name_ml": "അത്തിക്കയം"
     },
     {
-      "ward_id": "1c857595-aafc-4004-9f29-58e822e0d0b9",
+      "id": "1c857595-aafc-4004-9f29-58e822e0d0b9",
       "ward_no": "9",
-      "ward_name_en": "Naranammoozhy",
-      "ward_name_ml": "നാറാണംമൂഴി"
+      "name_en": "Naranammoozhy",
+      "name_ml": "നാറാണംമൂഴി"
     },
     {
-      "ward_id": "02ae99fc-b5c1-470e-91a3-27a62130a432",
+      "id": "02ae99fc-b5c1-470e-91a3-27a62130a432",
       "ward_no": "10",
-      "ward_name_en": "Chollanavayal",
-      "ward_name_ml": "ചൊള്ളനാവയല്‍"
+      "name_en": "Chollanavayal",
+      "name_ml": "ചൊള്ളനാവയല്‍"
     },
     {
-      "ward_id": "7ebdfbeb-09e5-4b83-abc5-dbc9214a844f",
+      "id": "7ebdfbeb-09e5-4b83-abc5-dbc9214a844f",
       "ward_no": "11",
-      "ward_name_en": "Adichipuzha",
-      "ward_name_ml": "അടിച്ചിപ്പുഴ"
+      "name_en": "Adichipuzha",
+      "name_ml": "അടിച്ചിപ്പുഴ"
     },
     {
-      "ward_id": "eb3f423f-928c-41c6-88f9-e11ac5886d53",
+      "id": "eb3f423f-928c-41c6-88f9-e11ac5886d53",
       "ward_no": "12",
-      "ward_name_en": "Kakkudimon",
-      "ward_name_ml": "കക്കുടുമണ്‍"
+      "name_en": "Kakkudimon",
+      "name_ml": "കക്കുടുമണ്‍"
     },
     {
-      "ward_id": "90d42208-e5b1-4640-b7da-994638309efa",
+      "id": "90d42208-e5b1-4640-b7da-994638309efa",
       "ward_no": "13",
-      "ward_name_en": "Ponnampara",
-      "ward_name_ml": "പൊന്നംപാറ"
+      "name_en": "Ponnampara",
+      "name_ml": "പൊന്നംപാറ"
     }
   ],
   "towns": [],

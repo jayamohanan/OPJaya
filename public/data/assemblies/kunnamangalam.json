@@ -1,50 +1,67 @@
 {
-  "assembly_id": "30",
-  "assembly_name_en": "Kunnamangalam",
-  "assembly_name_ml": "കുന്ദമംഗലം",
-  "category": "Normal",
+  "id": "30",
+  "name_en": "Kunnamangalam",
+  "name_ml": "കുന്ദമംഗലം",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G111106",
-      "local_body_name_en": "Chathamangalam",
-      "local_body_name_ml": "ചാത്തമംഗലം",
-      "category": "Perfect"
+      "id": "G111106",
+      "name_en": "Chathamangalam",
+      "name_ml": "ചാത്തമംഗലം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G111105",
-      "local_body_name_en": "Kunnamangalam",
-      "local_body_name_ml": "കുന്ദമംഗലം",
-      "category": "Good"
+      "id": "G111105",
+      "name_en": "Kunnamangalam",
+      "name_ml": "കുന്ദമംഗലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G111103",
-      "local_body_name_en": "Mavoor",
-      "local_body_name_ml": "മാവൂര്‍",
-      "category": "Perfect"
+      "id": "G111103",
+      "name_en": "Mavoor",
+      "name_ml": "മാവൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G111204",
-      "local_body_name_en": "Olavanna",
-      "local_body_name_ml": "ഒളവണ്ണ",
-      "category": "Good"
+      "id": "G111204",
+      "name_en": "Olavanna",
+      "name_ml": "ഒളവണ്ണ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G111109",
-      "local_body_name_en": "Perumanna",
-      "local_body_name_ml": "പെരുമണ്ണ",
-      "category": "Normal"
+      "id": "G111109",
+      "name_en": "Perumanna",
+      "name_ml": "പെരുമണ്ണ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G111108",
-      "local_body_name_en": "Peruvayal",
-      "local_body_name_ml": "പെരുവയല്‍",
-      "category": "Normal"
+      "id": "G111108",
+      "name_en": "Peruvayal",
+      "name_ml": "പെരുവയല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

@@ -1,62 +1,81 @@
 {
-  "assembly_id": "4",
-  "assembly_name_en": "Kanhangad",
-  "assembly_name_ml": "കാഞ്ഞങ്ങാട്",
-  "category": "Normal",
+  "id": "4",
+  "name_en": "Kanhangad",
+  "name_ml": "കാഞ്ഞങ്ങാട്",
+  "district_id": "14",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "district_category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G140501",
-      "local_body_name_en": "Balal",
-      "local_body_name_ml": "ബളാല്‍",
-      "category": "Normal"
+      "id": "G140501",
+      "name_en": "Balal",
+      "name_ml": "ബളാല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G140504",
-      "local_body_name_en": "Kallar",
-      "local_body_name_ml": "കള്ളാര്‍",
-      "category": "Normal"
+      "id": "G140504",
+      "name_en": "Kallar",
+      "name_ml": "കള്ളാര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M140100",
-      "local_body_name_en": "Kanhangad",
-      "local_body_name_ml": "കാഞ്ഞങ്ങാട്",
-      "category": ""
+      "id": "M140100",
+      "name_en": "Kanhangad",
+      "name_ml": "കാഞ്ഞങ്ങാട്",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G140507",
-      "local_body_name_en": "Kinanoor - Karinthalam",
-      "local_body_name_ml": "കിനാനൂര്‍ കരിന്തളം",
-      "category": "Good"
+      "id": "G140507",
+      "name_en": "Kinanoor - Karinthalam",
+      "name_ml": "കിനാനൂര്‍ കരിന്തളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140502",
-      "local_body_name_en": "KodomBelur",
-      "local_body_name_ml": "കോടോം ബേളൂര്‍",
-      "category": "Normal"
+      "id": "G140502",
+      "name_en": "KodomBelur",
+      "name_ml": "കോടോം ബേളൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G140403",
-      "local_body_name_en": "Madikai",
-      "local_body_name_ml": "മടിക്കൈ",
-      "category": "Good"
+      "id": "G140403",
+      "name_en": "Madikai",
+      "name_ml": "മടിക്കൈ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G140503",
-      "local_body_name_en": "Panathady",
-      "local_body_name_ml": "പനത്തടി",
-      "category": "Perfect"
+      "id": "G140503",
+      "name_en": "Panathady",
+      "name_ml": "പനത്തടി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G140402",
-      "local_body_name_en": "Ajanur",
-      "local_body_name_ml": "അജാനൂര്‍",
-      "category": "Normal"
+      "id": "G140402",
+      "name_en": "Ajanur",
+      "name_ml": "അജാനൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

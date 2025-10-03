@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G140103",
-  "local_body_name_en": "Puthige",
-  "local_body_name_ml": "പുത്തിഗെ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G140103",
+  "name_en": "Puthige",
+  "name_ml": "പുത്തിഗെ",
+  "assembly_id": "1",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "1",
-    "assembly_name_en": "Manjeshwar",
-    "assembly_name_ml": "മഞ്ചശ്വരം",
-    "category": "Normal"
+    "id": "1",
+    "name_en": "Manjeshwar",
+    "name_ml": "മഞ്ചശ്വരം",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "66ea1976-1ae6-4ad3-a82e-365ab913f4be",
+      "id": "66ea1976-1ae6-4ad3-a82e-365ab913f4be",
       "ward_no": "1",
-      "ward_name_en": "Chennikodi",
-      "ward_name_ml": "ചെന്നിക്കൊടി"
+      "name_en": "Chennikodi",
+      "name_ml": "ചെന്നിക്കൊടി"
     },
     {
-      "ward_id": "b2b0054d-ed2c-43d8-8ccb-4af64b41b7c2",
+      "id": "b2b0054d-ed2c-43d8-8ccb-4af64b41b7c2",
       "ward_no": "2",
-      "ward_name_en": "Dharmathadka",
-      "ward_name_ml": "ധർമ്മത്തഡുക്ക"
+      "name_en": "Dharmathadka",
+      "name_ml": "ധർമ്മത്തഡുക്ക"
     },
     {
-      "ward_id": "28ef0035-2c5e-4000-837b-f0967cbc1343",
+      "id": "28ef0035-2c5e-4000-837b-f0967cbc1343",
       "ward_no": "3",
-      "ward_name_en": "Deradka",
-      "ward_name_ml": "ദേരഡുക്ക"
+      "name_en": "Deradka",
+      "name_ml": "ദേരഡുക്ക"
     },
     {
-      "ward_id": "0aa34556-d68c-4c34-bd83-e5ca037ec8f1",
+      "id": "0aa34556-d68c-4c34-bd83-e5ca037ec8f1",
       "ward_no": "4",
-      "ward_name_en": "Badoor",
-      "ward_name_ml": "ബാഡൂർ"
+      "name_en": "Badoor",
+      "name_ml": "ബാഡൂർ"
     },
     {
-      "ward_id": "d966b130-1160-4165-90b8-2021ff7f303d",
+      "id": "d966b130-1160-4165-90b8-2021ff7f303d",
       "ward_no": "5",
-      "ward_name_en": "Mugu",
-      "ward_name_ml": "മുഗു"
+      "name_en": "Mugu",
+      "name_ml": "മുഗു"
     },
     {
-      "ward_id": "025c41b9-02ed-4d8d-b681-cbe0697e1d22",
+      "id": "025c41b9-02ed-4d8d-b681-cbe0697e1d22",
       "ward_no": "6",
-      "ward_name_en": "Urmi",
-      "ward_name_ml": "ഉർമി"
+      "name_en": "Urmi",
+      "name_ml": "ഉർമി"
     },
     {
-      "ward_id": "a3649318-2c24-4b16-98d3-c3f90ae9f866",
+      "id": "a3649318-2c24-4b16-98d3-c3f90ae9f866",
       "ward_no": "7",
-      "ward_name_en": "Ujampdavu",
-      "ward_name_ml": "ഉജംപദവ്"
+      "name_en": "Ujampdavu",
+      "name_ml": "ഉജംപദവ്"
     },
     {
-      "ward_id": "f33f7b4a-62eb-42de-8f4b-34689cff9b53",
+      "id": "f33f7b4a-62eb-42de-8f4b-34689cff9b53",
       "ward_no": "8",
-      "ward_name_en": "Seethangoli",
-      "ward_name_ml": "സീതാംഗോളി"
+      "name_en": "Seethangoli",
+      "name_ml": "സീതാംഗോളി"
     },
     {
-      "ward_id": "72ded6c1-bfbf-4512-afac-8dd531b15325",
+      "id": "72ded6c1-bfbf-4512-afac-8dd531b15325",
       "ward_no": "9",
-      "ward_name_en": "Kannur",
-      "ward_name_ml": "കണ്ണൂർ"
+      "name_en": "Kannur",
+      "name_ml": "കണ്ണൂർ"
     },
     {
-      "ward_id": "120f427c-e938-4966-962e-521047376c9f",
+      "id": "120f427c-e938-4966-962e-521047376c9f",
       "ward_no": "10",
-      "ward_name_en": "Edanad",
-      "ward_name_ml": "എടനാട്"
+      "name_en": "Edanad",
+      "name_ml": "എടനാട്"
     },
     {
-      "ward_id": "b2446fec-8f30-4d00-90dd-05ac50ea175e",
+      "id": "b2446fec-8f30-4d00-90dd-05ac50ea175e",
       "ward_no": "11",
-      "ward_name_en": "Mukarikanda",
-      "ward_name_ml": "മുകാരിക്കണ്ട"
+      "name_en": "Mukarikanda",
+      "name_ml": "മുകാരിക്കണ്ട"
     },
     {
-      "ward_id": "4f55e8f9-9c12-4cb0-919d-b29d2c9d7716",
+      "id": "4f55e8f9-9c12-4cb0-919d-b29d2c9d7716",
       "ward_no": "12",
-      "ward_name_en": "Puthige",
-      "ward_name_ml": "പുത്തിഗെ"
+      "name_en": "Puthige",
+      "name_ml": "പുത്തിഗെ"
     },
     {
-      "ward_id": "21d52cab-5a01-4707-beec-a1153f2b97dd",
+      "id": "21d52cab-5a01-4707-beec-a1153f2b97dd",
       "ward_no": "13",
-      "ward_name_en": "Kathibnagar",
-      "ward_name_ml": "കത്തീബ് നഗർ"
+      "name_en": "Kathibnagar",
+      "name_ml": "കത്തീബ് നഗർ"
     },
     {
-      "ward_id": "b94fc7a6-592e-496c-95f0-9190fecb43b7",
+      "id": "b94fc7a6-592e-496c-95f0-9190fecb43b7",
       "ward_no": "14",
-      "ward_name_en": "Angadimogar",
-      "ward_name_ml": "അംഗഡിമുഗർ"
+      "name_en": "Angadimogar",
+      "name_ml": "അംഗഡിമുഗർ"
     }
   ],
   "towns": [],

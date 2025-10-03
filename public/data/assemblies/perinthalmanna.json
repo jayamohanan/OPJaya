@@ -1,56 +1,73 @@
 {
-  "assembly_id": "38",
-  "assembly_name_en": "Perinthalmanna",
-  "assembly_name_ml": "പെരിന്തല്‍മണ്ണ",
-  "category": "Normal",
+  "id": "38",
+  "name_en": "Perinthalmanna",
+  "name_ml": "പെരിന്തല്‍മണ്ണ",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G100702",
-      "local_body_name_en": "Elamkulam",
-      "local_body_name_ml": "ഏലംകുളം",
-      "category": "Good"
+      "id": "G100702",
+      "name_en": "Elamkulam",
+      "name_ml": "ഏലംകുളം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100703",
-      "local_body_name_en": "Melattur",
-      "local_body_name_ml": "മേലാറ്റൂര്‍",
-      "category": "Normal"
+      "id": "G100703",
+      "name_en": "Melattur",
+      "name_ml": "മേലാറ്റൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M100100",
-      "local_body_name_en": "Perinthalmanna",
-      "local_body_name_ml": "പെരിന്തല്‍മണ്ണ",
-      "category": ""
+      "id": "M100100",
+      "name_en": "Perinthalmanna",
+      "name_ml": "പെരിന്തല്‍മണ്ണ",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G100707",
-      "local_body_name_en": "Pulamanthole",
-      "local_body_name_ml": "പുലാമന്തോള്‍",
-      "category": "Perfect"
+      "id": "G100707",
+      "name_en": "Pulamanthole",
+      "name_ml": "പുലാമന്തോള്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G100705",
-      "local_body_name_en": "Thazhekkode",
-      "local_body_name_ml": "താഴെക്കോട്",
-      "category": "Good"
+      "id": "G100705",
+      "name_en": "Thazhekkode",
+      "name_ml": "താഴെക്കോട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100701",
-      "local_body_name_en": "Aliparamba",
-      "local_body_name_ml": "ആലിപ്പറമ്പ്",
-      "category": "Good"
+      "id": "G100701",
+      "name_en": "Aliparamba",
+      "name_ml": "ആലിപ്പറമ്പ്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100706",
-      "local_body_name_en": "Vettathur",
-      "local_body_name_ml": "വെട്ടത്തൂര്‍",
-      "category": "Perfect"
+      "id": "G100706",
+      "name_en": "Vettathur",
+      "name_ml": "വെട്ടത്തൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

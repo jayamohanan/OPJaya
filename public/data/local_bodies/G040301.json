@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G040301",
-  "local_body_name_en": "Mararikulam North",
-  "local_body_name_ml": "മാരാരിക്കുളം വടക്ക്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "104",
-    "assembly_name_en": "Alappuzha",
-    "assembly_name_ml": "ആലപ്പുഴ",
+  "id": "G040301",
+  "name_en": "Mararikulam North",
+  "name_ml": "മാരാരിക്കുളം വടക്ക്",
+  "assembly_id": "104",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "104",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "831fd5af-b6d6-4bbf-96f4-25e49414da49",
+      "id": "831fd5af-b6d6-4bbf-96f4-25e49414da49",
       "ward_no": "1",
-      "ward_name_en": "Chennaveli",
-      "ward_name_ml": "ചേന്നവേലി"
+      "name_en": "Chennaveli",
+      "name_ml": "ചേന്നവേലി"
     },
     {
-      "ward_id": "d2f4a23f-5e46-470d-86ae-e5d4701c2e95",
+      "id": "d2f4a23f-5e46-470d-86ae-e5d4701c2e95",
       "ward_no": "2",
-      "ward_name_en": "Karikkad North",
-      "ward_name_ml": "കരിക്കാട് വടക്ക്"
+      "name_en": "Karikkad North",
+      "name_ml": "കരിക്കാട് വടക്ക്"
     },
     {
-      "ward_id": "f7dd7455-487a-42d6-923c-35550f06ec27",
+      "id": "f7dd7455-487a-42d6-923c-35550f06ec27",
       "ward_no": "3",
-      "ward_name_en": "Karikkad South",
-      "ward_name_ml": "കരിക്കാട് തെക്ക്"
+      "name_en": "Karikkad South",
+      "name_ml": "കരിക്കാട് തെക്ക്"
     },
     {
-      "ward_id": "76ab649a-027d-4728-8e8c-d25ce8bcfd1c",
+      "id": "76ab649a-027d-4728-8e8c-d25ce8bcfd1c",
       "ward_no": "4",
-      "ward_name_en": "Poklasery",
-      "ward_name_ml": "പൊക്ളാശ്ശേരി"
+      "name_en": "Poklasery",
+      "name_ml": "പൊക്ളാശ്ശേരി"
     },
     {
-      "ward_id": "2caf4b1d-0c27-4c0d-af4e-cdf3e1993547",
+      "id": "2caf4b1d-0c27-4c0d-af4e-cdf3e1993547",
       "ward_no": "5",
-      "ward_name_en": "Kanichukulangara",
-      "ward_name_ml": "കണിച്ചുകുളങ്ങര"
+      "name_en": "Kanichukulangara",
+      "name_ml": "കണിച്ചുകുളങ്ങര"
     },
     {
-      "ward_id": "de3111dc-84d1-4e0c-a5f0-630fc17fafee",
+      "id": "de3111dc-84d1-4e0c-a5f0-630fc17fafee",
       "ward_no": "6",
-      "ward_name_en": "Panakunnam",
-      "ward_name_ml": "പാണകുന്നം"
+      "name_en": "Panakunnam",
+      "name_ml": "പാണകുന്നം"
     },
     {
-      "ward_id": "fd45ff95-ac12-45bb-ae68-7f1ecbf052f3",
+      "id": "fd45ff95-ac12-45bb-ae68-7f1ecbf052f3",
       "ward_no": "7",
-      "ward_name_en": "Thiruvizha",
-      "ward_name_ml": "തിരുവിഴ"
+      "name_en": "Thiruvizha",
+      "name_ml": "തിരുവിഴ"
     },
     {
-      "ward_id": "ba8d9986-e312-43ba-a2c8-cdcf91ef1177",
+      "id": "ba8d9986-e312-43ba-a2c8-cdcf91ef1177",
       "ward_no": "8",
-      "ward_name_en": "Varakadi",
-      "ward_name_ml": "വരകാടി"
+      "name_en": "Varakadi",
+      "name_ml": "വരകാടി"
     },
     {
-      "ward_id": "52890503-3678-4db9-ba59-b5ce1f9cf62e",
+      "id": "52890503-3678-4db9-ba59-b5ce1f9cf62e",
       "ward_no": "9",
-      "ward_name_en": "Thoppuvely",
-      "ward_name_ml": "തോപ്പുവെളി"
+      "name_en": "Thoppuvely",
+      "name_ml": "തോപ്പുവെളി"
     },
     {
-      "ward_id": "763f1849-16a6-476b-a6aa-d820246370eb",
+      "id": "763f1849-16a6-476b-a6aa-d820246370eb",
       "ward_no": "10",
-      "ward_name_en": "Panchayath Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_en": "Panchayath Office",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
     },
     {
-      "ward_id": "a96e8c31-2c1c-430b-bac8-0ec470961440",
+      "id": "a96e8c31-2c1c-430b-bac8-0ec470961440",
       "ward_no": "11",
-      "ward_name_en": "Mararikkulam",
-      "ward_name_ml": "മാരാരിക്കുളം"
+      "name_en": "Mararikkulam",
+      "name_ml": "മാരാരിക്കുളം"
     },
     {
-      "ward_id": "4978ee4c-7521-43a6-b6c3-609abfad6b6c",
+      "id": "4978ee4c-7521-43a6-b6c3-609abfad6b6c",
       "ward_no": "12",
-      "ward_name_en": "Gandhi Smarakam",
-      "ward_name_ml": "ഗാന്ധി സ്മാരകം"
+      "name_en": "Gandhi Smarakam",
+      "name_ml": "ഗാന്ധി സ്മാരകം"
     },
     {
-      "ward_id": "201ed6a3-6acf-47a5-99ba-f0576bdeca46",
+      "id": "201ed6a3-6acf-47a5-99ba-f0576bdeca46",
       "ward_no": "13",
-      "ward_name_en": "Kasthoorba",
-      "ward_name_ml": "കസ്തൂര്‍ബ"
+      "name_en": "Kasthoorba",
+      "name_ml": "കസ്തൂര്‍ബ"
     },
     {
-      "ward_id": "e170daa6-0547-4aa4-8ac8-93525db963d4",
+      "id": "e170daa6-0547-4aa4-8ac8-93525db963d4",
       "ward_no": "14",
-      "ward_name_en": "Palliward",
-      "ward_name_ml": "പള്ളിവാര്‍ഡ്"
+      "name_en": "Palliward",
+      "name_ml": "പള്ളിവാര്‍ഡ്"
     },
     {
-      "ward_id": "8dfd378a-6504-49bd-a9e3-aa64dae0b03b",
+      "id": "8dfd378a-6504-49bd-a9e3-aa64dae0b03b",
       "ward_no": "15",
-      "ward_name_en": "Janakshemam",
-      "ward_name_ml": "ജനക്ഷേമം"
+      "name_en": "Janakshemam",
+      "name_ml": "ജനക്ഷേമം"
     },
     {
-      "ward_id": "e750b759-2329-47bc-b016-78521c13d850",
+      "id": "e750b759-2329-47bc-b016-78521c13d850",
       "ward_no": "16",
-      "ward_name_en": "Cheruvallyseri",
-      "ward_name_ml": "ചെറുവള്ളിശ്ശേരി"
+      "name_en": "Cheruvallyseri",
+      "name_ml": "ചെറുവള്ളിശ്ശേരി"
     },
     {
-      "ward_id": "5f36c055-5759-41f8-95f9-6b295d2e2839",
+      "id": "5f36c055-5759-41f8-95f9-6b295d2e2839",
       "ward_no": "17",
-      "ward_name_en": "Chethi",
-      "ward_name_ml": "ചെത്തി"
+      "name_en": "Chethi",
+      "name_ml": "ചെത്തി"
     },
     {
-      "ward_id": "4f951a7e-7e03-4671-b078-f45708cc3899",
+      "id": "4f951a7e-7e03-4671-b078-f45708cc3899",
       "ward_no": "18",
-      "ward_name_en": "Beach Ward",
-      "ward_name_ml": "ബീച്ച് വാര്‍ഡ്"
+      "name_en": "Beach Ward",
+      "name_ml": "ബീച്ച് വാര്‍ഡ്"
     }
   ],
   "towns": [],

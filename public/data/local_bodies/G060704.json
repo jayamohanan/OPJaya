@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060704",
-  "local_body_name_en": "Karimkunnam",
-  "local_body_name_ml": "കരിങ്കുന്നം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "90",
-    "assembly_name_en": "Thodupuzha",
-    "assembly_name_ml": "തൊടുപുഴ",
+  "id": "G060704",
+  "name_en": "Karimkunnam",
+  "name_ml": "കരിങ്കുന്നം",
+  "assembly_id": "90",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "90",
+    "name_en": "Thodupuzha",
+    "name_ml": "തൊടുപുഴ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "0e2bd364-2850-4196-b58b-222c8992e5fb",
+      "id": "0e2bd364-2850-4196-b58b-222c8992e5fb",
       "ward_no": "1",
-      "ward_name_en": "Anchapra",
-      "ward_name_ml": "അഞ്ചപ്ര"
+      "name_en": "Anchapra",
+      "name_ml": "അഞ്ചപ്ര"
     },
     {
-      "ward_id": "5af5f60a-52a6-480a-af7b-b770d38c7f91",
+      "id": "5af5f60a-52a6-480a-af7b-b770d38c7f91",
       "ward_no": "2",
-      "ward_name_en": "Thattarathatta",
-      "ward_name_ml": "തട്ടാരത്തട്ട"
+      "name_en": "Thattarathatta",
+      "name_ml": "തട്ടാരത്തട്ട"
     },
     {
-      "ward_id": "aea0872d-e2fd-4365-9da2-75a72eb310a4",
+      "id": "aea0872d-e2fd-4365-9da2-75a72eb310a4",
       "ward_no": "3",
-      "ward_name_en": "Mrala",
-      "ward_name_ml": "മ്രാല"
+      "name_en": "Mrala",
+      "name_ml": "മ്രാല"
     },
     {
-      "ward_id": "19af68cd-e04e-4842-ab8a-2e3c2eec816a",
+      "id": "19af68cd-e04e-4842-ab8a-2e3c2eec816a",
       "ward_no": "4",
-      "ward_name_en": "Malankara",
-      "ward_name_ml": "മലങ്കര"
+      "name_en": "Malankara",
+      "name_ml": "മലങ്കര"
     },
     {
-      "ward_id": "68bc94cf-6322-4c43-8ad5-451550453724",
+      "id": "68bc94cf-6322-4c43-8ad5-451550453724",
       "ward_no": "5",
-      "ward_name_en": "Azhakumpara",
-      "ward_name_ml": "അഴകുംപാറ"
+      "name_en": "Azhakumpara",
+      "name_ml": "അഴകുംപാറ"
     },
     {
-      "ward_id": "c2730069-577b-40e0-a2f8-0a291f411953",
+      "id": "c2730069-577b-40e0-a2f8-0a291f411953",
       "ward_no": "6",
-      "ward_name_en": "Illycharry",
-      "ward_name_ml": "ഇല്ലിചാരി"
+      "name_en": "Illycharry",
+      "name_ml": "ഇല്ലിചാരി"
     },
     {
-      "ward_id": "97332825-aa4f-498c-9779-5593b45031e0",
+      "id": "97332825-aa4f-498c-9779-5593b45031e0",
       "ward_no": "7",
-      "ward_name_en": "Nediakadu",
-      "ward_name_ml": "നെടിയകാട്"
+      "name_en": "Nediakadu",
+      "name_ml": "നെടിയകാട്"
     },
     {
-      "ward_id": "9afab2ed-792c-4a42-842d-faa17da86f6f",
+      "id": "9afab2ed-792c-4a42-842d-faa17da86f6f",
       "ward_no": "8",
-      "ward_name_en": "Ottalloor",
-      "ward_name_ml": "ഒറ്റല്ലൂര്‍"
+      "name_en": "Ottalloor",
+      "name_ml": "ഒറ്റല്ലൂര്‍"
     },
     {
-      "ward_id": "1970fdeb-84a4-4f90-9954-df6a41566307",
+      "id": "1970fdeb-84a4-4f90-9954-df6a41566307",
       "ward_no": "9",
-      "ward_name_en": "Mattathippara",
-      "ward_name_ml": "മറ്റത്തിപ്പാറ"
+      "name_en": "Mattathippara",
+      "name_ml": "മറ്റത്തിപ്പാറ"
     },
     {
-      "ward_id": "0ae59c9b-c92a-44a8-b952-dc1e2b2607cb",
+      "id": "0ae59c9b-c92a-44a8-b952-dc1e2b2607cb",
       "ward_no": "10",
-      "ward_name_en": "Parathanam",
-      "ward_name_ml": "പറത്താനം"
+      "name_en": "Parathanam",
+      "name_ml": "പറത്താനം"
     },
     {
-      "ward_id": "63d536ab-cd3b-4211-9985-18e9414d575c",
+      "id": "63d536ab-cd3b-4211-9985-18e9414d575c",
       "ward_no": "11",
-      "ward_name_en": "Nellappara",
-      "ward_name_ml": "നെല്ലാപ്പാറ"
+      "name_en": "Nellappara",
+      "name_ml": "നെല്ലാപ്പാറ"
     },
     {
-      "ward_id": "a58a318d-dabd-451e-b32a-544e8072a7d1",
+      "id": "a58a318d-dabd-451e-b32a-544e8072a7d1",
       "ward_no": "12",
-      "ward_name_en": "Karimkunnam",
-      "ward_name_ml": "കരിങ്കുന്നം"
+      "name_en": "Karimkunnam",
+      "name_ml": "കരിങ്കുന്നം"
     },
     {
-      "ward_id": "d933531f-e668-4add-81ce-3461c6863fa3",
+      "id": "d933531f-e668-4add-81ce-3461c6863fa3",
       "ward_no": "13",
-      "ward_name_en": "Vadakkummury",
-      "ward_name_ml": "വടക്കുമ്മുറി"
+      "name_en": "Vadakkummury",
+      "name_ml": "വടക്കുമ്മുറി"
     }
   ],
   "towns": [],

@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G140403",
-  "local_body_name_en": "Madikai",
-  "local_body_name_ml": "മടിക്കൈ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G140403",
+  "name_en": "Madikai",
+  "name_ml": "മടിക്കൈ",
+  "assembly_id": "4",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "4",
-    "assembly_name_en": "Kanhangad",
-    "assembly_name_ml": "കാഞ്ഞങ്ങാട്",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Kanhangad",
+    "name_ml": "കാഞ്ഞങ്ങാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "14",
-    "district_name_en": "Kasaragod",
-    "district_name_ml": "കാസര്‍ഗോഡ്",
-    "category": "Normal"
+    "id": "14",
+    "name_en": "Kasaragod",
+    "name_ml": "കാസര്‍ഗോഡ്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "5662c4b6-41d1-46a2-8e3d-234623ea6a23",
+      "id": "5662c4b6-41d1-46a2-8e3d-234623ea6a23",
       "ward_no": "1",
-      "ward_name_en": "Vazhakode",
-      "ward_name_ml": "വാഴക്കോട്"
+      "name_en": "Vazhakode",
+      "name_ml": "വാഴക്കോട്"
     },
     {
-      "ward_id": "1346ff88-9c73-4da3-9e53-2d023d0d2d9e",
+      "id": "1346ff88-9c73-4da3-9e53-2d023d0d2d9e",
       "ward_no": "2",
-      "ward_name_en": "Achikanam",
-      "ward_name_ml": "ഏച്ചിക്കാനം"
+      "name_en": "Achikanam",
+      "name_ml": "ഏച്ചിക്കാനം"
     },
     {
-      "ward_id": "5860023d-9c9c-4769-9098-b9b821c696e8",
+      "id": "5860023d-9c9c-4769-9098-b9b821c696e8",
       "ward_no": "3",
-      "ward_name_en": "Vellachery",
-      "ward_name_ml": "വെള്ളച്ചേരി"
+      "name_en": "Vellachery",
+      "name_ml": "വെള്ളച്ചേരി"
     },
     {
-      "ward_id": "704163c5-5b9f-4051-be4a-73168f862eb2",
+      "id": "704163c5-5b9f-4051-be4a-73168f862eb2",
       "ward_no": "4",
-      "ward_name_en": "Alambadi",
-      "ward_name_ml": "ആലമ്പാടി"
+      "name_en": "Alambadi",
+      "name_ml": "ആലമ്പാടി"
     },
     {
-      "ward_id": "f6ddac0d-7dbd-4589-9b05-2220a9a45fe3",
+      "id": "f6ddac0d-7dbd-4589-9b05-2220a9a45fe3",
       "ward_no": "5",
-      "ward_name_en": "Kanhirapoyil",
-      "ward_name_ml": "കാഞ്ഞിരപ്പൊയില്‍"
+      "name_en": "Kanhirapoyil",
+      "name_ml": "കാഞ്ഞിരപ്പൊയില്‍"
     },
     {
-      "ward_id": "d7c4dd2f-a623-4920-92de-01fa60d0aa49",
+      "id": "d7c4dd2f-a623-4920-92de-01fa60d0aa49",
       "ward_no": "6",
-      "ward_name_en": "Malappachery",
-      "ward_name_ml": "മലപ്പച്ചേരി"
+      "name_en": "Malappachery",
+      "name_ml": "മലപ്പച്ചേരി"
     },
     {
-      "ward_id": "a0d95295-f325-4155-bda3-8d915c33e2e5",
+      "id": "a0d95295-f325-4155-bda3-8d915c33e2e5",
       "ward_no": "7",
-      "ward_name_en": "Cheranathala",
-      "ward_name_ml": "ചെരണത്തല"
+      "name_en": "Cheranathala",
+      "name_ml": "ചെരണത്തല"
     },
     {
-      "ward_id": "2dd77eaf-e6f7-476a-af05-0fa9157a7508",
+      "id": "2dd77eaf-e6f7-476a-af05-0fa9157a7508",
       "ward_no": "8",
-      "ward_name_en": "Kolikkunnu",
-      "ward_name_ml": "കോളിക്കുന്ന്"
+      "name_en": "Kolikkunnu",
+      "name_ml": "കോളിക്കുന്ന്"
     },
     {
-      "ward_id": "ff47704a-dac3-4220-9efe-706a282cc585",
+      "id": "ff47704a-dac3-4220-9efe-706a282cc585",
       "ward_no": "9",
-      "ward_name_en": "Erikulam",
-      "ward_name_ml": "എരിക്കുളം"
+      "name_en": "Erikulam",
+      "name_ml": "എരിക്കുളം"
     },
     {
-      "ward_id": "513a81d9-a69b-4001-9031-5add815684ce",
+      "id": "513a81d9-a69b-4001-9031-5add815684ce",
       "ward_no": "10",
-      "ward_name_en": "Bengalam",
-      "ward_name_ml": "ബങ്കളം"
+      "name_en": "Bengalam",
+      "name_ml": "ബങ്കളം"
     },
     {
-      "ward_id": "dcbaedb9-dee5-44fa-ae9b-6f7804b919f5",
+      "id": "dcbaedb9-dee5-44fa-ae9b-6f7804b919f5",
       "ward_no": "11",
-      "ward_name_en": "Kakkat",
-      "ward_name_ml": "കക്കാട്ട്"
+      "name_en": "Kakkat",
+      "name_ml": "കക്കാട്ട്"
     },
     {
-      "ward_id": "380f0ac9-255e-41d4-bca2-d3658f5f85e9",
+      "id": "380f0ac9-255e-41d4-bca2-d3658f5f85e9",
       "ward_no": "12",
-      "ward_name_en": "Adukathparambu",
-      "ward_name_ml": "അടുക്കത്ത്പറമ്പ്"
+      "name_en": "Adukathparambu",
+      "name_ml": "അടുക്കത്ത്പറമ്പ്"
     },
     {
-      "ward_id": "305c84ce-2b84-43ea-b0f8-1779b6e0cc56",
+      "id": "305c84ce-2b84-43ea-b0f8-1779b6e0cc56",
       "ward_no": "13",
-      "ward_name_en": "Chalakadavu",
-      "ward_name_ml": "ചാളക്കടവ്"
+      "name_en": "Chalakadavu",
+      "name_ml": "ചാളക്കടവ്"
     },
     {
-      "ward_id": "6004bfea-399e-4af7-9a3a-fa5d5b781e19",
+      "id": "6004bfea-399e-4af7-9a3a-fa5d5b781e19",
       "ward_no": "14",
-      "ward_name_en": "Keekkamkottu",
-      "ward_name_ml": "കീക്കാങ്കോട്ട്"
+      "name_en": "Keekkamkottu",
+      "name_ml": "കീക്കാങ്കോട്ട്"
     },
     {
-      "ward_id": "b15aa8c7-bdaf-4f48-8077-035b2b0f1ce8",
+      "id": "b15aa8c7-bdaf-4f48-8077-035b2b0f1ce8",
       "ward_no": "15",
-      "ward_name_en": "Ambalathukara",
-      "ward_name_ml": "അമ്പലത്തുകര"
+      "name_en": "Ambalathukara",
+      "name_ml": "അമ്പലത്തുകര"
     }
   ],
   "towns": [],

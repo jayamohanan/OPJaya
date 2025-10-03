@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G041101",
-  "local_body_name_en": "Nooranad",
-  "local_body_name_ml": "നൂറനാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G041101",
+  "name_en": "Nooranad",
+  "name_ml": "നൂറനാട്",
+  "assembly_id": "109",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "109",
-    "assembly_name_en": "Mavelikara",
-    "assembly_name_ml": "മാവേലിക്കര",
-    "category": "Normal"
+    "id": "109",
+    "name_en": "Mavelikara",
+    "name_ml": "മാവേലിക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1f17a7e7-7e5d-41e0-9176-a48019c27966",
+      "id": "1f17a7e7-7e5d-41e0-9176-a48019c27966",
       "ward_no": "1",
-      "ward_name_en": "Attuva",
-      "ward_name_ml": "ആറ്റുവ"
+      "name_en": "Attuva",
+      "name_ml": "ആറ്റുവ"
     },
     {
-      "ward_id": "3aa7d11c-3dac-45d5-b2bb-3c38e068fe6b",
+      "id": "3aa7d11c-3dac-45d5-b2bb-3c38e068fe6b",
       "ward_no": "2",
-      "ward_name_en": "Cherumukha",
-      "ward_name_ml": "ചെറുമുഖ"
+      "name_en": "Cherumukha",
+      "name_ml": "ചെറുമുഖ"
     },
     {
-      "ward_id": "5f31d424-7450-4a8f-aa3c-45502852c7d6",
+      "id": "5f31d424-7450-4a8f-aa3c-45502852c7d6",
       "ward_no": "3",
-      "ward_name_en": "Edappon East",
-      "ward_name_ml": "ഇടപ്പോണ്‍ കിഴക്ക്"
+      "name_en": "Edappon East",
+      "name_ml": "ഇടപ്പോണ്‍ കിഴക്ക്"
     },
     {
-      "ward_id": "9501d414-68af-4f1f-b4d2-19cad2e3208a",
+      "id": "9501d414-68af-4f1f-b4d2-19cad2e3208a",
       "ward_no": "4",
-      "ward_name_en": "Pattoor",
-      "ward_name_ml": "പാറ്റൂര്‍"
+      "name_en": "Pattoor",
+      "name_ml": "പാറ്റൂര്‍"
     },
     {
-      "ward_id": "38eba6a8-dbb3-4a7c-866c-c2aea6e88fdd",
+      "id": "38eba6a8-dbb3-4a7c-866c-c2aea6e88fdd",
       "ward_no": "5",
-      "ward_name_en": "Pazhanjiyoorkonam",
-      "ward_name_ml": "പഴഞ്ഞിയൂര്‍ക്കോണം"
+      "name_en": "Pazhanjiyoorkonam",
+      "name_ml": "പഴഞ്ഞിയൂര്‍ക്കോണം"
     },
     {
-      "ward_id": "8cb66e3d-6c4c-45c3-89ec-4fe985accf72",
+      "id": "8cb66e3d-6c4c-45c3-89ec-4fe985accf72",
       "ward_no": "6",
-      "ward_name_en": "Kidangayam",
-      "ward_name_ml": "കിടങ്ങയം"
+      "name_en": "Kidangayam",
+      "name_ml": "കിടങ്ങയം"
     },
     {
-      "ward_id": "8d5a188a-4d8b-4d39-b74e-89e700d1e24c",
+      "id": "8d5a188a-4d8b-4d39-b74e-89e700d1e24c",
       "ward_no": "7",
-      "ward_name_en": "Palamel",
-      "ward_name_ml": "പാലമേല്‍"
+      "name_en": "Palamel",
+      "name_ml": "പാലമേല്‍"
     },
     {
-      "ward_id": "883f5cdb-b3a5-45dc-9ecc-619b8d9f2f30",
+      "id": "883f5cdb-b3a5-45dc-9ecc-619b8d9f2f30",
       "ward_no": "8",
-      "ward_name_en": "Nedukulanji",
-      "ward_name_ml": "നെടുകുളഞ്ഞി"
+      "name_en": "Nedukulanji",
+      "name_ml": "നെടുകുളഞ്ഞി"
     },
     {
-      "ward_id": "c1110337-44bc-4c24-bf0f-fc4f8724d9b6",
+      "id": "c1110337-44bc-4c24-bf0f-fc4f8724d9b6",
       "ward_no": "9",
-      "ward_name_en": "Thathammunna",
-      "ward_name_ml": "തത്തംമുന്ന"
+      "name_en": "Thathammunna",
+      "name_ml": "തത്തംമുന്ന"
     },
     {
-      "ward_id": "7010413a-b701-46ee-886b-1bb8e3ec6e76",
+      "id": "7010413a-b701-46ee-886b-1bb8e3ec6e76",
       "ward_no": "10",
-      "ward_name_en": "Puthuppallikunnam South",
-      "ward_name_ml": "പുതുപ്പള്ളിക്കുന്നം തെക്ക്"
+      "name_en": "Puthuppallikunnam South",
+      "name_ml": "പുതുപ്പള്ളിക്കുന്നം തെക്ക്"
     },
     {
-      "ward_id": "eb346b7a-9f54-4ef6-b4ac-14b98f7356d6",
+      "id": "eb346b7a-9f54-4ef6-b4ac-14b98f7356d6",
       "ward_no": "11",
-      "ward_name_en": "Puthuppallikunnam North",
-      "ward_name_ml": "പുതുപ്പള്ളിക്കുന്നം വടക്ക്"
+      "name_en": "Puthuppallikunnam North",
+      "name_ml": "പുതുപ്പള്ളിക്കുന്നം വടക്ക്"
     },
     {
-      "ward_id": "3b13c81c-78c1-484e-849d-e39e69f75f4c",
+      "id": "3b13c81c-78c1-484e-849d-e39e69f75f4c",
       "ward_no": "12",
-      "ward_name_en": "Edakkunnam",
-      "ward_name_ml": "ഇടക്കുന്നം"
+      "name_en": "Edakkunnam",
+      "name_ml": "ഇടക്കുന്നം"
     },
     {
-      "ward_id": "5cb75230-f8de-4025-b796-7c648c9b3dda",
+      "id": "5cb75230-f8de-4025-b796-7c648c9b3dda",
       "ward_no": "13",
-      "ward_name_en": "Naduvilemuri",
-      "ward_name_ml": "നടുവിലേമുറി"
+      "name_en": "Naduvilemuri",
+      "name_ml": "നടുവിലേമുറി"
     },
     {
-      "ward_id": "2a87a06f-bb46-4be9-bf40-6b821c89df64",
+      "id": "2a87a06f-bb46-4be9-bf40-6b821c89df64",
       "ward_no": "14",
-      "ward_name_en": "Padanilam Town",
-      "ward_name_ml": "പടനിലം ടൌണ്‍"
+      "name_en": "Padanilam Town",
+      "name_ml": "പടനിലം ടൌണ്‍"
     },
     {
-      "ward_id": "ad899b36-b0c9-4d02-9b9e-fd5a676feddb",
+      "id": "ad899b36-b0c9-4d02-9b9e-fd5a676feddb",
       "ward_no": "15",
-      "ward_name_en": "Pulimel South",
-      "ward_name_ml": "പുലിമേല്‍ തെക്ക്"
+      "name_en": "Pulimel South",
+      "name_ml": "പുലിമേല്‍ തെക്ക്"
     },
     {
-      "ward_id": "5694debb-7d33-49ca-b6c3-ab5ebfd3cce5",
+      "id": "5694debb-7d33-49ca-b6c3-ab5ebfd3cce5",
       "ward_no": "16",
-      "ward_name_en": "Pulimel North",
-      "ward_name_ml": "പുലിമേല്‍ വടക്ക്"
+      "name_en": "Pulimel North",
+      "name_ml": "പുലിമേല്‍ വടക്ക്"
     },
     {
-      "ward_id": "358212e2-c651-4347-99d8-16c08f1c00b5",
+      "id": "358212e2-c651-4347-99d8-16c08f1c00b5",
       "ward_no": "17",
-      "ward_name_en": "Edappon West",
-      "ward_name_ml": "ഇടപ്പോണ്‍ പടിഞ്ഞാറ്"
+      "name_en": "Edappon West",
+      "name_ml": "ഇടപ്പോണ്‍ പടിഞ്ഞാറ്"
     }
   ],
   "towns": [],

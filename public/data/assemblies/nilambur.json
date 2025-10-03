@@ -1,62 +1,81 @@
 {
-  "assembly_id": "35",
-  "assembly_name_en": "Nilambur",
-  "assembly_name_ml": "നിലമ്പൂര്‍",
-  "category": "Normal",
+  "id": "35",
+  "name_en": "Nilambur",
+  "name_ml": "നിലമ്പൂര്‍",
+  "district_id": "10",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "district_category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G100102",
-      "local_body_name_en": "Chungathara",
-      "local_body_name_ml": "ചുങ്കത്തറ",
-      "category": "Good"
+      "id": "G100102",
+      "name_en": "Chungathara",
+      "name_ml": "ചുങ്കത്തറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G100105",
-      "local_body_name_en": "Edakkara",
-      "local_body_name_ml": "എടക്കര",
-      "category": "Perfect"
+      "id": "G100105",
+      "name_en": "Edakkara",
+      "name_ml": "എടക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G100202",
-      "local_body_name_en": "Karulai",
-      "local_body_name_ml": "കരുളായ്",
-      "category": "Normal"
+      "id": "G100202",
+      "name_en": "Karulai",
+      "name_ml": "കരുളായ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100103",
-      "local_body_name_en": "Moothedam",
-      "local_body_name_ml": "മൂത്തേടം",
-      "category": "Normal"
+      "id": "G100103",
+      "name_en": "Moothedam",
+      "name_ml": "മൂത്തേടം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M100600",
-      "local_body_name_en": "Nilambur",
-      "local_body_name_ml": "നിലമ്പൂര്‍",
-      "category": ""
+      "id": "M100600",
+      "name_en": "Nilambur",
+      "name_ml": "നിലമ്പൂര്‍",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G100106",
-      "local_body_name_en": "Pothukallu",
-      "local_body_name_ml": "പോത്തുകല്ല്",
-      "category": "Normal"
+      "id": "G100106",
+      "name_en": "Pothukallu",
+      "name_ml": "പോത്തുകല്ല്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100104",
-      "local_body_name_en": "Vazhikkadavu",
-      "local_body_name_ml": "വഴിക്കടവ്",
-      "category": "Normal"
+      "id": "G100104",
+      "name_en": "Vazhikkadavu",
+      "name_ml": "വഴിക്കടവ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G100201",
-      "local_body_name_en": "Amarambalam",
-      "local_body_name_ml": "അമരമ്പലം",
-      "category": "Good"
+      "id": "G100201",
+      "name_en": "Amarambalam",
+      "name_ml": "അമരമ്പലം",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

@@ -1,106 +1,117 @@
 {
-  "local_body_id": "G080306",
-  "local_body_name_en": "Varavoor",
-  "local_body_name_ml": "വരവൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G080306",
+  "name_en": "Varavoor",
+  "name_ml": "വരവൂര്‍",
+  "assembly_id": "61",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "61",
-    "assembly_name_en": "Chelakkara",
-    "assembly_name_ml": "ചേലക്കര",
-    "category": "Normal"
+    "id": "61",
+    "name_en": "Chelakkara",
+    "name_ml": "ചേലക്കര",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "8",
-    "district_name_en": "Thrissur",
-    "district_name_ml": "തൃശ്ശൂർ",
-    "category": "Normal"
+    "id": "8",
+    "name_en": "Thrissur",
+    "name_ml": "തൃശ്ശൂർ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "1388ff35-d050-4da5-a197-acd932fd480d",
+      "id": "1388ff35-d050-4da5-a197-acd932fd480d",
       "ward_no": "1",
-      "ward_name_en": "Cheloor",
-      "ward_name_ml": "ചേലൂര്‍"
+      "name_en": "Cheloor",
+      "name_ml": "ചേലൂര്‍"
     },
     {
-      "ward_id": "e7a85a3f-79d3-4f3f-9211-974d8675de20",
+      "id": "e7a85a3f-79d3-4f3f-9211-974d8675de20",
       "ward_no": "2",
-      "ward_name_en": "Parappuram",
-      "ward_name_ml": "പാറപ്പുറം"
+      "name_en": "Parappuram",
+      "name_ml": "പാറപ്പുറം"
     },
     {
-      "ward_id": "a25662c5-ba88-4746-9cc7-7bf08a101b18",
+      "id": "a25662c5-ba88-4746-9cc7-7bf08a101b18",
       "ward_no": "3",
-      "ward_name_en": "Thali",
-      "ward_name_ml": "തളി"
+      "name_en": "Thali",
+      "name_ml": "തളി"
     },
     {
-      "ward_id": "5df6abd7-f11e-46ec-885f-f8beb6bb42a7",
+      "id": "5df6abd7-f11e-46ec-885f-f8beb6bb42a7",
       "ward_no": "4",
-      "ward_name_en": "Pilakkad",
-      "ward_name_ml": "പിലക്കാട്"
+      "name_en": "Pilakkad",
+      "name_ml": "പിലക്കാട്"
     },
     {
-      "ward_id": "1de4c153-952d-4638-93fa-de0bba67c044",
+      "id": "1de4c153-952d-4638-93fa-de0bba67c044",
       "ward_no": "5",
-      "ward_name_en": "Ramankulam",
-      "ward_name_ml": "രാമന്‍കുളം"
+      "name_en": "Ramankulam",
+      "name_ml": "രാമന്‍കുളം"
     },
     {
-      "ward_id": "01729720-e407-43ce-b536-bfc400b31d88",
+      "id": "01729720-e407-43ce-b536-bfc400b31d88",
       "ward_no": "6",
-      "ward_name_en": "Palakkal",
-      "ward_name_ml": "പാലയ്ക്കല്‍"
+      "name_en": "Palakkal",
+      "name_ml": "പാലയ്ക്കല്‍"
     },
     {
-      "ward_id": "e1706332-640b-43a2-aaed-2cf1c6deb009",
+      "id": "e1706332-640b-43a2-aaed-2cf1c6deb009",
       "ward_no": "7",
-      "ward_name_en": "Varavoor Highschool",
-      "ward_name_ml": "വരവൂര്‍ ഹൈസ്ക്കുള്‍"
+      "name_en": "Varavoor Highschool",
+      "name_ml": "വരവൂര്‍ ഹൈസ്ക്കുള്‍"
     },
     {
-      "ward_id": "e812db63-26f1-4e8d-bf7e-5e70d621a377",
+      "id": "e812db63-26f1-4e8d-bf7e-5e70d621a377",
       "ward_no": "8",
-      "ward_name_en": "Naduthara",
-      "ward_name_ml": "നടുത്തറ"
+      "name_en": "Naduthara",
+      "name_ml": "നടുത്തറ"
     },
     {
-      "ward_id": "141bc7a5-24e2-4784-bc50-64c426caa6b0",
+      "id": "141bc7a5-24e2-4784-bc50-64c426caa6b0",
       "ward_no": "9",
-      "ward_name_en": "Kumarappanal",
-      "ward_name_ml": "കുമരപ്പനാല്‍"
+      "name_en": "Kumarappanal",
+      "name_ml": "കുമരപ്പനാല്‍"
     },
     {
-      "ward_id": "ca10fe71-518a-4472-a2ba-9512ac8aef77",
+      "id": "ca10fe71-518a-4472-a2ba-9512ac8aef77",
       "ward_no": "10",
-      "ward_name_en": "Vettukkad",
-      "ward_name_ml": "വെട്ടുക്കാട്"
+      "name_en": "Vettukkad",
+      "name_ml": "വെട്ടുക്കാട്"
     },
     {
-      "ward_id": "f3be1987-8fcf-4a2c-9e26-9a2e931288be",
+      "id": "f3be1987-8fcf-4a2c-9e26-9a2e931288be",
       "ward_no": "11",
-      "ward_name_en": "Varavoor Valvu",
-      "ward_name_ml": "വരവൂര്‍ വളവ്"
+      "name_en": "Varavoor Valvu",
+      "name_ml": "വരവൂര്‍ വളവ്"
     },
     {
-      "ward_id": "1f62fae2-a251-4adb-b2bf-57ace54d014f",
+      "id": "1f62fae2-a251-4adb-b2bf-57ace54d014f",
       "ward_no": "12",
-      "ward_name_en": "Kottupuram",
-      "ward_name_ml": "കൊറ്റുപ്പുറം"
+      "name_en": "Kottupuram",
+      "name_ml": "കൊറ്റുപ്പുറം"
     },
     {
-      "ward_id": "7776cf64-7910-4a39-ba8f-2278595f58f8",
+      "id": "7776cf64-7910-4a39-ba8f-2278595f58f8",
       "ward_no": "13",
-      "ward_name_en": "Devichira",
-      "ward_name_ml": "ദേവിച്ചിറ"
+      "name_en": "Devichira",
+      "name_ml": "ദേവിച്ചിറ"
     },
     {
-      "ward_id": "c0e67d30-969f-4352-ac19-94c3d9458506",
+      "id": "c0e67d30-969f-4352-ac19-94c3d9458506",
       "ward_no": "14",
-      "ward_name_en": "Thichur",
-      "ward_name_ml": "തിച്ചൂൂര്‍"
+      "name_en": "Thichur",
+      "name_ml": "തിച്ചൂൂര്‍"
     }
   ],
   "towns": [],

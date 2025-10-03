@@ -1,148 +1,159 @@
 {
-  "local_body_id": "G090601",
-  "local_body_name_en": "Agali",
-  "local_body_name_ml": "അഗളി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "54",
-    "assembly_name_en": "Mannarkkad",
-    "assembly_name_ml": "മണ്ണാര്‍ക്കാട്",
+  "id": "G090601",
+  "name_en": "Agali",
+  "name_ml": "അഗളി",
+  "assembly_id": "54",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "54",
+    "name_en": "Mannarkkad",
+    "name_ml": "മണ്ണാര്‍ക്കാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "54d4e230-4ee1-4bdf-b096-514c3fa8875c",
+      "id": "54d4e230-4ee1-4bdf-b096-514c3fa8875c",
       "ward_no": "1",
-      "ward_name_en": "Chindakki",
-      "ward_name_ml": "ചിണ്ടക്കി"
+      "name_en": "Chindakki",
+      "name_ml": "ചിണ്ടക്കി"
     },
     {
-      "ward_id": "3f3bdddf-f8f7-4063-8b9b-81e1187d5506",
+      "id": "3f3bdddf-f8f7-4063-8b9b-81e1187d5506",
       "ward_no": "2",
-      "ward_name_en": "Chemmannur",
-      "ward_name_ml": "ചെമ്മണ്ണൂര്‍"
+      "name_en": "Chemmannur",
+      "name_ml": "ചെമ്മണ്ണൂര്‍"
     },
     {
-      "ward_id": "4d854d36-6357-4273-bf33-4e20e001ef3d",
+      "id": "4d854d36-6357-4273-bf33-4e20e001ef3d",
       "ward_no": "3",
-      "ward_name_en": "Pakkulam",
-      "ward_name_ml": "പാക്കുളം"
+      "name_en": "Pakkulam",
+      "name_ml": "പാക്കുളം"
     },
     {
-      "ward_id": "a370a171-2e8a-46ba-a5dc-8b0a4abd1040",
+      "id": "a370a171-2e8a-46ba-a5dc-8b0a4abd1040",
       "ward_no": "4",
-      "ward_name_en": "Thavalam",
-      "ward_name_ml": "താവളം"
+      "name_en": "Thavalam",
+      "name_ml": "താവളം"
     },
     {
-      "ward_id": "1b9e769c-f52c-41b9-b518-1b8845783128",
+      "id": "1b9e769c-f52c-41b9-b518-1b8845783128",
       "ward_no": "5",
-      "ward_name_en": "Parappanthara",
-      "ward_name_ml": "പരപ്പന്തറ"
+      "name_en": "Parappanthara",
+      "name_ml": "പരപ്പന്തറ"
     },
     {
-      "ward_id": "e8dbe703-a3df-4163-9b03-d10dfefce9ea",
+      "id": "e8dbe703-a3df-4163-9b03-d10dfefce9ea",
       "ward_no": "6",
-      "ward_name_en": "Pattimalam",
-      "ward_name_ml": "പട്ടിമാളം"
+      "name_en": "Pattimalam",
+      "name_ml": "പട്ടിമാളം"
     },
     {
-      "ward_id": "7d4ce129-39db-44c4-aebc-e66a2ee35b17",
+      "id": "7d4ce129-39db-44c4-aebc-e66a2ee35b17",
       "ward_no": "7",
-      "ward_name_en": "Kottathara",
-      "ward_name_ml": "കോട്ടത്തറ"
+      "name_en": "Kottathara",
+      "name_ml": "കോട്ടത്തറ"
     },
     {
-      "ward_id": "11285859-19a7-4c3f-bcf1-e88eca95ed53",
+      "id": "11285859-19a7-4c3f-bcf1-e88eca95ed53",
       "ward_no": "8",
-      "ward_name_en": "Bhoothivazhy",
-      "ward_name_ml": "ഭൂതിവഴി"
+      "name_en": "Bhoothivazhy",
+      "name_ml": "ഭൂതിവഴി"
     },
     {
-      "ward_id": "b972b8d5-43ac-47e4-b111-d60808eb46d3",
+      "id": "b972b8d5-43ac-47e4-b111-d60808eb46d3",
       "ward_no": "9",
-      "ward_name_en": "Agali",
-      "ward_name_ml": "അഗളി"
+      "name_en": "Agali",
+      "name_ml": "അഗളി"
     },
     {
-      "ward_id": "7f10085e-c597-4975-82ff-634c5457d0b2",
+      "id": "7f10085e-c597-4975-82ff-634c5457d0b2",
       "ward_no": "10",
-      "ward_name_en": "Goolikkadavu",
-      "ward_name_ml": "ഗൂളിക്കടവ്"
+      "name_en": "Goolikkadavu",
+      "name_ml": "ഗൂളിക്കടവ്"
     },
     {
-      "ward_id": "5aafe298-870d-4dbf-ab70-25e52fe0a727",
+      "id": "5aafe298-870d-4dbf-ab70-25e52fe0a727",
       "ward_no": "11",
-      "ward_name_en": "Kavundikkal",
-      "ward_name_ml": "കാവുണ്ടിക്കല്‍"
+      "name_en": "Kavundikkal",
+      "name_ml": "കാവുണ്ടിക്കല്‍"
     },
     {
-      "ward_id": "beb73a08-5a69-461e-85f0-3d7d6759a68c",
+      "id": "beb73a08-5a69-461e-85f0-3d7d6759a68c",
       "ward_no": "12",
-      "ward_name_en": "Nellippathy",
-      "ward_name_ml": "നെല്ലിപ്പതി"
+      "name_en": "Nellippathy",
+      "name_ml": "നെല്ലിപ്പതി"
     },
     {
-      "ward_id": "4f1928e1-42ff-4c42-a4e7-dd2aa81bfe8f",
+      "id": "4f1928e1-42ff-4c42-a4e7-dd2aa81bfe8f",
       "ward_no": "13",
-      "ward_name_en": "Chitture",
-      "ward_name_ml": "ചിറ്റൂര്‍"
+      "name_en": "Chitture",
+      "name_ml": "ചിറ്റൂര്‍"
     },
     {
-      "ward_id": "c36e2e1a-073a-4039-956e-68e6c2661398",
+      "id": "c36e2e1a-073a-4039-956e-68e6c2661398",
       "ward_no": "14",
-      "ward_name_en": "Karara",
-      "ward_name_ml": "കാരറ"
+      "name_en": "Karara",
+      "name_ml": "കാരറ"
     },
     {
-      "ward_id": "bab8a54e-1454-4e70-ad37-a2bbb708b3dc",
+      "id": "bab8a54e-1454-4e70-ad37-a2bbb708b3dc",
       "ward_no": "15",
-      "ward_name_en": "Guddayur",
-      "ward_name_ml": "ഗുഡ്ഡയൂര്‍"
+      "name_en": "Guddayur",
+      "name_ml": "ഗുഡ്ഡയൂര്‍"
     },
     {
-      "ward_id": "1cbeca5d-c8dc-46d1-997e-0d49e5ccdbdf",
+      "id": "1cbeca5d-c8dc-46d1-997e-0d49e5ccdbdf",
       "ward_no": "16",
-      "ward_name_en": "Kandiyure",
-      "ward_name_ml": "കണ്ടിയൂര്‍"
+      "name_en": "Kandiyure",
+      "name_ml": "കണ്ടിയൂര്‍"
     },
     {
-      "ward_id": "f7887f88-4787-4f32-be04-483cc1c7d4d4",
+      "id": "f7887f88-4787-4f32-be04-483cc1c7d4d4",
       "ward_no": "17",
-      "ward_name_en": "Jellippara",
-      "ward_name_ml": "ജെല്ലിപ്പാറ"
+      "name_en": "Jellippara",
+      "name_ml": "ജെല്ലിപ്പാറ"
     },
     {
-      "ward_id": "d7f22034-58f9-4998-a6e8-7d73a0ae31cf",
+      "id": "d7f22034-58f9-4998-a6e8-7d73a0ae31cf",
       "ward_no": "18",
-      "ward_name_en": "Ommala",
-      "ward_name_ml": "ഒമ്മല"
+      "name_en": "Ommala",
+      "name_ml": "ഒമ്മല"
     },
     {
-      "ward_id": "4950e197-02a7-402e-bb00-128c62fe7aa6",
+      "id": "4950e197-02a7-402e-bb00-128c62fe7aa6",
       "ward_no": "19",
-      "ward_name_en": "Kallamala",
-      "ward_name_ml": "കള്ളമല"
+      "name_en": "Kallamala",
+      "name_ml": "കള്ളമല"
     },
     {
-      "ward_id": "63872db6-5595-47c1-bf41-ff4f4a7c764d",
+      "id": "63872db6-5595-47c1-bf41-ff4f4a7c764d",
       "ward_no": "20",
-      "ward_name_en": "Chinnapparambu",
-      "ward_name_ml": "ചിന്നപ്പറമ്പ്"
+      "name_en": "Chinnapparambu",
+      "name_ml": "ചിന്നപ്പറമ്പ്"
     },
     {
-      "ward_id": "e03d707c-e0d2-4a0e-a246-9b9dfd766bd7",
+      "id": "e03d707c-e0d2-4a0e-a246-9b9dfd766bd7",
       "ward_no": "21",
-      "ward_name_en": "Kalkkandy",
-      "ward_name_ml": "കല്‍ക്കണ്ടി"
+      "name_en": "Kalkkandy",
+      "name_ml": "കല്‍ക്കണ്ടി"
     }
   ],
   "towns": [],

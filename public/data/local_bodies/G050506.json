@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G050506",
-  "local_body_name_en": "Mutholy",
-  "local_body_name_ml": "മുത്തോലി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "93",
-    "assembly_name_en": "Pala",
-    "assembly_name_ml": "പാലാ",
+  "id": "G050506",
+  "name_en": "Mutholy",
+  "name_ml": "മുത്തോലി",
+  "assembly_id": "93",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "93",
+    "name_en": "Pala",
+    "name_ml": "പാലാ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "ec652b54-36c0-43eb-ae33-d3f14df09360",
+      "id": "ec652b54-36c0-43eb-ae33-d3f14df09360",
       "ward_no": "1",
-      "ward_name_en": "Padinjattinkara",
-      "ward_name_ml": "പടിഞ്ഞാറ്റിന്‍കര"
+      "name_en": "Padinjattinkara",
+      "name_ml": "പടിഞ്ഞാറ്റിന്‍കര"
     },
     {
-      "ward_id": "b99fc75f-ec61-4ee1-aa2e-298b1cb61e4b",
+      "id": "b99fc75f-ec61-4ee1-aa2e-298b1cb61e4b",
       "ward_no": "2",
-      "ward_name_en": "Kaniyakkadu",
-      "ward_name_ml": "കാണിയക്കാട്"
+      "name_en": "Kaniyakkadu",
+      "name_ml": "കാണിയക്കാട്"
     },
     {
-      "ward_id": "c7f6121b-19bd-4e39-a6c6-59aa34af8c1c",
+      "id": "c7f6121b-19bd-4e39-a6c6-59aa34af8c1c",
       "ward_no": "3",
-      "ward_name_en": "Allunkalkunnu",
-      "ward_name_ml": "അള്ളുങ്കല്‍കുന്ന്"
+      "name_en": "Allunkalkunnu",
+      "name_ml": "അള്ളുങ്കല്‍കുന്ന്"
     },
     {
-      "ward_id": "25ada9de-13b7-455e-9f51-14a5c6dcf43a",
+      "id": "25ada9de-13b7-455e-9f51-14a5c6dcf43a",
       "ward_no": "4",
-      "ward_name_en": "Puliyannoor",
-      "ward_name_ml": "പുലിയന്നൂര്‍"
+      "name_en": "Puliyannoor",
+      "name_ml": "പുലിയന്നൂര്‍"
     },
     {
-      "ward_id": "eca8a931-3af6-456e-a7a9-0bb62efc6eb7",
+      "id": "eca8a931-3af6-456e-a7a9-0bb62efc6eb7",
       "ward_no": "5",
-      "ward_name_en": "Puliyannoor South",
-      "ward_name_ml": "പുലിയന്നൂര്‍ സൌത്ത്"
+      "name_en": "Puliyannoor South",
+      "name_ml": "പുലിയന്നൂര്‍ സൌത്ത്"
     },
     {
-      "ward_id": "b97d4718-3b68-4601-b140-5a2633bfdaa3",
+      "id": "b97d4718-3b68-4601-b140-5a2633bfdaa3",
       "ward_no": "6",
-      "ward_name_en": "Kadappattoor",
-      "ward_name_ml": "കടപ്പാട്ടൂര്‍"
+      "name_en": "Kadappattoor",
+      "name_ml": "കടപ്പാട്ടൂര്‍"
     },
     {
-      "ward_id": "8a2b5fcb-a80a-46d4-a9d6-de2d64cca8da",
+      "id": "8a2b5fcb-a80a-46d4-a9d6-de2d64cca8da",
       "ward_no": "7",
-      "ward_name_en": "Velliyeppally",
-      "ward_name_ml": "വെള്ളിയേപ്പള്ളി"
+      "name_en": "Velliyeppally",
+      "name_ml": "വെള്ളിയേപ്പള്ളി"
     },
     {
-      "ward_id": "9a3c6f0d-9580-495e-9d44-f9dd2b5146ae",
+      "id": "9a3c6f0d-9580-495e-9d44-f9dd2b5146ae",
       "ward_no": "8",
-      "ward_name_en": "Meenachil",
-      "ward_name_ml": "മീനച്ചില്‍"
+      "name_en": "Meenachil",
+      "name_ml": "മീനച്ചില്‍"
     },
     {
-      "ward_id": "3be2178c-a441-4f9f-89fd-ababd8b1bd27",
+      "id": "3be2178c-a441-4f9f-89fd-ababd8b1bd27",
       "ward_no": "9",
-      "ward_name_en": "Panthathala",
-      "ward_name_ml": "പന്തത്തല"
+      "name_en": "Panthathala",
+      "name_ml": "പന്തത്തല"
     },
     {
-      "ward_id": "2553d70d-bd8e-43ec-9280-0a65b6efbda0",
+      "id": "2553d70d-bd8e-43ec-9280-0a65b6efbda0",
       "ward_no": "10",
-      "ward_name_en": "Mutholy",
-      "ward_name_ml": "മുത്തോലി"
+      "name_en": "Mutholy",
+      "name_ml": "മുത്തോലി"
     },
     {
-      "ward_id": "10c6beb2-e234-4c51-a1f9-8325ac0113c6",
+      "id": "10c6beb2-e234-4c51-a1f9-8325ac0113c6",
       "ward_no": "11",
-      "ward_name_en": "Neyoor",
-      "ward_name_ml": "നെയ്യൂര്‍"
+      "name_en": "Neyoor",
+      "name_ml": "നെയ്യൂര്‍"
     },
     {
-      "ward_id": "aff59a93-5063-49e9-8f72-50dd2e1f5539",
+      "id": "aff59a93-5063-49e9-8f72-50dd2e1f5539",
       "ward_no": "12",
-      "ward_name_en": "Thekkumury",
-      "ward_name_ml": "തെക്കുംമുറി"
+      "name_en": "Thekkumury",
+      "name_ml": "തെക്കുംമുറി"
     },
     {
-      "ward_id": "a37eb2f6-5d4c-4e49-9a35-50b4194e3ee5",
+      "id": "a37eb2f6-5d4c-4e49-9a35-50b4194e3ee5",
       "ward_no": "13",
-      "ward_name_en": "Thekkummury North",
-      "ward_name_ml": "തെക്കുംമുറി നോര്‍ത്ത്"
+      "name_en": "Thekkummury North",
+      "name_ml": "തെക്കുംമുറി നോര്‍ത്ത്"
     }
   ],
   "towns": [],

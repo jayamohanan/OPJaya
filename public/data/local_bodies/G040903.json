@@ -1,112 +1,123 @@
 {
-  "local_body_id": "G040903",
-  "local_body_name_en": "Kumarapuram",
-  "local_body_name_ml": "കുമാരപുരം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "107",
-    "assembly_name_en": "Haripad",
-    "assembly_name_ml": "ഹരിപ്പാട്",
+  "id": "G040903",
+  "name_en": "Kumarapuram",
+  "name_ml": "കുമാരപുരം",
+  "assembly_id": "107",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "107",
+    "name_en": "Haripad",
+    "name_ml": "ഹരിപ്പാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b209dbdc-64a7-42f7-8eeb-5f19f7cc7870",
+      "id": "b209dbdc-64a7-42f7-8eeb-5f19f7cc7870",
       "ward_no": "1",
-      "ward_name_en": "Kattil Market",
-      "ward_name_ml": "കാട്ടില്‍ മാര്‍ക്കറ്റ്"
+      "name_en": "Kattil Market",
+      "name_ml": "കാട്ടില്‍ മാര്‍ക്കറ്റ്"
     },
     {
-      "ward_id": "f2ef7c29-62cb-4013-a5aa-d0cbfdcade66",
+      "id": "f2ef7c29-62cb-4013-a5aa-d0cbfdcade66",
       "ward_no": "2",
-      "ward_name_en": "S.N.V.L.P.S",
-      "ward_name_ml": "എസ്.എന്‍.വി.എല്‍.പി.എസ്"
+      "name_en": "S.N.V.L.P.S",
+      "name_ml": "എസ്.എന്‍.വി.എല്‍.പി.എസ്"
     },
     {
-      "ward_id": "c104de7d-59c5-4e90-a8ca-1fa581eeccf6",
+      "id": "c104de7d-59c5-4e90-a8ca-1fa581eeccf6",
       "ward_no": "3",
-      "ward_name_en": "Thamallackal",
-      "ward_name_ml": "താമല്ലാക്കല്‍"
+      "name_en": "Thamallackal",
+      "name_ml": "താമല്ലാക്കല്‍"
     },
     {
-      "ward_id": "0bc8a78e-305f-4f0e-a638-c77b7c1d37d2",
+      "id": "0bc8a78e-305f-4f0e-a638-c77b7c1d37d2",
       "ward_no": "4",
-      "ward_name_en": "Kanjirath",
-      "ward_name_ml": "കാഞ്ഞിരത്ത്"
+      "name_en": "Kanjirath",
+      "name_ml": "കാഞ്ഞിരത്ത്"
     },
     {
-      "ward_id": "c2beb23b-4146-413c-b8cf-4f3f6ab6d84a",
+      "id": "c2beb23b-4146-413c-b8cf-4f3f6ab6d84a",
       "ward_no": "5",
-      "ward_name_en": "Kumarapuram",
-      "ward_name_ml": "കുമാരപുരം"
+      "name_en": "Kumarapuram",
+      "name_ml": "കുമാരപുരം"
     },
     {
-      "ward_id": "0256cf58-9ab8-4990-8f43-4693b1d92551",
+      "id": "0256cf58-9ab8-4990-8f43-4693b1d92551",
       "ward_no": "6",
-      "ward_name_en": "N H",
-      "ward_name_ml": "എന്‍ എച്ച്"
+      "name_en": "N H",
+      "name_ml": "എന്‍ എച്ച്"
     },
     {
-      "ward_id": "3742c4fd-5718-4d49-87a2-25110e1bf41a",
+      "id": "3742c4fd-5718-4d49-87a2-25110e1bf41a",
       "ward_no": "7",
-      "ward_name_en": "Ananthapuram Palace",
-      "ward_name_ml": "അനന്തപുരം പാലസ്"
+      "name_en": "Ananthapuram Palace",
+      "name_ml": "അനന്തപുരം പാലസ്"
     },
     {
-      "ward_id": "de4bed62-d6f5-48af-b6ec-578504e983fd",
+      "id": "de4bed62-d6f5-48af-b6ec-578504e983fd",
       "ward_no": "8",
-      "ward_name_en": "Library",
-      "ward_name_ml": "ലൈബ്രറി"
+      "name_en": "Library",
+      "name_ml": "ലൈബ്രറി"
     },
     {
-      "ward_id": "db6d89c7-789b-4308-9f54-dc1e1e31597d",
+      "id": "db6d89c7-789b-4308-9f54-dc1e1e31597d",
       "ward_no": "9",
-      "ward_name_en": "Erickavu",
-      "ward_name_ml": "എരിക്കാവ്"
+      "name_en": "Erickavu",
+      "name_ml": "എരിക്കാവ്"
     },
     {
-      "ward_id": "69151ee8-28ae-4216-acbf-a2d50a96f5ac",
+      "id": "69151ee8-28ae-4216-acbf-a2d50a96f5ac",
       "ward_no": "10",
-      "ward_name_en": "Society",
-      "ward_name_ml": "സൊസൈറ്റി"
+      "name_en": "Society",
+      "name_ml": "സൊസൈറ്റി"
     },
     {
-      "ward_id": "d804237e-5fba-430e-99be-1200f2ac6e1f",
+      "id": "d804237e-5fba-430e-99be-1200f2ac6e1f",
       "ward_no": "11",
-      "ward_name_en": "Panchayat Office",
-      "ward_name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_en": "Panchayat Office",
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
     },
     {
-      "ward_id": "74e43ea9-0b80-40fa-8c58-55fd7a4d7c47",
+      "id": "74e43ea9-0b80-40fa-8c58-55fd7a4d7c47",
       "ward_no": "12",
-      "ward_name_en": "Pothappally",
-      "ward_name_ml": "പൊത്തപ്പളളി"
+      "name_en": "Pothappally",
+      "name_ml": "പൊത്തപ്പളളി"
     },
     {
-      "ward_id": "36ff35a7-f2f3-4cee-9167-0aaa867766c3",
+      "id": "36ff35a7-f2f3-4cee-9167-0aaa867766c3",
       "ward_no": "13",
-      "ward_name_en": "E.A.L.P.S",
-      "ward_name_ml": "ഇ.എ.എല്‍.പി.എസ്"
+      "name_en": "E.A.L.P.S",
+      "name_ml": "ഇ.എ.എല്‍.പി.എസ്"
     },
     {
-      "ward_id": "5b543754-c142-48bb-b530-d69b51efc457",
+      "id": "5b543754-c142-48bb-b530-d69b51efc457",
       "ward_no": "14",
-      "ward_name_en": "Pazhayachira",
-      "ward_name_ml": "പഴയചിറ"
+      "name_en": "Pazhayachira",
+      "name_ml": "പഴയചിറ"
     },
     {
-      "ward_id": "1629418c-9c80-47ee-ac3a-6e181a65cee0",
+      "id": "1629418c-9c80-47ee-ac3a-6e181a65cee0",
       "ward_no": "15",
-      "ward_name_en": "P H Centre",
-      "ward_name_ml": "പി.എച്ച് സെന്‍റര്‍"
+      "name_en": "P H Centre",
+      "name_ml": "പി.എച്ച് സെന്‍റര്‍"
     }
   ],
   "towns": [],

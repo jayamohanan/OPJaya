@@ -1,136 +1,147 @@
 {
-  "local_body_id": "G100407",
-  "local_body_name_en": "Vazhakkad",
-  "local_body_name_ml": "വാഴക്കാട്",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "33",
-    "assembly_name_en": "Kondotty",
-    "assembly_name_ml": "കൊണ്ടോട്ടി",
+  "id": "G100407",
+  "name_en": "Vazhakkad",
+  "name_ml": "വാഴക്കാട്",
+  "assembly_id": "33",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "33",
+    "name_en": "Kondotty",
+    "name_ml": "കൊണ്ടോട്ടി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "d994a5c0-06b6-498c-bb40-d5b36ad58c76",
+      "id": "d994a5c0-06b6-498c-bb40-d5b36ad58c76",
       "ward_no": "1",
-      "ward_name_en": "Akkode",
-      "ward_name_ml": "ആക്കോട്"
+      "name_en": "Akkode",
+      "name_ml": "ആക്കോട്"
     },
     {
-      "ward_id": "3624406d-4b92-4578-beb4-421515d3ffc1",
+      "id": "3624406d-4b92-4578-beb4-421515d3ffc1",
       "ward_no": "2",
-      "ward_name_en": "Urkadavu",
-      "ward_name_ml": "ഊര്‍ക്കടവ്"
+      "name_en": "Urkadavu",
+      "name_ml": "ഊര്‍ക്കടവ്"
     },
     {
-      "ward_id": "eee1445a-9452-4d55-98cb-789f7254a1ef",
+      "id": "eee1445a-9452-4d55-98cb-789f7254a1ef",
       "ward_no": "3",
-      "ward_name_en": "Mundumuzhi",
-      "ward_name_ml": "മുണ്ടുമുഴി"
+      "name_en": "Mundumuzhi",
+      "name_ml": "മുണ്ടുമുഴി"
     },
     {
-      "ward_id": "04477674-392a-4f6a-adeb-c8d55d1321b6",
+      "id": "04477674-392a-4f6a-adeb-c8d55d1321b6",
       "ward_no": "4",
-      "ward_name_en": "Cheruvattoor",
-      "ward_name_ml": "ചെറുവട്ടൂര്‍"
+      "name_en": "Cheruvattoor",
+      "name_ml": "ചെറുവട്ടൂര്‍"
     },
     {
-      "ward_id": "a70d4650-ce8d-45b3-a87b-58b21bca3da0",
+      "id": "a70d4650-ce8d-45b3-a87b-58b21bca3da0",
       "ward_no": "5",
-      "ward_name_en": "Vazhakkad",
-      "ward_name_ml": "വാഴക്കാട്"
+      "name_en": "Vazhakkad",
+      "name_ml": "വാഴക്കാട്"
     },
     {
-      "ward_id": "0b45b043-a697-45d5-9b8b-7d7cdda9d31d",
+      "id": "0b45b043-a697-45d5-9b8b-7d7cdda9d31d",
       "ward_no": "6",
-      "ward_name_en": "Valillapuzha",
-      "ward_name_ml": "വാലില്ലാപുഴ"
+      "name_en": "Valillapuzha",
+      "name_ml": "വാലില്ലാപുഴ"
     },
     {
-      "ward_id": "36207e04-4310-4b74-a395-d32196afa1a0",
+      "id": "36207e04-4310-4b74-a395-d32196afa1a0",
       "ward_no": "7",
-      "ward_name_en": "Elamaram",
-      "ward_name_ml": "എളമരം"
+      "name_en": "Elamaram",
+      "name_ml": "എളമരം"
     },
     {
-      "ward_id": "f747ecf2-85c6-4039-96fd-2c7e21535747",
+      "id": "f747ecf2-85c6-4039-96fd-2c7e21535747",
       "ward_no": "8",
-      "ward_name_en": "Mapprom",
-      "ward_name_ml": "മപ്രം"
+      "name_en": "Mapprom",
+      "name_ml": "മപ്രം"
     },
     {
-      "ward_id": "f906af9b-03e3-4869-b1c8-add7d66e2962",
+      "id": "f906af9b-03e3-4869-b1c8-add7d66e2962",
       "ward_no": "9",
-      "ward_name_en": "Vettathoor",
-      "ward_name_ml": "വെട്ടത്തൂര്‍"
+      "name_en": "Vettathoor",
+      "name_ml": "വെട്ടത്തൂര്‍"
     },
     {
-      "ward_id": "3fed8964-cfbb-4aca-9444-96643052c235",
+      "id": "3fed8964-cfbb-4aca-9444-96643052c235",
       "ward_no": "10",
-      "ward_name_en": "Chaliyapram",
-      "ward_name_ml": "ചാലിയപ്രം"
+      "name_en": "Chaliyapram",
+      "name_ml": "ചാലിയപ്രം"
     },
     {
-      "ward_id": "33acec9c-5373-4f40-9d0f-e2bad1f62c29",
+      "id": "33acec9c-5373-4f40-9d0f-e2bad1f62c29",
       "ward_no": "11",
-      "ward_name_en": "Edavannappara",
-      "ward_name_ml": "എടവണ്ണപ്പാറ"
+      "name_en": "Edavannappara",
+      "name_ml": "എടവണ്ണപ്പാറ"
     },
     {
-      "ward_id": "3b91a4c5-fff4-42c7-a045-f06763e841ce",
+      "id": "3b91a4c5-fff4-42c7-a045-f06763e841ce",
       "ward_no": "12",
-      "ward_name_en": "Vattapara",
-      "ward_name_ml": "വട്ടപ്പാറ"
+      "name_en": "Vattapara",
+      "name_ml": "വട്ടപ്പാറ"
     },
     {
-      "ward_id": "00b016eb-b2c4-4909-994a-55b166733f01",
+      "id": "00b016eb-b2c4-4909-994a-55b166733f01",
       "ward_no": "13",
-      "ward_name_en": "Panikkarapuraya",
-      "ward_name_ml": "പണിക്കരപുറായ"
+      "name_en": "Panikkarapuraya",
+      "name_ml": "പണിക്കരപുറായ"
     },
     {
-      "ward_id": "317b0a76-3257-471d-9954-5f9a06cf3e92",
+      "id": "317b0a76-3257-471d-9954-5f9a06cf3e92",
       "ward_no": "14",
-      "ward_name_en": "Cheruvayoor",
-      "ward_name_ml": "ചെറുവായൂര്‍"
+      "name_en": "Cheruvayoor",
+      "name_ml": "ചെറുവായൂര്‍"
     },
     {
-      "ward_id": "1581ec73-5776-4ac6-93e9-5ae1cdba6d29",
+      "id": "1581ec73-5776-4ac6-93e9-5ae1cdba6d29",
       "ward_no": "15",
-      "ward_name_en": "Kannathumpara",
-      "ward_name_ml": "കണ്ണത്തുംപാറ"
+      "name_en": "Kannathumpara",
+      "name_ml": "കണ്ണത്തുംപാറ"
     },
     {
-      "ward_id": "6bf3ed14-1676-4946-a000-8a2fa78eba33",
+      "id": "6bf3ed14-1676-4946-a000-8a2fa78eba33",
       "ward_no": "16",
-      "ward_name_en": "Cheeni Bazar",
-      "ward_name_ml": "ചീനി ബസാര്‍"
+      "name_en": "Cheeni Bazar",
+      "name_ml": "ചീനി ബസാര്‍"
     },
     {
-      "ward_id": "1139d9c3-3c81-437e-96cd-a253d49f7f02",
+      "id": "1139d9c3-3c81-437e-96cd-a253d49f7f02",
       "ward_no": "17",
-      "ward_name_en": "Noonchikkara",
-      "ward_name_ml": "നൂഞ്ഞിക്കര"
+      "name_en": "Noonchikkara",
+      "name_ml": "നൂഞ്ഞിക്കര"
     },
     {
-      "ward_id": "58a347be-4d30-4e4d-9866-37c60adcbbf1",
+      "id": "58a347be-4d30-4e4d-9866-37c60adcbbf1",
       "ward_no": "18",
-      "ward_name_en": "Ananthayoor",
-      "ward_name_ml": "അനന്തായൂര്‍"
+      "name_en": "Ananthayoor",
+      "name_ml": "അനന്തായൂര്‍"
     },
     {
-      "ward_id": "457ac4c0-a821-4cc4-883a-5f23f77f7cd5",
+      "id": "457ac4c0-a821-4cc4-883a-5f23f77f7cd5",
       "ward_no": "19",
-      "ward_name_en": "Choorapatta",
-      "ward_name_ml": "ചൂരപ്പട്ട"
+      "name_en": "Choorapatta",
+      "name_ml": "ചൂരപ്പട്ട"
     }
   ],
   "towns": [],

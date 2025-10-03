@@ -1,154 +1,165 @@
 {
-  "local_body_id": "G100508",
-  "local_body_name_en": "Edavanna",
-  "local_body_name_ml": "എടവണ്ണ",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G100508",
+  "name_en": "Edavanna",
+  "name_ml": "എടവണ്ണ",
+  "assembly_id": "34",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "34",
-    "assembly_name_en": "Eranad",
-    "assembly_name_ml": "ഏറനാട്",
-    "category": "Normal"
+    "id": "34",
+    "name_en": "Eranad",
+    "name_ml": "ഏറനാട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "2fb5214f-58a9-45b2-aaed-1addf6b94dcb",
+      "id": "2fb5214f-58a9-45b2-aaed-1addf6b94dcb",
       "ward_no": "1",
-      "ward_name_en": "Padinjare Chathalloor",
-      "ward_name_ml": "പടിഞ്ഞാറെ ചാത്തല്ലൂൂര്‍"
+      "name_en": "Padinjare Chathalloor",
+      "name_ml": "പടിഞ്ഞാറെ ചാത്തല്ലൂൂര്‍"
     },
     {
-      "ward_id": "6f41485c-da64-4c60-b3d2-912854481f78",
+      "id": "6f41485c-da64-4c60-b3d2-912854481f78",
       "ward_no": "2",
-      "ward_name_en": "Kizhakke Chathalloor",
-      "ward_name_ml": "കിഴക്കെ ചാത്തല്ലൂൂര്‍"
+      "name_en": "Kizhakke Chathalloor",
+      "name_ml": "കിഴക്കെ ചാത്തല്ലൂൂര്‍"
     },
     {
-      "ward_id": "669c90bc-741e-4d58-8475-c134ea9c295a",
+      "id": "669c90bc-741e-4d58-8475-c134ea9c295a",
       "ward_no": "3",
-      "ward_name_en": "Pulliyilpara",
-      "ward_name_ml": "പുള്ളിയില്‍പാറ"
+      "name_en": "Pulliyilpara",
+      "name_ml": "പുള്ളിയില്‍പാറ"
     },
     {
-      "ward_id": "818cc70f-b920-4f35-9fb6-8067a84181fe",
+      "id": "818cc70f-b920-4f35-9fb6-8067a84181fe",
       "ward_no": "4",
-      "ward_name_en": "Kolappad",
-      "ward_name_ml": "കോളപ്പാട്"
+      "name_en": "Kolappad",
+      "name_ml": "കോളപ്പാട്"
     },
     {
-      "ward_id": "b28c0359-3ea5-403c-89a6-1e4f265f77c7",
+      "id": "b28c0359-3ea5-403c-89a6-1e4f265f77c7",
       "ward_no": "5",
-      "ward_name_en": "Mundengara",
-      "ward_name_ml": "മുണ്ടേങ്ങര"
+      "name_en": "Mundengara",
+      "name_ml": "മുണ്ടേങ്ങര"
     },
     {
-      "ward_id": "7f1f1c1a-e760-4c4b-a54c-c93f86a288b2",
+      "id": "7f1f1c1a-e760-4c4b-a54c-c93f86a288b2",
       "ward_no": "6",
-      "ward_name_en": "Kunduthode",
-      "ward_name_ml": "കുണ്ടുതോട്"
+      "name_en": "Kunduthode",
+      "name_ml": "കുണ്ടുതോട്"
     },
     {
-      "ward_id": "04ebada6-90fa-47fd-85c6-4695f682c88e",
+      "id": "04ebada6-90fa-47fd-85c6-4695f682c88e",
       "ward_no": "7",
-      "ward_name_en": "Chalippadam",
-      "ward_name_ml": "ചളിപ്പാടം"
+      "name_en": "Chalippadam",
+      "name_ml": "ചളിപ്പാടം"
     },
     {
-      "ward_id": "ab85ec90-4b3a-4800-9b25-b7166b75d991",
+      "id": "ab85ec90-4b3a-4800-9b25-b7166b75d991",
       "ward_no": "8",
-      "ward_name_en": "Chembakuth",
-      "ward_name_ml": "ചെമ്പക്കുത്ത്"
+      "name_en": "Chembakuth",
+      "name_ml": "ചെമ്പക്കുത്ത്"
     },
     {
-      "ward_id": "5f9899ce-09d4-4c93-929e-3449fd3ab57a",
+      "id": "5f9899ce-09d4-4c93-929e-3449fd3ab57a",
       "ward_no": "9",
-      "ward_name_en": "Edavanna East",
-      "ward_name_ml": "എടവണ്ണ ഈസ്റ്റ്"
+      "name_en": "Edavanna East",
+      "name_ml": "എടവണ്ണ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "b911fa7f-7b90-4260-9b1c-e30e9fb23298",
+      "id": "b911fa7f-7b90-4260-9b1c-e30e9fb23298",
       "ward_no": "10",
-      "ward_name_en": "Edavanna West",
-      "ward_name_ml": "എടവണ്ണ  വെസ്റ്റ്"
+      "name_en": "Edavanna West",
+      "name_ml": "എടവണ്ണ  വെസ്റ്റ്"
     },
     {
-      "ward_id": "6b2641b1-ac04-42ab-b8a7-89281131e5ef",
+      "id": "6b2641b1-ac04-42ab-b8a7-89281131e5ef",
       "ward_no": "11",
-      "ward_name_en": "Kunnummal",
-      "ward_name_ml": "കുന്നുമ്മല്‍"
+      "name_en": "Kunnummal",
+      "name_ml": "കുന്നുമ്മല്‍"
     },
     {
-      "ward_id": "83b59bca-01a2-4264-82ad-1b4096c8f496",
+      "id": "83b59bca-01a2-4264-82ad-1b4096c8f496",
       "ward_no": "12",
-      "ward_name_en": "Pathappiriyam",
-      "ward_name_ml": "പത്തപ്പിരിയം"
+      "name_en": "Pathappiriyam",
+      "name_ml": "പത്തപ്പിരിയം"
     },
     {
-      "ward_id": "b4014bd1-2f44-49ab-9a1d-b7c00b5a3b8b",
+      "id": "b4014bd1-2f44-49ab-9a1d-b7c00b5a3b8b",
       "ward_no": "13",
-      "ward_name_en": "Ainthoor",
-      "ward_name_ml": "ഐന്തൂര്‍"
+      "name_en": "Ainthoor",
+      "name_ml": "ഐന്തൂര്‍"
     },
     {
-      "ward_id": "e3a00aa6-082c-4144-9ba5-cd301ff2dc12",
+      "id": "e3a00aa6-082c-4144-9ba5-cd301ff2dc12",
       "ward_no": "14",
-      "ward_name_en": "Pandiyad",
-      "ward_name_ml": "പാണ്ട്യാട്"
+      "name_en": "Pandiyad",
+      "name_ml": "പാണ്ട്യാട്"
     },
     {
-      "ward_id": "240dd528-046f-49bf-b87a-8ed70167f3eb",
+      "id": "240dd528-046f-49bf-b87a-8ed70167f3eb",
       "ward_no": "15",
-      "ward_name_en": "Ezhukalari",
-      "ward_name_ml": "ഏഴുകളരി"
+      "name_en": "Ezhukalari",
+      "name_ml": "ഏഴുകളരി"
     },
     {
-      "ward_id": "4b18b994-a48f-45be-b749-405a3f3e1a7d",
+      "id": "4b18b994-a48f-45be-b749-405a3f3e1a7d",
       "ward_no": "16",
-      "ward_name_en": "Kalppalam",
-      "ward_name_ml": "കല്‍പ്പാലം"
+      "name_en": "Kalppalam",
+      "name_ml": "കല്‍പ്പാലം"
     },
     {
-      "ward_id": "1dd23f27-2bdf-496f-830c-ca3dedaad0de",
+      "id": "1dd23f27-2bdf-496f-830c-ca3dedaad0de",
       "ward_no": "17",
-      "ward_name_en": "Thuvvakkad",
-      "ward_name_ml": "തൂവ്വക്കാട്"
+      "name_en": "Thuvvakkad",
+      "name_ml": "തൂവ്വക്കാട്"
     },
     {
-      "ward_id": "f514f6a5-256b-4546-8fcc-899efe309de2",
+      "id": "f514f6a5-256b-4546-8fcc-899efe309de2",
       "ward_no": "18",
-      "ward_name_en": "Pannippara",
-      "ward_name_ml": "പന്നിപ്പാറ"
+      "name_en": "Pannippara",
+      "name_ml": "പന്നിപ്പാറ"
     },
     {
-      "ward_id": "8c81f18d-c273-4547-88e4-499cbf35c48c",
+      "id": "8c81f18d-c273-4547-88e4-499cbf35c48c",
       "ward_no": "19",
-      "ward_name_en": "Pannippara East",
-      "ward_name_ml": "പന്നിപ്പാറ ഈസ്റ്റ്"
+      "name_en": "Pannippara East",
+      "name_ml": "പന്നിപ്പാറ ഈസ്റ്റ്"
     },
     {
-      "ward_id": "73345859-e083-4f91-9a6d-79d4d72bc3eb",
+      "id": "73345859-e083-4f91-9a6d-79d4d72bc3eb",
       "ward_no": "20",
-      "ward_name_en": "Palapatta",
-      "ward_name_ml": "പാലപ്പറ്റ"
+      "name_en": "Palapatta",
+      "name_ml": "പാലപ്പറ്റ"
     },
     {
-      "ward_id": "615ae643-b2db-405f-bc2f-6d27ab921d65",
+      "id": "615ae643-b2db-405f-bc2f-6d27ab921d65",
       "ward_no": "21",
-      "ward_name_en": "Kallidumbu",
-      "ward_name_ml": "കല്ലിടുമ്പ്"
+      "name_en": "Kallidumbu",
+      "name_ml": "കല്ലിടുമ്പ്"
     },
     {
-      "ward_id": "1e7e609d-edda-428c-b29d-0b0eecb307cd",
+      "id": "1e7e609d-edda-428c-b29d-0b0eecb307cd",
       "ward_no": "22",
-      "ward_name_en": "Othayi",
-      "ward_name_ml": "ഒതായി"
+      "name_en": "Othayi",
+      "name_ml": "ഒതായി"
     }
   ],
   "towns": [],

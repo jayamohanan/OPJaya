@@ -1,62 +1,83 @@
 {
-  "assembly_id": "136",
-  "assembly_name_en": "Aruvikkara",
-  "assembly_name_ml": "അരുവിക്കര",
-  "category": "Normal",
+  "id": "136",
+  "name_en": "Aruvikkara",
+  "name_ml": "അരുവിക്കര",
+  "district_id": "1",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "1",
-    "district_name_en": "Thiruvananthapuram",
-    "district_name_ml": "തിരുവനന്തപുരം",
-    "district_category": "Normal"
+    "id": "1",
+    "name_en": "Thiruvananthapuram",
+    "name_ml": "തിരുവനന്തപുരം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G010602",
-      "local_body_name_en": "Aruvikkara",
-      "local_body_name_ml": "അരുവിക്കര",
-      "category": "Perfect"
+      "id": "G010602",
+      "name_en": "Aruvikkara",
+      "name_ml": "അരുവിക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010501",
-      "local_body_name_en": "Aryanad",
-      "local_body_name_ml": "ആര്യനാട്",
-      "category": "Good"
+      "id": "G010501",
+      "name_en": "Aryanad",
+      "name_ml": "ആര്യനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010506",
-      "local_body_name_en": "Kuttichal",
-      "local_body_name_ml": "കുറ്റിച്ചല്‍",
-      "category": "Good"
+      "id": "G010506",
+      "name_en": "Kuttichal",
+      "name_ml": "കുറ്റിച്ചല്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010502",
-      "local_body_name_en": "Poovachal",
-      "local_body_name_ml": "പൂവച്ചല്‍",
-      "category": "Perfect"
+      "id": "G010502",
+      "name_en": "Poovachal",
+      "name_ml": "പൂവച്ചല്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010507",
-      "local_body_name_en": "Tholicode",
-      "local_body_name_ml": "തൊളിക്കോട്",
-      "category": "Perfect"
+      "id": "G010507",
+      "name_en": "Tholicode",
+      "name_ml": "തൊളിക്കോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G010505",
-      "local_body_name_en": "Uzhamalakkal",
-      "local_body_name_ml": "ഉഴമലയ്ക്കല്‍",
-      "category": "Normal"
+      "id": "G010505",
+      "name_en": "Uzhamalakkal",
+      "name_ml": "ഉഴമലയ്ക്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G010503",
-      "local_body_name_en": "Vellanad",
-      "local_body_name_ml": "വെള്ളനാട്",
-      "category": "Good"
+      "id": "G010503",
+      "name_en": "Vellanad",
+      "name_ml": "വെള്ളനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G010504",
-      "local_body_name_en": "Vithura",
-      "local_body_name_ml": "വിതുര",
-      "category": "Good"
+      "id": "G010504",
+      "name_en": "Vithura",
+      "name_ml": "വിതുര",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

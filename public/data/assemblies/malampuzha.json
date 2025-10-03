@@ -1,62 +1,83 @@
 {
-  "assembly_id": "55",
-  "assembly_name_en": "Malampuzha",
-  "assembly_name_ml": "മലമ്പുഴ",
-  "category": "Normal",
+  "id": "55",
+  "name_en": "Malampuzha",
+  "name_ml": "മലമ്പുഴ",
+  "district_id": "9",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "district_category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G090906",
-      "local_body_name_en": "Elappully",
-      "local_body_name_ml": "എലപ്പുള്ളി",
-      "category": "Normal"
+      "id": "G090906",
+      "name_en": "Elappully",
+      "name_ml": "എലപ്പുള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G091306",
-      "local_body_name_en": "Kodumbu",
-      "local_body_name_ml": "കൊടുമ്പ്",
-      "category": "Normal"
+      "id": "G091306",
+      "name_en": "Kodumbu",
+      "name_ml": "കൊടുമ്പ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G091302",
-      "local_body_name_en": "Malampuzha",
-      "local_body_name_ml": "മലമ്പുഴ",
-      "category": "Good"
+      "id": "G091302",
+      "name_en": "Malampuzha",
+      "name_ml": "മലമ്പുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091303",
-      "local_body_name_en": "Marutharode",
-      "local_body_name_ml": "മരുതറോഡ്",
-      "category": "Normal"
+      "id": "G091303",
+      "name_en": "Marutharode",
+      "name_ml": "മരുതറോഡ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G090705",
-      "local_body_name_en": "Mundur",
-      "local_body_name_ml": "മുണ്ടൂര്‍",
-      "category": "Good"
+      "id": "G090705",
+      "name_en": "Mundur",
+      "name_ml": "മുണ്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091304",
-      "local_body_name_en": "Puduppariyaram",
-      "local_body_name_ml": "പുതുപ്പരിയാരം",
-      "category": "Good"
+      "id": "G091304",
+      "name_en": "Puduppariyaram",
+      "name_ml": "പുതുപ്പരിയാരം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G091305",
-      "local_body_name_en": "Pudusseri",
-      "local_body_name_ml": "പുതുശ്ശേരി",
-      "category": "Normal"
+      "id": "G091305",
+      "name_en": "Pudusseri",
+      "name_ml": "പുതുശ്ശേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G091301",
-      "local_body_name_en": "Akathethara",
-      "local_body_name_ml": "അകത്തേത്തറ",
-      "category": "Normal"
+      "id": "G091301",
+      "name_en": "Akathethara",
+      "name_ml": "അകത്തേത്തറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

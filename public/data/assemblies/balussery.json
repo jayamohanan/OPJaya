@@ -1,68 +1,91 @@
 {
-  "assembly_id": "25",
-  "assembly_name_en": "Balussery",
-  "assembly_name_ml": "ബാലുശ്ശേരി",
-  "category": "Normal",
+  "id": "25",
+  "name_en": "Balussery",
+  "name_ml": "ബാലുശ്ശേരി",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110805",
-      "local_body_name_en": "Atholi",
-      "local_body_name_ml": "അത്തോളി",
-      "category": "Perfect"
+      "id": "G110805",
+      "name_en": "Atholi",
+      "name_ml": "അത്തോളി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110701",
-      "local_body_name_en": "Balussery",
-      "local_body_name_ml": "ബാലുശ്ശേരി",
-      "category": "Good"
+      "id": "G110701",
+      "name_en": "Balussery",
+      "name_ml": "ബാലുശ്ശേരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110604",
-      "local_body_name_en": "Kayanna",
-      "local_body_name_ml": "കായണ്ണ",
-      "category": "Good"
+      "id": "G110604",
+      "name_en": "Kayanna",
+      "name_ml": "കായണ്ണ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110707",
-      "local_body_name_en": "Koorachundu",
-      "local_body_name_ml": "കൂരാച്ചുണ്ട്",
-      "category": "Good"
+      "id": "G110707",
+      "name_en": "Koorachundu",
+      "name_ml": "കൂരാച്ചുണ്ട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110704",
-      "local_body_name_en": "Kottur",
-      "local_body_name_ml": "കോട്ടൂര്‍",
-      "category": "Good"
+      "id": "G110704",
+      "name_en": "Kottur",
+      "name_ml": "കോട്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110702",
-      "local_body_name_en": "Naduvannur",
-      "local_body_name_ml": "നടുവണ്ണൂര്‍",
-      "category": "Normal"
+      "id": "G110702",
+      "name_en": "Naduvannur",
+      "name_ml": "നടുവണ്ണൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110706",
-      "local_body_name_en": "Panangad",
-      "local_body_name_ml": "പനങ്ങാട്",
-      "category": "Normal"
+      "id": "G110706",
+      "name_en": "Panangad",
+      "name_ml": "പനങ്ങാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110703",
-      "local_body_name_en": "Ulliyeri",
-      "local_body_name_ml": "ഉള്ളിയേരി",
-      "category": "Perfect"
+      "id": "G110703",
+      "name_en": "Ulliyeri",
+      "name_ml": "ഉള്ളിയേരി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110705",
-      "local_body_name_en": "Unnikulum",
-      "local_body_name_ml": "ഉണ്ണികുളം",
-      "category": "Normal"
+      "id": "G110705",
+      "name_en": "Unnikulum",
+      "name_ml": "ഉണ്ണികുളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

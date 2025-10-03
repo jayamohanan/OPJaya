@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G051004",
-  "local_body_name_en": "Vellavoor",
-  "local_body_name_ml": "വെള്ളാവൂര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "100",
-    "assembly_name_en": "Kanjirappally",
-    "assembly_name_ml": "കാഞ്ഞിരപ്പള്ളി",
+  "id": "G051004",
+  "name_en": "Vellavoor",
+  "name_ml": "വെള്ളാവൂര്‍",
+  "assembly_id": "100",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "100",
+    "name_en": "Kanjirappally",
+    "name_ml": "കാഞ്ഞിരപ്പള്ളി",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "b6e11f2a-9a8a-47f3-a4d9-7f4372c37cef",
+      "id": "b6e11f2a-9a8a-47f3-a4d9-7f4372c37cef",
       "ward_no": "1",
-      "ward_name_en": "Kadamkulam",
-      "ward_name_ml": "കാടംകുളം"
+      "name_en": "Kadamkulam",
+      "name_ml": "കാടംകുളം"
     },
     {
-      "ward_id": "b3865f24-3039-44a4-b8b1-15d471cb3f66",
+      "id": "b3865f24-3039-44a4-b8b1-15d471cb3f66",
       "ward_no": "2",
-      "ward_name_en": "Pottukulam",
-      "ward_name_ml": "പൊട്ടുകുളം"
+      "name_en": "Pottukulam",
+      "name_ml": "പൊട്ടുകുളം"
     },
     {
-      "ward_id": "0078fe23-5286-4b10-a3ca-deb925e252f0",
+      "id": "0078fe23-5286-4b10-a3ca-deb925e252f0",
       "ward_no": "3",
-      "ward_name_en": "Kadayanikkadu",
-      "ward_name_ml": "കടയനിക്കാട്"
+      "name_en": "Kadayanikkadu",
+      "name_ml": "കടയനിക്കാട്"
     },
     {
-      "ward_id": "666bd691-9760-45ba-819d-a4175946cdfa",
+      "id": "666bd691-9760-45ba-819d-a4175946cdfa",
       "ward_no": "4",
-      "ward_name_en": "Parackkadu",
-      "ward_name_ml": "പാറയ്ക്കാട്"
+      "name_en": "Parackkadu",
+      "name_ml": "പാറയ്ക്കാട്"
     },
     {
-      "ward_id": "a71d696e-848a-472d-86a3-8913782d1d81",
+      "id": "a71d696e-848a-472d-86a3-8913782d1d81",
       "ward_no": "5",
-      "ward_name_en": "Kulathunkal",
-      "ward_name_ml": "കുളത്തുങ്കല്‍"
+      "name_en": "Kulathunkal",
+      "name_ml": "കുളത്തുങ്കല്‍"
     },
     {
-      "ward_id": "87d15b51-683b-4550-aef1-d937a64b8920",
+      "id": "87d15b51-683b-4550-aef1-d937a64b8920",
       "ward_no": "6",
-      "ward_name_en": "Manimala Town",
-      "ward_name_ml": "മണിമല ടൌണ്‍"
+      "name_en": "Manimala Town",
+      "name_ml": "മണിമല ടൌണ്‍"
     },
     {
-      "ward_id": "cc16acd1-cd4c-4fcd-9843-8b062783ec92",
+      "id": "cc16acd1-cd4c-4fcd-9843-8b062783ec92",
       "ward_no": "7",
-      "ward_name_en": "Kunnumbhagam",
-      "ward_name_ml": "കുന്നുംഭാഗം"
+      "name_en": "Kunnumbhagam",
+      "name_ml": "കുന്നുംഭാഗം"
     },
     {
-      "ward_id": "03748052-4ed1-45f6-b3ac-ef0caaccf739",
+      "id": "03748052-4ed1-45f6-b3ac-ef0caaccf739",
       "ward_no": "8",
-      "ward_name_en": "Malampara",
-      "ward_name_ml": "മലമ്പാറ"
+      "name_en": "Malampara",
+      "name_ml": "മലമ്പാറ"
     },
     {
-      "ward_id": "35390072-f60a-439b-a758-4cfec5feaf99",
+      "id": "35390072-f60a-439b-a758-4cfec5feaf99",
       "ward_no": "9",
-      "ward_name_en": "Ambedkar",
-      "ward_name_ml": "അംബേദ്കര്‍"
+      "name_en": "Ambedkar",
+      "name_ml": "അംബേദ്കര്‍"
     },
     {
-      "ward_id": "3fe9e8bd-11ff-44cd-8c12-4a9a8bebb63c",
+      "id": "3fe9e8bd-11ff-44cd-8c12-4a9a8bebb63c",
       "ward_no": "10",
-      "ward_name_en": "Erathuvadakara",
-      "ward_name_ml": "ഏറത്തുവടകര"
+      "name_en": "Erathuvadakara",
+      "name_ml": "ഏറത്തുവടകര"
     },
     {
-      "ward_id": "b48779de-6a84-4a07-ba4c-c729b760adf9",
+      "id": "b48779de-6a84-4a07-ba4c-c729b760adf9",
       "ward_no": "11",
-      "ward_name_en": "Vellavoor",
-      "ward_name_ml": "വെള്ളാവൂര്‍"
+      "name_en": "Vellavoor",
+      "name_ml": "വെള്ളാവൂര്‍"
     },
     {
-      "ward_id": "8c4c6c6a-5806-46a4-a4c0-3f1d9b6986c3",
+      "id": "8c4c6c6a-5806-46a4-a4c0-3f1d9b6986c3",
       "ward_no": "12",
-      "ward_name_en": "Thazhathuvadakara",
-      "ward_name_ml": "താഴത്തുവടകര"
+      "name_en": "Thazhathuvadakara",
+      "name_ml": "താഴത്തുവടകര"
     },
     {
-      "ward_id": "18b4c5ba-3755-4663-9a80-a3c89acdb9d0",
+      "id": "18b4c5ba-3755-4663-9a80-a3c89acdb9d0",
       "ward_no": "13",
-      "ward_name_en": "Kulathoormoozhy",
-      "ward_name_ml": "കുളത്തൂര്‍മൂഴി"
+      "name_en": "Kulathoormoozhy",
+      "name_ml": "കുളത്തൂര്‍മൂഴി"
     }
   ],
   "towns": [],

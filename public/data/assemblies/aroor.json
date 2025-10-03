@@ -1,74 +1,99 @@
 {
-  "assembly_id": "102",
-  "assembly_name_en": "Aroor",
-  "assembly_name_ml": "അരൂർ",
-  "category": "Normal",
+  "id": "102",
+  "name_en": "Aroor",
+  "name_ml": "അരൂർ",
+  "district_id": "4",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "district_category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G040101",
-      "local_body_name_en": "Arookutty",
-      "local_body_name_ml": "അരൂക്കുറ്റി",
-      "category": "Good"
+      "id": "G040101",
+      "name_en": "Arookutty",
+      "name_ml": "അരൂക്കുറ്റി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040207",
-      "local_body_name_en": "Aroor",
-      "local_body_name_ml": "അരൂര്‍",
-      "category": "Perfect"
+      "id": "G040207",
+      "name_en": "Aroor",
+      "name_ml": "അരൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040102",
-      "local_body_name_en": "Chennam Pallippuram",
-      "local_body_name_ml": "ചേന്നം പള്ളിപ്പുറം",
-      "category": "Good"
+      "id": "G040102",
+      "name_en": "Chennam Pallippuram",
+      "name_ml": "ചേന്നം പള്ളിപ്പുറം",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040206",
-      "local_body_name_en": "Ezhupunna",
-      "local_body_name_ml": "എഴുപുന്ന",
-      "category": "Good"
+      "id": "G040206",
+      "name_en": "Ezhupunna",
+      "name_ml": "എഴുപുന്ന",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G040205",
-      "local_body_name_en": "Kodamthuruth",
-      "local_body_name_ml": "കോടംതുരുത്ത്",
-      "category": "Perfect"
+      "id": "G040205",
+      "name_en": "Kodamthuruth",
+      "name_ml": "കോടംതുരുത്ത്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040204",
-      "local_body_name_en": "Kuthiathod",
-      "local_body_name_ml": "കുത്തിയതോട്",
-      "category": "Perfect"
+      "id": "G040204",
+      "name_en": "Kuthiathod",
+      "name_ml": "കുത്തിയതോട്",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040103",
-      "local_body_name_en": "Panavally",
-      "local_body_name_ml": "പാണാവള്ളി",
-      "category": "Perfect"
+      "id": "G040103",
+      "name_en": "Panavally",
+      "name_ml": "പാണാവള്ളി",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G040104",
-      "local_body_name_en": "Perumpalam",
-      "local_body_name_ml": "പെരുമ്പളം",
-      "category": "Normal"
+      "id": "G040104",
+      "name_en": "Perumpalam",
+      "name_ml": "പെരുമ്പളം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040203",
-      "local_body_name_en": "Thuravoor",
-      "local_body_name_ml": "തുറവൂര്‍",
-      "category": "Normal"
+      "id": "G040203",
+      "name_en": "Thuravoor",
+      "name_ml": "തുറവൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G040105",
-      "local_body_name_en": "Thycattussery",
-      "local_body_name_ml": "തൈക്കാട്ടുശ്ശേരി",
-      "category": "Normal"
+      "id": "G040105",
+      "name_en": "Thycattussery",
+      "name_ml": "തൈക്കാട്ടുശ്ശേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

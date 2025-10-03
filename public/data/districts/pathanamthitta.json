@@ -1,39 +1,51 @@
 {
-  "district_id": "3",
-  "district_name_en": "Pathanamthitta",
-  "district_name_ml": "പത്തനംതിട്ട",
+  "id": "3",
+  "name_en": "Pathanamthitta",
+  "name_ml": "പത്തനംതിട്ട",
   "is_active": true,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "111",
-      "assembly_name_en": "Thiruvalla",
-      "assembly_name_ml": "തിരുവല്ല",
-      "category": "Normal"
+      "id": "111",
+      "name_en": "Thiruvalla",
+      "name_ml": "തിരുവല്ല",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "112",
-      "assembly_name_en": "Ranni",
-      "assembly_name_ml": "റാന്നി",
-      "category": "Normal"
+      "id": "112",
+      "name_en": "Ranni",
+      "name_ml": "റാന്നി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "113",
-      "assembly_name_en": "Aranmula",
-      "assembly_name_ml": "ആറന്മുള",
-      "category": "Normal"
+      "id": "113",
+      "name_en": "Aranmula",
+      "name_ml": "ആറന്മുള",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "114",
-      "assembly_name_en": "Konni",
-      "assembly_name_ml": "കോന്നി",
-      "category": "Normal"
+      "id": "114",
+      "name_en": "Konni",
+      "name_ml": "കോന്നി",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "115",
-      "assembly_name_en": "Adoor",
-      "assembly_name_ml": "അടൂർ",
-      "category": "Normal"
+      "id": "115",
+      "name_en": "Adoor",
+      "name_ml": "അടൂർ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

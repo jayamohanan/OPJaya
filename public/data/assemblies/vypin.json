@@ -1,62 +1,83 @@
 {
-  "assembly_id": "79",
-  "assembly_name_en": "Vypin",
-  "assembly_name_ml": "വൈപ്പിൻ",
-  "category": "Normal",
+  "id": "79",
+  "name_en": "Vypin",
+  "name_ml": "വൈപ്പിൻ",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070703",
-      "local_body_name_en": "Edavanakkad",
-      "local_body_name_ml": "എടവനക്കാട്",
-      "category": "Normal"
+      "id": "G070703",
+      "name_en": "Edavanakkad",
+      "name_ml": "എടവനക്കാട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070604",
-      "local_body_name_en": "Elankunnapuzha",
-      "local_body_name_ml": "എളങ്കുന്നപ്പുഴ",
-      "category": "Good"
+      "id": "G070604",
+      "name_en": "Elankunnapuzha",
+      "name_ml": "എളങ്കുന്നപ്പുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G070601",
-      "local_body_name_en": "Kadamakudy",
-      "local_body_name_ml": "കടമക്കുടി",
-      "category": "Normal"
+      "id": "G070601",
+      "name_en": "Kadamakudy",
+      "name_ml": "കടമക്കുടി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070705",
-      "local_body_name_en": "Kuzhuppilly",
-      "local_body_name_ml": "കുഴുപ്പിള്ളി",
-      "category": "Good"
+      "id": "G070705",
+      "name_en": "Kuzhuppilly",
+      "name_ml": "കുഴുപ്പിള്ളി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G070603",
-      "local_body_name_en": "Mulavukad",
-      "local_body_name_ml": "മുളവുകാട്",
-      "category": "Good"
+      "id": "G070603",
+      "name_en": "Mulavukad",
+      "name_ml": "മുളവുകാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G070701",
-      "local_body_name_en": "Narakal",
-      "local_body_name_ml": "ഞാറക്കല്‍",
-      "category": "Normal"
+      "id": "G070701",
+      "name_en": "Narakal",
+      "name_ml": "ഞാറക്കല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070702",
-      "local_body_name_en": "Nayarambalam",
-      "local_body_name_ml": "നായരമ്പലം",
-      "category": "Normal"
+      "id": "G070702",
+      "name_en": "Nayarambalam",
+      "name_ml": "നായരമ്പലം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070704",
-      "local_body_name_en": "Pallippuram",
-      "local_body_name_ml": "പള്ളിപ്പുറം",
-      "category": "Perfect"
+      "id": "G070704",
+      "name_en": "Pallippuram",
+      "name_ml": "പള്ളിപ്പുറം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

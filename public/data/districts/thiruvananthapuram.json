@@ -1,69 +1,91 @@
 {
-  "district_id": "1",
-  "district_name_en": "Thiruvananthapuram",
-  "district_name_ml": "തിരുവനന്തപുരം",
+  "id": "1",
+  "name_en": "Thiruvananthapuram",
+  "name_ml": "തിരുവനന്തപുരം",
   "is_active": false,
-  "category": "Normal",
+  "district_category": {
+    "category": "Normal"
+  },
   "assemblies": [
     {
-      "assembly_id": "127",
-      "assembly_name_en": "Varkala",
-      "assembly_name_ml": "വർക്കല",
-      "category": "Normal"
+      "id": "127",
+      "name_en": "Varkala",
+      "name_ml": "വർക്കല",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "128",
-      "assembly_name_en": "Attingal",
-      "assembly_name_ml": "ആറ്റിങ്ങൽ",
-      "category": "Normal"
+      "id": "128",
+      "name_en": "Attingal",
+      "name_ml": "ആറ്റിങ്ങൽ",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "129",
-      "assembly_name_en": "Chirayinkeezhu",
-      "assembly_name_ml": "ചിറയിൻകീഴ്",
-      "category": "Normal"
+      "id": "129",
+      "name_en": "Chirayinkeezhu",
+      "name_ml": "ചിറയിൻകീഴ്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "130",
-      "assembly_name_en": "Nedumangad",
-      "assembly_name_ml": "നെടുമങ്ങാട്",
-      "category": "Normal"
+      "id": "130",
+      "name_en": "Nedumangad",
+      "name_ml": "നെടുമങ്ങാട്",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "131",
-      "assembly_name_en": "Vamanapuram",
-      "assembly_name_ml": "വാമനപുരം",
-      "category": "Normal"
+      "id": "131",
+      "name_en": "Vamanapuram",
+      "name_ml": "വാമനപുരം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "136",
-      "assembly_name_en": "Aruvikkara",
-      "assembly_name_ml": "അരുവിക്കര",
-      "category": "Normal"
+      "id": "136",
+      "name_en": "Aruvikkara",
+      "name_ml": "അരുവിക്കര",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "137",
-      "assembly_name_en": "Parassala",
-      "assembly_name_ml": "പാറശ്ശാല",
-      "category": "Normal"
+      "id": "137",
+      "name_en": "Parassala",
+      "name_ml": "പാറശ്ശാല",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "138",
-      "assembly_name_en": "Kattakkada",
-      "assembly_name_ml": "കാട്ടാക്കട",
-      "category": "Good"
+      "id": "138",
+      "name_en": "Kattakkada",
+      "name_ml": "കാട്ടാക്കട",
+      "assembly_category": {
+        "category": "Good"
+      }
     },
     {
-      "assembly_id": "139",
-      "assembly_name_en": "Kovalam",
-      "assembly_name_ml": "കോവളം",
-      "category": "Normal"
+      "id": "139",
+      "name_en": "Kovalam",
+      "name_ml": "കോവളം",
+      "assembly_category": {
+        "category": "Normal"
+      }
     },
     {
-      "assembly_id": "140",
-      "assembly_name_en": "Neyyattinkara",
-      "assembly_name_ml": "നെയ്യാറ്റിൻകര",
-      "category": "Normal"
+      "id": "140",
+      "name_en": "Neyyattinkara",
+      "name_ml": "നെയ്യാറ്റിൻകര",
+      "assembly_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

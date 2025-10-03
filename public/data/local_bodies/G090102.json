@@ -1,142 +1,153 @@
 {
-  "local_body_id": "G090102",
-  "local_body_name_en": "Chalissery",
-  "local_body_name_ml": "ചാലിശ്ശേരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G090102",
+  "name_en": "Chalissery",
+  "name_ml": "ചാലിശ്ശേരി",
+  "assembly_id": "49",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "49",
-    "assembly_name_en": "Thrithala",
-    "assembly_name_ml": "തൃത്താല",
-    "category": "Normal"
+    "id": "49",
+    "name_en": "Thrithala",
+    "name_ml": "തൃത്താല",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "49f11f77-4473-4e25-b5d7-845c7cc0014a",
+      "id": "49f11f77-4473-4e25-b5d7-845c7cc0014a",
       "ward_no": "1",
-      "ward_name_en": "Padattukunnu",
-      "ward_name_ml": "പടാട്ടുുകുന്ന്"
+      "name_en": "Padattukunnu",
+      "name_ml": "പടാട്ടുുകുന്ന്"
     },
     {
-      "ward_id": "4711f1d9-12c3-4d2a-8c78-e2b35472e0bf",
+      "id": "4711f1d9-12c3-4d2a-8c78-e2b35472e0bf",
       "ward_no": "2",
-      "ward_name_en": "Thanneercode",
-      "ward_name_ml": "തണ്ണീര്‍ക്കോട്"
+      "name_en": "Thanneercode",
+      "name_ml": "തണ്ണീര്‍ക്കോട്"
     },
     {
-      "ward_id": "f5385b57-9c62-4d01-89a7-294498319c05",
+      "id": "f5385b57-9c62-4d01-89a7-294498319c05",
       "ward_no": "3",
-      "ward_name_en": "Pattissery",
-      "ward_name_ml": "പട്ടിശ്ശേരി"
+      "name_en": "Pattissery",
+      "name_ml": "പട്ടിശ്ശേരി"
     },
     {
-      "ward_id": "505af6b2-a52a-4763-a616-8558495f403c",
+      "id": "505af6b2-a52a-4763-a616-8558495f403c",
       "ward_no": "4",
-      "ward_name_en": "Chowchery",
-      "ward_name_ml": "ചൌച്ചേരി"
+      "name_en": "Chowchery",
+      "name_ml": "ചൌച്ചേരി"
     },
     {
-      "ward_id": "e59daf6a-e193-4450-9c12-bb9c895b0db8",
+      "id": "e59daf6a-e193-4450-9c12-bb9c895b0db8",
       "ward_no": "5",
-      "ward_name_en": "Perumannur",
-      "ward_name_ml": "പെരുമണ്ണൂര്‍"
+      "name_en": "Perumannur",
+      "name_ml": "പെരുമണ്ണൂര്‍"
     },
     {
-      "ward_id": "33e25e59-5991-4f09-9a6c-600f4f7f9aa8",
+      "id": "33e25e59-5991-4f09-9a6c-600f4f7f9aa8",
       "ward_no": "6",
-      "ward_name_en": "Koottanad",
-      "ward_name_ml": "കൂറ്റനാട്"
+      "name_en": "Koottanad",
+      "name_ml": "കൂറ്റനാട്"
     },
     {
-      "ward_id": "204e00cc-3580-420c-83e7-4788580d79ea",
+      "id": "204e00cc-3580-420c-83e7-4788580d79ea",
       "ward_no": "7",
-      "ward_name_en": "Kunnathery",
-      "ward_name_ml": "കുന്നത്തേരി"
+      "name_en": "Kunnathery",
+      "name_ml": "കുന്നത്തേരി"
     },
     {
-      "ward_id": "b65e11f0-7e74-4aa0-8d0c-98c13762640c",
+      "id": "b65e11f0-7e74-4aa0-8d0c-98c13762640c",
       "ward_no": "8",
-      "ward_name_en": "Alikkara",
-      "ward_name_ml": "ആലിക്കര"
+      "name_en": "Alikkara",
+      "name_ml": "ആലിക്കര"
     },
     {
-      "ward_id": "b2eb39d6-c284-4a82-9063-8b924bce6a04",
+      "id": "b2eb39d6-c284-4a82-9063-8b924bce6a04",
       "ward_no": "9",
-      "ward_name_en": "Chalisseri Main Road",
-      "ward_name_ml": "ചാലിശ്ശേരി മെയിന്‍റോഡ്"
+      "name_en": "Chalisseri Main Road",
+      "name_ml": "ചാലിശ്ശേരി മെയിന്‍റോഡ്"
     },
     {
-      "ward_id": "434d8ddf-a068-479b-bd14-07d70b8063a1",
+      "id": "434d8ddf-a068-479b-bd14-07d70b8063a1",
       "ward_no": "10",
-      "ward_name_en": "Mayiladikunnu",
-      "ward_name_ml": "മയിലാടികുന്ന്"
+      "name_en": "Mayiladikunnu",
+      "name_ml": "മയിലാടികുന്ന്"
     },
     {
-      "ward_id": "1adae40a-d38f-4b41-a8c5-44a661d2a0e5",
+      "id": "1adae40a-d38f-4b41-a8c5-44a661d2a0e5",
       "ward_no": "11",
-      "ward_name_en": "Civil Station",
-      "ward_name_ml": "സിവില്‍സ്റ്റേഷന്‍"
+      "name_en": "Civil Station",
+      "name_ml": "സിവില്‍സ്റ്റേഷന്‍"
     },
     {
-      "ward_id": "53c7dfc1-cee3-4a10-85d4-323fc22ab57a",
+      "id": "53c7dfc1-cee3-4a10-85d4-323fc22ab57a",
       "ward_no": "12",
-      "ward_name_en": "Thekkekara",
-      "ward_name_ml": "തെക്കേക്കര"
+      "name_en": "Thekkekara",
+      "name_ml": "തെക്കേക്കര"
     },
     {
-      "ward_id": "93786580-afcb-46fc-8fec-eac27a05a2e0",
+      "id": "93786580-afcb-46fc-8fec-eac27a05a2e0",
       "ward_no": "13",
-      "ward_name_en": "Chalisseri Town",
-      "ward_name_ml": "ചാലിശ്ശേരി ടൌണ്‍"
+      "name_en": "Chalisseri Town",
+      "name_ml": "ചാലിശ്ശേരി ടൌണ്‍"
     },
     {
-      "ward_id": "a78dac2a-5d72-468e-b67c-e19c5e2bbaa7",
+      "id": "a78dac2a-5d72-468e-b67c-e19c5e2bbaa7",
       "ward_no": "14",
-      "ward_name_en": "Mukkilpeedika",
-      "ward_name_ml": "മുക്കില്‍പീടിക"
+      "name_en": "Mukkilpeedika",
+      "name_ml": "മുക്കില്‍പീടിക"
     },
     {
-      "ward_id": "2e47be65-38fe-4289-b6f9-75fbb9f9c241",
+      "id": "2e47be65-38fe-4289-b6f9-75fbb9f9c241",
       "ward_no": "15",
-      "ward_name_en": "Kavukkode",
-      "ward_name_ml": "കവുക്കോട്"
+      "name_en": "Kavukkode",
+      "name_ml": "കവുക്കോട്"
     }
   ],
   "towns": [
     {
-      "town_name_en": "Chalissery",
-      "town_name_ml": "ചാലിശ്ശേരി"
+      "name_en": "Chalissery",
+      "name_ml": "ചാലിശ്ശേരി"
     },
     {
-      "town_name_en": "Koonammoochi",
-      "town_name_ml": "കൂനംമൂച്ചി"
+      "name_en": "Koonammoochi",
+      "name_ml": "കൂനംമൂച്ചി"
     },
     {
-      "town_name_en": "Thannnerkode",
-      "town_name_ml": "തണ്ണീർക്കോട്"
+      "name_en": "Thannnerkode",
+      "name_ml": "തണ്ണീർക്കോട്"
     },
     {
-      "town_name_en": "Mukkootta",
-      "town_name_ml": "മുക്കൂട്ട"
+      "name_en": "Mukkootta",
+      "name_ml": "മുക്കൂട്ട"
     },
     {
-      "town_name_en": "Perumannoor",
-      "town_name_ml": "പെരുമണ്ണൂർ"
+      "name_en": "Perumannoor",
+      "name_ml": "പെരുമണ്ണൂർ"
     },
     {
-      "town_name_en": "Pallangattuchira",
-      "town_name_ml": "പള്ളങ്ങാട്ടുചിറ"
+      "name_en": "Pallangattuchira",
+      "name_ml": "പള്ളങ്ങാട്ടുചിറ"
     },
     {
-      "town_name_en": "Arakkal-chalissery",
-      "town_name_ml": "അറക്കൽ-ചാലിശ്ശേരി"
+      "name_en": "Arakkal-chalissery",
+      "name_ml": "അറക്കൽ-ചാലിശ്ശേരി"
     }
   ],
   "issues": {

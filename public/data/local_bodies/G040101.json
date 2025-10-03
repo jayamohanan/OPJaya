@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G040101",
-  "local_body_name_en": "Arookutty",
-  "local_body_name_ml": "അരൂക്കുറ്റി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G040101",
+  "name_en": "Arookutty",
+  "name_ml": "അരൂക്കുറ്റി",
+  "assembly_id": "102",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "102",
-    "assembly_name_en": "Aroor",
-    "assembly_name_ml": "അരൂർ",
-    "category": "Normal"
+    "id": "102",
+    "name_en": "Aroor",
+    "name_ml": "അരൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "4",
-    "district_name_en": "Alappuzha",
-    "district_name_ml": "ആലപ്പുഴ",
-    "category": "Normal"
+    "id": "4",
+    "name_en": "Alappuzha",
+    "name_ml": "ആലപ്പുഴ",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "e1d736f4-09c1-4172-8cb9-9eb29a7f75d4",
+      "id": "e1d736f4-09c1-4172-8cb9-9eb29a7f75d4",
       "ward_no": "1",
-      "ward_name_en": "Mathanam",
-      "ward_name_ml": "മാത്താനം"
+      "name_en": "Mathanam",
+      "name_ml": "മാത്താനം"
     },
     {
-      "ward_id": "c7469801-04f3-4b5b-9f5d-a6484df82a38",
+      "id": "c7469801-04f3-4b5b-9f5d-a6484df82a38",
       "ward_no": "2",
-      "ward_name_en": "Office",
-      "ward_name_ml": "ആഫീസ്"
+      "name_en": "Office",
+      "name_ml": "ആഫീസ്"
     },
     {
-      "ward_id": "c306a26f-0a67-4db3-bc12-5bd446e3ff49",
+      "id": "c306a26f-0a67-4db3-bc12-5bd446e3ff49",
       "ward_no": "3",
-      "ward_name_en": "St.Antony S",
-      "ward_name_ml": "സെന്‍റ് ആന്‍റണീസ്"
+      "name_en": "St.Antony S",
+      "name_ml": "സെന്‍റ് ആന്‍റണീസ്"
     },
     {
-      "ward_id": "923d38d6-ec68-4734-bea5-2a1dd54cb579",
+      "id": "923d38d6-ec68-4734-bea5-2a1dd54cb579",
       "ward_no": "4",
-      "ward_name_en": "Moolamkuzhi",
-      "ward_name_ml": "മൂലങ്കുഴി"
+      "name_en": "Moolamkuzhi",
+      "name_ml": "മൂലങ്കുഴി"
     },
     {
-      "ward_id": "dad1bafb-b688-47dc-a46d-597553575040",
+      "id": "dad1bafb-b688-47dc-a46d-597553575040",
       "ward_no": "5",
-      "ward_name_en": "Kannarapally",
-      "ward_name_ml": "കണ്ണാറപ്പള്ളി"
+      "name_en": "Kannarapally",
+      "name_ml": "കണ്ണാറപ്പള്ളി"
     },
     {
-      "ward_id": "07f76798-8b00-469c-be0e-55dcfce29b56",
+      "id": "07f76798-8b00-469c-be0e-55dcfce29b56",
       "ward_no": "6",
-      "ward_name_en": "Kattilemadom",
-      "ward_name_ml": "കാട്ടിലെമഠം"
+      "name_en": "Kattilemadom",
+      "name_ml": "കാട്ടിലെമഠം"
     },
     {
-      "ward_id": "75eec6ae-1d55-42da-a283-79670b7f4c50",
+      "id": "75eec6ae-1d55-42da-a283-79670b7f4c50",
       "ward_no": "7",
-      "ward_name_en": "Kattupuram",
-      "ward_name_ml": "കാട്ടുപുറം"
+      "name_en": "Kattupuram",
+      "name_ml": "കാട്ടുപുറം"
     },
     {
-      "ward_id": "b9680631-3d9d-42b1-bd4e-bef7d14a6c68",
+      "id": "b9680631-3d9d-42b1-bd4e-bef7d14a6c68",
       "ward_no": "8",
-      "ward_name_en": "Kudapuram",
-      "ward_name_ml": "കുടപുറം"
+      "name_en": "Kudapuram",
+      "name_ml": "കുടപുറം"
     },
     {
-      "ward_id": "92744bf2-0022-4996-8e85-5367889a241e",
+      "id": "92744bf2-0022-4996-8e85-5367889a241e",
       "ward_no": "9",
-      "ward_name_en": "Madurakkulam",
-      "ward_name_ml": "മധുരക്കുളം"
+      "name_en": "Madurakkulam",
+      "name_ml": "മധുരക്കുളം"
     },
     {
-      "ward_id": "d6f443b9-7e4c-4859-9c3a-f05a435da1ef",
+      "id": "d6f443b9-7e4c-4859-9c3a-f05a435da1ef",
       "ward_no": "10",
-      "ward_name_en": "Naduvath",
-      "ward_name_ml": "നദുവത്ത്"
+      "name_en": "Naduvath",
+      "name_ml": "നദുവത്ത്"
     },
     {
-      "ward_id": "67902124-b740-4d67-9583-0e38426dd21c",
+      "id": "67902124-b740-4d67-9583-0e38426dd21c",
       "ward_no": "11",
-      "ward_name_en": "Highschool",
-      "ward_name_ml": "ഹൈസ്ക്കൂള്‍"
+      "name_en": "Highschool",
+      "name_ml": "ഹൈസ്ക്കൂള്‍"
     },
     {
-      "ward_id": "059f0f74-4708-4aef-9c60-e2e8bc6c9350",
+      "id": "059f0f74-4708-4aef-9c60-e2e8bc6c9350",
       "ward_no": "12",
-      "ward_name_en": "Kottoorpally",
-      "ward_name_ml": "കോട്ടൂര്‍പ്പള്ളി"
+      "name_en": "Kottoorpally",
+      "name_ml": "കോട്ടൂര്‍പ്പള്ളി"
     },
     {
-      "ward_id": "a24b3880-ca36-41da-9502-3cd4410935d7",
+      "id": "a24b3880-ca36-41da-9502-3cd4410935d7",
       "ward_no": "13",
-      "ward_name_en": "C.H.C",
-      "ward_name_ml": "സി.എച്ച്.സി"
+      "name_en": "C.H.C",
+      "name_ml": "സി.എച്ച്.സി"
     }
   ],
   "towns": [],

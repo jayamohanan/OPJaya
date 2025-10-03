@@ -1,56 +1,75 @@
 {
-  "assembly_id": "96",
-  "assembly_name_en": "Ettumanoor",
-  "assembly_name_ml": "ഏറ്റുമാനൂർ",
-  "category": "Normal",
+  "id": "96",
+  "name_en": "Ettumanoor",
+  "name_ml": "ഏറ്റുമാനൂർ",
+  "district_id": "5",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "5",
-    "district_name_en": "Kottayam",
-    "district_name_ml": "കോട്ടയം",
-    "district_category": "Normal"
+    "id": "5",
+    "name_en": "Kottayam",
+    "name_ml": "കോട്ടയം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G050304",
-      "local_body_name_en": "Arpookara",
-      "local_body_name_ml": "ആര്‍പ്പൂക്കര",
-      "category": "Normal"
+      "id": "G050304",
+      "name_en": "Arpookara",
+      "name_ml": "ആര്‍പ്പൂക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050303",
-      "local_body_name_en": "Athirampuzha",
-      "local_body_name_ml": "അതിരമ്പുഴ",
-      "category": "Good"
+      "id": "G050303",
+      "name_en": "Athirampuzha",
+      "name_ml": "അതിരമ്പുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050302",
-      "local_body_name_en": "Aymanam",
-      "local_body_name_ml": "അയ്മനം",
-      "category": "Normal"
+      "id": "G050302",
+      "name_en": "Aymanam",
+      "name_ml": "അയ്മനം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M050500",
-      "local_body_name_en": "Ettumanoor",
-      "local_body_name_ml": "ഏറ്റുമാനൂര്‍",
-      "category": "Perfect"
+      "id": "M050500",
+      "name_en": "Ettumanoor",
+      "name_ml": "ഏറ്റുമാനൂര്‍",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G050306",
-      "local_body_name_en": "Kumarakom",
-      "local_body_name_ml": "കുമരകം",
-      "category": "Normal"
+      "id": "G050306",
+      "name_en": "Kumarakom",
+      "name_ml": "കുമരകം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G050305",
-      "local_body_name_en": "Neendoor",
-      "local_body_name_ml": "നീണ്ടൂര്‍",
-      "category": "Good"
+      "id": "G050305",
+      "name_en": "Neendoor",
+      "name_ml": "നീണ്ടൂര്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G050307",
-      "local_body_name_en": "Thiruvarppu",
-      "local_body_name_ml": "തിരുവാര്‍പ്പ്",
-      "category": "Normal"
+      "id": "G050307",
+      "name_en": "Thiruvarppu",
+      "name_ml": "തിരുവാര്‍പ്പ്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

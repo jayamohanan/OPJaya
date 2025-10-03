@@ -1,62 +1,83 @@
 {
-  "assembly_id": "78",
-  "assembly_name_en": "Paravur",
-  "assembly_name_ml": "പരവൂര്‍",
-  "category": "Normal",
+  "id": "78",
+  "name_en": "Paravur",
+  "name_ml": "പരവൂര്‍",
+  "district_id": "7",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "7",
-    "district_name_en": "Ernakulam",
-    "district_name_ml": "എറണാകുളം",
-    "district_category": "Normal"
+    "id": "7",
+    "name_en": "Ernakulam",
+    "name_ml": "എറണാകുളം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G070101",
-      "local_body_name_en": "Chendamangalam",
-      "local_body_name_ml": "ചേന്ദമംഗലം",
-      "category": "Perfect"
+      "id": "G070101",
+      "name_en": "Chendamangalam",
+      "name_ml": "ചേന്ദമംഗലം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G070105",
-      "local_body_name_en": "Chittattukara",
-      "local_body_name_ml": "ചിറ്റാറ്റുകര",
-      "category": "Normal"
+      "id": "G070105",
+      "name_en": "Chittattukara",
+      "name_ml": "ചിറ്റാറ്റുകര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070103",
-      "local_body_name_en": "Ezhikkara",
-      "local_body_name_ml": "ഏഴിക്കര",
-      "category": "Perfect"
+      "id": "G070103",
+      "name_en": "Ezhikkara",
+      "name_ml": "ഏഴിക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G070102",
-      "local_body_name_en": "Kottuvally",
-      "local_body_name_ml": "കോട്ടുവള്ളി",
-      "category": "Normal"
+      "id": "G070102",
+      "name_en": "Kottuvally",
+      "name_ml": "കോട്ടുവള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "M070600",
-      "local_body_name_en": "North Paravur",
-      "local_body_name_ml": "വടക്കന്‍ പറവൂര്‍",
-      "category": "Normal"
+      "id": "M070600",
+      "name_en": "North Paravur",
+      "name_ml": "വടക്കന്‍ പറവൂര്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G071301",
-      "local_body_name_en": "Puthenvelikkara",
-      "local_body_name_ml": "പുത്തന്‍വേലിക്കര",
-      "category": "Perfect"
+      "id": "G071301",
+      "name_en": "Puthenvelikkara",
+      "name_ml": "പുത്തന്‍വേലിക്കര",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G070104",
-      "local_body_name_en": "Vadakkekkara",
-      "local_body_name_ml": "വടക്കേക്കര",
-      "category": "Normal"
+      "id": "G070104",
+      "name_en": "Vadakkekkara",
+      "name_ml": "വടക്കേക്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G070202",
-      "local_body_name_en": "Varapuzha",
-      "local_body_name_ml": "വരാപ്പുഴ",
-      "category": "Good"
+      "id": "G070202",
+      "name_en": "Varapuzha",
+      "name_ml": "വരാപ്പുഴ",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

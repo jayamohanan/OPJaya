@@ -1,130 +1,141 @@
 {
-  "local_body_id": "G020204",
-  "local_body_name_en": "Poruvazhy",
-  "local_body_name_ml": "പോരുവഴി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "118",
-    "assembly_name_en": "Kunnathur",
-    "assembly_name_ml": "കുന്നത്തൂർ",
+  "id": "G020204",
+  "name_en": "Poruvazhy",
+  "name_ml": "പോരുവഴി",
+  "assembly_id": "118",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "118",
+    "name_en": "Kunnathur",
+    "name_ml": "കുന്നത്തൂർ",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "2",
-    "district_name_en": "Kollam",
-    "district_name_ml": "കൊല്ലം",
-    "category": "Normal"
+    "id": "2",
+    "name_en": "Kollam",
+    "name_ml": "കൊല്ലം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "4c9e9879-6c51-4070-8d4b-a65dc243b366",
+      "id": "4c9e9879-6c51-4070-8d4b-a65dc243b366",
       "ward_no": "1",
-      "ward_name_en": "Chathakulam",
-      "ward_name_ml": "ചാത്താകുളം"
+      "name_en": "Chathakulam",
+      "name_ml": "ചാത്താകുളം"
     },
     {
-      "ward_id": "e177036c-8b0a-4fa9-9e2a-9f8f6623575a",
+      "id": "e177036c-8b0a-4fa9-9e2a-9f8f6623575a",
       "ward_no": "2",
-      "ward_name_en": "Malanada",
-      "ward_name_ml": "മലനട"
+      "name_en": "Malanada",
+      "name_ml": "മലനട"
     },
     {
-      "ward_id": "5a7fcd72-c442-47d2-81a6-8fa23623a3d7",
+      "id": "5a7fcd72-c442-47d2-81a6-8fa23623a3d7",
       "ward_no": "3",
-      "ward_name_en": "Moovakkod",
-      "ward_name_ml": "മൂവക്കോട്"
+      "name_en": "Moovakkod",
+      "name_ml": "മൂവക്കോട്"
     },
     {
-      "ward_id": "22cfd816-5929-4171-90e3-4cb67ba19233",
+      "id": "22cfd816-5929-4171-90e3-4cb67ba19233",
       "ward_no": "4",
-      "ward_name_en": "Mannaroad",
-      "ward_name_ml": "മണ്ണാറോഡ്"
+      "name_en": "Mannaroad",
+      "name_ml": "മണ്ണാറോഡ്"
     },
     {
-      "ward_id": "4c98419f-c460-43d8-98be-de982c380aaf",
+      "id": "4c98419f-c460-43d8-98be-de982c380aaf",
       "ward_no": "5",
-      "ward_name_en": "Edakkad",
-      "ward_name_ml": "ഇടയ്ക്കാട്"
+      "name_en": "Edakkad",
+      "name_ml": "ഇടയ്ക്കാട്"
     },
     {
-      "ward_id": "433b2228-52ed-4479-882d-5e6f05a25cb5",
+      "id": "433b2228-52ed-4479-882d-5e6f05a25cb5",
       "ward_no": "6",
-      "ward_name_en": "College Ward",
-      "ward_name_ml": "കോളേജ് വാര്‍ഡ്"
+      "name_en": "College Ward",
+      "name_ml": "കോളേജ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "6be9ff27-c572-47fe-adcc-5c27d98fec10",
+      "id": "6be9ff27-c572-47fe-adcc-5c27d98fec10",
       "ward_no": "7",
-      "ward_name_en": "Vayanasala Ward",
-      "ward_name_ml": "വായനശാല വാര്‍ഡ്"
+      "name_en": "Vayanasala Ward",
+      "name_ml": "വായനശാല വാര്‍ഡ്"
     },
     {
-      "ward_id": "095d9b4b-6359-46f8-9e3a-3d4c320e1032",
+      "id": "095d9b4b-6359-46f8-9e3a-3d4c320e1032",
       "ward_no": "8",
-      "ward_name_en": "Ambalathum Bhagom",
-      "ward_name_ml": "അമ്പലത്തുംഭാഗം"
+      "name_en": "Ambalathum Bhagom",
+      "name_ml": "അമ്പലത്തുംഭാഗം"
     },
     {
-      "ward_id": "9c872b16-bc50-492b-9b0e-15be43c3d04f",
+      "id": "9c872b16-bc50-492b-9b0e-15be43c3d04f",
       "ward_no": "9",
-      "ward_name_en": "Changayil Kavu",
-      "ward_name_ml": "ചാങ്ങയില്‍കാവ്"
+      "name_en": "Changayil Kavu",
+      "name_ml": "ചാങ്ങയില്‍കാവ്"
     },
     {
-      "ward_id": "fe823d36-9eed-44b7-8989-ef131a2b1f61",
+      "id": "fe823d36-9eed-44b7-8989-ef131a2b1f61",
       "ward_no": "10",
-      "ward_name_en": "Block Office Ward",
-      "ward_name_ml": "ബ്ലോക്ക് ആഫീസ് വാര്‍ഡ്"
+      "name_en": "Block Office Ward",
+      "name_ml": "ബ്ലോക്ക് ആഫീസ് വാര്‍ഡ്"
     },
     {
-      "ward_id": "d45a0e03-50dc-4e0e-957e-95eaacdd2453",
+      "id": "d45a0e03-50dc-4e0e-957e-95eaacdd2453",
       "ward_no": "11",
-      "ward_name_en": "Sasthamnada",
-      "ward_name_ml": "ശാസ്താംനട"
+      "name_en": "Sasthamnada",
+      "name_ml": "ശാസ്താംനട"
     },
     {
-      "ward_id": "1888640d-38c9-4c2c-aa8d-9f3122e47ef1",
+      "id": "1888640d-38c9-4c2c-aa8d-9f3122e47ef1",
       "ward_no": "12",
-      "ward_name_en": "Kampaladi",
-      "ward_name_ml": "കമ്പലടി"
+      "name_en": "Kampaladi",
+      "name_ml": "കമ്പലടി"
     },
     {
-      "ward_id": "e40a1997-82b8-4460-9527-7e2795991f2f",
+      "id": "e40a1997-82b8-4460-9527-7e2795991f2f",
       "ward_no": "13",
-      "ward_name_en": "Mayiladum Kunnu",
-      "ward_name_ml": "മൈലാടുംകുന്ന്"
+      "name_en": "Mayiladum Kunnu",
+      "name_ml": "മൈലാടുംകുന്ന്"
     },
     {
-      "ward_id": "2e9715c5-f076-4bc8-9c7a-37b5aec93b80",
+      "id": "2e9715c5-f076-4bc8-9c7a-37b5aec93b80",
       "ward_no": "14",
-      "ward_name_en": "Kampaladi Vadakku",
-      "ward_name_ml": "കമ്പലടി വടക്ക്"
+      "name_en": "Kampaladi Vadakku",
+      "name_ml": "കമ്പലടി വടക്ക്"
     },
     {
-      "ward_id": "bcc372d3-a0eb-4bda-9b12-81e6823f07ef",
+      "id": "bcc372d3-a0eb-4bda-9b12-81e6823f07ef",
       "ward_no": "15",
-      "ward_name_en": "Mayyathum Kara",
-      "ward_name_ml": "മയ്യത്തുംകര"
+      "name_en": "Mayyathum Kara",
+      "name_ml": "മയ്യത്തുംകര"
     },
     {
-      "ward_id": "0c758d4f-1324-4daf-ae8a-559c532aab6c",
+      "id": "0c758d4f-1324-4daf-ae8a-559c532aab6c",
       "ward_no": "16",
-      "ward_name_en": "Pallimuri",
-      "ward_name_ml": "പള്ളിമുറി"
+      "name_en": "Pallimuri",
+      "name_ml": "പള്ളിമുറി"
     },
     {
-      "ward_id": "a14e2bea-f8a3-42c4-bde6-dbbee6873a92",
+      "id": "a14e2bea-f8a3-42c4-bde6-dbbee6873a92",
       "ward_no": "17",
-      "ward_name_en": "Naduvile Muri",
-      "ward_name_ml": "നടുവിലേമുറി"
+      "name_en": "Naduvile Muri",
+      "name_ml": "നടുവിലേമുറി"
     },
     {
-      "ward_id": "167d2703-5471-4720-9351-8a91eba11374",
+      "id": "167d2703-5471-4720-9351-8a91eba11374",
       "ward_no": "18",
-      "ward_name_en": "Vadakkemuri",
-      "ward_name_ml": "വടക്കേമുറി"
+      "name_en": "Vadakkemuri",
+      "name_ml": "വടക്കേമുറി"
     }
   ],
   "towns": [],

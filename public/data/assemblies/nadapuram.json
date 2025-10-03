@@ -1,74 +1,99 @@
 {
-  "assembly_id": "22",
-  "assembly_name_en": "Nadapuram",
-  "assembly_name_ml": "നാദാപുരം",
-  "category": "Normal",
+  "id": "22",
+  "name_en": "Nadapuram",
+  "name_ml": "നാദാപുരം",
+  "district_id": "11",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "11",
-    "district_name_en": "Kozhikode",
-    "district_name_ml": "കോഴിക്കോട്",
-    "district_category": "Normal"
+    "id": "11",
+    "name_en": "Kozhikode",
+    "name_ml": "കോഴിക്കോട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "G110201",
-      "local_body_name_en": "Chekkiad",
-      "local_body_name_ml": "ചെക്യാട്",
-      "category": "Good"
+      "id": "G110201",
+      "name_en": "Chekkiad",
+      "name_ml": "ചെക്യാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110202",
-      "local_body_name_en": "Edacheri",
-      "local_body_name_ml": "എടച്ചേരി",
-      "category": "Normal"
+      "id": "G110202",
+      "name_en": "Edacheri",
+      "name_ml": "എടച്ചേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110303",
-      "local_body_name_en": "Kavilumpara",
-      "local_body_name_ml": "കാവിലുമ്പാറ",
-      "category": "Good"
+      "id": "G110303",
+      "name_en": "Kavilumpara",
+      "name_ml": "കാവിലുമ്പാറ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110302",
-      "local_body_name_en": "Kayakkody",
-      "local_body_name_ml": "കായക്കൊടി",
-      "category": "Good"
+      "id": "G110302",
+      "name_en": "Kayakkody",
+      "name_ml": "കായക്കൊടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110305",
-      "local_body_name_en": "Maruthonkara",
-      "local_body_name_ml": "മരുതോങ്കര",
-      "category": "Normal"
+      "id": "G110305",
+      "name_en": "Maruthonkara",
+      "name_ml": "മരുതോങ്കര",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110207",
-      "local_body_name_en": "Nadapuram",
-      "local_body_name_ml": "നാദാപുരം",
-      "category": "Normal"
+      "id": "G110207",
+      "name_en": "Nadapuram",
+      "name_ml": "നാദാപുരം",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110307",
-      "local_body_name_en": "Narippatta",
-      "local_body_name_ml": "നരിപ്പറ്റ",
-      "category": "Good"
+      "id": "G110307",
+      "name_en": "Narippatta",
+      "name_ml": "നരിപ്പറ്റ",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G110204",
-      "local_body_name_en": "Tuneri",
-      "local_body_name_ml": "തൂണേരി",
-      "category": "Normal"
+      "id": "G110204",
+      "name_en": "Tuneri",
+      "name_ml": "തൂണേരി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G110205",
-      "local_body_name_en": "Valayam",
-      "local_body_name_ml": "വളയം",
-      "category": "Perfect"
+      "id": "G110205",
+      "name_en": "Valayam",
+      "name_ml": "വളയം",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G110206",
-      "local_body_name_en": "Vanimal",
-      "local_body_name_ml": "വാണിമല്‍",
-      "category": "Normal"
+      "id": "G110206",
+      "name_en": "Vanimal",
+      "name_ml": "വാണിമല്‍",
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

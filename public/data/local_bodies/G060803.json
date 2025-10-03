@@ -1,100 +1,111 @@
 {
-  "local_body_id": "G060803",
-  "local_body_name_en": "Kokkayar",
-  "local_body_name_ml": "കൊക്കയാര്‍",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Perfect",
+  "id": "G060803",
+  "name_en": "Kokkayar",
+  "name_ml": "കൊക്കയാര്‍",
+  "assembly_id": "92",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Perfect"
+  },
   "assembly": {
-    "assembly_id": "92",
-    "assembly_name_en": "Peerumade",
-    "assembly_name_ml": "പീരുമേട്",
-    "category": "Normal"
+    "id": "92",
+    "name_en": "Peerumade",
+    "name_ml": "പീരുമേട്",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "6",
-    "district_name_en": "Idukki",
-    "district_name_ml": "ഇടുക്കി",
-    "category": "Normal"
+    "id": "6",
+    "name_en": "Idukki",
+    "name_ml": "ഇടുക്കി",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "858b9dc9-a5dd-4060-8574-20bb0191d6f1",
+      "id": "858b9dc9-a5dd-4060-8574-20bb0191d6f1",
       "ward_no": "1",
-      "ward_name_en": "Mukkulam",
-      "ward_name_ml": "മുക്കുളം"
+      "name_en": "Mukkulam",
+      "name_ml": "മുക്കുളം"
     },
     {
-      "ward_id": "e14ba9f1-6504-4ab5-9af5-34a9c1af78e7",
+      "id": "e14ba9f1-6504-4ab5-9af5-34a9c1af78e7",
       "ward_no": "2",
-      "ward_name_en": "Vadakkemala",
-      "ward_name_ml": "വടക്കേമല"
+      "name_en": "Vadakkemala",
+      "name_ml": "വടക്കേമല"
     },
     {
-      "ward_id": "1310294a-452a-47b6-b243-d3ac9a70e016",
+      "id": "1310294a-452a-47b6-b243-d3ac9a70e016",
       "ward_no": "3",
-      "ward_name_en": "Meloram",
-      "ward_name_ml": "മേലോരം"
+      "name_en": "Meloram",
+      "name_ml": "മേലോരം"
     },
     {
-      "ward_id": "e4d7ba9f-e5da-4b79-a8be-6d6ccf1f9eff",
+      "id": "e4d7ba9f-e5da-4b79-a8be-6d6ccf1f9eff",
       "ward_no": "4",
-      "ward_name_en": "Kodikuthi",
-      "ward_name_ml": "കൊടികുത്തി"
+      "name_en": "Kodikuthi",
+      "name_ml": "കൊടികുത്തി"
     },
     {
-      "ward_id": "5486530c-e206-46ae-bb0f-1700ee1218c6",
+      "id": "5486530c-e206-46ae-bb0f-1700ee1218c6",
       "ward_no": "5",
-      "ward_name_en": "Mulamkunnu",
-      "ward_name_ml": "മുളംകുന്ന്"
+      "name_en": "Mulamkunnu",
+      "name_ml": "മുളംകുന്ന്"
     },
     {
-      "ward_id": "87da0986-1069-4429-901b-a603bc274a26",
+      "id": "87da0986-1069-4429-901b-a603bc274a26",
       "ward_no": "6",
-      "ward_name_en": "Boyce",
-      "ward_name_ml": "ബോയ്സ്"
+      "name_en": "Boyce",
+      "name_ml": "ബോയ്സ്"
     },
     {
-      "ward_id": "3d2cf28e-0a61-4e92-9698-0ba45aaf5391",
+      "id": "3d2cf28e-0a61-4e92-9698-0ba45aaf5391",
       "ward_no": "7",
-      "ward_name_en": "Poovanchi",
-      "ward_name_ml": "പൂവഞ്ചി"
+      "name_en": "Poovanchi",
+      "name_ml": "പൂവഞ്ചി"
     },
     {
-      "ward_id": "e44207fa-529f-407f-b0ec-dfa5e53da546",
+      "id": "e44207fa-529f-407f-b0ec-dfa5e53da546",
       "ward_no": "8",
-      "ward_name_en": "Narakampuzha",
-      "ward_name_ml": "നാരകംപുഴ"
+      "name_en": "Narakampuzha",
+      "name_ml": "നാരകംപുഴ"
     },
     {
-      "ward_id": "43858cc8-67dd-4599-8880-b5f80aad7a0f",
+      "id": "43858cc8-67dd-4599-8880-b5f80aad7a0f",
       "ward_no": "9",
-      "ward_name_en": "Kokkayar",
-      "ward_name_ml": "കൊക്കയാര്‍"
+      "name_en": "Kokkayar",
+      "name_ml": "കൊക്കയാര്‍"
     },
     {
-      "ward_id": "9cd05190-cf15-478b-bb46-d46ee7cc2956",
+      "id": "9cd05190-cf15-478b-bb46-d46ee7cc2956",
       "ward_no": "10",
-      "ward_name_en": "Kuttiplangadu",
-      "ward_name_ml": "കുറ്റിപ്ലാങ്ങാട്"
+      "name_en": "Kuttiplangadu",
+      "name_ml": "കുറ്റിപ്ലാങ്ങാട്"
     },
     {
-      "ward_id": "55c1427c-fd10-48e7-9109-7555194def9c",
+      "id": "55c1427c-fd10-48e7-9109-7555194def9c",
       "ward_no": "11",
-      "ward_name_en": "Wembly",
-      "ward_name_ml": "വെംബ്ലി"
+      "name_en": "Wembly",
+      "name_ml": "വെംബ്ലി"
     },
     {
-      "ward_id": "8abf2d4f-b3ab-4071-9dff-f712118f6bd8",
+      "id": "8abf2d4f-b3ab-4071-9dff-f712118f6bd8",
       "ward_no": "12",
-      "ward_name_en": "Kanakapuram",
-      "ward_name_ml": "കനകപൂരം"
+      "name_en": "Kanakapuram",
+      "name_ml": "കനകപൂരം"
     },
     {
-      "ward_id": "9ef3f0b9-ec70-4ba5-9306-080232b2f348",
+      "id": "9ef3f0b9-ec70-4ba5-9306-080232b2f348",
       "ward_no": "13",
-      "ward_name_en": "Yendayar East",
-      "ward_name_ml": "ഏന്തയാര്‍  ഈസ്റ്റ്"
+      "name_en": "Yendayar East",
+      "name_ml": "ഏന്തയാര്‍  ഈസ്റ്റ്"
     }
   ],
   "towns": [],

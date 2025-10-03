@@ -1,80 +1,105 @@
 {
-  "assembly_id": "19",
-  "assembly_name_en": "Kalpetta",
-  "assembly_name_ml": "കല്‍പ്പറ്റ",
-  "category": "Normal",
+  "id": "19",
+  "name_en": "Kalpetta",
+  "name_ml": "കല്‍പ്പറ്റ",
+  "district_id": "12",
+  "assembly_category": {
+    "category": "Normal"
+  },
   "district": {
-    "district_id": "12",
-    "district_name_en": "Wayanad",
-    "district_name_ml": "വയനാട്",
-    "district_category": "Normal"
+    "id": "12",
+    "name_en": "Wayanad",
+    "name_ml": "വയനാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "local_bodies": [
     {
-      "local_body_id": "M120100",
-      "local_body_name_en": "Kalpetta",
-      "local_body_name_ml": "കല്‍പ്പറ്റ",
-      "category": ""
+      "id": "M120100",
+      "name_en": "Kalpetta",
+      "name_ml": "കല്‍പ്പറ്റ",
+      "local_body_category": null
     },
     {
-      "local_body_id": "G120205",
-      "local_body_name_en": "Kaniyambetta",
-      "local_body_name_ml": "കണിയാമ്പറ്റ",
-      "category": "Perfect"
+      "id": "G120205",
+      "name_en": "Kaniyambetta",
+      "name_ml": "കണിയാമ്പറ്റ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G120401",
-      "local_body_name_en": "Kottathara",
-      "local_body_name_ml": "കോട്ടത്തറ",
-      "category": "Perfect"
+      "id": "G120401",
+      "name_en": "Kottathara",
+      "name_ml": "കോട്ടത്തറ",
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
-      "local_body_id": "G120408",
-      "local_body_name_en": "Meppadi",
-      "local_body_name_ml": "മേപ്പാടി",
-      "category": "Good"
+      "id": "G120408",
+      "name_en": "Meppadi",
+      "name_ml": "മേപ്പാടി",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120409",
-      "local_body_name_en": "Muppainad",
-      "local_body_name_ml": "മൂപ്പൈനാട്",
-      "category": "Good"
+      "id": "G120409",
+      "name_en": "Muppainad",
+      "name_ml": "മൂപ്പൈനാട്",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120404",
-      "local_body_name_en": "Muttil",
-      "local_body_name_ml": "മുട്ടില്‍",
-      "category": "Good"
+      "id": "G120404",
+      "name_en": "Muttil",
+      "name_ml": "മുട്ടില്‍",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120407",
-      "local_body_name_en": "Padinharathara",
-      "local_body_name_ml": "പടിഞ്ഞാറത്തറ",
-      "category": "Normal"
+      "id": "G120407",
+      "name_en": "Padinharathara",
+      "name_ml": "പടിഞ്ഞാറത്തറ",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G120405",
-      "local_body_name_en": "Pozhuthana",
-      "local_body_name_ml": "പൊഴുതന",
-      "category": "Good"
+      "id": "G120405",
+      "name_en": "Pozhuthana",
+      "name_ml": "പൊഴുതന",
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
-      "local_body_id": "G120406",
-      "local_body_name_en": "Thariode",
-      "local_body_name_ml": "തരിയോട്",
-      "category": "Normal"
+      "id": "G120406",
+      "name_en": "Thariode",
+      "name_ml": "തരിയോട്",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G120402",
-      "local_body_name_en": "Vengappally",
-      "local_body_name_ml": "വേങ്ങപ്പള്ളി",
-      "category": "Normal"
+      "id": "G120402",
+      "name_en": "Vengappally",
+      "name_ml": "വേങ്ങപ്പള്ളി",
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
-      "local_body_id": "G120403",
-      "local_body_name_en": "Vythiri",
-      "local_body_name_ml": "വൈത്തിരി",
-      "category": "Good"
+      "id": "G120403",
+      "name_en": "Vythiri",
+      "name_ml": "വൈത്തിരി",
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

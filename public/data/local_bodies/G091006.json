@@ -1,118 +1,129 @@
 {
-  "local_body_id": "G091006",
-  "local_body_name_en": "Pattanchery",
-  "local_body_name_ml": "പട്ടഞ്ചരി",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Normal",
-  "assembly": {
-    "assembly_id": "58",
-    "assembly_name_en": "Chittur",
-    "assembly_name_ml": "ചിറ്റൂര്‍",
+  "id": "G091006",
+  "name_en": "Pattanchery",
+  "name_ml": "പട്ടഞ്ചരി",
+  "assembly_id": "58",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
     "category": "Normal"
   },
+  "assembly": {
+    "id": "58",
+    "name_en": "Chittur",
+    "name_ml": "ചിറ്റൂര്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
+  },
   "district": {
-    "district_id": "9",
-    "district_name_en": "Palakkad",
-    "district_name_ml": "പാലക്കാട്",
-    "category": "Normal"
+    "id": "9",
+    "name_en": "Palakkad",
+    "name_ml": "പാലക്കാട്",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "fe75e96c-ef69-472e-85ce-7d5cf71a5e89",
+      "id": "fe75e96c-ef69-472e-85ce-7d5cf71a5e89",
       "ward_no": "1",
-      "ward_name_en": "Ambattuparambu",
-      "ward_name_ml": "അമ്പാട്ടുപറമ്പ്"
+      "name_en": "Ambattuparambu",
+      "name_ml": "അമ്പാട്ടുപറമ്പ്"
     },
     {
-      "ward_id": "ea944831-5bcf-498b-a8ef-f708b433563d",
+      "id": "ea944831-5bcf-498b-a8ef-f708b433563d",
       "ward_no": "2",
-      "ward_name_en": "Kavilkalam",
-      "ward_name_ml": "കാവില്‍കളം"
+      "name_en": "Kavilkalam",
+      "name_ml": "കാവില്‍കളം"
     },
     {
-      "ward_id": "193bbae7-27fd-4787-8fef-4c1acd9af62c",
+      "id": "193bbae7-27fd-4787-8fef-4c1acd9af62c",
       "ward_no": "3",
-      "ward_name_en": "Attanchery",
-      "ward_name_ml": "ആറ്റാഞ്ചേരി"
+      "name_en": "Attanchery",
+      "name_ml": "ആറ്റാഞ്ചേരി"
     },
     {
-      "ward_id": "ad6f0bea-62fd-4283-8a69-0c2b512a9f32",
+      "id": "ad6f0bea-62fd-4283-8a69-0c2b512a9f32",
       "ward_no": "4",
-      "ward_name_en": "Vilakanamkode",
-      "ward_name_ml": "വിളക്കനാംകോട്"
+      "name_en": "Vilakanamkode",
+      "name_ml": "വിളക്കനാംകോട്"
     },
     {
-      "ward_id": "471963ac-b7b0-4dcf-8d5c-d92a8e147494",
+      "id": "471963ac-b7b0-4dcf-8d5c-d92a8e147494",
       "ward_no": "5",
-      "ward_name_en": "Panamkavu",
-      "ward_name_ml": "പനങ്കാവ്"
+      "name_en": "Panamkavu",
+      "name_ml": "പനങ്കാവ്"
     },
     {
-      "ward_id": "7071f006-0aac-41f2-9ae8-933fd9c4ddac",
+      "id": "7071f006-0aac-41f2-9ae8-933fd9c4ddac",
       "ward_no": "6",
-      "ward_name_en": "Vandithavalam",
-      "ward_name_ml": "വണ്ടിത്താവളം"
+      "name_en": "Vandithavalam",
+      "name_ml": "വണ്ടിത്താവളം"
     },
     {
-      "ward_id": "61c153ec-a961-40dc-b605-33442e1742d4",
+      "id": "61c153ec-a961-40dc-b605-33442e1742d4",
       "ward_no": "7",
-      "ward_name_en": "Ayyamveetuchalla",
-      "ward_name_ml": "അയ്യംവീട്ടുചള്ള"
+      "name_en": "Ayyamveetuchalla",
+      "name_ml": "അയ്യംവീട്ടുചള്ള"
     },
     {
-      "ward_id": "c40025f5-0cdf-49fa-8b24-c4fbf0ecd92b",
+      "id": "c40025f5-0cdf-49fa-8b24-c4fbf0ecd92b",
       "ward_no": "8",
-      "ward_name_en": "Parakattuchalla",
-      "ward_name_ml": "പാറക്കാട്ടുചള്ള"
+      "name_en": "Parakattuchalla",
+      "name_ml": "പാറക്കാട്ടുചള്ള"
     },
     {
-      "ward_id": "68e9e029-3a93-41bc-bebc-c66f7a941bfa",
+      "id": "68e9e029-3a93-41bc-bebc-c66f7a941bfa",
       "ward_no": "9",
-      "ward_name_en": "Pattikulam",
-      "ward_name_ml": "പാട്ടികുളം"
+      "name_en": "Pattikulam",
+      "name_ml": "പാട്ടികുളം"
     },
     {
-      "ward_id": "b6579ee4-bb8f-46dd-ad4d-49a7c6e4b47b",
+      "id": "b6579ee4-bb8f-46dd-ad4d-49a7c6e4b47b",
       "ward_no": "10",
-      "ward_name_en": "Kannimari",
-      "ward_name_ml": "കന്നിമാരി"
+      "name_en": "Kannimari",
+      "name_ml": "കന്നിമാരി"
     },
     {
-      "ward_id": "7aa6d7b2-96fb-407e-a032-8fe2f9e622e3",
+      "id": "7aa6d7b2-96fb-407e-a032-8fe2f9e622e3",
       "ward_no": "11",
-      "ward_name_en": "Thekkekad",
-      "ward_name_ml": "തെക്കേക്കാട്"
+      "name_en": "Thekkekad",
+      "name_ml": "തെക്കേക്കാട്"
     },
     {
-      "ward_id": "2aa1a30d-bf17-45d0-9797-6cbec9740908",
+      "id": "2aa1a30d-bf17-45d0-9797-6cbec9740908",
       "ward_no": "12",
-      "ward_name_en": "Chozhiyakkad",
-      "ward_name_ml": "ചോഴിയക്കാട്"
+      "name_en": "Chozhiyakkad",
+      "name_ml": "ചോഴിയക്കാട്"
     },
     {
-      "ward_id": "bf71676d-51ff-490e-93bb-062e1c59b38b",
+      "id": "bf71676d-51ff-490e-93bb-062e1c59b38b",
       "ward_no": "13",
-      "ward_name_en": "Muttuchira",
-      "ward_name_ml": "മുട്ടുചിറ"
+      "name_en": "Muttuchira",
+      "name_ml": "മുട്ടുചിറ"
     },
     {
-      "ward_id": "1b5c5f14-1800-4b1e-b859-efff8af678b9",
+      "id": "1b5c5f14-1800-4b1e-b859-efff8af678b9",
       "ward_no": "14",
-      "ward_name_en": "Kaduchira",
-      "ward_name_ml": "കടുചിറ"
+      "name_en": "Kaduchira",
+      "name_ml": "കടുചിറ"
     },
     {
-      "ward_id": "ffaf358d-be77-4c95-b7ba-904bc7ad88e0",
+      "id": "ffaf358d-be77-4c95-b7ba-904bc7ad88e0",
       "ward_no": "15",
-      "ward_name_en": "Pattanchery",
-      "ward_name_ml": "പട്ടഞ്ചേരി"
+      "name_en": "Pattanchery",
+      "name_ml": "പട്ടഞ്ചേരി"
     },
     {
-      "ward_id": "718c2087-d953-43ba-ad3f-89498eb039e8",
+      "id": "718c2087-d953-43ba-ad3f-89498eb039e8",
       "ward_no": "16",
-      "ward_name_en": "Karippali",
-      "ward_name_ml": "കരിപ്പാലി"
+      "name_en": "Karippali",
+      "name_ml": "കരിപ്പാലി"
     }
   ],
   "towns": [],

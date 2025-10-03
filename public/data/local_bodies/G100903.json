@@ -1,124 +1,135 @@
 {
-  "local_body_id": "G100903",
-  "local_body_name_en": "Irimbiliyam",
-  "local_body_name_ml": "ഇരിമ്പിളിയം",
-  "local_body_type_en": "Grama Panchayat",
-  "local_body_type_ml": "ഗ്രാമ പഞ്ചായത്ത്",
-  "category": "Good",
+  "id": "G100903",
+  "name_en": "Irimbiliyam",
+  "name_ml": "ഇരിമ്പിളിയം",
+  "assembly_id": "46",
+  "local_body_type_id": "GP",
+  "local_body_type": {
+    "id": "GP",
+    "name_en": "Grama Panchayat",
+    "name_ml": "ഗ്രാമ പഞ്ചായത്ത്"
+  },
+  "local_body_category": {
+    "category": "Good"
+  },
   "assembly": {
-    "assembly_id": "46",
-    "assembly_name_en": "Kottakkal",
-    "assembly_name_ml": "കോട്ടക്കല്‍",
-    "category": "Normal"
+    "id": "46",
+    "name_en": "Kottakkal",
+    "name_ml": "കോട്ടക്കല്‍",
+    "assembly_category": {
+      "category": "Normal"
+    }
   },
   "district": {
-    "district_id": "10",
-    "district_name_en": "Malappuram",
-    "district_name_ml": "മലപ്പുറം",
-    "category": "Normal"
+    "id": "10",
+    "name_en": "Malappuram",
+    "name_ml": "മലപ്പുറം",
+    "district_category": {
+      "category": "Normal"
+    }
   },
   "wards": [
     {
-      "ward_id": "c1fedd9f-c2a3-41f1-90ea-be2bbeb9f316",
+      "id": "c1fedd9f-c2a3-41f1-90ea-be2bbeb9f316",
       "ward_no": "1",
-      "ward_name_en": "Ambal",
-      "ward_name_ml": "അമ്പാള്‍"
+      "name_en": "Ambal",
+      "name_ml": "അമ്പാള്‍"
     },
     {
-      "ward_id": "ab99e616-c6cf-40b7-ba7a-038558d1b402",
+      "id": "ab99e616-c6cf-40b7-ba7a-038558d1b402",
       "ward_no": "2",
-      "ward_name_en": "Valiyakunnu West",
-      "ward_name_ml": "വലിയകുന്ന് പടിഞ്ഞാറ്"
+      "name_en": "Valiyakunnu West",
+      "name_ml": "വലിയകുന്ന് പടിഞ്ഞാറ്"
     },
     {
-      "ward_id": "2f06969e-8aa6-4093-86e0-a6e8f9fa07ac",
+      "id": "2f06969e-8aa6-4093-86e0-a6e8f9fa07ac",
       "ward_no": "3",
-      "ward_name_en": "Valiyakunnu East",
-      "ward_name_ml": "വലിയകുന്ന് കിഴക്ക്"
+      "name_en": "Valiyakunnu East",
+      "name_ml": "വലിയകുന്ന് കിഴക്ക്"
     },
     {
-      "ward_id": "dff44eeb-e84f-4d6d-9de3-eb9549dfb209",
+      "id": "dff44eeb-e84f-4d6d-9de3-eb9549dfb209",
       "ward_no": "4",
-      "ward_name_en": "Kodumudi",
-      "ward_name_ml": "കൊടുമുടി"
+      "name_en": "Kodumudi",
+      "name_ml": "കൊടുമുടി"
     },
     {
-      "ward_id": "af45d901-3f2d-4893-92a9-f098fdff3c29",
+      "id": "af45d901-3f2d-4893-92a9-f098fdff3c29",
       "ward_no": "5",
-      "ward_name_en": "Karapparambu",
-      "ward_name_ml": "കാരപ്പറമ്പ്"
+      "name_en": "Karapparambu",
+      "name_ml": "കാരപ്പറമ്പ്"
     },
     {
-      "ward_id": "55baad8a-53e8-4857-b84c-5e832df212f9",
+      "id": "55baad8a-53e8-4857-b84c-5e832df212f9",
       "ward_no": "6",
-      "ward_name_en": "Thottilakkal",
-      "ward_name_ml": "തോട്ടിലാക്കല്‍"
+      "name_en": "Thottilakkal",
+      "name_ml": "തോട്ടിലാക്കല്‍"
     },
     {
-      "ward_id": "0e6d2623-6ae0-4e98-ace3-6157393c6865",
+      "id": "0e6d2623-6ae0-4e98-ace3-6157393c6865",
       "ward_no": "7",
-      "ward_name_en": "Puramannur",
-      "ward_name_ml": "പുറമണ്ണൂര്‍"
+      "name_en": "Puramannur",
+      "name_ml": "പുറമണ്ണൂര്‍"
     },
     {
-      "ward_id": "b5d6a5e7-1edd-4e7d-b2d2-1ac6c4d47abb",
+      "id": "b5d6a5e7-1edd-4e7d-b2d2-1ac6c4d47abb",
       "ward_no": "8",
-      "ward_name_en": "Irimbiliyam",
-      "ward_name_ml": "ഇരിമ്പിളിയം"
+      "name_en": "Irimbiliyam",
+      "name_ml": "ഇരിമ്പിളിയം"
     },
     {
-      "ward_id": "25985dc2-1cdc-43f7-9988-202e5f105d78",
+      "id": "25985dc2-1cdc-43f7-9988-202e5f105d78",
       "ward_no": "9",
-      "ward_name_en": "Moscow",
-      "ward_name_ml": "മോസ്ക്കോ"
+      "name_en": "Moscow",
+      "name_ml": "മോസ്ക്കോ"
     },
     {
-      "ward_id": "9f43b501-103d-46b0-9e2e-2509c55deb11",
+      "id": "9f43b501-103d-46b0-9e2e-2509c55deb11",
       "ward_no": "10",
-      "ward_name_en": "Velikulam",
-      "ward_name_ml": "വേളികുളം"
+      "name_en": "Velikulam",
+      "name_ml": "വേളികുളം"
     },
     {
-      "ward_id": "f2a54946-d39d-4122-b12e-419c306a326b",
+      "id": "f2a54946-d39d-4122-b12e-419c306a326b",
       "ward_no": "11",
-      "ward_name_en": "Mankery",
-      "ward_name_ml": "മങ്കേരി"
+      "name_en": "Mankery",
+      "name_ml": "മങ്കേരി"
     },
     {
-      "ward_id": "d4c15b70-21e6-490f-9af2-883cfd472854",
+      "id": "d4c15b70-21e6-490f-9af2-883cfd472854",
       "ward_no": "12",
-      "ward_name_en": "Vattapparamb",
-      "ward_name_ml": "വട്ടപ്പറമ്പ്"
+      "name_en": "Vattapparamb",
+      "name_ml": "വട്ടപ്പറമ്പ്"
     },
     {
-      "ward_id": "8d258dd0-9e55-447d-a00f-08a9c377c5a3",
+      "id": "8d258dd0-9e55-447d-a00f-08a9c377c5a3",
       "ward_no": "13",
-      "ward_name_en": "Thirunilam",
-      "ward_name_ml": "തിരുനിലം"
+      "name_en": "Thirunilam",
+      "name_ml": "തിരുനിലം"
     },
     {
-      "ward_id": "8a3ea5d6-b77d-47c3-9444-c7821ba0cc3c",
+      "id": "8a3ea5d6-b77d-47c3-9444-c7821ba0cc3c",
       "ward_no": "14",
-      "ward_name_en": "Vendalloor South",
-      "ward_name_ml": "വെണ്ടല്ലൂര്‍ തെക്ക്"
+      "name_en": "Vendalloor South",
+      "name_ml": "വെണ്ടല്ലൂര്‍ തെക്ക്"
     },
     {
-      "ward_id": "1cffef68-3db3-466c-98ac-75db335bb0dc",
+      "id": "1cffef68-3db3-466c-98ac-75db335bb0dc",
       "ward_no": "15",
-      "ward_name_en": "Vendalloor North",
-      "ward_name_ml": "വെണ്ടല്ലൂര്‍ നോര്‍ത്ത്"
+      "name_en": "Vendalloor North",
+      "name_ml": "വെണ്ടല്ലൂര്‍ നോര്‍ത്ത്"
     },
     {
-      "ward_id": "834f009b-2bce-4a29-b108-413c853d6192",
+      "id": "834f009b-2bce-4a29-b108-413c853d6192",
       "ward_no": "16",
-      "ward_name_en": "Alumkoottam",
-      "ward_name_ml": "ആലുംകൂട്ടം"
+      "name_en": "Alumkoottam",
+      "name_ml": "ആലുംകൂട്ടം"
     },
     {
-      "ward_id": "8cea537f-5c5a-449e-9c14-d28acf815568",
+      "id": "8cea537f-5c5a-449e-9c14-d28acf815568",
       "ward_no": "17",
-      "ward_name_en": "Kottappuram",
-      "ward_name_ml": "കോട്ടപ്പുറം"
+      "name_en": "Kottappuram",
+      "name_ml": "കോട്ടപ്പുറം"
     }
   ],
   "towns": [],
