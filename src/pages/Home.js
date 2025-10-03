@@ -25,7 +25,6 @@ function Home() {
   // Fetch all districts on mount (from 'district' table)
   useEffect(() => {
     async function fetchDistricts() {
-      console.log('fetchDistricts called');
       setLoadingDistricts(true);
       const { data, error } = await supabase
         .from(TABLES.DISTRICT)
@@ -143,7 +142,6 @@ function Home() {
 
   // Debug log to show the value of selectedLocalBodyId whenever it changes
   useEffect(() => {
-    console.log('selectedLocalBodyId:', selectedLocalBodyId);
   }, [selectedLocalBodyId]);
 
   return (

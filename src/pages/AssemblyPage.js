@@ -77,7 +77,7 @@ function AssemblyPage() {
         : (lb[FIELDS.LOCAL_BODY.NAME_EN] || lb[FIELDS.LOCAL_BODY.NAME_ML]),
     name_en: (lb[FIELDS.LOCAL_BODY.NAME_EN] || '').toLowerCase().trim(),
     type: lb[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || lb[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '',
-    category: lb[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || 'Normal'
+    category: lb[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY] || lb.local_body_category?.category || 'Normal'
   }));
   const rankingCategories = [
     { key: 'Perfect', label: '🏅 Perfect', color: '#43a047', bg: '#e8f5e9' },

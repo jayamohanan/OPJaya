@@ -1,15 +1,6 @@
 // src/services/clientDataService.js
 import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
-import { 
-  mapLocalBodyData, 
-  mapAssemblyData, 
-  mapDistrictData, 
-  mapWardData, 
-  mapIssueData, 
-  mapTownData,
-  mapWardCollectionData
-} from '../utils/dataMapper';
 
 // Set this flag to true to use Supabase, false to use static JSON files
 const USE_SUPABASE = true;
@@ -39,7 +30,7 @@ export async function getStateData() {
       categoryMap[cat.district_id] = cat.category;
     });
 
-    return {
+    const result = {
       districts: (districtData || []).map(d => ({
         district_id: d[FIELDS.DISTRICT.ID],
         district_name_en: d[FIELDS.DISTRICT.NAME_EN],
@@ -47,6 +38,8 @@ export async function getStateData() {
         category: categoryMap[d[FIELDS.DISTRICT.ID]] || 'Normal'
       }))
     };
+    console.log('-------getStateData', result);
+    return result;
   } else {
     const res = await fetch('/data/state.json');
     if (!res.ok) throw new Error('State JSON not found');
@@ -66,7 +59,8 @@ export async function getDistrictData(districtId) {
       .eq(FIELDS.DISTRICT.ID, districtId)
       .single();
     if (districtError) throw districtError;
-    return mapDistrictData(districtData);
+    console.log('-------getDistrictData', districtData);
+    return districtData;
   } else {
     const res = await fetch(`/data/districts/${districtId}.json`);
     if (!res.ok) throw new Error('District JSON not found');
@@ -84,7 +78,8 @@ export async function getAssembliesForDistrict(districtId) {
       ].join(', '))
       .eq(FIELDS.ASSEMBLY.DISTRICT_ID, districtId);
     if (asmError) throw asmError;
-    return (asms || []).map(mapAssemblyData);
+    console.log('-------getAssembliesForDistrict', asms || []);
+    return asms || [];
   } else {
     const districtData = await getDistrictData(districtId);
     return districtData.assemblies || [];
@@ -103,7 +98,8 @@ export async function getAssemblyData(assemblyId) {
       .eq(FIELDS.ASSEMBLY.ID, assemblyId)
       .single();
     if (assemblyError) throw assemblyError;
-    return mapAssemblyData(assemblyData);
+    console.log('-------getAssemblyData', assemblyData);
+    return assemblyData;
   } else {
     const res = await fetch(`/data/assemblies/${assemblyId}.json`);
     if (!res.ok) throw new Error('Assembly JSON not found');
@@ -122,7 +118,8 @@ export async function getLocalBodiesForAssembly(assemblyId) {
       ].join(', '))
       .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, assemblyId);
     if (lbError) throw lbError;
-    return (lbs || []).map(mapLocalBodyData);
+    console.log('-------getLocalBodiesForAssembly', lbs || []);
+    return lbs || [];
   } else {
     const assemblyData = await getAssemblyData(assemblyId);
     return assemblyData.local_bodies || [];
@@ -142,6 +139,7 @@ export async function getLocalBodyData(localBodyId) {
       .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
       .single();
     if (localBodyError) throw localBodyError;
+    console.log('-------getLocalBodyData', localBodyData);
     return localBodyData;
   } else {
     const res = await fetch(`/data/local_bodies/${localBodyId}.json`);
@@ -165,6 +163,7 @@ export async function getLocalBodyDetails(localBodyId) {
       .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
       .single();
     if (localBodyError) throw localBodyError;
+    console.log('-------getLocalBodyDetails', localBodyData);
     return localBodyData;
   } else {
     return await getLocalBodyData(localBodyId);
@@ -184,6 +183,7 @@ export async function getAssemblyDetails(assemblyId) {
       .eq(FIELDS.ASSEMBLY.ID, assemblyId)
       .single();
     if (assemblyError) throw assemblyError;
+    console.log('-------getAssemblyDetails', assemblyData);
     return assemblyData;
   } else {
     return await getAssemblyData(assemblyId);
@@ -202,6 +202,7 @@ export async function getDistrictDetails(districtId) {
       .eq(FIELDS.DISTRICT.ID, districtId)
       .single();
     if (districtError) throw districtError;
+    console.log('-------getDistrictDetails', districtData);
     return districtData;
   } else {
     return await getDistrictData(districtId);
@@ -217,7 +218,8 @@ export async function getAllDistrictsData() {
         '*',
         `${TABLES.DISTRICT_CATEGORY}(*)`
       ].join(', '));
-    return (districtData || []).map(mapDistrictData);
+    console.log('-------getAllDistrictsData', districtData || []);
+    return districtData || [];
   } else {
     const stateData = await getStateData();
     return stateData.districts || [];
@@ -232,7 +234,8 @@ export async function getAllAssembliesData() {
         '*',
         `${TABLES.ASSEMBLY_CATEGORY}(*)`
       ].join(', '));
-    return (assemblyData || []).map(mapAssemblyData);
+    console.log('-------getAllAssembliesData', assemblyData || []);
+    return assemblyData || [];
   } else {
     // For JSON mode, we'd need to aggregate from all district JSONs
     // This is more complex and might require an index file
@@ -249,8 +252,7 @@ export async function getAllLocalBodiesData() {
         `${TABLES.LOCAL_BODY_CATEGORY}(*)`,
         `${TABLES.LOCAL_BODY_TYPE}(*)`
       ].join(', '));
-      console.log('qqqqqqqqqqqqqqFetched local body data:', localBodyData);
-    // return (localBodyData || []).map(mapLocalBodyData);
+    console.log('-------getAllLocalBodiesData', localBodyData || []);
     return  localBodyData || [];
   } else {
     // For JSON mode, we'd need to aggregate from all assembly JSONs
@@ -263,6 +265,7 @@ export async function getLocalBodyCategories() {
     const { data: localBodyCategoryData } = await supabase
       .from('local_body_category')
       .select(`${FIELDS.LOCAL_BODY_CATEGORY.LOCAL_BODY_ID}, ${FIELDS.LOCAL_BODY_CATEGORY.CATEGORY}`);
+    console.log('-------getLocalBodyCategories', localBodyCategoryData || []);
     return localBodyCategoryData || [];
   } else {
     // Categories are included in the individual JSON files
@@ -272,120 +275,141 @@ export async function getLocalBodyCategories() {
 
 // Function to get wards for a local body
 export async function getWardsForLocalBody(localBodyId) {
-  console.log('************getWardsForLocalBody called with localBodyId:', localBodyId);
-  if (!USE_SUPABASE) {
-    throw new Error('Static data service not implemented for wards');
-  }
-  
-  try {
-    const { data, error } = await supabase
-      .from(TABLES.WARD)
-      .select('*')
-      .eq(FIELDS.WARD.LOCAL_BODY_ID, localBodyId);
+  if (USE_SUPABASE) {
+    try {
+      const { data, error } = await supabase
+        .from(TABLES.WARD)
+        .select('*')
+        .eq(FIELDS.WARD.LOCAL_BODY_ID, localBodyId);
 
-    if (error) {
-      console.error('Error fetching wards for local body:', error);
+      if (error) {
+        console.error('Error fetching wards for local body:', error);
+        return [];
+      }
+
+      console.log('-------getWardsForLocalBody', data || []);
+      return data || [];
+    } catch (error) {
+      console.error('Error in getWardsForLocalBody:', error);
       return [];
     }
-
-    return (data || []).map(mapWardData);
-  } catch (error) {
-    console.error('Error in getWardsForLocalBody:', error);
-    return [];
+  } else {
+    try {
+      const localBodyData = await getLocalBodyData(localBodyId);
+      return localBodyData.wards || [];
+    } catch (error) {
+      console.error('Error fetching wards from local body JSON:', error);
+      return [];
+    }
   }
 }
 
 // Function to get ward collection rates for HKS
 export async function getWardCollectionRates(wardIds) {
-  if (!USE_SUPABASE) {
-    throw new Error('Static data service not implemented for ward collection rates');
-  }
-  
-  try {
-    const { data, error } = await supabase
-      .from(TABLES.WARD_COLLECTION)
-      .select('*')
-      .in(FIELDS.WARD_COLLECTION.WARD_ID, wardIds);
+  if (USE_SUPABASE) {
+    try {
+      const { data, error } = await supabase
+        .from(TABLES.WARD_COLLECTION)
+        .select('*')
+        .in(FIELDS.WARD_COLLECTION.WARD_ID, wardIds);
 
-    if (error) {
-      console.error('Error fetching ward collection rates:', error);
+      if (error) {
+        console.error('Error fetching ward collection rates:', error);
+        return [];
+      }
+
+      console.log('-------getWardCollectionRates', data || []);
+      return data || [];
+    } catch (error) {
+      console.error('Error in getWardCollectionRates:', error);
       return [];
     }
-
-    return (data || []).map(mapWardCollectionData);
-  } catch (error) {
-    console.error('Error in getWardCollectionRates:', error);
+  } else {
     return [];
   }
 }
 
 // Function to get issues for a local body
 export async function getIssuesForLocalBody(localBodyId) {
-  if (!USE_SUPABASE) {
-    throw new Error('Static data service not implemented for issues');
-  }
-  
-  try {
-    const { data, error } = await supabase
-      .from(TABLES.ISSUES)
-      .select('*')
-      .eq(FIELDS.ISSUES.LOCAL_BODY_ID, localBodyId);
+  if (USE_SUPABASE) {
+    try {
+      const { data, error } = await supabase
+        .from(TABLES.ISSUES)
+        .select('*')
+        .eq(FIELDS.ISSUES.LOCAL_BODY_ID, localBodyId);
 
-    if (error) {
-      console.error('Error fetching issues for local body:', error);
+      if (error) {
+        console.error('Error fetching issues for local body:', error);
+        return [];
+      }
+
+      console.log('-------getIssuesForLocalBody', data || []);
+      return data || [];
+    } catch (error) {
+      console.error('Error in getIssuesForLocalBody:', error);
       return [];
     }
-
-    return (data || []).map(mapIssueData);
-  } catch (error) {
-    console.error('Error in getIssuesForLocalBody:', error);
-    return [];
+  } else {
+    try {
+      const localBodyData = await getLocalBodyData(localBodyId);
+      return localBodyData.issues || {};
+    } catch (error) {
+      console.error('Error fetching issues from local body JSON:', error);
+      return {};
+    }
   }
 }
 
-// Function to get towns for a local body
 export async function getTownsForLocalBody(localBodyId) {
-  if (!USE_SUPABASE) {
-    throw new Error('Static data service not implemented for towns');
-  }
-  
-  try {
-    const { data, error } = await supabase
-      .from(TABLES.TOWN)
-      .select('*')
-      .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
+  if (USE_SUPABASE) {
+    try {
+      const { data, error } = await supabase
+        .from(TABLES.TOWN)
+        .select('*')
+        .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
 
-    if (error) {
-      console.error('Error fetching towns for local body:', error);
+      if (error) {
+        console.error('Error fetching towns for local body:', error);
+        return [];
+      }
+
+      console.log('-------getTownsForLocalBody', data || []);
+      return data || [];
+    } catch (error) {
+      console.error('Error in getTownsForLocalBody:', error);
       return [];
     }
-
-    return (data || []).map(mapTownData);
-  } catch (error) {
-    console.error('Error in getTownsForLocalBody:', error);
-    return [];
+  } else {
+    try {
+      const localBodyData = await getLocalBodyData(localBodyId);
+      return localBodyData.towns || [];
+    } catch (error) {
+      console.error('Error fetching towns from local body JSON:', error);
+      return [];
+    }
   }
 }
 
 // Function to update ward collection rates
 export async function updateWardCollectionRates(rates) {
-  if (!USE_SUPABASE) {
-    throw new Error('Static data service not implemented for updating ward collection rates');
-  }
-  
-  try {
-    const { data, error } = await supabase
-      .from(TABLES.WARD_COLLECTION)
-      .upsert(rates, { onConflict: ['ward_id', 'year_month'] });
+  if (USE_SUPABASE) {
+    try {
+      const { data, error } = await supabase
+        .from(TABLES.WARD_COLLECTION)
+        .upsert(rates, { onConflict: ['ward_id', 'year_month'] });
 
-    if (error) {
-      console.error('Error updating ward collection rates:', error);
+      if (error) {
+        console.error('Error updating ward collection rates:', error);
+        throw error;
+      }
+
+      console.log('-------updateWardCollectionRates', data);
+      return data;
+    } catch (error) {
+      console.error('Error in updateWardCollectionRates:', error);
       throw error;
     }
-
-    return data;
-  } catch (error) {
-    console.error('Error in updateWardCollectionRates:', error);
-    throw error;
+  } else {
+    throw new Error('Update operations are not supported in static JSON mode');
   }
 }

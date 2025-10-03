@@ -454,9 +454,7 @@ function LocalBodyDashboard() {
       
       try {
         // 1. Get all ward_ids for the local body
-        console.log('**************fetching for localBody ', localBody);
         const wards = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
-        console.log('**************passed with ', localBody[FIELDS.LOCAL_BODY.ID]);
         if (!wards) return;
 
         const wardIds = wards.map(w => w[FIELDS.WARD.ID]);
