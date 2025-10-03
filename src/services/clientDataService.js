@@ -8,36 +8,15 @@ const USE_SUPABASE = true;
 // --- State Data ---
 export async function getStateData() {
   if (USE_SUPABASE) {
-    // Fetch all districts
+    // Fetch all districts with nested categories
     const { data: districtData, error: districtError } = await supabase
       .from(TABLES.DISTRICT)
       .select([
-        FIELDS.DISTRICT.ID,
-        FIELDS.DISTRICT.NAME_EN,
-        FIELDS.DISTRICT.NAME_ML
+        '*',
+        `${TABLES.DISTRICT_CATEGORY}(*)`
       ].join(', '));
     if (districtError) throw districtError;
-
-    // Fetch district categories
-    const { data: catData, error: catError } = await supabase
-      .from('district_category')
-      .select('district_id, category');
-    if (catError) throw catError;
-
-    // Map categories to districts
-    const categoryMap = {};
-    (catData || []).forEach(cat => {
-      categoryMap[cat.district_id] = cat.category;
-    });
-
-    const result = {
-      districts: (districtData || []).map(d => ({
-        district_id: d[FIELDS.DISTRICT.ID],
-        district_name_en: d[FIELDS.DISTRICT.NAME_EN],
-        district_name_ml: d[FIELDS.DISTRICT.NAME_ML],
-        category: categoryMap[d[FIELDS.DISTRICT.ID]] || 'Normal'
-      }))
-    };
+    const result = { districts: districtData || [] };
     console.log('-------getStateData', result);
     return result;
   } else {

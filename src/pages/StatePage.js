@@ -19,10 +19,10 @@ function StatePage() {
           return;
         }
         const districtsWithCategory = (stateData.districts || []).map(d => ({
-          id: d.district_id,
-          name: lang === 'ml' ? (d.district_name_ml || d.district_name_en) : (d.district_name_en || d.district_name_ml),
-          name_en: (d.district_name_en || '').toLowerCase().trim(),
-          category: d.category || 'Normal'
+          id: d.id,
+          name: lang === 'ml' ? (d.name_ml || d.name_en) : (d.name_en || d.name_ml),
+          name_en: (d.name_en || '').toLowerCase().trim(),
+          category: d.district_category?.category || 'Normal'
         }));
         setDistricts(districtsWithCategory);
       } catch (error) {
@@ -68,5 +68,9 @@ function StatePage() {
     />
   );
 }
+
+// When rendering district names, use district.name_en and district.name_ml (not district.district_name_en)
+// Example:
+// const name = lang === 'ml' ? (district.name_ml || district.name_en) : (district.name_en || district.name_ml);
 
 export default StatePage;

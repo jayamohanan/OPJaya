@@ -614,8 +614,8 @@ function LocalBodyDashboard() {
     // Remove geojsonUrl from state, as it is no longer defined or used
     navigate('/map', {
       state: {
-        localBodyName: localBody?.[FIELDS.LOCAL_BODY.NAME_EN],
-        localBodyType: localBody?.[FIELDS.LOCAL_BODY.TYPE_EN],
+        localBodyName: localBody?.name_en,
+        localBodyType: localBody?.local_body_type?.type_name_en,
         localBodyData: localBody
       }
     });
@@ -815,8 +815,8 @@ function LocalBodyDashboard() {
             <div className="local-body-header">
               <h2 className="local-body-name malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.[FIELDS.LOCAL_BODY.NAME_ML] || localBody?.[FIELDS.LOCAL_BODY.NAME_EN] || 'Unknown Local Body')
-                  : (localBody?.[FIELDS.LOCAL_BODY.NAME_EN] || localBody?.[FIELDS.LOCAL_BODY.NAME_ML] || 'Unknown Local Body')}
+                  ? (localBody?.name_ml || localBody?.name_en || 'Unknown Local Body')
+                  : (localBody?.name_en || localBody?.name_ml || 'Unknown Local Body')}
               </h2>
               <div className="local-body-type malayalam-text">
                 {lang === 'ml'
