@@ -33,121 +33,141 @@
       "id": "310e9dac-d9de-4200-97f8-d9d4e14d28e3",
       "ward_no": "1",
       "name_en": "Maliankara North",
-      "name_ml": "മാല്യങ്കര വടക്ക്"
+      "name_ml": "മാല്യങ്കര വടക്ക്",
+      "rate": 75
     },
     {
       "id": "7073033d-08cb-486f-92d2-05709864fad6",
       "ward_no": "2",
       "name_en": "Kottuvallikkad West",
-      "name_ml": "കൊട്ടുവള്ളിക്കാട് പടിഞ്ഞാറ്"
+      "name_ml": "കൊട്ടുവള്ളിക്കാട് പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "3c9d1af3-692d-4b49-ae0b-66a4971458ab",
       "ward_no": "3",
       "name_en": "Kottuvallikkad",
-      "name_ml": "കൊട്ടുവള്ളിക്കാട്"
+      "name_ml": "കൊട്ടുവള്ളിക്കാട്",
+      "rate": 75
     },
     {
       "id": "4e6f354f-0e4b-46cd-ad33-4c117ab0bfc7",
       "ward_no": "4",
       "name_en": "Tharayilkavala",
-      "name_ml": "തറയില്‍കവല"
+      "name_ml": "തറയില്‍കവല",
+      "rate": 95
     },
     {
       "id": "b30c4416-5301-4b16-bdc3-ed551c2e68bd",
       "ward_no": "5",
       "name_en": "Moothakunnam",
-      "name_ml": "മൂത്തകുന്നം"
+      "name_ml": "മൂത്തകുന്നം",
+      "rate": 65
     },
     {
       "id": "845845b9-7017-4ef5-bf5e-10ee09f8d58c",
       "ward_no": "6",
       "name_en": "Madaplathuruth West",
-      "name_ml": "മടപ്ലാതുരുത്ത് പടിഞ്ഞാറ്"
+      "name_ml": "മടപ്ലാതുരുത്ത് പടിഞ്ഞാറ്",
+      "rate": 65
     },
     {
       "id": "01ffe85b-842d-488b-8e22-d3f58e248dfd",
       "ward_no": "7",
       "name_en": "Madaplathuruth South",
-      "name_ml": "മടപ്ലാതുരുത്ത് തെക്ക്"
+      "name_ml": "മടപ്ലാതുരുത്ത് തെക്ക്",
+      "rate": 65
     },
     {
       "id": "61950c50-3619-4257-a100-ed81c9938eda",
       "ward_no": "8",
       "name_en": "Andippillikkavu",
-      "name_ml": "അണ്ടിപ്പിള്ളിക്കാവ്"
+      "name_ml": "അണ്ടിപ്പിള്ളിക്കാവ്",
+      "rate": 75
     },
     {
       "id": "476cd43b-b77d-4161-9caa-67e4f8311297",
       "ward_no": "9",
       "name_en": "Madaplathuruth East",
-      "name_ml": "മടപ്ലാതുരുത്ത് കിഴക്ക്"
+      "name_ml": "മടപ്ലാതുരുത്ത് കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "ac8ed2ac-f507-4b95-90cb-99b728a1dc22",
       "ward_no": "10",
       "name_en": "Thuruthippuram",
-      "name_ml": "തുരുത്തിപ്പുറം"
+      "name_ml": "തുരുത്തിപ്പുറം",
+      "rate": 75
     },
     {
       "id": "d32544be-9c2a-44bd-97fc-d2165f3426f0",
       "ward_no": "11",
       "name_en": "Muravanthuruth",
-      "name_ml": "മുറവന്‍തുരുത്ത്"
+      "name_ml": "മുറവന്‍തുരുത്ത്",
+      "rate": 65
     },
     {
       "id": "364d839f-32f5-48a1-8983-83c0d780eca7",
       "ward_no": "12",
       "name_en": "Oravanthuruth",
-      "name_ml": "ഒറവന്‍തുരുത്ത്"
+      "name_ml": "ഒറവന്‍തുരുത്ത്",
+      "rate": 95
     },
     {
       "id": "bc4ad424-d082-4b72-a4b2-c8885c286cdc",
       "ward_no": "13",
       "name_en": "Kattathuruth",
-      "name_ml": "കട്ടത്തുരുത്ത്"
+      "name_ml": "കട്ടത്തുരുത്ത്",
+      "rate": 75
     },
     {
       "id": "93848b1a-5af4-4f2e-907a-77062cc47fc8",
       "ward_no": "14",
       "name_en": "Paliathuruth",
-      "name_ml": "പാല്യത്തുരുത്ത്"
+      "name_ml": "പാല്യത്തുരുത്ത്",
+      "rate": 75
     },
     {
       "id": "099ffec3-50f2-4988-83f9-ae1deb83de9a",
       "ward_no": "15",
       "name_en": "Vavakkad East",
-      "name_ml": "വാവക്കാട് കിഴക്ക്"
+      "name_ml": "വാവക്കാട് കിഴക്ക്",
+      "rate": 95
     },
     {
       "id": "6bad0ad7-17d1-4e79-8140-c208832e120a",
       "ward_no": "16",
       "name_en": "Vavakkad",
-      "name_ml": "വാവക്കാട്"
+      "name_ml": "വാവക്കാട്",
+      "rate": 95
     },
     {
       "id": "525f81f8-a220-4a9a-b9ff-680dd3c8668a",
       "ward_no": "17",
       "name_en": "Kunjithai East",
-      "name_ml": "കുഞ്ഞിത്തൈ കിഴക്ക്"
+      "name_ml": "കുഞ്ഞിത്തൈ കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "cedb00f9-0248-443c-a839-65a23a4ca1bb",
       "ward_no": "18",
       "name_en": "Kunjithai West",
-      "name_ml": "കുഞ്ഞിത്തൈ പടിഞ്ഞാറ്"
+      "name_ml": "കുഞ്ഞിത്തൈ പടിഞ്ഞാറ്",
+      "rate": 65
     },
     {
       "id": "99edba48-47a8-49b8-a2d1-3387c595c5f6",
       "ward_no": "19",
       "name_en": "Chettikkad",
-      "name_ml": "ചെട്ടിക്കാട്"
+      "name_ml": "ചെട്ടിക്കാട്",
+      "rate": 75
     },
     {
       "id": "6a6dda83-4853-4568-867d-fc7826028336",
       "ward_no": "20",
       "name_en": "Maliankara South",
-      "name_ml": "മാല്യങ്കര തെക്ക്"
+      "name_ml": "മാല്യങ്കര തെക്ക്",
+      "rate": 75
     }
   ],
   "towns": [],

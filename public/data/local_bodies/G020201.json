@@ -33,115 +33,134 @@
       "id": "6a223a6e-c7dc-42e0-b8d2-ebc94f23f9f8",
       "ward_no": "1",
       "name_en": "Panappetty",
-      "name_ml": "പനപ്പെട്ടി"
+      "name_ml": "പനപ്പെട്ടി",
+      "rate": 95
     },
     {
       "id": "a2dca1bd-150b-4fe9-a90c-4955f5fa8fed",
       "ward_no": "2",
       "name_en": "Panappetty East",
-      "name_ml": "പനപ്പെട്ടി കിഴക്ക്"
+      "name_ml": "പനപ്പെട്ടി കിഴക്ക്",
+      "rate": 95
     },
     {
       "id": "17ebcd40-2280-4112-adce-a0df82f96501",
       "ward_no": "3",
       "name_en": "Cinemaparambu",
-      "name_ml": "സിനിമാപറമ്പ്"
+      "name_ml": "സിനിമാപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "f200ce72-5612-42f6-9793-4126b13d4c16",
       "ward_no": "4",
       "name_en": "Muthupilakkadu East",
-      "name_ml": "മുതുപിലാക്കാട് കിഴക്ക്"
+      "name_ml": "മുതുപിലാക്കാട് കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "bf0b98ab-3f0e-4cce-8a3b-819f862fabe5",
       "ward_no": "5",
       "name_en": "Muthupilakkadu",
-      "name_ml": "മുതുപിലാക്കാട്"
+      "name_ml": "മുതുപിലാക്കാട്",
+      "rate": 95
     },
     {
       "id": "cfe3dfcf-d874-4cd7-825f-f9dfded5c32d",
       "ward_no": "6",
       "name_en": "Karimthottuva",
-      "name_ml": "കരിന്തോട്ടുവ"
+      "name_ml": "കരിന്തോട്ടുവ",
+      "rate": 75
     },
     {
       "id": "7b610706-7bee-4445-baeb-ddb94b288c88",
       "ward_no": "7",
       "name_en": "Peruvelikkara",
-      "name_ml": "പെരുവേലിക്കര"
+      "name_ml": "പെരുവേലിക്കര",
+      "rate": 65
     },
     {
       "id": "004a2c9b-dc92-45d5-9f6f-0b3dbb3afaa6",
       "ward_no": "8",
       "name_en": "Punnamoodu",
-      "name_ml": "പുന്നമൂട്"
+      "name_ml": "പുന്നമൂട്",
+      "rate": 65
     },
     {
       "id": "818ca33b-e647-427e-9118-395124ef66a4",
       "ward_no": "9",
       "name_en": "Muthupilakkadu West",
-      "name_ml": "മുതുപിലാക്കാട് പടിഞ്ഞാറ്"
+      "name_ml": "മുതുപിലാക്കാട് പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "54acc88f-4f46-49ae-ba97-ace0e5a75673",
       "ward_no": "10",
       "name_en": "Manakkara East",
-      "name_ml": "മനക്കര കിഴക്ക്"
+      "name_ml": "മനക്കര കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "76f8dd52-3f4a-4c48-9803-5709bbb50e06",
       "ward_no": "11",
       "name_en": "Sasthamcotta Town",
-      "name_ml": "ശാസ്താംകോട്ട ഠൌണ്‍"
+      "name_ml": "ശാസ്താംകോട്ട ഠൌണ്‍",
+      "rate": 65
     },
     {
       "id": "3876fce0-b801-410d-9fdd-bc161cf882f1",
       "ward_no": "12",
       "name_en": "Rajagiri",
-      "name_ml": "രാജഗിരി"
+      "name_ml": "രാജഗിരി",
+      "rate": 65
     },
     {
       "id": "2593a903-073e-4381-898b-78231f96a63c",
       "ward_no": "13",
       "name_en": "Manakkara West",
-      "name_ml": "മനക്കര പടിഞ്ഞാറ്"
+      "name_ml": "മനക്കര പടിഞ്ഞാറ്",
+      "rate": 65
     },
     {
       "id": "7ac37845-4aba-4b5d-9e8c-d06bc340b04d",
       "ward_no": "14",
       "name_en": "Pallisserickal South",
-      "name_ml": "പള്ളിശ്ശേരിക്കല്‍ തെക്ക്"
+      "name_ml": "പള്ളിശ്ശേരിക്കല്‍ തെക്ക്",
+      "rate": 75
     },
     {
       "id": "bc3f2170-bb54-4e07-9328-b1a8248ead41",
       "ward_no": "15",
       "name_en": "Pallisserickal",
-      "name_ml": "പള്ളിശ്ശേരിക്കല്‍"
+      "name_ml": "പള്ളിശ്ശേരിക്കല്‍",
+      "rate": 95
     },
     {
       "id": "2cd87769-9241-4801-ac10-c320facd1396",
       "ward_no": "16",
       "name_en": "Pallisserickal West",
-      "name_ml": "പള്ളിശ്ശേരിക്കല്‍ പടിഞ്ഞാറ്"
+      "name_ml": "പള്ളിശ്ശേരിക്കല്‍ പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "b8049960-c602-43fa-b75c-a39a88ed15a0",
       "ward_no": "17",
       "name_en": "Pallisserickal East",
-      "name_ml": "പള്ളിശ്ശേരിക്കല്‍ കിഴക്ക്"
+      "name_ml": "പള്ളിശ്ശേരിക്കല്‍ കിഴക്ക്",
+      "rate": 65
     },
     {
       "id": "c2822271-58e0-455e-a424-d57f9123d3f8",
       "ward_no": "18",
       "name_en": "Manakkara",
-      "name_ml": "മനക്കര"
+      "name_ml": "മനക്കര",
+      "rate": 65
     },
     {
       "id": "26ed96b1-14b5-49a3-84fb-25d3aada710d",
       "ward_no": "19",
       "name_en": "Bharanikkavu",
-      "name_ml": "ഭരണിക്കാവ്"
+      "name_ml": "ഭരണിക്കാവ്",
+      "rate": 65
     }
   ],
   "towns": [],

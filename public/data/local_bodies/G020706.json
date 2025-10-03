@@ -33,97 +33,113 @@
       "id": "f64bf97f-3d47-4052-9ae8-0defa91f4836",
       "ward_no": "1",
       "name_en": "Perumon West",
-      "name_ml": "പെരുമണ്‍ പടിഞ്ഞാറ്"
+      "name_ml": "പെരുമണ്‍ പടിഞ്ഞാറ്",
+      "rate": 95
     },
     {
       "id": "7c0f266e-41ed-4246-9b8e-251c868f757f",
       "ward_no": "2",
       "name_en": "Perumon East",
-      "name_ml": "പെരുമണ്‍ കിഴക്ക്"
+      "name_ml": "പെരുമണ്‍ കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "56bdb27f-5bea-4b7d-9947-d848ee3afdf5",
       "ward_no": "3",
       "name_en": "P.H.C",
-      "name_ml": "പി.എച്ച്.സി"
+      "name_ml": "പി.എച്ച്.സി",
+      "rate": 75
     },
     {
       "id": "af367d82-6fb2-427a-ae92-42fe621d42ad",
       "ward_no": "4",
       "name_en": "Railwaystation",
-      "name_ml": "റയില്‍വെസ്റ്റേഷന്‍"
+      "name_ml": "റയില്‍വെസ്റ്റേഷന്‍",
+      "rate": 65
     },
     {
       "id": "4f2f0684-0d60-4ae0-86ed-6d354cf55311",
       "ward_no": "5",
       "name_en": "Chemmakkadu",
-      "name_ml": "ചെമ്മക്കാട്"
+      "name_ml": "ചെമ്മക്കാട്",
+      "rate": 75
     },
     {
       "id": "7266fe59-cb5e-4f74-be45-f0dd55bd0cb2",
       "ward_no": "6",
       "name_en": "Charukadu",
-      "name_ml": "ചാറുകാട്"
+      "name_ml": "ചാറുകാട്",
+      "rate": 75
     },
     {
       "id": "2a82b233-c240-432e-8055-f7b7cf7e9791",
       "ward_no": "7",
       "name_en": "Chathinamkulam",
-      "name_ml": "ചാത്തിനാംകുളം"
+      "name_ml": "ചാത്തിനാംകുളം",
+      "rate": 65
     },
     {
       "id": "7fccd08c-72d8-4d18-b17e-4e38035a52a5",
       "ward_no": "8",
       "name_en": "Gurukulam",
-      "name_ml": "ഗുരുകുലം"
+      "name_ml": "ഗുരുകുലം",
+      "rate": 75
     },
     {
       "id": "519389fe-c13c-4914-a390-8fdcd8372338",
       "ward_no": "9",
       "name_en": "Pampalil",
-      "name_ml": "പാമ്പാലില്‍"
+      "name_ml": "പാമ്പാലില്‍",
+      "rate": 75
     },
     {
       "id": "07809392-2ec1-44e1-b0b5-bc347b0717fa",
       "ward_no": "10",
       "name_en": "Kandachira",
-      "name_ml": "കണ്ടച്ചിറ"
+      "name_ml": "കണ്ടച്ചിറ",
+      "rate": 75
     },
     {
       "id": "36ef0203-1bb2-4b60-82fa-3c7de9bd37a7",
       "ward_no": "11",
       "name_en": "Thannikkamukku",
-      "name_ml": "താന്നിക്കമുക്ക്"
+      "name_ml": "താന്നിക്കമുക്ക്",
+      "rate": 75
     },
     {
       "id": "d4166638-b644-4e55-9923-87500e5ecae5",
       "ward_no": "12",
       "name_en": "Chonamchira",
-      "name_ml": "ചോനംചിറ"
+      "name_ml": "ചോനംചിറ",
+      "rate": 75
     },
     {
       "id": "50b9ac59-42f3-44e8-b82c-92bcf19ba37c",
       "ward_no": "13",
       "name_en": "Ambazhavayal",
-      "name_ml": "അമ്പഴവയല്‍"
+      "name_ml": "അമ്പഴവയല്‍",
+      "rate": 95
     },
     {
       "id": "70dba7f5-5670-451f-9fac-85e34e96a86a",
       "ward_no": "14",
       "name_en": "Panayam",
-      "name_ml": "പനയം"
+      "name_ml": "പനയം",
+      "rate": 75
     },
     {
       "id": "ba998809-d6ad-40b0-b1af-ec2f24c38c57",
       "ward_no": "15",
       "name_en": "Kovilmukku",
-      "name_ml": "കോവില്‍മുക്ക്"
+      "name_ml": "കോവില്‍മുക്ക്",
+      "rate": 65
     },
     {
       "id": "dc37b8f7-182b-434a-9c79-a99e49606799",
       "ward_no": "16",
       "name_en": "Chittayam",
-      "name_ml": "ചിറ്റയം"
+      "name_ml": "ചിറ്റയം",
+      "rate": 75
     }
   ],
   "towns": [],

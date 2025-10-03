@@ -33,79 +33,92 @@
       "id": "f905a6a2-102a-45d8-9c86-ab80fa3852ed",
       "ward_no": "1",
       "name_en": "Deseeyam",
-      "name_ml": "ദേശീയം"
+      "name_ml": "ദേശീയം",
+      "rate": 75
     },
     {
       "id": "aca652f0-1cc9-4e72-9085-21e1d883ac8e",
       "ward_no": "2",
       "name_en": "Iruttala",
-      "name_ml": "ഇരുട്ടള"
+      "name_ml": "ഇരുട്ടള",
+      "rate": 75
     },
     {
       "id": "ccedd034-a4d1-40ac-8dd9-1c889ab99178",
       "ward_no": "3",
       "name_en": "Pottankadu",
-      "name_ml": "പൊട്ടന്‍കാട്"
+      "name_ml": "പൊട്ടന്‍കാട്",
+      "rate": 75
     },
     {
       "id": "beacd78f-dc10-4709-8f28-15a481d3f69a",
       "ward_no": "4",
       "name_en": "Bisonvalley",
-      "name_ml": "ബൈസണ്‍വാലി"
+      "name_ml": "ബൈസണ്‍വാലി",
+      "rate": 75
     },
     {
       "id": "a0067037-cd3d-4cc7-89a8-e970c844852b",
       "ward_no": "5",
       "name_en": "Chokramudy",
-      "name_ml": "ചൊക്രമുടി"
+      "name_ml": "ചൊക്രമുടി",
+      "rate": 95
     },
     {
       "id": "53423f73-3919-4a86-8297-0ac97d0e7952",
       "ward_no": "6",
       "name_en": "Muttukadu",
-      "name_ml": "മുട്ടുകാട്"
+      "name_ml": "മുട്ടുകാട്",
+      "rate": 75
     },
     {
       "id": "449920f9-180a-43d4-b6d3-2a7f705c76a6",
       "ward_no": "7",
       "name_en": "High School Ward",
-      "name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്‌"
+      "name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്‌",
+      "rate": 65
     },
     {
       "id": "7dae2c2a-a07f-4a0d-bf78-d3c201aa09e3",
       "ward_no": "8",
       "name_en": "Tea Company",
-      "name_ml": "ടീ കമ്പനി"
+      "name_ml": "ടീ കമ്പനി",
+      "rate": 65
     },
     {
       "id": "13f46836-9f50-411e-bfa8-4f612c6073c0",
       "ward_no": "9",
       "name_en": "Kochuppu",
-      "name_ml": "കൊച്ചുപ്പ്"
+      "name_ml": "കൊച്ചുപ്പ്",
+      "rate": 65
     },
     {
       "id": "132f07bc-8b4f-4fdf-b8c1-dbc0b260223d",
       "ward_no": "10",
       "name_en": "Josegiri",
-      "name_ml": "ജോസ്ഗിരി"
+      "name_ml": "ജോസ്ഗിരി",
+      "rate": 95
     },
     {
       "id": "0439f036-3db9-4c6d-add8-04f0fc59d1d0",
       "ward_no": "11",
       "name_en": "Thekkinkanam",
-      "name_ml": "തേക്കിന്‍കാനം"
+      "name_ml": "തേക്കിന്‍കാനം",
+      "rate": 65
     },
     {
       "id": "e41dab29-29b6-4965-ac1b-be3d93475eca",
       "ward_no": "12",
       "name_en": "Uppar",
-      "name_ml": "ഉപ്പാര്‍"
+      "name_ml": "ഉപ്പാര്‍",
+      "rate": 75
     },
     {
       "id": "68d5fc55-0a0b-42dd-b41c-eeaa07ad58d2",
       "ward_no": "13",
       "name_en": "20 Acre",
-      "name_ml": "ഇരുപതേക്കര്‍"
+      "name_ml": "ഇരുപതേക്കര്‍",
+      "rate": 65
     }
   ],
   "towns": [],

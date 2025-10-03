@@ -33,121 +33,141 @@
       "id": "2c72f050-7cc0-4e60-abfe-8ce9a244edc1",
       "ward_no": "1",
       "name_en": "Kunnicode North",
-      "name_ml": "കുന്നിക്കോട് വടക്ക്"
+      "name_ml": "കുന്നിക്കോട് വടക്ക്",
+      "rate": 75
     },
     {
       "id": "260be415-5726-4713-930f-ce524a6daf49",
       "ward_no": "2",
       "name_en": "Kunnicode Govt.L.P.S",
-      "name_ml": "കുന്നിക്കോട് ഗവ.എല്‍.പി.എസ്"
+      "name_ml": "കുന്നിക്കോട് ഗവ.എല്‍.പി.എസ്",
+      "rate": 65
     },
     {
       "id": "aeb6f62c-d6fc-4c47-bf93-a03a70ec3da0",
       "ward_no": "3",
       "name_en": "Kulappuram",
-      "name_ml": "കുളപ്പുറം"
+      "name_ml": "കുളപ്പുറം",
+      "rate": 95
     },
     {
       "id": "69882e84-296f-4af0-b84a-6c71e23f5b28",
       "ward_no": "4",
       "name_en": "Vilakudy",
-      "name_ml": "വിളക്കുടി"
+      "name_ml": "വിളക്കുടി",
+      "rate": 75
     },
     {
       "id": "ca9df3ab-93e9-4a3e-9125-a1fbe91ec1b6",
       "ward_no": "5",
       "name_en": "Kariyara Ambalam",
-      "name_ml": "കാര്യറ അമ്പലം"
+      "name_ml": "കാര്യറ അമ്പലം",
+      "rate": 65
     },
     {
       "id": "237e0f2a-76fb-462a-9263-70e9c6959b02",
       "ward_no": "6",
       "name_en": "Karyara North",
-      "name_ml": "കാര്യറ വടക്ക്"
+      "name_ml": "കാര്യറ വടക്ക്",
+      "rate": 75
     },
     {
       "id": "eff1b566-8142-4a0c-aaee-441d2d72d0b9",
       "ward_no": "7",
       "name_en": "Kariyara",
-      "name_ml": "കാര്യറ"
+      "name_ml": "കാര്യറ",
+      "rate": 95
     },
     {
       "id": "ecb444cf-494d-49fd-ad64-3ba28daab047",
       "ward_no": "8",
       "name_en": "Paper Mill",
-      "name_ml": "പേപ്പര്‍മില്‍"
+      "name_ml": "പേപ്പര്‍മില്‍",
+      "rate": 75
     },
     {
       "id": "68d78124-a703-4fcf-b6d2-7c63f584ee0a",
       "ward_no": "9",
       "name_en": "Manjamankala",
-      "name_ml": "മഞ്ഞമണ്‍കാല"
+      "name_ml": "മഞ്ഞമണ്‍കാല",
+      "rate": 65
     },
     {
       "id": "590fb6a5-5de6-4a5a-97ac-ca9ae961a832",
       "ward_no": "10",
       "name_en": "Elicode",
-      "name_ml": "എലിക്കോട്"
+      "name_ml": "എലിക്കോട്",
+      "rate": 75
     },
     {
       "id": "a3ec2f2f-1316-4ac2-8346-4017b4bfd9f9",
       "ward_no": "11",
       "name_en": "Marangadu",
-      "name_ml": "മരങ്ങാട്"
+      "name_ml": "മരങ്ങാട്",
+      "rate": 65
     },
     {
       "id": "09cc2acb-c905-4f1a-8e3d-52b016a2c801",
       "ward_no": "12",
       "name_en": "Thiruvazhi",
-      "name_ml": "തിരുവഴി"
+      "name_ml": "തിരുവഴി",
+      "rate": 65
     },
     {
       "id": "9f71cb6d-af7e-4bce-b493-9fbd585526b5",
       "ward_no": "13",
       "name_en": "Elampal",
-      "name_ml": "ഇളമ്പല്‍"
+      "name_ml": "ഇളമ്പല്‍",
+      "rate": 75
     },
     {
       "id": "90a94aa0-89e6-4f45-b56e-f6a8b84309ca",
       "ward_no": "14",
       "name_en": "Cheeyodu",
-      "name_ml": "ചീയോട്"
+      "name_ml": "ചീയോട്",
+      "rate": 95
     },
     {
       "id": "166dd9f9-339a-4531-b705-db37d0606971",
       "ward_no": "15",
       "name_en": "Vilakudy South",
-      "name_ml": "വിളക്കുടി സൌത്ത്"
+      "name_ml": "വിളക്കുടി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "5ca3f6af-3ad9-4416-b0bb-01a94a8dbc20",
       "ward_no": "16",
       "name_en": "Dharmapuri",
-      "name_ml": "ധര്‍മ്മപുരി"
+      "name_ml": "ധര്‍മ്മപുരി",
+      "rate": 75
     },
     {
       "id": "70710b1a-742d-4332-ad30-8e9d22ff2d35",
       "ward_no": "17",
       "name_en": "Panchayat Office",
-      "name_ml": "പഞ്ചായത്ത് ഒാഫീസ്"
+      "name_ml": "പഞ്ചായത്ത് ഒാഫീസ്",
+      "rate": 75
     },
     {
       "id": "6a6d9b83-f370-4d66-ae07-4b8d826eee4c",
       "ward_no": "18",
       "name_en": "Kinattinkkara",
-      "name_ml": "കിണറ്റിന്‍ക്കര"
+      "name_ml": "കിണറ്റിന്‍ക്കര",
+      "rate": 75
     },
     {
       "id": "53454fae-7655-4e0b-9e76-2b48975084af",
       "ward_no": "19",
       "name_en": "Kunnicode South",
-      "name_ml": "കുന്നിക്കോട് സൌത്ത്"
+      "name_ml": "കുന്നിക്കോട് സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "1cc53504-e49a-4e17-a141-ca12ad36c82e",
       "ward_no": "20",
       "name_en": "Kunnicode Town",
-      "name_ml": "കുന്നിക്കോട് ഠൌണ്‍"
+      "name_ml": "കുന്നിക്കോട് ഠൌണ്‍",
+      "rate": 65
     }
   ],
   "towns": [],

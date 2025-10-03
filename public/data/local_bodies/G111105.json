@@ -33,139 +33,162 @@
       "id": "dbdde650-afae-40c8-a61e-e672a47df044",
       "ward_no": "19",
       "name_en": "Karanthur",
-      "name_ml": "കാരന്തൂര്‍"
+      "name_ml": "കാരന്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "ccd7a931-a89c-43b0-a7e2-43d177a07cf0",
       "ward_no": "1",
       "name_en": "Pathimangalam",
-      "name_ml": "പതിമംഗലം"
+      "name_ml": "പതിമംഗലം",
+      "rate": 75
     },
     {
       "id": "6c0738c4-ce44-4364-b6fa-82683e2172ba",
       "ward_no": "2",
       "name_en": "Padanilam",
-      "name_ml": "പടനിലം"
+      "name_ml": "പടനിലം",
+      "rate": 65
     },
     {
       "id": "2fb28f27-3d11-4b97-8f96-91746508c163",
       "ward_no": "3",
       "name_en": "Pilassery",
-      "name_ml": "പിലാശ്ശേരി"
+      "name_ml": "പിലാശ്ശേരി",
+      "rate": 75
     },
     {
       "id": "4f3c6b5e-00cb-4ce1-ade5-67965e01e580",
       "ward_no": "4",
       "name_en": "Poyya",
-      "name_ml": "പൊയ്യ"
+      "name_ml": "പൊയ്യ",
+      "rate": 75
     },
     {
       "id": "2ab8d145-1c87-4ae8-b1e4-329c7c85cdd5",
       "ward_no": "5",
       "name_en": "Nochipoyil",
-      "name_ml": "നൊച്ചിപൊയില്‍"
+      "name_ml": "നൊച്ചിപൊയില്‍",
+      "rate": 75
     },
     {
       "id": "08c6ce32-0de2-4905-8644-0e05cff4828e",
       "ward_no": "6",
       "name_en": "Choolamvayal",
-      "name_ml": "ചൂലാംവയല്‍"
+      "name_ml": "ചൂലാംവയല്‍",
+      "rate": 95
     },
     {
       "id": "1c79093f-a72c-4e1b-807d-7cba63c6772f",
       "ward_no": "7",
       "name_en": "Muriyanal",
-      "name_ml": "മുറിയനാല്‍"
+      "name_ml": "മുറിയനാല്‍",
+      "rate": 75
     },
     {
       "id": "80303d94-82ae-4b4b-b360-efaef83df6cc",
       "ward_no": "8",
       "name_en": "Kunnamangalam East",
-      "name_ml": "കുന്ദമംഗലം ഈസ്റ്റ്"
+      "name_ml": "കുന്ദമംഗലം ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "b7ef1eb5-9ed4-41a4-a7f2-9d54e9bbac24",
       "ward_no": "9",
       "name_en": "Chethukadav North",
-      "name_ml": "ചെത്തുകടവ് നോര്‍ത്ത്"
+      "name_ml": "ചെത്തുകടവ് നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "d32a7629-7f94-4ad4-90fd-c0e2718dbc96",
       "ward_no": "10",
       "name_en": "Chethukadav",
-      "name_ml": "ചെത്തുകടവ്"
+      "name_ml": "ചെത്തുകടവ്",
+      "rate": 75
     },
     {
       "id": "9714b9f0-b923-46e0-813e-f0f43c69a6fd",
       "ward_no": "11",
       "name_en": "Kurikkathur",
-      "name_ml": "കുരിക്കത്തൂര്‍"
+      "name_ml": "കുരിക്കത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "34cfc577-888b-44e9-8eff-b87693b95ccd",
       "ward_no": "12",
       "name_en": "Chathankav South",
-      "name_ml": "ചാത്തങ്കാവ് സൌത്ത്"
+      "name_ml": "ചാത്തങ്കാവ് സൌത്ത്",
+      "rate": 65
     },
     {
       "id": "eaf66a72-82c4-492a-ab6f-22d62128e393",
       "ward_no": "13",
       "name_en": "Chathankav North",
-      "name_ml": "ചാത്തങ്കാവ് നോര്ത്ത്"
+      "name_ml": "ചാത്തങ്കാവ് നോര്ത്ത്",
+      "rate": 75
     },
     {
       "id": "ec5aabc8-96cd-4088-bb0e-1b7328d3a87c",
       "ward_no": "14",
       "name_en": "Kunnamangalam",
-      "name_ml": "കുന്ദമംഗലം"
+      "name_ml": "കുന്ദമംഗലം",
+      "rate": 75
     },
     {
       "id": "16a8ba18-5cde-45c7-810f-81f9c9c90b94",
       "ward_no": "15",
       "name_en": "Cherinjal",
-      "name_ml": "ചേരിഞ്ചാല്‍"
+      "name_ml": "ചേരിഞ്ചാല്‍",
+      "rate": 75
     },
     {
       "id": "a31adb3e-ff83-47da-a578-02c41b52494f",
       "ward_no": "16",
       "name_en": "Paingottupuram East",
-      "name_ml": "പൈങ്ങോട്ടുപുറം ഈസ്റ്റ്"
+      "name_ml": "പൈങ്ങോട്ടുപുറം ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "64469832-4146-4dc8-be77-f30bb1054b7b",
       "ward_no": "17",
       "name_en": "Paingottupuram West",
-      "name_ml": "പൈങ്ങോട്ടുപുറം വെസ്റ്റ്"
+      "name_ml": "പൈങ്ങോട്ടുപുറം വെസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "c2187b18-a3c1-4443-9760-7f063a7ab289",
       "ward_no": "18",
       "name_en": "Kolayithazham",
-      "name_ml": "കൊളായിത്താഴം"
+      "name_ml": "കൊളായിത്താഴം",
+      "rate": 75
     },
     {
       "id": "a519d9b1-64b9-459e-9a73-e0d8b93c19ff",
       "ward_no": "20",
       "name_en": "Karanthur East",
-      "name_ml": "കാരന്തൂര്‍ ഈസ്റ്റ്"
+      "name_ml": "കാരന്തൂര്‍ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "172fd8c8-fe9e-45dc-86f3-d69b395b0039",
       "ward_no": "21",
       "name_en": "Karanthur North",
-      "name_ml": "കാരന്തൂര്‍ നോര്‍ത്ത്"
+      "name_ml": "കാരന്തൂര്‍ നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "db35ac4b-80b7-4b23-8787-dedc420f7a25",
       "ward_no": "22",
       "name_en": "Veloor",
-      "name_ml": "വേളൂര്"
+      "name_ml": "വേളൂര്",
+      "rate": 95
     },
     {
       "id": "febae575-2780-4554-aef4-7a46e304705b",
       "ward_no": "23",
       "name_en": "Pantheerpadam",
-      "name_ml": "പന്തീര്‍പാടം"
+      "name_ml": "പന്തീര്‍പാടം",
+      "rate": 75
     }
   ],
   "towns": [],

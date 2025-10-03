@@ -33,115 +33,134 @@
       "id": "0a5d0abd-978b-456f-9715-e5d813aa90a0",
       "ward_no": "1",
       "name_en": "Vandippura",
-      "name_ml": "വണ്ടിപ്പുര"
+      "name_ml": "വണ്ടിപ്പുര",
+      "rate": 75
     },
     {
       "id": "4f4a7d74-776e-4cac-92d4-2d44e73a97bf",
       "ward_no": "2",
       "name_en": "Palayamkunnu",
-      "name_ml": "പാളയംകുന്ന്"
+      "name_ml": "പാളയംകുന്ന്",
+      "rate": 65
     },
     {
       "id": "45ff5c12-d7d6-4a31-81fa-0e3d56cdeab4",
       "ward_no": "3",
       "name_en": "Kovoor",
-      "name_ml": "കോവൂര്‍"
+      "name_ml": "കോവൂര്‍",
+      "rate": 75
     },
     {
       "id": "49c97788-c7da-4965-a81a-dce83d95cf23",
       "ward_no": "4",
       "name_en": "Sivapuram",
-      "name_ml": "ശിവപുരം"
+      "name_ml": "ശിവപുരം",
+      "rate": 75
     },
     {
       "id": "e246bea5-2ff4-4da9-b064-28765d31c841",
       "ward_no": "5",
       "name_en": "Muthana",
-      "name_ml": "മുത്താന"
+      "name_ml": "മുത്താന",
+      "rate": 95
     },
     {
       "id": "9fc1b8eb-326b-4629-a75f-02a92a4bb48e",
       "ward_no": "6",
       "name_en": "Mavinmoodu",
-      "name_ml": "മാവിന്മൂട്"
+      "name_ml": "മാവിന്മൂട്",
+      "rate": 95
     },
     {
       "id": "85129cb3-6533-44b0-a7af-ec9fb2fb3cec",
       "ward_no": "7",
       "name_en": "Njekkadu",
-      "name_ml": "ഞെക്കാട്"
+      "name_ml": "ഞെക്കാട്",
+      "rate": 75
     },
     {
       "id": "9b0b91d4-80cb-4413-80f2-f46165f97ce5",
       "ward_no": "8",
       "name_en": "Chemmaruthy",
-      "name_ml": "ചെമ്മരുതി"
+      "name_ml": "ചെമ്മരുതി",
+      "rate": 75
     },
     {
       "id": "d394aa73-9229-4f76-b08c-1ee519d1a61b",
       "ward_no": "9",
       "name_en": "Panchayat Office",
-      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്"
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ്",
+      "rate": 75
     },
     {
       "id": "f21333b9-cf11-43cf-81e2-4202b1d058f9",
       "ward_no": "10",
       "name_en": "Valiyavila",
-      "name_ml": "വലിയവിള"
+      "name_ml": "വലിയവിള",
+      "rate": 95
     },
     {
       "id": "b0e092f5-9372-4699-8fa6-a9584889b928",
       "ward_no": "11",
       "name_en": "Tharatta",
-      "name_ml": "തറട്ട"
+      "name_ml": "തറട്ട",
+      "rate": 75
     },
     {
       "id": "29ac356a-46fb-4f3b-8c13-d395f1a46994",
       "ward_no": "12",
       "name_en": "Thokkadu",
-      "name_ml": "തോക്കാട്"
+      "name_ml": "തോക്കാട്",
+      "rate": 75
     },
     {
       "id": "6d017a67-55ff-44b2-9550-03b568dd528f",
       "ward_no": "13",
       "name_en": "Praleyagiri",
-      "name_ml": "പ്രാലേയഗിരി"
+      "name_ml": "പ്രാലേയഗിരി",
+      "rate": 65
     },
     {
       "id": "42cc8d75-92b0-4b9c-8f1a-02345fa910e7",
       "ward_no": "14",
       "name_en": "Panayara",
-      "name_ml": "പനയറ"
+      "name_ml": "പനയറ",
+      "rate": 75
     },
     {
       "id": "9ee54d24-22a3-4013-9671-a5edb076499b",
       "ward_no": "15",
       "name_en": "Thachode",
-      "name_ml": "തച്ചോട്"
+      "name_ml": "തച്ചോട്",
+      "rate": 75
     },
     {
       "id": "a44401b9-8be0-4f6f-828c-78cd834c7e95",
       "ward_no": "16",
       "name_en": "Sreenivasapuram",
-      "name_ml": "ശ്രീനിവാസപുരം"
+      "name_ml": "ശ്രീനിവാസപുരം",
+      "rate": 75
     },
     {
       "id": "2daa5eff-2087-4ed8-bb90-dfe1b5d6daf5",
       "ward_no": "17",
       "name_en": "Nadayara",
-      "name_ml": "നടയറ"
+      "name_ml": "നടയറ",
+      "rate": 95
     },
     {
       "id": "0bedbcee-f32b-417e-bd5f-400bb9bee3bc",
       "ward_no": "18",
       "name_en": "Muttappalam",
-      "name_ml": "മുട്ടപ്പലം"
+      "name_ml": "മുട്ടപ്പലം",
+      "rate": 75
     },
     {
       "id": "6716b377-e741-4c94-9fc8-1c2184690fa7",
       "ward_no": "19",
       "name_en": "Chavadimukku",
-      "name_ml": "ചാവടിമുക്ക്"
+      "name_ml": "ചാവടിമുക്ക്",
+      "rate": 75
     }
   ],
   "towns": [],

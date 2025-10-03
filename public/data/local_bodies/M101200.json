@@ -31,265 +31,309 @@
       "id": "4df504e9-e32b-44f1-8843-b98a9fe8c030",
       "ward_no": "1",
       "name_en": "Ottumpuram",
-      "name_ml": "ഒട്ടുംപുറം"
+      "name_ml": "ഒട്ടുംപുറം",
+      "rate": 75
     },
     {
       "id": "6004ae39-bac7-4a89-a96e-cb3e1f9bc5dc",
       "ward_no": "2",
       "name_en": "Pariyapuram",
-      "name_ml": "പരിയാപുരം"
+      "name_ml": "പരിയാപുരം",
+      "rate": 65
     },
     {
       "id": "1389d54e-3110-4e01-abd2-18ad1bddbf0c",
       "ward_no": "3",
       "name_en": "Olappeedika",
-      "name_ml": "ഓലപ്പീടിക"
+      "name_ml": "ഓലപ്പീടിക",
+      "rate": 65
     },
     {
       "id": "149d42be-36b1-4d38-8b77-9ad18e2955b1",
       "ward_no": "4",
       "name_en": "Malidweep",
-      "name_ml": "മാലിദ്വീപ്"
+      "name_ml": "മാലിദ്വീപ്",
+      "rate": 95
     },
     {
       "id": "0933e318-82bf-4898-b60b-ff3dafd8bb0e",
       "ward_no": "5",
       "name_en": "Attillam",
-      "name_ml": "ആട്ടില്ലം"
+      "name_ml": "ആട്ടില്ലം",
+      "rate": 75
     },
     {
       "id": "d0bc81f8-cc69-4fc7-b2c6-1a9d99974890",
       "ward_no": "6",
       "name_en": "Kunnumpuram North",
-      "name_ml": "കുന്നുംപുറം നോര്‍ത്ത്"
+      "name_ml": "കുന്നുംപുറം നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "e4ebf696-4e82-4432-8be6-d4e4269f3fd6",
       "ward_no": "7",
       "name_en": "Moria",
-      "name_ml": "മോര്യ"
+      "name_ml": "മോര്യ",
+      "rate": 65
     },
     {
       "id": "3e042ff3-8aad-4e56-9380-c0305e280801",
       "ward_no": "8",
       "name_en": "Kunnumpuram South",
-      "name_ml": "കുന്നുംപുറം സൌത്ത്"
+      "name_ml": "കുന്നുംപുറം സൌത്ത്",
+      "rate": 95
     },
     {
       "id": "b134b074-ff21-47a9-92b3-babe0c942677",
       "ward_no": "9",
       "name_en": "Kunnumpuram Central",
-      "name_ml": "കുന്നുംപുറം സെന്‍ട്രല്‍"
+      "name_ml": "കുന്നുംപുറം സെന്‍ട്രല്‍",
+      "rate": 75
     },
     {
       "id": "a32f90c5-9029-48a1-bffd-368304733c10",
       "ward_no": "10",
       "name_en": "Kunnumpuram East",
-      "name_ml": "കുന്നുംപുറം ഈസ്റ്റ്"
+      "name_ml": "കുന്നുംപുറം ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "0357246c-11e9-4080-a048-92e7db0443e2",
       "ward_no": "11",
       "name_en": "Panangattoor Central",
-      "name_ml": "പനങ്ങാട്ടൂര്‍ സെന്‍ട്രല്‍"
+      "name_ml": "പനങ്ങാട്ടൂര്‍ സെന്‍ട്രല്‍",
+      "rate": 75
     },
     {
       "id": "2ebeca7b-eac1-46d0-bf09-5cc124a4f7d1",
       "ward_no": "12",
       "name_en": "Panangattoor",
-      "name_ml": "പനങ്ങാട്ടൂര്‍"
+      "name_ml": "പനങ്ങാട്ടൂര്‍",
+      "rate": 75
     },
     {
       "id": "af1ea670-b52b-43ab-85ce-d17fc0c4cb11",
       "ward_no": "13",
       "name_en": "Chancheri Parambu",
-      "name_ml": "ചാഞ്ചേരിപറമ്പ്"
+      "name_ml": "ചാഞ്ചേരിപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "c0e03393-ec2f-40f3-8651-3231ac5f2373",
       "ward_no": "14",
       "name_en": "Rayirimangalam East",
-      "name_ml": "രായിരിമംഗലം ഈസ്റ്റ്"
+      "name_ml": "രായിരിമംഗലം ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "8ccc1995-2a52-40d7-b2d0-52064b0c03c2",
       "ward_no": "15",
       "name_en": "Rayirimangalam West",
-      "name_ml": "രായിരിമംഗലം വെസ്റ്റ്"
+      "name_ml": "രായിരിമംഗലം വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "8a038fbd-7cc4-44e9-aaa8-81d37cf495ff",
       "ward_no": "16",
       "name_en": "Theyyala Railway Gate",
-      "name_ml": "തെയ്യാല റെയില്‍വേ ഗേറ്റ്"
+      "name_ml": "തെയ്യാല റെയില്‍വേ ഗേറ്റ്",
+      "rate": 95
     },
     {
       "id": "1a998f3a-5b56-41d5-bad1-4d3aeff5c3e4",
       "ward_no": "17",
       "name_en": "Kannanthali",
-      "name_ml": "കണ്ണന്തളി"
+      "name_ml": "കണ്ണന്തളി",
+      "rate": 75
     },
     {
       "id": "7308c785-d4bd-43ad-99ff-2bbb44751c20",
       "ward_no": "18",
       "name_en": "Kattilangadi",
-      "name_ml": "കാട്ടിലങ്ങാടി"
+      "name_ml": "കാട്ടിലങ്ങാടി",
+      "rate": 75
     },
     {
       "id": "3c3dbc00-5c77-4f59-8632-5f1384c52e18",
       "ward_no": "19",
       "name_en": "Kattilangadi South",
-      "name_ml": "കാട്ടിലങ്ങാടി സൌത്ത്"
+      "name_ml": "കാട്ടിലങ്ങാടി സൌത്ത്",
+      "rate": 95
     },
     {
       "id": "2b08c9e9-128b-4cbf-beff-6b884e58c0ba",
       "ward_no": "20",
       "name_en": "Kattilangadi West",
-      "name_ml": "കാട്ടിലങ്ങാടി വെസ്റ്റ്"
+      "name_ml": "കാട്ടിലങ്ങാടി വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "04c9808e-fc9c-47f0-b592-6b7340ea5de7",
       "ward_no": "21",
       "name_en": "Nadakkavu",
-      "name_ml": "നടക്കാവ്"
+      "name_ml": "നടക്കാവ്",
+      "rate": 95
     },
     {
       "id": "653719a8-a373-41d1-bea2-5c263525d915",
       "ward_no": "22",
       "name_en": "Tanur",
-      "name_ml": "താനൂര്‍"
+      "name_ml": "താനൂര്‍",
+      "rate": 75
     },
     {
       "id": "4ba5a082-5005-48b5-b2dc-40d7cbecc44c",
       "ward_no": "23",
       "name_en": "Karad",
-      "name_ml": "കാരാട്"
+      "name_ml": "കാരാട്",
+      "rate": 95
     },
     {
       "id": "05562c3e-96c7-405f-901a-31f8e2850e63",
       "ward_no": "24",
       "name_en": "Puthiyakadappuram",
-      "name_ml": "പുതിയകടപ്പുറം"
+      "name_ml": "പുതിയകടപ്പുറം",
+      "rate": 75
     },
     {
       "id": "05c2e838-5191-42a0-87d1-129d5c332039",
       "ward_no": "25",
       "name_en": "Anchudi",
-      "name_ml": "അഞ്ചുടി"
+      "name_ml": "അഞ്ചുടി",
+      "rate": 95
     },
     {
       "id": "9bd1bcef-2a66-4f5c-a461-b6ac96c52d6b",
       "ward_no": "26",
       "name_en": "Cheeran Kadappuram",
-      "name_ml": "ചീരാന്‍ കടപ്പുറം"
+      "name_ml": "ചീരാന്‍ കടപ്പുറം",
+      "rate": 65
     },
     {
       "id": "7a2157f7-6e2f-4bb4-a324-c4badc096338",
       "ward_no": "27",
       "name_en": "Vembalam Parambu",
-      "name_ml": "വെമ്പാലം പറമ്പ്"
+      "name_ml": "വെമ്പാലം പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "b72ac20f-9596-4c71-81e5-99d3d453b529",
       "ward_no": "28",
       "name_en": "Edakkadappuram South",
-      "name_ml": "എടക്കടപ്പുറം സൌത്ത്"
+      "name_ml": "എടക്കടപ്പുറം സൌത്ത്",
+      "rate": 95
     },
     {
       "id": "6c4e91c5-ec70-4e92-99bb-1567df42908c",
       "ward_no": "29",
       "name_en": "Edakkadappuram North",
-      "name_ml": "എടക്കടപ്പുറം നോര്‍ത്ത്"
+      "name_ml": "എടക്കടപ്പുറം നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "04b97793-8f8e-42e1-be4d-048d32ae6edb",
       "ward_no": "30",
       "name_en": "Tanur Nagaram",
-      "name_ml": "താനൂര്‍ നഗരം"
+      "name_ml": "താനൂര്‍ നഗരം",
+      "rate": 75
     },
     {
       "id": "9b99cfd4-6b7b-4404-80f2-e954a2d72153",
       "ward_no": "31",
       "name_en": "Harber",
-      "name_ml": "ഹാര്‍ബര്‍"
+      "name_ml": "ഹാര്‍ബര്‍",
+      "rate": 65
     },
     {
       "id": "90c13383-e090-4aa2-b770-0e9057b16363",
       "ward_no": "32",
       "name_en": "Elarankadappuram",
-      "name_ml": "എളാരന്‍കടപ്പുറം"
+      "name_ml": "എളാരന്‍കടപ്പുറം",
+      "rate": 75
     },
     {
       "id": "87a5f57c-bada-4cce-b439-b1efacfd1309",
       "ward_no": "33",
       "name_en": "Tanur Central",
-      "name_ml": "താനൂര്‍ സെന്‍ട്രല്‍"
+      "name_ml": "താനൂര്‍ സെന്‍ട്രല്‍",
+      "rate": 75
     },
     {
       "id": "752a7108-5ebc-4950-9e20-4b923dec624f",
       "ward_no": "34",
       "name_en": "Civil Station",
-      "name_ml": "സിവില്‍ സ്റ്റേഷന്‍"
+      "name_ml": "സിവില്‍ സ്റ്റേഷന്‍",
+      "rate": 95
     },
     {
       "id": "be197b5e-f8f8-48b8-b761-6cd2e511da41",
       "ward_no": "35",
       "name_en": "Chellikkadu",
-      "name_ml": "ചെള്ളിക്കാട്"
+      "name_ml": "ചെള്ളിക്കാട്",
+      "rate": 95
     },
     {
       "id": "0033e209-b186-4174-9651-bcbc6a8a72c7",
       "ward_no": "36",
       "name_en": "C.H.C",
-      "name_ml": "സി.എച്ച്.സി"
+      "name_ml": "സി.എച്ച്.സി",
+      "rate": 75
     },
     {
       "id": "ba69b24f-7e73-4d76-a4c3-96dadc4c5e53",
       "ward_no": "37",
       "name_en": "Pandarakkadappuram",
-      "name_ml": "പണ്ടാരക്കടപ്പുറം"
+      "name_ml": "പണ്ടാരക്കടപ്പുറം",
+      "rate": 65
     },
     {
       "id": "72b3c64c-185e-467b-ba82-a897c6bae206",
       "ward_no": "38",
       "name_en": "Chappappadi",
-      "name_ml": "ചാപ്പപ്പടി"
+      "name_ml": "ചാപ്പപ്പടി",
+      "rate": 65
     },
     {
       "id": "e4622243-8e76-4a6f-8a8d-a65cddf29804",
       "ward_no": "39",
       "name_en": "Albazar",
-      "name_ml": "ആല്‍ബസാര്‍"
+      "name_ml": "ആല്‍ബസാര്‍",
+      "rate": 75
     },
     {
       "id": "3f33eb5b-3942-4a91-9d65-223ab6200841",
       "ward_no": "40",
       "name_en": "Kormankadappuram North",
-      "name_ml": "കോര്‍മ്മാന്‍കടപ്പുറം നോര്‍ത്ത്"
+      "name_ml": "കോര്‍മ്മാന്‍കടപ്പുറം നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "3489e442-df12-4f76-b464-ffa691d5debd",
       "ward_no": "41",
       "name_en": "Chirakkal",
-      "name_ml": "ചിറക്കല്‍"
+      "name_ml": "ചിറക്കല്‍",
+      "rate": 65
     },
     {
       "id": "3a3ea419-3354-4329-9118-407d11938ef5",
       "ward_no": "42",
       "name_en": "Chirakkal North",
-      "name_ml": "ചിറക്കല്‍ നോര്‍ത്ത്"
+      "name_ml": "ചിറക്കല്‍ നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "12b2c168-2ab9-4100-92fc-4ea91a52c984",
       "ward_no": "43",
       "name_en": "Mukkola",
-      "name_ml": "മുക്കോല"
+      "name_ml": "മുക്കോല",
+      "rate": 75
     },
     {
       "id": "3f50fb4b-0ee2-4077-add8-d30b6ffe9bdf",
       "ward_no": "44",
       "name_en": "Companippadi",
-      "name_ml": "കമ്പനിപ്പടി"
+      "name_ml": "കമ്പനിപ്പടി",
+      "rate": 65
     }
   ],
   "towns": [],

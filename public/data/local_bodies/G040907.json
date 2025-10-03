@@ -33,79 +33,92 @@
       "id": "34e1d247-2f25-4521-8b4f-3b8b86e6e1ec",
       "ward_no": "1",
       "name_en": "Paandi",
-      "name_ml": "പാണ്ടി"
+      "name_ml": "പാണ്ടി",
+      "rate": 75
     },
     {
       "id": "f0c42f9d-36c9-4c62-824b-736df483fc23",
       "ward_no": "2",
       "name_en": "Pocha",
-      "name_ml": "പോച്ച"
+      "name_ml": "പോച്ച",
+      "rate": 75
     },
     {
       "id": "a985d984-7afd-414f-b77a-637e89df83e0",
       "ward_no": "3",
       "name_en": "Anary Vadakkekara",
-      "name_ml": "ആനാരി വടക്കേകര"
+      "name_ml": "ആനാരി വടക്കേകര",
+      "rate": 75
     },
     {
       "id": "d9682379-2ca4-4fe2-ba87-0a141f74b8ef",
       "ward_no": "4",
       "name_en": "Anary Thekkekara",
-      "name_ml": "ആനാരി തെക്കേകര"
+      "name_ml": "ആനാരി തെക്കേകര",
+      "rate": 65
     },
     {
       "id": "5201d324-7fbb-4e47-8a2f-97c81167029d",
       "ward_no": "5",
       "name_en": "Thekkekara Thekkeyattam",
-      "name_ml": "തെക്കേക്കര തെക്കേയറ്റം"
+      "name_ml": "തെക്കേക്കര തെക്കേയറ്റം",
+      "rate": 95
     },
     {
       "id": "16f653b6-612e-4ec6-b271-43f30f2fe1db",
       "ward_no": "6",
       "name_en": "Chakkoorethu",
-      "name_ml": "ചക്കൂരേത്ത്"
+      "name_ml": "ചക്കൂരേത്ത്",
+      "rate": 65
     },
     {
       "id": "52462e5a-3bd2-408e-bc12-557b2b42dba1",
       "ward_no": "7",
       "name_en": "Vettolil",
-      "name_ml": "വെട്ടോലില്‍"
+      "name_ml": "വെട്ടോലില്‍",
+      "rate": 75
     },
     {
       "id": "270c97f0-fa76-48a6-8af2-5794693925ea",
       "ward_no": "8",
       "name_en": "High School Ward",
-      "name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്"
+      "name_ml": "ഹൈസ്കൂള്‍ വാര്‍ഡ്",
+      "rate": 95
     },
     {
       "id": "51176bf1-397c-43bf-971b-ad4872d42398",
       "ward_no": "9",
       "name_en": "Ayaparambu Thekkekara",
-      "name_ml": "ആയാപറമ്പ് തെക്കേക്കര"
+      "name_ml": "ആയാപറമ്പ് തെക്കേക്കര",
+      "rate": 75
     },
     {
       "id": "73de9cc7-44d3-4857-9e20-516b4d922bac",
       "ward_no": "10",
       "name_en": "Cheruthana Thekkekara",
-      "name_ml": "ചെറുതന തെക്കേക്കര"
+      "name_ml": "ചെറുതന തെക്കേക്കര",
+      "rate": 75
     },
     {
       "id": "b56d7179-300a-4cdf-bda9-b5af9af0a554",
       "ward_no": "11",
       "name_en": "Vadakkekara Thekkeyattam",
-      "name_ml": "വടക്കേക്കര തെക്കേയറ്റം"
+      "name_ml": "വടക്കേക്കര തെക്കേയറ്റം",
+      "rate": 75
     },
     {
       "id": "aa69a9b1-9fe1-4d6c-977f-584d8b1a77d0",
       "ward_no": "12",
       "name_en": "Ayaparambu Vadakkekara",
-      "name_ml": "ആയാപറമ്പ് വടക്കേക്കര"
+      "name_ml": "ആയാപറമ്പ് വടക്കേക്കര",
+      "rate": 75
     },
     {
       "id": "9e188d73-d781-4df1-b76e-a298ddbf708e",
       "ward_no": "13",
       "name_en": "Cheruthana Vadakkekara",
-      "name_ml": "ചെറുതന വടക്കേക്കര"
+      "name_ml": "ചെറുതന വടക്കേക്കര",
+      "rate": 75
     }
   ],
   "towns": [],

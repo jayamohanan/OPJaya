@@ -33,139 +33,162 @@
       "id": "c5692261-2b1e-49e1-82bb-9943da6472e7",
       "ward_no": "6",
       "name_en": "Kizhakkela",
-      "name_ml": "കിഴക്കേല"
+      "name_ml": "കിഴക്കേല",
+      "rate": 65
     },
     {
       "id": "f46d7a3f-8e2d-496e-b458-7d050fc9ebd2",
       "ward_no": "1",
       "name_en": "Vattappara West",
-      "name_ml": "വട്ടപ്പാറ വെസ്റ്റ്"
+      "name_ml": "വട്ടപ്പാറ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "2ce7adc4-1706-4d38-a9e8-410d21edba00",
       "ward_no": "2",
       "name_en": "Vattappara East",
-      "name_ml": "വട്ടപ്പാറ ഈസ്റ്റ്"
+      "name_ml": "വട്ടപ്പാറ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "9e773bb0-c8b2-4679-b301-5007cdf6dc0e",
       "ward_no": "3",
       "name_en": "Karayalathukonam",
-      "name_ml": "കരയാളത്തുകോണം"
+      "name_ml": "കരയാളത്തുകോണം",
+      "rate": 65
     },
     {
       "id": "b30e423c-37a0-4d9c-96cd-355cb358e5e6",
       "ward_no": "4",
       "name_en": "Plathara",
-      "name_ml": "പ്ലാത്തറ"
+      "name_ml": "പ്ലാത്തറ",
+      "rate": 75
     },
     {
       "id": "300ec3c3-6469-4dfe-910d-63143d97c42c",
       "ward_no": "5",
       "name_en": "Vencode",
-      "name_ml": "വേങ്കോട്"
+      "name_ml": "വേങ്കോട്",
+      "rate": 75
     },
     {
       "id": "0fb8b930-c702-4306-8f43-69cdc90a81cc",
       "ward_no": "7",
       "name_en": "Chekkakonam",
-      "name_ml": "ചെക്കക്കോണം"
+      "name_ml": "ചെക്കക്കോണം",
+      "rate": 75
     },
     {
       "id": "8131a2c0-e0ca-4d4c-8d2d-bf4a0cbfd907",
       "ward_no": "8",
       "name_en": "Ayanikadu",
-      "name_ml": "അയണിക്കാട്"
+      "name_ml": "അയണിക്കാട്",
+      "rate": 95
     },
     {
       "id": "87a77c2b-93aa-4dd1-8a09-cb003094abb0",
       "ward_no": "9",
       "name_en": "Tharatta",
-      "name_ml": "തറട്ട"
+      "name_ml": "തറട്ട",
+      "rate": 75
     },
     {
       "id": "498793e9-4639-4fe7-8241-cb8bd2cf0a1b",
       "ward_no": "10",
       "name_en": "Kachani",
-      "name_ml": "കാച്ചാണി"
+      "name_ml": "കാച്ചാണി",
+      "rate": 65
     },
     {
       "id": "7dc5243f-d19d-4d0d-8b91-ddadcceeb43c",
       "ward_no": "11",
       "name_en": "Mudisasthamcode",
-      "name_ml": "മുദിശാസ്താംകോട്"
+      "name_ml": "മുദിശാസ്താംകോട്",
+      "rate": 95
     },
     {
       "id": "65963faa-d1a8-46cf-b50a-822805b2e04d",
       "ward_no": "12",
       "name_en": "Vazhayila",
-      "name_ml": "വഴയില"
+      "name_ml": "വഴയില",
+      "rate": 75
     },
     {
       "id": "5a5f1405-abd0-426a-bb09-91a0480b6ec6",
       "ward_no": "13",
       "name_en": "Aramkallu",
-      "name_ml": "ആറാംകല്ല്"
+      "name_ml": "ആറാംകല്ല്",
+      "rate": 95
     },
     {
       "id": "95463c5e-3746-4b47-8504-1898858f60e6",
       "ward_no": "14",
       "name_en": "Karakulam",
-      "name_ml": "കരകുളം"
+      "name_ml": "കരകുളം",
+      "rate": 75
     },
     {
       "id": "0d96d2ee-9aac-4908-a1f4-d576a0fb8ae1",
       "ward_no": "15",
       "name_en": "Mukkola",
-      "name_ml": "മുക്കോല"
+      "name_ml": "മുക്കോല",
+      "rate": 75
     },
     {
       "id": "09193126-c76d-4e18-8294-930d2f97a109",
       "ward_no": "16",
       "name_en": "Eanikkara",
-      "name_ml": "ഏണിക്കര"
+      "name_ml": "ഏണിക്കര",
+      "rate": 75
     },
     {
       "id": "6b342a0b-1b24-44c6-85b8-79dfed86681a",
       "ward_no": "17",
       "name_en": "Nedumpara",
-      "name_ml": "നെടുമ്പാറ"
+      "name_ml": "നെടുമ്പാറ",
+      "rate": 75
     },
     {
       "id": "7597f715-71c2-4670-ad00-5b7103e85378",
       "ward_no": "18",
       "name_en": "Kallayam",
-      "name_ml": "കല്ലയം"
+      "name_ml": "കല്ലയം",
+      "rate": 95
     },
     {
       "id": "60527354-1bf2-46c5-bf6d-a2475e242731",
       "ward_no": "19",
       "name_en": "Plavuvila",
-      "name_ml": "പ്ലാവുവിള"
+      "name_ml": "പ്ലാവുവിള",
+      "rate": 65
     },
     {
       "id": "68227a3e-1d48-48c1-adc8-872c6ae92489",
       "ward_no": "20",
       "name_en": "Neduman",
-      "name_ml": "നെടുമണ്‍"
+      "name_ml": "നെടുമണ്‍",
+      "rate": 95
     },
     {
       "id": "c64a5064-1ff4-4cbc-ab8b-f309124dd322",
       "ward_no": "21",
       "name_en": "Maruthoor",
-      "name_ml": "മരുതൂര്‍"
+      "name_ml": "മരുതൂര്‍",
+      "rate": 65
     },
     {
       "id": "64c93958-d617-485b-99ce-49827b20dae3",
       "ward_no": "22",
       "name_en": "Kazhunad",
-      "name_ml": "കഴുനാട്"
+      "name_ml": "കഴുനാട്",
+      "rate": 75
     },
     {
       "id": "929ddc57-56f0-4b02-ad1e-40059806a213",
       "ward_no": "23",
       "name_en": "Chittazha",
-      "name_ml": "ചിറ്റാഴ"
+      "name_ml": "ചിറ്റാഴ",
+      "rate": 65
     }
   ],
   "towns": [],

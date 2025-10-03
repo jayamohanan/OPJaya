@@ -33,121 +33,141 @@
       "id": "09b329a6-dedf-424d-90b9-b1b5a00da9f3",
       "ward_no": "1",
       "name_en": "Chengani",
-      "name_ml": "ചെങ്ങാനി"
+      "name_ml": "ചെങ്ങാനി",
+      "rate": 75
     },
     {
       "id": "29e34487-31f2-4a6d-a729-bcdbe86dfab2",
       "ward_no": "2",
       "name_en": "Cherekkadu",
-      "name_ml": "ചെറേക്കാട്"
+      "name_ml": "ചെറേക്കാട്",
+      "rate": 95
     },
     {
       "id": "c8ab5c60-7f07-48a0-82db-7f58b264a8f1",
       "ward_no": "3",
       "name_en": "Memattupara",
-      "name_ml": "മേമാട്ടുപാറ"
+      "name_ml": "മേമാട്ടുപാറ",
+      "rate": 95
     },
     {
       "id": "778a26f9-61a5-4cc3-9f2d-e28c2083424f",
       "ward_no": "4",
       "name_en": "Muthuvilkundu",
-      "name_ml": "മുതുവില്‍കുണ്ട്"
+      "name_ml": "മുതുവില്‍കുണ്ട്",
+      "rate": 75
     },
     {
       "id": "24add7cc-a25c-468a-8ea4-937396ad8cfd",
       "ward_no": "5",
       "name_en": "Kilinakkodu",
-      "name_ml": "കിളിനക്കോട്"
+      "name_ml": "കിളിനക്കോട്",
+      "rate": 95
     },
     {
       "id": "66f0fd87-9933-4492-9940-aebbad4fc5f9",
       "ward_no": "6",
       "name_en": "Kappil",
-      "name_ml": "കാപ്പില്‍"
+      "name_ml": "കാപ്പില്‍",
+      "rate": 75
     },
     {
       "id": "cf7d0d30-7776-4843-b5e3-942b5d13422f",
       "ward_no": "7",
       "name_en": "V.K Madu",
-      "name_ml": "വി.കെ മാട്"
+      "name_ml": "വി.കെ മാട്",
+      "rate": 95
     },
     {
       "id": "1d017a48-e8f9-46f4-9939-dcc22fe10896",
       "ward_no": "8",
       "name_en": "Cheroor",
-      "name_ml": "ചേറൂര്‍"
+      "name_ml": "ചേറൂര്‍",
+      "rate": 65
     },
     {
       "id": "6597d0e9-c25c-48c0-a5d8-58213fe37a0b",
       "ward_no": "9",
       "name_en": "Kovilapara",
-      "name_ml": "കൊവിലപ്പാറ"
+      "name_ml": "കൊവിലപ്പാറ",
+      "rate": 75
     },
     {
       "id": "43400310-3fa0-45dc-8a96-5e72c9267b60",
       "ward_no": "10",
       "name_en": "Channayil",
-      "name_ml": "ചണ്ണയില്‍"
+      "name_ml": "ചണ്ണയില്‍",
+      "rate": 65
     },
     {
       "id": "e99f0c11-3411-48df-b494-3bb5ab293a72",
       "ward_no": "11",
       "name_en": "Kottamadu",
-      "name_ml": "കോട്ടമാട്"
+      "name_ml": "കോട്ടമാട്",
+      "rate": 95
     },
     {
       "id": "d4203c1c-a085-4b89-a8a3-ab7554facbb2",
       "ward_no": "12",
       "name_en": "Poocholamadu",
-      "name_ml": "പൂച്ചോലമാട്"
+      "name_ml": "പൂച്ചോലമാട്",
+      "rate": 75
     },
     {
       "id": "797be103-cdd1-4365-a563-66e29605e4ab",
       "ward_no": "13",
       "name_en": "Achanambalam",
-      "name_ml": "അച്ചനമ്പലം"
+      "name_ml": "അച്ചനമ്പലം",
+      "rate": 75
     },
     {
       "id": "bc3cd6ca-bfe3-46c2-9cde-a96a78f91f09",
       "ward_no": "14",
       "name_en": "Thonnippuraya",
-      "name_ml": "തോന്നിപുറായ"
+      "name_ml": "തോന്നിപുറായ",
+      "rate": 75
     },
     {
       "id": "88fbee55-0f35-464a-81e0-57dbb261e9f5",
       "ward_no": "15",
       "name_en": "Padapparambu",
-      "name_ml": "പടപ്പറമ്പ്"
+      "name_ml": "പടപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "b1e3fcde-a9ee-41ed-b246-a79966741b6d",
       "ward_no": "16",
       "name_en": "Edakkapparambu",
-      "name_ml": "എടക്കാപ്പറമ്പ്"
+      "name_ml": "എടക്കാപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "af5e38c5-b15f-4062-ab76-b8909cccc261",
       "ward_no": "17",
       "name_en": "Ambedkar Gramam",
-      "name_ml": "അംബേദ്ക്കര്‍ ഗ്രാമം"
+      "name_ml": "അംബേദ്ക്കര്‍ ഗ്രാമം",
+      "rate": 65
     },
     {
       "id": "9f14c17d-7c1c-45ec-8d2d-f707dc2ba98f",
       "ward_no": "18",
       "name_en": "E. K Padi",
-      "name_ml": "ഇ.കെ പടി"
+      "name_ml": "ഇ.കെ പടി",
+      "rate": 75
     },
     {
       "id": "cdd36891-bbe0-47bd-91c0-c5ff30592a44",
       "ward_no": "19",
       "name_en": "Valakkuda",
-      "name_ml": "വാളക്കുട"
+      "name_ml": "വാളക്കുട",
+      "rate": 75
     },
     {
       "id": "0dace9ee-bd91-4c5b-92e0-1240da284aed",
       "ward_no": "20",
       "name_en": "Thottasseriyara",
-      "name_ml": "തൊട്ടശ്ശേരിയറ"
+      "name_ml": "തൊട്ടശ്ശേരിയറ",
+      "rate": 75
     }
   ],
   "towns": [],

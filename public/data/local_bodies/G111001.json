@@ -33,103 +33,120 @@
       "id": "eb631137-4ee9-41a3-b9c4-173eca975543",
       "ward_no": "1",
       "name_en": "Muthappanpuzha",
-      "name_ml": "മുത്തപ്പന്‍പുഴ"
+      "name_ml": "മുത്തപ്പന്‍പുഴ",
+      "rate": 75
     },
     {
       "id": "daf95d3c-5504-4179-a5a9-dc0035e31757",
       "ward_no": "2",
       "name_en": "Kavukallel",
-      "name_ml": "കാവുകല്ലേല്‍"
+      "name_ml": "കാവുകല്ലേല്‍",
+      "rate": 75
     },
     {
       "id": "6f6ea63a-ca30-4703-bc7e-c27a6afa508d",
       "ward_no": "3",
       "name_en": "Anackampoyil",
-      "name_ml": "ആനക്കാംപൊയില്‍"
+      "name_ml": "ആനക്കാംപൊയില്‍",
+      "rate": 75
     },
     {
       "id": "e2289a59-9609-4b71-a5c0-cdeea75c42c8",
       "ward_no": "4",
       "name_en": "Kodakkattupara",
-      "name_ml": "കൊടക്കാട്ടുപാറ"
+      "name_ml": "കൊടക്കാട്ടുപാറ",
+      "rate": 65
     },
     {
       "id": "8aa77e08-21e0-478f-a681-ee049c95ef3c",
       "ward_no": "5",
       "name_en": "Ponnamkayam",
-      "name_ml": "പൊന്നാങ്കയം"
+      "name_ml": "പൊന്നാങ്കയം",
+      "rate": 75
     },
     {
       "id": "2136faf3-26a2-496c-b9fe-32f5551857e5",
       "ward_no": "6",
       "name_en": "Urumi",
-      "name_ml": "ഉറുമി"
+      "name_ml": "ഉറുമി",
+      "rate": 75
     },
     {
       "id": "85c4af49-050f-4926-8783-90613c0bf4e8",
       "ward_no": "7",
       "name_en": "Punnakkal",
-      "name_ml": "പുന്നക്കല്‍"
+      "name_ml": "പുന്നക്കല്‍",
+      "rate": 75
     },
     {
       "id": "de224b0a-425a-47a6-a783-81d1a08c6da9",
       "ward_no": "8",
       "name_en": "Pambizhanhapara",
-      "name_ml": "പാമ്പിഴഞ്ഞപാറ"
+      "name_ml": "പാമ്പിഴഞ്ഞപാറ",
+      "rate": 95
     },
     {
       "id": "61c08d9c-2a8f-4374-8670-34cf8a195739",
       "ward_no": "9",
       "name_en": "Mariyappuram",
-      "name_ml": "മറിയപ്പുറം"
+      "name_ml": "മറിയപ്പുറം",
+      "rate": 95
     },
     {
       "id": "2077af85-e13d-49fd-a8e5-fecae75eba52",
       "ward_no": "10",
       "name_en": "Marakkattupuram",
-      "name_ml": "മരക്കാട്ടുപുറം"
+      "name_ml": "മരക്കാട്ടുപുറം",
+      "rate": 95
     },
     {
       "id": "ba83680c-878c-41ba-ae5b-225fcfd70549",
       "ward_no": "11",
       "name_en": "Thondimmal",
-      "name_ml": "തൊണ്ടിമ്മല്‍"
+      "name_ml": "തൊണ്ടിമ്മല്‍",
+      "rate": 75
     },
     {
       "id": "0b3d2e3b-015c-459b-9b1c-80d818921e68",
       "ward_no": "12",
       "name_en": "Thazhethiruvambady",
-      "name_ml": "താഴെതിരുവമ്പാടി"
+      "name_ml": "താഴെതിരുവമ്പാടി",
+      "rate": 75
     },
     {
       "id": "31c585a4-2f7b-4b49-96f0-190926b050dc",
       "ward_no": "13",
       "name_en": "Ambalappara",
-      "name_ml": "അമ്പലപ്പാറ"
+      "name_ml": "അമ്പലപ്പാറ",
+      "rate": 75
     },
     {
       "id": "b47eaba6-1fce-4326-b3f5-959b6207be97",
       "ward_no": "14",
       "name_en": "Thiruvambady Town",
-      "name_ml": "തിരുവമ്പാടി ടൌണ്‍"
+      "name_ml": "തിരുവമ്പാടി ടൌണ്‍",
+      "rate": 65
     },
     {
       "id": "3092c68f-ec7a-4455-a703-c99adf1daefd",
       "ward_no": "15",
       "name_en": "Palakkadave",
-      "name_ml": "പാലക്കടവ്"
+      "name_ml": "പാലക്കടവ്",
+      "rate": 65
     },
     {
       "id": "c86b2b08-8b4b-4022-b4a2-3aecc91eae09",
       "ward_no": "16",
       "name_en": "Thambalamanna",
-      "name_ml": "തമ്പലമണ്ണ"
+      "name_ml": "തമ്പലമണ്ണ",
+      "rate": 75
     },
     {
       "id": "20df83b0-0780-4b90-83de-f02c62f4dce9",
       "ward_no": "17",
       "name_en": "Pulloorampara",
-      "name_ml": "പുല്ലൂരാംപാറ"
+      "name_ml": "പുല്ലൂരാംപാറ",
+      "rate": 65
     }
   ],
   "towns": [],

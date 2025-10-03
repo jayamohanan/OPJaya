@@ -33,103 +33,120 @@
       "id": "aeb968a8-a112-4380-a838-c4f606522129",
       "ward_no": "1",
       "name_en": "Arangadath",
-      "name_ml": "അരങ്ങാടത്ത്"
+      "name_ml": "അരങ്ങാടത്ത്",
+      "rate": 65
     },
     {
       "id": "41cbb1a8-4c0c-420c-95a6-1b65e97c4259",
       "ward_no": "2",
       "name_en": "Anthatta",
-      "name_ml": "ആന്തട്ട"
+      "name_ml": "ആന്തട്ട",
+      "rate": 75
     },
     {
       "id": "d45b0bba-f40c-4bd7-80f8-b09f16c1c51b",
       "ward_no": "3",
       "name_en": "Meloor West",
-      "name_ml": "മേലൂര്‍ വെസ്റ്റ്"
+      "name_ml": "മേലൂര്‍ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "8a8862d2-a703-4b3d-b66a-66ffb570f2f1",
       "ward_no": "4",
       "name_en": "Meloor East",
-      "name_ml": "മേലൂര്‍ ഈസ്റ്റ്"
+      "name_ml": "മേലൂര്‍ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "a2dfa15b-0d7c-4b2a-8396-52cca0f0804e",
       "ward_no": "5",
       "name_en": "Elatteri North",
-      "name_ml": "എളാട്ടേരി നോര്‍ത്ത്"
+      "name_ml": "എളാട്ടേരി നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "dd13606a-0701-4756-a0a7-6f360270d50f",
       "ward_no": "6",
       "name_en": "Elatteri South",
-      "name_ml": "എളാട്ടേരി സൌത്ത്"
+      "name_ml": "എളാട്ടേരി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "1f6e3374-54dc-4ee3-99bb-e8e1816486e0",
       "ward_no": "7",
       "name_en": "Cheliya Town",
-      "name_ml": "ചേലിയ ടൌണ‍്"
+      "name_ml": "ചേലിയ ടൌണ‍്",
+      "rate": 75
     },
     {
       "id": "8229aa91-7730-49bd-a9de-d2657ac733e8",
       "ward_no": "8",
       "name_en": "Cheliya East",
-      "name_ml": "ചേലിയ ഈസ്റ്റ്"
+      "name_ml": "ചേലിയ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "fe1072be-4f9b-4378-af48-70a4941bbe34",
       "ward_no": "9",
       "name_en": "Cheliya South",
-      "name_ml": "ചേലിയ സൌത്ത്"
+      "name_ml": "ചേലിയ സൌത്ത്",
+      "rate": 95
     },
     {
       "id": "1292b219-1f81-4c3d-a17b-524b3408d8cf",
       "ward_no": "10",
       "name_en": "Kalopoyil",
-      "name_ml": "കാലോപ്പൊയില്‍"
+      "name_ml": "കാലോപ്പൊയില്‍",
+      "rate": 65
     },
     {
       "id": "197f4106-d307-49d1-ac93-852666ffe4b7",
       "ward_no": "11",
       "name_en": "Njanampoyil",
-      "name_ml": "ഞാണംപൊയില്‍"
+      "name_ml": "ഞാണംപൊയില്‍",
+      "rate": 75
     },
     {
       "id": "8361efaa-cec4-4f77-bb45-5816f3e6ebf5",
       "ward_no": "12",
       "name_en": "Edakkulam Centre",
-      "name_ml": "എടക്കുളംസെന്റര്‍"
+      "name_ml": "എടക്കുളംസെന്റര്‍",
+      "rate": 75
     },
     {
       "id": "83c93220-c99f-447e-9104-459e97afaeef",
       "ward_no": "13",
       "name_en": "Poilkavu",
-      "name_ml": "പൊയില്‍ക്കാവ്"
+      "name_ml": "പൊയില്‍ക്കാവ്",
+      "rate": 75
     },
     {
       "id": "508df7e3-8b3b-47b7-9835-68744056c419",
       "ward_no": "14",
       "name_en": "Mangad",
-      "name_ml": "മങ്ങാട്"
+      "name_ml": "മങ്ങാട്",
+      "rate": 95
     },
     {
       "id": "4ec6e15a-21f9-4d83-8c92-d6b08cb1f799",
       "ward_no": "15",
       "name_en": "Kavalad",
-      "name_ml": "കവലാട്"
+      "name_ml": "കവലാട്",
+      "rate": 75
     },
     {
       "id": "ebb30107-1173-4d20-9ee7-540494de4aca",
       "ward_no": "16",
       "name_en": "Edakkulam West",
-      "name_ml": "എടക്കുളം വെസ്റ്റ്"
+      "name_ml": "എടക്കുളം വെസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "489c39db-6c7a-4766-9092-51be3e00d3d1",
       "ward_no": "17",
       "name_en": "Madakkara",
-      "name_ml": "മാടാക്കര"
+      "name_ml": "മാടാക്കര",
+      "rate": 65
     }
   ],
   "towns": [],

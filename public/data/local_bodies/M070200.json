@@ -33,187 +33,218 @@
       "id": "fc59d79e-df87-4266-90fe-a03bc3363576",
       "ward_no": "1",
       "name_en": "Thankalam",
-      "name_ml": "തങ്കളം"
+      "name_ml": "തങ്കളം",
+      "rate": 95
     },
     {
       "id": "dbe70a04-c4d3-4af6-a0ea-f4c981f98dbb",
       "ward_no": "2",
       "name_en": "Block Office",
-      "name_ml": "ബ്ലോക്ക് ഓഫീസ്"
+      "name_ml": "ബ്ലോക്ക് ഓഫീസ്",
+      "rate": 75
     },
     {
       "id": "546d5e31-140f-482e-95d3-6201c61c7677",
       "ward_no": "3",
       "name_en": "Ramalloor",
-      "name_ml": "രാമല്ലൂര്‍"
+      "name_ml": "രാമല്ലൂര്‍",
+      "rate": 75
     },
     {
       "id": "1136052b-ed60-4c83-b4a5-6ba1334e90ff",
       "ward_no": "4",
       "name_en": "Karingazha",
-      "name_ml": "കരിങ്ങഴ"
+      "name_ml": "കരിങ്ങഴ",
+      "rate": 75
     },
     {
       "id": "0871097c-854d-4922-9c1a-6c4fc1252a5f",
       "ward_no": "5",
       "name_en": "Chelad",
-      "name_ml": "ചേലാട്"
+      "name_ml": "ചേലാട്",
+      "rate": 75
     },
     {
       "id": "ee0563bd-d657-4989-a6a9-b4e6aac7b1ce",
       "ward_no": "6",
       "name_en": "Kallad",
-      "name_ml": "കള്ളാട്"
+      "name_ml": "കള്ളാട്",
+      "rate": 75
     },
     {
       "id": "1071936a-c01a-4390-a852-55715314e280",
       "ward_no": "7",
       "name_en": "Elavumparambu",
-      "name_ml": "ഇലവുംപറമ്പ്"
+      "name_ml": "ഇലവുംപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "463c0a10-6970-4ace-b161-9411e318afb7",
       "ward_no": "8",
       "name_en": "Valadithandu",
-      "name_ml": "വാളാടിത്തണ്ട്"
+      "name_ml": "വാളാടിത്തണ്ട്",
+      "rate": 75
     },
     {
       "id": "df309976-8bc9-4273-94d6-d4c255f027c3",
       "ward_no": "9",
       "name_en": "Komentha",
-      "name_ml": "കൊമേന്ത"
+      "name_ml": "കൊമേന്ത",
+      "rate": 75
     },
     {
       "id": "5e45c3b0-366d-4272-9c89-30511688848d",
       "ward_no": "10",
       "name_en": "Malikakandam",
-      "name_ml": "മാളികക്കണ്ടം"
+      "name_ml": "മാളികക്കണ്ടം",
+      "rate": 95
     },
     {
       "id": "4b35ef29-0605-4565-85c4-43b4c02826d6",
       "ward_no": "11",
       "name_en": "Parayithottam",
-      "name_ml": "പാറായിത്തോട്ടം"
+      "name_ml": "പാറായിത്തോട്ടം",
+      "rate": 75
     },
     {
       "id": "65eed279-469c-4d0e-9589-fd5523c49ee3",
       "ward_no": "12",
       "name_en": "Kuthukuzhy",
-      "name_ml": "കുത്തുകുഴി"
+      "name_ml": "കുത്തുകുഴി",
+      "rate": 75
     },
     {
       "id": "18088dbd-beb1-4155-a0f0-1e3df696948e",
       "ward_no": "13",
       "name_en": "Maramangalam",
-      "name_ml": "മാരമംഗലം"
+      "name_ml": "മാരമംഗലം",
+      "rate": 65
     },
     {
       "id": "db971993-5eee-449f-9ec0-53661923221d",
       "ward_no": "14",
       "name_en": "Elamkavu",
-      "name_ml": "ഇളംകാവ്"
+      "name_ml": "ഇളംകാവ്",
+      "rate": 95
     },
     {
       "id": "2935375c-c56f-47a3-9e0b-2f2f9a4f181b",
       "ward_no": "15",
       "name_en": "Valiyakavu",
-      "name_ml": "വലിയകാവ്"
+      "name_ml": "വലിയകാവ്",
+      "rate": 75
     },
     {
       "id": "2226308f-95fa-41e8-97a1-15b409cfa330",
       "ward_no": "16",
       "name_en": "Ambalaparambu",
-      "name_ml": "അമ്പലപറമ്പ്"
+      "name_ml": "അമ്പലപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "313e3a59-110b-4616-a453-8cd82a8830c4",
       "ward_no": "17",
       "name_en": "Church",
-      "name_ml": "ചര്‍ച്ച്"
+      "name_ml": "ചര്‍ച്ച്",
+      "rate": 75
     },
     {
       "id": "0d172330-b92a-495c-b89d-0b88e8c2a256",
       "ward_no": "18",
       "name_en": "Kollikkadu",
-      "name_ml": "കൊള്ളിക്കാട്"
+      "name_ml": "കൊള്ളിക്കാട്",
+      "rate": 75
     },
     {
       "id": "7ef7ca43-f1cf-4485-972f-1b0dc58e99e4",
       "ward_no": "19",
       "name_en": "College",
-      "name_ml": "കോളേജ്"
+      "name_ml": "കോളേജ്",
+      "rate": 75
     },
     {
       "id": "028ecdad-b4a1-4099-8d13-d003bb0d1269",
       "ward_no": "20",
       "name_en": "Mathirappilly",
-      "name_ml": "മാതിരപ്പിള്ളി"
+      "name_ml": "മാതിരപ്പിള്ളി",
+      "rate": 95
     },
     {
       "id": "a8bc279e-9cab-4000-992a-c256d261af48",
       "ward_no": "21",
       "name_en": "Puthuppady",
-      "name_ml": "പുതുപ്പാടി"
+      "name_ml": "പുതുപ്പാടി",
+      "rate": 95
     },
     {
       "id": "031e7fdb-7012-4c2d-82ce-f34e5c9835d3",
       "ward_no": "22",
       "name_en": "Karakunnam",
-      "name_ml": "കാരക്കുന്നം"
+      "name_ml": "കാരക്കുന്നം",
+      "rate": 75
     },
     {
       "id": "9524b3fd-e2c9-47b8-b37a-293f596a0fc6",
       "ward_no": "23",
       "name_en": "Chirappady",
-      "name_ml": "ചിറപ്പടി"
+      "name_ml": "ചിറപ്പടി",
+      "rate": 75
     },
     {
       "id": "03b392e6-a98a-4395-ab80-c05e420b9bf4",
       "ward_no": "24",
       "name_en": "Ambalappady",
-      "name_ml": "അമ്പലപ്പടി"
+      "name_ml": "അമ്പലപ്പടി",
+      "rate": 95
     },
     {
       "id": "aea15987-59c6-441b-aa43-a7311eb638b4",
       "ward_no": "25",
       "name_en": "Venduvazhy South",
-      "name_ml": "വെണ്ടുവഴി സൌത്ത്"
+      "name_ml": "വെണ്ടുവഴി സൌത്ത്",
+      "rate": 65
     },
     {
       "id": "0f2e71e6-1aea-4961-97f2-d376300f1a29",
       "ward_no": "26",
       "name_en": "Karukadom",
-      "name_ml": "കറുകടം"
+      "name_ml": "കറുകടം",
+      "rate": 95
     },
     {
       "id": "1283b56a-592a-4121-998f-1f248bbd4dc9",
       "ward_no": "27",
       "name_en": "Vilayal",
-      "name_ml": "വിളയാല്‍"
+      "name_ml": "വിളയാല്‍",
+      "rate": 75
     },
     {
       "id": "f68d38f7-a06d-4db8-ad5f-1b43bd03a5e4",
       "ward_no": "28",
       "name_en": "Venduvazhy North",
-      "name_ml": "വെണ്ടുവഴി നോര്‍ത്ത്"
+      "name_ml": "വെണ്ടുവഴി നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "3253bb86-9888-430b-826c-696aaf312b7d",
       "ward_no": "29",
       "name_en": "Koriyamala",
-      "name_ml": "കൊറിയാമല"
+      "name_ml": "കൊറിയാമല",
+      "rate": 95
     },
     {
       "id": "b749578c-9dd7-4900-b7b1-0152c94aa30c",
       "ward_no": "30",
       "name_en": "Town South",
-      "name_ml": "ടൌണ്‍ സൌത്ത്"
+      "name_ml": "ടൌണ്‍ സൌത്ത്",
+      "rate": 65
     },
     {
       "id": "08d411dc-bc78-4b21-af30-eb31d6373f93",
       "ward_no": "31",
       "name_en": "Town North",
-      "name_ml": "ടൌണ്‍ നോര്‍ത്ത്"
+      "name_ml": "ടൌണ്‍ നോര്‍ത്ത്",
+      "rate": 75
     }
   ],
   "towns": [],

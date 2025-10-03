@@ -31,193 +31,225 @@
       "id": "63e3730c-b98c-4468-afd2-bd147cccbb5e",
       "ward_no": "1",
       "name_en": "Changuvetty",
-      "name_ml": "ചങ്കുവെട്ടി"
+      "name_ml": "ചങ്കുവെട്ടി",
+      "rate": 65
     },
     {
       "id": "b1ab466c-b5ed-4edf-ab08-cd15476187cf",
       "ward_no": "2",
       "name_en": "Chunda",
-      "name_ml": "ചുണ്ട"
+      "name_ml": "ചുണ്ട",
+      "rate": 75
     },
     {
       "id": "8722844d-8357-421f-a51f-ec030fd58225",
       "ward_no": "3",
       "name_en": "Kottakkal Town",
-      "name_ml": "കോട്ടക്കല്‍ ടൗണ്‍"
+      "name_ml": "കോട്ടക്കല്‍ ടൗണ്‍",
+      "rate": 75
     },
     {
       "id": "bbada740-bef5-4e1c-960c-d205c18326cb",
       "ward_no": "4",
       "name_en": "Kottakkal Thazhe Angadi",
-      "name_ml": "കോട്ടക്കല്‍ താഴെ അങ്ങാടി"
+      "name_ml": "കോട്ടക്കല്‍ താഴെ അങ്ങാടി",
+      "rate": 75
     },
     {
       "id": "020833af-aeac-4dcf-978c-8fe51367b224",
       "ward_no": "5",
       "name_en": "Palappura",
-      "name_ml": "പാലപ്പുറ"
+      "name_ml": "പാലപ്പുറ",
+      "rate": 75
     },
     {
       "id": "6213391e-7608-41d1-9845-a582b3ab8dd9",
       "ward_no": "6",
       "name_en": "Mythri Nagar",
-      "name_ml": "മൈത്രി നഗര്‍"
+      "name_ml": "മൈത്രി നഗര്‍",
+      "rate": 75
     },
     {
       "id": "20c07ad2-a50f-431e-8912-2bf89cc68711",
       "ward_no": "7",
       "name_en": "Nayadippara",
-      "name_ml": "നായാടിപ്പാറ"
+      "name_ml": "നായാടിപ്പാറ",
+      "rate": 65
     },
     {
       "id": "7599a778-61eb-4b81-be02-62a8316b5eca",
       "ward_no": "8",
       "name_en": "Cheenambuthur",
-      "name_ml": "ചീനമ്പുത്തൂര്‍"
+      "name_ml": "ചീനമ്പുത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "6618bed2-5c23-455d-b32a-0ea9f4d87120",
       "ward_no": "9",
       "name_en": "Kavathikalam West",
-      "name_ml": "കാവതികളം വെസ്റ്റ്"
+      "name_ml": "കാവതികളം വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "2a7128ba-f9c1-438a-9534-8d57f94534c2",
       "ward_no": "10",
       "name_en": "Kavathikalam East",
-      "name_ml": "കാവതികളം ഈസ്റ്റ്"
+      "name_ml": "കാവതികളം ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "3d7a7bf1-1dc3-45b7-a6df-a2854e9a1c24",
       "ward_no": "11",
       "name_en": "Valiyaparamba",
-      "name_ml": "വലിയപറമ്പ്"
+      "name_ml": "വലിയപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "5f7ede36-cd1b-4861-aeb0-0f5f831a7d26",
       "ward_no": "12",
       "name_en": "West Villur",
-      "name_ml": "വെസ്റ്റ് വില്ലൂര്‍"
+      "name_ml": "വെസ്റ്റ് വില്ലൂര്‍",
+      "rate": 75
     },
     {
       "id": "ec193dac-25ab-4087-b572-fb307f8f0d60",
       "ward_no": "13",
       "name_en": "Pappaayi",
-      "name_ml": "പാപ്പായി"
+      "name_ml": "പാപ്പായി",
+      "rate": 75
     },
     {
       "id": "baab9415-b921-4a99-8060-8f58b3c2c9a9",
       "ward_no": "14",
       "name_en": "East Villur",
-      "name_ml": "ഈസ്റ്റ് വില്ലൂര്‍"
+      "name_ml": "ഈസ്റ്റ് വില്ലൂര്‍",
+      "rate": 95
     },
     {
       "id": "75798965-f1ed-43d3-bd1e-288999fa00c7",
       "ward_no": "15",
       "name_en": "Kooriyad",
-      "name_ml": "കൂരിയാട്"
+      "name_ml": "കൂരിയാട്",
+      "rate": 75
     },
     {
       "id": "f5fffb6b-8072-4e5d-beb8-a17fce682bec",
       "ward_no": "16",
       "name_en": "Panikkarkundu",
-      "name_ml": "പണിക്കര്‍ക്കുണ്ട്"
+      "name_ml": "പണിക്കര്‍ക്കുണ്ട്",
+      "rate": 75
     },
     {
       "id": "5c9be73e-df63-4256-b318-db604404be45",
       "ward_no": "17",
       "name_en": "Indianoor West",
-      "name_ml": "ഇന്ത്യനൂര്‍ വെസ്റ്റ്"
+      "name_ml": "ഇന്ത്യനൂര്‍ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "29c6856c-915f-4c14-84d2-457bf713c665",
       "ward_no": "18",
       "name_en": "Indianoor",
-      "name_ml": "ഇന്ത്യനൂര്‍"
+      "name_ml": "ഇന്ത്യനൂര്‍",
+      "rate": 75
     },
     {
       "id": "fcb3238d-7a05-4df3-9641-4f846c07b26f",
       "ward_no": "19",
       "name_en": "Muliyankotta",
-      "name_ml": "മുളിയന്‍കൊട്ട"
+      "name_ml": "മുളിയന്‍കൊട്ട",
+      "rate": 95
     },
     {
       "id": "c3225ab4-71eb-4adb-8b70-8f5986054f4a",
       "ward_no": "20",
       "name_en": "Maravattam",
-      "name_ml": "മരവട്ടം"
+      "name_ml": "മരവട്ടം",
+      "rate": 65
     },
     {
       "id": "016d3669-6f10-4737-bd30-f61230ad8cec",
       "ward_no": "21",
       "name_en": "Kottoor",
-      "name_ml": "കോട്ടൂര്‍"
+      "name_ml": "കോട്ടൂര്‍",
+      "rate": 65
     },
     {
       "id": "ba055c44-a40d-452a-bddd-b9aa26c43a75",
       "ward_no": "22",
       "name_en": "Madrasappadi",
-      "name_ml": "മദ്രസ്സപ്പടി"
+      "name_ml": "മദ്രസ്സപ്പടി",
+      "rate": 65
     },
     {
       "id": "fee37737-ea1b-4d43-9887-43522b99c0a9",
       "ward_no": "23",
       "name_en": "Amappara",
-      "name_ml": "ആമപ്പാറ"
+      "name_ml": "ആമപ്പാറ",
+      "rate": 65
     },
     {
       "id": "af403018-5b54-4aaa-bde9-4e4397ed7ba5",
       "ward_no": "24",
       "name_en": "Kuttippuram",
-      "name_ml": "കുറ്റിപ്പുറം"
+      "name_ml": "കുറ്റിപ്പുറം",
+      "rate": 65
     },
     {
       "id": "cf80b73b-0fb3-488f-bec6-c144867a2d75",
       "ward_no": "25",
       "name_en": "Alinchuvadu",
-      "name_ml": "ആലിന്‍ചുവട്"
+      "name_ml": "ആലിന്‍ചുവട്",
+      "rate": 95
     },
     {
       "id": "b6d95efb-bf43-4ee3-9261-7e5aa971563d",
       "ward_no": "26",
       "name_en": "Poozhikkunnu",
-      "name_ml": "പൂഴിക്കുന്ന്"
+      "name_ml": "പൂഴിക്കുന്ന്",
+      "rate": 75
     },
     {
       "id": "f2546b87-b6d8-45f3-a112-247a15678bcf",
       "ward_no": "27",
       "name_en": "Palathara",
-      "name_ml": "പാലത്തറ"
+      "name_ml": "പാലത്തറ",
+      "rate": 75
     },
     {
       "id": "485b99d0-3bea-4a35-848c-384f8067d189",
       "ward_no": "28",
       "name_en": "Kottakkulam",
-      "name_ml": "കോട്ടക്കുളം"
+      "name_ml": "കോട്ടക്കുളം",
+      "rate": 95
     },
     {
       "id": "efb5d4b5-2928-4f39-bab2-ebc50c285932",
       "ward_no": "29",
       "name_en": "Pulikkodu",
-      "name_ml": "പുലിക്കോട്"
+      "name_ml": "പുലിക്കോട്",
+      "rate": 75
     },
     {
       "id": "a8014de6-fac8-4dab-a12c-113e6d891109",
       "ward_no": "30",
       "name_en": "Thokkampara",
-      "name_ml": "തോക്കാംപാറ"
+      "name_ml": "തോക്കാംപാറ",
+      "rate": 95
     },
     {
       "id": "e58a9486-087d-4ec8-9c76-51373f82ca61",
       "ward_no": "31",
       "name_en": "Changuvettykkundu",
-      "name_ml": "ചങ്കുവെട്ടിക്കുണ്ട്"
+      "name_ml": "ചങ്കുവെട്ടിക്കുണ്ട്",
+      "rate": 95
     },
     {
       "id": "ba497cea-15a9-4be6-9800-18e3a4f90502",
       "ward_no": "32",
       "name_en": "Khurbani",
-      "name_ml": "ഖുര്‍ബാനി"
+      "name_ml": "ഖുര്‍ബാനി",
+      "rate": 75
     }
   ],
   "towns": [],

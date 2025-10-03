@@ -33,109 +33,127 @@
       "id": "6d4cb652-7587-486c-917f-5bf701f621ae",
       "ward_no": "1",
       "name_en": "Machamthuruth",
-      "name_ml": "മാച്ചാംതുരുത്ത്"
+      "name_ml": "മാച്ചാംതുരുത്ത്",
+      "rate": 75
     },
     {
       "id": "802fc355-bbe2-4e7a-9073-97eb64468258",
       "ward_no": "2",
       "name_en": "Alamthuruth",
-      "name_ml": "ആളംതുരുത്ത്"
+      "name_ml": "ആളംതുരുത്ത്",
+      "rate": 75
     },
     {
       "id": "a6b6a7f7-5146-49e3-86d8-c90cf9aa2aff",
       "ward_no": "3",
       "name_en": "Neendoor North(Head Quarters Ward)",
-      "name_ml": "നീണ്ടൂർ വടക്ക്(ഹെഡ് ക്വാർട്ടേഴ്സ് വാർഡ്)"
+      "name_ml": "നീണ്ടൂർ വടക്ക്(ഹെഡ് ക്വാർട്ടേഴ്സ് വാർഡ്)",
+      "rate": 95
     },
     {
       "id": "072e1888-aca3-4022-9d18-6a4a3dd9eeff",
       "ward_no": "4",
       "name_en": "Parayakad",
-      "name_ml": "പറയകാട്"
+      "name_ml": "പറയകാട്",
+      "rate": 75
     },
     {
       "id": "12529e9a-9d99-438c-b99a-37795e462359",
       "ward_no": "5",
       "name_en": "Valiyapallamthuruth",
-      "name_ml": "വലിയപല്ലംതുരുത്ത്"
+      "name_ml": "വലിയപല്ലംതുരുത്ത്",
+      "rate": 95
     },
     {
       "id": "3b20d6a2-b7ec-4af1-bf78-f87b2747dcda",
       "ward_no": "6",
       "name_en": "Paravoothara",
-      "name_ml": "പറവൂത്തറ"
+      "name_ml": "പറവൂത്തറ",
+      "rate": 75
     },
     {
       "id": "7dc74a7b-f676-44aa-b9b3-45adcb274b1f",
       "ward_no": "7",
       "name_en": "Makkanai",
-      "name_ml": "മാക്കനായി"
+      "name_ml": "മാക്കനായി",
+      "rate": 75
     },
     {
       "id": "a7f126ae-9c08-4252-a373-444ae59b7f8c",
       "ward_no": "8",
       "name_en": "Thoppu",
-      "name_ml": "തോപ്പ്"
+      "name_ml": "തോപ്പ്",
+      "rate": 75
     },
     {
       "id": "f624aa00-5bd4-4690-923e-810ec108a011",
       "ward_no": "9",
       "name_en": "Thannippadam",
-      "name_ml": "താന്നിപ്പാടം"
+      "name_ml": "താന്നിപ്പാടം",
+      "rate": 75
     },
     {
       "id": "f650eb4e-9802-4aa4-b601-fbeb42b0da68",
       "ward_no": "10",
       "name_en": "Cheriyapallamthuruth North",
-      "name_ml": "ചെറിയപല്ലംതുരുത്ത് വടക്ക്"
+      "name_ml": "ചെറിയപല്ലംതുരുത്ത് വടക്ക്",
+      "rate": 95
     },
     {
       "id": "51ca8a5d-6729-4d59-beb1-72acbfcae822",
       "ward_no": "11",
       "name_en": "Cheriyapallamthuruth South",
-      "name_ml": "ചെറിയപല്ലംതുരുത്ത് തെക്ക്"
+      "name_ml": "ചെറിയപല്ലംതുരുത്ത് തെക്ക്",
+      "rate": 65
     },
     {
       "id": "9305a822-14be-483c-8611-a8af8bce8ec3",
       "ward_no": "12",
       "name_en": "Neendoor South",
-      "name_ml": "നീണ്ടൂർ തെക്ക്"
+      "name_ml": "നീണ്ടൂർ തെക്ക്",
+      "rate": 95
     },
     {
       "id": "b22c999e-8968-4fe3-9574-34eb7239b765",
       "ward_no": "13",
       "name_en": "Chittattukara",
-      "name_ml": "ചിറ്റാറ്റുകര"
+      "name_ml": "ചിറ്റാറ്റുകര",
+      "rate": 75
     },
     {
       "id": "96700c80-8036-4aa0-b521-aff9b054c294",
       "ward_no": "14",
       "name_en": "Pooyappilly",
-      "name_ml": "പൂയ്യപ്പിള്ളി"
+      "name_ml": "പൂയ്യപ്പിള്ളി",
+      "rate": 75
     },
     {
       "id": "0c07d8ba-4ba7-4650-98b6-f7fd586bd6b9",
       "ward_no": "15",
       "name_en": "Pattanam Mussaris",
-      "name_ml": "പട്ടണം മുസ്സരിസ്"
+      "name_ml": "പട്ടണം മുസ്സരിസ്",
+      "rate": 75
     },
     {
       "id": "37063491-164e-4399-9cc0-d5cdb045547a",
       "ward_no": "16",
       "name_en": "Pattanam Center",
-      "name_ml": "പട്ടണം സെന്‍റർ"
+      "name_ml": "പട്ടണം സെന്‍റർ",
+      "rate": 65
     },
     {
       "id": "c2d77a94-e327-465f-aa74-fb92d651dcf8",
       "ward_no": "17",
       "name_en": "Pattanam West",
-      "name_ml": "പട്ടണം പടിഞ്ഞാറ്"
+      "name_ml": "പട്ടണം പടിഞ്ഞാറ്",
+      "rate": 95
     },
     {
       "id": "13088f57-7437-449e-a0dd-df1e45048677",
       "ward_no": "18",
       "name_en": "Pattanam North",
-      "name_ml": "പട്ടണം വടക്ക്"
+      "name_ml": "പട്ടണം വടക്ക്",
+      "rate": 75
     }
   ],
   "towns": [],

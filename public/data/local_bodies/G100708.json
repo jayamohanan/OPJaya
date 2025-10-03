@@ -33,139 +33,162 @@
       "id": "e6b1b709-8b84-4ba6-9f16-a193080fbf66",
       "ward_no": "1",
       "name_en": "Mannarambu",
-      "name_ml": "മണ്ണാറാമ്പ്"
+      "name_ml": "മണ്ണാറാമ്പ്",
+      "rate": 75
     },
     {
       "id": "ab5c9c1c-df7f-4717-b49a-04295f07233c",
       "ward_no": "2",
       "name_en": "Mele Aripra",
-      "name_ml": "മേലേ അരിപ്ര"
+      "name_ml": "മേലേ അരിപ്ര",
+      "rate": 75
     },
     {
       "id": "01e2679e-2b68-43cf-951a-6080d6dcb31b",
       "ward_no": "3",
       "name_en": "Thirurkkad Town",
-      "name_ml": "തിരുര്‍ക്കാട് ടൗൺ"
+      "name_ml": "തിരുര്‍ക്കാട് ടൗൺ",
+      "rate": 65
     },
     {
       "id": "9250d24c-2683-443a-a868-ef7ad7212370",
       "ward_no": "4",
       "name_en": "Peechaniparambu",
-      "name_ml": "പീച്ചാണിപ്പറമ്പ്"
+      "name_ml": "പീച്ചാണിപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "1805eb60-f072-4ec8-bf08-19191148866c",
       "ward_no": "5",
       "name_en": "Valamboor",
-      "name_ml": "വലമ്പൂര്‍"
+      "name_ml": "വലമ്പൂര്‍",
+      "rate": 75
     },
     {
       "id": "6baa67fd-d350-470b-a2b5-2024dd121a5c",
       "ward_no": "6",
       "name_en": "Chengode",
-      "name_ml": "ചേങ്ങോട്"
+      "name_ml": "ചേങ്ങോട്",
+      "rate": 75
     },
     {
       "id": "8b6fda05-0351-4cc1-888c-d308346d465f",
       "ward_no": "7",
       "name_en": "Pooppalam",
-      "name_ml": "പൂപ്പലം"
+      "name_ml": "പൂപ്പലം",
+      "rate": 95
     },
     {
       "id": "d26273e5-ada9-4992-bd31-829e774e7d82",
       "ward_no": "8",
       "name_en": "Chathanalloor",
-      "name_ml": "ചാത്തനല്ലുര്‍"
+      "name_ml": "ചാത്തനല്ലുര്‍",
+      "rate": 75
     },
     {
       "id": "bfd479cb-dbba-4a25-bdfa-3bbbd4ac99d3",
       "ward_no": "9",
       "name_en": "Eranthode",
-      "name_ml": "എറാന്തോട്"
+      "name_ml": "എറാന്തോട്",
+      "rate": 75
     },
     {
       "id": "d80dcf73-8e47-40a1-bd39-b9899407fd34",
       "ward_no": "10",
       "name_en": "Oradampalam",
-      "name_ml": "ഒരാടംപാലം"
+      "name_ml": "ഒരാടംപാലം",
+      "rate": 75
     },
     {
       "id": "7d1f1ce1-d77b-40e2-a485-d82bf30c625c",
       "ward_no": "11",
       "name_en": "Thirurkkad Para",
-      "name_ml": "തിരുര്‍ക്കാട് പാറ"
+      "name_ml": "തിരുര്‍ക്കാട് പാറ",
+      "rate": 75
     },
     {
       "id": "6caeced7-edbf-47fc-ad88-f13f194bdbe7",
       "ward_no": "12",
       "name_en": "Kottaparambu",
-      "name_ml": "കോട്ടപ്പറമ്പ്"
+      "name_ml": "കോട്ടപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "d91758b4-1545-484b-8ad5-09ea6dfd65a6",
       "ward_no": "13",
       "name_en": "Angadippuram North",
-      "name_ml": "അങ്ങാടിപ്പൂൂറം നോര്‍ത്ത്"
+      "name_ml": "അങ്ങാടിപ്പൂൂറം നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "31b524be-e693-4825-a1eb-7ee57efb3cfc",
       "ward_no": "14",
       "name_en": "Angadippuram South",
-      "name_ml": "അങ്ങാടിപ്പൂൂറം സൌത്ത്"
+      "name_ml": "അങ്ങാടിപ്പൂൂറം സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "7918bbb2-638f-40a6-93b8-9734dd532f76",
       "ward_no": "15",
       "name_en": "Kayakkundu",
-      "name_ml": "കായക്കുണ്ട്"
+      "name_ml": "കായക്കുണ്ട്",
+      "rate": 95
     },
     {
       "id": "16fdb24f-6622-484c-b6b4-f0eb62c5b915",
       "ward_no": "16",
       "name_en": "Thattarakkadu",
-      "name_ml": "തട്ടാരക്കാട്"
+      "name_ml": "തട്ടാരക്കാട്",
+      "rate": 75
     },
     {
       "id": "46659f18-6c8c-4e93-a42c-4bce4990142f",
       "ward_no": "17",
       "name_en": "Pariyapuram",
-      "name_ml": "പരിയാപൂരം"
+      "name_ml": "പരിയാപൂരം",
+      "rate": 75
     },
     {
       "id": "98c32aff-4b02-4f36-8f45-8aeb7e8fa1e1",
       "ward_no": "18",
       "name_en": "Puthanangadi Town",
-      "name_ml": "പുത്തനങ്ങാടി ടൗൺ"
+      "name_ml": "പുത്തനങ്ങാടി ടൗൺ",
+      "rate": 65
     },
     {
       "id": "0ae493dd-a59d-405c-ae03-460063015160",
       "ward_no": "19",
       "name_en": "Puthanangadi Pallipadi",
-      "name_ml": "പുത്തനങ്ങാടി പള്ളിപ്പടി"
+      "name_ml": "പുത്തനങ്ങാടി പള്ളിപ്പടി",
+      "rate": 65
     },
     {
       "id": "e34214ba-38cf-44d3-ac58-f502d7bf024a",
       "ward_no": "20",
       "name_en": "Vailongara",
-      "name_ml": "വൈലോങ്ങര"
+      "name_ml": "വൈലോങ്ങര",
+      "rate": 65
     },
     {
       "id": "89e8bc70-be42-43ef-b228-f3049522472f",
       "ward_no": "21",
       "name_en": "Cherakkaparambu",
-      "name_ml": "ചെരക്കാപ്പറമ്പ്"
+      "name_ml": "ചെരക്കാപ്പറമ്പ്",
+      "rate": 95
     },
     {
       "id": "36bc4410-e720-41d8-ad38-74f1ebc2d193",
       "ward_no": "22",
       "name_en": "Vazhipara",
-      "name_ml": "വഴിപ്പാറ"
+      "name_ml": "വഴിപ്പാറ",
+      "rate": 65
     },
     {
       "id": "8b8b0c8d-2f1a-4328-b13b-de259d7c2fe0",
       "ward_no": "23",
       "name_en": "Thazhe Aripra",
-      "name_ml": "താഴെ അരിപ്ര"
+      "name_ml": "താഴെ അരിപ്ര",
+      "rate": 65
     }
   ],
   "towns": [],

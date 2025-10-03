@@ -33,139 +33,162 @@
       "id": "a85565b0-a57a-4959-a76d-03fb4cbde1fa",
       "ward_no": "1",
       "name_en": "Venoli",
-      "name_ml": "വേനോലി"
+      "name_ml": "വേനോലി",
+      "rate": 75
     },
     {
       "id": "cf6bc5e5-7115-412e-b15c-3fd2bd670d24",
       "ward_no": "2",
       "name_en": "Umminikulam",
-      "name_ml": "ഉമ്മിണികുളം"
+      "name_ml": "ഉമ്മിണികുളം",
+      "rate": 75
     },
     {
       "id": "e9835cb8-ee69-4726-9fee-9490498095b3",
       "ward_no": "3",
       "name_en": "Chemmanamkad",
-      "name_ml": "ചെമ്മണംകാട്"
+      "name_ml": "ചെമ്മണംകാട്",
+      "rate": 75
     },
     {
       "id": "be60ef07-7418-4e20-abb7-cba25dcb3c54",
       "ward_no": "4",
       "name_en": "Kannode",
-      "name_ml": "കന്നോട്"
+      "name_ml": "കന്നോട്",
+      "rate": 75
     },
     {
       "id": "01c7dae5-87f1-4eaf-ba11-e6b764f90d05",
       "ward_no": "5",
       "name_en": "Pudur",
-      "name_ml": "പുതൂര്‍"
+      "name_ml": "പുതൂര്‍",
+      "rate": 65
     },
     {
       "id": "f8d19de0-082c-45da-ab39-6680a66d3615",
       "ward_no": "6",
       "name_en": "Pettakkad",
-      "name_ml": "പേട്ടക്കാട്"
+      "name_ml": "പേട്ടക്കാട്",
+      "rate": 95
     },
     {
       "id": "8c0b72ae-9cdd-4d03-8be8-0d7613e0e2d6",
       "ward_no": "7",
       "name_en": "Walayar",
-      "name_ml": "വാളയാര്‍"
+      "name_ml": "വാളയാര്‍",
+      "rate": 75
     },
     {
       "id": "ec13b755-678a-4e4f-8cf3-8003ff7d6817",
       "ward_no": "8",
       "name_en": "Chandrapuram",
-      "name_ml": "ചന്ദ്രാപുരം"
+      "name_ml": "ചന്ദ്രാപുരം",
+      "rate": 75
     },
     {
       "id": "dce063b1-7891-424a-9db0-e2ed4d33e1db",
       "ward_no": "9",
       "name_en": "Pambuppara",
-      "name_ml": "പാമ്പുപ്പാറ"
+      "name_ml": "പാമ്പുപ്പാറ",
+      "rate": 75
     },
     {
       "id": "32e8d70a-1d47-48fb-b17e-a59e47662205",
       "ward_no": "10",
       "name_en": "Kongampara",
-      "name_ml": "കോങ്ങാമ്പാറ"
+      "name_ml": "കോങ്ങാമ്പാറ",
+      "rate": 75
     },
     {
       "id": "c602a6fd-93c3-4b09-9a01-f96fdd2f4a11",
       "ward_no": "11",
       "name_en": "Pampampallam",
-      "name_ml": "പാമ്പാംപളളം"
+      "name_ml": "പാമ്പാംപളളം",
+      "rate": 65
     },
     {
       "id": "2b758cd5-f6ff-47bf-832e-f99642b6b0c3",
       "ward_no": "12",
       "name_en": "Attappallam",
-      "name_ml": "അട്ടപ്പളളം"
+      "name_ml": "അട്ടപ്പളളം",
+      "rate": 75
     },
     {
       "id": "9d81d479-ed13-4a14-996e-633dba4b3509",
       "ward_no": "13",
       "name_en": "Chullimada",
-      "name_ml": "ചുളളിമട"
+      "name_ml": "ചുളളിമട",
+      "rate": 75
     },
     {
       "id": "70bc8679-fe89-4b61-9375-32b6859ca969",
       "ward_no": "14",
       "name_en": "Kizhakkemuri",
-      "name_ml": "കിഴക്കേമുറി"
+      "name_ml": "കിഴക്കേമുറി",
+      "rate": 75
     },
     {
       "id": "c7e98435-150d-458f-a84c-3ce4fb5d7bf0",
       "ward_no": "15",
       "name_en": "Kanjikode",
-      "name_ml": "കഞ്ചിക്കോട്"
+      "name_ml": "കഞ്ചിക്കോട്",
+      "rate": 65
     },
     {
       "id": "91b34a3a-5207-4e73-a24d-345209a39afd",
       "ward_no": "16",
       "name_en": "Sathrappadi",
-      "name_ml": "സത്രപ്പടി"
+      "name_ml": "സത്രപ്പടി",
+      "rate": 75
     },
     {
       "id": "a437a472-3fdc-467c-94ac-5c45a2a84bff",
       "ward_no": "17",
       "name_en": "Kanjikode South",
-      "name_ml": "കഞ്ചിക്കോട് സൌത്ത്"
+      "name_ml": "കഞ്ചിക്കോട് സൌത്ത്",
+      "rate": 65
     },
     {
       "id": "7aeb4256-d3ea-417a-b70a-d680abe41c00",
       "ward_no": "18",
       "name_en": "Chedayankalai",
-      "name_ml": "ചെടയന്‍കാലായ്"
+      "name_ml": "ചെടയന്‍കാലായ്",
+      "rate": 95
     },
     {
       "id": "c0b3f1a1-c67d-4200-bcab-c8dbc3e4fd51",
       "ward_no": "19",
       "name_en": "Puthurpadam",
-      "name_ml": "പുത്തൂര്‍പ്പാടം"
+      "name_ml": "പുത്തൂര്‍പ്പാടം",
+      "rate": 75
     },
     {
       "id": "6f479adf-ae54-4a08-bc2a-b6f0a13c4c24",
       "ward_no": "20",
       "name_en": "Kolayakkode",
-      "name_ml": "കൊളയക്കോട്"
+      "name_ml": "കൊളയക്കോട്",
+      "rate": 75
     },
     {
       "id": "bbec34fb-930d-416d-a28d-3de5c57ae61d",
       "ward_no": "21",
       "name_en": "Sooryachira",
-      "name_ml": "സൂര്യച്ചിറ"
+      "name_ml": "സൂര്യച്ചിറ",
+      "rate": 95
     },
     {
       "id": "3d77103e-9c50-40c7-9610-31089f4e3f12",
       "ward_no": "22",
       "name_en": "Pudussery",
-      "name_ml": "പുതുശേശരി"
+      "name_ml": "പുതുശേശരി",
+      "rate": 75
     },
     {
       "id": "554e0ead-5e53-499f-ac29-32d8c0c2c779",
       "ward_no": "23",
       "name_en": "Pudusseryppadam",
-      "name_ml": "പുതുശേശരിപ്പാടം"
+      "name_ml": "പുതുശേശരിപ്പാടം",
+      "rate": 75
     }
   ],
   "towns": [],

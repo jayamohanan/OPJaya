@@ -33,109 +33,127 @@
       "id": "aff57eec-3a32-4d2a-989f-3d42cd1e9d75",
       "ward_no": "1",
       "name_en": "Arattupuzha",
-      "name_ml": "ആറാട്ടുപുഴ"
+      "name_ml": "ആറാട്ടുപുഴ",
+      "rate": 65
     },
     {
       "id": "bdc681c6-b915-4a3f-9069-c00f9b1bf8f0",
       "ward_no": "2",
       "name_en": "Malakkara",
-      "name_ml": "മാലക്കര"
+      "name_ml": "മാലക്കര",
+      "rate": 75
     },
     {
       "id": "59af6135-1bbe-4512-b724-5ba4d5562f30",
       "ward_no": "3",
       "name_en": "Kottakakam",
-      "name_ml": "കോട്ടയ്ക്കകം"
+      "name_ml": "കോട്ടയ്ക്കകം",
+      "rate": 65
     },
     {
       "id": "7a0dc288-1da3-4c44-8e69-a66107b31e3a",
       "ward_no": "4",
       "name_en": "Edayaranmula",
-      "name_ml": "ഇടയാറന്‍മുള"
+      "name_ml": "ഇടയാറന്‍മുള",
+      "rate": 95
     },
     {
       "id": "b98e9b88-0ff7-43bd-a13b-f058da8f79a5",
       "ward_no": "5",
       "name_en": "Kalarikkodu",
-      "name_ml": "കളരിക്കോട്"
+      "name_ml": "കളരിക്കോട്",
+      "rate": 75
     },
     {
       "id": "f0d4e492-6aa0-4553-855f-26736b390474",
       "ward_no": "6",
       "name_en": "Aranmula West",
-      "name_ml": "ആറന്മുള പടിഞ്ഞാറ്"
+      "name_ml": "ആറന്മുള പടിഞ്ഞാറ്",
+      "rate": 65
     },
     {
       "id": "91616db7-d4f5-475e-8d4c-26df5762c2ea",
       "ward_no": "7",
       "name_en": "Aranmula East",
-      "name_ml": "ആറന്മുള കിഴക്ക്"
+      "name_ml": "ആറന്മുള കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "655c4513-6bcd-4b9d-9842-994d9786b5ac",
       "ward_no": "8",
       "name_en": "Nalkalikkal",
-      "name_ml": "നാല്‍ക്കാലിക്കല്‍"
+      "name_ml": "നാല്‍ക്കാലിക്കല്‍",
+      "rate": 95
     },
     {
       "id": "1745ff6e-8aa3-4e81-9d1b-80c5d6402354",
       "ward_no": "9",
       "name_en": "Kidangannur",
-      "name_ml": "കിടങ്ങന്നൂര്‍"
+      "name_ml": "കിടങ്ങന്നൂര്‍",
+      "rate": 75
     },
     {
       "id": "f95b4046-850b-4672-940c-c1a4aae15ca6",
       "ward_no": "10",
       "name_en": "Manappalli",
-      "name_ml": "മണപ്പള്ളി"
+      "name_ml": "മണപ്പള്ളി",
+      "rate": 75
     },
     {
       "id": "e4385cbb-4822-44af-9fd4-fc44675e2a03",
       "ward_no": "11",
       "name_en": "Gurukkankunnu",
-      "name_ml": "ഗുരുക്കന്‍ക്കുന്ന്"
+      "name_ml": "ഗുരുക്കന്‍ക്കുന്ന്",
+      "rate": 95
     },
     {
       "id": "237458a5-d010-4532-b284-d64d1cd34eac",
       "ward_no": "12",
       "name_en": "Erumakkadu",
-      "name_ml": "എരുമക്കാട്"
+      "name_ml": "എരുമക്കാട്",
+      "rate": 75
     },
     {
       "id": "52d2fe59-8cc4-4a3a-849b-5b2987331dfd",
       "ward_no": "13",
       "name_en": "Vallana",
-      "name_ml": "വല്ലന"
+      "name_ml": "വല്ലന",
+      "rate": 65
     },
     {
       "id": "73fd39c5-2e49-4745-86e0-e7253315d602",
       "ward_no": "14",
       "name_en": "Kotta East",
-      "name_ml": "കോട്ട കിഴക്ക്"
+      "name_ml": "കോട്ട കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "dbc1516c-1a80-4a23-8aec-049f1d10e36c",
       "ward_no": "15",
       "name_en": "Kotta West",
-      "name_ml": "കോട്ട പടിഞ്ഞാറ്"
+      "name_ml": "കോട്ട പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "642e2887-02de-46c3-9e00-40d99c782f23",
       "ward_no": "16",
       "name_en": "Kurichimuttam South",
-      "name_ml": "കുറിച്ചിമുട്ടം തെക്ക്"
+      "name_ml": "കുറിച്ചിമുട്ടം തെക്ക്",
+      "rate": 65
     },
     {
       "id": "ecb4292a-b6e8-43b4-81e2-9ee3a8070022",
       "ward_no": "17",
       "name_en": "Kurichimuttam North",
-      "name_ml": "കുറിച്ചിമുട്ടം വടക്ക്"
+      "name_ml": "കുറിച്ചിമുട്ടം വടക്ക്",
+      "rate": 75
     },
     {
       "id": "f2ffc5de-6b45-4a6f-9e04-5e939920e55a",
       "ward_no": "18",
       "name_en": "Neervilakam",
-      "name_ml": "നീര്‍വിളാകം"
+      "name_ml": "നീര്‍വിളാകം",
+      "rate": 75
     }
   ],
   "towns": [],

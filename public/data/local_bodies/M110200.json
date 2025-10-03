@@ -31,265 +31,309 @@
       "id": "d81eeb19-f46e-48d9-b953-2c92836405be",
       "ward_no": "18",
       "name_en": "Aruvayal",
-      "name_ml": "അറുവയല്‍"
+      "name_ml": "അറുവയല്‍",
+      "rate": 95
     },
     {
       "id": "1c7ecee5-a21f-4784-aa95-e3be02bca437",
       "ward_no": "1",
       "name_en": "Pathirikkad",
-      "name_ml": "പാതിരിക്കാട്"
+      "name_ml": "പാതിരിക്കാട്",
+      "rate": 95
     },
     {
       "id": "25d7bf4e-3f79-48f0-8c8e-83c6753c4a26",
       "ward_no": "2",
       "name_en": "Maraloor",
-      "name_ml": "മരളൂര്‍"
+      "name_ml": "മരളൂര്‍",
+      "rate": 75
     },
     {
       "id": "a70dda81-cb22-47d8-924d-b358ac9f4a19",
       "ward_no": "3",
       "name_en": "Kodakkattumuri",
-      "name_ml": "കൊടക്കാട്ടുുമുറി"
+      "name_ml": "കൊടക്കാട്ടുുമുറി",
+      "rate": 75
     },
     {
       "id": "838a250a-baef-48b2-a7b8-cf1ca21519b9",
       "ward_no": "4",
       "name_en": "Perunkuni",
-      "name_ml": "പെരുങ്കുനി"
+      "name_ml": "പെരുങ്കുനി",
+      "rate": 75
     },
     {
       "id": "48a44e5d-805d-4c92-ad6e-f77c24949097",
       "ward_no": "5",
       "name_en": "Puliyencheri",
-      "name_ml": "പുളിയഞ്ചേരി"
+      "name_ml": "പുളിയഞ്ചേരി",
+      "rate": 95
     },
     {
       "id": "63311b6d-fe55-4bed-a9f0-379e110e96b6",
       "ward_no": "6",
       "name_en": "Attavayal",
-      "name_ml": "അട്ടവയല്‍"
+      "name_ml": "അട്ടവയല്‍",
+      "rate": 95
     },
     {
       "id": "0f7af3f8-a506-44f5-8727-7d5b0bde2d52",
       "ward_no": "7",
       "name_en": "Puliyencheri East",
-      "name_ml": "പുളിയഞ്ചേരി ഈസ്റ്റ്"
+      "name_ml": "പുളിയഞ്ചേരി ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "d576e12e-6555-4600-9e3f-a13a42b8379f",
       "ward_no": "8",
       "name_en": "Kalathilkadavu",
-      "name_ml": "കളത്തില്‍കടവ്"
+      "name_ml": "കളത്തില്‍കടവ്",
+      "rate": 95
     },
     {
       "id": "2b411a0b-3200-4691-ae26-e9c6d2942c31",
       "ward_no": "9",
       "name_en": "Viyyur",
-      "name_ml": "വിയ്യൂര്‍"
+      "name_ml": "വിയ്യൂര്‍",
+      "rate": 95
     },
     {
       "id": "4f034a87-bd36-40fb-ab40-e9e734a54619",
       "ward_no": "10",
       "name_en": "Pavuvayal",
-      "name_ml": "പാവുവയല്‍"
+      "name_ml": "പാവുവയല്‍",
+      "rate": 75
     },
     {
       "id": "527f95e6-0fce-43b0-86d7-b6dc7f695189",
       "ward_no": "11",
       "name_en": "Panthalayani North",
-      "name_ml": "പന്തലായനി നോര്‍ത്ത്"
+      "name_ml": "പന്തലായനി നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "d6bfe338-8b2d-4df7-82cf-0946e1c218b1",
       "ward_no": "12",
       "name_en": "Puthalathukunnu",
-      "name_ml": "പുത്തലത്ത്കുന്ന്"
+      "name_ml": "പുത്തലത്ത്കുന്ന്",
+      "rate": 75
     },
     {
       "id": "f11ca785-eda5-4b2f-b0e7-75a3f4c833ce",
       "ward_no": "13",
       "name_en": "Peruvatoor",
-      "name_ml": "പെരുവട്ടൂര്‍"
+      "name_ml": "പെരുവട്ടൂര്‍",
+      "rate": 75
     },
     {
       "id": "513c77fd-7353-49c7-a13e-99613b5da155",
       "ward_no": "14",
       "name_en": "Panthalayani Central",
-      "name_ml": "പന്തലായനി സെന്‍ട്രല്‍"
+      "name_ml": "പന്തലായനി സെന്‍ട്രല്‍",
+      "rate": 75
     },
     {
       "id": "ff927ea5-d877-4864-8322-d0d9614911ca",
       "ward_no": "15",
       "name_en": "Panthalayani South",
-      "name_ml": "പന്തലായനി സൌത്ത്"
+      "name_ml": "പന്തലായനി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "edb8095c-6a76-4218-97b9-acd43f7516c3",
       "ward_no": "16",
       "name_en": "Peruvatoor Central",
-      "name_ml": "പെരുവട്ടൂര്‍ സെന്‍ട്രല്‍"
+      "name_ml": "പെരുവട്ടൂര്‍ സെന്‍ട്രല്‍",
+      "rate": 65
     },
     {
       "id": "6a10d556-88e4-4b48-a379-f4468b5437ca",
       "ward_no": "17",
       "name_en": "Kakkrattukunnu",
-      "name_ml": "കാക്രാട്ടുകുന്നു"
+      "name_ml": "കാക്രാട്ടുകുന്നു",
+      "rate": 75
     },
     {
       "id": "beea8d1b-b5f1-4b15-9780-78e0fb557335",
       "ward_no": "19",
       "name_en": "Anela",
-      "name_ml": "അണേല"
+      "name_ml": "അണേല",
+      "rate": 65
     },
     {
       "id": "c66bf305-99ea-49d1-8185-66549cced877",
       "ward_no": "20",
       "name_en": "Muthambi",
-      "name_ml": "മുത്താമ്പി"
+      "name_ml": "മുത്താമ്പി",
+      "rate": 65
     },
     {
       "id": "c3cb1079-906f-431b-979f-024d95ec0dc7",
       "ward_no": "21",
       "name_en": "Thettikkunnu",
-      "name_ml": "തെറ്റീകുന്ന്"
+      "name_ml": "തെറ്റീകുന്ന്",
+      "rate": 95
     },
     {
       "id": "3943254b-85d5-4e56-baa6-c924e79cbe45",
       "ward_no": "22",
       "name_en": "Kavumvattam",
-      "name_ml": "കാവുംവട്ടം"
+      "name_ml": "കാവുംവട്ടം",
+      "rate": 95
     },
     {
       "id": "d4e942d2-8643-4d37-b3cd-164b605f25ca",
       "ward_no": "23",
       "name_en": "Moozhikkumeethal",
-      "name_ml": "മൂഴിക്കുമീത്തല്‍"
+      "name_ml": "മൂഴിക്കുമീത്തല്‍",
+      "rate": 75
     },
     {
       "id": "318d0cba-5ca1-43cd-b878-2f3590d87fe3",
       "ward_no": "24",
       "name_en": "Maruthoor",
-      "name_ml": "മരുതൂര്‍"
+      "name_ml": "മരുതൂര്‍",
+      "rate": 95
     },
     {
       "id": "006090b5-d584-4c90-9c1c-5bc39d6103e3",
       "ward_no": "25",
       "name_en": "Anela- Kuruvangad",
-      "name_ml": "അണേല - കുറുവങ്ങാട്"
+      "name_ml": "അണേല - കുറുവങ്ങാട്",
+      "rate": 75
     },
     {
       "id": "0a947502-f493-40dc-9ddf-70bcacc12f11",
       "ward_no": "26",
       "name_en": "Kanayankode",
-      "name_ml": "കണയന്‍കോട്"
+      "name_ml": "കണയന്‍കോട്",
+      "rate": 75
     },
     {
       "id": "87cbda58-bf36-4f9e-abcc-bc28a78cee25",
       "ward_no": "27",
       "name_en": "Varakunnu",
-      "name_ml": "വരകുന്ന്"
+      "name_ml": "വരകുന്ന്",
+      "rate": 75
     },
     {
       "id": "c67a4404-2d5c-407a-bfbb-be62d7e22646",
       "ward_no": "28",
       "name_en": "Kuruvangad",
-      "name_ml": "കുറുവങ്ങാട്"
+      "name_ml": "കുറുവങ്ങാട്",
+      "rate": 95
     },
     {
       "id": "0294238f-29ff-4d59-9448-f92e4216f32f",
       "ward_no": "29",
       "name_en": "Manamal",
-      "name_ml": "മണമല്‍"
+      "name_ml": "മണമല്‍",
+      "rate": 75
     },
     {
       "id": "9ff4eea9-c6a5-4356-ab33-f5097c752086",
       "ward_no": "30",
       "name_en": "Komathukara",
-      "name_ml": "കോമത്ത്കര"
+      "name_ml": "കോമത്ത്കര",
+      "rate": 65
     },
     {
       "id": "18c9db54-73ad-4359-a9cc-e3c0ed1ac6d8",
       "ward_no": "31",
       "name_en": "Kothamangalam",
-      "name_ml": "കോതമംഗലം"
+      "name_ml": "കോതമംഗലം",
+      "rate": 75
     },
     {
       "id": "6f95680a-5283-43d8-a752-c050cf3903f3",
       "ward_no": "32",
       "name_en": "Nadelakkandy",
-      "name_ml": "നടേലക്കണ്ടി"
+      "name_ml": "നടേലക്കണ്ടി",
+      "rate": 75
     },
     {
       "id": "079ad1ff-f21c-4232-afbd-89ef20e6cc67",
       "ward_no": "33",
       "name_en": "Korayangad",
-      "name_ml": "കൊരയങ്ങാട്"
+      "name_ml": "കൊരയങ്ങാട്",
+      "rate": 65
     },
     {
       "id": "5d6f029c-f12a-4f04-8a8f-8d52b1574388",
       "ward_no": "34",
       "name_en": "Chalilparambu",
-      "name_ml": "ചാലില്‍പറമ്പ്"
+      "name_ml": "ചാലില്‍പറമ്പ്",
+      "rate": 95
     },
     {
       "id": "229c4597-d531-437e-b160-15580b5f7e0d",
       "ward_no": "35",
       "name_en": "Cheriyamangad",
-      "name_ml": "ചെറിയമങ്ങാട്"
+      "name_ml": "ചെറിയമങ്ങാട്",
+      "rate": 95
     },
     {
       "id": "c049f500-1bb0-4c53-9f2d-5d297dc81c54",
       "ward_no": "36",
       "name_en": "Virunnukandy",
-      "name_ml": "വിരുന്നുകണ്ടി"
+      "name_ml": "വിരുന്നുകണ്ടി",
+      "rate": 75
     },
     {
       "id": "6afdcc03-8438-43da-b7b1-ddfb236b87c3",
       "ward_no": "37",
       "name_en": "Koyilandy South",
-      "name_ml": "കൊയിലാണ്ടി സൌത്ത്"
+      "name_ml": "കൊയിലാണ്ടി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "fe8d261a-f61d-41d0-ae1e-63d5cbb86861",
       "ward_no": "38",
       "name_en": "Thazhangady",
-      "name_ml": "താഴങ്ങാടി"
+      "name_ml": "താഴങ്ങാടി",
+      "rate": 75
     },
     {
       "id": "1f77f54b-edf7-411f-a8f8-12b2767bd38d",
       "ward_no": "39",
       "name_en": "Koyilandy Town",
-      "name_ml": "കൊയിലാണ്ടി ടൌണ്‍"
+      "name_ml": "കൊയിലാണ്ടി ടൌണ്‍",
+      "rate": 95
     },
     {
       "id": "040d1880-42af-4442-b519-2b8182dabec3",
       "ward_no": "40",
       "name_en": "Kasmikkandy",
-      "name_ml": "കാശ്മിക്കണ്ടി"
+      "name_ml": "കാശ്മിക്കണ്ടി",
+      "rate": 95
     },
     {
       "id": "155332d6-2d14-40f1-aaf6-ec5b0229497f",
       "ward_no": "41",
       "name_en": "Civilstation",
-      "name_ml": "സിവില്‍േസ്റ്റഷന്‍"
+      "name_ml": "സിവില്‍േസ്റ്റഷന്‍",
+      "rate": 75
     },
     {
       "id": "8cde888b-334e-4a80-9238-b918b7278d81",
       "ward_no": "42",
       "name_en": "Oorankunnu",
-      "name_ml": "ഊരാങ്കുന്ന്"
+      "name_ml": "ഊരാങ്കുന്ന്",
+      "rate": 75
     },
     {
       "id": "c03ed103-eee4-44c8-93d1-647060fd0a7c",
       "ward_no": "43",
       "name_en": "Kollam West",
-      "name_ml": "കൊല്ലം വെസ്റ്റ്"
+      "name_ml": "കൊല്ലം വെസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "fb2d19bb-bc4c-4e84-8098-b5790ef8fc15",
       "ward_no": "44",
       "name_en": "Kaniyamkunnu",
-      "name_ml": "കണിയാങ്കുന്ന്"
+      "name_ml": "കണിയാങ്കുന്ന്",
+      "rate": 65
     }
   ],
   "towns": [],

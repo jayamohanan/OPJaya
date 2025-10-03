@@ -33,139 +33,162 @@
       "id": "f2c8e9cf-8040-4151-8ec6-da735f28ef47",
       "ward_no": "1",
       "name_en": "Padinjattakkara North",
-      "name_ml": "പടിഞ്ഞാറ്റക്കര വടക്ക്"
+      "name_ml": "പടിഞ്ഞാറ്റക്കര വടക്ക്",
+      "rate": 75
     },
     {
       "id": "abeff1d2-4023-42de-a138-123619557617",
       "ward_no": "2",
       "name_en": "Padinjattakkara East",
-      "name_ml": "പടിഞ്ഞാറ്റക്കര കിഴക്ക്"
+      "name_ml": "പടിഞ്ഞാറ്റക്കര കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "cb3aa315-4994-4523-9a28-2b5dc126ef96",
       "ward_no": "3",
       "name_en": "Naduvilakkara",
-      "name_ml": "നടുവിലക്കര"
+      "name_ml": "നടുവിലക്കര",
+      "rate": 75
     },
     {
       "id": "76619961-d40b-4798-8ca1-ed756f82dfc2",
       "ward_no": "4",
       "name_en": "Mullikkala",
-      "name_ml": "മുള്ളിക്കാല"
+      "name_ml": "മുള്ളിക്കാല",
+      "rate": 75
     },
     {
       "id": "71f528f6-d08e-493f-ba58-5bce75f3e331",
       "ward_no": "5",
       "name_en": "Arinalloor West",
-      "name_ml": "അരിനല്ലൂര്‍ പടിഞ്ഞാറ്"
+      "name_ml": "അരിനല്ലൂര്‍ പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "9786b39e-891c-479c-b6fa-0801b7601307",
       "ward_no": "6",
       "name_en": "Arinalloor North",
-      "name_ml": "അരിനല്ലൂര്‍ വടക്ക്"
+      "name_ml": "അരിനല്ലൂര്‍ വടക്ക്",
+      "rate": 65
     },
     {
       "id": "c99075c8-36f4-45b7-9e17-f64d4557bf86",
       "ward_no": "7",
       "name_en": "Arinalloor",
-      "name_ml": "അരിനല്ലൂര്‍"
+      "name_ml": "അരിനല്ലൂര്‍",
+      "rate": 75
     },
     {
       "id": "9ca4568b-ed4b-432e-9481-a960e2ee28ed",
       "ward_no": "8",
       "name_en": "Arinalloor South",
-      "name_ml": "അരിനല്ലൂര്‍ തെക്ക്"
+      "name_ml": "അരിനല്ലൂര്‍ തെക്ക്",
+      "rate": 75
     },
     {
       "id": "30bc0e33-6f84-4789-bf6e-21889da3a1db",
       "ward_no": "9",
       "name_en": "Padappanal",
-      "name_ml": "പടപ്പനാല്‍"
+      "name_ml": "പടപ്പനാല്‍",
+      "rate": 75
     },
     {
       "id": "dac5ca0b-8002-4224-aff6-70e4f41ff8db",
       "ward_no": "10",
       "name_en": "Mullikkala South",
-      "name_ml": "മുള്ളിക്കാല തെക്ക്"
+      "name_ml": "മുള്ളിക്കാല തെക്ക്",
+      "rate": 95
     },
     {
       "id": "f7a5c348-394f-42c3-b4f3-fa95975ed270",
       "ward_no": "11",
       "name_en": "Koivila East",
-      "name_ml": "കോയിവിള കിഴക്ക്"
+      "name_ml": "കോയിവിള കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "d43282f8-a759-42fe-9c2e-dae1c08d86d6",
       "ward_no": "12",
       "name_en": "Koivila South",
-      "name_ml": "കോയിവിള തെക്ക്"
+      "name_ml": "കോയിവിള തെക്ക്",
+      "rate": 65
     },
     {
       "id": "23753d2b-41d8-4b3d-a7e3-c23f5f5fafa2",
       "ward_no": "13",
       "name_en": "Koivila West",
-      "name_ml": "കോയിവിള പടിഞ്ഞാറ്"
+      "name_ml": "കോയിവിള പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "013bf902-70d7-4597-b04e-34f3d96b40aa",
       "ward_no": "14",
       "name_en": "Puthensanketham South",
-      "name_ml": "പുത്തന്‍സങ്കേതം തെക്ക്"
+      "name_ml": "പുത്തന്‍സങ്കേതം തെക്ക്",
+      "rate": 65
     },
     {
       "id": "853c3683-921d-44da-85d8-e023e34fa429",
       "ward_no": "15",
       "name_en": "Payyamkulam",
-      "name_ml": "പയ്യംകുളം"
+      "name_ml": "പയ്യംകുളം",
+      "rate": 65
     },
     {
       "id": "aa072446-b670-43e5-a0f0-2dd3bb463a1b",
       "ward_no": "16",
       "name_en": "Puthensanketham North",
-      "name_ml": "പുത്തന്‍സങ്കേതം വടക്ക്"
+      "name_ml": "പുത്തന്‍സങ്കേതം വടക്ക്",
+      "rate": 75
     },
     {
       "id": "062bee71-9f2e-4a05-9010-7b1a92eaab26",
       "ward_no": "17",
       "name_en": "Koivila North",
-      "name_ml": "കോയിവിള വടക്ക്"
+      "name_ml": "കോയിവിള വടക്ക്",
+      "rate": 75
     },
     {
       "id": "4b0503ec-27d7-489a-bb3b-f303dc9f6a3e",
       "ward_no": "18",
       "name_en": "Palackal",
-      "name_ml": "പാലയ്ക്കല്‍"
+      "name_ml": "പാലയ്ക്കല്‍",
+      "rate": 65
     },
     {
       "id": "e2246f41-c268-4665-a952-96ec4aa57ba4",
       "ward_no": "19",
       "name_en": "Palackal South",
-      "name_ml": "പാലയ്ക്കല്‍ തെക്ക്"
+      "name_ml": "പാലയ്ക്കല്‍ തെക്ക്",
+      "rate": 75
     },
     {
       "id": "5fead408-93cd-4a3b-8fcf-f3ba58af63ec",
       "ward_no": "20",
       "name_en": "Mottackal",
-      "name_ml": "മൊട്ടയ്ക്കല്‍"
+      "name_ml": "മൊട്ടയ്ക്കല്‍",
+      "rate": 75
     },
     {
       "id": "657df0a3-9e55-4be2-b272-74c1ee445ef0",
       "ward_no": "21",
       "name_en": "Naduvilakkara South",
-      "name_ml": "നടുവിലക്കര തെക്ക്"
+      "name_ml": "നടുവിലക്കര തെക്ക്",
+      "rate": 75
     },
     {
       "id": "ae9a07d9-c7e2-4edb-83b3-a3422a63ffba",
       "ward_no": "22",
       "name_en": "Palackal North",
-      "name_ml": "പാലയ്ക്കല്‍ വടക്ക്"
+      "name_ml": "പാലയ്ക്കല്‍ വടക്ക്",
+      "rate": 75
     },
     {
       "id": "cf772ebb-d1b2-4f81-9fe3-48456831d7ea",
       "ward_no": "23",
       "name_en": "Padinjattakkara South",
-      "name_ml": "പടിഞ്ഞാറ്റക്കര തെക്ക്"
+      "name_ml": "പടിഞ്ഞാറ്റക്കര തെക്ക്",
+      "rate": 75
     }
   ],
   "towns": [],

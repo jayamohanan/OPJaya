@@ -33,109 +33,127 @@
       "id": "eba48077-c581-4a83-8c24-7e9349d89bdf",
       "ward_no": "1",
       "name_en": "Alukkal",
-      "name_ml": "ആലുക്കല്‍"
+      "name_ml": "ആലുക്കല്‍",
+      "rate": 65
     },
     {
       "id": "33787340-e131-41d9-9bf9-6c8e0dea034e",
       "ward_no": "2",
       "name_en": "Ugrappuram",
-      "name_ml": "ഉഗ്രപുരം"
+      "name_ml": "ഉഗ്രപുരം",
+      "rate": 75
     },
     {
       "id": "0751e00b-b4e1-4d44-93c5-b66d56039ebc",
       "ward_no": "3",
       "name_en": "Perumparambu",
-      "name_ml": "പെരുംപറമ്പ്"
+      "name_ml": "പെരുംപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "aeaaade3-c496-4ded-83f4-8d3d4d0d9ec9",
       "ward_no": "4",
       "name_en": "North Kozhakkottor",
-      "name_ml": "നോര്‍ത്ത് കൊഴക്കോട്ടൂര്‍"
+      "name_ml": "നോര്‍ത്ത് കൊഴക്കോട്ടൂര്‍",
+      "rate": 75
     },
     {
       "id": "3ee5d7e2-a22e-4465-b55b-17b43d39a948",
       "ward_no": "5",
       "name_en": "Thazhathangadi",
-      "name_ml": "താഴത്തങ്ങാടി"
+      "name_ml": "താഴത്തങ്ങാടി",
+      "rate": 75
     },
     {
       "id": "784eef88-c5a5-497a-a8f6-ae42f3185e21",
       "ward_no": "6",
       "name_en": "Areacode West",
-      "name_ml": "അരീക്കോട് വെസ്റ്റ്"
+      "name_ml": "അരീക്കോട് വെസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "ed8a96b7-e864-4b54-a74d-ac4aef4ceb97",
       "ward_no": "7",
       "name_en": "Areacode East",
-      "name_ml": "അരീക്കോട് ഈസ് റ്റ്"
+      "name_ml": "അരീക്കോട് ഈസ് റ്റ്",
+      "rate": 95
     },
     {
       "id": "e413d70f-d7c4-4c5e-83b2-9ca5e27dfa4c",
       "ward_no": "8",
       "name_en": "Puthalam",
-      "name_ml": "പുത്തലം"
+      "name_ml": "പുത്തലം",
+      "rate": 95
     },
     {
       "id": "e15757de-0058-493a-ba55-278d1199e4ff",
       "ward_no": "9",
       "name_en": "South Puthalam",
-      "name_ml": "സൌത്ത് പുത്തലം"
+      "name_ml": "സൌത്ത് പുത്തലം",
+      "rate": 65
     },
     {
       "id": "bd86670a-93dd-4288-a3e0-d40327c99fde",
       "ward_no": "10",
       "name_en": "Kozhakkottor",
-      "name_ml": "കൊഴക്കോട്ടൂര്‍"
+      "name_ml": "കൊഴക്കോട്ടൂര്‍",
+      "rate": 75
     },
     {
       "id": "c3d889dc-21d1-453f-a5db-6986037f08ab",
       "ward_no": "11",
       "name_en": "Mathakkode",
-      "name_ml": "മാതക്കോട്"
+      "name_ml": "മാതക്കോട്",
+      "rate": 75
     },
     {
       "id": "8c13fcb0-f112-4108-8581-99af7a695b4c",
       "ward_no": "12",
       "name_en": "Chemrakkattor",
-      "name_ml": "ചെമ്രക്കാട്ടൂര്‍"
+      "name_ml": "ചെമ്രക്കാട്ടൂര്‍",
+      "rate": 65
     },
     {
       "id": "1807b0af-bc43-485f-8e3d-66faf6241795",
       "ward_no": "13",
       "name_en": "Velleri East",
-      "name_ml": "വെള്ളേരി ഈസ് റ്റ്"
+      "name_ml": "വെള്ളേരി ഈസ് റ്റ്",
+      "rate": 75
     },
     {
       "id": "0c563e91-23ec-4d85-b01c-f8e3dcd68115",
       "ward_no": "14",
       "name_en": "Velleri West",
-      "name_ml": "വെള്ളേരി വെസ് റ്റ്"
+      "name_ml": "വെള്ളേരി വെസ് റ്റ്",
+      "rate": 95
     },
     {
       "id": "be87d6be-39e3-437e-9e1f-da71dbe579af",
       "ward_no": "15",
       "name_en": "Thazhathumuri",
-      "name_ml": "താഴത്തുംമുറി"
+      "name_ml": "താഴത്തുംമുറി",
+      "rate": 75
     },
     {
       "id": "ff26b93f-318b-440b-9f77-ed4d51255534",
       "ward_no": "16",
       "name_en": "Mundambra",
-      "name_ml": "മുണ്ടമ്പ്ര"
+      "name_ml": "മുണ്ടമ്പ്ര",
+      "rate": 75
     },
     {
       "id": "835bb7df-fc92-4908-bc29-c571fb5a4194",
       "ward_no": "17",
       "name_en": "Valiyakallungal",
-      "name_ml": "വലിയകല്ലുങ്ങല്‍"
+      "name_ml": "വലിയകല്ലുങ്ങല്‍",
+      "rate": 75
     },
     {
       "id": "59a7feee-875a-4fee-a86c-c0de37fc4ec2",
       "ward_no": "18",
       "name_en": "Kariparambu",
-      "name_ml": "കാരിപറമ്പ്"
+      "name_ml": "കാരിപറമ്പ്",
+      "rate": 75
     }
   ],
   "towns": [],

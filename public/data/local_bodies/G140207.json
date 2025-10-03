@@ -33,97 +33,113 @@
       "id": "3a92e0b6-9574-4a0e-96fa-efe0ed33bf37",
       "ward_no": "1",
       "name_en": "Bethurpara",
-      "name_ml": "ബേത്തൂര്‍പ്പാറ"
+      "name_ml": "ബേത്തൂര്‍പ്പാറ",
+      "rate": 75
     },
     {
       "id": "0892453e-88f2-43ad-b41c-25302f638d6f",
       "ward_no": "2",
       "name_en": "Chadakam",
-      "name_ml": "ചാടകം"
+      "name_ml": "ചാടകം",
+      "rate": 65
     },
     {
       "id": "b01b842b-ec18-4c86-9959-659ea3e66d77",
       "ward_no": "3",
       "name_en": "Sankarampady",
-      "name_ml": "ശങ്കംരംപാടി"
+      "name_ml": "ശങ്കംരംപാടി",
+      "rate": 75
     },
     {
       "id": "799eca3f-1852-4774-aa06-e3f860644b6a",
       "ward_no": "4",
       "name_en": "Ottamavungal",
-      "name_ml": "ഒറ്റമാവുങ്കാല്‍"
+      "name_ml": "ഒറ്റമാവുങ്കാല്‍",
+      "rate": 65
     },
     {
       "id": "c335df70-5f19-4f30-af51-ef3fea21d8f7",
       "ward_no": "5",
       "name_en": "Bandadka",
-      "name_ml": "ബന്തടുക്ക"
+      "name_ml": "ബന്തടുക്ക",
+      "rate": 95
     },
     {
       "id": "3e89bd78-d84f-44f5-82d5-e2b6e51e8ae4",
       "ward_no": "6",
       "name_en": "Palar",
-      "name_ml": "പാലാര്‍"
+      "name_ml": "പാലാര്‍",
+      "rate": 65
     },
     {
       "id": "d5ae7204-7440-47be-a825-89f8ccedce00",
       "ward_no": "7",
       "name_en": "Bethalam",
-      "name_ml": "ബേത്തലം"
+      "name_ml": "ബേത്തലം",
+      "rate": 75
     },
     {
       "id": "e9d26c62-a27e-4484-a6dc-f243e1bfc985",
       "ward_no": "8",
       "name_en": "Veettiyadi",
-      "name_ml": "വീട്ടിയാടി"
+      "name_ml": "വീട്ടിയാടി",
+      "rate": 75
     },
     {
       "id": "4c6a9c50-71f7-491b-95b4-289125388cc6",
       "ward_no": "9",
       "name_en": "Choorithodu",
-      "name_ml": "ചൂരിത്തോട്"
+      "name_ml": "ചൂരിത്തോട്",
+      "rate": 95
     },
     {
       "id": "c7d56c8a-b11f-44c2-8735-107c54bfaca7",
       "ward_no": "10",
       "name_en": "Eniyadi",
-      "name_ml": "ഏണിയാടി"
+      "name_ml": "ഏണിയാടി",
+      "rate": 75
     },
     {
       "id": "e77a14ec-1110-4616-a9d1-1573063be870",
       "ward_no": "11",
       "name_en": "Karivedakam",
-      "name_ml": "കരിവേടകം"
+      "name_ml": "കരിവേടകം",
+      "rate": 75
     },
     {
       "id": "aa903eda-e59b-4d70-9855-4cffc5d1cebf",
       "ward_no": "12",
       "name_en": "Alinuthazhe",
-      "name_ml": "ആലിനുതാഴെ"
+      "name_ml": "ആലിനുതാഴെ",
+      "rate": 65
     },
     {
       "id": "e1a722f5-696f-4022-b177-650914559942",
       "ward_no": "13",
       "name_en": "Paduppu",
-      "name_ml": "പടുപ്പ്"
+      "name_ml": "പടുപ്പ്",
+      "rate": 95
     },
     {
       "id": "4c937763-1f87-41a9-b5da-ae2a9ced1240",
       "ward_no": "14",
       "name_en": "Nheru",
-      "name_ml": "ഞെരു"
+      "name_ml": "ഞെരു",
+      "rate": 75
     },
     {
       "id": "6fb4fa24-c517-44a9-b11e-c13565b6d0cd",
       "ward_no": "15",
       "name_en": "Kalakkara",
-      "name_ml": "കളക്കര"
+      "name_ml": "കളക്കര",
+      "rate": 75
     },
     {
       "id": "7c3dee8b-22ca-4cf6-bf2d-62e2f86c1a4d",
       "ward_no": "16",
       "name_en": "Kuttikol",
-      "name_ml": "കുറ്റിക്കോല്‍"
+      "name_ml": "കുറ്റിക്കോല്‍",
+      "rate": 75
     }
   ],
   "towns": [],

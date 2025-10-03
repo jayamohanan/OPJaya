@@ -33,157 +33,183 @@
       "id": "c74af7ec-5e37-4f34-8ff5-c73e09070de7",
       "ward_no": "19",
       "name_en": "Pala",
-      "name_ml": "പാലാ"
+      "name_ml": "പാലാ",
+      "rate": 65
     },
     {
       "id": "6485f10d-1173-4139-9b13-78055512ab50",
       "ward_no": "20",
       "name_en": "Lalom",
-      "name_ml": "ളാലം"
+      "name_ml": "ളാലം",
+      "rate": 75
     },
     {
       "id": "a7f536ad-47b4-45a6-b28f-86c3edbf7d6b",
       "ward_no": "1",
       "name_en": "Paramalakkunnu",
-      "name_ml": "പരമലക്കുന്ന്"
+      "name_ml": "പരമലക്കുന്ന്",
+      "rate": 65
     },
     {
       "id": "78968197-d7fb-4c45-b447-bc26b64a7121",
       "ward_no": "2",
       "name_en": "Mundupalam",
-      "name_ml": "മുണ്ടുപാലം"
+      "name_ml": "മുണ്ടുപാലം",
+      "rate": 75
     },
     {
       "id": "b4b6b75b-35e8-45c0-b5fe-0a03f188f28f",
       "ward_no": "3",
       "name_en": "Market",
-      "name_ml": "മാര്‍ക്കറ്റ്"
+      "name_ml": "മാര്‍ക്കറ്റ്",
+      "rate": 75
     },
     {
       "id": "e6f75eb7-69de-409d-8de7-70647c2bb885",
       "ward_no": "4",
       "name_en": "Plathanam",
-      "name_ml": "പ്ലാത്താനം"
+      "name_ml": "പ്ലാത്താനം",
+      "rate": 75
     },
     {
       "id": "0a3cb31f-fe81-40ce-8743-6221b61952fe",
       "ward_no": "5",
       "name_en": "Kanattupara",
-      "name_ml": "കാനാട്ടുപാറ"
+      "name_ml": "കാനാട്ടുപാറ",
+      "rate": 75
     },
     {
       "id": "9788449b-667e-4ab9-a1d2-75906488b3c6",
       "ward_no": "6",
       "name_en": "Pulimalakkunnu",
-      "name_ml": "പുലിമലക്കുന്ന്"
+      "name_ml": "പുലിമലക്കുന്ന്",
+      "rate": 65
     },
     {
       "id": "6674b817-6173-4d3b-91e8-af9be2c1e053",
       "ward_no": "7",
       "name_en": "Kaveekunnu",
-      "name_ml": "കവീക്കുന്ന്"
+      "name_ml": "കവീക്കുന്ന്",
+      "rate": 95
     },
     {
       "id": "85316438-ea00-4206-9b11-f1d503c7bc13",
       "ward_no": "8",
       "name_en": "Kochidappady",
-      "name_ml": "കൊച്ചിടപ്പാടി"
+      "name_ml": "കൊച്ചിടപ്പാടി",
+      "rate": 75
     },
     {
       "id": "a4c356be-8baf-45c4-9f5c-c3cd1bf0c1bd",
       "ward_no": "9",
       "name_en": "Moonnani",
-      "name_ml": "മൂന്നാനി"
+      "name_ml": "മൂന്നാനി",
+      "rate": 75
     },
     {
       "id": "0ad3c499-0a7d-48f7-90dd-bb8e12b380a0",
       "ward_no": "10",
       "name_en": "Monastry",
-      "name_ml": "മൊണാസ്ട്രി"
+      "name_ml": "മൊണാസ്ട്രി",
+      "rate": 75
     },
     {
       "id": "47082cb9-4d29-419a-b3ff-90b5d9ee5054",
       "ward_no": "11",
       "name_en": "Chethimattom",
-      "name_ml": "ചെത്തിമറ്റം"
+      "name_ml": "ചെത്തിമറ്റം",
+      "rate": 65
     },
     {
       "id": "8221ceb8-3ecd-494f-acb7-eb5f6e0bb38b",
       "ward_no": "12",
       "name_en": "Kizhathadiyoor",
-      "name_ml": "കിഴതടിയൂര്‍"
+      "name_ml": "കിഴതടിയൂര്‍",
+      "rate": 75
     },
     {
       "id": "ad5e32b0-a623-4c79-a8e0-110798d15742",
       "ward_no": "13",
       "name_en": "Murikkumpuzha",
-      "name_ml": "മുരിക്കുംപുഴ"
+      "name_ml": "മുരിക്കുംപുഴ",
+      "rate": 75
     },
     {
       "id": "619041f6-74a5-46db-87ed-bf01c57d6650",
       "ward_no": "14",
       "name_en": "Parippilkunnu",
-      "name_ml": "പരിപ്പില്‍കുന്ന്"
+      "name_ml": "പരിപ്പില്‍കുന്ന്",
+      "rate": 75
     },
     {
       "id": "1889d116-1dc0-4fd6-9e1e-de152165554b",
       "ward_no": "15",
       "name_en": "Palampurayidom",
-      "name_ml": "പാലംപുരയിടം"
+      "name_ml": "പാലംപുരയിടം",
+      "rate": 95
     },
     {
       "id": "38864ecc-f1fe-4f03-b947-7506a51e110f",
       "ward_no": "16",
       "name_en": "Kannadiyurumbu",
-      "name_ml": "കണ്ണാടിയുറുമ്പ്"
+      "name_ml": "കണ്ണാടിയുറുമ്പ്",
+      "rate": 95
     },
     {
       "id": "1e207b86-1bb7-4fb5-bd39-e23e772419d8",
       "ward_no": "17",
       "name_en": "12th Mile",
-      "name_ml": "12-ാം മൈല്‍"
+      "name_ml": "12-ാം മൈല്‍",
+      "rate": 65
     },
     {
       "id": "2b642605-6993-4385-aa92-88e1eea1521f",
       "ward_no": "18",
       "name_en": "Mukkalikkunnu",
-      "name_ml": "മുക്കാലിക്കുന്ന്"
+      "name_ml": "മുക്കാലിക്കുന്ന്",
+      "rate": 65
     },
     {
       "id": "38752505-aba2-419b-9694-3c42450b8ac8",
       "ward_no": "21",
       "name_en": "Vellappadu",
-      "name_ml": "വെള്ളാപ്പാട്"
+      "name_ml": "വെള്ളാപ്പാട്",
+      "rate": 75
     },
     {
       "id": "2ebe6d16-ee4b-4c08-b874-a38c7af42dd6",
       "ward_no": "22",
       "name_en": "Arunapuram",
-      "name_ml": "അരുണാപുരം"
+      "name_ml": "അരുണാപുരം",
+      "rate": 75
     },
     {
       "id": "7c83c279-f5dd-44de-bf91-ea8810e35597",
       "ward_no": "23",
       "name_en": "College Ward",
-      "name_ml": "കോളേജ് വാര്‍ഡ്"
+      "name_ml": "കോളേജ് വാര്‍ഡ്",
+      "rate": 95
     },
     {
       "id": "07a11a8e-bb90-4fd4-9374-0da04bfb76eb",
       "ward_no": "24",
       "name_en": "Kottaramattom",
-      "name_ml": "കൊട്ടാരമറ്റം"
+      "name_ml": "കൊട്ടാരമറ്റം",
+      "rate": 75
     },
     {
       "id": "38f8896e-7450-44a6-aacd-749d1ecc070b",
       "ward_no": "25",
       "name_en": "Nelliyani",
-      "name_ml": "നെല്ലിയാനി"
+      "name_ml": "നെല്ലിയാനി",
+      "rate": 75
     },
     {
       "id": "2f103864-30bf-452f-a548-31c0670c4a0c",
       "ward_no": "26",
       "name_en": "Puthenpallikkunnu",
-      "name_ml": "പുത്തന്‍പള്ളിക്കുന്ന്"
+      "name_ml": "പുത്തന്‍പള്ളിക്കുന്ന്",
+      "rate": 75
     }
   ],
   "towns": [],

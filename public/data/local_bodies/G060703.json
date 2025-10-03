@@ -33,79 +33,92 @@
       "id": "b84ff4d6-368c-4e99-a08e-7cfd125a93b7",
       "ward_no": "1",
       "name_en": "Edavettychira",
-      "name_ml": "ഇടവെട്ടിച്ചിറ"
+      "name_ml": "ഇടവെട്ടിച്ചിറ",
+      "rate": 75
     },
     {
       "id": "3748e2fa-b364-47ab-abd4-58a609cebb89",
       "ward_no": "2",
       "name_en": "Thondikuzha",
-      "name_ml": "തൊണ്ടിക്കുഴ"
+      "name_ml": "തൊണ്ടിക്കുഴ",
+      "rate": 95
     },
     {
       "id": "97d10a71-32c0-44ac-abab-610432258d66",
       "ward_no": "3",
       "name_en": "Nadayam",
-      "name_ml": "നടയം"
+      "name_ml": "നടയം",
+      "rate": 75
     },
     {
       "id": "8ee94355-5be6-4e9d-a071-1d29841f5f25",
       "ward_no": "4",
       "name_en": "Gandhinagar",
-      "name_ml": "ഗാന്ധിനഗര്‍"
+      "name_ml": "ഗാന്ധിനഗര്‍",
+      "rate": 75
     },
     {
       "id": "f9b57a69-6398-4641-8262-c664891ced9a",
       "ward_no": "5",
       "name_en": "Sasthampara",
-      "name_ml": "ശാസ്താംപാറ"
+      "name_ml": "ശാസ്താംപാറ",
+      "rate": 75
     },
     {
       "id": "4ef8bdf2-5406-4c11-b8b1-ed1275e5e1d8",
       "ward_no": "6",
       "name_en": "Meenmutty",
-      "name_ml": "മീന്‍മുട്ടി"
+      "name_ml": "മീന്‍മുട്ടി",
+      "rate": 75
     },
     {
       "id": "605a1b1d-376d-47f9-8f91-dfb3503d3f1a",
       "ward_no": "7",
       "name_en": "Kallanickal",
-      "name_ml": "കല്ലാനിക്കല്‍"
+      "name_ml": "കല്ലാനിക്കല്‍",
+      "rate": 95
     },
     {
       "id": "7e9fbb7f-e271-4176-97b5-5e83beaf9953",
       "ward_no": "8",
       "name_en": "Malankara",
-      "name_ml": "മലങ്കര"
+      "name_ml": "മലങ്കര",
+      "rate": 75
     },
     {
       "id": "51c45c18-9dd5-4986-9e7d-f274315a1d5a",
       "ward_no": "9",
       "name_en": "Thekkumhagam",
-      "name_ml": "തെക്കുംഭാഗം"
+      "name_ml": "തെക്കുംഭാഗം",
+      "rate": 65
     },
     {
       "id": "9b76d91b-cb51-444f-a39b-a58887fb4c00",
       "ward_no": "10",
       "name_en": "Keerikodu",
-      "name_ml": "കീരികോട്"
+      "name_ml": "കീരികോട്",
+      "rate": 75
     },
     {
       "id": "48beb418-3d99-4218-96e2-80d6a24adfda",
       "ward_no": "11",
       "name_en": "Marthoma",
-      "name_ml": "മാര്‍ത്തോമ"
+      "name_ml": "മാര്‍ത്തോമ",
+      "rate": 65
     },
     {
       "id": "720a43d3-2208-48bc-8186-3cb133f23c2b",
       "ward_no": "12",
       "name_en": "Edavetty South",
-      "name_ml": "ഇടവെട്ടി സൌത്ത്"
+      "name_ml": "ഇടവെട്ടി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "3d30a241-fd83-43bd-9bd6-830ea934cadb",
       "ward_no": "13",
       "name_en": "Edavetty North",
-      "name_ml": "ഇടവെട്ടി നോര്‍ത്ത്"
+      "name_ml": "ഇടവെട്ടി നോര്‍ത്ത്",
+      "rate": 65
     }
   ],
   "towns": [],

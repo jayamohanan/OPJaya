@@ -31,193 +31,225 @@
       "id": "6feb060e-59c3-4846-9a74-f4ee99ef58c9",
       "ward_no": "1",
       "name_en": "Padinhatam Kozhuval West",
-      "name_ml": "പടിഞ്ഞാറ്റംകൊഴുവല്‍ വെസ്റ്റ്"
+      "name_ml": "പടിഞ്ഞാറ്റംകൊഴുവല്‍ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "2dbf5205-1924-4307-8ae0-49ae30d5c726",
       "ward_no": "2",
       "name_en": "Padinhatam Kozhuval East",
-      "name_ml": "പടിഞ്ഞാറ്റംകൊഴുവല്‍ ഈസ്റ്റ്"
+      "name_ml": "പടിഞ്ഞാറ്റംകൊഴുവല്‍ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "0fd6020f-543f-442a-a523-885619e6639c",
       "ward_no": "3",
       "name_en": "Kizhakkan  Kozhuval",
-      "name_ml": "കിഴക്കന്‍ കൊഴുവല്‍"
+      "name_ml": "കിഴക്കന്‍ കൊഴുവല്‍",
+      "rate": 65
     },
     {
       "id": "b593e69f-d357-4c6f-9bce-3cdd09cb8e56",
       "ward_no": "4",
       "name_en": "Palakkat",
-      "name_ml": "പാലക്കാട്ട്"
+      "name_ml": "പാലക്കാട്ട്",
+      "rate": 65
     },
     {
       "id": "82de6b5f-3d18-4645-b300-8279cc9b7c6c",
       "ward_no": "5",
       "name_en": "Chirappuram",
-      "name_ml": "ചിറപ്പുറം"
+      "name_ml": "ചിറപ്പുറം",
+      "rate": 75
     },
     {
       "id": "5df86b8b-b83b-412e-bf09-71c0f90d51ac",
       "ward_no": "6",
       "name_en": "Pattena",
-      "name_ml": "പട്ടേന"
+      "name_ml": "പട്ടേന",
+      "rate": 75
     },
     {
       "id": "f40b5467-5213-49db-9b78-73c4329149db",
       "ward_no": "7",
       "name_en": "Suvarnavally",
-      "name_ml": "സുവര്‍ണ്ണവല്ലി"
+      "name_ml": "സുവര്‍ണ്ണവല്ലി",
+      "rate": 95
     },
     {
       "id": "e36e02b7-347e-430a-a342-0ffb1eb2e210",
       "ward_no": "8",
       "name_en": "Palathadam",
-      "name_ml": "പാലാത്തടം"
+      "name_ml": "പാലാത്തടം",
+      "rate": 95
     },
     {
       "id": "a5048d93-cee3-47e5-aaa0-10cfdac84b88",
       "ward_no": "9",
       "name_en": "Palayi",
-      "name_ml": "പാലായി"
+      "name_ml": "പാലായി",
+      "rate": 95
     },
     {
       "id": "9ea5a9a7-235e-4cef-962e-298c7c60f906",
       "ward_no": "10",
       "name_en": "Vallikkunnu",
-      "name_ml": "വള്ളിക്കുന്ന്"
+      "name_ml": "വള്ളിക്കുന്ന്",
+      "rate": 65
     },
     {
       "id": "33aa86eb-8aad-4d3b-af20-bf96c30082fc",
       "ward_no": "11",
       "name_en": "Chathamathu",
-      "name_ml": "ചാത്തമത്ത്"
+      "name_ml": "ചാത്തമത്ത്",
+      "rate": 75
     },
     {
       "id": "88305ba0-9b9e-4b72-bad4-9da2ba96ac64",
       "ward_no": "12",
       "name_en": "Poovalamkai",
-      "name_ml": "പുവാലംകൈ"
+      "name_ml": "പുവാലംകൈ",
+      "rate": 75
     },
     {
       "id": "ea4ed0f9-37ef-4b80-b25f-45557c7b41d2",
       "ward_no": "13",
       "name_en": "Kunhippulikkal",
-      "name_ml": "കുഞ്ഞിപ്പുളിക്കാല്‍"
+      "name_ml": "കുഞ്ഞിപ്പുളിക്കാല്‍",
+      "rate": 75
     },
     {
       "id": "6a010d22-6ea5-4de5-ab23-f7edb4099518",
       "ward_no": "14",
       "name_en": "Karyamkode",
-      "name_ml": "കാര്യംങ്കോട്"
+      "name_ml": "കാര്യംങ്കോട്",
+      "rate": 75
     },
     {
       "id": "393e2ff2-0c11-4d41-ac07-723bcd52e566",
       "ward_no": "15",
       "name_en": "Perole",
-      "name_ml": "പേരോല്‍"
+      "name_ml": "പേരോല്‍",
+      "rate": 65
     },
     {
       "id": "53e64acd-9f06-4f80-a78e-f6dff6b27bb9",
       "ward_no": "16",
       "name_en": "Thattachery",
-      "name_ml": "തട്ടാച്ചേരി"
+      "name_ml": "തട്ടാച്ചേരി",
+      "rate": 65
     },
     {
       "id": "b696cc29-54fc-4638-b6d3-58b592dbc3ff",
       "ward_no": "17",
       "name_en": "Pallikkara I",
-      "name_ml": "പള്ളിക്കര I"
+      "name_ml": "പള്ളിക്കര I",
+      "rate": 65
     },
     {
       "id": "7e8693fa-38d3-46e6-a6a2-c773998d6021",
       "ward_no": "18",
       "name_en": "Pallikkara Ii",
-      "name_ml": "പള്ളിക്കര II"
+      "name_ml": "പള്ളിക്കര II",
+      "rate": 75
     },
     {
       "id": "9262f435-a5fc-4632-b6a3-9c9e976d2dba",
       "ward_no": "19",
       "name_en": "Karuvachery",
-      "name_ml": "കരുവാച്ചേരി"
+      "name_ml": "കരുവാച്ചേരി",
+      "rate": 65
     },
     {
       "id": "c53eb4e9-4921-44cf-8a5d-61301c86cf26",
       "ward_no": "20",
       "name_en": "Koyamburam",
-      "name_ml": "കൊയാമ്പുറം"
+      "name_ml": "കൊയാമ്പുറം",
+      "rate": 75
     },
     {
       "id": "e2a7a28b-c2f0-46c4-985b-2999c753488e",
       "ward_no": "21",
       "name_en": "Anachal",
-      "name_ml": "ആനച്ചാല്‍"
+      "name_ml": "ആനച്ചാല്‍",
+      "rate": 75
     },
     {
       "id": "0dda4eaa-3f5c-4d09-9afe-84913842cca2",
       "ward_no": "22",
       "name_en": "Kottappuram",
-      "name_ml": "കോട്ടപ്പുറം"
+      "name_ml": "കോട്ടപ്പുറം",
+      "rate": 75
     },
     {
       "id": "9b7dcba4-774b-4363-ac54-d1aedd95b5a3",
       "ward_no": "23",
       "name_en": "Kadinhimoola",
-      "name_ml": "കടിഞ്ഞിമൂല"
+      "name_ml": "കടിഞ്ഞിമൂല",
+      "rate": 65
     },
     {
       "id": "dfae9597-16b9-4260-bbde-7dd84990b4dc",
       "ward_no": "24",
       "name_en": "Purathekai",
-      "name_ml": "പുറത്തേക്കൈ"
+      "name_ml": "പുറത്തേക്കൈ",
+      "rate": 95
     },
     {
       "id": "b383b83f-a9dd-490a-bd4d-67030bfbbeba",
       "ward_no": "25",
       "name_en": "Thaikadappuram South",
-      "name_ml": "തൈക്കടപ്പുറം സൌത്ത്"
+      "name_ml": "തൈക്കടപ്പുറം സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "61e3de3f-9d4b-49cb-960e-4662a6d46770",
       "ward_no": "26",
       "name_en": "Thaikadappuram Centre",
-      "name_ml": "തൈക്കടപ്പുറം  സെന്‍റര്‍"
+      "name_ml": "തൈക്കടപ്പുറം  സെന്‍റര്‍",
+      "rate": 75
     },
     {
       "id": "63063960-acfa-4a6f-95dd-4de27e81e73c",
       "ward_no": "27",
       "name_en": "Thaikadappuram North",
-      "name_ml": "തൈക്കടപ്പുറം  നോര്‍ത്ത്"
+      "name_ml": "തൈക്കടപ്പുറം  നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "793de08d-27ea-46c4-9db7-7690109d8f82",
       "ward_no": "28",
       "name_en": "Thaikadappuram Sea Road",
-      "name_ml": "തൈക്കടപ്പുറം  സീ റോഡ്"
+      "name_ml": "തൈക്കടപ്പുറം  സീ റോഡ്",
+      "rate": 65
     },
     {
       "id": "54afbba0-ecce-4be5-83c0-8c8090b72fe9",
       "ward_no": "29",
       "name_en": "Thaikadappuram  Store",
-      "name_ml": "തൈക്കടപ്പുറം  സ്റ്റോര്‍"
+      "name_ml": "തൈക്കടപ്പുറം  സ്റ്റോര്‍",
+      "rate": 75
     },
     {
       "id": "f3a0111d-d16e-478b-8726-4c2f200ff293",
       "ward_no": "30",
       "name_en": "Kotrachal",
-      "name_ml": "കൊട്രച്ചാല്‍"
+      "name_ml": "കൊട്രച്ചാല്‍",
+      "rate": 75
     },
     {
       "id": "3c4ceb55-cee4-4bf3-b38f-27dbe801ea6f",
       "ward_no": "31",
       "name_en": "Kanichira",
-      "name_ml": "കണിച്ചിറ"
+      "name_ml": "കണിച്ചിറ",
+      "rate": 95
     },
     {
       "id": "6fdfe3d7-fadd-4b06-b9b5-33657cb02d16",
       "ward_no": "32",
       "name_en": "Nileshwaram Town",
-      "name_ml": "നീലേശ്വരം ടൌണ്‍"
+      "name_ml": "നീലേശ്വരം ടൌണ്‍",
+      "rate": 75
     }
   ],
   "towns": [],

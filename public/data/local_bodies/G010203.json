@@ -33,109 +33,127 @@
       "id": "0365ce2b-90a9-4daf-bb90-3d284873770c",
       "ward_no": "1",
       "name_en": "Kallambalam",
-      "name_ml": "കല്ലമ്പലം"
+      "name_ml": "കല്ലമ്പലം",
+      "rate": 75
     },
     {
       "id": "504bc2ee-ad27-40c1-8b8b-006e8767959d",
       "ward_no": "2",
       "name_en": "Puthusserimukku",
-      "name_ml": "പുതുശ്ശേരിമുക്ക്"
+      "name_ml": "പുതുശ്ശേരിമുക്ക്",
+      "rate": 75
     },
     {
       "id": "ccc0ebc8-33e6-4bbf-9b3d-2a519b722bb3",
       "ward_no": "3",
       "name_en": "Ethukkadu",
-      "name_ml": "എതുക്കാട്"
+      "name_ml": "എതുക്കാട്",
+      "rate": 75
     },
     {
       "id": "1a4d0b7e-eb47-465b-923f-7916ee2a10c9",
       "ward_no": "4",
       "name_en": "Konnoori",
-      "name_ml": "കൊണ്ണൂറി"
+      "name_ml": "കൊണ്ണൂറി",
+      "rate": 95
     },
     {
       "id": "b80491ad-0692-442f-86d5-831927976484",
       "ward_no": "5",
       "name_en": "Thottakkadu",
-      "name_ml": "തോട്ടയ്ക്കാട്"
+      "name_ml": "തോട്ടയ്ക്കാട്",
+      "rate": 95
     },
     {
       "id": "0a60e676-0b13-4bf0-9d5a-7bc4cb5e0108",
       "ward_no": "6",
       "name_en": "Mudiyottukonam",
-      "name_ml": "മുടിയോട്ടുകോണം"
+      "name_ml": "മുടിയോട്ടുകോണം",
+      "rate": 75
     },
     {
       "id": "ef8a0d65-1858-4acf-806c-0bc9c93c63e2",
       "ward_no": "7",
       "name_en": "Kannattukonam",
-      "name_ml": "കണ്ണാട്ടുകോണം"
+      "name_ml": "കണ്ണാട്ടുകോണം",
+      "rate": 95
     },
     {
       "id": "89d98ddb-a92e-4100-a623-4b4efcb2f639",
       "ward_no": "8",
       "name_en": "Pattakonam",
-      "name_ml": "പട്ടകോണം"
+      "name_ml": "പട്ടകോണം",
+      "rate": 75
     },
     {
       "id": "cbd6b914-94ee-4835-b105-b75b28559b66",
       "ward_no": "9",
       "name_en": "Njarakkattuvila",
-      "name_ml": "ഞാറയ്ക്കാട്ടുവിള"
+      "name_ml": "ഞാറയ്ക്കാട്ടുവിള",
+      "rate": 75
     },
     {
       "id": "f759c79a-d3ed-4d9e-80e1-f0a8a5494367",
       "ward_no": "10",
       "name_en": "Vanchiyoor",
-      "name_ml": "വഞ്ചിയൂര്‍"
+      "name_ml": "വഞ്ചിയൂര്‍",
+      "rate": 95
     },
     {
       "id": "b4c92ef5-5d20-4428-8b8a-488d40f78e29",
       "ward_no": "11",
       "name_en": "Eramam",
-      "name_ml": "ഇരമം"
+      "name_ml": "ഇരമം",
+      "rate": 95
     },
     {
       "id": "89d7c525-08f8-4c0d-866a-b4e3e6ccfeb4",
       "ward_no": "12",
       "name_en": "Patla",
-      "name_ml": "പട്ട്ള"
+      "name_ml": "പട്ട്ള",
+      "rate": 75
     },
     {
       "id": "7e61ca1f-92cc-4d96-92b4-e9e1ae3435dc",
       "ward_no": "13",
       "name_en": "Pallimukku",
-      "name_ml": "പള്ളിമുക്ക്"
+      "name_ml": "പള്ളിമുക്ക്",
+      "rate": 75
     },
     {
       "id": "f8689006-c17d-4770-b9fb-e95dd92a005c",
       "ward_no": "14",
       "name_en": "Mevarkkal",
-      "name_ml": "മേവര്‍ക്കല്‍"
+      "name_ml": "മേവര്‍ക്കല്‍",
+      "rate": 65
     },
     {
       "id": "17f07e27-3c84-48ef-a862-def94156e226",
       "ward_no": "15",
       "name_en": "Alamcodu.H.S",
-      "name_ml": "ആലംകോട്.എച്ച്.എസ്"
+      "name_ml": "ആലംകോട്.എച്ച്.എസ്",
+      "rate": 75
     },
     {
       "id": "58bcc4f4-878c-4994-a5bd-ae742c6142bf",
       "ward_no": "16",
       "name_en": "Chathampara",
-      "name_ml": "ചാത്തമ്പറ"
+      "name_ml": "ചാത്തമ്പറ",
+      "rate": 75
     },
     {
       "id": "93e554d9-baa0-4b21-95fd-b5edf1516266",
       "ward_no": "17",
       "name_en": "Parakkulam",
-      "name_ml": "പറക്കുളം"
+      "name_ml": "പറക്കുളം",
+      "rate": 95
     },
     {
       "id": "4605b058-61fe-4c7d-bcc7-4e526ef539e4",
       "ward_no": "18",
       "name_en": "Karavaram",
-      "name_ml": "കരവാരം"
+      "name_ml": "കരവാരം",
+      "rate": 75
     }
   ],
   "towns": [],

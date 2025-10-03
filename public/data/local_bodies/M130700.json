@@ -31,241 +31,281 @@
       "id": "ac85e9e3-e186-4749-9d28-6f3125df4dd6",
       "ward_no": "1",
       "name_en": "Panoor Town",
-      "name_ml": "പാനൂര്‍ ടൌണ്‍"
+      "name_ml": "പാനൂര്‍ ടൌണ്‍",
+      "rate": 75
     },
     {
       "id": "a8d4da4b-263e-405f-b195-a180508222d9",
       "ward_no": "2",
       "name_en": "Kooteri",
-      "name_ml": "കൂറ്റേരി"
+      "name_ml": "കൂറ്റേരി",
+      "rate": 75
     },
     {
       "id": "52213a81-83c0-4444-9a75-c8e137c9031b",
       "ward_no": "3",
       "name_en": "Police Station",
-      "name_ml": "പോലീസ് സ്റ്റേഷന്‍"
+      "name_ml": "പോലീസ് സ്റ്റേഷന്‍",
+      "rate": 75
     },
     {
       "id": "94d13619-03e9-42d7-a997-d1b90457e2bf",
       "ward_no": "4",
       "name_en": "West Elangode",
-      "name_ml": "വെസ്റ്റ് എലാങ്കോട്"
+      "name_ml": "വെസ്റ്റ് എലാങ്കോട്",
+      "rate": 65
     },
     {
       "id": "c060096b-e74e-4460-b24f-5067b3474da3",
       "ward_no": "5",
       "name_en": "Madappura",
-      "name_ml": "മടപ്പുര"
+      "name_ml": "മടപ്പുര",
+      "rate": 75
     },
     {
       "id": "0b18deca-39ba-4449-a64d-b2df34ef318a",
       "ward_no": "6",
       "name_en": "East Elangode",
-      "name_ml": "ഈസ്റ്റ് എലാങ്കോട്"
+      "name_ml": "ഈസ്റ്റ് എലാങ്കോട്",
+      "rate": 75
     },
     {
       "id": "9920190c-baad-458f-b5de-73c40fb148b4",
       "ward_no": "7",
       "name_en": "Palathati",
-      "name_ml": "പാലത്തായി"
+      "name_ml": "പാലത്തായി",
+      "rate": 75
     },
     {
       "id": "5541e298-5554-4f95-8f82-513d5b23f960",
       "ward_no": "8",
       "name_en": "Arayalthara",
-      "name_ml": "അരയാല്‍ത്തറ"
+      "name_ml": "അരയാല്‍ത്തറ",
+      "rate": 95
     },
     {
       "id": "8287ae1e-74d8-4a1b-8a67-375aba0d44d7",
       "ward_no": "9",
       "name_en": "Central Elangode",
-      "name_ml": "സെന്‍ട്രല്‍ എലാങ്കോട്"
+      "name_ml": "സെന്‍ട്രല്‍ എലാങ്കോട്",
+      "rate": 75
     },
     {
       "id": "0c5d7a61-0fe9-403d-9774-a435b2013c59",
       "ward_no": "10",
       "name_en": "Thiruval",
-      "name_ml": "തിരുവാല്‍"
+      "name_ml": "തിരുവാല്‍",
+      "rate": 75
     },
     {
       "id": "beb39dc3-56d6-49e8-9032-37bcac549c36",
       "ward_no": "11",
       "name_en": "Kannamvelly",
-      "name_ml": "കണ്ണംവെള്ളി"
+      "name_ml": "കണ്ണംവെള്ളി",
+      "rate": 75
     },
     {
       "id": "79684f05-629d-4800-b7b9-66120bb6825e",
       "ward_no": "12",
       "name_en": "Palilandipeedika",
-      "name_ml": "പാലിലാണ്ടിപ്പീടിക"
+      "name_ml": "പാലിലാണ്ടിപ്പീടിക",
+      "rate": 65
     },
     {
       "id": "2b45ee00-ad76-4466-a67f-2c43e17a2200",
       "ward_no": "13",
       "name_en": "Karappoyil",
-      "name_ml": "കാരപ്പൊയില്‍"
+      "name_ml": "കാരപ്പൊയില്‍",
+      "rate": 65
     },
     {
       "id": "c23b49ec-2bf3-4afc-8850-8b664ecf25ca",
       "ward_no": "14",
       "name_en": "Elithode",
-      "name_ml": "എലിത്തോട്"
+      "name_ml": "എലിത്തോട്",
+      "rate": 65
     },
     {
       "id": "6d91120f-d551-46d8-aa88-b3396f5848df",
       "ward_no": "15",
       "name_en": "Pullookkara Center",
-      "name_ml": "പുല്ലൂക്കര സെന്‍റര്‍"
+      "name_ml": "പുല്ലൂക്കര സെന്‍റര്‍",
+      "rate": 75
     },
     {
       "id": "e3831be0-1b06-4464-970a-cdb16366021c",
       "ward_no": "16",
       "name_en": "Pullookkara",
-      "name_ml": "പുല്ലൂക്കര"
+      "name_ml": "പുല്ലൂക്കര",
+      "rate": 75
     },
     {
       "id": "44ff5533-f4ad-4b74-879d-46dfdf43635d",
       "ward_no": "17",
       "name_en": "Cheru Pullookkara",
-      "name_ml": "ചെറുപുല്ലൂക്കര"
+      "name_ml": "ചെറുപുല്ലൂക്കര",
+      "rate": 75
     },
     {
       "id": "5f5904b5-fe28-4070-a4e6-110e1234355f",
       "ward_no": "18",
       "name_en": "Peringathur",
-      "name_ml": "പെരിങ്ങത്തൂര്‍"
+      "name_ml": "പെരിങ്ങത്തൂര്‍",
+      "rate": 65
     },
     {
       "id": "d07e3738-5ce0-414f-a131-7d204b8508c7",
       "ward_no": "19",
       "name_en": "Puliyanambram East",
-      "name_ml": "പുളിയനമ്പ്രം ഈസ്റ്റ്"
+      "name_ml": "പുളിയനമ്പ്രം ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "82fb98bb-cd2a-42dc-84d6-ee9ca60b7a8f",
       "ward_no": "20",
       "name_en": "Kidanhi North",
-      "name_ml": "കിടഞ്ഞി നോര്‍ത്ത്"
+      "name_ml": "കിടഞ്ഞി നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "c657e1b5-5154-498f-a3a0-498d4023cf12",
       "ward_no": "21",
       "name_en": "Thavumbram",
-      "name_ml": "താവുമ്പ്രം"
+      "name_ml": "താവുമ്പ്രം",
+      "rate": 75
     },
     {
       "id": "946ca8f0-2287-4b28-9904-387a279fc523",
       "ward_no": "22",
       "name_en": "Kidanhi",
-      "name_ml": "കിടഞ്ഞി"
+      "name_ml": "കിടഞ്ഞി",
+      "rate": 75
     },
     {
       "id": "f5f10539-5d71-4002-9066-0d8976b84091",
       "ward_no": "23",
       "name_en": "Puthussery",
-      "name_ml": "പുതുശ്ശേരി"
+      "name_ml": "പുതുശ്ശേരി",
+      "rate": 75
     },
     {
       "id": "8a8f4789-96eb-4e26-8a63-54156eef2540",
       "ward_no": "24",
       "name_en": "Mukkalikkara",
-      "name_ml": "മുക്കാളിക്കര"
+      "name_ml": "മുക്കാളിക്കര",
+      "rate": 95
     },
     {
       "id": "7ae03d46-0447-46b7-a9be-f9d32a326b10",
       "ward_no": "25",
       "name_en": "Padannakkara",
-      "name_ml": "പടന്നക്കര"
+      "name_ml": "പടന്നക്കര",
+      "rate": 65
     },
     {
       "id": "489f5a55-1cd6-4aeb-bd75-fbf8f15b4204",
       "ward_no": "26",
       "name_en": "Padannakkara North",
-      "name_ml": "പടന്നക്കര നോര്ത്ത്"
+      "name_ml": "പടന്നക്കര നോര്ത്ത്",
+      "rate": 75
     },
     {
       "id": "eed26f59-341e-4790-97ba-005843a0ea39",
       "ward_no": "27",
       "name_en": "Pallikkuni",
-      "name_ml": "പള്ളിക്കുനി"
+      "name_ml": "പള്ളിക്കുനി",
+      "rate": 95
     },
     {
       "id": "bce3be51-c035-4f39-b02f-c79540117eb9",
       "ward_no": "28",
       "name_en": "Kariyad Theru",
-      "name_ml": "കരിയാട് തോരു"
+      "name_ml": "കരിയാട് തോരു",
+      "rate": 75
     },
     {
       "id": "3e31d907-b44a-4c26-a947-89cfaac259df",
       "ward_no": "29",
       "name_en": "Puthanparamba",
-      "name_ml": "പുത്തന്‍പറമ്പ്"
+      "name_ml": "പുത്തന്‍പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "d83bc991-ff94-4b88-bdcc-4c43cb70bd13",
       "ward_no": "30",
       "name_en": "Noonhivayal",
-      "name_ml": "നൂഞ്ഞിവയല്‍"
+      "name_ml": "നൂഞ്ഞിവയല്‍",
+      "rate": 65
     },
     {
       "id": "c19daa9d-51c5-4d80-b671-b70b58118572",
       "ward_no": "31",
       "name_en": "Arayakkool",
-      "name_ml": "അരയാക്കൂല്‍"
+      "name_ml": "അരയാക്കൂല്‍",
+      "rate": 75
     },
     {
       "id": "64e99ca7-baf9-4a98-a92f-3109c39d0513",
       "ward_no": "32",
       "name_en": "Olippil",
-      "name_ml": "ഒലിപ്പില്‍"
+      "name_ml": "ഒലിപ്പില്‍",
+      "rate": 75
     },
     {
       "id": "004870dd-1268-4767-9373-86cc46967d10",
       "ward_no": "33",
       "name_en": "Kanakamala",
-      "name_ml": "കനകമല"
+      "name_ml": "കനകമല",
+      "rate": 65
     },
     {
       "id": "d3d9f95e-7e9e-45b7-aec5-6cb2d77d0fc5",
       "ward_no": "34",
       "name_en": "Aniyaram Central",
-      "name_ml": "അണിയാരം സെന്‍ട്രല്‍"
+      "name_ml": "അണിയാരം സെന്‍ട്രല്‍",
+      "rate": 65
     },
     {
       "id": "f6a1f7f0-4c01-4ce5-9bb4-870875607fe7",
       "ward_no": "35",
       "name_en": "Aniyaram",
-      "name_ml": "അണിയാരം"
+      "name_ml": "അണിയാരം",
+      "rate": 75
     },
     {
       "id": "b9867586-134c-4ee7-8e80-1fa408bd463d",
       "ward_no": "36",
       "name_en": "Peringalam",
-      "name_ml": "പെരിങ്ങളം"
+      "name_ml": "പെരിങ്ങളം",
+      "rate": 65
     },
     {
       "id": "9a5b3963-b7ae-42ad-8784-5b43d051d093",
       "ward_no": "37",
       "name_en": "Pookkom Theru",
-      "name_ml": "പൂക്കോം തെരു"
+      "name_ml": "പൂക്കോം തെരു",
+      "rate": 75
     },
     {
       "id": "403545f3-d4ff-4d72-9951-0268e48ab90a",
       "ward_no": "38",
       "name_en": "Pookkom West",
-      "name_ml": "പൂക്കോം വെസ്റ്റ്"
+      "name_ml": "പൂക്കോം വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "1d2442ce-835a-4097-9b57-a65de40ab58e",
       "ward_no": "39",
       "name_en": "South Panoor",
-      "name_ml": "സൗത്ത് പാനൂര്‍"
+      "name_ml": "സൗത്ത് പാനൂര്‍",
+      "rate": 75
     },
     {
       "id": "bec814cb-3e0a-414e-b4f7-0483202304dc",
       "ward_no": "40",
       "name_en": "Bus Stand",
-      "name_ml": "ബസ്സ് സ്റ്റാന്‍റ്"
+      "name_ml": "ബസ്സ് സ്റ്റാന്‍റ്",
+      "rate": 75
     }
   ],
   "towns": [],

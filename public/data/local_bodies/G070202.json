@@ -33,97 +33,113 @@
       "id": "1eec267b-e9b2-4792-a99b-4afc01e3e62d",
       "ward_no": "1",
       "name_en": "Thevarkad",
-      "name_ml": "തേവര്‍കാട്"
+      "name_ml": "തേവര്‍കാട്",
+      "rate": 75
     },
     {
       "id": "ff91eb7a-fd6c-4b0f-b88c-918fc14f8ce0",
       "ward_no": "2",
       "name_en": "Chirakkakam North",
-      "name_ml": "ചിറയ്ക്കകം നോര്‍ത്ത്"
+      "name_ml": "ചിറയ്ക്കകം നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "40608028-4616-44a6-8a1e-f849a639d903",
       "ward_no": "3",
       "name_en": "Chirakkakam South",
-      "name_ml": "ചിറയ്ക്കകം സൌത്ത്"
+      "name_ml": "ചിറയ്ക്കകം സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "4e6bac78-4930-4934-95ee-a82af82878a1",
       "ward_no": "4",
       "name_en": "Puthenpally North",
-      "name_ml": "പുത്തന്‍പള്ളി നോര്‍ത്ത്"
+      "name_ml": "പുത്തന്‍പള്ളി നോര്‍ത്ത്",
+      "rate": 95
     },
     {
       "id": "97f622d9-cbc1-43fe-a326-da49782c6aef",
       "ward_no": "5",
       "name_en": "Muttinakam North",
-      "name_ml": "മുട്ടിനകം നോര്‍ത്ത്"
+      "name_ml": "മുട്ടിനകം നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "277089e9-8eb5-4329-9725-6b5e1fabd729",
       "ward_no": "6",
       "name_en": "Muttinakam South",
-      "name_ml": "മുട്ടിനകം സൌത്ത്"
+      "name_ml": "മുട്ടിനകം സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "060dbb0b-3eef-4895-a93f-bbfbdf49ae57",
       "ward_no": "7",
       "name_en": "Puthenpally South",
-      "name_ml": "പുത്തന്‍പള്ളി സൌത്ത്"
+      "name_ml": "പുത്തന്‍പള്ളി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "7d067383-a659-4be1-b7fd-80d282a63888",
       "ward_no": "8",
       "name_en": "Mannamthuruth",
-      "name_ml": "മണ്ണംതുരുത്ത്"
+      "name_ml": "മണ്ണംതുരുത്ത്",
+      "rate": 65
     },
     {
       "id": "65dd9ee0-bb29-4283-ab82-09b9a6c6f593",
       "ward_no": "9",
       "name_en": "Varapuzha North",
-      "name_ml": "വരാപ്പുഴ നോര്‍ത്ത്"
+      "name_ml": "വരാപ്പുഴ നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "0e518221-b7ca-4f87-9323-04c8d3a24f15",
       "ward_no": "10",
       "name_en": "Varapuzha South",
-      "name_ml": "വരാപ്പുഴ സൌത്ത്"
+      "name_ml": "വരാപ്പുഴ സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "47414c18-732d-4122-ac37-80d7f9d0f0e4",
       "ward_no": "11",
       "name_en": "Thundathumkadavu South",
-      "name_ml": "തുണ്ടത്തുംകടവ് സൌത്ത്"
+      "name_ml": "തുണ്ടത്തുംകടവ് സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "ad4af5f6-d5f4-47e2-91d2-6f5e58d5a79f",
       "ward_no": "12",
       "name_en": "Thundathumkadavu North",
-      "name_ml": "തുണ്ടത്തുംകടവ് നോര്‍ത്ത്"
+      "name_ml": "തുണ്ടത്തുംകടവ് നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "8f2a0ef2-9ccd-4e2a-bcc3-e58ce50e6011",
       "ward_no": "13",
       "name_en": "Thundathumkadavu Head Quarters",
-      "name_ml": "തുണ്ടത്തുംകടവ് ഹെഡ് ക്വാര്‍ട്ടേഴ്സ്"
+      "name_ml": "തുണ്ടത്തുംകടവ് ഹെഡ് ക്വാര്‍ട്ടേഴ്സ്",
+      "rate": 75
     },
     {
       "id": "c7988c13-7585-46b0-b5bc-4095ede334f2",
       "ward_no": "14",
       "name_en": "Chettibhagham Town",
-      "name_ml": "ചെട്ടിഭാഗം ടൌണ്‍"
+      "name_ml": "ചെട്ടിഭാഗം ടൌണ്‍",
+      "rate": 75
     },
     {
       "id": "e0bdce5d-c343-473b-80d5-5c9f0952ffa5",
       "ward_no": "15",
       "name_en": "Chirakkakam Paady",
-      "name_ml": "ചിറയ്ക്കകം പാഡി"
+      "name_ml": "ചിറയ്ക്കകം പാഡി",
+      "rate": 95
     },
     {
       "id": "9d8b1512-9910-44ff-8c6e-1491f14ffd39",
       "ward_no": "16",
       "name_en": "Devaswampaadam",
-      "name_ml": "ദേവസ്വംപാടം"
+      "name_ml": "ദേവസ്വംപാടം",
+      "rate": 65
     }
   ],
   "towns": [],

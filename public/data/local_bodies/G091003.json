@@ -33,121 +33,141 @@
       "id": "2a2d894f-e897-4d49-847e-c983ca041f59",
       "ward_no": "1",
       "name_en": "Kuttippadam",
-      "name_ml": "കുറ്റിപ്പാടം"
+      "name_ml": "കുറ്റിപ്പാടം",
+      "rate": 75
     },
     {
       "id": "cbecc9b4-304d-4b85-b5cb-8f073b8f7750",
       "ward_no": "2",
       "name_en": "Mampallam",
-      "name_ml": "മാമ്പള്ളം"
+      "name_ml": "മാമ്പള്ളം",
+      "rate": 65
     },
     {
       "id": "f2669b54-16ae-4772-bc41-9ed1ed6d151f",
       "ward_no": "3",
       "name_en": "Mallankolumbu",
-      "name_ml": "മല്ലന്‍കൊളുമ്പ്"
+      "name_ml": "മല്ലന്‍കൊളുമ്പ്",
+      "rate": 65
     },
     {
       "id": "cc1129bf-3a6b-4b72-bd91-8628ab7e5616",
       "ward_no": "4",
       "name_en": "Pallam",
-      "name_ml": "പള്ളം"
+      "name_ml": "പള്ളം",
+      "rate": 95
     },
     {
       "id": "13cc1f54-b9e2-47af-b8d8-28699c1ea05a",
       "ward_no": "5",
       "name_en": "Pappanchalla",
-      "name_ml": "പാപ്പാന്‍ചള്ള"
+      "name_ml": "പാപ്പാന്‍ചള്ള",
+      "rate": 95
     },
     {
       "id": "908d44b8-8bd4-4941-bc99-aa59ae046ae2",
       "ward_no": "6",
       "name_en": "Meenkara",
-      "name_ml": "മീന്‍കര"
+      "name_ml": "മീന്‍കര",
+      "rate": 65
     },
     {
       "id": "e5c12df6-d7eb-47e6-86e1-c2b6171ac0ea",
       "ward_no": "7",
       "name_en": "M Pudur",
-      "name_ml": "എം പുതൂര്‍"
+      "name_ml": "എം പുതൂര്‍",
+      "rate": 75
     },
     {
       "id": "f75d9017-9a4a-40ca-9dd2-283e87d67cf0",
       "ward_no": "8",
       "name_en": "Govindapuram",
-      "name_ml": "ഗോവിന്ദാപുരം"
+      "name_ml": "ഗോവിന്ദാപുരം",
+      "rate": 95
     },
     {
       "id": "14abeb6e-c005-4412-9a28-2b042139b2b2",
       "ward_no": "9",
       "name_en": "Chemmanampathi",
-      "name_ml": "ചെമ്മണാംപതി"
+      "name_ml": "ചെമ്മണാംപതി",
+      "rate": 95
     },
     {
       "id": "d000783c-4c89-4aff-a16c-f5ff07f6d386",
       "ward_no": "10",
       "name_en": "Muchamkundu",
-      "name_ml": "മൂച്ചംകുണ്ട്"
+      "name_ml": "മൂച്ചംകുണ്ട്",
+      "rate": 95
     },
     {
       "id": "37de2c08-d67e-478d-afa0-a4abfe1dbcd6",
       "ward_no": "11",
       "name_en": "Parambikulam",
-      "name_ml": "പറമ്പിക്കുളം"
+      "name_ml": "പറമ്പിക്കുളം",
+      "rate": 75
     },
     {
       "id": "b7555dc2-e72d-495f-9575-15d3f9a4f7e9",
       "ward_no": "12",
       "name_en": "Edukkupara",
-      "name_ml": "ഇടുക്കുപ്പാറ"
+      "name_ml": "ഇടുക്കുപ്പാറ",
+      "rate": 65
     },
     {
       "id": "af200cdf-3651-491f-805f-b74941616004",
       "ward_no": "13",
       "name_en": "Attayampathy",
-      "name_ml": "ആട്ടയാമ്പതി"
+      "name_ml": "ആട്ടയാമ്പതി",
+      "rate": 75
     },
     {
       "id": "a3b9cc6a-af94-4233-bc64-da73ade24918",
       "ward_no": "14",
       "name_en": "Valiyachalla",
-      "name_ml": "വലിയചള്ള"
+      "name_ml": "വലിയചള്ള",
+      "rate": 95
     },
     {
       "id": "4c2617a7-fa3f-4823-aead-af150a566e84",
       "ward_no": "15",
       "name_en": "Kambrathuchalla",
-      "name_ml": "കാമ്പ്രത്ത്ചള്ള"
+      "name_ml": "കാമ്പ്രത്ത്ചള്ള",
+      "rate": 75
     },
     {
       "id": "18accc9e-ad40-4540-be68-88544e0b9152",
       "ward_no": "16",
       "name_en": "Chulliyar",
-      "name_ml": "ചുള്ളിയാര്‍"
+      "name_ml": "ചുള്ളിയാര്‍",
+      "rate": 75
     },
     {
       "id": "251422a5-be77-4cb1-b0e3-c21838c60bb6",
       "ward_no": "17",
       "name_en": "Parayampallam",
-      "name_ml": "പറയമ്പള്ളം"
+      "name_ml": "പറയമ്പള്ളം",
+      "rate": 75
     },
     {
       "id": "04da9d73-147b-4b4a-87a0-6d9c51068a6c",
       "ward_no": "18",
       "name_en": "Kadamkurissi",
-      "name_ml": "കാടാംകുറിശ്ശി"
+      "name_ml": "കാടാംകുറിശ്ശി",
+      "rate": 75
     },
     {
       "id": "459c3571-4813-4a30-92c4-e6a4712e77c8",
       "ward_no": "19",
       "name_en": "Nandankizhaya",
-      "name_ml": "നണ്ടന്‍കിഴായ"
+      "name_ml": "നണ്ടന്‍കിഴായ",
+      "rate": 75
     },
     {
       "id": "d1e8849c-6a13-4379-9dcd-59a675991fed",
       "ward_no": "20",
       "name_en": "Pothampadam",
-      "name_ml": "പോത്തമ്പാടം"
+      "name_ml": "പോത്തമ്പാടം",
+      "rate": 75
     }
   ],
   "towns": [],

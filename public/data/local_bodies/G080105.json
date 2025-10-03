@@ -33,97 +33,113 @@
       "id": "aaaace18-dbae-4ab7-8353-fe46c9e6812c",
       "ward_no": "1",
       "name_en": "Erinjippadi",
-      "name_ml": "എരിഞ്ഞിപ്പടി"
+      "name_ml": "എരിഞ്ഞിപ്പടി",
+      "rate": 75
     },
     {
       "id": "bd4a54e3-73e9-499e-8a47-81325d869284",
       "ward_no": "2",
       "name_en": "Kallingal",
-      "name_ml": "കല്ലിങ്ങല്‍"
+      "name_ml": "കല്ലിങ്ങല്‍",
+      "rate": 75
     },
     {
       "id": "7e2a3524-ab01-4495-aeb9-b41a204f93fd",
       "ward_no": "3",
       "name_en": "Parayangad",
-      "name_ml": "പറയങ്ങാട്"
+      "name_ml": "പറയങ്ങാട്",
+      "rate": 75
     },
     {
       "id": "e4793eba-d81b-4318-bfff-09fbc494c230",
       "ward_no": "4",
       "name_en": "Kowkkanapetty",
-      "name_ml": "കൌക്കാനപ്പെട്ടി"
+      "name_ml": "കൌക്കാനപ്പെട്ടി",
+      "rate": 65
     },
     {
       "id": "1455f6a9-1b7f-43f5-b555-594bdce8a9a3",
       "ward_no": "5",
       "name_en": "Kochannoor",
-      "name_ml": "കൊച്ചന്നൂര്‍"
+      "name_ml": "കൊച്ചന്നൂര്‍",
+      "rate": 75
     },
     {
       "id": "20b26707-1b6b-4502-8edc-a7292f4b950b",
       "ward_no": "6",
       "name_en": "Nhamanghat",
-      "name_ml": "ഞമനേങ്ങാട്"
+      "name_ml": "ഞമനേങ്ങാട്",
+      "rate": 75
     },
     {
       "id": "0c065fd9-8d6e-43a5-81fe-a793690666c7",
       "ward_no": "7",
       "name_en": "Chakkithara",
-      "name_ml": "ചക്കിത്തറ"
+      "name_ml": "ചക്കിത്തറ",
+      "rate": 75
     },
     {
       "id": "513d9b8c-e208-4c8b-87d6-a3ab58217978",
       "ward_no": "8",
       "name_en": "Anjoor",
-      "name_ml": "അഞ്ഞൂര്‍"
+      "name_ml": "അഞ്ഞൂര്‍",
+      "rate": 75
     },
     {
       "id": "b0f91ecd-af41-4f1a-8412-2b28ffcbf236",
       "ward_no": "9",
       "name_en": "Vylathur",
-      "name_ml": "വൈലത്തൂര്‍"
+      "name_ml": "വൈലത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "f8090409-c588-45dd-813c-6ca7e4c40c23",
       "ward_no": "10",
       "name_en": "Nayarangadi",
-      "name_ml": "നായരങ്ങാടി"
+      "name_ml": "നായരങ്ങാടി",
+      "rate": 75
     },
     {
       "id": "fba6ba4f-49c0-48e3-b799-6074b52fdbd8",
       "ward_no": "11",
       "name_en": "Padinjakkara Vylathur",
-      "name_ml": "പടിഞ്ഞാക്കര വൈലത്തൂര്‍"
+      "name_ml": "പടിഞ്ഞാക്കര വൈലത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "654060a8-cfa3-4c46-ad95-321d06c7f759",
       "ward_no": "12",
       "name_en": "Kalloor",
-      "name_ml": "കല്ലൂര്‍"
+      "name_ml": "കല്ലൂര്‍",
+      "rate": 75
     },
     {
       "id": "470821bc-63bf-4d5b-bb97-8f2e316f0913",
       "ward_no": "13",
       "name_en": "Vattampadam",
-      "name_ml": "വട്ടംപാടം"
+      "name_ml": "വട്ടംപാടം",
+      "rate": 75
     },
     {
       "id": "b7cf3fb3-e3d1-40d8-ba5a-5a2c635c30a8",
       "ward_no": "14",
       "name_en": "Kombanthara",
-      "name_ml": "കൊമ്പന്തറ"
+      "name_ml": "കൊമ്പന്തറ",
+      "rate": 75
     },
     {
       "id": "e05c9d46-ec03-4582-bf8e-8d84dfdd9d0e",
       "ward_no": "15",
       "name_en": "Thekkekad",
-      "name_ml": "തെക്കേക്കാട്"
+      "name_ml": "തെക്കേക്കാട്",
+      "rate": 95
     },
     {
       "id": "2bd4e986-60d4-44ab-af4a-70045380e076",
       "ward_no": "16",
       "name_en": "Thiruvalayannur",
-      "name_ml": "തിരുവളയന്നൂര്‍"
+      "name_ml": "തിരുവളയന്നൂര്‍",
+      "rate": 65
     }
   ],
   "towns": [],

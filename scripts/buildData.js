@@ -208,7 +208,28 @@ function toFilename(name) {
     const wards = await fetchAllWards();
     const { data: towns } = await supabase.from('town').select('*');
     const { data: issues } = await supabase.from('issues').select('*');
-    const { data: wardCollections } = await supabase.from('ward_collection').select('*');
+    
+    // --- Fetch all ward collections in batches (Supabase 1000 row limit workaround) ---
+    async function fetchAllWardCollections(batchSize = 1000) {
+      let allWardCollections = [];
+      let from = 0;
+      console.log('📡 Fetching ward collections in batches...');
+      while (true) {
+        const { data: batch, error } = await supabase
+          .from('ward_collection')
+          .select('*')
+          .range(from, from + batchSize - 1);
+        if (error) throw error;
+        if (!batch || batch.length === 0) break;
+        allWardCollections = allWardCollections.concat(batch);
+        console.log(`📡 Fetched ${allWardCollections.length} ward collections so far...`);
+        from += batchSize;
+        if (batch.length < batchSize) break;
+      }
+      console.log(`✅ Total ward collections fetched: ${allWardCollections.length}`);
+      return allWardCollections;
+    }
+    const wardCollections = await fetchAllWardCollections();
     
     const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t.id, t]));
 
@@ -216,14 +237,48 @@ function toFilename(name) {
       const type = localBodyTypeMap[l.local_body_type_id] || {};
       const assembly = assemblyMap[l.assembly_id] || {};
       const district = districtMap[assembly.district_id] || {};
+      
+      // Debug logging for G090107
+      if (l.id === 'G090107') {
+        console.log(`🔍 DEBUG: Processing local body ${l.id} (${l.name_en})`);
+        console.log(`🔍 DEBUG: Total ward collections in database: ${wardCollections?.length || 0}`);
+      }
+      
       const lbWardsWithBasicInfo = wards
         .filter(w => w.local_body_id === l.id)
-        .map(w => ({
-          id: w.id,
-          ward_no: w.ward_no || '',
-          name_en: w.name_en || '',
-          name_ml: w.name_ml || ''
-        }));
+        .map(w => {
+          // Find the latest collection rate for this ward
+          const collections = (wardCollections || []).filter(c => c.ward_id === w.id);
+          
+          // Debug logging for G090107
+          if (l.id === 'G090107') {
+            console.log(`🔍 DEBUG: Ward ${w.ward_no} (${w.name_en}) - ID: ${w.id}`);
+            console.log(`🔍 DEBUG: Found ${collections.length} collections for this ward`);
+            if (collections.length > 0) {
+              console.log(`🔍 DEBUG: Sample collection:`, collections[0]);
+            }
+          }
+          
+          // Sort by year_month descending and pick the first (latest)
+          const sorted = collections
+            .filter(c => c.year_month)
+            .sort((a, b) => b.year_month.localeCompare(a.year_month));
+          const latest = sorted[0] || null;
+          
+          // Debug logging for G090107
+          if (l.id === 'G090107' && latest) {
+            console.log(`🔍 DEBUG: Latest collection for ward ${w.ward_no}:`, latest);
+            console.log(`🔍 DEBUG: Rate value: ${latest.rate} (type: ${typeof latest.rate})`);
+          }
+          
+          return {
+            id: w.id,
+            ward_no: w.ward_no || '',
+            name_en: w.name_en || '',
+            name_ml: w.name_ml || '',
+            rate: (latest && latest.rate != null && latest.rate !== '') ? Number(latest.rate) : null
+          };
+        });
       const lbTowns = towns.filter(t => t.local_body_id === l.id);
       const lbTownsArr = lbTowns.map(t => ({
         name_en: t.name_en,

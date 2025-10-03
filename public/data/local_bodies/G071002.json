@@ -33,97 +33,113 @@
       "id": "0a9a96bd-dde7-4652-9b13-b62b55e52632",
       "ward_no": "1",
       "name_en": "Kakkad",
-      "name_ml": "കക്കാട്"
+      "name_ml": "കക്കാട്",
+      "rate": 75
     },
     {
       "id": "fac4c432-3ba1-4c0c-9cd6-4a025bf9ea39",
       "ward_no": "2",
       "name_en": "Mattakkuzhi-Venmani",
-      "name_ml": "മറ്റക്കുഴി - വെണ്മണി"
+      "name_ml": "മറ്റക്കുഴി - വെണ്മണി",
+      "rate": 75
     },
     {
       "id": "0b62b8c2-a004-4fe1-956f-85459f145cde",
       "ward_no": "3",
       "name_en": "Kokkappilly",
-      "name_ml": "കോക്കാപ്പിള്ളി"
+      "name_ml": "കോക്കാപ്പിള്ളി",
+      "rate": 95
     },
     {
       "id": "6e9f9ec1-52b9-48fa-8693-98748c3dd740",
       "ward_no": "4",
       "name_en": "Chemmanadu South",
-      "name_ml": "ചെമ്മനാട് സൌത്ത്"
+      "name_ml": "ചെമ്മനാട് സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "c09d3fcc-9cc8-4a9c-8997-d547f058f72b",
       "ward_no": "5",
       "name_en": "Chemmanadu North",
-      "name_ml": "ചെമ്മനാട് നോര്‍ത്ത്"
+      "name_ml": "ചെമ്മനാട് നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "1a157a83-7e71-41b1-9f94-ce1f65e2e54a",
       "ward_no": "6",
       "name_en": "Monappilly",
-      "name_ml": "മോനപ്പിള്ളി"
+      "name_ml": "മോനപ്പിള്ളി",
+      "rate": 65
     },
     {
       "id": "b3aa92c5-cf87-4a32-b111-700e739d5e3f",
       "ward_no": "7",
       "name_en": "Venkida-Marangattully",
-      "name_ml": "വെങ്കിട-മരങ്ങാട്ടുള്ളി"
+      "name_ml": "വെങ്കിട-മരങ്ങാട്ടുള്ളി",
+      "rate": 75
     },
     {
       "id": "274cfe15-b772-416e-ada6-83e124821cd6",
       "ward_no": "8",
       "name_en": "Marangattully",
-      "name_ml": "മരങ്ങാട്ടുള്ളി"
+      "name_ml": "മരങ്ങാട്ടുള്ളി",
+      "rate": 65
     },
     {
       "id": "540129f8-87f8-4de8-9fc7-6b80c847d98e",
       "ward_no": "9",
       "name_en": "Pazhukkamattom",
-      "name_ml": "പഴുക്കാമറ്റം"
+      "name_ml": "പഴുക്കാമറ്റം",
+      "rate": 95
     },
     {
       "id": "f3258107-202a-4562-b9cf-04b13f31fa40",
       "ward_no": "10",
       "name_en": "Thiruvaniyoor South",
-      "name_ml": "തിരുവാണിയൂര്‍ സൌത്ത്"
+      "name_ml": "തിരുവാണിയൂര്‍ സൌത്ത്",
+      "rate": 65
     },
     {
       "id": "e0a287f3-a9f1-4e60-9da2-727a072192a7",
       "ward_no": "11",
       "name_en": "Thiruvaniyoor City",
-      "name_ml": "തിരുവാണിയൂര്‍ സിറ്റി"
+      "name_ml": "തിരുവാണിയൂര്‍ സിറ്റി",
+      "rate": 75
     },
     {
       "id": "16777858-d0a5-4ccc-821a-a7fc5d35157a",
       "ward_no": "12",
       "name_en": "Kanniattunirappu",
-      "name_ml": "കണ്ണ്യാട്ടുനിരപ്പ്"
+      "name_ml": "കണ്ണ്യാട്ടുനിരപ്പ്",
+      "rate": 75
     },
     {
       "id": "82862109-39ab-40ce-b6d0-894d92eaf261",
       "ward_no": "13",
       "name_en": "Vandipetta",
-      "name_ml": "വണ്ടിപ്പേട്ട"
+      "name_ml": "വണ്ടിപ്പേട്ട",
+      "rate": 65
     },
     {
       "id": "0946719c-89d6-4b96-906e-1b04a24d712f",
       "ward_no": "14",
       "name_en": "Vennikkulam",
-      "name_ml": "വെണ്ണിക്കുളം"
+      "name_ml": "വെണ്ണിക്കുളം",
+      "rate": 75
     },
     {
       "id": "06c54c73-b05b-4f48-bd59-11899bfb26ac",
       "ward_no": "15",
       "name_en": "Muriamangalam East",
-      "name_ml": "മുരിയമംഗലം ഈസ്റ്റ്"
+      "name_ml": "മുരിയമംഗലം ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "7a187442-959a-438e-8832-fbed0819ecf4",
       "ward_no": "16",
       "name_en": "Mamala",
-      "name_ml": "മാമല"
+      "name_ml": "മാമല",
+      "rate": 65
     }
   ],
   "towns": [],

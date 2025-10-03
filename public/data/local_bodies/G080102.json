@@ -33,79 +33,92 @@
       "id": "faf5347b-d3a0-420d-bd14-78a43bbc47df",
       "ward_no": "1",
       "name_en": "Thekkanchery",
-      "name_ml": "തെക്കഞ്ചേരി"
+      "name_ml": "തെക്കഞ്ചേരി",
+      "rate": 95
     },
     {
       "id": "50e3177c-777e-4c5f-802a-e7ec97ab13a4",
       "ward_no": "2",
       "name_en": "Ottathengu",
-      "name_ml": "ഒറ്റത്തെങ്ങ്"
+      "name_ml": "ഒറ്റത്തെങ്ങ്",
+      "rate": 75
     },
     {
       "id": "5c0028fc-9147-451b-9d82-ba3250badb10",
       "ward_no": "3",
       "name_en": "Thangalpadi",
-      "name_ml": "തങ്ങള്‍പ്പടി"
+      "name_ml": "തങ്ങള്‍പ്പടി",
+      "rate": 75
     },
     {
       "id": "63c13ac7-b6c5-4d00-8abc-2b54f50bd94e",
       "ward_no": "4",
       "name_en": "Williams",
-      "name_ml": "വില്യംസ്"
+      "name_ml": "വില്യംസ്",
+      "rate": 75
     },
     {
       "id": "3ea908bf-d1b4-4b62-b6ac-fa0eaa874832",
       "ward_no": "5",
       "name_en": "Mangottupadi",
-      "name_ml": "മാങ്ങോട്ടുപടി"
+      "name_ml": "മാങ്ങോട്ടുപടി",
+      "rate": 95
     },
     {
       "id": "7e5bd9b0-b013-441f-80c5-8f08f1d0eb70",
       "ward_no": "6",
       "name_en": "Muthammavu",
-      "name_ml": "മുത്തന്മാവ്"
+      "name_ml": "മുത്തന്മാവ്",
+      "rate": 95
     },
     {
       "id": "4fdf4025-b5b8-43d0-9967-6ade0afd8db8",
       "ward_no": "7",
       "name_en": "Karuvarakundu",
-      "name_ml": "കരുവാരക്കുണ്ട്"
+      "name_ml": "കരുവാരക്കുണ്ട്",
+      "rate": 65
     },
     {
       "id": "37fc89ff-e683-4054-a0a3-cf32b28c8f37",
       "ward_no": "8",
       "name_en": "Babyland",
-      "name_ml": "ബേബിലാന്റ്"
+      "name_ml": "ബേബിലാന്റ്",
+      "rate": 75
     },
     {
       "id": "9e6ce496-04a4-42e1-b1d7-0849c01fd72c",
       "ward_no": "9",
       "name_en": "Palamkadavu",
-      "name_ml": "പാലംകടവ്"
+      "name_ml": "പാലംകടവ്",
+      "rate": 65
     },
     {
       "id": "c82c3df4-f3e9-48a0-9b47-fd8e3941fa3e",
       "ward_no": "10",
       "name_en": "Moonnamkallu",
-      "name_ml": "മൂന്നാംകല്ല്"
+      "name_ml": "മൂന്നാംകല്ല്",
+      "rate": 75
     },
     {
       "id": "afcbc043-674b-48df-9ae7-90381eeb8dd1",
       "ward_no": "11",
       "name_en": "Thaikkadavu",
-      "name_ml": "തൈക്കടവ്"
+      "name_ml": "തൈക്കടവ്",
+      "rate": 75
     },
     {
       "id": "39c681e0-3ab4-4c21-8aa1-817af89a33ec",
       "ward_no": "12",
       "name_en": "Illathupadi",
-      "name_ml": "ഇല്ലത്തുപടി"
+      "name_ml": "ഇല്ലത്തുപടി",
+      "rate": 95
     },
     {
       "id": "fe71b09e-3abc-4048-95f2-807fc3473306",
       "ward_no": "13",
       "name_en": "Chathanthara",
-      "name_ml": "ചാത്തന്‍തറ"
+      "name_ml": "ചാത്തന്‍തറ",
+      "rate": 75
     }
   ],
   "towns": [],

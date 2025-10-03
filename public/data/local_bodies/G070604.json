@@ -33,139 +33,162 @@
       "id": "9cfdceec-92d7-4bcf-90ca-186aca9a8e2b",
       "ward_no": "1",
       "name_en": "Kadappuram Ward",
-      "name_ml": "കടപ്പുറം വാർഡ്"
+      "name_ml": "കടപ്പുറം വാർഡ്",
+      "rate": 75
     },
     {
       "id": "9982c985-c18a-495f-b62b-42196d8afd5e",
       "ward_no": "2",
       "name_en": "Rottary Village Ward",
-      "name_ml": "റോട്ടറി വില്ലേജ് വാർഡ്"
+      "name_ml": "റോട്ടറി വില്ലേജ് വാർഡ്",
+      "rate": 75
     },
     {
       "id": "cde3ecaf-8045-403f-9e6b-a64cb0d4298d",
       "ward_no": "3",
       "name_en": "Janakeeya Palam Ward",
-      "name_ml": "ജനകീയ പാലം വാർഡ്"
+      "name_ml": "ജനകീയ പാലം വാർഡ്",
+      "rate": 95
     },
     {
       "id": "bb0ee2b3-8662-4b8b-906e-a055006445f2",
       "ward_no": "4",
       "name_en": "L.P.School Ward",
-      "name_ml": "എൽ.പി.സ്കൂൾ വാർഡ്"
+      "name_ml": "എൽ.പി.സ്കൂൾ വാർഡ്",
+      "rate": 65
     },
     {
       "id": "0d270d9a-b0dd-4bf0-8f91-ba2f90f7f6d9",
       "ward_no": "5",
       "name_en": "Temple Ward",
-      "name_ml": "ടെമ്പിൾ വാർഡ്"
+      "name_ml": "ടെമ്പിൾ വാർഡ്",
+      "rate": 75
     },
     {
       "id": "2739b162-c14b-4619-a9e6-b0ad0376935a",
       "ward_no": "6",
       "name_en": "Karthedom Church Ward",
-      "name_ml": "കർത്തേടം ചർച്ച് വാർഡ്"
+      "name_ml": "കർത്തേടം ചർച്ച് വാർഡ്",
+      "rate": 95
     },
     {
       "id": "7822e178-05bf-4896-a231-1623976bfd8b",
       "ward_no": "7",
       "name_en": "Karthedom Central Ward",
-      "name_ml": "കർത്തേടം സെൻട്രൽ വാർഡ്"
+      "name_ml": "കർത്തേടം സെൻട്രൽ വാർഡ്",
+      "rate": 95
     },
     {
       "id": "f4351f64-01ad-4911-9e42-c07c613758be",
       "ward_no": "8",
       "name_en": "Malippuram Central Ward",
-      "name_ml": "മാലിപ്പുറം സെൻട്രൽ വാർഡ്"
+      "name_ml": "മാലിപ്പുറം സെൻട്രൽ വാർഡ്",
+      "rate": 75
     },
     {
       "id": "4d89108f-d06d-48fe-b359-308763d86060",
       "ward_no": "9",
       "name_en": "Vydhuthi Ward",
-      "name_ml": "വൈദ്യുതി വാർഡ്"
+      "name_ml": "വൈദ്യുതി വാർഡ്",
+      "rate": 75
     },
     {
       "id": "6a45c4f3-ec52-4632-84ab-7f79b33ce6a7",
       "ward_no": "10",
       "name_en": "Schoolmuttam East Ward",
-      "name_ml": "സ്കൂൾ മുറ്റം ഈസ്റ്റ് വാർഡ്"
+      "name_ml": "സ്കൂൾ മുറ്റം ഈസ്റ്റ് വാർഡ്",
+      "rate": 75
     },
     {
       "id": "9d67e91e-f6f5-4fc0-b9d2-298ab83cd341",
       "ward_no": "11",
       "name_en": "Santa Cruz Ward",
-      "name_ml": "സാന്താക്രുസ് വാർഡ്"
+      "name_ml": "സാന്താക്രുസ് വാർഡ്",
+      "rate": 75
     },
     {
       "id": "7befb5ec-eaf0-417c-90fb-cc7d4d4ad42c",
       "ward_no": "12",
       "name_en": "Kurisingal Church Ward",
-      "name_ml": "കുരിശ്ശിങ്കൽ ചർച്ച് വാർഡ്"
+      "name_ml": "കുരിശ്ശിങ്കൽ ചർച്ച് വാർഡ്",
+      "rate": 75
     },
     {
       "id": "0ff064b9-5530-44d4-8c9c-c760c630f03d",
       "ward_no": "13",
       "name_en": "Murikkumpadom Jetty Ward",
-      "name_ml": "മുരിക്കുംപാടംജെട്ടി വാർഡ്"
+      "name_ml": "മുരിക്കുംപാടംജെട്ടി വാർഡ്",
+      "rate": 75
     },
     {
       "id": "7a518401-11ed-4500-a757-e51f5f84ed27",
       "ward_no": "14",
       "name_en": "Mallikarjuna Temple Ward",
-      "name_ml": "മല്ലികാർജ്ജുന ടെമ്പിൾ വാർഡ്"
+      "name_ml": "മല്ലികാർജ്ജുന ടെമ്പിൾ വാർഡ്",
+      "rate": 65
     },
     {
       "id": "7c1c7987-3e3c-4803-b88e-08f4ef8eac57",
       "ward_no": "15",
       "name_en": "Azheekal Ward",
-      "name_ml": "അഴീക്കൽ വാർഡ്"
+      "name_ml": "അഴീക്കൽ വാർഡ്",
+      "rate": 65
     },
     {
       "id": "2691362e-bd77-43cc-8e86-85f757bd360b",
       "ward_no": "16",
       "name_en": "University Ward",
-      "name_ml": "യൂണിവേഴ്സിറ്റി വാർഡ്"
+      "name_ml": "യൂണിവേഴ്സിറ്റി വാർഡ്",
+      "rate": 95
     },
     {
       "id": "81de1778-47c5-446b-b66b-ed338ac48b53",
       "ward_no": "17",
       "name_en": "Masjid Ward",
-      "name_ml": "മസ്ജിദ് വാർഡ്"
+      "name_ml": "മസ്ജിദ് വാർഡ്",
+      "rate": 95
     },
     {
       "id": "88fc1443-eca9-40ed-a2d1-9552465c5f9e",
       "ward_no": "18",
       "name_en": "Light House Ward",
-      "name_ml": "ലൈറ്റ് ഹൌസ് വാർഡ്"
+      "name_ml": "ലൈറ്റ് ഹൌസ് വാർഡ്",
+      "rate": 95
     },
     {
       "id": "49686f42-fd38-43e7-a6b8-018390169917",
       "ward_no": "19",
       "name_en": "Puthuvype East Ward",
-      "name_ml": "പുതുവൈപ്പ് ഈസ്റ്റ് വാർഡ്"
+      "name_ml": "പുതുവൈപ്പ് ഈസ്റ്റ് വാർഡ്",
+      "rate": 65
     },
     {
       "id": "57cd18d8-4d59-4938-bdb6-37b37b4ad04c",
       "ward_no": "20",
       "name_en": "Light House North Kadappuram Ward",
-      "name_ml": "ലൈറ്റ് ഹൌസ് നോർത്ത് കടപ്പുറം വാർഡ്"
+      "name_ml": "ലൈറ്റ് ഹൌസ് നോർത്ത് കടപ്പുറം വാർഡ്",
+      "rate": 75
     },
     {
       "id": "0af60633-52d2-42ff-9ce9-9f25d6b06575",
       "ward_no": "21",
       "name_en": "Schoolmuttam West Ward",
-      "name_ml": "സ്കൂൾ മുറ്റം വെസ്റ്റ് വാർഡ്"
+      "name_ml": "സ്കൂൾ മുറ്റം വെസ്റ്റ് വാർഡ്",
+      "rate": 75
     },
     {
       "id": "5dccbd12-794a-4d37-a9a4-aff359cffe05",
       "ward_no": "22",
       "name_en": "Panchayat Ward",
-      "name_ml": "പഞ്ചായത്ത് വാർഡ്"
+      "name_ml": "പഞ്ചായത്ത് വാർഡ്",
+      "rate": 75
     },
     {
       "id": "f6ea781d-e150-456d-a3a9-915d556fdd76",
       "ward_no": "23",
       "name_en": "Malippuram Beach Ward",
-      "name_ml": "മാലിപ്പുറം ബീച്ച് വാർഡ്"
+      "name_ml": "മാലിപ്പുറം ബീച്ച് വാർഡ്",
+      "rate": 75
     }
   ],
   "towns": [],

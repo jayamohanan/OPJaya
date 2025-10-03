@@ -33,115 +33,134 @@
       "id": "b9176d40-aecd-4485-a8f8-ab76cca85fc5",
       "ward_no": "1",
       "name_en": "Kunnummakkara",
-      "name_ml": "കുന്നുമ്മക്കര"
+      "name_ml": "കുന്നുമ്മക്കര",
+      "rate": 75
     },
     {
       "id": "6c33274c-acc8-4732-ac03-b0e5435f7c18",
       "ward_no": "2",
       "name_en": "Payyathoor",
-      "name_ml": "പയ്യത്തൂര്‍"
+      "name_ml": "പയ്യത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "857ac538-1a6e-4ca0-bc5e-429052c99a21",
       "ward_no": "3",
       "name_en": "Eramala",
-      "name_ml": "ഏറാമല"
+      "name_ml": "ഏറാമല",
+      "rate": 75
     },
     {
       "id": "0904460c-76e3-46f2-81f3-0c0757fb84eb",
       "ward_no": "4",
       "name_en": "Adiyoor West",
-      "name_ml": "ആദിയൂര്‍‍ വെസ്റ്റ്"
+      "name_ml": "ആദിയൂര്‍‍ വെസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "905ea81a-1d35-4eaa-81ff-d9135ac0a684",
       "ward_no": "5",
       "name_en": "Adiyoor East",
-      "name_ml": "ആദിയൂര്‍‍ ഈസ്റ്റ്"
+      "name_ml": "ആദിയൂര്‍‍ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "296df733-cce5-499b-a775-285a9bb06e55",
       "ward_no": "6",
       "name_en": "Orkkatteri North",
-      "name_ml": "ഓര്‍ക്കാട്ടേരി നോര്‍ത്ത്"
+      "name_ml": "ഓര്‍ക്കാട്ടേരി നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "1d7a0f59-ec06-4797-82be-e9c7258a35dd",
       "ward_no": "7",
       "name_en": "Orkkatteri Central",
-      "name_ml": "ഓര്‍ക്കാട്ടേരി സെന്‍ട്രല്‍"
+      "name_ml": "ഓര്‍ക്കാട്ടേരി സെന്‍ട്രല്‍",
+      "rate": 75
     },
     {
       "id": "85906c3c-22d4-42e3-ae7d-10370dc82c4b",
       "ward_no": "8",
       "name_en": "Orkkatteri East",
-      "name_ml": "ഓര്‍ക്കാട്ടേരി ഈസ്റ്റ്"
+      "name_ml": "ഓര്‍ക്കാട്ടേരി ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "89d6eab7-9484-4242-b3f3-c757ed596a48",
       "ward_no": "9",
       "name_en": "Elangoli",
-      "name_ml": "എളങ്ങോളി"
+      "name_ml": "എളങ്ങോളി",
+      "rate": 75
     },
     {
       "id": "b98f5216-d414-4536-8f65-1b24675a4e5d",
       "ward_no": "10",
       "name_en": "Kandeekkara",
-      "name_ml": "കണ്ടീക്കര"
+      "name_ml": "കണ്ടീക്കര",
+      "rate": 75
     },
     {
       "id": "8ceb862d-a922-42bb-b1e7-d750b19d0fe2",
       "ward_no": "11",
       "name_en": "Karthikappally",
-      "name_ml": "കാര്‍ത്തികപ്പള്ളി"
+      "name_ml": "കാര്‍ത്തികപ്പള്ളി",
+      "rate": 75
     },
     {
       "id": "886913a5-b5ea-4cb7-8c54-156acaea9aa0",
       "ward_no": "12",
       "name_en": "Kurinhaliyode",
-      "name_ml": "കുറിഞ്ഞാലിയോട്"
+      "name_ml": "കുറിഞ്ഞാലിയോട്",
+      "rate": 75
     },
     {
       "id": "1be157a3-d577-4582-a78c-0f83a446c1d6",
       "ward_no": "13",
       "name_en": "Muyipra",
-      "name_ml": "മുയിപ്ര"
+      "name_ml": "മുയിപ്ര",
+      "rate": 75
     },
     {
       "id": "9276a877-f732-4ebf-a593-98649c460ef4",
       "ward_no": "14",
       "name_en": "Orkkatteri South",
-      "name_ml": "ഓര്‍ക്കാട്ടേരി സൌത്ത്"
+      "name_ml": "ഓര്‍ക്കാട്ടേരി സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "f013804f-2320-4cc1-8ba7-02928ce0b425",
       "ward_no": "15",
       "name_en": "Orkkatteri West",
-      "name_ml": "ഓര്‍ക്കാട്ടേരി വെസ്റ്റ്"
+      "name_ml": "ഓര്‍ക്കാട്ടേരി വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "c67e0fad-ff52-4b92-8c7b-16a609326552",
       "ward_no": "16",
       "name_en": "Nellacheri East",
-      "name_ml": "നെല്ലാച്ചേരി ഈസ്റ്റ്"
+      "name_ml": "നെല്ലാച്ചേരി ഈസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "e1e88abe-3709-412e-bf70-ffccefedd981",
       "ward_no": "17",
       "name_en": "Nellacheri",
-      "name_ml": "നെല്ലാച്ചേരി"
+      "name_ml": "നെല്ലാച്ചേരി",
+      "rate": 75
     },
     {
       "id": "70c3eb2b-08f6-4834-b026-2bb48b2f9f54",
       "ward_no": "18",
       "name_en": "Kunnummakkara South",
-      "name_ml": "കുന്നുമ്മക്കര സൌത്ത്"
+      "name_ml": "കുന്നുമ്മക്കര സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "ec53d2bc-b7c6-43fe-b276-c05a49dae28a",
       "ward_no": "19",
       "name_en": "Thattolikkara",
-      "name_ml": "തട്ടോളിക്കര"
+      "name_ml": "തട്ടോളിക്കര",
+      "rate": 75
     }
   ],
   "towns": [],

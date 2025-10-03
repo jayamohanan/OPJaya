@@ -33,187 +33,218 @@
       "id": "13f5d5dc-7902-46bb-85df-10c4c8eb7ca6",
       "ward_no": "1",
       "name_en": "Eloor Dippo",
-      "name_ml": "ഏലൂര്‍ ഡിപ്പോ"
+      "name_ml": "ഏലൂര്‍ ഡിപ്പോ",
+      "rate": 75
     },
     {
       "id": "ad14ea0e-019c-4b4d-badc-c23a1a3c6b46",
       "ward_no": "2",
       "name_en": "Eloor North",
-      "name_ml": "ഏലൂര്‍ നോര്‍ത്ത്"
+      "name_ml": "ഏലൂര്‍ നോര്‍ത്ത്",
+      "rate": 95
     },
     {
       "id": "1eafaa90-2fab-4ea2-a244-058a0e1ee481",
       "ward_no": "3",
       "name_en": "Eloor North East",
-      "name_ml": "ഏലൂര്‍ നോര്‍ത്ത്ഈസ്റ്റ്"
+      "name_ml": "ഏലൂര്‍ നോര്‍ത്ത്ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "2684e7e9-ad80-414e-b168-3b2362828d78",
       "ward_no": "4",
       "name_en": "Pattupurackal",
-      "name_ml": "പാട്ടുപുരയ്ക്കല്‍"
+      "name_ml": "പാട്ടുപുരയ്ക്കല്‍",
+      "rate": 75
     },
     {
       "id": "92d83a76-ca8d-4cb6-8b82-4e16c8bb9953",
       "ward_no": "5",
       "name_en": "Kuzhikandam",
-      "name_ml": "കുഴിക്കണ്ടം"
+      "name_ml": "കുഴിക്കണ്ടം",
+      "rate": 75
     },
     {
       "id": "c5f5cc74-2c57-4999-a676-bc300194634a",
       "ward_no": "6",
       "name_en": "Headquarters Ward",
-      "name_ml": "ഹെഡ്ക്വാര്‍ട്ടേഴ്സ് വാര്‍ഡ്"
+      "name_ml": "ഹെഡ്ക്വാര്‍ട്ടേഴ്സ് വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "4d5aa6fe-e959-4e68-a7ff-d33df6cb8da5",
       "ward_no": "7",
       "name_en": "Ilanjikal Ward",
-      "name_ml": "ഇലഞ്ഞിക്കല്‍ വാര്‍ഡ്"
+      "name_ml": "ഇലഞ്ഞിക്കല്‍ വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "b2db81d7-a8f1-42ab-833c-2b5749df086f",
       "ward_no": "8",
       "name_en": "Eloor East",
-      "name_ml": "ഏലൂര്‍ കിഴക്കും ഭാഗം"
+      "name_ml": "ഏലൂര്‍ കിഴക്കും ഭാഗം",
+      "rate": 75
     },
     {
       "id": "c67246a6-7190-4897-ac87-76947852b08e",
       "ward_no": "9",
       "name_en": "Mepirikunnu",
-      "name_ml": "മേപ്പിരിക്കുന്ന്"
+      "name_ml": "മേപ്പിരിക്കുന്ന്",
+      "rate": 95
     },
     {
       "id": "eba538ec-a101-4eb5-a56e-2325a35a6bdd",
       "ward_no": "10",
       "name_en": "Pathalam",
-      "name_ml": "പാതാളം"
+      "name_ml": "പാതാളം",
+      "rate": 95
     },
     {
       "id": "0c57b10c-8f98-48a2-9bc8-6debe8e0deb6",
       "ward_no": "11",
       "name_en": "Alupuram",
-      "name_ml": "അലുപുരം"
+      "name_ml": "അലുപുരം",
+      "rate": 75
     },
     {
       "id": "540c9f6e-5198-4e98-87eb-04bf913b03ed",
       "ward_no": "12",
       "name_en": "Tharamali",
-      "name_ml": "തറമാലി"
+      "name_ml": "തറമാലി",
+      "rate": 95
     },
     {
       "id": "dfaa9794-ac05-4a54-a50d-aec95867700a",
       "ward_no": "13",
       "name_en": "Idamula",
-      "name_ml": "ഇടമുള"
+      "name_ml": "ഇടമുള",
+      "rate": 65
     },
     {
       "id": "4203f984-0d22-48c5-a726-0bc7f0d02185",
       "ward_no": "14",
       "name_en": "Puthiyaroad",
-      "name_ml": "പുതിയ റോഡ്"
+      "name_ml": "പുതിയ റോഡ്",
+      "rate": 95
     },
     {
       "id": "5194cd85-1f6b-4696-9993-c9556157d433",
       "ward_no": "15",
       "name_en": "Kuttikattukara South",
-      "name_ml": "കുറ്റിക്കാട്ടുകര സൌത്ത്"
+      "name_ml": "കുറ്റിക്കാട്ടുകര സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "f9242e0f-c53b-4018-92a2-2d4fd15c7d12",
       "ward_no": "16",
       "name_en": "Puthalath",
-      "name_ml": "പുത്തലത്ത്"
+      "name_ml": "പുത്തലത്ത്",
+      "rate": 75
     },
     {
       "id": "6de51fe0-a96c-42f5-964a-e03e92a5165c",
       "ward_no": "17",
       "name_en": "Township",
-      "name_ml": "ടൌണ്‍ഷിപ്പ്"
+      "name_ml": "ടൌണ്‍ഷിപ്പ്",
+      "rate": 65
     },
     {
       "id": "43a66410-556a-4a0b-b7dd-5eb37243c78a",
       "ward_no": "18",
       "name_en": "Pathelakkadu",
-      "name_ml": "പത്തേലക്കാട്"
+      "name_ml": "പത്തേലക്കാട്",
+      "rate": 65
     },
     {
       "id": "6ade5f04-86e6-4eca-baff-84c364812c15",
       "ward_no": "19",
       "name_en": "Manjummel East",
-      "name_ml": "മഞ്ഞുമ്മല്‍ ഈസ്റ്റ്"
+      "name_ml": "മഞ്ഞുമ്മല്‍ ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "5c26915b-1d5d-48ff-ad6e-9e67c5314382",
       "ward_no": "20",
       "name_en": "Kottakkunnu",
-      "name_ml": "കോട്ടക്കുന്ന്"
+      "name_ml": "കോട്ടക്കുന്ന്",
+      "rate": 75
     },
     {
       "id": "581bd1b7-4bf0-4e5f-b1b6-dd5cbeb0a907",
       "ward_no": "21",
       "name_en": "Manjummel South",
-      "name_ml": "മഞ്ഞുമ്മല്‍ സൌത്ത്"
+      "name_ml": "മഞ്ഞുമ്മല്‍ സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "f2e9df98-e961-446d-a821-78855d85417d",
       "ward_no": "22",
       "name_en": "Muttar East",
-      "name_ml": "മുട്ടാര്‍ ഈസ്റ്റ്"
+      "name_ml": "മുട്ടാര്‍ ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "c9482a08-376b-490d-9a44-301bcdc86a0d",
       "ward_no": "23",
       "name_en": "Muttar West",
-      "name_ml": "മുട്ടാര്‍ വെസ്റ്റ്"
+      "name_ml": "മുട്ടാര്‍ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "f91a441b-545e-4840-8ebf-1df862556969",
       "ward_no": "24",
       "name_en": "Manjummel West",
-      "name_ml": "മഞ്ഞുമ്മല്‍ വെസ്റ്റ്"
+      "name_ml": "മഞ്ഞുമ്മല്‍ വെസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "bb913cd3-19fa-469f-91e1-5255abb4e2a4",
       "ward_no": "25",
       "name_en": "Manjummel",
-      "name_ml": "മഞ്ഞുമ്മല്‍"
+      "name_ml": "മഞ്ഞുമ്മല്‍",
+      "rate": 75
     },
     {
       "id": "db7e2cd9-8142-404e-838b-78f129e01051",
       "ward_no": "26",
       "name_en": "Devaswampadam",
-      "name_ml": "ദേവസ്വം പാടം"
+      "name_ml": "ദേവസ്വം പാടം",
+      "rate": 75
     },
     {
       "id": "47868db5-acc9-4807-b442-1ae2b9d716bd",
       "ward_no": "27",
       "name_en": "Kochal",
-      "name_ml": "കൊച്ചാല്‍"
+      "name_ml": "കൊച്ചാല്‍",
+      "rate": 75
     },
     {
       "id": "4f804b77-eec8-4a15-8f1d-6ea5502ef73b",
       "ward_no": "28",
       "name_en": "Madappattu",
-      "name_ml": "മാടപ്പാട്ട്"
+      "name_ml": "മാടപ്പാട്ട്",
+      "rate": 75
     },
     {
       "id": "1baf392e-e340-4dbe-b609-76acdf313817",
       "ward_no": "29",
       "name_en": "Parackal",
-      "name_ml": "പാറയ്ക്കല്‍"
+      "name_ml": "പാറയ്ക്കല്‍",
+      "rate": 75
     },
     {
       "id": "332ddf52-ffe8-4bc7-9a6d-62b87bf1609b",
       "ward_no": "30",
       "name_en": "Head Quartes West",
-      "name_ml": "ഹെഡ്ക്വാര്‍ട്ടേഴ്സ് വെസ്റ്റ്"
+      "name_ml": "ഹെഡ്ക്വാര്‍ട്ടേഴ്സ് വെസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "157a8551-6cbb-474b-8309-a4d3b0ceab53",
       "ward_no": "31",
       "name_en": "Ambedkar Ward",
-      "name_ml": "അംബേദ്കര്‍ വാര്‍ഡ്"
+      "name_ml": "അംബേദ്കര്‍ വാര്‍ഡ്",
+      "rate": 75
     }
   ],
   "towns": [],

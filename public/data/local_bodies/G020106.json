@@ -33,139 +33,162 @@
       "id": "fd791949-3165-45c6-93b1-a40d721d62c4",
       "ward_no": "1",
       "name_en": "Puliyoor Vanchi West",
-      "name_ml": "പുലിയൂര്‍വഞ്ചി പടിഞ്ഞാറ്"
+      "name_ml": "പുലിയൂര്‍വഞ്ചി പടിഞ്ഞാറ്",
+      "rate": 65
     },
     {
       "id": "0ccee95a-f4b5-4441-86f7-36ca00a29bef",
       "ward_no": "2",
       "name_en": "Chittumoola",
-      "name_ml": "ചിറ്റുമൂല"
+      "name_ml": "ചിറ്റുമൂല",
+      "rate": 75
     },
     {
       "id": "c5bf10f1-05e4-4d32-9ee3-2f80452cdc83",
       "ward_no": "3",
       "name_en": "Puliyoor Vanchi North",
-      "name_ml": "പുലിയൂര്‍വഞ്ചി വടക്ക്"
+      "name_ml": "പുലിയൂര്‍വഞ്ചി വടക്ക്",
+      "rate": 95
     },
     {
       "id": "9fbacb92-4424-4249-a40a-7c97db459b6b",
       "ward_no": "4",
       "name_en": "Edakulangara North",
-      "name_ml": "ഇടകുളങ്ങര വടക്ക്"
+      "name_ml": "ഇടകുളങ്ങര വടക്ക്",
+      "rate": 75
     },
     {
       "id": "da1469e8-4316-4fad-8e66-e970b36fe538",
       "ward_no": "5",
       "name_en": "Veluthamanal West",
-      "name_ml": "വെളുത്തമണല്‍ പടുിഞ്ഞാറ്"
+      "name_ml": "വെളുത്തമണല്‍ പടുിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "6b059899-6cca-4b95-9cbe-7fcd5ce9b7f1",
       "ward_no": "6",
       "name_en": "Puliyoor Vanchi South",
-      "name_ml": "പുലിയൂര്‍വഞ്ചി തെക്ക്"
+      "name_ml": "പുലിയൂര്‍വഞ്ചി തെക്ക്",
+      "rate": 65
     },
     {
       "id": "195fe92c-262e-453c-9004-7c99ca60964f",
       "ward_no": "7",
       "name_en": "Puliyoor Vanchi East",
-      "name_ml": "പുലിയൂര്‍വഞ്ചി കിഴക്ക്"
+      "name_ml": "പുലിയൂര്‍വഞ്ചി കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "4fc34543-03a1-4efd-b861-bd6f6991a75f",
       "ward_no": "8",
       "name_en": "H S Ward",
-      "name_ml": "എച്ച്.എസ് വാര്‍ഡ്"
+      "name_ml": "എച്ച്.എസ് വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "7889782d-ed98-4edd-94e4-52ccd868d159",
       "ward_no": "9",
       "name_en": "Aramathmadam",
-      "name_ml": "അരമത്ത്മഠം"
+      "name_ml": "അരമത്ത്മഠം",
+      "rate": 95
     },
     {
       "id": "e8d4b7cb-8eda-4480-b230-741abffbe010",
       "ward_no": "10",
       "name_en": "Thodiyoor",
-      "name_ml": "തൊടിയൂര്‍"
+      "name_ml": "തൊടിയൂര്‍",
+      "rate": 75
     },
     {
       "id": "6a2fb78f-73db-40d2-af60-9d089de6328a",
       "ward_no": "11",
       "name_en": "Malumel",
-      "name_ml": "മാലുമേല്‍"
+      "name_ml": "മാലുമേല്‍",
+      "rate": 95
     },
     {
       "id": "69c4765a-e04f-4bcb-9f29-009dcfe41c6f",
       "ward_no": "12",
       "name_en": "Vengara",
-      "name_ml": "വേങ്ങറ"
+      "name_ml": "വേങ്ങറ",
+      "rate": 75
     },
     {
       "id": "49044db4-c5d1-4c8d-a322-9be02f954cc5",
       "ward_no": "13",
       "name_en": "Veluthamanal",
-      "name_ml": "വെളുത്തമണല്‍"
+      "name_ml": "വെളുത്തമണല്‍",
+      "rate": 65
     },
     {
       "id": "95068f8b-8751-4fde-a433-ffa69ed9e109",
       "ward_no": "14",
       "name_en": "Muzhangodi East",
-      "name_ml": "മുഴങ്ങോടി കിഴക്ക്"
+      "name_ml": "മുഴങ്ങോടി കിഴക്ക്",
+      "rate": 95
     },
     {
       "id": "ad4fa5bc-54de-4445-b13b-7855f79c38ca",
       "ward_no": "15",
       "name_en": "Muzhangodi",
-      "name_ml": "മുഴങ്ങോടി"
+      "name_ml": "മുഴങ്ങോടി",
+      "rate": 75
     },
     {
       "id": "f86ae6c0-0b62-4229-a0e1-0483b6d95ee9",
       "ward_no": "16",
       "name_en": "Muzhangodi South East",
-      "name_ml": "മുഴങ്ങോടി തെക്ക് കിഴക്ക്"
+      "name_ml": "മുഴങ്ങോടി തെക്ക് കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "8570cb2b-d7b7-4ef6-8826-ce7b6da466d6",
       "ward_no": "17",
       "name_en": "Mararithottam North",
-      "name_ml": "മാരാരിത്തോട്ടം വടക്ക്"
+      "name_ml": "മാരാരിത്തോട്ടം വടക്ക്",
+      "rate": 75
     },
     {
       "id": "b55eb5da-b81a-4df6-a652-81e5a9a612d9",
       "ward_no": "18",
       "name_en": "Mararithottam",
-      "name_ml": "മാരാരിത്തോട്ടം"
+      "name_ml": "മാരാരിത്തോട്ടം",
+      "rate": 75
     },
     {
       "id": "23a24543-428b-41ae-9e26-437b899755eb",
       "ward_no": "19",
       "name_en": "Chambakadav",
-      "name_ml": "ചാമ്പക്കടവ്"
+      "name_ml": "ചാമ്പക്കടവ്",
+      "rate": 65
     },
     {
       "id": "0abd25b8-d1d1-406f-91f2-0001e35a6d48",
       "ward_no": "20",
       "name_en": "Kallelibhagom South",
-      "name_ml": "കല്ലേലിഭാഗം തെക്ക്"
+      "name_ml": "കല്ലേലിഭാഗം തെക്ക്",
+      "rate": 95
     },
     {
       "id": "06c551bc-036c-4766-bffd-1348bf93a506",
       "ward_no": "21",
       "name_en": "Kallelibhagom",
-      "name_ml": "കല്ലേലിഭാഗം"
+      "name_ml": "കല്ലേലിഭാഗം",
+      "rate": 75
     },
     {
       "id": "f5e0332c-9d63-4352-98c4-4679ee86be0d",
       "ward_no": "22",
       "name_en": "Kallelibhagom North",
-      "name_ml": "കല്ലേലിഭാഗം വടക്ക്"
+      "name_ml": "കല്ലേലിഭാഗം വടക്ക്",
+      "rate": 75
     },
     {
       "id": "e3ae35e3-7c75-4e51-af9d-141eb2c87347",
       "ward_no": "23",
       "name_en": "Edakulangara",
-      "name_ml": "ഇടകുളങ്ങര"
+      "name_ml": "ഇടകുളങ്ങര",
+      "rate": 75
     }
   ],
   "towns": [],

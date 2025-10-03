@@ -33,163 +33,190 @@
       "id": "b2b8e2b9-e45f-41e9-aa19-a358b650da58",
       "ward_no": "1",
       "name_en": "Vallam North",
-      "name_ml": "വല്ലം നോര്‍ത്ത്"
+      "name_ml": "വല്ലം നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "ccc9075a-a281-4eea-b9d8-3f948e23c985",
       "ward_no": "2",
       "name_en": "Thrikkaparambu",
-      "name_ml": "ത്യക്കാപറമ്പ്"
+      "name_ml": "ത്യക്കാപറമ്പ്",
+      "rate": 75
     },
     {
       "id": "dccfa778-8b57-4817-b380-aee1514d8e2b",
       "ward_no": "3",
       "name_en": "Masjid",
-      "name_ml": "മസ്ജിദ്"
+      "name_ml": "മസ്ജിദ്",
+      "rate": 95
     },
     {
       "id": "8570cc40-fed4-46ea-9b2a-29a8daa4fbb0",
       "ward_no": "4",
       "name_en": "Chakkarakattu",
-      "name_ml": "ചക്കരക്കാട്ട്"
+      "name_ml": "ചക്കരക്കാട്ട്",
+      "rate": 75
     },
     {
       "id": "466db819-7bb6-4295-b6b4-a54defc0daff",
       "ward_no": "5",
       "name_en": "Sasthamangalam",
-      "name_ml": "ശാസ്തമംഗലം"
+      "name_ml": "ശാസ്തമംഗലം",
+      "rate": 95
     },
     {
       "id": "57426a86-28c0-462b-aa05-6e1ee584d1d6",
       "ward_no": "6",
       "name_en": "Thuruthiparambu",
-      "name_ml": "തുരുത്തിപ്പറമ്പ്"
+      "name_ml": "തുരുത്തിപ്പറമ്പ്",
+      "rate": 65
     },
     {
       "id": "dcccfc1a-cd6e-4fc4-a5d2-a3e6fcbcc9ef",
       "ward_no": "7",
       "name_en": "Temple Ward",
-      "name_ml": "ടെമ്പിള്‍ വാര്‍ഡ്"
+      "name_ml": "ടെമ്പിള്‍ വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "d50f0212-68da-4ad4-a709-2698ebb09b9e",
       "ward_no": "8",
       "name_en": "Taluk Hospital",
-      "name_ml": "താലൂക്ക് ആശുപത്രി"
+      "name_ml": "താലൂക്ക് ആശുപത്രി",
+      "rate": 75
     },
     {
       "id": "e7573464-c28c-4dd6-b230-a51ee50db836",
       "ward_no": "9",
       "name_en": "Pooppany",
-      "name_ml": "പൂപ്പാനി"
+      "name_ml": "പൂപ്പാനി",
+      "rate": 75
     },
     {
       "id": "a023090f-de10-4c8c-b414-a456ba2f5a82",
       "ward_no": "10",
       "name_en": "Karattupallikkara",
-      "name_ml": "കാരാട്ടുപള്ളിക്കര"
+      "name_ml": "കാരാട്ടുപള്ളിക്കര",
+      "rate": 95
     },
     {
       "id": "b869acca-bd9b-4d44-b313-965e36442119",
       "ward_no": "11",
       "name_en": "Asramam",
-      "name_ml": "ആശ്രമം"
+      "name_ml": "ആശ്രമം",
+      "rate": 75
     },
     {
       "id": "adfb5bcc-87bd-4072-821d-93a28072f5cd",
       "ward_no": "12",
       "name_en": "Konnankudy",
-      "name_ml": "കോന്നന്‍കുടി"
+      "name_ml": "കോന്നന്‍കുടി",
+      "rate": 95
     },
     {
       "id": "ae6cfb9f-8aaa-4b4b-ad73-581b187e7145",
       "ward_no": "13",
       "name_en": "Kunnampilly Chira",
-      "name_ml": "കുന്നംപിള്ളിച്ചിറ"
+      "name_ml": "കുന്നംപിള്ളിച്ചിറ",
+      "rate": 75
     },
     {
       "id": "cba81f54-1c06-4e64-93ef-7eb013820267",
       "ward_no": "14",
       "name_en": "Neelamkulangara",
-      "name_ml": "നീലംകുളങ്ങര"
+      "name_ml": "നീലംകുളങ്ങര",
+      "rate": 75
     },
     {
       "id": "31196c3f-d048-4bcc-927f-40e0658bfc79",
       "ward_no": "15",
       "name_en": "Naganchery Mana",
-      "name_ml": "നാഗഞ്ചേരി മന"
+      "name_ml": "നാഗഞ്ചേരി മന",
+      "rate": 75
     },
     {
       "id": "a29ae57c-885f-4a35-b72f-5c8a1d002067",
       "ward_no": "16",
       "name_en": "Pankulam",
-      "name_ml": "പാങ്കുളം"
+      "name_ml": "പാങ്കുളം",
+      "rate": 95
     },
     {
       "id": "6611fe8a-672a-4adc-9600-a38e3ecb97ef",
       "ward_no": "17",
       "name_en": "Periyarvallie Club",
-      "name_ml": "പെരിയാര്‍വാലി ക്ലബ്"
+      "name_ml": "പെരിയാര്‍വാലി ക്ലബ്",
+      "rate": 95
     },
     {
       "id": "9ef89054-c1c1-461b-b55f-f1d64ac8f758",
       "ward_no": "18",
       "name_en": "Maruth Kavala",
-      "name_ml": "മരുത് കവല"
+      "name_ml": "മരുത് കവല",
+      "rate": 65
     },
     {
       "id": "fbaa1b77-34de-4ecd-96a5-1da6d098a0f3",
       "ward_no": "19",
       "name_en": "K S R T C",
-      "name_ml": "കെ എസ് ആര്‍ റ്റി സി"
+      "name_ml": "കെ എസ് ആര്‍ റ്റി സി",
+      "rate": 65
     },
     {
       "id": "45514410-0b01-4d45-8805-4ae46a9adb57",
       "ward_no": "20",
       "name_en": "Church",
-      "name_ml": "ചര്‍ച്ച്"
+      "name_ml": "ചര്‍ച്ച്",
+      "rate": 65
     },
     {
       "id": "24a6e9a4-aae5-48c0-afb8-12cc27a37d69",
       "ward_no": "21",
       "name_en": "Municipal Office",
-      "name_ml": "മുനിസിപ്പല്‍ ഓഫീസ്"
+      "name_ml": "മുനിസിപ്പല്‍ ഓഫീസ്",
+      "rate": 75
     },
     {
       "id": "f3771627-4c5a-4f24-823e-c43b2aa1cac8",
       "ward_no": "22",
       "name_en": "Library",
-      "name_ml": "ലൈബ്രറി"
+      "name_ml": "ലൈബ്രറി",
+      "rate": 65
     },
     {
       "id": "29a37128-892f-466e-b060-5cae11142d2c",
       "ward_no": "23",
       "name_en": "Kaduval",
-      "name_ml": "കടുവാള്‍"
+      "name_ml": "കടുവാള്‍",
+      "rate": 75
     },
     {
       "id": "6c683b20-4842-498b-83e1-11b6e575a388",
       "ward_no": "24",
       "name_en": "Vallam Thodu",
-      "name_ml": "വല്ലം തോട്"
+      "name_ml": "വല്ലം തോട്",
+      "rate": 95
     },
     {
       "id": "4ac3016c-ab56-47c4-8eaf-0ab1a3e05246",
       "ward_no": "25",
       "name_en": "Parappuram",
-      "name_ml": "പാറപ്പുറം"
+      "name_ml": "പാറപ്പുറം",
+      "rate": 95
     },
     {
       "id": "e16a4229-0b8e-446b-845f-f0dadcbb17ad",
       "ward_no": "26",
       "name_en": "South Vallam",
-      "name_ml": "സൌത്ത് വല്ലം"
+      "name_ml": "സൌത്ത് വല്ലം",
+      "rate": 95
     },
     {
       "id": "8307edcb-9ada-48c6-96b6-5e28118f864c",
       "ward_no": "27",
       "name_en": "Rayonpuram",
-      "name_ml": "റയോണ്‍പുരം"
+      "name_ml": "റയോണ്‍പുരം",
+      "rate": 75
     }
   ],
   "towns": [],

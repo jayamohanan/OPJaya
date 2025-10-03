@@ -33,103 +33,120 @@
       "id": "c1fedd9f-c2a3-41f1-90ea-be2bbeb9f316",
       "ward_no": "1",
       "name_en": "Ambal",
-      "name_ml": "അമ്പാള്‍"
+      "name_ml": "അമ്പാള്‍",
+      "rate": 75
     },
     {
       "id": "ab99e616-c6cf-40b7-ba7a-038558d1b402",
       "ward_no": "2",
       "name_en": "Valiyakunnu West",
-      "name_ml": "വലിയകുന്ന് പടിഞ്ഞാറ്"
+      "name_ml": "വലിയകുന്ന് പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "2f06969e-8aa6-4093-86e0-a6e8f9fa07ac",
       "ward_no": "3",
       "name_en": "Valiyakunnu East",
-      "name_ml": "വലിയകുന്ന് കിഴക്ക്"
+      "name_ml": "വലിയകുന്ന് കിഴക്ക്",
+      "rate": 65
     },
     {
       "id": "dff44eeb-e84f-4d6d-9de3-eb9549dfb209",
       "ward_no": "4",
       "name_en": "Kodumudi",
-      "name_ml": "കൊടുമുടി"
+      "name_ml": "കൊടുമുടി",
+      "rate": 65
     },
     {
       "id": "af45d901-3f2d-4893-92a9-f098fdff3c29",
       "ward_no": "5",
       "name_en": "Karapparambu",
-      "name_ml": "കാരപ്പറമ്പ്"
+      "name_ml": "കാരപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "55baad8a-53e8-4857-b84c-5e832df212f9",
       "ward_no": "6",
       "name_en": "Thottilakkal",
-      "name_ml": "തോട്ടിലാക്കല്‍"
+      "name_ml": "തോട്ടിലാക്കല്‍",
+      "rate": 75
     },
     {
       "id": "0e6d2623-6ae0-4e98-ace3-6157393c6865",
       "ward_no": "7",
       "name_en": "Puramannur",
-      "name_ml": "പുറമണ്ണൂര്‍"
+      "name_ml": "പുറമണ്ണൂര്‍",
+      "rate": 75
     },
     {
       "id": "b5d6a5e7-1edd-4e7d-b2d2-1ac6c4d47abb",
       "ward_no": "8",
       "name_en": "Irimbiliyam",
-      "name_ml": "ഇരിമ്പിളിയം"
+      "name_ml": "ഇരിമ്പിളിയം",
+      "rate": 75
     },
     {
       "id": "25985dc2-1cdc-43f7-9988-202e5f105d78",
       "ward_no": "9",
       "name_en": "Moscow",
-      "name_ml": "മോസ്ക്കോ"
+      "name_ml": "മോസ്ക്കോ",
+      "rate": 75
     },
     {
       "id": "9f43b501-103d-46b0-9e2e-2509c55deb11",
       "ward_no": "10",
       "name_en": "Velikulam",
-      "name_ml": "വേളികുളം"
+      "name_ml": "വേളികുളം",
+      "rate": 65
     },
     {
       "id": "f2a54946-d39d-4122-b12e-419c306a326b",
       "ward_no": "11",
       "name_en": "Mankery",
-      "name_ml": "മങ്കേരി"
+      "name_ml": "മങ്കേരി",
+      "rate": 75
     },
     {
       "id": "d4c15b70-21e6-490f-9af2-883cfd472854",
       "ward_no": "12",
       "name_en": "Vattapparamb",
-      "name_ml": "വട്ടപ്പറമ്പ്"
+      "name_ml": "വട്ടപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "8d258dd0-9e55-447d-a00f-08a9c377c5a3",
       "ward_no": "13",
       "name_en": "Thirunilam",
-      "name_ml": "തിരുനിലം"
+      "name_ml": "തിരുനിലം",
+      "rate": 95
     },
     {
       "id": "8a3ea5d6-b77d-47c3-9444-c7821ba0cc3c",
       "ward_no": "14",
       "name_en": "Vendalloor South",
-      "name_ml": "വെണ്ടല്ലൂര്‍ തെക്ക്"
+      "name_ml": "വെണ്ടല്ലൂര്‍ തെക്ക്",
+      "rate": 95
     },
     {
       "id": "1cffef68-3db3-466c-98ac-75db335bb0dc",
       "ward_no": "15",
       "name_en": "Vendalloor North",
-      "name_ml": "വെണ്ടല്ലൂര്‍ നോര്‍ത്ത്"
+      "name_ml": "വെണ്ടല്ലൂര്‍ നോര്‍ത്ത്",
+      "rate": 95
     },
     {
       "id": "834f009b-2bce-4a29-b108-413c853d6192",
       "ward_no": "16",
       "name_en": "Alumkoottam",
-      "name_ml": "ആലുംകൂട്ടം"
+      "name_ml": "ആലുംകൂട്ടം",
+      "rate": 75
     },
     {
       "id": "8cea537f-5c5a-449e-9c14-d28acf815568",
       "ward_no": "17",
       "name_en": "Kottappuram",
-      "name_ml": "കോട്ടപ്പുറം"
+      "name_ml": "കോട്ടപ്പുറം",
+      "rate": 75
     }
   ],
   "towns": [],

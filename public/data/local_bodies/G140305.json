@@ -33,115 +33,134 @@
       "id": "8ef7e2b5-0900-4340-b369-39100e3345c6",
       "ward_no": "1",
       "name_en": "Kilingar",
-      "name_ml": "കിളിങ്കാര്‍"
+      "name_ml": "കിളിങ്കാര്‍",
+      "rate": 95
     },
     {
       "id": "c764247d-18fe-4d77-af46-2a34b393dc22",
       "ward_no": "2",
       "name_en": "Neerchal",
-      "name_ml": "നീര്‍ച്ചാല്‍"
+      "name_ml": "നീര്‍ച്ചാല്‍",
+      "rate": 95
     },
     {
       "id": "2918c770-e08f-4605-b2a7-94c6db8f915c",
       "ward_no": "3",
       "name_en": "Kuntikana",
-      "name_ml": "കുണ്ടിക്കാന"
+      "name_ml": "കുണ്ടിക്കാന",
+      "rate": 75
     },
     {
       "id": "1dcfe946-24c2-49f8-aa51-cec80ea1bc49",
       "ward_no": "4",
       "name_en": "Kuntalmoola",
-      "name_ml": "കുണ്ടാല്‍മൂല"
+      "name_ml": "കുണ്ടാല്‍മൂല",
+      "rate": 75
     },
     {
       "id": "f247c79c-bc92-46f8-aa79-0e4f7bf08547",
       "ward_no": "5",
       "name_en": "Pallathadka",
-      "name_ml": "പളളത്തട്ക്ക"
+      "name_ml": "പളളത്തട്ക്ക",
+      "rate": 95
     },
     {
       "id": "5526ba53-003e-4ed3-9652-84fd1754dbf9",
       "ward_no": "6",
       "name_en": "Kedenji",
-      "name_ml": "കെടഞ്ചി"
+      "name_ml": "കെടഞ്ചി",
+      "rate": 65
     },
     {
       "id": "05112a0b-35a0-4921-b35e-33de48d6e7f5",
       "ward_no": "7",
       "name_en": "Kuduppamkuzhi",
-      "name_ml": "കുടുപ്പംകുഴി"
+      "name_ml": "കുടുപ്പംകുഴി",
+      "rate": 75
     },
     {
       "id": "0ff312be-2759-4b38-94cc-2f7a94e2b633",
       "ward_no": "8",
       "name_en": "Vidyagiri",
-      "name_ml": "വിദ്യാഗിരി"
+      "name_ml": "വിദ്യാഗിരി",
+      "rate": 65
     },
     {
       "id": "e0f48d00-aa9c-4b24-a68f-4d35f473bd51",
       "ward_no": "9",
       "name_en": "Badiadka",
-      "name_ml": "ബദിയഡുക്ക"
+      "name_ml": "ബദിയഡുക്ക",
+      "rate": 65
     },
     {
       "id": "cfc879aa-c4af-43a9-80d8-b720d96b49d6",
       "ward_no": "10",
       "name_en": "Beejanthadka",
-      "name_ml": "ബീജന്തട്ക്ക"
+      "name_ml": "ബീജന്തട്ക്ക",
+      "rate": 75
     },
     {
       "id": "0548cc5d-79b6-4335-9fa7-de5ad2784cde",
       "ward_no": "11",
       "name_en": "Chedekal",
-      "name_ml": "ചെടേക്കാല്‍"
+      "name_ml": "ചെടേക്കാല്‍",
+      "rate": 75
     },
     {
       "id": "b50a8ddc-2e56-4d8d-b7f2-0ecd64560e16",
       "ward_no": "12",
       "name_en": "Perdala",
-      "name_ml": "പെരഡാല"
+      "name_ml": "പെരഡാല",
+      "rate": 65
     },
     {
       "id": "a799bd3d-7bd2-4b57-9020-a20a93dfb392",
       "ward_no": "13",
       "name_en": "Kanyappady",
-      "name_ml": "കന്യപ്പാടി"
+      "name_ml": "കന്യപ്പാടി",
+      "rate": 75
     },
     {
       "id": "a1e9ffc5-1e94-4031-90c6-537fca2cf752",
       "ward_no": "14",
       "name_en": "Pattaje",
-      "name_ml": "പട്ടാജെ"
+      "name_ml": "പട്ടാജെ",
+      "rate": 65
     },
     {
       "id": "775df594-3149-4908-80dd-8f428577e3a1",
       "ward_no": "15",
       "name_en": "Manya",
-      "name_ml": "മാന്യ"
+      "name_ml": "മാന്യ",
+      "rate": 75
     },
     {
       "id": "24c9c0fc-3b76-49b8-80d0-32a79fd86fa3",
       "ward_no": "16",
       "name_en": "Birminadka",
-      "name_ml": "ബിര്‍മ്മിനട്ക്ക"
+      "name_ml": "ബിര്‍മ്മിനട്ക്ക",
+      "rate": 65
     },
     {
       "id": "141ae5ec-c012-4f3c-99e2-ce0dc3bb2809",
       "ward_no": "17",
       "name_en": "Malladka",
-      "name_ml": "മല്ലട്ക്ക"
+      "name_ml": "മല്ലട്ക്ക",
+      "rate": 75
     },
     {
       "id": "17b8999b-9a35-4266-94e3-897dac5eb141",
       "ward_no": "18",
       "name_en": "Kunjar",
-      "name_ml": "കുഞ്ചാര്‍"
+      "name_ml": "കുഞ്ചാര്‍",
+      "rate": 75
     },
     {
       "id": "4a121803-046f-4db4-91f1-f0744c1448c5",
       "ward_no": "19",
       "name_en": "Bela",
-      "name_ml": "ബേള"
+      "name_ml": "ബേള",
+      "rate": 75
     }
   ],
   "towns": [],

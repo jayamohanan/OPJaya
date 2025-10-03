@@ -33,133 +33,155 @@
       "id": "87b5bb73-bd44-4aed-8de5-103e58e0a4aa",
       "ward_no": "1",
       "name_en": "Peringolam North",
-      "name_ml": "പെരിങ്ങൊളം നോര്‍ത്ത്"
+      "name_ml": "പെരിങ്ങൊളം നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "644a79df-7ebc-4efd-8fc6-aa8b5a1e9f63",
       "ward_no": "2",
       "name_en": "Peringolam",
-      "name_ml": "പെരിങ്ങൊളം"
+      "name_ml": "പെരിങ്ങൊളം",
+      "rate": 75
     },
     {
       "id": "d5bdfd4f-32d0-45c7-87dc-55780181153f",
       "ward_no": "3",
       "name_en": "Mundakkal",
-      "name_ml": "മുണ്ടക്കല്‍"
+      "name_ml": "മുണ്ടക്കല്‍",
+      "rate": 95
     },
     {
       "id": "9992a1fc-438d-48fb-92f6-4c48a5abbaf6",
       "ward_no": "4",
       "name_en": "Cherukulathoor",
-      "name_ml": "ചെറുകുളത്തൂര്‍"
+      "name_ml": "ചെറുകുളത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "1492e5a3-b930-4db4-bf29-f0b00f6378b1",
       "ward_no": "5",
       "name_en": "Pariyangad",
-      "name_ml": "പരിയങ്ങാട്"
+      "name_ml": "പരിയങ്ങാട്",
+      "rate": 75
     },
     {
       "id": "ff455de5-33a1-4faf-9c70-0582e2687603",
       "ward_no": "6",
       "name_en": "Pariyangad West",
-      "name_ml": "പരിയങ്ങാട് വെസ്റ്റ്"
+      "name_ml": "പരിയങ്ങാട് വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "8c018f9b-08e0-4c66-bb15-9f4cbecbe76e",
       "ward_no": "7",
       "name_en": "Peruvayal North",
-      "name_ml": "പെരുവയല്‍ നോര്‍ത്ത്"
+      "name_ml": "പെരുവയല്‍ നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "85442a00-bf99-4258-8d2e-b5aa5b5f7c3b",
       "ward_no": "8",
       "name_en": "Peruvayal",
-      "name_ml": "പെരുവയല്‍"
+      "name_ml": "പെരുവയല്‍",
+      "rate": 65
     },
     {
       "id": "a8db0da5-3ac6-45b0-bc6e-bce65206d740",
       "ward_no": "9",
       "name_en": "Kayalam",
-      "name_ml": "കായലം"
+      "name_ml": "കായലം",
+      "rate": 75
     },
     {
       "id": "c530de04-d537-4943-bd09-fae387c06e81",
       "ward_no": "10",
       "name_en": "Peruvayal West",
-      "name_ml": "പെരുവയല്‍ വെസ്റ്റ്"
+      "name_ml": "പെരുവയല്‍ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "917d020f-dcfa-4993-b18d-7df12deffdbf",
       "ward_no": "11",
       "name_en": "Poovattuparamba East",
-      "name_ml": "പുവ്വാട്ടുപറമ്പ് ഈസ്റ്റ്"
+      "name_ml": "പുവ്വാട്ടുപറമ്പ് ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "41137459-a5dd-4097-b14c-0eaa6d49b6ee",
       "ward_no": "12",
       "name_en": "Aluvinpilakkil",
-      "name_ml": "അലുവിന്‍പിലാക്കില്‍"
+      "name_ml": "അലുവിന്‍പിലാക്കില്‍",
+      "rate": 75
     },
     {
       "id": "fedfeb72-e3ed-4c1f-8cf4-d3c4b9438f76",
       "ward_no": "13",
       "name_en": "Poovattuparamba West",
-      "name_ml": "പുവ്വാട്ടുപറമ്പ് വെസ്റ്റ്"
+      "name_ml": "പുവ്വാട്ടുപറമ്പ് വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "391e9fc8-f0ba-485e-a159-44b0e93a1397",
       "ward_no": "14",
       "name_en": "Thadaparamba",
-      "name_ml": "തടപ്പറമ്പ്"
+      "name_ml": "തടപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "07687906-5b7b-4250-967b-5eba8d51a3ce",
       "ward_no": "15",
       "name_en": "Kuttikkattoor South",
-      "name_ml": "കുറ്റിക്കാട്ടൂര്‍ സൌത്ത്"
+      "name_ml": "കുറ്റിക്കാട്ടൂര്‍ സൌത്ത്",
+      "rate": 95
     },
     {
       "id": "2a3bfadb-1b48-41ee-a124-cfa44c4d96fa",
       "ward_no": "16",
       "name_en": "Perya",
-      "name_ml": "പേര്യ"
+      "name_ml": "പേര്യ",
+      "rate": 75
     },
     {
       "id": "d9789426-c478-47c0-91c0-78592a4eeafb",
       "ward_no": "17",
       "name_en": "Keezhmadu",
-      "name_ml": "കീഴ്മാട്"
+      "name_ml": "കീഴ്മാട്",
+      "rate": 65
     },
     {
       "id": "7416f273-53d6-4bfc-98a4-7b7096ff12a9",
       "ward_no": "18",
       "name_en": "Velliparamba",
-      "name_ml": "വെള്ളിപ്പറമ്പ്"
+      "name_ml": "വെള്ളിപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "a315e686-b1da-49b6-bc36-451fcd45eede",
       "ward_no": "19",
       "name_en": "Velliparamba North",
-      "name_ml": "വെള്ളിപ്പറമ്പ് നോര്‍ത്ത്"
+      "name_ml": "വെള്ളിപ്പറമ്പ് നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "629fc75a-4bb6-42c7-91a3-5690b6d0e3fc",
       "ward_no": "20",
       "name_en": "Velliparamba East",
-      "name_ml": "വെള്ളിപ്പറമ്പ് ഈസ്റ്റ്"
+      "name_ml": "വെള്ളിപ്പറമ്പ് ഈസ്റ്റ്",
+      "rate": 65
     },
     {
       "id": "b0e8a9ef-4a88-47b2-beb3-786737ebe01b",
       "ward_no": "21",
       "name_en": "Gosalikkunnu",
-      "name_ml": "ഗോശാലിക്കുന്ന്"
+      "name_ml": "ഗോശാലിക്കുന്ന്",
+      "rate": 75
     },
     {
       "id": "aa6ee402-f10e-4fa2-b521-a5497a654c3d",
       "ward_no": "22",
       "name_en": "Kuttikkattoor",
-      "name_ml": "കുറ്റിക്കാട്ടൂര്‍"
+      "name_ml": "കുറ്റിക്കാട്ടൂര്‍",
+      "rate": 75
     }
   ],
   "towns": [],

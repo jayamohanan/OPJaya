@@ -33,103 +33,120 @@
       "id": "1abb7489-1f99-4cec-8e3d-58fd195e35f0",
       "ward_no": "1",
       "name_en": "Marottichodu",
-      "name_ml": "മരോട്ടിച്ചോട്"
+      "name_ml": "മരോട്ടിച്ചോട്",
+      "rate": 65
     },
     {
       "id": "ff51a8a4-8094-403f-9ee3-9760eaa98621",
       "ward_no": "2",
       "name_en": "Pothiyakkara",
-      "name_ml": "പൊതിയക്കര"
+      "name_ml": "പൊതിയക്കര",
+      "rate": 95
     },
     {
       "id": "2d75c2f9-968f-4367-b496-7c8e79582cd9",
       "ward_no": "3",
       "name_en": "Vattapparambu",
-      "name_ml": "വട്ടപ്പറമ്പ്"
+      "name_ml": "വട്ടപ്പറമ്പ്",
+      "rate": 65
     },
     {
       "id": "ba97d287-d059-4f25-bad7-83f56858ced2",
       "ward_no": "4",
       "name_en": "Yordhanapuram",
-      "name_ml": "യോര്‍ദ്ദനാപുരം"
+      "name_ml": "യോര്‍ദ്ദനാപുരം",
+      "rate": 65
     },
     {
       "id": "b34130cd-e7d6-4553-81d9-b6d01d62c859",
       "ward_no": "5",
       "name_en": "Thottakam",
-      "name_ml": "തോട്ടകം"
+      "name_ml": "തോട്ടകം",
+      "rate": 75
     },
     {
       "id": "b8021019-b6ce-4772-8f4d-c0891a6cebd2",
       "ward_no": "6",
       "name_en": "Nettinampilly",
-      "name_ml": "നെട്ടിനംപിളളി"
+      "name_ml": "നെട്ടിനംപിളളി",
+      "rate": 75
     },
     {
       "id": "dbbfcfbc-16c8-4b3f-897b-375605e001ba",
       "ward_no": "7",
       "name_en": "Manickamangalam North",
-      "name_ml": "മാണിക്യമംഗലം നോര്‍ത്ത്"
+      "name_ml": "മാണിക്യമംഗലം നോര്‍ത്ത്",
+      "rate": 95
     },
     {
       "id": "72ded891-8a76-4909-9b44-7a8c0e17a695",
       "ward_no": "8",
       "name_en": "Manickamangalam South",
-      "name_ml": "മാണിക്യമംഗലം സൌത്ത്"
+      "name_ml": "മാണിക്യമംഗലം സൌത്ത്",
+      "rate": 75
     },
     {
       "id": "64df2f57-aad3-41e7-be33-cddb0dfd389e",
       "ward_no": "9",
       "name_en": "Panayali",
-      "name_ml": "പനയാലി"
+      "name_ml": "പനയാലി",
+      "rate": 75
     },
     {
       "id": "2f58f97b-c6fe-4219-b845-39e95e168915",
       "ward_no": "10",
       "name_en": "Mekkalady",
-      "name_ml": "മേക്കാലടി"
+      "name_ml": "മേക്കാലടി",
+      "rate": 75
     },
     {
       "id": "dc7e4d06-1b17-4ebe-b915-416ff2591b19",
       "ward_no": "11",
       "name_en": "Kalady Town",
-      "name_ml": "കാലടി ടൌണ്‍"
+      "name_ml": "കാലടി ടൌണ്‍",
+      "rate": 75
     },
     {
       "id": "9824de42-7533-4107-949f-afc57ab7df8c",
       "ward_no": "12",
       "name_en": "Kaippattoor",
-      "name_ml": "കൈപ്പട്ടൂര്‍"
+      "name_ml": "കൈപ്പട്ടൂര്‍",
+      "rate": 75
     },
     {
       "id": "1c7e9754-bd79-458c-9b54-f470c81e696d",
       "ward_no": "13",
       "name_en": "Mattoor North",
-      "name_ml": "മറ്റൂര്‍ നോര്‍ത്ത്"
+      "name_ml": "മറ്റൂര്‍ നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "9896c3ff-18fb-43b2-a846-244fd1daf248",
       "ward_no": "14",
       "name_en": "Mattoor South",
-      "name_ml": "മറ്റൂര്‍ സൌത്ത്"
+      "name_ml": "മറ്റൂര്‍ സൌത്ത്",
+      "rate": 95
     },
     {
       "id": "23eb570a-498b-4b93-9431-fd27641f6b8f",
       "ward_no": "15",
       "name_en": "Piraroor",
-      "name_ml": "പിരാരൂര്‍"
+      "name_ml": "പിരാരൂര്‍",
+      "rate": 75
     },
     {
       "id": "2ab1aeeb-b32f-49fb-b2c6-1d8ff6f90047",
       "ward_no": "16",
       "name_en": "Thevarmadom",
-      "name_ml": "തേവര്‍മഠം"
+      "name_ml": "തേവര്‍മഠം",
+      "rate": 65
     },
     {
       "id": "7ec39591-3578-4d3c-86cb-d6355cb1a5c7",
       "ward_no": "17",
       "name_en": "Mattoor West",
-      "name_ml": "മറ്റൂര്‍ വെസ്റ്റ്"
+      "name_ml": "മറ്റൂര്‍ വെസ്റ്റ്",
+      "rate": 75
     }
   ],
   "towns": [],

@@ -33,235 +33,274 @@
       "id": "2645ae82-6304-460e-a785-2d2083f9a857",
       "ward_no": "1",
       "name_en": "Muthoor North",
-      "name_ml": "മുത്തൂര്‍ നോര്‍ത്ത്"
+      "name_ml": "മുത്തൂര്‍ നോര്‍ത്ത്",
+      "rate": 75
     },
     {
       "id": "94aaa411-1aff-4df2-921f-b02935462c16",
       "ward_no": "2",
       "name_en": "Chumathra",
-      "name_ml": "ചുമത്ര"
+      "name_ml": "ചുമത്ര",
+      "rate": 75
     },
     {
       "id": "748c9f27-df61-45dd-9e59-4eaf769e8593",
       "ward_no": "3",
       "name_en": "Attuchira",
-      "name_ml": "ആറ്റുചിറ"
+      "name_ml": "ആറ്റുചിറ",
+      "rate": 75
     },
     {
       "id": "1957caa7-4638-41df-b1a7-b5f6d084e384",
       "ward_no": "4",
       "name_en": "Kizhakkan Muthoor",
-      "name_ml": "കിഴക്കന്‍ മുത്തൂര്‍"
+      "name_ml": "കിഴക്കന്‍ മുത്തൂര്‍",
+      "rate": 75
     },
     {
       "id": "72ac94db-e746-4b32-be2f-ed79255666f0",
       "ward_no": "5",
       "name_en": "Varikad",
-      "name_ml": "വാരിക്കാട്"
+      "name_ml": "വാരിക്കാട്",
+      "rate": 75
     },
     {
       "id": "ff500049-3fa2-4f10-87bd-6825fa56a912",
       "ward_no": "6",
       "name_en": "Annavattom",
-      "name_ml": "അണ്ണവട്ടം"
+      "name_ml": "അണ്ണവട്ടം",
+      "rate": 75
     },
     {
       "id": "d3df7cee-f392-4120-b281-215c4fee5709",
       "ward_no": "7",
       "name_en": "Nattukadavu",
-      "name_ml": "നാട്ടുകടവ്"
+      "name_ml": "നാട്ടുകടവ്",
+      "rate": 75
     },
     {
       "id": "c9aca41b-fa0d-463b-9cf7-036598e76cef",
       "ward_no": "8",
       "name_en": "College Ward",
-      "name_ml": "കോളേജ് വാര്‍ഡ്"
+      "name_ml": "കോളേജ് വാര്‍ഡ്",
+      "rate": 65
     },
     {
       "id": "9b599167-3934-4ea5-9fa5-84d4bf0f182d",
       "ward_no": "9",
       "name_en": "Amalloor West",
-      "name_ml": "ആമല്ലൂര്‍ വെസ്റ്റ്"
+      "name_ml": "ആമല്ലൂര്‍ വെസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "e08dd0c7-e1ea-42cd-b12e-6aa240ffacf9",
       "ward_no": "10",
       "name_en": "Amalloor East",
-      "name_ml": "ആമല്ലൂര്‍ ഈസ്റ്റ്"
+      "name_ml": "ആമല്ലൂര്‍ ഈസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "3d001737-6a10-433b-8752-7259652cc0ae",
       "ward_no": "11",
       "name_en": "Meenthalakara",
-      "name_ml": "മീന്തലക്കര"
+      "name_ml": "മീന്തലക്കര",
+      "rate": 75
     },
     {
       "id": "60f84dc8-9cba-4dba-a3c2-3c0ed6e6d4d4",
       "ward_no": "12",
       "name_en": "Manjadi",
-      "name_ml": "മഞ്ഞാടി"
+      "name_ml": "മഞ്ഞാടി",
+      "rate": 95
     },
     {
       "id": "4cd8ade2-f901-40e4-bc0c-40748f7303db",
       "ward_no": "13",
       "name_en": "Railway Station",
-      "name_ml": "റയില്‍വേ സ്റ്റേഷന്‍"
+      "name_ml": "റയില്‍വേ സ്റ്റേഷന്‍",
+      "rate": 75
     },
     {
       "id": "e6040997-48e7-4f80-89f3-08de01df78d6",
       "ward_no": "14",
       "name_en": "Pushpagiri Ward",
-      "name_ml": "പുഷ���പഗിരി വാര്‍ഡ്"
+      "name_ml": "പുഷ���പഗിരി വാര്‍ഡ്",
+      "rate": 95
     },
     {
       "id": "c5b33a9f-ddee-4810-bdb0-cd6a6b4c17c3",
       "ward_no": "15",
       "name_en": "Thymala",
-      "name_ml": "തൈമല"
+      "name_ml": "തൈമല",
+      "rate": 75
     },
     {
       "id": "5a25f7f9-70d5-4f6d-b6f5-0bcf00839598",
       "ward_no": "16",
       "name_en": "Kattode",
-      "name_ml": "കറ്റോട്"
+      "name_ml": "കറ്റോട്",
+      "rate": 65
     },
     {
       "id": "1d8f8971-5b51-4346-b324-a68330f008f6",
       "ward_no": "17",
       "name_en": "Eruvellipra",
-      "name_ml": "ഇരുവള്ളിപ്ര"
+      "name_ml": "ഇരുവള്ളിപ്ര",
+      "rate": 75
     },
     {
       "id": "7e3bf367-78fc-4c35-abc4-f2e64166474b",
       "ward_no": "18",
       "name_en": "Thondara",
-      "name_ml": "തോണ്ടറ"
+      "name_ml": "തോണ്ടറ",
+      "rate": 75
     },
     {
       "id": "929c9349-eb75-4953-a660-ecfbfd2c08ec",
       "ward_no": "19",
       "name_en": "Thirumoolapuram East",
-      "name_ml": "തിരുമൂലപുരം ഈസ്റ്റ്"
+      "name_ml": "തിരുമൂലപുരം ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "10027825-532e-452a-9148-38093c8a4b50",
       "ward_no": "20",
       "name_en": "Anjilimood",
-      "name_ml": "ആഞ്ഞിലിമൂട്"
+      "name_ml": "ആഞ്ഞിലിമൂട്",
+      "rate": 75
     },
     {
       "id": "c6550e55-c279-4894-b162-3031856e4ec6",
       "ward_no": "21",
       "name_en": "Thirumoolapuram West",
-      "name_ml": "തിരുമൂലപുരം വെസ്റ്റ്"
+      "name_ml": "തിരുമൂലപുരം വെസ്റ്റ്",
+      "rate": 95
     },
     {
       "id": "0d033c6a-0f4f-4685-b480-0bc7467ac3eb",
       "ward_no": "22",
       "name_en": "Sree Ramakrishna Asramam",
-      "name_ml": "ശ്രീരാമകൃഷ്ണാ ശ്രമം"
+      "name_ml": "ശ്രീരാമകൃഷ്ണാ ശ്രമം",
+      "rate": 65
     },
     {
       "id": "f71392a2-8030-44ba-be06-4e6e8fc1f6be",
       "ward_no": "23",
       "name_en": "Kulakkad",
-      "name_ml": "കുളക്കാട്"
+      "name_ml": "കുളക്കാട്",
+      "rate": 75
     },
     {
       "id": "1bc19e14-246d-4aeb-b041-be4c7ecaf70a",
       "ward_no": "24",
       "name_en": "Thukallassery",
-      "name_ml": "തുകലശ്ശേരി"
+      "name_ml": "തുകലശ്ശേരി",
+      "rate": 75
     },
     {
       "id": "cb9692af-216f-4174-866c-bd9c858e92e5",
       "ward_no": "25",
       "name_en": "Mathil Bhagam",
-      "name_ml": "മതില്‍ഭാഗം"
+      "name_ml": "മതില്‍ഭാഗം",
+      "rate": 75
     },
     {
       "id": "676272de-b5b7-4cdd-89a2-4f19e44d2129",
       "ward_no": "26",
       "name_en": "Kizhakkummuri",
-      "name_ml": "കിഴക്കുംമുറി"
+      "name_ml": "കിഴക്കുംമുറി",
+      "rate": 95
     },
     {
       "id": "77fd1e8e-acda-4094-a024-01e7686d4770",
       "ward_no": "27",
       "name_en": "Sreevallabha",
-      "name_ml": "ശ്രീവല്ലഭ"
+      "name_ml": "ശ്രീവല്ലഭ",
+      "rate": 65
     },
     {
       "id": "256d62d4-66d5-4714-9e3f-09c34d7f0994",
       "ward_no": "28",
       "name_en": "Kavumbhagom",
-      "name_ml": "കാവുംഭാഗം"
+      "name_ml": "കാവുംഭാഗം",
+      "rate": 65
     },
     {
       "id": "43f12ff5-3f13-4940-84df-1004473e9fa0",
       "ward_no": "29",
       "name_en": "Uthramel",
-      "name_ml": "ഉത്രമേല്‍"
+      "name_ml": "ഉത്രമേല്‍",
+      "rate": 65
     },
     {
       "id": "3438cb37-9a68-42d2-b5a6-e6a940eb332c",
       "ward_no": "30",
       "name_en": "Azhiyidathuchira",
-      "name_ml": "അഴിയിടത്തുചിറ"
+      "name_ml": "അഴിയിടത്തുചിറ",
+      "rate": 75
     },
     {
       "id": "339fde8b-93e7-4968-a11c-b8d3d1a60fc2",
       "ward_no": "31",
       "name_en": "Mannankarachira",
-      "name_ml": "മന്നംകരച്ചിറ"
+      "name_ml": "മന്നംകരച്ചിറ",
+      "rate": 75
     },
     {
       "id": "9549c6dc-15a9-474a-a05d-070299d2833a",
       "ward_no": "32",
       "name_en": "Anchalkutty",
-      "name_ml": "അഞ്ചല്‍കുറ്റി"
+      "name_ml": "അഞ്ചല്‍കുറ്റി",
+      "rate": 75
     },
     {
       "id": "192c452c-3291-4cb8-b5a8-8df4a2c205d9",
       "ward_no": "33",
       "name_en": "M G M Ward",
-      "name_ml": "എം.ജി.എം വാര്‍ഡ്"
+      "name_ml": "എം.ജി.എം വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "88ff6ee6-8ad2-4deb-adb7-b3160229697c",
       "ward_no": "34",
       "name_en": "Mary Giri",
-      "name_ml": "മേരിഗിരി"
+      "name_ml": "മേരിഗിരി",
+      "rate": 75
     },
     {
       "id": "e8b4ce88-6edf-4170-a208-ae8c51c597c6",
       "ward_no": "35",
       "name_en": "Town Ward",
-      "name_ml": "ടൗണ്‍ വാര്‍ഡ്"
+      "name_ml": "ടൗണ്‍ വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "cc1bc628-4606-43df-8c37-493cfb6c2aba",
       "ward_no": "36",
       "name_en": "Ramanchira",
-      "name_ml": "രാമന്‍ചിറ"
+      "name_ml": "രാമന്‍ചിറ",
+      "rate": 95
     },
     {
       "id": "dc9f5e06-3f8e-4dca-b6c8-44a4d5a8e625",
       "ward_no": "37",
       "name_en": "J P Nagar",
-      "name_ml": "ജെ.പി.നഗര്‍"
+      "name_ml": "ജെ.പി.നഗര്‍",
+      "rate": 75
     },
     {
       "id": "5cf2848e-bbb5-4b37-b431-1d2d2bc2f727",
       "ward_no": "38",
       "name_en": "Kottalil",
-      "name_ml": "കോട്ടാലില്‍"
+      "name_ml": "കോട്ടാലില്‍",
+      "rate": 75
     },
     {
       "id": "1fb9f67d-e6b5-4193-a339-09f66b188aa6",
       "ward_no": "39",
       "name_en": "Muthoor",
-      "name_ml": "മുത്തൂര്‍"
+      "name_ml": "മുത്തൂര്‍",
+      "rate": 75
     }
   ],
   "towns": [],

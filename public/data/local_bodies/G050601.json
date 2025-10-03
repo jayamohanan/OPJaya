@@ -33,79 +33,92 @@
       "id": "b6293d27-5760-4a4c-b7fd-a8ff4939e01c",
       "ward_no": "1",
       "name_en": "Kalluvettom",
-      "name_ml": "കല്ലുവെട്ടം"
+      "name_ml": "കല്ലുവെട്ടം",
+      "rate": 75
     },
     {
       "id": "2a5794af-e70c-4bff-b911-d7d3b2b16bbf",
       "ward_no": "2",
       "name_en": "Vadakkumbagham",
-      "name_ml": "വടക്കുംഭാഗം"
+      "name_ml": "വടക്കുംഭാഗം",
+      "rate": 95
     },
     {
       "id": "f63b6b2b-4474-4e2f-bad7-f17bc4bf94cc",
       "ward_no": "3",
       "name_en": "Elaveezhapoonjira",
-      "name_ml": "ഇലവീഴപൂഞ്ചിറ"
+      "name_ml": "ഇലവീഴപൂഞ്ചിറ",
+      "rate": 65
     },
     {
       "id": "1192fd0d-88f9-4e33-a2c6-750173b06f83",
       "ward_no": "4",
       "name_en": "Melukavu",
-      "name_ml": "മേലുകാവ്"
+      "name_ml": "മേലുകാവ്",
+      "rate": 75
     },
     {
       "id": "13c803bc-21d0-4fd2-b4c4-cb6ef50c63c0",
       "ward_no": "5",
       "name_en": "Melukavumattom",
-      "name_ml": "മേലുകാവ്മറ്റം"
+      "name_ml": "മേലുകാവ്മറ്റം",
+      "rate": 75
     },
     {
       "id": "a3096138-882c-448a-85eb-107e57e28533",
       "ward_no": "6",
       "name_en": "Konipadu",
-      "name_ml": "കൊണിപ്പാട്‌"
+      "name_ml": "കൊണിപ്പാട്‌",
+      "rate": 75
     },
     {
       "id": "9a7fb73d-2e43-4378-8b62-32b4976433fa",
       "ward_no": "7",
       "name_en": "Vakakkadu",
-      "name_ml": "വകക്കാട്‌"
+      "name_ml": "വകക്കാട്‌",
+      "rate": 95
     },
     {
       "id": "2f9a381e-634a-4a5b-bfb5-c196c2671658",
       "ward_no": "8",
       "name_en": "Edamaruku",
-      "name_ml": "ഇടമറുക്"
+      "name_ml": "ഇടമറുക്",
+      "rate": 75
     },
     {
       "id": "5c61e121-4681-4624-8ca2-6c0e4a80678b",
       "ward_no": "9",
       "name_en": "Kailasam",
-      "name_ml": "കൈലാസം"
+      "name_ml": "കൈലാസം",
+      "rate": 65
     },
     {
       "id": "d35a1cb9-5994-4710-a812-cdc3536245a2",
       "ward_no": "10",
       "name_en": "Kizhakkenmattom",
-      "name_ml": "കിഴക്കെന്‍മറ്റം"
+      "name_ml": "കിഴക്കെന്‍മറ്റം",
+      "rate": 75
     },
     {
       "id": "1e3f2f32-cfa7-487a-8dd5-bdb9590bc12f",
       "ward_no": "11",
       "name_en": "Piousmount",
-      "name_ml": "പയസ്മൌണ്ട്"
+      "name_ml": "പയസ്മൌണ്ട്",
+      "rate": 75
     },
     {
       "id": "3ac22944-cb78-49df-963a-7fcb5ad46037",
       "ward_no": "12",
       "name_en": "Chalamattom",
-      "name_ml": "ചാലമറ്റം"
+      "name_ml": "ചാലമറ്റം",
+      "rate": 65
     },
     {
       "id": "50349cb5-91e6-42de-8a9e-4c2fd3890914",
       "ward_no": "13",
       "name_en": "Kulathikandam",
-      "name_ml": "കുളത്തിക്കണ്ടം"
+      "name_ml": "കുളത്തിക്കണ്ടം",
+      "rate": 95
     }
   ],
   "towns": [],

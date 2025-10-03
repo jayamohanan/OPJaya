@@ -33,139 +33,162 @@
       "id": "ad3823db-f6b2-42fb-816c-aceaf1069a99",
       "ward_no": "1",
       "name_en": "Kolappuram East",
-      "name_ml": "കൊളപ്പുറം ഈസ്റ്റ്"
+      "name_ml": "കൊളപ്പുറം ഈസ്റ്റ്",
+      "rate": 75
     },
     {
       "id": "2d775e85-8cc7-4745-83f2-62415bef57b8",
       "ward_no": "2",
       "name_en": "Kuttoor North",
-      "name_ml": "കുറ്റൂര്‍ നോര്‍ത്ത്"
+      "name_ml": "കുറ്റൂര്‍ നോര്‍ത്ത്",
+      "rate": 65
     },
     {
       "id": "3c65da5b-582a-4ce8-b566-c38802db4e7a",
       "ward_no": "3",
       "name_en": "Poonkudaya",
-      "name_ml": "പൂങ്കുടായ"
+      "name_ml": "പൂങ്കുടായ",
+      "rate": 75
     },
     {
       "id": "d4352fa5-017d-4940-b1cb-212c5a6c8c3f",
       "ward_no": "4",
       "name_en": "Pakkadapuraya",
-      "name_ml": "പാക്കടപുറായ"
+      "name_ml": "പാക്കടപുറായ",
+      "rate": 75
     },
     {
       "id": "ebad6d9b-4ced-43b6-a4f1-43ae58aca144",
       "ward_no": "5",
       "name_en": "Balikkadu",
-      "name_ml": "ബാലിക്കാട്"
+      "name_ml": "ബാലിക്കാട്",
+      "rate": 75
     },
     {
       "id": "76b7fa97-9be4-4b16-b0a1-a3ee6ae0d53f",
       "ward_no": "6",
       "name_en": "Kannattippadi",
-      "name_ml": "കണ്ണാട്ടിപ്പടി"
+      "name_ml": "കണ്ണാട്ടിപ്പടി",
+      "rate": 75
     },
     {
       "id": "a0544b82-c5ad-4fa9-bd79-7a49b86df545",
       "ward_no": "7",
       "name_en": "Gandhikkunnu",
-      "name_ml": "ഗാന്ധിക്കുന്ന്"
+      "name_ml": "ഗാന്ധിക്കുന്ന്",
+      "rate": 75
     },
     {
       "id": "b554a5ac-ef69-4acb-bdb6-734dc092e9bf",
       "ward_no": "8",
       "name_en": "Vengara Town",
-      "name_ml": "വേങ്ങര ടൌണ്‍"
+      "name_ml": "വേങ്ങര ടൌണ്‍",
+      "rate": 75
     },
     {
       "id": "aeac7178-f000-473a-81a2-bdf01a8aefc1",
       "ward_no": "9",
       "name_en": "Nelliparambu",
-      "name_ml": "നെല്ലിപ്പറമ്പ്"
+      "name_ml": "നെല്ലിപ്പറമ്പ്",
+      "rate": 75
     },
     {
       "id": "c0b0930a-12f5-48fa-ba05-b9acde7de469",
       "ward_no": "10",
       "name_en": "Areekualam",
-      "name_ml": "അരീകുളം"
+      "name_ml": "അരീകുളം",
+      "rate": 75
     },
     {
       "id": "7f564635-328a-41f0-8d9b-dd847dc6b026",
       "ward_no": "11",
       "name_en": "Kuruvilkundu",
-      "name_ml": "കുറുവില്‍കുണ്ട്"
+      "name_ml": "കുറുവില്‍കുണ്ട്",
+      "rate": 75
     },
     {
       "id": "8ae78d81-1fdb-498a-808b-22f660d9f57b",
       "ward_no": "12",
       "name_en": "Chinakkal",
-      "name_ml": "ചിനക്കല്‍"
+      "name_ml": "ചിനക്കല്‍",
+      "rate": 75
     },
     {
       "id": "becb2150-4d72-4912-a160-1d007f4b0031",
       "ward_no": "13",
       "name_en": "Manhemadu",
-      "name_ml": "മഞ്ഞേമാട്"
+      "name_ml": "മഞ്ഞേമാട്",
+      "rate": 95
     },
     {
       "id": "3d2001c1-76d4-4a47-9a18-195fd6430578",
       "ward_no": "14",
       "name_en": "Puthanangadi",
-      "name_ml": "പുത്തനങ്ങാടി"
+      "name_ml": "പുത്തനങ്ങാടി",
+      "rate": 65
     },
     {
       "id": "46a6da83-f325-4883-8a85-8a44aa7a742e",
       "ward_no": "15",
       "name_en": "Muthalamadu",
-      "name_ml": "മുതലമാട്"
+      "name_ml": "മുതലമാട്",
+      "rate": 65
     },
     {
       "id": "3347e141-6ef2-4009-9919-dfb9876b2ae2",
       "ward_no": "16",
       "name_en": "Adakkappura",
-      "name_ml": "അടക്കാപുര"
+      "name_ml": "അടക്കാപുര",
+      "rate": 65
     },
     {
       "id": "c2309b34-faf7-4697-a898-7f55fb15e9af",
       "ward_no": "17",
       "name_en": "Pandikasala",
-      "name_ml": "പാണ്ടികശാല"
+      "name_ml": "പാണ്ടികശാല",
+      "rate": 95
     },
     {
       "id": "ee2c49b0-5386-4976-9a15-7ea80d1ceb95",
       "ward_no": "18",
       "name_en": "Mannilpilakkal",
-      "name_ml": "മണ്ണില്‍പിലാക്കല്‍"
+      "name_ml": "മണ്ണില്‍പിലാക്കല്‍",
+      "rate": 75
     },
     {
       "id": "bac3162f-18d2-4ab1-a830-388cd79c3d77",
       "ward_no": "19",
       "name_en": "Kacherippadi",
-      "name_ml": "കച്ചേരിപ്പടി"
+      "name_ml": "കച്ചേരിപ്പടി",
+      "rate": 75
     },
     {
       "id": "b2746e70-d599-4821-8208-9dd5ed44da01",
       "ward_no": "20",
       "name_en": "Parambilpadi",
-      "name_ml": "പറമ്പില്‍പടി"
+      "name_ml": "പറമ്പില്‍പടി",
+      "rate": 95
     },
     {
       "id": "04853e05-42e7-40de-b113-f34d0450395b",
       "ward_no": "21",
       "name_en": "Pangattukundu",
-      "name_ml": "പാങ്ങാട്ടുകുണ്ട്"
+      "name_ml": "പാങ്ങാട്ടുകുണ്ട്",
+      "rate": 95
     },
     {
       "id": "d0f160c6-5dbb-434e-beac-f02c9b60c4ee",
       "ward_no": "22",
       "name_en": "Pathumoochi",
-      "name_ml": "പത്തുമൂച്ചി"
+      "name_ml": "പത്തുമൂച്ചി",
+      "rate": 75
     },
     {
       "id": "191ac9a0-d4ba-488e-99aa-e35b7c4f5d04",
       "ward_no": "23",
       "name_en": "Kooriyadu",
-      "name_ml": "കൂരിയാട്"
+      "name_ml": "കൂരിയാട്",
+      "rate": 75
     }
   ],
   "towns": [],

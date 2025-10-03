@@ -33,199 +33,232 @@
       "id": "1b17abfc-383d-4232-8702-15a886efcdeb",
       "ward_no": "1",
       "name_en": "Thottakonam West",
-      "name_ml": "തോട്ടക്കോണം പടിഞ്ഞാറ്"
+      "name_ml": "തോട്ടക്കോണം പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "f325a9e6-9130-439e-9953-664bb54fdbba",
       "ward_no": "2",
       "name_en": "Thottakonam East",
-      "name_ml": "തോട്ടക്കോണം കിഴക്ക്"
+      "name_ml": "തോട്ടക്കോണം കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "6d5f4e12-22b2-4555-ab13-6f9a45f4e047",
       "ward_no": "3",
       "name_en": "Mulampuzha",
-      "name_ml": "മുളമ്പുഴ"
+      "name_ml": "മുളമ്പുഴ",
+      "rate": 95
     },
     {
       "id": "0bc2a4fb-7b1a-4c45-a742-4d537d58a276",
       "ward_no": "4",
       "name_en": "Mulampuzha East",
-      "name_ml": "മുളമ്പുഴ കിഴക്ക്"
+      "name_ml": "മുളമ്പുഴ കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "8cda364b-a93f-4541-9c21-414fa2ea31d5",
       "ward_no": "5",
       "name_en": "Mangaram West",
-      "name_ml": "മങ്ങാരം പടിഞ്ഞാറ്"
+      "name_ml": "മങ്ങാരം പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "fc66a85f-73a5-4a36-bbfd-2f189d4af74e",
       "ward_no": "6",
       "name_en": "Mangaram East",
-      "name_ml": "മങ്ങാരം കിഴക്ക്"
+      "name_ml": "മങ്ങാരം കിഴക്ക്",
+      "rate": 95
     },
     {
       "id": "89451196-5615-4d81-bba9-cd8782e9439e",
       "ward_no": "7",
       "name_en": "Thonnalloor East",
-      "name_ml": "തോന്നല്ലൂര്‍ കിഴക്ക്"
+      "name_ml": "തോന്നല്ലൂര്‍ കിഴക്ക്",
+      "rate": 95
     },
     {
       "id": "fcd83855-bd14-450e-922e-79b386c26b61",
       "ward_no": "8",
       "name_en": "Thonnalloor South",
-      "name_ml": "തോന്നല്ലൂര്‍ തെക്ക്"
+      "name_ml": "തോന്നല്ലൂര്‍ തെക്ക്",
+      "rate": 75
     },
     {
       "id": "716114e7-3998-40bc-8f91-d9f220b63ed3",
       "ward_no": "9",
       "name_en": "Ulamayil",
-      "name_ml": "ഉളമയില്‍"
+      "name_ml": "ഉളമയില്‍",
+      "rate": 95
     },
     {
       "id": "d3639857-58f9-4cb1-81f5-7aa3c0b14212",
       "ward_no": "10",
       "name_en": "Kadakkad",
-      "name_ml": "കടയ്ക്കാട്"
+      "name_ml": "കടയ്ക്കാട്",
+      "rate": 75
     },
     {
       "id": "248966a8-f5e3-4b33-a8bb-228333654246",
       "ward_no": "11",
       "name_en": "Kadakkad East",
-      "name_ml": "കടയ്ക്കാട് കിഴക്ക്"
+      "name_ml": "കടയ്ക്കാട് കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "56965311-ad6a-408d-990c-b53e2a2e7816",
       "ward_no": "12",
       "name_en": "Kurampala North",
-      "name_ml": "കുരമ്പാല വടക്ക്"
+      "name_ml": "കുരമ്പാല വടക്ക്",
+      "rate": 95
     },
     {
       "id": "bd84e6f1-c882-4881-bf8d-86cee4332bfd",
       "ward_no": "13",
       "name_en": "Kurampala South",
-      "name_ml": "കുരമ്പാല തെക്ക്"
+      "name_ml": "കുരമ്പാല തെക്ക്",
+      "rate": 95
     },
     {
       "id": "4c416cd0-540c-4704-ba9d-240544b58f98",
       "ward_no": "14",
       "name_en": "Kurampala Town",
-      "name_ml": "കുരമ്പാല ഠൌണ്‍"
+      "name_ml": "കുരമ്പാല ഠൌണ്‍",
+      "rate": 65
     },
     {
       "id": "e78d092b-3bbf-4c0e-8c5b-541c76173951",
       "ward_no": "15",
       "name_en": "Kurampala West",
-      "name_ml": "കുരമ്പാല പടിഞ്ഞാറ്"
+      "name_ml": "കുരമ്പാല പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "e0f3bd1f-aca9-449d-9da7-28d328061d59",
       "ward_no": "16",
       "name_en": "Athiramala East",
-      "name_ml": "ആതിരമല കിഴക്ക്"
+      "name_ml": "ആതിരമല കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "eb71c613-782d-4825-ac2c-a5f1a9cd31c5",
       "ward_no": "17",
       "name_en": "Athiramala West",
-      "name_ml": "ആതിരമല പടിഞ്ഞാറ്"
+      "name_ml": "ആതിരമല പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "0942c6c7-ad72-4928-a47a-6324a9f4d6e2",
       "ward_no": "18",
       "name_en": "Idayadi South",
-      "name_ml": "ഇടയാടി തെക്ക്"
+      "name_ml": "ഇടയാടി തെക്ക്",
+      "rate": 75
     },
     {
       "id": "80984ff5-b519-49ef-aeb0-675313e86a7a",
       "ward_no": "19",
       "name_en": "Idayadi",
-      "name_ml": "ഇടയാടി"
+      "name_ml": "ഇടയാടി",
+      "rate": 65
     },
     {
       "id": "cfa940e6-fdca-46e9-8155-7ea4b583f1aa",
       "ward_no": "20",
       "name_en": "Thavalamkulam",
-      "name_ml": "തവളംകുളം"
+      "name_ml": "തവളംകുളം",
+      "rate": 75
     },
     {
       "id": "b360ed68-26d7-4302-8541-2902045695d1",
       "ward_no": "21",
       "name_en": "Thavalamkulam South",
-      "name_ml": "തവളംകുളം തെക്ക്"
+      "name_ml": "തവളംകുളം തെക്ക്",
+      "rate": 75
     },
     {
       "id": "fff606b1-018a-4874-a336-c969f44eda54",
       "ward_no": "22",
       "name_en": "Chiramudi",
-      "name_ml": "ചിറമുടി"
+      "name_ml": "ചിറമുടി",
+      "rate": 75
     },
     {
       "id": "f1048822-a135-49eb-99ed-95fa4d190a77",
       "ward_no": "23",
       "name_en": "Chiramudi North",
-      "name_ml": "ചിറമുടി വടക്ക്"
+      "name_ml": "ചിറമുടി വടക്ക്",
+      "rate": 75
     },
     {
       "id": "9c90351f-3884-46b3-991d-c289c0f28d70",
       "ward_no": "24",
       "name_en": "Poozhikkadu",
-      "name_ml": "പൂഴിക്കാട്"
+      "name_ml": "പൂഴിക്കാട്",
+      "rate": 75
     },
     {
       "id": "a71deac4-8122-4dce-b81b-1b8a262ec339",
       "ward_no": "25",
       "name_en": "Medical Mission",
-      "name_ml": "മെഡിക്കല്‍ മിഷന്‍"
+      "name_ml": "മെഡിക്കല്‍ മിഷന്‍",
+      "rate": 95
     },
     {
       "id": "675bd14f-2cae-4501-aef4-97e170e28d76",
       "ward_no": "26",
       "name_en": "Pandalam Town",
-      "name_ml": "പന്തളം ഠൌണ്‍"
+      "name_ml": "പന്തളം ഠൌണ്‍",
+      "rate": 75
     },
     {
       "id": "1a230a8e-22f4-4000-9614-3019df530b25",
       "ward_no": "27",
       "name_en": "Pandalam Town West",
-      "name_ml": "പന്തളം ഠൌണ്‍ പടിഞ്ഞാറ്"
+      "name_ml": "പന്തളം ഠൌണ്‍ പടിഞ്ഞാറ്",
+      "rate": 75
     },
     {
       "id": "7c512a36-6e8d-45f5-bdcb-1fcf52dcafef",
       "ward_no": "28",
       "name_en": "Muttar",
-      "name_ml": "മുട്ടാര്‍"
+      "name_ml": "മുട്ടാര്‍",
+      "rate": 95
     },
     {
       "id": "c02e3686-ea23-46ad-8bc9-baa5afadbfd2",
       "ward_no": "29",
       "name_en": "Poozhikkadu West",
-      "name_ml": "പൂഴിക്കാട് പടിഞ്ഞാറ്"
+      "name_ml": "പൂഴിക്കാട് പടിഞ്ഞാറ്",
+      "rate": 95
     },
     {
       "id": "8af0de3b-a514-411f-90ff-c18236fd5d8f",
       "ward_no": "30",
       "name_en": "M.S.M",
-      "name_ml": "എം.എസ്.എം."
+      "name_ml": "എം.എസ്.എം.",
+      "rate": 65
     },
     {
       "id": "8e92d2eb-9d72-416a-9e99-91f84e0190ea",
       "ward_no": "31",
       "name_en": "Cherikkal East",
-      "name_ml": "ചേരിയ്ക്കല്‍ കിഴക്ക്"
+      "name_ml": "ചേരിയ്ക്കല്‍ കിഴക്ക്",
+      "rate": 75
     },
     {
       "id": "a06ae38f-b4e9-4229-9381-3078ff9ffcc0",
       "ward_no": "32",
       "name_en": "Cherikkal West",
-      "name_ml": "ചേരിയ്ക്കല്‍ പടിഞ്ഞാറ്"
+      "name_ml": "ചേരിയ്ക്കല്‍ പടിഞ്ഞാറ്",
+      "rate": 65
     },
     {
       "id": "d54173bb-cfdf-409d-81af-6370c63d1c49",
       "ward_no": "33",
       "name_en": "Mudiyoorkonam",
-      "name_ml": "മുടിയൂര്‍കോണം"
+      "name_ml": "മുടിയൂര്‍കോണം",
+      "rate": 75
     }
   ],
   "towns": [],

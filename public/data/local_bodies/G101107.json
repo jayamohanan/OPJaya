@@ -33,115 +33,134 @@
       "id": "a3760a99-1c76-4ff1-ab35-2bd7fc3932f1",
       "ward_no": "1",
       "name_en": "Vattapparambu",
-      "name_ml": "വട്ടപ്പറമ്പ്"
+      "name_ml": "വട്ടപ്പറമ്പ്",
+      "rate": 95
     },
     {
       "id": "a30d235f-2a7c-4c60-aaf3-96754f57e3da",
       "ward_no": "2",
       "name_en": "Chathrathodi",
-      "name_ml": "ചാത്രത്തൊടി"
+      "name_ml": "ചാത്രത്തൊടി",
+      "rate": 75
     },
     {
       "id": "b4bb62eb-5c8c-47ec-a087-e1037da604b5",
       "ward_no": "3",
       "name_en": "Kakkathadam",
-      "name_ml": "കാക്കത്തടം"
+      "name_ml": "കാക്കത്തടം",
+      "rate": 65
     },
     {
       "id": "33673a65-f0e9-4305-a165-864804c8e860",
       "ward_no": "4",
       "name_en": "Illathumadu",
-      "name_ml": "ഇല്ലത്തുമാട്"
+      "name_ml": "ഇല്ലത്തുമാട്",
+      "rate": 75
     },
     {
       "id": "0538ffd7-402f-4589-8308-966595413d9a",
       "ward_no": "5",
       "name_en": "Ungungal",
-      "name_ml": "ഉങ്ങുങ്ങല്‍"
+      "name_ml": "ഉങ്ങുങ്ങല്‍",
+      "rate": 75
     },
     {
       "id": "5304a9f8-de9c-44db-8d3b-f10d3401195f",
       "ward_no": "6",
       "name_en": "Nadukkara",
-      "name_ml": "നടുക്കര"
+      "name_ml": "നടുക്കര",
+      "rate": 95
     },
     {
       "id": "dd29532e-1b74-408f-aefc-c12457822a47",
       "ward_no": "7",
       "name_en": "Sidheekhabadu",
-      "name_ml": "സിദ്ദീഖാബാദ്"
+      "name_ml": "സിദ്ദീഖാബാദ്",
+      "rate": 75
     },
     {
       "id": "95f03f54-084b-4ffa-9b5c-93669c3e3a8e",
       "ward_no": "8",
       "name_en": "Pengattukundil",
-      "name_ml": "പേങ്ങാട്ട്കുണ്ടില്‍"
+      "name_ml": "പേങ്ങാട്ട്കുണ്ടില്‍",
+      "rate": 75
     },
     {
       "id": "c8054471-af67-478a-b453-e61b77196a78",
       "ward_no": "9",
       "name_en": "Pottammalmadu",
-      "name_ml": "പൊറ്റമ്മല്‍മാട്"
+      "name_ml": "പൊറ്റമ്മല്‍മാട്",
+      "rate": 95
     },
     {
       "id": "ec90410b-f408-47b2-9510-59aa77a5a9e8",
       "ward_no": "10",
       "name_en": "Kollamchina",
-      "name_ml": "കൊല്ലംചിന"
+      "name_ml": "കൊല്ലംചിന",
+      "rate": 65
     },
     {
       "id": "471cf35b-4616-4568-8f28-e5431cf3d7d7",
       "ward_no": "11",
       "name_en": "Panniyathumadu",
-      "name_ml": "പന്നിയത്തുമാട്"
+      "name_ml": "പന്നിയത്തുമാട്",
+      "rate": 65
     },
     {
       "id": "d4054ff8-17f9-4ffb-b801-ba2364284636",
       "ward_no": "12",
       "name_en": "Parambilpeedika",
-      "name_ml": "പറമ്പില്‍പീടിക"
+      "name_ml": "പറമ്പില്‍പീടിക",
+      "rate": 75
     },
     {
       "id": "87a21fd9-8559-424c-a054-f73f7de574c2",
       "ward_no": "13",
       "name_en": "Mengolimadu",
-      "name_ml": "മേങ്ങോളിമാട്"
+      "name_ml": "മേങ്ങോളിമാട്",
+      "rate": 75
     },
     {
       "id": "8a27b5a4-a5d9-4e4b-8f35-d440268e18ce",
       "ward_no": "14",
       "name_en": "Ottappilakkal",
-      "name_ml": "ഓട്ടപ്പിലാക്കല്‍"
+      "name_ml": "ഓട്ടപ്പിലാക്കല്‍",
+      "rate": 75
     },
     {
       "id": "05c7d562-77c6-4270-8534-6f39367f8369",
       "ward_no": "15",
       "name_en": "Poovathumadu",
-      "name_ml": "പൂവ്വത്തുമാട്"
+      "name_ml": "പൂവ്വത്തുമാട്",
+      "rate": 65
     },
     {
       "id": "556e1e67-037c-4efa-97a1-dbd8a7d7149e",
       "ward_no": "16",
       "name_en": "Super Bazar",
-      "name_ml": "സൂപ്പര്‍ ബസാര്‍"
+      "name_ml": "സൂപ്പര്‍ ബസാര്‍",
+      "rate": 65
     },
     {
       "id": "124c5fd8-b433-4f4e-a38d-02e5e33aa1cb",
       "ward_no": "17",
       "name_en": "Kalathingal",
-      "name_ml": "കളത്തിങ്ങല്‍"
+      "name_ml": "കളത്തിങ്ങല്‍",
+      "rate": 65
     },
     {
       "id": "0dff703b-4ba9-48bf-87a2-cca00d12bda6",
       "ward_no": "18",
       "name_en": "Shankaramdu",
-      "name_ml": "ശങ്കരമാട്"
+      "name_ml": "ശങ്കരമാട്",
+      "rate": 75
     },
     {
       "id": "5c704455-58b0-49a0-a13d-363e00aad5e9",
       "ward_no": "19",
       "name_en": "Vadakkeelmadu",
-      "name_ml": "വടക്കീല്‍മാട്"
+      "name_ml": "വടക്കീല്‍മാട്",
+      "rate": 75
     }
   ],
   "towns": [],

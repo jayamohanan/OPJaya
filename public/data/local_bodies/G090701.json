@@ -33,79 +33,92 @@
       "id": "30f6166f-9c89-47ab-bb05-fe364b7a78eb",
       "ward_no": "1",
       "name_en": "Manjapara",
-      "name_ml": "മഞ്ഞപ്പാറ"
+      "name_ml": "മഞ്ഞപ്പാറ",
+      "rate": 95
     },
     {
       "id": "f7593981-b7f8-4ce9-b155-655ba1b5a174",
       "ward_no": "2",
       "name_en": "Vadassery",
-      "name_ml": "വടശ്ശേരി"
+      "name_ml": "വടശ്ശേരി",
+      "rate": 65
     },
     {
       "id": "24d781e1-af87-4fc7-a720-61f028e8f51e",
       "ward_no": "3",
       "name_en": "Kundalassery",
-      "name_ml": "കുണ്ടളശ്ശേരി"
+      "name_ml": "കുണ്ടളശ്ശേരി",
+      "rate": 75
     },
     {
       "id": "8efcf948-fd0f-49b7-b30e-14d6e0aa9951",
       "ward_no": "4",
       "name_en": "Kizhakekara",
-      "name_ml": "കിഴക്കേകര"
+      "name_ml": "കിഴക്കേകര",
+      "rate": 75
     },
     {
       "id": "83814e4e-21cc-48ba-85c3-9477fa4dbda3",
       "ward_no": "5",
       "name_en": "Vellara",
-      "name_ml": "വെള്ളാറ"
+      "name_ml": "വെള്ളാറ",
+      "rate": 75
     },
     {
       "id": "3611046e-9c23-4564-86a5-40dbb171193e",
       "ward_no": "6",
       "name_en": "Keralassery(Kizhakkumuri)",
-      "name_ml": "കേരളശ്ശേരി(കിഴക്കുമുറി)"
+      "name_ml": "കേരളശ്ശേരി(കിഴക്കുമുറി)",
+      "rate": 75
     },
     {
       "id": "8d3f0390-8e60-440f-9bcd-397951c81bcf",
       "ward_no": "7",
       "name_en": "Keralassery",
-      "name_ml": "കേരളശ്ശേരി"
+      "name_ml": "കേരളശ്ശേരി",
+      "rate": 95
     },
     {
       "id": "7a8ee2a1-9411-49af-8229-d7db538087cd",
       "ward_no": "8",
       "name_en": "Ayanari",
-      "name_ml": "അയനാറി"
+      "name_ml": "അയനാറി",
+      "rate": 65
     },
     {
       "id": "c352e0de-67c4-4f27-beba-a65a2391bbde",
       "ward_no": "9",
       "name_en": "Pallipara",
-      "name_ml": "പള്ളിപ്പാറ"
+      "name_ml": "പള്ളിപ്പാറ",
+      "rate": 75
     },
     {
       "id": "475dc7f4-1e81-4899-92de-ec09f9e666b1",
       "ward_no": "10",
       "name_en": "Maniyamkunnu",
-      "name_ml": "മാനിയംകുന്ന്"
+      "name_ml": "മാനിയംകുന്ന്",
+      "rate": 65
     },
     {
       "id": "e5d3c7f2-465b-4935-b4b4-887f8425fc1a",
       "ward_no": "11",
       "name_en": "Thadukkassery",
-      "name_ml": "തടുക്കശ്ശേരി"
+      "name_ml": "തടുക്കശ്ശേരി",
+      "rate": 95
     },
     {
       "id": "693c8a77-9ea5-48c0-bdfc-7dda8dc5605e",
       "ward_no": "12",
       "name_en": "Valiyaparamb",
-      "name_ml": "വലിയപറമ്പ്"
+      "name_ml": "വലിയപറമ്പ്",
+      "rate": 95
     },
     {
       "id": "eb92c4c9-a9b3-4430-b356-f35334315fef",
       "ward_no": "13",
       "name_en": "Padinjaremuri",
-      "name_ml": "പടിഞ്ഞാറെമുറി"
+      "name_ml": "പടിഞ്ഞാറെമുറി",
+      "rate": 65
     }
   ],
   "towns": [],

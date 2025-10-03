@@ -33,109 +33,127 @@
       "id": "7db0f4bf-a871-48a4-94a2-da38ca4727cc",
       "ward_no": "1",
       "name_en": "Pulikkulam",
-      "name_ml": "പുലിക്കുളം"
+      "name_ml": "പുലിക്കുളം",
+      "rate": 75
     },
     {
       "id": "8f25fa23-77ca-4f3a-8ca3-199b840d4735",
       "ward_no": "2",
       "name_en": "Sangamam",
-      "name_ml": "സംഗമം"
+      "name_ml": "സംഗമം",
+      "rate": 75
     },
     {
       "id": "70ecc188-e291-4853-8c2d-194698abf21d",
       "ward_no": "3",
       "name_en": "Vayyankara",
-      "name_ml": "വയ്യാങ്കര"
+      "name_ml": "വയ്യാങ്കര",
+      "rate": 75
     },
     {
       "id": "ee61b091-10b4-4f80-8bde-cefe17ccebde",
       "ward_no": "4",
       "name_en": "Anayadi",
-      "name_ml": "ആനയടി"
+      "name_ml": "ആനയടി",
+      "rate": 75
     },
     {
       "id": "31b58c56-8522-4a13-b79c-a00540c8d86f",
       "ward_no": "5",
       "name_en": "Pathirickal",
-      "name_ml": "പാതിരിയ്ക്കല്‍"
+      "name_ml": "പാതിരിയ്ക്കല്‍",
+      "rate": 75
     },
     {
       "id": "9c9df40d-7ebb-40e3-8976-1882d2360152",
       "ward_no": "6",
       "name_en": "Kannamam",
-      "name_ml": "കണ്ണമം"
+      "name_ml": "കണ്ണമം",
+      "rate": 65
     },
     {
       "id": "4823a8a5-d83c-4fd1-8c70-0bc141716254",
       "ward_no": "7",
       "name_en": "Kunniradam",
-      "name_ml": "കുന്നിരാടം"
+      "name_ml": "കുന്നിരാടം",
+      "rate": 95
     },
     {
       "id": "0b003a61-5df0-440b-b52e-682d1502ca78",
       "ward_no": "8",
       "name_en": "Naduvilemuri",
-      "name_ml": "നടുവിലേമുറി"
+      "name_ml": "നടുവിലേമുറി",
+      "rate": 65
     },
     {
       "id": "8033ac19-b9ca-4487-a591-aa063844cf3e",
       "ward_no": "9",
       "name_en": "Pulimood",
-      "name_ml": "പുളിമൂട്"
+      "name_ml": "പുളിമൂട്",
+      "rate": 75
     },
     {
       "id": "ad5c6d18-9ade-4419-b030-3b5ada02d6fb",
       "ward_no": "10",
       "name_en": "Thekkemuri",
-      "name_ml": "തെക്കേമുറി"
+      "name_ml": "തെക്കേമുറി",
+      "rate": 75
     },
     {
       "id": "a5e9df1a-dbb2-434c-8461-01b050f49dce",
       "ward_no": "11",
       "name_en": "Chakkuvally",
-      "name_ml": "ചക്കുവള്ളി"
+      "name_ml": "ചക്കുവള്ളി",
+      "rate": 75
     },
     {
       "id": "5de69669-97f6-4eca-8f98-8fc2856e80f0",
       "ward_no": "12",
       "name_en": "Padinjattakizhakku",
-      "name_ml": "പടിഞ്ഞാറ്റകിഴക്ക്"
+      "name_ml": "പടിഞ്ഞാറ്റകിഴക്ക്",
+      "rate": 65
     },
     {
       "id": "cda84bf4-0d0d-435f-8960-fdb1cf7b2e8a",
       "ward_no": "13",
       "name_en": "Pallichantha",
-      "name_ml": "പള്ളിച്ചന്ത"
+      "name_ml": "പള്ളിച്ചന്ത",
+      "rate": 75
     },
     {
       "id": "345dd743-7e5e-440c-addf-922e7253adcf",
       "ward_no": "14",
       "name_en": "Highschool Ward",
-      "name_ml": "ഹൈസ്ക്കൂള്‍ വാര്‍ഡ്"
+      "name_ml": "ഹൈസ്ക്കൂള്‍ വാര്‍ഡ്",
+      "rate": 65
     },
     {
       "id": "75044480-dce6-4b6e-a29a-277817e28039",
       "ward_no": "15",
       "name_en": "Panchayath Office Ward",
-      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്"
+      "name_ml": "പഞ്ചായത്ത് ഓഫീസ് വാര്‍ഡ്",
+      "rate": 75
     },
     {
       "id": "587a8bbf-2d5a-413c-98af-678c14fd544c",
       "ward_no": "16",
       "name_en": "Azhakiyakavu Lps Ward",
-      "name_ml": "അഴകിയകാവ് എല്‍ പി എസ്സ് വാര്‍ഡ്"
+      "name_ml": "അഴകിയകാവ് എല്‍ പി എസ്സ് വാര്‍ഡ്",
+      "rate": 65
     },
     {
       "id": "cd251adb-8c38-4cf5-92e9-795c51924f11",
       "ward_no": "17",
       "name_en": "Padinjattammuri",
-      "name_ml": "പടിഞ്ഞാറ്റംമുറി"
+      "name_ml": "പടിഞ്ഞാറ്റംമുറി",
+      "rate": 75
     },
     {
       "id": "cb089869-c6b8-45e2-9f82-1d32909f0bea",
       "ward_no": "18",
       "name_en": "Parakkadavu",
-      "name_ml": "പാറക്കടവ്"
+      "name_ml": "പാറക്കടവ്",
+      "rate": 75
     }
   ],
   "towns": [],
