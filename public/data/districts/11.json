@@ -3,7 +3,7 @@
   "name_en": "Kozhikode",
   "name_ml": "കോഴിക്കോട്",
   "is_active": true,
-  "district_category": {
+  "undefined": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "20",
       "name_en": "Vatakara",
       "name_ml": "വടകര",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "21",
       "name_en": "Kuttiady",
       "name_ml": "കുറ്റ്യാടി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "22",
       "name_en": "Nadapuram",
       "name_ml": "നാദാപുരം",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "23",
       "name_en": "Koyilandy",
       "name_ml": "കൊയിലാണ്ടി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "24",
       "name_en": "Perambra",
       "name_ml": "പേരാംബ്ര",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "25",
       "name_en": "Balussery",
       "name_ml": "ബാലുശ്ശേരി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "26",
       "name_en": "Elathur",
       "name_ml": "ഏലത്തൂർ",
-      "assembly_category": {
+      "undefined": {
         "category": "Good"
       }
     },
@@ -67,7 +67,7 @@
       "id": "29",
       "name_en": "Beypore",
       "name_ml": "ബേപ്പൂർ",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "30",
       "name_en": "Kunnamangalam",
       "name_ml": "കുന്ദമംഗലം",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -83,7 +83,7 @@
       "id": "31",
       "name_en": "Koduvally",
       "name_ml": "കൊടുവള്ളി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -91,7 +91,7 @@
       "id": "32",
       "name_en": "Thiruvambady",
       "name_ml": "തിരുവമ്പാടി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     }

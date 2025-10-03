@@ -3,7 +3,7 @@
   "name_en": "Thrissur",
   "name_ml": "തൃശ്ശൂർ",
   "is_active": false,
-  "district_category": {
+  "undefined": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "61",
       "name_en": "Chelakkara",
       "name_ml": "ചേലക്കര",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "62",
       "name_en": "Kunnamkulam",
       "name_ml": "കുന്നംകുളം",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "63",
       "name_en": "Guruvayur",
       "name_ml": "ഗുരുവായൂര്‍",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "64",
       "name_en": "Manalur",
       "name_ml": "മണലൂര്‍",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "65",
       "name_en": "Wadakkanchery",
       "name_ml": "വടക്കാഞ്ചേരി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "66",
       "name_en": "Ollur",
       "name_ml": "ഒല്ലൂർ",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "68",
       "name_en": "Nattika",
       "name_ml": "നാട്ടിക",
-      "assembly_category": {
+      "undefined": {
         "category": "Good"
       }
     },
@@ -67,7 +67,7 @@
       "id": "69",
       "name_en": "Kaipamangalam",
       "name_ml": "കൈപ്പമംഗലം",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "70",
       "name_en": "Irinjalakuda",
       "name_ml": "ഇരിങ്ങാലക്കുട",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -83,7 +83,7 @@
       "id": "71",
       "name_en": "Puthukkad",
       "name_ml": "പുതുക്കാട്",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -91,7 +91,7 @@
       "id": "72",
       "name_en": "Chalakudy",
       "name_ml": "ചാലക്കുടി",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -99,7 +99,7 @@
       "id": "73",
       "name_en": "Kodungallur",
       "name_ml": "കൊടുങ്ങല്ലൂര്‍",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     }

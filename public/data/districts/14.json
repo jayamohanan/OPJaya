@@ -3,7 +3,7 @@
   "name_en": "Kasaragod",
   "name_ml": "കാസര്‍ഗോഡ്",
   "is_active": true,
-  "district_category": {
+  "undefined": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "1",
       "name_en": "Manjeshwar",
       "name_ml": "മഞ്ചശ്വരം",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "2",
       "name_en": "Kasaragod",
       "name_ml": "കാസര്‍കോഡ്",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "3",
       "name_en": "Udma",
       "name_ml": "ഉദുമ",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "4",
       "name_en": "Kanhangad",
       "name_ml": "കാഞ്ഞങ്ങാട്",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "5",
       "name_en": "Trikaripur",
       "name_ml": "തൃക്കരിപ്പൂര്‍",
-      "assembly_category": {
+      "undefined": {
         "category": "Normal"
       }
     }
