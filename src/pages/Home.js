@@ -56,7 +56,7 @@ function Home() {
             FIELDS.ASSEMBLY.ID,
             FIELDS.ASSEMBLY.NAME_EN,
             FIELDS.ASSEMBLY.NAME_ML,
-            FIELDS.ASSEMBLY.DISTRICT_ID
+            FIELDS.ASSEMBLY.IS_ACTIVE
           ].join(', '))
           .eq(FIELDS.ASSEMBLY.DISTRICT_ID, selectedDistrictId);
         if (error) {
@@ -74,7 +74,7 @@ function Home() {
     }
   }, [selectedDistrictId])
 
-  // Fetch local bodies when assembly changes (from 'local_body' table, join local_body_type)
+  // Fetch local bodies when assembly changes (from 'local_body' table)
   useEffect(() => {
     if (selectedAssemblyId && selectedDistrictId) {
       async function fetchLocalBodies() {
@@ -85,11 +85,7 @@ function Home() {
             FIELDS.LOCAL_BODY.ID,
             FIELDS.LOCAL_BODY.NAME_EN,
             FIELDS.LOCAL_BODY.NAME_ML,
-            FIELDS.LOCAL_BODY.BLOCK_NAME_EN,
-            FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN,
-            FIELDS.LOCAL_BODY.ASSEMBLY_ID,
-            FIELDS.LOCAL_BODY.TYPE_ID,
-            `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN}, ${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML})`
+            FIELDS.LOCAL_BODY.IS_ACTIVE
           ].join(', '))
           .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, selectedAssemblyId);
         if (error) {
@@ -100,10 +96,7 @@ function Home() {
               [FIELDS.LOCAL_BODY.ID]: row[FIELDS.LOCAL_BODY.ID],
               [FIELDS.LOCAL_BODY.NAME_EN]: row[FIELDS.LOCAL_BODY.NAME_EN]?.trim(),
               [FIELDS.LOCAL_BODY.NAME_ML]: row[FIELDS.LOCAL_BODY.NAME_ML],
-              [FIELDS.LOCAL_BODY.BLOCK_NAME_EN]: row[FIELDS.LOCAL_BODY.BLOCK_NAME_EN],
-              [FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN]: row[FIELDS.LOCAL_BODY.DIST_PANCHAYAT_NAME_EN],
-              [FIELDS.LOCAL_BODY.ASSEMBLY_ID]: row[FIELDS.LOCAL_BODY.ASSEMBLY_ID],
-              [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]: row[TABLES.LOCAL_BODY_TYPE] || {}
+              [FIELDS.LOCAL_BODY.IS_ACTIVE]: row[FIELDS.LOCAL_BODY.IS_ACTIVE]
             }))
             .filter(lb => lb[FIELDS.LOCAL_BODY.NAME_EN])
             .sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN]));
@@ -242,10 +235,6 @@ function Home() {
                       {lang === 'ml'
                         ? (localBody[FIELDS.LOCAL_BODY.NAME_ML] || localBody[FIELDS.LOCAL_BODY.NAME_EN])
                         : (localBody[FIELDS.LOCAL_BODY.NAME_EN] || localBody[FIELDS.LOCAL_BODY.NAME_ML])}
-                      {' '}
-                      ({lang === 'ml'
-                        ? (localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '')
-                        : (localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || localBody[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '')})
                     </option>
                   ))}
                 </>
