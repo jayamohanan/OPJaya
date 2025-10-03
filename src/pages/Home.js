@@ -2,8 +2,8 @@ import React, { useState, useEffect, useContext } from 'react';
 import { LanguageContext } from '../components/LanguageContext';
 import { useNavigate } from 'react-router-dom';
 import TopNav from '../components/TopNav';
-import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
+import { getStateData, getAssembliesForDistrict, getLocalBodiesForAssembly } from '../services/clientDataService';
 import './Home.css';
 
 function Home() {
@@ -22,48 +22,33 @@ function Home() {
   const [loadingAssemblies, setLoadingAssemblies] = useState(false);
   const [loadingLocalBodies, setLoadingLocalBodies] = useState(false);
 
-  // Fetch all districts on mount (from 'district' table)
+  // Fetch all districts on mount
   useEffect(() => {
     async function fetchDistricts() {
       setLoadingDistricts(true);
-      const { data, error } = await supabase
-        .from(TABLES.DISTRICT)
-        .select([
-          FIELDS.DISTRICT.ID,
-          FIELDS.DISTRICT.NAME_EN,
-          FIELDS.DISTRICT.NAME_ML,
-          FIELDS.DISTRICT.IS_ACTIVE
-        ].join(', '));
-      if (error) {
-        console.error("Error fetching districts from Supabase:", error);
-      } else {
-        const sortedDistricts = (data || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN]));
+      try {
+        const { districts } = await getStateData();
+        const sortedDistricts = (districts || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN]));
         setDistricts(sortedDistricts);
+      } catch (error) {
+        console.error("Error fetching districts:", error);
       }
       setLoadingDistricts(false);
     }
     fetchDistricts();
   }, []);
 
-  // Fetch assemblies when district changes (from 'assembly' table)
+  // Fetch assemblies when district changes
   useEffect(() => {
     if (selectedDistrictId) {
       async function fetchAssemblies() {
         setLoadingAssemblies(true);
-        const { data, error } = await supabase
-          .from(TABLES.ASSEMBLY)
-          .select([
-            FIELDS.ASSEMBLY.ID,
-            FIELDS.ASSEMBLY.NAME_EN,
-            FIELDS.ASSEMBLY.NAME_ML,
-            FIELDS.ASSEMBLY.IS_ACTIVE
-          ].join(', '))
-          .eq(FIELDS.ASSEMBLY.DISTRICT_ID, selectedDistrictId);
-        if (error) {
-          console.error("Error fetching assemblies from Supabase:", error);
-        } else {
+        try {
+          const data = await getAssembliesForDistrict(selectedDistrictId);
           const sortedAssemblies = (data || []).sort((a, b) => a[FIELDS.ASSEMBLY.NAME_EN].localeCompare(b[FIELDS.ASSEMBLY.NAME_EN]));
           setAssemblies(sortedAssemblies);
+        } catch (error) {
+          console.error("Error fetching assemblies:", error);
         }
         setSelectedAssemblyId('');
         setSelectedLocalBodyId('');
@@ -72,25 +57,15 @@ function Home() {
       }
       fetchAssemblies();
     }
-  }, [selectedDistrictId])
+  }, [selectedDistrictId]);
 
-  // Fetch local bodies when assembly changes (from 'local_body' table)
+  // Fetch local bodies when assembly changes
   useEffect(() => {
     if (selectedAssemblyId && selectedDistrictId) {
       async function fetchLocalBodies() {
         setLoadingLocalBodies(true);
-        const { data, error } = await supabase
-          .from(TABLES.LOCAL_BODY)
-          .select([
-            FIELDS.LOCAL_BODY.ID,
-            FIELDS.LOCAL_BODY.NAME_EN,
-            FIELDS.LOCAL_BODY.NAME_ML,
-            FIELDS.LOCAL_BODY.IS_ACTIVE
-          ].join(', '))
-          .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, selectedAssemblyId);
-        if (error) {
-          console.error("Error fetching local bodies from Supabase:", error);
-        } else {
+        try {
+          const data = await getLocalBodiesForAssembly(selectedAssemblyId);
           const filteredLocalBodies = (data || [])
             .map(row => ({
               [FIELDS.LOCAL_BODY.ID]: row[FIELDS.LOCAL_BODY.ID],
@@ -101,6 +76,8 @@ function Home() {
             .filter(lb => lb[FIELDS.LOCAL_BODY.NAME_EN])
             .sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN]));
           setLocalBodies(filteredLocalBodies);
+        } catch (error) {
+          console.error("Error fetching local bodies:", error);
         }
         setSelectedLocalBodyId('');
         setLoadingLocalBodies(false);
