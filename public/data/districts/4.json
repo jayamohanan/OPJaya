@@ -3,7 +3,7 @@
   "name_en": "Alappuzha",
   "name_ml": "ആലപ്പുഴ",
   "is_active": true,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "102",
       "name_en": "Aroor",
       "name_ml": "അരൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "103",
       "name_en": "Cherthala",
       "name_ml": "ചേർത്തല",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "104",
       "name_en": "Alappuzha",
       "name_ml": "ആലപ്പുഴ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "105",
       "name_en": "Ambalappuzha",
       "name_ml": "അമ്പലപ്പുഴ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "106",
       "name_en": "Kuttanad",
       "name_ml": "കുട്ടനാട്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "107",
       "name_en": "Haripad",
       "name_ml": "ഹരിപ്പാട്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "108",
       "name_en": "Kayamkulam",
       "name_ml": "കായംകുളം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -67,7 +67,7 @@
       "id": "109",
       "name_en": "Mavelikara",
       "name_ml": "മാവേലിക്കര",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "110",
       "name_en": "Chengannur",
       "name_ml": "ചെങ്ങന്നൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

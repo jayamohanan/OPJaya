@@ -3,7 +3,7 @@
   "name_en": "Kottayam",
   "name_ml": "കോട്ടയം",
   "is_active": true,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "93",
       "name_en": "Pala",
       "name_ml": "പാലാ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "94",
       "name_en": "Kaduthuruthy",
       "name_ml": "കടുത്തുരുത്തി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "95",
       "name_en": "Vaikom",
       "name_ml": "വൈക്കം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "96",
       "name_en": "Ettumanoor",
       "name_ml": "ഏറ്റുമാനൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "97",
       "name_en": "Kottayam",
       "name_ml": "കോട്ടയം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "98",
       "name_en": "Puthuppally",
       "name_ml": "പുതുപ്പള്ളി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "99",
       "name_en": "Changanassery",
       "name_ml": "ചങ്ങനാശ്ശേരി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -67,7 +67,7 @@
       "id": "100",
       "name_en": "Kanjirappally",
       "name_ml": "കാഞ്ഞിരപ്പള്ളി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "101",
       "name_en": "Poonjar",
       "name_ml": "പൂഞ്ഞാർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

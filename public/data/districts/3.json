@@ -3,7 +3,7 @@
   "name_en": "Pathanamthitta",
   "name_ml": "പത്തനംതിട്ട",
   "is_active": true,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "111",
       "name_en": "Thiruvalla",
       "name_ml": "തിരുവല്ല",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "112",
       "name_en": "Ranni",
       "name_ml": "റാന്നി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "113",
       "name_en": "Aranmula",
       "name_ml": "ആറന്മുള",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "114",
       "name_en": "Konni",
       "name_ml": "കോന്നി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "115",
       "name_en": "Adoor",
       "name_ml": "അടൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

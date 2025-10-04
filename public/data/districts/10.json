@@ -3,7 +3,7 @@
   "name_en": "Malappuram",
   "name_ml": "മലപ്പുറം",
   "is_active": true,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "33",
       "name_en": "Kondotty",
       "name_ml": "കൊണ്ടോട്ടി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "34",
       "name_en": "Eranad",
       "name_ml": "ഏറനാട്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "35",
       "name_en": "Nilambur",
       "name_ml": "നിലമ്പൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "36",
       "name_en": "Wandoor",
       "name_ml": "വണ്ടൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "37",
       "name_en": "Manjeri",
       "name_ml": "മഞ്ചേരി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "38",
       "name_en": "Perinthalmanna",
       "name_ml": "പെരിന്തല്‍മണ്ണ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "39",
       "name_en": "Mankada",
       "name_ml": "മങ്കട",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -67,7 +67,7 @@
       "id": "40",
       "name_en": "Malappuram",
       "name_ml": "മലപ്പുറം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "41",
       "name_en": "Vengara",
       "name_ml": "വേങ്ങര",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -83,7 +83,7 @@
       "id": "42",
       "name_en": "Vallikkunnu",
       "name_ml": "വള്ളിക്കുന്ന്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -91,7 +91,7 @@
       "id": "43",
       "name_en": "Tirurangadi",
       "name_ml": "തിരൂരങ്ങാടി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -99,7 +99,7 @@
       "id": "44",
       "name_en": "Tanur",
       "name_ml": "താനൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -107,7 +107,7 @@
       "id": "45",
       "name_en": "Tirur",
       "name_ml": "തിരൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -115,7 +115,7 @@
       "id": "46",
       "name_en": "Kottakkal",
       "name_ml": "കോട്ടക്കല്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -123,7 +123,7 @@
       "id": "47",
       "name_en": "Tavanur",
       "name_ml": "തവനൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -131,7 +131,7 @@
       "id": "48",
       "name_en": "Ponnani",
       "name_ml": "പൊന്നാനി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

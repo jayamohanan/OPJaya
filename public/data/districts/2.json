@@ -3,7 +3,7 @@
   "name_en": "Kollam",
   "name_ml": "കൊല്ലം",
   "is_active": false,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "116",
       "name_en": "Karunagapally",
       "name_ml": "കരുനാഗപ്പള്ളി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "117",
       "name_en": "Chavara",
       "name_ml": "ചവറ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "118",
       "name_en": "Kunnathur",
       "name_ml": "കുന്നത്തൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "119",
       "name_en": "Kottarakkara",
       "name_ml": "കൊട്ടാരക്കര",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "120",
       "name_en": "Pathanapuram",
       "name_ml": "പത്തനാപുരം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "121",
       "name_en": "Punalur",
       "name_ml": "പുനലൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "122",
       "name_en": "Chadayamangalam",
       "name_ml": "ചടയമംഗലം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -67,7 +67,7 @@
       "id": "123",
       "name_en": "Kundara",
       "name_ml": "കുണ്ടറ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "124",
       "name_en": "Kollam",
       "name_ml": "കൊല്ലം",
-      "undefined": {
+      "assembly_category": {
         "category": "Perfect"
       }
     },
@@ -83,7 +83,7 @@
       "id": "125",
       "name_en": "Eravipuram",
       "name_ml": "ഇരവിപുരം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -91,7 +91,7 @@
       "id": "126",
       "name_en": "Chathannoor",
       "name_ml": "ചാത്തന്നൂർ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

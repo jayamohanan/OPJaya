@@ -3,7 +3,7 @@
   "name_en": "Kannur",
   "name_ml": "കണ്ണൂർ",
   "is_active": true,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "6",
       "name_en": "Payyannur",
       "name_ml": "പയ്യന്നൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "7",
       "name_en": "Kalliasseri",
       "name_ml": "കല്ല്യാശ്ശേരി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "8",
       "name_en": "Taliparamba",
       "name_ml": "തളിപ്പറമ്പ്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "9",
       "name_en": "Irikkur",
       "name_ml": "ഇരിക്കൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "10",
       "name_en": "Azhikode",
       "name_ml": "അഴീക്കോട്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "11",
       "name_en": "Kannur",
       "name_ml": "കണ്ണൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "12",
       "name_en": "Dharmadom",
       "name_ml": "ധര്‍മ്മടം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -67,7 +67,7 @@
       "id": "13",
       "name_en": "Thalassery",
       "name_ml": "തലശ്ശേരി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -75,7 +75,7 @@
       "id": "14",
       "name_en": "Kuthuparamba",
       "name_ml": "കൂത്തുപറമ്പ്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -83,7 +83,7 @@
       "id": "15",
       "name_en": "Mattanur",
       "name_ml": "മട്ടന്നൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -91,7 +91,7 @@
       "id": "16",
       "name_en": "Peravoor",
       "name_ml": "പേരാവൂര്‍",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

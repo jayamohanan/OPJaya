@@ -3,7 +3,7 @@
   "name_en": "Wayanad",
   "name_ml": "വയനാട്",
   "is_active": true,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "17",
       "name_en": "Mananthavady",
       "name_ml": "മാനന്തവാടി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "18",
       "name_en": "Sulthan Bathery",
       "name_ml": "സുൽത്താൻ ബത്തേരി",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "19",
       "name_en": "Kalpetta",
       "name_ml": "കല്‍പ്പറ്റ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }

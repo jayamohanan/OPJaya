@@ -57,7 +57,7 @@ function toFilename(name) {
 
 // --- MAIN ---
 (async () => {
-  console.log('🚀 Starting data generation (STATE + 10 DISTRICTS + 10 ASSEMBLIES + 10 LOCAL BODIES)...');
+  console.log('🚀 Starting data generation ...');
   
   try {
     // 1. Fetch required data for districts
@@ -122,7 +122,7 @@ function toFilename(name) {
         [FIELDS.DISTRICT.NAME_EN]: d[FIELDS.DISTRICT.NAME_EN],
         [FIELDS.DISTRICT.NAME_ML]: d[FIELDS.DISTRICT.NAME_ML],
         [FIELDS.DISTRICT.IS_ACTIVE]: d[FIELDS.DISTRICT.IS_ACTIVE] !== false,
-        [FIELDS.DISTRICT.CATEGORY]: districtCategoryMap[d[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[d[FIELDS.DISTRICT.ID]] } : null
+        [TABLES.DISTRICT_CATEGORY]: districtCategoryMap[d[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[d[FIELDS.DISTRICT.ID]] } : null
       })),
       geojson_links: {
         outline: 'geojson/states/outlines/kerala.geojson',
@@ -140,12 +140,12 @@ function toFilename(name) {
         [FIELDS.DISTRICT.NAME_EN]: d[FIELDS.DISTRICT.NAME_EN],
         [FIELDS.DISTRICT.NAME_ML]: d[FIELDS.DISTRICT.NAME_ML],
         [FIELDS.DISTRICT.IS_ACTIVE]: d[FIELDS.DISTRICT.IS_ACTIVE] !== false,
-        [FIELDS.DISTRICT.CATEGORY]: districtCategoryMap[d[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[d[FIELDS.DISTRICT.ID]] } : null,
+        [TABLES.DISTRICT_CATEGORY]: districtCategoryMap[d[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[d[FIELDS.DISTRICT.ID]] } : null,
         assemblies: districtAssemblies.map(a => ({
           [FIELDS.ASSEMBLY.ID]: a[FIELDS.ASSEMBLY.ID],
           [FIELDS.ASSEMBLY.NAME_EN]: a[FIELDS.ASSEMBLY.NAME_EN],
           [FIELDS.ASSEMBLY.NAME_ML]: a[FIELDS.ASSEMBLY.NAME_ML],
-          [FIELDS.ASSEMBLY.CATEGORY]: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] } : null
+          [TABLES.ASSEMBLY_CATEGORY]: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] } : null
         })),
         geojson_links: {
           outline: `geojson/districts/outlines/${toFilename(d[FIELDS.DISTRICT.NAME_EN])}.geojson`,

@@ -3,7 +3,7 @@
   "name_en": "Thiruvananthapuram",
   "name_ml": "തിരുവനന്തപുരം",
   "is_active": false,
-  "undefined": {
+  "district_category": {
     "category": "Normal"
   },
   "assemblies": [
@@ -11,7 +11,7 @@
       "id": "127",
       "name_en": "Varkala",
       "name_ml": "വർക്കല",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -19,7 +19,7 @@
       "id": "128",
       "name_en": "Attingal",
       "name_ml": "ആറ്റിങ്ങൽ",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -27,7 +27,7 @@
       "id": "129",
       "name_en": "Chirayinkeezhu",
       "name_ml": "ചിറയിൻകീഴ്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -35,7 +35,7 @@
       "id": "130",
       "name_en": "Nedumangad",
       "name_ml": "നെടുമങ്ങാട്",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -43,7 +43,7 @@
       "id": "131",
       "name_en": "Vamanapuram",
       "name_ml": "വാമനപുരം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -51,7 +51,7 @@
       "id": "136",
       "name_en": "Aruvikkara",
       "name_ml": "അരുവിക്കര",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -59,7 +59,7 @@
       "id": "137",
       "name_en": "Parassala",
       "name_ml": "പാറശ്ശാല",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -67,7 +67,7 @@
       "id": "138",
       "name_en": "Kattakkada",
       "name_ml": "കാട്ടാക്കട",
-      "undefined": {
+      "assembly_category": {
         "category": "Good"
       }
     },
@@ -75,7 +75,7 @@
       "id": "139",
       "name_en": "Kovalam",
       "name_ml": "കോവളം",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     },
@@ -83,7 +83,7 @@
       "id": "140",
       "name_en": "Neyyattinkara",
       "name_ml": "നെയ്യാറ്റിൻകര",
-      "undefined": {
+      "assembly_category": {
         "category": "Normal"
       }
     }
