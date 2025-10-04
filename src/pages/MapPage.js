@@ -12,6 +12,7 @@ import L from 'leaflet';
 import TownIssuesModal from '../components/TownIssuesModal';
 
 function GeoJsonLayer({ url, onSuccess, onError }) {
+  console.log('[MapPage] GeoJsonLayer URL:', url);
   const map = useMap();
 
   useEffect(() => {
@@ -114,8 +115,8 @@ function MapPage() {
   const lbName = state?.localBodyName || 'Unknown';
   const lbType = state?.localBodyType || '';
   // Compose the GeoJSON file URL for the boundary
-  const geojsonFileName = state?.localBodyName ? encodeURIComponent(state.localBodyName.toLowerCase()) + '.geojson' : '';
-  const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson-repo/local-body-outline/${geojsonFileName}` : '';
+  const geojsonFileName = state?.localBodyData?.[FIELDS.LOCAL_BODY.ID] ? `${state.localBodyData[FIELDS.LOCAL_BODY.ID]}.geojson` : '';
+  const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson/local-bodies/outlines/${geojsonFileName}` : '';
 
   const [townsMap, setTownsMap] = useState({});
   const [issuesByTown, setIssuesByTown] = useState({});

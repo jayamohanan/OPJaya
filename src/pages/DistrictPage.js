@@ -61,7 +61,7 @@ function DistrictPage() {
   const districtNameEn = district?.[FIELDS.DISTRICT.NAME_EN] || '';
   const geojsonFileName = districtNameEn ? `${districtNameEn.toLowerCase().replace(/\s+/g, '-')}.geojson` : '';
   const geojsonUrl = districtNameEn
-    ? `https://pub-aeb176f5a53e4995aa86295ee4e9649e.r2.dev/geojson/districts/with-assemblies/${geojsonFileName}`
+    ? `${process.env.PUBLIC_URL}/geojson/districts/with-assemblies/${geojsonFileName}`
     : null;
 
   const rankingCategories = [
