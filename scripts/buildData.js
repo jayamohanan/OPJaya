@@ -161,30 +161,30 @@ function toFilename(name) {
       const district = districtMap[a[FIELDS.DISTRICT.ID]] || {};
       const assemblyLocalBodies = allLocalBodies.filter(l => l[FIELDS.LOCAL_BODY.ASSEMBLY_ID] === a[FIELDS.ASSEMBLY.ID]);
       const assemblyJSON = {
-        id: a[FIELDS.ASSEMBLY.ID],
-        name_en: a[FIELDS.ASSEMBLY.NAME_EN],
-        name_ml: a[FIELDS.ASSEMBLY.NAME_ML],
-        district_id: a[FIELDS.ASSEMBLY.DISTRICT_ID],
-        is_active: a[FIELDS.ASSEMBLY.IS_ACTIVE] !== false,
-        assembly_category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] } : null,
-        district: {
-          id: district.id,
-          name_en: district.name_en,
-          name_ml: district.name_ml,
-          district_category: districtCategoryMap[district.id] ? { category: districtCategoryMap[district.id] } : null
+        [FIELDS.ASSEMBLY.ID]: a[FIELDS.ASSEMBLY.ID],
+        [FIELDS.ASSEMBLY.NAME_EN]: a[FIELDS.ASSEMBLY.NAME_EN],
+        [FIELDS.ASSEMBLY.NAME_ML]: a[FIELDS.ASSEMBLY.NAME_ML],
+        [FIELDS.ASSEMBLY.DISTRICT_ID]: a[FIELDS.ASSEMBLY.DISTRICT_ID],
+        [FIELDS.ASSEMBLY.IS_ACTIVE]: a[FIELDS.ASSEMBLY.IS_ACTIVE] !== false,
+        [TABLES.ASSEMBLY_CATEGORY]: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[a[FIELDS.ASSEMBLY.ID]] } : null,
+        [TABLES.DISTRICT]: {
+          [FIELDS.DISTRICT.ID]: district[FIELDS.DISTRICT.ID],
+          [FIELDS.DISTRICT.NAME_EN]: district[FIELDS.DISTRICT.NAME_EN],
+          [FIELDS.DISTRICT.NAME_ML]: district[FIELDS.DISTRICT.NAME_ML],
+          [TABLES.DISTRICT_CATEGORY]: districtCategoryMap[district[FIELDS.DISTRICT.ID]] ? { category: districtCategoryMap[district[FIELDS.DISTRICT.ID]] } : null
         },
         local_bodies: assemblyLocalBodies.map(l => ({
-          id: l.id,
-          name_en: l.name_en,
-          name_ml: l.name_ml,
-          local_body_category: localBodyCategoryMap[l.id] ? { category: localBodyCategoryMap[l.id] } : null
+          [FIELDS.LOCAL_BODY.ID]: l[FIELDS.LOCAL_BODY.ID],
+          [FIELDS.LOCAL_BODY.NAME_EN]: l[FIELDS.LOCAL_BODY.NAME_EN],
+          [FIELDS.LOCAL_BODY.NAME_ML]: l[FIELDS.LOCAL_BODY.NAME_ML],
+          [TABLES.LOCAL_BODY_CATEGORY]: localBodyCategoryMap[l[FIELDS.LOCAL_BODY.ID]] ? { category: localBodyCategoryMap[l[FIELDS.LOCAL_BODY.ID]] } : null
         })),
         geojson_links: {
-          outline: `geojson/assemblies/outlines/${toFilename(a.name_en)}.geojson`,
-          local_bodies: `geojson/assemblies/with-local-bodies/${toFilename(a.name_en)}.geojson`
+          outline: `geojson/assemblies/outlines/${toFilename(a[FIELDS.ASSEMBLY.NAME_EN])}.geojson`,
+          local_bodies: `geojson/assemblies/with-local-bodies/${toFilename(a[FIELDS.ASSEMBLY.NAME_EN])}.geojson`
         }
       };
-      await writeJSON(path.join(ASSEMBLIES_DIR, `${a.id}.json`), assemblyJSON);
+      await writeJSON(path.join(ASSEMBLIES_DIR, `${a[FIELDS.ASSEMBLY.ID]}.json`), assemblyJSON);
     }
 
     // --- 4. Local Body JSONs (ALL) ---
@@ -231,17 +231,17 @@ function toFilename(name) {
       return allWardCollections;
     }
     const wardCollections = await fetchAllWardCollections();
-    
-    const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t.id, t]));
+
+    const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t[FIELDS.LOCAL_BODY_TYPE.ID], t]));
 
     for (const l of allLocalBodies) {
-      const type = localBodyTypeMap[l.local_body_type_id] || {};
-      const assembly = assemblyMap[l.assembly_id] || {};
-      const district = districtMap[assembly.district_id] || {};
+      const type = localBodyTypeMap[l[FIELDS.LOCAL_BODY_TYPE.ID]] || {};
+      const assembly = assemblyMap[l[FIELDS.LOCAL_BODY.ASSEMBLY_ID]] || {};
+      const district = districtMap[assembly[FIELDS.ASSEMBLY.DISTRICT_ID]] || {};
       
       // Debug logging for G090107
-      if (l.id === 'G090107') {
-        console.log(`🔍 DEBUG: Processing local body ${l.id} (${l.name_en})`);
+      if (l[FIELDS.LOCAL_BODY.ID] === 'G090107') {
+        console.log(`🔍 DEBUG: Processing local body ${l[FIELDS.LOCAL_BODY.ID]} (${l[FIELDS.LOCAL_BODY.NAME_EN]})`);
         console.log(`🔍 DEBUG: Total ward collections in database: ${wardCollections?.length || 0}`);
       }
       
@@ -256,15 +256,15 @@ function toFilename(name) {
             .sort((a, b) => b[FIELDS.WARD_COLLECTION.YEAR_MONTH].localeCompare(a[FIELDS.WARD_COLLECTION.YEAR_MONTH]));
           const latest = sorted[0] || null;
           return {
-            id: w[FIELDS.WARD.ID],
-            ward_no: w[FIELDS.WARD.WARD_NO] || '',
-            name_en: w[FIELDS.WARD.WARD_NAME_EN] || '',
-            name_ml: w[FIELDS.WARD.WARD_NAME_ML] || '',
+            [FIELDS.WARD.ID]: w[FIELDS.WARD.ID],
+            [FIELDS.WARD.WARD_NO]: w[FIELDS.WARD.WARD_NO] || '',
+            [FIELDS.WARD.WARD_NAME_EN]: w[FIELDS.WARD.WARD_NAME_EN] || '',
+            [FIELDS.WARD.WARD_NAME_ML]: w[FIELDS.WARD.WARD_NAME_ML] || '',
             ward_collection: latest ? {
-              collection_id: latest[FIELDS.WARD_COLLECTION.COLLECTION_ID],
-              ward_id: latest[FIELDS.WARD_COLLECTION.WARD_ID],
-              year_month: latest[FIELDS.WARD_COLLECTION.YEAR_MONTH],
-              rate: latest[FIELDS.WARD_COLLECTION.RATE]
+              [FIELDS.WARD_COLLECTION.COLLECTION_ID]: latest[FIELDS.WARD_COLLECTION.COLLECTION_ID],
+              [FIELDS.WARD_COLLECTION.WARD_ID]: latest[FIELDS.WARD_COLLECTION.WARD_ID],
+              [FIELDS.WARD_COLLECTION.YEAR_MONTH]: latest[FIELDS.WARD_COLLECTION.YEAR_MONTH],
+              [FIELDS.WARD_COLLECTION.RATE]: latest[FIELDS.WARD_COLLECTION.RATE]
             } : null
           };
         });
@@ -301,28 +301,28 @@ function toFilename(name) {
         }
       }
       const localBodyJSON = {
-        id: l.id,
-        name_en: l.name_en,
-        name_ml: l.name_ml,
-        assembly_id: l.assembly_id,
-        local_body_type_id: l.local_body_type_id,
-        local_body_type: {
-          id: type.id,
-          name_en: type.name_en || '',
-          name_ml: type.name_ml || ''
+        [FIELDS.LOCAL_BODY.ID]: l[FIELDS.LOCAL_BODY.ID],
+        [FIELDS.LOCAL_BODY.NAME_EN]: l[FIELDS.LOCAL_BODY.NAME_EN],
+        [FIELDS.LOCAL_BODY.NAME_ML]: l[FIELDS.LOCAL_BODY.NAME_ML],
+        [FIELDS.LOCAL_BODY.ASSEMBLY_ID]: l[FIELDS.LOCAL_BODY.ASSEMBLY_ID],
+        [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE_ID]: l[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE_ID],
+        [TABLES.LOCAL_BODY_TYPE]: {
+          [FIELDS.LOCAL_BODY_TYPE.ID]: type[FIELDS.LOCAL_BODY_TYPE.ID],
+          [FIELDS.LOCAL_BODY_TYPE.NAME_EN]: type[FIELDS.LOCAL_BODY_TYPE.NAME_EN] || '',
+          [FIELDS.LOCAL_BODY_TYPE.NAME_ML]: type[FIELDS.LOCAL_BODY_TYPE.NAME_ML] || ''
         },
         local_body_category: localBodyCategoryMap[l.id] ? { category: localBodyCategoryMap[l.id] } : null,
         assembly: {
-          id: assembly.id,
-          name_en: assembly.name_en,
-          name_ml: assembly.name_ml,
-          assembly_category: assemblyCategoryMap[assembly.id] ? { category: assemblyCategoryMap[assembly.id] } : null
+          [FIELDS.ASSEMBLY.ID]: assembly[FIELDS.ASSEMBLY.ID],
+          [FIELDS.ASSEMBLY.NAME_EN]: assembly[FIELDS.ASSEMBLY.NAME_EN],
+          [FIELDS.ASSEMBLY.NAME_ML]: assembly[FIELDS.ASSEMBLY.NAME_ML],
+          [TABLES.ASSEMBLY_CATEGORY]: assemblyCategoryMap[assembly[FIELDS.ASSEMBLY.ID]] ? { category: assemblyCategoryMap[assembly[FIELDS.ASSEMBLY.ID]] } : null
         },
         district: {
-          id: district.id,
-          name_en: district.name_en,
-          name_ml: district.name_ml,
-          district_category: districtCategoryMap[district.id] ? { category: districtCategoryMap[district.id] } : null
+          [FIELDS.DISTRICT.ID]: district[FIELDS.DISTRICT.ID],
+          [FIELDS.DISTRICT.NAME_EN]: district[FIELDS.DISTRICT.NAME_EN],
+          [FIELDS.DISTRICT.NAME_ML]: district[FIELDS.DISTRICT.NAME_ML],
+          [TABLES.DISTRICT_CATEGORY]: districtCategoryMap[district.id] ? { category: districtCategoryMap[district.id] } : null
         },
         wards: lbWardsWithBasicInfo,
         towns: lbTownsArr,
@@ -331,7 +331,7 @@ function toFilename(name) {
           outline: `geojson/local-bodies/outlines/${toFilename(l.name_en)}.geojson`
         }
       };
-      await writeJSON(path.join(LOCAL_BODIES_DIR, `${l.id}.json`), localBodyJSON);
+      await writeJSON(path.join(LOCAL_BODIES_DIR, `${l[FIELDS.LOCAL_BODY.ID]}.json`), localBodyJSON);
     }
 
     // --- COMMENTED OUT: Index JSON ---
