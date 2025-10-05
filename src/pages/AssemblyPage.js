@@ -104,7 +104,7 @@ function AssemblyPage() {
   const geojsonUrl = assemblyNameEn
     ? `${process.env.PUBLIC_URL}/geojson/assemblies/with-local-bodies/${geojsonFileName}`
     : null;
-
+  console.log('geojsonUrl ', geojsonUrl);
   useEffect(() => {
     setGeojsonError(null);
     if (!geojsonUrl) return;
