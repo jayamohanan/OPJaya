@@ -5,6 +5,8 @@ import TopNav from '../components/TopNav';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { getStateData, getAssembliesForDistrict, getLocalBodiesForAssembly } from '../services/clientDataService';
 import './Home.css';
+import { devError } from '../utils/devLog';
+
 
 function Home() {
   const { lang } = useContext(LanguageContext); // 'ml' or 'en'
@@ -31,7 +33,7 @@ function Home() {
         const sortedDistricts = (districts || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN]));
         setDistricts(sortedDistricts);
       } catch (error) {
-        console.error("Error fetching districts:", error);
+  devError("Error fetching districts:", error);
       }
       setLoadingDistricts(false);
     }
@@ -48,7 +50,7 @@ function Home() {
           const sortedAssemblies = (data || []).sort((a, b) => a[FIELDS.ASSEMBLY.NAME_EN].localeCompare(b[FIELDS.ASSEMBLY.NAME_EN]));
           setAssemblies(sortedAssemblies);
         } catch (error) {
-          console.error("Error fetching assemblies:", error);
+          devError("Error fetching assemblies:", error);
         }
         setSelectedAssemblyId('');
         setSelectedLocalBodyId('');
@@ -77,7 +79,7 @@ function Home() {
             .sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN]));
           setLocalBodies(filteredLocalBodies);
         } catch (error) {
-          console.error("Error fetching local bodies:", error);
+          devError("Error fetching local bodies:", error);
         }
         setSelectedLocalBodyId('');
         setLoadingLocalBodies(false);

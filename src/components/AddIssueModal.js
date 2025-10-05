@@ -6,6 +6,8 @@ import 'leaflet/dist/leaflet.css';
 import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LABELS } from '../constants/labels';
+import { devError } from '../utils/devLog';
+
 
 const issueTypes = [
   'Towns',
@@ -222,7 +224,7 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
       onClose();
     } catch (error) {
       // Log the error reason for debugging
-      console.error('Failed to submit issue:', error);
+  devError('Failed to submit issue:', error);
       alert('Failed to submit issue. Please try again.\n' + (error.message || JSON.stringify(error)));
     } finally {
       setIsSubmitting(false);

@@ -6,6 +6,8 @@ import { LanguageContext } from '../components/LanguageContext';
 import RegionInfoPage from '../components/RegionInfoPage';
 import React from 'react';
 import { LABELS } from '../constants/labels';
+import { devError } from '../utils/devLog';
+
 
 const paletteOptions = [
   { key: 'palette1', label: 'Palette 1 – Fresh & Natural' },
@@ -46,7 +48,7 @@ function DistrictPage() {
           }))
         );
       } catch (error) {
-        console.error('Error fetching district data:', error);
+  devError('Error fetching district data:', error);
         setAssemblies([]);
         setDistrict(null);
       }

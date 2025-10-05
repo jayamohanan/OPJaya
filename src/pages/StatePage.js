@@ -3,6 +3,7 @@ import RegionInfoPage from '../components/RegionInfoPage';
 import { getStateData } from '../services/clientDataService';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
+import { devError } from '../utils/devLog';
 
 function StatePage() {
   const { lang } = useContext(LanguageContext); // 'ml' or 'en'
@@ -26,7 +27,7 @@ function StatePage() {
         }));
         setDistricts(districtsWithCategory);
       } catch (error) {
-        console.error('Error fetching state data:', error);
+        devError('Error fetching state data:', error);
         setDistricts([]);
       }
     }

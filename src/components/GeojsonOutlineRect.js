@@ -4,6 +4,8 @@ import 'leaflet/dist/leaflet.css';
 import L from 'leaflet';
 import { useNavigate } from 'react-router-dom';
 import { FIELDS } from '../constants/dbSchema';
+import { devLog } from '../utils/devLog';
+
 
 function FitBounds({ geojson }) {
   const map = useMap();
@@ -31,9 +33,9 @@ function GeojsonOutlineRect({ geojsonUrl, featureType, logAllFeatures }) {
       .then(data => {
         setGeojson(data);
         if (data && data.features && logAllFeatures) {
-          console.log('All feature metadata:');
+          devLog('All feature metadata:');
           data.features.forEach((feature, idx) => {
-            console.log(`Feature ${idx + 1}:`, feature.properties);
+            devLog(`Feature ${idx + 1}:`, feature.properties);
           });
         }
       });

@@ -6,6 +6,7 @@ import { getAssemblyData, getDistrictData, getLocalBodiesForAssembly } from '../
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { LanguageContext } from '../components/LanguageContext';
 import { LABELS } from '../constants/labels';
+import { devError } from '../utils/devLog';
 
 
 function AssemblyPage() {
@@ -57,7 +58,7 @@ function AssemblyPage() {
           ...categories['Normal']
         ]);
       } catch (error) {
-        console.error('Error fetching assembly data:', error);
+  devError('Error fetching assembly data:', error);
         setRankedLocalBodies([]);
         setDistrict('');
         setAssembly(null);

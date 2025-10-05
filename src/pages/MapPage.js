@@ -10,6 +10,8 @@ import { LABELS } from '../constants/labels';
 import { FIELDS } from '../constants/dbSchema';
 import L from 'leaflet';
 import TownIssuesModal from '../components/TownIssuesModal';
+import { devLog, devError } from '../utils/devLog';
+
 
 function GeoJsonLayer({ url, onSuccess, onError }) {
   const map = useMap();
@@ -37,11 +39,11 @@ function GeoJsonLayer({ url, onSuccess, onError }) {
           map.fitBounds(bounds, { padding: [20, 20] });
         }
         onSuccess();
-        console.log('[MapPage] GeoJSON loaded successfully');
+  devLog('[MapPage] GeoJSON loaded successfully');
       })
       .catch(err => {
         onError();
-        console.error('[MapPage] GeoJSON load error', err);
+  devError('[MapPage] GeoJSON load error', err);
       });
 
     return () => {
@@ -191,8 +193,8 @@ function MapPage() {
           {geojsonUrl && (
             <GeoJsonLayer
               url={geojsonUrl}
-              onSuccess={() => console.log('[MapPage] Map loaded')}
-              onError={() => console.error('[MapPage] Map load error')}
+              onSuccess={() => devLog('[MapPage] Map loaded')}
+              onError={() => devError('[MapPage] Map load error')}
             />
           )}
           {/* Add town markers for current local body */}

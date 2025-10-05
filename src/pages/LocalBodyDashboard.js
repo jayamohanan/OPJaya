@@ -18,6 +18,7 @@ import {
   getTownsForLocalBody,
   updateWardCollectionRates
 } from '../services/clientDataService';
+import { devError, devLog } from '../utils/devLog';
 
 const sections = [
   { title: 'Towns' },
@@ -393,7 +394,7 @@ function LocalBodyDashboard() {
         }
         setDistrict(dist);
       } catch (error) {
-        console.error('Error fetching data:', error);
+  devError('Error fetching data:', error);
         setLocalBody(null);
         setAssembly(null);
         setDistrict(null);
@@ -486,7 +487,7 @@ function LocalBodyDashboard() {
           .sort((a, b) => a.rate - b.rate);
         setHksCollectionRates(mapped);
       } catch (error) {
-        console.error('Error fetching HKS rates:', error);
+  devError('Error fetching HKS rates:', error);
         setHksCollectionRates([]);
       } finally {
         setLoadingHKSRates(false);
@@ -573,7 +574,7 @@ function LocalBodyDashboard() {
         [sectionTitle]: sampleIssues
       }));
     } catch (error) {
-      console.error(`Failed to fetch issues for ${sectionTitle}:`, error);
+  devError(`Failed to fetch issues for ${sectionTitle}:`, error);
       setIssues(prev => ({
         ...prev,
         [sectionTitle]: []
@@ -689,9 +690,9 @@ function LocalBodyDashboard() {
     if (inserts.length > 0) {
       try {
         const data = await updateWardCollectionRates(inserts);
-        console.log('supa message:', data);
+  devLog('supa message:', data);
       } catch (error) {
-        console.log('supa message:', error.message);
+  devLog('supa message:', error.message);
         alert('Error updating rates: ' + error.message);
         setHksLoading(false);
         return;
@@ -711,7 +712,7 @@ function LocalBodyDashboard() {
         const wardsData = await getWardsForLocalBody(localBody[FIELDS.LOCAL_BODY.ID]);
         setWards(wardsData || []);
       } catch (error) {
-        console.error('Error fetching wards:', error);
+  devError('Error fetching wards:', error);
         setWards([]);
       }
     }
@@ -726,7 +727,7 @@ function LocalBodyDashboard() {
       try {
         const issuesData = await getIssuesForLocalBody(localBodyId);
         if (!issuesData || issuesData.length === 0) {
-          console.log('no issue found, fallback to placeholder');
+          devLog('no issue found, fallback to placeholder');
           // fallback to placeholder for all sections
           setIssues({});
         } else {
@@ -740,7 +741,7 @@ function LocalBodyDashboard() {
           setIssues(grouped);
         }
       } catch (error) {
-        console.error('Error fetching issues:', error);
+  devError('Error fetching issues:', error);
         setIssues({});
       }
     }
@@ -750,14 +751,14 @@ function LocalBodyDashboard() {
   // Log all towns in the local body (English and Malayalam)
   useEffect(() => {
     if (!localBodyId) {
-      console.log('No localBodyId available for fetching towns.');
+  devLog('No localBodyId available for fetching towns.');
       return;
     }
     async function fetchTowns() {
       try {
         const towns = await getTownsForLocalBody(localBodyId);
       } catch (error) {
-        console.error('Error fetching towns for logging:', error);
+  devError('Error fetching towns for logging:', error);
       }
     }
     fetchTowns();
@@ -782,7 +783,7 @@ function LocalBodyDashboard() {
           setTownsMap({});
         }
       } catch (error) {
-        console.error('Error fetching towns:', error);
+  devError('Error fetching towns:', error);
         setTownsMap({});
       }
     }

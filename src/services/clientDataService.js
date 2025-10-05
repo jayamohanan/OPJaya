@@ -1,6 +1,7 @@
 // src/services/clientDataService.js
 import { supabase } from '../supabaseClient';
 import { TABLES, FIELDS } from '../constants/dbSchema';
+import { devError } from '../utils/devLog';
 
 // Set this flag to true to use Supabase, false to use static JSON files
 const USE_SUPABASE = false;
@@ -269,13 +270,13 @@ export async function getWardsForLocalBody(localBodyId) {
         .eq(FIELDS.WARD.LOCAL_BODY_ID, localBodyId);
 
       if (error) {
-        console.error('Error fetching wards for local body:', error);
+  devError('Error fetching wards for local body:', error);
         return [];
       }
 
       return data || [];
     } catch (error) {
-      console.error('Error in getWardsForLocalBody:', error);
+  devError('Error in getWardsForLocalBody:', error);
       return [];
     }
   } else {
@@ -283,7 +284,7 @@ export async function getWardsForLocalBody(localBodyId) {
       const localBodyData = await getLocalBodyData(localBodyId);
       return localBodyData.wards || [];
     } catch (error) {
-      console.error('Error fetching wards from local body JSON:', error);
+  devError('Error fetching wards from local body JSON:', error);
       return [];
     }
   }
@@ -299,13 +300,13 @@ export async function getWardCollectionRates(localbodyId, wardIds) {
         .in(FIELDS.WARD_COLLECTION.WARD_ID, wardIds);
 
       if (error) {
-        console.error('Error fetching ward collection rates:', error);
+  devError('Error fetching ward collection rates:', error);
         return [];
       }
 
       return data || [];
     } catch (error) {
-      console.error('Error in getWardCollectionRates:', error);
+  devError('Error in getWardCollectionRates:', error);
       return [];
     }
   } else {
@@ -316,7 +317,7 @@ export async function getWardCollectionRates(localbodyId, wardIds) {
         .map(w => w.ward_collection)
         .filter(wc => wc != null);
     } catch (error) {
-      console.error('Error fetching ward collections from local body JSON:', error);
+  devError('Error fetching ward collections from local body JSON:', error);
       return [];
     }
   }
@@ -332,12 +333,12 @@ export async function getIssuesForLocalBody(localBodyId) {
         .eq(FIELDS.ISSUES.LOCAL_BODY_ID, localBodyId);
 
       if (error) {
-        console.error('Error fetching issues for local body:', error);
+  devError('Error fetching issues for local body:', error);
         return [];
       }
       return data || [];
     } catch (error) {
-      console.error('Error in getIssuesForLocalBody:', error);
+  devError('Error in getIssuesForLocalBody:', error);
       return [];
     }
   } else {
@@ -357,7 +358,7 @@ export async function getIssuesForLocalBody(localBodyId) {
       }
       return allIssues;
     } catch (error) {
-      console.error('Error fetching issues from local body JSON:', error);
+  devError('Error fetching issues from local body JSON:', error);
       return [];
     }
   }
@@ -372,13 +373,13 @@ export async function getTownsForLocalBody(localBodyId) {
         .eq(FIELDS.TOWN.LOCAL_BODY_ID, localBodyId);
 
       if (error) {
-        console.error('Error fetching towns for local body:', error);
+  devError('Error fetching towns for local body:', error);
         return [];
       }
 
       return data || [];
     } catch (error) {
-      console.error('Error in getTownsForLocalBody:', error);
+  devError('Error in getTownsForLocalBody:', error);
       return [];
     }
   } else {
@@ -386,7 +387,7 @@ export async function getTownsForLocalBody(localBodyId) {
       const localBodyData = await getLocalBodyData(localBodyId);
       return localBodyData.towns || [];
     } catch (error) {
-      console.error('Error fetching towns from local body JSON:', error);
+  devError('Error fetching towns from local body JSON:', error);
       return [];
     }
   }
@@ -401,13 +402,13 @@ export async function updateWardCollectionRates(rates) {
         .upsert(rates, { onConflict: ['ward_id', 'year_month'] });
 
       if (error) {
-        console.error('Error updating ward collection rates:', error);
+  devError('Error updating ward collection rates:', error);
         throw error;
       }
 
       return data;
     } catch (error) {
-      console.error('Error in updateWardCollectionRates:', error);
+  devError('Error in updateWardCollectionRates:', error);
       throw error;
     }
   } else {

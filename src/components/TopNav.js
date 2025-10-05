@@ -4,6 +4,8 @@ import { useNavigate } from 'react-router-dom';
 import { TABLES, FIELDS } from '../constants/dbSchema';
 import { getStateData, getAssembliesForDistrict, getLocalBodiesForAssembly } from '../services/clientDataService';
 import './TopNav.css';
+import { devError } from '../utils/devLog';
+
 
 function TopNav() {
   const navigate = useNavigate();
@@ -27,7 +29,7 @@ function TopNav() {
         const { districts } = await getStateData();
         setDistrictOptions((districts || []).sort((a, b) => a[FIELDS.DISTRICT.NAME_EN].localeCompare(b[FIELDS.DISTRICT.NAME_EN])));
       } catch (error) {
-        console.error('Error fetching districts:', error);
+  devError('Error fetching districts:', error);
       }
       setLoadingDistricts(false);
     }
@@ -42,7 +44,7 @@ function TopNav() {
           const data = await getAssembliesForDistrict(district);
           setAssemblyOptions((data || []).sort((a, b) => a[FIELDS.ASSEMBLY.NAME_EN].localeCompare(b[FIELDS.ASSEMBLY.NAME_EN])));
         } catch (error) {
-          console.error('Error fetching assemblies:', error);
+          devError('Error fetching assemblies:', error);
         }
         setAssembly('');
         setLocalBody('');
@@ -61,7 +63,7 @@ function TopNav() {
           const data = await getLocalBodiesForAssembly(assembly);
           setLocalBodyOptions((data || []).sort((a, b) => a[FIELDS.LOCAL_BODY.NAME_EN].localeCompare(b[FIELDS.LOCAL_BODY.NAME_EN])));
         } catch (error) {
-          console.error('Error fetching local bodies:', error);
+          devError('Error fetching local bodies:', error);
         }
         setLocalBody('');
         setLoadingLocalBodies(false);

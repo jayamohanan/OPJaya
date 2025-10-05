@@ -3,6 +3,7 @@ import { MapContainer, TileLayer, GeoJSON } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
 import TownIssuesModal from './TownIssuesModal';
 import { FIELDS } from '../constants/dbSchema';
+import { devLog } from '../utils/devLog';
 
 function MapSection({ geojsonUrl, title, townsMap = {}, issuesByTown = {} }) {
   const [geojson, setGeojson] = useState(null);
@@ -35,7 +36,7 @@ function MapSection({ geojsonUrl, title, townsMap = {}, issuesByTown = {} }) {
       click: (e) => {
         const townId = feature.properties?.[FIELDS.TOWN.ID];
         const townName = townId && townsMap[townId] ? townsMap[townId][FIELDS.TOWN.TOWN_NAME_EN] : undefined;
-        console.log('Feature clicked:', feature.properties, 'townId:', townId, 'townName:', townName);
+  devLog('Feature clicked:', feature.properties, 'townId:', townId, 'townName:', townName);
         if (townId && townsMap[townId]) {
           setSelectedTownId(townId);
         }

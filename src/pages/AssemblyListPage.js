@@ -9,6 +9,8 @@ import {
   getAllAssembliesData, 
   getAllLocalBodiesData
 } from '../services/clientDataService';
+import { devError } from '../utils/devLog';
+
 
 function AssemblyListPage() {
   const { lang } = useContext(LanguageContext);
@@ -59,7 +61,7 @@ function AssemblyListPage() {
         });
         setLocalBodiesByAssembly(lbGrouped);
       } catch (error) {
-        console.error('Error fetching data:', error);
+  devError('Error fetching data:', error);
       } finally {
         setLoading(false);
       }
