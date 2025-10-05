@@ -1,0 +1,39 @@
+name: Daily Build & Deploy
+
+# Trigger at 5 AM IST daily
+on:
+  schedule:
+    - cron: '30 23 * * *'  # 5 AM IST
+  workflow_dispatch:  # optional manual trigger
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Checkout code
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      # 2. Setup Node.js
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20  # or your preferred version
+
+      # 3. Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 4. Build React app
+      - name: Build
+        run: npm run build
+
+      # 5. Deploy to Cloudflare Pages
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1
+        with:
+          apiToken: ${{ secrets.CF_API_TOKEN }}
+          accountId: ${{ secrets.CF_ACCOUNT_ID }}
+          projectName: opjaya
+          directory: ./build
