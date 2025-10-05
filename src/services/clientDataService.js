@@ -38,13 +38,11 @@ export async function getDistrictData(districtId) {
       .eq(FIELDS.DISTRICT.ID, districtId)
       .single();
     if (districtError) throw districtError;
-    console.log('-------getDistrictData', districtData);
     return districtData;
   } else {
     const res = await fetch(`/data/districts/${districtId}.json`);
     if (!res.ok) throw new Error('District JSON not found');
     const districtJson = await res.json();
-    console.log([TABLES.DISTRICT_CATEGORY]);
     return {
       [FIELDS.DISTRICT.ID]: districtJson[FIELDS.DISTRICT.ID],
       [FIELDS.DISTRICT.IS_ACTIVE]: districtJson[FIELDS.DISTRICT.IS_ACTIVE],
@@ -65,7 +63,6 @@ export async function getAssembliesForDistrict(districtId) {
       ].join(', '))
       .eq(FIELDS.ASSEMBLY.DISTRICT_ID, districtId);
     if (asmError) throw asmError;
-    console.log('-------getAssembliesForDistrict', asms || []);
     return asms || [];
   } else {
     const res = await fetch(`/data/districts/${districtId}.json`);
@@ -87,7 +84,6 @@ export async function getAssemblyData(assemblyId) {
       .eq(FIELDS.ASSEMBLY.ID, assemblyId)
       .single();
     if (assemblyError) throw assemblyError;
-    console.log('-------getAssemblyData', assemblyData);
     return assemblyData;
   } else {
     const res = await fetch(`/data/assemblies/${assemblyId}.json`);
@@ -115,7 +111,6 @@ export async function getLocalBodiesForAssembly(assemblyId) {
       ].join(', '))
       .eq(FIELDS.LOCAL_BODY.ASSEMBLY_ID, assemblyId);
     if (lbError) throw lbError;
-    console.log('-------getLocalBodiesForAssembly', lbs || []);
     return lbs || [];
   } else {
     const res = await fetch(`/data/assemblies/${assemblyId}.json`);
@@ -138,7 +133,6 @@ export async function getLocalBodyData(localBodyId) {
       .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
       .single();
     if (localBodyError) throw localBodyError;
-    console.log('-------getLocalBodyData', localBodyData);
     return localBodyData;
   } else {
     const res = await fetch(`/data/local_bodies/${localBodyId}.json`);
@@ -162,7 +156,6 @@ export async function getLocalBodyDetails(localBodyId) {
       .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
       .single();
     if (localBodyError) throw localBodyError;
-    console.log('-------getLocalBodyDetails', localBodyData);
     return localBodyData;
   } else {
     return await getLocalBodyData(localBodyId);
@@ -182,7 +175,6 @@ export async function getAssemblyDetails(assemblyId) {
       .eq(FIELDS.ASSEMBLY.ID, assemblyId)
       .single();
     if (assemblyError) throw assemblyError;
-    console.log('-------getAssemblyDetails', assemblyData);
     return assemblyData;
   } else {
     return await getAssemblyData(assemblyId);
@@ -201,7 +193,6 @@ export async function getDistrictDetails(districtId) {
       .eq(FIELDS.DISTRICT.ID, districtId)
       .single();
     if (districtError) throw districtError;
-    console.log('-------getDistrictDetails', districtData);
     return districtData;
   } else {
     return await getDistrictData(districtId);
@@ -217,7 +208,6 @@ export async function getAllDistrictsData() {
         '*',
         `${TABLES.DISTRICT_CATEGORY}(*)`
       ].join(', '));
-    console.log('-------getAllDistrictsData', districtData || []);
     return districtData || [];
   } else {
     const stateData = await getStateData();
@@ -250,7 +240,6 @@ export async function getAllLocalBodiesData() {
         `${TABLES.LOCAL_BODY_CATEGORY}(*)`,
         `${TABLES.LOCAL_BODY_TYPE}(*)`
       ].join(', '));
-    console.log('-------getAllLocalBodiesData', localBodyData || []);
     return  localBodyData || [];
   } else {
     // For JSON mode, we'd need to aggregate from all assembly JSONs
@@ -263,7 +252,6 @@ export async function getLocalBodyCategories() {
     const { data: localBodyCategoryData } = await supabase
       .from('local_body_category')
       .select(`${FIELDS.LOCAL_BODY_CATEGORY.LOCAL_BODY_ID}, ${FIELDS.LOCAL_BODY_CATEGORY.CATEGORY}`);
-    console.log('-------getLocalBodyCategories', localBodyCategoryData || []);
     return localBodyCategoryData || [];
   } else {
     // Categories are included in the individual JSON files
@@ -285,7 +273,6 @@ export async function getWardsForLocalBody(localBodyId) {
         return [];
       }
 
-      console.log('-------getWardsForLocalBody', data || []);
       return data || [];
     } catch (error) {
       console.error('Error in getWardsForLocalBody:', error);
@@ -316,7 +303,6 @@ export async function getWardCollectionRates(localbodyId, wardIds) {
         return [];
       }
 
-      console.log('-------getWardCollectionRates', data || []);
       return data || [];
     } catch (error) {
       console.error('Error in getWardCollectionRates:', error);
@@ -349,8 +335,6 @@ export async function getIssuesForLocalBody(localBodyId) {
         console.error('Error fetching issues for local body:', error);
         return [];
       }
-
-      console.log('-------getIssuesForLocalBody', data || []);
       return data || [];
     } catch (error) {
       console.error('Error in getIssuesForLocalBody:', error);
@@ -371,7 +355,6 @@ export async function getIssuesForLocalBody(localBodyId) {
           allIssues = allIssues.concat(value);
         }
       }
-      console.log('-------getIssuesForLocalBody from JSON', allIssues);
       return allIssues;
     } catch (error) {
       console.error('Error fetching issues from local body JSON:', error);
@@ -393,7 +376,6 @@ export async function getTownsForLocalBody(localBodyId) {
         return [];
       }
 
-      console.log('-------getTownsForLocalBody', data || []);
       return data || [];
     } catch (error) {
       console.error('Error in getTownsForLocalBody:', error);
@@ -423,7 +405,6 @@ export async function updateWardCollectionRates(rates) {
         throw error;
       }
 
-      console.log('-------updateWardCollectionRates', data);
       return data;
     } catch (error) {
       console.error('Error in updateWardCollectionRates:', error);

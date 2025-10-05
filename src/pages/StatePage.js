@@ -40,7 +40,7 @@ function StatePage() {
     { key: 'Normal', label: '🥈 Normal', color: '#90a4ae', bg: '#eceff1' }
   ];
 
-  const geojsonUrl = `${process.env.PUBLIC_URL}/geojson/states/with-districts/kerala.geojson`;
+  const geojsonUrl = `/geojson/states/with-districts/kerala.geojson`;
 
   useEffect(() => {
     setGeojsonError(null);

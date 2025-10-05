@@ -12,16 +12,12 @@ import L from 'leaflet';
 import TownIssuesModal from '../components/TownIssuesModal';
 
 function GeoJsonLayer({ url, onSuccess, onError }) {
-  console.log('[MapPage] GeoJsonLayer URL:', url);
   const map = useMap();
 
   useEffect(() => {
     if (!url) return;
     let geoJsonLayer;
     let didCancel = false;
-
-    console.log('[MapPage] Looking for GeoJSON file at:', url);
-
     fetch(url)
       .then(response => {
         if (!response.ok) throw new Error('GeoJSON not found');
@@ -109,14 +105,13 @@ function TownMarkers({ localBodyId, onTownClick }) {
 
 function MapPage() {
   const { state } = useLocation();
-  console.log('[MapPage] useLocation().state:', state);
   const navigate = useNavigate();
   
   const lbName = state?.localBodyName || 'Unknown';
   const lbType = state?.localBodyType || '';
   // Compose the GeoJSON file URL for the boundary
   const geojsonFileName = state?.localBodyData?.[FIELDS.LOCAL_BODY.ID] ? `${state.localBodyData[FIELDS.LOCAL_BODY.ID]}.geojson` : '';
-  const geojsonUrl = geojsonFileName ? `${process.env.PUBLIC_URL}/geojson/local-bodies/outlines/${geojsonFileName}` : '';
+  const geojsonUrl = geojsonFileName ? `/geojson/local-bodies/outlines/${geojsonFileName}` : '';
 
   const [townsMap, setTownsMap] = useState({});
   const [issuesByTown, setIssuesByTown] = useState({});

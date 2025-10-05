@@ -100,11 +100,9 @@ function AssemblyPage() {
 
   const assemblyNameEn = assembly?.[FIELDS.ASSEMBLY.NAME_EN] || '';
   const geojsonFileName = assemblyNameEn ? `${assemblyNameEn.toLowerCase().replace(/\s+/g, '-')}.geojson` : '';
-  console.log('geojsonFileName ', geojsonFileName);
   const geojsonUrl = assemblyNameEn
-    ? `${process.env.PUBLIC_URL}/geojson/assemblies/with-local-bodies/${geojsonFileName}`
+    ? `/geojson/assemblies/with-local-bodies/${geojsonFileName}`
     : null;
-  console.log('geojsonUrl ', geojsonUrl);
   useEffect(() => {
     setGeojsonError(null);
     if (!geojsonUrl) return;
