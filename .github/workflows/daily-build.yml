@@ -3,7 +3,7 @@ name: Daily Build & Deploy
 # Trigger at 5 AM IST daily
 on:
   schedule:
-    - cron: '40 03 * * *'  # 5 AM IST is 23:30 UTC (fixed: removed extra asterisk)
+    - cron: '14 11 * * *'  # 5 AM IST is 23:30 UTC (fixed: removed extra asterisk)
   workflow_dispatch:  # Manual trigger option
   push:
     branches:
