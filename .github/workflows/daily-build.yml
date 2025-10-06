@@ -3,7 +3,7 @@ name: Daily Build & Deploy
 # Trigger at 5 AM IST daily
 on:
   schedule:
-    - cron: '30 23 * * *'  # 5 AM IST
+    - cron: '30 23 * * *'  # 5 AM IST is 23:30 UTC
   workflow_dispatch:  # optional manual trigger
 
 jobs:
@@ -25,11 +25,15 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # 4. Build React app
+      # 4. Run Data Build Script
+      - name: Run Data Build Script
+        run: node scripts/buildData.js
+        
+      # 5. Build React app
       - name: Build
         run: npm run build
 
-      # 5. Deploy to Cloudflare Pages
+      # 6. Deploy to Cloudflare Pages
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
