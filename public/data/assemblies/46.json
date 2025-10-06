@@ -31,7 +31,9 @@
       "id": "M100700",
       "name_en": "Kottakkal",
       "name_ml": "കോട്ടക്കല്‍",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
       "id": "G100905",
@@ -61,7 +63,9 @@
       "id": "M100900",
       "name_en": "Valanchery",
       "name_ml": "വളാഞ്ചേരി",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Good"
+      }
     }
   ],
   "geojson_links": {

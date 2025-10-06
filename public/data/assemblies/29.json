@@ -15,7 +15,9 @@
       "id": "M110700",
       "name_en": "Feroke",
       "name_ml": "ഫറോക്ക്",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
       "id": "G111201",
@@ -29,7 +31,9 @@
       "id": "M110600",
       "name_en": "Ramanattukara",
       "name_ml": "രാമനാട്ടുകര",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {

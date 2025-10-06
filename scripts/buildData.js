@@ -41,7 +41,7 @@ const LOCAL_BODIES_DIR = path.join(DATA_DIR, 'local_bodies');
 async function writeJSON(filePath, data) {
   await fs.mkdir(path.dirname(filePath), { recursive: true });
   await fs.writeFile(filePath, JSON.stringify(data, null, 2), 'utf8');
-  console.log(`✅ Created: ${path.relative(process.cwd(), filePath)}`);
+  //console.log(`✅ Created: ${path.relative(process.cwd(), filePath)}`);
 }
 
 // Helper function to convert names to web-safe lowercase filenames
@@ -105,11 +105,49 @@ function toFilename(name) {
         from += batchSize;
         if (data.length < batchSize) break;
       }
+      console.log(`✅ Fetched ${allLocalBodies.length} local bodies`);
       return allLocalBodies;
     }
     const allLocalBodies = await fetchAllLocalBodies();
-    const { data: localBodyCategories } = await supabase.from(TABLES.LOCAL_BODY_CATEGORY).select('*');
-    const localBodyCategoryMap = Object.fromEntries((localBodyCategories || []).map(lc => [lc[FIELDS.LOCAL_BODY_CATEGORY.LOCAL_BODY_ID], lc[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY]]));
+    // Fetch all local body types in batches (Supabase 1000 row limit workaround)
+    async function fetchAllLocalBodyTypes(batchSize = 1000) {
+      let allTypes = [];
+      let from = 0;
+      while (true) {
+        const { data, error } = await supabase
+          .from(TABLES.LOCAL_BODY_TYPE)
+          .select('*')
+          .range(from, from + batchSize - 1);
+        if (error) throw error;
+        if (!data.length) break;
+        allTypes = allTypes.concat(data);
+        from += batchSize;
+        if (data.length < batchSize) break;
+      }
+      console.log(`✅ Fetched ${allTypes.length} local body types`);
+      return allTypes;
+    }
+    const allLocalBodyTypes = await fetchAllLocalBodyTypes();
+    // Fetch all local body categories in batches (Supabase 1000 row limit workaround)
+    async function fetchAllLocalBodyCategories(batchSize = 1000) {
+      let allCategories = [];
+      let from = 0;
+      while (true) {
+        const { data, error } = await supabase
+          .from(TABLES.LOCAL_BODY_CATEGORY)
+          .select('*')
+          .range(from, from + batchSize - 1);
+        if (error) throw error;
+        if (!data.length) break;
+        allCategories = allCategories.concat(data);
+        from += batchSize;
+        if (data.length < batchSize) break;
+      }
+      console.log(`✅ Fetched ${allCategories.length} local body categories`);
+      return allCategories;
+    }
+    const allLocalBodyCategories = await fetchAllLocalBodyCategories();
+    const localBodyCategoryMap = Object.fromEntries((allLocalBodyCategories || []).map(lc => [lc[FIELDS.LOCAL_BODY_CATEGORY.LOCAL_BODY_ID], lc[FIELDS.LOCAL_BODY_CATEGORY.CATEGORY]]));
     // --- 1. State JSON (ALL) ---
     console.log('🏗️  Generating state JSON...');
     const stateJSON = {
@@ -223,7 +261,7 @@ function toFilename(name) {
         if (error) throw error;
         if (!batch || batch.length === 0) break;
         allWardCollections = allWardCollections.concat(batch);
-        console.log(`📡 Fetched ${allWardCollections.length} ward collections so far...`);
+        //******console.log(`📡 Fetched ${allWardCollections.length} ward collections so far...`);
         from += batchSize;
         if (batch.length < batchSize) break;
       }
@@ -300,8 +338,6 @@ function toFilename(name) {
           issuesByType[issueType] = filtered;
         }
       }
-      console.log('Local Body Category:', localBodyCategoryMap[l.id]);
-      console.log('Assembly Category:', l.id);
       const localBodyJSON = {
         [FIELDS.LOCAL_BODY.ID]: l[FIELDS.LOCAL_BODY.ID],
         [FIELDS.LOCAL_BODY.NAME_EN]: l[FIELDS.LOCAL_BODY.NAME_EN],

@@ -31,7 +31,9 @@
       "id": "M101100",
       "name_en": "Parappanangadi",
       "name_ml": "പരപ്പനങ്ങാടി",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Perfect"
+      }
     },
     {
       "id": "G101208",
@@ -53,7 +55,9 @@
       "id": "M101000",
       "name_en": "Tirurangadi",
       "name_ml": "തിരൂരങ്ങാടി",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

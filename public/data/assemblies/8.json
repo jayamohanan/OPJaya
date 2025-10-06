@@ -76,13 +76,17 @@
       "id": "M130200",
       "name_en": "Thalipparamba",
       "name_ml": "തളിപ്പറമ്പ്",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Good"
+      }
     },
     {
       "id": "M130900",
       "name_en": "Anthoor",
       "name_ml": "ആന്തൂര്‍",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Perfect"
+      }
     }
   ],
   "geojson_links": {

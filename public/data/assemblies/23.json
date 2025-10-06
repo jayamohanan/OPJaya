@@ -31,7 +31,9 @@
       "id": "M110200",
       "name_en": "Koyilandy",
       "name_ml": "കൊയിലാണ്ടി",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
       "id": "G110803",
@@ -45,7 +47,9 @@
       "id": "M110300",
       "name_en": "Payyoli",
       "name_ml": "പയ്യോളി",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Normal"
+      }
     },
     {
       "id": "G110503",

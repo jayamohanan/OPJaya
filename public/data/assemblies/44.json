@@ -55,7 +55,9 @@
       "id": "M101200",
       "name_en": "Tanur",
       "name_ml": "താനൂര്‍",
-      "local_body_category": null
+      "local_body_category": {
+        "category": "Normal"
+      }
     }
   ],
   "geojson_links": {
