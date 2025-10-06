@@ -300,6 +300,8 @@ function toFilename(name) {
           issuesByType[issueType] = filtered;
         }
       }
+      console.log('Local Body Category:', localBodyCategoryMap[l.id]);
+      console.log('Assembly Category:', l.id);
       const localBodyJSON = {
         [FIELDS.LOCAL_BODY.ID]: l[FIELDS.LOCAL_BODY.ID],
         [FIELDS.LOCAL_BODY.NAME_EN]: l[FIELDS.LOCAL_BODY.NAME_EN],
@@ -307,9 +309,9 @@ function toFilename(name) {
         [FIELDS.LOCAL_BODY.ASSEMBLY_ID]: l[FIELDS.LOCAL_BODY.ASSEMBLY_ID],
         [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE_ID]: l[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE_ID],
         [TABLES.LOCAL_BODY_TYPE]: {
-          [FIELDS.LOCAL_BODY_TYPE.ID]: type[FIELDS.LOCAL_BODY_TYPE.ID],
-          [FIELDS.LOCAL_BODY_TYPE.NAME_EN]: type[FIELDS.LOCAL_BODY_TYPE.NAME_EN] || '',
-          [FIELDS.LOCAL_BODY_TYPE.NAME_ML]: type[FIELDS.LOCAL_BODY_TYPE.NAME_ML] || ''
+          [FIELDS.LOCAL_BODY_TYPE.TYPE_ID]: type[FIELDS.LOCAL_BODY_TYPE.TYPE_ID],
+          [FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN]: type[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '',
+          [FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML]: type[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || ''
         },
         local_body_category: localBodyCategoryMap[l.id] ? { category: localBodyCategoryMap[l.id] } : null,
         assembly: {
