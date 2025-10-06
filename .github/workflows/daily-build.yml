@@ -2,21 +2,15 @@ name: Daily Build & Deploy
 
 on:
   schedule:
-    - cron: '30 12 * * *'  
-  workflow_dispatch:
     - cron: '30 12 * * *'  # Runs daily at 12:30 UTC (6:00 PM IST)
   workflow_dispatch:        # Manual trigger option
   push:
     branches:
-      - main
       - main                # Also trigger on push to main
 
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
-    env:
-      SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
-      SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
 
     # ✅ Permissions fix for Cloudflare Pages deployment
     permissions:
@@ -28,30 +22,36 @@ jobs:
       SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
     
     steps:
+      # 1. Checkout code
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0  # Fetch all history for proper git info
       
+      # 2. Setup Node.js with caching
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
           node-version: 20
           cache: 'npm'
       
+      # 3. Install dependencies
       - name: Install dependencies
         run: npm ci
       
+      # 4. Run Data Build Script
       - name: Run Data Build Script
         run: node scripts/buildData.js
-        continue-on-error: false
+        continue-on-error: false  # Fail workflow if this step fails
       
+      # 5. Build React app
       - name: Build React App
         run: npm run build
         env:
           NODE_ENV: production
           CI: true
       
+      # 6. Deploy to Cloudflare Pages
       - name: Deploy to Cloudflare Pages
         uses: cloudflare/pages-action@v1
         with:
@@ -59,10 +59,12 @@ jobs:
           accountId: ${{ secrets.CF_ACCOUNT_ID }}
           projectName: opjaya
           directory: ./build
-          gitHubToken: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }}  # Used for deployment comments
+          branch: main  # Specify the branch
       
+      # 7. Notify on failure (optional)
       - name: Notify on Failure
         if: failure()
         run: |
           echo "Build or deployment failed at $(date)"
+          # Add notification logic here (Slack, Discord, email, etc.)
