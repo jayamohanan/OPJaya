@@ -308,8 +308,9 @@ function toFilename(name) {
         });
       const lbTowns = towns.filter(t => t.local_body_id === l.id);
       const lbTownsArr = lbTowns.map(t => ({
-        name_en: t.name_en,
-        name_ml: t.name_ml
+        [FIELDS.TOWN.ID]: t[FIELDS.TOWN.ID],
+        [FIELDS.TOWN.NAME_EN]: t[FIELDS.TOWN.NAME_EN],
+        [FIELDS.TOWN.NAME_ML]: t[FIELDS.TOWN.NAME_ML]
       }));
       const lbIssues = issues.filter(i => i.local_body_id === l.id);
       const issuesByType = {};

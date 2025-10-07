@@ -762,10 +762,14 @@ function LocalBodyDashboard() {
       
       try {
         const towns = await getTownsForLocalBody(localBodyId);
+        console.log('towns ',towns);
         if (towns && towns.length > 0) {
           const map = {};
+          console.log('FIELDS.TOWN.ID:', FIELDS.TOWN.ID);
           towns.forEach(town => { map[town[FIELDS.TOWN.ID]] = town; });
           setTownsMap(map);
+          devLog('townsMap:', map);
+          console.log('townsMap:', map);
         } else {
           setTownsMap({});
         }
