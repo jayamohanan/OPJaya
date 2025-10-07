@@ -32,12 +32,12 @@ function GeojsonOutlineRect({ geojsonUrl, featureType, logAllFeatures }) {
       .then(res => res.json())
       .then(data => {
         setGeojson(data);
-        if (data && data.features && logAllFeatures) {
-          devLog('All feature metadata:');
-          data.features.forEach((feature, idx) => {
-            devLog(`Feature ${idx + 1}:`, feature.properties);
-          });
-        }
+        // if (data && data.features && logAllFeatures) {
+        //   devLog('All feature metadata:');
+        //   data.features.forEach((feature, idx) => {
+        //     devLog(`Feature ${idx + 1}:`, feature.properties);
+        //   });
+        // }
       });
   }, [geojsonUrl, logAllFeatures]);
 

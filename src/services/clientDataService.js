@@ -384,7 +384,6 @@ export async function getTownsForLocalBody(localBodyId) {
   } else {
     try {
       const localBodyData = await getLocalBodyData(localBodyId);
-
       return localBodyData.towns || [];
     } catch (error) {
   devError('Error fetching towns from local body JSON:', error);

@@ -39,7 +39,6 @@ function GeoJsonLayer({ url, onSuccess, onError }) {
           map.fitBounds(bounds, { padding: [20, 20] });
         }
         onSuccess();
-  devLog('[MapPage] GeoJSON loaded successfully');
       })
       .catch(err => {
         onError();
@@ -193,7 +192,7 @@ function MapPage() {
           {geojsonUrl && (
             <GeoJsonLayer
               url={geojsonUrl}
-              onSuccess={() => devLog('[MapPage] Map loaded')}
+              onSuccess={() => {}}
               onError={() => devError('[MapPage] Map load error')}
             />
           )}

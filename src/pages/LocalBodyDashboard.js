@@ -111,12 +111,6 @@ const sectionToFolder = (sectionTitle) => {
   return mapping[sectionTitle];
 };
 
-// Add mapping from section titles to type keys
-const sectionTitleToType = {
-  'Towns': 'town',
-  'Others': 'others'
-};
-
 // See More Modal Component
 function SeeMoreModal({ isOpen, onClose, sectionTitle, issues, loadingIssues }) {
   if (!isOpen) return null;
@@ -370,7 +364,6 @@ function LocalBodyDashboard() {
         // Fetch local body
         const lb = await getLocalBodyData(localBodyId);
         //AI- display lb contents
-        devLog('Local Body Data:', lb);
         if (!lb) {
           setLocalBody(null);
           setAssembly(null);
@@ -677,9 +670,7 @@ function LocalBodyDashboard() {
     if (inserts.length > 0) {
       try {
         const data = await updateWardCollectionRates(inserts);
-  devLog('supa message:', data);
       } catch (error) {
-  devLog('supa message:', error.message);
         alert('Error updating rates: ' + error.message);
         setHksLoading(false);
         return;
@@ -714,7 +705,7 @@ function LocalBodyDashboard() {
       try {
         const issuesData = await getIssuesForLocalBody(localBodyId);
         if (!issuesData || issuesData.length === 0) {
-          devLog('no issue found, fallback to placeholder');
+          //devLog('no issue found, fallback to placeholder');
           // fallback to placeholder for all sections
           setIssues({});
         } else {
@@ -738,7 +729,6 @@ function LocalBodyDashboard() {
   // Log all towns in the local body (English and Malayalam)
   useEffect(() => {
     if (!localBodyId) {
-  devLog('No localBodyId available for fetching towns.');
       return;
     }
     async function fetchTowns() {
@@ -762,14 +752,10 @@ function LocalBodyDashboard() {
       
       try {
         const towns = await getTownsForLocalBody(localBodyId);
-        console.log('towns ',towns);
         if (towns && towns.length > 0) {
           const map = {};
-          console.log('FIELDS.TOWN.ID:', FIELDS.TOWN.ID);
           towns.forEach(town => { map[town[FIELDS.TOWN.ID]] = town; });
           setTownsMap(map);
-          devLog('townsMap:', map);
-          console.log('townsMap:', map);
         } else {
           setTownsMap({});
         }
