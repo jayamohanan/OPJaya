@@ -270,10 +270,10 @@ function toFilename(name) {
     }
     const wardCollections = await fetchAllWardCollections();
 
-    const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t[FIELDS.LOCAL_BODY_TYPE.ID], t]));
+    const localBodyTypeMap = Object.fromEntries((localBodyTypes || []).map(t => [t[FIELDS.LOCAL_BODY_TYPE.TYPE_ID], t]));
 
     for (const l of allLocalBodies) {
-      const type = localBodyTypeMap[l[FIELDS.LOCAL_BODY_TYPE.ID]] || {};
+      const type = localBodyTypeMap[l[FIELDS.LOCAL_BODY.TYPE_ID]] || {};
       const assembly = assemblyMap[l[FIELDS.LOCAL_BODY.ASSEMBLY_ID]] || {};
       const district = districtMap[assembly[FIELDS.ASSEMBLY.DISTRICT_ID]] || {};
       

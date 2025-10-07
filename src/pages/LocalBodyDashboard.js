@@ -369,6 +369,8 @@ function LocalBodyDashboard() {
       try {
         // Fetch local body
         const lb = await getLocalBodyData(localBodyId);
+        //AI- display lb contents
+        devLog('Local Body Data:', lb);
         if (!lb) {
           setLocalBody(null);
           setAssembly(null);
@@ -402,21 +404,6 @@ function LocalBodyDashboard() {
     }
     fetchData();
   }, [localBodyId, assemblyId, districtId]);
-
-  // Malayalam type mapping
-  const getTypeInMalayalam = (type) => {
-    const typeMapping = {
-      'GP': 'ഗ്രാമപഞ്ചായത്ത്',
-      'Municipality': 'മുനിസിപ്പാലിറ്റി',
-      'Corporation': 'കോർപ്പറേഷൻ',
-      'Grama Panchayat': 'ഗ്രാമപഞ്ചായത്ത്',
-      'municipality': 'മുനിസിപ്പാലിറ്റി',
-      'corporation': 'കോർപ്പറേഷൻ',
-      'Block Panchayat': 'ബ്ലോക്ക് പഞ്ചായത്ത്',
-      'District Panchayat': 'ജില്ലാ പഞ്ചായത്ത്'
-    };
-    return typeMapping[type] || type;
-  };
 
   const [isAddIssueModalOpen, setIsAddIssueModalOpen] = useState(false);
   const [issues, setIssues] = useState({});
@@ -615,8 +602,8 @@ function LocalBodyDashboard() {
     // Remove geojsonUrl from state, as it is no longer defined or used
     navigate('/map', {
       state: {
-        localBodyName: localBody?.name_en,
-        localBodyType: localBody?.local_body_type?.type_name_en,
+        localBodyName: localBody?.[FIELDS.LOCAL_BODY.NAME_EN],
+        localBodyType: localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.NAME_EN],
         localBodyData: localBody
       }
     });
@@ -816,13 +803,13 @@ function LocalBodyDashboard() {
             <div className="local-body-header">
               <h2 className="local-body-name malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.name_ml || localBody?.name_en || 'Unknown Local Body')
-                  : (localBody?.name_en || localBody?.name_ml || 'Unknown Local Body')}
+                  ? (localBody?.[FIELDS.LOCAL_BODY.NAME_ML] || localBody?.[FIELDS.LOCAL_BODY.NAME_EN] || 'Unknown Local Body')
+                  : (localBody?.[FIELDS.LOCAL_BODY.NAME_EN] || localBody?.[FIELDS.LOCAL_BODY.NAME_ML] || 'Unknown Local Body')}
               </h2>
               <div className="local-body-type malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.local_body_type?.type_name_ml || localBody?.local_body_type?.type_name_en || '')
-                  : (localBody?.local_body_type?.type_name_en || localBody?.local_body_type?.type_name_ml || '')}
+                  ? (localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '')
+                  : (localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '')}
               </div>
               <div className="local-body-assembly-district-row" style={{ display: 'flex', flexDirection: 'column', gap: 2, marginTop: 8, paddingLeft: 12 }}>
                 {assembly && (
