@@ -73,9 +73,9 @@ export const FIELDS = {
 		CATEGORY: 'category',
 	},
 	LOCAL_BODY_TYPE: {
-		TYPE_NAME_ML: 'name_ml',
+		NAME_ML: 'name_ml',
 		TYPE_ID: 'id',
-		TYPE_NAME_EN: 'name_en',
+		NAME_EN: 'name_en',
 	},
 	PROFILES: {
 		CREATED_AT: 'created_at',
@@ -84,8 +84,8 @@ export const FIELDS = {
 		ROLE: 'role',
 	},
 	TOWN: {
-		TOWN_NAME_ML: 'name_ml',
-		TOWN_NAME_EN: 'name_en',
+		NAME_ML: 'name_ml',
+		NAME_EN: 'name_en',
 		CREATED_AT: 'created_at',
 		ID: 'id',
 		LOCAL_BODY_ID: 'local_body_id',
@@ -102,8 +102,8 @@ export const FIELDS = {
 		IS_CURRENT: 'is_current',
 	},	
 	WARD: {
-		WARD_NAME_ML: 'name_ml',
-		WARD_NAME_EN: 'name_en',
+		NAME_ML: 'name_ml',
+		NAME_EN: 'name_en',
 		ELECTED_MEMBER_EN: 'elected_member_en',
 		ROLE: 'role',
 		PARTY: 'party',

@@ -8,7 +8,7 @@ function TownIssuesModal({ isOpen, onClose, town, issues, townsMap }) {
   const images = issues.map(issue => issue.image_url).filter(Boolean);
   const selectedImage = images[selectedImageIdx] || '';
   const selectedIssue = issues[selectedImageIdx] || {};
-  const townName = townsMap[town]?.[FIELDS.TOWN.TOWN_NAME_EN] || 'Unknown Town';
+  const townName = townsMap[town]?.[FIELDS.TOWN.NAME_EN] || 'Unknown Town';
   const canGoLeft = selectedImageIdx > 0;
   const canGoRight = selectedImageIdx < images.length - 1;
   return (

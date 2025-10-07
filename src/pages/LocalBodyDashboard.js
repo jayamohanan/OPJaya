@@ -291,7 +291,7 @@ function UpdateHKSModal({ open, onClose, wards, lang, onSubmit, loading, localBo
                   {wards.map(w => (
                     <tr key={w[FIELDS.WARD.ID]}>
                       <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{w[FIELDS.WARD.WARD_NO]}</td>
-                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{lang === 'ml' ? (w[FIELDS.WARD.WARD_NAME_ML] || w[FIELDS.WARD.WARD_NAME_EN]) : (w[FIELDS.WARD.WARD_NAME_EN] || w[FIELDS.WARD.WARD_NAME_ML])}</td>
+                      <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0', textAlign: 'left' }}>{lang === 'ml' ? (w[FIELDS.WARD.NAME_ML] || w[FIELDS.WARD.NAME_EN]) : (w[FIELDS.WARD.NAME_EN] || w[FIELDS.WARD.NAME_ML])}</td>
                       <td style={{ padding: '8px 12px', borderBottom: '1px solid #f0f0f0' }}>
                         <input
                           type="number"
@@ -467,8 +467,8 @@ function LocalBodyDashboard() {
           .map(item => ({
             name:
               lang === 'ml'
-                ? `${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_ML] || wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_EN]} (${wardLabel} ${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NO]})`
-                : `${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_EN] || wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NAME_ML]} (${wardLabel} ${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NO]})`,
+                ? `${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.NAME_ML] || wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.NAME_EN]} (${wardLabel} ${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NO]})`
+                : `${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.NAME_EN] || wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.NAME_ML]} (${wardLabel} ${wardMap[item[FIELDS.WARD_COLLECTION.WARD_ID]][FIELDS.WARD.WARD_NO]})`,
             rate: item[FIELDS.WARD_COLLECTION.RATE]
           }))
           .sort((a, b) => a.rate - b.rate);
@@ -808,8 +808,8 @@ function LocalBodyDashboard() {
               </h2>
               <div className="local-body-type malayalam-text">
                 {lang === 'ml'
-                  ? (localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '')
-                  : (localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || '')}
+                  ? (localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.NAME_ML] || localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.NAME_EN] || '')
+                  : (localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.NAME_EN] || localBody?.[TABLES.LOCAL_BODY_TYPE]?.[FIELDS.LOCAL_BODY_TYPE.NAME_ML] || '')}
               </div>
               <div className="local-body-assembly-district-row" style={{ display: 'flex', flexDirection: 'column', gap: 2, marginTop: 8, paddingLeft: 12 }}>
                 {assembly && (
@@ -1011,7 +1011,7 @@ function LocalBodyDashboard() {
                                 {/* Empty rect for now */}
                               </div>
                               <div style={{ marginTop: 12, fontWeight: 600, fontSize: 16, textAlign: 'center' }}>
-                                {townsMap[townId]?.[FIELDS.TOWN.TOWN_NAME_EN] || 'Unknown Town'}
+                                {townsMap[townId]?.[FIELDS.TOWN.NAME_EN] || 'Unknown Town'}
                               </div>
                             </div>
                           ))

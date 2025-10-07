@@ -152,7 +152,7 @@ export async function getLocalBodyDetails(localBodyId) {
         FIELDS.LOCAL_BODY.NAME_ML,
         FIELDS.LOCAL_BODY.TYPE_ID,
         FIELDS.LOCAL_BODY.ASSEMBLY_ID,
-        `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN}, ${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML})`
+        `${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.NAME_EN}, ${FIELDS.LOCAL_BODY_TYPE.NAME_ML})`
       ].join(', '))
       .eq(FIELDS.LOCAL_BODY.ID, localBodyId)
       .single();

@@ -35,7 +35,7 @@ function MapSection({ geojsonUrl, title, townsMap = {}, issuesByTown = {} }) {
     layer.on({
       click: (e) => {
         const townId = feature.properties?.[FIELDS.TOWN.ID];
-        const townName = townId && townsMap[townId] ? townsMap[townId][FIELDS.TOWN.TOWN_NAME_EN] : undefined;
+        const townName = townId && townsMap[townId] ? townsMap[townId][FIELDS.TOWN.NAME_EN] : undefined;
   devLog('Feature clicked:', feature.properties, 'townId:', townId, 'townName:', townName);
         if (townId && townsMap[townId]) {
           setSelectedTownId(townId);

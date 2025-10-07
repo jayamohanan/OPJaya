@@ -66,8 +66,8 @@ function TownMarkers({ localBodyId, onTownClick }) {
         .from('town')
         .select([
           FIELDS.TOWN.ID,
-          FIELDS.TOWN.TOWN_NAME_EN,
-          FIELDS.TOWN.TOWN_NAME_ML,
+          FIELDS.TOWN.NAME_EN,
+          FIELDS.TOWN.NAME_ML,
           LABELS.TOWN_LAT,
           LABELS.TOWN_LNG
         ].join(', '))
@@ -79,7 +79,7 @@ function TownMarkers({ localBodyId, onTownClick }) {
 
   return towns.map(town => {
     if (town[LABELS.TOWN_LAT] && town[LABELS.TOWN_LNG]) {
-      const label = lang === 'ml' ? (town[FIELDS.TOWN.TOWN_NAME_ML] || town[FIELDS.TOWN.TOWN_NAME_EN]) : (town[FIELDS.TOWN.TOWN_NAME_EN] || town[FIELDS.TOWN.TOWN_NAME_ML]);
+      const label = lang === 'ml' ? (town[FIELDS.TOWN.NAME_ML] || town[FIELDS.TOWN.NAME_EN]) : (town[FIELDS.TOWN.NAME_EN] || town[FIELDS.TOWN.NAME_ML]);
       const iconWithLabel = L.divIcon({
         html: `<div style='display: flex; flex-direction: column; align-items: center;'>
                   <img src='https://cdn-icons-png.flaticon.com/512/684/684908.png' style='width:32px;height:32px;'/>

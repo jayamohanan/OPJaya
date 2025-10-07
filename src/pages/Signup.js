@@ -31,7 +31,7 @@ function Signup() {
           // Fetch local body name and type
           const { data: lbData, error: lbError } = await supabase
             .from(TABLES.LOCAL_BODY)
-            .select(`${FIELDS.LOCAL_BODY.NAME_EN}, ${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN})`)
+            .select(`${FIELDS.LOCAL_BODY.NAME_EN}, ${TABLES.LOCAL_BODY_TYPE}(${FIELDS.LOCAL_BODY_TYPE.NAME_EN})`)
             .eq(FIELDS.LOCAL_BODY.ID, data[0][FIELDS.INVITES.LOCAL_BODY_ID])
             .single();
           if (!lbError && lbData) {

@@ -71,8 +71,8 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
         .from(TABLES.TOWN)
         .select([
           FIELDS.TOWN.ID,
-          FIELDS.TOWN.TOWN_NAME_EN,
-          FIELDS.TOWN.TOWN_NAME_ML,
+          FIELDS.TOWN.NAME_EN,
+          FIELDS.TOWN.NAME_ML,
           LABELS.TOWN_LAT,
           LABELS.TOWN_LNG
         ].join(', '))
@@ -272,7 +272,7 @@ function AddIssueModal({ isOpen, onClose, localBodyData }) {
                 <option value="">Select town</option>
                 {towns.map(town => (
                   <option key={town[FIELDS.TOWN.ID]} value={town[FIELDS.TOWN.ID]}>
-                    {town[FIELDS.TOWN.TOWN_NAME_EN]} {town[FIELDS.TOWN.TOWN_NAME_ML] ? ` / ${town[FIELDS.TOWN.TOWN_NAME_ML]}` : ''}
+                    {town[FIELDS.TOWN.NAME_EN]} {town[FIELDS.TOWN.NAME_ML] ? ` / ${town[FIELDS.TOWN.NAME_ML]}` : ''}
                   </option>
                 ))}
               </select>

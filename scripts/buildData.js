@@ -296,8 +296,8 @@ function toFilename(name) {
           return {
             [FIELDS.WARD.ID]: w[FIELDS.WARD.ID],
             [FIELDS.WARD.WARD_NO]: w[FIELDS.WARD.WARD_NO] || '',
-            [FIELDS.WARD.WARD_NAME_EN]: w[FIELDS.WARD.WARD_NAME_EN] || '',
-            [FIELDS.WARD.WARD_NAME_ML]: w[FIELDS.WARD.WARD_NAME_ML] || '',
+            [FIELDS.WARD.NAME_EN]: w[FIELDS.WARD.NAME_EN] || '',
+            [FIELDS.WARD.NAME_ML]: w[FIELDS.WARD.NAME_ML] || '',
             ward_collection: latest ? {
               [FIELDS.WARD_COLLECTION.COLLECTION_ID]: latest[FIELDS.WARD_COLLECTION.COLLECTION_ID],
               [FIELDS.WARD_COLLECTION.WARD_ID]: latest[FIELDS.WARD_COLLECTION.WARD_ID],
@@ -346,8 +346,8 @@ function toFilename(name) {
         [FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE_ID]: l[FIELDS.LOCAL_BODY.LOCAL_BODY_TYPE_ID],
         [TABLES.LOCAL_BODY_TYPE]: {
           [FIELDS.LOCAL_BODY_TYPE.TYPE_ID]: type[FIELDS.LOCAL_BODY_TYPE.TYPE_ID],
-          [FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN]: type[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_EN] || '',
-          [FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML]: type[FIELDS.LOCAL_BODY_TYPE.TYPE_NAME_ML] || ''
+          [FIELDS.LOCAL_BODY_TYPE.NAME_EN]: type[FIELDS.LOCAL_BODY_TYPE.NAME_EN] || '',
+          [FIELDS.LOCAL_BODY_TYPE.NAME_ML]: type[FIELDS.LOCAL_BODY_TYPE.NAME_ML] || ''
         },
         local_body_category: localBodyCategoryMap[l.id] ? { category: localBodyCategoryMap[l.id] } : null,
         assembly: {
